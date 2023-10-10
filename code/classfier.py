@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report
 nlp = spacy.load("/home/stirunag/work/github/CAPITAL/normalisation/en_floret_model")
 
 # Read the CSV
-data = pd.read_csv('abstracts.csv')
+data = pd.read_csv('../data/metagenomics_abstracts.csv')
 
 # Drop rows with missing abstracts
 data.dropna(subset=['abstract'], inplace=True)

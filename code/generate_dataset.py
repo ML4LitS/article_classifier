@@ -16,16 +16,18 @@ def chunked(data, chunk_size):
 
 url = "https://www.ebi.ac.uk/europepmc/webservices/rest/searchPOST"
 
-pmids = get_unique_pmids("metagenomics_pmcids.txt")
+pmids = get_unique_pmids("../data/protein_structures.txt")
 
-with open("abstracts.csv", "w", newline='') as csvfile:
+with open("../data/protein_structures_abstracts.csv", "w", newline='') as csvfile:
     csv_writer = csv.writer(csvfile)
     csv_writer.writerow(["PMCID", "abstract"])  # Header of CSV
 
     # Wrap the chunk iteration with tqdm for progress bar
-    for chunk in tqdm(chunked(pmids, 5), desc="Processing PMCIDs"):
+    for chunk in tqdm(chunked(pmids, 10), desc="Processing PMCIDs"):
         # Create the query string using the chunked PMCID list
-        query = " OR ".join([f"PMC:'{pmcid}'" for pmcid in chunk])
+        # query = " OR ".join([f"PMC:'{pmcid}'" for pmcid in chunk])
+        query = " OR ".join([f"ext_id:{pmcid}" for pmcid in chunk])
+        # print(query)
 
         query_params = {
             "query": query,
