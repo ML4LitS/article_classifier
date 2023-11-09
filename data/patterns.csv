@@ -1,0 +1,82 @@
+p1,p2,p3,p4,p5,p6,r
+cath,onlineWithContext,cath,(?i)(cath|cath-Gene3D|cath Gene3D|c.a.t.h|domain|families|cathnode|pdb|superfamily),20000,REF,[0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][0-9][0-9]
+cath,onlineWithContext,cath,(?i)(cath|cath-Gene3D|cath Gene3D|c.a.t.h|domain|families|cathnode|pdb|superfamily),20000,REF,([1-4]\.[0-9]+\.[0-9]+\.[0-9]+)
+cellosaurus,contextOnly,,(?i)(cells|cellosaurus|cellosaurus database|Cell lines|Cell Bank|cell lines|cell bank|accession number|RRID:),20000,REF,CVCL_[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9]
+chebi,onlineWithContext,chebi,(?i)(chebi|compound),20000,REF,CHEBI:[0-9]+
+chembl,onlineWithContext,chembl-molecule,(?i)(chembl|compound),20000,REF,CHEMBL[0-9]+
+complexportal,onlineWithContext,intact-complexes,(?i)(protein|complex),20000,REF,(CPX)\-[0-9]+
+metagenomics,onlineWithContext,metagenomics_samples,(?i)(samples|ebi metagenomics|metagenomics|database),20000,REF,SRS[0-9][0-9][0-9][0-9][0-9][0-9]
+efo,online,efo,,,REF,EFO_[0-9]+
+efo,online,efo,,,REF,EFO:[0-9]+
+ega.study,onlineWithContext,ega,(?i)(ega|accession|archive|studies|study|European Genome-phenome Archive|European Genome phenome Archive),20000,REF,EGAS[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+ega.dataset,onlineWithContext,ega,(?i)(ega|accession|archive|dataset|datasets|data set|data sets|validation sets|validation set|set|sets|data|European Genome-phenome Archive|European Genome phenome Archive),20000,REF,EGAD[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+ega.dac,onlineWithContext,ega,(?i)(ega|accession|archive|dac|European Genome-phenome Archive|European Genome phenome Archive),20000,REF,EGAC[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+emdb,onlineWithContext,emdb,(?i)(emdb|accession|code),20000,REF,EMD\-[0-9][0-9][0-9][0-9]
+empiar,onlineWithContext,,(?i)(Electron Microscopy Public Image Archive|EMPIAR database|EMPIAR|database|accession|code),20000,REF,EMPIAR\-[0-9][0-9][0-9][0-9][0-9]
+empiar,online,,,20000,REF,EMPIAR\-[0-9][0-9][0-9][0-9][0-9]
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|trace|traces),20000,REF,TI[0-9]+
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|study|studies),20000,REF,(E|D|S)RP[0-9][0-9][0-9][0-9][0-9]([0-9]+)?
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|sample|samples),20000,REF,ERS[0-9][0-9][0-9][0-9][0-9]([0-9]+)?
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|experiment|experiments),20000,REF,(E|D|S)RX[0-9][0-9][0-9][0-9][0-9]([0-9]+)?
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|run|runs),20000,REF,(E|D|S)RR[0-9][0-9][0-9][0-9][0-9]([0-9]+)?
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|analysis|analyses),20000,REF,(E|D|S)RZ[0-9][0-9][0-9][0-9][0-9]([0-9]+)?
+gen,onlineWithContext,nucleotideSequences,(?i)(genbank|\bgen\b|\bena\b|ddbj|embl|european nucleotide archive|accession|nucleotide|archive|submission|submissions),20000,REF,(E|D|S)RA[0-9][0-9][0-9][0-9][0-9]([0-9]+)?
+ensembl,onlineWithContext,,(?i)(ensembl|accession|transcript|sequence),20000,REF,[eE][nN][sS][a-zA-Z]*[gG][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]+
+ensembl,onlineWithContext,,(?i)(ensembl|accession|transcript|sequence),20000,REF,[eE][nN][sS][a-zA-Z]*[ptPT][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]+
+go,onlineWithContext,go,(?i)(go|gene ontology),20000,REF,GO:[0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+hgnc,onlineWithContext,hgnc,(?i)(HUGO Gene Nomenclature Committee|hugo|gene|nomenclature|committee|database),20000,REF,HGNC:[0-9]+
+hpa,online,,,,REF,(HPA|hpa)[0-9][0-9][0-9][0-9][0-9][0-9]
+hpa,online,,,,REF,(CAB|cab)[0-9][0-9][0-9][0-9][0-9][0-9]
+igsr,contextOnly,,(\bcell\b|sample|iPSC|iPSCs|iPS|fibroblast|fibroblasts|QTL|eQTL|pluripotent|induced|\bdonor\b|\bstem\b|EBiSC|1000 Genomes|Coriell|\bLCL\b|lymphoblastoid),1000,REF,HG0[0-4][0-9][0-9][0-9]
+igsr,contextOnly,,(\bcell\b|sample|iPSC|iPSCs|iPS|fibroblast|fibroblasts|QTL|eQTL|pluripotent|induced|\bdonor\b|\bstem\b|EBiSC|1000 Genomes|Coriell|\bLCL\b|lymphoblastoid),1000,REF,(NA|GM)[0-2][0-9][0-9][0-9][0-9]
+intact,onlineWithContext,intact-interactions,(?i)(intact|interaction|interactions|protein),20000,REF,EBI\-[0-9]+
+mint,onlineWithContext,mint,(?i)(MINT|molecular interaction database|interactions|interaction),20000,REF,MINT\-[0-9]+|IM\-[0-9]+
+interpro,onlineWithContext,interpro,(?i)(interpro|domain|family|motif|accession),20000,REF,[iI][pP][rR][0-9][0-9][0-9][0-9][0-9][0-9]
+metabolights,onlineWithContext,metabolights,(?i)(metabolights|accession|repository),20000,REF,MTBLS[0-9]+
+pdb,onlineWithContext,pdbe,(?i)(pdb|(?:protein +data *bank)|accession|structure|accession|domain),20000,REF,[0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9]
+pfam,onlineWithContext,pfam,(?i)(pfam|domain|family|accession|motif),20000,REF,PF(AM)?[0-9][0-9][0-9][0-9][0-9]
+pxd,onlineWithContext,pride,(?i)(pxd|proteomexchange|pride|dataset|accession|repository),20000,REF,(R)?PXD[0-9][0-9][0-9][0-9][0-9][0-9]
+reactome,onlineWithContext,reactome,(?i)(biological|regulatory|pathway|pathways|database),20000,REF,R\-HSA\-[0-9]+
+rfam,online,rfam,,,REF,RF[0-9][0-9][0-9][0-9][0-9]
+rhea,contextOnly,,(?i)(reactions|database|rhea database|accession),20000,REF,[Rr][Hh][Ee][Aa]\:[1-9][0-9][0-9][0-9][0-9]
+rhea,contextOnly,,(?i)(reactions|database|rhea database|accession),20000,REF,[Rr][Hh][Ee][Aa]\:[1-9][0-9]+
+rhea,noval,,,20000,REF,[Rr][Hh][Ee][Aa]\:[1-9][0-9]+
+rnacentral,online,rnacentral,,,REF,URS[0-9A-Z]+_[0-9]+
+uniprot,onlineWithContext,uniprot,(?i)(swiss-prot|sprot|uniprot|swiss prot|accession(s)?|Locus|GenBank|genome|sequence(s)?|protein|trembl|uniparc|uniprotkb|Acc.No|Acc. No),20000,REF,([a-nr-zA-NR-Z][0-9][a-zA-Z][a-zA-Z0-9][a-zA-Z0-9][0-9]|[opqOPQ][0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][0-9])([-][0-9]+)?
+uniparc,onlineWithContext,,(?i)(uniprot|accession(s)?|Locus|sequence(s)?|protein|uniparc|Acc.No|Acc. No),20000,REF,UPI[A-F0-9][A-F0-9][A-F0-9][A-F0-9][A-F0-9][A-F0-9][A-F0-9][A-F0-9][A-F0-9][A-F0-9]
+ebisc,onlineWithContext,,(\bcell\b|sample|iPSC|iPSCs|iPS|fibroblast|fibroblasts|QTL|eQTL|pluripotent|induced|\bdonor\b|\bstem\b|EBiSC|1000 Genomes|Coriell|\bLCL\b|lymphoblastoid),20000,REF,[A-Z][A-Z]+i[0-9][0-9][0-9]\-[A-Z]
+hipsci,onlineWithContext,,(\bcell\b|sample|iPSC|iPSCs|iPS|fibroblast|fibroblasts|QTL|eQTL|pluripotent|induced|\bdonor\b|\bstem\b|EBiSC|1000 Genomes|Coriell|\bLCL\b|lymphoblastoid),20000,REF,HPSI[0-9][0-9][0-9][0-9](i|pf)\-[a-z]+_[0-9]+
+omim,onlineWithContext,omim,(?i)(o*mim|syndrome|disease|deficiency),20000,REF,[0-9][0-9][0-9][0-9][0-9][0-9]
+refseq,onlineWithContext,,(?i)(refseq|genbank|accession|sequence),20000,REF,(AC|AP|NC|NG|NM|NP|NR|NT|NW|NZ|XM|XP|XR|YP|ZP|NS)_([A-Z][A-Z][A-Z][A-Z])*[0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?([.][0-9]+)?
+refsnp,onlineWithContext,,(?i)(allele|model|multivariate|polymorphism|locus|loci|haplotype|genotype|variant|chromosome|SNPs|snp|snp(s)*),20000,REF,[rs]s[0-9][0-9]?[0-9]?[0-9]?[0-9]?[0-9]?[0-9]?[0-9]?[0-9]?
+bioproject,onlineWithContext,project,(?i)(bioproject|accession|archive),20000,REF,PRJ[DEN][A-Z][0-9]+
+gca,online,genome_assembly,,,REF,GCA_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]([.][0-9]+)?
+treefam,onlineWithContext,treefam,(?i)(treefam|tree|family|accession|dendrogram),20000,REF,TF[0-9][0-9][0-9][0-9][0-9][0-9]
+eudract,contextOnly,,(?i)(eudract|trial|agency|register|clinical),20000,REF,[0-9][0-9][0-9][0-9]\-[0-9][0-9][0-9][0-9][0-9][0-9]\-[0-9][0-9]
+nct,onlineWithContext,,(?i)(trial),20000,REF,NCT[0-0][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+dbgap,onlineWithContext,dbgap,(?i)(database of genotypes and phenotypes|dbgap|accession|archives|studies|interaction),20000,REF,phs[0-9][0-9][0-9][0-9][0-9][0-9]
+geo,onlineWithContext,geo,(?i)(gene expression omnibus|genome|geo|accession|functional genomics|data repository|data submissions),20000,REF,G(PL|SM|SE|DS)[0-9][0-9]+
+ebisc,onlineWithContext,,(\bcell\b|sample|iPSC|iPSCs|iPS|fibroblast|fibroblasts|QTL|eQTL|pluripotent|induced|\bdonor\b|\bstem\b|EBiSC|1000 Genomes|Coriell|\bLCL\b|lymphoblastoid),20000,REF,[A-Z][A-Z]+i[0-9][0-9][0-9]\-[A-Z]
+hipsci,onlineWithContext,,(\bcell\b|sample|iPSC|iPSCs|iPS|fibroblast|fibroblasts|QTL|eQTL|pluripotent|induced|\bdonor\b|\bstem\b|EBiSC|1000 Genomes|Coriell|\bLCL\b|lymphoblastoid),20000,REF,HPSI[0-9][0-9][0-9][0-9](i|pf)\-[a-z]+_[0-9]+
+omim,onlineWithContext,omim,(?i)(o*mim|syndrome|disease|deficiency),20000,REF,[0-9][0-9][0-9][0-9][0-9][0-9]
+refseq,onlineWithContext,,(?i)(refseq|genbank|accession|sequence),20000,REF,(AC|AP|NC|NG|NM|NP|NR|NT|NW|NZ|XM|XP|XR|YP|ZP|NS)_([A-Z][A-Z][A-Z][A-Z])*[0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?([.][0-9]+)?
+refsnp,onlineWithContext,,(?i)(allele|model|multivariate|polymorphism|locus|loci|haplotype|genotype|variant|chromosome|SNPs|snp|snp(s)*),20000,REF,[rs]s[0-9][0-9]?[0-9]?[0-9]?[0-9]?[0-9]?[0-9]?[0-9]?[0-9]?
+bioproject,onlineWithContext,project,(?i)(bioproject|accession|archive),20000,REF,PRJ[DEN][A-Z][0-9]+
+gca,online,genome_assembly,,,REF,GCA_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]([.][0-9]+)?
+treefam,onlineWithContext,treefam,(?i)(treefam|tree|family|accession|dendrogram),20000,REF,TF[0-9][0-9][0-9][0-9][0-9][0-9]
+eudract,contextOnly,,(?i)(eudract|trial|agency|register|clinical),20000,REF,[0-9][0-9][0-9][0-9]\-[0-9][0-9][0-9][0-9][0-9][0-9]\-[0-9][0-9]
+nct,onlineWithContext,,(?i)(trial),20000,REF,NCT[0-0][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+dbgap,onlineWithContext,dbgap,(?i)(database of genotypes and phenotypes|dbgap|accession|archives|studies|interaction),20000,REF,phs[0-9][0-9][0-9][0-9][0-9][0-9]
+geo,onlineWithContext,geo,(?i)(gene expression omnibus|genome|geo|accession|functional genomics|data repository|data submissions),20000,REF,G(PL|SM|SE|DS)[0-9][0-9]+
+orphadata,contextOnly,,(?i)(database|rare disease|disease|nomenclature|data|syndrome|id|number|name|orphanet|orphadata|orpha),20000,REF,ORPHA:[0-9]+
+orphadata,contextOnly,,(?i)(database|rare disease|disease|data|nomenclature|syndrome|id|number|name|orphanet|orphadata|orpha),20000,REF,ORPHA [0-9]+
+gisaid,contextOnly,,(?i)(gisaid|global initiative on sharing all influenza data|segment|segments|identifier|flu|epi|epiflu|database|sequence|sequences|isolate|isolates|accession),20000,REF,EPI[0-9][0-9][0-9][0-9][0-9][0-9]+
+gisaid,contextOnly,,(?i)(gisaid|global initiative on sharing all influenza data|segment|segments|identifier|flu|epi|epiflu|database|sequence|sequences|isolate|isolates|accession),20000,REF,EPI[0-9][0-9][0-9][0-9][0-9][0-9]\-[0-9]+
+gisaid,contextOnly,,(?i)(gisaid|global initiative on sharing all influenza data|virus|viruses|strain|strains|sequence|sequences|flu|epiflu|identifier|database|accession),20000,REF,EPI_ISL_[0-9][0-9][0-9][0-9][0-9][0-9]+
+arrayexpress,onlineWithContext,geneExpression,(?i)(arrayexpress|atlas|gxa|accession|experiment),20000,REF,E\-[A-Z][A-Z][A-Z][A-Z]\-[0-9]+
+brenda,contextOnly,,(?i)(BRENDA enzyme|BRENDA enzyme database|BRaunschweig ENzyme DAtabase|enzyme database|enzyme|lysosomes|lysosomal|BRENDA:|BRENDA: |BRENDA:EC|BRENDA:EC ),20000,REF,([0-9]+\.\-\.\-\.\-|[0-9]+\.[0-9]+\.\-\.\-|[0-9]+\.[0-9]+\.[0-9]+\.\-|[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)
+brenda,contextOnly,,(?i)(BRENDA|BRENDA tissue ontology|BTO|ontology),20000,REF,BTO: ?([0-9][0-9][0-9][0-9][0-9][0-9][0-9])
+bia,contextOnly,,(?i)(bia|bioimage archive database|bioimage archive|database|identifier|accession),20000,REF,S\-BIAD[0-9]+
+biomodels,onlineWithContext,biomodels,(?i)(biomodels|accession|model|identifier),20000,REF,(BIOMD|MODEL)[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+biomodels,onlineWithContext,biomodels,(?i)(biomodels|accession|model|identifier),20000,REF,BMID[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+biosample,onlineWithContext,biosamples,(?i)(biosample|accession|model),20000,REF,SAM[NED][A-Z]?[0-9]+
