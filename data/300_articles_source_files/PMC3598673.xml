@@ -1,0 +1,662 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Chem Cent J</journal-id><journal-id journal-id-type="iso-abbrev">Chem Cent J</journal-id><journal-title-group><journal-title>Chemistry Central Journal</journal-title></journal-title-group><issn pub-type="epub">1752-153X</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3598673</article-id><article-id pub-id-type="publisher-id">1752-153X-7-23</article-id><article-id pub-id-type="pmid">23379683</article-id><article-id pub-id-type="doi">10.1186/1752-153X-7-23</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Computational analysis and predictive modeling of polymorph descriptors </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" id="A1"><name><surname>Lee</surname><given-names>Yugyung</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>Leeyu@umkc.edu</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Jana</surname><given-names>Sourav</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>sj832@mail.umkc.edu</email></contrib><contrib contrib-type="author" id="A3"><name><surname>Acharya</surname><given-names>Gayathri</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>gayathriacharya@mail.umkc.edu</email></contrib><contrib contrib-type="author" corresp="yes" id="A4"><name><surname>Lee</surname><given-names>Chi H</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>Leech@umkc.edu</email></contrib></contrib-group><aff id="I1"><label>1</label>School of Computing and Engineering, University of Missouri-Kansas City, Missouri, MO, 64110, USA</aff><aff id="I2"><label>2</label>Division of Pharmaceutical Sciences, College of Pharmacy, University of Missouri-Kansas City, Missouri, MO 64108, USA</aff><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>4</day><month>2</month><year>2013</year></pub-date><volume>7</volume><fpage>23</fpage><lpage>23</lpage><history><date date-type="received"><day>5</day><month>1</month><year>2013</year></date><date date-type="accepted"><day>23</day><month>1</month><year>2013</year></date></history><permissions><copyright-statement>Copyright ©2013 Lee et al.; licensee Chemistry Central Ltd.</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Lee et al.; licensee Chemistry Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://journal.chemistrycentral.com/content/7/1/23"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>A computation approach based on integrating high throughput binding affinity comparison and binding descriptor classifications was utilized to establish the correlation among substrate properties and their affinity to Breast Cancer Resistant Protein (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>). </plain></SENT>
+<SENT sid="3" pm="."><plain>The uptake rates of Mitoxantrone in the presence of various substrates were evaluated as an in vitro screening index for comparison of their binding affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>. </plain></SENT>
+</text></SecTag></p><p><SecTag type="ABS"><text><SENT sid="4" pm="."><plain>The effects of chemical properties of various chemotherapeutics, such as antiviral, antibiotic, calcium channel blockers, anticancer and antifungal agents, on their affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>, were evaluated using <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> (human embryonic kidney) cells in which 3 polymorphs, namely 482R (wild type) and two mutants (482G and 482T) of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>, have been identified. </plain></SENT>
+<SENT sid="5" pm="."><plain>The quantitative structure activity relationship (QSAR) model was developed using the sequential approaches of Austin Model 1 (<z:uniprot sup="inside" fb="0" ids="C0RWW9,Q53KW9">AM1</z:uniprot>), CODESSA program, heuristic method (HM) and multiple linear regression (<z:uniprot sup="inside" fb="32" ids="Q8QHI2,P08235,P79404,Q4JM28,Q9N0W8,Q9BDJ7,Q29131">MLR</z:uniprot>) to establish the relationship between structural specificity of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> substrates and their uptake rates by <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="6" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> mutations may induce conformational changes as manifested by the altered uptake rates of Mitoxantrone by <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> in the presence of other competitive binding substrates that have a varying degree of affinities toward <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> efflux. </plain></SENT>
+<SENT sid="8" pm="."><plain>This study also revealed that the binding affinity of test substrates to each polymorph was affected by varying descriptors, such as constitutional, topological, geometrical, electrostatic, thermodynamic, and quantum chemical descriptors. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="9" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="10" pm="."><plain>Descriptors involved with the net surface charge and energy level of substrates seem to be the common integral factors for defining binding specificity of selected substrates to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorph. </plain></SENT>
+<SENT sid="11" pm="."><plain>The reproducible outcomes and validation process further supported the accuracy of the computational model in assessing the correlation among descriptors involved with substrate affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorph. </plain></SENT>
+<SENT sid="12" pm="."><plain>A quantitative computation approach will provide important structural insight into optimal designing of new chemotherapeutic agents with improved pharmacological efficacies. </plain></SENT>
+</text></SecTag></p></sec></abstract><SecTag type="KEYWORD"><kwd-group><kwd>Binding affinity</kwd><kwd>QSAR</kwd><kwd>BCRP</kwd><kwd>Polymorph</kwd><kwd>Mitoxantrone</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="13" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="14" pm="."><plain>The computational tools intended for quantitative assessment of protein-ligand interactions are based on several factors including protein-ligand docking, molecular dynamic simulation and free energy calculations[1]. </plain></SENT>
+<SENT sid="15" pm="."><plain>To better define the role of binding affinity in forming a protein-ligand complex, a structural characterization for putative human off-targets was recently performed on Nelfinavir, a potent HIV-<z:uniprot sup="inside" fb="0" ids="P84885,P26228,P43131,P61153,P0DM47">protease inhibitor</z:uniprot> with pleiotropic effects in cancer cells [2]. </plain></SENT>
+<SENT sid="16" pm="."><plain>In this experiment, they have adapted numerous computational models that integrated molecular dynamic simulation, free energy calculations with ligand binding site comparison and biological network analysis. </plain></SENT>
+</text></p><p><text><SENT sid="17" pm="."><plain>There are two integral screening approaches that could help identify and characterize the substrates and inhibitors of the efflux proteins and/or transporter system; the measurement of binding affinity and toxicity analysis of substrate compounds [3]. </plain></SENT>
+<SENT sid="18" pm="."><plain>There was a report that drug resident time and uptake amount are better correlated with drug efficacy than the binding affinity [4-6], suggesting that lead optimization could be efficiently accomplished with analyzing the drug uptake profiles. </plain></SENT>
+<SENT sid="19" pm="."><plain>Although numerous methodologies have been proposed for drug-target screening strategies based on binding affinity [7,8], there are no efficient computational tools available for the accurate estimation of the drug uptake profiles from the point of the molecular structures. </plain></SENT>
+<SENT sid="20" pm="."><plain>In this study, the uptake rates of Mitoxantrone in the presence of various substrate compounds were examined as an in vitro screening index that could help to characterize the binding properties of chemotherapeutic drugs to tumor cells or efflux proteins. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>Breast cancer resistant protein (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>) also known as <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">ABCP</z:uniprot> or <z:uniprot sup="inside" fb="4" ids="Q9UNQ0">MXR</z:uniprot> or <z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot> is a member of transporter super family ATP binding cassette (ABC) proteins. </plain></SENT>
+<SENT sid="22" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> is known to affect the therapeutically available concentrations of various clinical agents [9-11]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Since the <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> effluxes a wide range of structurally diverse xenobiotic compounds from cells [12], the broad distribution of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> not only renders less complete distribution of drugs but also causes a poor response of cells to chemotherapeutics [13-15]. </plain></SENT>
+<SENT sid="24" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> in conjunction with P-gp expression at target sites affected the pharmacokinetic profiles of substrates and inhibitors [16]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Subsequently, the therapeutically available concentrations of certain agents increased in <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> knock-out animal models that were highly prone to Mitoxantrone induced toxicity [17]. </plain></SENT>
+</text></p><p><text><SENT sid="26" pm="."><plain>The in vitro studies on the <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> efflux system have demonstrated that some cell lines displayed erratic efflux profiles of doxorubicin and rhodamine 123, and these observations were attributable to 482nd position in the amino acid sequence consisting of arginine, glycine or threonine residues which are susceptible to numerous posttranslational modifications [18-20]. </plain></SENT>
+<SENT sid="27" pm="."><plain>Three polymorphs, namely 482R (wild type) and two mutants (482G and 482T) of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>, have been identified, and alterations in their expressions and functions were reported [21]. </plain></SENT>
+<SENT sid="28" pm="."><plain>Wild-type <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> and its variants were markedly expressed in human embryonic kidney (<z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot>) cells [22]. </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>The present study was intended to establish the relationships between chemical properties involved with the uptake rates of structurally diverse substrates and <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs. </plain></SENT>
+<SENT sid="30" pm="."><plain>To achieve this goal, we have designed the computational model consisting of numerous molecular descriptors. </plain></SENT>
+<SENT sid="31" pm="."><plain>The uptake rates of Mitoxantrone by <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> were examined in the presence of various pharmacological classes of ABC transporter inhibitors, such as antiviral (i.e. Erythromycin, Foscarnet), antibiotic (i.e. Ciprofloxacin, Febendazole, Novobiocin, Quercitin), calcium channel blockers (i.e. Verapamil, Diltiazem, Nifedipine, Qunidine), anticancer (i.e. Mitroxantrone, Acyclovir, FTC, Phenethyl ITC, Raloxifene, Rodamin 123, Saquinavir, Tamoxifene), antifungal agents (i.e. Ketoconazole), hormones (i.e., Estradiol) and immunosuppressant (Cyclosporin) [16,23]. </plain></SENT>
+<SENT sid="32" pm="."><plain>It was hypothesized that any changes in uptake rates of Mitoxantrone are due to competitive binding of these substrates to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="33" pm="."><plain>In the development of a computational model for prediction of structural specificity of substrate compounds to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>, three dimensional structures of the substrates were built using AMPAC with Graphical User Interface (Semichem, Shawnee Mission, KS). </plain></SENT>
+<SENT sid="34" pm="."><plain>AMPAC used Austin Model 1 (<z:uniprot sup="inside" fb="0" ids="C0RWW9,Q53KW9">AM1</z:uniprot>) for the quantum mechanical semi-empirical calculations of interactive energy. </plain></SENT>
+<SENT sid="35" pm="."><plain>CODESSA can generate the numerical values for molecular descriptors, whereas the heuristic method (HM) preselects appropriate molecular descriptors. </plain></SENT>
+<SENT sid="36" pm="."><plain>The multiple linear regression (<z:uniprot sup="inside" fb="32" ids="Q8QHI2,P08235,P79404,Q4JM28,Q9N0W8,Q9BDJ7,Q29131">MLR</z:uniprot>) is capable of deriving the linear QSAR based on them. </plain></SENT>
+<SENT sid="37" pm="."><plain>The final outcomes were labeled as a characterization of compounds using derived properties X from <z:uniprot sup="inside" fb="0" ids="C0RWW9,Q53KW9">AM1</z:uniprot> calculations and regression with <z:uniprot sup="inside" fb="32" ids="Q8QHI2,P08235,P79404,Q4JM28,Q9N0W8,Q9BDJ7,Q29131">MLR</z:uniprot>, using measurements Y as response. </plain></SENT>
+<SENT sid="38" pm="."><plain>The knowledge on such descriptors that determine substrate specificity to binding receptors is critical to delineate the drug interaction with <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs and the mechanisms behind their action. </plain></SENT>
+<SENT sid="39" pm="."><plain>The outcomes of this study ultimately lead us to discover efficient new drugs with enhanced chemotherapeutic efficacies. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS,DISCUSS"><sec><title><text><SENT sid="40" pm="."><plain>Results and discussion </plain></SENT>
+</text></title><sec><title><text><SENT sid="41" pm="."><plain>The uptake rates of Mitoxantrone by <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cells </plain></SENT>
+</text></title><p><text><SENT sid="42" pm="."><plain>The effects of various substrates on the uptake rates of Mitoxantrone by <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cells were evaluated to determine their binding capacity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs. </plain></SENT>
+<SENT sid="43" pm="."><plain>The uptake rates of Mitoxantrone (expressed per mg of protein) in the presence of various substrates were converted to the percentage uptake rate of Mitoxantrone in the absence of the substrates (Figure  1). </plain></SENT>
+<SENT sid="44" pm="."><plain>The transcellular permeation profiles of the substrate compounds showed a similar trend to those of the uptake profiles, but statistical significance of the latter is much greater than the former. </plain></SENT>
+<SENT sid="45" pm="."><plain>There are several important findings from this study. </plain></SENT>
+</text></p><p><text><SENT sid="46" pm="."><plain>1. </plain></SENT>
+<SENT sid="47" pm="."><plain>Estrogen and tamoxifen did not significantly affect the Mitoxantrone uptake profiles, which are consistent with the previous findings [24]. </plain></SENT>
+</text></p><p><text><SENT sid="48" pm="."><plain>2. </plain></SENT>
+<SENT sid="49" pm="."><plain>Substrate compounds, such as Ciprofloxacin, Ketoconazole and Verapamil, allow for a greater Mitoxantrone uptake rate in 482G than 482R. </plain></SENT>
+<SENT sid="50" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> substrates with the high binding affinities have common chemical structures, such as an azole ring [25], and quarternary nitrogen [26]. </plain></SENT>
+</text></p><p><text><SENT sid="51" pm="."><plain>3. </plain></SENT>
+<SENT sid="52" pm="."><plain>In <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> 482T, substrate compounds, such as Caffeine, Diltiazem, Epinephrine, Estradiol, Raloxifene and Verapamil, did not significantly affect the uptake rate of Mitoxantrone, whereas in both 482R and 482G, substrate compounds, such as Foscarnet and Rhodamine 123, did not significantly affect the uptake rate of Mitoxantrone. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="53" pm="."><plain>Mitoxantrone uptake by the 482 R, 482 G and 482 T transfected <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cells in the presence of various substrate compounds. The data are expressed as mean +/− SD, p &lt; 0.05, each experiment performed in quadruplicate. </plain></SENT>
+</text></p></caption><graphic xlink:href="1752-153X-7-23-1"/></fig></SecTag><p><text><SENT sid="54" pm="."><plain>It was suggested that changes in the uptake amount of Mitoxantrone in the presence of various substrates are due to their influence toward <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> efflux polymorphs. </plain></SENT>
+<SENT sid="55" pm="."><plain>Although an indirect approach associated with the uptake rate may not be the best option to predict the relationship with the chemical structures, the changes in the uptake rate of Mitoxantrone in the presence of substrate compounds could serve as a valid indicator for the drug affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="56" pm="."><plain>Relationships between the uptake rates and chemical properties </plain></SENT>
+</text></title><sec><title><text><SENT sid="57" pm="."><plain>I. </plain></SENT>
+<SENT sid="58" pm="."><plain>482R Polymorphs </plain></SENT>
+</text></title><p><text><SENT sid="59" pm="."><plain>The relationships between the uptake rates and the chemical structures of substrates were analyzed and quantitatively expressed as the concentration of a substrate required to exert a biological response. </plain></SENT>
+<SENT sid="60" pm="."><plain>As shown in Table  1, four descriptors, HOMO-1 energy, Max atomic orbital electronic population, <z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge and average electrophilic reaction index for a O atom, mainly contribute to the linear relationship profiles in a QSAR model for 482R polymorph with the experimental coefficient value R2 of 0.9740 (F = 56.17 s2 = 0.024 Q2 = 0.8561: Table  2), which are indicative of a close correlation among them. </plain></SENT>
+<SENT sid="61" pm="."><plain>As shown in Figure  2, the prediction power of the test substrates was also within 5% of the experimental value, which further corroborated the proposed model. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T1"><label>Table 1</label><caption><p><text><SENT sid="62" pm="."><plain>The best linear models computed for 482 R, 482 G and 482 T of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="left"><text><SENT sid="63" pm="."><plain>Type </plain></SENT>
+</text></th><th colspan="5" align="center"><text><SENT sid="64" pm="."><plain>The Best Linear Model </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td rowspan="7" align="left" valign="bottom"><text><SENT sid="65" pm="."><plain>482 R </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="66" pm="."><plain>R2=0.9740 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="67" pm="."><plain>F=56.17 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="68" pm="."><plain>s2=0.024 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="69" pm="."><plain>Q2= 0.8561 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="70" pm="."><plain>(4, RANK) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="71" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="72" pm="."><plain>X </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="73" pm="."><plain>DX </plain></SENT>
+</text></td><td colspan="2" align="center" valign="bottom"><text><SENT sid="74" pm="."><plain>t-test </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="75" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="76" pm="."><plain>-4.1145e+02 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="77" pm="."><plain>1.7878e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="78" pm="."><plain>23.0141 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="79" pm="."><plain>Intercept </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="80" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="81" pm="."><plain>1.2538e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="82" pm="."><plain>6.6354e-01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="83" pm="."><plain>18.8958 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="84" pm="."><plain>HOMO-1 energy </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="85" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="86" pm="."><plain>2.9607e+02 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="87" pm="."><plain>9.1140e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="88" pm="."><plain>32.4857 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="89" pm="."><plain>Max atomic orbital electronic population </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="90" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="91" pm="."><plain>-1.0329e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="92" pm="."><plain>5.3540e-01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="93" pm="."><plain>19.2916 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="94" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="95" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="96" pm="."><plain>1.7837e+03 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="97" pm="."><plain>2.4776e+02 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="98" pm="."><plain>7.1996 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="99" pm="."><plain>Avg electroph. react. index for a O atom </plain></SENT>
+</text></td></tr><tr><td rowspan="8" align="left" valign="bottom"><text><SENT sid="100" pm="."><plain>482 G </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="101" pm="."><plain>R2=0.8455 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="102" pm="."><plain>F=82.1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="103" pm="."><plain>s2=0.0181 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="104" pm="."><plain>Q2= 0.5986 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="105" pm="."><plain>(4, RANK) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="106" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="107" pm="."><plain>X </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="108" pm="."><plain>DX </plain></SENT>
+</text></td><td colspan="2" align="center" valign="bottom"><text><SENT sid="109" pm="."><plain>t-test </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="110" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="111" pm="."><plain>-3.5513e+02 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="112" pm="."><plain>1.9119e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="113" pm="."><plain>18.5750 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="114" pm="."><plain>Intercept </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="115" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="116" pm="."><plain>-1.2124e+03 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="117" pm="."><plain>3.4838e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="118" pm="."><plain>34.8023 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="119" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge 2 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="120" pm="."><plain>2. </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="121" pm="."><plain>0790e+02 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="122" pm="."><plain>6.3673e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="123" pm="."><plain>32.6508 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="124" pm="."><plain>Max SIGMA-PI bond order </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="125" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="126" pm="."><plain>3.5144e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="127" pm="."><plain>1.6146e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="128" pm="."><plain>21.7656 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="129" pm="."><plain>Max 1-electron react. index for a C atom </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="130" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="131" pm="."><plain>2.4821e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="132" pm="."><plain>4.9829e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="133" pm="."><plain>4.9812 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="134" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-FPSA-1 Fractional PPSA (PPSA-1/TMSA) </plain></SENT>
+</text></td></tr><tr><td colspan="5" align="center" valign="bottom"><text><SENT sid="135" pm="."><plain>[Quantum-Chemical PC] </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="136" pm="."><plain>482 T </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="137" pm="."><plain>R2=0.8268 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="138" pm="."><plain>F=71.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="139" pm="."><plain>s2=0.027 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="140" pm="."><plain>Q2= 0.5617 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="141" pm="."><plain>(5, RANK) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="142" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="143" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="144" pm="."><plain>X </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="145" pm="."><plain>DX </plain></SENT>
+</text></td><td colspan="2" align="center" valign="bottom"><text><SENT sid="146" pm="."><plain>t-test </plain></SENT>
+</text></td></tr><tr><td rowspan="5" align="center" valign="bottom"><text><SENT sid="147" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="148" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="149" pm="."><plain>2.0718e+02 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="150" pm="."><plain>4.8027e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="151" pm="."><plain>4.3139 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="152" pm="."><plain>Intercept </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="153" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="154" pm="."><plain>5.4190e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="155" pm="."><plain>7.7933e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="156" pm="."><plain>6.9535 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="157" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="158" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="159" pm="."><plain>6.1209e+01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="160" pm="."><plain>2.6032e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="161" pm="."><plain>23.5132 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="162" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge for a N atom </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="163" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="164" pm="."><plain>8.9479e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="165" pm="."><plain>6.5221e-01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="166" pm="."><plain>13.7193 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="167" pm="."><plain>Number of double bonds </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="168" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="169" pm="."><plain>2.0862e+00 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="170" pm="."><plain>2.3046e-01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="171" pm="."><plain>9.0521 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="172" pm="."><plain>min(#HA, #HD) [Quantum-Chemical PC] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="173" pm="."><plain>  </plain></SENT>
+</text></td><td align="center"><text><SENT sid="174" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="175" pm="."><plain>7.9300e-01 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="176" pm="."><plain>1.9317e-01 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="177" pm="."><plain>4.1053 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="178" pm="."><plain>Min e-n attraction for a C-C bond </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="T2"><label>Table 2</label><caption><p><text><SENT sid="179" pm="."><plain>Computed R2and Q2values of the linear models for 482 R, 482 G and 482 T of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center"><text><SENT sid="180" pm="."><plain>  </plain></SENT>
+</text></th><th align="center"><text><SENT sid="181" pm="."><plain>Sets </plain></SENT>
+</text></th><th align="center"><text><SENT sid="182" pm="."><plain>R2 </plain></SENT>
+</text></th><th align="center"><text><SENT sid="183" pm="."><plain>Q2 </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td rowspan="2" align="left" valign="bottom"><text><SENT sid="184" pm="."><plain>482C </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="185" pm="."><plain>Training set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="186" pm="."><plain>0.9740 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="187" pm="."><plain>0.8561 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="188" pm="."><plain>Test set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="189" pm="."><plain>0.9960 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="190" pm="."><plain>0.8506 </plain></SENT>
+</text></td></tr><tr><td rowspan="2" align="left" valign="bottom"><text><SENT sid="191" pm="."><plain>482G </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="192" pm="."><plain>Training set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="193" pm="."><plain>0.8455 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="194" pm="."><plain>0.5986 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="195" pm="."><plain>Test set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="196" pm="."><plain>0.9976 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="197" pm="."><plain>0.8336 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="198" pm="."><plain>482T </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="199" pm="."><plain>Training set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="200" pm="."><plain>0.8268 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="201" pm="."><plain>0.5617 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="202" pm="."><plain>  </plain></SENT>
+</text></td><td align="center"><text><SENT sid="203" pm="."><plain>Test set </plain></SENT>
+</text></td><td align="center"><text><SENT sid="204" pm="."><plain>0.9755 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="205" pm="."><plain>0.8438 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="206" pm="."><plain>a The best linear model for 482 R <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> (R2 = 0.99, F = 460.38, cross validated R2 = 0.95). b: The validation of the model on the testing data set. </plain></SENT>
+</text></p></caption><graphic xlink:href="1752-153X-7-23-2"/></fig></SecTag><p><text><SENT sid="207" pm="."><plain>It was noted that the dynamics of the aromatic cores and the alkyl tails can affect the electronic properties. </plain></SENT>
+<SENT sid="208" pm="."><plain>The highest occupied molecular orbital (HOMO) and the lowest unoccupied molecular orbital (LUMO) are just two of molecular energy levels, and efficient energy conversion is an integral step in practical applications of substrates for charge transport and transfer processes through efflux proteins or transporters. </plain></SENT>
+</text></p><p><text><SENT sid="209" pm="."><plain>Another important descriptor seems to be overall net charge and surface charge of substrates. </plain></SENT>
+<SENT sid="210" pm="."><plain>As the atomic charge of the molecule increases, the modulation of the uptake rate of Mitoxantrone decreases (X-axis is expressed as a negative absolute value), indicating that the charge in the molecules were inversely correlated with the uptake rates by <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> 482R polymorphs. </plain></SENT>
+<SENT sid="211" pm="."><plain>This finding is in a good agreement with the previous report that ABC transporters have a greater affinity to positively charged molecules which serve as an electron accepting functional group [27]. </plain></SENT>
+</text></p><p><text><SENT sid="212" pm="."><plain>Phenethyl Isothiocyanate (PEITC), which showed a higher affinity to 482R, has an electropositive property originated from thiocyanate functional groups which may contribute to its strong affinity to 482R. </plain></SENT>
+<SENT sid="213" pm="."><plain>On the other hand, Substrates, such as caffeine, estradiol and verapamil didn’t significantly affect the uptake rate of Mitoxantrone by 482R polymorphs. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="214" pm="."><plain>II. </plain></SENT>
+<SENT sid="215" pm="."><plain>482G Polymorphs </plain></SENT>
+</text></title><p><text><SENT sid="216" pm="."><plain>The results of the study with 482G polymorph were most properly expressed in a linear QSAR equation consist of 4 descriptors, which are <z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge, Max SIGMA-PI bond order, Max 1-electron reaction index for a C atom, and <z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-FPSA-1 Fractional PPSA (PPSA-1/TMSA) [Quantum-Chemical PC], with the correlation coefficient for the modulated uptake of R2 of 0.8455 (F = 82.1 s2 = 0.0181 Q2 = 0.5986), as shown in Tables  1 and 2. </plain></SENT>
+<SENT sid="217" pm="."><plain>The predicted value for the substrate molecules was also within 5% of the experimental value as shown in Figure  3. </plain></SENT>
+<SENT sid="218" pm="."><plain>Similar to the results of 482R polymorph, it was also demonstrated that affinity of the 482G polymorph to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> decreases, as the charge on the molecule increases. </plain></SENT>
+<SENT sid="219" pm="."><plain>The correlation coefficient between two variables (i.e., charge and binding affinity) for 482G polymorph is less significant than that of 482R. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="220" pm="."><plain>a The best linear model for 482 T <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> (R2 = 0.99, F = 238.48, cross validated R2 = 0.99). b: The validation of the model on the testing data set. </plain></SENT>
+</text></p></caption><graphic xlink:href="1752-153X-7-23-3"/></fig></SecTag><p><text><SENT sid="221" pm="."><plain>Among substrates, Phenethyl Isothiocyanate (PEITC) has the highest binding affinity to 482G. </plain></SENT>
+<SENT sid="222" pm="."><plain>The binding affinity of Rhodamine123 to 482G polymorph is lower than that to 482R. </plain></SENT>
+<SENT sid="223" pm="."><plain>Febendazole and Riboflavin showed a low binding affinity to 482G, mainly due to the presence of multiple double bonds and aromatic rings. </plain></SENT>
+<SENT sid="224" pm="."><plain>Substrates, such as Rhodamine123 (123%), Estradiol (114%) and Foscarnet (111%), did not significantly affect the Mitoxantrone uptake rate by 482R polymorph. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="225" pm="."><plain>III. </plain></SENT>
+<SENT sid="226" pm="."><plain>482T Polymorph </plain></SENT>
+</text></title><p><text><SENT sid="227" pm="."><plain>As shown in Table  1, a linear QSAR for 482T polymorph consists of 5 descriptors; <z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge, <z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge for a N atom, Number of double bonds, min (#HA, #HD) [Quantum-Chemical PC], and Min e-n attraction for a C-C bond. </plain></SENT>
+<SENT sid="228" pm="."><plain>The correlation value for the modulated uptake rate was 0.8268 (F = 71.6, s2 = 0.027, Q2 = 0.5617) and the predicted power of the test molecules was within 5% of the experimental outcomes, indicating that there is a good correlation among selected parameters. </plain></SENT>
+<SENT sid="229" pm="."><plain>As shown in Figure  3, differing from the results of 482R and 482G polymorph, there is a positive relationship between surface charge and binding affinity; as a charge on the molecule increases, its binding affinity to 482 T polymorph increases. </plain></SENT>
+<SENT sid="230" pm="."><plain>The results of this study suggest that the presence of the charged residue significantly affects the affinity of test substrates even though it does not substantially contribute to the specificity to each <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorph. </plain></SENT>
+<SENT sid="231" pm="."><plain>The steric factors are likely to play a vital role in the relationship between substrate property and binding affinity, even though their contribution to the binding affinity of substrates to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> is much less than the charged residue. </plain></SENT>
+</text></p><p><text><SENT sid="232" pm="."><plain>482T polymorph has a lower affinity towards substrates, such as Caffeine, Diltiazem, Raloxifene, Quinidine and Verapamil. </plain></SENT>
+<SENT sid="233" pm="."><plain>Fumitremorgin C (FTC) showed the highest impact on the uptake rate of Mitoxantrone by 482T, which is probably due to the presence of the charge species on FTC. </plain></SENT>
+<SENT sid="234" pm="."><plain>Since the side effects of FTC (i.e., neurotoxicity) arises from stereo chemical constraints on the conformation of the diketopiperazine D ring, the replacement of the proline moiety (E ring) by an acyclic substituent might allow the adjacent diketopiperazine ring to assume a new conformation with the less charge species that renders the diastereoisomeric mixtures of FTC analogues less neurotoxic than native FTC [28,29]. </plain></SENT>
+</text></p><p><text><SENT sid="235" pm="."><plain>Quercitin, which is known as the most active reactive oxygen species (i.e., peroxynitrite) scavenger among the structural analogues of flavonoids, had a significant impact on the uptake rate of Mitoxantrone in all three polymorphs, probably due to the fact that Quercitin has high resonance and donates electrons on the oxygen atom even though it lacks nitrogen atoms on the aromatic ring. </plain></SENT>
+<SENT sid="236" pm="."><plain>It was reported that molecule oxygen atom on C-4 of C ring of Quercetin carries the largest excess charge, whereas charge accumulation on the hydroxy groups at the same ring is not considerably large [30,31]. </plain></SENT>
+<SENT sid="237" pm="."><plain>On the other hand, estradiol did not affect the uptake rate of Mitoxantrone in all three polymorphs, indicating that estradiol is not a major substrate for <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="238" pm="."><plain>The results of this study underline importance of complement regulatory proteins in the biologic systems that outline the binding capacity of exogenous compounds and subsequent their uptake rates. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="239" pm="."><plain>IV. </plain></SENT>
+<SENT sid="240" pm="."><plain>The model validation process </plain></SENT>
+</text></title><p><text><SENT sid="241" pm="."><plain>The Cross Validation process was carried out to confirm the predicting power of the QSAR model. </plain></SENT>
+<SENT sid="242" pm="."><plain>The error values of the coefficient computed through QSAR model were obtained through assessment of percentage Absolute Relative Error (ARE) using the absolute value calculation of [(Actual Output - Predicted Output)/Actual Output]. </plain></SENT>
+</text></p><p><text><SENT sid="243" pm="."><plain>The experimental and expected values of each compound were plotted for the validation process as shown in Figures  2b, 4b and 3b for 482R, 482G and 482T, respectively. </plain></SENT>
+<SENT sid="244" pm="."><plain>The error values for both individual and combined descriptors were within 10% of the predicted values (Table  3), indicating that the predicted values from the linear model are in good agreement with the experimental values. </plain></SENT>
+<SENT sid="245" pm="."><plain>It was also proved that the QSAR can accurately predict the effects of various substrates on the uptake rate of Mitoxantrone based on the given set of variables. </plain></SENT>
+<SENT sid="246" pm="."><plain>The linear relationships with the experimental coefficient value (R2) and cross validate coefficient value (Q2) of 0.9 and 0.85 (Figure  2b), 0.99 and 0.83 (Figure  3b) and 0.97 and 0.84 (Figure  3b) for 482R, 482G and 482T, respectively, are indicative of a close correlation between experimental values and calculated values. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="247" pm="."><plain>a The best linear model for 482 G <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> (R2 = 0.99, F = 576.86, cross validated R2 = 0.90).b: The validation of the model on the testing data set. </plain></SENT>
+</text></p></caption><graphic xlink:href="1752-153X-7-23-4"/></fig></SecTag><SecTag type="TABLE"><table-wrap position="float" id="T3"><label>Table 3</label><caption><p><text><SENT sid="248" pm="."><plain>Validation of the uptake rates of Mitoxantrone for the testing set of substrate compounds: Correlation between the experimental values of testing substrates and their calculated values based on the best linear model for each polymorph of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center" valign="bottom"><text><SENT sid="249" pm="."><plain>TEST SET </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="250" pm="."><plain>482R </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="251" pm="."><plain>482R </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="252" pm="."><plain>482G </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="253" pm="."><plain>482G </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="254" pm="."><plain>482T </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="255" pm="."><plain>482T </plain></SENT>
+</text></th></tr><tr><th align="center"><text><SENT sid="256" pm="."><plain>  </plain></SENT>
+</text></th><th align="center"><text><SENT sid="257" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="258" pm="."><plain>Uptake value </plain></SENT>
+</text></th><th align="center"><text><SENT sid="259" pm="."><plain>Cal. </plain></SENT>
+<SENT sid="260" pm="."><plain>Uptake value </plain></SENT>
+</text></th><th align="center"><text><SENT sid="261" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="262" pm="."><plain>Uptake value </plain></SENT>
+</text></th><th align="center"><text><SENT sid="263" pm="."><plain>Cal. </plain></SENT>
+<SENT sid="264" pm="."><plain>Uptake value </plain></SENT>
+</text></th><th align="center"><text><SENT sid="265" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="266" pm="."><plain>Uptake value </plain></SENT>
+</text></th><th align="center"><text><SENT sid="267" pm="."><plain>Cal. </plain></SENT>
+<SENT sid="268" pm="."><plain>Uptake value </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="269" pm="."><plain>Acyclovir </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="270" pm="."><plain>212 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="271" pm="."><plain>160 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="272" pm="."><plain>248 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="273" pm="."><plain>230 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="274" pm="."><plain>274 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="275" pm="."><plain>312 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="276" pm="."><plain>Epinephrine </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="277" pm="."><plain>181 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="278" pm="."><plain>188 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="279" pm="."><plain>123 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="280" pm="."><plain>119 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="281" pm="."><plain>115 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="282" pm="."><plain>105 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="283" pm="."><plain>Foscarnet </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="284" pm="."><plain>126 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="285" pm="."><plain>111 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="286" pm="."><plain>111 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="287" pm="."><plain>135 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="288" pm="."><plain>128 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="289" pm="."><plain>115 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="290" pm="."><plain>FumitremorginC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="291" pm="."><plain>305 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="292" pm="."><plain>361 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="293" pm="."><plain>291 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="294" pm="."><plain>406 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="295" pm="."><plain>327 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="296" pm="."><plain>391 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="297" pm="."><plain>Ketoconazole </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="298" pm="."><plain>270 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="299" pm="."><plain>272 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="300" pm="."><plain>258 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="301" pm="."><plain>266 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="302" pm="."><plain>263 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="303" pm="."><plain>204 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="304" pm="."><plain>PEITC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="305" pm="."><plain>288 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="306" pm="."><plain>266 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="307" pm="."><plain>313 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="308" pm="."><plain>346 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="309" pm="."><plain>329 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="310" pm="."><plain>355 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="311" pm="."><plain>Quercetin </plain></SENT>
+</text></td><td align="center"><text><SENT sid="312" pm="."><plain>247 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="313" pm="."><plain>274 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="314" pm="."><plain>252 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="315" pm="."><plain>269 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="316" pm="."><plain>239 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="317" pm="."><plain>288 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="318" pm="."><plain>The results of this study suggested that the binding affinity of substrates to specific receptors or efflux proteins is not entirely dependent on a particular variable or an individual group of variables in the relationship, but it is rather affected by various combinations of variables. </plain></SENT>
+<SENT sid="319" pm="."><plain>This finding further supported the robustness of the QSAR approach in predicting the outcome from the medical database by avoiding a spurious association within a set of variables. </plain></SENT>
+<SENT sid="320" pm="."><plain>It was also suggested that descriptors involved with the drug uptake profiles will give new insights on chemical modifications that can lead to designing new chemotherapeutic agent with improved pharmacological properties. </plain></SENT>
+</text></p><p><text><SENT sid="321" pm="."><plain>To design a pharmacologically active drug for site-specific activity is a challenging task that begins with rationally identifying the targets to which that drug binds. </plain></SENT>
+<SENT sid="322" pm="."><plain>There are a number of computational approaches in designing efficient therapeutics based on target identification and lead optimization. </plain></SENT>
+<SENT sid="323" pm="."><plain>As the specific binding to active targets may have a profound impact on the overall pharmacological activity [32], the effects of a variety pattern of protein binding reflected in the uptake profiles by cell membrane on therapeutic efficacy of drugs could be adapted as a primary screening means. </plain></SENT>
+<SENT sid="324" pm="."><plain>The importance of protein binding has already been validated by less specific protein kinase inhibitors which attack tumors through multiple mechanisms [33]. </plain></SENT>
+<SENT sid="325" pm="."><plain>This strategy has been effective to more than one type of cancer therapies. </plain></SENT>
+</text></p><p><text><SENT sid="326" pm="."><plain>A thorough understanding of drug binding interactions and their relationship with the biological activity requires high-throughput computational biology approaches. </plain></SENT>
+<SENT sid="327" pm="."><plain>Computational techniques that identify competitive binding substrates and their inhibition range in cellular networks have been intensively developed, but their scales are very limited to initial assessment process [6,34]. </plain></SENT>
+<SENT sid="328" pm="."><plain>Moreover, the qualitative description of the chemical entity currently available showed a limited predictive power due to the high dynamic nature of molecular structures and complicated responses from biological systems including complex efflux pathways. </plain></SENT>
+<SENT sid="329" pm="."><plain>The mathematical modeling approaches, such as ordinary differential equations and pi-calculus, have limitations in that they require a large number of kinetics parameters to simulate the dynamic behavior of the biological system to which chemical entities bind [35,36]. </plain></SENT>
+<SENT sid="330" pm="."><plain>Therefore, a functional dynamic model based on the qualitative descriptors defined from the competitive uptake profiles is integral for parameter optimization and dose regimen specification of new drug entities. </plain></SENT>
+</text></p><p><text><SENT sid="331" pm="."><plain>In recent years, major efforts have been placed on identifying and characterizing ABC transporters. </plain></SENT>
+<SENT sid="332" pm="."><plain>They are expressed at the major barriers within the body (e.g., intestine, blood–brain barrier, placenta, kidney, and liver), where they lowered the uptake rate or enhanced the clearance of drugs [37]. </plain></SENT>
+<SENT sid="333" pm="."><plain>Breast Cancer Resistant Protein (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>) is one of the most recently discovered members of ABC transporters. </plain></SENT>
+<SENT sid="334" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> is a homo-dimer and consists of 655 amino acids containing a nuclear binding domain and a membrane spanning domain. </plain></SENT>
+<SENT sid="335" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> shares broad similarities with bacterial, yeast, insect and other mammalian ABC transporter proteins [38]. </plain></SENT>
+<SENT sid="336" pm="."><plain>In normal human tissues, <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> was detected at higher levels in the placenta and at lower levels in the brain, prostate, ovary, colon, testis, liver, small intestine, kidney and heart [22,39]. </plain></SENT>
+<SENT sid="337" pm="."><plain>Among normal tissues, <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> is expressed in sycytiotrophoblasts of placenta, epithelium of small intestine, colon, liver, ducts and lobules of breast, and haemopoietic stem cells [22,40]. </plain></SENT>
+</text></p><p><text><SENT sid="338" pm="."><plain>ABC transporters comprise various efflux proteins, some of which exert abnormal responses to exogenous compounds due to the presence of polymorphs. </plain></SENT>
+<SENT sid="339" pm="."><plain>Nine polymorphs have been identified for MDR-1 [41]. </plain></SENT>
+<SENT sid="340" pm="."><plain>In a clinical trial, <z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot> polymorphism has a vital role in delineating the effective dose in chemotherapy [42]. </plain></SENT>
+<SENT sid="341" pm="."><plain>Genetic polymorphism in ABC transporters influences numerous diseases including hypertension [43], lung cancer [44] and colon cancer [45]. </plain></SENT>
+<SENT sid="342" pm="."><plain>The mutation of polymorphs discovered from human <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> serves an integral criterion for the differential affinity of substrates to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> [46]. </plain></SENT>
+<SENT sid="343" pm="."><plain>It was found that the affinity of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> to substrates can be modulated by altering the substrate specificity of multi-drug transporters. </plain></SENT>
+<SENT sid="344" pm="."><plain>Several <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> variants from direct DNA sequencing of the <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> gene have been reported [47]. </plain></SENT>
+<SENT sid="345" pm="."><plain>It was also demonstrated that single nucleotide polymorphisms (SNP) of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> produced individual variations in the pharmacokinetics and toxicity profiles of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> substrates. </plain></SENT>
+<SENT sid="346" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> G34A (Val12Met) and C421A (Gln141Lys) polymorphisms occurred at high frequency in most ethnic populations and have been associated with the expression and activity of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> protein [48]. </plain></SENT>
+<SENT sid="347" pm="."><plain>It has distinctive features including racial differences; for instance, <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> V12M, Q141K, P269S and Q126Stop were detected in Korean at frequencies of 23, 28, 0.2 and 1.9%, respectively [49]. </plain></SENT>
+</text></p><p><text><SENT sid="348" pm="."><plain>This study was undertaken to define various physicodynamic and chemical properties of substrates to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs and elucidate the rationales behind their efficacies. </plain></SENT>
+<SENT sid="349" pm="."><plain>The structurally diverse compounds were evaluated for elucidation of the <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorph mediated uptakes and establishment of the relationships with their molecular structures. </plain></SENT>
+<SENT sid="350" pm="."><plain>The results of this study suggested that the chemical properties of exogenous compounds significantly influence <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs mediated uptake rate. </plain></SENT>
+<SENT sid="351" pm="."><plain>All the compounds tested in this study are either substrates or inhibitors of at least one of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs. </plain></SENT>
+<SENT sid="352" pm="."><plain>The analysis on the chemical properties of the substrates based on the combining AMPAC/CPDESSA approach could help us to identify integral descriptors that should be mirrored by interactions with receptor proteins [50]. </plain></SENT>
+</text></p><p><text><SENT sid="353" pm="."><plain>In this study, the consistent appearance of surface charge, electrophilic reactivity indices and molecular orbital energy descriptors obtained from the sets of chemotherapeutic substrate compounds supported the proven concept that charged electrophiles with the high energy level affected the affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs. </plain></SENT>
+<SENT sid="354" pm="."><plain>The quantum chemical descriptors of the substrates, such as atomic orbital electronic population and bond order, also significantly contribute to its affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorph. </plain></SENT>
+<SENT sid="355" pm="."><plain>It is known that the docking analysis of descriptors provides a qualitative representation of ligand and protein interactions in the QSAR model, even though the selection of docked conformations is often complicated due to its sensitivity to the scoring function. </plain></SENT>
+<SENT sid="356" pm="."><plain>The results of this study demonstrate that substrate compounds containing net charged radicals can activate efflux proteins or peptides in the complement system. </plain></SENT>
+<SENT sid="357" pm="."><plain>There is also a close correlation between descriptors and molecular weight, especially for bulky groups. </plain></SENT>
+<SENT sid="358" pm="."><plain>The steric contour analysis indicates that the addition of bulky groups in the active region reduces the binding affinity. </plain></SENT>
+</text></p><p><text><SENT sid="359" pm="."><plain>It is possible that subjects with these polymorphisms may have different levels of single nucleotide polymorphisms (SNP) expression level and cellular localization and, consequently, varying degrees of efflux capability to model compounds [51]. </plain></SENT>
+<SENT sid="360" pm="."><plain>Further studies are needed to determine which level and sites of SNP mainly contribute to the specificity of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> bindings. </plain></SENT>
+<SENT sid="361" pm="."><plain>The findings in this study provide rationales behind the development of new drugs whose working mechanisms are closely correlated with substrate or inhibitor properties against <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphs. </plain></SENT>
+<SENT sid="362" pm="."><plain>The results of this study can lead to detailed constitutional descriptors that can be directly translated to a chemical structure, such as connectivity indices and descriptors describing substitution patterns. </plain></SENT>
+<SENT sid="363" pm="."><plain>It is possible to combine and translate calculated properties of descriptors into a new chemical/pharmaceutical entity through the visualization process by the contour map and an analyzing tool like GaussView program (GaussView 3.07: Gaussian Inc., Wallingford, CT). </plain></SENT>
+<SENT sid="364" pm="."><plain>It is certain that numerous training compounds need to span through the model fitting techniques, addressing not only finding a fit, but also the predictive feature of the fit. </plain></SENT>
+<SENT sid="365" pm="."><plain>While the outcomes of this study have not directly steered us to a new compound, they have helped us to identify important structural insight into optimal designing of new chemotherapeutic agents. </plain></SENT>
+<SENT sid="366" pm="."><plain>Recently, a drug class called poly ADP ribose polymerase (<z:uniprot sup="inside" fb="2" ids="P55057,P08469,O50017,P35875,Q11208,P14043">PARP</z:uniprot>) inhibitors that targets cancers caused by BRCA mutations have shown promise in clinical trials treating breast cancer [52]. </plain></SENT>
+</text></p></sec></sec></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions"><title><text><SENT sid="367" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="368" pm="."><plain>In summary, the chemotherapeutic effects of the known substrates were classified based on their binding affinity to <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>. </plain></SENT>
+<SENT sid="369" pm="."><plain>The computational approach with the sequential approaches of Austin Model 1 (<z:uniprot sup="inside" fb="0" ids="C0RWW9,Q53KW9">AM1</z:uniprot>), CODESSA program, heuristic method (HM) and multiple linear regression (<z:uniprot sup="inside" fb="32" ids="Q8QHI2,P08235,P79404,Q4JM28,Q9N0W8,Q9BDJ7,Q29131">MLR</z:uniprot>) was performed to derive QSAR model and its predictive power was validated. </plain></SENT>
+<SENT sid="370" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> mutations may induce conformational changes as manifested by the altered uptake rates of Mitoxantrone by <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> in the presence of other competitive binding substrates that have a varying degree of affinities toward <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> efflux. </plain></SENT>
+<SENT sid="371" pm="."><plain>At the practical level, the use of a computational structural approach will help the scientists identify the best compound and its linear dose range with improved pharmacological efficacy, eliminating the need to perform multiple assays over a wide range of concentrations in defining the binding affinity and uptake rates. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="372" pm="."><plain>Methods </plain></SENT>
+</text></title><p><text><SENT sid="373" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> (human embryonic kidney) cell lines transfected with each polymorph (i.e., 482R, 482G and 482T) were kindly donated by NIC (NIH, Bethesda, MD) [53]. </plain></SENT>
+<SENT sid="374" pm="."><plain>The minimum essential medium was purchased from ATCC (Manassas, VA). </plain></SENT>
+<SENT sid="375" pm="."><plain>Penicillin, Streptomycin, and Geneticin were purchased from Invitrogen (Carlsbad, CA). </plain></SENT>
+<SENT sid="376" pm="."><plain>Radioactive Mitoxantrone was obtained from American Radiolabelled Inc (St Louis, MO). </plain></SENT>
+<SENT sid="377" pm="."><plain>All other chemicals and testing compounds were obtained from Sigma (St Louis, MO). </plain></SENT>
+</text></p><sec><title><text><SENT sid="378" pm="."><plain>Cell culture preparation </plain></SENT>
+</text></title><p><text><SENT sid="379" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cell lines transfected with 482R, 482G and 482T plasmids were grown in the minimum essential medium supplemented with 10% FBS, 50 IU/ml penicillin, 50 μg/ml streptomycin, 4 mM L-glutamine and 100 nM Geneticin. </plain></SENT>
+<SENT sid="380" pm="."><plain>Cells were incubated in 75 mm2 plastic culture flasks at 37°C supplemented with 5% CO2/95% air. </plain></SENT>
+<SENT sid="381" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> expression in <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cells was confirmed by RT-PCR using the method previously described [54]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="382" pm="."><plain>A drug uptake study </plain></SENT>
+</text></title><p><text><SENT sid="383" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cells were trypsinized and loaded in 24 well plates at a seeding density of 2 × 105 cells per well. </plain></SENT>
+<SENT sid="384" pm="."><plain>Cell viability was maintained by providing a fresh medium every other day until they reached confluence. </plain></SENT>
+<SENT sid="385" pm="."><plain>Cells were exposed with radioactive Mitoxantrone (~100 μM) in the presence or absence of various inhibitors at specific concentrations or 10 μM Fumitremorgin C (FTC) (as a positive control) at 37°C for 5 min. </plain></SENT>
+<SENT sid="386" pm="."><plain>The drug uptake process was stopped by washing the cells with 1 ml of ice-cold DPBS for 3 times, followed by lysis with the Triton X/0.1 M NaOH solution. </plain></SENT>
+<SENT sid="387" pm="."><plain>A cell digest (100 μl) was taken and diluted to 5 ml with 30% Scintisafe™ (Fisher Scientific, NJ). </plain></SENT>
+<SENT sid="388" pm="."><plain>The cumulative amount of Mitoxantrone in diluted samples was determined using Beckman Coulter Counter and expressed as the percentage amount of the control. </plain></SENT>
+<SENT sid="389" pm="."><plain>Mitoxantrone accumulation was normalized for cellular protein and presented as the percentage of the control, where the control represents cells treated with Mitoxantrone in the absence of any inhibitors. </plain></SENT>
+<SENT sid="390" pm="."><plain>Data were expressed as mean +/− SD, p &lt; 0.05 and by one way ANOVA. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="391" pm="."><plain>A drug permeability study </plain></SENT>
+</text></title><p><text><SENT sid="392" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cell lines were prepared as described previously [54]. </plain></SENT>
+<SENT sid="393" pm="."><plain>After confluence was achieved, the TEER value of cells was measured to verify the presence of tight junction. </plain></SENT>
+<SENT sid="394" pm="."><plain>The growth medium was replaced and washed with PBS. </plain></SENT>
+<SENT sid="395" pm="."><plain>The radioactive Mitoxantrone (~100 μM) in the presence or absence of inhibitors was added on the basolateral side of the transwells. </plain></SENT>
+<SENT sid="396" pm="."><plain>The samples were collected from the apical side at predetermined time intervals for up to 120 min. </plain></SENT>
+<SENT sid="397" pm="."><plain>Apparent drug permeability (Papp) value was calculated using the formula Papp = (dQ/dt)/(A x D0), where (dQ/dt) is the linear appearance rate of drug in the apical side, A is the cross-sectional area of the Transwell insert and D0 is the initial concentration of the compound in the baso-lateral compartment [55]. </plain></SENT>
+<SENT sid="398" pm="."><plain>The experiment was repeated for 4 times for each inhibitor (N = 4). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="399" pm="."><plain>The selection of datasets </plain></SENT>
+</text></title><p><text><SENT sid="400" pm="."><plain>As shown in Table  4, the substrates selected according to the different pharmacological categories were evaluated for their effects on the flux rates of Mitoxantrone. </plain></SENT>
+<SENT sid="401" pm="."><plain>The experimental sets (25) were divided into 18 training sets and 7 test sets (i.e., for validation purpose). </plain></SENT>
+<SENT sid="402" pm="."><plain>The structures of the substrates in the training set are shown in Figure  5. </plain></SENT>
+<SENT sid="403" pm="."><plain>The uptake rates for Mitoxantrone or those in the presence of the substrates obtained from the experimental transport study were considered to be directly proportional to the affinity and/or permeation rate of drugs with <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T4"><label>Table 4</label><caption><p><text><SENT sid="404" pm="."><plain>The changes in the uptake rate of Mitoxantrone in 482 R, 482 G and 482 T <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> transfected <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot> cell line in the presence of substrate compounds </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="left" valign="bottom"><text><SENT sid="405" pm="."><plain>  </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="406" pm="."><plain>  </plain></SENT>
+</text></th><th colspan="3" align="center" valign="bottom"><text><SENT sid="407" pm="."><plain>Changes in Uptake of Mitoxantrone (cm/sec: %) </plain></SENT>
+</text></th></tr><tr><th align="left" valign="bottom"><text><SENT sid="408" pm="."><plain>  </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="409" pm="."><plain>  </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="410" pm="."><plain>482R </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="411" pm="."><plain>482G </plain></SENT>
+</text></th><th align="center" valign="bottom"><text><SENT sid="412" pm="."><plain>482T </plain></SENT>
+</text></th></tr><tr><th align="left"><text><SENT sid="413" pm="."><plain>  </plain></SENT>
+</text></th><th align="center"><text><SENT sid="414" pm="."><plain>Mitoxantrone </plain></SENT>
+</text></th><th align="center"><text><SENT sid="415" pm="."><plain>23.71 (100%) </plain></SENT>
+</text></th><th align="center"><text><SENT sid="416" pm="."><plain>27.43 (100%) </plain></SENT>
+</text></th><th align="center"><text><SENT sid="417" pm="."><plain>25.92 (100%) </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td rowspan="17" align="left" valign="bottom"><text><SENT sid="418" pm="."><plain>Training Set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="419" pm="."><plain>Caffeine </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="420" pm="."><plain>29.64 (125%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="421" pm="."><plain>41.42 (151%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="422" pm="."><plain>46.28 (140%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="423" pm="."><plain>Ciprofloxacin </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="424" pm="."><plain>57.38 (242%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="425" pm="."><plain>63.91 (233%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="426" pm="."><plain>45.88 (177%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="427" pm="."><plain>Cyclosporin </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="428" pm="."><plain>70.18 (296%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="429" pm="."><plain>66.93 (244%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="430" pm="."><plain>63.76 (246%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="431" pm="."><plain>Diltiazem </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="432" pm="."><plain>55.95 (236%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="433" pm="."><plain>59.52 (217%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="434" pm="."><plain>32.40 (125%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="435" pm="."><plain>Erythromycin </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="436" pm="."><plain>37.93 (160%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="437" pm="."><plain>48.00 (175%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="438" pm="."><plain>50.02 (193%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="439" pm="."><plain>Estradiol </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="440" pm="."><plain>29.87 (126%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="441" pm="."><plain>31.27 (114%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="442" pm="."><plain>26.70 (103%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="443" pm="."><plain>Febendazole </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="444" pm="."><plain>30.82 (130%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="445" pm="."><plain>34.83 (127%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="446" pm="."><plain>38.36 (148%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="447" pm="."><plain>Ketoconazole </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="448" pm="."><plain>64.50 (272%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="449" pm="."><plain>70.22 (256%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="450" pm="."><plain>68.17 (263%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="451" pm="."><plain>Nifedipine </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="452" pm="."><plain>38.17 (161%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="453" pm="."><plain>42.52 (155%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="454" pm="."><plain>38.36 (148%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="455" pm="."><plain>Novobiocin </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="456" pm="."><plain>56.90 (240%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="457" pm="."><plain>77.35 (282%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="458" pm="."><plain>71.02 (274%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="459" pm="."><plain>Quinidine </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="460" pm="."><plain>38.64 (163%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="461" pm="."><plain>41.97 (153%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="462" pm="."><plain>33.17 (128%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="463" pm="."><plain>Raloxifene </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="464" pm="."><plain>46.47 (196%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="465" pm="."><plain>55.95 (204%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="466" pm="."><plain>23.58 (91%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="467" pm="."><plain>Rhodamine 123 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="468" pm="."><plain>44.57 (188%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="469" pm="."><plain>33.74 (123%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="470" pm="."><plain>43.02 (166%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="471" pm="."><plain>Riboflavin </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="472" pm="."><plain>41.25 (174%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="473" pm="."><plain>35.92 (131%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="474" pm="."><plain>36.80 (142%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="475" pm="."><plain>Saquinavir </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="476" pm="."><plain>46.00 (194%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="477" pm="."><plain>57.33 (209%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="478" pm="."><plain>72.83 (281%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="479" pm="."><plain>Tamoxifene </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="480" pm="."><plain>31.30 (132%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="481" pm="."><plain>38.67 (141%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="482" pm="."><plain>40.95 (158%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="483" pm="."><plain>Verapamil </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="484" pm="."><plain>29.87 (126%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="485" pm="."><plain>58.42 (213%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="486" pm="."><plain>31.36 (121%) </plain></SENT>
+</text></td></tr><tr><td rowspan="6" align="left" valign="bottom"><text><SENT sid="487" pm="."><plain>Test Set </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="488" pm="."><plain>Acyclovir </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="489" pm="."><plain>50.26 (212%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="490" pm="."><plain>66.91 (244%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="491" pm="."><plain>68.95 (266%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="492" pm="."><plain>Epinephrine </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="493" pm="."><plain>42.91 (181%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="494" pm="."><plain>33.73 (123%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="495" pm="."><plain>24.89 (115%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="496" pm="."><plain>Foscarnet </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="497" pm="."><plain>29.87 (126%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="498" pm="."><plain>30.45 (111%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="499" pm="."><plain>33.17 (128%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="500" pm="."><plain>FumitremorginC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="501" pm="."><plain>26.76 (305%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="502" pm="."><plain>79.82 (291%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="503" pm="."><plain>84.75 (327%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="504" pm="."><plain>Ketoconazole </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="505" pm="."><plain>64.02 (270%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="506" pm="."><plain>70.77 (258%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="507" pm="."><plain>68.17 (263%) </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="508" pm="."><plain>PEITC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="509" pm="."><plain>68.28 (288%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="510" pm="."><plain>85.85 (313%) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="511" pm="."><plain>85.27 (329%) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="512" pm="."><plain>  </plain></SENT>
+</text></td><td align="center"><text><SENT sid="513" pm="."><plain>Quercetin </plain></SENT>
+</text></td><td align="center"><text><SENT sid="514" pm="."><plain>58.56 (247%) </plain></SENT>
+</text></td><td align="center"><text><SENT sid="515" pm="."><plain>69.12 (252%) </plain></SENT>
+</text></td><td align="center"><text><SENT sid="516" pm="."><plain>61.95 (239%) </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="517" pm="."><plain>The data are expressed as mean +/− SD, p &lt; 0.05, each experiment performed in quadruplicate. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><SecTag type="FIG"><fig id="F5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="518" pm="."><plain>Structures of Mitoxantrone and substrates tested in this study. </plain></SENT>
+</text></p></caption><graphic xlink:href="1752-153X-7-23-5"/></fig></SecTag></sec><sec><title><text><SENT sid="519" pm="."><plain>A QSAR approach </plain></SENT>
+</text></title><p><text><SENT sid="520" pm="."><plain>This approach was intended to select the most suitable descriptors among the descriptor sets for defining binding specificity of each polymorph. </plain></SENT>
+<SENT sid="521" pm="."><plain>Three dimensional structures of the substrates were built using AMPAC with Graphical User Interface (Semichem, Shawnee Mission, KS) [56]. </plain></SENT>
+<SENT sid="522" pm="."><plain>For structural classification of descriptors, AMPAC used Austin Model 1 (<z:uniprot sup="inside" fb="0" ids="C0RWW9,Q53KW9">AM1</z:uniprot>), which is the Hamiltonian widely utilized in the quantum mechanical semi-empirical calculations of interactive energy. </plain></SENT>
+<SENT sid="523" pm="."><plain><z:uniprot sup="inside" fb="0" ids="C0RWW9,Q53KW9">AM1</z:uniprot> achieved energy minimization of the gradient norm (0.05 kcal/mol) using 20 simplex iterations followed by 1000 steps of Powell minimization [57]. </plain></SENT>
+<SENT sid="524" pm="."><plain>CODESSA (Comprehensive Descriptors for Structural and Statistical Analysis; Semichem, Shawnee Mission, KS) is an advanced, full featured Quantitative Structure/Activity Relationship (QSAR) program that connects information from AMPAC to experimental data [58]. </plain></SENT>
+<SENT sid="525" pm="."><plain>CODESSA preselects each subset of structure descriptors, which include constitutional, topographical, geometrical, electrostatic, thermodynamic and quantum chemical properties, as shown in Table  5. </plain></SENT>
+<SENT sid="526" pm="."><plain>CODESSA can generate the numerical values for up to 600 molecular descriptors which can be used for the regression analysis [59]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T5"><label>Table 5</label><caption><p><text><SENT sid="527" pm="."><plain>Descriptors used in this study for identifying the best linear model </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/></colgroup><thead valign="top"><tr><th align="left"><text><SENT sid="528" pm="."><plain>Class </plain></SENT>
+</text></th><th align="left"><text><SENT sid="529" pm="."><plain>Name of Descriptors </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td rowspan="10" align="left" valign="bottom"><text><SENT sid="530" pm="."><plain>Constitutional </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="531" pm="."><plain>Number of double bonds </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="532" pm="."><plain>Number of aromatic bonds </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="533" pm="."><plain>Number of Oxygen atoms </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="534" pm="."><plain>Average distance sum connectivity index </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="535" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-RNCS: Relative negative charged SA (SAMNEG*RNCG) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="536" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-RPCS Relative positive charge SA (QMPOS/QTPLUS) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="537" pm="."><plain>[Zefirov’s PC] </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="538" pm="."><plain>WPSA3 weighted PPSA (PPSA3*TMSA/1000) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="539" pm="."><plain>[Zefirov's PC] </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="540" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-FPSA-1 Fractional PPSA (PPSA-1/TMSA) </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" valign="bottom"><text><SENT sid="541" pm="."><plain>Thermodynamic </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="542" pm="."><plain>Translational Entropy </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="543" pm="."><plain>Total Entropy </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="544" pm="."><plain>Total Enthalpy </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" valign="bottom"><text><SENT sid="545" pm="."><plain>Electrostatic </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="546" pm="."><plain>Max partial charge </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="547" pm="."><plain>Max partial charge for a hydrogen atom </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="548" pm="."><plain>Max partial charge for a carbon atom </plain></SENT>
+</text></td></tr><tr><td rowspan="11" align="left" valign="bottom"><text><SENT sid="549" pm="."><plain>Quantum Chemical </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="550" pm="."><plain>Max atomic orbital electronic population </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="551" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="552" pm="."><plain>Avg electroph. react. index for a O atom </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="553" pm="."><plain>Max 1-electron react. index for a C atom </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="554" pm="."><plain>Max SIGMA-PI bond order </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="555" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="556" pm="."><plain><z:uniprot sup="inside" fb="144" ids="Q9LYN8,Q5IBC5,Q8RY71,Q6UW49">ESP</z:uniprot>-Max net atomic charge for a N atom </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="557" pm="."><plain>min(#HA, #HD) [Quantum-Chemical PC] </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="558" pm="."><plain>Min e-n attraction for a C-C bond </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="559" pm="."><plain>Min e-n attraction for a C-H bond </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="560" pm="."><plain>HOMO-1 energy (Molecular orbital related) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="561" pm="."><plain>  </plain></SENT>
+</text></td><td align="left"><text><SENT sid="562" pm="."><plain>LUMO + 1 energy (Molecular orbital related) </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="563" pm="."><plain>The heuristic method (HM) preselected appropriate molecular descriptors and derived the linear QSAR model based on them. </plain></SENT>
+<SENT sid="564" pm="."><plain>Those descriptors that exist for all molecules in the training set were included, whereas those descriptors whose values did not vary throughout the training set were excluded from the regression. </plain></SENT>
+<SENT sid="565" pm="."><plain>The number of descriptors in the final QSAR models was usually less than one third of the number of molecules in the data set [60]. </plain></SENT>
+<SENT sid="566" pm="."><plain>HM allows us to obtain the best QSAR based on F and t test values, which were set in such way that descriptors having more than 0.99 and less than 0.8 correlations were excluded as they may generate an over-optimistic regression. </plain></SENT>
+</text></p><p><text><SENT sid="567" pm="."><plain>Molecular descriptors selected by the heuristic method (HM) in CODESSA were used as inputs to perform multiple linear regression (<z:uniprot sup="inside" fb="32" ids="Q8QHI2,P08235,P79404,Q4JM28,Q9N0W8,Q9BDJ7,Q29131">MLR</z:uniprot>), which is the simplest method that builds a single regression equation for a given data set. </plain></SENT>
+<SENT sid="568" pm="."><plain>For each regression analysis, the goodness of fit was evaluated by examining the number of molecules (N), coefficient of determination (r2), cross-validated standard error (Q2) and value of the F-statistic (F). </plain></SENT>
+<SENT sid="569" pm="."><plain>The Q2 value obtained through the leave-one-out algorithm (LOO) cross-validation procedure reflects the stability of the model through perturbation of the regression coefficients with the acceptability criterion of 0.5 in most CoMFA studies [61]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="570" pm="."><plain>The model validation process </plain></SENT>
+</text></title><p><text><SENT sid="571" pm="."><plain>The linear QSAR model was cross validated using the error values acquired in the prediction process [62]. </plain></SENT>
+<SENT sid="572" pm="."><plain>To optimize the validation outcomes, a relationship between the experimentally obtained values and computed uptake rates from the test set was established using the heuristic method. </plain></SENT>
+<SENT sid="573" pm="."><plain>The expected values for each compound were calculated and plotted to elucidate their correlations with the experimental values. </plain></SENT>
+</text></p><p><text><SENT sid="574" pm="."><plain>Each descriptor was assigned a number through the web based random number generator ( <ext-link ext-link-type="uri" xlink:href="http://www.random.org">http://www.random.org</ext-link>) for cross validation. </plain></SENT>
+<SENT sid="575" pm="."><plain>Individual descriptors were sequentially incorporated into the regression process to monitor the error value. </plain></SENT>
+<SENT sid="576" pm="."><plain>The following two-fold cross-validation scheme was implemented. </plain></SENT>
+</text></p><p><text><SENT sid="577" pm="."><plain>1. </plain></SENT>
+<SENT sid="578" pm="."><plain>The experimental data (25) were divided into 2 subsets; 18 training sets and 7 test sets for the model validation. </plain></SENT>
+</text></p><p><text><SENT sid="579" pm="."><plain>2. </plain></SENT>
+<SENT sid="580" pm="."><plain>The data from the selected subsets were categorized into the descriptors listed in Table  5. </plain></SENT>
+</text></p><p><text><SENT sid="581" pm="."><plain>3. </plain></SENT>
+<SENT sid="582" pm="."><plain>The odd ratio for each descriptor was calculated to find the most potential contributors to binding property with defined risk weights. </plain></SENT>
+</text></p><p><text><SENT sid="583" pm="."><plain>4. </plain></SENT>
+<SENT sid="584" pm="."><plain>The significance of the final regression is determined by comparing prediction Absolute Relative Errors (AREs) which are obtained using the absolute value of [(Actual Output - Predicted Output)/Actual Output] to the test subset. </plain></SENT>
+<SENT sid="585" pm="."><plain>An estimated p value less than 0.05 was considered to be significant for the consistency of the model. </plain></SENT>
+<SENT sid="586" pm="."><plain>The model with the lowest prediction error generated through the cross validation process was chosen to represent the best outcome for each <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorph. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="587" pm="."><plain>Competing interests </plain></SENT>
+</text></title><p><text><SENT sid="588" pm="."><plain>The authors declare that they have no competing interests. </plain></SENT>
+</text></p></sec></SecTag><sec><title><text><SENT sid="589" pm="."><plain>Authors’ contribution </plain></SENT>
+</text></title><p><text><SENT sid="590" pm="."><plain>YL designed the study and drafted the manuscript. </plain></SENT>
+<SENT sid="591" pm="."><plain>SJ performed the computational modelling process and statistical analysis. </plain></SENT>
+<SENT sid="592" pm="."><plain>GA carried out the cell culture, drug binding and immunoassay. </plain></SENT>
+<SENT sid="593" pm="."><plain><z:uniprot sup="inside" fb="1" ids="Q9STS7">CHL</z:uniprot> conceived of the study, participated in its coordination and helped to complete the manuscript. </plain></SENT>
+<SENT sid="594" pm="."><plain>All authors read and approved the final manuscript. </plain></SENT>
+</text></p></sec></body><back><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="595" pm="."><plain>GilsonMKZhouHXCalculation of protein-ligand binding affinitiesAnnu Rev Biophys Biomol Struct200736214210.1146/annurev.biophys.36.040306.13255017201676 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="596" pm="."><plain>XieLEvangelidisTBournePEDrug discovery using chemical systems biology: weak inhibition of multiple kinases may contribute to the anti-cancer effect of nelfinavirPLoS Comput Biol20117e100203710.1371/journal.pcbi.100203721552547 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="597" pm="."><plain>HorieKTangFBorchardtRTIsolation and characterization of Caco-2 subclones expressing high levels of <z:uniprot sup="inside" fb="0" ids="P21441,P13568,P14319">multidrug resistance protein</z:uniprot> efflux transporterPharm Res20032016116810.1023/A:102235930082612636153 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="598" pm="."><plain>CopelandRAPomplianoDLMeekTDDrug-target residence time and its implications for lead optimizationNat Rev Drug Discov2006573073910.1038/nrd208216888652 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="599" pm="."><plain>LuHTongePJDrug-target residence time: critical information for lead optimizationCurr Opin Chem Biol20101446747410.1016/j.cbpa.2010.06.17620663707 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="600" pm="."><plain>GuoDMulder-KriegerTIjzermanAPHeitmanLHFunctional efficacy of adenosine A(2A) receptor agonists is positively correlated to their receptor residence timeBr J Pharmacol201216661846185910.1111/j.1476-5381.2012.01897.x22324512 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="601" pm="."><plain>MaXHShiZTanCJiangYGoMLIn-silico approaches to multi-target drug discovery: computer aided multi-target drug design, multi-target virtual screeningPharm Res20102773974910.1007/s11095-010-0065-220221898 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="602" pm="."><plain>MatssonPPedersenJMNorinderUBergstromCAArturssonPIdentification of novel specific and general inhibitors of the three major human ATP-binding cassette transporters P-gp, <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P51670">MRP2</z:uniprot> among registered drugsPharm Res2009261816183110.1007/s11095-009-9896-019421845 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="603" pm="."><plain>GiacominiKMHuangSMTweedieDJBenetLZBrouwerKLMembrane transporters in drug developmentNat Rev Drug Discov2010921523610.1038/nrd302820190787 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="604" pm="."><plain>LinJHYamazakiMRole of <z:uniprot sup="inside" fb="0" ids="P78966,P16875,P16876,P16877,P21441,Q6YUU5,P12866">P-glycoprotein</z:uniprot> in pharmacokinetics: clinical implicationsClin Pharmacokinet200342599810.2165/00003088-200342010-0000312489979 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="605" pm="."><plain>MizunoNNiwaTYotsumotoYSugiyamaYImpact of drug transporter studies on drug discovery and developmentPharmacol Rev20035542546110.1124/pr.55.3.112869659 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="606" pm="."><plain>CroopJMTillerGEFletcherJALuxMLRaabEIsolation and characterization of a mammalian homolog of the drosophila white geneGene1997185778510.1016/S0378-1119(96)00633-69034316 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="607" pm="."><plain>AllenJDSchinkelAHMultidrug resistance and pharmacological protection mediated by the <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>)Mol Cancer Ther2002142743410.4161/cbt.1.4.2512477055 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="608" pm="."><plain>BatesSERobeyRMiyakeKRaoKRossDDThe role of half-transporters in multidrug resistanceJ Bioenerg Biomembr20013350351110.1023/A:101287920591411804192 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="609" pm="."><plain>LitmanTBrangiMHudsonEFetschPAbatiAThe multidrug-resistant phenotype associated with overexpression of the new ABC half-transporter, <z:uniprot sup="inside" fb="4" ids="Q9UNQ0">MXR</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>)J Cell Sci2000113Pt 112011202110806112 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="610" pm="."><plain>LemosCKathmannIGiovannettiEDekkerHSchefferGLFolate deprivation induces <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>) expression and mitoxantrone resistance in Caco-2 cellsInt J Cancer20081231712172010.1002/ijc.2367718623116 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="611" pm="."><plain>SeamonJARuggCAEmanuelSCalcagnoAMAmbudkarSVRole of the <z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot> drug transporter in the resistance and oral bioavailability of a potent <z:uniprot sup="inside" fb="1" ids="Q00268,Q00265,O01377,P24314,P17917,P12004,P17918,P17070,P61074,P31008,P04961,O16852,P22177,P53358,P18248">cyclin</z:uniprot>-dependent kinase/<z:uniprot sup="inside" fb="0" ids="Q54WX4,D7UQM5,Q755C4,Q59S66,Q6FV07,Q6BVA0,Q8SRL5,Q6CWQ4,Q6C3J2,P38991">Aurora kinase</z:uniprot> inhibitorMol Cancer Ther200652459246710.1158/1535-7163.MCT-06-033917041089 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="612" pm="."><plain>IshikawaTKasamatsuSHagiwaraYMitomoHKatoRExpression and functional characterization of human ABC transporter <z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot> variants in insect cellsDrug Metab Pharmacokinet20031819420210.2133/dmpk.18.19415618735 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="613" pm="."><plain>MitomoHKatoRItoAKasamatsuSIkegamiYA functional study on polymorphism of the ATP-binding cassette transporter <z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>: critical role of arginine-482 in methotrexate transportBiochem J200337376777410.1042/BJ2003015012741957 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="614" pm="."><plain>RobeyRWHonjoYvan de LaarAMiyakeKRegisJTA functional assay for detection of the mitoxantrone resistance protein, <z:uniprot sup="inside" fb="4" ids="Q9UNQ0">MXR</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>)Biochim Biophys Acta2001151217118210.1016/S0005-2736(01)00308-X11406094 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="615" pm="."><plain>KondoCSuzukiHItodaMOzawaSSawadaJFunctional analysis of SNPs variants of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>/ABCG2Pharm Res2004211895190315553238 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="616" pm="."><plain>MaoQBCRP/<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot> in the placenta: expression, function and regulationPharm Res2008251244125510.1007/s11095-008-9537-z18202831 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="617" pm="."><plain>JaffrezouJPHerbertJMLevadeTGauMNChatelainPReversal of multidrug resistance by calcium channel blocker SR33557 without photoaffinity labeling of P-glycoproteinJ Biol Chem199126619858198641918089 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="618" pm="."><plain>SugimotoYTsukaharaSImaiYUedaKTsuruoTReversal of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot>-mediated drug resistance by estrogen antagonists and agonistsMol Cancer Ther2003210511212533678 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="619" pm="."><plain>GuptaAUnadkatJDMaoQInteractions of azole antifungal agents with the human <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>)J Pharm Sci2007963226323510.1002/jps.2096317518356 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="620" pm="."><plain>JainRMajumdarSNashedYPalDMitraAKCircumventing <z:uniprot sup="inside" fb="0" ids="P78966,P16875,P16876,P16877,P21441,Q6YUU5,P12866">P-glycoprotein</z:uniprot>-mediated cellular efflux of quinidine by prodrug derivatizationMol Pharm2004129029910.1021/mp049952s15981588 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="621" pm="."><plain>MatssonPEnglundGAhlinGBergstromCANorinderUA global drug inhibition pattern for the human ATP-binding cassette transporter <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>)J Pharmacol Exp Ther2007323193010.1124/jpet.107.12476817616561 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="622" pm="."><plain>AllenJDvan LoevezijnALakhaiJMvan der ValkMvan TellingenOPotent and specific inhibition of the <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot> multidrug transporter in vitro and in mouse intestine by a novel analogue of fumitremorgin CMol Cancer Ther2002141742510.4161/cbt.1.4.2212477054 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="623" pm="."><plain>YamazakiMFujimotoHKawasakiTChemistry of tremorogenic metabolites. </plain></SENT>
+<SENT sid="624" pm="."><plain>I. </plain></SENT>
+<SENT sid="625" pm="."><plain>Fumitremorgin a from Aspergillus fumigatusChem Pharm Bull19802824525410.1248/<z:uniprot sup="inside" fb="4" ids="P48603">cpb</z:uniprot>.28.2456988091 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="626" pm="."><plain>ChoiJSChungHYKangSSJungMJKimJWThe structure-activity relationship of flavonoids as scavengers of peroxynitritePhytother Res20021623223510.1002/<z:uniprot sup="inside" fb="14" ids="Q9ZM68,Q48269,Q8X6M8,Q8CVS2,P05458,Q8Z418,Q8ZMB5,Q83QC3">ptr</z:uniprot>.82812164267 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="627" pm="."><plain>ErkocSYilmazerMErkocFStructural and electronic properties of xanthohumol metaboliteJ Mol Struct (THEOCHEM)200258316917210.1016/S0166-1280(01)00799-0 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="628" pm="."><plain>RoyJCyertMSCracking the <z:uniprot sup="inside" fb="121" ids="Q9NJE9">phosphatase</z:uniprot> code: docking interactions determine substrate specificitySci Signal20092re910.1126/scisignal.2100re919996458 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="629" pm="."><plain>BrancaMAMulti-kinase inhibitors create buzz at ASCONat Biotechnol20052363910.1038/nbt0605-63915940222 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="630" pm="."><plain>IadevaiaSLuYMoralesFCMillsGBRamPTIdentification of optimal drug combinations targeting cellular networks: integrating phospho-proteomics and computational network analysisCancer Res2010706704671410.1158/0008-5472.CAN-10-046020643779 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="631" pm="."><plain>ChangRLXieLBournePEPalssonBODrug off-target effects predicted using structural analysis in the context of a metabolic network modelPLoS Comput Biol20106e100093810.1371/journal.pcbi.100093820957118 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="632" pm="."><plain>GilbertDFussHGuXOrtonRRobinsonSComputational methodologies for modelling, analysis and simulation of signalling networksBrief Bioinform2006733935310.1093/<z:uniprot sup="inside" fb="47" ids="P23645">bib</z:uniprot>/bbl04317116646 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="633" pm="."><plain>KangJHwangJULeeMKimYYAssmannSMPDR-type ABC transporter mediates cellular uptake of the phytohormone abscisic acidProc Natl Acad Sci USA20101072355236010.1073/pnas.090922210720133880 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="634" pm="."><plain>SchinkelAHJonkerJWMammalian drug efflux transporters of the ATP binding cassette (ABC) family: an overviewAdv Drug Deliv Rev20035532910.1016/S0169-409X(02)00169-212535572 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="635" pm="."><plain>BharthuarAKTHaasKNMashtareTBlackJBaerMYangGKhushalaniNIyerRVExpression of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>) in esophageal cancers (EC)J Clin Oncol200927e13529 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="636" pm="."><plain>ZimmermannCHruzPGutmannHTerraccianoLBeuersUDecreased expression of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">breast cancer resistance protein</z:uniprot> in the duodenum in patients with obstructive cholestasisDigestion20067410110810.1159/00009780017159348 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="637" pm="."><plain>TanabeMIeiriINagataNInoueKItoSExpression of <z:uniprot sup="inside" fb="0" ids="P78966,P16875,P16876,P16877,P21441,Q6YUU5,P12866">P-glycoprotein</z:uniprot> in human placenta: relation to genetic polymorphism of the multidrug resistance (MDR)-1 geneJ Pharmacol Exp Ther20012971137114311356939 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="638" pm="."><plain>ErdelyiDJKamoryEZalkaASemseiAFCsokayBThe role of ABC-transporter gene polymorphisms in chemotherapy induced immunosuppression, a retrospective study in childhood acute lymphoblastic leukaemiaCell Immunol200624412112410.1016/j.cellimm.2007.02.00717434155 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="639" pm="."><plain>RobertsRLJoycePRMulderRTBeggEJKennedyMAA common <z:uniprot sup="inside" fb="0" ids="P78966,P16875,P16876,P16877,P21441,Q6YUU5,P12866">P-glycoprotein</z:uniprot> polymorphism is associated with nortriptyline-induced postural hypotension in patients treated for major depressionPharmacogenomics J2002219119610.1038/sj.tpj.650009912082591 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="640" pm="."><plain>DeenMVriesEGTimensWScheperRJTimmer-BosschaHATP-binding cassette (ABC) transporters in normal and pathological lungRespir Res200565910.1186/1465-9921-6-5915967026 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="641" pm="."><plain>KurzawskiMDrozdzikMSuchyJKurzawskiGBialeckaMPolymorphism in the <z:uniprot sup="inside" fb="0" ids="P78966,P16875,P16876,P16877,P21441,Q6YUU5,P12866">P-glycoprotein</z:uniprot> drug transporter <z:uniprot sup="inside" fb="0" ids="Q9LJX0,Q9ZR72,P28873,Q5ABU7,P16875,P08183,Q06034,F2PLH2,A0A059J0G5,F2SHL1,F2RSQ6,P13568">MDR1</z:uniprot> gene in colon cancer patientsEur J Clin Pharmacol20056138939410.1007/s00228-005-0926-515912392 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="642" pm="."><plain>WeissJRoseJStorchCHKetabi-KiyanvashNSauerAModulation of human <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot>) activity by anti-HIV drugsJ Antimicrob Chemother20075923824517202245 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="643" pm="."><plain>PollexEKAngerGHutsonJKorenGPiquette-MillerMBreast cancer resistance protein (<z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot>)-mediated glyburide transport: effect of the C421A/Q141K <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> single-nucleotide polymorphismDrug Metab Dispos20103874074410.1124/<z:uniprot sup="inside" fb="1" ids="Q48303,P39232">dmd</z:uniprot>.109.03079120159988 </plain></SENT>
+</text></ref><ref id="B48"><text><SENT sid="644" pm="."><plain>HuLLWangXXChenXChangJLiCBCRP gene polymorphisms are associated with susceptibility and survival of diffuse large B-cell lymphomaCarcinogenesis2007281740174410.1093/carcin/bgm11317494054 </plain></SENT>
+</text></ref><ref id="B49"><text><SENT sid="645" pm="."><plain>LeeSSJeongHEYiJMJungHJJangJEIdentification and functional assessment of <z:uniprot sup="inside" fb="0" ids="Q9UNQ0">BCRP</z:uniprot> polymorphisms in a Korean populationDrug Metab Dispos20073562363210.1124/<z:uniprot sup="inside" fb="1" ids="Q48303,P39232">dmd</z:uniprot>.106.01230217237154 </plain></SENT>
+</text></ref><ref id="B50"><text><SENT sid="646" pm="."><plain>MestresJGregori-PuigjaneEConciliating binding efficiency and polypharmacologyTrends Pharmacol Sci20093047047410.1016/j.tips.2009.07.00419717193 </plain></SENT>
+</text></ref><ref id="B51"><text><SENT sid="647" pm="."><plain>MoaddelRBighiFYamaguchiRPatelSRavichandranSStereoselective binding of chiral ligands to single nucleotide polymorphisms of the human <z:uniprot sup="inside" fb="0" ids="Q9U539,A7MBE0,O15245,O08966,Q863T6,O77504,Q63089">organic cation transporter-1</z:uniprot> determined using cellular membrane affinity chromatographyAnal Biochem201040114815310.1016/j.ab.2010.02.03420206116 </plain></SENT>
+</text></ref><ref id="B52"><text><SENT sid="648" pm="."><plain>MuraiJHuangSYNDasBBRenaudAZhangYDoroshowJHJiJTakedaSPommierYTrapping of <z:uniprot sup="inside" fb="0" ids="Q9ZP54,P18493,P26446,Q9R152,P09874,Q9ZSV1,P11103,Q08824,Q7EYV7,P27008,P31669">PARP1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9UGN5,O50017">PARP2</z:uniprot> by Clinical <z:uniprot sup="inside" fb="2" ids="P55057,P08469,O50017,P35875,Q11208,P14043">PARP</z:uniprot> InhibitorsCancer Res201272(21558823118055 </plain></SENT>
+</text></ref><ref id="B53"><text><SENT sid="649" pm="."><plain>DeekenJFRobeyRWShuklaSSteadmanKChakrabortyARIdentification of compounds that correlate with <z:uniprot sup="inside" fb="0" ids="Q4GZT4,Q9UNQ0,Q5MB13,Q8MIB3">ABCG2</z:uniprot> transporter function in the national cancer institute anticancer drug screenMol Pharmacol20097694695610.1124/mol.109.05619219633067 </plain></SENT>
+</text></ref><ref id="B54"><text><SENT sid="650" pm="."><plain>YooJWChoeESAhnSMLeeCHPharmacological activity and protein phosphorylation caused by nitric oxide-releasing microparticlesBiomaterials20103155255810.1016/j.biomaterials.2009.09.05819857895 </plain></SENT>
+</text></ref><ref id="B55"><text><SENT sid="651" pm="."><plain>ArturssonPKarlssonJCorrelation between oral drug absorption in humans and apparent drug permeability coefficients in human intestinal epithelial (Caco-2) cellsBiochem Biophys Res Comm199117588088510.1016/0006-291X(91)91647-U1673839 </plain></SENT>
+</text></ref><ref id="B56"><text><SENT sid="652" pm="."><plain>HolderAJYeLYourteeDMAgarwalAEickJDAn application of the QM-QSAR method to predict and rationalize lipophilicity of simple monomersDent Mater20052159159810.1016/j.dental.2004.08.00415978267 </plain></SENT>
+</text></ref><ref id="B57"><text><SENT sid="653" pm="."><plain>Dewar MJSZEGHealyEFAM1: a New general purpose quantum mechanical molecular modelJ Am Chem Soc19851073902390910.1021/ja00299a024 </plain></SENT>
+</text></ref><ref id="B58"><text><SENT sid="654" pm="."><plain>KatritzkyARKuanarMSlavovSHallCDKarelsonMQuantitative correlation of physical and chemical properties with chemical structure: utility for predictionChem Rev20101105714578910.1021/cr900238d20731377 </plain></SENT>
+</text></ref><ref id="B59"><text><SENT sid="655" pm="."><plain>KarelsonMMUkoWYilinKAlanRQSPR and QSAR models derived using large molecular descriptor spaces. </plain></SENT>
+<SENT sid="656" pm="."><plain>A review of CODESSA applicationsCollect Czech Chem Commun1999641551157110.1135/cccc19991551 </plain></SENT>
+</text></ref><ref id="B60"><text><SENT sid="657" pm="."><plain>ChenJPeijnenburgWJGMWangLUsing PM3 Hamiltonian, factor analysis and regression analysis in developing quantitative structure–property relationships for photohydrolysis quantum yields of substituted aromatic halidesChemosphere1998362833285310.1016/S0045-6535(97)10238-7 </plain></SENT>
+</text></ref><ref id="B61"><text><SENT sid="658" pm="."><plain>RichardDCramerJDBPattersonDEFrankIECrossvalidation, bootstrapping, and partial least squares compared with multiple regression in conventional QSAR studiesQuant Struct-Act Relat19887182510.1002/qsar.19880070105 </plain></SENT>
+</text></ref><ref id="B62"><text><SENT sid="659" pm="."><plain>KonovalovDALlewellynLEVander HeydenYCoomansDRobust cross-validation of linear regression QSAR modelsJ Chem Inf Model2008482081209410.1021/ci800209k18826208 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

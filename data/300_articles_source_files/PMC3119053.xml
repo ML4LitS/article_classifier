@@ -1,0 +1,656 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3119053</article-id><article-id pub-id-type="pmid">21701676</article-id><article-id pub-id-type="publisher-id">PONE-D-10-05890</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0021158</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Genetics</subject><subj-group><subject>Animal Genetics</subject><subject>Gene Networks</subject><subject>Genome-Wide Association Studies</subject></subj-group></subj-group><subj-group><subject>Genomics</subject><subj-group><subject>Genome Analysis Tools</subject><subj-group><subject>Genome Scans</subject><subject>Genome-Wide Association Studies</subject><subject>Trait Locus Analysis</subject></subj-group></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Using Regulatory and Epistatic Networks to Extend the Findings of a Genome Scan: Identifying the Gene Drivers of Pigmentation in Merino Sheep </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Identifying the Gene Drivers of Piebald in Sheep</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>García-Gámez</surname><given-names>Elsa</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Reverter</surname><given-names>Antonio</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Whan</surname><given-names>Vicki</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>McWilliam</surname><given-names>Sean M.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Arranz</surname><given-names>Juan José</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><collab>International Sheep Genomics Consortium</collab></contrib><contrib contrib-type="author"><name><surname>Kijas</surname><given-names>James</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Livestock Industries, Commonwealth Scientific and Industrial Research Organisation (CSIRO), Brisbane, Queensland, Australia</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Departamento de Producción Animal, Universidad de León, León, Spain</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Ahuja</surname><given-names>Sunil K.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">South Texas Veterans Health Care System, United States of America</aff><author-notes><corresp id="cor1">* E-mail: <email>James.Kijas@csiro.au</email></corresp><fn fn-type="con"><p><text><SENT sid="1" pm="."><plain>Conceived and designed the experiments: JK AR. </plain></SENT>
+<SENT sid="2" pm="."><plain>Performed the experiments: VW. </plain></SENT>
+<SENT sid="3" pm="."><plain>Analyzed the data: EGG AR JK. </plain></SENT>
+<SENT sid="4" pm="."><plain>Contributed reagents/materials/analysis tools: SMM JJA ISGC. </plain></SENT>
+<SENT sid="5" pm="."><plain>Wrote the paper: EGG AR JK. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2011</year></pub-date><pub-date pub-type="epub"><day>20</day><month>6</month><year>2011</year></pub-date><volume>6</volume><issue>6</issue><elocation-id>e21158</elocation-id><history><date date-type="received"><day>1</day><month>12</month><year>2010</year></date><date date-type="accepted"><day>22</day><month>5</month><year>2011</year></date></history><permissions><copyright-statement>García-Gámez et al.</copyright-statement><copyright-year>2011</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>Extending genome wide association analysis by the inclusion of gene expression data may assist in the dissection of complex traits. </plain></SENT>
+<SENT sid="7" pm="."><plain>We examined piebald, a pigmentation phenotype in both human and Merino sheep, by analysing multiple data types using a systems approach. </plain></SENT>
+<SENT sid="8" pm="."><plain>First, a case control analysis of 49,034 ovine SNP was performed which confirmed a multigenic basis for the condition. </plain></SENT>
+<SENT sid="9" pm="."><plain>We combined these results with gene expression data from five tissue types analysed with a skin-specific microarray. </plain></SENT>
+<SENT sid="10" pm="."><plain>Promoter sequence analysis of differentially expressed genes allowed us to reverse-engineer a regulatory network. </plain></SENT>
+<SENT sid="11" pm="."><plain>Likewise, by testing two-loci models derived from all pair-wise comparisons across piebald-associated SNP, we generated an epistatic network. </plain></SENT>
+<SENT sid="12" pm="."><plain>At the intersection of both networks, we identified thirteen genes with <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">insulin-like growth factor binding protein 7</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot>), platelet-derived <z:uniprot sup="inside" fb="0" ids="Q8V307,Q776B5,P08072,Q6RZT5,P08441">growth factor</z:uniprot> alpha (<z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot>) and the tetraspanin platelet activator <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> at the kernel of the intersection. </plain></SENT>
+<SENT sid="13" pm="."><plain>Further, we report a number of differentially expressed genes in regions containing highly associated SNP including <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q96N67">DOCK7</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q2YDD1,O95684,Q4R7V3">FGFR1OP</z:uniprot>, <z:uniprot sup="inside" fb="2" ids="Q9IA31,P10071,Q5IS56">GLI3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q06154,Q98917,P40967">SILV</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q96SF7">TBX15</z:uniprot>. </plain></SENT>
+<SENT sid="14" pm="."><plain>The application of network theory facilitated co-analysis of genetic variation with gene expression, recapitulated aspects of the known molecular biology of skin pigmentation and provided insights into the transcription regulation and epistatic interactions involved in piebald Merino sheep. </plain></SENT>
+</text></SecTag></p></abstract><counts><page-count count="9"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="15" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="16" pm="."><plain>The population history and genetic structure of domestic animals offer advantages for the identification of the genetic drivers associated with phenotypic change. </plain></SENT>
+<SENT sid="17" pm="."><plain>High throughput genotyping has lead to genome wide association studies (GWAS) which have successfully identified the genetic basis of monogenic disease in cattle [1], sheep [2] and dog [3]. </plain></SENT>
+<SENT sid="18" pm="."><plain>Further, recent studies have identified complex traits such as skeletal morphology are under the control of a small number of genes of large effect [4]. </plain></SENT>
+<SENT sid="19" pm="."><plain>For human and livestock populations however, the majority of traits are likely to be controlled by a larger number of genes which individually confer small effects [5], [6]. </plain></SENT>
+<SENT sid="20" pm="."><plain>Given that most tests for association proceed in a simple SNP-by-trait fashion using stringent significance levels to offset for multiple testing, the result is many of the genes that contribute to trait variation remain undetected. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>To explore approaches which seek to incorporate GWAS into systems biology, we have merged SNP variation with analysis of differential gene expression to investigate the basis of a phenotypic trait in sheep. </plain></SENT>
+<SENT sid="22" pm="."><plain>This was prompted by recent studies which exploit gene network theory and systems approaches to identify key genetic drivers [7]–[10]. </plain></SENT>
+<SENT sid="23" pm="."><plain>In our case, we co-analysed variation in allele frequency, gene expression and transcription factor mediated gene regulation to incriminate genes which would otherwise have remained undetected using a single data type in isolation. </plain></SENT>
+<SENT sid="24" pm="."><plain>To test our approach we selected piebald, which in humans is a leukoderma arising from disregulation of melanocyte development and migration often caused by mutations in the KIT gene [11]. </plain></SENT>
+<SENT sid="25" pm="."><plain>In sheep however, piebald, is an economically important phenotype in Australian Merino sheep characterised by the presence of one or more asymmetric pigmented regions. </plain></SENT>
+<SENT sid="26" pm="."><plain>Test matings indicate the condition is not consistent with a simple Mendelian mode of inheritance [12] and the location and extent of pigmentation in effected animals varies considerably, suggesting the coordinated action of multiple genes. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS"><sec id="s2"><title><text><SENT sid="27" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="28" pm="."><plain>SNP Association and Gene Expression Confirm Piebald Has a Multigenic Basis </plain></SENT>
+</text></title><p><text><SENT sid="29" pm="."><plain>We collected DNA from 24 piebald Merinos characterised by the appearance of pigmentation spots (Figure 1A). </plain></SENT>
+<SENT sid="30" pm="."><plain>To minimise unrelated genetic variability, we then selected 72 genetically similar but non-pigmented Merinos from a wider population sample using allele sharing calculated from 49,034 SNP. </plain></SENT>
+<SENT sid="31" pm="."><plain>The resulting relationship matrix linking all 96 animals is shown in Figure 1B. </plain></SENT>
+<SENT sid="32" pm="."><plain>Comparing allele frequency differences between piebald and non-pigmented animals revealed 226 loci were highly associated (p&lt;0.001) and collectively distinguished piebald from non-pigmented animals (Figure 1C). </plain></SENT>
+<SENT sid="33" pm="."><plain>The highest association (p = 8.45×10−7) was observed for SNP s49104 located in the region containing <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> (OAR 6 Mb 78.9), however the absence of a single and strong association peak confirmed a multigenic basis for ovine piebald (Figure S1). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0021158-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0021158.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="34" pm="."><plain>Genome wide association for piebald. </plain></SENT>
+</text></title><p><text><SENT sid="35" pm="."><plain>(A) A piebald lamb is pictured with its non-pigmented mother (left hand side). </plain></SENT>
+<SENT sid="36" pm="."><plain>The asymmetrical presentation of pigmentation (the lamb has one pigmented and one white forelimb) characterises this colour morph from Recessive Black (right hand side) which arises through action of the Agouti locus [39]. </plain></SENT>
+<SENT sid="37" pm="."><plain>(B) The genetic relationship between 24 piebald animals and 72 non-pigmented controls. </plain></SENT>
+<SENT sid="38" pm="."><plain>Allele sharing, or genetic similarity, was calculated between each pair-wise combination of animal using 48,686 SNP. </plain></SENT>
+<SENT sid="39" pm="."><plain>Increasing values of allele sharing are represented using darker colour. </plain></SENT>
+<SENT sid="40" pm="."><plain>Unsupervised hierarchical clustering distributed the piebald cases (indicated with a dot) across the matrix, reflecting the sampling strategy used to select controls which were as closely related to cases as possible. </plain></SENT>
+<SENT sid="41" pm="."><plain>(C) Unsupervised hierarchical clustering of the 226 associated SNP (P&lt;0.001) successfully distinguished all piebald animals as genetically distinct from the controls. </plain></SENT>
+<SENT sid="42" pm="."><plain>Animals are arranged into columns and annotated above the matrix using either red (piebald) or black lines (controls). </plain></SENT>
+<SENT sid="43" pm="."><plain>The 226 associated SNP are arranged into rows and each cell indicates the observed genotypic outcome as follows: homozygote (bright red), heterozygote (dark red), alternate homozygote (black). </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0021158.g001"/></fig></SecTag><p><text><SENT sid="44" pm="."><plain>We sought to interpret these genetic associations using gene expression obtained from five skin tissue types isolated from non-pigmented, piebald and also recessive black individuals known to be under the control of Agouti (Figure 1A, 2A). </plain></SENT>
+<SENT sid="45" pm="."><plain>The five tissue types were white skin tissue from non-pigmented sheep (NOR); black skin tissue from a piebald animal (PBB); white skin tissue from a piebald animal (PBW); black skin tissue from a recessive black animal (RSB) and white skin tissue from the non-pigmented region of a recessive black animal (<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>). </plain></SENT>
+<SENT sid="46" pm="."><plain>Seven contrasts between tissue types (named DE1–DE7, see Methods section) were examined using a microarray containing 3,685 unique skin-specific genes. </plain></SENT>
+<SENT sid="47" pm="."><plain>Of these, 54 genes displayed differential expression (DE) in ≥4 contrasts and hierarchical cluster analysis revealed coexpression across tissue types (Figure S2). </plain></SENT>
+<SENT sid="48" pm="."><plain>A set of 19 genes, including 11 keratin family members displayed coordinated down regulation in piebald tissue, again indicating no single gene alone appeared responsible for the trait. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0021158-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0021158.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="49" pm="."><plain>Gene expression relating to pigmentation. </plain></SENT>
+</text></title><p><text><SENT sid="50" pm="."><plain>(A) Design of the microarray experiment, showing hybridizations (arrows) between five tissue types. </plain></SENT>
+<SENT sid="51" pm="."><plain>Samples were labelled with either red (arrow head) or green dye (arrow tail) and the experiment was repeated in a dye swap using samples from independent biological replicates. </plain></SENT>
+<SENT sid="52" pm="."><plain>A total of 20 hybridizations were performed to compare the following tissue types: white skin tissue from 4 pooled non-pigmented animals (NOR); black skin tissue from a piebald animal (PBB); white skin tissue from a piebald animal (PBW); black skin tissue from a recessive black animal (RSB) and white skin tissue sampled from the inguinal, non-pigmented area from a recessive black animal (<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>). </plain></SENT>
+<SENT sid="53" pm="."><plain>Each sample intervened in four hybridizations (two labelled red and two labelled green). </plain></SENT>
+<SENT sid="54" pm="."><plain>(B) Plot of SNP allele frequency difference between piebald and normal animals (Y-axis) and differential gene expression in contrast 3 (NOR versus PBW) (X-axis) for a set of 1,935 genes. </plain></SENT>
+<SENT sid="55" pm="."><plain>Red symbols represent genes which were both differentially expressed (piebald versus normal) and have a SNP within 2.5 Kb. </plain></SENT>
+<SENT sid="56" pm="."><plain>Black symbols represent genes which either displayed differential expression (P&lt;0.01) or are located within 1 Mb of an associated SNP. </plain></SENT>
+<SENT sid="57" pm="."><plain>The remaining green symbols represent genes which were neither differentially expressed nor located near associated SNP. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0021158.g002"/></fig></SecTag><p><text><SENT sid="58" pm="."><plain>Charting the proximity of SNP to the genomic location of genes revealed 17,223 SNP (35%) were either intragenic or within 2.5 Kb of a gene (Figure S3). </plain></SENT>
+<SENT sid="59" pm="."><plain>Further, 1,935 genes present on the skin-specific microarray had a genotyped SNP within 1 Mb. </plain></SENT>
+<SENT sid="60" pm="."><plain>This allowed us to search for genes displaying both DE and genetic association relating to piebald (Figure 2B). </plain></SENT>
+<SENT sid="61" pm="."><plain>Analysis across all seven contrasts identified a total of 370 DE genes located within 1 Mb of a SNP (Figure S4). </plain></SENT>
+<SENT sid="62" pm="."><plain>Of these, 287 had a SNP sufficiently close (&lt;2.5 Kb) to be considered putatively cis-acting. </plain></SENT>
+<SENT sid="63" pm="."><plain>On this basis, we identified 312 ‘piebald-associated genes’ which displayed either (i) DE in one or more contrasts and a cis-SNP or (ii) the absence of DE but an associated SNP within the chromosomal region (&lt;1 Mb) (Table S1). <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> was both highly associated with piebald and down-regulated in piebald tissue (Table 1). </plain></SENT>
+<SENT sid="64" pm="."><plain>Similarly, <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot>'s expression was up-regulated in piebald tissue and a putatively cis-acting SNP displayed strong association while <z:uniprot sup="inside" fb="0" ids="A2VDX9,Q8WZ71">TMEM158</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,Q6FRE7">PTK2</z:uniprot> were not DE in any contrast, however co-localised SNP were highly associated (Table 1). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0021158-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0021158.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="65" pm="."><plain>A selection of key genes involved in piebald. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0021158-t001-1" xlink:href="pone.0021158.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="66" pm="."><plain>GeneID </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="67" pm="."><plain>Chr </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="68" pm="."><plain>Mb </plain></SENT>
+</text></td><td colspan="5" align="left" rowspan="1"><text><SENT sid="69" pm="."><plain>Normalised Gene Expression1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="70" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q69IF8">SNP2</z:uniprot> </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="71" pm="."><plain>Allele Frequency3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>P-value4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>OR4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>NOR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>PBB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>PBW </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>RSB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain><z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>Piebald </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>Non_Piebald </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>55.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>6.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>8.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>8.42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>7.59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>8.99 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>OAR13_55578882 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>5.96E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>2.57 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O75973">C1QL1</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>46.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>NA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>NA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>NA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>NA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>NA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>s27884 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>1.47E-04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>4.33 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>225.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>9.63 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>9.32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>9.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>8.33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>9.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>s65742 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>0.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>0.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>6.34E-04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>3.3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96N67">DOCK7</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>38.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>2.47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>4.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>4.36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>4.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>4.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P35731">OAR1</z:uniprot>_38581202 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>0.74 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>3.05E-01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>1.45 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P52804,P52803">EFNA5</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>112.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>8.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>9.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>8.91 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>8.59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>9.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>s72651 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>0.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>0.79 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>4.40E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>2.71 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q2YDD1,O95684,Q4R7V3">FGFR1OP</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>95.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>7.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>6.73 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>7.28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>6.75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>7.09 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>OAR8_95443730 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>0.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>0.81 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>1.80E-01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>1.98 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>FRY </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>29.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>6.78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>8.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>8.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>7.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>8.81 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>OAR10_29223007 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0.42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>1.54E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>2.99 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q9IA31,P10071,Q5IS56">GLI3</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>84 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>5.85 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>7.48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>7.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>6.81 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>8.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>OAR4_83976143 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>0.78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>9.95E-02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>1.82 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>78.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>11.37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>10.35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>9.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>9.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>10.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>s49104 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>0.88 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>8.45E-07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>5.92 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q15323,A5A6M5">KRT31</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>43.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>14.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>11.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>12.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>12.77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>12.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>OAR11_43737226 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>0.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>6.55E-01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>1.18 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q4G0J3,Q4R627">LARP7</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>15.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>6.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>7.99 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>7.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>6.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>8.76 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>s14758 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>7.80E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>2.44 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A5D7F6,Q8IZL2">MAML2</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>13.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>7.05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>7.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>8.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>7.34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>8.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>s71238 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>0.88 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>0.65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>2.62E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>3.84 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q27991,P35580">MYH10</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>29.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>5.36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>5.77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>5.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>6.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>7.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>s29973 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>0.74 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>2.74E-04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>3.42 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>76.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>6.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>5.33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>6.22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>5.99 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>6.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>OAR6_76377079 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>0.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>0.62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>2.34E-04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>3.56 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,Q6FRE7">PTK2</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>16.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>5.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>6.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>5.75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>4.78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>5.73 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>s22485 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>0.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>0.35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>5.20E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>2.55 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q99952">PTPN18</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>121.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>6.99 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>7.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>7.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>7.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>8.69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>s23889 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>0.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>2.68E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>2.87 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain><z:uniprot sup="inside" fb="0" ids="B4DS77">SHISA9</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>13.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>7.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>7.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>8.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>8.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>8.88 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>OAR24_13240468 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>0.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>0.63 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>4.28E-04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>5.16 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q06154,Q98917,P40967">SILV</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>174.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>8.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>8.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>8.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>9.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>9.22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>s59363 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>0.79 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>0.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>2.01E-01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>1.73 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P49281">SLC11A2</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>144.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>7.76 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>7.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>7.52 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>7.89 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>8.05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>OAR3_144283427 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>0.88 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>0.64 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>2.03E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>3.96 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P35495,Q90WR8,Q02447,L8GD75,Q9DF66">SP3</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>143.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>6.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>7.36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>8.33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>7.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>8.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>OAR2_143746835 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>0.78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>1.63E-03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>2.96 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96SF7">TBX15</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>101.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>4.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>3.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>4.96 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>5.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>4.53 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P35731">OAR1</z:uniprot>_101890858 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>0.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>4.46E-01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>1.29 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A2VDX9,Q8WZ71">TMEM158</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>57.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>6.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>6.95 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>6.76 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>6.41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>7.77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>s04445 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>0.79 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>0.41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>4.57E-06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>5.47 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p><text><SENT sid="367" pm="."><plain>A selection of key genes differentially expressed (DE; P&lt;0.01) in at least one of the seven contrasts and/or near a SNP associated with the piebald conditions (P&lt;0.001). </plain></SENT>
+</text></p></fn><fn id="nt102"><label>1</label><p><text><SENT sid="368" pm="."><plain>The mean normalised gene expression is given for each of five tissue types (NOR, PBB, PBW, RSB and <z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot> as define in Figure 2A). </plain></SENT>
+<SENT sid="369" pm="."><plain>Values for piebald tissue (PBB or PBW) that are higher than in the normal tissue (NOR) indicate up regulation (eg <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot>). </plain></SENT>
+</text></p></fn><fn id="nt103"><label>2</label><p><text><SENT sid="370" pm="."><plain>SNP with the highest association within a 1 Mb region centered on the gene. </plain></SENT>
+</text></p></fn><fn id="nt104"><label>3</label><p><text><SENT sid="371" pm="."><plain>Allele frequencies are given in both the piebald and non-piebald animal populations. </plain></SENT>
+</text></p></fn><fn id="nt105"><label>4</label><p><text><SENT sid="372" pm="."><plain>Both the P-value and associated odd ratio (OR) are given for <z:uniprot sup="inside" fb="0" ids="Q69IF8">SNP2</z:uniprot>. </plain></SENT>
+<SENT sid="373" pm="."><plain>See Table S1 for full list of 312 key genes. </plain></SENT>
+<SENT sid="374" pm="."><plain>Genes in bold type correspond to genes located at the intersection between the regulatory and the epistatic network (Figure 3). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s2b"><title><text><SENT sid="375" pm="."><plain>Regulatory and Epistatic Networks Identify the Gene Drivers of Pigmentation </plain></SENT>
+</text></title><p><text><SENT sid="376" pm="."><plain>A network was constructed to explore regulation of DE genes through the action of transcription factors (TF). </plain></SENT>
+<SENT sid="377" pm="."><plain>First, promoter sequence analysis of each piebald-associated gene was performed to identify the complement of transcription factor binding sites (TFBS) associated with each. </plain></SENT>
+<SENT sid="378" pm="."><plain>Then, a regulatory network was constructed where nodes represent genes. </plain></SENT>
+<SENT sid="379" pm="."><plain>The presence of a TFBS created an edge linking a gene with the TF for which it contained a binding site. </plain></SENT>
+<SENT sid="380" pm="."><plain>Gene expression was also used as input using the highest correlated contrasts (DE3, DE5 and DE6; Figure S5). </plain></SENT>
+<SENT sid="381" pm="."><plain>The network was visualised using the Cytoscape software, as described in the methods. </plain></SENT>
+<SENT sid="382" pm="."><plain>Fourteen TFs were present in the network (<z:uniprot sup="inside" fb="0" ids="P28698">MZF1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q04752,Q9GKL2,Q13285,Q95L87,P33242,P79387,P50569">SF1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q1HE26,Q13485,Q9GKQ9">SMAD4</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P40911,P41752,P41745,Q96WZ1,P14963,Q01520,Q01765,P32186,Q9HDF6,Q09069,O59949,Q92172,Q10587,P97516">TEF</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q2KJ34,O60381,Q5R7I3,Q8IV16">HBP1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q0P5C3,Q9GK08,P28362,P23410,A1YF16,P35548,A1YG93,A2T764">MSX2</z:uniprot>, <z:uniprot sup="inside" fb="12" ids="P35608,P21359">NF1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="O42406,O95343">SIX3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P50574">DLX2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9UJU2,P27782,Q65362,Q9QXN1,P41417">LEF1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="O94916,Q9WV30,D3ZGB1">NFAT5</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q99814,P97481,Q16534">HLF</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9BZI1">IRX2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q99612">KLF6</z:uniprot>), none of which displayed DE, but collectively linked 108 piebald-associated genes. </plain></SENT>
+<SENT sid="383" pm="."><plain>Of these, three (<z:uniprot sup="inside" fb="0" ids="P28698">MZF1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q04752,Q9GKL2,Q13285,Q95L87,P33242,P79387,P50569">SF1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q1HE26,Q13485,Q9GKQ9">SMAD4</z:uniprot>) have a binding site in 20 or more piebald-associated genes (Figure 3), strongly suggests a pivotal role in regulation. </plain></SENT>
+<SENT sid="384" pm="."><plain>Importantly, <z:uniprot sup="inside" fb="0" ids="Q1HE26,Q13485,Q9GKQ9">SMAD4</z:uniprot> inhibits <z:uniprot sup="inside" fb="0" ids="P23760">PAX3</z:uniprot> [13] which is a key regulator of MITF that regulates the degree of black spotting in both dog [14] and cattle [6]. </plain></SENT>
+<SENT sid="385" pm="."><plain>In our GWAS, SNP OAR19_33605872 (located 310 Kb from MITF) shows suggestive association to piebald (P = 7.05E-03). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0021158-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0021158.g003</object-id><label>Figure 3</label><caption><title><text><SENT sid="386" pm="."><plain>Regulatory and epistatic networks. </plain></SENT>
+</text></title><p><text><SENT sid="387" pm="."><plain>Promoter sequence analysis of piebald-associated genes (Table S1) was performed to identify transcription factors (TF; represented by triangles) and build a regulatory network (left panel). </plain></SENT>
+<SENT sid="388" pm="."><plain>Two-loci models for all pairwise comparisons among piebald-associated SNPs were fitted to develop an epistatic network (right panel). </plain></SENT>
+<SENT sid="389" pm="."><plain>The overall landscape revealed the presence of thirteen genes located at the intersection of both networks: <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P52804,P52803">EFNA5</z:uniprot>, FRY, <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q4G0J3,Q4R627">LARP7</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="A5D7F6,Q8IZL2">MAML2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q27991,P35580">MYH10</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,Q6FRE7">PTK2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q99952">PTPN18</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P49281">SLC11A2</z:uniprot>, <z:uniprot sup="inside" fb="1" ids="P35495,Q90WR8,Q02447,L8GD75,Q9DF66">SP3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="A2VDX9,Q8WZ71">TMEM158</z:uniprot>. </plain></SENT>
+<SENT sid="390" pm="."><plain>Gene color indicates over-expression (red), under-expression (green), unchanged expression (orange) and genes not represented on the microarray (blue) in highly correlated contrasts (DE3, DE5 and DE6). </plain></SENT>
+<SENT sid="391" pm="."><plain>The network file (*.cys) is available on request from the authors to explore within Cytoscape [46]. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0021158.g003"/></fig></SecTag><p><text><SENT sid="392" pm="."><plain>A second network was built to explore epistatic interactions between SNP and their closest genes. </plain></SENT>
+<SENT sid="393" pm="."><plain>In this approach, all pair-wise combinations (25,425 pairs) of the 226 SNP found to be associated with piebald (Figure 1C) were tested for evidence of epistasis. </plain></SENT>
+<SENT sid="394" pm="."><plain>A total of 645 significant pairs were identified (p&lt;0.001) which served as input data for the epistatic network. </plain></SENT>
+<SENT sid="395" pm="."><plain>To reduce network complexity, ‘hubs’ present in more than 20 significant pairs were identified (<z:uniprot sup="inside" fb="0" ids="A4IF90,Q5ZMM3,Q53QZ3">ARHGAP15</z:uniprot>, <z:uniprot sup="inside" fb="45" ids="Q9BWV1">BOC</z:uniprot>, C10H14orf37, <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q07496,P54764">EPHA4</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot>, LOC785528 and <z:uniprot sup="inside" fb="0" ids="A2VDX9,Q8WZ71">TMEM158</z:uniprot>) and used to extract edges in a reduced network containing 121 nodes (genes) and 216 edges (Figure 3). </plain></SENT>
+<SENT sid="396" pm="."><plain>This revealed C10H14orf37 as the hub with the highest number of connections (61 different pairs). <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> was the next most connected (32 pairs), ten of which were also significant for <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot>. </plain></SENT>
+<SENT sid="397" pm="."><plain>Moreover, as a pair, <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> were able to distinguish between piebald and non-pigmented animals (P = 0.000053). </plain></SENT>
+<SENT sid="398" pm="."><plain>Interestingly, <z:uniprot sup="inside" fb="0" ids="A5D7F6,Q8IZL2">MAML2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> paired together suggesting a regulatory interaction however this could not be evaluated as <z:uniprot sup="inside" fb="0" ids="A5D7F6,Q8IZL2">MAML2</z:uniprot> is a non-DNA binding transcription co-activator. </plain></SENT>
+</text></p><p><text><SENT sid="399" pm="."><plain>The final analysis identified thirteen genes that were common to both the regulatory and epistatic networks. </plain></SENT>
+<SENT sid="400" pm="."><plain>These formed the intersecting landscape displayed in Figure 3 (<z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P52804,P52803">EFNA5</z:uniprot>, FRY, IGFPB7, <z:uniprot sup="inside" fb="0" ids="Q4G0J3,Q4R627">LARP7</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="A5D7F6,Q8IZL2">MAML2</z:uniprot>, MHY10, <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,Q6FRE7">PTK2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q99952">PTPN18</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P49281">SLC11A2</z:uniprot>, <z:uniprot sup="inside" fb="1" ids="P35495,Q90WR8,Q02447,L8GD75,Q9DF66">SP3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q96DD7">TMEM58</z:uniprot>). </plain></SENT>
+<SENT sid="401" pm="."><plain>Three transcription factors created all of the links from the regulatory network into the intersecting genes (<z:uniprot sup="inside" fb="0" ids="P28698">MZF1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P40911,P41752,P41745,Q96WZ1,P14963,Q01520,Q01765,P32186,Q9HDF6,Q09069,O59949,Q92172,Q10587,P97516">TEF</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q1HE26,Q13485,Q9GKQ9">SMAD4</z:uniprot>) while an additional two transcription factors were present within the intersecting landscape via their connection to other genes made by epistatic interactions (<z:uniprot sup="inside" fb="0" ids="A5D7F6,Q8IZL2">MAML2</z:uniprot> and <z:uniprot sup="inside" fb="1" ids="P35495,Q90WR8,Q02447,L8GD75,Q9DF66">SP3</z:uniprot>). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s3"><title><text><SENT sid="402" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="403" pm="."><plain>The fundamental processes behind melanocyte differentiation and migration are well understood thanks largely to their relevance in the context of human melanoma and vitiligo [11]. </plain></SENT>
+<SENT sid="404" pm="."><plain>Many cases involve disruption of a single gene, however analysis in this study failed to identify a gene of large effect via SNP based association testing. </plain></SENT>
+<SENT sid="405" pm="."><plain>Therefore, the approach developed sought to investigate the genetic control of phenotypic variation through co-analysis of divergent data types. </plain></SENT>
+<SENT sid="406" pm="."><plain>In our case, the three data types were genomic variation (SNP) which differed between case and control populations, gene expression differences derived from symptomatic versus asymptomatic tissues and transcription factor mediated gene regulation. </plain></SENT>
+<SENT sid="407" pm="."><plain>We searched the resulting data for the coordinated regulation of genes via transcription factors (Figure 3, left side) and we reasoned that the coordinated action of multiple genes could be detected through analysis for epistatic interactions at the genetic level (Figure 3, right side). </plain></SENT>
+<SENT sid="408" pm="."><plain>Using network theory, we then interrogated the results of both approaches and identified a small number of intersecting genes. </plain></SENT>
+<SENT sid="409" pm="."><plain>This clearly revealed the molecular complexity underpinning the piebald phenotype in Merino sheep. </plain></SENT>
+</text></p><p><text><SENT sid="410" pm="."><plain>The current study has two technical limitations likely to have restricted our power to detect genes which contribute to piebald. </plain></SENT>
+<SENT sid="411" pm="."><plain>Firstly, the microarray used to detect gene expression contained only a subset of sheep transcripts. </plain></SENT>
+<SENT sid="412" pm="."><plain>This may not have been a critical limitation when investigating a pigmentation trait given the microarray was intentionally populated with 6,125 skin expressed sequence tags [15], however the possibility remains that biologically important genes were unavailable for testing. </plain></SENT>
+<SENT sid="413" pm="."><plain>Secondly, the ovine SNP chip facilitated genotyping of 49,034 SNP however only 35% of these are located with 2.5 Kb of a gene. </plain></SENT>
+<SENT sid="414" pm="."><plain>This meant many genes were not tagged by a physically associated genetic marker and recombination (between SNP and their nearest gene) is likely to have eroded the strength of association in many cases. </plain></SENT>
+<SENT sid="415" pm="."><plain>In addition to these technical considerations, it is worthwhile noting the analytical approach likely influenced the genes identified. </plain></SENT>
+<SENT sid="416" pm="."><plain>Network theory has long recognised the powerful role that hubs play in networks, namely their ability to pervade most of the network topology and provide robustness [16]. </plain></SENT>
+<SENT sid="417" pm="."><plain>We reduced network complexity by identification of hubs, but acknowledge this may have resulted in biologically relevant genes being missed where they do not act as hubs. </plain></SENT>
+</text></p><p><text><SENT sid="418" pm="."><plain>Despite these considerations, our approach has identified genes which would have remained hidden using either data type in isolation. </plain></SENT>
+<SENT sid="419" pm="."><plain>In what follows, and as a proof of concept validating the biological relevance of our results, we describe how genes located within in the intersecting landscape of the joint network (Figure 3) are known to be involved in pigmentation and more specifically in vitiligo. </plain></SENT>
+<SENT sid="420" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> is a <z:uniprot sup="inside" fb="0" ids="P22258">cell surface protein</z:uniprot> member of the tetraspanin family mediating signal transduction events that play a role in the regulation of cell development, activation, growth and motility [17] including motility of epidermal keratinocytes [18], [19]. </plain></SENT>
+<SENT sid="421" pm="."><plain>The finding that it can trigger platelet activation [20] makes our finding of an epistatic SNP pair connecting <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> highly relevant. </plain></SENT>
+<SENT sid="422" pm="."><plain>Indeed, one of our main candidates underpinning the piebald phenotype is <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> taking, along with <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot>, a prominent hub role in the landscape intersecting the regulatory and the epistatic networks. </plain></SENT>
+<SENT sid="423" pm="."><plain>Xu et al. [21] speculate that the <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> gene may be a candidate susceptibility gene of vitiligo. </plain></SENT>
+<SENT sid="424" pm="."><plain>Furthermore, within the context of livestock species a genome-wide scan [22] found the gene <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> to be under positive selection in Montbéliarde breed of cattle possibly underlying the primary importance of coat color patterns for herd-book registration. </plain></SENT>
+<SENT sid="425" pm="."><plain>Another intersecting genes (Figure 3) is <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">insulin-like growth factor-binding protein 7</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot>) which is a secreted protein and functions extracellularly. </plain></SENT>
+<SENT sid="426" pm="."><plain>Hochberg et al. [23] first showed that <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> is underexpressed in psoriatic epidermis but is inducible by ultraviolet treatment. </plain></SENT>
+<SENT sid="427" pm="."><plain>Since then, <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> has received particular attention due to its potential to induce apoptosis in human melanoma cell lines [24], [25]. </plain></SENT>
+<SENT sid="428" pm="."><plain>Of particular relevance is the fact that both <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot> are located within a 3 Mb window of ovine chromosome 6 (OAR6), in a region that also contains the KIT gene to which piebald was first associated [26]. </plain></SENT>
+<SENT sid="429" pm="."><plain>In this pioneering work, the authors did not exclude the involvement of other closely linked genes such as <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot>. </plain></SENT>
+<SENT sid="430" pm="."><plain>In order to further shed light into this issue, we took a detailed look at the LD structure and Manhattan plot of the SNP association results on OAR6 from 75 to 80 Mb (Figure S6). </plain></SENT>
+<SENT sid="431" pm="."><plain>The SNP associated to piebald (SNP ID: OAR6_76377079; P&lt;1.0E-3) is 116.0 kb downstream from <z:uniprot sup="inside" fb="0" ids="Q9PUF6,P16234">PDGFRA</z:uniprot> and 277.7 kb upstream from KIT. </plain></SENT>
+<SENT sid="432" pm="."><plain>Hence, the association of KIT with piebald in sheep cannot be entirely disregarded. </plain></SENT>
+</text></p><p><text><SENT sid="433" pm="."><plain>Two additional genes found within the intersection between the regulatory and the epistatic networks are <z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,Q6FRE7">PTK2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P52804,P52803">EFNA5</z:uniprot>. </plain></SENT>
+<SENT sid="434" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,P34152,O35346,Q91738">Protein tyrosine kinase 2</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q00944,Q05397,Q6FRE7">PTK2</z:uniprot>), also known as <z:uniprot sup="inside" fb="0" ids="Q00944,Q05397">FAK</z:uniprot>, has been reported to stimulate melanocyte migration [27] and to induce vitiligo repigmentation in vitro [28]. <z:uniprot sup="inside" fb="0" ids="P52804,P52803">EFNA5</z:uniprot> is a member of the ephrin family of proteins, components of cell signalling pathways involved in development [29]. </plain></SENT>
+<SENT sid="435" pm="."><plain>Its role as a negative regulator of <z:uniprot sup="inside" fb="0" ids="P0CY46,P13387,P04412,P00533,P55245,Q01279">epidermal growth factor receptor</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P13387,P00533,P55245">EGFR</z:uniprot>) has recently been established [30]. </plain></SENT>
+<SENT sid="436" pm="."><plain>Equally relevant, mutations in <z:uniprot sup="inside" fb="0" ids="P13387,P00533,P55245">EGFR</z:uniprot> have been reported to be associated with dark skin in mice [31], however the gene was not significantly associated in this study. </plain></SENT>
+<SENT sid="437" pm="."><plain>We did find, however, that expression of <z:uniprot sup="inside" fb="0" ids="Q9W7C5,Q09118,Q99075,Q01580">HBEGF</z:uniprot> was 1.91-fold down regulated (P = 8.14E-3) in white compared to black samples (DE1 and DE7; Table S1) and a SNP in its coding region (OAR5_53183086) also displayed suggestive association (P = 0.0894). </plain></SENT>
+</text></p><p><text><SENT sid="438" pm="."><plain>Finally, we surveyed the Color Genes database [32] and found it to include a number of genes reported in our study as either being DE and/or harbouring a SNP associated with the piebald phenotype. </plain></SENT>
+<SENT sid="439" pm="."><plain>These include: <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q96N67">DOCK7</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q2YDD1,O95684,Q4R7V3">FGFR1OP</z:uniprot>, <z:uniprot sup="inside" fb="2" ids="Q9IA31,P10071,Q5IS56">GLI3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q06154,Q98917,P40967">SILV</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q96SF7">TBX15</z:uniprot> (Table 1). </plain></SENT>
+<SENT sid="440" pm="."><plain>The molecular role of <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot> as a crosstalk between melanocortin-receptor signalling and immune function was first reported by [33]. </plain></SENT>
+<SENT sid="441" pm="."><plain>Further, He et al. [34] established that <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot> is a transmembrane receptor for agouti protein. </plain></SENT>
+<SENT sid="442" pm="."><plain>More recently, Seo et al. [35] reviewed the biology of epidermal and hair pigmentation in cattle and highlighted the likely role of <z:uniprot sup="inside" fb="0" ids="O75882">ATRN</z:uniprot> in he switching between the synthesis of melanin components. </plain></SENT>
+<SENT sid="443" pm="."><plain>A similar relationship with the agouti protein exists with <z:uniprot sup="inside" fb="0" ids="Q96SF7">TBX15</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q96N67">DOCK7</z:uniprot> and <z:uniprot sup="inside" fb="2" ids="Q9IA31,P10071,Q5IS56">GLI3</z:uniprot>. </plain></SENT>
+<SENT sid="444" pm="."><plain>In the absence of <z:uniprot sup="inside" fb="0" ids="Q96SF7">TBX15</z:uniprot>, expression of agouti in mice is displaced dorsally [36]. </plain></SENT>
+<SENT sid="445" pm="."><plain>Mice with mutations in the dedicator of cytokinesis 7 protein (<z:uniprot sup="inside" fb="0" ids="Q96N67">DOCK7</z:uniprot>) have generalized hypopigmentation and white-spotting [37]. </plain></SENT>
+<SENT sid="446" pm="."><plain>Matera et al. [38] showed that loss of <z:uniprot sup="inside" fb="2" ids="Q9IA31,P10071,Q5IS56">GLI3</z:uniprot> signalling disrupts melanoblast specification and that a mutation in <z:uniprot sup="inside" fb="2" ids="Q9IA31,P10071,Q5IS56">GLI3</z:uniprot> causes increased hypopigmentation in mice. </plain></SENT>
+</text></p><p><text><SENT sid="447" pm="."><plain>In conclusion, the incorporation of experiments which utilise multiple data types in a systems biology context is an appropriate approach for understanding complex biological systems. </plain></SENT>
+<SENT sid="448" pm="."><plain>Whole genome sequencing will soon become viable for livestock [39]. </plain></SENT>
+<SENT sid="449" pm="."><plain>This will bring access to every SNP and structural variant differing between the genomes of case and control populations. </plain></SENT>
+<SENT sid="450" pm="."><plain>When combined with methods to measure global transcription from target tissues, the approach described here holds enormous promise for the elucidation of the genetic drivers which underpin a spectrum of traits which, to this point, have remained intractable. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s4"><title><text><SENT sid="451" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s4a"><title><text><SENT sid="452" pm="."><plain>Piebald Animal Resource, Genotyping and Testing for Association </plain></SENT>
+</text></title><p><text><SENT sid="453" pm="."><plain>Pigmented Merinos within Australian industry flocks had the location and extent of colour spots photographically recorded. </plain></SENT>
+<SENT sid="454" pm="."><plain>Care was taken to avoid inclusion of cases which displayed symmetrical pigmentation which is diagnostic of the action of Agouti in sheep [40]. </plain></SENT>
+<SENT sid="455" pm="."><plain>Piebald animals (n = 24) from 23 properties were selected for genotyping to reduce relatedness between cases. </plain></SENT>
+<SENT sid="456" pm="."><plain>Genomic DNA was genotyped using the Ovine SNP50 BeadChip (<ext-link ext-link-type="uri" xlink:href="http://www.illumina.com">http://www.illumina.com</ext-link>) before raw signal intensities were converted into genotype calls using Illumina's Genome Studio software. </plain></SENT>
+<SENT sid="457" pm="."><plain>SNP were pruned using a series of quality filters to define a final set of 49,034 SNP. </plain></SENT>
+<SENT sid="458" pm="."><plain>Breed matched control animals (non piebald) were selected from the 199 Australian Merinos genotyped as part of the International Sheep Genomics Consortium's HapMap project (<ext-link ext-link-type="uri" xlink:href="http://www.sheephapmap.org">www.sheephapmap.org</ext-link>). </plain></SENT>
+<SENT sid="459" pm="."><plain>Pair-wise allele sharing was calculated between all animals (24 cases and 199 controls) from all SNP. </plain></SENT>
+<SENT sid="460" pm="."><plain>The resulting allele sharing matrix was used in a step wise fashion to select 72 control animals which maximised allele sharing between cases and controls, thereby reducing genetic variability and substructure unrelated to piebald. </plain></SENT>
+<SENT sid="461" pm="."><plain>The filtering schema proceeded as follows: for each piebald individual, three non-pigmented controls with the highest pair-wise allele sharing were selected. </plain></SENT>
+<SENT sid="462" pm="."><plain>Once a normal individual was selected, it was not included in the search of the three most related individuals with the next piebald individual. </plain></SENT>
+<SENT sid="463" pm="."><plain>We measured the statistical association of each of SNP with piebald as the difference between its average genotype across within the piebald sample (24 animals) minus its average genotype across the normal sheep (72 animals). </plain></SENT>
+<SENT sid="464" pm="."><plain>SNPs were deemed to be significantly associated if the observed genotype difference was beyond three standard deviations from the mean and the chi-square test yielded a P-value&lt;0.001. </plain></SENT>
+</text></p></sec><sec id="s4b"><title><text><SENT sid="465" pm="."><plain>Linking Gene Expression to GWAS </plain></SENT>
+</text></title><p><text><SENT sid="466" pm="."><plain>SNP was mapped with its nearest protein-coding gene using the available sheep genome sequence [39]. </plain></SENT>
+<SENT sid="467" pm="."><plain>The final data set included 48,686 SNP that displayed polymorphism within the 96 cases and controls. </plain></SENT>
+<SENT sid="468" pm="."><plain>Of these, 15,624 SNPs were intragenic, while a further 1,592 SNPs were located within 2.5 kb for either side of a gene's coding sequence and considered to be putatively cis-acting. </plain></SENT>
+<SENT sid="469" pm="."><plain>A further 24,727 SNP were mapped beyond 20 kb of a gene and considered to be linked to another gene [41]. Figure S3 shows the empirical density distribution of the 6,687 SNPs located from 1 base-pair to 20 kb distance from a gene. </plain></SENT>
+<SENT sid="470" pm="."><plain>Finally, 1,741 SNPs were unmapped. </plain></SENT>
+</text></p></sec><sec id="s4c"><title><text><SENT sid="471" pm="."><plain>Study Design and Tissue Sampling for Gene Expression </plain></SENT>
+</text></title><p><text><SENT sid="472" pm="."><plain>We used the bovine/ovine skin gene expression microarray platform described previously [15]. </plain></SENT>
+<SENT sid="473" pm="."><plain>In brief, 11,689 probes were printed in duplicate onto Corning UltraGAPS (Corning Inc., NY, USA) glass slides at a spacing of 210 µm. </plain></SENT>
+<SENT sid="474" pm="."><plain>For skin biopsies, a wool staple sample was removed by close clipping a region of approximately 5 cm2. </plain></SENT>
+<SENT sid="475" pm="."><plain>Two skin trephines of 0.9 cm diameter were taken from the clipped region and immediately placed in RNA later (Ambion) for subsequent RNA extraction. </plain></SENT>
+<SENT sid="476" pm="."><plain>Skin samples in RNA later were placed into −80°C freezers for long-term storage. </plain></SENT>
+<SENT sid="477" pm="."><plain>Total RNA was prepared from the skin samples using <z:uniprot sup="inside" fb="0" ids="P50162,P22217">TRI</z:uniprot> Reagent in accordance with the manufacturer's recommendations (Sigma, St Louis, MO, USA). </plain></SENT>
+</text></p><p><text><SENT sid="478" pm="."><plain>The general experimental design for the microarray hybridisations is shown in Figure 2A. </plain></SENT>
+<SENT sid="479" pm="."><plain>In total, 20 hybridizations were performed. </plain></SENT>
+<SENT sid="480" pm="."><plain>The design took into account the limited animal material and was developed with an emphasis on the exploration of all possible contrasts of interest so that all samples were compared against each other in a series of hybridizations with alternate dye-swaps. </plain></SENT>
+<SENT sid="481" pm="."><plain>Five skin samples, or experimental conditions, were explored and codified as follows: </plain></SENT>
+</text></p><list list-type="simple"><list-item><p><text><SENT sid="482" pm="."><plain>NOR (‘normal’) = White sample from normal sheep; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="483" pm="."><plain>PBW (‘piebald white’) = White sample from piebald sheep; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="484" pm="."><plain>PBB (‘piebald black’) = Black sample from piebald sheep; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="485" pm="."><plain><z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot> (‘recessive white’) = White sample from Agouti recessive black sheep (sample taken from the inguinal, non-pigmented area); and </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="486" pm="."><plain>RSB (‘recessive black’) = Black sample from Agouti recessive black sheep. </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="487" pm="."><plain>We used the GenePix 4000A optical scanner and the GenePixPro 5.1 image analysis software (both from Molecular Devices, Sunnyvale, CA, USA) to quantify the gene expression level intensities. </plain></SENT>
+<SENT sid="488" pm="."><plain>Two filtering criteria were applied during data acquisition. </plain></SENT>
+<SENT sid="489" pm="."><plain>Firstly, probes with a signal to noise ratio less than two in all hybridisations were deemed undetectable and removed from the analysis. </plain></SENT>
+<SENT sid="490" pm="."><plain>Secondly, for genes represented by multiple probes the most abundant probe, averaged across all hybridisations, was used. </plain></SENT>
+<SENT sid="491" pm="."><plain>This second criterion is based on the fact that abundant probes are better annotated and their intensity signals less prone to noise. </plain></SENT>
+<SENT sid="492" pm="."><plain>After filtering, 300,480 gene expression intensity readings remained (half from each colour channel and 15,024 from each chip) from 3,685 unique skin-specific genes. </plain></SENT>
+<SENT sid="493" pm="."><plain>Prior to normalization, signals were background corrected and base-2 log-transformed. </plain></SENT>
+<SENT sid="494" pm="."><plain>The arithmetic mean and standard deviation (in brackets) for the red and green intensities were 7.04 (3.24) and 8.49 (2.19) respectively. </plain></SENT>
+<SENT sid="495" pm="."><plain>The expression data from the entire set of 20 hybridisations was deposited in Gene Expression Omnibus (GEO; <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/">http://www.ncbi.nlm.nih.gov/geo/</ext-link>) and can be downloaded and can be accessed using accession number GSE24189. </plain></SENT>
+</text></p></sec><sec id="s4d"><title><text><SENT sid="496" pm="."><plain>Normalization of Gene Expression </plain></SENT>
+</text></title><p><text><SENT sid="497" pm="."><plain>Following previously described approaches [42] we fitted the following ANOVA mixed-effect model to normalize the gene expression data:where Yijkftmn represents the n-th background-adjusted, base-2 log-intensity from the m-th gene at the t-th sample variety (NOR, PBW, PBB, <z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>, and RSB) taken from the i-th array, j-th printing block and k-th dye channel; μ is the overall mean; C represents a comparison group fixed effect defined as those intensity measurements that originate from the same array slide, printing block and dye channel; G represents the random gene effects with 3,685 levels; AG, DG, and VG are the random interaction effects of array×gene, dye×gene, and variety×gene, respectively; and e is the random error term. </plain></SENT>
+<SENT sid="498" pm="."><plain>Using standard stochastic assumptions, the effects of G, AG, DG, VG and e were assumed to follow a normal distribution with zero mean and between-gene, between-gene within-array, between-gene within-dye, between-gene within-variety and within-gene components of variance, respectively. </plain></SENT>
+<SENT sid="499" pm="."><plain>Restricted maximum likelihood estimates of variance components and solutions to model effects were obtained using VCE6 software (<ext-link ext-link-type="ftp" xlink:href="ftp://ftp.tzv.fal.de/pub/vce6/">ftp://ftp.tzv.fal.de/pub/vce6/</ext-link>). </plain></SENT>
+<SENT sid="500" pm="."><plain>The solutions to the VG effect were used as the normalized mean expression of each gene in each of the five samples under scrutiny. </plain></SENT>
+</text></p><p><text><SENT sid="501" pm="."><plain>To contrast the expression of each gene across sample types, we explored the following seven measures of differential expression (DE): </plain></SENT>
+</text></p><list list-type="simple"><list-item><p><text><SENT sid="502" pm="."><plain>DE1 (‘black vs white within piebald’) = PBB−PBW </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="503" pm="."><plain>DE2 (‘piebald vs recessive within black’) = PBB−RSB </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="504" pm="."><plain>DE3 (‘piebald vs normal within white’) = PBW−NOR </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="505" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P16343">DE4</z:uniprot> (‘piebald vs recessive within white’) = PBW−<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot> </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="506" pm="."><plain>DE5 (‘piebald vs others within white’) = PBW−½(NOR+<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>) </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="507" pm="."><plain>DE6 (‘piebald vs non-piebald’) = ½(PBW+PBB)−1/3(NOR+<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>+RSB) </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="508" pm="."><plain>DE7 (‘black vs white’) = ½(PBB+RSB)−1/3(NOR+PBW+<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>) </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="509" pm="."><plain>Using a nominal P-value&lt;0.01 from a two-tailed t-test statistic, genes were deemed to be DE if their normalized measure of differential expression across any of the 7 DE contrasts felt beyond 2.57 standard deviations. </plain></SENT>
+<SENT sid="510" pm="."><plain>We used PermutMatrix [43] to perform hierarchical cluster analysis of gene expression across skin tissue samples. </plain></SENT>
+</text></p></sec><sec id="s4e"><title><text><SENT sid="511" pm="."><plain>Promoter sequence analysis </plain></SENT>
+</text></title><p><text><SENT sid="512" pm="."><plain>The bovine genome-wide promoter sequence database from Genomatix (<ext-link ext-link-type="uri" xlink:href="http://www.genomatix.de/">http://www.genomatix.de/</ext-link>; ElDorado Btau 4, v-07-09) was used in the absence of annotated promoter data for sheep. </plain></SENT>
+<SENT sid="513" pm="."><plain>A total of 60,131 promoter sequences derived from 22,050 genes were downloaded. </plain></SENT>
+<SENT sid="514" pm="."><plain>To ensure only high confidence promoters were selected we applied the concept of orthologous promoters [44] and retained only those promoters for which phylogenetically conserved sequences were documented in both the human and mouse genomes. </plain></SENT>
+<SENT sid="515" pm="."><plain>This resulted in identification of 39,696 promoter sequences distributed over 13,623 genes. </plain></SENT>
+<SENT sid="516" pm="."><plain>We subsequently applied a threshold of 1 (100% confidence) to core and matrix similarities [45] to identify a final set of 310,316 high confidence TFBS that were used for integration with the gene expression data. </plain></SENT>
+</text></p></sec><sec id="s4f"><title><text><SENT sid="517" pm="."><plain>Regulatory and Epistatic Networks </plain></SENT>
+</text></title><p><text><SENT sid="518" pm="."><plain>The gene regulatory network (Figure 3, left side) was constructed using two attribute types. </plain></SENT>
+<SENT sid="519" pm="."><plain>First, output from the promoter sequence analysis was used to create edges linking genes and transcription factors (TFs). </plain></SENT>
+<SENT sid="520" pm="."><plain>Specifically, edges were constructed only where analysis revealed a given gene contained a transcription factor binding site (TFBS) corresponding to the linked TF. </plain></SENT>
+<SENT sid="521" pm="."><plain>Second, differential gene expression observed between piebald and non-piebald tissue was used. </plain></SENT>
+<SENT sid="522" pm="."><plain>To obtain a global understanding of gene expression across the seven tissue contrasts (DE1–7), we first calculated the correlation (R-value) for each pair-wise combination (all 21 combinations are plotted in Figure S5). </plain></SENT>
+<SENT sid="523" pm="."><plain>This revealed the highest three correlations (R = 0.88, 0.82 and 0.79) were observed for combinations (DE3, DE5 and DE6) which in each case compared a piebald (only white or all piebald) versus a non-piebald sample (using the normal sample, all the white non-piebald or all the non-piebald, respectively). </plain></SENT>
+<SENT sid="524" pm="."><plain>For each gene, we therefore used the average value (from DE3, DE5 and DE6) as input in the network to show genes as either over-expressed (red), under-expressed (green) or having unchanged expression (orange) in the piebald condition. </plain></SENT>
+<SENT sid="525" pm="."><plain>Using the two attributes the network was joined, visualised and explored using the Cytoscape software [46]. </plain></SENT>
+<SENT sid="526" pm="."><plain>For the epistatic network (Figure 3, right side) SNP pairs were used as input which displayed evidence for epistasis. </plain></SENT>
+<SENT sid="527" pm="."><plain>Contingency tables comprising 9 rows (combinations of two loci genotypes) and 2 columns (containing genotype counts within either the piebald or non-piebald populations) were constructed for each of the 25,425 pair-wise combinations of 226 SNP significantly associated with the piebald condition. </plain></SENT>
+<SENT sid="528" pm="."><plain>The distribution of observations in each table were tested (P&lt;0.001 from a chi-square test with 8 degrees of freedom) to identify 645 significant pairs. </plain></SENT>
+<SENT sid="529" pm="."><plain>A subset of these significant pairs may result from linkage disequilibrium (as opposed to epistasis) where SNP pairs are in close physical proximity (&lt;100 Kb). </plain></SENT>
+<SENT sid="530" pm="."><plain>To generate the epistatic network using this data, we used the closest gene to each SNP in a significant pair. </plain></SENT>
+<SENT sid="531" pm="."><plain>As for the regulatory network, DE was incorporated from the average of DE3, DE5 and DE6 and Cytoscape was used to built and explore the network [46]. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s5"><title><text><SENT sid="532" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0021158.s001"><label>Figure S1</label><caption><p><text><SENT sid="533" pm="."><plain>Genome wide association results for piebald. </plain></SENT>
+<SENT sid="534" pm="."><plain>The strength of association expressed as negative log P values (Y axis) are shown for 49034 SNP (X axis) arranged in genomic order from chromosome 1 (far left) to the X chromosome (far right). </plain></SENT>
+</text></p><p><text><SENT sid="535" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s001.tif"><caption><p><text><SENT sid="536" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0021158.s002"><label>Figure S2</label><caption><p><text><SENT sid="537" pm="."><plain>Co-regulation of 54 genes associated with pigmentation. </plain></SENT>
+<SENT sid="538" pm="."><plain>Gene expression was examined using five tissue types as follows: white skin tissue from a non-pigmented animal (NOR); black skin tissue from a piebald animal (PBB); white skin tissue from a piebald animal (PBW); black skin tissue from a self color black animal (RSB) and white skin tissue from a self color black animal (<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>). </plain></SENT>
+<SENT sid="539" pm="."><plain>The normalised mean expression (NME) within each tissue type is represented using color ranging from green (down regulation) through to red (up regulation). </plain></SENT>
+<SENT sid="540" pm="."><plain>The 54 genes displayed were differentially expressed in at least 4 of the 7 tissue type contrasts examined (Figure 1 describes the 7 contrasts). </plain></SENT>
+<SENT sid="541" pm="."><plain>Hierarchical clustering was performed to identify genes which are expressed in a coordinated way across tissue types, which revealed a set of 11 keratin genes strongly down regulated in piebald tissue. </plain></SENT>
+</text></p><p><text><SENT sid="542" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s002.tif"><caption><p><text><SENT sid="543" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0021158.s003"><label>Figure S3</label><caption><p><text><SENT sid="544" pm="."><plain>Physical proximity of SNP on the ovine SNP50 BeadChip to genes annotated in Ovine Genome Assembly v1.0 (<ext-link ext-link-type="uri" xlink:href="https://www.biolives.csiro.au/cgi-bin/gbrowse/oar1.0/">https://www.biolives.csiro.au/cgi-bin/gbrowse/oar1.0/</ext-link>). </plain></SENT>
+<SENT sid="545" pm="."><plain>A total of 47,275 SNP with known base pair location were examined. </plain></SENT>
+<SENT sid="546" pm="."><plain>Of these, 15,624 SNP (or 33%) were intragenic while 24,921 (53%) were located greater than 20 Kb from the nearest gene. </plain></SENT>
+<SENT sid="547" pm="."><plain>The distribution of the remaining 6,730 (14%) of SNP is shown where the SNP to gene distance was binned in increments of 0.2 Kb from 1 bp to 20 Kb. </plain></SENT>
+<SENT sid="548" pm="."><plain>Importantly, the analysis reported 17,223 SNP were located with 2.5 Kb of the nearest gene which was our empirical threshold for defining SNP as potentially be cis-acting. </plain></SENT>
+</text></p><p><text><SENT sid="549" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s003.tif"><caption><p><text><SENT sid="550" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0021158.s004"><label>Figure S4</label><caption><p><text><SENT sid="551" pm="."><plain>Plot of allele frequency difference versus gene expression for a set of 1,935 genes. </plain></SENT>
+<SENT sid="552" pm="."><plain>For each of seven gene expression contrasts (termed DE1–DE7; refer to the materials and methods), the position of each symbol plots both the SNP allele frequency difference between piebald and non-piebald animals (Y axis) and differential gene expression (X axis). </plain></SENT>
+<SENT sid="553" pm="."><plain>Red symbols represent genes which were both differentially expressed (piebald versus normal) and have a SNP within 2.5 Kb. </plain></SENT>
+<SENT sid="554" pm="."><plain>Black symbols represent genes which either (i) displayed differential expression (p-value&lt;0.05) or (ii) are located within 1 Mb of an associated SNP (p-value&lt;0.01). </plain></SENT>
+<SENT sid="555" pm="."><plain>The remaining green symbols represent genes which were neither differentially expressed nor located near associated SNP. </plain></SENT>
+</text></p><p><text><SENT sid="556" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s004.tif"><caption><p><text><SENT sid="557" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0021158.s005"><label>Figure S5</label><caption><p><text><SENT sid="558" pm="."><plain>Correlation of differential expression for 1,935 genes. </plain></SENT>
+<SENT sid="559" pm="."><plain>Differential gene expression observed within each of seven contrasts (termed DE1–DE7) were correlated in 21 pair-wise comparisons. </plain></SENT>
+<SENT sid="560" pm="."><plain>The highest correlation (R = 0.88) was observed between DE3 and DE5, both of which examined the difference between piebald and non-piebald tissues. </plain></SENT>
+<SENT sid="561" pm="."><plain>The only difference between the two contrasts being inclusion of an additional tissue type (<z:uniprot sup="inside" fb="7" ids="F4HTM3">RSW</z:uniprot>) in DE5. </plain></SENT>
+<SENT sid="562" pm="."><plain>Similarly, the second and third highest correlations (DE5 and DE6 R = 0.82; DE3 and DE6 R = 0.79) was also found between contrasts constructed between piebald and non-piebald tissue types. </plain></SENT>
+<SENT sid="563" pm="."><plain>Three contrasts together (DE3, DE5 and DE6) were used to assign genes as either over-expressed (red), under-expressed (green) or having unchanged expression (orange) in the gene networks relating to piebald (Figure 3). </plain></SENT>
+</text></p><p><text><SENT sid="564" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s005.tif"><caption><p><text><SENT sid="565" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0021158.s006"><label>Figure S6</label><caption><p><text><SENT sid="566" pm="."><plain>SNP association results for OAR6. </plain></SENT>
+<SENT sid="567" pm="."><plain>(A) The strength of association between each SNP and piebald is given as negative log P values (X axis) across a 5 Mb region of sheep chromosome (OAR) 6 (X axis). </plain></SENT>
+<SENT sid="568" pm="."><plain>This shows the position of the highest ranked SNP (s49104), genome wide, at Mb position 79.9. </plain></SENT>
+<SENT sid="569" pm="."><plain>(B) Pair-wise linkage disequilibrium between SNP, measured as r 2, was calculated using all 96 animals (24 cases and 72 controls) and plotted as a heatmap in Haploview. </plain></SENT>
+<SENT sid="570" pm="."><plain>This shows LD extends for only short distances across the region. </plain></SENT>
+<SENT sid="571" pm="."><plain>The relative location of each annotated gene within the region is shown in (C). </plain></SENT>
+</text></p><p><text><SENT sid="572" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s006.tif"><caption><p><text><SENT sid="573" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0021158.s007"><label>Table S1</label><caption><p><text><SENT sid="574" pm="."><plain>Piebald associated genes. </plain></SENT>
+<SENT sid="575" pm="."><plain>All of the genes listed displayed either DE in one or more contrasts and a cis-SNP or the absence of DE but an associated SNP within the chromosomal region (&lt;1 Mb). </plain></SENT>
+</text></p><p><text><SENT sid="576" pm="."><plain>(DOC) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0021158.s007.doc"><caption><p><text><SENT sid="577" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="578" pm="."><plain>The authors gratefully acknowledge Belinda Norris and Damien Turner for collection of the piebald animals and development of the expression array, as well as the Australian Sheep Industry <z:uniprot sup="inside" fb="47" ids="Q8L925,Q96318,P16960,Q719L8">CRC</z:uniprot> (Sheep <z:uniprot sup="inside" fb="0" ids="Q12289,Q7XK25,Q719L9">CRC1</z:uniprot>) for making the resulting material and data available. </plain></SENT>
+</text></text4fund></p></ack></SecTag><fn-group><fn fn-type="COI-statement"><p><text><SENT sid="579" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><SecTag type="ACK_FUND"><fn fn-type="financial-disclosure"><p><text4fund><text><SENT sid="580" pm="."><plain>Funding: JJA and EGG were supported by the Spanish Ministry of Science (Project AGL2009-07000), EGG was funded by the Spanish Ministry of Education (AP2008-01410, FPU programme). </plain></SENT>
+<SENT sid="581" pm="."><plain>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. </plain></SENT>
+</text></text4fund></p></fn></SecTag></fn-group><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0021158-Charlier1"><text><SENT sid="582" pm="."><plain>1 CharlierCCoppietersWRollinFDesmechtDAgerholmJS 2008 Highly effective SNP-based association mapping and management of recessive defects in livestock. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 40 449 454 18344998 </plain></SENT>
+</text></ref><ref id="pone.0021158-Becker1"><text><SENT sid="583" pm="."><plain>2 BeckerDTetensJBrunnerABürstelDGanterM 2010 Microphthalmia in Texel sheep is associated with a missense mutation in the paired-like homeodomain 3 (<z:uniprot sup="inside" fb="0" ids="O75364">PITX3</z:uniprot>) gene. PLoS One 5 e8689 20084168 </plain></SENT>
+</text></ref><ref id="pone.0021158-Parker1"><text><SENT sid="584" pm="."><plain>3 ParkerHGShearinALOstranderEA 2010 Man's best friend becomes biology's best in show: genome analyses in the domestic dog. Annu Rev Genet 44 309 36 21047261 </plain></SENT>
+</text></ref><ref id="pone.0021158-Boyko1"><text><SENT sid="585" pm="."><plain>4 BoykoARQuignonPLiLSchoenebeckJJDegenhardtJD 2010 A simple genetic architecture underlies morphological variation in dogs. PLoS Biol 8 e1000451 20711490 </plain></SENT>
+</text></ref><ref id="pone.0021158-Yang1"><text><SENT sid="586" pm="."><plain>5 YangJBenyaminBMcEvoyBPGordonSHendersAK 2010 Common SNPs explain a large proportion of the heritability for human height. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 42 565 569 20562875 </plain></SENT>
+</text></ref><ref id="pone.0021158-Hayes1"><text><SENT sid="587" pm="."><plain>6 HayesBJPryceJChamberlainAJBowmanPJGoddardME 2010 Genetic architecture of complex traits and accuracy of genomic prediction: coat colour, milk-fat percentage, and type in Holstein cattle as contrasting model traits. PLoS Genetics 6 e1001139 20927186 </plain></SENT>
+</text></ref><ref id="pone.0021158-Fortes1"><text><SENT sid="588" pm="."><plain>7 FortesMRReverterAZhangYCollisENagarajSH 2010 Association weight matrix for the genetic dissection of puberty in beef cattle. Proc Natl Acad Sci USA 107 13642 13647 20643938 </plain></SENT>
+</text></ref><ref id="pone.0021158-Peidis1"><text><SENT sid="589" pm="."><plain>8 PeidisPGiannakourosTBurowMEWilliamsRWScottRE 2010 Systems genetics analyses predict a transcription role for <z:uniprot sup="inside" fb="2" ids="P51582">P2P</z:uniprot>-R: molecular confirmation that <z:uniprot sup="inside" fb="2" ids="P51582">P2P</z:uniprot>-R is a transcriptional co-repressor. BMC Syst Biol 4 14 20184719 </plain></SENT>
+</text></ref><ref id="pone.0021158-Diez1"><text><SENT sid="590" pm="."><plain>9 DiezDWheelockAMGotoSHaeggströmJZPaulsson-BerneG 2010 The use of network analyses for elucidating mechanisms in cardiovascular disease. Mol Biosyst 6 289 304 20094647 </plain></SENT>
+</text></ref><ref id="pone.0021158-Hecker1"><text><SENT sid="591" pm="."><plain>10 HeckerMLambeckSToepferSvan SomerenEGuthkeR 2009 Gene regulatory network inference: data integration in dynamic models-a review. Biosystems 96 86 103 19150482 </plain></SENT>
+</text></ref><ref id="pone.0021158-Bondanza1"><text><SENT sid="592" pm="."><plain>11 BondanzaSBelliniMRoversiGRaskovicDMaurelliR 2006 Piebald trait: Implication of kit mutation on in vitro melanocyte survival and on the clinical application of cultured epidermal autografts. J Invest Dermatol 17 676 685  </plain></SENT>
+</text></ref><ref id="pone.0021158-Brooker1"><text><SENT sid="593" pm="."><plain>12 BrookerMGDollingCHS 1969 Pigmentation of sheep: III. </plain></SENT>
+<SENT sid="594" pm="."><plain>Piebald pattern in the Merino. Australian J Agricultural Research 20 523 532  </plain></SENT>
+</text></ref><ref id="pone.0021158-Yang2"><text><SENT sid="595" pm="."><plain>13 YangLiYNishimuraEKXinHZhouA 2008 Inhibition of <z:uniprot sup="inside" fb="0" ids="P23760">PAX3</z:uniprot> by TGF-β modulates melanocyte viability. Mol Cell 32 554 563 19026785 </plain></SENT>
+</text></ref><ref id="pone.0021158-Karlsson1"><text><SENT sid="596" pm="."><plain>14 KarlssonEKBaranowskaIWadeCMSalmon HillbertzNHZodyMC 2007 mapping of mendelian traits in dogs through genome-wide association. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 39 1321 1328 17906626 </plain></SENT>
+</text></ref><ref id="pone.0021158-Smith1"><text><SENT sid="597" pm="."><plain>15 SmithWJLiYInghamACollisEMcWilliamSM 2010 A genomics-informed, SNP association study reveals <z:uniprot sup="inside" fb="0" ids="O73775,Q8MJJ9,P23142">FBLN1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P48035,A6YLM6,P15090,Q99P60,O97788,A0A0K0MJN3">FABP4</z:uniprot> as contributing to resistance to fleece rot in Australian Merino sheep. BMC Vet Res 6 27 20500888 </plain></SENT>
+</text></ref><ref id="pone.0021158-Barabasi1"><text><SENT sid="598" pm="."><plain>16 BarabasiAOltvaiZ 2004 Network biology: Understanding the cell's functional organization. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Rev 5 101 113  </plain></SENT>
+</text></ref><ref id="pone.0021158-Charrin1"><text><SENT sid="599" pm="."><plain>17 CharrinSLe NaourFOualidMBillardMFaureG 2001 The major <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q3ZCD0,O97703,P60033,P60034,Q9N0J9">CD81</z:uniprot> molecular partner. </plain></SENT>
+<SENT sid="600" pm="."><plain>Identification and characterization of the complexes. J Biol Chem 276 14329 14337 11278880 </plain></SENT>
+</text></ref><ref id="pone.0021158-Baudoux1"><text><SENT sid="601" pm="."><plain>18 BaudouxBCastanares-ZapateroDLeclercq-SmekensMBernaNPoumayY 2000 The tetraspanin <z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot> associates with the integrin alpha6beta4 in cultured human epidermal keratinocytes and is involved in cell motility. Eur J Cell Biol 79 41 51 10711425 </plain></SENT>
+</text></ref><ref id="pone.0021158-Peas1"><text><SENT sid="602" pm="."><plain>19 PeñasPFGarcía-DíezASánchez-MadridFYáñez-MóM 2000 Tetraspanins are localized at motility-related structures and involved in normal human keratinocyte wound healing migration. J Invest Dermatol 14 1126 1135  </plain></SENT>
+</text></ref><ref id="pone.0021158-Lanza1"><text><SENT sid="603" pm="."><plain>20 LanzaFWolfDFoxCFKiefferNSeyerJM 1991 cDNA cloning and expression of platelet <z:uniprot sup="inside" fb="42" ids="P21926,P61022,Q08538,Q9CQM0,Q1KZ54,P0C798,P0C799,P69618,P25989,P0C6L3,P06934,P29833,P25881,P25882,P25880,Q81842,P69619,P25884,Q9E925,Q81835,Q91DH7,Q91DH8,Q91DH9,P29997,Q15363,O94811">p24</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P30932,P30409,P40239,P21926,Q8WMQ3">CD9</z:uniprot>. </plain></SENT>
+<SENT sid="604" pm="."><plain>Evidence for a new family of multiple membrane-spanning proteins. J Biol Chem 266 10638 10645 2037603 </plain></SENT>
+</text></ref><ref id="pone.0021158-Xu1"><text><SENT sid="605" pm="."><plain>21 XuSZhouYYangSRenYZhangC 2010 Platelet-derived <z:uniprot sup="inside" fb="0" ids="Q8V307,Q776B5,P08072,Q6RZT5,P08441">growth factor</z:uniprot> receptor alpha gene mutations in vitiligo vulgaris. Acta Derm Venereol 90 131 135 20169295 </plain></SENT>
+</text></ref><ref id="pone.0021158-Flori1"><text><SENT sid="606" pm="."><plain>22 FloriLFritzSJaffrézicFBoussahaMGutI 2009 The genome response to artificial selection: a case study in dairy cattle. PLoS One 4 e6595 19672461 </plain></SENT>
+</text></ref><ref id="pone.0021158-Hochberg1"><text><SENT sid="607" pm="."><plain>23 HochbergMZeligsonSAmariglioNRechaviGIngberA 2007 Genomic-scale analysis of psoriatic skin reveals differentially expressed <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">insulin-like growth factor-binding protein-7</z:uniprot> after phototherapy. Br J Dermatol 156 289 300 17223869 </plain></SENT>
+</text></ref><ref id="pone.0021158-Wajapeyee1"><text><SENT sid="608" pm="."><plain>24 WajapeyeeNSerraRWZhuXMahalingamMGreenMR 2008 Oncogenic <z:uniprot sup="inside" fb="1" ids="Q04982,P34908,P15056">BRAF</z:uniprot> induces senescence and apoptosis through pathways mediated by the secreted protein <z:uniprot sup="inside" fb="0" ids="Q16270,Q61581">IGFBP7</z:uniprot>. Cell 132 363 374 18267069 </plain></SENT>
+</text></ref><ref id="pone.0021158-Scurr1"><text><SENT sid="609" pm="."><plain>25 ScurrLLPupoGMBeckerTMLaiKSchramaD 2010 IGFBP7 is not required for B-RAF-induced melanocyte senescence. Cell 141 717 727 20478260 </plain></SENT>
+</text></ref><ref id="pone.0021158-Fleischman1"><text><SENT sid="610" pm="."><plain>26 FleischmanRASaltmanDLStastnyVZneimerS 1991 Deletion of the c-kit protooncogene in the human developmental defect piebald trait. Proc Natl Acad Sci USA 88 10885 9 1720553 </plain></SENT>
+</text></ref><ref id="pone.0021158-Wu1"><text><SENT sid="611" pm="."><plain>27 WuCSLanCCChiouMHYuHS 2006 Basic fibroblast <z:uniprot sup="inside" fb="0" ids="Q8V307,Q776B5,P08072,Q6RZT5,P08441">growth factor</z:uniprot> promotes melanocyte migration via increased expression of <z:uniprot sup="inside" fb="0" ids="Q9EP71,Q9Y6Y8,Q01831,P51612">p125</z:uniprot>(<z:uniprot sup="inside" fb="0" ids="Q00944,Q05397">FAK</z:uniprot>) on melanocytes. Acta Derm Venereol 86 498 502 17106595 </plain></SENT>
+</text></ref><ref id="pone.0021158-Lan1"><text><SENT sid="612" pm="."><plain>28 LanCCWuCSChiouMHHsiehPCYuHS 2006 Low-energy helium-neon laser induces locomotion of the immature melanoblasts and promotes melanogenesis of the more differentiated melanoblasts: recapitulation of vitiligo repigmentation in vitro. J Invest Dermatol 126 2119 2126 16691191 </plain></SENT>
+</text></ref><ref id="pone.0021158-Boyd1"><text><SENT sid="613" pm="."><plain>29 BoydAWLackmannM 2001 Signals from Eph and ephrin proteins: a developmental tool kit. Sci STKE 2001 re20 11741094 </plain></SENT>
+</text></ref><ref id="pone.0021158-Li1"><text><SENT sid="614" pm="."><plain>30 LiJJLiuDPLiuGTXieD 2009 EphrinA5 acts as a tumor suppressor in glioma by negative regulation of <z:uniprot sup="inside" fb="0" ids="P0CY46,P13387,P04412,P00533,P55245,Q01279">epidermal growth factor receptor</z:uniprot>. Oncogene 28 1759 1768 19270726 </plain></SENT>
+</text></ref><ref id="pone.0021158-Fitch1"><text><SENT sid="615" pm="."><plain>31 FitchKRMcGowanKAvan RaamsdonkCDFuchsHLeeD 2003 Genetics of dark skin in mice. Genes Dev 17 214 228 12533510 </plain></SENT>
+</text></ref><ref id="pone.0021158-International1"><text><SENT sid="616" pm="."><plain>32 International Federation of Pigment Cell Societies Color Genes Database. Available: <ext-link ext-link-type="uri" xlink:href="http://www.espcr.org/micemut/">http://www.espcr.org/micemut/</ext-link>. </plain></SENT>
+<SENT sid="617" pm="."><plain>Accessed 2010 May 15  </plain></SENT>
+</text></ref><ref id="pone.0021158-Gunn1"><text><SENT sid="618" pm="."><plain>33 GunnTMMillerKAHeLHymanRWDavisRW 1999 The mouse mahogany locus encodes a transmembrane form of human <z:uniprot sup="inside" fb="0" ids="O75882,Q9WU60,Q99J86,O96910,Q7M460,Q7M459,Q7M461">attractin</z:uniprot>. Nature 398 152 156 10086356 </plain></SENT>
+</text></ref><ref id="pone.0021158-He1"><text><SENT sid="619" pm="."><plain>34 HeLGunnTMBouleyDMLuXYWatsonSJ 2001 A biochemical function for <z:uniprot sup="inside" fb="0" ids="O75882,Q9WU60,Q99J86,O96910,Q7M460,Q7M459,Q7M461">attractin</z:uniprot> in agouti-induced pigmentation and obesity. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 27 40 47 11137996 </plain></SENT>
+</text></ref><ref id="pone.0021158-Seo1"><text><SENT sid="620" pm="."><plain>35 SeoKMohantyTRChoiTHwangI 2007 Biology of epidermal and hair pigmentation in cattle: a mini-review. Vet Dermatol 18 392 400 17991156 </plain></SENT>
+</text></ref><ref id="pone.0021158-Candille1"><text><SENT sid="621" pm="."><plain>36 CandilleSIVan RaamsdonkCDChenCKuijperSChen-TsaiY 2004 Dorsoventral patterning of the mouse coat by <z:uniprot sup="inside" fb="0" ids="O70306">Tbx15</z:uniprot>. PLoS Biol 2 E3 14737183 </plain></SENT>
+</text></ref><ref id="pone.0021158-Blasius1"><text><SENT sid="622" pm="."><plain>37 BlasiusALBrandlKCrozatKXiaYKhovananthK 2009 Mice with mutations of <z:uniprot sup="inside" fb="0" ids="Q8R1A4">Dock7</z:uniprot> have generalized hypopigmentation and white-spotting but show normal neurological function. Proc Natl Acad Sci USA 106 2706 2711 19202056 </plain></SENT>
+</text></ref><ref id="pone.0021158-Matera1"><text><SENT sid="623" pm="."><plain>38 MateraIWatkins-ChowDELoftusSKHouLIncaoA 2008 A sensitized mutagenesis screen identifies <z:uniprot sup="inside" fb="2" ids="Q61602">Gli3</z:uniprot> as a modifier of <z:uniprot sup="inside" fb="0" ids="Q04888,O55170">Sox10</z:uniprot> neurocristopathy. Hum Mol Genet 17 2118 2131 18397875 </plain></SENT>
+</text></ref><ref id="pone.0021158-The1"><text><SENT sid="624" pm="."><plain>39 ArchibaldALCockettNEDalrympleBPFarautT The International Sheep Genomics Consortium 2010 The sheep genome reference sequence: a work in progress. Anim Genet 41 449 453 20809919 </plain></SENT>
+</text></ref><ref id="pone.0021158-Norris1"><text><SENT sid="625" pm="."><plain>40 NorrisBJWhanVA 2008 A gene duplication affecting expression of the ovine <z:uniprot sup="inside" fb="0" ids="Q29414,A1YL78,A1YL80,A1YL77,A1YL79,Q5UK76,Q1XGU9,Q1XGV1,Q1XGU5,Q1XGV0,Q865F0,Q1XGV5,Q95MP2,P42127,A1YL81,A1YL82,A8CEM9,A8CEN3,A8CEM1,Q1XGV3,A8CEM0,A8CEM5,A8CEM4,A1YL67,A1YL69,A1YL68,A8CEM7,Q1XGV2,A8CEN1,A8CEM8,A1YL66,Q1XGV6,Q1XGV7,A1YL70,Q6ZYM3,Q1XGV4,Q1XGU8,A1YL72,Q1XGU6,A1YL74,Q1XGU7,P79407,Q8TEW0,Q99NH2,Q9Z340">ASIP</z:uniprot> gene is responsible for white and black sheep. Genome Res 18 1282 1293 18493018 </plain></SENT>
+</text></ref><ref id="pone.0021158-Robertson1"><text><SENT sid="626" pm="."><plain>41 RobertsonGHirstMBainbridgeMBilenkyMZhaoY 2007 Genome-wide profiles of <z:uniprot sup="inside" fb="0" ids="P42224,Q764M5">STAT1</z:uniprot> DNA association using chromatin immunoprecipitation and massively parallel sequencing. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Methods 4 651 657 17558387 </plain></SENT>
+</text></ref><ref id="pone.0021158-Reverter1"><text><SENT sid="627" pm="."><plain>42 ReverterABarrisWMcWilliamSByrneKAWangYH 2005 Validation of alternative methods of data normalization in gene co-expression studies. Bioinformatics 21 1112 20 15564293 </plain></SENT>
+</text></ref><ref id="pone.0021158-Caraux1"><text><SENT sid="628" pm="."><plain>43 CarauxGPinlocheS 2005 PermutMatrix: a graphical environment to arrange gene expression profiles in optimal linear order. Bioinformatics 21 1280 1281 15546938 </plain></SENT>
+</text></ref><ref id="pone.0021158-Buske1"><text><SENT sid="629" pm="."><plain>44 BuskeFABodénMBauerDCBaileyTL 2010 Assigning roles to DNA regulatory motifs using comparative genomics. Bioinformatics 26 860 866 20147307 </plain></SENT>
+</text></ref><ref id="pone.0021158-Cartharius1"><text><SENT sid="630" pm="."><plain>45 CarthariusKFrechKGroteKKlockeBHaltmeierM 2005 MatInspector and beyond: promoter analysis based on transcription factor binding sites. Bioinformatics 21 2933 2942 15860560 </plain></SENT>
+</text></ref><ref id="pone.0021158-Shannon1"><text><SENT sid="631" pm="."><plain>46 ShannonPMarkielAOzierOBaligaNSWangJT 2003 Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res 13 2498 504 14597658 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

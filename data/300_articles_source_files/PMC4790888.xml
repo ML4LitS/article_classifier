@@ -1,0 +1,601 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4790888</article-id><article-id pub-id-type="pmid">26974826</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0150250</article-id><article-id pub-id-type="publisher-id">PONE-D-15-12059</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Mental Health and Psychiatry</subject></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and Places</subject><subj-group><subject>Population Groupings</subject><subj-group><subject>Age Groups</subject><subj-group><subject>Children</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and Places</subject><subj-group><subject>Population Groupings</subject><subj-group><subject>Families</subject><subj-group><subject>Children</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and Places</subject><subj-group><subject>Population Groupings</subject><subj-group><subject>Age Groups</subject><subj-group><subject>Adults</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social Sciences</subject><subj-group><subject>Political Science</subject><subj-group><subject>National Security</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Health Care</subject><subj-group><subject>Socioeconomic Aspects of Health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Public and Occupational Health</subject><subj-group><subject>Socioeconomic Aspects of Health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and places</subject><subj-group><subject>Geographical locations</subject><subj-group><subject>North America</subject><subj-group><subject>Canada</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical Sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics (Mathematics)</subject><subj-group><subject>Statistical Data</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and Analysis Methods</subject><subj-group><subject>Research Design</subject><subj-group><subject>Survey Research</subject><subj-group><subject>Questionnaires</subject></subj-group></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Short-Term Effects of Traditional and Alternative Community Interventions to Address Food Insecurity </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Short-Term Effects of Community Approaches Addressing Food Insecurity</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Roncarolo</surname><given-names>Federico</given-names></name><xref ref-type="aff" rid="aff001"><sup>1</sup></xref><xref ref-type="aff" rid="aff002"><sup>2</sup></xref><xref ref-type="aff" rid="aff003"><sup>3</sup></xref><xref ref-type="corresp" rid="cor001">*</xref></contrib><contrib contrib-type="author"><name><surname>Bisset</surname><given-names>Sherri</given-names></name><xref ref-type="aff" rid="aff004"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name><surname>Potvin</surname><given-names>Louise</given-names></name><xref ref-type="aff" rid="aff001"><sup>1</sup></xref><xref ref-type="aff" rid="aff002"><sup>2</sup></xref><xref ref-type="aff" rid="aff003"><sup>3</sup></xref><xref ref-type="aff" rid="aff005"><sup>5</sup></xref></contrib></contrib-group><aff id="aff001"><label>1</label>
+<addr-line>Public Health Research Institute, University of Montreal (IRSPUM), Montreal, Quebec, Canada</addr-line></aff><aff id="aff002"><label>2</label>
+<addr-line>Public Health School, University of Montreal, Montreal, Quebec, Canada</addr-line></aff><aff id="aff003"><label>3</label>
+<addr-line>Canada Research Chair in Community approaches and health inequalities, University of Montreal, Montreal, Quebec, Canada</addr-line></aff><aff id="aff004"><label>4</label>
+<addr-line>Agence de la santé et de services sociaux de la Montérégie, Quebec, Canada</addr-line></aff><aff id="aff005"><label>5</label>
+<addr-line>Lea Roback Research Centre, Montreal Public Health Directorate, Montreal, Quebec, Canada</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Georgantzis</surname><given-names>Nikolaos</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1"><addr-line>University of Reading, UNITED KINGDOM</addr-line></aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con" id="contrib001"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: LP SB. </plain></SENT>
+<SENT sid="3" pm="."><plain>Analyzed the data: FR. </plain></SENT>
+<SENT sid="4" pm="."><plain>Wrote the paper: FR SB LP. </plain></SENT>
+<SENT sid="5" pm="."><plain>Principal investigator: LP. </plain></SENT>
+</text></p></fn><corresp id="cor001">* E-mail: <email>federico.roncarolo@umontreal.ca</email></corresp></author-notes><pub-date pub-type="epub"><day>14</day><month>3</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>11</volume><issue>3</issue><elocation-id>e0150250</elocation-id><history><date date-type="received"><day>19</day><month>3</month><year>2015</year></date><date date-type="accepted"><day>11</day><month>2</month><year>2016</year></date></history><permissions><copyright-statement>© 2016 Roncarolo et al</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>Roncarolo et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0150250.pdf"/><abstract><sec id="sec001"><title><text><SENT sid="6" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Despite the effects of food insecurity on health are well documented, clear governmental policies to face food insecurity do not exist in western countries. </plain></SENT>
+<SENT sid="8" pm="."><plain>In Canada, interventions to face food insecurity are developed at the community level and can be categorized into two basic strategies: those providing an immediate response to the need for food, defined “traditional” and those targeting the improvement of participants’ social cohesion, capabilities and management of their own nutrition, defined “alternative”. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec002"><title><text><SENT sid="9" pm="."><plain>Objective </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="10" pm="."><plain>The objective of this study was to evaluate the effects of food insecurity interventions on food security status and perceived health of participants. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec003"><title><text><SENT sid="11" pm="."><plain>Design </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>This was a longitudinal multilevel study implemented in Montreal, Quebec, Canada. </plain></SENT>
+<SENT sid="13" pm="."><plain>Participants were recruited in a two-stage cluster sampling frame. </plain></SENT>
+<SENT sid="14" pm="."><plain>Clustering units were community organizations working on food insecurity; units of analysis were participants in community food security interventions. </plain></SENT>
+<SENT sid="15" pm="."><plain>A total of 450 participants were interviewed at the beginning and after 9 months of participation in traditional or alternative food security interventions. </plain></SENT>
+<SENT sid="16" pm="."><plain>Food security and perceived health were investigated as dependent variables. </plain></SENT>
+<SENT sid="17" pm="."><plain>Differences overtime were assessed through multilevel regression models. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec004"><title><text><SENT sid="18" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="19" pm="."><plain>Participants in traditional interventions lowered their food insecurity at follow-up. </plain></SENT>
+<SENT sid="20" pm="."><plain>Decreases among participants in alternative interventions were not statistically significant. </plain></SENT>
+<SENT sid="21" pm="."><plain>Participants in traditional interventions also improved physical (B coefficient 3.00, CI 95% 0.42–5.59) and mental health (B coefficient 6.25, CI 95% 4.15–8.35). </plain></SENT>
+</text></SecTag></p></sec><sec id="sec005"><title><text><SENT sid="22" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="23" pm="."><plain>Our results challenge the widely held view suggesting the ineffectiveness of traditional interventions in the short term. </plain></SENT>
+<SENT sid="24" pm="."><plain>Although effects may be intervention-dependent, food banks decreased food insecurity and, in so doing, positively affected perceived health. </plain></SENT>
+<SENT sid="25" pm="."><plain>Although study findings demonstrate that food banks offer short term reprise from the effects of food insecurity, the question as to whether food banks are the most appropriate solution to food insecurity still needs to be addressed. </plain></SENT>
+</text></SecTag></p></sec></abstract><funding-group><funding-statement>The project on food security was founded in 2010 by CIHR, Canadian Institute of Health Research with the grant n. GIR-112691. CIHR had no role in the design, analysis or writing of this article. Louise Potvin holds a Canada Research Chair (CIHR:950-228295) and Federico Roncarolo was funded through PHIRNET postdoctoral award (CIHR: TGF-96112) and FRQ-S postdoctoral research award (28518).</funding-statement></funding-group><counts><fig-count count="1"/><table-count count="4"/><page-count count="14"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>Ethical and legal restrictions prevent public sharing of data. Data requests may be sent to Boyer Ginette, Chair on Community Approach and Health Inequality (CACIS) of the University of Montreal coordinator, <ext-link ext-link-type="uri" xlink:href="http://chairecacis.org/nous-joindre">http://chairecacis.org/nous-joindre</ext-link>.</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>Ethical and legal restrictions prevent public sharing of data. Data requests may be sent to Boyer Ginette, Chair on Community Approach and Health Inequality (CACIS) of the University of Montreal coordinator, <ext-link ext-link-type="uri" xlink:href="http://chairecacis.org/nous-joindre">http://chairecacis.org/nous-joindre</ext-link>.</p></notes></front><body><SecTag type="INTRO"><sec sec-type="intro" id="sec006"><title><text><SENT sid="26" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="27" pm="."><plain>Food insecurity, defined as the “limited, inadequate, or insecure access of individuals and households to sufficient, safe, nutritious and personally acceptable food to meet their dietary requirements for a productive and healthy life” [1], represents a major public health concern [2]. </plain></SENT>
+<SENT sid="28" pm="."><plain>The effects of food insecurity on type II diabetes [3, 4] hypertension [4, 5], cardiovascular diseases [4], mental distress [4, 6–9], depression [10] and poor health in general [6, 7, 11] are well documented. </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>Despite the well-known association between food insecurity and health, food insecurity is steadily increasing in developed countries such as Canada. </plain></SENT>
+<SENT sid="30" pm="."><plain>In 2011–2012, 8.3% of households experienced food insecurity [12] and efforts to stop its growth are thus far unsuccessful [12, 13]. </plain></SENT>
+<SENT sid="31" pm="."><plain>To date, interventions to tackle food insecurity have been developed at the community level and are sometimes institutionalized, but a clear governmental policy to address food insecurity does not exist in Canada nor in the majority of developed countries [14]. </plain></SENT>
+<SENT sid="32" pm="."><plain>This is due to a profound shift in federal and provincial social policy from a welfare state with modest social rights established in the period 1966–73 to market-driven, neo-liberal approaches[15]. </plain></SENT>
+<SENT sid="33" pm="."><plain>This shift first began in Canada and in many western countries in 1981 and intensified during the following two decades. </plain></SENT>
+<SENT sid="34" pm="."><plain>Indeed, the influence of neoliberalism has marked a return to privatization and charitable or faith-based responses to basic human needs such as food and shelter [15]. </plain></SENT>
+<SENT sid="35" pm="."><plain>Notwithstanding these efforts from community-based organizations they are described as insufficient and inadequate [16], although scientific evaluation of the effectiveness of such interventions has never been published. </plain></SENT>
+<SENT sid="36" pm="."><plain>This research aimed to provide knowledge concerning the effectiveness of community-based food insecurity interventions. </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>Interventions in food insecurity implemented by community organizations can be categorized into two basic strategies: those facilitating access to food by providing an immediate response to the need for food and those targeting the improvement of participants’ social cohesion, capabilities and management of their own nutrition. </plain></SENT>
+<SENT sid="38" pm="."><plain>The traditional type of intervention, represented by food banks, is oriented toward the satisfaction of immediate needs of people experiencing food insecurity through food supply. </plain></SENT>
+<SENT sid="39" pm="."><plain>Food banks targeting routine food necessities are the most immediate response to food insecurity and are ideally short term solutions [17]. </plain></SENT>
+<SENT sid="40" pm="."><plain>The second intervention strategy, providing an alternative to the traditional, are represented by community kitchens, community gardens and buying groups. </plain></SENT>
+<SENT sid="41" pm="."><plain>These interventions have objectives related to empowerment, supporting the development of skills that allow participants to steadily improve their food insecurity status. </plain></SENT>
+<SENT sid="42" pm="."><plain>The objective of alternative interventions reaches beyond food insecurity problem and involves aspects of social inclusion, social capital and participation in civic activities. </plain></SENT>
+<SENT sid="43" pm="."><plain>Neither traditional nor alternative food security interventions pursue the objective of impacting the economic factors at the root of food insecurity, nor the broader systemic factors that shape food production and distribution. </plain></SENT>
+<SENT sid="44" pm="."><plain>It has therefore been suggested that these interventions have limited potential to impact food insecurity status[18]. </plain></SENT>
+</text></p><p><text><SENT sid="45" pm="."><plain>The role of community interventions in facing food insecurity is at the core of a long-standing debate. </plain></SENT>
+<SENT sid="46" pm="."><plain>Some researchers argue that food banks exacerbate rather than alleviate food insecurity by masking it, undermining social justice and relieving governments of their duties [16, 19, 20]. </plain></SENT>
+<SENT sid="47" pm="."><plain>In contrast, other researchers underline the importance of food banks, affirming the importance of their role in addressing hunger and health issues[21, 22]. </plain></SENT>
+<SENT sid="48" pm="."><plain>In this respect, it is argued that the strategic position community organizations have in changing food insecurity intervention strategies may be strengthened. </plain></SENT>
+</text></p><p><text><SENT sid="49" pm="."><plain>Despite this important debate regarding how public policy and intervention may or may not eradicate food insecurity, there is a lack of empirical evidence about the effectiveness of the different intervention strategies commonly implemented by community organizations to address food insecurity. </plain></SENT>
+<SENT sid="50" pm="."><plain>Indeed, in spite of the multitude of studies correlating food insecurity and health, there is a lack of data on the effectiveness of interventions on households’ food insecurity and their effects on participants’ health [23]. </plain></SENT>
+<SENT sid="51" pm="."><plain>The rare studies analyzing the health of participants in food insecurity interventions were based on interviews during or at the end of the interventions, generally through retrospective accounts often based on a small number of respondents [24, 25]. </plain></SENT>
+<SENT sid="52" pm="."><plain>The relationship between food insecurity and health is complex and recursive: food insecurity can cause ill-health and poor health can worsen food insecurity [26]. </plain></SENT>
+<SENT sid="53" pm="."><plain>In addition, the mediating effect of participation in food insecurity interventions has not been addressed. </plain></SENT>
+</text></p><p><text><SENT sid="54" pm="."><plain>To our knowledge, this is the first study that selected and recruited new participants from community-based food insecurity interventions for a prospective effectiveness evaluation. </plain></SENT>
+<SENT sid="55" pm="."><plain>The objective of this study is to evaluate the short-time effects of food insecurity interventions on food security and perceived health of participants. </plain></SENT>
+<SENT sid="56" pm="."><plain>Identifying the effects of interventions on health and food insecurity is essential to advance knowledge regarding the effectiveness of food insecurity intervention overall, as well as with respect to traditional and alternative approaches. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="sec007"><title><text><SENT sid="57" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="sec008"><title><text><SENT sid="58" pm="."><plain>Sample Selection </plain></SENT>
+</text></title><p><text><SENT sid="59" pm="."><plain>This is a longitudinal study of newly recruited participants in traditional and alternative interventions. </plain></SENT>
+<SENT sid="60" pm="."><plain>Participants were recruited in a two-stage cluster sampling frame. </plain></SENT>
+<SENT sid="61" pm="."><plain>Clustering units were community organizations working on food insecurity in the Montreal Metropolitan Region (MMR). </plain></SENT>
+<SENT sid="62" pm="."><plain>The MMR includes 82 municipalities and a population of nearly four millions people [27]. </plain></SENT>
+<SENT sid="63" pm="."><plain>The list of organizations involved in food insecurity interventions was validated through the confirmation of experts with in-depth knowledge of the food insecurity intervention network in the Montreal area. </plain></SENT>
+<SENT sid="64" pm="."><plain>Organizations exclusively targeting children such as school lunch and breakfast programs were excluded. </plain></SENT>
+<SENT sid="65" pm="."><plain>A total of 451 organizations were selected. </plain></SENT>
+<SENT sid="66" pm="."><plain>We administered a phone survey to the directors of 30.1% (136 / 451) of these organizations, randomly selected, to identify the interventions each organization implemented and the number of new and overall participants. </plain></SENT>
+<SENT sid="67" pm="."><plain>Of the 136 surveyed organizations, 61 uniquely offered traditional interventions and 75 offered a form of alternative intervention. </plain></SENT>
+<SENT sid="68" pm="."><plain>Organizations offering both traditional and alternative interventions were classified as alternative. </plain></SENT>
+<SENT sid="69" pm="."><plain>Participants selected from these organizations were uniquely participating in alternative interventions </plain></SENT>
+</text></p><p><text><SENT sid="70" pm="."><plain>Organizations were invited to participate in our study based upon their number of new participants each year. </plain></SENT>
+<SENT sid="71" pm="."><plain>A minimum number of 30 and 50 participants having begun a food insecurity intervention in the past 6 months was set respectively for alternative and traditional interventions. </plain></SENT>
+<SENT sid="72" pm="."><plain>This criteria for participation was determined first, by considering what could be expected in terms of participant recruitment and second, what was needed in terms of statistical analysis. </plain></SENT>
+<SENT sid="73" pm="."><plain>Community partners’ expertise first informed our criteria for the minimum number of new participants. </plain></SENT>
+<SENT sid="74" pm="."><plain>Namely, new participants in alternative interventions are less numerous than in traditional interventions whereas participation is stable and constant for longer periods of times. </plain></SENT>
+<SENT sid="75" pm="."><plain>While the number of new participants in traditional interventions is higher, participation is more sporadic and related to temporary situations. </plain></SENT>
+<SENT sid="76" pm="."><plain>Second, power calculations for the minimum number of participants required for statistical analysis, as further explained below, considered the hierarchical nature of the data. </plain></SENT>
+</text></p><p><text><SENT sid="77" pm="."><plain>Individuals between 18 and 65 years of age registered for the first time, and for less than 6 months in selected MMR food insecurity community organizations were invited to participate in our study. </plain></SENT>
+<SENT sid="78" pm="."><plain>People older than 65 years of age were excluded from the study because, in Québec, they can benefit from income supplement and have preferential paths to fight food insecurity. </plain></SENT>
+<SENT sid="79" pm="."><plain>Homeless people were also excluded for two reasons. </plain></SENT>
+<SENT sid="80" pm="."><plain>First, homeless people represent a sub-population extremely vulnerable and their strategies to cope with food are different from the rest of the population [28]. </plain></SENT>
+<SENT sid="81" pm="."><plain>Second, their inclusion in the study would have biased results because of the lack of long term strategies for food insecurity directed to this vulnerable population. </plain></SENT>
+</text></p></sec><sec id="sec009"><title><text><SENT sid="82" pm="."><plain>Multi-level modeling </plain></SENT>
+</text></title><p><text><SENT sid="83" pm="."><plain>Services and resources provided by organizations, although classified in the same category (i.e. food bank) could differ among organizations according to policies, quality of food or frequency of access. </plain></SENT>
+<SENT sid="84" pm="."><plain>Participants in our study were nested within organizations. </plain></SENT>
+<SENT sid="85" pm="."><plain>With nested data observations may not be independent and hierarchical multilevel modeling is recommended [29]. </plain></SENT>
+</text></p><p><text><SENT sid="86" pm="."><plain>To account for these differences along with the longitudinal nature of the data, analysis accounted for data structured into three levels. </plain></SENT>
+<SENT sid="87" pm="."><plain>The first level was the change overtime in dependent variables, the second level were individuals, the third corresponded to the organization where participants were recruited. </plain></SENT>
+<SENT sid="88" pm="."><plain>With this hierarchical structure of data, and since the intraclass (among individuals) and interclass (among different organizations) coefficients for our outcome variables were unknown, we needed a large number of participants in each organization to detect a 10% difference in the variables measuring food security with an acceptable degree of precision (0.9) and at a statistically significant threshold (0.05). </plain></SENT>
+<SENT sid="89" pm="."><plain>Among the 136 organizations, 16 organizations carrying out traditional interventions and 6 implementing alternative interventions met the criteria for a minimum number of new registered participants. </plain></SENT>
+</text></p></sec><sec id="sec010"><title><text><SENT sid="90" pm="."><plain>Measures and Variables </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>From October 2011 to May 2012 a questionnaire to investigate health, food insecurity and vulnerability was completed by participants with the support of research assistants specifically-trained to accompany participants through the completion of the questionnaire. </plain></SENT>
+<SENT sid="92" pm="."><plain>The questionnaire took approximately 30–45 minutes and was administered face to face in French or in English, according to the preference of participants. </plain></SENT>
+<SENT sid="93" pm="."><plain>Interviews took place in the organizations providing food insecurity interventions or in the nearby area. </plain></SENT>
+<SENT sid="94" pm="."><plain>Participants were informed that they would be called back and invited to participate in the second part of the study and were asked to inform the research team in case of changes of address. </plain></SENT>
+<SENT sid="95" pm="."><plain>Six months after the first interview, a postcard inviting participants to communicate possible changes of address was sent to each participant. </plain></SENT>
+<SENT sid="96" pm="."><plain>Nine months after the first interview, participants were invited by phone to complete the follow up interview. </plain></SENT>
+<SENT sid="97" pm="."><plain>A nine month follow-up was considered adequate to detect intervention effects on the level of food security and health status because according to community partners, sufficient time has passed such that participation in alternative food security interventions has become regular. </plain></SENT>
+<SENT sid="98" pm="."><plain>Non respondents were contacted by mail and invited to contact project managers. </plain></SENT>
+<SENT sid="99" pm="."><plain>The second interview took place in the same location as the first. </plain></SENT>
+<SENT sid="100" pm="."><plain>In case of changes of address or impracticability of the first location, another place was chosen by mutual agreement. </plain></SENT>
+<SENT sid="101" pm="."><plain>The same questionnaire was used for the first and the second survey. </plain></SENT>
+</text></p><p><text><SENT sid="102" pm="."><plain>The categorizing variable corresponded to participants’ enrollment in one of the two intervention strategies, traditional or alternative. </plain></SENT>
+<SENT sid="103" pm="."><plain>Dependent variables were food security status and perceived physical and mental health. </plain></SENT>
+<SENT sid="104" pm="."><plain>Control variables considered in the study were gender, age, country of birth, marital status and income. </plain></SENT>
+</text></p><sec id="sec011"><title><text><SENT sid="105" pm="."><plain>Food security status </plain></SENT>
+</text></title><p><text><SENT sid="106" pm="."><plain>Food security status was measured using the food security module included in the Canadian Community Health Survey(CCHS)[30]. </plain></SENT>
+<SENT sid="107" pm="."><plain>The food security module presents the same questions used in the United States Household Food Security Survey Module (HFSSM). </plain></SENT>
+<SENT sid="108" pm="."><plain>The HFSSM was validated to measure change in food security status overtime [31]. </plain></SENT>
+<SENT sid="109" pm="."><plain>The CCHS calculates three scores of food insecurity for the previous year: for the respondent, for dependent children (when applicable) and for the respondent’s household. </plain></SENT>
+<SENT sid="110" pm="."><plain>The CCHS food security module is composed of 10 adult-related and 8 children-related questions investigating whether the respondent or other household members experienced indicators of food insecurity. </plain></SENT>
+<SENT sid="111" pm="."><plain>Questions query the severity of the experiences associated with food, such as an anxiety that food will run out, a need to modify the amount of food consumed, experiencing hunger, and in the extreme, going a whole day without eating. </plain></SENT>
+</text></p><p><text><SENT sid="112" pm="."><plain>Each multiple choice answer is recoded scoring 0 or 1 point, where 0 corresponds to food security and 1 to food insecurity status. </plain></SENT>
+<SENT sid="113" pm="."><plain>For example, if the question “You and other household members worried that food would run out before you got money to buy more. </plain></SENT>
+<SENT sid="114" pm="."><plain>Was that often true, sometimes true, or never true in the past 12 months?” was answered “never true” the question was coded as 0 while responses of “often true” or “sometimes true” were coded 1. </plain></SENT>
+<SENT sid="115" pm="."><plain>The answers “often” and “sometimes” are both considered affirmative responses because they indicate that the condition occurred at some time during the year [31]. </plain></SENT>
+</text></p><p><text><SENT sid="116" pm="."><plain>The final score ranges between 0 to 10 for adults and 0 to 8 for children. </plain></SENT>
+<SENT sid="117" pm="."><plain>The food security module defines three levels of food security: food security, with scores of 0 or 1, moderate insecurity with a score between 2 and 5 for adults and 2 and 4 for children, and severe insecurity with score respectively above 5 for adults and above 4 for children. </plain></SENT>
+<SENT sid="118" pm="."><plain>Household food security status is dependent on both adult and child scores. </plain></SENT>
+<SENT sid="119" pm="."><plain>In families with children, the household is food secure if both adults and children are food secure; the household is moderately food insecure if either adults or children are moderately food insecure but neither is severely food insecure; the household is severely food insecure if either adults or children are severely food insecure. </plain></SENT>
+<SENT sid="120" pm="."><plain>In childless households, adults’ food security status corresponds to household food security status. </plain></SENT>
+</text></p></sec><sec id="sec012"><title><text><SENT sid="121" pm="."><plain>Health related quality of life </plain></SENT>
+</text></title><p><text><SENT sid="122" pm="."><plain>Generic health-related quality of life was measured using the SF-12-v2 questionnaire [32]. </plain></SENT>
+<SENT sid="123" pm="."><plain>The SF-12-v2 is a shorter and validated version of SF-36, regularly used to assess perceived health [33]. </plain></SENT>
+<SENT sid="124" pm="."><plain>The questionnaire tests physical and mental health in the last four weeks generating 8 subscales: 1- physical functioning (composed of 2 items: health limitations in accomplishing moderate activities such as moving a table, or pushing a vacuum cleaner; health limitations in climbing several flights of stairs); 2- role limitations due to physical problems (composed of 2 items: limitations accomplishing what one desires to accomplish; limitations in the kind of work or activities); 3- bodily pain (composed of 1 item: pain interference in the accomplishment of normal work); 4- general health perceptions (composed of 1 item: own health perception); 5- vitality (composed of 1 item: perceived energy); 6- social functioning (composed of 1 item: interference of physical health or emotional problems); 7- role limitations due to emotional problems (composed of 2 items: limitations in accomplishing what wanted as a result of feeling depressed or anxious; less attention in doing work or other activities); and 8- mental health (composed of 2 items: perception of calm and peace; perception of downhearted and depression). </plain></SENT>
+<SENT sid="125" pm="."><plain>Based on these subscales, two summary scores were calculated: the physical (PCS) and the mental (MCS) component summary scores. </plain></SENT>
+<SENT sid="126" pm="."><plain>PCS was built with the subscales 1 through 4 and MCS was built with subscales 5 through 8.PCS and MCS scores were transformed in a 0–100 score according to published regression weights and scoring rules (a higher score indicating better health-related quality of life) as suggested in the user manual.[34] </plain></SENT>
+</text></p></sec><sec id="sec013"><title><text><SENT sid="127" pm="."><plain>Household income and other control variables </plain></SENT>
+</text></title><p><text><SENT sid="128" pm="."><plain>Respondent’s gender, age, country of birth, being part of a visible minority, marital status and household income were self-reported. </plain></SENT>
+<SENT sid="129" pm="."><plain>According to the Employment Equity Act of Canada, we defined visible minorities "persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in colour". </plain></SENT>
+<SENT sid="130" pm="."><plain>Household income was grouped into 7 categories ranging from “no income” to “income superior to $40000”. </plain></SENT>
+</text></p></sec></sec><sec id="sec014"><title><text><SENT sid="131" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="132" pm="."><plain>In our analysis, missing values were not imputed but excluded pair-wise. </plain></SENT>
+<SENT sid="133" pm="."><plain>Since our data were repeated measures from individuals nested in organizations and categorized in two different interventions, the influence of dependent variables on the outcomes (food insecurity and health) was investigated with multilevel regression analyses. </plain></SENT>
+</text></p><p><text><SENT sid="134" pm="."><plain>We used multilevel models to account for the hierarchical structure of data and likewise, to avoid an underestimation of the group effect and incorrectly rejecting the null hypothesis of no difference (i.e. type I error)[29]. </plain></SENT>
+<SENT sid="135" pm="."><plain>The analyses were executed separately for participants in traditional and alternative interventions. </plain></SENT>
+<SENT sid="136" pm="."><plain>Generalized linear latent regression models (GLLAMM) were used. </plain></SENT>
+<SENT sid="137" pm="."><plain>GLLAMM performs maximum likelihood estimation by using adaptive quadrature. </plain></SENT>
+<SENT sid="138" pm="."><plain>Three-level random intercept regression models were constructed for food security for each intervention strategy. </plain></SENT>
+<SENT sid="139" pm="."><plain>A first model was constructed using food insecurity as the dependent variable. </plain></SENT>
+<SENT sid="140" pm="."><plain>Subsequently, a sequence of controlling variables (respondent’s gender, age, country of birth, marital status and income) were entered as covariates at the individual level of the model. </plain></SENT>
+<SENT sid="141" pm="."><plain>No organization level factors were added to the models. </plain></SENT>
+</text></p><p><text><SENT sid="142" pm="."><plain>Six linear random intercept regression GLLAMM models were used to assess perceived health (three for physical health and three for mental health) in each intervention group. </plain></SENT>
+<SENT sid="143" pm="."><plain>The first two models considered physical and mental health unadjusted, the following two models were adjusted for respondents’ gender, age, country of birth, marital status and income, while the last two models were also adjusted for adults’ food security status. </plain></SENT>
+<SENT sid="144" pm="."><plain>Differences across time in the two intervention groups were also tested through GLAMM models. </plain></SENT>
+<SENT sid="145" pm="."><plain>The STATA v11.2 software was used to perform statistical analysis. </plain></SENT>
+</text></p></sec><sec id="sec015"><title><text><SENT sid="146" pm="."><plain>Ethic statement </plain></SENT>
+</text></title><p><text><SENT sid="147" pm="."><plain>This study was conducted according to the guidelines laid down in the Declaration of Helsinki and all procedures involving human subjects/patients were approved by the health research ethics committee (CERES) of the University of Montreal. </plain></SENT>
+<SENT sid="148" pm="."><plain>Written informed consent was obtained from all subjects/patients. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="sec016"><title><text><SENT sid="149" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="150" pm="."><plain>In total, 824 new participants responded to the first questionnaire; 711 were participants in one of the 16 organizations classified as offering uniquely traditional interventions, and 113 were participants in one of the 6 organizations offering alternative interventions. </plain></SENT>
+</text></p><p><text><SENT sid="151" pm="."><plain>Among the 824 original respondents, 374 (45.4%) participants were missing at follow up (Fig 1). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0150250.g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0150250.g001</object-id><label>Fig 1</label><caption><title><text><SENT sid="152" pm="."><plain>Data on participation and missing at follow-up for traditional and alternative interventions. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0150250.g001"/></fig></SecTag><p><text><SENT sid="153" pm="."><plain>The final sample size was composed of 450 people: 372 participants in traditional interventions (52.3% of initial participants) and 78 participants in alternative interventions (69% of initial participants). </plain></SENT>
+<SENT sid="154" pm="."><plain>No statistical significant differences were found in the descriptive characteristics of participants according to loss to follow up (Table 1; Chi square tests were performed to assess differences). </plain></SENT>
+<SENT sid="155" pm="."><plain>Statistically significant differences between the two intervention groups were found with respect to gender (p = 0.000), country of birth (p = 0.000), belonging to a visible minority (0.014) and marital status(p = 0.001). </plain></SENT>
+<SENT sid="156" pm="."><plain>More in depth analysis of the differences between the two study populations have been described elsewhere. </plain></SENT>
+<SENT sid="157" pm="."><plain>[35, 36]. </plain></SENT>
+<SENT sid="158" pm="."><plain>Intra-group statistically significant differences were found in employment status and income when we compared the first and the second interview data: participants were more likely to be employed and to have a higher income at follow-up. </plain></SENT>
+<SENT sid="159" pm="."><plain>These differences in employment status were evident in both groups (traditional interventions, p = 0.000; alternative interventions p = 0.010), while differences in income were evident only within traditional intervention participants (p = 0.001) (Table 2). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0150250.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0150250.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="160" pm="."><plain>Descriptive characteristics of new participants in traditional and alternative interventions. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0150250.t001g" xlink:href="pone.0150250.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>Participants in traditional interventions n. </plain></SENT>
+<SENT sid="162" pm="."><plain>372 (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>Participants in alternative interventions n. </plain></SENT>
+<SENT sid="164" pm="."><plain>78 (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>Total n. </plain></SENT>
+<SENT sid="166" pm="."><plain>450 (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>Gender* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain> Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>171 (46.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>19 (24.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>190 (42.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain> Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>201 (54.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>59 (75.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>260 (57.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>Age </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain> &lt;30 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>43 (11.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>13 (16.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>56 (12.5) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain> 30–49 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>190 (51.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>40 (51.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>230 (51.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain> 50–65 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>138 (37.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>24 (<z:uniprot sup="inside" fb="0" ids="P17310">31.2</z:uniprot>) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>162 (36.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>Country of birth* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain> Canada </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>252 (67.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>36 (46.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>288 (64.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain> Others </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>119 (32.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>42 (53.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>161 (35.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>Visible minority* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain> Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>85 (23.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>29 (37.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>114 (26.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain> No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>274 (76.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>49 (62.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>323 (73.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>Marital status* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain> Married/ common law spouse </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>118 (32.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>30 (39.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>148 (33.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain> Single </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>174 (47.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>22 (28.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>196 (44.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain> Other (separated, divorced, widowed) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>75 (20.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>24 (31.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>99 (22.3) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p><text><SENT sid="220" pm="."><plain>Age and marital status refer to the first interview </plain></SENT>
+</text></p></fn><fn id="t001fn002"><p><text><SENT sid="221" pm="."><plain>* p value &lt;0.05 </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pone.0150250.t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0150250.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="222" pm="."><plain>Descriptive characteristics of new participants in traditional and alternative interventions. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0150250.t002g" xlink:href="pone.0150250.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"/><th align="center" colspan="2" rowspan="1"><text><SENT sid="223" pm="."><plain>Participants in traditional interventions n. </plain></SENT>
+<SENT sid="224" pm="."><plain>372 (%) </plain></SENT>
+</text></th><th align="left" colspan="2" rowspan="1"><text><SENT sid="225" pm="."><plain>Participants in alternative interventions n. </plain></SENT>
+<SENT sid="226" pm="."><plain>78 (%) </plain></SENT>
+</text></th></tr><tr><th align="center" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>T1 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>T2 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>T1 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>T2 </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>Employment status </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain> Working </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>29 (7.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>73 (19.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>9 (11.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>19 (24.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain> Studying </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>33 (8.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>29 (7.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>9 (11.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>11 (14.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain> Working and studying </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>11 (3.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>16 (4.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>3 (3.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>3 (3.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain> At home </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>245 (65.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>182 (48.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>51 (65.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>34 (43.6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain> Other </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>8 (2.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>69 (18.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>2 (2.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>11 (14.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain> Not respondent </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>46 (12.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>3 (0.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>4 (5.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>Education </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain> Less than a high school diploma </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>98 (26.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>102 (27.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>19 (24.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>12 (15.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain> Secondary (high) school diploma or equivalent </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>94 (25.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>97 (26.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>18 (23.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>17 (21.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain> Less than a bachelor degree </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>105 (28.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>99 (26.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>19 (24.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>23 (29.5) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain> Bachelor’s degree or above </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>62 (16.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>71 (19.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>21 (27.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>26 (33.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain> Not respondent </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>13 (3.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>3 (0.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>1 (1.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>Income </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain> &lt;5000$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>39 (10.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>16 (4.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>8 (10.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>6 (7.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain> 5000–9.999$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>119 (32.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>118 (31.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>11 (14.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>13 (16.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain> 10000–14.999$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>102 (27.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>111 (29.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>17 (21.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>21 (27.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain> 15000–19.999$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>26 (7.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>42 (11.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>9 (11.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>8 (10.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain> 20000–29.999$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>19 (5.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>41 (11.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>10 (12.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>11 (14.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain> 30000–39.999$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>12 (3.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>16 (4.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>6 (7.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>5 (6.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain> ≥40000$ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>14 (10.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>10 (2.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>7 (9.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>6 (7.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain> Not respondent </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>41 (11.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>18 (4.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>10 (12.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>8 (10.3) </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag><p><text><SENT sid="329" pm="."><plain>Participants in traditional interventions had lowered their food insecurity at follow-up. </plain></SENT>
+<SENT sid="330" pm="."><plain>This was true for households with our without children. </plain></SENT>
+<SENT sid="331" pm="."><plain>Decreases among participants in alternative interventions were not statistically significant (Table 3). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0150250.t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0150250.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="332" pm="."><plain>Food security status traditional and alternative interventions participants distinguishing among adults, children and household. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0150250.t003g" xlink:href="pone.0150250.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td align="left" colspan="5" rowspan="1"><text><SENT sid="333" pm="."><plain>A </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>Participants in traditional interventions n.372 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>T1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>T2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>OR (CI) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>Adjusted OR (CI) a </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>Adults </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain> Food secure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>41 (11.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>86 (23.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>Ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>Ref </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain> Moderate insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>138 (39.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>141 (38.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>0.23 (0.12;0.46) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>0.30 (0.14;0.62) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain> Severe insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>175 (49.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>141 (38.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>0.18 (0.09–0.36) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>0.22 (0.10;0.44) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>Children </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain> Food secure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>33 (24.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>58 (40.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>Ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>Ref </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain> Moderate insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>79 (58.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>74 (51.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>0.37 (0.18;0.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>0.39 (0.17;0.89) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain> Severe insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>24 (17.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>12 (8.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>0.20 (0.08; 0.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>0.22 (0.08;0.64) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>Household </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain> Food secure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>37 (10.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>77 (20.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>Ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>Ref </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain> Moderate insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>141 (39.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>148 (40.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>0.29 (0.15;0.55) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>0.39 (0.20;0.77) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain> Severe insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>176 (49.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>143(38.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>0.22 (0.12;0.42) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>0.27 (0.14;0.54) </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="5" rowspan="1"><text><SENT sid="387" pm="."><plain>B </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>Participants in alternative interventions n.78 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>T1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>T2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>OR (CI) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>Adjusted OR (CI) a </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>Adults </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain> Food secure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>23 (32.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>30 (40) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>Ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>Ref </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain> Moderate insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>28 (39.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>28 (37.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>0.60 (0.23;1.54) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>0.36 (0.10;1.31) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain> Severe insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>20 (28.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>17 (22.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>0.51 (0.18; 1.41) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>0.32 (0.08;1.25) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>Children </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain> Food secure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>16 (45.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>21 (60.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>Ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>Ref </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain> Moderate insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>15 (42.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>12 (34.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>0.33 (0.07;1.62) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>0.35 (0.07;1.70) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain> Severe insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>4 (11.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>2 (5.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>0.20 (0.02; 1.85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>0.21 (0.01; 8.33) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>Household </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain> Food secure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>23 (32.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>29 (38.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>Ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>Ref </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain> Moderate insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>26 (36.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>29 (38.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>0.70 (0.26;1.83) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>0.42 (0.11;1.53) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain> Severe insecure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>22 (31.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>17 (22.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>0.48 (0.17;1.35) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>0.32 (0.08;1.25) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t003fn001"><p><text><SENT sid="441" pm="."><plain>a OR is adjusted for respondent’s gender, age, country of birth, marital status and income. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="442" pm="."><plain>Participants in traditional interventions reported improved physical (adjusted B coefficient 3.00, CI 95% 0.42–5.59) and mental health (adjusted B coefficient 6.25, CI 95% 4.15–8.35) at follow-up. </plain></SENT>
+<SENT sid="443" pm="."><plain>However, improvement in physical health disappeared when adjusting for food security. </plain></SENT>
+<SENT sid="444" pm="."><plain>No change in physical health at follow-up was found for participants in alternative interventions. </plain></SENT>
+<SENT sid="445" pm="."><plain>Mental health improvement was found among participants in alternative interventions, however this effect disappeared in the adjusted model, which is likely due to the study’s lack of power (Table 4). </plain></SENT>
+<SENT sid="446" pm="."><plain>No statistical significant differences were found between participants in traditional and in alternative interventions across time. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0150250.t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0150250.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="447" pm="."><plain>Perception of physical and mental health traditional and alternative interventions participants. </plain></SENT>
+</text></title><p><text><SENT sid="448" pm="."><plain>Scores are in percentage scale. </plain></SENT>
+</text></p></caption><alternatives><graphic id="pone.0150250.t004g" xlink:href="pone.0150250.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>A </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>Participants in traditional interventions n. </plain></SENT>
+<SENT sid="451" pm="."><plain>372 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>T1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>T2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>β coefficient (CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>Partially adjusted β coefficient (CI) a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>Adjusted β coefficient (CI) b </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>Physical Components Score </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>63.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>66.91 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>3.02 (0.63;5.40) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>3.00 (0.42;5.59) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>1.51 (-1.11;4.12) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>Mental Components Score </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>58.13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>63.86 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>5.85 (3.92; 7.78) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>6.25 (4.15; 8.35) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>5.28 (3.13; 7.42) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>B </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>Participants in alternative interventions n. </plain></SENT>
+<SENT sid="471" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>T1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>T2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>β coefficient (CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>Partially adjusted β coefficient (CI) a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>Adjusted β coefficient (CI) b </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>Physical Components Score </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>70.62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>70.59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>0.11 (-4.93; 5.15) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>-1.10 (-6.57; 4.36) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>-0.89 (-6.66;4.89) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>Mental Components Score </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>66.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>71.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>4.66 (0.10; 9.23) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>4.51 (-0.39; 9.41) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>4.21 (-1.28;9.69) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t004fn001"><p><text><SENT sid="489" pm="."><plain>a β coefficient is adjusted for respondent’s gender, age, country of birth, marital status and income, </plain></SENT>
+</text></p></fn><fn id="t004fn002"><p><text><SENT sid="490" pm="."><plain>b β coefficient is adjusted for respondent’s gender, age, country of birth, marital status, income, and food security status </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="conclusions" id="sec017"><title><text><SENT sid="491" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="492" pm="."><plain>The objective of this study was to evaluate the short term effects of two distinct food insecurity intervention approaches, traditional and alternative, on participants’ food security and perceived health. </plain></SENT>
+<SENT sid="493" pm="."><plain>Study results found traditional, but not alternative food insecurity interventions to have short term effects on participants. </plain></SENT>
+<SENT sid="494" pm="."><plain>Nevertheless, although not statistically significant, participants in alternative interventions also improved their food insecurity. </plain></SENT>
+<SENT sid="495" pm="."><plain>Relative to their baseline measures, participants in traditional interventions reported a decrease in food insecurity and improvement in self-reported mental and physical health at nine-month follow-up. </plain></SENT>
+<SENT sid="496" pm="."><plain>No such improvements were reported for participants in alternative interventions and while not statistically significant, an improvement was reported for mental health. </plain></SENT>
+</text></p><p><text><SENT sid="497" pm="."><plain>The absence of statistically significant effects on food insecurity and perceived health among alternative interventions is not surprising for several reasons. </plain></SENT>
+<SENT sid="498" pm="."><plain>First, people who start participating in alternative interventions are generally more food secure and less vulnerable than those who start participating in traditional interventions. </plain></SENT>
+<SENT sid="499" pm="."><plain>[35, 36] Moreover, collective kitchens and community gardens do not have short term objectives with regard to food insecurity and health. </plain></SENT>
+<SENT sid="500" pm="."><plain>Rather, alternative interventions aim to decrease food insecurity through mutual collaboration, empowerment and social inclusion; they implement long term strategies building change over time [18]. </plain></SENT>
+<SENT sid="501" pm="."><plain>Therefore, although they are often identified as food insecurity interventions, their potential effects go beyond food insecurity alone. </plain></SENT>
+<SENT sid="502" pm="."><plain>Moreover, in our study, the sample of participants in alternative interventions may have been too small to allow enough power to detect significant effects. </plain></SENT>
+<SENT sid="503" pm="."><plain>A small number of participants in alternative food insecurity interventions is associated with the hierarchical nature of our data and the need to employ strict inclusion criteria. </plain></SENT>
+<SENT sid="504" pm="."><plain>Receiving 30 new participants in the 6 months that preceded baseline measurements did not occur for most organizations that offered alternative interventions and many could not guarantee the minimum number of participants. </plain></SENT>
+</text></p><p><text><SENT sid="505" pm="."><plain>The short-term impact of food banks on perceived health confirmed the already known association between food insecurity and health. </plain></SENT>
+<SENT sid="506" pm="."><plain>[5–9, 11, 37] Nevertheless, this research adds important facets to this association.[35, 36] First, results show that 9 months of intervention are sufficient to show decreases in food insecurity and improvement in perceived mental and physical health. </plain></SENT>
+<SENT sid="507" pm="."><plain>It appears thus, that improvements in food insecurity are concomitant with improvements in health. </plain></SENT>
+<SENT sid="508" pm="."><plain>This finding underlines the importance of acting swiftly in facing food insecurity. </plain></SENT>
+<SENT sid="509" pm="."><plain>Many households do not have access to food banks because of lack of information, perceptions of food aid, or feelings they are not in enough need [16]; a prompt participation in food banks may rapidly improve food insecurity and consequently their health. </plain></SENT>
+<SENT sid="510" pm="."><plain>Secondly, the use of traditional interventions was found to have a positive association with mental health even after adjusting for food insecurity. </plain></SENT>
+<SENT sid="511" pm="."><plain>Over and above any indirect effect from improving food insecurity status, participating in a traditional type of food insecurity intervention appears to have a direct and positive effect on mental health. </plain></SENT>
+<SENT sid="512" pm="."><plain>The use of food banks may guarantee the family’s regular access to food and this may impact feelings of alienation characterizing people in food insecurity [38] and consequently improve mental health. </plain></SENT>
+<SENT sid="513" pm="."><plain>Nevertheless, participants often have to overcome feelings of shame, embarrassment, degradation and humiliation before accessing food banks [39–41]. </plain></SENT>
+<SENT sid="514" pm="."><plain>This finding of a positive association between the use of traditional intervention and mental health improvements provides an additional argument for why food banks need to be made easily accessible to any household in food insecurity and the importance of overcoming the resistance and inability that people in food insecurity have in accessing food banks [40, 41]. </plain></SENT>
+</text></p><p><text><SENT sid="515" pm="."><plain>Some study limitations should be taken into account in the discussion of this study’s results. </plain></SENT>
+<SENT sid="516" pm="."><plain>At first, we limited our selection criteria to organizations with at least 50 newly registered subjects within 6 months for traditional strategy, 30 for alternative strategy. </plain></SENT>
+<SENT sid="517" pm="."><plain>This criterion excluded the smallest organizations. </plain></SENT>
+<SENT sid="518" pm="."><plain>Participants in small organizations could present different characteristics relative to those participating in bigger organizations. </plain></SENT>
+<SENT sid="519" pm="."><plain>Moreover, this criterion limited the number of organizations implementing alternative interventions that could be enrolled in the study. </plain></SENT>
+<SENT sid="520" pm="."><plain>This limited the statistical power in data analysis, especially concerning alternative interventions. </plain></SENT>
+<SENT sid="521" pm="."><plain>A second limitation is related due to the high rate of loss to follow-up; nevertheless, our retention rates are in line with other studies on vulnerable populations[42, 43]. </plain></SENT>
+</text></p><p><text><SENT sid="522" pm="."><plain>Our results challenge the widely held view suggesting the ineffectiveness of traditional interventions, at least in the short term. </plain></SENT>
+<SENT sid="523" pm="."><plain>Given the nature of traditional food insecurity interventions, effects are likely to disappear when participants are no longer exposed to the intervention. </plain></SENT>
+<SENT sid="524" pm="."><plain>This is however congruent with the objectives of food banks, which is to provide first aid intervention and decrease participants’ food insecurity over a limited period of time. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions" id="sec018"><title><text><SENT sid="525" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="526" pm="."><plain>Traditional interventions represent an effective food security intervention in short-term, improving both food insecurity status and health of participants. </plain></SENT>
+<SENT sid="527" pm="."><plain>Nevertheless, these positive effects may be time-limited and disappear when access to traditional interventions ends. </plain></SENT>
+<SENT sid="528" pm="."><plain>Although food banks may offer a short term reprise from the effects of food insecurity, the question as to whether food banks are an appropriate solution, socially and politically, to food insecurity should not be overlooked. </plain></SENT>
+<SENT sid="529" pm="."><plain>As clearly stated in recent food banks reports, it is a mistake to think that food banks or other charitable food programs are able to adequately address household food insecurity over the long term [41, 44]. </plain></SENT>
+<SENT sid="530" pm="."><plain>Further research is needed to identify how traditional interventions have an effect upon long term food insecurity and the potential that alternative interventions may offer longer term advantages. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="AUTH_CONT"><ack><p>The authors would like to acknowledge the members of the steering committee of the research on the “Effects of interventions in food insecurity” for their contribution and support in the research. All authors have read and approved the final manuscript.</p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0150250.ref001"><text><SENT sid="531" pm="."><plain>1TarasukV. Household Food Insecurity in Canada. Topics in Clinical Nutrition. 2005;20(4):299–312. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref002"><text><SENT sid="532" pm="."><plain>2NordM. What have we learned from two decades of research on household food security? Public Health Nutr. 2014;17(01):2–4. 10.1017/S1368980013003091 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref003"><text><SENT sid="533" pm="."><plain>3SeligmanH, BindmanA, VittinghoffE, KanayaA, KushelM. Food Insecurity is Associated with Diabetes Mellitus: Results from the National Health Examination and Nutrition Examination Survey (NHANES) 1999–2002. J Gen Intern Med. 2007;22(7):1018–23. 10.1007/s11606-007-0192-6 <?supplied-pmid 17436030?>17436030 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref004"><text><SENT sid="534" pm="."><plain>4VozorisNT, TarasukVS. Household Food Insufficiency Is Associated with Poorer Health. J Nutr. 2003;133(1):120–6. <?supplied-pmid 12514278?>12514278 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref005"><text><SENT sid="535" pm="."><plain>5SeligmanHK, LaraiaBA, KushelMB. Food Insecurity Is Associated with Chronic Disease among Low-Income NHANES Participants. J Nutr. 2010;140(2):304–10. 10.3945/jn.109.112573 <?supplied-pmid 20032485?>20032485 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref006"><text><SENT sid="536" pm="."><plain>6SharkeyJR, JohnsonCM, DeanWR. Relationship of Household Food Insecurity to Health-Related Quality of Life in a Large Sample of Rural and Urban Women. Women &amp; Health. 2011;51(5):442–60. 10.1080/03630242.2011.58436721797678 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref007"><text><SENT sid="537" pm="."><plain>7CheJ, ChenJ. Food insecurity in Canadian households. Health Rep. 2001;12(4):11–22. <?supplied-pmid 15069808?>15069808 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref008"><text><SENT sid="538" pm="."><plain>8MuldoonKA, DuffP, FieldenS, AnemaA. Food insufficiency is associated with psychiatric morbidity in a nationally representative study of mental illness among food insecure Canadians. Soc Psychiatry Psychiatr Epidemiol. 2013;48(5):795–803. 10.1007/s00127-012-0597-3 <?supplied-pmid 23064395?>23064395 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref009"><text><SENT sid="539" pm="."><plain>9CarterKN, KruseK, BlakelyT, CollingsS. The association of food security with psychological distress in New Zealand and any gender differences. Soc Sci Med. 2011;72(9):1463–71. 10.1016/j.socscimed.2011.03.009 <?supplied-pmid 21481507?>21481507 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref010"><text><SENT sid="540" pm="."><plain>10LeungCW, EpelES, WillettWC, RimmEB, LaraiaBA. Household food insecurity is positively associated with depression among low-income supplemental nutrition assistance program participants and income-eligible nonparticipants. J Nutr. 2015;145(3):622–7. </plain></SENT>
+<SENT sid="541" pm="."><plain>Epub 2015/03/04. 10.3945/jn.114.199414 .<?supplied-pmid 25733480?>25733480 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref011"><text><SENT sid="542" pm="."><plain>11McLeodL, VeallM. The dynamics of food insecurity and overall health: evidence from the Canadian National Population Health Survey. Applied Economics. 2006;38(18):2131–46. 10.1080/00036840500427429 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref012"><text><SENT sid="543" pm="."><plain>12TarasukV, MitchellA, DachnerN. Household food insecurity in Canada, 2012. Toronto, ON.: Research to identify policy options to reduce food insecurity (PROOF), 2014. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref013"><text><SENT sid="544" pm="."><plain>13Food and Agriculture Organization of the United Nations, International Found for Agriculture Development, World Food Program. </plain></SENT>
+<SENT sid="545" pm="."><plain>The State of Food Insecurity in the World 2013. </plain></SENT>
+<SENT sid="546" pm="."><plain>The multiple dimensions of food security. </plain></SENT>
+<SENT sid="547" pm="."><plain>Rome: 2013. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref014"><text><SENT sid="548" pm="."><plain>14Tarasuk V, McIntyre L, Power E. </plain></SENT>
+<SENT sid="549" pm="."><plain>Report to Olivier De Schutter, the United Nations Special Rapporteur on the Right to Food Mission to Canada. </plain></SENT>
+<SENT sid="550" pm="."><plain>2012. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref015"><text><SENT sid="551" pm="."><plain>15RichesG. Food Banks and Food Security: Welfare Reform, Human Rights and Social Policy. </plain></SENT>
+<SENT sid="552" pm="."><plain>Lessons from Canada? Social Policy &amp; Administration. 2002;36(6):648–63. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref016"><text><SENT sid="553" pm="."><plain>16RichesG. Thinking and acting outside the charitable food box: hunger and the right to food in rich societies. Development in Practice. 2011;21(4–5):768–75. 10.1080/09614524.2011.561295 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref017"><text><SENT sid="554" pm="."><plain>17TarasukV. A Critical Examination of Community-Based Responses to Household Food Insecurity in Canada. Health Educ Behav. 2001;28(4):487–99. 10.1177/109019810102800408 <?supplied-pmid 11465158?>11465158 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref018"><text><SENT sid="555" pm="."><plain>18TarasukV, ReynoldsR. A Qualitative Study of Community Kitchens as a Response to Income-Related Food Insecurity. Can J Diet Pract Res. 1999;60(1):11–6. </plain></SENT>
+<SENT sid="556" pm="."><plain>Epub 2002/02/15. .<?supplied-pmid 11844401?>11844401 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref019"><text><SENT sid="557" pm="."><plain>19PoppendieckJ. Dilemmas of emergency food: A guide for the perplexed. Agric Hum Values. 1994;11(4):69–76. 10.1007/BF01530418 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref020"><text><SENT sid="558" pm="."><plain>20TarasukV, NaomiD, RachelL. Food banks, welfare, and food insecurity in Canada. British Food Journal. 2014;116(9):1405–17. 10.1108/BFJ-02-2014-0077 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref021"><text><SENT sid="559" pm="."><plain>21WakefieldS, FlemingJ, KlassenC, SkinnerA. Sweet Charity, revisited: Organizational responses to food insecurity in Hamilton and Toronto, Canada. Critical Social Policy. 2013;33(3):427–50. 10.1177/0261018312458487 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref022"><text><SENT sid="560" pm="."><plain>22WebbKL. Introduction–Food Banks of the Future: Organizations Dedicated to Improving Food Security and Protecting the Health of the People They Serve. Journal of Hunger &amp; Environmental Nutrition. 2013;8(3):257–60. 10.1080/19320248.2013.817169 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref023"><text><SENT sid="561" pm="."><plain>23CollinsPA, PowerEM, LittleMH. Municipal-level responses to household food insecurity in Canada: a call for critical, evaluative research. Can J Public Health. 2014;105(2):e138–41. .<?supplied-pmid 24886850?>24886850 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref024"><text><SENT sid="562" pm="."><plain>24Engler-StringerR, BerenbaumS. Exploring food security with collective kitchens participants in three Canadian cities. Qual Health Res. 2007;17(1):75–84. 10.1177/1049732306296451 WOS:000243072000008. <?supplied-pmid 17170245?>17170245 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref025"><text><SENT sid="563" pm="."><plain>25DraperC, FreedmanD. Review and Analysis of the Benefits, Purposes, and Motivations Associated with Community Gardening in the United States. Journal of Community Practice. 2010;18(4):458–92. 10.1080/10705422.2010.519682 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref026"><text><SENT sid="564" pm="."><plain>26TarasukV, MitchellA, McLarenL, McIntyreL. Chronic physical and mental health conditions among adults may increase vulnerability to household food insecurity. J Nutr. 2013;143(11):1785–93. 10.3945/jn.113.178483 .<?supplied-pmid 23986364?>23986364 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref027"><text><SENT sid="565" pm="."><plain>27Ministère des affaires municipales régions et occupation du territoire. </plain></SENT>
+<SENT sid="566" pm="."><plain>Répertoire des municipalités: communauté métropolitaine de Montréal 2012 [updated 2015/march/15; cited 2012 2012/Nov/12]. </plain></SENT>
+<SENT sid="567" pm="."><plain>Available: <ext-link ext-link-type="uri" xlink:href="http://www.mamrot.gouv.qc.ca/repertoire-des-municipalites/fiche/mrc/663/">http://www.mamrot.gouv.qc.ca/repertoire-des-municipalites/fiche/mrc/663/</ext-link>. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref028"><text><SENT sid="568" pm="."><plain>28TarasukV, VogtJ. Household food insecurity in Ontario. Can J Public Health. 2009;100(3):184(5). <?supplied-pmid 19507719?>19507719 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref029"><text><SENT sid="569" pm="."><plain>29Goldstein H. </plain></SENT>
+<SENT sid="570" pm="."><plain>Multilevel Statistical Models London1999 [cited 2012 20th Dec]. </plain></SENT>
+<SENT sid="571" pm="."><plain>Available: <ext-link ext-link-type="uri" xlink:href="http://www.ats.ucla.edu/stat/examples/msm_goldstein/">http://www.<z:uniprot sup="inside" fb="45" ids="P28607">ats</z:uniprot>.ucla.edu/stat/examples/msm_goldstein/</ext-link>. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref030"><text><SENT sid="572" pm="."><plain>30Office of Nutrition Policy and Promotion HC. </plain></SENT>
+<SENT sid="573" pm="."><plain>Canadian Community Health Survey, Cycle 2.2, Nutrition (2004)—Income-Related Household Food Security in Canada: Health Canada; 2007 [updated 2008/01/07; cited 2012]. </plain></SENT>
+<SENT sid="574" pm="."><plain>Available: <ext-link ext-link-type="uri" xlink:href="http://www.hc-sc.gc.ca/fn-an/surveill/nutrition/commun/income_food_sec-sec_alim-eng.php">http://www.hc-sc.gc.ca/fn-an/surveill/nutrition/commun/income_food_sec-sec_alim-eng.<z:uniprot sup="inside" fb="0" ids="P39769">php</z:uniprot></ext-link>. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref031"><text><SENT sid="575" pm="."><plain>31BickelG, NordM, PriceC, HamiltonW, CookJ. Guide to Measuring Household food Security, Revised 2000. </plain></SENT>
+<SENT sid="576" pm="."><plain>In: Food and Nutrition Service USDoA, editor. Alaexandria, VA 2000. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref032"><text><SENT sid="577" pm="."><plain>32WareJE, KosinskiM, KellerSD. How to Score the SF-12 Physical and Mental Health Summary Scale. Boston, MA: The Health Institute, New England Medical Center; 1995. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref033"><text><SENT sid="578" pm="."><plain>33WareJE, KosinskiM, GandekB, AaronsonNK, ApoloneG, BechP, et al The Factor Structure of the SF-36 Health Survey in 10 Countries: Results from the IQOLA Project. J Clin Epidemiol. 1998;51(11):1159–65. 10.1016/s0895-4356(98)00107-3 <?supplied-pmid 9817133?>9817133 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref034"><text><SENT sid="579" pm="."><plain>34WareJ, KosinskiM, KellerSD. A 12-Item Short-Form Health Survey: construction of scales and preliminary tests of reliability and validity. Med Care. 1996;34(3):220–33. </plain></SENT>
+<SENT sid="580" pm="."><plain>Epub 1996/03/01. .<?supplied-pmid 8628042?>8628042 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref035"><text><SENT sid="581" pm="."><plain>35RoncaroloF, AdamC, BissetS, PotvinL. Traditional and alternative community food security interventions in montreal, Quebec: different practices, different people. J Community Health. 2015;40(2):199–207. </plain></SENT>
+<SENT sid="582" pm="."><plain>Epub 2014/07/12. 10.1007/s10900-014-9917-8 .<?supplied-pmid 25012098?>25012098 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref036"><text><SENT sid="583" pm="."><plain>36RoncaroloF, AdamC, BissetS, PotvinL. Food capacities and satisfaction in participants in food security community interventions in Montreal, Canada. Health Promot Int. 2015 Epub 2015/08/15. 10.1093/heapro/dav085 .<?supplied-pmid 26271123?>26271123 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref037"><text><SENT sid="584" pm="."><plain>37StuffJE, CaseyPH, SzetoKL, GossettJM, RobbinsJM, SimpsonPM, et al Household Food Insecurity Is Associated with Adult Health Status. J Nutr. 2004;134(9):2330–5. <?supplied-pmid 15333724?>15333724 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref038"><text><SENT sid="585" pm="."><plain>38HamelinA-M, BeaudryM, HabichtJ-P. Characterization of household food insecurity in Québec: food and feelings. Soc Sci Med. 2002;54(1):119–32. 10.1016/s0277-9536(01)00013-2 <?supplied-pmid 11820676?>11820676 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref039"><text><SENT sid="586" pm="."><plain>39TarasukV, BeatonGH. Household Food Insecurity and Hunger Among Families Using Food Banks. Can J Public Health. 1999;90(2):109–13. <?supplied-pmid 10349217?>10349217 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref040"><text><SENT sid="587" pm="."><plain>40LoopstraR, TarasukV. The Relationship between Food Banks and Household Food Insecurity among Low-Income Toronto Families. Canadian Public Policy. 2012;38(4):497–514. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref041"><text><SENT sid="588" pm="."><plain>41PerryJ, WilliamsM, SeftonT, HaddadM. Emergency Use Only Understanding and reducing the use of food banks in the UK. The Child Poverty Action Group, Church of England, Oxfam GB and The Trussell Trust, 2014. </plain></SENT>
+</text></ref><ref id="pone.0150250.ref042"><text><SENT sid="589" pm="."><plain>42BrannonEE, KuhlES, BolesRE, AylwardBS, RatcliffMB, ValenzuelaJM, et al Strategies for Recruitment and Retention of Families from Low-Income, Ethnic Minority Backgrounds in a Longitudinal Study of Caregiver Feeding and Child Weight. Child Health Care. 2013;42(3):198–213. 10.1080/02739615.2013.816590 .<?supplied-pmid 24078763?>24078763 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref043"><text><SENT sid="590" pm="."><plain>43NicholsonLM, SchwirianPM, KleinEG, SkyboT, Murray-JohnsonL, EneliI, et al Recruitment and retention strategies in longitudinal clinical studies with low-income populations. Contemp Clin Trials. 2011;32(3):353–62. 10.1016/j.cct.2011.01.007 <?supplied-pmid 21276876?>21276876 </plain></SENT>
+</text></ref><ref id="pone.0150250.ref044"><text><SENT sid="591" pm="."><plain>44Food Banks Canada. </plain></SENT>
+<SENT sid="592" pm="."><plain>Hunger Counts 2014. </plain></SENT>
+<SENT sid="593" pm="."><plain>Mississauga, ON 2014. </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

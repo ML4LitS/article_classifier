@@ -1,0 +1,713 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sensors (Basel)</journal-id><journal-id journal-id-type="iso-abbrev">Sensors (Basel)</journal-id><journal-id journal-id-type="publisher-id">sensors</journal-id><journal-title-group><journal-title>Sensors (Basel, Switzerland)</journal-title></journal-title-group><issn pub-type="epub">1424-8220</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6069148</article-id><article-id pub-id-type="doi">10.3390/s18072230</article-id><article-id pub-id-type="publisher-id">sensors-18-02230</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Desertification Sensitivity Analysis Using MEDALUS Model and GIS: A Case Study of the Oases of Middle Draa Valley, Morocco </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Lamqadem</surname><given-names>Atman Ait</given-names></name><xref ref-type="aff" rid="af1-sensors-18-02230">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9863-2054</contrib-id><name><surname>Pradhan</surname><given-names>Biswajeet</given-names></name><xref ref-type="aff" rid="af2-sensors-18-02230">2</xref><xref ref-type="aff" rid="af3-sensors-18-02230">3</xref><xref rid="c1-sensors-18-02230" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2502-5012</contrib-id><name><surname>Saber</surname><given-names>Hafid</given-names></name><xref ref-type="aff" rid="af1-sensors-18-02230">1</xref></contrib><contrib contrib-type="author"><name><surname>Rahimi</surname><given-names>Abdelmejid</given-names></name><xref ref-type="aff" rid="af1-sensors-18-02230">1</xref></contrib></contrib-group><aff id="af1-sensors-18-02230"><label>1</label>Laboratory of Geodynamic and Geomatic, Department of Geology, Faculty of Sciences, 24010 Chouaïb Doukkali, Morocco; <email>aitlamqadem.a@ucd.ac.ma</email> (A.A.L.); <email>Hafidsaber@yahoo.fr</email> (H.S.); <email>mjidrahimi@yahoo.fr</email> (A.R.)</aff><aff id="af2-sensors-18-02230"><label>2</label>Centre for Advanced Modelling and Geospatial Information Systems (CAMGIS), Faculty of Engineering and Information Technology, University of Technology Sydney, Sydney, NSW 2007, Australia</aff><aff id="af3-sensors-18-02230"><label>3</label>Department of Energy and Mineral Resources Engineering, Choongmu-gwan, Sejong University, 209, Neungdong-ro Gwangin-gu, Seoul 05006, Korea</aff><author-notes><corresp id="c1-sensors-18-02230"><label>*</label>Correspondence: <email>Biswajeet.Pradhan@uts.edu.au</email> or <email>Biswajeet24@gmail.com</email>; Tel.: +61-2-9514-7937</corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>7</month><year>2018</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2018</year></pub-date><volume>18</volume><issue>7</issue><elocation-id>2230</elocation-id><history><date date-type="received"><day>24</day><month>6</month><year>2018</year></date><date date-type="accepted"><day>09</day><month>7</month><year>2018</year></date></history><permissions><copyright-statement>© 2018 by the authors.</copyright-statement><copyright-year>2018</copyright-year><license license-type="open-access"><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>Oases can play a significant role in the sustainable economic development of arid and Saharan regions. </plain></SENT>
+<SENT sid="2" pm="."><plain>The aim of this study was to map the desertification-sensitive areas in the Middle Draa Valley (MDV), which is in the southeast of Morocco. </plain></SENT>
+<SENT sid="3" pm="."><plain>A total of 13 indices that affect desertification processes were identified and analyzed using a geographic information system. </plain></SENT>
+<SENT sid="4" pm="."><plain>The Mediterranean desertification and land use approach; which has been widely used in the Mediterranean regions due to its simplicity; flexibility and rapid implementation strategy; was applied. </plain></SENT>
+<SENT sid="5" pm="."><plain>All the indices were grouped into four main quality indices; i.e., soil quality; climate quality; vegetation quality and management quality indices. </plain></SENT>
+<SENT sid="6" pm="."><plain>Each quality index was constructed by the combination of several sub-indicators. </plain></SENT>
+<SENT sid="7" pm="."><plain>In turn; the geometric mean of the four quality index maps was used to construct a map of desertification-sensitive areas; which were classified into four classes (i.e., low; moderate; high and very high sensitivity). </plain></SENT>
+<SENT sid="8" pm="."><plain>Results indicated that only 16.63% of the sites in the study were classified as least sensitive to desertification; and 50.34% were classified as highly and very highly sensitive areas. </plain></SENT>
+<SENT sid="9" pm="."><plain>Findings also showed that climate and human pressure factors are the most important indicators affecting desertification sensitivity in the MDV. </plain></SENT>
+<SENT sid="10" pm="."><plain>The framework used in this research provides suitable results and can be easily implemented in similar oasis arid areas. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>MEDALUS</kwd><kwd>GIS</kwd><kwd>Sentinel-2 data</kwd><kwd>remote sensing</kwd><kwd>Middle Draa Valley</kwd><kwd>Morocco</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec id="sec1-sensors-18-02230"><title><text><SENT sid="11" pm="."><plain>1. </plain></SENT>
+<SENT sid="12" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="13" pm="."><plain>Drylands (arid, semi-arid, and dry sub-humid areas) cover approximately 40% of the Earth’s surface [1]. </plain></SENT>
+<SENT sid="14" pm="."><plain>Desertification refers to land degradation caused by climate change and human activity in arid, semi-arid, and dry sub-humid areas [2]. </plain></SENT>
+<SENT sid="15" pm="."><plain>Africa is a degraded continent. </plain></SENT>
+<SENT sid="16" pm="."><plain>More than 46% of Africa’s surface is affected by desertification. </plain></SENT>
+<SENT sid="17" pm="."><plain>In Morocco, a large part of the land (approximately 90%) is classified as desert [3]. </plain></SENT>
+<SENT sid="18" pm="."><plain>Human pressures, dry climate, and natural hazards (such as landslides and soil erosion) are the main driving factors of desertification in Morocco. </plain></SENT>
+</text></p><p><text><SENT sid="19" pm="."><plain>Desertification is a complex phenomenon resulting from the interaction of natural (biophysical) and anthropogenic factors with different temporal and spatial variabilities [4]. </plain></SENT>
+<SENT sid="20" pm="."><plain>Describing and assessing the state of current desertification requires key variables and indicators that consider biophysical and human factors. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>Field-based studies are one of the assessment methods of land degradation and desertification. </plain></SENT>
+<SENT sid="22" pm="."><plain>With the advent development of geospatial tools and remote sensing techniques, field-based studies have been popularly used as a powerful tool for the monitoring and assessment of arid lands and their dynamics. </plain></SENT>
+<SENT sid="23" pm="."><plain>Compared with field-based studies, remote sensing-based assessment is cost effective and time efficient for land degradation risk mapping [5,6]. </plain></SENT>
+</text></p><p><text><SENT sid="24" pm="."><plain>In the last decades, several approaches and methods have been developed to identify areas of land degradation. </plain></SENT>
+<SENT sid="25" pm="."><plain>Some of them use spectral biophysical indicators [7,8,9] and other integrating anthropogenic indicators [10]. </plain></SENT>
+<SENT sid="26" pm="."><plain>To represent the desertification process in a comprehensive and easy way, a conjugal methodology can be used by taking into consideration quantitative and qualitative methods and by using specific indicators [11,12]. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>The Mediterranean desertification and land use (MEDALUS) approach identifies environmentally sensitive areas (ESAs) through the Environmentally Sensitive Area Index (ESAI) [10]. </plain></SENT>
+<SENT sid="28" pm="."><plain>The ESAI is implemented by considering several variables, i.e., physical (soil quality), environmental (vegetation quality), climatic (climate quality), and social (management quality) indicators. </plain></SENT>
+<SENT sid="29" pm="."><plain>This index can be used to obtain an in-depth understanding of the parameters causing the desertification threat at a certain point. </plain></SENT>
+<SENT sid="30" pm="."><plain>This approach is simple, robust, widely applicable, and acceptable to new indicators and parameters and can be adjusted to several level scales [13]. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>The MEDALUS model has been a widely recognized approach in different Mediterranean regions at national, regional, and local scales. </plain></SENT>
+<SENT sid="32" pm="."><plain>It was used in an entire Greek state to assess desertification sensibility using the four indicators recommended by the original MEDALUS report [14]. </plain></SENT>
+<SENT sid="33" pm="."><plain>Ladisa et al. (2012) assessed desertification sensibility in the Apulia region (southeastern Italy) using this method, and the results indicated good performance for this technique [4]. </plain></SENT>
+<SENT sid="34" pm="."><plain>In another work, Trotta et al. (2015) applied MEDALUS at a local scale in Castel Porziano (central Italy) [15]. </plain></SENT>
+<SENT sid="35" pm="."><plain>Similarly, Contador et al. (2009) applied this method in Extremadura (southwestern Spain) [16]. </plain></SENT>
+<SENT sid="36" pm="."><plain>In a separate paper, Symenoakis assessed sensitivity to land degradation and desertification using Environmental Sensitive Area Index at Lesvos Island [17]. </plain></SENT>
+<SENT sid="37" pm="."><plain>In Lebanon, the method was applied in an arid region by adding certain parameters (i.e., rock hardness, permeability, soil organic matter, clogging, and erodibility) and excluding others (i.e., texture parent material and soil depth) [18]. </plain></SENT>
+<SENT sid="38" pm="."><plain>The method has also been applied in Mediterranean African countries, such as Algeria [19]. </plain></SENT>
+<SENT sid="39" pm="."><plain>In Morocco, the approach was applied in the arid regions of the Sous Massa River Basin to propose an action plan of potential interventions to mitigate the desertification problems in this region [20] and in Oued El Maleh, central Morocco [21]. </plain></SENT>
+<SENT sid="40" pm="."><plain>However, the MEDALUS model has been elaborated and developed in the context of Mediterranean areas prone to desertification, and most applications have been done in semi-arid, arid, and hyper-arid zones. </plain></SENT>
+<SENT sid="41" pm="."><plain>The model was adopted in the same climate context of the study area, which can be considered to be a hyper-arid climate. </plain></SENT>
+<SENT sid="42" pm="."><plain>For example, Benmessaud assessed a desertification sensitive area in the Biskra region (South Aurès) in Algeria using the MEDALUS model [22]. </plain></SENT>
+<SENT sid="43" pm="."><plain>Similarly, Benabderrahmane also used the same approach for mapping the desertification sensitive at the Eastern Algeria (Aures region) [23]. </plain></SENT>
+</text></p><p><text><SENT sid="44" pm="."><plain>This study aims to map the desertification-sensitive areas in the MDV on the basis of the four following indicators: soil, climate, vegetation, and human pressure. </plain></SENT>
+<SENT sid="45" pm="."><plain>Each indicator was constructed by considering various sub-indicators (i.e., parameters). </plain></SENT>
+<SENT sid="46" pm="."><plain>This approach is inspired by the original MEDALUS approach [10]. </plain></SENT>
+</text></p><sec id="sec2-sensors-18-02230"><title><text><SENT sid="47" pm="."><plain>2. </plain></SENT>
+<SENT sid="48" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="sec2dot1-sensors-18-02230"><title><text><SENT sid="49" pm="."><plain>2.1. </plain></SENT>
+<SENT sid="50" pm="."><plain>Study Area </plain></SENT>
+</text></title><p><text><SENT sid="51" pm="."><plain>Administratively, the MDV is a part of Zagora Province, which includes two urban and 18 rural communities. </plain></SENT>
+<SENT sid="52" pm="."><plain>Geographically, the MDV is located in the southeast of Morocco and in the south of the High Atlas mountains [24]. </plain></SENT>
+<SENT sid="53" pm="."><plain>The bed of Draa River forms a chain of six successive oases from upstream to downstream: Mezguita, Tinzouline, Ternata, Fezouata, Ktaoua, and Mhamid (Figure 1). </plain></SENT>
+<SENT sid="54" pm="."><plain>The altitudes of the areas vary between 500 and 1000 m. </plain></SENT>
+<SENT sid="55" pm="."><plain>It is located in the middle of the 6° west meridian and below the 30° north parallel. </plain></SENT>
+<SENT sid="56" pm="."><plain>The basin of Draa has an area of approximately 14,380 km2 and a width of 1200 km, crossed by Wadi Draa (ephemeral river) and fed by the El Mansour Eddahbi Dam [24]. </plain></SENT>
+</text></p><p><text><SENT sid="57" pm="."><plain>The Saharan region has an arid climate, with an average value of the aridity index of 0.03 [25]. </plain></SENT>
+<SENT sid="58" pm="."><plain>The average rainfall varies from 54 mm to 108 mm, and the evaporation reaches 3000 mm/year. </plain></SENT>
+<SENT sid="59" pm="."><plain>The maximum temperature can reach more than 48 °C during summer, and the minimum temperature varies between −1 °C and 7 °C during winter. </plain></SENT>
+</text></p><p><text><SENT sid="60" pm="."><plain>The vegetation coverage of oases is characterized by three main types: palm trees, fruit trees and seasonal agriculture. </plain></SENT>
+<SENT sid="61" pm="."><plain>Due to the arid climate, the hydrological system depends, to a certain extent, on the water runoff in the High Atlas mountain chain, El Mansour Eddahbi Dam and generally from wells. </plain></SENT>
+</text></p><p><text><SENT sid="62" pm="."><plain>The Middle Draa Valley (MDV) is an arid area located in south-eastern Morocco. </plain></SENT>
+<SENT sid="63" pm="."><plain>This area has an arid climate (high temperature and low rainfall), wind erosion and water shortage. </plain></SENT>
+<SENT sid="64" pm="."><plain>In recent years, the MDV has encountered severe environmental pressure from agricultural practices that are inadequate for the arid climate, and several environmental problems, such as wind and water erosion. </plain></SENT>
+<SENT sid="65" pm="."><plain>Despite these degradations, only a few studies have been conducted in this area. </plain></SENT>
+<SENT sid="66" pm="."><plain>Geologically, the MDV is a part of the domain of Palaeozoic formation and Bani (the Ordovician Mountain), whose geological formations belong to varied ages from the Precambrian to the Quaternary [26]. </plain></SENT>
+</text></p><p><text><SENT sid="67" pm="."><plain>In this research, the last four oases (Ternata to Mhamid) were chosen as the study areas (Figure 1). </plain></SENT>
+<SENT sid="68" pm="."><plain>These oases are classified as the most degraded in Morocco [27]. </plain></SENT>
+</text></p></sec><sec id="sec2dot2-sensors-18-02230"><title><text><SENT sid="69" pm="."><plain>2.2. </plain></SENT>
+<SENT sid="70" pm="."><plain>Data Used </plain></SENT>
+</text></title><p><text><SENT sid="71" pm="."><plain>To map the desertification-sensitive areas in the MDV, a list of data was used and processed as follows. The ASTER digital elevation model (DEM) was used to retrieve the slopes and aspect gradients. </plain></SENT>
+<SENT sid="72" pm="."><plain>The data (spatial resolution of 30 m) are available at https://lpdaac.usgs.gov/.Demographic data of the National Census of the Population and Habitat of 2014 were acquired from the Moroccan High Commission for Planning. </plain></SENT>
+<SENT sid="73" pm="."><plain>The data are available at https://www.hcp.ma.The census of livestock was collected from the Regional Centre of Agricultural Development of Ouarzazate (ORMVAO).Historical data of precipitation (1980–2015) were also collected from ORMVAO, which included a time series of the monthly precipitations of Ternata and Ktaoua climatological stations.Raster data of precipitation with 1 km2 were also used in this research. </plain></SENT>
+<SENT sid="74" pm="."><plain>This data were an average of the monthly precipitations from 1970 to 2000 [28]. </plain></SENT>
+<SENT sid="75" pm="."><plain>The data are available at http://www.worldClim.org.Data related to aridity were collected from the Consortium for Spatial Information (CSI), who provides high-resolution global raster climate data with a 1 km2 spatial resolution. </plain></SENT>
+<SENT sid="76" pm="."><plain>The data are available at http://www.cgiar-csi.org.Soil depth data were extracted and reproduced from the “integrated approach to the efficient management of scarce water resources in West Africa” (IMPETUS) project via http://www.impetus.uni-koeln.de.A geological map of Hamada Draa, with a scale of 1:200,000, was acquired from the Moroccan Minister of Energies, Mines and Sustainable Development and was used to extract the parental material (lithological formations).In this study, a Sentinel-2 (S-2) space-borne satellite image was used to extract vegetation coverage and land use/cover map of the study area. </plain></SENT>
+<SENT sid="77" pm="."><plain>The image was acquired on 3 July 2017. </plain></SENT>
+<SENT sid="78" pm="."><plain>S-2 imagery was captured using a multispectral imaging sensor that uses the push-broom imaging technique to measure the Earth’s top-of-atmosphere reflected radiance. </plain></SENT>
+<SENT sid="79" pm="."><plain>Thirteen bands (443–2190 nm) were present [29]. </plain></SENT>
+<SENT sid="80" pm="."><plain>The level 1C 12-bit encoded S-2 image was freely downloaded from the Copernicus Open Access Hub at https://scihub.copernicus.eu/. </plain></SENT>
+<SENT sid="81" pm="."><plain>The pre-processing of this data included radiometric and geometric correction and orthorectification (ortho-images in UTM/WGS84 projection) using Planet 90 m resolution DEM [30]. </plain></SENT>
+<SENT sid="82" pm="."><plain>The free SNAP tool developed by the European Space Agency was used to convert the level 1C image to level 2A bottom-of-atmosphere reflected values [31], with the association of the Sen2Cor tool [32] for the atmospheric correction. </plain></SENT>
+<SENT sid="83" pm="."><plain>The pre-processing also included resampling of bands to 10 m of spatial resolution using the nearest neighbour algorithm and then clipping of the site of study from the scene.Ground truth data were collected from the MDV to validate the land use/cover classification using the S-2 image and the final map of the desertification-sensitive areas. </plain></SENT>
+<SENT sid="84" pm="."><plain>The water samples were also collected from wells in different oases to calculate water salinity. </plain></SENT>
+</text></p></sec><sec id="sec2dot3-sensors-18-02230" sec-type="methods"><title><text><SENT sid="85" pm="."><plain>2.3. </plain></SENT>
+<SENT sid="86" pm="."><plain>Methodology </plain></SENT>
+</text></title><p><text><SENT sid="87" pm="."><plain>Desertification is a complex phenomenon that leads to the reduction of land productivity and interaction of time and space [33]. </plain></SENT>
+<SENT sid="88" pm="."><plain>This phenomenon is closely linked to several environmental factors (climate, soil, vegetation and morphology) and anthropogenic activities (human behaviour and socio-economic activities). </plain></SENT>
+</text></p><p><text><SENT sid="89" pm="."><plain>The key indicators of the MEDALUS model identify ESAI as an output, which defines the ESAs. </plain></SENT>
+<SENT sid="90" pm="."><plain>Generally, ESAs represent areas whose socio-economic and ecological aspects are not sustainable for a particular environment [34]. </plain></SENT>
+<SENT sid="91" pm="."><plain>The evaluation of ESAs is based on a combination of the physical and anthropogenic indicators. </plain></SENT>
+<SENT sid="92" pm="."><plain>The physical properties describe the environmental conditions of lands, including soil, climate, and vegetation qualities. </plain></SENT>
+<SENT sid="93" pm="."><plain>The management quality index (MQI) is calculated by considering the human and animal pressures to the environment related to the desertification process. </plain></SENT>
+<SENT sid="94" pm="."><plain>A geodatabase and several thematic maps were prepared and standardized with the same projection system and spatial resolution. </plain></SENT>
+</text></p><p><text><SENT sid="95" pm="."><plain>The indicators were grouped into four quality indices, namely, the soil quality index (SQI), climate quality index (CQI), vegetation quality index (VQI), and MQI (Figure 2). </plain></SENT>
+<SENT sid="96" pm="."><plain>Each indicator was calculated by means of sub-indicators, which were also classified. </plain></SENT>
+<SENT sid="97" pm="."><plain>For each class, a weight value was allocated. </plain></SENT>
+<SENT sid="98" pm="."><plain>The values of the weights varied from 1 (least sensitive to desertification), to 2 (most sensitive to desertification), and values between 1 and 2 represented relative vulnerability [10]. </plain></SENT>
+<SENT sid="99" pm="."><plain>The final ESAI map was produced by geometric mean in a geographical information system (GIS). </plain></SENT>
+<SENT sid="100" pm="."><plain>All raster layers of this project were resampled to 30 m of the spatial resolution using the nearest neighbourhood method and projected to a UTM zone 30 projection system. </plain></SENT>
+</text></p><sec id="sec2dot3dot1-sensors-18-02230"><title><text><SENT sid="101" pm="."><plain>2.3.1. </plain></SENT>
+<SENT sid="102" pm="."><plain>SQI </plain></SENT>
+</text></title><p><text><SENT sid="103" pm="."><plain>Soil is a key parameter that intervenes in the assessment of desertification. </plain></SENT>
+<SENT sid="104" pm="."><plain>Soil quality assessment depends on lithological formation, soil depth, topographical slope, organic matter, and soil texture. </plain></SENT>
+<SENT sid="105" pm="."><plain>In this step, maps and data related to soil are collected and reproduced. </plain></SENT>
+<SENT sid="106" pm="."><plain>Soil depth was reproduced after the results of the IMPETUS project. </plain></SENT>
+<SENT sid="107" pm="."><plain>The slope gradient map was retrieved from ASTER DEM. </plain></SENT>
+<SENT sid="108" pm="."><plain>The geological map was exploited to extract different parental materials (lithological formation). </plain></SENT>
+<SENT sid="109" pm="."><plain>Then, the parental material was classified into three classes according to the coherence of the lithology. </plain></SENT>
+</text></p><p><text><SENT sid="110" pm="."><plain>In this research, soil brightness was integrated as an indicator that influences soil quality. </plain></SENT>
+<SENT sid="111" pm="."><plain>In general, soils rich in organic matter are represented in remotely sensed images in dark colours. </plain></SENT>
+<SENT sid="112" pm="."><plain>By contrast, bright colours correspond to non-developed soils (poor in organic matter) [31]. </plain></SENT>
+<SENT sid="113" pm="."><plain>Surface albedo was used to extract soil brightness using Liang albedo [35]. </plain></SENT>
+<SENT sid="114" pm="."><plain>Albedo is widely used as an indicator to assess desertification in arid and semi-arid areas [7,9,33,34,35,36,37,38,39]. </plain></SENT>
+<SENT sid="115" pm="."><plain>Surface albedo was retrieved using S-2 imagery after pre-processing. </plain></SENT>
+</text></p><p><text><SENT sid="116" pm="."><plain>SQI was calculated by using the following formula (Equation (1)): (1)SQI=(S×Dp×Pm×B)1/4, where SQI is the soil quality index, S is the topographical slope, DP is the horizontal depth of soil, PM is the parental material and B is the brightness of soil (surface albedo). </plain></SENT>
+</text></p></sec><sec id="sec2dot3dot2-sensors-18-02230"><title><text><SENT sid="117" pm="."><plain>2.3.2. </plain></SENT>
+<SENT sid="118" pm="."><plain>VQI </plain></SENT>
+</text></title><p><text><SENT sid="119" pm="."><plain>Vegetation coverage plays an important role in the assessment of desertification in arid and semi-arid areas. </plain></SENT>
+<SENT sid="120" pm="."><plain>Vegetation can decrease sand dune encroachment intensity [40] and soil erosion and create a micro-climate for the local population and their livestock [41,42]. </plain></SENT>
+<SENT sid="121" pm="."><plain>Therefore, vegetation plants enrich organic soil and provide a high capacity to reduce the intensity of soil erosion, thus improving the coherence and quality of soil. </plain></SENT>
+<SENT sid="122" pm="."><plain>The basic source needed for the elaboration of data layers related to vegetation indicator is the land use/cover map of the MDV. </plain></SENT>
+<SENT sid="123" pm="."><plain>This map was derived from S-2 imagery by using supervized classification with maximum likelihood classification algorithm [43]. </plain></SENT>
+<SENT sid="124" pm="."><plain>The resultant map was validated using field data with matrix confusion and Kappa coefficient [44]. </plain></SENT>
+<SENT sid="125" pm="."><plain>The classified map was resampled from 10 m to 30 m using nearest neighbour resampling to obtain the same spatial resolution of all raster layers of indicators [45]. </plain></SENT>
+<SENT sid="126" pm="."><plain>The land use/cover map was used to elaborate fire risk, drought resistance and erosion protection maps, which constitute the VQI. </plain></SENT>
+<SENT sid="127" pm="."><plain>Subsequently, normalized difference vegetation index (NDVI) [46] was used to elaborate the plant cover map. </plain></SENT>
+<SENT sid="128" pm="."><plain>The VQI was calculated using Equation (2). (2)VQI=(Fr×Ep×Dr×Pc)1/4, where Fr is the fire risk, Ep is the erosion protection, Dr is the drought resistance and Pc is the plant cover. </plain></SENT>
+</text></p></sec><sec id="sec2dot3dot3-sensors-18-02230"><title><text><SENT sid="129" pm="."><plain>2.3.3. </plain></SENT>
+<SENT sid="130" pm="."><plain>CQI </plain></SENT>
+</text></title><p><text><SENT sid="131" pm="."><plain>Climate variability, succession of drought periods and severe climate conditions (low precipitations and high temperatures) can make plants and lands vulnerable to desertification. </plain></SENT>
+<SENT sid="132" pm="."><plain>Water availability depends on the value of the average annual precipitation. </plain></SENT>
+<SENT sid="133" pm="."><plain>In the zones where the precipitation is less than 280 mm/year, soil and wind erosion and degradation of lands are severe [10]. </plain></SENT>
+<SENT sid="134" pm="."><plain>In the study area, the annual average precipitation is generally lower than 100 mm/year. </plain></SENT>
+<SENT sid="135" pm="."><plain>The aridity, which is generally related to rainfall and evapotranspiration and/or temperature, is a crucial environmental factor. </plain></SENT>
+<SENT sid="136" pm="."><plain>The combination of high temperatures and low rainfall affects water availability and consequently influences vegetation growth and soil moisture [47]. </plain></SENT>
+</text></p><p><text><SENT sid="137" pm="."><plain>One of the most important parameters affecting the micro-climate quality is slope aspect, and soil moisture is related to the aspect direction. </plain></SENT>
+<SENT sid="138" pm="."><plain>An aspect with southeast orientation receives more sunlight than does a northeast one. </plain></SENT>
+<SENT sid="139" pm="."><plain>Furthermore, high sunlight implicates low surface moisture, high evaporation and vegetation degradation and, implicitly, water, and wind erosion [10,13]. </plain></SENT>
+<SENT sid="140" pm="."><plain>However, low humidity is presented by south, southeast, and southwest exposures, whereas high humidity corresponds to north, northeast, and northwest exposures [48]. </plain></SENT>
+</text></p><p><text><SENT sid="141" pm="."><plain>The CQI was evaluated by considering the following factors: rainfall, aridity extracted on the basis of climate and morphological data and aspect (Equation (3)). (3)CQI=(R×AI×A)1/3, where is rainfall (mm), AI is the aridity index and A is the aspect direction. </plain></SENT>
+</text></p><p><text><SENT sid="142" pm="."><plain>The rainfall map was produced by using the data provided by WorldClim [28]. </plain></SENT>
+<SENT sid="143" pm="."><plain>The data included the mean monthly rainfall for 1970–2000 (12 bands, each representing a month). </plain></SENT>
+</text></p><p><text><SENT sid="144" pm="."><plain>The Potential Evapo-Transpiration (PET) and the aridity index layers were given and calculated by Trabucco [25], by the exposition of WorldClim temperatures and precipitations data. </plain></SENT>
+<SENT sid="145" pm="."><plain>The Hargreaves method was applied to calculate the PET [49]. </plain></SENT>
+<SENT sid="146" pm="."><plain>The method uses mean monthly temperature (Tmean), mean monthly temperature range (TD) and mean monthly extra-terrestrial radiation (RA, radiation on top of atmosphere) to calculate mean PET, as shown below(Equation (4)) [25,49]: (4)PEF=0.0023×RA×(Tmean+17.8)×TD×0.5(mm/day) </plain></SENT>
+</text></p><p><text><SENT sid="147" pm="."><plain>The mean aridity index was calculated by using Equation (5) [47,48]. (5)Aridity Index (AI)=MAP/MAE, where MAP is the mean annual precipitation and MAE is the mean annual potential evapotranspiration. </plain></SENT>
+</text></p><p><text><SENT sid="148" pm="."><plain>The aspect map was retrieved directly from ASTER DEM and then reclassified into two classes. </plain></SENT>
+</text></p></sec><sec id="sec2dot3dot4-sensors-18-02230"><title><text><SENT sid="149" pm="."><plain>2.3.4. </plain></SENT>
+<SENT sid="150" pm="."><plain>MQI </plain></SENT>
+</text></title><p><text><SENT sid="151" pm="."><plain>Anthropogenic pressure affects ecosystem vulnerability. </plain></SENT>
+<SENT sid="152" pm="."><plain>Deforestation and land degradation are linked to agro-sylvo-pastoralism activities, overgrazing, logging, and inadequate agricultural practices. </plain></SENT>
+<SENT sid="153" pm="."><plain>In this study, MQI was calculated using human and grazing pressures. </plain></SENT>
+<SENT sid="154" pm="."><plain>Human pressure was calculated using the number of inhabitants of each administrative community, whereas grazing pressure grazing was calculated using the number of livestock (Equation (6)). (6)MQI=(Human pressure×Grazing pressure)1/2 </plain></SENT>
+</text></p></sec><sec id="sec2dot3dot5-sensors-18-02230"><title><text><SENT sid="155" pm="."><plain>2.3.5. </plain></SENT>
+<SENT sid="156" pm="."><plain>ESAI </plain></SENT>
+</text></title><p><text><SENT sid="157" pm="."><plain>The ESAI was given by the combination of the four indices described above. </plain></SENT>
+<SENT sid="158" pm="."><plain>SQI, VQGI, CQI and MQI were classified and weighted into three classes. </plain></SENT>
+<SENT sid="159" pm="."><plain>The maps of the four indicators were combined to calculate the ESAI using the following formula (Equation (7)): (7)ESAI=(SQI×CQI×VQI×MQI)1/4 </plain></SENT>
+</text></p></sec></sec></sec></sec></SecTag><SecTag type="RESULTS"><sec id="sec3-sensors-18-02230"><title><text><SENT sid="160" pm="."><plain>3. </plain></SENT>
+<SENT sid="161" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="162" pm="."><plain>In this part of the study, the evaluation of the four indexes of the <z:uniprot sup="inside" fb="127" ids="Q14254,Q60634">ESA</z:uniprot> approach is elaborated in detail. </plain></SENT>
+<SENT sid="163" pm="."><plain>The weight values in the tables are related to the influence on the desertification process, ranging from 1 (low sensitivity) to 2 (high sensitivity). </plain></SENT>
+</text></p><sec id="sec3dot1-sensors-18-02230"><title><text><SENT sid="164" pm="."><plain>3.1. </plain></SENT>
+<SENT sid="165" pm="."><plain>SQI </plain></SENT>
+</text></title><p><text><SENT sid="166" pm="."><plain>Soil is connected to water availability and erosion threat. </plain></SENT>
+<SENT sid="167" pm="."><plain>The SQI was calculated through the combination of different sub-indicators indicated in Equation (1). </plain></SENT>
+<SENT sid="168" pm="."><plain>A large part of the oases in the MDV are located in a quaternary formation. </plain></SENT>
+<SENT sid="169" pm="."><plain>The quaternary part includes terraces of major bed, mobile sand, unconsolidated scree, low terraces, dejection cones, and white limestones, probably lacustrine and often conglomeratic. </plain></SENT>
+<SENT sid="170" pm="."><plain>Furthermore, the Ordovician part contains sandstone, quartzites, and claystone. </plain></SENT>
+<SENT sid="171" pm="."><plain>Soils derived from different parent materials react differently to erosion, absorbency and production of biomass: the presence of pebbles still causes an increase in runoff and therefore improved safeguard from desertification. </plain></SENT>
+</text></p><p><text><SENT sid="172" pm="."><plain>Soil depth is linked to water availability. </plain></SENT>
+<SENT sid="173" pm="."><plain>A deep soil can assure water reserves and can then provide a good condition for vegetation development and growth. </plain></SENT>
+</text></p><p><text><SENT sid="174" pm="."><plain>The erosion process is directly linked to slope gradient. </plain></SENT>
+<SENT sid="175" pm="."><plain>Soil erosion increases with high slope gradient and rainfall and decreases with low slope gradient. </plain></SENT>
+</text></p><p><text><SENT sid="176" pm="."><plain>The influence of each class for each sub-indicator constructs SQI that was weighted based the influence on desertification process (Table 1). </plain></SENT>
+</text></p><p><text><SENT sid="177" pm="."><plain>The results of the SQI indicated that approximately 43.21% of the study area is classified with high quality and 25% with low quality. </plain></SENT>
+<SENT sid="178" pm="."><plain>The map of SQI was produced by the geometric mean of the four sub-indicators (Equation (1)), and then the map was classified into three classes (Figure 3). </plain></SENT>
+<SENT sid="179" pm="."><plain>The results indicated that the zones with low soil quality are located in the south part of the MDV (Mhamid oasis), with a large part of this oasis consisting of sand dunes. </plain></SENT>
+</text></p></sec><sec id="sec3dot2-sensors-18-02230"><title><text><SENT sid="180" pm="."><plain>3.2. </plain></SENT>
+<SENT sid="181" pm="."><plain>CQI </plain></SENT>
+</text></title><p><text><SENT sid="182" pm="."><plain>The study area contains only two climatic stations (Ktaoua and Ternata). </plain></SENT>
+<SENT sid="183" pm="."><plain>The two stations cannot provide a good distribution of precipitation estimate for the entire study area. </plain></SENT>
+<SENT sid="184" pm="."><plain>For this reason, data from the WorldClim database were used to calculate CQI. </plain></SENT>
+<SENT sid="185" pm="."><plain>The rainfall is characterized by the variability in space and time and a low average rainfall. </plain></SENT>
+<SENT sid="186" pm="."><plain>Annual average rainfall varies between 1950 and 2000 in the study area and ranges from 50 mm to 100 mm. </plain></SENT>
+<SENT sid="187" pm="."><plain>This low rainfall leads to high aridity, and the values of the aridity index (calculated using Trabuco formula) extend from 0.023 to 0.039. </plain></SENT>
+</text></p><p><text><SENT sid="188" pm="."><plain>CQI was calculated by the combination of three sub-indicators, which were classified and weighted according to the values in Table 2. </plain></SENT>
+</text></p><p><text><SENT sid="189" pm="."><plain>Approximately 42.76% of the study area is classified with low CQI and 27.43% with high CQI, explaining that climate indicator is one of the main factors that affects the desertification in the MDV. </plain></SENT>
+</text></p><p><text><SENT sid="190" pm="."><plain>An overlay analysis of the three indicators produced the map of CQI (Figure 4). </plain></SENT>
+<SENT sid="191" pm="."><plain>The map illustrates the three main zones with low and high quality of climate. </plain></SENT>
+<SENT sid="192" pm="."><plain>The low quality of climate is presented in the south part of the study area (Mhamid and Ktaoua oases). </plain></SENT>
+</text></p></sec><sec id="sec3dot3-sensors-18-02230"><title><text><SENT sid="193" pm="."><plain>3.3. </plain></SENT>
+<SENT sid="194" pm="."><plain>VQI </plain></SENT>
+</text></title><p><text><SENT sid="195" pm="."><plain>VQI was calculated by the combination of the four sub-indicators (Table 3). </plain></SENT>
+<SENT sid="196" pm="."><plain>Plant cover density was calculated from the NDVI and then classified. </plain></SENT>
+<SENT sid="197" pm="."><plain>The NDVI varies from −1 to 1. </plain></SENT>
+<SENT sid="198" pm="."><plain>The values of NDVI were classified into three main classes (less than 0.1; from 0.1 to 0.3; and more than 0.3). </plain></SENT>
+<SENT sid="199" pm="."><plain>The last sub-indicators were derived from the map of land cover. </plain></SENT>
+<SENT sid="200" pm="."><plain>According to field survey, the main land use/cover classes in the study area are pastoral lands, seasonal Saharan vegetation, palm grove, agricultural lands, water, bare land, and buildups. </plain></SENT>
+<SENT sid="201" pm="."><plain>These classes were used as inputs for the supervized classification of S-2 imagery with the maximum likelihood algorithm. </plain></SENT>
+<SENT sid="202" pm="."><plain>The accuracy of the map is 97.3%; approximately 200 sample points were used to validate the accuracy of the map. </plain></SENT>
+</text></p><p><text><SENT sid="203" pm="."><plain>The results of the VQI (Figure 5) show that only 5.78% of the study area is classified as high quality and 78.65% is of low quality. </plain></SENT>
+<SENT sid="204" pm="."><plain>High vegetation quality is located generally in the north part of the study area (Ternata oasis). </plain></SENT>
+<SENT sid="205" pm="."><plain>Moreover, a large part of the moderate and low vegetation quality is located in the Ktaoua and Mhamid oases in the southern part of the MDV. </plain></SENT>
+</text></p></sec><sec id="sec3dot4-sensors-18-02230"><title><text><SENT sid="206" pm="."><plain>3.4. </plain></SENT>
+<SENT sid="207" pm="."><plain>MQI </plain></SENT>
+</text></title><p><text><SENT sid="208" pm="."><plain>Human pressure (grazing, water supply, and intense agricultural activities) leads to land degradation and desertification. </plain></SENT>
+<SENT sid="209" pm="."><plain>MQI was calculated by the combination of two sub-indicators, namely, human and grazing pressures. </plain></SENT>
+<SENT sid="210" pm="."><plain>For each administrative boundary (named also as rural commune), the number of inhabitants was calculated and then reclassified into three classes (Table 4). </plain></SENT>
+</text></p><p><text><SENT sid="211" pm="."><plain>In MDV, two main categories of livestock can be distinguished, namely, domestic (i.e., D’man sheep) and pastoralist livestock (i.e., Rahali goat). </plain></SENT>
+<SENT sid="212" pm="."><plain>Six types of livestock were grouped into classes and were attributed a weight according to their type. </plain></SENT>
+<SENT sid="213" pm="."><plain>The value ‘1’ was assigned for domestic livestock, value ‘2’ for pastoralist livestock and value ‘3’ for camels. </plain></SENT>
+<SENT sid="214" pm="."><plain>The weighted values were attributed according to the influence of grazing on the desertification process. </plain></SENT>
+<SENT sid="215" pm="."><plain>For example, the pastoralist livestock can affect the Saharan grass, a key role for the fixation of dune and wind erosion. </plain></SENT>
+</text></p><p><text><SENT sid="216" pm="."><plain>The two sub-indicators were classified into three classes (Table 5). </plain></SENT>
+</text></p><p><text><SENT sid="217" pm="."><plain>The two sub-indicators were classified into three classes of quality, from low to high, and then calculated using geometric mean (Figure 6). </plain></SENT>
+<SENT sid="218" pm="."><plain>The results of the MQI indicate that only 12% of the study area is classified as high quality. </plain></SENT>
+<SENT sid="219" pm="."><plain>In other words, 12% of the study area falls in the zones of low pressure, including human and animal pressures (Table 6). </plain></SENT>
+<SENT sid="220" pm="."><plain>The most affected oases are Ktaoua and Mhamid. </plain></SENT>
+</text></p><p><text><SENT sid="221" pm="."><plain>Table 6 summarizes the areas and portion of each class constituting the four indicators of desertification. </plain></SENT>
+<SENT sid="222" pm="."><plain>The results highlight that vegetation, climate and human activities present low quality in the study area. </plain></SENT>
+</text></p></sec><sec id="sec3dot5-sensors-18-02230"><title><text><SENT sid="223" pm="."><plain>3.5. </plain></SENT>
+<SENT sid="224" pm="."><plain>ESAI </plain></SENT>
+</text></title><p><text><SENT sid="225" pm="."><plain>The sensitivity of the areas to desertification risk was determined by means of four indicators, namely, soil, climate, vegetation and human practices (Figure 7). </plain></SENT>
+<SENT sid="226" pm="."><plain>These combinations were conducted in GIS by using Equation (7). </plain></SENT>
+<SENT sid="227" pm="."><plain>The results obtained revealed that over 50% of the study area is classified as fragile to critical areas (Table 7) and 16.63% are potentially affected. </plain></SENT>
+</text></p><p><text><SENT sid="228" pm="."><plain>The final ESAI was calculated by the overlay of the four indicators by integrating the desertification process. </plain></SENT>
+<SENT sid="229" pm="."><plain>The map presents four classes (Figure 7) and shows that the most affected areas are located in the southern part of the study area (Mhamid and Ktaoua oases). </plain></SENT>
+<SENT sid="230" pm="."><plain>According to the map of desertification-sensitive areas, desertification creates a gradient of intensity from north to south. </plain></SENT>
+</text></p><p><text><SENT sid="231" pm="."><plain>The least sensitive areas to desertification are generally located in the Ternata oasis and correspond to the dense palm grove (Figure 8A). </plain></SENT>
+<SENT sid="232" pm="."><plain>This class includes three stages of vegetation (i.e., palm trees, fruit trees and seasonal agricultural vegetation). </plain></SENT>
+<SENT sid="233" pm="."><plain>The moderately sensitive class is located generally in the Fezouata oasis, and this class is characterized by the existence of one level of vegetation, i.e., palm trees (Figure 8B). </plain></SENT>
+<SENT sid="234" pm="."><plain>Moreover, the last two classes, high and very high sensitivity to desertification, are situated in the Ktaoua an M’hamid oases, where the main land cover are sand dunes, bright soils and degraded palm and alfalfa, as shown in Figure 8C and Figure 8D. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="sec4-sensors-18-02230"><title><text><SENT sid="235" pm="."><plain>4. </plain></SENT>
+<SENT sid="236" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="237" pm="."><plain>In this research, the MEDALUS approach was adopted because several studies in similar arid regions adopted it; for example, Egypt [6], Iran [50,51], Morocco [21], and Algeria [52]. </plain></SENT>
+<SENT sid="238" pm="."><plain>In this research, we modified and adjusted the original values of the MEDALUS approach proposed by [10]. </plain></SENT>
+<SENT sid="239" pm="."><plain>The brightness parameter, albedo in our case, was added as a factor of calculation of soil quality. </plain></SENT>
+<SENT sid="240" pm="."><plain>The brightness can be an alternative of organic matter data in regions that lack data related to organic matter. </plain></SENT>
+</text></p><p><text><SENT sid="241" pm="."><plain>The aim of any monitoring and assessment of desertification threats is to understand and predict changes and trends over time and space to promote a suitable management system. </plain></SENT>
+<SENT sid="242" pm="."><plain>Furthermore, the MEDALUS approach can be an efficient tool for managing and protecting fragile arid lands, especially oasis areas. </plain></SENT>
+<SENT sid="243" pm="."><plain>The approach is also flexible because it allows users to add, remove, and adjust the sub-indicators as necessary. </plain></SENT>
+</text></p><p><text><SENT sid="244" pm="."><plain>The absence of historical data (i.e., climatological and socio-economic data about the soil characteristics) is one of the limitations of ecosystem monitoring and desertification assessment in several developing countries. </plain></SENT>
+<SENT sid="245" pm="."><plain>In the MDV, climatological stations are limited and do not cover the entire study area. </plain></SENT>
+<SENT sid="246" pm="."><plain>The data also contain several gaps and missing values for the time series. </plain></SENT>
+<SENT sid="247" pm="."><plain>Data related to organic matter and soil fertility are not available for the study area. </plain></SENT>
+<SENT sid="248" pm="."><plain>Hence, the freely available database of WorldClim data [28] was used due to the unavailability of a local dataset. </plain></SENT>
+</text></p><p><text><SENT sid="249" pm="."><plain>The MDV is the most degraded area in Morocco [53]. </plain></SENT>
+<SENT sid="250" pm="."><plain>The causes of desertification in this area are due to various factors, including both natural and anthropogenic. </plain></SENT>
+<SENT sid="251" pm="."><plain>The main causes of desertification are climatic factors, characterized by low and variable rainfall (100 m in average). </plain></SENT>
+<SENT sid="252" pm="."><plain>Two patterns of rainfall can be observed in this area, i.e., successions of drought years or exceptional years with floods. Figure 9 shows the average annual precipitation of the two climatological stations of the Ternata and Ktaoua oases. </plain></SENT>
+<SENT sid="253" pm="."><plain>A high intra-annual variability can be seen in the pattern of rainfall for the period of 1980–2015. </plain></SENT>
+</text></p><p><text><SENT sid="254" pm="."><plain>The pattern of the temperatures is also characterized by the high inter-annual variability. </plain></SENT>
+<SENT sid="255" pm="."><plain>The minimum annual average temperature is 2.55 °C recorded in 2002 against 10.74 °C as the maximum value of the annual average, recorded in 2009 (Figure 10). </plain></SENT>
+<SENT sid="256" pm="."><plain>However, by the analysis of the series of monthly temperatures, a high inter-annual variability was observed. </plain></SENT>
+<SENT sid="257" pm="."><plain>The minimum monthly temperature was recorded in December 2014 (−0.3 °C), the maximal value was also recorded in the same year with a value of 44.2 °C. </plain></SENT>
+<SENT sid="258" pm="."><plain>The high temperatures in the studied area affect the availability of water for the plants caused evaporation and, consequently, the degradation of lands. </plain></SENT>
+</text></p><p><text><SENT sid="259" pm="."><plain>Anthropogenic pressure is also the main factor affecting ecosystems, which are already fragile. </plain></SENT>
+<SENT sid="260" pm="."><plain>Human practices are characterized by overgrazing and inadequate agricultural practices. </plain></SENT>
+<SENT sid="261" pm="."><plain>In 2009, the number of camels in Mhamid and Ternata oases was more than 8400. </plain></SENT>
+<SENT sid="262" pm="."><plain>Camel grazing in the pastoral lands degrades the Saharan grassland (a factor of fixation of soils against wind and water erosion). </plain></SENT>
+<SENT sid="263" pm="."><plain>In the last year, the number of wells and motor pumps rapidly increased. </plain></SENT>
+<SENT sid="264" pm="."><plain>The number of pumps was estimated in 1977 and 2011 to be 2000 and more than 10,000, respectively [54], in the MDV. </plain></SENT>
+<SENT sid="265" pm="."><plain>The risk of overexploitation causes water scarcity and increases the salinity in the groundwater system. </plain></SENT>
+<SENT sid="266" pm="."><plain>Water salinity influences the soil quality, thus causing soil salinity. </plain></SENT>
+</text></p><p><text><SENT sid="267" pm="."><plain>In 2017, a field study was conducted to collect water samples (90 samples) from different wells around the MDV. </plain></SENT>
+<SENT sid="268" pm="."><plain>Electrical conductivity was used to calculate water salinity. </plain></SENT>
+<SENT sid="269" pm="."><plain>According to our analysis, the average of water salinity was 2.7 g/L in Ternata, 4.36 g/L in Fezouata, 4.36 g/L in Ktaoua, and 5.33 g/L in Mhamid. </plain></SENT>
+<SENT sid="270" pm="."><plain>These results indicate that the concentration of water increases from north to south of the site of study. </plain></SENT>
+<SENT sid="271" pm="."><plain>This finding confirms the result of the map of the sensitive areas. </plain></SENT>
+</text></p><p><text><SENT sid="272" pm="."><plain>Since 2007, the agricultural areas of watermelon farms have increased due to the subvention of the Green Morocco Plan, with which 90% of the fees of agricultural exploitation can be reached [55]. </plain></SENT>
+<SENT sid="273" pm="."><plain>These practices require large quantities of water, thereby causing water scarcity in the Draa catchment and, consequently, the desertification process. </plain></SENT>
+</text></p><p><text><SENT sid="274" pm="."><plain>The first main driving force of desertification in these oases is climatic conditions with high evaporation and low and high variability of rainfall. </plain></SENT>
+<SENT sid="275" pm="."><plain>Furthermore, the socio-economic factors accelerate the degradation of the oases [56]. </plain></SENT>
+<SENT sid="276" pm="."><plain>Due to poverty, the local people cut wood in pastoral lands for domestic purposes or pottery, especially in the Fezouata oasis. </plain></SENT>
+<SENT sid="277" pm="."><plain>The tourism activities are one of the driving forces that lead to the vulnerability of oases [24]. </plain></SENT>
+<SENT sid="278" pm="."><plain>A tourist living at a hotel can consume three times the amount of water used by the local residents [57]. </plain></SENT>
+<SENT sid="279" pm="."><plain>Tourism activities can be an economical alternative that can mobilize the economy of the MDV, provided that the sustainability of natural resources is respected. </plain></SENT>
+</text></p><p><text><SENT sid="280" pm="."><plain>Policy strategies and national administrations must focus their subsidies on sustainable agricultural activities that suit arid climates, such as aromatic and medicinal plants. </plain></SENT>
+<SENT sid="281" pm="."><plain>The regeneration of palm date heritage and the adoption of new species with high market value can be an alternative to supplying high quantities of water to certain agricultural types. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec id="sec5-sensors-18-02230"><title><text><SENT sid="282" pm="."><plain>5. </plain></SENT>
+<SENT sid="283" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="284" pm="."><plain>In this study, ESAs were mapped in the MDV. </plain></SENT>
+<SENT sid="285" pm="."><plain>The MEDALUS approach was adjusted to develop a regional model that could be adapted to the oases located southeast of Morocco. </plain></SENT>
+<SENT sid="286" pm="."><plain>Four composite indices, with each comprising several sub-indicators, were analyzed through a GIS-based approach. </plain></SENT>
+<SENT sid="287" pm="."><plain>Soil, climate, vegetation, and human pressure factors were combined and scored in a GIS to develop a map of desertification-sensitive areas. </plain></SENT>
+<SENT sid="288" pm="."><plain>The results showed that climate factors are the primary sources of desertification and land degradation, combined with high human pressure as the most important indicator for describing desertification sensitivity in the last four oases of the MDV. </plain></SENT>
+<SENT sid="289" pm="."><plain>Climate patterns are characterized by low rainfall and high temperatures, and human activities are characterized by a high consumption of water resources. </plain></SENT>
+<SENT sid="290" pm="."><plain>On the basis of the obtained desertification map, nearly 40% of the study area was classified as potentially sensitive to desertification. </plain></SENT>
+</text></p><p><text><SENT sid="291" pm="."><plain>The improvement of the MEDALUS approach in perspective works will be focused on the integration of data related to groundwater quality (groundwater recharge and water salinity). </plain></SENT>
+<SENT sid="292" pm="."><plain>In addition, the integration of soil salinity as a sub-indicator for deriving SQI will be considered. </plain></SENT>
+<SENT sid="293" pm="."><plain>Tourism, as a second principal economic activity in the MDV, will be integrated as an index named tourism pressure. </plain></SENT>
+</text></p><p><text><SENT sid="294" pm="."><plain>Finally, the limitation of desertification research assessment and monitoring in several developing countries (e.g., southeast of Morocco) is the absence of historical data, including climatic (wind direction and speed), pedological (soil salinity, organic matter), and socio-economic data (poverty, gross domestic product). </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><title>Acknowledgments</title><p><text4fund><text><SENT sid="295" pm="."><plain>We would like to thank the National Center of the Scientific and Technique Research for the scholarship of PhD student A.A.L. </plain></SENT>
+<SENT sid="296" pm="."><plain>(Scholarship N° 1UCD2016). </plain></SENT>
+<SENT sid="297" pm="."><plain>Our acknowledgments are also addressed to the Regional Office of the Agricultural Development for providing the statistical data and WorldClim for the climate data. </plain></SENT>
+<SENT sid="298" pm="."><plain>We thank the Chouaïb Doukkali University for the logistical support during the field works of this study. </plain></SENT>
+</text></text4fund></p></ack></SecTag><notes><title>Author Contributions</title><p>A.A.L. conceptualised the study, and A.A.L. and H.S. collected and analysed the data. A.A.L., H.S. and B.P. performed analysis and validation and wrote the manuscript. A.A.L., H.S., B.P. and A.R. contributed to the re-structuring and editing of the manuscript. A.A.L and B.P. professionally optimised the manuscript.</p></notes><notes><title>Funding</title><p>This research was funded by the UTS under grant number 321740.2232335 and 321740.2232357.</p></notes><notes notes-type="COI-statement"><title>Conflicts of Interest</title><p>The authors declare no conflict of interest. </p></notes><SecTag type="REF"><ref-list><title>References</title><ref id="B1-sensors-18-02230"><text><SENT sid="299" pm="."><plain>1.DeichmannU.EklundhL.Global Digital Datasets for Land Degradation Studies: A GIS ApproachGlobal Environment Monitoring System, United Nations Environment ProgrammeNairobi, Kenya1991Available online: <ext-link ext-link-type="uri" xlink:href="https://trove.nla.gov.au/work/21947593?q&amp;versionId=26449303">https://trove.<z:uniprot sup="inside" fb="34" ids="Q9XZL8">nla</z:uniprot>.gov.au/work/21947593?q&amp;versionId=26449303</ext-link>(accessed on 9 July 2018) </plain></SENT>
+</text></ref><ref id="B2-sensors-18-02230"><text><SENT sid="300" pm="."><plain>2.UNCCDDesertification: The Invisible FrontlineUNCCD PublicationsBonn, Germany2014 </plain></SENT>
+</text></ref><ref id="B3-sensors-18-02230"><text><SENT sid="301" pm="."><plain>3.HammouzakiY.Desertification and its control in MoroccoCombating Desertification in Asia, Africa and the Middle EastSpringer NetherlandsDordrecht, The Netherlands201391111 </plain></SENT>
+</text></ref><ref id="B4-sensors-18-02230"><text><SENT sid="302" pm="."><plain>4.LadisaG.TodorovicM.Trisorio LiuzziG.A GIS-based approach for desertification risk assessment in Apulia region, SE ItalyPhys. </plain></SENT>
+<SENT sid="303" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="304" pm="."><plain>Earth. </plain></SENT>
+<SENT sid="305" pm="."><plain>Parts A/B/C20124910311310.1016/j.pce.2011.05.007 </plain></SENT>
+</text></ref><ref id="B5-sensors-18-02230"><text><SENT sid="306" pm="."><plain>5.GaoJ.LiuY.Mapping of land degradation from space: a comparative study of Landsat <z:uniprot sup="inside" fb="0" ids="P11039,O10307">ETM</z:uniprot>+ and ASTER dataInt. </plain></SENT>
+<SENT sid="307" pm="."><plain>J. </plain></SENT>
+<SENT sid="308" pm="."><plain>Remote Sens.2008294029404310.1080/01431160801891887 </plain></SENT>
+</text></ref><ref id="B6-sensors-18-02230"><text><SENT sid="309" pm="."><plain>6.BakrN.WeindorfD.C.BahnassyM.H.El-BadawiM.M.Multi-temporal assessment of land sensitivity to desertification in a fragile agro-ecosystem: Environmental indicatorsEcol. </plain></SENT>
+<SENT sid="310" pm="."><plain>Indic.20121527128010.1016/j.ecolind.2011.09.034 </plain></SENT>
+</text></ref><ref id="B7-sensors-18-02230"><text><SENT sid="311" pm="."><plain>7.XuD.KangX.QiuD.ZhuangD.PanJ.Quantitative Assessment of Desertification Using Landsat Data on a Regional Scale—A Case Study in the Ordos Plateau, ChinaSensors200991738175310.3390/s90301738<?supplied-pmid 22573984?>22573984 </plain></SENT>
+</text></ref><ref id="B8-sensors-18-02230"><text><SENT sid="312" pm="."><plain>8.MaZ.XieY.JiaoJ.LiL.WangX.The Construction and Application of an Aledo-NDVI Based Desertification Monitoring ModelProcedia Environ. </plain></SENT>
+<SENT sid="313" pm="."><plain>Sci.2011102029203510.1016/j.proenv.2011.09.318 </plain></SENT>
+</text></ref><ref id="B9-sensors-18-02230"><text><SENT sid="314" pm="."><plain>9.LamchinM.LeeJ.Y.LeeW.K.LeeE.J.KimM.LimC.H.ChoiH.A.KimS.R.Assessment of land cover change and desertification using remote sensing technology in a local region of MongoliaAdv. </plain></SENT>
+<SENT sid="315" pm="."><plain>Space Res.201657647710.1016/j.<z:uniprot sup="inside" fb="7" ids="Q8ZDC4,A7MLT4,B7URT6,B7M9V0,B7L5E9,Q8X783,B7NUP2,B7MV44,B7LZY9,C4ZY59,B1XF62,Q0THN1,Q8CW15,B1IQZ3,P36560,B7NB47,B6IB31,A4WA61,Q93MH6,Q93MH5,B4THR7,Q93MH4,Q8ZPK9,A8GI73,Q83RD2,A1JKC3,A7FFL9,Q1C5C7,B2KAB7,A9R3T6,Q1CKL2,A4TL44,Q667N8,B1JR58">asr</z:uniprot>.2015.10.006 </plain></SENT>
+</text></ref><ref id="B10-sensors-18-02230"><text><SENT sid="316" pm="."><plain>10.KosmasC.KirkbyM.J.GeesonN.Medalus Project: Mediterranean Desertification and Land Use. </plain></SENT>
+<SENT sid="317" pm="."><plain>Manual on KEY INDICATORS of Desertification and Mapping Environmentally Sensitive AreasPublication of European UnionBrussels, Beligium19999282863492 </plain></SENT>
+</text></ref><ref id="B11-sensors-18-02230"><text><SENT sid="318" pm="."><plain>11.SommerS.ZuccaC.GraingerA.CherletM.ZougmoreR.SokonaY.HillJ.Della PerutaR.RoehrigJ.WangG.Application of indicator systems for monitoring and assessment of desertification from national to global scalesLand Degrad. </plain></SENT>
+<SENT sid="319" pm="."><plain>Dev.20112218419710.1002/ldr.1084 </plain></SENT>
+</text></ref><ref id="B12-sensors-18-02230"><text><SENT sid="320" pm="?"><plain>12.RasmussenK.FogB.MadsenJ.E.Desertification in reverse? </plain></SENT>
+<SENT sid="321" pm="."><plain>Observations from northern Burkina FasoGlob. </plain></SENT>
+<SENT sid="322" pm="."><plain>Environ. </plain></SENT>
+<SENT sid="323" pm="."><plain>Chang.20011127128210.1016/S0959-3780(01)00005-X </plain></SENT>
+</text></ref><ref id="B13-sensors-18-02230"><text><SENT sid="324" pm="."><plain>13.KosmasC.TsaraM.MoustakasN.KaravitisC.Identification of indicators for desertificationAnn. </plain></SENT>
+<SENT sid="325" pm="."><plain>Arid Zone200342393416 </plain></SENT>
+</text></ref><ref id="B14-sensors-18-02230"><text><SENT sid="326" pm="."><plain>14.KaramesoutiM.PanagosP.KosmasC.Model-based spatio-temporal analysis of land desertification risk in GreeceCATENA201816726627510.1016/j.catena.2018.04.042 </plain></SENT>
+</text></ref><ref id="B15-sensors-18-02230"><text><SENT sid="327" pm="."><plain>15.TrottaC.MenegoniP.Manfredi FrattarelliF.M.IannettaM.Assessing desertification vulnerability on a local scale: the Castelporziano study case (central Italy)Rend. </plain></SENT>
+<SENT sid="328" pm="."><plain>Lincei20152642145010.1007/s12210-014-0362-5 </plain></SENT>
+</text></ref><ref id="B16-sensors-18-02230"><text><SENT sid="329" pm="."><plain>16.ContadorJ.F.L.SchnabelS.GutiérrezA.G.FernándezM.P.Mapping sensitivity to land degradation in Extremadura. </plain></SENT>
+<SENT sid="330" pm="."><plain>SW SpainLand Degrad. </plain></SENT>
+<SENT sid="331" pm="."><plain>Dev.20092012914410.1002/ldr.884 </plain></SENT>
+</text></ref><ref id="B17-sensors-18-02230"><text><SENT sid="332" pm="."><plain>17.SymeonakisE.KarathanasisN.KoukoulasS.PanagopoulosG.Monitoring sensitivity to land degradation and desertification with the environmentally sensitive area index: The case of Lesvos IslandLand Degrad. </plain></SENT>
+<SENT sid="333" pm="."><plain>Dev.2014271562157310.1002/ldr.2285 </plain></SENT>
+</text></ref><ref id="B18-sensors-18-02230"><text><SENT sid="334" pm="."><plain>18.KamelA.AliH.GhalebF.MarioM.TonyG.GIS-based mapping of areas sensitive to desertification in a semi-arid region in LebanonSouth-Eastern Eur. </plain></SENT>
+<SENT sid="335" pm="."><plain>J. </plain></SENT>
+<SENT sid="336" pm="."><plain>Earth Obs. </plain></SENT>
+<SENT sid="337" pm="."><plain>Geomat.2015491103 </plain></SENT>
+</text></ref><ref id="B19-sensors-18-02230"><text><SENT sid="338" pm="."><plain>19.BoudjemlineF.SemarA.Assessment and mapping of desertification sensitivity with MEDALUS model and GIS—Case study: basin of Hodna, AlgeriaJ. </plain></SENT>
+<SENT sid="339" pm="."><plain>Water Land Dev.2018172610.2478/jwld-2018-0002 </plain></SENT>
+</text></ref><ref id="B20-sensors-18-02230"><text><SENT sid="340" pm="."><plain>20.BouabidR.RouchdiM.BadraouiM.DiabA.LouafiS.Assessment of land desertification based on the MEDALUS approach and elaboration of an action plan: The case study of the Souss River Basin, MoroccoLand Degradation and Desertification: Assessment, Mitigation and RemediationSpringerDordrecht, The Netherlands2010131145 </plain></SENT>
+</text></ref><ref id="B21-sensors-18-02230"><text><SENT sid="341" pm="."><plain>21.LahlaoiH.RhinaneH.HilaliA.LahssiniS.MoukrimS.Desertification Assessment Using MEDALUS Model in Watershed Oued El Maleh, MoroccoGeosciences201775010.3390/geosciences7030050 </plain></SENT>
+</text></ref><ref id="B22-sensors-18-02230"><text><SENT sid="342" pm="."><plain>22.BenmessaudH.KallaM.DriddiH.The Use of GIS Data in the Desertification Risk Cartography: Case Study of South Aurès Region in AlgeriaLand Degradation and Desertification: Assessment, Mitigation and RemediationSpringer NetherlandsDordrecht, The Netherlands20108195 </plain></SENT>
+</text></ref><ref id="B23-sensors-18-02230"><text><SENT sid="343" pm="."><plain>23.BenabderrahmaneM.C.ChenchouniH.Assessing Environmental Sensitivity Areas to Desertification in Eastern Algeria using Mediterranean Desertification and Land Use “MEDALUS” ModelInt. </plain></SENT>
+<SENT sid="344" pm="."><plain>J. </plain></SENT>
+<SENT sid="345" pm="."><plain>Sustain. </plain></SENT>
+<SENT sid="346" pm="."><plain>Water Environ. </plain></SENT>
+<SENT sid="347" pm="."><plain>Syst.2010151010.5383/swes.01.01.002 </plain></SENT>
+</text></ref><ref id="B24-sensors-18-02230"><text><SENT sid="348" pm="."><plain>24.Ait LamqademA.SaberH.RahimiA.Spatiotemporal Changes of Vegetation in the Middle Draa Valley Oasis: A Study Case o f M’ hamid El Ghizlane Oasis (Morocco)Eur. </plain></SENT>
+<SENT sid="349" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="350" pm="."><plain>J.20171311513210.19044/esj.2017.v13n24p115 </plain></SENT>
+</text></ref><ref id="B25-sensors-18-02230"><text><SENT sid="351" pm="."><plain>25.TrabuccoA.ZomerR.J.BossioD.A.van StraatenO.Climate change mitigation through afforestation/reforestation: A global analysis of hydrologic impacts with four case studiesAgric. </plain></SENT>
+<SENT sid="352" pm="."><plain>Ecosyst. </plain></SENT>
+<SENT sid="353" pm="."><plain>Environ.2008126819710.1016/j.agee.2008.01.015 </plain></SENT>
+</text></ref><ref id="B26-sensors-18-02230"><text><SENT sid="354" pm="."><plain>26.Robert-charrueC.Géologie structurale de l’Anti-Atlas oriental, Maroc,Ph.D. </plain></SENT>
+<SENT sid="355" pm="."><plain>ThesisUniversité de Neuchâtel (Suisse)Neuchatel, Switzerland2006 </plain></SENT>
+</text></ref><ref id="B27-sensors-18-02230"><text><SENT sid="356" pm="."><plain>27.Aït HamzaM.El FaskaouiB.Les oasis du Drâa au MarocHommes Migr.2010566910.4000/hommesmigrations.1241 </plain></SENT>
+</text></ref><ref id="B28-sensors-18-02230"><text><SENT sid="357" pm="."><plain>28.FickS.E.HijmansR.J.WorldClim 2: New 1-km spatial resolution climate surfaces for global land areasInt. </plain></SENT>
+<SENT sid="358" pm="."><plain>J. </plain></SENT>
+<SENT sid="359" pm="."><plain>Climatol.2017374302431510.1002/joc.5086 </plain></SENT>
+</text></ref><ref id="B29-sensors-18-02230"><text><SENT sid="360" pm="."><plain>29.PulitiS.SaarelaS.GobakkenT.StåhlG.NæssetE.Combining UAV and Sentinel-2 auxiliary data for forest growing stock volume estimation through hierarchical model-based inferenceRemote Sens. </plain></SENT>
+<SENT sid="361" pm="."><plain>Environ.201820448549710.1016/j.rse.2017.10.007 </plain></SENT>
+</text></ref><ref id="B30-sensors-18-02230"><text><SENT sid="362" pm="."><plain>30.HoerschB.Sentinel-2 Mission: Observation Scenario, Products and Mission StatusESA PublisherBrussels, Beligium2015 </plain></SENT>
+</text></ref><ref id="B31-sensors-18-02230"><text><SENT sid="363" pm="."><plain>31.WilmU.M.<z:uniprot sup="inside" fb="127" ids="Q14254,Q60634">ESA</z:uniprot> Sentinel-2 Msi—Level-2a Prototype Processor Installation and User ManualTelespazio VEGA Deutschland GmbHDarmstadt, Germany2016 </plain></SENT>
+</text></ref><ref id="B32-sensors-18-02230"><text><SENT sid="364" pm="."><plain>32.WilmU.M.<z:uniprot sup="inside" fb="127" ids="Q14254,Q60634">ESA</z:uniprot> Sen2Cor Software Release NoteEuropean Space AgencyDarmstadt, Germany2017 </plain></SENT>
+</text></ref><ref id="B33-sensors-18-02230"><text><SENT sid="365" pm="."><plain>33.SepehrA.HassanliA.M.EkhtesasiM.R.JamaliJ.B.Quantitative assessment of desertification in south of Iran using MEDALUS methodEnviron. </plain></SENT>
+<SENT sid="366" pm="."><plain>Monit. </plain></SENT>
+<SENT sid="367" pm="."><plain>Assess.200713424325410.1007/s10661-007-9613-6<?supplied-pmid 17357820?>17357820 </plain></SENT>
+</text></ref><ref id="B34-sensors-18-02230"><text><SENT sid="368" pm="."><plain>34.BassoF.BoveE.DumontetS.FerraraA.PisanteM.QuarantaG.TabernerM.Evaluating environmental sensitivity at the basin scale through the use of geographic information systems and remotely sensed data: an example covering the Agri basin (Southern Italy)CATENA200040193510.1016/S0341-8162(99)00062-4 </plain></SENT>
+</text></ref><ref id="B35-sensors-18-02230"><text><SENT sid="369" pm="."><plain>35.LiangS.Narrowband to broadband conversions of land surface albedo I: AlgorithmsRemote Sens. </plain></SENT>
+<SENT sid="370" pm="."><plain>Environ.20017621323810.1016/S0034-4257(00)00205-4 </plain></SENT>
+</text></ref><ref id="B36-sensors-18-02230"><text><SENT sid="371" pm="."><plain>36.JacksonR.D.IdsoS.B.OttermanJ.Surface albedo and desertificationScience19751891012101510.1126/science.189.4207.1012<?supplied-pmid 17789158?>17789158 </plain></SENT>
+</text></ref><ref id="B37-sensors-18-02230"><text><SENT sid="372" pm="."><plain>37.OttermanJ.IdsoS.B.OttermanJ.Baring high-albedo soils by overgrazing: A hypothesized desertification mechanismScience197418653153310.1126/science.186.4163.531<?supplied-pmid 17790382?>17790382 </plain></SENT>
+</text></ref><ref id="B38-sensors-18-02230"><text><SENT sid="373" pm="."><plain>38.FullerD.O.OttkeC.Land cover, rainfall and land-surface Albedo in West AfricaClim. </plain></SENT>
+<SENT sid="374" pm="."><plain>Chang.20025418120410.1023/A:1015730900622 </plain></SENT>
+</text></ref><ref id="B39-sensors-18-02230"><text><SENT sid="375" pm="."><plain>39.GuoQ.FuB.ShiP.CudahyT.ZhangJ.XuH.Satellite monitoring the spatial-temporal dynamics of desertification in response to climate change and human activities across the Ordos Plateau, ChinaRemote Sens.2017952510.3390/rs9060525 </plain></SENT>
+</text></ref><ref id="B40-sensors-18-02230"><text><SENT sid="376" pm="."><plain>40.LingbeekB.J.HigginsC.L.MuirJ.P.KattesD.H.SchwertnerT.W.Arthropod diversity and assemblage structure response to deforestation and desertification in the Sahel of western SenegalGlob. </plain></SENT>
+<SENT sid="377" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="378" pm="."><plain>Conserv.20171116517610.1016/j.gecco.2017.06.004 </plain></SENT>
+</text></ref><ref id="B41-sensors-18-02230"><text><SENT sid="379" pm="."><plain>41.HouJ.FuB.WangS.ZhuH.Comprehensive analysis of relationship between vegetation attributes and soil erosion on hillslopes in the Loess Plateau of ChinaEnviron. </plain></SENT>
+<SENT sid="380" pm="."><plain>Earth Sci.2014721721173110.1007/s12665-014-3076-1 </plain></SENT>
+</text></ref><ref id="B42-sensors-18-02230"><text><SENT sid="381" pm="."><plain>42.HouJ.WangH.FuB.ZhuL.WangY.LiZ.Effects of plant diversity on soil erosion for different vegetation patternsCATENA201614763263710.1016/j.catena.2016.08.019 </plain></SENT>
+</text></ref><ref id="B43-sensors-18-02230"><text><SENT sid="382" pm="."><plain>43.ThakkarA.K.DesaiV.R.PatelA.PotdarM.B.Post-classification corrections in improving the classification of Land Use/Land Cover of arid region using RS and GIS: The case of Arjuni watershed, Gujarat, IndiaEgypt. </plain></SENT>
+<SENT sid="383" pm="."><plain>J. </plain></SENT>
+<SENT sid="384" pm="."><plain>Remote Sens. </plain></SENT>
+<SENT sid="385" pm="."><plain>Space Sci.201720798910.1016/j.ejrs.2016.11.006 </plain></SENT>
+</text></ref><ref id="B44-sensors-18-02230"><text><SENT sid="386" pm="."><plain>44.StehmanS.V Estimating the Kappa coefficient and its variance under stratified random samplingPhotogramm. </plain></SENT>
+<SENT sid="387" pm="."><plain>Eng. </plain></SENT>
+<SENT sid="388" pm="."><plain>Remote Sens.199662401407 </plain></SENT>
+</text></ref><ref id="B45-sensors-18-02230"><text><SENT sid="389" pm="."><plain>45.RoyD.P.LiJ.ZhangH.K.YanL.Best practices for the reprojection and resampling of Sentinel-2 Multi Spectral Instrument Level 1C dataRemote Sens. </plain></SENT>
+<SENT sid="390" pm="."><plain>Lett.201671023103210.1080/2150704X.2016.1212419 </plain></SENT>
+</text></ref><ref id="B46-sensors-18-02230"><text><SENT sid="391" pm="."><plain>46.TuckerC.J.Red and photographic infrared linear combinations for monitoring vegetationRemote Sens. </plain></SENT>
+<SENT sid="392" pm="."><plain>Environ.1979812715010.1016/0034-4257(79)90013-0 </plain></SENT>
+</text></ref><ref id="B47-sensors-18-02230"><text><SENT sid="393" pm="."><plain>47.FarajzadehM.EgbalM.N.Evaluation of MEDALUS model for desertification hazard zonation using GIS; study area: Iyzad Khast plain, IranPak. </plain></SENT>
+<SENT sid="394" pm="."><plain>J. </plain></SENT>
+<SENT sid="395" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="396" pm="."><plain>Sci.2007102622263010.3923/pjbs.2007.2622.2630<?supplied-pmid 19070073?>19070073 </plain></SENT>
+</text></ref><ref id="B48-sensors-18-02230"><text><SENT sid="397" pm="."><plain>48.SpethP.ChristophM.Deikkrü<z:uniprot sup="inside" fb="0" ids="P15520">gerB</z:uniprot>.BolligM.Impacts of Global Change on the Hydrological Cycle in West and Northwest AfricaSpringerBerlin, Germany20109783642129568 </plain></SENT>
+</text></ref><ref id="B49-sensors-18-02230"><text><SENT sid="398" pm="."><plain>49.HargreavesG.H.AllenR.G.History and evaluation of hargreaves evapotranspiration equationJ. </plain></SENT>
+<SENT sid="399" pm="."><plain>Irrig. </plain></SENT>
+<SENT sid="400" pm="."><plain>Drain. </plain></SENT>
+<SENT sid="401" pm="."><plain>Eng.2003129536310.1061/(ASCE)0733-9437(2003)129:1(53) </plain></SENT>
+</text></ref><ref id="B50-sensors-18-02230"><text><SENT sid="402" pm="."><plain>50.BarrowC.J.UNEP World Atlas of DesertificationMiddletonN.ThomasD.S.G.Edward ArnoldLondon, UK19920340555122 </plain></SENT>
+</text></ref><ref id="B51-sensors-18-02230"><text><SENT sid="403" pm="."><plain>51.Taghipour-javiS.FazeliA.KazemiB.A case study of desertification hazard mapping using the MEDALUS (ESAs) methodology in southwest IranJ. </plain></SENT>
+<SENT sid="404" pm="."><plain><z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="405" pm="."><plain>Resour. </plain></SENT>
+<SENT sid="406" pm="."><plain>Dev.201661810.5027/jnrd.v6i0.01 </plain></SENT>
+</text></ref><ref id="B52-sensors-18-02230"><text><SENT sid="407" pm="."><plain>52.BouhataR.KallaM.Mapping of environmental vulnerability of desertification by adaptation of the MEDALUS method in the endoreic area of gadaine (eastern Algeria)Geogr. </plain></SENT>
+<SENT sid="408" pm="."><plain>Tech.20140918 </plain></SENT>
+</text></ref><ref id="B53-sensors-18-02230"><text><SENT sid="409" pm="."><plain>53.BenmohammadiA.BenmohammadiL.BallaisJ.-L.RiserJ.Analyse des inter-relations anthropiques et naturelles: leur impact <z:uniprot sup="inside" fb="129" ids="P28246,Q9I9E1">sur</z:uniprot> la recrudescence des phénomè<z:uniprot sup="inside" fb="35" ids="Q9VVX5,P86839">nes</z:uniprot> d’ensablement et de désertification au <z:uniprot sup="inside" fb="32" ids="P32270">sud</z:uniprot>-est du Maroc (vallée de Drâa et vallée de Ziz)Sécheresse200011297308 </plain></SENT>
+</text></ref><ref id="B54-sensors-18-02230"><text><SENT sid="410" pm="."><plain>54.KarmaouiA.IfaadassanI.BabqiqiA.MessouliM.KhebizaM.Y.Analysis of the water supply-demand relationship in the Middle Draa Valley, Morocco, under climate change and socio-economic scenariosJ. </plain></SENT>
+<SENT sid="411" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="412" pm="."><plain>Res. </plain></SENT>
+<SENT sid="413" pm="."><plain>Rep.2016911010.9734/JSRR/2016/21536 </plain></SENT>
+</text></ref><ref id="B55-sensors-18-02230"><text><SENT sid="414" pm="."><plain>55.SraïriM.T.New Challenges for the Moroccan Agricultural Sector to Cope with Local and Global ChangesNova Science PublishersNeu York, NY, USA20171651889781536124705 </plain></SENT>
+</text></ref><ref id="B56-sensors-18-02230"><text><SENT sid="415" pm="."><plain>56.BentalebA.Dynamique de Désertification Dans les Oasis du Draa MoyenÉditions Universitaires EuropéennesParis, France20153841664431 </plain></SENT>
+</text></ref><ref id="B57-sensors-18-02230"><text><SENT sid="416" pm="."><plain>57.BouaouinateA.Les Acteurs Locaux du Tourisme de Désert au Maroc <z:uniprot sup="inside" fb="51" ids="Q61140,Q63767,Q9XZU1">Cas</z:uniprot> de l’<z:uniprot sup="inside" fb="25" ids="P81270,O35219,O08962">Erg</z:uniprot> Chebbi et de Zagora-M’hamidÉditions Universitaires EuropéennesParis, France20149783841741806 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="sensors-18-02230-f001" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="417" pm="."><plain>(A) Location of Morocco in Africa. </plain></SENT>
+<SENT sid="418" pm="."><plain>(B,C) Location of the study area in Zagora Province. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g001"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f002" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="419" pm="."><plain>Methodological flowchart. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g002"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f003" orientation="portrait" position="float"><label>Figure 3</label><caption><p><text><SENT sid="420" pm="."><plain>Map of SQI. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g003"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f004" orientation="portrait" position="float"><label>Figure 4</label><caption><p><text><SENT sid="421" pm="."><plain>Map of CQI. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g004"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f005" orientation="portrait" position="float"><label>Figure 5</label><caption><p><text><SENT sid="422" pm="."><plain>Map of VQI. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g005"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f006" orientation="portrait" position="float"><label>Figure 6</label><caption><p><text><SENT sid="423" pm="."><plain>Map of MQI. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g006"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f007" orientation="portrait" position="float"><label>Figure 7</label><caption><p><text><SENT sid="424" pm="."><plain>ESAI map. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g007"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f008" orientation="portrait" position="float"><label>Figure 8</label><caption><p><text><SENT sid="425" pm="."><plain>Desertification-sensitive areas: (A) low, (B) moderate, (C) high and (D) very high. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g008"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f009" orientation="portrait" position="float"><label>Figure 9</label><caption><p><text><SENT sid="426" pm="."><plain>(A) Average annual precipitation in Ktaoua; (B) average annual precipitation in Ternata between 1980 and 2015. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g009"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02230-f010" orientation="portrait" position="float"><label>Figure 10</label><caption><p><text><SENT sid="427" pm="."><plain>The annual average temperature of the Asrir station (Ternata oasis) 1989–2015. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02230-g010"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t001" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t001_Table 1</object-id><label>Table 1</label><caption><p><text><SENT sid="428" pm="."><plain>Classes and assigned weighting values for different soil sub-indicators. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>Index </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>Class </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>Description </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>Weight </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="433" pm="."><plain>Parent material </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>Coherent </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>Limestone granite, quartzite, basalt, conglomerate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>Moderately </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>Unconsolidated scree, granite, rhyolite, gneiss </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>Soft to friable </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>Clay, marl, sand, superficial formations </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="443" pm="."><plain>Slope (%) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>&lt;6 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>Flat to gentle </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>6–18 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>Steep </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>18–35 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>Very gentle </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="453" pm="."><plain>Soil depth (cm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>60–100 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>Deep </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>31–60 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>&lt;30 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>Shallow </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="463" pm="."><plain>SoilBrightness(Albedo) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>0–0.2 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>Somber </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>0.2–0.25 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>Moderately bright </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>0.25–1 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>Bright </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>2 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t002" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t002_Table 2</object-id><label>Table 2</label><caption><p><text><SENT sid="473" pm="."><plain>Classes and assigned weighting values for different climatic sub-indicators. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>Index </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>Class </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>Description </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>Weight </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="478" pm="."><plain>Rainfall (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>&gt;85 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>70–85 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>55–70 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="488" pm="."><plain>Aridity </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>0.03–1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>Low aridity </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>0.023–0.03 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>Moderate aridity </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>0.019–0.023 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>High aridity </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="498" pm="."><plain>Aspect </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>NW–NE </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>Wet </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>SW–SE </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>Dry </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>2 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t003" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t003_Table 3</object-id><label>Table 3</label><caption><p><text><SENT sid="505" pm="."><plain>VQI sub-indicators and corresponding weight values. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>Index </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>Class </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>Description </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>Weight </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="510" pm="."><plain>Fire Risk </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>Water, bare land </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>Pastoral lands, seasonal Saharan vegetation </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>Palm grove, agricultural lands </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="520" pm="."><plain>Erosion protection </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>Palm grove, agricultural lands </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>Pastoral lands, seasonal Saharan vegetation </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>bare land, sand dunes </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="530" pm="."><plain>Drought resistance </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>Palm grove, agricultural lands </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>Pastoral lands, seasonal Saharan vegetation </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>Bare land, water body </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="540" pm="."><plain>Plant cover </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>&gt;30% </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>10–30% </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>&lt;10% </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>3 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t004" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t004_Table 4</object-id><label>Table 4</label><caption><p><text><SENT sid="550" pm="."><plain>Demography and livestock census for localities (administrative boundaries) of the study area. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>Locality </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>Demography </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>Cattle </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>Sheep D’man </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>Sheep Rahali </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>Dairy goat </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>Rahali goat </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>Camel </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>Ktaoua </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>16,167 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>80 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>5284 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>252 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>12,108 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>3149 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>Mhamid </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>6871 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>4963 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>2474 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>1764 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>5888 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>5312 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>Zagora </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>39,987 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>102 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>620 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>490 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>173 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>Ternata </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>16,512 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>152 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>6656 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>314 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>Errouha </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>10,511 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>148 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>3490 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>150 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>804 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>4 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>Fezouata </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>9416 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>216 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>4304 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>218 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>12 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>Tamgroute </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>21,574 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>332 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>2340 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>72 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Benizoli </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>18,941 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>518 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>2730 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>177 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>606 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>0 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t005" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t005_Table 5</object-id><label>Table 5</label><caption><p><text><SENT sid="623" pm="."><plain>MQI sub-indicators and corresponding weights. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>Index </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>Class </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>Description </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>Weight </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="628" pm="."><plain>Human pressure (Capeta) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>&lt;10,000 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>10,000–20,000 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>Moderately dense </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>&gt;20,000 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>Very dense </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="638" pm="."><plain>Grazing pressure </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>&lt;5500 units </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>5500–7500 units </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>Moderately dense </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>&gt;7500 units </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>Very dense </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>2 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t006" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t006_Table 6</object-id><label>Table 6</label><caption><p><text><SENT sid="648" pm="."><plain>Areas of class of each sub-indicator. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>Indicator </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>Class </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>Area (km2) </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>Proportion (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="653" pm="."><plain>SQI </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>369.68 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>43.21 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>266.34 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>31.13 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>219.40 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>25.64 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="663" pm="."><plain>VQI </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>49.58 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>5.78 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>133.38 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>15.55 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>674.32 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>78.65 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="673" pm="."><plain>CQI </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>234.75 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>27.43 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>255.06 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>29.80 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>365.93 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>42.76 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="683" pm="."><plain>MQI </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>High </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>108.23 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>12.62 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>548.15 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>63.92 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>Low </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>201.08 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>23.45 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02230-t007" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02230-t007_Table 7</object-id><label>Table 7</label><caption><p><text><SENT sid="693" pm="."><plain>Results of ESAI. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>Index </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>Description </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>Surface (km2) </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>Proportion (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><text><SENT sid="698" pm="."><plain>ESAI </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>Potentially affected areas </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>141.85 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>16.63 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>Moderately fragile areas </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>281.58 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>33.02 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>Highly fragile areas </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>199.73 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>23.42 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>Highly critical areas </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>229.56 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>26.92 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></floats-group></article>

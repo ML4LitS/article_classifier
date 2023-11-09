@@ -1,0 +1,790 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4589515</article-id><article-id pub-id-type="pmid">26422607</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0139015</article-id><article-id pub-id-type="publisher-id">PONE-D-15-18233</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Replication Inhibition of Hepatitis B Virus and Hepatitis C Virus in Co-Infected Patients in Chinese Population </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Hepatitis B Virus and Hepatitis C Virus in Co-Infected Patients</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Yu</surname><given-names>Ge</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Chi</surname><given-names>Xiumei</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wu</surname><given-names>Ruihong</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Xiaomei</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gao</surname><given-names>Xiuzhu</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kong</surname><given-names>Fei</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Feng</surname><given-names>Xiangwei</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gao</surname><given-names>Yuanda</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Huang</surname><given-names>Xinxing</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Jin</surname><given-names>Jinglan</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Qi</surname><given-names>Yue</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Tu</surname><given-names>Zhengkun</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sun</surname><given-names>Bing</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhong</surname><given-names>Jin</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pan</surname><given-names>Yu</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref rid="cor001" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Niu</surname><given-names>Junqi</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref rid="cor001" ref-type="corresp">*</xref></contrib></contrib-group><aff id="aff001">
+<label>1</label>
+<addr-line>Department of Hepatology, The First Hospital of Jilin University, Changchun, Jilin Province, China</addr-line>
+</aff><aff id="aff002">
+<label>2</label>
+<addr-line>Key Laboratory of Zoonosis Research, Ministry Education, Jilin University, Changchun, Jilin, China; Jilin Province Key Laboratory of Infectious Diseases, Laboratory of Molecular Virology, Changchun, Jilin Province, China</addr-line>
+</aff><aff id="aff003">
+<label>3</label>
+<addr-line>Institute Pasteur of Shanghai, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai, China</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Khudyakov</surname><given-names>Yury E</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>Centers for Disease Control and Prevention, UNITED STATES</addr-line>
+</aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con" id="contrib001"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: JQN YP. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: GY XMC XMW XZG XWF YDG YP FK XXH JLJ YQ. </plain></SENT>
+<SENT sid="4" pm="."><plain>Analyzed the data: GY RHW. </plain></SENT>
+<SENT sid="5" pm="."><plain>Contributed reagents/materials/analysis tools: JQN XMC. </plain></SENT>
+<SENT sid="6" pm="."><plain>Wrote the paper: GY XMC <z:uniprot sup="inside" fb="0" ids="Q94BS2">ZKT</z:uniprot> BS JZ. </plain></SENT>
+</text></p></fn><corresp id="cor001">* E-mail: <email>panyu20000@163.com</email> (YP); <email>junqiniu@aliyun.com</email> (JQN)</corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>9</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>10</volume><issue>9</issue><elocation-id>e0139015</elocation-id><history><date date-type="received"><day>27</day><month>4</month><year>2015</year></date><date date-type="accepted"><day>7</day><month>9</month><year>2015</year></date></history><permissions><copyright-statement>© 2015 Yu et al</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Yu et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0139015.pdf"/><abstract><sec id="sec001"><title><text><SENT sid="7" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="8" pm="."><plain>Hepatitis B virus (HBV) and hepatitis C virus (HCV) co-infections contributes to a substantial proportion of liver disease worldwide. </plain></SENT>
+<SENT sid="9" pm="."><plain>The aim of this study was to assess the clinical and virological features of HBV-HCV co-infection. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec002"><title><text><SENT sid="10" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="11" pm="."><plain>Demographic data were collected for 3238 high-risk people from an HCV-endemic region in China. </plain></SENT>
+<SENT sid="12" pm="."><plain>Laboratory tests included HCV antibody and HBV serological markers, liver function tests, and routine blood analysis. </plain></SENT>
+<SENT sid="13" pm="."><plain>Anti-HCV positive samples were analyzed for HCV RNA levels and subgenotypes. </plain></SENT>
+<SENT sid="14" pm="."><plain>HBsAg-positive samples were tested for HBV DNA. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec003"><title><text><SENT sid="15" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="16" pm="."><plain>A total of 1468 patients had chronic HCV and/or HBV infections. </plain></SENT>
+<SENT sid="17" pm="."><plain>Among them, 1200 individuals were classified as HCV mono-infected, 161 were classified as HBV mono-infected, and 107 were classified as co-infected. </plain></SENT>
+<SENT sid="18" pm="."><plain>The HBV-HCV co-infected patients not only had a lower HBV DNA positive rate compared to HBV mono-infected patients (84.1% versus 94.4%, respectively; P&lt;0.001). </plain></SENT>
+<SENT sid="19" pm="."><plain>The median HCV RNA levels in HBV-HCV co-infected patients were significantly lower than those in the HCV mono-infected patients (1.18[Interquartile range (IQR) 0–5.57] versus 5.87[IQR, 3.54–6.71] Log10 IU/mL, respectively; P&lt;0.001). </plain></SENT>
+<SENT sid="20" pm="."><plain>Furthermore, co-infected patients were less likely to have detectable HCV RNA levels than HCV mono-infected patients (23.4% versus 56.5%, respectively; P&lt;0.001). </plain></SENT>
+<SENT sid="21" pm="."><plain>Those HBV-HCV co-infected patients had significantly lower median HBV DNA levels than those mono-infected with HBV (1.97[IQR, 1.3–3.43] versus 3.06[IQR, 2–4.28] Log10 IU/mL, respectively; P&lt;0.001). </plain></SENT>
+<SENT sid="22" pm="."><plain>The HBV-HCV co-infection group had higher <z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, <z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, GGT, APRI and <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 levels, but lower ALB and total platelet compared to the HBV mono-infection group, and similar to that of the HCV mono-infected group. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec004"><title><text><SENT sid="23" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="24" pm="."><plain>These results suggest that co-infection with HCV and HBV inhibits the replication of both viruses. </plain></SENT>
+<SENT sid="25" pm="."><plain>The serologic results of HBV-HCV co-infection in patients suggests more liver injury compared to HBV mono-infected patients, but is similar to HCV mono-infection. </plain></SENT>
+</text></SecTag></p></sec></abstract><funding-group><funding-statement>The study was sponsored by National Science and Technology Major Project 2014ZX10002002 to Junqi Niu, National Science and Technology Major Project 2013ZX10002008 to Junqi Niu, National Natural Science Foundation of China 81373057 to Junqi Niu, National Basic Research Program of China (973 Program) 2015CB554300 to Jin Zhong, National Natural Science Foundation of China 81202377 to Xiumei Chi, National Natural Science Foundation of China 81301472 to Xiaomei Wang, and National Natural Science Foundation of China 81301415 to Ruihong Wu. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><fig-count count="0"/><table-count count="6"/><page-count count="13"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>All relevant data are within the paper and its Supporting Information files.</p></notes></front><body><SecTag type="INTRO"><sec sec-type="intro" id="sec005"><title><text><SENT sid="26" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="27" pm="."><plain>Hepatitis B virus (HBV) and hepatitis C virus (HCV) infections are the most common causes of liver disease worldwide. </plain></SENT>
+<SENT sid="28" pm="."><plain>An estimated 350 million individuals have chronic HBV infection, and 170 million individuals have chronic HCV infection [1–3]. </plain></SENT>
+<SENT sid="29" pm="."><plain>HBV and HCV have similar modes of transmission [4], and co-infections occurs frequently in endemic areas [3, 5]. </plain></SENT>
+<SENT sid="30" pm="."><plain>Importantly, HBV-HCV co-infection is associated with more severe liver disease and with a higher prevalence of liver cancer[4]. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>HBV-HCV co-infection involves complex viral interaction. </plain></SENT>
+<SENT sid="32" pm="."><plain>Interference between HBV and HCV in co-infected patients resulting in the suppression of viral replication has been described [1, 5–9]. </plain></SENT>
+<SENT sid="33" pm="."><plain>While liver disease activity and fibrosis progression are generally more severe in cases of HBV-HCV co-infection, an inverse relationship between the replication of each virus within some co-infected patients has been noted, suggesting direct or indirect viral interference [10, 11]. </plain></SENT>
+<SENT sid="34" pm="."><plain>Challenging this notion, longitudinal studies revealed that the two viruses may replicate independently within some patients, causing fluctuations in the serum level of one virus that appear unrelated to the viremia of the other [7]. </plain></SENT>
+<SENT sid="35" pm="."><plain>Suppression of HBV replication has been observed in patients with chronic HBV infection after acute infection with HCV; similarly, inhibition of HCV replication has been observed in patients with chronic HCV superinfected with HBV [8, 12]. </plain></SENT>
+<SENT sid="36" pm="."><plain>In this study, we analyzed the virological features of HBV-HCV co-infected patients. </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>In patients with chronic HBV-HCV co-infection, more rapid hepatitis B extracellular antigen (HBeAg) seroconversion and hepatitis B virus surface antigen (HBsAg) clearance have been documented [13, 14]. </plain></SENT>
+<SENT sid="38" pm="."><plain>Compared to HBV mono-infected patients, HBsAg carriers with concurrent HCV infection have low-level HBV viremia, low titers of HBsAg in serum, and low-levels of intracellular HBsAg [15]. </plain></SENT>
+<SENT sid="39" pm="."><plain>Furthermore, HBsAg serum titers are significantly lower during HBV-HCV co-infection, potentially due to decreased HBV replication [16]. </plain></SENT>
+<SENT sid="40" pm="."><plain>HCV <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core antigen</z:uniprot> and HCV RNA are positively correlated and appear almost simultaneously in patients’ peripheral blood, suggesting HCV <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core antigen</z:uniprot> may be an additional useful diagnostic marker [17–19]. </plain></SENT>
+<SENT sid="41" pm="."><plain>However, no studies have previously correlated HCV <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core antigen</z:uniprot> levels with serum HCV RNA in patients with HBV-HCV co-infection. </plain></SENT>
+<SENT sid="42" pm="."><plain>Therefore, we studied the effect of HCV replication and HCV core Ag expression in patients with HBV-HCV co-infection. </plain></SENT>
+</text></p><p><text><SENT sid="43" pm="."><plain>We investigated the viral interactions in HBV-HCV co-infected patients in an HCV-endemic region. </plain></SENT>
+<SENT sid="44" pm="."><plain>This study included a large cohort of patients with chronic hepatitis due to HCV and/or HBV infections. </plain></SENT>
+<SENT sid="45" pm="."><plain>In this study, we collected clinical and serological/virological data, compared these data among the HBV mono-infected, HCV mono-infected, and HBV-HCV co-infected groups, and correlated the findings with the degree of liver injury. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="sec006"><title><text><SENT sid="46" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="sec007"><title><text><SENT sid="47" pm="."><plain>Study Population </plain></SENT>
+</text></title><p><text><SENT sid="48" pm="."><plain>A total of 3238 high risk patients had previously been enrolled in a prior HCV study entitled “Epidemiological investigation of Hepatitis C virus infection in FuYu country of Jilin Province” on September 2012 (unpublished observations).” Patients were eligible for the study if they were 18 years of age or older. </plain></SENT>
+<SENT sid="49" pm="."><plain>Participants completed questionnaires and underwent comprehensive medical examinations including liver ultrasound, anthropometric measurements, and blood analysis to measure markers for liver function and injury, including alanine transaminase (<z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>), <z:uniprot sup="inside" fb="0" ids="P53001,P23034,C6C2Z3,P00509,Q59228,P44425,P72173,Q9V0L2,O58489,P58350,Q06191,P14909,Q56114,P58661,Q82DR2,Q60013,Q4J8X2,Q972A2,Q55128,O93744,Q9X0Y2,Q5F4K8,O85746">aspartate aminotransferase</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>), <z:uniprot sup="inside" fb="0" ids="P86348,P81800,P00634,P21948,P83456,Q05205,O60109,P19147">alkaline phosphatase</z:uniprot> (<z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>), gama-glutamyltransferase (GGT), and albumin (ALB). </plain></SENT>
+<SENT sid="50" pm="."><plain>Additionally, two values were calculated to determine fibrosis in liver: <z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot> to platelet ration index (APRI) and the Fibrosis-4 score (<z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4). </plain></SENT>
+<SENT sid="51" pm="."><plain>Other tests included assays for detecting serum HCV antibody, HBV serological markers, HCV RNA, and HBV DNA. </plain></SENT>
+<SENT sid="52" pm="."><plain>In all test groups, individuals with hepatitis D virus (HDV) or HIV-1 infection were excluded. </plain></SENT>
+</text></p><p><text><SENT sid="53" pm="."><plain>Written informed consent was obtained from all individuals and the study protocol was approved by the Ethics Committee of the First Hospital of Jilin University. </plain></SENT>
+</text></p></sec><sec id="sec008"><title><text><SENT sid="54" pm="."><plain>Viral Genotype, Viral Load, and Other Biochemical Measurements </plain></SENT>
+</text></title><p><text><SENT sid="55" pm="."><plain>Serological markers for anti-HCV, HBsAg, and anti-HIV antibodies were measured using a Thermo Scientific Multiskan Go(Kehua, Shanghai, China). </plain></SENT>
+<SENT sid="56" pm="."><plain>HCV genotyping was performed by multicolor fluorescence PCR using an HCV RNA genotype kit (BioAssay Science &amp; Technology Co. </plain></SENT>
+<SENT sid="57" pm="."><plain>Ltd, China). </plain></SENT>
+<SENT sid="58" pm="."><plain>The levels of HBsAg serological markers was measured using the Elecsys 2010 and Roche COBAS e 411 Immunoassay System (Roche Diagnostics, Grenzach, Germany). </plain></SENT>
+<SENT sid="59" pm="."><plain>Serum HCV RNA and HBV DNA levels were measured using the COBAS AmpliPrep/COBAS TaqMan assay (Roche Molecular Diagnostics, Grenzach, Germany) with a detection limit of 15 U/mL. </plain></SENT>
+<SENT sid="60" pm="."><plain>Biochemical assays were performed using a Synchron LX®20 Autoanalyzer (Beckman Coulter, Brea, CA). </plain></SENT>
+<SENT sid="61" pm="."><plain>Serum HCV core Ag was measured using an Abbott Architect i2000SR Analyzer (Abbott Laboratories, Abbott Park, IL,USA) with an HCV core Ag assay kit (Abbott Japan Co., Ltd., Tokyo, Japan). </plain></SENT>
+</text></p></sec><sec id="sec009"><title><text><SENT sid="62" pm="."><plain>Statistical Analysis </plain></SENT>
+</text></title><p><text><SENT sid="63" pm="."><plain>Normally distributed variables are presented as mean±standard deviation (SD), and differences were evaluated by Student’s t test or analysis of variance. </plain></SENT>
+<SENT sid="64" pm="."><plain>Non-normally distributed variables are presented as median (interquartile range, IQR), and differences were tested by Wilcoxon rank-sum test or Kruskal–Wallis test, as appropriate. </plain></SENT>
+<SENT sid="65" pm="."><plain>Categorical variables are expressed as frequencies (%), and differences were assessed using the Pearson Chi-square test. </plain></SENT>
+<SENT sid="66" pm="."><plain>A two-tailed P value ≤0.05 was considered statistically significant. </plain></SENT>
+<SENT sid="67" pm="."><plain>Statistical analyses were performed using the SPSS version 18.0 software (IBM/S <z:uniprot sup="inside" fb="46" ids="Q95ZE2,P08456,D7UQ44">PSS</z:uniprot> Inc., Chicago, IL). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="sec010"><title><text><SENT sid="68" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="sec011"><title><text><SENT sid="69" pm="."><plain>Characteristics of Patients </plain></SENT>
+</text></title><p><text><SENT sid="70" pm="."><plain>The study population included 1468 individuals with chronic HCV and/or HBV (anti-HIV and anti-HDV negative). </plain></SENT>
+<SENT sid="71" pm="."><plain>Among them, 1200 were mono-infected with HCV (anti-HCV positive), 161 were mono-infected with HBV (HBsAg positive), and 107 were co-infected with HBV and HCV (HBsAg and anti-HCV positive). </plain></SENT>
+<SENT sid="72" pm="."><plain>Demographic and clinical characteristics are summarized in Table 1. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0139015.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0139015.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="73" pm="."><plain>Demographic and clinical characteristics of the Patient cohort. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0139015.t001g" xlink:href="pone.0139015.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>HBV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>HCV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>HBV-HCV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>Characteristic </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain>(N = 161) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>(N = 1200) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>(N = 107) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>P Value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>Age (years), mean (SD) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>46.5(9.6) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>54.2(8.9)* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>52.1(7.3) #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>Age (years) &lt;50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>104(64.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>372(31.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>43(40.2) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>50–59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>45(28.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>511(42.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>47(43.9) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>≥60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>12(7.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>317(26.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>17(15.9) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>Male, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>83(51.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>710(59.2) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>64(59.8) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>0.175 </plain></SENT>
+</text></td></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>Needle Sharing Yes </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>22(13.8) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>517(43.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>46(43.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>No </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>137(86.2) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>675(56.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>61(57.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>BMI, kg/m2a (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>24.46(17.09–38.44) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>23.80(12.91–37.58) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>23.88(17.63–34.48) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>0.085 </plain></SENT>
+</text></td></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>HCV genotype, n (%) 1b </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>416(49.35) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>15(45.46) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>2a </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>283(33.57) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>11(33.33) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>0.740 </plain></SENT>
+</text></td></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>1b/2a </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>13(1.54) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>0(0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="right" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>Undetermined </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>131(15.54) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>7(21.21) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, IU/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>27(5–247) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>35(10–494) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>34(12–154)  #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain><z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, IU/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>25(6–219) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>37(4–607) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>36(7–173)  #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain><z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, IU/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>74(33–133) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>77(30–750) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>77(32–205)  #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>GGT, IU/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>21(9–437) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>39(9–867) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>41(8–539)  #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>TP, g/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>76(55.3–122.1) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>77.1(56.3–104.2) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>75.3(64.6–92.8)  #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>0.013 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>ALB, g/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>45.7(29.5–56) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>44.9(28.4–62.3) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>44.5(33.4–57.2) #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>0.005 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q920N9,Q6AUR2">GLB</z:uniprot>, g/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>29.7(20.9–48.9) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>31.75(19.3–52.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>31.4(20.6–49.9) #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>TBIL, μmol/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>12.95(3.4–41.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>13.5(3–299.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>13.25(4.2–68.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>0.967 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>DBIL, μmol/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>3.85(1.2–13.9) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>4.3(0.3–248.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>4.2(1.9–26.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>0.039 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>IBIL, μmol/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>9.3(1.4–34.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>9.2(1.5–51.1) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>9.3(2.1–42.1) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>0.644 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>CHE, IU/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>8489.5(1446–26421) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>8072(546–16877) * </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>7239(1623–15890)  #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>0.007 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>BUN, mmol/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>5.24(2.53–12.39) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>5.53(1.64–11.86) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>5.48(2.7–9.29) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>0.036 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>Cr, μmol/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>65.2(42–108) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>66.6(31–171) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>65(38.1–120) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>0.351 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>TG, mmol/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>1.3(0.4–16.31) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>1.3(0.34–19.43) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>1.24(0.5–12.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>0.768 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>TC, mmol/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>4.6(2.75–8.95) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>4.5(2.11–10.58) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>4.44(2.8–10.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>0.383 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>GLU, mmol/L (range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>4.1(2.24–13.12) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>4.17(1.51–28.28) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>3.98(2.69–13.31) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>0.097 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain><z:uniprot sup="inside" fb="3" ids="Q12674,Q02083">PLT</z:uniprot> 10^9/L(range) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>202(49–336) ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>185.5(30–390) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>180(62–377) #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>0.041 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>APRI level (mean±SD) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>0.2±0.24 ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>0.34±0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>0.3±0.34 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain><z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 level (mean±SD) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>1.58±1.14 ▲  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>2.39±2.15 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>2.3±1.88 #  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p><text><SENT sid="227" pm="."><plain>HCV viral genotype was not available for 357 individuals in the HCV mono-infection group and 74 individuals in the HCV-HBV co-infection group; however, those with undetermined genotype results were not among the treated patients. </plain></SENT>
+</text></p></fn><fn id="t001fn002"><p><text><SENT sid="228" pm="."><plain>▲P&lt;0.05, HBV versus HCV group </plain></SENT>
+</text></p></fn><fn id="t001fn003"><p><text><SENT sid="229" pm="."><plain>*P&lt;0.05, HCV versus HBV-HCV group </plain></SENT>
+</text></p></fn><fn id="t001fn004"><p><text><SENT sid="230" pm="."><plain>#P&lt;0.05, HBV versus HBV-HCV group </plain></SENT>
+</text></p></fn><fn id="t001fn005"><p><text><SENT sid="231" pm="."><plain>Quantitative variables are displayed as interquartile range (range), except age.APRI and <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 level which are displayed as mean±SD BMI, body mass index; <z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, alanine aminotransferase, Normal value: 8–50.00 U/L; <z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P53001,P23034,C6C2Z3,P00509,Q59228,P44425,P72173,Q9V0L2,O58489,P58350,Q06191,P14909,Q56114,P58661,Q82DR2,Q60013,Q4J8X2,Q972A2,Q55128,O93744,Q9X0Y2,Q5F4K8,O85746">aspartate aminotransferase</z:uniprot>, Normal value: 8–40.00 U/L; <z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P86348,P81800,P00634,P21948,P83456,Q05205,O60109,P19147">alkaline phosphatase</z:uniprot>, Normal value: 15–112.00 U/L; GGT, glutamyl transpeptidase, Normal value: 5–54.00 U/L; TP, total protein, Normal value: 60–83.00 g/l; ALB, albumin, Normal value: 35–55.00 g/l; <z:uniprot sup="inside" fb="2" ids="Q920N9,Q6AUR2">GLB</z:uniprot>, globulin, Normal value: 20–30.00 g/L; TBIL, total bilirubin, Normal value: 6.8–30.00 μmol/L; DBIL, direct bilirubin, Normal value: 0–8.60 μmol/L; IBIL, indirect bilirubin, Normal value: 5.1–21.40 umol/L; CHE, <z:uniprot sup="inside" fb="4" ids="P32749,P32750,O62760,P81908,P06276,P32751,Q03311,O62761,P32752,P21927,P32753">cholinesterase</z:uniprot>, Normal value: 4300–12000.00 U/L; BUN, blood urea nitrogen, Normal value: 3.2–7.00 mmol/L; Cr, creatinine, Normal value: 44–115.00 μmol/L; TG, triglycerides, Normal value: 0.28–1.80 mmol/L; TC, total cholesterol,Normal value: 2.6–6.00 mmol/L; GLU, glucose,Normal value: 3.9–6.10 mmol/L; <z:uniprot sup="inside" fb="3" ids="Q12674,Q02083">PLT</z:uniprot>, platelet,Normal value: 100–300.00 10^9/L; APRI, <z:uniprot sup="inside" fb="0" ids="P53001,P23034,C6C2Z3,P00509,Q59228,P44425,P72173,Q9V0L2,O58489,P58350,Q06191,P14909,Q56114,P58661,Q82DR2,Q60013,Q4J8X2,Q972A2,Q55128,O93744,Q9X0Y2,Q5F4K8,O85746">aspartate aminotransferase</z:uniprot> to platelet ratio index; <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4, fibrosis index based on the four factors score </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="232" pm="."><plain>Raimondo et al. previously defined the following four patterns of viral dominance in HBV-HCV co-infected patients [7]: Group (a) HCV dominance with HCV RNA &gt;15 IU/mL and HBV DNA &lt;2000 IU/mL; Group (b) both viruses dominant with HBV DNA &gt;2000 IU/mL and HCV RNA &gt;15 IU/mL; Group (c) HBV dominance with HBV DNA &gt;2000 IU/mL and HCV RNA &lt;15IU/mL; and Group (d) no virus dominant with HBV DNA &lt;2000 IU/mL and HCV RNA &lt;15 IU/mL. </plain></SENT>
+</text></p><p><text><SENT sid="233" pm="."><plain>The mean age of patients in HBV mono-infection (46.5 years) was lower than patients with HBV-HCV co-infection (52.1 years) and HCV mono-infection (54.2 years), but the age of patients with HCV mono-infection was higher than in patients with HBV-HCV co-infection (Table 1). </plain></SENT>
+<SENT sid="234" pm="."><plain>No difference in the prevalence of males was observed among the different groups. </plain></SENT>
+<SENT sid="235" pm="."><plain>However, there was significantly fewer patients who shared contaminated needles in the HBV mono-infected group (13.8%) compared to the HCV mono-infected (43.4%) and HBV-HCV co-infected (43.0%) groups (P&lt;0.001; Table 1). </plain></SENT>
+</text></p></sec><sec id="sec012"><title><text><SENT sid="236" pm="."><plain>Comparison of Virological Characteristics between Patients with HBV-HCV Co-Infection and HCV Mono-Infection </plain></SENT>
+</text></title><p><text><SENT sid="237" pm="."><plain>Previous reports have demonstrated that approximately 15%-45% of patients infected with HCV spontaneously clear the virus [20–24]. </plain></SENT>
+<SENT sid="238" pm="."><plain>In this investigation, 13.1% of patients with HCV mono-infection were negative for HCV RNA, while up to 46.7% of patients with HBV-HCV co-infection had undetectable HCV RNA (P&lt;0.001, Table 2). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0139015.t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0139015.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="239" pm="."><plain>Comparison of serum viral Loads and HBsAg levels. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0139015.t002g" xlink:href="pone.0139015.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>HBV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>HCV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>HBV-HCV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>Variable </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>N = 161 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>N = 1200 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>N = 107 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>P Value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>Serum HCV-RNA </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>    Positive, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>1043(86.9) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>57(53.3) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>6.59E-20 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>    Negative, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>nne </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>157(13.1) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>50(46.7) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>    &lt;4×105 IU/ml </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>52243.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>82(76.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>5.93E-11 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>    ≥4×105 IU/ml </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>678(56.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>25(23.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>Serum HBV-DNA </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>    Positive, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>152(94.4) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>90(84.1) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>2.21E-26 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>    Negative, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>9(5.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>17(15.9) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>HCV load, log10 IU/mL(IQR) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>None </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>5.87(3.54–6.71) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>1.18(0–5.57) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>1.60E-17 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>HBV load, log10 IU/mL(IQR) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>3.06(2–4.28) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>1.97(1.3–3.43) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>3.68E-14 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>Serum HBeAg </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>    Positive, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>35(21.7) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>7(6.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>1.02E-52 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>    Negative, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>126(78.3) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>100(93.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>Serum HBsAg level(COI) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>&lt;0.0001 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>    &lt;1000, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>33(20.5) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>47(43.92) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>&lt;0.0001 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>    1000–4000, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>38(23.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>8(7.48) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>0.0006 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>    &gt;4000, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>90(55.9) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>none </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>52(48.6) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>0.2408 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t002fn001"><p><text><SENT sid="314" pm="."><plain>COI, cutoff index </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="315" pm="."><plain>The median HCV RNA levels of HBV-HCV co-infected patients was significantly lower than those of mono-infected HCV patients, (1.18[Interquartile range (IQR) 0–5.57] versus 5.87[IQR, 3.54–6.71] Log10 IU/ml, respectively; P&lt;0.001) as was the percentage of patients with HCV RNA level ≥4×105 IU/mL (23.4% versus 56.5%, P&lt;0.001) (Table 2). </plain></SENT>
+</text></p><p><text><SENT sid="316" pm="."><plain>We then repeated this analysis, excluding anti-HCV positive patients without viremia (HCV RNA negative). </plain></SENT>
+<SENT sid="317" pm="."><plain>We found the median HCV RNA levels of co-infected patients (5.19[IQR, 1.79–6.25] Log10 IU/mL) were still significantly lower than those of HCV mono-infected patients (6.10[IQR, 4.95–6.79] Log10 IU/ml; P &lt;0.001). </plain></SENT>
+<SENT sid="318" pm="."><plain>We then excluded HCV core Ag negative (HCV core Ag &lt; 3fmol/L) or anti-HCV positive patients without viremia (HCV RNA viral negative); 88 and 42 patients were included in the HCV mono-infection and co-infection groups, respectively (Table 3). </plain></SENT>
+<SENT sid="319" pm="."><plain>Again, the mean HCV RNA levels were significantly lower in the co-infected group (5.40±1.42 Log10 IU/mL) than in the HCV mono-infection group (5.95±1.30 Log10 IU/ml; P = 0.033). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0139015.t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0139015.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="320" pm="."><plain>Comparison of serum HCV core Ag levels and scores of the HBV-HCV co-infection and matched HCV controls. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0139015.t003g" xlink:href="pone.0139015.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>HCV+HBsAg </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>HCV </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>HCV+HBsAg (HCV-RNA-positive) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>HCV (HCV- RNA-positive) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>Variable </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>N = 107 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>N = 107 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>P Value </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>N = 57 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>N = 98 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>P Value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>Serum HCV core Ag </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>    Positive, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>56(52.34) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>78(72.90) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>42(73.68) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>88(89.80) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>    Negative, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>51(47.66) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>29(27.10) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>0.0019 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>15(26.32) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>10(10.20) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>0.0085 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>HCV core Ag level (fmol/L)(IQR) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>3.14(2.09–832.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>1830(33.26–4516) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>&lt;0.0001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>661.6(2.8–5099.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>2141.3(348.0–5039.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>0.047 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>APRI level (IQR) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>0.20(0.11–0.37) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>0.17(0.11–0.37) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>0.5443 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>0.21(0.14–0.34) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>0.20(0.123–0.34) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>0.724 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain><z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 level (IQR) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>1.73(1.24–2.89) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>1.61(1.13–2.27) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>0.1623 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>1.92(1.27–2.97) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>1.66(1.19–2.31) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>0.327 </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag><p><text><SENT sid="366" pm="."><plain>To test whether patients with HBV-HCV co-infection have a lower level of HCV core Ag compared to patients with HCV mono-infection, we measured HCV core Ag levels in the 107 HBV-HCV patients and in 107 age- and gender-matched patients with HCV mono-infection. </plain></SENT>
+<SENT sid="367" pm="."><plain>Similar to the HCV RNA findings, the percentage of HCV core Ag-positive patients was significantly lower in the HBV-HCV co-infected group than in the HCV mono-infected group (52.34% versus 72.90%, respectively; P&lt;0.001) as were the mean HCV core Ag levels (3.14[IQR,2.09–832.0] versus 1830[IQR, 33.26–4516], respectively; P&lt;0.0001) (Table 3). </plain></SENT>
+</text></p><p><text><SENT sid="368" pm="."><plain>There was no significant difference in the percentage of HCV core Ag-positive patients between the HBV DNA-negative/HBV-HCV co-infection group and the HBV DNA-positive/HBV-HCV co-infection group (58.82% versus 51.11%, respectively; P = 0.559) (Table 4); nor was there a significant difference in mean HCV core Ag levels between these two groups (1760±2970 versus 1434±3095 mean±SD; P = 0.509). </plain></SENT>
+<SENT sid="369" pm="."><plain>There percentage of HCV core Ag-positive patients in the HCV RNA-negative/HBV-HCV co-infection group was significantly lower than in the HCV RNA-positive/HBV-HCV co-infection group (28.0% versus 73.68%, P&lt;0.0001) (Table 4). </plain></SENT>
+<SENT sid="370" pm="."><plain>There was also a significant difference in mean HCV core Ag levels between these two groups (3.576±5.906 versus 2785±3753 mean±SD; P&lt;0.0001) (Table 4). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0139015.t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0139015.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="371" pm="."><plain>Comparison of serum HCV core Ag levels in HBV- HCV co-infection patients. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0139015.t004g" xlink:href="pone.0139015.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>HBV DNA-negative </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>HBV DNA-positive </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>HCV RNA-negative </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>HCV RNA-positive </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>Variable </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>N = 17 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>N = 90 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>P Value </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>N = 50 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>N = 57 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>P Value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>Serum HCV core Ag </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>    Positive, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>10(58.82) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>46(51.11) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>14(28.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>42(73.68) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>    Negative, n (%) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>7(41.18) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>44(48.89) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>0.5593 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>36(72.0) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>15(26.32) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>&lt;0.0001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>HCV core Ag level, (fmol/L)(mean±SD) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>1760±2970 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>1434±3095 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>0.509 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>3.576±5.906 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>2785±3753 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>&lt;0.0001 </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag><p><text><SENT sid="403" pm="."><plain>HCV genotyping was performed in 876 HCV RNA-positive patients. </plain></SENT>
+<SENT sid="404" pm="."><plain>HCV genotype 1b was detected in 431 patients (49.20%), genotype 2a was detected in 294 patients (33.56%), and genotype 1b/2a was detected in 13 patients (1.49%). </plain></SENT>
+<SENT sid="405" pm="."><plain>We were unable to determine the HCV genotype in 138 patients (15.75%). </plain></SENT>
+<SENT sid="406" pm="."><plain>The distribution of HCV genotypes did not differ between the HBV-HCV co-infected patients and the HCV mono-infected patients (P = 0.740). </plain></SENT>
+</text></p><p><text><SENT sid="407" pm="."><plain>The HBV-HCV co-infected group had similar <z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, <z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, GGT, ALB, total platelet, APRI, and <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 levels compared to those of the HCV mono-infected group (Table 1). </plain></SENT>
+<SENT sid="408" pm="."><plain>We found no significant differences in APRI and <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 levels between the 107 HBV-HCV co-infected patients and 107 matched HCV controls, or between these two groups of patients with HCV RNA viremia. </plain></SENT>
+<SENT sid="409" pm="."><plain>(Table 3). </plain></SENT>
+</text></p></sec><sec id="sec013"><title><text><SENT sid="410" pm="."><plain>Comparison of Virological Characteristics between Patients with HBV-HCV Co-Infection and HBV Mono-Infection </plain></SENT>
+</text></title><p><text><SENT sid="411" pm="."><plain>The HBV-HCV co-infection group had a lower percentage of HBV DNA positive patients compared to that of the HBV mono-infection group (84.1% versus 94.4%, respectively; P&lt;0.001) (Table 2). </plain></SENT>
+<SENT sid="412" pm="."><plain>In addition, the HBV-HCV co-infection group had significantly lower median HBV DNA levels than those of the HBV mono-infection group (1.97[IQR, 1.3–3.43] versus 3.06[IQR, 2–4.28] Log10 IU/mL, respectively; P&lt;0.001). </plain></SENT>
+<SENT sid="413" pm="."><plain>Furthermore, 6.5% (7/107) of patients with HBV-HCV co-infection had undetectable HBV DNA and HCV RNA levels. </plain></SENT>
+<SENT sid="414" pm="."><plain>The percentage of HBeAg-positive patients in the HBV mono-infection group was 21.7% (35/161), which was significantly higher than that of the co-infection group [6.5% (7 /107); P&lt;0.0001; Table 2]. </plain></SENT>
+</text></p><p><text><SENT sid="415" pm="."><plain>The percentage of patients with HBsAg levels less than 1000 cutoff index in the co-infection group was significantly higher than that of the HBV mono-infection group (43.92% versus 20.5%, respectively; P&lt;0.001, Table 2). </plain></SENT>
+</text></p><p><text><SENT sid="416" pm="."><plain>The HBV-HCV co-infection group had higher <z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, <z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, GGT, APRI and <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 levels, but lower ALB and total platelet compared to the HBV mono-infection group (Table 1). </plain></SENT>
+</text></p></sec><sec id="sec014"><title><text><SENT sid="417" pm="."><plain>Baseline Characteristics of HBV and HCV Replication in Patients with HBV-HCV Co-Infection </plain></SENT>
+</text></title><p><text><SENT sid="418" pm="."><plain>Baseline characteristics of HBV/HCV patients are presented in Table 5. </plain></SENT>
+<SENT sid="419" pm="."><plain>Active infection with HBV and HCV was found in 8 cases, inactive infection by both viruses in 40 cases, active HBV/inactive HCV in 20 cases, and inactive HBV/active HCV in 39 cases. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0139015.t005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0139015.t005</object-id><label>Table 5</label><caption><title><text><SENT sid="420" pm="."><plain>Baseline characteristics of HBV/HCV replication with HBV-HCV co-infection. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0139015.t005g" xlink:href="pone.0139015.t005"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th colspan="4" align="center" rowspan="1"><text><SENT sid="421" pm="."><plain>HCV+HBV(N = 107) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"/></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>a) InactiveHBV/Active HCV </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>b) ActiveHBV/HCV </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>c) ActiveHBV/InactiveHCV </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>d) Inactive HBV/HCV </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"/></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>Characteristic </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>(N = 39) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>(N = 8) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>(N = 20) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>(N = 40) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>P Value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>Age (years), (mean±SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>53.03±6.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>51.13±9.88 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>50.85±6.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>52.05±7.68 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>0.719 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>Male, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>25(64.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>5(62.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>15(75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>19(47.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>0.190 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>BMI, kg/m2a(mean±SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>24.17±3.93 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>24.17±3.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>24.3±3.14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>24.84±3.85 </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>0.868 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>HCV RNA, log10 IU/mL(IQR) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>6.64(3.75–6.40) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>5.96(5.27–6.22) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>0(0–0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>0(0–0) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>HBV RNA, log10 IU/mL(IQR) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>1.46(0.0–1.87) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>3.89(3.54–5.27) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>5.46(4.09–6.07) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>1.77(1.30–2.42) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain><z:uniprot sup="inside" fb="3" ids="Q12674,Q02083">PLT</z:uniprot> 10^9/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>172(90–377) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>192(126–286) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>163(70–261) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>192.5(62–315) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>0.188 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, IU/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>36(18–120) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>37(24–75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>40.5(25–130) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>26(12–154) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain><z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, IU/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>41(13–150) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>36(8–145) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>39.5(17–98) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>20.5(7–173) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>0.009 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain><z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, IU/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>74(43–205) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>76(35–79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>86.5(58–173) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>78(32–149) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>0.313 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>GGT, IU/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>41(16–340) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>41(14–539) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>45.5(10–160) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>29(8–323) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>0.170 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>TP,g/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>76.9(67.3–92.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>74.45(68.2–79.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>73.75(66.2–86.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>75.3(64.6–92.4) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>0.189 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>ALB, g/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>44.3(34.8–55.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>45.85(41.9–49) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>44.9(33.4–53.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>44.1(33.7–57.2) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>0.964 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q920N9,Q6AUR2">GLB</z:uniprot>, g/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>32.8(23.6–46.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>28.6(26.3–33) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>30(22.9–47) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>30.2(20.6–49.9) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>0.320 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>TBIL, μmol/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>13.9(4.2–36.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>12.9(7.1–38.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>17.2(6–41.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>11.2(5.8–68.5) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>0.093 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>DBIL, μmol/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>4.65(2.1–10.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>3.75(2.6–8.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>4.55(2.2–18.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>3.6(1.9–26.4) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>0.036 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>IBIL, μmol/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>9.5(2.1–26.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>9.15(4.3–29.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>12.9(3.8–32.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>7.8(3.9–42.1) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>0.489 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>CHE, IU/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>7395(1623–12263) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>7473.5(5169–10112) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>7190.5(2153–15890) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>7288.5(1752–13390) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>0.969 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>BUN, mmol/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>5.37(2.7–9.19) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>4.67(3.28–7.56) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>4.99(3.48–8.74) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>5.51(3.77–9.29) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>0.901 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>Cr, μmol/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>64.3(43.8–102.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>67.9(51.1–84) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>66.7(38.1–120) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>65.7(43.8–106.4) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>0.998 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>TG, mmol/L(range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>1.2(0.53–12.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>1.24(0.69–2.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>1.25(0.5–4.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>1.29(0.62–7.15) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>0.783 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>TC, mmol/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>4.23(2.9–7.13) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>4.52(3.61–8.78) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>4.73(2.82–10.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>4.69(2.8–6.59) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>0.312 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>GLU, mmol/L (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>4.22(3.01–13.31) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>4.73(3.32–7.85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>3.82(2.69–7.37) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>3.94(2.81–8.73) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>0.364 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>APRI level (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>0.23(0.07–1.29) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>0.25(0.09–0.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>0.27(0.1–1.86) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>0.13(0.05–2.48) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>0.014 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain><z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4 level (range) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>1.98(0.52–8.64) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>1.63(1.09–3.02) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>2.1(0.79–12.01) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>1.42(0.54–11.52) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>0.166 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>HBsAg level (IQR) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>7.97(1.12–5122.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>9235.5(6284.25–10455.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>7441.5(6212.0–9163.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>188.6(3.29–6207.5) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>HCV core Ag level (fmol/L) (IQR) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>1726.19(25.8–66116.29) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>2476.72(609.61–6546.90) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>2.19(1.75–2.74) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>2.24(1.82–3.41) </plain></SENT>
+</text></td><td align="right" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t005fn001"><p><text><SENT sid="588" pm="."><plain>Quantitative variables are displayed as interquartile range (range), and HBsAg, HCV core Ag,HCV-RNA and HBV-DNA which are displayed as interquartile range (IQR), except age and BMI are displayed as interquartile mean±SD </plain></SENT>
+</text></p></fn><fn id="t005fn002"><p><text><SENT sid="589" pm="."><plain>BMI, body mass index; <z:uniprot sup="inside" fb="142" ids="Q54MJ7">ALT</z:uniprot>, alanine aminotransferase, Normal value: 8–50.00 U/L; <z:uniprot sup="inside" fb="0" ids="P56158">AST</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P53001,P23034,C6C2Z3,P00509,Q59228,P44425,P72173,Q9V0L2,O58489,P58350,Q06191,P14909,Q56114,P58661,Q82DR2,Q60013,Q4J8X2,Q972A2,Q55128,O93744,Q9X0Y2,Q5F4K8,O85746">aspartate aminotransferase</z:uniprot>, Normal value: 8–40.00 U/L; <z:uniprot sup="inside" fb="135" ids="P29118,P83610,Q03420,Q7L266,Q9Z1X0,A1CIA7,B0Y708,P35211,B8N106,P28296,P12547,Q00208,A1CWF3,Q9PU47,Q53GG5,P03973,P97430,P22298,Q6V9X0">ALP</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P86348,P81800,P00634,P21948,P83456,Q05205,O60109,P19147">alkaline phosphatase</z:uniprot>, Normal value: 15–112.00 U/L; GGT, glutamyl transpeptidase, Normal value: 5–54.00 U/L; TP, total protein, Normal value: 60–83.00 g/l; ALB, albumin, Normal value: 35–55.00 g/l; <z:uniprot sup="inside" fb="2" ids="Q920N9,Q6AUR2">GLB</z:uniprot>, globulin, Normal value: 20–30.00 g/L; TBIL, total bilirubin, Normal value: 6.8–30.00 μmol/L; DBIL, direct bilirubin, Normal value: 0–8.60 μmol/L; IBIL, indirect bilirubin, Normal value: 5.1–21.40 umol/L; CHE, <z:uniprot sup="inside" fb="4" ids="P32749,P32750,O62760,P81908,P06276,P32751,Q03311,O62761,P32752,P21927,P32753">cholinesterase</z:uniprot>, Normal value: 4300–12000.00 U/L; BUN, blood urea nitrogen, Normal value: 3.2–7.00 mmol/L; Cr, creatinine, Normal value: 44–115.00 μmol/L; TG, triglycerides, Normal value: 0.28–1.80 mmol/L; TC, total cholesterol,Normal value: 2.6–6.00 mmol/L; GLU, glucose,Normal value: 3.9–6.10 mmol/L; <z:uniprot sup="inside" fb="3" ids="Q12674,Q02083">PLT</z:uniprot>, platelet,Normal value: 100–300.00 10^9/L; APRI, <z:uniprot sup="inside" fb="0" ids="P53001,P23034,C6C2Z3,P00509,Q59228,P44425,P72173,Q9V0L2,O58489,P58350,Q06191,P14909,Q56114,P58661,Q82DR2,Q60013,Q4J8X2,Q972A2,Q55128,O93744,Q9X0Y2,Q5F4K8,O85746">aspartate aminotransferase</z:uniprot> to platelet ratio index; <z:uniprot sup="inside" fb="24" ids="Q27200,P58032">FIB</z:uniprot>-4, fibrosis index based on the four factors score </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="590" pm="."><plain>Because HBsAg did not correlate with HBV DNA and HCV RNA in the overall cohort, we analyzed patterns of HBV and HCV dominance in co-infected patients. </plain></SENT>
+<SENT sid="591" pm="."><plain>Twenty patients (18.69%) showed HBV dominance (Group c) (HBV DNA &gt;2000 IU/mL and HCV RNA &lt;15 IU/mL). </plain></SENT>
+<SENT sid="592" pm="."><plain>The majority of HBV-HCV co-infected patients (n = 39, 36.45%) were HCV dominant (Group a) (HBV DNA &lt;2000 IU/mL and HCV RNA &gt;15 IU/mL). </plain></SENT>
+<SENT sid="593" pm="."><plain>In 8 (7.48%) patients significant replication of both viruses was detected (Group b); whereas in 40 (37.38%) patients, neither of the viruses were significantly replicating (Group d) (Table 5). </plain></SENT>
+<SENT sid="594" pm="."><plain>The baseline characteristics of the four groups of patients did not significantly differ. </plain></SENT>
+<SENT sid="595" pm="."><plain>Interestingly, HBsAg levels were significantly different between the groups (analysis of variance, p &lt; 0.001). </plain></SENT>
+<SENT sid="596" pm="."><plain>As expected, HBsAg levels were highest in patients with HBV DNA (&gt;2000 IU/mL) (Group b: 9235.5[IQR, 6284.25–10455.5], Group c: 7441.5[IQR, 6212.0–9163.0]), lower in patients without HBV dominance (Group a: 7.97[IQR, 1.12–5122.0], Group d: 188.6[IQR, 3.29–6207.5]), and lowest in patients with HCV dominance (Table 5). </plain></SENT>
+</text></p></sec><sec id="sec015"><title><text><SENT sid="597" pm="."><plain>Correlation between HCV and HBV Serum Markers </plain></SENT>
+</text></title><p><text><SENT sid="598" pm="."><plain>We found a significant negative correlation between HCV RNA load or HCV core Ag level with HBV DNA load (r = -0.276 and r = -0.242) (Table 6). </plain></SENT>
+<SENT sid="599" pm="."><plain>There was a negative correlation between HBsAg levels and HCV RNA (r = -0.200, p = 0.039). </plain></SENT>
+<SENT sid="600" pm="."><plain>As expected, high correlations were found between the HCV RNA load and HCV core Ag level (r = 0.781) as well as between the HBV DNA load and HBsAg level (r = 0.558) in patients with HBV-HCV co-infecton (Table 6). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0139015.t006" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0139015.t006</object-id><label>Table 6</label><caption><title><text><SENT sid="601" pm="."><plain>Correlation of serum markers in HBV- HCV co-infection patients (n = 107). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0139015.t006g" xlink:href="pone.0139015.t006"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>  </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>HCV RNA log10 IU/mL </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>HCV core Ag level (fmol/L) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>HBV DNA log10 IU/mL </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>HBsAg level (fmol/L) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>HCV RNA log10 IU/mL </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>1.000 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>0.781** </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>-0.276** </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>-0.200* </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>HCV core Ag level (fmol/L) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>1.000 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>-0.242* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>-0.161 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>HBV DNA log10 IU/mL </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>1.000 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>0.558** </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>HBsAg level </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>1.000 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t006fn001"><p><text><SENT sid="627" pm="."><plain>**P&lt;0.01, Pair-wise Spearman correlation analysis </plain></SENT>
+</text></p></fn><fn id="t006fn002"><p><text><SENT sid="628" pm="."><plain>*P&lt;0.05, Pair-wise Spearman correlation analysis </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="conclusions" id="sec016"><title><text><SENT sid="629" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="630" pm="."><plain>Among the patients included in this study, we found that 8.4% of those with chronic HCV infection were co-infected with HBV. </plain></SENT>
+<SENT sid="631" pm="."><plain>In China, the prevalence of HCV is approximately 0.43% in the population between the ages of 1 and 59 [25]. </plain></SENT>
+<SENT sid="632" pm="."><plain>Therefore, there may be a large number of patients in China who are co-infected with HCV and HBV. </plain></SENT>
+<SENT sid="633" pm="."><plain>Our study evaluated the proportion of HCV-infected patients from an HCV-endemic region in northeast China who were exposed to HBV, as well as the proportion of subjects who were co-infected with HBV. </plain></SENT>
+</text></p><p><text><SENT sid="634" pm="."><plain>We obtained data from a substantial number of patients, which suggests that HCV and HBV mutually inhibit the other virus’s replication in co-infected patients. </plain></SENT>
+<SENT sid="635" pm="."><plain>Our virological data suggest that the interaction between the viruses, which ultimately determines the progression of chronic hepatitis, might be characterized by reciprocal replication inhibition of the respective viruses. </plain></SENT>
+<SENT sid="636" pm="."><plain>However, whether the order of acquisition of virus infection plays a role in determining the degree of suppression remains to be established. </plain></SENT>
+</text></p><p><text><SENT sid="637" pm="."><plain>The virological patterns of HBV and HCV infections have been investigated in a large number of clinical studies [3, 26] Most of these studies were cross-sectional evaluations of HBV and HCV viral loads observed at a single time point, showing an apparent dominant role of HCV (i.e., high HCV RNA and low HBV DNA levels) in the majority of the cases. </plain></SENT>
+<SENT sid="638" pm="."><plain>However, other reports suggest reciprocal interference or a dominant effect of HBV [5, 27–29]. </plain></SENT>
+<SENT sid="639" pm="."><plain>Furthermore, ethnic factors that may influence the dominant role of one virus over the other have been proposed [30]; however, this phenomenon is not well understood, and the mechanisms by which this occurs have yet to be established [31, 32]. </plain></SENT>
+</text></p><p><text><SENT sid="640" pm="."><plain>We found a marked difference in the severity of liver disease among the HCV mono-infected, HBV mono-infected, and HBV-HCV co-infected groups (Table 1). </plain></SENT>
+<SENT sid="641" pm="."><plain>Indeed, similar differences in the clinical presentation of liver disease were reported in a recent study of 1257 patients from New York City with chronic HCV infection, including 26 patients with HBV-HCV co-infection [1]. </plain></SENT>
+<SENT sid="642" pm="."><plain>Other studies have also confirmed that HBV-HCV co-infection is associated with more advanced liver disease compared to HBV or HCV mono-infection [5, 8, 28, 33–36]. </plain></SENT>
+</text></p><p><text><SENT sid="643" pm="."><plain>The frequency of HBeAg negativity is significantly higher in patients with HBV-HCV co-infected patients compared to those with HBV mono-infection. </plain></SENT>
+<SENT sid="644" pm="."><plain>It is possible that HBeAg-negative patients had seroconversion to anti-Hbe before becoming inactive carriers. </plain></SENT>
+<SENT sid="645" pm="."><plain>Similarly, in a 6-year follow-up study, Sheen et al. found a rate of HBsAg clearance 2.5 times faster in HBsAg/anti-HCV-positive patients than in those with HBV infection alone [37]. </plain></SENT>
+<SENT sid="646" pm="."><plain>Ohkawa et al. [30] and Pontisso et al. [29] observed a reciprocal inhibitory effect between HBV and HCV in small groups of patients. </plain></SENT>
+<SENT sid="647" pm="."><plain>In addition, Shih et al. observed suppression of HBV expression and replication by the <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core protein</z:uniprot> of HCV in cell culture [38]. </plain></SENT>
+</text></p><p><text><SENT sid="648" pm="."><plain>If HBV and HCV infect the same hepatocyte, HCV structural or functional proteins may directly influence HBV replication and HBsAg expression, or vice versa [39]. </plain></SENT>
+<SENT sid="649" pm="."><plain>For example, HBsAg antigen expression and viremia are lower in the livers of HBV-HCV co-infected patients [16]. </plain></SENT>
+<SENT sid="650" pm="."><plain>These findings and results from the multivariate analysis of our follow-up study suggest HCV is accountable for enhanced HBsAg seroclearance in chronic HBV infection [37]. </plain></SENT>
+</text></p><p><text><SENT sid="651" pm="."><plain>A recent case-control study found that patients with chronic HBV infection who had serum HBsAg clearance had a significantly higher prevalence of anti-HCV antibodies than age- and sex-matched controls patients (31.4% versus 5.9%; P&lt;0.001) [40]. </plain></SENT>
+<SENT sid="652" pm="."><plain>This observation provides indirect evidence to support the concept that HCV superinfection exerts viral interference that can suppress or terminate a chronic HBsAg carrier state. </plain></SENT>
+<SENT sid="653" pm="."><plain>Other recent studies have discussed indirect mechanisms that may be involved. </plain></SENT>
+<SENT sid="654" pm="."><plain>Bellecave et al. showed in vitro that HBV and HCV can replicate in the same cell without direct viral interference [31]. </plain></SENT>
+<SENT sid="655" pm="."><plain>Wiegand et al. found higher <z:uniprot sup="inside" fb="0" ids="B5B3U4,Q4ZH68,Q9YGB9,Q866Y6,P07353,Q8SPW9,Q2PE75,P28341,Q865W6,P42161,P79154,P42162,P28333,P49708,O57571,Q1WM28,O77763,P46402,P42160,P01579,Q865X1,P63309,P63310,P63311,Q5I6S9,O35735,O57603,Q62574,O35497,Q647G2,P01580,A4PIZ9,O73915,Q9TTB0,Q865Y4,B3IXK1,Q7TSP4,O57608,Q5CCK0,P17803,P30123,P01581,Q8MKF5,P17773,Q9QXX2,Q9TV67,Q25BC0">interferon-gamma</z:uniprot>-inducible <z:uniprot sup="inside" fb="0" ids="P20658">protein-10</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P02778,Q8MIZ1,Q865F5,P17515,P48973">IP-10</z:uniprot>) levels in HCV-dominant HBV-HCV co-infected patients, which suggests that immune mechanisms may be responsible for HCV suppressing HBV DNA replication and HBsAg production [41]. </plain></SENT>
+</text></p><p><text><SENT sid="656" pm="."><plain>As we anticipated, there was a significant negative correlation between HCV RNA load or HCV core Ag level and HBV DNA load as well as between HBsAg levels and HCV RNA levels (Table 6). </plain></SENT>
+<SENT sid="657" pm="."><plain>The values were similar to those reported by Wiegand et al.[41], which showed that, overall, HBsAg levels had a positive correlation with HBV DNA (r = 0.52, p &lt; 0.001) and a negative correlation with HCV RNA levels (r = -0.20, p = 0.06). </plain></SENT>
+<SENT sid="658" pm="."><plain>Therefore, although a significantly higher percentage of patients had a lower HBsAg level (&lt; 1000 IU/mL) in the co-infection group compared to the HBV mono-infection group, the negative correlation between HBsAg levels and HCV RNA levels implies that the interplay between HBV and HCV may be not the result of HBsAg. </plain></SENT>
+<SENT sid="659" pm="."><plain>It is therefore important to look for host factors that may influence the difference in viral load and serum markers observed in patients with HBV-HCV co-infection. </plain></SENT>
+<SENT sid="660" pm="."><plain>Clearly, further research in this important area is warranted. </plain></SENT>
+</text></p><p><text><SENT sid="661" pm="."><plain>Our study was a cross-sectional study based on demographic and clinical data collected from a large number of samples. </plain></SENT>
+<SENT sid="662" pm="."><plain>We did not evaluate the long-term outcomes of HBV-HCV co-infection. </plain></SENT>
+<SENT sid="663" pm="."><plain>Because HBV-HCV viremia is a dynamic process [7], long-term follow-up will be critical to understanding the complex interactions between HBV and HCV in co-infected patients. </plain></SENT>
+<SENT sid="664" pm="."><plain>We don't have to HCV mono-infection group (HBsAg-negative patients) with HBV DNA testing; therefore, we may missed the occult HCV co-infection with HBV (HBsAg-negative with detectable HBV DNA), and we may have underestimated the actual prevalence of HBV-HCV co-infection. </plain></SENT>
+<SENT sid="665" pm="."><plain>HBV-HCV co-infected patients exhibited severe liver injury, which is consistent with a very high risk of liver cancer among these individuals [42, 43]. </plain></SENT>
+<SENT sid="666" pm="."><plain>Therefore, tests should to be performed to detect for co-infected patients to proactively screen for liver cancer, and aggressive treatment may be required for these patients. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="sec017"><title><text><SENT sid="667" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0139015.s001"><label>S1 Table</label><caption><title><text><SENT sid="668" pm="."><plain>Original data used in this study. </plain></SENT>
+</text></title><p><text><SENT sid="669" pm="."><plain>(XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0139015.s001.xls"><caption><p><text><SENT sid="670" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="671" pm="."><plain>Ge Yu and Xiumei Chi contributed equally to this work; Junqi Niu and Yu Pan designed and conducted most of the study; Ge Yu and Xiumei Chi wrote the manuscript; Xiumei Chi, Xiaomei Wang, Xiuzhu Gao, Xiangwei Feng and Yuanda Gao performed the biochemical testing; Ge Yu, Yu Pan, Fei Kong, Xinxing Huang, Jinglan Jin, and Yue Qi collected the epidemiological and clinical data; Ge Yu and Ruihong Wu performed the statistical analyses. </plain></SENT>
+<SENT sid="672" pm="."><plain>Zhengkun Tu, Bing Sun and Jin Zhong reviewed and corrected the paper. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="673" pm="."><plain>We thank the nursing staff at the First Hospital of Jilin University for making this study possible by contributing their professional skills. </plain></SENT>
+<SENT sid="674" pm="."><plain>We thank the assistance of BioScienceWriters, LLC (Houston, TX, USA) in copyediting of the manuscript and corrections of English language usage. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0139015.ref001"><text><SENT sid="675" pm="."><plain>1 BiniEJ, PerumalswamiPV. Hepatitis B virus infection among American patients with chronic hepatitis C virus infection: prevalence, racial/ethnic differences, and viral interactions. Hepatology. 2010;51(3):759–66. 10.1002/<z:uniprot sup="inside" fb="21" ids="Q23977">hep</z:uniprot>.23461 .<?supplied-pmid 20140950?>20140950 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref002"><text><SENT sid="676" pm="."><plain>2 BrassV, MoradpourD. New insights into hepatitis B and C virus co-infection. Journal of hepatology. 2009;51(3):423–5. 10.1016/j.jhep.2009.06.003 .<?supplied-pmid 19596479?>19596479 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref003"><text><SENT sid="677" pm="."><plain>3 CrockettSD, KeeffeEB. Natural history and treatment of hepatitis B virus and hepatitis C virus coinfection. Annals of clinical microbiology and antimicrobials. 2005;4:13 10.1186/1476-0711-4-13 <?supplied-pmid 16159399?>16159399 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref004"><text><SENT sid="678" pm="."><plain>4 ChuCJ, LeeSD. Hepatitis B virus/hepatitis C virus coinfection: epidemiology, clinical features, viral interactions and treatment. Journal of gastroenterology and hepatology. 2008;23(4):512–20. 10.1111/j.1440-1746.2008.05384.x .<?supplied-pmid 18397482?>18397482 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref005"><text><SENT sid="679" pm="."><plain>5 ZarskiJP, BohnB, BastieA, PawlotskyJM, BaudM, Bost-BezeauxF, et al Characteristics of patients with dual infection by hepatitis B and C viruses. Journal of hepatology. 1998;28(1):27–33. .<?supplied-pmid 9537860?>9537860 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref006"><text><SENT sid="680" pm="."><plain>6 SquadritoG, OrlandoME, PollicinoT, RaffaG, RestucciaT, CacciolaI, et al Virological profiles in patients with chronic hepatitis C and overt or occult HBV infection. The American journal of gastroenterology. 2002;97(6):1518–23. 10.1111/j.1572-0241.2002.05707.x .<?supplied-pmid 12094876?>12094876 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref007"><text><SENT sid="681" pm="."><plain>7 RaimondoG, BrunettoMR, PontissoP, SmedileA, MainaAM, SaittaC, et al Longitudinal evaluation reveals a complex spectrum of virological profiles in hepatitis B virus/hepatitis C virus-coinfected patients. Hepatology. 2006;43(1):100–7. 10.1002/<z:uniprot sup="inside" fb="21" ids="Q23977">hep</z:uniprot>.20944 .<?supplied-pmid 16323213?>16323213 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref008"><text><SENT sid="682" pm="."><plain>8 SagnelliE, CoppolaN, PisaturoM, MasielloA, TonzielloG, SagnelliC, et al HBV superinfection in HCV chronic carriers: a disease that is frequently severe but associated with the eradication of HCV. Hepatology. 2009;49(4):1090–7. 10.1002/<z:uniprot sup="inside" fb="21" ids="Q23977">hep</z:uniprot>.22794 .<?supplied-pmid 19263473?>19263473 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref009"><text><SENT sid="683" pm="."><plain>9 GaetaGB, StornaiuoloG, PreconeDF, LobelloS, ChiaramonteM, StroffoliniT, et al Epidemiological and clinical burden of chronic hepatitis B virus/hepatitis C virus infection. </plain></SENT>
+<SENT sid="684" pm="."><plain>A multicenter Italian study. Journal of hepatology. 2003;39(6):1036–41. .<?supplied-pmid 14642623?>14642623 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref010"><text><SENT sid="685" pm="."><plain>10 AlbertiA, PontissoP, ChemelloL, FattovichG, BenvegnuL, BelussiF, et al The interaction between hepatitis B virus and hepatitis C virus in acute and chronic liver disease. Journal of hepatology. 1995;22(1 Suppl):38–41. .<?supplied-pmid 7602074?>7602074 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref011"><text><SENT sid="686" pm="."><plain>11 RaimondoG, SaittaC. Treatment of the hepatitis B virus and hepatitis C virus co-infection: still a challenge for the hepatologist. Journal of hepatology. 2008;49(5):677–9. 10.1016/j.jhep.2008.08.003 .<?supplied-pmid 18804888?>18804888 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref012"><text><SENT sid="687" pm="."><plain>12 LiawYF, ChenYC, SheenIS, ChienRN, YehCT, ChuCM. Impact of acute hepatitis C virus superinfection in patients with chronic hepatitis B virus infection. Gastroenterology. 2004;126(4):1024–9. .<?supplied-pmid 15057742?>15057742 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref013"><text><SENT sid="688" pm="."><plain>13 LiawYF. Hepatitis C virus superinfection in patients with chronic hepatitis B virus infection. Journal of gastroenterology. 2002;37 Suppl 13:65–8. .<?supplied-pmid 12109669?>12109669 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref014"><text><SENT sid="689" pm="."><plain>14 LiawYF, LinSM, SheenIS, ChuCM. Acute hepatitis C virus superinfection followed by spontaneous HBeAg seroconversion and HBsAg elimination. Infection. 1991;19(4):250–1. .<?supplied-pmid 1917039?>1917039 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref015"><text><SENT sid="690" pm="."><plain>15 SatoS, FujiyamaS, TanakaM, YamasakiK, KuramotoI, KawanoS, et al Coinfection of hepatitis C virus in patients with chronic hepatitis B infection. Journal of hepatology. 1994;21(2):159–66. .<?supplied-pmid 7527435?>7527435 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref016"><text><SENT sid="691" pm="."><plain>16 ChuCM, YehCT, LiawYF. Low-level viremia and intracellular expression of hepatitis B surface antigen (HBsAg) in HBsAg carriers with concurrent hepatitis C virus infection. Journal of clinical microbiology. 1998;36(7):2084–6. <?supplied-pmid 9650968?>9650968 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref017"><text><SENT sid="692" pm="."><plain>17 ParkY, LeeJH, KimBS, Kim doY, HanKH, KimHS. New automated hepatitis C virus (HCV) <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core antigen</z:uniprot> assay as an alternative to real-time PCR for HCV RNA quantification. Journal of clinical microbiology. 2010;48(6):2253–6. 10.1128/JCM.01856-09 <?supplied-pmid 20351215?>20351215 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref018"><text><SENT sid="693" pm="."><plain>18 MorotaK, FujinamiR, KinukawaH, MachidaT, OhnoK, SaegusaH, et al A new sensitive and automated chemiluminescent microparticle immunoassay for quantitative determination of hepatitis C virus <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core antigen</z:uniprot>. Journal of virological methods. 2009;157(1):8–14. 10.1016/j.jviromet.2008.12.009 .<?supplied-pmid 19135481?>19135481 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref019"><text><SENT sid="694" pm="."><plain>19 MuerhoffAS, JiangL, ShahDO, GutierrezRA, PatelJ, GarolisC, et al Detection of HCV <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core antigen</z:uniprot> in human serum and plasma with an automated chemiluminescent immunoassay. Transfusion. 2002;42(3):349–56. .<?supplied-pmid 11961241?>11961241 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref020"><text><SENT sid="695" pm="."><plain>20 MicallefJM, KaldorJM, DoreGJ. Spontaneous viral clearance following acute hepatitis C infection: a systematic review of longitudinal studies. J Viral Hepat. 2006;13(1):34–41. </plain></SENT>
+<SENT sid="696" pm="."><plain>Epub 2005/12/21. </plain></SENT>
+<SENT sid="697" pm="."><plain>JVH651 [pii] 10.1111/j.1365-2893.2005.00651.x .<?supplied-pmid 16364080?>16364080 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref021"><text><SENT sid="698" pm="."><plain>21 AlterMJ, Kruszon-MoranD, NainanOV, McQuillanGM, GaoF, MoyerLA, et al The prevalence of hepatitis C virus infection in the United States, 1988 through 1994. N Engl J Med. 1999;341(8):556–62. </plain></SENT>
+<SENT sid="699" pm="."><plain>Epub 1999/08/19. </plain></SENT>
+<SENT sid="700" pm="."><plain>MJBA-410802 [pii] 10.1056/NEJM199908193410802 .<?supplied-pmid 10451460?>10451460 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref022"><text><SENT sid="701" pm="."><plain>22 GrebelyJ, ConwayB, RaffaJD, LaiC, KrajdenM, TyndallMW. Hepatitis C virus reinfection in injection drug users. Hepatology. 2006;44(5):1139–45. </plain></SENT>
+<SENT sid="702" pm="."><plain>Epub 2006/10/24. 10.1002/<z:uniprot sup="inside" fb="21" ids="Q23977">hep</z:uniprot>.21376 .<?supplied-pmid 17058216?>17058216 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref023"><text><SENT sid="703" pm="."><plain>23 VillanoSA, VlahovD, NelsonKE, CohnS, ThomasDL. Persistence of viremia and the importance of long-term follow-up after acute hepatitis C infection. Hepatology. 1999;29(3):908–14. </plain></SENT>
+<SENT sid="704" pm="."><plain>Epub 1999/03/03. </plain></SENT>
+<SENT sid="705" pm="."><plain>S0270913999001378 [pii] 10.1002/<z:uniprot sup="inside" fb="21" ids="Q23977">hep</z:uniprot>.510290311 .<?supplied-pmid 10051497?>10051497 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref024"><text><SENT sid="706" pm="."><plain>24 National Institutes of Health Consensus Development Conference Statement: Management of hepatitis C: 2002—June 10–12, 2002. Hepatology. 2002;36(5 Suppl 1):S3–20. </plain></SENT>
+<SENT sid="707" pm="."><plain>Epub 2002/10/31. </plain></SENT>
+<SENT sid="708" pm="."><plain>S0270913902001672 [pii] 10.1053/jhep.2002.37117 .<?supplied-pmid 12407572?>12407572 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref025"><text><SENT sid="709" pm="."><plain>25 YuanshengC, LiL, FuqiangC, WengeX, WangL, ZhiyuanJ, et al A sero-epidemiological study on hepatitis C in China. Chin J Epidemiol. 2011;32(9):888–91. </plain></SENT>
+</text></ref><ref id="pone.0139015.ref026"><text><SENT sid="710" pm="."><plain>26 CaccamoG, SaffiotiF, RaimondoG. Hepatitis B virus and hepatitis C virus dual infection. </plain></SENT>
+<SENT sid="711" pm="."><plain>World journal of gastroenterology: WJG. 2014;20(40):14559–67. 10.3748/wjg.v20.i40.14559 <?supplied-pmid 25356020?>25356020 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref027"><text><SENT sid="712" pm="."><plain>27 OhkawaK, HayashiN, YukiN, HagiwaraH, KatoM, YamamotoK, et al Hepatitis C virus antibody and hepatitis C virus replication in chronic hepatitis B patients. Journal of hepatology. 1994;21(4):509–14. .<?supplied-pmid 7529271?>7529271 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref028"><text><SENT sid="713" pm="."><plain>28 CrespoJ, LozanoJL, de la CruzF, RodrigoL, RodriguezM, San MiguelG, et al Prevalence and significance of hepatitis C viremia in chronic active hepatitis B. The American journal of gastroenterology. 1994;89(8):1147–51. .<?supplied-pmid 8053425?>8053425 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref029"><text><SENT sid="714" pm="."><plain>29 PontissoP, RuvolettoMG, FattovichG, ChemelloL, GalloriniA, RuolA, et al Clinical and virological profiles in patients with multiple hepatitis virus infections. Gastroenterology. 1993;105(5):1529–33. .<?supplied-pmid 8224658?>8224658 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref030"><text><SENT sid="715" pm="."><plain>30 OhkawaK, HayashiN, YukiN, MasuzawaM, KatoM, YamamotoK, et al Long-term follow-up of hepatitis B virus and hepatitis C virus replicative levels in chronic hepatitis patients coinfected with both viruses. Journal of medical virology. 1995;46(3):258–64. .<?supplied-pmid 7561800?>7561800 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref031"><text><SENT sid="716" pm="."><plain>31 BellecaveP, GouttenoireJ, GajerM, BrassV, KoutsoudakisG, BlumHE, et al Hepatitis B and C virus coinfection: a novel model system reveals the absence of direct viral interference. Hepatology. 2009;50(1):46–55. 10.1002/<z:uniprot sup="inside" fb="21" ids="Q23977">hep</z:uniprot>.22951 .<?supplied-pmid 19333911?>19333911 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref032"><text><SENT sid="717" pm="."><plain>32 EyreNS, PhillipsRJ, BowdenS, YipE, DewarB, LocarniniSA, et al Hepatitis B virus and hepatitis C virus interaction in Huh-7 cells. Journal of hepatology. 2009;51(3):446–57. 10.1016/j.jhep.2009.04.025 .<?supplied-pmid 19596477?>19596477 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref033"><text><SENT sid="718" pm="."><plain>33 FongTL, Di BisceglieAM, WaggonerJG, BanksSM, HoofnagleJH. The significance of antibody to hepatitis C virus in patients with chronic hepatitis B. Hepatology. 1991;14(1):64–7. .<?supplied-pmid 1648540?>1648540 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref034"><text><SENT sid="719" pm="."><plain>34 MohamedAel S, al KarawiMA, MesaGA. Dual infection with hepatitis C and B viruses: clinical and histological study in Saudi patients. Hepato-gastroenterology. 1997;44(17):1404–6. .<?supplied-pmid 9356863?>9356863 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref035"><text><SENT sid="720" pm="."><plain>35 SagnelliE, PasqualeG, CoppolaN, ScaranoF, MarroccoC, ScolasticoC, et al Influence of chronic coinfection with hepatitis B and C virus on liver histology. Infection. 2004;32(3):144–8. 10.1007/s15010-004-3080-6 .<?supplied-pmid 15188073?>15188073 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref036"><text><SENT sid="721" pm="."><plain>36 LeeLP, DaiCY, ChuangWL, ChangWY, HouNJ, HsiehMY, et al Comparison of liver histopathology between chronic hepatitis C patients and chronic hepatitis B and C-coinfected patients. Journal of gastroenterology and hepatology. 2007;22(4):515–7. 10.1111/j.1440-1746.2006.04547.x .<?supplied-pmid 17376043?>17376043 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref037"><text><SENT sid="722" pm="."><plain>37 SheenIS, LiawYF, LinDY, ChuCM. Role of hepatitis C and delta viruses in the termination of chronic hepatitis B surface antigen carrier state: a multivariate analysis in a longitudinal follow-up study. The Journal of infectious diseases. 1994;170(2):358–61. .<?supplied-pmid 7518488?>7518488 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref038"><text><SENT sid="723" pm="."><plain>38 ShihCM, LoSJ, MiyamuraT, ChenSY, LeeYH. Suppression of hepatitis B virus expression and replication by hepatitis C virus <z:uniprot sup="inside" fb="0" ids="Q64897,P0C6J7,P0C6J8,Q66406,P0C6J1,P03149,P03148,P0C693,P0C694,P0C695,P0C696,P0C697,P0C698,P17391,P69707,Q9QAB9,P17392,Q67924,Q9QBF2,P0C677,Q9E6S6,Q81102,P0C6H4,P69706,P0C6H6,P69708,P0C6H7,Q81164,P0C6H8,Q76R61,P12901,P03147,P24023,P03146,Q9QMI2,P0C680,P0C6I2,P0C6I3,P0C6I4,Q69608,P29178,P0C683,P0C682,P0C6I8,P0C6I9,P0C6I6,P0C6K0,P0C6K3,P0C6K1,P0C6K2,P69709,P06433,P69712,P69710,P69711,O71303">core protein</z:uniprot> in HuH-7 cells. Journal of virology. 1993;67(10):5823–32. <?supplied-pmid 8396658?>8396658 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref039"><text><SENT sid="724" pm="."><plain>39 LiuCJ, ChenPJ, ChenDS. Dual chronic hepatitis B virus and hepatitis C virus infection. Hepatology international. 2009;3(4):517–25. 10.1007/s12072-009-9147-9 <?supplied-pmid 19669238?>19669238 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref040"><text><SENT sid="725" pm="."><plain>40 SheenIS, LiawYF, ChuCM, PaoCC. Role of hepatitis C virus infection in spontaneous hepatitis B surface antigen clearance during chronic hepatitis B virus infection. The Journal of infectious diseases. 1992;165(5):831–4. .<?supplied-pmid 1314869?>1314869 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref041"><text><SENT sid="726" pm="."><plain>41 WiegandSB, JaroszewiczJ, PotthoffA, HonerZu Siederdissen C, MaasoumyB, DeterdingK, et al Dominance of hepatitis C virus (HCV) is associated with lower quantitative hepatitis B surface antigen and higher serum <z:uniprot sup="inside" fb="0" ids="B5B3U4,Q4ZH68,Q9YGB9,Q866Y6,P07353,Q8SPW9,Q2PE75,P28341,Q865W6,P42161,P79154,P42162,P28333,P49708,O57571,Q1WM28,O77763,P46402,P42160,P01579,Q865X1,P63309,P63310,P63311,Q5I6S9,O35735,O57603,Q62574,O35497,Q647G2,P01580,A4PIZ9,O73915,Q9TTB0,Q865Y4,B3IXK1,Q7TSP4,O57608,Q5CCK0,P17803,P30123,P01581,Q8MKF5,P17773,Q9QXX2,Q9TV67,Q25BC0">interferon-gamma</z:uniprot>-induced <z:uniprot sup="inside" fb="0" ids="P20658">protein 10</z:uniprot> levels in HBV/HCV-coinfected patients. Clin Microbiol Infect. 2015;21(7):710 e1–9. </plain></SENT>
+<SENT sid="727" pm="."><plain>Epub 2015/04/18. doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cmi.2015.03.003S1198-743X(15)00367-5">10.1016/j.<z:uniprot sup="inside" fb="27" ids="P18002">cmi</z:uniprot>.2015.03.003 S1198-743X(15)00367-5</ext-link> [pii]. .<?supplied-pmid 25882360?>25882360 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref042"><text><SENT sid="728" pm="."><plain>42 European Association For The Study Of The L. EASL clinical practice guidelines: Management of chronic hepatitis B virus infection. Journal of hepatology. 2012;57(1):167–85. 10.1016/j.jhep.2012.02.010 .<?supplied-pmid 22436845?>22436845 </plain></SENT>
+</text></ref><ref id="pone.0139015.ref043"><text><SENT sid="729" pm="."><plain>43Italian Association for the Study of the L, Italian Society of Infectious TD, Italian Society for the Study of Sexually Transmitted D. </plain></SENT>
+<SENT sid="730" pm="."><plain>Practice guidelines for the treatment of hepatitis C: recommendations from an AISF/SIMIT/SIMAST Expert Opinion Meeting. </plain></SENT>
+<SENT sid="731" pm="."><plain>Digestive and liver disease: official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver. </plain></SENT>
+<SENT sid="732" pm="."><plain>2010;42(2):81–91. 10.1016/j.<z:uniprot sup="inside" fb="0" ids="Q54EW8,O29853,Q8NRY8,P06149,P45295,Q8UWJ4">dld</z:uniprot>.2009.08.001 .<?supplied-pmid 19748329?>19748329 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

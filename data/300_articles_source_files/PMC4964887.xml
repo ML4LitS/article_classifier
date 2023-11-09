@@ -1,0 +1,472 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">ChemElectroChem</journal-id><journal-id journal-id-type="iso-abbrev">ChemElectroChem</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2196-0216</journal-id><journal-id journal-id-type="publisher-id">CELC</journal-id><journal-title-group><journal-title>Chemelectrochem</journal-title></journal-title-group><issn pub-type="epub">2196-0216</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4964887</article-id><article-id pub-id-type="doi">10.1002/celc.201500167</article-id><article-id pub-id-type="publisher-id">CELC201500167</article-id><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Apparent Oxygen Uphill Diffusion in La0.8Sr0.2MnO3 Thin Films upon Cathodic Polarization </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib id="celc201500167-cr-0001" contrib-type="author"><name><surname>Huber</surname><given-names>Tobias M.</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="celc201500167-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="celc201500167-note-1001">
+<sup>†</sup>
+</xref></contrib><contrib id="celc201500167-cr-0002" contrib-type="author"><name><surname>Navickas</surname><given-names>Edvinas</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="celc201500167-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="celc201500167-note-1001">
+<sup>†</sup>
+</xref></contrib><contrib id="celc201500167-cr-0003" contrib-type="author"><name><surname>Friedbacher</surname><given-names>Gernot</given-names><prefix>Prof.</prefix></name><xref ref-type="aff" rid="celc201500167-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="celc201500167-cr-0004" contrib-type="author"><name><surname>Hutter</surname><given-names>Herbert</given-names><prefix>Prof.</prefix></name><xref ref-type="aff" rid="celc201500167-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="celc201500167-cr-0005" contrib-type="author" corresp="yes"><name><surname>Fleig</surname><given-names>Jürgen</given-names><prefix>Prof.</prefix></name><address><email>j.fleig@tuwien.ac.at</email></address><xref ref-type="aff" rid="celc201500167-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="celc201500167-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Institute of Chemical Technologies and Analytics</named-content><institution>Vienna University of Technology</institution><named-content content-type="street">Getreidemarkt 9</named-content><named-content content-type="city">Vienna</named-content><named-content content-type="post-code">A-1060</named-content><country country="AT">Austria</country></aff><author-notes><fn id="celc201500167-note-1001"><label>†</label><p><text><SENT sid="1" pm="."><plain>These authors contributed equally to this work </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>21</day><month>7</month><year>2015</year></pub-date><pub-date pub-type="ppub"><month>10</month><year>2015</year></pub-date><volume>2</volume><issue>10</issue><issue-id pub-id-type="doi">10.1002/celc.v2.10</issue-id><issue-title content-type="special-issue-title">In Situ Monitoring</issue-title><fpage>1487</fpage><lpage>1494</lpage><history><date date-type="received"><day>21</day><month>4</month><year>2015</year></date></history><permissions><copyright-statement content-type="article-copyright">© 2015 The Authors. Published by Wiley-VCH Verlag GmbH &amp; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:CELC-2-1487.pdf"/><abstract><title><text><SENT sid="2" pm="."><plain>Abstract </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="3" pm="."><plain>The impact of cathodic bias on oxygen transport in La0.8Sr0.2MnO3 (LSM) thin films was investigated. </plain></SENT>
+<SENT sid="4" pm="."><plain>Columnar‐grown LSM thin films with different microstructures were deposited by pulsed laser deposition. 18O tracer experiments were performed on thin film microelectrodes with an applied cathodic bias of −300 or −450 mV, and the microelectrodes were subsequently analyzed by time‐of‐flight secondary ion mass spectrometry. </plain></SENT>
+<SENT sid="5" pm="."><plain>The 18O concentration in the cathodically polarized LSM microelectrodes was strongly increased relative to that in the thermally annealed film (without bias). </plain></SENT>
+<SENT sid="6" pm="."><plain>Most remarkable, however, was the appearance of a pronounced 18O fraction maximum in the center of the films. </plain></SENT>
+<SENT sid="7" pm="."><plain>This strongly depended on the applied bias and on the microstructure of the LSM thin layers. </plain></SENT>
+<SENT sid="8" pm="."><plain>The unusual shape of the 18O depth profiles was caused by a combination of Wagner–Hebb‐type stoichiometry polarization of the LSM bulk, fast grain boundary transport and voltage‐induced modification of the oxygen incorporation kinetics, </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group kwd-group-type="author-generated"><kwd id="celc201500167-kwd-0001">cathodic bias</kwd><kwd id="celc201500167-kwd-0002">grain boundaries</kwd><kwd id="celc201500167-kwd-0003">mass spectrometry</kwd><kwd id="celc201500167-kwd-0004">thin films</kwd><kwd id="celc201500167-kwd-0005">tracer diffusion</kwd></kwd-group></SecTag><funding-group><award-group><funding-source>Austrian Science Fund</funding-source></award-group></funding-group><funding-group><award-group><funding-source>FWF</funding-source><award-id>F4509-N16</award-id><award-id>W1243-N16</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="2"/><ref-count count="50"/><page-count count="8"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>celc201500167</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2015</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.2 mode:remove_FC converted:19.07.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="celc201500167-self">T. M. Huber, E. Navickas, G. Friedbacher, H. Hutter, J. Fleig, <italic>ChemElectroChem</italic>
+<bold>2015</bold>, <italic>2</italic>, 1487.</mixed-citation>
+</p></notes></front><body><SecTag type="INTRO"><sec id="celc201500167-sec-0001"><label>1</label><title><text><SENT sid="9" pm="."><plain> Introduction </plain></SENT>
+</text></title><p><text><SENT sid="10" pm="."><plain>La0.8Sr0.2MnO3 (LSM) and similar perovskite‐type materials are widely investigated for solid oxide fuel cell cathode applications.1 Owing to its low ionic conductivity, LSM is often considered to be a three‐phase boundary active material,1c and the bulk path, that is, oxygen reduction with ion transport through LSM, is relevant only in thin films.2 However, the oxygen reduction reaction at the surface of LSM and oxygen diffusion in LSM can be varied by an applied cathodic bias.2a, 3 The bias dependence of oxygen diffusion is due to stoichiometry changes in LSM upon polarization caused by a modified chemical potential of oxygen. </plain></SENT>
+<SENT sid="11" pm="."><plain>Higher oxygen vacancy concentrations result and can improve the electrochemical performance of LSM electrodes. </plain></SENT>
+<SENT sid="12" pm="."><plain>Therefore, the bulk path of oxygen reduction may be highly important not only in thin films but also in polarized porous LSM cathodes.4 Simulations of the relevance of the bulk path in polarized LSM electrodes are presented in Ref. 4b. </plain></SENT>
+<SENT sid="13" pm="."><plain>An applied cathodic bias further affects the oxygen incorporation rate at the surface, though details of these changes and of the oxygen incorporation mechanism in LSM are not yet well understood. </plain></SENT>
+<SENT sid="14" pm="."><plain>Additional experiments on LSM electrodes under operating conditions are therefore needed to obtain a clear picture of the kinetics of oxygen reduction occurring through the bulk path. </plain></SENT>
+<SENT sid="15" pm="."><plain>Thin films are particularly useful in this respect, due to the enhanced relevance of the bulk path, their simple geometry, and the accessibility of the surface to surface analytical tools. </plain></SENT>
+</text></p><p><text><SENT sid="16" pm="."><plain>18O tracer diffusion and subsequent secondary ion mass spectrometry (SIMS) analysis is a powerful technique that allows oxygen exchange and oxygen ion diffusion to be probed and/or to visualize the active oxygen reduction sites.5 In previous studies, bias‐induced 18O incorporation experiments on LSM were successfully employed to qualitatively show the relevance of the bulk path for oxygen reduction.5b, 5c Recent contributions on thermal oxygen tracer incorporation into LSM thin films revealed further details on the mechanism of oxygen surface exchange and diffusion.5f, 6 It was shown that the grain boundaries play a major role and have diffusivities and surface exchange coefficients that are orders of magnitude higher than those of the grain bulk. </plain></SENT>
+<SENT sid="17" pm="."><plain>Quantitative information on how oxygen incorporation and diffusion in LSM thin films is affected by a cathodic bias is still missing. </plain></SENT>
+</text></p><p><text><SENT sid="18" pm="."><plain>The goal of this work is to reveal the effect of a cathodic bias on oxygen incorporation and diffusion in LSM thin films by tracer experiments and subsequent depth profiling. </plain></SENT>
+<SENT sid="19" pm="."><plain>To show the role of the thin film microstructure, layers with different grain widths were investigated. </plain></SENT>
+<SENT sid="20" pm="."><plain>Bias‐driven isotope incorporation was performed on LSM microelectrodes with an applied cathodic bias of −300/−450 mV in the temperature range of 500 to 700 °C. </plain></SENT>
+<SENT sid="21" pm="."><plain>The isotope depth profiles were measured by SIMS, and additional finite element modeling (FEM) revealed the high relevance of fast grain boundary transport but also the relevance of defect concentration gradients for oxygen reduction on LSM thin films under cathodic bias. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS"><sec id="celc201500167-sec-0002"><label>2</label><title><text><SENT sid="22" pm="."><plain> Results </plain></SENT>
+</text></title><p><text><SENT sid="23" pm="."><plain>Two sets of LSM samples were prepared at different deposition temperatures (600 and 900 °C), which led to different grain widths of the columnar grown films. </plain></SENT>
+<SENT sid="24" pm="."><plain>As shown in Ref. 5f by using atomic force microscopy (AFM) and transmission electron microscopy (TEM), LSM layers deposited at 600 °C have grain diameters of about 30 nm and those deposited at 830 °C consist of grains that are roughly two times larger. </plain></SENT>
+<SENT sid="25" pm="."><plain>Figure 1 a, b displays the surface topography of the LSM layers measured by AFM. </plain></SENT>
+<SENT sid="26" pm="."><plain>The LSM layer deposited at 600 °C (LSM600) shows a surface topography with narrow and well‐defined grain width (≈30 nm, Figure 1 a). </plain></SENT>
+<SENT sid="27" pm="."><plain>However, the LSM layer deposited at 900 °C (LSM900) has coarse surface features and much higher average surface roughness (Figure 1 b). </plain></SENT>
+<SENT sid="28" pm="."><plain>This hindered determination of the exact grain width, but we concluded that this sample had a very different microstructure with grains larger than those found in LSM600. </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="celc201500167-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="29" pm="."><plain>AFM micrographs (1 μm×1 μm) of LSM thin films prepared at a) 600 °C and b) 900 °C showing different microstructures. </plain></SENT>
+<SENT sid="30" pm="."><plain>c) Sketch of a symmetrically heated measurement/gas‐exchange set up that includes a gas‐tight quartz chamber placed in a tube furnace, a contact arm with a contact needle, and a sample holder; a photograph of a contacted microelectrode is shown on the right‐hand side. </plain></SENT>
+<SENT sid="31" pm="."><plain>d) Sketch of LSM microelectrodes on a YSZ substrate with electrical contact. </plain></SENT>
+<SENT sid="32" pm="."><plain>e) The typical current response with an applied bias (−300 mV) obtained at 700 °C on microstructurally different layers (El7 deposited at 900 °C and El9 deposited at 600 °C). </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-3" xlink:href="CELC-2-1487-g001"/></fig><p><text><SENT sid="33" pm="."><plain>Incorporation of the 18O isotope was performed on rectangular LSM microelectrodes with an applied cathodic bias U of −300 or −450 mV. </plain></SENT>
+<SENT sid="34" pm="."><plain>In contrast to anodic voltages of similar magnitude, this cathodic polarization does not lead to visible morphological changes in the electrodes (no partial detachment).2a A microelectrode was electrically contacted in a symmetrically heated isotope exchange chamber (Figure 1 c, d), which helped to avoid inhomogeneous temperature distribution within the microelectrode.5a, 7 Immediately after 18O2 exposure, the contacted microelectrode was polarized and the dc current was monitored during the entire experiment. </plain></SENT>
+<SENT sid="35" pm="."><plain>Each sample had numerous microelectrodes, and thus, unpolarized LSM was also exposed to 18O2, which allowed comparison with the thermal diffusion sample. </plain></SENT>
+<SENT sid="36" pm="."><plain>An overview of all polarized electrodes is given in Table 1 with the deposition temperature (T <z:uniprot sup="inside" fb="8" ids="Q51693">dep</z:uniprot>), tracer exposure temperature (T ex), bias voltage U, cathodic overpotential η, current density found after 10 min of polarization, and tracer fraction at the LSM/yttria‐stabilized zirconia (YSZ) interface. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="celc201500167-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p><text><SENT sid="37" pm="."><plain>The experimental parameters of the LSM microelectrodes. </plain></SENT>
+<SENT sid="38" pm="."><plain>The measured current density after 600 s and the resulting 18O fraction at the LSM/YSZ interface are also given. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="39" pm="."><plain>Electrode </plain></SENT>
+</text></th><th align="char" valign="top" rowspan="1" colspan="1"><text><SENT sid="40" pm="."><plain>T <z:uniprot sup="inside" fb="8" ids="Q51693">dep</z:uniprot> [°C] </plain></SENT>
+</text></th><th align="char" valign="top" rowspan="1" colspan="1"><text><SENT sid="41" pm="."><plain>T ex [°C] </plain></SENT>
+</text></th><th align="char" valign="top" rowspan="1" colspan="1"><text><SENT sid="42" pm="."><plain>Bias/η [mV] </plain></SENT>
+</text></th><th align="char" valign="top" rowspan="1" colspan="1"><text><SENT sid="43" pm="."><plain>I/A [A cm−2] </plain></SENT>
+</text></th><th align="char" valign="top" rowspan="1" colspan="1"><text><SENT sid="44" pm="."><plain>18O fraction in YSZ </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="45" pm="."><plain>El1 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="46" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="47" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="48" pm="."><plain>300/281 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="49" pm="."><plain>9.00×10−4 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="50" pm="."><plain>0.010 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="51" pm="."><plain>El2 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="52" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="53" pm="."><plain>700 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="54" pm="."><plain>300/265 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="55" pm="."><plain>8.33×10−3 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="56" pm="."><plain>0.057 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="57" pm="."><plain>El3 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="58" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="59" pm="."><plain>500 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="60" pm="."><plain>300/291 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="61" pm="."><plain>6.25×10−5 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="62" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="63" pm="."><plain>El4 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="64" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="65" pm="."><plain>500 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="66" pm="."><plain>450/368 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="67" pm="."><plain>6.25×10−4 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="68" pm="."><plain>0.008 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="69" pm="."><plain>El5 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="70" pm="."><plain>900 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="71" pm="."><plain>500 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>450/405 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>1.25×10−4 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>0.005 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>El6 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>900 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain>450/430 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>1.12×10−3 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>0.016 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>El7 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>900 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>300/291 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>5.26×10−4 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>0.005 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>El8 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>900 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>700 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>300/291 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>3.10×10−3 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>0.015 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>El9 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>600 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>300/278 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>1.06×10−3 </plain></SENT>
+</text></td><td align="char" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>0.025 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="celc201500167-tnote-0001"><p><text><SENT sid="99" pm="."><plain>[a] T ex=tracer exposure temperature, T <z:uniprot sup="inside" fb="8" ids="Q51693">dep</z:uniprot>=LSM thin film deposition temperature, η=overpotential. </plain></SENT>
+</text></p></fn></table-wrap-foot><permissions><copyright-holder>WILEY‐VCH Verlag GmbH &amp; Co. KGaA</copyright-holder></permissions></table-wrap></SecTag><p><text><SENT sid="100" pm="."><plain>Table 1 indicates that, as expected, the measured current increases with measurement temperature and cathodic bias. </plain></SENT>
+<SENT sid="101" pm="."><plain>Moreover, it was found that the LSM deposition temperature (T <z:uniprot sup="inside" fb="8" ids="Q51693">dep</z:uniprot>) also plays a significant role for the bias‐driven current. </plain></SENT>
+<SENT sid="102" pm="."><plain>Typical current versus time graphs for an applied cathodic bias (−300 mV) are shown in Figure 1 e for both deposition temperatures. </plain></SENT>
+<SENT sid="103" pm="."><plain>First, LSM electrodes with narrow grains (LSM600) exhibit a much higher current density for the same applied voltage and the same experimental conditions than an electrode with wider grains (LSM900). </plain></SENT>
+<SENT sid="104" pm="."><plain>Thus, the total electrode polarization resistance varies in accordance with the grain size. </plain></SENT>
+<SENT sid="105" pm="."><plain>This can be understood from a previous study on very similar LSM films with thermally driven 18O depth profiles.5f There, it was found that the diffusion in LSM grain boundaries was approximately three orders of magnitude faster than that in LSM grains and also that surface oxygen exchange coefficients were much larger for grain boundaries; the more grain boundaries the higher the effective oxygen exchange rate of the film. </plain></SENT>
+<SENT sid="106" pm="."><plain>Therefore, the current is higher for films with small grains. </plain></SENT>
+</text></p><p><text><SENT sid="107" pm="."><plain>Second, the different grain widths affect the shape of the current decay. </plain></SENT>
+<SENT sid="108" pm="."><plain>Irrespective of the applied bias, the measured current response of all microelectrodes deposited at 600 °C shows an exponential decay function (Figure 1 e, —). </plain></SENT>
+<SENT sid="109" pm="."><plain>The current microelectrodes deposited at 900 °C exhibit additional time‐dependent features (Figure 1 e, —): a fast current decrease is followed by an increase and a plateau. </plain></SENT>
+<SENT sid="110" pm="."><plain>This indicates that at least two processes with different time constants take place, possibly stoichiometry polarization of grains and grain boundaries. </plain></SENT>
+<SENT sid="111" pm="."><plain>A more detailed interpretation is beyond the scope of this paper; here, we only conclude that the microstructure strongly affects the electrochemical properties of LSM films. </plain></SENT>
+</text></p><p><text><SENT sid="112" pm="."><plain>A typical tracer depth profile obtained on LSM electrodes without applied bias consists of two parts: a steep near‐surface decrease in the 18O concentration that is followed by a shallow decay of isotope fraction (Figure 2 a, ○). </plain></SENT>
+<SENT sid="113" pm="."><plain>In accordance with Ref. 5f, this indicates two parallel diffusion processes: The first profile part is dominated by diffusion in the bulk of the LSM grains. </plain></SENT>
+<SENT sid="114" pm="."><plain>The following long tail up to the LSM/YSZ interface is caused by fast grain boundary diffusion and continuous tracer “leakage” into the bulk, compare type B diffusion in Harrison's classification of grain boundary diffusion.8 The concentration at the LSM/YSZ interface is above the natural abundance of 18O, and a very shallow profile is visible in YSZ, which indicates very fast diffusion in YSZ. </plain></SENT>
+<SENT sid="115" pm="."><plain>The tracer ions in YSZ are more relevant for proper data analysis than one might expect from their low level, as their total amount in the 500 μm thick YSZ single crystal can become quite significant. </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="celc201500167-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="116" pm="."><plain>a) 18O tracer depth profiles in columnar LSM films (LSM600) resulting without bias (○) and with applied cathodic bias (−300 mV) (▵, El1). </plain></SENT>
+<SENT sid="117" pm="."><plain>b) Isotope depth profiles measured on microstructurally identical layers (LSM600) but with different applied cathodic bias (El3: −300 mV and El4: −450 mV). </plain></SENT>
+<SENT sid="118" pm="."><plain>c) The tracer measurements on structurally identical layers with the bias (−300 mV) applied at different temperatures (El3: 500 °C, El1: 600 °C, and El2: 700 °C). </plain></SENT>
+<SENT sid="119" pm="."><plain>d) The effect of the LSM microstructure for the same bias (−300 mV) but different tracer exposure temperatures: 600 and 700 °C (n.a.=natural abundance = 0.00205). </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-5" xlink:href="CELC-2-1487-g002"/></fig><p><text><SENT sid="120" pm="."><plain>The 18O depth profile of a polarized LSM microelectrode is shown in Figure 2 a (▵). </plain></SENT>
+<SENT sid="121" pm="."><plain>After applying a cathodic bias of −300 mV at 600 °C for 10 min to a LSM microelectrode (El1), the 18O fraction in the film is strongly enhanced. </plain></SENT>
+<SENT sid="122" pm="."><plain>In the first few nanometers, the profile shapes look similar for both types of tracer experiments, with −300 mV and without bias (Figure 2 a). </plain></SENT>
+<SENT sid="123" pm="."><plain>However, at a depth of around 5–10 nm, the depth profile shows an apparent bias‐induced uphill diffusion with increasing 18O concentration, which even rises above the surface concentration level. </plain></SENT>
+<SENT sid="124" pm="."><plain>The 18O fraction reaches a maximum at roughly the center of the film and decreases towards the LSM/YSZ interface. </plain></SENT>
+<SENT sid="125" pm="."><plain>The 18O fraction at this interface is significantly increased from 0.28 % for the nonbiased sample to 1 % for the cathodically biased sample. </plain></SENT>
+</text></p><p><text><SENT sid="126" pm="."><plain>To investigate whether the uphill diffusion shape and the high absolute isotope level were indeed caused by an applied cathodic bias, isotope incorporation experiments were performed at a lower temperature (T ex=500 °C) on microstructurally identical LSM layers by applying cathodic biases of −300 and −450 mV. </plain></SENT>
+<SENT sid="127" pm="."><plain>The resulting tracer profiles under different cathodic biases are shown in Figure 2 b. </plain></SENT>
+<SENT sid="128" pm="."><plain>Higher cathodic bias leads to substantially higher tracer fractions in LSM and an increase of the near surface tracer fraction from 7.5 to 14 %. </plain></SENT>
+<SENT sid="129" pm="."><plain>The uphill profile is very pronounced for −450 mV with a maximum at a depth of 85 nm but transforms into a kind of plateau (up to 40 nm depth) for −300 mV. </plain></SENT>
+</text></p><p><text><SENT sid="130" pm="."><plain>The effect of the diffusion temperature is shown in Figure 2 c for LSM electrodes exposed to 18O2 between 500 and 700 °C. </plain></SENT>
+<SENT sid="131" pm="."><plain>The results obtained at higher temperatures indicate a very pronounced “uphill diffusion”. </plain></SENT>
+<SENT sid="132" pm="."><plain>Given that the depth of the peak value shifts towards the surface, from about 80 nm depth at 600 °C to roughly 60 nm depth at 700 °C, the slope of this uphill part is even larger at 700 °C at −300 mV. </plain></SENT>
+<SENT sid="133" pm="."><plain>Furthermore, the first steep tracer decrease, which for thermal oxygen diffusion is attributed to bulk diffusion, is disguised at the higher temperature by the uphill profile. </plain></SENT>
+</text></p><p><text><SENT sid="134" pm="."><plain>The clearest indication of the mechanism behind the unusual diffusion profiles comes from isotope incorporation experiments performed on microstructurally different LSM600 and LSM900 layers with a cathodic bias of −300 mV at temperatures of 600 and 700 °C. </plain></SENT>
+<SENT sid="135" pm="."><plain>Changing from a LSM600 (Figure 2 d, violet symbols) to a LSM900 (Figure 2 d orange symbols) microelectrode with much larger grains leads to a drastic change in the depth profile. </plain></SENT>
+<SENT sid="136" pm="."><plain>At 600 °C, the near surface feature is essentially the same for both LSM microelectrodes. </plain></SENT>
+<SENT sid="137" pm="."><plain>The “uphill diffusion” part with its maximum near the center of the LSM film, however, is much less pronounced for LSM900 than it is for the electrode with the small grains (LSM600). </plain></SENT>
+<SENT sid="138" pm="."><plain>Also, the overall isotope level is much lower in LSM with a lower density of grain boundaries. </plain></SENT>
+<SENT sid="139" pm="."><plain>This strongly suggests a crucial role of grain boundary diffusion. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="DISCUSS"><sec id="celc201500167-sec-0003"><label>3</label><title><text><SENT sid="140" pm="."><plain> Discussion </plain></SENT>
+</text></title><p><text><SENT sid="141" pm="."><plain>To explain the diffusion profiles, particularly their unusual shapes with apparent uphill diffusion, we have to discuss the defect chemical effects occurring after applying a bias voltage. </plain></SENT>
+<SENT sid="142" pm="."><plain>First, we consider the changes in the bulk of a mixed conducting electrode upon polarization. </plain></SENT>
+<SENT sid="143" pm="."><plain>The overpotential η leads to a spatially varying chemical potential of oxygen μ O. </plain></SENT>
+<SENT sid="144" pm="."><plain>The two extreme cases are given by oxygen reduction by a bulk path with rate‐limiting surface kinetics (e.g. found for Sr‐doped LaCoO3−δ electrodes)9 and a bulk path with rate‐limiting ion transport. </plain></SENT>
+<SENT sid="145" pm="."><plain>In the first case, polarization leads to a step in μ O at the surface and a constant μ O in the electrode. </plain></SENT>
+<SENT sid="146" pm="."><plain>In the second case, the situation corresponds to Wagner–Hebb polarization10 with electron blocking at the electrode/YSZ interface. </plain></SENT>
+<SENT sid="147" pm="."><plain>Hence, the chemical potential of oxygen varies within the electrode. </plain></SENT>
+<SENT sid="148" pm="."><plain>From earlier tracer and impedance measurements11 we know that for LSM both surface exchange kinetics and oxygen bulk transport are relevant, and thus, a chemical potential distribution with surface step and bulk decay results (see Figure 3 a). </plain></SENT>
+<SENT sid="149" pm="."><plain>Assuming negligible changes in the electronic majority charge‐carrier concentration and, thus, a rather constant and polarization‐independent chemical potential of electrons (μ e), we get from μ O+μ V+2 μ e=0 (μ V=chemical potential of oxygen vacancies) [Eq. (1)]:(1)∇μ0≈-∇μV </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="celc201500167-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p><text><SENT sid="150" pm="."><plain>a) Sketch of the local oxygen chemical potential μ O in the LSM/YSZ system, with a step function at the surface induced by the surface incorporation resistance and a decay in the LSM film caused by diffusion limitation; this leads to the sketched oxygen vacancy concentration profile. </plain></SENT>
+<SENT sid="151" pm="."><plain>b) Illustration of the processes leading to apparent uphill diffusion in the measured 18O depth profiles: depth‐dependent decrease in the 18O concentration in grain boundaries (blue arrow) and increasing capability for in‐plane 18O transport in grains due to higher oxygen vacancy concentration (red arrow). </plain></SENT>
+<SENT sid="152" pm="."><plain>This leads to the depth‐dependent in‐plane 18O profiles sketched. </plain></SENT>
+<SENT sid="153" pm="."><plain>c) Measured 18O tracer profile in LSM thin film obtained at 600 °C with −300 mV applied bias. </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-7" xlink:href="CELC-2-1487-g003"/></fig><p><text><SENT sid="154" pm="."><plain>For the small oxygen vacancy concentration c V and a bulk concentration without bias (c V 0), we thus find [Eq. (2)]:(2)∇μ0=-RT∇lncVcV0=-RTcV∇cV </plain></SENT>
+</text></p><p><text><SENT sid="155" pm="."><plain>in which R and T denote the gas constant and temperature, respectively. </plain></SENT>
+<SENT sid="156" pm="."><plain>This means that upon bias, the oxygen vacancy concentration in LSM may drastically change. </plain></SENT>
+<SENT sid="157" pm="."><plain>This can be quantified by considering the chemical permeability [Eq. (3)]:(3)σ0=σion·σeonσion+σeon≈σion </plain></SENT>
+</text></p><p><text><SENT sid="158" pm="."><plain>with ionic and electronic conductivities σ ion, σ eon, that determine the vacancy flux density J V by [Eq. (4)]:12 (4)JV=σO∇μO4F2≈-σion4F2·RTcV·∇cV=RT2F·uV·∇cV=-DV·∇cV </plain></SENT>
+</text></p><p><text><SENT sid="159" pm="."><plain>in which D V and u V are the vacancy diffusion coefficient and mobility, respectively, and σ ion=2F⋅c V⋅u V (F=Faraday's constant). </plain></SENT>
+</text></p><p><text><SENT sid="160" pm="."><plain>In the steady state, J V is constant, and a linear vacancy concentration profile with a higher vacancy concentration at the LSM/YSZ interface results (see Figure 3 a). </plain></SENT>
+<SENT sid="161" pm="."><plain>Accordingly, the bulk tracer diffusion coefficient D b also varies in the LSM film, as it is proportional to the oxygen vacancy concentration by [Eq. (5)]:(5)Db=fc·cV·DV </plain></SENT>
+</text></p><p><text><SENT sid="162" pm="."><plain>with correlation factor f c. </plain></SENT>
+</text></p><p><text><SENT sid="163" pm="."><plain>This consideration of bulk defect chemistry upon polarization, together with fast oxide ion diffusion along grain boundaries, already qualitatively explains the observed profile shape. </plain></SENT>
+<SENT sid="164" pm="."><plain>The local depth‐dependent chemical potential modifies the tracer bulk diffusion coefficient in LSM such that diffusion in the LSM grains is relatively slow close to the surface and becomes faster towards the LSM/YSZ interface. </plain></SENT>
+<SENT sid="165" pm="."><plain>This affects the shape of the bulk diffusion profile (which is particularly relevant near the surface) but is even more important for “leakage” of the tracer from the fast grain boundaries into the grain. </plain></SENT>
+<SENT sid="166" pm="."><plain>The in‐plane transport coefficient of a grain strongly increases with depth. </plain></SENT>
+<SENT sid="167" pm="."><plain>This is indicated by red arrows in Figure 3 b. </plain></SENT>
+<SENT sid="168" pm="."><plain>However, the driving force for tracer “leakage” from a fast grain boundary into the grain strongly depends on the tracer fraction in the grain boundary. </plain></SENT>
+<SENT sid="169" pm="."><plain>Near the surface, the 18O concentration in the grain boundaries is highest, and the blue arrows in Figure 3 b indicate that the 18O fraction decreases with depth. </plain></SENT>
+</text></p><p><text><SENT sid="170" pm="."><plain>Qualitatively, the product of the transport coefficient (represented by red in‐plane arrows) and driving force (represented by blue across‐plane arrows) determines the resulting tracer fraction at a certain depth. </plain></SENT>
+<SENT sid="171" pm="."><plain>Near the surface, a smaller fraction is incorporated from the grain boundaries into the grains due to the low bulk diffusion coefficient. </plain></SENT>
+<SENT sid="172" pm="."><plain>The diffusion coefficient in the grains is strongly enhanced at some depths, and thus, more 18O is incorporated from the grain boundary into the grain. </plain></SENT>
+<SENT sid="173" pm="."><plain>The tracer fraction in the grain boundary becomes low near the LSM/YSZ interface, and again, less tracer transfers from the grain boundary to the grain, despite the high bulk diffusion coefficient. </plain></SENT>
+<SENT sid="174" pm="."><plain>This should lead to in‐plane isotope diffusion profiles in grains as sketched in Figure 3 b, and exact shapes are discussed in the finite element modeling part below. </plain></SENT>
+<SENT sid="175" pm="."><plain>Our SIMS measurements cannot resolve the lateral (in‐plane) profiles within a single grain but integrate over many grains. </plain></SENT>
+<SENT sid="176" pm="."><plain>In parallel to this grain boundary diffusion with leakage into the grain, across‐plane bulk diffusion originating at the surface takes place. </plain></SENT>
+<SENT sid="177" pm="."><plain>Close to the surface this adds an additional tracer fraction with a sharp decay due to slow bulk diffusion. </plain></SENT>
+</text></p><p><text><SENT sid="178" pm="."><plain>Accordingly, we can expect exactly the profile shape found in the experiments (Figure 3 c): a sharp drop close to the surface and a maximum oxygen fraction at some depth due to very pronounced tracer “leakage”. </plain></SENT>
+<SENT sid="179" pm="."><plain>The chemical potential variation sketched in Figure 3 a is expected to also vary the vacancy concentration and, thus, the tracer diffusion coefficient in the grain boundary. </plain></SENT>
+<SENT sid="180" pm="."><plain>However, this should only modify the exact tracer concentration profile along the grain boundary, that is, the decay function of the driving force for tracer leakage (blue arrows in Figure 3 b), but does not alter the main considerations. </plain></SENT>
+</text></p><p><text><SENT sid="181" pm="."><plain>On the basis of these assumptions, profiles were also modeled by finite element calculations (COMSOL Multiphysics) for a cylindrically shaped grain. </plain></SENT>
+<SENT sid="182" pm="."><plain>The model includes three domains representing diffusion in a grain (D b), along the grain boundary (D gb), and in the YSZ substrate (D YSZ). </plain></SENT>
+<SENT sid="183" pm="."><plain>Diffusion coefficient values in YSZ (D YSZ) were taken from conductivity measurements. </plain></SENT>
+<SENT sid="184" pm="."><plain>Moreover, two different oxygen surface exchange coefficients for grain (k b) and grain boundary (k gb) were considered in the model. </plain></SENT>
+<SENT sid="185" pm="."><plain>A sketch of the model used for the calculations is shown Figure 4 a. </plain></SENT>
+<SENT sid="186" pm="."><plain>As initial or boundary condition, the natural abundance in the sample was set to 0.00205 (given by the National Institute of Standards and Technology) for t=0 and the 18O fraction during the experiment was set to 97.1 % (as provided by tracer gas supplier). </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="celc201500167-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p><text><SENT sid="187" pm="."><plain>a) Sketch of the cylindrical finite element model that consists of three domains: LSM grain (defined by D b and k b), grain boundary (defined by D gb and k gb), and YSZ substrate (defined by D YSZ). D b varies linearly from the surface to the LSM/YSZ interface, D gb was constant. </plain></SENT>
+<SENT sid="188" pm="."><plain>b) In‐plane tracer fraction profiles in different depths (S0 to S5, indicated in a) calculated for Δ=30. </plain></SENT>
+<SENT sid="189" pm="."><plain>c) The experimental 18O isotope depth profiles of thermal oxygen diffusion at T ex=600 °C (○) and bias‐based transport at −300 mV (○). </plain></SENT>
+<SENT sid="190" pm="."><plain>In the bias case, five solutions of the finite element (FEM) calculations are shown, for which Δ was varied from 0 to 50. </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-9" xlink:href="CELC-2-1487-g004"/></fig><p><text><SENT sid="191" pm="."><plain>First, modeling was performed to describe the measured thermal diffusion profiles; details are described in Ref. 5f. </plain></SENT>
+<SENT sid="192" pm="."><plain>In this case, four individual parameters (D b≠D gb and k gb≠k b, all without any depth dependence) allow successful fit to experimental tracer profiles (Figure 4 c, ○ and green line). </plain></SENT>
+<SENT sid="193" pm="."><plain>To minimize unknown parameters, the mean grain width of such films was set to 30 nm for LSM600, and the width of grain boundaries in LSM was fixed to 2 nm. </plain></SENT>
+<SENT sid="194" pm="."><plain>The fit parameters of a thermal isotope diffusion profile are listed in Table 2 and reveal diffusion (D) and surface exchange coefficients (k) for the grain boundaries (gb) that are about three orders of magnitude higher than those for the grains (b). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="celc201500167-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p><text><SENT sid="195" pm="."><plain>Parameters for nonpolarized and polarized (−300 mV) LSM microelectrodes (El1, T ex=600 °C) used in the finite element calculations that are shown in Figure 4. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>Bias [mV] </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>D gb (z=0) [cm2s−1] </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>k gb [cm s−1] </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>D b (z=0) [cm2s−1] </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>k b [cm s−1] </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>Δ </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>0 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>8.0×10−14 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>1.5×10−8 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>4.0×10−17 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>2.3×10−11 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>– </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>−300 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>2.3×10−12 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>2.0×10−7 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>1.6×10−16 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>8.5×10−11 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>0–50 </plain></SENT>
+</text></td></tr></tbody></table><permissions><copyright-holder>WILEY‐VCH Verlag GmbH &amp; Co. KGaA</copyright-holder></permissions></table-wrap></SecTag><p><text><SENT sid="214" pm="."><plain>Oxygen tracer motion in electrochemically polarized oxides consists of two flux terms; one that describes standard tracer diffusion (i.e. counter diffusion of 18O and 16O ions) and one that represents the unidirectional ionic current flux through the entire sample. </plain></SENT>
+<SENT sid="215" pm="."><plain>A general discussion of this combination of fluxes is given in Ref. 12. </plain></SENT>
+<SENT sid="216" pm="."><plain>There, it is shown that in the steady state with a current density j in the across‐plane (z) direction, Equation (6) has to be solved.(6)∂c18O∂t=divDgradc18O-j2Fctotal∂c18O∂z </plain></SENT>
+</text></p><p><text><SENT sid="217" pm="."><plain>The symbols c 18O and c total denote the 18O tracer and total oxide ion concentrations, respectively. </plain></SENT>
+<SENT sid="218" pm="."><plain>In our case, we have to consider a spatially varying tracer diffusion coefficient D and different current densities in grain boundaries and grains. </plain></SENT>
+<SENT sid="219" pm="."><plain>In Ref. 12 it is also discussed that the relevance of the second flux term in Equation (6) (proportional to j) scales with the 18O tracer traction and is small relative to the diffusional term for 18O fractions below 10 %. </plain></SENT>
+</text></p><p><text><SENT sid="220" pm="."><plain>It is beyond the scope of this paper to analyze our measurement data quantitatively, and thus, we restrict our modeling to the first (standard diffusion) term in Equation (6) even though tracer fractions in the 30 % range are found. </plain></SENT>
+<SENT sid="221" pm="."><plain>Accordingly, for voltage‐driven tracer depth profiles the performed FEM calculations are similar to those without a current. </plain></SENT>
+<SENT sid="222" pm="."><plain>Only spatial variation of the diffusion coefficient due to stoichiometry polarization is introduced. </plain></SENT>
+<SENT sid="223" pm="."><plain>In accordance with Equation (4) and J V=constant (steady state), the bulk grain tracer diffusion coefficient varies linearly according to [Eq. (7)]:(7)<z:uniprot sup="inside" fb="0" ids="Q8BG89">Dbz</z:uniprot>=<z:uniprot sup="inside" fb="0" ids="Q8BG89">Dbz</z:uniprot>=0·1+Δzh </plain></SENT>
+</text></p><p><text><SENT sid="224" pm="."><plain>in which h denotes the LSM film thickness (in this case −180 nm) and Δ represents the enhancement factor of the grain diffusion coefficient relative to the value at the surface [D b(z=0)]. </plain></SENT>
+<SENT sid="225" pm="."><plain>Only voltage‐induced variation of the bulk diffusion coefficient D b was assumed for simplicity; the (larger) grain boundary diffusion coefficient D gb was still assumed to be depth independent in these calculations. </plain></SENT>
+<SENT sid="226" pm="."><plain>The simulation was performed in a steplike process. </plain></SENT>
+<SENT sid="227" pm="."><plain>The calculated profile was first adjusted to the steep near‐surface region of the exemplary measured data (LSM600, T ex=600 °C, −300 mV) by changing D b and k b. </plain></SENT>
+<SENT sid="228" pm="."><plain>Accordingly, this part of the profile was again attributed to slow oxygen incorporation into the grain and slow oxygen diffusion. </plain></SENT>
+<SENT sid="229" pm="."><plain>The values of D gb and k gb were then chosen to reach the measured 18O concentration level at the LSM/YSZ interface. </plain></SENT>
+<SENT sid="230" pm="."><plain>At a depth of about 10 nm, at which the measured uphill diffusion starts, the grain boundary contribution becomes visible in the profile. </plain></SENT>
+<SENT sid="231" pm="."><plain>This feature was finally adjusted by modifying the enhancement factor Δ as depicted in Figure 4 c. </plain></SENT>
+</text></p><p><text><SENT sid="232" pm="."><plain>In this manner, profiles with apparent uphill diffusion can easily be reproduced, and the calculations confirm our qualitative interpretation. </plain></SENT>
+<SENT sid="233" pm="."><plain>The in‐plane isotope profiles obtained for Δ=30 are shown in Figure 4 b. </plain></SENT>
+<SENT sid="234" pm="."><plain>Near the grain surface, a low value of D b limits the diffusion from the grain boundary to the grain; therefore, “small” integrals of the isotope fraction are found for cross sections S0 and S1. </plain></SENT>
+<SENT sid="235" pm="."><plain>At some depth, D b becomes larger and more oxygen diffuses from the grain boundary into the grain (highest integrated amounts for S2 and S3). </plain></SENT>
+<SENT sid="236" pm="."><plain>Approaching the interface, a high value of D b is found but already much less isotope is available in the grain boundary (S4 and S5). </plain></SENT>
+<SENT sid="237" pm="."><plain>Thus, in‐plane profiles become rather flat and include less tracer ions. </plain></SENT>
+</text></p><p><text><SENT sid="238" pm="."><plain>However, within the framework of the given model the exact shape and absolute height of the measured curve cannot be fitted accurately. </plain></SENT>
+<SENT sid="239" pm="."><plain>Also, additional consideration of the depth dependence of D gb is not sufficient for an accurate fit, as the second term in Equation (6) is neglected. </plain></SENT>
+<SENT sid="240" pm="."><plain>Moreover, the current versus time measurements (Figure 1 e) already indicated that steady state is not established for a significant part of the overall diffusion time. </plain></SENT>
+<SENT sid="241" pm="."><plain>This is an unavoidable consequence of the gas exchange process (see the Experimental Section). </plain></SENT>
+<SENT sid="242" pm="."><plain>Hence, additional time dependencies and parameter modifications come into play: 1) Establishing the steady‐state profile of μ O takes some time (given by chemical diffusion and chemical surface exchange coefficients). </plain></SENT>
+<SENT sid="243" pm="."><plain>During this period, all parameters, that is, k b, k gb, D b(z), and D gb(z), are time dependent. </plain></SENT>
+<SENT sid="244" pm="."><plain>2) This time dependence most probably includes different timescales, as chemical diffusion is also expected to be faster along grain boundaries, and thus, stoichiometry polarization of the grains takes place not only from the surface (in the z direction) but also from the grain boundaries with temporal in‐plane vacancy concentration variation. </plain></SENT>
+</text></p><p><text><SENT sid="245" pm="."><plain>Implementing all these additional aspects into the model would be required to finally quantify the measured profiles and to deduce information on the exact bias dependence of the k values and the contribution of Δ. </plain></SENT>
+<SENT sid="246" pm="."><plain>The latter also indicates how much of the driving force η is reflected by a surface step of μ O and by ∇μO in the grain. </plain></SENT>
+<SENT sid="247" pm="."><plain>This detailed analysis is beyond the scope of this paper and requires further experimentation. </plain></SENT>
+<SENT sid="248" pm="."><plain>However, we may still discuss the parameters found for the very qualitative “fit procedure” done so far (Table 2). </plain></SENT>
+<SENT sid="249" pm="."><plain>All parameters are enhanced upon bias voltage, that is, the k factors of the bulk and grain boundaries are substantially larger and also the D(z=0) value in the grain is higher than that for thermal diffusion. </plain></SENT>
+<SENT sid="250" pm="."><plain>Hence, a certain step of μ O at the surface is present, which indicates combined surface/transport rate limitation. </plain></SENT>
+<SENT sid="251" pm="."><plain>According to the preliminary fit, concentration enhancement factors of several tens are most realistic for −300 mV. </plain></SENT>
+<SENT sid="252" pm="."><plain>This would also be in agreement with the upper limit of the Δ value (Δ max) realized for a μ O curve without surface step, that is [Eq. (8)]:(8)η=RT2F·lnΔ </plain></SENT>
+</text></p><p><text><SENT sid="253" pm="."><plain>and thus Δmax=e2Fη2FηRTRT=2901 for −300 mV at 600 °C. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec id="celc201500167-sec-0004"><label>4</label><title><text><SENT sid="254" pm="."><plain> Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="255" pm="."><plain>Defect chemical processes and ion transport in polarized LSM microelectrodes were investigated by means of voltage‐driven 18O tracer gas incorporation and subsequent SIMS analysis. </plain></SENT>
+<SENT sid="256" pm="."><plain>The measured dc current was enhanced upon reducing the LSM grain size and thereby upon increasing the contribution of grain boundaries to oxygen reduction. </plain></SENT>
+<SENT sid="257" pm="."><plain>Oxygen isotope depth profiles of voltage‐driven 18O incorporation were characterized by very uncommon uphill‐like diffusion with a 18O tracer maximum in the center of the LSM film. </plain></SENT>
+<SENT sid="258" pm="."><plain>This effect was caused by the interplay of fast oxide ion diffusion along grain boundaries and stoichiometry polarization of LSM upon application of a voltage, which led to a vacancy concentration gradient in the LSM grains. </plain></SENT>
+<SENT sid="259" pm="."><plain>This was particularly pronounced for LSM films with small grains. </plain></SENT>
+<SENT sid="260" pm="."><plain>Numerical finite element simulations confirmed that oxygen transport in two parallel paths, that is, by grains and grain boundaries, can lead to apparent uphill diffusion profiles. </plain></SENT>
+<SENT sid="261" pm="."><plain>Preliminary quantitative analysis indicates that surface incorporation kinetics and diffusion both contribute to the rate limitation in polarized LSM microelectrodes and that both are accelerated by an applied cathodic bias in grains as well as in grain boundaries. </plain></SENT>
+</text></p></sec></SecTag><sec id="celc201500167-sec-0005"><title><text><SENT sid="262" pm="."><plain>Experimental Section </plain></SENT>
+</text></title><sec id="celc201500167-sec-0006"><title><text><SENT sid="263" pm="."><plain>LSM Thin Film Deposition </plain></SENT>
+</text></title><p><text><SENT sid="264" pm="."><plain>Columnar LSM thin films were prepared by pulsed laser deposition (PLD). </plain></SENT>
+<SENT sid="265" pm="."><plain>The PLD target was made from La0.8Sr0.2MnO3 powder (Sigma–Aldrich, USA), which was isostatically pressed and sintered for 12 h at 1200 °C in air. </plain></SENT>
+<SENT sid="266" pm="."><plain>Thin LSM films were deposited on polished YSZ (100) single crystals (9.5 mol % Y2O3, CrysTec GmbH, Germany) by using a KrF excimer laser (λ=248 nm, COMPex Pro 101 F, Lambda Physics, Germany). </plain></SENT>
+<SENT sid="267" pm="."><plain>Laser beam energy was set to 400 mJ per pulse at 10 Hz pulse frequency. </plain></SENT>
+<SENT sid="268" pm="."><plain>The deposition was performed under an O2 atmosphere (4 Pa) and with a target–substrate distance of 6 cm. </plain></SENT>
+<SENT sid="269" pm="."><plain>To vary the microstructure of the LSM layer, two deposition temperatures (T <z:uniprot sup="inside" fb="8" ids="Q51693">dep</z:uniprot>) of 600 °C (LSM600) and 900 °C (LSM900) were used, which was monitored by a pyrometer (Heitronics KT‐19.99, Germany). </plain></SENT>
+<SENT sid="270" pm="."><plain>The film thickness was controlled by a known deposition rate. </plain></SENT>
+<SENT sid="271" pm="."><plain>Squared 490×490 μm2 or 390×390 μm2 LSM microelectrodes were prepared from these films by UV photolithography and chemical etching in concentrated hydrochloric acid. </plain></SENT>
+<SENT sid="272" pm="."><plain>A platinum counter electrode was brushed on the back side of the YSZ substrate. </plain></SENT>
+<SENT sid="273" pm="."><plain>The grain widths and surface topography of the LSM thin films was checked by atomic force microscopy (AFM, Nanoscope V, Bruker Nano). </plain></SENT>
+<SENT sid="274" pm="."><plain>Samples with microelectrodes were divided into smaller pieces, which thus allowed several samples with the same LSM film thickness and microstructure to be investigated. </plain></SENT>
+</text></p></sec><sec id="celc201500167-sec-0007"><title><text><SENT sid="275" pm="."><plain>Oxygen Tracer Incorporation upon Cathodic Polarization and Profile Analysis </plain></SENT>
+</text></title><p><text><SENT sid="276" pm="."><plain>A LSM microelectrode was contacted by a Pt/Ir tip (see Figure 1), and the quartz tube with the sample was moved into a tube furnace.7 After thermally equilibrating this gas‐exchange set up in air at temperatures (T ex) of 500, 600, and 700 °C, the system was evacuated to a pressure of roughly 1 Pa. </plain></SENT>
+<SENT sid="277" pm="."><plain>An 18O2 tracer gas atmosphere (200 hPa, 97.1 %, Campro Scientific, Germany) was then filled into the sample chamber and immediately a cathodic bias of −300 or −450 mV was applied to the contacted LSM microelectrode by means of a POT/GAL 30V 2A test interface together with an Alpha‐A High Resolution Dielectric Analyzer (both Novocontrol, Germany) in a dc mode (software WINCHEM and WINDETA Novocontrol, Germany). </plain></SENT>
+<SENT sid="278" pm="."><plain>The dc current was monitored during the entire experiment. </plain></SENT>
+<SENT sid="279" pm="."><plain>Given that each sample had numerous microelectrodes, unpolarized LSM was also exposed to 18O2, which allowed comparison with thermal diffusion. </plain></SENT>
+<SENT sid="280" pm="."><plain>The 18O fraction in the gas‐exchange chamber was checked by a mass spectrometer (Pfeiffer GSD320 with QMG 220, Germany) and was in agreement with the 18O fraction given by the supplier. </plain></SENT>
+<SENT sid="281" pm="."><plain>The cathodic overpotential η of the microelectrodes was determined by subtracting the voltage drop in the electrolyte from the applied bias voltage U. </plain></SENT>
+<SENT sid="282" pm="."><plain>The electrolyte resistance was measured by impedance spectroscopy; the much smaller overpotential of the large counter electrode was neglected. </plain></SENT>
+<SENT sid="283" pm="."><plain>All bias voltages and overpotential values are summarized in Table 1; in the text and figures, only the total bias U is indicated. </plain></SENT>
+<SENT sid="284" pm="."><plain>Isotope incorporation experiments lasted 10 min, and afterwards, the quartz tube was moved out of the tube furnace and the sample was quenched under an 18O2 atmosphere (cooling rate: 100 °C min−1). </plain></SENT>
+</text></p><p><text><SENT sid="285" pm="."><plain>A pre‐annealing step of the thin films prior to the isotope experiments would be beneficial to chemically equilibrate LSM and thus to avoid chemical diffusion.5e, 13 Also, establishment of a current steady state prior to tracer exposure would be helpful if a bias voltage is applied. </plain></SENT>
+<SENT sid="286" pm="."><plain>However, in our experiments neither pre‐equilibration nor steady state was possible, as the gas switch from ambient air to oxygen isotope gas required evacuation of the exchange chamber. </plain></SENT>
+<SENT sid="287" pm="."><plain>This step annihilates any chemical pre‐equilibration or steady state. </plain></SENT>
+<SENT sid="288" pm="."><plain>Gas exchange at room temperature was also not an alternative due to the very short tracer exposure times needed for thin films and the finite heat‐up time. </plain></SENT>
+<SENT sid="289" pm="."><plain>Hence, a contribution of chemical diffusion to the tracer experiment could not be avoided. </plain></SENT>
+</text></p><p><text><SENT sid="290" pm="."><plain>The resulting 18O depth profiles were subsequently investigated by time‐of‐flight secondary ion mass spectrometry (ToF‐SIMS 5, ION‐TOF GmbH, Germany). </plain></SENT>
+<SENT sid="291" pm="."><plain>Measurements were done in the collimated burst alignment (CBA) mode with Bi3 ++ primary ions (25 keV). </plain></SENT>
+<SENT sid="292" pm="."><plain>This mode allowed accurate determination of 18O fractions over a broad intensity range.14 Negative secondary ions were analyzed in an area of 45×45 μm2. </plain></SENT>
+<SENT sid="293" pm="."><plain>For the sputtering of material, 2 keV Cs+ ions were applied with a sputter crater of 350×350 μm2 and sputtering ion current of 120 nA. </plain></SENT>
+<SENT sid="294" pm="."><plain>Surface charging was compensated with an electron flood gun. </plain></SENT>
+<SENT sid="295" pm="."><plain>The tracer fraction f(18O) was obtained by normalizing integrated intensities I of 18O and 16O in the mass spectra according to Equation (9):(9)f18O=I18OI16O+18O </plain></SENT>
+</text></p><p><text><SENT sid="296" pm="."><plain>The sputtering rate of LSM thin films was determined from the depth of a sputtered crater that was measured by digital holographic microscopy (DHM, Lyncee Tec, Switzerland). </plain></SENT>
+<SENT sid="297" pm="."><plain>The isotope depth profile measurements were performed on biased and on nonbiased microelectrodes, which thus allowed thermally and bias‐driven oxygen tracer diffusion to be probed. </plain></SENT>
+</text></p></sec></sec></body><back><SecTag type="ACK_FUND"><ack id="celc201500167-sec-0008"><title>Acknowledgements</title><p><text4fund><text><SENT sid="298" pm="."><plain>The authors gratefully acknowledge the Austrian Science Fund (FWF) (projects: F4509‐N16 and W1243‐N16) for financial support. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="celc201500167-bib-0001"><text><SENT sid="299" pm="."><plain>1  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-001a"><text><SENT sid="300" pm="."><plain>1a  S. </plain></SENT>
+<SENT sid="301" pm="."><plain>M. Haile , Acta <z:uniprot sup="inside" fb="48" ids="Q9R1M5">Mater</z:uniprot>. 2003, 51, 5981–6000; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-001b"><text><SENT sid="302" pm="."><plain>1b  Y. Li ,  R. Gemmen ,  X. Liu , J. </plain></SENT>
+<SENT sid="303" pm="."><plain>Power Sources 2010, 195, 3345–3358; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-001c"><text><SENT sid="304" pm="."><plain>1c  S. </plain></SENT>
+<SENT sid="305" pm="."><plain>B. Adler , Chem. </plain></SENT>
+<SENT sid="306" pm="."><plain>Rev. 2004, 104, 4791–4844.15669169 </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0002"><text><SENT sid="307" pm="."><plain>2  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002a"><text><SENT sid="308" pm="."><plain>2a  V. Brichzin ,  J. Fleig ,  H. </plain></SENT>
+<SENT sid="309" pm="."><plain>U. Habermeier ,  G. Cristiani ,  J. Maier , Solid State Ionics 2002, 152–153, 499–507; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002b"><text><SENT sid="310" pm="."><plain>2b  T. </plain></SENT>
+<SENT sid="311" pm="."><plain>M. Huber ,  M. Kubicek ,  A. </plain></SENT>
+<SENT sid="312" pm="."><plain>K. Opitz ,  J. Fleig , J. </plain></SENT>
+<SENT sid="313" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="314" pm="."><plain>Soc. 2015, 162, F229–F242; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002c"><text><SENT sid="315" pm="."><plain>2c  R. Radhakrishnan ,  A. </plain></SENT>
+<SENT sid="316" pm="."><plain>V. Virkar ,  S. </plain></SENT>
+<SENT sid="317" pm="."><plain>C. Singhal , J. </plain></SENT>
+<SENT sid="318" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="319" pm="."><plain>Soc. 2005, 152, A210–A218; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002d"><text><SENT sid="320" pm="."><plain>2d  G. </plain></SENT>
+<SENT sid="321" pm="."><plain>J. la O’ ,  B. Yildiz ,  S. McEuen ,  Y. Shao-Horn , J. </plain></SENT>
+<SENT sid="322" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="323" pm="."><plain>Soc. 2007, 154, B427–B438; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002e"><text><SENT sid="324" pm="."><plain>2e  L. Yan ,  K. </plain></SENT>
+<SENT sid="325" pm="."><plain>R. Balasubramaniam ,  S. Wang ,  H. Du ,  P. </plain></SENT>
+<SENT sid="326" pm="."><plain>A. Salvador , Solid State Ionics 2011, 194, 9–16; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002f"><text><SENT sid="327" pm="."><plain>2f  V. Brichzin ,  J. Fleig ,  H. </plain></SENT>
+<SENT sid="328" pm="."><plain>U. Habermeier ,  J. Maier , Electrochem. </plain></SENT>
+<SENT sid="329" pm="."><plain>Solid-State Lett. 2000, 3, 403–406; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002g"><text><SENT sid="330" pm="."><plain>2g  A. Endo ,  M. Ihara ,  H. Komiyama ,  K. Yamada , Solid State Ionics 1996, 86–88, 1191–1195; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-002h"><text><SENT sid="331" pm="."><plain>2h  T. Ioroi ,  T. Hara ,  Y. Uchimoto ,  Z. Ogumi ,  Z. i. Takehara , J. </plain></SENT>
+<SENT sid="332" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="333" pm="."><plain>Soc. 1997, 144, 1362–1370. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0003"><text><SENT sid="334" pm="."><plain>3  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-003a"><text><SENT sid="335" pm="."><plain>3a  X. </plain></SENT>
+<SENT sid="336" pm="."><plain>J. Chen ,  S. </plain></SENT>
+<SENT sid="337" pm="."><plain>H. Chan ,  K. </plain></SENT>
+<SENT sid="338" pm="."><plain>A. Khor , Electrochem. </plain></SENT>
+<SENT sid="339" pm="."><plain>Solid-State Lett. 2004, 7, A144–A147; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-003b"><text><SENT sid="340" pm="."><plain>3b  Y. Jiang ,  S. Wang ,  Y. Zhang ,  J. Yan ,  W. Li , J. </plain></SENT>
+<SENT sid="341" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="342" pm="."><plain>Soc. 1998, 145, 373–378; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-003c"><text><SENT sid="343" pm="."><plain>3c  B. Kenney ,  K. Karan , J. </plain></SENT>
+<SENT sid="344" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="345" pm="."><plain>Soc. 2010, 157, B1126–B1137. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0004"><text><SENT sid="346" pm="."><plain>4  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-004a"><text><SENT sid="347" pm="."><plain>4a  E. Siebert ,  A. Hammouche ,  M. Kleitz , Electrochim. </plain></SENT>
+<SENT sid="348" pm="."><plain>Acta 1995, 40, 1741–1753; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-004b"><text><SENT sid="349" pm="."><plain>4b  M. </plain></SENT>
+<SENT sid="350" pm="."><plain>E. Lynch ,  D. Ding ,  W. </plain></SENT>
+<SENT sid="351" pm="."><plain>M. Harris ,  J. </plain></SENT>
+<SENT sid="352" pm="."><plain>J. Lombardo ,  G. </plain></SENT>
+<SENT sid="353" pm="."><plain>J. Nelson ,  W. </plain></SENT>
+<SENT sid="354" pm="."><plain>K. </plain></SENT>
+<SENT sid="355" pm="."><plain>S. Chiu ,  M. Liu , Nano Energy 2013, 2, 105–115; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-004c"><text><SENT sid="356" pm="."><plain>4c  M. Gong ,  R. </plain></SENT>
+<SENT sid="357" pm="."><plain>S. Gemmen ,  D. </plain></SENT>
+<SENT sid="358" pm="."><plain>S. Mebane ,  K. Gerdes ,  X. Liu , J. </plain></SENT>
+<SENT sid="359" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="360" pm="."><plain>Soc. 2014, 161, F344–F353. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0005"><text><SENT sid="361" pm="."><plain>5  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005a"><text><SENT sid="362" pm="."><plain>5a  A. </plain></SENT>
+<SENT sid="363" pm="."><plain>K. Opitz ,  M. Kubicek ,  S. Huber ,  T. Huber ,  G. Holzlechner ,  H. Hutter ,  J. Fleig , J. </plain></SENT>
+<SENT sid="364" pm="."><plain><z:uniprot sup="inside" fb="48" ids="Q9R1M5">Mater</z:uniprot>. </plain></SENT>
+<SENT sid="365" pm="."><plain>Res. 2013, 28, 2085–2105; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005b"><text><SENT sid="366" pm="."><plain>5b  T. Horita ,  K. Yamaji ,  M. Ishikawa ,  N. Sakai ,  H. Yokokawa ,  T. Kawada ,  T. Kato , J. </plain></SENT>
+<SENT sid="367" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="368" pm="."><plain>Soc. 1998, 145, 3196–3202; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005c"><text><SENT sid="369" pm="."><plain>5c  T. Horita ,  T. Shimonosono ,  H. Kishimoto ,  K. Yamaji ,  M. </plain></SENT>
+<SENT sid="370" pm="."><plain>E. Brito ,  H. Yokokawa , Solid State Ionics 2012, 225, 141–145; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005d"><text><SENT sid="371" pm="."><plain>5d  A. </plain></SENT>
+<SENT sid="372" pm="."><plain>V. Berenov ,  A. Atkinson ,  J. </plain></SENT>
+<SENT sid="373" pm="."><plain>A. Kilner ,  E. Bucher ,  W. Sitte , Solid State Ionics 2010, 181, 819–826; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005e"><text><SENT sid="374" pm="."><plain>5e  R. </plain></SENT>
+<SENT sid="375" pm="."><plain>A. De Souza ,  J. </plain></SENT>
+<SENT sid="376" pm="."><plain>A. Kilner , Solid State Ionics 1998, 106, 175–187; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005f"><text><SENT sid="377" pm="."><plain>5f  E. Navickas ,  T. </plain></SENT>
+<SENT sid="378" pm="."><plain>M. Huber ,  Y. Chen ,  W. Hetaba ,  G. Holzlechner ,  G. Rupp ,  M. Stoger-Pollach ,  G. Friedbacher ,  H. Hutter ,  B. Yildiz ,  J. Fleig , Phys. </plain></SENT>
+<SENT sid="379" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="380" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="381" pm="."><plain>Phys. 2015, 17, 7659–7669;25594681 </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005g"><text><SENT sid="382" pm="."><plain>5g  I. Yasuda ,  K. Ogasawara ,  M. Hishinuma ,  T. Kawada ,  M. Dokiya , Solid State Ionics 1996, 86–88, 1197–1201; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005h"><text><SENT sid="383" pm="."><plain>5h  S. Carter ,  A. Selcuk ,  R. </plain></SENT>
+<SENT sid="384" pm="."><plain>J. Chater ,  J. Kajda ,  J. </plain></SENT>
+<SENT sid="385" pm="."><plain>A. Kilner ,  B. </plain></SENT>
+<SENT sid="386" pm="."><plain>C. </plain></SENT>
+<SENT sid="387" pm="."><plain>H. Steele , Solid State Ionics 1992, 53–56, 597–605; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-005i"><text><SENT sid="388" pm="."><plain>5i  R. </plain></SENT>
+<SENT sid="389" pm="."><plain>A. De Souza ,  J. </plain></SENT>
+<SENT sid="390" pm="."><plain>A. Kilner ,  F. </plain></SENT>
+<SENT sid="391" pm="."><plain>A. Walker , <z:uniprot sup="inside" fb="48" ids="Q9R1M5">Mater</z:uniprot>. </plain></SENT>
+<SENT sid="392" pm="."><plain>Lett. 2000, 43, 43–52. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0006"><text><SENT sid="393" pm="."><plain>6A. M. </plain></SENT>
+<SENT sid="394" pm="."><plain>Saranya, D. </plain></SENT>
+<SENT sid="395" pm="."><plain>Pla, A. </plain></SENT>
+<SENT sid="396" pm="."><plain>Morata, A. </plain></SENT>
+<SENT sid="397" pm="."><plain>Cavallaro, J. </plain></SENT>
+<SENT sid="398" pm="."><plain>Canales-Vázquez, J. A. </plain></SENT>
+<SENT sid="399" pm="."><plain>Kilner, M. </plain></SENT>
+<SENT sid="400" pm="."><plain>Burriel, A. </plain></SENT>
+<SENT sid="401" pm="."><plain>Tarancón, Adv. </plain></SENT>
+<SENT sid="402" pm="."><plain>Energy <z:uniprot sup="inside" fb="48" ids="Q9R1M5">Mater</z:uniprot>, 2015, DOI: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/aenm.201500377">10.1002/aenm.201500377</ext-link>. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0007"><text><SENT sid="403" pm="."><plain>7  T. </plain></SENT>
+<SENT sid="404" pm="."><plain>M. Huber ,  A. </plain></SENT>
+<SENT sid="405" pm="."><plain>K. Opitz ,  M. Kubicek ,  H. Hutter ,  J. Fleig , Solid State Ionics 2014, 268, 82–93. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0008"><text><SENT sid="406" pm="."><plain>8  L. </plain></SENT>
+<SENT sid="407" pm="."><plain>G. Harrison , Trans. </plain></SENT>
+<SENT sid="408" pm="."><plain>Faraday Soc. 1961, 57, 1191–1199. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0009"><text><SENT sid="409" pm="."><plain>9  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-009a"><text><SENT sid="410" pm="."><plain>9a  Y. </plain></SENT>
+<SENT sid="411" pm="."><plain>L. Yang ,  C. </plain></SENT>
+<SENT sid="412" pm="."><plain>L. Chen ,  S. </plain></SENT>
+<SENT sid="413" pm="."><plain>Y. Chen ,  C. </plain></SENT>
+<SENT sid="414" pm="."><plain>W. Chu ,  A. </plain></SENT>
+<SENT sid="415" pm="."><plain>J. Jacobson , J. </plain></SENT>
+<SENT sid="416" pm="."><plain>Electrochem. </plain></SENT>
+<SENT sid="417" pm="."><plain>Soc. 2000, 147, 4001–4007; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-009b"><text><SENT sid="418" pm="."><plain>9b  M. Sase ,  D. Ueno ,  K. Yashiro ,  A. Kaimai ,  T. Kawada ,  J. Mizusaki , J. </plain></SENT>
+<SENT sid="419" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="420" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="421" pm="."><plain>Solids 2005, 66, 343–348; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-009c"><text><SENT sid="422" pm="."><plain>9c  M. Kubicek ,  T. </plain></SENT>
+<SENT sid="423" pm="."><plain>M. Huber ,  A. Welzl ,  A. Penn ,  G. </plain></SENT>
+<SENT sid="424" pm="."><plain>M. Rupp ,  J. Bernardi ,  M. Stö<z:uniprot sup="inside" fb="49" ids="Q55C77">ger</z:uniprot>-Pollach ,  H. Hutter ,  J. Fleig , Solid State Ionics 2014, 256, 38–44; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-009d"><text><SENT sid="425" pm="."><plain>9d  A. Ringuedé ,  J. Fouletier , Solid State Ionics 2001, 139, 167–177. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0010"><text><SENT sid="426" pm="."><plain>10  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-010a"><text><SENT sid="427" pm="."><plain>10a  M. </plain></SENT>
+<SENT sid="428" pm="."><plain>H. Hebb , J. </plain></SENT>
+<SENT sid="429" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="430" pm="."><plain>Phys. 1952, 20, 185–190; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-010b"><text><SENT sid="431" pm="."><plain>10b  C. Wagner , Proceedings of the 7th Meeting of the International Committee on Electrochemical Thermodynamics and Kinetics, Lindau, 1955, Butterworth, London, 1957, p. 361. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0011"><text><SENT sid="432" pm="."><plain>11  J. Fleig ,  H. </plain></SENT>
+<SENT sid="433" pm="."><plain>R. Kim ,  J. Jamnik ,  J. Maier , Fuel Cells 2008, 8, 330–337. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0012"><text><SENT sid="434" pm="."><plain>12  J. Fleig , Phys. </plain></SENT>
+<SENT sid="435" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="436" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="437" pm="."><plain>Phys. 2009, 11, 3144–3151.19370209 </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0013"><text><SENT sid="438" pm="."><plain>13  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-013a"><text><SENT sid="439" pm="."><plain>13a  T. Kawada ,  T. Horita ,  N. Sakai ,  H. Yokokawa ,  M. Dokiya ,  J. Mizusaki , Solid State Ionics 2000, 131, 199–210; </plain></SENT>
+</text></ref><ref id="celc201500167-bib-013b"><text><SENT sid="440" pm="."><plain>13b  N. Sakai ,  K. Yamaji ,  T. Horita ,  H. Kishimoto ,  M. </plain></SENT>
+<SENT sid="441" pm="."><plain>E. Brito ,  H. Yokokawa ,  Y. Uchimoto , <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="442" pm="."><plain>Surf. </plain></SENT>
+<SENT sid="443" pm="."><plain>Sci. 2006, 252, 7045–7047. </plain></SENT>
+</text></ref><ref id="celc201500167-bib-0014"><text><SENT sid="444" pm="."><plain>14  </plain></SENT>
+</text></ref><ref id="celc201500167-bib-014a"><text><SENT sid="445" pm="."><plain>14a  M. Kubicek ,  G. Holzlechner ,  A. </plain></SENT>
+<SENT sid="446" pm="."><plain>K. Opitz ,  S. Larisegger ,  H. Hutter ,  J. Fleig , <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="447" pm="."><plain>Surf. </plain></SENT>
+<SENT sid="448" pm="."><plain>Sci. 2014, 289, 407–416;24748701 </plain></SENT>
+</text></ref><ref id="celc201500167-bib-014b"><text><SENT sid="449" pm="."><plain>14b  G. Holzlechner ,  M. Kubicek ,  H. Hutter ,  J. Fleig , J. </plain></SENT>
+<SENT sid="450" pm="."><plain>Anal. </plain></SENT>
+<SENT sid="451" pm="."><plain>At. </plain></SENT>
+<SENT sid="452" pm="."><plain>Spectrom. 2013, 28, 1080–1089. </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,756 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3867463</article-id><article-id pub-id-type="pmid">24367608</article-id><article-id pub-id-type="publisher-id">PONE-D-13-42450</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0083700</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Gender Differences in Cooperation: Experimental Evidence on High School Students </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Evidence on Gender Differences in Cooperation</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Molina</surname><given-names>J. Alberto</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Giménez-Nadal</surname><given-names>J. Ignacio</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cuesta</surname><given-names>José A.</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gracia-Lazaro</surname><given-names>Carlos</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Moreno</surname><given-names>Yamir</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sanchez</surname><given-names>Angel</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Departamento de Análisis Económico, Universidad de Zaragoza, Zaragoza, Spain</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Institute for the Study of Labor-IZA, Bonn, Germany</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Instituto de Biocomputación y Física de Sistemas Complejos, Universidad de Zaragoza, Zaragoza, Spain</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<addr-line>Grupo Interdisciplinar de Sistemas Complejos, Departamento de Matemáticas, Universidad Carlos III de Madrid, Leganés, Spain</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<addr-line>Complex Networks and Systems Lagrange Laboratory, Institute for Scientific Interchange, Torino, Italy</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Perc</surname><given-names>Matjaž</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>University of Maribor, Slovenia</addr-line>
+</aff><author-notes><corresp id="cor1">* E-mail: <email>ngimenez@unizar.es</email></corresp><fn fn-type="COI-statement"><p><text><SENT sid="1" pm="."><plain>Competing Interests: Angel Sánchez and Yamir Moreno are PLOS ONE Editorial Board members. </plain></SENT>
+<SENT sid="2" pm="."><plain>This does not alter the authors' adherence to all the PLOS ONE policies on sharing data and materials. </plain></SENT>
+</text></p></fn><fn fn-type="con"><p><text><SENT sid="3" pm="."><plain>Conceived and designed the experiments: JAC CGL YM AS. </plain></SENT>
+<SENT sid="4" pm="."><plain>Performed the experiments: JAC CGL YM AS. </plain></SENT>
+<SENT sid="5" pm="."><plain>Analyzed the data: JAM JIGN. </plain></SENT>
+<SENT sid="6" pm="."><plain>Contributed reagents/materials/analysis tools: JAM JIGN. </plain></SENT>
+<SENT sid="7" pm="."><plain>Wrote the manuscript: JAM JIGN JAC CGL YM AS. </plain></SENT>
+<SENT sid="8" pm="."><plain>Discussed the analysis results and its implications: JAM JIGN JAC CGL YM AS. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>18</day><month>12</month><year>2013</year></pub-date><volume>8</volume><issue>12</issue><elocation-id>e83700</elocation-id><history><date date-type="received"><day>4</day><month>10</month><year>2013</year></date><date date-type="accepted"><day>6</day><month>11</month><year>2013</year></date></history><permissions><copyright-statement>© 2013 Molina et al</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Molina et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="9" pm="."><plain>The emergence of cooperation among unrelated human subjects is a long-standing conundrum that has been amply studied both theoretically and experimentally. </plain></SENT>
+<SENT sid="10" pm="."><plain>Within the question, a less explored issue relates to the gender dependence of cooperation, which can be traced back to Darwin, who stated that "women are less selfish but men are more competitive". </plain></SENT>
+<SENT sid="11" pm="."><plain>Indeed, gender has been shown to be relevant in several game theoretical paradigms of social cooperativeness, including prisoner's dilemma, snowdrift and ultimatum/dictator games, but there is no consensus as to which gender is more cooperative. </plain></SENT>
+<SENT sid="12" pm="."><plain>We here contribute to this literature by analyzing the role of gender in a repeated Prisoners' Dilemma played by Spanish high-school students in both a square lattice and a heterogeneous network. </plain></SENT>
+<SENT sid="13" pm="."><plain>While the experiment was conducted to shed light on the influence of networks on the emergence of cooperation, we benefit from the availability of a large dataset of more 1200 participants. </plain></SENT>
+<SENT sid="14" pm="."><plain>We applied different standard econometric techniques to this dataset, including Ordinary Least Squares and Linear Probability models including random effects. </plain></SENT>
+<SENT sid="15" pm="."><plain>All our analyses indicate that being male is negatively associated with the level of cooperation, this association being statistically significant at standard levels. </plain></SENT>
+<SENT sid="16" pm="."><plain>We also obtain a gender difference in the level of cooperation when we control for the unobserved heterogeneity of individuals, which indicates that the gender gap in cooperation favoring female students is present after netting out this effect from other socio-demographics factors not controlled for in the experiment, and from gender differences in risk, social and competitive preferences. </plain></SENT>
+</text></SecTag></p></abstract><funding-group><funding-statement>This paper has benefited from the funding from the Spanish Ministry of Education and Science (Projects ECO2012-34828, RESINEE and PRODIEVO). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group></article-meta></front><body><SecTag type="INTRO"><sec sec-type="introduction" id="s1"><title><text><SENT sid="17" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="18" pm="."><plain>The question about whether or not cooperation of individuals varies systematically with the sex of the decision maker has generated considerable debate. </plain></SENT>
+<SENT sid="19" pm="."><plain>If such difference is present, it will probably affect the modeling of economic outcomes such as household bargaining or intergenerational transmissions, among others. </plain></SENT>
+<SENT sid="20" pm="."><plain>In the household bargaining framework [1,2], model the distribution of resources within couples (e.g., income, consumption) as a solution to a cooperative game, usually a Nash bargaining point, in which the threat point is divorce. </plain></SENT>
+<SENT sid="21" pm="."><plain>More recently [3], developed a super-game in which the spouses play a non-cooperative Stackelberg game where the leader first decides the contributions to a certain quantity of provision of family good, and thereby sets restrictions for the follower. </plain></SENT>
+<SENT sid="22" pm="."><plain>If women are more cooperative than men, this would affect the modeling of the bargaining process within couples. In the intergenerational transfers setting, if mothers are more cooperative than fathers, this could help explain why mothers devote more time to childcare activities than their male counterparts [4-14]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Thus, the study of gender differences in cooperative behavior is important at both the theoretical and empirical level. </plain></SENT>
+</text></p><p><text><SENT sid="24" pm="."><plain>Under this framework, we provide empirical evidence on gender differences in cooperation between individuals by developing a repeated prisoner’s dilemma experiment. </plain></SENT>
+<SENT sid="25" pm="."><plain>Prior research on the prisoner’s dilemma, social dilemmas, and public goods provision has found mixed results from a gender perspective. </plain></SENT>
+<SENT sid="26" pm="."><plain>Psychological studies analyzing gender differences in the prisoner’s dilemma setting showed that men cooperate significantly more than women [15-17] on the contrary, other studies showed that women are more cooperative than men [18,19], while others found no significant differences in cooperation [20,21]. </plain></SENT>
+<SENT sid="27" pm="."><plain>From an evolutionary biology perspective [22], found that women are more cooperative than men in Prisoner’s Dilemma games, but not in the Snowdrift’s game. </plain></SENT>
+<SENT sid="28" pm="."><plain>In the field of economic experiments, evidence has been in favor of a gender gap in cooperation favoring women [23]. showed that women are significantly more cooperative than men in prisoner’s dilemma games [24], found the same gender difference in the first round of the game, the difference subsequently disappearing over time. </plain></SENT>
+<SENT sid="29" pm="."><plain>Thus, previous evidence about gender differences in cooperation is mixed, although it seems that evidence in the field of economics points toward women being more cooperative than men from a social dilemma perspective. </plain></SENT>
+</text></p><p><text><SENT sid="30" pm="."><plain>We contribute to the literature by analyzing gender differences in cooperation, specifically for high school students, by developing an experiment with 1,229 volunteers from final-year high-school students (17-18 years old) of 42 high schools located in the Region of Aragón. </plain></SENT>
+<SENT sid="31" pm="."><plain>The experiment includes 2 phases of a multiplayer prisoner’s dilemma, where in the first phase players’ partners are the same for all the 51 rounds while in the second phase of the experiment players’ partners change in all the 59 rounds. </plain></SENT>
+<SENT sid="32" pm="."><plain>The fact that we have a large sample of individuals with several observations per individual allows us to disentangle the effect of gender from the effect of other factors that may bias the results, such as that of the unobserved heterogeneity of individuals. </plain></SENT>
+<SENT sid="33" pm="."><plain>Standard econometric techniques used in the field of economics (i.e., Ordinary Least Squares and Random Effects models) are applied to analyze gender differences in the level of cooperation among high school students. </plain></SENT>
+</text></p><p><text><SENT sid="34" pm="."><plain>We find that, in all our specifications and phases of the experiment, being male is negatively associated with the level of cooperation, with this association being statistically significant at standard levels. </plain></SENT>
+<SENT sid="35" pm="."><plain>In particular, male students have a probability between 4 and 8 percentage points lower of cooperating compared to male students. </plain></SENT>
+<SENT sid="36" pm="."><plain>We also obtain a gender difference in the level of cooperation when we control for the unobserved heterogeneity of individuals, which indicates that the gender gap in cooperation favoring female students is present after netting out this effect from other socio-demographics factors not controlled for in the experiment, and from gender differences in risk, social and competitive preferences (see 25 for a review). </plain></SENT>
+<SENT sid="37" pm="."><plain>Thus, our results point toward a gender difference in the level of cooperation that may be attributed to a genetic factor. </plain></SENT>
+<SENT sid="38" pm="."><plain>The fact that we obtain similar results when we use alternative subsamples and econometric techniques indicates that our results are good enough to draw valid conclusions. </plain></SENT>
+</text></p><p><text><SENT sid="39" pm="."><plain>The rest of the paper is organized as follows. </plain></SENT>
+<SENT sid="40" pm="."><plain>Section 2 presents the experiment. </plain></SENT>
+<SENT sid="41" pm="."><plain>Section 3 describes the empirical strategy. </plain></SENT>
+<SENT sid="42" pm="."><plain>Section 4 presents our main results, and Section 5 sets out our main conclusions. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods" id="s2"><title><text><SENT sid="43" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="s2.1"><title><text><SENT sid="44" pm="."><plain>Ethics statement </plain></SENT>
+</text></title><p><text><SENT sid="45" pm="."><plain>All participants in the experiments reported in this manuscript signed an informed consent to participate. </plain></SENT>
+<SENT sid="46" pm="."><plain>Besides, their anonymity was always preserved (in agreement with the Spanish Law for Personal Data Protection) by assigning them randomly a username which would identify them in the system. </plain></SENT>
+<SENT sid="47" pm="."><plain>No association was ever made between their real names and the results. </plain></SENT>
+<SENT sid="48" pm="."><plain>As it is standard in socio-economic experiments, no ethic concerns are involved other than preserving the anonymity of participants. </plain></SENT>
+<SENT sid="49" pm="."><plain>This procedure was checked and approved by the Viceprovost of Research of Universidad de Zaragoza, the institution hosting the experiment. </plain></SENT>
+</text></p></sec><sec id="s2.2"><title><text><SENT sid="50" pm="."><plain>The experiment: Prisoner's Dilemma </plain></SENT>
+</text></title><p><text><SENT sid="51" pm="."><plain>The experiment was carried out with 1,229 volunteers selected from final-year high-school students (17-18 years old) of 42 different High Schools located in the Region of Aragón (Spain). </plain></SENT>
+<SENT sid="52" pm="."><plain>In order to satisfy ethical procedures, all personal data about the participants were anonymized and treated as confidential. </plain></SENT>
+<SENT sid="53" pm="."><plain>The Ethical Committee of the University of Zaragoza approved all procedures. </plain></SENT>
+<SENT sid="54" pm="."><plain>34 High Schools were selected in the province of Zaragoza, 5 in the province of Huesca, and 3 in the province of Teruel. </plain></SENT>
+<SENT sid="55" pm="."><plain>For the recruitment of the students, the coordinators of “Ciencia Viva” ("Living Science"), a program of the regional government that supports the dissemination of Science among public high schools in Aragón, were contacted. </plain></SENT>
+<SENT sid="56" pm="."><plain>Many of the private schools of Zaragoza City were also contacted, offering them the possibility of taking part in the experiment. </plain></SENT>
+<SENT sid="57" pm="."><plain>In all cases, the program was referred to as "a social experiment" and no-one (including the high-school teachers in charge of the coordination) knew in advance what the experiment was about. </plain></SENT>
+<SENT sid="58" pm="."><plain>The final sample of volunteers comprises 541 males and 688 females representing 44.02% and 55.98% of the total number of players, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="59" pm="."><plain>Out of the 1,229 students, 625 played the game as nodes on a square lattice (274 males and 351 females, maintaining the male-female ratio), and 604 on a heterogeneous network. </plain></SENT>
+<SENT sid="60" pm="."><plain>In both topologies, players played a prisoner’s dilemma with all their neighbors, restricted to choosing the same action for every opponent (see below). </plain></SENT>
+<SENT sid="61" pm="."><plain>In the first topology, every player had k=4 neighbors, while in the second network the connectivity varied between 2 and 16. </plain></SENT>
+<SENT sid="62" pm="."><plain>In the first phase of the experiment, the network was static, i.e., every player interacted with same partners throughout the duration of that part. </plain></SENT>
+<SENT sid="63" pm="."><plain>In a subsequent phase, neighbors were randomly assigned in each round, taking care in the heterogeneous case of keeping the number of partners of every player constant. </plain></SENT>
+<SENT sid="64" pm="."><plain>All the students played via a web interface, specifically created for the experiment, accessible through the computers available in the computer rooms of their respective schools. </plain></SENT>
+<SENT sid="65" pm="."><plain>At least one teacher supervised the experiment in each computer room (which at most had a maximum capacity of 20 students), preventing any interaction among the students. </plain></SENT>
+<SENT sid="66" pm="."><plain>To further guarantee that potential interactions among students seated next to each other in the class do not influence the results of the experiment, the assignment of players to the different topologies was completely random. </plain></SENT>
+<SENT sid="67" pm="."><plain>Hence, the odds of having two participants geographically close (i.e., of the same school and seated next to each other) who were also neighbors in the virtual topology was quite small. </plain></SENT>
+<SENT sid="68" pm="."><plain>Additionally, the colors used to code the two available actions of the game were also randomly selected for each player, thus decreasing the likelihood that neighbors would influence each other. </plain></SENT>
+</text></p><p><text><SENT sid="69" pm="."><plain>All participants went through a tutorial on the screen, including questions to check their understanding of the game. </plain></SENT>
+<SENT sid="70" pm="."><plain>When every-one had gone through the tutorial, the experiment began, lasting for approximately an hour. </plain></SENT>
+<SENT sid="71" pm="."><plain>At the end of the experiments volunteers were presented a small questionnaire to fill in. </plain></SENT>
+<SENT sid="72" pm="."><plain>Immediately after, all participants received their earnings and their attendance fee, with total earnings ranging from 2.49 to 40.48 €. </plain></SENT>
+<SENT sid="73" pm="."><plain>The experiment started on December 20, 2011 at 10:00 CET. </plain></SENT>
+<SENT sid="74" pm="."><plain>The steps followed during the development of the experiment were (see tutorial for players in “S1. </plain></SENT>
+<SENT sid="75" pm="."><plain>The Experiment” in Material S1 for a full description of the tutorial for players; see Figures S1, S2 and S3 in Material S1 for snapshots of the web interface): </plain></SENT>
+</text></p><list list-type="order"><list-item><p><text><SENT sid="76" pm="."><plain>Administrators opened the registration process. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="77" pm="."><plain>Players (students) registered from their computers. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="78" pm="."><plain>Once all students had registered, teachers informed the administrators via their screen. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="79" pm="."><plain>As soon as the required number of participants had registered (this took around 20 minutes), administrators blocked further registrations and initiated the reading of the tutorial. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="80" pm="."><plain>Students and teachers read the tutorial. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="81" pm="."><plain>Teachers informed (also via their screens) administrators that the reading was completed. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="82" pm="."><plain>Phase 1 of the experiment began, which lasted 59 rounds. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="83" pm="."><plain>Students played according to some predefined times (a maximum of 20 seconds per round to choose an action). </plain></SENT>
+<SENT sid="84" pm="."><plain>During these steps, teachers controlled for any potential problem using a chat channel that connected them to the administrators. </plain></SENT>
+<SENT sid="85" pm="."><plain>If one student did not play within the 20 seconds allowed for each action, our software played automatically for her (see below). </plain></SENT>
+<SENT sid="86" pm="."><plain>The administrators were able to identify who was not playing, and to contact the teachers if the situation persisted. </plain></SENT>
+<SENT sid="87" pm="."><plain>However, the experiment went smoothly and no feedback to the teachers for mis-behavior was needed. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="88" pm="."><plain>Phase 1 of the experiment ended and a brief tutorial on the second phase was shown. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="89" pm="."><plain>Once teachers and students had read the tutorial, the administrators were notified. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="90" pm="."><plain>Administrators began phase 2 of the experiment, which lasted 51 rounds. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="91" pm="."><plain>Students played as in the previous phase. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="92" pm="."><plain>Once phase 2 of the experiment ended, players were given a short questionnaire to fill in. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="93" pm="."><plain>All participants collected their earnings and were given their show-up fee. </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="94" pm="."><plain>The experiment ended at 12:30 CET. </plain></SENT>
+<SENT sid="95" pm="."><plain>The experiment did not have a fixed number of rounds for each phase, which explains why the 2 phases have a different number of rounds. </plain></SENT>
+<SENT sid="96" pm="."><plain>We implemented a repeated Prisoner’s Dilemma where the game ended at any point between rounds 40 and 60 with equal probability. </plain></SENT>
+</text></p></sec><sec id="s2.3"><title><text><SENT sid="97" pm="."><plain>The Game: The Repeated Prisoner’s Dilemma </plain></SENT>
+</text></title><p><text><SENT sid="98" pm="."><plain>In each round, each participant is placed in a node of a virtual network, where participant “i” was linked to “j” (j=2, 3,..., 16) people (whom we shall refer to as neighbors), and where the actual number of neighbors was shown to each participant. </plain></SENT>
+<SENT sid="99" pm="."><plain>Participant “i’s” neighbors were connected to other people, not necessarily the same ones as participant “i”. </plain></SENT>
+<SENT sid="100" pm="."><plain>Participants did not know who their neighbors were. </plain></SENT>
+</text></p><p><text><SENT sid="101" pm="."><plain>About the decision to be made in each round, each of the participants had to choose a color: GREEN or BROWN (each participant sees the actual colors chosen for them, for clarity, we henceforth refer to green and brown). </plain></SENT>
+<SENT sid="102" pm="."><plain>To choose a color, participants simply had to click a button appearing on the screen. </plain></SENT>
+<SENT sid="103" pm="."><plain>Each time the participants chose a color, they earned an amount of money that depended on their own and their “j” neighbors’ choices. </plain></SENT>
+<SENT sid="104" pm="."><plain>The earnings of each round were given in a monetary unit called ECU. </plain></SENT>
+<SENT sid="105" pm="."><plain>When the experiment ended, an exchange rate from ECUs to Euros was established as a function of the earnings of the participants and the budget available for the experiment (10 500 €). </plain></SENT>
+<SENT sid="106" pm="."><plain>If participant “i” chose GREEN and her neighbor also chose GREEN, each participant received 7 ECUs. </plain></SENT>
+<SENT sid="107" pm="."><plain>If participant “i” chose GREEN and her neighbor chose BROWN, participant “i” received 0 ECUs, and her neighbor received 10 ECUs. </plain></SENT>
+<SENT sid="108" pm="."><plain>If participant “i” chose BROWN and her neighbor also chose BROWN, each received 0 ECUs. </plain></SENT>
+<SENT sid="109" pm="."><plain>If participant “i” chose BROWN and her neighbor chose GREEN, participant “i” received 10 ECUs and her neighbor received 0 ECUs. </plain></SENT>
+<SENT sid="110" pm="."><plain>These rules were the same for all participants. </plain></SENT>
+<SENT sid="111" pm="."><plain>See Figure 1 for a representation of the game and earnings. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0083700-g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0083700.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="112" pm="."><plain>Earning structure of the Game. </plain></SENT>
+</text></title><p><text><SENT sid="113" pm="."><plain>[Note: units are ECUs that were later converted to €.]. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0083700.g001"/></fig></SecTag><p><text><SENT sid="114" pm="."><plain>According to the structure of the game, participant “i” and each of her neighbors will globally earn more if both choose GREEN (7 ECUs participant “i”/7 ECUs her neighbors). </plain></SENT>
+<SENT sid="115" pm="."><plain>However, participant “i” will earn more if he/she chooses BROWN and her neighbor chooses GREEN (10 ECUs participant “i”/0 ECUs her neighbor), while if both choose BROWN, participant “i” and her neighbor will each earn less (0 ECUs participant “i”/0 ECUs her neighbor) than if they both chose GREEN. </plain></SENT>
+<SENT sid="116" pm="."><plain>The earnings of each pair of strategies follow the structure of a Prisoner’s Dilemma game that represents a situation in which two individuals may defect (e.g., BROWN), even if it appears that it is in their best interests to cooperate (e.g. GREEN): pursuing individual reward logically leads both players to defect, but they would get a better reward if they both cooperated. </plain></SENT>
+</text></p></sec><sec id="s2.4"><title><text><SENT sid="117" pm="."><plain>Empirical Evidence </plain></SENT>
+</text></title><p><text><SENT sid="118" pm="."><plain>Table 1 shows means and standard deviations for our variable of interest (cooperation or defection) and several demographic and game characteristics. </plain></SENT>
+<SENT sid="119" pm="."><plain>We have pooled all the rounds, networks and phases together to obtain average values of our variables of interest. </plain></SENT>
+<SENT sid="120" pm="."><plain>Given that we use information on the previous round in our estimations and thus we will exclude the first round of the game, we show summary statistics excluding information from the first round of each experiment and control phase. </plain></SENT>
+<SENT sid="121" pm="."><plain>We observe that the variable Average cooperation has a mean value of 0.341, indicating that individuals chose to cooperate in 34% of the rounds. </plain></SENT>
+<SENT sid="122" pm="."><plain>Previous literature in experimental economics using prisoner’s dilemma situations have found “anomalous” cooperative behavior with 40% to 60% contribution rates in spite that defection in every game is the unique dominant-strategy Nash Equilibrium [26,27], which can be explained by the “sequential equilibrium reputation hypothesis” [28]. </plain></SENT>
+<SENT sid="123" pm="."><plain>According to this hypothesis, reputation effects due to informational asymmetries can generate cooperative behavior in repeated versions of the classic prisoner’s dilemma as players may believe that there is a small chance that their opponent may be altruistic. </plain></SENT>
+<SENT sid="124" pm="."><plain>Then it could be in each player's best interest to pretend, at least for some time, to be an altruistic player in order to build a reputation for cooperation, until the game eventually unravels to mutual defection. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0083700-t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0083700.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="125" pm="."><plain>Sum stats for personal and game characteristics. </plain></SENT>
+</text></title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>(1) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>(2) </plain></SENT>
+</text></th></tr><tr><th rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>Variables </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>Mean </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>Standard deviation </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>RoundCharacteristics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>Cooperation </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>0.341 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>(0.474) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>Earnings </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>10.536 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>(9.621) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>Number of neighbors </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>3.574 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>(1.504) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>Payoff in previous round </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>10.647 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>(9.671) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>Mean payoff of neighbors in previous round </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>12.745 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>(7.712) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>DemographicCharacteristics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>Male </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>0.440 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>(0.496) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>Number of siblings </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>1.117 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>(0.869) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>Following Humanities </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>0.265 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>(0.441) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>Attending to a private school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>0.071 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>(0.256) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>Attending to a Semi-private school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>0.277 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>(0.448) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>Attending to an urban school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>0.746 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>(0.435) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>N Observations </plain></SENT>
+</text></td><td colspan="2" rowspan="1"><text><SENT sid="167" pm="."><plain>131,503 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn><p><text><SENT sid="168" pm="."><plain>Note: Sample consists of final-year high school students from Aragon (Spain). Cooperation is a dummy variable that takes value 1 if individual “i” in network “j” at round “t” decided to cooperate, and takes value 0 if he/she decided to defect. Earnings measures the payoff received by the reference player in each round. Payoff in previous round measures the payoff received by the reference player in the previous round. Mean payoff of neighbors in previous round measures the average payoff received by the neighbors’ player in the previous round. </plain></SENT>
+<SENT sid="169" pm="."><plain>The demographic characteristics includes gender (1= male, 0=female), number of neighbors, number of siblings, the field of the bachelor (1=humanities, 0=science), attending to a private or semi-private school, and attending to an urban school. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="170" pm="."><plain>Figure 2 shows the mean cooperation level of the sample over the rounds of the experiment, and their confidence intervals, in the 2 phases of the experiment. </plain></SENT>
+<SENT sid="171" pm="."><plain>We analyze the 2 phases of the experiment separately because we expect to find differences in the level of cooperation between the 2 phases. </plain></SENT>
+<SENT sid="172" pm="."><plain>The reason is that in phase 1 that was played first, reputation effects may be stronger compared to phase 2 where information on the decisions of neighbors in the previous round are shown for the previous and not the current neighbors. </plain></SENT>
+<SENT sid="173" pm="."><plain>We observe that there is a decreasing trend in the level of cooperation in the phase 1 of the experiment, as the cooperation levels decrease from 50% in the first round to 32% in the last round of phase 1. </plain></SENT>
+<SENT sid="174" pm="."><plain>In particular, the spearman’s rank correlation coefficient between our variable of interest and the number of rounds is -0.10, and it is statistically significant at P &lt; 0.001 on a two-tailed test. </plain></SENT>
+<SENT sid="175" pm="."><plain>This is consistent with the idea that reputation effects is important during the first phase of the experiment, where players decide without any previous knowledge of the underlying mechanisms of the game, while in the second phase of the experiment reputation effects disappeared as neighbors are different in each round. </plain></SENT>
+<SENT sid="176" pm="."><plain>All this evidence is in favor of the sequential equilibrium reputation hypothesis, consistent with previous studies [28,29]. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0083700-g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0083700.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="177" pm="."><plain>Mean cooperation, by round. </plain></SENT>
+</text></title><p><text><SENT sid="178" pm="."><plain>[Notes: cooperation is defined as the mean value of a dummy variable that takes value “1” if the individual cooperates in the round of reference, and takes value “0· for defection. “Experiment” was played in the first phase of the experiment; “Control” was played in the second phase of the experiment. </plain></SENT>
+<SENT sid="179" pm="."><plain>Round number goes from 1 to 58.]. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0083700.g002"/></fig></SecTag><p><text><SENT sid="180" pm="."><plain>Additionally, we analyze to what extent the design of the experiment affected the behavior of players. </plain></SENT>
+<SENT sid="181" pm="."><plain>The experiment was carried out in two phases, where in the first phase players were randomly assigned to play in a heterogeneous or lattice square network with all players having the same neighbors during this phase. </plain></SENT>
+<SENT sid="182" pm="."><plain>For instance, for an individual playing in a heterogeneous network, this individual had the same number of neighbors, and neighbors were always the same (e.g., same identities) during all the rounds of this phase of the experiment (e.g., static network). </plain></SENT>
+<SENT sid="183" pm="."><plain>Later, in the second phase of the experiment, the same individuals played in the same type of network (e.g., heterogeneous or square lattice) but now neighbors were different in each round (e.g., dynamic network). </plain></SENT>
+<SENT sid="184" pm="."><plain>If we find substantial differences in the level of cooperation between the two phases, such differences may be attributed to differences in the behavior of individuals due to the type of network (e.g., static versus dynamic), given that the same individuals were assigned to the same network (e.g., heterogeneous or square lattice) in the two phases. </plain></SENT>
+<SENT sid="185" pm="."><plain>We do not consider differences in the behavior of individuals between the heterogeneous and the square lattice network, as previous evidence has found no evidence of behavior depending of the type of network [30,31]. </plain></SENT>
+<SENT sid="186" pm="."><plain>Such differences may be due to the fact that individuals may have learned how to play during the first phase, approaching the Nash-Equilibrium solution in the second phase. </plain></SENT>
+</text></p><p><text><SENT sid="187" pm="."><plain>Comparing the level of cooperation between the two phases, the mean cooperation level in phase 1 is 0.386 with a standard deviation of 0.487 (n=62679), while the mean cooperation level in the control phase is 0.307 with a standard deviation of 0.461 (n=71282). </plain></SENT>
+<SENT sid="188" pm="."><plain>A t-type test of means of the variable for the two subsamples indicates that the difference is statistically significant at the 99% level (p&lt;0.0001), and thus a raw comparison of the data indicates that the cooperation level is slightly lower in the second phase compared to the first one. </plain></SENT>
+<SENT sid="189" pm="."><plain>Nevertheless, such a difference in cooperation could be explained by the “reputation hypothesis” and disappears over time as the reputation effect disappears. </plain></SENT>
+<SENT sid="190" pm="."><plain>Thus, we next analyze how differences in the level of cooperation by phase evolved during the experiment. Figure 2 shows the mean level of cooperation over the experiment, by phase, and the confidence intervals of the mean level of cooperation. </plain></SENT>
+<SENT sid="191" pm="."><plain>We first observe that the overall cooperation in phase 1 is larger than the overall cooperation in phase 2 in all the rounds of the experiment. </plain></SENT>
+<SENT sid="192" pm="."><plain>However, looking at the confidence intervals for each phase, the negative confidence interval for the observations of phase 1 (x̄1−1.96SE1) does not overlap with the positive confidence interval for observations of phase 2 (x̄2−1.96SE2) in the first 20 rounds, but afterwards level of cooperation is similar in the two phases of the experiment (x̄1and SE 1 measures the average cooperation and the standard error in cooperation in each round of phase 1 of the experiment. x̄2and <z:uniprot sup="inside" fb="0" ids="O65403">SE 2</z:uniprot> measures the average cooperation and the standard error in cooperation in each round of phase 2 the experiment). </plain></SENT>
+<SENT sid="193" pm="."><plain>Thus, we find evidence that the gap in cooperation decreases over time, reaching similar levels of cooperation later in the game. </plain></SENT>
+<SENT sid="194" pm="."><plain>This may indicate that the reputation hypothesis played a role in shaping individuals’ behavior in the first phase of the experiment, disappearing at later stages. </plain></SENT>
+<SENT sid="195" pm="."><plain>Also, this evidence suggests that the two phases of the experiment must be analyzed separately. </plain></SENT>
+</text></p><p><text><SENT sid="196" pm="."><plain>Considering the overall earnings obtained by students, in each round the mean earning is 10.536, and the mean number of neighbors is 3.574. </plain></SENT>
+<SENT sid="197" pm="."><plain>We also consider the earnings obtained in previous rounds for both participants and the participant’s neighbors. </plain></SENT>
+<SENT sid="198" pm="."><plain>Since this information is shown to players in each round, we use this information as a proxy to study the effect of previous actions on the behavior of individuals. </plain></SENT>
+<SENT sid="199" pm="."><plain>In particular, we compute the earnings obtained by the participant in the previous round, and the overall earnings obtained by the participant’s neighbors in the previous round. </plain></SENT>
+</text></p><p><text><SENT sid="200" pm="."><plain>For the payoffs obtained by respondent’s neighbors in the previous round, here we must take into account that while the number of neighbors is fixed in the square lattice network (e.g., four), it varies between 2 and 16 in the heterogeneous network, and thus we need to summarize neighbors’ earnings in a single variable to avoid losing observations. </plain></SENT>
+<SENT sid="201" pm="."><plain>Consider students who have 16 neighbors, compared to students who have less than 16 neighbors. </plain></SENT>
+<SENT sid="202" pm="."><plain>If we want to introduce variables for the earnings of each neighbor, we will need 16 variables for students who have 16 neighbors. </plain></SENT>
+<SENT sid="203" pm="."><plain>For students who have less than 16 neighbors, some of these 16 variables would contain no values, and thus these students would be dropped out from estimations as they would include missing values in the neighbors’ variables. </plain></SENT>
+<SENT sid="204" pm="."><plain>We cannot compute the information of the previous round in round 1, as it is the beginning of each phase and there is no previous round, so we will exclude round 1 of each phase during the empirical analysis. </plain></SENT>
+<SENT sid="205" pm="."><plain>In particular, for neighbors’ earnings in the previous round we have done the sum of the variable of earnings for all the neighbors in the previous round (e.g., what current neighbor played in the previous round) and then divided the sum by the number of neighbors, which yields an average value of the neighbors’ earnings in the previous round. Table 1 shows the average values of the earnings obtained by participants and the mean earnings of neighbors in previous rounds, and we observe that overall earnings obtained in the previous round and mean overall earnings of neighbors are 10.65 and 12.75 ECUs. </plain></SENT>
+</text></p><p><text><SENT sid="206" pm="."><plain>Considering the raw gender difference in cooperation, the average cooperation level of female players during the experiment is 0.375 with an standard deviation of 0.484 (n=74992), while the average cooperation level for male players is 0.304 with an standard deviation of 0.460, and a t-type test of means of the variable for the 2 subsamples indicates that the difference is statistically significant at the 99% level (p&lt;0.0001). </plain></SENT>
+<SENT sid="207" pm="."><plain>Thus, a raw comparison of the data indicates that female students have a higher probability of cooperation compared to male students in the experiment. </plain></SENT>
+<SENT sid="208" pm="."><plain>However, previous evidence has shown that gender differences in cooperation are present during the first rounds of a repeated experiment, but that gender differences disappear over time [24]. </plain></SENT>
+<SENT sid="209" pm="."><plain>Thus, we next analyze how differences in the level of cooperation by gender evolved during the experiment. Figure 3 shows the mean level of cooperation over the experiment, by gender, and the confidence intervals of the mean level of cooperation. </plain></SENT>
+<SENT sid="210" pm="."><plain>We first observe that the overall cooperation for female players is larger than the overall cooperation for male players in all the rounds of the experiment. </plain></SENT>
+<SENT sid="211" pm="."><plain>Additionally, looking at the confidence intervals for each gender, in most cases the negative confidence interval for female players (x̄f−1.96SEf) does not overlap with the positive confidence interval for male players (x̄m−1.96SEm), indicating that there is a statistically significant gender gap in cooperation throughout the different rounds of the experiment (x̄<z:uniprot sup="inside" fb="159" ids="A1Z9G2">fand</z:uniprot> SE f measures the average cooperation and the standard error in cooperation for female students in each round of the experiment. x̄mand SE m measures the average cooperation and the standard error in cooperation for male students in each round of the experiment). </plain></SENT>
+<SENT sid="212" pm="."><plain>Thus, we find evidence that the gender gap in cooperation favoring female students does not disappear over time. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0083700-g003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0083700.g003</object-id><label>Figure 3</label><caption><title><text><SENT sid="213" pm="."><plain>Mean cooperation, by round and gender. </plain></SENT>
+</text></title><p><text><SENT sid="214" pm="."><plain>[Notes: cooperation is defined as the mean value of a dummy variable that takes value “1” if the individual cooperates in the round of reference, and takes value “0· for defection. </plain></SENT>
+<SENT sid="215" pm="."><plain>Round number goes from 1 to 58. </plain></SENT>
+<SENT sid="216" pm="."><plain>Confidence intervals (CI) are defined at the 95% level. </plain></SENT>
+<SENT sid="217" pm="."><plain>Red lines show the CI for men, and blue lines show the CI for women.]. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0083700.g003"/></fig></SecTag></sec></sec></SecTag><sec id="s3"><title><text><SENT sid="218" pm="."><plain>Empirical Strategy </plain></SENT>
+</text></title><p><text><SENT sid="219" pm="."><plain>As a first specification, we estimate Ordinary Least Squares (OLS) regressions on the decision to cooperate or to defect. </plain></SENT>
+<SENT sid="220" pm="."><plain>We estimate the following equation: </plain></SENT>
+</text></p><disp-formula id="eqn1"><mml:math id="m9"><mml:mrow><mml:mrow><mml:msub><mml:mtext>C</mml:mtext><mml:mrow><mml:mtext>ijt</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mtext>=α+βX</mml:mtext></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mtext>+</mml:mtext><mml:mi>δ</mml:mi><mml:msub><mml:mrow><mml:mtext>Game</mml:mtext></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mtext>+ε</mml:mtext></mml:mrow><mml:mrow><mml:mtext>ijt</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math><label>(1)</label></disp-formula><p><text><SENT sid="221" pm="."><plain>where C ijt represents the decision (cooperation/defection) by participant “i” in network “j” at round “t”. </plain></SENT>
+<SENT sid="222" pm="."><plain>The dependent variable is a dummy variable that takes value 1 if individual “i” in network “j” at round “t” decided to cooperate, and takes value 0 if he/she decided to defect. </plain></SENT>
+<SENT sid="223" pm="."><plain>The vector X i includes participant’s “i” demographic characteristics such as gender (1= male, 0=female), number of siblings, the field of the bachelor (1=humanities, 0=science), whether the student attended a private (1=yes, o=no) or semi-private (1=yes, 0=no), and whether the high school is located in an urban area (1=yes, 0=no) or not. Game ijt includes game variables. ε ijt is a random variable (e..g., standard errors) that represents unmeasured factors, capturing all the factors that may affect participant’s decisions and for what we do not have information, and we assume thatεijt~N(0,σ 2). </plain></SENT>
+<SENT sid="224" pm="."><plain>We cluster observations by individual to allow for differences in the standard errors due to arbitrary intra-individual correlation. </plain></SENT>
+</text></p><p><text><SENT sid="225" pm="."><plain>We have estimated Equation (1) using 6 different samples: 1) individuals playing in the heterogeneous network in phase 1, 2) individuals playing in the square lattice network in phase 1, 3) individuals playing in the heterogeneous and the square lattice networks during in phase 1, 4) individuals playing in the heterogeneous network in phase 2, 5) individuals playing in the square lattice network in phase 2, and 6) individuals playing in the heterogeneous and the square lattice networks during the phase The reason to estimate with different samples is to see if results are consistent to sample selection and network selection issues. </plain></SENT>
+<SENT sid="226" pm="."><plain>If we obtain different results in different subsamples, it could be that networks may have effects on the decisions process of individuals, or because individuals selected into the different networks are different. </plain></SENT>
+</text></p><p><text><SENT sid="227" pm="."><plain>Game ijt includes the following variables: the round number (j=1,2...51), the number of neighbors participant “i” is playing with, participant’s earning in the previous round, and the mean earning of neighbors in the previous round. </plain></SENT>
+<SENT sid="228" pm="."><plain>Given that we have an iterative game, and students are shown in each round the earnings and the decision their current neighbors played in the previous round (see Figures S1, S2 and S3 in Material S1 for an example of the screen students are shown during the game), we include these variables to see whether or not participant and neighbors’ decisions in previous rounds affect the behavior of players. </plain></SENT>
+</text></p><p><text><SENT sid="229" pm="."><plain>We also estimate models that take into account the unobserved heterogeneity of individuals, since there may be some unobserved factors at the individual level that may be correlated with the cooperation decision, and thus results based on Equation (1) may be biased. </plain></SENT>
+<SENT sid="230" pm="."><plain>For instance, past personal experiences, mood in the day of the experiment, or personal attitudes towards justice, equity and confidence may condition the decisions of individuals of our experiment, and if we do not take into account such differences the coefficient β in Equation (1) would be capturing the effects of such unobserved differences and not the real of factors such as gender. </plain></SENT>
+<SENT sid="231" pm="."><plain>Thus, we estimate a random-effects linear probability model to control for unobserved heterogeneity of individuals (since we are interested on how the level of cooperation depends on gender and the number of neighbors, among others, we cannot use a fixed-effects estimator since these variables would be eliminated from estimates, and hence the random-effect estimator is preferable for our purpose), where we use the following equation: </plain></SENT>
+</text></p><disp-formula id="eqn2"><mml:math id="m10"><mml:mrow><mml:mrow><mml:msub><mml:mtext>C</mml:mtext><mml:mrow><mml:mtext>ijt</mml:mtext></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mtext>=α</mml:mtext></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mrow><mml:mtext>+βX</mml:mtext></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mtext>+</mml:mtext><mml:mi>δ</mml:mi><mml:msub><mml:mrow><mml:mtext>Game</mml:mtext></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mtext>+ε</mml:mtext></mml:mrow><mml:mrow><mml:mtext>ijt</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math><label>(2)</label></disp-formula><p><text><SENT sid="232" pm="."><plain>Here C ijt represents the decision (cooperation/defection) by individual “i” in network “j” at round “t”, and αirepresent the individual effect. </plain></SENT>
+<SENT sid="233" pm="."><plain>The time variation needed to estimate a panel data model is given by the fact that respondents played more than one round during each phase. </plain></SENT>
+</text></p><p><text><SENT sid="234" pm="."><plain>The fact that the data allows to control for the unobserved heterogeneity of individuals makes the linear probability model particularly attractive with respect to other models such as the Probit model. </plain></SENT>
+<SENT sid="235" pm="."><plain>Although the linear probability model may not provide a very good estimate of the partial effects at extreme values of the independent variables, it still produces a consistent and even unbiased estimator of the partial effects on the response probability averaged across the distribution of the independent variable. </plain></SENT>
+<SENT sid="236" pm="."><plain>We have also estimated Probit models on the same subsamples, and results are consistent to the OLS results. </plain></SENT>
+<SENT sid="237" pm="."><plain>See “S2. </plain></SENT>
+<SENT sid="238" pm="."><plain>Probit results” in Material S1 for a description of the model and the estimation results. </plain></SENT>
+</text></p></sec><SecTag type="RESULTS"><sec sec-type="results" id="s4"><title><text><SENT sid="239" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="240" pm="."><plain>Columns (1) to (6) in Table 2 show the results of estimating Equation (1) for the six subsamples mentioned above. </plain></SENT>
+<SENT sid="241" pm="."><plain>Considering the effect of gender on the level of cooperation of individuals, we observe negative and statistically significant associations between being male and the probability of cooperation in all the analyzed samples, with these associations being statistically significant at standard levels. </plain></SENT>
+<SENT sid="242" pm="."><plain>In particular, we find that being male is associated with a decrease of between 4 (Column (1)) and 8 (Column (4)) percentage points in the probability of cooperation. </plain></SENT>
+<SENT sid="243" pm="."><plain>Considering that the mean level of cooperation during the experiment is 0.341, we find that female players have a higher probability of between 11 and 23 percentage points to cooperate, compared to male players. </plain></SENT>
+<SENT sid="244" pm="."><plain>This negative association between being male and cooperation is present when we analyze alternative samples and networks (e.g., phase 1 versus phase 2), and is net out of the effects of other demographic characteristics. </plain></SENT>
+<SENT sid="245" pm="."><plain>For instance, it could be that the number of siblings of the respondent conditions his/her cooperative behavior, fostering the level of cooperation of the individuals as he/she is more used to intra-household bargaining. </plain></SENT>
+<SENT sid="246" pm="."><plain>Also, it could be that children who attend a private school observe a higher household income, which may make those children to give a relative lower value to the payoffs offered during the game, affecting their behavior. </plain></SENT>
+<SENT sid="247" pm="."><plain>These and more factors may be driving our results, and thus we need to control for these characteristics in our estimations to net out the effect of gender from other effects. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0083700-t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0083700.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="248" pm="."><plain>OLS Regressions for cooperation of individuals playing the Prisoner’s Dilemma. </plain></SENT>
+</text></title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>OLS Regressions </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>(1) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>(2) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>(3) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>(4) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>(5) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>(6) </plain></SENT>
+</text></th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>Heterogenous’s Experiment </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>Sq. </plain></SENT>
+<SENT sid="258" pm="."><plain>Lattice Experiment </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>Het + Sq Lattice Experiment </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>Heterogenous Control </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>Sq. </plain></SENT>
+<SENT sid="262" pm="."><plain>Lattice Control </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>Het + Sq Lattice Control </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>Male </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>-0.038*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>-0.061*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>-0.050*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>-0.081*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>-0.068*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>-0.073*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>(0.013) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>(0.012) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>(0.009) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>(0.012) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>Round number </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>-0.001*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>-0.001*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>-0.001*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>(0.000) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>Number of neighbors </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>-0.004 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>-0.004 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>-0.001 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>-0.002 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>(0.004) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>(0.003) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>(0.004) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>(0.004) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>Humanities </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>0.012 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>0.037*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>0.024** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>0.020 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>0.028 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>0.025** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>(0.013) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>(0.018) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>(0.017) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>(0.013) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>Number of siblings </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>0.004 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>0.000 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>0.002 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>-0.012 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>0.009 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>0.000 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>(0.007) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>(0.006) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>(0.005) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>(0.009) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>(0.008) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>(0.006) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>Attending a private school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>0.017 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>-0.040** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>-0.017 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>0.041 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>-0.027 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>0.000 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>(0.022) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>(0.020) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>(0.033) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>(0.026) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>(0.021) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>Attending a Semi-private school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>-0.016 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>-0.013 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>-0.024 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>-0.008 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>(0.019) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>(0.019) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>(0.013) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>Attending an urban school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>-0.001 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>-0.006 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>-0.032* </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>-0.022 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>(0.015) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>(0.018) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>(0.020) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>(0.014) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>Mean payoff of neighbors in previous round </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>0.004*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>0.009*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>0.005*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>0.000 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>0.001 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>0.000 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>(0.001) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>(0.001) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>(0.001) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>(0.000) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>Payoff in previous round </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>-0.004*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>-0.004*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>-0.007*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>-0.008*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>-0.007*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>(0.000) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>Constant </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>0.475*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>0.395*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>0.458*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>0.480*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>0.432*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>0.462*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>(0.021) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>(0.021) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>(0.017) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>(0.023) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>(0.024) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>(0.020) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>Observations </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>30200 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>31250 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>61450 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>34428 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>35625 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>70053 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>Number of id </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>604 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>625 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>1229 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>625 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>604 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>1229 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>R-squared </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>0.04 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn><p><text><SENT sid="428" pm="."><plain>Note: Sample consists of final-year high school students from Aragon (Spain). </plain></SENT>
+<SENT sid="429" pm="."><plain>Clustered standard errors in parenthesis. </plain></SENT>
+<SENT sid="430" pm="."><plain>We estimate the following equation: Cijt=α+βXi+δGameijt+εijtwhere C ijt represents the decision (cooperation/defection) by individual “i” in network “j” at round “t”. </plain></SENT>
+<SENT sid="431" pm="."><plain>The dependent variables is a dummy variable that takes value 1 if individual “i” in network “j” at round “t” decided to cooperate, and takes value 0 if he/she decided to defect. </plain></SENT>
+<SENT sid="432" pm="."><plain>The vector Xi includes participant’s “i” demographic characteristics such as gender (1= male, 0=female), number of siblings, the field of the bachelor (1=humanities, 0=science), while Game ijt includes game variables from the previous round. </plain></SENT>
+<SENT sid="433" pm="."><plain>We cluster observations by individual to allow for differences in the variance/standard errors due to arbitrary intra-individual correlation. *** Significant at the 1% level; ** Significant at the 5% level; * Significant at the 10% level. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="434" pm="."><plain>Other factors affecting the level of cooperation of individuals are the round number, the respondent’s payoff in the previous round, and the mean payoff of neighbors in the previous round. </plain></SENT>
+<SENT sid="435" pm="."><plain>In the case of the round number, we observe a negative and statistically significant association between the round number and the level of cooperation in both phase 1 (Columns (1) to (3)) and phase 2 of the experiment (Columns (4) to (6)). </plain></SENT>
+<SENT sid="436" pm="."><plain>In particular, we find that an additional round in the experiment decreases the probability of cooperation by 0.3 and 0.1 percentage points in phase 1 and 2 of the experiment. </plain></SENT>
+<SENT sid="437" pm="."><plain>These results are consistent with the “sequential equilibrium reputation hypothesis” since the cooperation level decreases as the game unravels to mutual defection. </plain></SENT>
+<SENT sid="438" pm="."><plain>However, we observe that the effect of the round in the level of cooperation is lower in the phase 2 of the experiment, which may indicate that the reputation hypothesis has a smaller effect in phase 2 of the experiment where players may have learned that reputation is not an underlying mechanism operating during the game, or they may have realized that as their neighbors change in every round the idea of reputation does not apply. </plain></SENT>
+</text></p><p><text><SENT sid="439" pm="."><plain>Respondent’s payoff in the previous round has a negative and statistically significant association with the probability of cooperation. </plain></SENT>
+<SENT sid="440" pm="."><plain>In particular, each additional ECU obtained in the previous round is related with decreases in the probability of cooperation of around 0.4 percentage points in phase 1 of the experiment, and of around 0.07 percentage points in phase 2 of the experiment. </plain></SENT>
+<SENT sid="441" pm="."><plain>One explanation for this reported association is that if respondent has defected in the previous round, and he/she has obtained a high payoff in the previous round, the respondent is in a “defection mood” to try to obtain a high payoff in the current round. </plain></SENT>
+<SENT sid="442" pm="."><plain>The opposite applies for the mean payoffs obtained by neighbors in the previous round, as it has a positive and statistically significant association with the level of cooperation. </plain></SENT>
+<SENT sid="443" pm="."><plain>Furthermore, this positive association is not present in the phase 2 of the experiment, where neighbors are different in each round. </plain></SENT>
+<SENT sid="444" pm="."><plain>Our experimental findings suggest that the behavior of the players depends on the previous actions of their neighbors (conditional cooperation), but may also depend on the previous action of the players themselves (moody conditional cooperation), indicating that players seem to react to the context in a way influenced by their own previous action [32,33]. </plain></SENT>
+<SENT sid="445" pm="."><plain>However, it is only for static networks where the “moody conditional cooperation” is present, indicating that in networks where neighbors change during the process the behavior of players does not depend on their neighbors. </plain></SENT>
+<SENT sid="446" pm="."><plain>This, in fact, reinforces our interpretation that players realize the difference between the two treatments and act accordingly. </plain></SENT>
+</text></p><p><text><SENT sid="447" pm="."><plain>Previous research on gender differences in economic experiments has shown that there are gender differences in risk, social and competitive preferences (see 25 for a review). </plain></SENT>
+<SENT sid="448" pm="."><plain>Additionally, there can be other socio-demographic factors not controlled for in the experiment, such as the respondent’s household income, that can be correlated with the higher level cooperation of women. </plain></SENT>
+<SENT sid="449" pm="."><plain>Thus, the previously observed gender difference in cooperation could be attributed to gender differences in preferences, or to non-controlled socio-demographic factors. </plain></SENT>
+<SENT sid="450" pm="."><plain>For this reason, we need to apply an econometric technique that nets out the effect of gender from other observed (although not controlled for) and unobserved factors (e.g., preferences). </plain></SENT>
+<SENT sid="451" pm="."><plain>If we now consider that our dataset has a panel data structure (e.g., same individuals observed during several periods of time), we can apply the Random Effect estimator [34] to estimate the effect of gender on cooperation net out of observed and unobserved heterogeneity. </plain></SENT>
+</text></p><p><text><SENT sid="452" pm="."><plain>Columns (1) to (6) in Table 3 show the results of estimating Equation (2) for the six subsamples we are working with. </plain></SENT>
+<SENT sid="453" pm="."><plain>We observe negative and statistically significant associations between being male and the probability of cooperation in all the analyzed samples, with these associations being statistically significant at standard levels. </plain></SENT>
+<SENT sid="454" pm="."><plain>In particular, we find that being male is associated with a decrease of between 4 (Column (1)) and 8 (Column (4)) percentage points in the probability of cooperation. </plain></SENT>
+<SENT sid="455" pm="."><plain>For the rest of factors, our results are consistent compared to the OLS results, and indicate that our observations cannot be attributed to non-controlled factors. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0083700-t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0083700.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="456" pm="."><plain>Random effects regressions for cooperation of individuals playing the Prisoner’s Dilemma. </plain></SENT>
+</text></title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>RE Regressions </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>(1) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>(2) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>(3) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>(4) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>(5) </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>(6) </plain></SENT>
+</text></th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>Heterogenous Experiment </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>Sq. </plain></SENT>
+<SENT sid="466" pm="."><plain>Lattice Experiment </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>Het + Sq Lattice Experiment </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>Heterogenous Control </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>Sq. </plain></SENT>
+<SENT sid="470" pm="."><plain>Lattice Control </plain></SENT>
+</text></th><th rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>Het + Sq Lattice Control </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>Male </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>-0.038*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>-0.063*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>-0.051*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>-0.082*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>-0.069*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>-0.074*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>(0.012) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>(0.009) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>(0.013) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>(0.010) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>Round number </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>-0.001*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>-0.001*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>-0.001*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>(0.000) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>Number of neighbors </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>-0.008** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>-0.007** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>-0.005 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>-0.007** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>(0.003) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>(0.003) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>(0.004) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>- </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>(0.003) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>Humanities </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>0.011 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>0.038*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>0.025** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>0.020 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>0.028* </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>0.026** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>(0.012) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>(0.017) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>(0.015) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>(0.011) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>Number of Brothers </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>0.004 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>0.001 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>0.002 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>-0.012 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>0.009 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>(0.008) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>(0.006) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>(0.005) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>(0.009) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>(0.007) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>(0.006) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>Attending a private school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>0.018 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>-0.040** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>-0.018 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>0.040 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>-0.028 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>-0.001 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>(0.027) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>(0.019) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>(0.017) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>(0.032) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>(0.024) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>(0.020) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>Attending a Semi-private school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>-0.015 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>-0.012 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>-0.024 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>-0.008 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>(0.012) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>(0.015) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>(0.011) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>Attending an urban school </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>-0.001 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>-0.006 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>-0.032** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>-0.022** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>(0.014) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>(0.013) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>(0.010) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>(0.011) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>Mean payoff of neighbors in previous round </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>0.004*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>0.005*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>0.005*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>0.000 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>0.001** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>0.000 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>(0.001) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>(0.000) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>Payoff in previous round </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>-0.002*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>-0.003*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>-0.006*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>-0.006*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>-0.006*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>(0.000) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>(0.000) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>Constant </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>0.467*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>0.445*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>0.472*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>0.478*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>0.408*** </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>0.461*** </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>(0.020) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>(0.018) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>(0.016) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>(0.022) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>(0.020) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>(0.018) </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Observations </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>30200 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>31250 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>61450 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>34428 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>35625 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>70053 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>Number of id </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>604 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>625 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>1229 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>625 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>604 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>1229 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>R-squared </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>0.04 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>0.03 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn><p><text><SENT sid="636" pm="."><plain>Note: Sample consists of final-year high school students from Aragon (Spain). </plain></SENT>
+<SENT sid="637" pm="."><plain>Standard errors in parenthesis. </plain></SENT>
+<SENT sid="638" pm="."><plain>We estimate the following equation: Cijt=αi+βXi+δGameijt+εijtwhere C ijt represents the decision (cooperation/defection) by individual “i” in network “j” at round “t”. </plain></SENT>
+<SENT sid="639" pm="."><plain>The dependent variables is a dummy variable that takes value 1 if individual “i” in network “j” at round “t” decided to cooperate, and takes value 0 if he/she decided to defect. </plain></SENT>
+<SENT sid="640" pm="."><plain>The vector Xi includes participant’s “i” demographic characteristics such as gender (1= male, 0=female), number of siblings and the field of the bachelor (1=humanities, 0=science), while Game ijt includes game variables from the previous round. *** Significant at the 1% level; ** Significant at the 5% level; * Significant at the 10% level. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions" id="s5"><title><text><SENT sid="641" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="642" pm="."><plain>The question about whether or not cooperation of individuals varies systematically with the sex of the decision maker is analyzed in this paper. </plain></SENT>
+<SENT sid="643" pm="."><plain>Prior research on the prisoner’s dilemma, social dilemmas, and public goods provision has found mixed results from a gender perspective. </plain></SENT>
+<SENT sid="644" pm="."><plain>We contribute to the literature by analyzing gender differences in cooperation for Spanish high school students. </plain></SENT>
+<SENT sid="645" pm="."><plain>To that end, we reanalyzed data from an experiment with 1,229 volunteers from final-year high-school students (17-18 years old) of 42 high schools located in the Region of Aragón. </plain></SENT>
+<SENT sid="646" pm="."><plain>Standard econometric techniques used in the field of economics (i.e., Ordinary Least Squares, and Random Effects models) are applied to analyze gender differences in the level of cooperation of Aragonians high school students. </plain></SENT>
+</text></p><p><text><SENT sid="647" pm="."><plain>We find that being male is negatively associated with the level of cooperation, with this association being statistically significant at standard levels. </plain></SENT>
+<SENT sid="648" pm="."><plain>We also obtain a gender difference in the level of cooperation when we control for the unobserved heterogeneity of individuals, which indicates that the gender gap in cooperation favoring female students is present after netting out this effect from other socio-demographics factors not controlled for in the experiment, and from gender differences in risk, social and competitive preferences (see 25 for a review). </plain></SENT>
+<SENT sid="649" pm="."><plain>Thus, our results point toward a gender difference in the level of cooperation that might be attributed to a genetic factor. </plain></SENT>
+</text></p><p><text><SENT sid="650" pm="."><plain>We hope that this article will serve as a resource for those in the field of economics seeking to understand gender differences in the level of cooperation, and to use it as a starting point to illuminate the debate on genetic differences in behavior. </plain></SENT>
+<SENT sid="651" pm="."><plain>We urge researchers to routinely record the gender of the participants when possible in order to expand our understanding of gender differences. </plain></SENT>
+<SENT sid="652" pm="."><plain>Having established this gender difference, it is appropriate now for research to address the issue of how other parameters of the experimental setting influence the behavior of women and men. </plain></SENT>
+<SENT sid="653" pm="."><plain>For instance, gender may affect how individuals punish non-cooperative partners, one of the most relevant mechanisms to foster cooperation [35-37]. </plain></SENT>
+<SENT sid="654" pm="."><plain>In the same spirit, when players can choose their partners by rewiring their connections [38-40] gender may also be responsible for different behaviors. </plain></SENT>
+<SENT sid="655" pm="."><plain>Finally, to the extent that our findings support the existence of gender differences in cooperation, the theory used to model some economic outcomes, such as household bargaining, could incorporate this gender asymmetry. </plain></SENT>
+<SENT sid="656" pm="."><plain>We leave all these issues for future research. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="657" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0083700.s001"><label>Material S1</label><caption><p><text><SENT sid="658" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0083700.s001.docx"><caption><p><text><SENT sid="659" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="660" pm="."><plain>This paper was partially written while Jose Alberto Molina was Visiting Fellow at the Department of Economics of the Boston College (US), to which he would like to express his thanks for the hospitality and facilities provided. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="B1"><text><SENT sid="661" pm="."><plain>1 ManserME, BrownM (1980) Marriage and household decision-making: a bargaining analysis. </plain></SENT>
+<SENT sid="662" pm="."><plain>Int. Econ Rev 21: 31-44. </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="663" pm="."><plain>2 McElroyMB, HorneyMJ (1981) Nash bargained household decisions: toward a generalization of the theory of demand. </plain></SENT>
+<SENT sid="664" pm="."><plain>Int. Econ Rev 22: 333-349. </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="665" pm="?"><plain>3 AndaluzJ, MarcenM, MolinaJA (2013) Which spouse first decides in the household? </plain></SENT>
+<SENT sid="666" pm="."><plain>The dynamics of bargaining. </plain></SENT>
+<SENT sid="667" pm="."><plain>Theor. Econ Lett 3: 69-77. </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="668" pm="."><plain>4 HillCR, StaffordFP (1974) Allocation of Time to Preschool Children and Educational Opportunity. J Hum Resour 9: 323–341. doi:10.2307/144690. </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="669" pm="."><plain>5 ZickCD, BryanWK (1996) A New Look at Parents’ Time Spent in Childcare: Primary and Secondary Time Use. Soc Sci Res 25: 260–280. doi:10.1006/ssre.1996.0012. </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="670" pm="."><plain>6 BianchiS (2000) Maternal Employment and Time with Children: Dramatic Change or Surprising Continuity? Demog 37: 401–414. doi:10.1353/dem.2000.0001. </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="671" pm="."><plain>7 HallbergD, KlevmarkenA (2003) Time for children: A study of parent’s time allocation. J Popul Econ 16: 205–226. doi:10.1007/s001480200133. </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="672" pm="?"><plain>8 GauthierAH, SmeedingTM, FurstenbergFF (2004) Are Parents Investing Less Time in Children? </plain></SENT>
+<SENT sid="673" pm="."><plain>Trends in Selected Industrialized Countries. Popul Dev Rev 30: 647–671. doi:10.1111/j.1728-4457.2004.00036.x. </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="674" pm="?"><plain>9 SayerL, BianchiS, RobinsonJP (2004) Are Parents Investing Less in Children? </plain></SENT>
+<SENT sid="675" pm="."><plain>Trends in Mothers’ and Fathers’ Time with Children. AJS 110: 1–43. </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="676" pm="."><plain>10 KimmelJ, ConnellyR (2007) Mothers’ Time Choices: Caregiving, Leisure, Home Production, and Paid. Work - J Hum Resour 42: 643–661. </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="677" pm="."><plain>11 GuryanJ, HurstE, KearneyM (2008) Parental Education and Parental Time with Children. J Econ Perspect 22: 23-46. doi:10.1257/jep.22.3.23. </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="678" pm="."><plain>12 KalenkoskiC, RibarD, StrattonL (2009) The influence of wages on parents’ allocations of time to child care and market work in the United Kingdom. J Popul Econ 22: 399-419. doi:10.1007/s00148-008-0192-9.  </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="679" pm="."><plain>13 GarcíaI, MolinaJA, MontuengaV (2011) Gender differences in childcare: time allocation in five European countries. Fem Econ 17: 119-150. doi:10.1080/13545701.2010.542004.  </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="680" pm="."><plain>14 Gimenez-NadalJI, MolinaJA (2013) Parents’ Education as a Determinant of Educational Childcare. Times - J Popul Econ 26: 719-749. doi:10.1007/s00148-012-0443-7. </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="681" pm="."><plain>15 RapoportAL, ChammahAM (1965) Sex Differences in Factors Contributing to the Level of Cooperation in the Prisoner’s Dilemma Game. J Pers Soc Psychol 2: 831–838. doi:10.1037/h0022678. </plain></SENT>
+<SENT sid="682" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/5838486">5838486</ext-link>.5838486 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="683" pm="."><plain>16 KahnA, HottesJ, DavisWL (1971) Cooperation and Optimal Responding in the Prisoner’s Dilemma Game: Effects of Sex and Physical Attractiveness. J Pers Soc Psychol 17: 267–279. doi:10.1037/h0030597. </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="684" pm="."><plain>17 MackD, AuburnPN, KnightGP (1971) Sex Role Identification and Behavior in a Reiterated Prisoner’s Dilemma Game. Psychon Sci 24: 280–282. doi:10.3758/BF03329005. </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="685" pm="."><plain>18 SibleyS, SennS, EpanchinA (1968) Race and Sex of Adolescents and Cooperation in a Mixed- Motive Game. Psychon Sci 13: 123–124. </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="686" pm="."><plain>19 TedeschiJT, HiesterD, GahaganJ (1969) Trust and the Prisoner’s Dilemma Game. J Soc Psychol 79: 43–50. doi:10.1080/00224545.1969.9922385. </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="687" pm="."><plain>20 DawesRM, McTavishJ, ShakleeH (1977) Behavior, Communication, and Assumptions about Other People’s Behavior in a Commons Dilemma Situation.. J Pers Soc Psychol 35: 1–11. doi:10.1037/0022-3514.35.1.1. </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="688" pm="."><plain>21 OrbellJM, DawesR, Schwartz-SheaP (1994) Trust, social categories and individuals: The case of gender. Motiv Emot 18: 109–128. doi:10.1007/BF02249396. </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="689" pm="."><plain>22 KümmerliR, ColliardC, FiechterN, PetitpierreB, RussierF et al. (2007) Human cooperation in social dilemmas: comparing the Snowdrift game with the Prisoner’s Dilemma. Proc R Soc of London B Biol Sci 274: 2965-2970. doi:10.1098/rspb.2007.0793. </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="690" pm="."><plain>23 FrankRTH, GilovichR, ReganDT (1993) Does Studying Economics Inhibit Cooperation? J Econ Perspect 7: 159–171. doi:10.1257/jep.7.2.159. </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="691" pm="."><plain>24 OrtmannA, TichyLK (1999) Gender Differences in the Laboratory: Evidence from Prisoner’s Dilemma Games. J Econ Behav Organ 39: 327–339. doi:10.1016/S0167-2681(99)00038-4. </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="692" pm="."><plain>25 CrosonR, GneezyU (2009) Gender Differences in Preferences. J Econ Lit 47: 1-27. doi:10.1257/jel.47.1.1. </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="693" pm="."><plain>26 FudenbergD, TiroleJ (1991) Game Theory. The MIT Press.  </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="694" pm="."><plain>27 DawesRM, ThalerRH (1988) Anomalies: Cooperation. J Econ Perspect 2: 187-197. doi:10.1257/jep.2.1.187. </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="695" pm="."><plain>28 KrepsDM, MilgromP, RobertsJ, WilsonR (1982) Rational cooperation in the finitely repeated prisoners' dilemma. J Econ Theory 27: 245-252. doi:10.1016/0022-0531(82)90029-1. </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="696" pm="."><plain>29 AndreoniJ, MillerJH (1993) Rational cooperation in the finitely repeated prisoner's dilemma: Experimental evidence. Econ J 103: 570-585. doi:10.2307/2234532. </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="697" pm="."><plain>30 Gracia-LázaroC, FerrerA, RuizG, TarancónA, CuestaJA et al. (2012a) Heterogeneous networks do not promote cooperation when humans play a Prisoner’s Dilemma. Proc Natl Acad Sci U S A 109: 12922-12926. doi:10.1073/pnas.1206681109.22773811 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="698" pm="."><plain>31 Gracia-LázaroC, CuestaJA, SánchezA, MorenoY Y (2012b) Human behavior in Prisoner’s Dilemma experiments suppresses network reciprocity. Sci Rep 2: 325.22439103 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="699" pm="."><plain>32 GrujićJ, FoscoC, AraujoL, CuestaJA, SánchezA (2010) Social experiments in the mesoscale: Humans playing a spatial prisoner’s dilemma. PLOS ONE 5: e13749. doi:10.1371/journal.pone.0013749. </plain></SENT>
+<SENT sid="700" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21103058">21103058</ext-link>.21103058 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="701" pm="."><plain>33 GrujićJ, CuestaJA, SánchezA (2012) On the coexistence of cooperators, defectors and conditional cooperators in the multiplayer iterated prisoner’s dilemma. J Theor Biol 300: 299–308. doi:10.1016/j.jtbi.2012.02.003. </plain></SENT>
+<SENT sid="702" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22530239">22530239</ext-link>.22530239 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="703" pm="."><plain>34 WooldridgeJ (2002) Econometric Analysis of Cross Section and Panel Data. The MIT Press.  </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="704" pm="."><plain>35 FehrE, GächterS (2002) Altruistic Punishment in Humans. Nature 415: 137–140. doi:10.1038/415137a. </plain></SENT>
+<SENT sid="705" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11805825">11805825</ext-link>. 11805825 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="706" pm="."><plain>36 AndrighettoG, BrandtsJ, ConteR, Sabater-MirJ, SolazH et al. (2013) Punish and Voice: Punishment Enhances Cooperation when Combined with Norm-Signalling. PLOS ONE 8: e64941. doi:10.1371/journal.pone.0064941. </plain></SENT>
+<SENT sid="707" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23776441">23776441</ext-link>. 23776441 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="708" pm="."><plain>37 JiangLL, PercM, SzolnokiA (2013) If Cooperation Is Likely Punish Mildly: Insights from Economic Experiments Based on the Snowdrift Game. PLOS ONE 8: e64677. doi:10.1371/journal.pone.0064677. </plain></SENT>
+<SENT sid="709" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23741367">23741367</ext-link>.23741367 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="710" pm="."><plain>38 PercM, SzolnokiA (2009) Coevolutionary Games: A Mini-Review. Biosyst 99: 109–125. </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="711" pm="."><plain>39 RandDG, ArbesmanS, ChristakisNA (2011) Dynamic Social Networks Promote Cooperation in Experiments with Humans. Proc Natl Acad Sci U S A 108: 19193–19198. doi:10.1073/pnas.1108243108. </plain></SENT>
+<SENT sid="712" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22084103">22084103</ext-link>.22084103 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="713" pm="."><plain>40 WangJ, SuriS, WattsDJ (2012) Cooperation and Assortativity with Dynamic Partner Updating. Proc Natl Acad Sci U S A 109: 14363–14368. doi:10.1073/pnas.1120867109. </plain></SENT>
+<SENT sid="714" pm="."><plain>PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22904193">22904193</ext-link>. 22904193 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

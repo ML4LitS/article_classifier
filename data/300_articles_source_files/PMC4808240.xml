@@ -1,0 +1,992 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.0 20040830//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Med Internet Res</journal-id><journal-id journal-id-type="iso-abbrev">J. Med. Internet Res</journal-id><journal-id journal-id-type="publisher-id">JMIR</journal-id><journal-title-group><journal-title>Journal of Medical Internet Research</journal-title></journal-title-group><issn pub-type="ppub">1439-4456</issn><issn pub-type="epub">1438-8871</issn><publisher><publisher-name>JMIR Publications Inc.</publisher-name><publisher-loc>Toronto, Canada</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4808240</article-id><article-id pub-id-type="publisher-id">v18i3e55</article-id><article-id pub-id-type="pmid">26968879</article-id><article-id pub-id-type="doi">10.2196/jmir.5218</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Paper</subject></subj-group><subj-group subj-group-type="article-type"><subject>Original Paper</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Web-Based Interventions Targeting Cardiovascular Risk Factors in Middle-Aged and Older People: A Systematic Review and Meta-Analysis </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="editor"><name><surname>Eysenbach</surname><given-names>Gunther</given-names></name></contrib></contrib-group><contrib-group><contrib contrib-type="reviewer"><name><surname>Green</surname><given-names>Beverly</given-names></name></contrib><contrib contrib-type="reviewer"><name><surname>Anand</surname><given-names>Sonia</given-names></name></contrib><contrib contrib-type="reviewer"><name><surname>Burdorf</surname><given-names>Alex</given-names></name></contrib><contrib contrib-type="reviewer"><name><surname>Widmer</surname><given-names>Rj</given-names></name></contrib></contrib-group><contrib-group><contrib id="contrib1" contrib-type="author"><name><surname>Beishuizen</surname><given-names>Cathrien RL</given-names></name><degrees>MSc, MD</degrees><xref ref-type="aff" rid="aff1">1</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0199-0723</contrib-id></contrib><contrib id="contrib2" contrib-type="author"><name><surname>Stephan</surname><given-names>Blossom CM</given-names></name><degrees>PhD</degrees><xref ref-type="aff" rid="aff2">2</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1235-360X</contrib-id></contrib><contrib id="contrib3" contrib-type="author"><name><surname>van Gool</surname><given-names>Willem A</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff1">1</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3174-8233</contrib-id></contrib><contrib id="contrib4" contrib-type="author"><name><surname>Brayne</surname><given-names>Carol</given-names></name><degrees>MD</degrees><xref ref-type="aff" rid="aff3">3</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5307-663X</contrib-id></contrib><contrib id="contrib5" contrib-type="author"><name><surname>Peters</surname><given-names>Ron JG</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff4">4</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3642-5022</contrib-id></contrib><contrib id="contrib6" contrib-type="author"><name><surname>Andrieu</surname><given-names>Sandrine</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff5">5</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1142-770X</contrib-id></contrib><contrib id="contrib7" contrib-type="author"><name><surname>Kivipelto</surname><given-names>Miia</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff6">6</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0992-3875</contrib-id></contrib><contrib id="contrib8" contrib-type="author"><name><surname>Soininen</surname><given-names>Hilkka</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff7">7</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2785-9937</contrib-id></contrib><contrib id="contrib9" contrib-type="author"><name><surname>Busschers</surname><given-names>Wim B</given-names></name><degrees>MSc</degrees><xref ref-type="aff" rid="aff8">8</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3393-9511</contrib-id></contrib><contrib id="contrib10" contrib-type="author"><name><surname>Moll van Charante</surname><given-names>Eric P</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff8">8</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1489-5218</contrib-id></contrib><contrib id="contrib11" contrib-type="author" corresp="yes"><name><surname>Richard</surname><given-names>Edo</given-names></name><degrees>MD, PhD</degrees><xref ref-type="aff" rid="aff1">1</xref><address><institution>Academic Medical Center</institution><institution>Department of Neurology</institution><institution>University of Amsterdam</institution><addr-line>PO Box 22660</addr-line><addr-line>Amsterdam, 1100 DD</addr-line><country>Netherlands</country><phone>31 20 5663446</phone><fax>31 20 5669290</fax><email>e.richard@amc.uva.nl</email></address><xref ref-type="aff" rid="aff9">9</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7250-3390</contrib-id></contrib></contrib-group><aff id="aff1"><sup>1</sup><institution>Academic Medical Center</institution><institution>Department of Neurology</institution><institution>University of Amsterdam</institution><addr-line>Amsterdam</addr-line><country>Netherlands</country></aff><aff id="aff2"><sup>2</sup><institution>Institute of Health and Society</institution><institution>Newcastle University Institute for Ageing</institution><institution>Newcastle University</institution><addr-line>Newcastle upon Tyne</addr-line><country>United Kingdom</country></aff><aff id="aff3"><sup>3</sup><institution>Cambridge Institute of Public Health</institution><institution>Department of Public Health and Primary Care</institution><institution>University of Cambridge</institution><addr-line>Cambridge</addr-line><country>United Kingdom</country></aff><aff id="aff4"><sup>4</sup><institution>Academic Medical Center</institution><institution>Department of Cardiology</institution><institution>University of Amsterdam</institution><addr-line>Amsterdam</addr-line><country>Netherlands</country></aff><aff id="aff5"><sup>5</sup><institution>Inserm U1027</institution><institution>Department of Epidemiology and Public Health</institution><institution>Toulouse University Hospital</institution><addr-line>Toulouse</addr-line><country>France</country></aff><aff id="aff6"><sup>6</sup><institution>Aging Research Center</institution><institution>Alzheimer Disease Research Center</institution><institution>Karolinska Institutet</institution><addr-line>Stockholm</addr-line><country>Sweden</country></aff><aff id="aff7"><sup>7</sup><institution>Department of Neurology</institution><institution>University of Eastern Finland and Kuopio University Hospital</institution><addr-line>Kuopio</addr-line><country>Finland</country></aff><aff id="aff8"><sup>8</sup><institution>Academic Medical Center</institution><institution>Department of General Practice</institution><institution>University of Amsterdam</institution><addr-line>Amsterdam</addr-line><country>Netherlands</country></aff><aff id="aff9"><sup>9</sup><institution>Department of Neurology</institution><institution>Radboud University Medical Center</institution><addr-line>Nijmegen</addr-line><country>Netherlands</country></aff><author-notes><corresp>Corresponding Author: Edo Richard <email>e.richard@amc.uva.nl</email></corresp></author-notes><pub-date pub-type="collection"><month>3</month><year>2016</year></pub-date><pub-date pub-type="epub"><day>11</day><month>3</month><year>2016</year></pub-date><volume>18</volume><issue>3</issue><elocation-id>e55</elocation-id><history><date date-type="received"><day>12</day><month>10</month><year>2015</year></date><date date-type="rev-request"><day>22</day><month>11</month><year>2015</year></date><date date-type="rev-recd"><day>18</day><month>12</month><year>2015</year></date><date date-type="accepted"><day>17</day><month>1</month><year>2016</year></date></history><permissions><copyright-statement>©Cathrien RL Beishuizen, Blossom CM Stephan, Willem A van Gool, Carol Brayne, Ron JG Peters, Sandrine Andrieu, Miia Kivipelto, Hilkka Soininen, Wim B Busschers, Eric P Moll van Charante, Edo Richard. Originally published in the Journal of Medical Internet Research (http://www.jmir.org), 11.03.2016. </copyright-statement><copyright-year>2016</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0/">http://creativecommons.org/licenses/by/2.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on <ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/,">http://www.jmir.org/,</ext-link> as well as this copyright and license information must be included.</license-p></license></permissions><self-uri xlink:type="simple" xlink:href="http://www.jmir.org/2016/3/e55/"/><abstract><sec sec-type="background"><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Web-based interventions can improve single cardiovascular risk factors in adult populations. </plain></SENT>
+<SENT sid="3" pm="."><plain>In view of global aging and the associated increasing burden of cardiovascular disease, older people form an important target population as well. </plain></SENT>
+</text></SecTag></p></sec><sec sec-type="objective"><title><text><SENT sid="4" pm="."><plain>Objective </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="5" pm="."><plain>In this systematic review and meta-analysis, we evaluated whether Web-based interventions for cardiovascular risk factor management reduce the risk of cardiovascular disease in older people. </plain></SENT>
+</text></SecTag></p></sec><sec sec-type="methods"><title><text><SENT sid="6" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Embase, Medline, Cochrane and CINAHL were systematically searched from January 1995 to November 2014. </plain></SENT>
+<SENT sid="8" pm="."><plain>Search terms included cardiovascular risk factors and diseases (specified), Web-based interventions (and synonyms) and randomized controlled trial. </plain></SENT>
+<SENT sid="9" pm="."><plain>Two authors independently performed study selection, data-extraction and risk of bias assessment. </plain></SENT>
+<SENT sid="10" pm="."><plain>In a meta-analysis, outcomes regarding treatment effects on cardiovascular risk factors (blood pressure, glycated <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> A1c (HbA1C), low-density lipoprotein (LDL) cholesterol, smoking status, weight and physical inactivity) and incident cardiovascular disease were pooled with random effects models. </plain></SENT>
+</text></SecTag></p></sec><sec sec-type="results"><title><text><SENT sid="11" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>A total of 57 studies (N=19,862) fulfilled eligibility criteria and 47 studies contributed to the meta-analysis. </plain></SENT>
+<SENT sid="13" pm="."><plain>A significant reduction in systolic blood pressure (mean difference –2.66 mmHg, 95% CI –3.81 to –1.52), diastolic blood pressure (mean difference –1.26 mmHg, 95% CI –1.92 to –0.60), HbA1c level (mean difference –0.13%, 95% CI –0.22 to –0.05), LDL cholesterol level (mean difference –2.18 mg/dL, 95% CI –3.96 to –0.41), weight (mean difference –1.34 kg, 95% CI –1.91 to –0.77), and an increase of physical activity (standardized mean difference 0.25, 95% CI 0.10-0.39) in the Web-based intervention group was found. </plain></SENT>
+<SENT sid="14" pm="."><plain>The observed effects were more pronounced in studies with short (&lt;12 months) follow-up and studies that combined the Internet application with human support (blended care). </plain></SENT>
+<SENT sid="15" pm="."><plain>No difference in incident cardiovascular disease was found between groups (6 studies). </plain></SENT>
+</text></SecTag></p></sec><sec sec-type="conclusions"><title><text><SENT sid="16" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="17" pm="."><plain>Web-based interventions have the potential to improve the cardiovascular risk profile of older people, but the effects are modest and decline with time. </plain></SENT>
+<SENT sid="18" pm="."><plain>Currently, there is insufficient evidence for an effect on incident cardiovascular disease. </plain></SENT>
+<SENT sid="19" pm="."><plain>A focus on long-term effects, clinical endpoints, and strategies to increase sustainability of treatment effects is recommended for future studies. </plain></SENT>
+</text></SecTag></p></sec></abstract><SecTag type="KEYWORD"><kwd-group><kwd>eHealth</kwd><kwd>cardiovascular disease</kwd><kwd>prevention</kwd><kwd>older people</kwd><kwd>aging</kwd><kwd>systematic review</kwd><kwd>meta-analysis</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec sec-type="introduction"><title><text><SENT sid="20" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="21" pm="."><plain>The field of eHealth is expanding the potential of contemporary medicine [1]. </plain></SENT>
+<SENT sid="22" pm="."><plain>Global aging and its associated burden of cardiovascular disease may expand the scope for innovative Internet interventions [2,3]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Current cardiovascular risk management programs in primary care will become too expensive and, although they are highly effective in research settings [4-6], their effectiveness is markedly lower in daily life [7]. </plain></SENT>
+<SENT sid="24" pm="."><plain>This evidence-practice gap has several causes [8]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Adherence to life-long lifestyle and medication regimens is a serious challenge, illustrated by long-term adherence rates in chronic diseases that average as low as 50% [9,10]. </plain></SENT>
+<SENT sid="26" pm="."><plain>Web-based interventions are cheap, have a wide reach, and they enable self-management [11]. </plain></SENT>
+<SENT sid="27" pm="."><plain>This renders Web-based interventions potentially powerful and scalable tools to enhance sustained adherence in cardiovascular risk management [12]. </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>Older people form an important target population because cardiovascular risk reduction appears effective until old age [13-16]. </plain></SENT>
+<SENT sid="29" pm="."><plain>In 2012, 42% of European people aged between 55 and 74 years used the Internet and this number is increasing [17]. </plain></SENT>
+<SENT sid="30" pm="."><plain>Meta-analyses showed that Web-based interventions targeting single cardiovascular risk factors can induce improvements in adult populations [18-21]. </plain></SENT>
+<SENT sid="31" pm="."><plain>However, optimal cardiovascular prevention and risk management practice, as affirmed by the European Society of Cardiology [22] and the American Heart Association [23], requires targeting the complete cardiovascular risk profile. </plain></SENT>
+<SENT sid="32" pm="."><plain>This is particularly applicable for older people, who often have multiple risk factors or already suffered a cardiovascular event. </plain></SENT>
+<SENT sid="33" pm="."><plain>A comprehensive approach would increase the value of Web-based interventions for daily practice. </plain></SENT>
+<SENT sid="34" pm="."><plain>Currently, little is known about the effectiveness of Web-based interventions in older people. </plain></SENT>
+</text></p><p><text><SENT sid="35" pm="."><plain>In this systematic review and meta-analysis, we aim to answer the question whether Web-based interventions for cardiovascular risk factor management reduce cardiovascular risk and disease in older people. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="36" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="37" pm="."><plain>Search Strategy and Selection of Eligible Studies </plain></SENT>
+</text></title><p><text><SENT sid="38" pm="."><plain>We performed a systematic literature search for randomized controlled trials (RCT) on Web-based interventions in older people targeting one or more cardiovascular risk factors and/or disease. </plain></SENT>
+<SENT sid="39" pm="."><plain>Methods were predefined in a research protocol using the PRISMA checklist and the Systematic Reviews Guidelines of the Center of Reviews and Dissemination (Multimedia Appendix 1). </plain></SENT>
+<SENT sid="40" pm="."><plain>We defined Web-based interventions as Web-based participant-centered treatment or prevention programs delivered via the Internet and interacting with the participant in a tailored fashion [24,25]. </plain></SENT>
+<SENT sid="41" pm="."><plain>Internet had to be the main medium through which the intervention was delivered, but other media (phone, face-to-face) could be included too. </plain></SENT>
+<SENT sid="42" pm="."><plain>We excluded the following eHealth interventions: telemonitoring, telemedicine, and mobile phone-mediated interventions. </plain></SENT>
+<SENT sid="43" pm="."><plain>The target of the intervention had to be one or more cardiovascular risk factors and/or cardiovascular disease. </plain></SENT>
+<SENT sid="44" pm="."><plain>Thus, we included interventions for both primary and secondary prevention of cardiovascular disease [22]. </plain></SENT>
+<SENT sid="45" pm="."><plain>The target population had to have a mean age of 50 years or older and could have a mixed level of cardiovascular risk (one or more cardiovascular risk factors or established cardiovascular disease). </plain></SENT>
+</text></p><p><text><SENT sid="46" pm="."><plain>Main outcomes of interest were incident cardiovascular disease (myocardial infarction, angina pectoris, heart failure, stroke or transient ischemic attack, and peripheral arterial disease), cardiovascular mortality and overall mortality, and changes in cardiovascular risk factors including blood pressure (BP), glycated <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> A1c (HbA1c), low-density lipoprotein (LDL) cholesterol, smoking status, weight, level of physical exercise, or a composite cardiovascular risk score. </plain></SENT>
+</text></p><p><text><SENT sid="47" pm="."><plain>We performed a comprehensive literature search in the EMBASE, Medline, CINAHL, and Cochrane databases from 1995 onward (because the Internet was not widely available before then). </plain></SENT>
+<SENT sid="48" pm="."><plain>Key search terms were cardiovascular risk factors and diseases (separate diseases and risk factors specified), terms related to aspects of cardiovascular risk management (eg, diet, exercise, BP control), Web-based interventions (including all definitions and synonyms), and RCT/review/meta-analysis. </plain></SENT>
+<SENT sid="49" pm="."><plain>The search was last updated on November 3, 2014 by CRB. </plain></SENT>
+<SENT sid="50" pm="."><plain>The comprehensive search strategy is provided in Multimedia Appendix 2. </plain></SENT>
+<SENT sid="51" pm="."><plain>Studies were included if (1) they were on Web-based interventions targeting cardiovascular risk factors and/or disease, (2) study design was a RCT, (3) at least 50 patients were included, (4) mean age was at least 50 years, (5) the duration of the intervention was 4 or more weeks and follow-up was 3 or more months, (6) at least one of the outcomes of our interest was reported, and (7) language was English. </plain></SENT>
+<SENT sid="52" pm="."><plain>Study selection was performed by two independent researchers (CRB and BS) by means of screening of titles and abstracts, and thereafter reading full texts on the basis of the inclusion criteria. </plain></SENT>
+<SENT sid="53" pm="."><plain>If two publications described the same trial, the paper that reported the primary outcomes of the trial was included. </plain></SENT>
+<SENT sid="54" pm="."><plain>Disagreements were resolved by discussion or by a third investigator (ER). </plain></SENT>
+<SENT sid="55" pm="."><plain>We assessed reviews and meta-analyses encountered with our search strategy to check for additional relevant articles. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="56" pm="."><plain>Data Extraction </plain></SENT>
+</text></title><p><text><SENT sid="57" pm="."><plain>Two reviewers (BS and CRB) extracted data using a predefined data extraction form (Multimedia Appendix 3) for half of the included articles and checked each other’s results. </plain></SENT>
+<SENT sid="58" pm="."><plain>Extracted information included study characteristics, patient baseline characteristics, characteristics of the intervention and control conditions, and available data on clinical and intermediate outcomes. </plain></SENT>
+<SENT sid="59" pm="."><plain>For BP, glucose control, weight, lipids, and physical activity level, we extracted all baseline and follow-up levels, change scores or mean differences. </plain></SENT>
+<SENT sid="60" pm="."><plain>Corresponding authors were contacted if needed. </plain></SENT>
+<SENT sid="61" pm="."><plain>We used an adapted Cochrane Risk of Bias Tool to evaluate randomization procedures, representativeness of study populations, blinding of outcome assessors (blinding of participants was usually not possible due to study design), completeness of outcome data, and completeness of reporting. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="62" pm="."><plain>Meta-Analysis </plain></SENT>
+</text></title><p><text><SENT sid="63" pm="."><plain>For categorical variables, we calculated odds ratios with 95% confidence intervals. </plain></SENT>
+<SENT sid="64" pm="."><plain>We estimated pooled odds ratios with Mantel-Haenszel random-effects models. </plain></SENT>
+<SENT sid="65" pm="."><plain>For continuous outcomes, mean differences or standardized mean differences (Hedges’ g effect sizes) with 95% confidence intervals were calculated. </plain></SENT>
+<SENT sid="66" pm="."><plain>We estimated pooled effects with DerSimonian and Laird random-effects models. </plain></SENT>
+<SENT sid="67" pm="."><plain>All HbA1c values were converted to percentages. </plain></SENT>
+<SENT sid="68" pm="."><plain>All LDL cholesterol values were converted to mg/dL. </plain></SENT>
+<SENT sid="69" pm="."><plain>All weight values were converted to kg. </plain></SENT>
+<SENT sid="70" pm="."><plain>For level of physical activity, which was assessed with various instruments, we calculated standardized mean differences and 95% confidence intervals. </plain></SENT>
+<SENT sid="71" pm="."><plain>If mean differences or standardized mean differences were reported, we included them directly in the pooled analyses. </plain></SENT>
+<SENT sid="72" pm="."><plain>If not, we calculated change scores (difference between baseline and follow-up within group) or values assessed at follow-up. </plain></SENT>
+<SENT sid="73" pm="."><plain>If values were measured at multiple time points, we used the values recorded at the last follow-up contact. </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>For studies with multiple arms, we included only one intervention arm in the meta-analysis in order not to create “unit-of-analysis” error by double counting the control group. </plain></SENT>
+<SENT sid="75" pm="."><plain>Where possible, we selected the Internet-only intervention arm. </plain></SENT>
+<SENT sid="76" pm="."><plain>No data were imputed. </plain></SENT>
+</text></p><p><text><SENT sid="77" pm="."><plain>We estimated pooled effects for all single cardiovascular risk factors. </plain></SENT>
+<SENT sid="78" pm="."><plain>To address the overall question of efficacy of Web-based interventions for cardiovascular risk factor management, we evaluated the effect on cardiovascular composite scores, clinical outcomes (cardiovascular morbidity and mortality), and pooled the standardized primary outcomes of all studies. </plain></SENT>
+<SENT sid="79" pm="."><plain>We used the primary outcomes as defined by the authors of the studies. </plain></SENT>
+</text></p><p><text><SENT sid="80" pm="."><plain>Funnel plots were inspected to assess for potential publication bias. </plain></SENT>
+<SENT sid="81" pm="."><plain>Statistical heterogeneity was assessed using Q and I2 tests. </plain></SENT>
+<SENT sid="82" pm="."><plain>We explored reasons for heterogeneity by jackknife analysis and subgroup analyses. </plain></SENT>
+<SENT sid="83" pm="."><plain>We assessed the following factors in subgroup analyses: study duration (predefined, short term [&lt;12 months] versus long term [≥12 months]), type of cardiovascular prevention (primary versus secondary) [22], and type of intervention (Internet only or “blended” [Internet application combined with human support]). </plain></SENT>
+<SENT sid="84" pm="."><plain>Subgroup analyses were performed on the studies used for the analysis on primary outcomes only. </plain></SENT>
+<SENT sid="85" pm="."><plain>The latter subgroup analysis (on type of intervention) consisted of two separate analyses, one to evaluate the Internet-only interventions versus the control conditions and one to evaluate the blended interventions versus control conditions. </plain></SENT>
+<SENT sid="86" pm="."><plain>In case a study tested both types of interventions with a multiple-arm design, the appropriate arm was included for each analysis. </plain></SENT>
+<SENT sid="87" pm="."><plain>In addition, we performed a mixed effects meta-regression using the unrestricted maximum likelihood method to explore the association between study duration and effect size (standardized primary outcome). </plain></SENT>
+<SENT sid="88" pm="."><plain>Last, we performed sensitivity analyses for the different domains of the risk-of-bias assessment by repeating the analysis on standardized primary outcomes in subgroups of studies with low risk of bias versus studies with an unclear or high risk of bias. </plain></SENT>
+<SENT sid="89" pm="."><plain>For this analysis, we wanted to include all studies that contributed to one of the meta-analyses. </plain></SENT>
+<SENT sid="90" pm="."><plain>Therefore, we complemented the sample of studies with defined primary outcomes that were cardiovascular risk factors of interest with studies that had not defined their primary outcome. </plain></SENT>
+<SENT sid="91" pm="."><plain>If there was no defined primary outcome, we used the cardiovascular risk factor that was targeted most directly in the intervention studied. </plain></SENT>
+<SENT sid="92" pm="."><plain>We used Review Manager 5.2 to draw the risk-of-bias assessment figure and to calculate standard deviations or 95% confidence intervals in cases where only standard errors were available in the original data. </plain></SENT>
+<SENT sid="93" pm="."><plain>We used Microsoft Office Excel version 10, SPSS version 20, and Comprehensive Meta Analysis version 2.2.064 for the statistical analyses. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results"><title><text><SENT sid="94" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="95" pm="."><plain>Study Selection </plain></SENT>
+</text></title><p><text><SENT sid="96" pm="."><plain>The search yielded 5251 papers after removal of duplicates. </plain></SENT>
+<SENT sid="97" pm="."><plain>We did not identify additional studies by searching reference lists. </plain></SENT>
+<SENT sid="98" pm="."><plain>After screening of titles and abstracts, 462 papers remained. </plain></SENT>
+<SENT sid="99" pm="."><plain>Review of these full texts resulted in 57 RCTs (corresponding with 84 papers) that fulfilled the selection criteria and were included in the systematic review. </plain></SENT>
+<SENT sid="100" pm="."><plain>We contacted 16 authors to request additional data: nine authors responded and three authors complied with our request. </plain></SENT>
+<SENT sid="101" pm="."><plain>Out of this final selection, 47 studies could be included in the meta-analysis (see Figure 1 for PRISMA flowchart). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="figure1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="102" pm="."><plain>Prisma flowchart illustrating literature search. </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig1"/></fig></SecTag></sec><sec><title><text><SENT sid="103" pm="."><plain>Study Characteristics </plain></SENT>
+</text></title><p><text><SENT sid="104" pm="."><plain>The 57 RCTs included 19,862 individuals (Tables 1-5). </plain></SENT>
+<SENT sid="105" pm="."><plain>Study sample size ranged from 61 to 2140 participants. </plain></SENT>
+<SENT sid="106" pm="."><plain>Median study duration was 9 months (interquartile range [IQR] 6, range 3-60 months). </plain></SENT>
+<SENT sid="107" pm="."><plain>The mean dropout rate was 15% (range 0%-62%). </plain></SENT>
+<SENT sid="108" pm="."><plain>The mean age of the study populations ranged from 50 to 71 years. </plain></SENT>
+<SENT sid="109" pm="."><plain>In only 7 studies were all participants older than 50 years of age. </plain></SENT>
+<SENT sid="110" pm="."><plain>All participants had an increased risk of cardiovascular disease: 46 studies conducted primary prevention (control of cardiovascular risk factors or diabetes) and 11 studies conducted secondary prevention. </plain></SENT>
+<SENT sid="111" pm="."><plain>In 41 studies, the intervention targeted a single cardiovascular risk factor; in 16 studies, multiple risk factors were addressed. </plain></SENT>
+<SENT sid="112" pm="."><plain>We found no studies on interventions for smoking cessation meeting our inclusion criteria. </plain></SENT>
+<SENT sid="113" pm="."><plain>In most studies, the primary outcome was change in a specific cardiovascular risk factor targeted by the intervention. </plain></SENT>
+<SENT sid="114" pm="."><plain>Sixteen studies reported on clinical outcomes including new cardiovascular events [26-31] and mortality rates [29-41] as a part of adverse event monitoring. </plain></SENT>
+<SENT sid="115" pm="."><plain>All interventions included lifestyle education and were participant-centered. </plain></SENT>
+<SENT sid="116" pm="."><plain>Forty-four studies stimulated self-management by means of goal setting and self-monitoring. </plain></SENT>
+<SENT sid="117" pm="."><plain>Half of interventions were stand-alone Internet platforms and the other half were “blended” (ie, the platforms were supported by a nurse or another health care professional). </plain></SENT>
+<SENT sid="118" pm="."><plain>Intervention usage was reported by 22 studies. </plain></SENT>
+<SENT sid="119" pm="."><plain>The median percentage of participants logging in to the intervention platform was 72% (range 33%-100%). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="120" pm="."><plain>Quality Assessment </plain></SENT>
+</text></title><p><text><SENT sid="121" pm="."><plain>Methodological quality of the included studies varied (Multimedia Appendix 4). </plain></SENT>
+<SENT sid="122" pm="."><plain>Most studies adequately described the randomization and allocation concealment procedures. </plain></SENT>
+<SENT sid="123" pm="."><plain>Due to the nature of the interventions, none of the studies had a double-blind design. </plain></SENT>
+<SENT sid="124" pm="."><plain>In 20 studies, outcome assessors were blinded [27,29,30,32,34-40,42,52,54,57,59,61,64,67,81], in 19 studies blinding was not mentioned or unclear [28,31,33,41,43,44,46,48,53,56,60,63,65,69,71,74,76,77,80], and in 18 studies outcome assessors were not blinded [26,45,47,49-51,55,58,62,66,68,70,72,73,75,78,79,82]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="125" pm="."><plain>Effect of Web-Based Interventions on Single Risk Factors </plain></SENT>
+</text></title><p><text><SENT sid="126" pm="."><plain>Of the 57 studies included in the systemic review, 47 studies [26-32,34-42,44-53,55-60,62,64-68,70,73,74,76-79,81,82] provided sufficient information to be included in the meta-analysis. </plain></SENT>
+<SENT sid="127" pm="."><plain>The mean age of the study populations of these 46 studies had the same range as the complete sample of 57 studies. </plain></SENT>
+</text></p><sec><title><text><SENT sid="128" pm="."><plain>Systolic and Diastolic Blood Pressure </plain></SENT>
+</text></title><p><text><SENT sid="129" pm="."><plain>The pooled analysis showed a significant reduction in both systolic and diastolic BP favoring the intervention (26 studies; n=7720; Figures 2 and 3). </plain></SENT>
+<SENT sid="130" pm="."><plain>For systolic BP, the weighted mean difference was –2.66 mmHg (95% CI –3.81 to –1.52; I2=53%). </plain></SENT>
+<SENT sid="131" pm="."><plain>For diastolic BP, the weighted mean difference was –1.26 mmHg (95% CI –1.92 to –0.60; I2=46%). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="table1" position="float"><label>Table 1</label><caption><p><text><SENT sid="132" pm="."><plain>Characteristics of the studies included for the systematic review: interventions targeting diabetes.a </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" width="792" border="1" cellpadding="1" cellspacing="0"><col width="65" span="1"/><col width="67" span="1"/><col width="139" span="1"/><col width="82" span="1"/><col width="52" span="1"/><col width="160" span="1"/><col width="113" span="1"/><col width="96" span="1"/><thead><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>Study </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>Setting and study length </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>Participants </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>Age (years), mean (SD) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>Sex (% female) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>Intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>Control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>Primary; secondary outcomes </plain></SENT>
+</text></td></tr></thead><tbody><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>Bond 2010 [42] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>2-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>62 people with DM via university/veteran clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>67.2 (6.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>45 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>Website: education, self-monitoring (glucose, exercise, weight, BP, medication), forum; nurse support (email, chat) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>Standard diabetes care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>HbA1c, BP, weight, total cholesterol, HDL cholesterol </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>IDEATEL 2000-2010 [34] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>2-arm RCT; USA; 60 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>1665 Medicare recipients with DM </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>70.9 (6.7) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>63 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>Online home telemedicine unit: nurse support (video chat), Web portal for self-monitoring (glucose, BP), education </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>Standard diabetes care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>HbA1c, systolic BP, diastolic BP, total cholesterol, LDL cholesterol </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>D-net 2001 [43] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>4-arm RCT; USA; 10 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>320 people with DM2, Internet, from 16 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>59 (9.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>53 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>Website: (1) Self-management (glucose), coach support; (2) education, forum; (3) 1 and 2 combinedb </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>(4) Information on medical and lifestyle aspects of diabetes </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>Not defined; behavioral, biological, and psychosocial outcomes </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>My path 2010 [44] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>3-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>463 Medicare recipients with DM2, BMI ≥25 kg/m2 or ≥1 CV risk factor, Internet </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>58.4 (9.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>50 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>(1) Website for computer-assisted self-management(CASM): goal setting, monitoring (HbA1c, BP, cholesterol), forum, education;b,c (2) CASM+ social support (coach, group sessions)b,c </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>(3) Computer-based health risk appraisal, no key features of CASM </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>Behavior changes in diet, physical activity, medication adherence </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>My care team 2005 [45] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>2-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>104 people with DM, HbA1c ≥9.0% via veteran clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>63.5 (7.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>0.5 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>Website: self-management (glucose, BP), education, reminders (phone); care manager support </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>DM self-management training, usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>HbA1c and BP at 3, 6, 9, and 12 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>Mobile DM 2011 [32] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>4-arm cluster RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>26 physician practices with 163 people with DM and HbA1c ≥7.5% </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>52.8 (8.1) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>50 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>(2) Self-management via website + mobile phone, patient informs doctor;b (3) 2 + doctor access to data; (4) 3 + advice from doctorc </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>(1) Care as usual </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>Change in HbA1c over 1 year </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>Avdal 2011 [46] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>2-arm RCT; Turkey; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>122 people with DM2, Internet from clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>51 (7.3) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>51 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>Website: review risk profile, messaging to researcher, daily glucose monitoring </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>Education and usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>HbA1c, attendance rates at outpatient clinic </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>Cho 2006 [47] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>2-arm RCT; South Korea; 30 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>80 people with DM, Internet from clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>53 (9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>39 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>Website: monitoring (glucose, medication, BP, weight, lifestyle), nurse feedback, medication alterations </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>Conventional note-keeping record system </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>HbA1c and HbA1c fluctuation index </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>Lorig 2010 [48] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>3-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>761 people with DM2, Internet </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>54.3 (9.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>73 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>Self-management website with peer support: lessons, action plans, bulletin board, messaging </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>Care as usual </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>HbA1C level at 6 and 18 months </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>Grant 2008 [49] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>2-arm cluster RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>244 people with DM, HbA1c &gt;7.0% from 11 primary clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>56.1 (11.6) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>49 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>Online personal health record: education, diabetes care plan, agenda, messaging, prescription refills </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>Access to general website Patient Gateway </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>Changes in HbA1c, BP, and LDL cholesterol </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>McMahon 2012 [50] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>3-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>151 people with DM, HbA1c&gt;8.5% from veteran health services </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>60.2 (10.8) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>5 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>(1) Self-monitoring via phone (BP, glucose); (2) website: self-monitoring (BP, glucose), education, support by care managersb,c </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>(3) Website with links to other DM websites; usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>Change in HbA1c and BP over time </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>Ralston 2009 [51] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>2-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>83 people with DM2, HbA1c≥7.0% and Internet from clinic: 65% with 2 CV risk factors </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>57.3 (—) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>52 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>Electronic medical record: self-monitoring (glucose, exercise, diet, medication), support by care manager, usual care visits </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>Usual care visits </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>Change in HbA1c </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>Kwon 2004 [52] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>2-arm RCT; South Korea; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>110 people with DM2, Internet from clinic: 27% hypertension </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>54.1 (9.1) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>33 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>Website: self-monitoring (glucose), reminders, professor/nurse/dietician-support </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>Monthly visit to diabetes specialist </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>HbA1c </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>EMPOWER-D 2013 [39] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>2-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>415 people with DM and HbA1c ≥7.5% from clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>53.7 (10.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>40 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>Online health record: risk estimation, self-monitoring (glucose, diet, exercise, BP), nurse support, own doctor informed </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>HbA1c at 12 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>REDEEM 2013 [53] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>3-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>392 people with DM2, Internet from community centers </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>56.1 (9.6) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>54 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>(1) CASM website: goal setting; self-monitoring (HbA1c, BP, cholesterol); 8 phone calls;b (2) Computer-assisted self-management + problem solving treatment (CASP): CASM + 8 sessions problem solving </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>Computer health risk appraisal, education, same phone calls as intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>Diabetes distress; HbA1c, physical activity, medication compliance </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="table1fn1"><p><text><SENT sid="261" pm="."><plain>a Abbreviations: BP: blood pressure; CASM: computer-assisted self-management; CASP: computer-assisted self-management + problem solving treatment; CV: cardiovascular; DM: diabetes mellitus; DM2: type 2 diabetes mellitus; GP: general practitioner; HbA1c; glycated <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> A1c; HDL: <z:uniprot sup="inside" fb="0" ids="P81182">high-density lipoprotein</z:uniprot>; LDL: low-density lipoprotein. </plain></SENT>
+</text></p></fn><fn id="table1fn2"><p><text><SENT sid="262" pm="."><plain>b For studies with more than 2 arms, this arm was used for all analyses. </plain></SENT>
+</text></p></fn><fn id="table1fn3"><p><text><SENT sid="263" pm="."><plain>c For studies with more than 2 arms, this arm was used for the subgroup analysis on blended interventions. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="FIG"><fig id="figure2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="264" pm="."><plain>Effect on systolic blood pressure (26 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig2"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="table2" position="float"><label>Table 2</label><caption><p><text><SENT sid="265" pm="."><plain>Characteristics of the studies included for the systematic review: interventions targeting blood pressure.a </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" width="792" border="1" cellpadding="1" cellspacing="0"><col width="65" span="1"/><col width="67" span="1"/><col width="139" span="1"/><col width="82" span="1"/><col width="52" span="1"/><col width="160" span="1"/><col width="113" span="1"/><col width="96" span="1"/><thead><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>Study </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>Setting and study length </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>Participants </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>Age (years), mean (SD) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>Sex (% female) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>Intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>Control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>Primary; secondary outcomes </plain></SENT>
+</text></td></tr></thead><tbody><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>e-BP 2008 [29] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>3-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>778 people with Internet, hypertension, from GPs: 61.1% obese </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>59.1 (8.5) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>52 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>(1) Website: BP self-monitoring;b (2) 1 + pharmacist supportc </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>General website: personal medical record </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>Change in diastolic, systolic and mean BP </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>Nolan 2012 [54] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>2-arm RCT; Canada; 4 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>387 people with hypertension via website: 41% obese </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>56.5 (7.4) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>59 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>BP action plan website: assessing motivational readiness, advice, feedback, education </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>E-newsletters </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>Change in diastolic and systolic BP, and pulse pressure </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>Bove 2013 [55] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>2-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>241 people with elevated BP from 2 clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>59.6 (13.6) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>65 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>Website + telephone system: education, self-monitoring (BP, weight, exercise), online nurse support, doctor informed </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>Provision of data from initial assessment, usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>Proportion of participants with controlled BP at 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>Madsen 2008 [56] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>2-arm RCT; Denmark; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>236 people with hypertension from 10 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>55.9 (11.7) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>50 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>Website: self-monitoring (BP), feedback from own doctor by email </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>Change in ambulatory systolic BP -at 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>Magid 2013 [57] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>2-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>348 people with hypertension from 10 clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>60 (11) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>40 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>Written educational material, website: self-monitoring (BP), pharmacist support, doctor informed, reminders </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>Written education material, usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>Proportion of participants with controlled BP at 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>McKinstry 2013 [38] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>2-arm RCT; Scotland; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>401 people with hypertension from 20 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>60.7 (11.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>40 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>Telemonitoring unit + website: self-monitoring (BP), feedback from own doctor </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>Mean ambulatory BP at 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>Thiboutot 2013 [58] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>2-arm cluster RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>500 patients with elevated BP from 54 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>60.5 (11.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>58 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>Website: self-monitoring (BP, medication), feedback, reminders </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>Different prevention website (eg, breast screening) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>BP control at 12 m </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="table2fn1"><p><text><SENT sid="330" pm="."><plain>a Abbreviations: BP: blood pressure; GP: general practitioner. </plain></SENT>
+</text></p></fn><fn id="table2fn2"><p><text><SENT sid="331" pm="."><plain>b For studies with more than 2 arms, this arm was used for all analyses. </plain></SENT>
+</text></p></fn><fn id="table2fn3"><p><text><SENT sid="332" pm="."><plain>c For studies with more than 2 arms, this arm was used for the subgroup analysis on blended interventions. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="table3" position="float"><label>Table 3</label><caption><p><text><SENT sid="333" pm="."><plain>Characteristics of the studies included for the systematic review: interventions targeting weight loss and weight loss maintenance.a </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" width="802" border="1" cellpadding="1" cellspacing="0"><col width="10" span="1"/><col width="80" span="1"/><col width="67" span="1"/><col width="139" span="1"/><col width="82" span="1"/><col width="52" span="1"/><col width="160" span="1"/><col width="113" span="1"/><col width="96" span="1"/><thead><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="334" pm="."><plain>Study </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>Setting and study length </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>Participants </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>Age (years), mean (SD) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>Sex (% female) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>Intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>Control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>Primary; secondary outcomes </plain></SENT>
+</text></td></tr></thead><tbody><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="342" pm="."><plain>Weight loss </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>Appel 2011 [35] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>3-arm RCT; USA; 24 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>415 people with obesity, ≥1 CV risk factor, Internet from 6 primary clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>54 (10.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>64 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>(1) Website + mobile coach support: education, self-monitoring (weight, diet, exercise), reminders, doctor informed;b,c (2) 1 + in-person support </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>1 (or 2) meetings with coach; brochure with websites for weight loss </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>Change in weight from baseline to 24 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>Bennett 2012 [28] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>2-arm RCT; USA; 24 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>365 obese people with hypertension from 3 clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>54.6 (10.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>69 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>Website/interactive voice response system: self-monitoring weight, setting, coach support (phone), group sessions, education </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>Self-help booklet </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>Change in weight at 24 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>Bennett 2010 [59] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>2-arm RCT; USA; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>101 obese people with hypertension, Internet from clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>54.4 (8.1) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>48 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>Website: goal setting, self-monitoring, behavioral skills education, forum, coach support (online, phone, face-to-face) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>Folder on healthy weight, usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>Change in weight at 12 weeks </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>Kraschnewsky 2011 [60] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>2-arm RCT; USA; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>100 overweight people, Internet via flyers/Internet </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>50.3 (10.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>70 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>Website: target body weight, monitoring, behavioral tips, videos, weight loss plan, tailored feedback, reminders </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>Wait list, people got access to website after 12 weeks </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>Weight loss </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>Webberd 2008 [61] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>2-arm RCT; USA; 4 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>66 women, BMI 25-40, Internet from advertisements </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>50.0 (9.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>100 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>Website: weight loss tips, lessons, message board, self-monitoring (weight, diet), chat sessions </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>All features of intervention except for online chat sessions </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>Not defined; weight, BMI, diet, exercise </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>E-LITE 2013 [36] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>3-arm RCT; USA; 15 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>241 people with a BMI ≥25, metabolic syndrome from 1 clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>52.9 (10.6) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>47 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>(1) Website + 12 lifestyle classes;c (2) website: self-monitoring (weight, exercise), messaging, DVD with lifestyle classesb </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>Change in BMI from baseline to 15 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>POWER 2014 [62] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>4-arm RCT; UK; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>179 people with BMI ≥30 kg/m2 or ≥28 kg/m2 + CV risk factors from 5 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>51.2 (13.1) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>66 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>(1) Website: 12 self-management sessions monitoring (weight), nurse support (email);b,c (2) 1 + 3 nurse contacts; (3) 1 + 7 nurse contacts </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>Weight at 12 m </plain></SENT>
+</text></td></tr><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="413" pm="."><plain>Weight loss maintenance </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>Stop Regain 2008 [41] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>3-arm RCT; USA; 18 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>314 people with 10% weight loss in 2 years, via advertisements </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>51 (10) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>81 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>(1) Website: self-monitoring, email counseling, experts chat;b (2) face-to-face: self-monitoring via phone, weekly group sessions </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>(3) Newsletters </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>Weight gain at 18 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>WLM 2008 [40] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>2-phase 3-arm RCT; USA; 30 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>1032 people with ≥4 kg previous weight loss, hypertension, Internet via university/ medicare </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>55.6 (8.7) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>63 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>(1) Website: goal setting, action plans, self-monitoring (weight, PA, diet), education, bulletin board, reminders, support (email/phone);b (2) personal contact (phone +face-to-face) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>Printed lifestyle guidelines, 1 visit with coach </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>Change in weight </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="table3fn1"><p><text><SENT sid="439" pm="."><plain>a Abbreviations: BMI: body mass index; CV: cardiovascular; GP: general practitioner; PA: physical activity. </plain></SENT>
+</text></p></fn><fn id="table3fn2"><p><text><SENT sid="440" pm="."><plain>b For studies with more than 2 arms, this arm was used for all analyses. </plain></SENT>
+</text></p></fn><fn id="table3fn3"><p><text><SENT sid="441" pm="."><plain>c For studies with more than 2 arms, this arm was used for the subgroup analysis on blended interventions. </plain></SENT>
+</text></p></fn><fn id="table3fn4"><p><text><SENT sid="442" pm="."><plain>d Control arm consists of same interactive Internet platform as intervention arm. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="table4" position="float"><label>Table 4</label><caption><p><text><SENT sid="443" pm="."><plain>Characteristics of the studies included for the systematic review: interventions targeting physical activity and cholesterol.a </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" width="802" border="1" cellpadding="1" cellspacing="0"><col width="6" span="1"/><col width="66" span="1"/><col width="67" span="1"/><col width="139" span="1"/><col width="82" span="1"/><col width="52" span="1"/><col width="160" span="1"/><col width="113" span="1"/><col width="96" span="1"/><thead><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="444" pm="."><plain>Study </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>Setting and study length </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>Participants </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>Age (years), mean (SD) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>Sex (% female) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>Intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>Control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>Primary; secondary outcomes </plain></SENT>
+</text></td></tr></thead><tbody><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="452" pm="."><plain>Physical activity </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>Richardsonb 2010 [63] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>2-arm RCT; USA; 4 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>324 patients from clinic: 12% CHD, 20% DM2, 62% BMI &gt;30 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>52.0 (11.4) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>65 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>Website as control + online community forum </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>Website: pedometer, tailored feedback </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>Change in average daily step count, patient attrition </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>Reid 2011 [30] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>2-arm RCT; Canada; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>223 patients with a recent CHD event, Internet via 2 cardiac centers </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>56.4 (9.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>16 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>Website: tutorials, exercise plans, self-monitoring, specialist support </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>Usual care, education booklet </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>Mean steps per day </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>Ferney 2009 [64] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>2-arm RCT; Australia; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>106 inactive residents: 58% overweight </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>52.0 (4.6) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>72 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>Website: behavioral strategies, goal setting, self-monitoring, advice, bulletin board, news </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>Website with minimal interactivity </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>Not defined; physical activity, website use </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>Active after 55 2013 [65] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>2-arm RCT; USA; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>405 sedentary people with Internet via senior centers/websites </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>60.3 (4.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>69 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>Website: education, goal setting, exercise planning, 11 online exercise lessons, self-monitoring, reminders </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>No access to the intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>Not defined; physical activity, BMI </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>HEART 2014 [37] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>2-arm RCT; New Zealand; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>171 people with stable CHD, Internet from 2 hospitals </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>60.2 (9.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>19 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>Exercise prescription, behavioral strategies, Website: videos, self-monitoring (exercise), education, reminders </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>Change in peak oxygen uptake from baseline to 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>Philips Direct Life 2013 [66] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>2-arm RCT; Netherlands; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>235 inactive people with Internet through local media </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>64.8 (2.9) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>41 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>Website: goal setting, self-monitoring (exercise), e-coach feedback </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>Waitlist control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>Change in physical activity </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>Suboc 2014 [67] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>3-arm RCT; USA; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>114 sedentary people through media and Internet </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>63.0 (7.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>34 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>(1) Pedometer; (2) website + pedometer: exercise strategies, goal setting, self-monitoring (exercise) feedback, forumc </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>No intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>Endothelial function; vascular stiffness, step count, exercise </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>Peels 2013 [68] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>5-arm cluster RCT; Netherlands; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>2140 people from 6 municipal regions, ±50% overweight </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>63.2 (8.4) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>51 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>(1) Printed feedback report; (2) 1 + local exercise tips; (3) Web-based feedback report; (4) 3 + local exercise tipsc </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>Waitlist control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>Physical activity </plain></SENT>
+</text></td></tr><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="532" pm="."><plain>Cholesterol </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>Blochb 2006 [69] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>3-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>171 employees with increased cholesterol, DM or CHD </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>54.8 (9.4) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>— </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>(1) Website + financial reward; (2) website + 4 classes, nurse support (phone) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>Website, 10-year CVD score, monitoring, goals, tailored info </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>LDL cholesterol change at 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>Live well 2013 [70] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>2-arm RCT; USA; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>61 people with LDL cholesterol ≥3.37 mmol/L, Internet from primary clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>52.0 (12.8) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>75 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>Web-based rate-your-plate assessment, written educational material, Website: goal setting, self-monitoring, reminders </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>Web-based rate-your-plate assessment </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>Not defined; cholesterol, weight, Framingham risk score </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="table4fn1"><p><text><SENT sid="558" pm="."><plain>a Abbreviations: BMI: body mass index; CHD: coronary heart disease; CVD: cardiovascular disease; DM: diabetes mellitus; DM2: type 2 diabetes mellitus; LDL: low-density lipoprotein. </plain></SENT>
+</text></p></fn><fn id="table4fn2"><p><text><SENT sid="559" pm="."><plain>b Control arm consists of same interactive Internet platform as intervention arm. </plain></SENT>
+</text></p></fn><fn id="table4fn3"><p><text><SENT sid="560" pm="."><plain>c For studies with more than 2 arms, this arm was used for all analyses. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="table5" position="float"><label>Table 5</label><caption><p><text><SENT sid="561" pm="."><plain>Characteristics of the studies included for the systematic review: interventions targeting multiple risk factors.a </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" width="794" border="1" cellpadding="1" cellspacing="0"><col width="65" span="1"/><col width="70" span="1"/><col width="136" span="1"/><col width="82" span="1"/><col width="52" span="1"/><col width="160" span="1"/><col width="112" span="1"/><col width="100" span="1"/><thead><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>Study </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>Setting and study length </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>Participants </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>Age (years), mean (SD) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>Sex (% female) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>Intervention </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>Control </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>Primary; secondary outcomes </plain></SENT>
+</text></td></tr></thead><tbody><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>Lindsay 2008 [71] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>2-arm RCT; UK; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>108 heart patients living in deprived areas </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>62.9 (6.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>33 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>eHealth portal: glossary, education, local community links, discussion forum </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>No access to the eHealth portal </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>Not defined; behavior change (exercise, smoking, diet) </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>Heartcare II 2010 [72] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>2-arm cluster RCT; USA; 30 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>282 patients with chronic heart disease needing nursing care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>64.0 (12.7) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>39 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>Personal health record: education, monitoring, communication, goal setting, email, bulletin board </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>Usual care as the home care agencies use to provide </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>Satisfaction with nursing care </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>Hughes 2011 [73] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>3-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>423 senior university employees with Internet, 32% overweight, 46% obese </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>51.0 (7.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>82 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>(1) Coach for Web-based risk assessment, lifestyle plan, email, phone or in-person contact;c (2) website: risk profile assessment, advice, goal setting, action planningb </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>Printed list of health promotion programs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>Not defined; diet, exercise, weight </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>Southard 2003 [26] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>2-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>104 patients with CHD or heart failure from 10 hospitals, 200 GPs, adverts </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>62.3 (10.6) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>25 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>Website + nurse: education, self-monitoring, discussion group, links contact (email, phone or mail), dietician </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>Not defined; weight, exercise, BP, lipid profile, new CV events </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>Winett 2007 [74] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>3-arm cluster RCT; USA; 16 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>14 churches with 1071 members: 57% overweight, 60% sedentary </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>51.4 (15.7) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>67 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>(1) Website: education, goal setting, pedometer;b (2) 1 + pulpit supportc </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>Waitlist condition </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>Nutrition improvement, physical activity </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>Vernooij 2012 [27] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>2-arm RCT; Netherlands; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>330 patients with CVD, 2 risk factors, Internet via 2 hospitals </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>59.9 (8.4) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>25 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Website: risk profile, self-monitoring (BP, cholesterol), treatment goal, nurse support, news, medication changes </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>Usual care by specialist or GP, receiving baseline risk profile </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>Relative change in Framingham heart risk score after 1 year </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>Verheijden 2004 [75] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>2-arm RCT; Canada; 8 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>146 people with increased CV risk, Internet from 14 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>63.0 (10.5) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>45 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>Website: tailored information, diet tool, bulletin board </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>Not defined; BMI, BP, lipid profile </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>Ross 2004 [33] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>2-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>107 patients with heart failure, Internet via clinic </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>56.0 (-) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>23 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>Online medical record (clinical notes, laboratory reports, test results), education, nurse support </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>Change in self-efficacy domain </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>Bove 2011 [76] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>2-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>465 people with CVD risk &gt;10% via community, clinics, churches </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>61.0 (10.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>46 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>Online telemedicine system: laboratory and medication review, self-monitoring (BP, weight, pedometer), feedback, education, own doctor involved </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>4-months meetings with nurse: review data from logbooks </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>Reduction in Framingham 10-year CVD risk score </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>Keyserling 2014 [31] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>2-arm RCT; USA; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>385 people with CHD risk score ≥10% but no CVD from 5 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>62.0 (7.8) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>48 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>Website: CHD risk calculator, advice, education, action planning, goal setting. </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>Same CHD risk calculator, but in-person and by phone </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>Framingham 10-year CHD risk score at 4 and 12 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>Zullig 2014 [77] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>2-arm RCT; USA; 3 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>96 people with CVD or DM from primary clinics </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>36.1 (12.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>67 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>CVD risk assessment, website: 6 modules with risk assessments, goal setting, education </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>Printed information on CVD </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>Not defined; Framingham 10-year CVD risk score, BMI, smoking status, systolic BP </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>Activate your Heart 2014 [78] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>2-arm RCT; UK; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>95 people with stable angina, Internet from 9 GPs </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>66.2 (9.2) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>25 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>Website: CVD risk assessment, education, goal setting, self-monitoring, email/chat with experts </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>Usual care with GP </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>Change in step count at 6 weeks and 6 m </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>e-Care 2014 [79] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>2-arm RCT USA 6m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>101 people with BMI &gt;26, elevated BP via electronic health records </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>56.9 (7.0) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>42 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>Website + dietician: CVD risk assessment, goal setting, action planning, self-monitoring (weight, BP, physical activity, diet) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>Usual care, printed report for patient and doctor </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>Change in systolic BP, weight and 10-year CVD risk score </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>Greene 2012 [80] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>2-arm RCT; USA; 6 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>513 employees + families 45% overweight and 48% obese </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>60% older than 50 years </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>79 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>Printed lifestyle guide, website: online social network, self-monitoring (weight, exercise), goal setting, feedback </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>Printed lifestyle guide </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>Not defined; physical activity, weight, lipid profile </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>Holbrook 2009 [81] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>2-arm cluster RCT; Canada; 12 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>46 GPs with 511 people with DM, ≥1 CV risk factor </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>60.7 (12.5) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>49 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>Personal Web-based profile overview for DM/CVRM care, automated telephone reminders, summary for doctor, doctor involved </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>Usual care </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>Composite score for process of care </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>Diabetes in Check 2014 [82] </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>2-arm RCT; Australia; 9 m </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>436 people with DM, Internet via DM network </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>58.2 (10.3) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>48 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>Website: self-monitoring (exercise) goal setting, education, discussion board </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>General website with home page and contacts page only </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>Not defined; physical activity, BMI </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="table5fn1"><p><text><SENT sid="698" pm="."><plain>a Abbreviations: BMI: body mass index; BP: blood pressure; CHD: coronary heart disease; CV: cardiovascular; CVD: cardiovascular disease; CVRM: cardiovascular risk management; DM: diabetes mellitus; GP: general practitioner. </plain></SENT>
+</text></p></fn><fn id="table5fn2"><p><text><SENT sid="699" pm="."><plain>b For studies with more than 2 arms, this arm was used for all analyses. </plain></SENT>
+</text></p></fn><fn id="table5fn3"><p><text><SENT sid="700" pm="."><plain>c For studies with more than 2 arms, this arm was used for the subgroup analysis on blended interventions. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="FIG"><fig id="figure3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="701" pm="."><plain>Effect on diastolic blood pressure (26 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig3"/></fig></SecTag></sec><sec><title><text><SENT sid="702" pm="."><plain>Glycated <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">Hemoglobin</z:uniprot> A1c </plain></SENT>
+</text></title><p><text><SENT sid="703" pm="."><plain>A significant reduction in HbA1c level favoring the intervention among patients with type 2 diabetes mellitus was found (21 studies; n=6518; Figure 4). </plain></SENT>
+<SENT sid="704" pm="."><plain>The weighted mean difference for HbA1c was –0.13% (95% CI –0.22 to –0.05; I2=74%). </plain></SENT>
+<SENT sid="705" pm="."><plain>The jackknife procedure did not reveal one particular study responsible for high heterogeneity. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="figure4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="706" pm="."><plain>Effect on glycated <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> (21 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig4"/></fig></SecTag></sec><sec><title><text><SENT sid="707" pm="."><plain>Weight </plain></SENT>
+</text></title><p><text><SENT sid="708" pm="."><plain>Fifteen studies tested interventions for weight loss and two studies tested interventions for maintenance of weight loss. </plain></SENT>
+<SENT sid="709" pm="."><plain>The pooled analysis (17 studies; n=3713; Figure 5) showed a significant reduction in weight favoring the intervention (weighted mean difference –1.34 kg, 95% CI –1.91 to –0.77; I2=61%). </plain></SENT>
+<SENT sid="710" pm="."><plain>A sensitivity analysis leaving out the two studies on weight loss maintenance resulted in a similar effect size and level of heterogeneity. </plain></SENT>
+<SENT sid="711" pm="."><plain>The jackknife procedure identified three studies contributing considerably to heterogeneity [35,42,59]. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="figure5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="712" pm="."><plain>Effect on weight (17 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig5"/></fig></SecTag></sec><sec><title><text><SENT sid="713" pm="."><plain>Low-Density Lipoprotein Cholesterol </plain></SENT>
+</text></title><p><text><SENT sid="714" pm="."><plain>A small but significant reduction in LDL cholesterol favoring the intervention was found (17 studies; n=5035; Figure 6; weighted mean difference –2.18 mg/dL, 95% CI –3.96 to –0.41; I2=44%). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="figure6" position="float"><label>Figure 6</label><caption><p><text><SENT sid="715" pm="."><plain>Effect on low-density lipoprotein cholesterol (17 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig6"/></fig></SecTag></sec><sec><title><text><SENT sid="716" pm="."><plain>Physical Activity </plain></SENT>
+</text></title><p><text><SENT sid="717" pm="."><plain>Fourteen studies (n=4444; Figure 7) reported the effect on physical activity. </plain></SENT>
+<SENT sid="718" pm="."><plain>Eight studies used self-reported physical activity levels in minutes per week, five studies used daily step counts obtained from pedometers, and one study measured physical activity with accelerometers. </plain></SENT>
+<SENT sid="719" pm="."><plain>Because of the differences in measurement instruments, we calculated standardized mean differences. </plain></SENT>
+<SENT sid="720" pm="."><plain>A small significant difference in increase of physical activity levels was found in favor of the intervention (weighted standardized mean difference 0.25, 95% CI 0.10-0.39; I2=81%), but heterogeneity was high. </plain></SENT>
+<SENT sid="721" pm="."><plain>The jackknife procedure identified one study [65] driving a substantial part of heterogeneity; without this study, I2 was 68%. </plain></SENT>
+</text></p></sec></sec><sec><title><text><SENT sid="722" pm="."><plain>Effect of Web-Based Interventions on Overall Cardiovascular Risk Profile, Cardiovascular Morbidity, and Mortality </plain></SENT>
+</text></title><sec><title><text><SENT sid="723" pm="."><plain>Cardiovascular Composite Scores </plain></SENT>
+</text></title><p><text><SENT sid="724" pm="."><plain>Nine studies (n=2321; Figure 8) reported a cardiovascular composite score. </plain></SENT>
+<SENT sid="725" pm="."><plain>Five studies reported the Framingham 10-year cardiovascular disease risk score, three studies reported the Framingham 10-year coronary heart disease risk score, and one study reported a clinical composite score based on number of cardiovascular risk factors on target (BP, HbA1c, body mass index, LDL cholesterol, physical activity, albuminuria, foot ulcers, and smoking). </plain></SENT>
+<SENT sid="726" pm="."><plain>Because of the differences between the composite scores, we calculated standardized mean differences. </plain></SENT>
+<SENT sid="727" pm="."><plain>A small significant improvement of the cardiovascular composite scores was found (weighted standardized mean difference –0.10, 95% CI –0.18 to –0.02; I2=0%). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="728" pm="."><plain>General Effect of Web-Based Interventions on Cardiovascular Risk Factors </plain></SENT>
+</text></title><p><text><SENT sid="729" pm="."><plain>Finally, we pooled the primary outcomes of the 37 studies (n=11,021; Figure 9) that defined a primary outcome (systolic BP: 7 studies; HbA1c: 13 studies; weight: 8 studies; physical activity: 6 studies; cardiovascular composite score: 3 studies). </plain></SENT>
+<SENT sid="730" pm="."><plain>The weighted standardized mean difference was –0.24 (95% CI –0.31 to –0.16; I2=69%) in favor of the intervention. </plain></SENT>
+<SENT sid="731" pm="."><plain>The jackknife procedure revealed that one study [57] somewhat influenced the heterogeneity; without this study, heterogeneity dropped to 64%. </plain></SENT>
+<SENT sid="732" pm="."><plain>The funnel plot (Multimedia Appendix 5) indicated that small studies reporting large effects might be overrepresented. </plain></SENT>
+<SENT sid="733" pm="."><plain>The Egger’s test confirmed that the funnel plot was not symmetrical (P=.01). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="figure7" position="float"><label>Figure 7</label><caption><p><text><SENT sid="734" pm="."><plain>Effect on physical activity (14 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig7"/></fig></SecTag><SecTag type="FIG"><fig id="figure8" position="float"><label>Figure 8</label><caption><p><text><SENT sid="735" pm="."><plain>Effect on cardiovascular composite scores (9 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig8"/></fig></SecTag><SecTag type="FIG"><fig id="figure9" position="float"><label>Figure 9</label><caption><p><text><SENT sid="736" pm="."><plain>General effect on primary outcomes (37 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig9"/></fig></SecTag></sec><sec><title><text><SENT sid="737" pm="."><plain>Cardiovascular Morbidity and Total Mortality </plain></SENT>
+</text></title><p><text><SENT sid="738" pm="."><plain>Six studies (n=1904; 1 short-term and 5 long-term studies) reported on cardiovascular event rates. </plain></SENT>
+<SENT sid="739" pm="."><plain>The mean length of the studies was 13 months (range 6-24 months). </plain></SENT>
+<SENT sid="740" pm="."><plain>The pooled analysis showed no difference in rate between groups (pooled OR 0.75, 95% CI 0.39-1.42; I2=27%; Figure 10). </plain></SENT>
+<SENT sid="741" pm="."><plain>Total mortality rates were reported in 13 studies; in five studies, no deaths occurred and in the other eight studies, there were no differences between groups. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="figure10" position="float"><label>Figure 10</label><caption><p><text><SENT sid="742" pm="."><plain>Effect on cardiovascular event rates (6 studies). </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig10"/></fig></SecTag><SecTag type="FIG"><fig id="figure11" position="float"><label>Figure 11</label><caption><p><text><SENT sid="743" pm="."><plain>Association between study duration and effect size (Hedges' g). </plain></SENT>
+<SENT sid="744" pm="."><plain>One outlier study (Ideatel) was removed from analysis. </plain></SENT>
+</text></p></caption><graphic xlink:href="jmir_v18i3e55_fig11"/></fig></SecTag></sec></sec><sec><title><text><SENT sid="745" pm="."><plain>Subgroup Analyses </plain></SENT>
+</text></title><p><text><SENT sid="746" pm="."><plain>Results are summarized in Table 6. </plain></SENT>
+<SENT sid="747" pm="."><plain>Within the analysis of pooled primary outcomes, the intervention effect was more pronounced in the short-term studies (15 studies; n=2934; standardized mean difference –0.43, 95% CI –0.57 to –0.29; I2=69%) than in the long-term studies (22 studies; n=8087; standardized mean difference –0.12, 95% CI –0.19 to –0.06; I2=41%). </plain></SENT>
+<SENT sid="748" pm="."><plain>The same pattern was found for all other outcomes except for LDL cholesterol (Multimedia Appendix 6). </plain></SENT>
+<SENT sid="749" pm="."><plain>There were no substantial differences in effect size between studies on primary prevention versus secondary prevention. </plain></SENT>
+<SENT sid="750" pm="."><plain>To further explore the studies targeting primary prevention, we compared studies with populations of relatively low age (not all participants older than 50 years, n=29) with studies with populations of older age (all participants older than 50 years, n=4). </plain></SENT>
+<SENT sid="751" pm="."><plain>The pooled effect size was larger for the studies with older participants (Hedges’ g=–0.30) than for the studies with relatively younger participants (Hedges’ g=–0.23), but the confidence intervals overlapped largely. </plain></SENT>
+<SENT sid="752" pm="."><plain>We repeated the analysis of pooled primary outcomes on the sample of studies testing an Internet-only and a blended intervention. </plain></SENT>
+<SENT sid="753" pm="."><plain>The intervention effect was more pronounced in the sample of blended studies (26 studies; n=7538; standardized mean difference –0.33, 95% CI –0.43 to –0.22; I2=78%) compared to the sample of Internet-only studies (14 studies; n=4280; standardized mean difference –0.15, 95% CI –0.23 to –0.07; I2=40%). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="table6" position="float"><label>Table 6</label><caption><p><text><SENT sid="754" pm="."><plain>Subgroup analyses within the analysis of standardized primary outcomes. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" width="609" border="1" cellpadding="2" cellspacing="0"><col width="14" span="1"/><col width="195" span="1"/><col width="86" span="1"/><col width="92" span="1"/><col width="128" span="1"/><col width="68" span="1"/><thead><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="755" pm="."><plain>Subgroup </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="756" pm="."><plain>N of studies </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="757" pm="."><plain>Hedges’ g </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="758" pm="."><plain>95% CI </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="759" pm="."><plain>I2 </plain></SENT>
+</text></td></tr></thead><tbody><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="760" pm="."><plain>Duration a </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="761" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="762" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="763" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="764" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="765" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="766" pm="."><plain>Short (&lt;12 months) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="767" pm="."><plain>15 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="768" pm="."><plain>–0.43 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="769" pm="."><plain>–0.57, –0.29 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="770" pm="."><plain>69% </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="771" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="772" pm="."><plain>Long (≥12 months) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="773" pm="."><plain>22 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="774" pm="."><plain>–0.12 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="775" pm="."><plain>–0.19, –0.06 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="776" pm="."><plain>41% </plain></SENT>
+</text></td></tr><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="777" pm="."><plain>Type of prevention a </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="778" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="779" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="780" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="781" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="782" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="783" pm="."><plain>Primary (including diabetes control) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="784" pm="."><plain>33 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="785" pm="."><plain>–0.25 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="786" pm="."><plain>–0.32, –0.17 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="787" pm="."><plain>72% </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="788" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="789" pm="."><plain>Secondary </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="790" pm="."><plain>4 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="791" pm="."><plain>–0.20 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="792" pm="."><plain>–0.34, –0.06 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="793" pm="."><plain>0% </plain></SENT>
+</text></td></tr><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="794" pm="."><plain>Primary prevention: age subgroups b </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="795" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="796" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="797" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="798" pm="."><plain> </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="799" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="800" pm="."><plain>Not all older than 50 years </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="801" pm="."><plain>29 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="802" pm="."><plain>–0.23 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="803" pm="."><plain>–0.33, –0.14 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="804" pm="."><plain>72% </plain></SENT>
+</text></td></tr><tr valign="top"><td rowspan="1" colspan="1"><text><SENT sid="805" pm="."><plain> </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="806" pm="."><plain>All older than 50 years </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="807" pm="."><plain>4 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="808" pm="."><plain>–0.30 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="809" pm="."><plain>–0.51, –0.09 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="810" pm="."><plain>80% </plain></SENT>
+</text></td></tr><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="811" pm="."><plain>Internet only vs controlc </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="812" pm="."><plain>14 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="813" pm="."><plain>–0.15 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="814" pm="."><plain>–0.23, –0.07 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="815" pm="."><plain>40% </plain></SENT>
+</text></td></tr><tr valign="top"><td colspan="2" rowspan="1"><text><SENT sid="816" pm="."><plain>Blended vs controld </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="817" pm="."><plain>26 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="818" pm="."><plain>–0.33 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="819" pm="."><plain>–0.43, –0.22 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"><text><SENT sid="820" pm="."><plain>79% </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="table6fn1"><p><text><SENT sid="821" pm="."><plain>a Subgroup analysis performed in the sample of studies that was used for the analysis of primary outcomes. </plain></SENT>
+</text></p></fn><fn id="table6fn2"><p><text><SENT sid="822" pm="."><plain>b Subgroup analysis performed on the sample of studies that targeted primary prevention (including diabetes control). </plain></SENT>
+</text></p></fn><fn id="table6fn3"><p><text><SENT sid="823" pm="."><plain>c Subgroup analysis performed on the sample of studies that evaluated an Internet-only intervention. </plain></SENT>
+<SENT sid="824" pm="."><plain>In case a study tested multiple arms, the appropriate arm was included in the analysis. </plain></SENT>
+</text></p></fn><fn id="table6fn4"><p><text><SENT sid="825" pm="."><plain>d Subgroup analysis performed on the sample of studies that evaluated a blended intervention. </plain></SENT>
+<SENT sid="826" pm="."><plain>In case a study tested multiple arms, the appropriate arm was included in the analysis. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="827" pm="."><plain>Meta-Regression </plain></SENT>
+</text></title><p><text><SENT sid="828" pm="."><plain>Because of the fairly consistent finding that treatment effects were higher in short-term studies than in long-term studies, we performed a mixed effects meta-regression to explore the association between study duration and effect size. </plain></SENT>
+<SENT sid="829" pm="."><plain>The effect size seemed to become smaller in studies with longer follow-up, although the association was not significant (Hedges’ g=–0.321+0.006*months; P=.07). </plain></SENT>
+<SENT sid="830" pm="."><plain>After removal of one outlier study [34] that had a very long follow-up (5 years), the effect size significantly decreased over time in studies lasting 3 to 32 months (Hedges’ g=–0.415+ 0.015*months; P=.008; Figure. </plain></SENT>
+<SENT sid="831" pm="."><plain>11). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="832" pm="."><plain>Sensitivity Analyses for the Risk-of-Bias Assessment </plain></SENT>
+</text></title><p><text><SENT sid="833" pm="."><plain>We performed sensitivity analyses for each of the six domains of bias assessed with the adapted Cochrane Risk of Bias Tool by comparing the standardized primary outcomes of the studies with the low risk and unknown/high risk of bias (Multimedia Appendix 7). </plain></SENT>
+<SENT sid="834" pm="."><plain>There were no significant differences in pooled effect sizes in any of the domains except for the domain random sequence generation, in which the pooled effect was significantly larger in the subgroup of studies with unknown/high risk of bias. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="835" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="836" pm="."><plain>In this systematic review and meta-analysis, we found for people with elevated cardiovascular risk, Web-based interventions lead to improvement of systolic and diastolic BP, HbA1c, weight, LDL cholesterol, physical activity levels, and cardiovascular risk composite scores. </plain></SENT>
+<SENT sid="837" pm="."><plain>Only seven studies included participants all aged 50 years or older. </plain></SENT>
+<SENT sid="838" pm="."><plain>Therefore, our conclusions apply for the population in middle age and beyond. </plain></SENT>
+<SENT sid="839" pm="."><plain>Effects were more pronounced over the short term (study duration &lt;12 months) and in studies that tested a blended intervention (combination of an Internet application and human support). </plain></SENT>
+<SENT sid="840" pm="."><plain>We found no evidence for an effect on incident cardiovascular disease. </plain></SENT>
+</text></p><p><text><SENT sid="841" pm="."><plain>Our findings on single cardiovascular risk factors are consistent with conclusions of other meta-analyses in younger adult populations [19-21]. </plain></SENT>
+<SENT sid="842" pm="."><plain>We found a significant reduction in systolic BP of 2.66 mmHg. </plain></SENT>
+<SENT sid="843" pm="."><plain>A reduction of 3 mmHg in systolic BP can lead to an 8% reduction in annual stroke mortality rate and a 5% reduction in annual coronary heart disease mortality rate [83]. </plain></SENT>
+<SENT sid="844" pm="."><plain>We found a reduction of LDL cholesterol of 2.18 mg/dL (converted=0.06 mmol/L). </plain></SENT>
+<SENT sid="845" pm="."><plain>A reduction of 0.5 mmol/L in LDL cholesterol for at least 2 years can lead to a reduction in coronary heart disease events of 20% [6]. </plain></SENT>
+<SENT sid="846" pm="."><plain>Theoretically, assuming a linear relation, a reduction of 0.06 mmol/L could lead to a 2.4% reduction of coronary heart disease events. </plain></SENT>
+<SENT sid="847" pm="."><plain>Thus, the effects on Internet interventions on BP reduction and, to a lesser extent, LDL cholesterol reduction, can be clinically relevant at the population level if reductions are maintained. </plain></SENT>
+<SENT sid="848" pm="."><plain>In addition, we evaluated the effect on the complete cardiovascular risk profile and prevention of cardiovascular disease, which has not been performed before. </plain></SENT>
+<SENT sid="849" pm="."><plain>One other systematic review without meta-analysis that evaluated Internet interventions for lifestyle change in older people reported that interventions with multiple components are more effective than interventions with a single component [84]. </plain></SENT>
+</text></p><p><text><SENT sid="850" pm="."><plain>We found that the beneficial effects of Web-based interventions decline over time and effects are larger when interventions are combined with human support. </plain></SENT>
+<SENT sid="851" pm="."><plain>Decreasing adherence over time was reported in several studies included in our meta-analysis and could be an important contributor to the decreasing effect over time. </plain></SENT>
+<SENT sid="852" pm="."><plain>We were unable to formally test this because information on adherence and engagement was only reported by 22 studies and definitions varied widely. </plain></SENT>
+<SENT sid="853" pm="."><plain>The identified effect moderators are not specific to Web-based interventions for cardiovascular risk factors [85,86]. </plain></SENT>
+<SENT sid="854" pm="."><plain>Maintenance of behavioral change is notoriously complex and best achieved in longer studies with intensive interventions, more face-to-face, and more follow-up contacts. </plain></SENT>
+<SENT sid="855" pm="."><plain>However, such interventions lead to high attrition rates, probably reflecting selection of the most motivated participants [87]. </plain></SENT>
+<SENT sid="856" pm="."><plain>A careful balance should be sought between effectiveness and implementability when designing cardiovascular risk management interventions, whether or not an Internet-based approach is used. </plain></SENT>
+</text></p><p><text><SENT sid="857" pm="."><plain>Our results do not show a beneficial effect of Web-based interventions on incident cardiovascular disease. </plain></SENT>
+<SENT sid="858" pm="."><plain>Although the declining effect over time could play a role, more likely explanations for these findings are the limited follow-up time of the studies to detect these outcomes (mean length of the studies was 13 months) and the fact that these outcomes were not the primary focus of these studies. </plain></SENT>
+<SENT sid="859" pm="."><plain>Because of the latter, data collection may not have been systematic and adjudication of the data by an independent committee may be lacking. </plain></SENT>
+<SENT sid="860" pm="."><plain>Therefore, we cannot draw strong conclusions from these findings. </plain></SENT>
+</text></p><p><text><SENT sid="861" pm="."><plain>The results of this study should be interpreted with caution because of several limitations. </plain></SENT>
+<SENT sid="862" pm="."><plain>The methodological quality of the studies was fair, but none of the studies was double blind, rendering them prone to performance bias. </plain></SENT>
+<SENT sid="863" pm="."><plain>Only 20 studies had a blinded outcome assessment, so detection bias may also be present. </plain></SENT>
+<SENT sid="864" pm="."><plain>Because the sensitivity analyses for the risk-of-bias assessment did not reveal significant differences between the low risk and unknown/high risk-of-bias subgroups, except for the domain of random sequence generation, we think that our findings have not been largely affected by these potential sources of bias. </plain></SENT>
+<SENT sid="865" pm="."><plain>Another limitation is the substantial heterogeneity in several of the meta-analyses that is, in part, explained by two effect modifiers: study duration and intervention type. </plain></SENT>
+<SENT sid="866" pm="."><plain>Patient groups with a higher burden have a larger window of opportunity for improvement potentially resulting in larger intervention effects [88], which could also have contributed to heterogeneity. </plain></SENT>
+<SENT sid="867" pm="."><plain>We could not draw firm conclusions on the difference between primary and secondary prevention, because only four studies on secondary prevention were included in this analysis. </plain></SENT>
+<SENT sid="868" pm="."><plain>Last, there is a potential for publication bias and small study bias. </plain></SENT>
+<SENT sid="869" pm="."><plain>Most of the studies with small sample sizes reported large effects and similar studies with null findings did not appear in the funnel plots (Multimedia Appendix 5). </plain></SENT>
+</text></p><p><text><SENT sid="870" pm="."><plain>Strengths of our study are the comprehensive search strategy, the quantitative meta-analysis, and the assessment of the effect of Web-based interventions for all cardiovascular risk factors using both intermediate and clinical outcomes. </plain></SENT>
+<SENT sid="871" pm="."><plain>Our search strategy was comprehensive because we used a broad definition of Web-based interventions and only excluded telemedicine and mobile phone interventions. </plain></SENT>
+<SENT sid="872" pm="."><plain>It was not always possible to set Web-based interventions apart from telemedicine and mobile phone interventions. </plain></SENT>
+<SENT sid="873" pm="."><plain>As long as the Web-based program was the main component of the intervention, we judged the study eligible for our systematic review. </plain></SENT>
+<SENT sid="874" pm="."><plain>By pooling the effect sizes on all different cardiovascular risk factors, we aimed to assess the overall effect of an Internet-based approach for people with increased risk of cardiovascular disease. </plain></SENT>
+<SENT sid="875" pm="."><plain>This approach provides insight into the overall potential of Internet-based interventions in this field. </plain></SENT>
+<SENT sid="876" pm="."><plain>Although basic computer literacy as an inclusion criterion probably led to selection of participants with a relatively high socioeconomic status, several studies included in the meta-analysis focused on people from medically underserved areas. </plain></SENT>
+<SENT sid="877" pm="."><plain>Therefore, the external validity of the results might be acceptable and may be generalizable to middle-aged to older primary care populations with an increased risk of cardiovascular disease. </plain></SENT>
+</text></p><p><text><SENT sid="878" pm="."><plain>Our results show that Web-based interventions can be effective in improving the cardiovascular risk factor profile of middle-aged and older people, but effects are modest and can only have clinical relevance on the population level if sustained over time. </plain></SENT>
+<SENT sid="879" pm="."><plain>Considering the current interest and focus on eHealth by policy makers, funding agencies, and a myriad of research and patient organizations [89,90], it is important to evaluate the actual evidence base objectively. </plain></SENT>
+<SENT sid="880" pm="."><plain>Unrealistic expectations of the effectiveness of Web-based interventions obscure the true challenges that have to be overcome first, including testing interventions that were designed specifically for older people, improving methodological robustness of studies, and improving sustainability of effects. </plain></SENT>
+<SENT sid="881" pm="."><plain>On the macro level, trials can assess sustainability by prolonging follow-up, recording clinical events, and measuring surrogate cardiovascular outcomes (eg, BP, cholesterol levels, and weight) at multiple time points (eg, at 6, 12, 24, and 36 months). </plain></SENT>
+<SENT sid="882" pm="."><plain>On the micro level, adherence should be evaluated by studying intervention usage through time with standardized evaluation methods. </plain></SENT>
+<SENT sid="883" pm="."><plain>Sustainability is of particular importance because long-term effects are required for primary and secondary prevention to truly contribute to the prevention of cardiovascular disease. </plain></SENT>
+<SENT sid="884" pm="."><plain>Web-based interventions combined with human support are more promising than Internet-only interventions. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="885" pm="."><plain>We thank R Spijker, medical librarian at the Academic Medical Centre of Amsterdam, for his assistance in designing and conducting the search and M Siervo, lecturer in Nutrition and Ageing at the Institute for Ageing and Health, Newcastle University, for his advice on our statistical analysis plan. </plain></SENT>
+<SENT sid="886" pm="."><plain>We also thank the study authors (LA Volk, CC Quinn, and JD Ralston) who provided additional data. </plain></SENT>
+<SENT sid="887" pm="."><plain>The research leading to these results has received funding from the European Union Seventh Framework Programme (<z:uniprot sup="inside" fb="0" ids="Q93VP2">FP7</z:uniprot>/2007-2013) under grant agreement no. 305654. </plain></SENT>
+<SENT sid="888" pm="."><plain>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. </plain></SENT>
+</text></text4fund></p></ack></SecTag><fn-group><SecTag type="AUTH_CONT,ACK_FUND"><fn fn-type="con"><p><text><SENT sid="889" pm="."><plain>Authors' Contributions: CRB had full access to all data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. </plain></SENT>
+<SENT sid="890" pm="."><plain>ER, EMvC, WvG, CB, MK, SA, and HS conceived the study. </plain></SENT>
+<SENT sid="891" pm="."><plain>CRB, BS, and ER wrote the study protocol and analysis plan. </plain></SENT>
+<SENT sid="892" pm="."><plain>CRB and BS collected and extracted the data, with support from ER and EMvC. </plain></SENT>
+<SENT sid="893" pm="."><plain>CRB performed the statistical analysis, supported by BS, ER, WB, and WvG. </plain></SENT>
+<SENT sid="894" pm="."><plain>CRB and ER drafted the manuscript and all authors critically revised the manuscript for important intellectual content. </plain></SENT>
+</text></p></fn></SecTag><SecTag type="COMP_INT"><fn fn-type="conflict"><p><text><SENT sid="895" pm="."><plain>Conflicts of Interest: None declared. </plain></SENT>
+</text></p></fn></SecTag></fn-group><SecTag type="APPENDIX"><app-group><app id="app1"><title>Multimedia Appendix 1</title><p>Research protocol.</p><SecTag type="FIG"><fig id="d36e3204" position="anchor"><media xlink:href="jmir_v18i3e55_app1.pdf"/></fig></SecTag></app><app id="app2"><title>Multimedia Appendix 2</title><p>Comprehensive search strategy.</p><SecTag type="FIG"><fig id="d36e3210" position="anchor"><media xlink:href="jmir_v18i3e55_app2.pdf"/></fig></SecTag></app><app id="app3"><title>Multimedia Appendix 3</title><p>Data-extraction form.</p><SecTag type="FIG"><fig id="d36e3216" position="anchor"><media xlink:href="jmir_v18i3e55_app3.pdf"/></fig></SecTag></app><app id="app4"><title>Multimedia Appendix 4</title><p>Summary of the risk of bias assessment.</p><SecTag type="FIG"><fig id="d36e3222" position="anchor"><media xlink:href="jmir_v18i3e55_app4.pdf"/></fig></SecTag></app><app id="app5"><title>Multimedia Appendix 5</title><p>Funnel plots.</p><SecTag type="FIG"><fig id="d36e3228" position="anchor"><media xlink:href="jmir_v18i3e55_app5.pdf"/></fig></SecTag></app><app id="app6"><title>Multimedia Appendix 6</title><p>Subgroup analysis: study-duration.</p><SecTag type="FIG"><fig id="d36e3234" position="anchor"><media xlink:href="jmir_v18i3e55_app6.pdf"/></fig></SecTag></app><app id="app7"><title>Multimedia Appendix 7</title><p>Risk of bias assessment: sensitivity analyses for the domains of risk of bias.</p><SecTag type="FIG"><fig id="d36e3240" position="anchor"><media xlink:href="jmir_v18i3e55_app7.pdf"/></fig></SecTag></app></app-group></SecTag><SecTag type="ABBR"><glossary><title>Abbreviations</title><def-list><def-item><term id="abb1">BP</term><def><p>blood pressure</p></def></def-item><def-item><term id="abb2">HbA1c</term><def><p>glycated hemoglobin A1c</p></def></def-item><def-item><term id="abb3">IQR</term><def><p>interquartile range</p></def></def-item><def-item><term id="abb4">LDL</term><def><p>low-density lipoprotein</p></def></def-item><def-item><term id="abb5">PA</term><def><p>physical activity</p></def></def-item><def-item><term id="abb6">RCT</term><def><p>randomized controlled trial</p></def></def-item></def-list></glossary></SecTag><SecTag type="REF"><ref-list><ref id="ref1"><text><SENT sid="896" pm="."><plain>1MeierCAFitzgeraldMCSmithJMeHealth: extending, enhancing, and evolving health careAnnu Rev Biomed Eng20131535938210.1146/annurev-bioeng-071812-1523502368308823683088 </plain></SENT>
+</text></ref><ref id="ref2"><text><SENT sid="897" pm="."><plain>2World Health OrganizationNational Institute on AgingNational Institutes of HealthGlobal Health and Aging20112016-02-22GenevaWorld Health Organization<ext-link ext-link-type="uri" xlink:href="http://www.who.int/ageing/publications/global_health.pdf">http://www.who.int/ageing/publications/global_health.pdf</ext-link><ext-link ext-link-type="webcite" xlink:href="6fU0boctf"/> </plain></SENT>
+</text></ref><ref id="ref3"><text><SENT sid="898" pm="."><plain>3[No authors listed]An epidemic of risk factors for cardiovascular diseaseLancet2011212377976552710.1016/S0140-6736(11)60182-72131593121315931 </plain></SENT>
+</text></ref><ref id="ref4"><text><SENT sid="899" pm="."><plain>4ChowCKJollySRao-MelaciniPFoxKAAnandSSYusufSAssociation of diet, exercise, and smoking modification with risk of early cardiovascular events after acute coronary syndromesCirculation20102161216750758<ext-link ext-link-type="uri" xlink:href="http://circ.ahajournals.org/cgi/pmidlookup?view=long&amp;pmid=20124123"/>10.1161/CIRCULATIONAHA.109.8915232012412320124123 </plain></SENT>
+</text></ref><ref id="ref5"><text><SENT sid="900" pm="."><plain>5LawMRMorrisJKWaldNJUse of blood pressure lowering drugs in the prevention of cardiovascular disease: meta-analysis of 147 randomised trials in the context of expectations from prospective epidemiological studiesBMJ2009338b1665<ext-link ext-link-type="uri" xlink:href="http://www.bmj.com/cgi/pmidlookup?view=long&amp;pmid=19454737"/>1945473719454737 </plain></SENT>
+</text></ref><ref id="ref6"><text><SENT sid="901" pm="."><plain>6LawMRWaldNJRudnickaARQuantifying effect of statins on low density lipoprotein cholesterol, ischaemic heart disease, and stroke: systematic review and meta-analysisBMJ200362832674041423<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/12829554"/>10.1136/bmj.326.7404.14231282955412829554 </plain></SENT>
+</text></ref><ref id="ref7"><text><SENT sid="902" pm="."><plain>7KotsevaKWoodDDe BackerGDe BacquerDPyöräläKKeilUEUROASPIRE III: a survey on the lifestyle, risk factors and use of cardioprotective drug therapies in coronary patients from 22 European countriesEur J Cardiovasc Prev Rehabil2009416212113710.1097/HJR.0b013e3283294b1d1928730719287307 </plain></SENT>
+</text></ref><ref id="ref8"><text><SENT sid="903" pm="."><plain>8NieuwlaatRSchwalmJKhatibRYusufSWhy are we failing to implement effective therapies in cardiovascular disease?Eur Heart J20135341712621269<ext-link ext-link-type="uri" xlink:href="http://eurheartj.oxfordjournals.org/cgi/pmidlookup?view=long&amp;pmid=23376448"/>10.1093/eurheartj/ehs4812337644823376448 </plain></SENT>
+</text></ref><ref id="ref9"><text><SENT sid="904" pm="."><plain>9Al HamidAGhalebMAljadheyHAslanpourZA systematic review of qualitative research on the contributory factors leading to medicine-related problems from the perspectives of adult patients with cardiovascular diseases and diabetes mellitusBMJ Open201449e005992<ext-link ext-link-type="uri" xlink:href="http://bmjopen.bmj.com/cgi/pmidlookup?view=long&amp;pmid=25239295"/>10.1136/bmjopen-2014-00599225239295 </plain></SENT>
+</text></ref><ref id="ref10"><text><SENT sid="905" pm="."><plain>10SabatéEAdherence to Long-Term Therapies: Evidence for Action2003GenevaWorld Health Organization </plain></SENT>
+</text></ref><ref id="ref11"><text><SENT sid="906" pm="?"><plain>11GriffithsFLindenmeyerAPowellJLowePThorogoodMWhy are health care interventions delivered over the internet? </plain></SENT>
+<SENT sid="907" pm="."><plain>A systematic review of the published literatureJ Med Internet Res200682e10<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2006/2/e10/"/>10.2196/jmir.8.2.e101686796516867965 </plain></SENT>
+</text></ref><ref id="ref12"><text><SENT sid="908" pm="."><plain>12McManusRJMantJBrayEPHolderRJonesMIGreenfieldSKaambwaBBantingMBryanSLittlePWilliamsBHobbsFDTelemonitoring and self-management in the control of hypertension (TASMINH2): a randomised controlled trialLancet2010717376973616317210.1016/S0140-6736(10)60964-62061944820619448 </plain></SENT>
+</text></ref><ref id="ref13"><text><SENT sid="909" pm="."><plain>13BriasoulisAAgarwalVTousoulisDStefanadisCEffects of antihypertensive treatment in patients over 65 years of age: a meta-analysis of randomised controlled studiesHeart20142100431732310.1136/heartjnl-2013-3041112381384623813846 </plain></SENT>
+</text></ref><ref id="ref14"><text><SENT sid="910" pm="."><plain>14BeckettNSPetersRFletcherAEStaessenJALiuLDumitrascuDStoyanovskyVAntikainenRLNikitinYAndersonCBelhaniAForetteFRajkumarCThijsLBanyaWBulpittCJTreatment of hypertension in patients 80 years of age or olderN Engl J Med200851358181887189810.1056/NEJMoa08013691837851918378519 </plain></SENT>
+</text></ref><ref id="ref15"><text><SENT sid="911" pm="."><plain>15PetersRBeckettNForetteFTuomilehtoJClarkeRRitchieCWaldmanAWaltonIPoulterRMaSComsaMBurchLFletcherABulpittCIncident dementia and blood pressure lowering in the Hypertension in the Very Elderly Trial cognitive function assessment (HYVET-COG): a double-blind, placebo controlled trialLancet Neurol2008878683689<ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S1474-4422(08)70143-1"/>10.1016/S1474-4422(08)70143-11861440218614402 </plain></SENT>
+</text></ref><ref id="ref16"><text><SENT sid="912" pm="."><plain>16RitchieKCarrièreIRitchieCWBerrCArteroSAncelinMDesigning prevention programmes to reduce incidence of dementia: prospective cohort study of modifiable risk factorsBMJ2010341c3885<ext-link ext-link-type="uri" xlink:href="http://www.bmj.com/cgi/pmidlookup?view=long&amp;pmid=20688841"/>2068884120688841 </plain></SENT>
+</text></ref><ref id="ref17"><text><SENT sid="913" pm="."><plain>17SeybertHEurostat: Industry, Trade and Services201212132016-02-22Internet use in households and by individuals in 2012<ext-link ext-link-type="uri" xlink:href="http://ec.europa.eu/eurostat/documents/3433488/5585460/KS-SF-12-050-EN.PDF/39000dab-e2b7-49b2-bc4b-6aad0bf01279">http://ec.europa.eu/eurostat/documents/3433488/5585460/KS-SF-12-050-EN.PDF/39000dab-e2b7-49b2-bc4b-6aad0bf01279</ext-link><ext-link ext-link-type="webcite" xlink:href="6fU2pZrEB"/> </plain></SENT>
+</text></ref><ref id="ref18"><text><SENT sid="914" pm="."><plain>18CivljakMSteadLFHartmann-BoyceJSheikhACarJInternet-based interventions for smoking cessationCochrane Database Syst Rev20137CD00707810.1002/14651858.CD007078.pub42383986823839868 </plain></SENT>
+</text></ref><ref id="ref19"><text><SENT sid="915" pm="."><plain>19LiuSDunfordSDLeungYWBrooksDThomasSGEysenbachGNolanRPReducing blood pressure with Internet-based interventions: a meta-analysisCan J Cardiol2013529561362110.1016/j.cjca.2013.02.0072361850723618507 </plain></SENT>
+</text></ref><ref id="ref20"><text><SENT sid="916" pm="."><plain>20WielandLSFalzonLSciamannaCNTrudeauKJBrodneySSchwartzJEDavidsonKWInteractive computer-based interventions for weight loss or weight maintenance in overweight or obese peopleCochrane Database Syst Rev20128CD007675<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/22895964"/>10.1002/14651858.CD007675.pub22289596422895964 </plain></SENT>
+</text></ref><ref id="ref21"><text><SENT sid="917" pm="."><plain>21PalKEastwoodSVMichieSFarmerAJBarnardMLPeacockRWoodBInnissJDMurrayEComputer-based diabetes self-management interventions for adults with type 2 diabetes mellitusCochrane Database Syst Rev20133CD00877610.1002/14651858.CD008776.pub22354356723543567 </plain></SENT>
+</text></ref><ref id="ref22"><text><SENT sid="918" pm="."><plain>22Fifth Joint Task Force of the European Society of CardiologyEuropean Association of EchocardiographyEuropean Association of Percutaneous Cardiovascular InterventionsEuropean Heart Rhythm AssociationHeart Failure AssociationEuropean Association for Cardiovascular Prevention &amp; RehabilitationEuropean Atherosclerosis SocietyInternational Society of Behavioural MedicineEuropean Stroke OrganisationEuropean Society of HypertensionEuropean Association for the Study of DiabetesEuropean Society of General Practice/Family MedicineInternational Diabetes Federation EuropeEuropean Heart NetworkEuropean Guidelines on cardiovascular disease prevention in clinical practice (version 2012): the Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts)Eur J Prev Cardiol2012819458566710.1177/20474873124502282276362622763626 </plain></SENT>
+</text></ref><ref id="ref23"><text><SENT sid="919" pm="."><plain>23PearsonTAPalaniappanLPArtinianNTCarnethonMRCriquiMHDanielsSRFonarowGCFortmannSPFranklinBAGallowayJMGoffDCHeathGWFrankATKris-EthertonPMLabartheDRMurabitoJMSaccoRLSassonCTurnerMBAmerican Heart Association Council on Epidemiology and PreventionAmerican Heart Association Guide for Improving Cardiovascular Health at the Community Level, 2013 update: a scientific statement for public health practitioners, healthcare providers, and health policy makersCirculation20134231271617301753<ext-link ext-link-type="uri" xlink:href="http://circ.ahajournals.org/cgi/pmidlookup?view=long&amp;pmid=23519758"/>10.1161/<z:uniprot sup="inside" fb="16" ids="Q5ZI03,Q86X95,P48544,P48545,O02670,P48548">CIR</z:uniprot>.0b013e31828f8a942351975823519758 </plain></SENT>
+</text></ref><ref id="ref24"><text><SENT sid="920" pm="."><plain>24RitterbandLMThorndikeFInternet interventions or patient education web sites?J Med Internet Res200683e18; author reply <z:uniprot sup="inside" fb="1" ids="Q38278">e19</z:uniprot><ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2006/3/e18/"/>10.2196/jmir.8.3.e181703263417032634 </plain></SENT>
+</text></ref><ref id="ref25"><text><SENT sid="921" pm="."><plain>25BennettGGGlasgowREThe delivery of public health interventions via the Internet: actualizing their potentialAnnu Rev Public Health20093027329210.1146/annurev.publhealth.031308.1002351929677719296777 </plain></SENT>
+</text></ref><ref id="ref26"><text><SENT sid="922" pm="."><plain>26SouthardBSouthardDNuckollsJClinical trial of an internet-based case management system for secondary prevention of heart diseaseJ Cardiopulm Rehabi200323534134814512778 </plain></SENT>
+</text></ref><ref id="ref27"><text><SENT sid="923" pm="."><plain>27VernooijWKaasjagerHVan Der GraafYWierdsmaJGrandjeanHHovensMInternet based vascular risk factor management for patients with clinically manifest vascular disease: randomised controlled trialBMJ (Online)20123447863e375022692651 </plain></SENT>
+</text></ref><ref id="ref28"><text><SENT sid="924" pm="."><plain>28BennettGWarnerEGlasgowRAskewSGoldmanJRitzwollerDEmmonsKMRosnerBAColditzGABe Fit‚ Be Well Study InvestigatorsObesity treatment for socioeconomically disadvantaged patients in primary care practiceArch Intern Med2012491727565574<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/22412073"/>10.1001/archinternmed.2012.12241207322412073 </plain></SENT>
+</text></ref><ref id="ref29"><text><SENT sid="925" pm="."><plain>29GreenBCookARalstonJFishmanPCatzSCarlsonJCarrellDTyllLLarsonEBThompsonRSEffectiveness of home blood pressure monitoring, Web communication, and pharmacist care on hypertension control: a randomized controlled trialJAMA20086252992428572867<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/18577730"/>10.1001/jama.299.24.28571857773018577730 </plain></SENT>
+</text></ref><ref id="ref30"><text><SENT sid="926" pm="."><plain>30ReidRMorrinLBeatonLPapadakisSKocourekJMcDonnellLSlovinecDMTullochHSuskinNUnsworthKBlanchardCPipeALRandomized trial of an internet-based computer-tailored expert system for physical activity in patients with heart diseaseEur J Prev Cardiol2012121961357136410.1177/17418267114229882190374421903744 </plain></SENT>
+</text></ref><ref id="ref31"><text><SENT sid="927" pm="."><plain>31KeyserlingTCSheridanSLDraegerLBFinkelsteinEAGizliceZKrugerEJohnstonLFSloanePDSamuel-HodgeCEvensonKRGrossMDDonahueKEPignoneMPVuMBSteinbacherEAWeinerBJBangdiwalaSIAmmermanASA comparison of live counseling with a web-based lifestyle and medication intervention to reduce coronary heart disease risk: a randomized clinical trialJAMA Intern Med20147174711441157<ext-link ext-link-type="uri" xlink:href="http://wwwwebcitationorg/6c8MLgsAX"/>10.1001/jamainternmed.2014.19842486195924861959 </plain></SENT>
+</text></ref><ref id="ref32"><text><SENT sid="928" pm="."><plain>32QuinnCShardellMTerrinMBarrEBallewSGruber-BaldiniACluster-randomized trial of a mobile phone personalized behavioral intervention for blood glucose controlDiabetes Care2011934919341942<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/21788632"/>10.2337/dc11-03662178863221788632 </plain></SENT>
+</text></ref><ref id="ref33"><text><SENT sid="929" pm="."><plain>33RossSMooreLEarnestMWittevrongelLLinCProviding a web-based online medical record with electronic communication capabilities to patients with congestive heart failure: randomized trialJ Med Internet Res200451462e12<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2004/2/e12/"/>10.2196/jmir.6.2.e121524926115249261 </plain></SENT>
+</text></ref><ref id="ref34"><text><SENT sid="930" pm="."><plain>34SheaSWeinstockRTeresiJPalmasWStarrenJCiminoJLaiAMFieldLMorinPCGolandRIzquierdoREEbnerSSilverSPetkovaEKongJEimickeJPIDEATel ConsortiumA randomized trial comparing telemedicine case management with usual care in older, ethnically diverse, medically underserved patients with diabetes mellitus: 5 year results of the IDEATel studyJ Am Med Inform Assoc2009164446456<ext-link ext-link-type="uri" xlink:href="http://jamia.oxfordjournals.org/cgi/pmidlookup?view=long&amp;pmid=19390093"/>10.1197/jamia.M31571939009319390093 </plain></SENT>
+</text></ref><ref id="ref35"><text><SENT sid="931" pm="."><plain>35AppelLClarkJYehHWangNCoughlinJDaumitGMillerERDalcinAJeromeGJGellerSNoronhaGPozefskyTCharlestonJReynoldsJBDurkinNRubinRRLouisTABrancatiFLComparative effectiveness of weight-loss interventions in clinical practiceN Engl J Med201111243652119591968<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/22085317"/>10.1056/NEJMoa11086602208531722085317 </plain></SENT>
+</text></ref><ref id="ref36"><text><SENT sid="932" pm="."><plain>36MaJYankVXiaoLLavoriPWWilsonSRRosasLGStaffordRSTranslating the Diabetes Prevention Program lifestyle intervention for weight loss into primary care: a randomized trialJAMA Intern Med20131281732113121<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23229846"/>10.1001/2013.jamainternmed.9872322984623229846 </plain></SENT>
+</text></ref><ref id="ref37"><text><SENT sid="933" pm="."><plain>37MaddisonRPfaeffliLWhittakerRStewartRKerrAJiangYKiraGLeungWDalleckLCarterKRawstornJA mobile phone intervention increases physical activity in people with cardiovascular disease: Results from the HEART randomized controlled trialEur J Prev Cardiol2015622670170910.1177/20474873145350762481769424817694 </plain></SENT>
+</text></ref><ref id="ref38"><text><SENT sid="934" pm="."><plain>38McKinstryBHanleyJWildSPagliariCPatersonMLewisSSheikhAKrishanAStoddartAPadfieldPTelemonitoring based service redesign for the management of uncontrolled hypertension: multicentre randomised controlled trialBMJ2013346f3030<ext-link ext-link-type="uri" xlink:href="http://www.bmj.com/cgi/pmidlookup?view=long&amp;pmid=23709583"/>2370958323709583 </plain></SENT>
+</text></ref><ref id="ref39"><text><SENT sid="935" pm="."><plain>39TangPCOverhageJMChanASBrownNLAghighiBEntwistleMPHuiSLHydeSMKliemanLHMitchellCJPerkinsAJQureshiLSWaltimyerTAWintersLJYoungCYOnline disease management of diabetes: engaging and motivating patients online with enhanced resources-diabetes (EMPOWER-D), a randomized controlled trialJ Am Med Inform Assoc201351203526534<ext-link ext-link-type="uri" xlink:href="http://jamia.oxfordjournals.org/cgi/pmidlookup?view=long&amp;pmid=23171659"/>10.1136/amiajnl-2012-0012632317165923171659 </plain></SENT>
+</text></ref><ref id="ref40"><text><SENT sid="936" pm="."><plain>40SvetkeyLStevensVBrantleyPAppelLHollisJLoriaCVollmerWMGullionCMFunkKSmithPSamuel-HodgeCMyersVLienLFLaferriereDKennedyBJeromeGJHeinithFHarshaDWEvansPErlingerTPDalcinATCoughlinJCharlestonJChampagneCMBauckAArdJDAicherKWeight Loss Maintenance Collaborative Research GroupComparison of strategies for sustaining weight loss: the weight loss maintenance randomized controlled trialJAMA2008312299101139114810.1001/jama.299.10.11391833468918334689 </plain></SENT>
+</text></ref><ref id="ref41"><text><SENT sid="937" pm="."><plain>41WingRTateDGorinARaynorHFavaJA self-regulation program for maintenance of weight lossN Engl J Med20061012355151563157110.1056/NEJMoa0618831703564917035649 </plain></SENT>
+</text></ref><ref id="ref42"><text><SENT sid="938" pm="."><plain>42BondGBurrRWolfFPriceMMcCurrySTeriLThe effects of a web-based intervention on the physical outcomes associated with diabetes among adults age 60 and older: a randomized trialDiabetes Technol Ther20072915259<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/17316098"/>10.1089/dia.2006.00571731609817316098 </plain></SENT>
+</text></ref><ref id="ref43"><text><SENT sid="939" pm="."><plain>43GlasgowRBolesSMcKayHFeilEBarreraJMThe D-Net diabetes self-management program: long-term implementation, outcomes, and generalization resultsPrev Med200343644104191264904912649049 </plain></SENT>
+</text></ref><ref id="ref44"><text><SENT sid="940" pm="."><plain>44GlasgowRKurzDKingDDickmanJFaberAHaltermanEWoolleyTToobertDJStryckerLAEstabrooksPAOsunaDRitzwollerDTwelve-month outcomes of an Internet-based diabetes self-management support programPatient Educ Couns201248718192<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/21924576"/>10.1016/j.pec.2011.07.0242192457621924576 </plain></SENT>
+</text></ref><ref id="ref45"><text><SENT sid="941" pm="."><plain>45McMahonGGomesHHicksonHSHuTLevineBConlinPWeb-based care management in patients with poorly controlled diabetesDiabetes Care2005728716241629<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/15983311"/>1598331115983311 </plain></SENT>
+</text></ref><ref id="ref46"><text><SENT sid="942" pm="."><plain>46AvdalEKizilciSDemirelNThe effects of web-based diabetes education on diabetes care results: a randomized control studyComput Inform Nurs2011229210110610.1097/NCN.0b013e3181fcbdc62109967521099675 </plain></SENT>
+</text></ref><ref id="ref47"><text><SENT sid="943" pm="."><plain>47ChoJChangSKwonHChoiYKoSMoonSYooSJSongKHSonHSKimHSLeeWCChaBYSonHYYoonKHLong-term effect of the Internet-based glucose monitoring system on HbA1c reduction and glucose stability: a 30-month follow-up study for diabetes management with a ubiquitous medical care systemDiabetes Care20061229122625263110.2337/dc05-23711713019517130195 </plain></SENT>
+</text></ref><ref id="ref48"><text><SENT sid="944" pm="."><plain>48LorigKRitterPLaurentDPlantKGreenMJerniganVBCaseSiobhanOnline diabetes self-management program: a randomized studyDiabetes Care2010633612751281<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/20299481"/>10.2337/dc09-21532029948120299481 </plain></SENT>
+</text></ref><ref id="ref49"><text><SENT sid="945" pm="."><plain>49GrantRWaldJSchnipperJGandhiTPoonEOravEWilliamsDHVolkLMiddletonBPractice-linked online personal health records for type 2 diabetes mellitus: a randomized controlled trialArch Intern Med2008981681617761782<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/18779465"/>10.1001/archinte.168.16.17761877946518779465 </plain></SENT>
+</text></ref><ref id="ref50"><text><SENT sid="946" pm="."><plain>50McMahonGFondaSGomesHAlexisGConlinPA randomized comparison of online- and telephone-based care management with internet training alone in adult patients with poorly controlled type 2 diabetesDiabetes Technol Ther201211141110601067<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/22953754"/>10.1089/dia.2012.01372295375422953754 </plain></SENT>
+</text></ref><ref id="ref51"><text><SENT sid="947" pm="."><plain>51RalstonJHirschIHoathJMullenMCheadleAGoldbergHWeb-based collaborative care for type 2 diabetes: a pilot randomized trialDiabetes Care20092322234239<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/19017773"/>10.2337/dc08-12201901777319017773 </plain></SENT>
+</text></ref><ref id="ref52"><text><SENT sid="948" pm="."><plain>52KwonHChoJKimHee-SooSongBok-ReKoSeung-HyunLeeJung-MinKimSung-RaeChangSang-AhKimHee-SeungChaBong-YunLeeKwang-WooSonHo-YoungLeeJin-HeeLeeWon-ChulYoonKun-HoEstablishment of blood glucose monitoring system using the internetDiabetes Care200422724784831474723214747232 </plain></SENT>
+</text></ref><ref id="ref53"><text><SENT sid="949" pm="."><plain>53FisherLHesslerDGlasgowREAreanPAMasharaniUNaranjoDStryckerLAREDEEM: a pragmatic trial to reduce diabetes distressDiabetes Care2013936925512558<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/23735726"/>10.2337/dc12-24932373572623735726 </plain></SENT>
+</text></ref><ref id="ref54"><text><SENT sid="950" pm="."><plain>54NolanRLiuSShoemakerJHachinskiVLynnHMikulisDWennbergRAMoyLMZbibATherapeutic benefit of internet-based lifestyle counselling for hypertensionCan J Cardiol2012528339039610.1016/j.cjca.2012.02.0122249818122498181 </plain></SENT>
+</text></ref><ref id="ref55"><text><SENT sid="951" pm="."><plain>55BoveAAHomkoCJSantamoreWPKashemMKerperMElliottDJManaging hypertension in urban underserved subjects using telemedicine--a clinical trialAm Heart J20134165461562110.1016/j.ahj.2013.01.0042353798023537980 </plain></SENT>
+</text></ref><ref id="ref56"><text><SENT sid="952" pm="."><plain>56MadsenLBKirkegaardPPedersenEBBlood pressure control during telemonitoring of home blood pressure. </plain></SENT>
+<SENT sid="953" pm="."><plain>A randomized controlled trial during 6 monthsBlood Press2008172788610.1080/080370508019154681856869618568696 </plain></SENT>
+</text></ref><ref id="ref57"><text><SENT sid="954" pm="."><plain>57MagidDJOlsonKLBillupsSJWagnerNMLyonsEEKronerBAA pharmacist-led, American Heart Association Heart360 Web-enabled home blood pressure monitoring programCirc Cardiovasc Qual Outcomes20133162157163<ext-link ext-link-type="uri" xlink:href="http://circoutcomes.ahajournals.org/cgi/pmidlookup?view=long&amp;pmid=23463811"/>10.1161/CIRCOUTCOMES.112.9681722346381123463811 </plain></SENT>
+</text></ref><ref id="ref58"><text><SENT sid="955" pm="."><plain>58ThiboutotJSciamannaCNFalknerBKephartDKStuckeyHLAdelmanAMCurryWJLehmanEBEffects of a web-based patient activation intervention to overcome clinical inertia on blood pressure control: cluster randomized controlled trialJ Med Internet Res2013159e158<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2013/9/e158/"/>10.2196/jmir.22982400447524004475 </plain></SENT>
+</text></ref><ref id="ref59"><text><SENT sid="956" pm="."><plain>59BennettGHerringSPuleoESteinEEmmonsKGillmanMWeb-based weight loss in primary care: a randomized controlled trialObesity (Silver Spring)20102182308313<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/19696764"/>10.1038/oby.2009.2421969676419696764 </plain></SENT>
+</text></ref><ref id="ref60"><text><SENT sid="957" pm="."><plain>60KraschnewskiJStuckeyHRovniakLLehmanEReddyMPogerJKephartDKCoupsEJSciamannaCNEfficacy of a weight-loss website based on positive deviance. </plain></SENT>
+<SENT sid="958" pm="."><plain>A randomized trialAm J Prev Med20111241661061410.1016/j.amepre.2011.08.0122209923822099238 </plain></SENT>
+</text></ref><ref id="ref61"><text><SENT sid="959" pm="."><plain>61WebberKHTateDFMichaelBJA randomized comparison of two motivationally enhanced Internet behavioral weight loss programsBehav Res Ther200894691090109510.1016/j.<z:uniprot sup="inside" fb="118" ids="Q8MQJ9,P87377">brat</z:uniprot>.2008.06.0081867540218675402 </plain></SENT>
+</text></ref><ref id="ref62"><text><SENT sid="960" pm="."><plain>62YardleyLWareLJSmithERWilliamsSBradburyKJArden-CloseEJMulleeMAMooreMVPeacockJLLeanMEMargettsBMByrneCDHobbsRFLittlePRandomised controlled feasibility trial of a web-based weight management intervention with nurse support for obese patients in primary careInt J Behav Nutr Phys Act20141167<ext-link ext-link-type="uri" xlink:href="http://www.ijbnpa.org/content/11//67"/>10.1186/1479-5868-11-672488651624886516 </plain></SENT>
+</text></ref><ref id="ref63"><text><SENT sid="961" pm="."><plain>63RichardsonCBuisLJanneyAGoodrichDSenAHessMMehariKathleen SFortlageLaurie AResnickPaul JZikmund-FisherBrian JStrecherVictor JPietteJohn DAn online community improves adherence in an internet-mediated walking program. </plain></SENT>
+<SENT sid="962" pm="."><plain>Part 1: results of a randomized controlled trialJ Med Internet Res2010124e71<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2010/4/e71/"/>10.2196/jmir.13382116916021169160 </plain></SENT>
+</text></ref><ref id="ref64"><text><SENT sid="963" pm="."><plain>64FerneySMarshallAEakinEOwenNRandomized trial of a neighborhood environment-focused physical activity website interventionPrev Med2009248214415010.1016/j.ypmed.2008.10.0221902851919028519 </plain></SENT>
+</text></ref><ref id="ref65"><text><SENT sid="964" pm="."><plain>65IrvineABGelattVASeeleyJRMacfarlanePGauJMWeb-based intervention to promote physical activity by sedentary older adults: randomized controlled trialJ Med Internet Res2013152e19<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2013/2/e19/"/>10.2196/jmir.21582347032223470322 </plain></SENT>
+</text></ref><ref id="ref66"><text><SENT sid="965" pm="."><plain>66WijsmanCAWestendorpRGVerhagenEACattMSlagboomPEde CraenAJBroekhuizenKvan MechelenMWvan HeemstHDvan der OuderaaFMooijaartSPEffects of a web-based intervention on physical activity and metabolism in older adults: randomized controlled trialJ Med Internet Res20131511e233<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2013/11/e233/"/>10.2196/jmir.28432419596524195965 </plain></SENT>
+</text></ref><ref id="ref67"><text><SENT sid="966" pm="."><plain>67SubocTisha BStrathScott JDharmashankarKodlipetCoulliardAllisonMillerNoraWangJingliTannerMichael JWidlanskyMichael ERelative importance of step count, intensity, and duration on physical activity's impact on vascular structure and function in previously sedentary older adultsJ Am Heart Assoc201431e000702<ext-link ext-link-type="uri" xlink:href="http://jaha.ahajournals.org/cgi/pmidlookup?view=long&amp;pmid=24572255"/>10.1161/JAHA.113.0007022457225524572255 </plain></SENT>
+</text></ref><ref id="ref68"><text><SENT sid="967" pm="."><plain>68PeelsDABolmanCGolsteijnRHde VriesHMuddeANvan StralenMMLechnerLLong-term efficacy of a printed or a Web-based tailored physical activity intervention among older adultsInt J Behav Nutr Phys Act201310104<ext-link ext-link-type="uri" xlink:href="http://www.ijbnpa.org/content/10//104"/>10.1186/1479-5868-10-1042422886224228862 </plain></SENT>
+</text></ref><ref id="ref69"><text><SENT sid="968" pm="."><plain>69BlochMJArmstrongDSDettlingLHardyACaterinoKBarrieSPartners in lowering cholesterol: comparison of a multidisciplinary educational program, monetary incentives, or usual care in the treatment of dyslipidemia identified among employeesJ Occup Environ Med2006748767568110.1097/01.jom.0000205997.18143.6c1683222416832224 </plain></SENT>
+</text></ref><ref id="ref70"><text><SENT sid="969" pm="."><plain>70KulickDLangerRDAshleyJMGansKMSchlauchKFellerCLive well: a practical and effective low-intensity dietary counseling intervention for use in primary care patients with dyslipidemia--a randomized controlled pilot trialBMC Fam Pract20131459<ext-link ext-link-type="uri" xlink:href="http://bmcfampract.biomedcentral.com/articles/10.1186/1471-2296-14-59"/>10.1186/1471-2296-14-592366378923663789 </plain></SENT>
+</text></ref><ref id="ref71"><text><SENT sid="970" pm="."><plain>71LindsaySBellabyPSmithSBakerREnabling healthy choices: is ICT the highway to health improvement?Health (London)2008712331333110.1177/13634593080900511857963018579630 </plain></SENT>
+</text></ref><ref id="ref72"><text><SENT sid="971" pm="."><plain>72BrennanPFCasperGRBurkeLJJohnsonKABrownRValdezRSSebernMPerezOASturgeonBTechnology-enhanced practice for patients with chronic cardiac disease: home implementation and evaluationHeart Lung2010396 SupplS34546<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/21092830"/>10.1016/j.hrtlng.2010.09.0032109283021092830 </plain></SENT>
+</text></ref><ref id="ref73"><text><SENT sid="972" pm="."><plain>73HughesSSeymourRCampbellRShawJFabiyiCSokasRComparison of two health-promotion programs for older workersAm J Public Health201151015883890<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/21421955"/>10.2105/AJPH.2010.3000822142195521421955 </plain></SENT>
+</text></ref><ref id="ref74"><text><SENT sid="973" pm="."><plain>74WinettRAndersonEWojcikJWinettSBowdenTGuide to health: nutrition and physical activity outcomes of a group-randomized trial of an Internet-based intervention in churchesAnn Behav Med2007633325126110.1080/088366107013580451760045217600452 </plain></SENT>
+</text></ref><ref id="ref75"><text><SENT sid="974" pm="."><plain>75VerheijdenMBakxJAkkermansRvan den HoogenHGodwinNRosserWvan StaverenWvan WeelCWeb-based targeted nutrition counselling and social support for patients at increased cardiovascular risk in general practice: randomized controlled trialJ Med Internet Res2004121664e44<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2004/4/e44/"/>10.2196/jmir.6.4.e441563196815631968 </plain></SENT>
+</text></ref><ref id="ref76"><text><SENT sid="975" pm="."><plain>76BoveASantamoreWHomkoCKashemACrossRMcConnellTShirkGailMenapaceFrancisReducing cardiovascular disease risk in medically underserved urban and rural communitiesAm Heart J20112161235135910.1016/j.ahj.2010.11.0082131521921315219 </plain></SENT>
+</text></ref><ref id="ref77"><text><SENT sid="976" pm="."><plain>77ZulligLLSandersLLShawRJMcCantFDanusSBosworthHBA randomised controlled trial of providing personalised cardiovascular risk information to modify health behaviourJ Telemed Telecare2014420314715210.1177/1357633X145284462464738424647384 </plain></SENT>
+</text></ref><ref id="ref78"><text><SENT sid="977" pm="."><plain>78DeviRPowellJSinghSA web-based program improves physical activity outcomes in a primary care angina population: randomized controlled trialJ Med Internet Res2014169e186<ext-link ext-link-type="uri" xlink:href="http://www.jmir.org/2014/9/e186/"/>10.2196/jmir.33402521746425217464 </plain></SENT>
+</text></ref><ref id="ref79"><text><SENT sid="978" pm="."><plain>79GreenBBAndersonMLCookAJCatzSFishmanPAMcClureJBReidRJe-Care for heart wellness: a feasibility trial to decrease blood pressure and cardiovascular riskAm J Prev Med20144464368377<ext-link ext-link-type="uri" xlink:href="http://europepmc.org/abstract/MED/24650839"/>10.1016/j.amepre.2013.11.0092465083924650839 </plain></SENT>
+</text></ref><ref id="ref80"><text><SENT sid="979" pm="."><plain>80GreeneJSacksRPiniewskiBKilDHahnJSThe impact of an online social network with wireless monitoring devices on physical activity and weight lossJ Prim Care Community Health2013714318919410.1177/21501319124695462379970623799706 </plain></SENT>
+</text></ref><ref id="ref81"><text><SENT sid="980" pm="."><plain>81HolbrookAThabaneLKeshavjeeKDolovichLBernsteinBChanDTroyanSueFosterGaryGersteinHertzelIndividualized electronic decision support and reminders to improve diabetes care in the community: COMPETE II randomized trialCMAJ2009771811-23744<ext-link ext-link-type="uri" xlink:href="http://www.cmaj.ca/cgi/pmidlookup?view=long&amp;pmid=19581618"/>10.1503/cmaj.0812721958161819581618 </plain></SENT>
+</text></ref><ref id="ref82"><text><SENT sid="981" pm="."><plain>82JenningsCAVandelanotteCCaperchioneCMMummeryWKEffectiveness of a web-based physical activity intervention for adults with Type 2 diabetes-a randomised controlled trialPrev Med2014360334010.1016/j.ypmed.2013.12.0112434560124345601 </plain></SENT>
+</text></ref><ref id="ref83"><text><SENT sid="982" pm="."><plain>83AppelLJBrandsMWDanielsSRKaranjaNElmerPJSacksFMAmericanHADietary approaches to prevent and treat hypertension: a scientific statement from the American Heart AssociationHypertension20062472296308<ext-link ext-link-type="uri" xlink:href="http://hyper.ahajournals.org/cgi/pmidlookup?view=long&amp;pmid=16434724"/>10.1161/01.HYP.0000202568.01167.B61643472416434724 </plain></SENT>
+</text></ref><ref id="ref84"><text><SENT sid="983" pm="."><plain>84AalbersTBaarsMARikkertMGCharacteristics of effective Internet-mediated interventions to change lifestyle in people aged 50 and older: a systematic reviewAgeing Res Rev2011910448749710.1016/j.arr.2011.05.0012162800521628005 </plain></SENT>
+</text></ref><ref id="ref85"><text><SENT sid="984" pm="."><plain>85SchwingshacklLDiasSHoffmannGImpact of long-term lifestyle programmes on weight loss and cardiovascular risk factors in overweight/obese participants: a systematic review and network meta-analysisSyst Rev20143130<ext-link ext-link-type="uri" xlink:href="http://systematicreviewsjournal.biomedcentral.com/articles/10.1186/2046-4053-3-130"/>10.1186/2046-4053-3-1302535839525358395 </plain></SENT>
+</text></ref><ref id="ref86"><text><SENT sid="985" pm="."><plain>86MellenPBGaoSKVitolinsMZGoffDCDeteriorating dietary habits among adults with hypertension: DASH dietary accordance, NHANES 1988-1994 and 1999-2004Arch Intern Med2008211168330831410.1001/archinternmed.2007.1191826817318268173 </plain></SENT>
+</text></ref><ref id="ref87"><text><SENT sid="986" pm="."><plain>87FjeldsoeBNeuhausMWinklerEEakinESystematic review of maintenance of behavior change following physical activity and dietary interventionsHealth Psychol201113019910910.1037/a00219742129929821299298 </plain></SENT>
+</text></ref><ref id="ref88"><text><SENT sid="987" pm="."><plain>88EbrahimSTaylorFWardKBeswickABurkeMDaveySGMultiple risk factor interventions for primary prevention of coronary heart diseaseCochrane Database Syst Rev20111CD00156110.1002/14651858.CD001561.pub32124964721249647 </plain></SENT>
+</text></ref><ref id="ref89"><text><SENT sid="988" pm="."><plain>89Fifty-eighth World Health Assembly, Geneva, 16-25 May 200520052015-10-08GenevaWorld Health OrganizationResolutions and decisions: eHealth (WHA58/2005/<z:uniprot sup="inside" fb="43" ids="Q9UIJ5">REC</z:uniprot>/1)<ext-link ext-link-type="uri" xlink:href="http://www.who.int/healthacademy/media/WHA58-28-en.pdf">http://www.who.int/healthacademy/media/WHA58-28-en.pdf</ext-link><ext-link ext-link-type="webcite" xlink:href="6c8Lz3pCS"/> </plain></SENT>
+</text></ref><ref id="ref90"><text><SENT sid="989" pm="."><plain>90KroesNEuropean Commission2014512Shaping a healthier, stronger future<ext-link ext-link-type="uri" xlink:href="http://europa.eu/rapid/press-release_SPEECH-14-369_en.htm">http://europa.eu/rapid/press-release_SPEECH-14-369_en.htm</ext-link><ext-link ext-link-type="webcite" xlink:href="6fU5p79na"/> </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,459 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3439437</article-id><article-id pub-id-type="pmid">22984415</article-id><article-id pub-id-type="publisher-id">PONE-D-12-12142</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0043261</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Behavioral Neuroscience</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Anatomy and Physiology</subject><subj-group><subject>Neurological System</subject></subj-group></subj-group><subj-group><subject>Drugs and Devices</subject><subj-group><subject>Neuropharmacology</subject></subj-group></subj-group><subj-group><subject>Mental Health</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject></subj-group></subj-group></subj-group><subj-group><subject>Neurology</subject><subj-group><subject>Parkinson Disease</subject></subj-group></subj-group><subj-group><subject>Surgery</subject><subj-group><subject>Head and Neck Surgery</subject><subject>Neurosurgery</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Social and Behavioral Sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Impulsivities and Parkinson's Disease: Delay Aversion Is Not Worsened by Deep Brain Stimulation of the Subthalamic Nucleus </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Delay Aversion, DBS and PD</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Torta</surname><given-names>Diana M. E.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Vizzari</surname><given-names>Vincenzo</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Castelli</surname><given-names>Lorys</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zibetti</surname><given-names>Maurizio</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lanotte</surname><given-names>Michele</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lopiano</surname><given-names>Leonardo</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Geminiani</surname><given-names>Giuliano</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Department of Psychology, University of Turin, Turin, Italy</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Department of Neuroscience, University of Turin, Turin, Italy</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Siegel</surname><given-names>Allan</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>University of Medicine &amp; Dentistry of NJ - New Jersey Medical School, United States of America</addr-line>
+</aff><author-notes><corresp id="cor1">* E-mail: <email>diana.torta@unito.it</email></corresp><fn fn-type="COI-statement"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: DT LC GG. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: DT VV MZ ML. </plain></SENT>
+<SENT sid="4" pm="."><plain>Analyzed the data: DT VV. </plain></SENT>
+<SENT sid="5" pm="."><plain>Contributed reagents/materials/analysis tools: LL. </plain></SENT>
+<SENT sid="6" pm="."><plain>Wrote the paper: DT VV. </plain></SENT>
+<SENT sid="7" pm="."><plain>Read and discussed the paper: DT VV LC MZ ML LL GG. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2012</year></pub-date><pub-date pub-type="epub"><day>11</day><month>9</month><year>2012</year></pub-date><volume>7</volume><issue>9</issue><elocation-id>e43261</elocation-id><history><date date-type="received"><day>29</day><month>4</month><year>2012</year></date><date date-type="accepted"><day>18</day><month>7</month><year>2012</year></date></history><permissions><copyright-statement>© 2012 Torta et al</copyright-statement><copyright-year>2012</copyright-year><copyright-holder>Torta et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="8" pm="."><plain>Deep Brain Stimulation (DBS) of the Subthalamic Nucleus (<z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>) improves motor symptoms in Parkinson's disease (PD), but can exert detrimental effects on impulsivity. </plain></SENT>
+<SENT sid="9" pm="."><plain>These effects are especially related to the inability to slow down when high-conflict choices have to be made. </plain></SENT>
+<SENT sid="10" pm="."><plain>However, the influence that DBS has on delay aversion is still under-investigated. </plain></SENT>
+<SENT sid="11" pm="."><plain>Here, we tested a group of 21 PD patients on and off stimulation (off medication) by using the Cambridge Gamble Task (CGT), a computerized task that allows the investigation of risk-related behaviours and delay aversion, and psychological questionnaires such as the Barratt Impulsiveness Scale (BIS), the Sensitivity to Punishment and to Reward Questionnaire (SPSRQ), and the Quick Delay Questionnaire (QDQ). </plain></SENT>
+<SENT sid="12" pm="."><plain>We found that delay aversion scores on the CGT were no higher when patients were on stimulation as compared to when they were off stimulation. </plain></SENT>
+<SENT sid="13" pm="."><plain>In contrast, PD patients reported feeling more impulsive in the off stimulation state, as revealed by significantly higher scores on the BIS. </plain></SENT>
+<SENT sid="14" pm="."><plain>Higher scores on the sensitivity to punishment subscale of the SPSRQ highlighted that possible punishments influence patients' behaviours more than possible rewards. </plain></SENT>
+<SENT sid="15" pm="."><plain>Significant correlations between delay aversion scores on the CGT and QDQ delay aversion subscale suggest that these two instruments can be used in synergy to reach a convergent validity. </plain></SENT>
+<SENT sid="16" pm="."><plain>In conclusion, our results show that not all impulsivities are detrimentally affected by DBS of the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> and that the joint use of experimental paradigms and psychological questionnaires can provide useful insights in the study of impulsivity. </plain></SENT>
+</text></SecTag></p></abstract><funding-group><funding-statement>This research was funded by a ‘Progetto Alfieri’ research grant. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="8"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="17" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="18" pm="."><plain>Deep Brain Stimulation (DBS) of the Subthalamic Nucleus (<z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>) represents a therapeutic advance for severely disabled patients with Parkinson's disease (PD) [1], [2], [3], [4], [5]; it inhibits hyper-activation of the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>, therefore acting as a reversible lesion of the target areas. </plain></SENT>
+<SENT sid="19" pm="."><plain><z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS is efficacious on motor symptoms [1], [2], [3], [4] and enables the reduction of dopaminergic treatment [6]. </plain></SENT>
+<SENT sid="20" pm="."><plain>Moreover, DBS can be considered globally safe in terms of cognitive outcomes both in the short [1], [7], [8] and long term [6], [9], [10], even though single patients may develop a clinically relevant cognitive decline [11]. </plain></SENT>
+<SENT sid="21" pm="."><plain>Although some investigators have shown that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS can reduce impulsive behaviours [12], [13], [14], [15], [16], [17], others have reported detrimental effects of DBS [15], [18], [19], see [20] for a review. </plain></SENT>
+<SENT sid="22" pm="."><plain>Risk factors for the development of post-surgery impulsive behaviours include premorbid susceptibility [20], but the exacerbation of an impulsive symptomatology may also derive from the progress of the pathology and from DBS itself [21], [22]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Studies conducted with the use of self-administered questionnaires, such as the Baratt Impulsiveness Scale (BIS), have shown that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS treated patients feel more impulsive than patients receiving only medical therapy [18]. </plain></SENT>
+<SENT sid="24" pm="."><plain>However, self-administered questionnaires may be susceptible to subjective over- or under-estimations of the severity of the symptomatology [23], [24]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Thus the results of such questionnaires, where possible, should always be compared to those of experimental paradigms to reach a convergent validity. </plain></SENT>
+<SENT sid="26" pm="."><plain>Experimental paradigms can provide greater sensitivity to study impulsivity [22]. </plain></SENT>
+<SENT sid="27" pm="."><plain>For instance, it has been documented that, as compared to the off stimulation condition, PD patients on stimulation have a poorer performance in go/no-go tasks [25], [26], [27], stop signal tasks [28] and fail to slow down in selecting responses in a high-conflict context [29], [30], [31]. </plain></SENT>
+<SENT sid="28" pm="."><plain>Importantly, the concept of impulsivity is not unitary - indeed, impulsive behaviours reflect the inability to use externally available information to reflect and ponder future actions and their consequences (cognitive impulsivity); the inability to opt for larger, delayed rewards rather than smaller, immediate ones (delay aversion), and impairment in suppressing prepotent motor responses (motor impulsivity/impulsive action) [32]. </plain></SENT>
+<SENT sid="29" pm="."><plain>These different aspects of impulsivity are dissociable at both the neuroanatomical and neuropharmacological levels [33], [34]. </plain></SENT>
+<SENT sid="30" pm="."><plain>Preclinical models have demonstrated that lesions of the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> have opposing behavioural effects on different aspects of impulsivity (see [33]). </plain></SENT>
+<SENT sid="31" pm="."><plain>Although the effects of <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS on cognitive and motor impulsivity have been explored [25], [26], [29], [31], [35], experimental evidence on the effects of DBS on delay aversion is still lacking. </plain></SENT>
+<SENT sid="32" pm="."><plain>Interestingly, preclinical studies suggest that lesions to the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> may even improve delay aversion in rats [36]. </plain></SENT>
+</text></p><p><text><SENT sid="33" pm="."><plain>Here, we first investigated the effect of <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS on delay aversion in patients on stable DBS stimulation by using the Cambridge Gamble Task (CGT) [37], a computerized task for the assessment of delay aversion, and psychological questionnaires. </plain></SENT>
+<SENT sid="34" pm="."><plain>We then investigated the possible short-term effects of DBS on self-reported measures of impulsivity, comparing psychological questionnaire scores between the off and on stimulation conditions. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s2"><title><text><SENT sid="35" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="36" pm="."><plain>Patients </plain></SENT>
+</text></title><p><text><SENT sid="37" pm="."><plain>This study was approved by the Department of Psychology, University of Turin Ethical Committee and all participants gave their written informed consent. </plain></SENT>
+<SENT sid="38" pm="."><plain>Twenty-one PD patients participated in this study (8 women). </plain></SENT>
+<SENT sid="39" pm="."><plain>Of these, thirteen completed the entire battery composed of the CGT [37] and the psychological questionnaires (Barratt Impulsiveness Scale, BIS, Italian version [38], the Sensitivity to Reward and Sensitivity to Punishment Questionnaire, SRSPQ [39], the Quick Delay Questionnaire, QDQ [40], see next paragraphs), while eight completed only the CGT. </plain></SENT>
+<SENT sid="40" pm="."><plain>The patients had an average age of 60 (±6.2, range 48–70) and an average 8.6 years of schooling (±3.8, range 5–17). </plain></SENT>
+<SENT sid="41" pm="."><plain>They were evaluated at an average of 9.5 months (±4.9, range 4–28) after implantation of electrodes for DBS of the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>. </plain></SENT>
+<SENT sid="42" pm="."><plain>This allowed us to ensure that patients were on stable stimulation and no longer prone to microlesive effects of the surgical procedure [10]. </plain></SENT>
+<SENT sid="43" pm="."><plain>A post-operative 3D CT fused with the pre-operative MRI scan was performed to confirm successful surgery and to check the final position of the electrodes. </plain></SENT>
+<SENT sid="44" pm="."><plain>The patients were administered psychological and neuropsychological assessments as clinical routine when on stimulation and on medication. </plain></SENT>
+<SENT sid="45" pm="."><plain>These assessments were used to exclude clinically relevant psychological symptoms and neuropsychological impairments [11]. </plain></SENT>
+<SENT sid="46" pm="."><plain>In addition to dopaminergic therapy, seven patients were taking antidepressants (six were on serotonin-norepinephrine reuptake inhibitors (SNRIs) and one on a selective serotonin reuptake inhibitor (SSRI), six on benzodiazepines, five on atypical antipsychotics). Table 1 summarizes the clinical and demographic details. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0043261-t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0043261.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="47" pm="."><plain>Clinical and demographic characteristics of the PD sample. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0043261-t001-1" xlink:href="pone.0043261.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="48" pm="."><plain>Patient code </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="49" pm="."><plain>Gender </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="50" pm="."><plain>Age </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="51" pm="."><plain>Years of schooling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="52" pm="."><plain>Months after surgery </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="53" pm="."><plain>UPDRS III on/off </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="54" pm="."><plain>LEDD mg/day </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="55" pm="."><plain>Parameters of stimulation right/left </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="56" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="57" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="58" pm="."><plain>59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="59" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="60" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="61" pm="."><plain>24/33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="62" pm="."><plain>1600 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="63" pm="."><plain>3.6 V; 60 µsec; 130 Hz; 11-/3.4 V; 60 µsec; 130 Hz; 3- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="64" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="65" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="66" pm="."><plain>60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="67" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="68" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="69" pm="."><plain>5.5/14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="70" pm="."><plain>505 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="71" pm="."><plain>3.4 V; 60 µsec; 130 Hz; 10-/3.3 V; 60 µsec; 130 Hz; 2- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>23/35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain>580.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>3.6 V; 60 µsec; 130 Hz; 11-/3.6 V; 60 µsec; 130 Hz; 3- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>29/59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>500 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>2.4 V; 60 µsec; 130 Hz; 10-/2.4 V; 60 µsec; 130 Hz; 1- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>22/45.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>1180.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>3.6 V; 60 µsec; 130 Hz; 8-/3.6 V; 60 µsec; 130 Hz; 0- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>15.5/22.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>771.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>3.6 V; 60 µsec; 130 Hz; 10-/3.3 V; 60 µsec; 130 Hz; 2- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>23.5/43.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>750.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>3.6 V; 60 µsec; 130 Hz; 9-/3.6 V; 60 µsec; 130 Hz; 1- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>36.5/49.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>500 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>3.6 V; 60 µsec; 130 Hz: 10-/3.0 V; 60 µsec; 130 Hz; 1- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>30.5/47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>625 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>3.0 V; 60 µsec; 130 Hz; 11-/3.5 V; 60 µsec; 130 Hz; 3- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>64 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>7/36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>1310 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>2.8 V; 60 µsec; 130 Hz; 3-/3.2 V; 60 µsec; 130 Hz; 7- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>31/65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>1200 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>3.5 V; 60 µsec;130 Hz; 7-/3.2 V; 60 µsec;130 Hz; 1- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>46/73 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>554 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>3.2 V; 60 µsec;130 Hz; 3-/3.2 V; 60 µsec;130 Hz; 7- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>13.5/31.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>600 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>3.2 V; 60 µsec; 130 Hz; 4-/3 V; 60 µsec;130 Hz; 1- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>21/56.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>525.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>2.9 V; 60 µsec; 130 Hz; 6-/2.7 V; 60 µsec; 130 Hz; 2- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>18.5/39.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>350.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>2.9 V; 60 µsec; 130 Hz; 5-/3.0 V; 60 µsec; 130 Hz; 2- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>12/48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>910 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>5 V; 60 µsec; 80 Hz; 5-/5 V; 60 µsec; 80 Hz; 1- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>30.5/48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>700.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>3.4 V; 60 µsec; 130 Hz; 7-/3.2 V; 60 µsec; 130 Hz; 2- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>50 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>22.5/42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>187.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>2.8 V; 60 µsec; 130 Hz; 7-/3.2 V; 60 µsec; 130 Hz; 3- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>46/70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>475.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>3.6 V; 60 µsec; 130 Hz; 2-/3.4 V; 60 µsec; 130 Hz; 7- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>17/37.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>835 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>3.5 V; 60 µsec; 130 Hz; 7-/3.5 V; 60 µsec; 130 Hz; 3- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>23.5/55.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>650 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>3.4 V; 60 µsec; 185 Hz; 3-/3.6 V; 60 µsec; 185 Hz; 6- </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p><text><SENT sid="224" pm="."><plain>LEDD, Levodopa Equivalent Daily Dose. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s2b"><title><text><SENT sid="225" pm="."><plain>Experimental procedure </plain></SENT>
+</text></title><p><text><SENT sid="226" pm="."><plain>All patients performed the tasks after at least 12 hours (overnight withdrawal) of wash-out from the habitual dopaminergic therapy (off medication). </plain></SENT>
+<SENT sid="227" pm="."><plain>The patients performed the experimental procedure twice - ‘on stimulation’ and ‘off stimulation’ - and the order of administration (with the first experimental session either on or off stimulation) was counterbalanced across subjects. </plain></SENT>
+<SENT sid="228" pm="."><plain>The ‘off stimulation’ session was begun at least 40 minutes after DBS was switched off. </plain></SENT>
+<SENT sid="229" pm="."><plain>Before the experimental procedure was begun, a neurologist administered the UPDRS-III to ascertain that patients were in their off condition. </plain></SENT>
+<SENT sid="230" pm="."><plain>The ‘on stimulation’ session, when not the initial one, was begun at least 40 minutes after stimulation was switched on. </plain></SENT>
+<SENT sid="231" pm="."><plain>Also in this case, the on condition was tested by the administration of the UDPRS-III. </plain></SENT>
+<SENT sid="232" pm="."><plain>The patients performed the task either on two separate days (N = 3), or on the same day (one session in the morning, another in the afternoon (N = 18)). </plain></SENT>
+<SENT sid="233" pm="."><plain>Preliminary analyses revealed that the results obtained when the task was administered on two separate days were no different from those obtained when it was administered on the same day (p = 0.233). </plain></SENT>
+<SENT sid="234" pm="."><plain>The two groups were therefore analyzed together. </plain></SENT>
+<SENT sid="235" pm="."><plain>In each session, the patients performed the CGT and completed the psychological assessment, which included the BIS, SPSRQ and QDQ. </plain></SENT>
+<SENT sid="236" pm="."><plain>For the psychological questionnaires, they were explicitly asked to respond according to how they felt in the condition of stimulation that was being tested. </plain></SENT>
+</text></p></sec><sec id="s2c"><title><text><SENT sid="237" pm="."><plain>Cambridge Gamble Task </plain></SENT>
+</text></title><p><text><SENT sid="238" pm="."><plain>We used the Cambridge Gamble Task [37] to assess delay aversion. </plain></SENT>
+<SENT sid="239" pm="."><plain>In this task, participants are asked to choose whether a yellow token is hidden under one of the ten blue or red boxes arrayed on the top of the screen. </plain></SENT>
+<SENT sid="240" pm="."><plain>The ratio of blue to red boxes varies from 1 blue/9 red to 9 blue/1 red, thus covering all possible combinations; the patients were told that the aim of the game was to increase their points as much as possible. </plain></SENT>
+<SENT sid="241" pm="."><plain>The first choice, regarding which colour to bet on, reflects quality of decision, namely the tendency to select most likely outcomes. </plain></SENT>
+<SENT sid="242" pm="."><plain>The time employed to select the most likely outcome reflects the deliberation time. </plain></SENT>
+<SENT sid="243" pm="."><plain>On this first choice, patients were asked to bet their points with the goal of increasing them (more rational choices are related to most likely outcomes of winning). </plain></SENT>
+<SENT sid="244" pm="."><plain>The amount of points they could bet appeared on the right-hand side of the screen after the first selection was made. </plain></SENT>
+<SENT sid="245" pm="."><plain>The patients placed their bets under two different conditions: ascending and descending. </plain></SENT>
+<SENT sid="246" pm="."><plain>With the former, the points to bet begin with low stakes and increase, whereas with the latter, the points start from high stakes and progressively decrease. </plain></SENT>
+<SENT sid="247" pm="."><plain>The points represent percentages of the total score, but the patients are not explicitly informed of this. </plain></SENT>
+<SENT sid="248" pm="."><plain>The participants are invited to select a bet according to their confidence in the red/blue box decision. </plain></SENT>
+<SENT sid="249" pm="."><plain>An optimal strategy requires modulation of the betting strategy that depends on the chances of winning and is measured by risk adjustment. </plain></SENT>
+<SENT sid="250" pm="."><plain>Delay aversion is defined as the tendency to select always the first bets, in both ascending and descending conditions. </plain></SENT>
+<SENT sid="251" pm="."><plain>The higher the score, the higher the tendency to impulsivity. </plain></SENT>
+</text></p></sec><sec id="s2d"><title><text><SENT sid="252" pm="."><plain>Barratt Impulsiveness Scale </plain></SENT>
+</text></title><p><text><SENT sid="253" pm="."><plain>The Barratt Impulsiveness Scale (BIS-11 Italian version, [38]) is a 30-item self-administered questionnaire that measures different aspects of impulsivity (e.g. motor impulsiveness, lack of planning, and attentional impulsiveness). </plain></SENT>
+<SENT sid="254" pm="."><plain>For each statement participants have to indicate how often they think or behave as such (never/rarely, sometimes, often, always). </plain></SENT>
+<SENT sid="255" pm="."><plain>The BIS returns a global score of impulsivity ranging from 30 to 120, the sum of three separate indexes: ‘motor impulsiveness’, MI, with a score range from 11–44 points, ‘non-planning impulsiveness’, <z:uniprot sup="inside" fb="0" ids="Q15818,Q62443,P47971">NPI</z:uniprot>, also with a score range from 11–44 points and ‘attentional impulsiveness’, AI, with a score range from 8–32 points. </plain></SENT>
+<SENT sid="256" pm="."><plain>Higher scores indicate greater impulsivity. </plain></SENT>
+</text></p></sec><sec id="s2e"><title><text><SENT sid="257" pm="."><plain>Sensitivity to Reward and Sensitivity to Punishment Questionnaire </plain></SENT>
+</text></title><p><text><SENT sid="258" pm="."><plain>The Sensitivity to Reward and Sensitivity to Punishment Questionnaire (SPSRQ) [39] is a 48-item yes/no self-report questionnaire. </plain></SENT>
+<SENT sid="259" pm="."><plain>The SPSRQ is composed of two subscales: Sensitivity to Punishment (SP) and Sensitivity to Reward (SR). </plain></SENT>
+<SENT sid="260" pm="."><plain>These reflect two behavioral systems: inhibition and approach [41], [42]. </plain></SENT>
+<SENT sid="261" pm="."><plain>The Behavioral Inhibition System (BIS) is sensitive to punishment and novel stimuli. </plain></SENT>
+<SENT sid="262" pm="."><plain>It motivates the inhibition of the performance of behaviors that can lead to future punishments and represents a sort of ‘stop’ system, promoting avoidance behaviors. </plain></SENT>
+<SENT sid="263" pm="."><plain>In contrast, the Behavioral Approach System (BAS) represents the ‘go’ signal towards positive reinforcers and rewards. </plain></SENT>
+<SENT sid="264" pm="."><plain>People with a highly activated BAS tend to impulsivity. </plain></SENT>
+<SENT sid="265" pm="."><plain>The score of each subscale varies from 0–24, with higher scores indicating a higher sensitivity to punishment or reward. </plain></SENT>
+</text></p></sec><sec id="s2f"><title><text><SENT sid="266" pm="."><plain>Quick Delay Questionnaire </plain></SENT>
+</text></title><p><text><SENT sid="267" pm="."><plain>The Quick Delay Questionnaire (QDQ, [40]) is a 10-item self-report questionnaire in which subjects have to declare their degree of agreement with each statement on a five-point Likert scale. </plain></SENT>
+<SENT sid="268" pm="."><plain>The QDQ is composed of two subscales: delay aversion and delay discounting. </plain></SENT>
+<SENT sid="269" pm="."><plain>Higher scores on the delay aversion subscale indicate the presence of positive emotions during the delay, whereas higher scores on the delay discounting subscale indicate the tendency to make choices leading to long-term high benefits. </plain></SENT>
+<SENT sid="270" pm="."><plain>Both subscales have scores ranging from 5–25 points. </plain></SENT>
+</text></p></sec><sec id="s2g"><title><text><SENT sid="271" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="272" pm="."><plain>Statistical analyses were performed using the software PASW Statistics 18 (SPSS Inc.). </plain></SENT>
+</text></p><p><text><SENT sid="273" pm="."><plain>Data from the ascending and descending conditions of the CGT were averaged together and analyses performed using a paired sample t-test (2-tailed) with a significance threshold of p&lt;0.05. </plain></SENT>
+<SENT sid="274" pm="."><plain>Risk adjustment scores, which include the evaluation of the betting strategy in four conditions of stimulation (6∶4, 7∶3, 8∶2, 9∶1) were analyzed using a repeated-measure ANOVA with the ‘stimulation’ (2 levels, on and off) and ‘bet conditions’ (4 levels, 6∶4, 7∶3, 8∶2, 9∶1) as factors. </plain></SENT>
+<SENT sid="275" pm="."><plain>The Hyundt-Feldt correction was used in case of violation of sphericity [43]. </plain></SENT>
+</text></p><p><text><SENT sid="276" pm="."><plain>BIS total scores were compared using a paired comparison t-test (2-tailed). </plain></SENT>
+<SENT sid="277" pm="."><plain>Additional comparisons were performed on each subscale separately as maximum scores changed from one subscale to the other. </plain></SENT>
+<SENT sid="278" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P81214">SPSR</z:uniprot> and QDQ scores were analyzed using a repeated measure ANOVA, using as factors the ‘stimulation’ (2 levels, on and off) and the ‘scale’ (SPSRQ 2 levels, sensitivity to punishment and sensitivity to reward; QDQ 2 levels, delay aversion and delay discounting). </plain></SENT>
+<SENT sid="279" pm="."><plain>These analyses were possible since the subscales of these questionnaires have the same score range. </plain></SENT>
+</text></p><p><text><SENT sid="280" pm="."><plain>The psychological questionnaire scores were correlated with CGT scores to investigate whether a convergent validity exists between psychological self-reports and experimental measures. </plain></SENT>
+<SENT sid="281" pm="."><plain>The correlations were performed separately for results in the on and off stimulation conditions. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="s3"><title><text><SENT sid="282" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="283" pm="."><plain>Since the results of the CGT did not change whether 13 or 21 patients were included in the analyses, the results of the entire sample are provided. </plain></SENT>
+</text></p><sec id="s3a"><title><text><SENT sid="284" pm="."><plain>Cambridge Gamble Task </plain></SENT>
+</text></title><p><text><SENT sid="285" pm="."><plain>Delay aversion scores were no different in the ‘on’ and ‘off’ stimulation conditions (t(20) = 0.256, p = 0.800). </plain></SENT>
+<SENT sid="286" pm="."><plain>Similarly, the quality of decision and deliberation times were not affected by stimulation (quality of decision, on vs off t(20) = −0.253, p = 0.803; deliberation times, on vs off, t(20) = 0.488, p = 0.631). </plain></SENT>
+<SENT sid="287" pm="."><plain>The analysis of the scores of risk adjustment indicated that patients placed higher bets with more favourable ratios (main effect of ‘bet condition’ F(2,28) = 3.615, p = 0.037), but that these choices were not affected by the stimulation (main effect of ‘stimulation’ F(1,13) = 0.451, p = 0.514). </plain></SENT>
+<SENT sid="288" pm="."><plain>See figure 1. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0043261-g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0043261.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="289" pm="."><plain>Summary of results on the Cambridge Gamble Task (CGT). </plain></SENT>
+</text></title><p><text><SENT sid="290" pm="."><plain>Stimulation did not affect the performance in any of the variables of interest. </plain></SENT>
+<SENT sid="291" pm="."><plain>The purple bars and dashed line summarize the results in the off stimulation condition; the green bars and solid line those in the on stimulation condition. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0043261.g001"/></fig></SecTag></sec><sec id="s3b"><title><text><SENT sid="292" pm="."><plain>Barratt Impulsiveness Scale </plain></SENT>
+</text></title><p><text><SENT sid="293" pm="."><plain>The patients felt globally less impulsive when on stimulation (t(12) = 2.680, p = 0.020). </plain></SENT>
+<SENT sid="294" pm="."><plain>They also reported lower scores on the AI subscale when stimulation was on (t(12) = 2.127, p = 0.055). </plain></SENT>
+<SENT sid="295" pm="."><plain>No differences emerged between the MI (t(12) = 1.171, p = 0.264) and <z:uniprot sup="inside" fb="0" ids="Q15818,Q62443,P47971">NPI</z:uniprot> (t(12) = 1.367, p = 0.197) subscales in the two stimulation conditions. </plain></SENT>
+</text></p></sec><sec id="s3c"><title><text><SENT sid="296" pm="."><plain>Sensitivity to Punishment and Sensitivity to Reward Questionnaire </plain></SENT>
+</text></title><p><text><SENT sid="297" pm="."><plain>The total scores on the SPSRQ were no different in the two stimulation conditions (F(1,12) = 1.581, p = 0.233). </plain></SENT>
+<SENT sid="298" pm="."><plain>However, both when on and off stimulation, patients reported higher scores on the SP subscale (F(1,12) = 6.858, p = 0.022). </plain></SENT>
+</text></p></sec><sec id="s3d"><title><text><SENT sid="299" pm="."><plain>Quick Delay Questionnaire </plain></SENT>
+</text></title><p><text><SENT sid="300" pm="."><plain>The total scores on the QDQ were no different in the two stimulation conditions (F(1,12) = 1.990, p = 0.184). </plain></SENT>
+<SENT sid="301" pm="."><plain>No differences emerged in any of the subscales (DA vs DD F(1,12) = 0.073, p = 0.792). </plain></SENT>
+</text></p><p><text><SENT sid="302" pm="."><plain>The results are summarized in figure 2. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0043261-g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0043261.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="303" pm="."><plain>Results on the psychological questionnaires. </plain></SENT>
+</text></title><p><text><SENT sid="304" pm="."><plain>Upper panel: Patients reported lower scores of impulsivity when on stimulation. </plain></SENT>
+<SENT sid="305" pm="."><plain>AI, attentional impulsivity; MI, motor impulsivity; <z:uniprot sup="inside" fb="0" ids="Q15818,Q62443,P47971">NPI</z:uniprot>, non-planning impulsivity. Middle panel: patients obtained higher scores of sensitivity to punishment than to reward independently of the condition of stimulation. </plain></SENT>
+<SENT sid="306" pm="."><plain>SP, sensitivity to punishment; SR, sensitivity to reward. Lower panel: No differences emerged on the QDQ; DA, delay aversion; DD, delay discounting. </plain></SENT>
+<SENT sid="307" pm="."><plain>Please note that unlike the previous two questionnaires, higher scores on the QDQ reflect a lower tendency to impulsivity. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0043261.g002"/></fig></SecTag></sec><sec id="s3e"><title><text><SENT sid="308" pm="."><plain>Correlations between CGT and questionnaires scores </plain></SENT>
+</text></title><p><text><SENT sid="309" pm="."><plain>A significant negative correlation was found, in the on stimulation condition, between delay aversion scores on the CGT and delay aversion scores on the delay aversion subscale of the QDQ (r = −0.626 p = 0.029). </plain></SENT>
+<SENT sid="310" pm="."><plain>That is, higher scores of delay aversion were correlated to more negative feelings when waiting for rewards (see figure 3). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0043261-g003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0043261.g003</object-id><label>Figure 3</label><caption><title><text><SENT sid="311" pm="."><plain>Correlation of delay aversion scores on the Cambridge Gamble Task (CGT) and delay aversion scores on the Quick Delay Questionnaire (QDQ) in the on stimulation condition. </plain></SENT>
+</text></title><p><text><SENT sid="312" pm="."><plain>A significant negative correlation was found (r = −0.626 p = 0.029) suggesting that higher scores of delay aversion on the CGT were correlated to more negative feelings when waiting for rewards. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0043261.g003"/></fig></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s4"><title><text><SENT sid="313" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="314" pm="."><plain>In the present study we aimed (i) to investigate the effects that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS has on delay aversion in PD patients and (ii) to explore possible short-term effects of <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS on self-reported impulsivity. </plain></SENT>
+<SENT sid="315" pm="."><plain>We observed two main findings: first, <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS does not worsen delay aversion; second, <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS is able to induce changes in the self-reported psychological state in the short term, that is when switching on and off stimulation. </plain></SENT>
+</text></p><sec id="s4a"><title><text><SENT sid="316" pm="."><plain>‘Impulsivities’ and Deep Brain Stimulation </plain></SENT>
+</text></title><p><text><SENT sid="317" pm="."><plain>Previous animal studies [44], [45] have suggested that, in the rat, lesions to the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> have opposite effects on behaviour: increasing impulsive actions but reducing delay aversion [33]. </plain></SENT>
+<SENT sid="318" pm="."><plain>So far, most of the studies investigating motor (and cognitive) impulsivity in PD patients have found that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS has detrimental effects on impulsivity as measured by go/no-go tasks [25], [46]. </plain></SENT>
+<SENT sid="319" pm="."><plain>These detrimental effects were found to be particularly related to stimulation of the ventral subthalamic nucleus [47] and accompanied by changes in synaptic activity consisting in reduced activation in the cortical networks responsible for reactive and proactive response inhibition [25]. </plain></SENT>
+<SENT sid="320" pm="."><plain>Moreover, PD patients under <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS have been found to increase impulsive action [48]: <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS, acting detrimentally on the ‘hyperdirect’ circuit connecting the medial prefrontal cortex (mPF) and the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> [49], [50], [51], disrupts the ability to refrain from selecting choices without pondering (DBS). </plain></SENT>
+<SENT sid="321" pm="."><plain>Indeed, <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> stimulation was found to diminish theta band power measured by electroencephalography (EEG) in the mPF, which in turn was related to an adaptive increase in response times when the decision process required responses to high-conflict choices [30]. </plain></SENT>
+<SENT sid="322" pm="."><plain>A recent study by Rodriguez-Oroz and colleagues [52] has suggested that patients showing dopaminergic side effects have, in the on state, a characteristic oscillatory activity in the theta-alpha band at different frequencies and with different topography if they suffer from motor (such as dyskinesias) or behavioural side effects (abnormal impulsivity). </plain></SENT>
+<SENT sid="323" pm="."><plain>In contrast, such oscillatory activity does not appear in patients without dopaminergic complications. </plain></SENT>
+</text></p><p><text><SENT sid="324" pm="."><plain>Our present findings suggest that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS does not worsen delay aversion and demonstrate that also in humans not all impulsivities are detrimentally affected by DBS of the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>. </plain></SENT>
+<SENT sid="325" pm="."><plain>These findings, together with the results of previous studies [53], [54], also point to the possibility that some aspects of impulsivity are more affected by dopaminergic therapy than they are by <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS. </plain></SENT>
+<SENT sid="326" pm="."><plain>In this regard, dissociations between the effects of medication and stimulation have been previously documented [48], [55]. </plain></SENT>
+<SENT sid="327" pm="."><plain>In a previous study we reported a positive linear relationship between dopaminergic dose and degree of delay aversion [54], with patients taking higher doses of dopaminergic medication showing higher delay aversion scores. </plain></SENT>
+<SENT sid="328" pm="."><plain>Thus it is likely that when dopaminergic doses are reduced after surgery, the tendency to delay aversion is reduced. </plain></SENT>
+<SENT sid="329" pm="."><plain>According to this explanation, delay aversion is more likely to arise from a dopaminergic overdose of the ventral striatum circuit (overdose theory) [56], [57]. </plain></SENT>
+<SENT sid="330" pm="."><plain>Housden and colleagues [58] reported a double dissociation between reward learning and delay aversion in PD patients with and without impulsive-compulsive disorders, thus proposing that the preference for immediate rewards against future ones is more likely to be underpinned by excessive dopaminergic transmission. </plain></SENT>
+<SENT sid="331" pm="."><plain>An alternative explanation proposed to explain the differences between betting behaviours in the on and off medication conditions states that delay aversion as measured by the GCT reflects ‘impatience’, that is, the inability to undergo delay without action [22]. </plain></SENT>
+<SENT sid="332" pm="."><plain>In this view, impatience could be favoured by different perception of time in the two therapeutic conditions, and in particular by a perception of time going by more slowly in the on medication condition [55], [59], [60], [61]. </plain></SENT>
+<SENT sid="333" pm="."><plain>The possibility that delay aversion, as measured by the CGT, reflects impatience is supported by the negative correlation found between delay aversion on the CGT and delay aversion scores on the DA subscale of the QDQ. </plain></SENT>
+<SENT sid="334" pm="."><plain>Indeed, higher DA scores indicate the presence of positive feelings during delay. </plain></SENT>
+<SENT sid="335" pm="."><plain>None of the other CGT variables were significantly different between the on and off stimulation states, as reported in previous studies [53], [54], thus indicating preserved rational decision making. </plain></SENT>
+</text></p></sec><sec id="s4b"><title><text><SENT sid="336" pm="."><plain>Short-term modification of self-reported impulsivity </plain></SENT>
+</text></title><p><text><SENT sid="337" pm="."><plain>The results of the questionnaires indicated that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS is able to affect the perception of some aspects of impulsivity in the short term. </plain></SENT>
+<SENT sid="338" pm="."><plain>Indeed, patients' reports on the BIS show that they feel more impulsive in the off stimulation condition, especially with regard to attentional impulsivity. </plain></SENT>
+<SENT sid="339" pm="."><plain>These findings are in apparent contrast with previous studies suggesting that PD patients on stimulation report higher scores of self-assessed impulsivity [18]. </plain></SENT>
+<SENT sid="340" pm="."><plain>However, Hälbig and colleagues did not compare scores on the BIS within the same group of patients, but between one group of patients on stimulation and another group on medication. </plain></SENT>
+</text></p><p><text><SENT sid="341" pm="."><plain>The results of the SPSRQ revealed a significant difference between SP and SR scores that were independent of the condition of stimulation, that is, patients described themselves as more sensitive to punishment than to rewards. </plain></SENT>
+<SENT sid="342" pm="."><plain>Of note is that PD patients were off medication and that previous studies [62] have shown that unmedicated PD patients are more sensitive to negative than to positive feedbacks in procedural learning tasks. </plain></SENT>
+<SENT sid="343" pm="."><plain>Our results suggest that greater sensitivity to punishment may be a general characteristic of the off medication state, not necessarily confined to procedural learning tasks [62]. </plain></SENT>
+<SENT sid="344" pm="."><plain>This interpretation is further supported by the fact that, although this is the first study using the SPSRQ to test Parkinson patients and therefore no specific normative data are available for such population, in the original article by Torrubia and colleagues [39], the SR and SP scores appear to be very similar (SR: 11.98 (5.06) for women and 11.65 (5.27) for men, SP: 10.11 (4.05) for women and 12.18 (4.48) for men), thus suggesting that, in control subjects, the two systems are balanced. </plain></SENT>
+</text></p><p><text><SENT sid="345" pm="."><plain>Not all previous studies have reported short-term changes in psychological variables when stimulation was turned off or on. </plain></SENT>
+<SENT sid="346" pm="."><plain>For instance, Berney and colleagues showed that depression, anxiety and elation remained stable after acute changes in the stimulation condition [63]. </plain></SENT>
+<SENT sid="347" pm="."><plain>In contrast, Funkiewiez and colleagues [64] reported that both stimulation and medication were able to improve subjective feelings of well-being, euphoria and motivation, and to decrease anxiety and fatigue. </plain></SENT>
+<SENT sid="348" pm="."><plain>Similarly, Amanzio and collaborators [23] showed that lower scores of depression and anxiety were reported by patients when psychological questionnaires were administered on medication as compared to their off medication state. </plain></SENT>
+<SENT sid="349" pm="."><plain>Although we did not use questionnaires specifically designed for the administration in the short time (such as the Addiction Research Center Inventory, ARCI, [65] that was used in [64]), we explicitly asked patients to report how they felt in that particular condition of stimulation, thus ensuring that the scores really reflected their feelings in the on and off stimulation states. </plain></SENT>
+<SENT sid="350" pm="."><plain>In addition, even if the BIS questionnaire asks to rate behaviours retrospectively and therefore is not specifically tailored to test the present state of mind, previous studies have shown that its scores may be affected by different medication conditions [66], [67], thus suggesting that the perception of impulsiveness may be affected by the therapy. </plain></SENT>
+<SENT sid="351" pm="."><plain>The patients recruited for this study did not stop taking non-dopaminergic therapy, which has been shown to modulate impulsive behaviours [33]. </plain></SENT>
+<SENT sid="352" pm="."><plain>However, it is unlikely that such medications biased the results as we varied only the stimulation state between conditions, thus differences in the results are highly likely to be explained by this latter factor. </plain></SENT>
+</text></p><p><text><SENT sid="353" pm="."><plain>In conclusion, we provide evidence that not all impulsivities are detrimentally affected by DBS of the <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> and that the combined use of experimental paradigms and psychological questionnaires may be a helpful tool in reaching a convergent validity in the evaluation of cognitive changes in PD patients. </plain></SENT>
+<SENT sid="354" pm="."><plain>Future studies are needed to further clarify how different subcomponents of impulsivity can be modulated both by dopaminergic drugs and <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS. </plain></SENT>
+<SENT sid="355" pm="."><plain>This issue is of great importance also from a clinical standpoint, in order to understand better and reduce the risk of post-operative suicidal behavior observed in some studies [68], possibly related not only to depression but also to impulsive behaviour. </plain></SENT>
+<SENT sid="356" pm="."><plain>Altogether these findings contribute to a more general understanding of the role that <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot>-DBS has in treating behavioural abnormalities [69], [70]. </plain></SENT>
+<SENT sid="357" pm="."><plain>Future multicenter studies on this clinically relevant issue, including larger cohorts of patients, will allow a more precise generalization of the results. </plain></SENT>
+</text></p></sec></sec></SecTag></body><back><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0043261-Bronstein1"><text><SENT sid="358" pm="."><plain>1 BronsteinJM, TagliatiM, AltermanRL, LozanoAM, VolkmannJ, et al (2011) Deep brain stimulation for Parkinson disease: an expert consensus and review of key issues. Arch Neurol 68: 165–171.20937936 </plain></SENT>
+</text></ref><ref id="pone.0043261-Fox1"><text><SENT sid="359" pm="."><plain>2 FoxSH, KatzenschlagerR, LimSY, RavinaB, SeppiK, et al (2011) The Movement Disorder Society Evidence-Based Medicine Review Update: Treatments for the motor symptoms of Parkinson's disease. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 26: S2–41.22021173 </plain></SENT>
+</text></ref><ref id="pone.0043261-RodriguezOroz1"><text><SENT sid="360" pm="."><plain>3 Rodriguez-OrozMC, ObesoJA, LangAE, HouetoJ-L, PollakP, et al (2005) Bilateral deep brain stimulation in Parkinson's disease: a multicentre study with 4 years follow-up. Brain 28: 2240–2249. </plain></SENT>
+</text></ref><ref id="pone.0043261-Volkmann1"><text><SENT sid="361" pm="."><plain>4 VolkmannJ (2007) Deep brain stimulation for Parkinson's disease. Parkinsonism Relat Disord 13: S462–465.18267284 </plain></SENT>
+</text></ref><ref id="pone.0043261-Limousin1"><text><SENT sid="362" pm="."><plain>5 LimousinP, KrackP, PollakP, BenazzouzA, ArdouinC, et al (1998) Electrical stimulation of the subthalamic nucleus in advanced Parkinson's disease. N Engl J Med 339: 1105–1111.9770557 </plain></SENT>
+</text></ref><ref id="pone.0043261-Krack1"><text><SENT sid="363" pm="."><plain>6 KrackP, BatirA, Van BlercomN, ChabardesS, FraixV, et al (2003) Five-year follow-up of bilateral stimulation of the subthalamic nucleus in advanced Parkinson's disease. N Engl J Med 349: 1925–1934.14614167 </plain></SENT>
+</text></ref><ref id="pone.0043261-Dujardin1"><text><SENT sid="364" pm="."><plain>7 DujardinK, DefebvreL, KrystkowiakP, BlondS, DestéeA (2001) Influence of chronic bilateral stimulation of the subthalamic nucleus on cognitive function in Parkinson's disease. J Neurol Sci 248: 603–611. </plain></SENT>
+</text></ref><ref id="pone.0043261-Ardouin1"><text><SENT sid="365" pm="."><plain>8 ArdouinC, PillonB, PeifferE, BejjaniP, LimousinP, et al (1999) Bilateral subthalamic or pallidal stimulation for Parkinson's disease affects neither memory nor executive functions: a consecutive series of 62 patients. Ann Neurol 46: 217–221.10443887 </plain></SENT>
+</text></ref><ref id="pone.0043261-Halpern1"><text><SENT sid="366" pm="."><plain>9 HalpernC, RickJ, DanishS, GrossmanM, BaltuchG (2009) Cognition following bilateral deep brain stimulation surgery of the subthalamic nucleus for Parkinson's disease. Int J Geriatr Psychiatry 24: 443–451.19016252 </plain></SENT>
+</text></ref><ref id="pone.0043261-Funkiewiez1"><text><SENT sid="367" pm="."><plain>10 FunkiewiezA, ArdouinC, CoolsR, KrackP, FraixV, et al (2006) Effects of levodopa and subthalamic nucleus stimulation on cognitive and affective functioning in Parkinson's disease. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 21: 1656–1662.16830317 </plain></SENT>
+</text></ref><ref id="pone.0043261-Castelli1"><text><SENT sid="368" pm="."><plain>11 CastelliL, RizziL, ZibettiM, AngrisanoS, LanotteM, et al (2010) Neuropsychological changes 1-year after subthalamic DBS in PD patients: A prospective controlled study. Parkinsonism Relat Disord 16: 115–118.19775926 </plain></SENT>
+</text></ref><ref id="pone.0043261-Ardouin2"><text><SENT sid="369" pm="."><plain>12 ArdouinC, VoonV, WorbeY, AbouazarN, CzerneckiV, et al (2006) Pathological gambling in Parkinson's disease improves on chronic subthalamic nucleus stimulation. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 21: 1941–1946.16972268 </plain></SENT>
+</text></ref><ref id="pone.0043261-Bandini1"><text><SENT sid="370" pm="."><plain>13 BandiniF, PrimaveraA, PizzornoM, CocitoL (2007) Using <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> DBS and medication reduction as a strategy to treat pathological gambling in Parkinson's disease. Parkinsonism Relat Disord 13: 369–371.17049455 </plain></SENT>
+</text></ref><ref id="pone.0043261-Knobel1"><text><SENT sid="371" pm="."><plain>14 KnobelD, AybekS, PolloC, VingerhoetsF, BerneyA (2008) Rapid resolution of dopamine dysregulation syndrome (DDS) after subthalamic DBS for Parkinson disease (PD): a case report. Cog Behav Neurol 21: 187–189. </plain></SENT>
+</text></ref><ref id="pone.0043261-Lim1"><text><SENT sid="372" pm="."><plain>15 LimSY, O'SullivanSS, KotschetK, GallagherDA, LaceyC, et al (2009) Dopamine dysregulation syndrome, impulse control disorders and punding after deep brain stimulation surgery for Parkinson's disease. J Clin Neurosci 16: 1148–1152.19553125 </plain></SENT>
+</text></ref><ref id="pone.0043261-Witjas1"><text><SENT sid="373" pm="."><plain>16 WitjasT, BaunezC, HenryJM, DelfiniM, RegisJ, et al (2005) Addiction in Parkinson's disease: impact of subthalamic nucleus deep brain stimulation. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 20: 1052–1055.15858803 </plain></SENT>
+</text></ref><ref id="pone.0043261-Lhommee1"><text><SENT sid="374" pm="."><plain>17 LhommeeE, KlingerH, ThoboisS, SchmittE, ArdouinC, et al (2012) Subthalamic stimulation in Parkinson's disease: restoring the balance of motivated behaviours. Brain 135: 1463–1477.22508959 </plain></SENT>
+</text></ref><ref id="pone.0043261-Hlbig1"><text><SENT sid="375" pm="."><plain>18 HälbigT, TseW, FrisinaP, BakerB, HollanderE, et al (2009) Subthalamic deep brain stimulation and impulse control in Parkinson's disease. Eur J Neurol 16: 493–497.19236471 </plain></SENT>
+</text></ref><ref id="pone.0043261-Smeding1"><text><SENT sid="376" pm="."><plain>19 SmedingHM, GoudriaanAE, FonckeEM, SchuurmanPR, SpeelmanJD, et al (2007) Pathological gambling after bilateral subthalamic nucleus stimulation in Parkinson disease. J Neurol Neurosurg Psychiatry 78: 517–519.17210626 </plain></SENT>
+</text></ref><ref id="pone.0043261-Broen1"><text><SENT sid="377" pm="."><plain>20 BroenM, DuitsA, Visser-VandewalleV, TemelY, WinogrodzkaA (2011) Impulse control and related disorders in Parkinson's disease patients treated with bilateral subthalamic nucleus stimulation: a review. Parkinsonism Relat Disord 17: 413–417.21382739 </plain></SENT>
+</text></ref><ref id="pone.0043261-Antonelli1"><text><SENT sid="378" pm="."><plain>21 AntonelliF, RayN, StrafellaAP (2011) Impulsivity and Parkinson's disease: more than just disinhibition. J Neurol Sci 310: 202–207.21683964 </plain></SENT>
+</text></ref><ref id="pone.0043261-Robert1"><text><SENT sid="379" pm="."><plain>22 RobertG, DrapierD, VerinM, MilletB, AzulayJP, et al (2009) Cognitive impulsivity in Parkinson's disease patients: assessment and pathophysiology. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 24: 2316–2327.19908312 </plain></SENT>
+</text></ref><ref id="pone.0043261-Amanzio1"><text><SENT sid="380" pm="."><plain>23 AmanzioM, MonteverdiS, GiordanoA, SoliveriP, FilippiP, et al (2010) Impaired awareness of movement disorders in Parkinson's disease. Brain Cogn 72: 337–346.19914762 </plain></SENT>
+</text></ref><ref id="pone.0043261-Amanzio2"><text><SENT sid="381" pm="."><plain>24Amanzio M, Torta DM (2011) Unawareness of movement disorders in Parkinson's disease. </plain></SENT>
+<SENT sid="382" pm="."><plain>In: Movement disorders: Causes, Diagnoses and Treatments. </plain></SENT>
+<SENT sid="383" pm="."><plain>Editors: Barbara J. </plain></SENT>
+<SENT sid="384" pm="."><plain>Larsen Nova Science Publishers, Inc. </plain></SENT>
+</text></ref><ref id="pone.0043261-Ballanger1"><text><SENT sid="385" pm="."><plain>25 BallangerB, van EimerenT, MoroE, LozanoAM, HamaniC, et al (2009) Stimulation of the subthalamic nucleus and impulsivity: release your horses. Ann Neurol 66: 817–824.20035509 </plain></SENT>
+</text></ref><ref id="pone.0043261-Hershey1"><text><SENT sid="386" pm="."><plain>26 HersheyT, RevillaFJ, WernleA, GibsonPS, DowlingJL, et al (2004) Stimulation of <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> impairs aspects of cognitive control in PD. Neurology 62: 1110–1114.15079009 </plain></SENT>
+</text></ref><ref id="pone.0043261-Campbell1"><text><SENT sid="387" pm="."><plain>27 CampbellMC, KarimiM, WeaverPM, WuJ, PerantieDC, et al (2008) Neural correlates of <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> DBS-induced cognitive variability in Parkinson disease. Neuropsychologia 46: 3162–3169.18682259 </plain></SENT>
+</text></ref><ref id="pone.0043261-Ray1"><text><SENT sid="388" pm="."><plain>28 RayNJ, JenkinsonN, BrittainJ, HollandP, JointC, et al (2009) The role of the subthalamic nucleus in response inhibition: evidence from deep brain stimulation for Parkinson's disease. Neuropsychologia 47: 2828–2834.19540864 </plain></SENT>
+</text></ref><ref id="pone.0043261-Frank1"><text><SENT sid="389" pm="."><plain>29 FrankMJ, SamantaJ, MoustafaAA, ShermanSJ (2007) Hold your horses: impulsivity, deep brain stimulation, and medication in parkinsonism. Science 318: 1309–1312.17962524 </plain></SENT>
+</text></ref><ref id="pone.0043261-Cavanagh1"><text><SENT sid="390" pm="."><plain>30 CavanaghJF, WieckiTV, CohenMX, FigueroaCM, SamantaJ, et al (2011) Subthalamic nucleus stimulation reverses mediofrontal influence over decision threshold. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Neurosci 14: 1462–1467.21946325 </plain></SENT>
+</text></ref><ref id="pone.0043261-Wylie1"><text><SENT sid="391" pm="."><plain>31 WylieSA, RidderinkhofKR, EliasWJ, FrysingerRC, BashoreTR, et al (2010) Subthalamic nucleus stimulation influences expression and suppression of impulsive behaviour in Parkinson's disease. Brain 133: 3611–3624.20861152 </plain></SENT>
+</text></ref><ref id="pone.0043261-Chamberlain1"><text><SENT sid="392" pm="."><plain>32 ChamberlainS, SahakianB (2007) The neuropsychiatry of impulsivity. Curr Opin Psychiatry 20: 255–261.17415079 </plain></SENT>
+</text></ref><ref id="pone.0043261-Pattij1"><text><SENT sid="393" pm="."><plain>33 PattijT, VanderschurenL (2008) The neuropharmacology of impulsive behaviour. Trends Pharmacol Sci 29: 192–199.18304658 </plain></SENT>
+</text></ref><ref id="pone.0043261-Evenden1"><text><SENT sid="394" pm="."><plain>34 EvendenJ (1999) Varieties of impulsivity. Psychopharmachology (Berl) 146: 348–361. </plain></SENT>
+</text></ref><ref id="pone.0043261-Witt1"><text><SENT sid="395" pm="."><plain>35 WittK, PulkowskiU, HerzogJ, LorenzD, HamelW, et al (2004) Deep brain stimulation of the subthalamic nucleus improves cognitive flexibility but impairs response inhibition in Parkinson disease. Arch Neurol 61: 697–700.15148146 </plain></SENT>
+</text></ref><ref id="pone.0043261-Winstanley1"><text><SENT sid="396" pm="."><plain>36 WinstanleyCA, BaunezC, TheobaldDE, RobbinsTW (2005) Lesions to the subthalamic nucleus decrease impulsive choice but impair autoshaping in rats: the importance of the basal ganglia in Pavlovian conditioning and impulse control. Eur J Neurosci 21: 3107–3116.15978020 </plain></SENT>
+</text></ref><ref id="pone.0043261-Rogers1"><text><SENT sid="397" pm="."><plain>37 RogersRD, EverittB, BaldacchinoA, BlackshawA, SwainsonR, et al (1999) Dissociable deficits in the decision-making cognition of chronic amphetamine abusers, opiate abusers, patients with focal damage to prefrontal cortex, and tryptophan-depleted normal volunteers; evidence for monoaminergic mechanism. Neuropsychopharmacology 20: 322–339.10088133 </plain></SENT>
+</text></ref><ref id="pone.0043261-Fossati1"><text><SENT sid="398" pm="."><plain>38 FossatiA, Di CeglieA, AcquariniE, BarrattES (2001) Psychometric properties of an Italian version of the Barratt Impulsiveness Scale-11 (BIS-11) in nonclinical subjects. J Clin Psychol 57: 815–828.11344467 </plain></SENT>
+</text></ref><ref id="pone.0043261-Torrubia1"><text><SENT sid="399" pm="."><plain>39 TorrubiaR, AvilaC, MoltoJ, CaserasX (2001) The Sensitivity to Punishment and Sensitivity to Reward Questionnaire (SPSRQ) as a measure of Gray's anxiety and impulsivity dimensions. Pers Individ Diff 31: 837–862. </plain></SENT>
+</text></ref><ref id="pone.0043261-Clare1"><text><SENT sid="400" pm="."><plain>40 ClareS, HelpsS, Sonuga-BarkeEJ (2010) The quick delay questionnaire: a measure of delay aversion and discounting in adults. Atten Defic and Hyperac Disord 2: 43–48. </plain></SENT>
+</text></ref><ref id="pone.0043261-Gray1"><text><SENT sid="401" pm="."><plain>41Gray JA (1981) A critique of Eysenck's theory of personality, In H.JEysenck (Ed.) A model for personality 246–276. </plain></SENT>
+</text></ref><ref id="pone.0043261-Gray2"><text><SENT sid="402" pm="."><plain>42Gray JA (1982) The neuropsychology of anxiety: An enquiry into the functions of the septo-hippocampal system. </plain></SENT>
+<SENT sid="403" pm="."><plain>Oxford University Press. </plain></SENT>
+</text></ref><ref id="pone.0043261-Grafen1"><text><SENT sid="404" pm="."><plain>43Grafen A, Hails R (2002) Modern statistics for the life sciences. </plain></SENT>
+<SENT sid="405" pm="."><plain>Oxford University Press. </plain></SENT>
+</text></ref><ref id="pone.0043261-Uslaner1"><text><SENT sid="406" pm="."><plain>44 UslanerJ, RobinsonT (2006) Subthalamic nucleus lesions increase impulsive action and decrease impulsive choice - mediation by enhanced incentive motivation? Eur J Neurosci 24: 2345–2354.17074055 </plain></SENT>
+</text></ref><ref id="pone.0043261-Winstanley2"><text><SENT sid="407" pm="."><plain>45 WinstanleyCA, DalleyJW, TheobaldDE, RobbinsTW (2004) Fractionating impulsivity: contrasting effects of central 5-HT depletion on different measures of impulsive behavior. Neuropsychopharmacology 29: 1331–1343.15054475 </plain></SENT>
+</text></ref><ref id="pone.0043261-Hershey2"><text><SENT sid="408" pm="."><plain>46 HersheyT, RevillaF, WernleA, Schneider GibsonP, DowlingJ, et al (2004) Stimulation of <z:uniprot sup="inside" fb="6" ids="Q05639">STN</z:uniprot> impairs aspects of cognitive control in PD. Neurology 62: 1110–1114.15079009 </plain></SENT>
+</text></ref><ref id="pone.0043261-Hershey3"><text><SENT sid="409" pm="."><plain>47 HersheyT, CampbellMC, VideenTO, LugarHM, WeaverPM, et al (2010) Mapping Go-No-Go performance within the subthalamic nucleus region. Brain 133: 3625–3634.20855421 </plain></SENT>
+</text></ref><ref id="pone.0043261-Frank2"><text><SENT sid="410" pm="."><plain>48 FrankM, SamantaJ, MoustafaA, ShermanS (2007) Hold your horses: impulsivity, deep brain stimulation, and medication in Parkinsonism. Science 318: 1309–1312.17962524 </plain></SENT>
+</text></ref><ref id="pone.0043261-Aron1"><text><SENT sid="411" pm="."><plain>49 AronAR, BehrensTE, SmithS, FrankMJ, PoldrackRA (2007) Triangulating a cognitive control network using diffusion-weighted magnetic resonance imaging (MRI) and functional MRI. J Neurosci 27: 3743–3752.17409238 </plain></SENT>
+</text></ref><ref id="pone.0043261-Inase1"><text><SENT sid="412" pm="."><plain>50 InaseM, TokunoH, NambuA, AkazawaT, TakadaM (1999) Corticostriatal and corticosubthalamic input zones from the presupplementary motor area in the macaque monkey: comparison with the input zones from the supplementary motor area. Brain Res 833: 191–201.10375694 </plain></SENT>
+</text></ref><ref id="pone.0043261-Nambu1"><text><SENT sid="413" pm="."><plain>51 NambuA, TokunoH, TakadaM (2002) Functional significance of the cortico-subthalamo-pallidal ‘hyperdirect’ pathway. Neurosci Res 43: 111–117.12067746 </plain></SENT>
+</text></ref><ref id="pone.0043261-RodriguezOroz2"><text><SENT sid="414" pm="."><plain>52 Rodriguez-OrozMC, Lopez-AzcarateJ, Garcia-GarciaD, AlegreM, ToledoJ, et al (2012) Involvement of the subthalamic nucleus in impulse control disorders associated with Parkinson's disease. Brain 134: 36–49. </plain></SENT>
+</text></ref><ref id="pone.0043261-Cools1"><text><SENT sid="415" pm="."><plain>53 CoolsR, BarkerRA, SahakianB, RobbinsT (2003) L-Dopa medication remediates cognitive inflexibility, but increases impulsivity in patients with Parkinson's disease. Neuropsychologia 4: 1431–1441. </plain></SENT>
+</text></ref><ref id="pone.0043261-Torta1"><text><SENT sid="416" pm="."><plain>54 TortaDM, CastelliL, ZibettiM, LopianoL, GeminianiG (2009) On the role of dopamine replacement therapy in decision-making, working memory, and reward in Parkinson's disease: does the therapy-dose matter? Brain Cogn 71: 84–91.19442427 </plain></SENT>
+</text></ref><ref id="pone.0043261-Torta2"><text><SENT sid="417" pm="."><plain>55 TortaDM, CastelliL, Latini-CorazziniL, BancheA, LopianoL, et al (2010) Dissociation between time reproduction of actions and of intervals in patients with Parkinson's disease. J Neurol 257: 1356–1361.20352253 </plain></SENT>
+</text></ref><ref id="pone.0043261-Gotham1"><text><SENT sid="418" pm="."><plain>56 GothamA, BrownmR, MarsdenC (1988) ‘Frontal’ cognitive function in patients with Parkinson's disease ‘on’ and ‘off’ levodopa. Brain 111: 299–321.3378138 </plain></SENT>
+</text></ref><ref id="pone.0043261-Swainson1"><text><SENT sid="419" pm="."><plain>57 SwainsonR, RogersR, SahakianB, SummersB, PolkeyC, et al (2000) Probabilistic learning and reversal deficits in patients with Parkinson's disease or frontal or temporal lobe lesions: possible adverse effects of dopaminergic medication. Neuropsychologia 38: 596–612.10689037 </plain></SENT>
+</text></ref><ref id="pone.0043261-Housden1"><text><SENT sid="420" pm="."><plain>58 HousdenCR, O'SullivanSS, JoyceEM, LeesAJ, RoiserJP (2010) Intact reward learning but elevated delay discounting in Parkinson's disease patients with impulsive-compulsive spectrum behaviors. Neuropsychopharmacology 35: 2155–2164.20631686 </plain></SENT>
+</text></ref><ref id="pone.0043261-Meck1"><text><SENT sid="421" pm="."><plain>59 MeckW, PenneyT, PouthasV (2008) Cortico-striatal representation of time in animals and humans. Curr Opin Neurobiol 18: 145–152.18708142 </plain></SENT>
+</text></ref><ref id="pone.0043261-Merchant1"><text><SENT sid="422" pm="."><plain>60 MerchantH, LucianaM, HooperC, MajesticS, TuiteP (2008) Interval timing and Parkinon's disease: heterogeneity in temporal performances. Exp Brain Res 184: 233–248.17828600 </plain></SENT>
+</text></ref><ref id="pone.0043261-WildWall1"><text><SENT sid="423" pm="."><plain>61 Wild-WallN, WillemssenR, FalkensteinM, BesteC (2008) Time estimation in healthy ageing and neurodegenerative basal ganglia disorders. Neurosci Lett 442: 34–38.18602449 </plain></SENT>
+</text></ref><ref id="pone.0043261-Frank3"><text><SENT sid="424" pm="."><plain>62 FrankMJ, SeebergerLC, O'ReillyRC (2004) By carrot or by stick: cognitive reinforcement learning in parkinsonism. Science 306: 1940–1943.15528409 </plain></SENT>
+</text></ref><ref id="pone.0043261-Berney1"><text><SENT sid="425" pm="."><plain>63 BerneyA, PanissetM, SadikotA, PtitoA, DagherA, et al (2007) Mood stability during acute stimulator challenge in Parkinson's disease patients under long-term treatment with subthalamic deep brain stimulation. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 22: 1093–1096.17394245 </plain></SENT>
+</text></ref><ref id="pone.0043261-Funkiewiez2"><text><SENT sid="426" pm="."><plain>64 FunkiewiezA, ArdouinC, KrackP, FraixV, Van BlercomN, et al (2003) Acute psychotropic effects of bilateral subthalamic nucleus stimulation and levodopa in Parkinson's disease. <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Disord 18: 524–530.12722166 </plain></SENT>
+</text></ref><ref id="pone.0043261-Haertzen1"><text><SENT sid="427" pm="."><plain>65 HaertzenCA, HillHE, BellevilleRE (1963) Development of the Addiction Research Center Inventory (ARCI): selection of items that are sensitive to the effects of various drugs. Psychopharmacology 4: 155–166. </plain></SENT>
+</text></ref><ref id="pone.0043261-Berlin1"><text><SENT sid="428" pm="."><plain>66 BerlinHA, BraunA, SimeonD, KoranLM, PotenzaMN, et al (in press) A double-blind, placebo-controlled trial of topiramate for pathological gambling. World J Biol Psychiatry doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/15622975.2011.560964">10.3109/15622975.2011.560964</ext-link>. </plain></SENT>
+</text></ref><ref id="pone.0043261-Bermejo1"><text><SENT sid="429" pm="."><plain>67 BermejoPE, Ruiz-HueteC, AncionesB (2010) Zonisamide in managing impulse control disorders in Parkinson's disease. J Neurol 257: 1682–1685.20509031 </plain></SENT>
+</text></ref><ref id="pone.0043261-Voon1"><text><SENT sid="430" pm="."><plain>68 VoonV, KrackP, LangAE, LozanoAM, DujardinK, et al (2008) A multicentre study on suicide outcomes following subthalamic stimulation for Parkinson's disease. Brain 131: 2720–2728.18941146 </plain></SENT>
+</text></ref><ref id="pone.0043261-Chabardes1"><text><SENT sid="431" pm="."><plain>69 ChabardesS, PolosanM, KrackP, BastinJ, KrainikA, et al (in press) Deep Brain Stimulation for Obsessive-Compulsive Disorder: Subthalamic Nucleus Target. World Neurosurg doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.wneu.2012.03.010">10.1016/j.wneu.2012.03.010</ext-link>. </plain></SENT>
+</text></ref><ref id="pone.0043261-Mayberg1"><text><SENT sid="432" pm="."><plain>70 MaybergHS, LozanoAM, VoonV, McNeelyHE, SeminowiczD, et al (2005) Deep brain stimulation for treatment-resistant depression. Neuron 45: 651–660.15748841 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

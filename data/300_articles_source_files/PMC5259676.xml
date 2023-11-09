@@ -1,0 +1,1087 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Biomed Res Int</journal-id><journal-id journal-id-type="iso-abbrev">Biomed Res Int</journal-id><journal-id journal-id-type="publisher-id">BMRI</journal-id><journal-title-group><journal-title>BioMed Research International</journal-title></journal-title-group><issn pub-type="ppub">2314-6133</issn><issn pub-type="epub">2314-6141</issn><publisher><publisher-name>Hindawi Publishing Corporation</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5259676</article-id><article-id pub-id-type="doi">10.1155/2017/3236893</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Multislice Analysis of Blood Flow Values in CT Perfusion Studies of Lung Cancer </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Malavasi</surname><given-names>Silvia</given-names></name><xref ref-type="aff" rid="I1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="I2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Barone</surname><given-names>Domenico</given-names></name><xref ref-type="aff" rid="I3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gavelli</surname><given-names>Giampaolo</given-names></name><xref ref-type="aff" rid="I3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2938-5058</contrib-id><name><surname>Bevilacqua</surname><given-names>Alessandro</given-names></name><xref ref-type="aff" rid="I2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="I4">
+<sup>4</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="I1"><sup>1</sup>Department of Electrical, Electronic and Information Engineering (DEI), University of Bologna, Viale Risorgimento 2, 40136 Bologna, Italy</aff><aff id="I2"><sup>2</sup>Advanced Research Center on Electronic Systems (ARCES), University of Bologna, Via Toffano 2/2, 40125 Bologna, Italy</aff><aff id="I3"><sup>3</sup>IRCCS-Istituto Scientifico Romagnolo per lo Studio e la Cura dei Tumori (IRST), 47014 Meldola, Italy</aff><aff id="I4"><sup>4</sup>Department of Computer Science and Engineering (DISI), University of Bologna, Viale Risorgimento 2, 40136 Bologna, Italy</aff><author-notes><corresp id="cor1">*Alessandro Bevilacqua: <email>alessandro.bevilacqua@unibo.it</email></corresp><fn fn-type="other"><p><text><SENT sid="1" pm="."><plain>Academic Editor: Noriyoshi Sawabata </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="ppub"><year>2017</year></pub-date><pub-date pub-type="epub"><day>10</day><month>1</month><year>2017</year></pub-date><volume>2017</volume><elocation-id>3236893</elocation-id><history><date date-type="received"><day>29</day><month>9</month><year>2016</year></date><date date-type="rev-recd"><day>7</day><month>12</month><year>2016</year></date><date date-type="accepted"><day>12</day><month>12</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2017 Silvia Malavasi et al.</copyright-statement><copyright-year>2017</copyright-year><license xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Objectives. </plain></SENT>
+<SENT sid="3" pm="."><plain>Tumour heterogeneity represents a key issue in CT perfusion (CTp), where all studies are usually based on global mean or median values of perfusion maps, often computed on whole tumour. </plain></SENT>
+<SENT sid="4" pm="."><plain>We sought to determine whether, and to what extent, such global values can be representative of tumour heterogeneity, with respect to single slices, and could be used for therapy assessment. Materials and Methods. </plain></SENT>
+<SENT sid="5" pm="."><plain>Twelve patients with one primary non-small cell lung cancer lesion were enrolled in this study, for a total amount of 26 CTp examinations and 118 slices. </plain></SENT>
+<SENT sid="6" pm="."><plain>Mean and median blood flow (BF) values, calculated voxel-based, were computed on each slice and the whole tumour. </plain></SENT>
+<SENT sid="7" pm="."><plain>To measure functional heterogeneity, entropy was calculated on BF values as well. Results. </plain></SENT>
+<SENT sid="8" pm="."><plain>Most of the slices were not represented by the global BF values computed on the whole tumour. </plain></SENT>
+<SENT sid="9" pm="."><plain>In addition, there are a number of lesions having equivalent global BF values, but they are composed of slices having very different heterogeneity distributions, that is, entropy values. Conclusions. </plain></SENT>
+<SENT sid="10" pm="."><plain>Global mean/median BF values of the single slices separately should be considered for clinical assessment, only if interpreted through entropy computed on BF values. </plain></SENT>
+<SENT sid="11" pm="."><plain>The numerical equivalence between global BF values of different lesions may correspond to different clinical status, thus inducing possible errors in choice of therapy when considering global values only. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><SecTag type="INTRO"><sec id="sec1"><title><text><SENT sid="12" pm="."><plain>1. </plain></SENT>
+<SENT sid="13" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="14" pm="."><plain>The introduction of antiangiogenic therapies aiming at preventing or regularizing the growth of vascularization in cancer tissues has aroused lively interest around promising imaging techniques capable of detecting vascular changes, thus providing fundamental information about treatments effectiveness before the appearance of morphological changes. </plain></SENT>
+<SENT sid="15" pm="."><plain>In the last few years, computed tomography perfusion (CTp) has gained a large consensus among researchers, thanks to its capability of providing both high morphological resolution images and functional information about the investigated tissues [1]. </plain></SENT>
+<SENT sid="16" pm="."><plain>This noninvasive and widely available methodology allows obtaining time concentration curves (TCCs) pertaining to a specific region of interest (ROI) by repeatedly acquiring the same portion of tissue during, and after, the intravenous injection of an iodinated contrast agent [2]. </plain></SENT>
+<SENT sid="17" pm="."><plain>Through the analysis of TCCs, it is possible to achieve colorimetric maps representing values of perfusion parameters that can be used for multiple purposes such as monitoring vascular changes after the administration of antiangiogenic drugs [3], predicting tumour response [4, 5], or differentiating tumour subtypes [6]. </plain></SENT>
+</text></p><p><text><SENT sid="18" pm="."><plain>Several sources of variability are known to affect the reliability of final perfusion parameters [7] that from time to time have also prompted the scientific community to argue about the effectiveness of CTp [1, 8]. </plain></SENT>
+<SENT sid="19" pm="."><plain>Indeed, when investigating the possible clinical applications, tumour heterogeneity, representativeness of tumour regions, reliability of results, and reproducibility of CTp examinations represent different as well as interconnected issues that should be addressed as a whole. </plain></SENT>
+<SENT sid="20" pm="."><plain>In fact, heterogeneity is an intrinsic characteristic of all tumours [9, 10], at several levels, ranging from genes to tissues [11], and this is also reflected in the hemodynamic behaviour, for instance, in areas of angiogenesis and necrosis [12]. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>As a consequence, which part of the tumour could be the most representative one for clinical assessments has been widely debated. </plain></SENT>
+<SENT sid="22" pm="."><plain>Traditionally, the first CTp examinations were performed on one slice, due to technology limitation of data acquisition and processing apparatuses [13]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Afterwards, the improvement of technology has permitted working on the whole tumour [14], or groups of slices, as the central ones [15]. </plain></SENT>
+<SENT sid="24" pm="."><plain>However, authors have still continued working on a single section only [16], chosen as the one representing the largest tumour diameter [17], or better incorporated the solid-appearing part of the target lesion [18], or else being in the middle scan position [19–21]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Nonetheless, several researchers choose the single tumour section based on visual considerations only [22], such as that having the best quality [23], or the widest area [24], jointly to the least variability [25]. </plain></SENT>
+</text></p><p><text><SENT sid="26" pm="."><plain>Undoubtedly, the most important issue to make CTp entering the clinical practice is the possibility of achieving between-patient and among-patients standardization. </plain></SENT>
+<SENT sid="27" pm="."><plain>To this purpose, the reproducibility of reliable results is an essential requirement, but it must be coupled to the clinical representativeness of numerical results. </plain></SENT>
+<SENT sid="28" pm="."><plain>In the literature, it has been widely stated that by considering the whole tumour [26], or even group of slices [27], perfusion parameters may improve reproducibility and repeatability [28], against a single slice. </plain></SENT>
+<SENT sid="29" pm="."><plain>That is, considering a wider “population” (i.e., more slices), averaging values helps achieving a “global” tumour behaviour. </plain></SENT>
+<SENT sid="30" pm="."><plain>Using global mean or median values can also work for diagnosis purposes, where CTp has been used to discriminate between benign and malignant in different types of lung lesions, including pulmonary solitary nodules. </plain></SENT>
+<SENT sid="31" pm="."><plain>For instance, the overall mean of pulmonary index, pulmonary and bronchial blood flow (BF), is computed on multiple slices in [29] and on three tumour sections chosen according to the axial, coronal, and sagittal planes, in [30]. </plain></SENT>
+<SENT sid="32" pm="."><plain>The overall median of all the CTp parameters for the whole tumour is computed in [14], where the median was preferred over the mean operator to avoid outliers. </plain></SENT>
+</text></p><p><text><SENT sid="33" pm="."><plain>All the studies considered refer to global perfusion parameters, whether they are mean or median values, encompassing all the tumour characteristics. </plain></SENT>
+<SENT sid="34" pm="."><plain>However, in this way, besides the uncertainty intrinsic to the CTp acquisition and processing procedure, global parameters also reduce the variability due to tumour heterogeneity. </plain></SENT>
+<SENT sid="35" pm="."><plain>This is acknowledged by several authors, which recognize that global values only provide an overall measure of variability [31] and that “may not be optimal for tumour evaluation prior to treatment or therapy response evaluation” [32]. </plain></SENT>
+<SENT sid="36" pm="."><plain>Nevertheless, very few attempts have been made to try assessing the capability of CTp parameters to evaluate the treatment response of patients with non-small cell lung cancer (NSCLC), but the lack of reproducibility could not confirm the results. </plain></SENT>
+<SENT sid="37" pm="."><plain>For instance, the study in [33], dealing with CTp monitoring of antiangiogenic therapies in lung cancer, concludes that CTp can detect therapy-induced changes in perfusion, but the lack of reproducibility depletes these findings. </plain></SENT>
+<SENT sid="38" pm="."><plain>Similar outcomes regarding the CTp capability of monitoring antiangiogenic therapies were reported in [4], even though, in this case, no reproducibility studies have been performed. </plain></SENT>
+<SENT sid="39" pm="."><plain>On the other hand, more recently the authors in [24] could not find any correlation between CTp parameters and survival of patients treated with antiangiogenic therapies and chemotherapy. </plain></SENT>
+<SENT sid="40" pm="."><plain>Also, they concluded that entropy only, computed on the Hounsfield units (HU), could be considered as an independent prognostic factor for overall survival (OS), this suggesting the importance of tumour heterogeneity in assessing tumour aggressiveness. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>While it is widely agreed that considering tumour volumes give more information than using a single slice, usually single slices are merged together to provide global parameters. </plain></SENT>
+<SENT sid="42" pm="."><plain>The aim of this work is to investigate the clinical representativeness of global perfusion values and to assess their capability to deal with tumour heterogeneity. </plain></SENT>
+<SENT sid="43" pm="."><plain>To this purpose, an extensive analysis is carried out on a wide set of 118 tumour slices, and on corresponding whole tumours, referring to 12 baseline and 14 follow-up (FU) examinations. </plain></SENT>
+<SENT sid="44" pm="."><plain>BF values for each voxel of the various tumour sections were calculated and showed through the use of colorimetric maps. </plain></SENT>
+<SENT sid="45" pm="."><plain>Global mean and median BF values of each slice and of the whole tumour were then computed. </plain></SENT>
+<SENT sid="46" pm="."><plain>In order to measure hemodynamic heterogeneity, entropy was computed on the BF values of each colorimetric map and of each lesion. </plain></SENT>
+<SENT sid="47" pm="."><plain>The entropy is a well-known measure of the information content [34] and, to the best of our knowledge, this is the first time that the entropy is computed on BF maps. </plain></SENT>
+<SENT sid="48" pm="."><plain>Therefore, in this work the entropy is also a measure of the representativeness of the information content conveyed by a BF map. </plain></SENT>
+</text></p><p><text><SENT sid="49" pm="."><plain>The first statistical analysis was carried out to exclude that the groups of single slices composing the respective whole tumours had the same mean or median value. </plain></SENT>
+<SENT sid="50" pm="."><plain>Then, a second analysis was executed to assess whether some slices exist with the same mean or median global BF values as the whole tumour, so as to find out which perfusion pattern, at several levels, is represented by the global values of whole tumours. </plain></SENT>
+<SENT sid="51" pm="."><plain>In addition, being each slice endowed with its own entropy value, it is also possible to assess the heterogeneity those selected slices own. </plain></SENT>
+<SENT sid="52" pm="."><plain>To complete the analyses, a comparison between tumours with same global mean or median BF values was performed, so as to verify whether, and to what extent, a statistical equivalence of global perfusion values hints at similar perfusion patterns and heterogeneity features. </plain></SENT>
+</text></p><p><text><SENT sid="53" pm="."><plain>During data analysis, the results achieved for baseline and FU examinations are kept separate in order to allow detecting possible differences between untreated lesions, preserving their natural vascular structure, and lesions whose vascular network has been modified by the action of antiangiogenic treatments. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="sec2"><title><text><SENT sid="54" pm="."><plain>2. </plain></SENT>
+<SENT sid="55" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><p><text><SENT sid="56" pm="."><plain>This retrospective study was approved by the Institutional Review Board. </plain></SENT>
+<SENT sid="57" pm="."><plain>Twenty-two patients (fifteen men, seven women, mean age 64.7 years, range 42–81 years) with one primary NSCLC lesion underwent CTp. </plain></SENT>
+<SENT sid="58" pm="."><plain>Patients over eighteen, with lesions having the longest axial diameter larger than 15 mm in at least three sections, were considered. </plain></SENT>
+<SENT sid="59" pm="."><plain>Lesions whose boundaries could not be accurately identified, such as in case of highly inflamed tissues surrounding the tumour, were excluded from the study. </plain></SENT>
+<SENT sid="60" pm="."><plain>Finally, twelve patients (nine men, three women, mean age 64.7 years, range 42–81 years) with a target lesion having mean longest axial diameter of 43.5 mm (range 25.3–75.2 mm) and a mean area of 1625 mm2 (range 433–1995 mm2) were enrolled. </plain></SENT>
+<SENT sid="61" pm="."><plain>Five of them underwent at least one FU, for a total amount of 26 CTp examinations. </plain></SENT>
+</text></p><sec id="sec2.1"><title><text><SENT sid="62" pm="."><plain>2.1. </plain></SENT>
+<SENT sid="63" pm="."><plain>CTp Protocol and Perfusion Maps </plain></SENT>
+</text></title><p><text><SENT sid="64" pm="."><plain>Axial CTp examinations were carried out using a 256-slice CT system (Brilliance iCT, Philips Medical Systems, Best, The Netherlands). </plain></SENT>
+<SENT sid="65" pm="."><plain>Patients were instructed for breath-hold and laid in the supine (feet first) position. </plain></SENT>
+<SENT sid="66" pm="."><plain>An initial full-body, unenhanced and low-dose, CT scan was performed to identify the target lesion at the baseline condition. </plain></SENT>
+<SENT sid="67" pm="."><plain>Then, 50 mL of intravenous bolus of contrast agent (Iomeron, Bracco, Milan, Italy) was administered to the patients at 5 mL/s. </plain></SENT>
+<SENT sid="68" pm="."><plain>Five seconds later, a CTp scan of 25-second duration was performed at fixed tube voltage (80 kV), current (250 mA), and exposure (100 mAs). </plain></SENT>
+<SENT sid="69" pm="."><plain>The protocol yielded 20 scans, centred on the target lesion, with a z-coverage of 55 mm (11 slices × 5 mm thickness, 0.4-second rotation time), and rearranged into 220 cine images (512 × 512 pixel, 350 mm × 350 mm, 5 mm slice spacing, and 1.25-second temporal resolution). </plain></SENT>
+<SENT sid="70" pm="."><plain>For each slice, the longest axial diameter was computed, using a digital calliper. </plain></SENT>
+<SENT sid="71" pm="."><plain>Due to the inclusion criteria, the number of slices where tumours are visible changes for each examination, but they are almost always visible for at least five slices. </plain></SENT>
+<SENT sid="72" pm="."><plain>For this reason, the set of the five central slices was selected [27], achieving 118 slices (57 for baseline CTp and 61 for FUs) altogether. </plain></SENT>
+<SENT sid="73" pm="."><plain>Hereinafter, the set of slices of each tumour is referred to as the “whole tumour.” </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>Two 25-year experienced radiologists analysed the whole sequences in cine-mode fashion and in agreement, for each examination, placed a circular region of interest (ROI) within the aorta to extract the arterial input and, for each slice, drew a ROI following the margin of tumours. </plain></SENT>
+<SENT sid="75" pm="."><plain>Voxel-based BF values, expressed in mL/min/100 g, were computed for each slice, using an in-house algorithm developed in Matlab (MathWorks, Natick, MA), implementing the maximum slope method [35] and represented through the use of colorimetric maps. </plain></SENT>
+<SENT sid="76" pm="."><plain>Misleading perfusion values computed on poorly representative TCCs (due to a bad fit) were excluded from the analysis according to what is reported in [16, 36], in order to obtain more reliable results. </plain></SENT>
+<SENT sid="77" pm="."><plain>The corresponding voxels are displayed in the colour maps with the “pink” colour. </plain></SENT>
+<SENT sid="78" pm="."><plain>Mean BF values representative of each slice (μs) and of the whole lesion (μw) were computed for each examination. </plain></SENT>
+<SENT sid="79" pm="."><plain>Median values were also computed for each slice (Ms) and the whole lesion (Mw). </plain></SENT>
+<SENT sid="80" pm="."><plain>The ranges (r) between minimum and maximum of μs and Ms, rμ and rM, respectively, were computed as a variability measure referred to as the whole volume. </plain></SENT>
+</text></p></sec><sec id="sec2.2"><title><text><SENT sid="81" pm="."><plain>2.2. </plain></SENT>
+<SENT sid="82" pm="."><plain>Heterogeneity Analysis of BF Maps </plain></SENT>
+</text></title><p><text><SENT sid="83" pm="."><plain>The entropy is a measure often used in texture analysis, also applied to the oncologic field, for instance, to get a measure of texture irregularities [12]. </plain></SENT>
+<SENT sid="84" pm="."><plain>Besides that, the entropy, computed on both nonenhanced and contrast-enhanced CT images, has been shown to correlate with the overall survival in patients with colorectal cancer [37] and gliomas [38] and with tumour staging [39] and overall survival [24] in patients with NSCLC. </plain></SENT>
+<SENT sid="85" pm="."><plain>In this work, the entropy, E, was computed for the first time on the BF maps of the whole tumour (Ew) and of each slice (Es), with the purpose to get a measure of the hemodynamic heterogeneity. </plain></SENT>
+<SENT sid="86" pm="."><plain>The range rE between minimum and maximum Ew values is also considered as a measure of the heterogeneity variability in the whole tumour. E measures are reported in arbitrary units (a.u.). </plain></SENT>
+<SENT sid="87" pm="."><plain>More details are given in the Appendix. </plain></SENT>
+</text></p><p><text><SENT sid="88" pm="."><plain>Figure 1 reports an example of BF maps, referred to as lesion ID8, ordered from (a) to (e) according to increasing Es values. </plain></SENT>
+</text></p></sec><sec id="sec2.3"><title><text><SENT sid="89" pm="."><plain>2.3. </plain></SENT>
+<SENT sid="90" pm="."><plain>Statistical and Data Analysis </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>Statistical analysis was performed by using statistical software (R, version 3.2.1, The R Foundation for Statistical Computing). p values ≤0.05 were considered for statistical significance. </plain></SENT>
+<SENT sid="92" pm="."><plain>Kendall-τ coefficient was used to assess any possible correlation between measurement errors and their magnitude: in case of concordance, data were log-transformed. </plain></SENT>
+<SENT sid="93" pm="."><plain>Three groups of statistical tests were performed. </plain></SENT>
+</text></p><p><text><SENT sid="94" pm="."><plain>First, the one-way analysis of variance (ANOVA) was performed to check whether all slices (the “groups”) of the same tumour have the same mean value, that is, whether they can represent the same population, in terms of BF values. </plain></SENT>
+<SENT sid="95" pm="."><plain>An analogous assessment was carried out for medians, through the Chi-squared test of independence. </plain></SENT>
+<SENT sid="96" pm="."><plain>The second group consists in the two-tail t-test and the Wilcoxon rank sum test, which were utilized for three different purposes. </plain></SENT>
+<SENT sid="97" pm="."><plain>In fact, they were applied to test, for each lesion, the difference of means and medians, respectively, between each slice and the whole tumour, with the purpose to check whether a slice exists which can represent the whole tumour (i.e., having the same global value). </plain></SENT>
+<SENT sid="98" pm="."><plain>The same tests were also carried out to check for μs or Ms differences between couples of slices, whether they belonged to same tumour or different ones. </plain></SENT>
+<SENT sid="99" pm="."><plain>Finally, they were employed to select which tumours have the same statistical μw or Mw values, to further compare their perfusion patterns (i.e., their Ew). </plain></SENT>
+<SENT sid="100" pm="."><plain>In fact, computing and using a global mean, or median, perfusion value for CTp studies implicitly means that sets of BF values (e.g., slices or whole tumours) with same μs (or Ms) as μw (or Mw) are clinically equivalent. </plain></SENT>
+<SENT sid="101" pm="."><plain>The third group of tests is composed by the one-tail t-test only, which was performed to assess the differences between the means of Es for baseline and FU examinations. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="sec3"><title><text><SENT sid="102" pm="."><plain>3. </plain></SENT>
+<SENT sid="103" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="104" pm="."><plain>The goal of this section is assessing the capability of global values, computed on the whole tumour, to represent the clinically relevant perfusion features of a tumour, assuming that the heterogeneity is among the most important ones [40]. </plain></SENT>
+<SENT sid="105" pm="."><plain>To this purpose, we addressed tumours with different heterogeneities, referring to baseline and FUs examinations, by comparing those with the same global value. </plain></SENT>
+<SENT sid="106" pm="."><plain>In addition, whole tumours and their composing slices with same global values were compared as well. </plain></SENT>
+<SENT sid="107" pm="."><plain>In this section, we aim to check whether, and to what extent, numerical equivalence matches with clinical one. </plain></SENT>
+</text></p><p><text><SENT sid="108" pm="."><plain>As the first outcome, it is worth reporting that the hypotheses that means or medians of slices were all equivalent were rejected, for each examination. </plain></SENT>
+<SENT sid="109" pm="."><plain>Actually, this finding was expected and suggests that the variability between slices is significantly greater than the variability within slices [41]. </plain></SENT>
+</text></p><p><text><SENT sid="110" pm="."><plain>Tables 1 and 2 report the most significant measures (entropy, mean, and median) for all examinations, calculated on BF values of each slice and of the whole tumour. </plain></SENT>
+<SENT sid="111" pm="."><plain>The range of measures is also reported. </plain></SENT>
+<SENT sid="112" pm="."><plain>For the sake of brevity, in this section we just report a subset of the most interesting cases. </plain></SENT>
+</text></p><sec id="sec3.1"><title><text><SENT sid="113" pm="."><plain>3.1. </plain></SENT>
+<SENT sid="114" pm="."><plain>Baseline CTp </plain></SENT>
+</text></title><p><text><SENT sid="115" pm="."><plain>Table 1 resumes the most significant measures for the baseline CTp examinations. </plain></SENT>
+<SENT sid="116" pm="."><plain>Statistical analysis shows that ten slices exist which have the same global BF as the respective whole tumour, seven times regarding mean values, and eight ones median values. </plain></SENT>
+<SENT sid="117" pm="."><plain>Five times the whole tumour could be represented by the same slice detected by both μw and Mw values. μw and Mw values never selected the slice with maximum Es and one time selected the slice with minimum Es (ID12 and <z:uniprot sup="inside" fb="0" ids="P47928,Q06AV5">ID4</z:uniprot>, for mean and median, respectively).  Figure 2 reports the five slices of ID12, one of the most interesting lesions, where the average BF value of the whole tumour (μw = 125.0) corresponds to that of the first slice (μs = 124.5, Figure 2(a), last row). </plain></SENT>
+<SENT sid="118" pm="."><plain>It is worth noting that this slice also retains the minimum Es = 7.48, that is, the lowest heterogeneity. </plain></SENT>
+<SENT sid="119" pm="."><plain>In fact, it shows quite a uniform, low, perfusion. </plain></SENT>
+<SENT sid="120" pm="."><plain>On the contrary, the last slice (Figure 2(e)) shows a marked heterogeneity, the highest one (Es = 8.37), having in its upper part a hyperperfused region (with BF values higher than 300), and a lower hypoperfused region with BF values nearly 40. </plain></SENT>
+</text></p></sec><sec id="sec3.2"><title><text><SENT sid="121" pm="."><plain>3.2. </plain></SENT>
+<SENT sid="122" pm="."><plain>Follow-Ups CTp </plain></SENT>
+</text></title><p><text><SENT sid="123" pm="."><plain>Table 2 resumes the most significant measures for the FU CTp examinations. </plain></SENT>
+<SENT sid="124" pm="."><plain>Fifteen slices were representative of the whole tumour, thirteen of which regarding mean BF values, and eight pertaining to median values. </plain></SENT>
+<SENT sid="125" pm="."><plain>Five times, mean and median global BF values identified the same slice. </plain></SENT>
+<SENT sid="126" pm="."><plain>For lesions ID6-FU3 (Figure 3, μw = 44.4 and Mw = 37.8) and ID6-FU4 (Figure 4, μw = 39.2 and Mw = 33.2), the same slices (i.e., slice 3 for both) were those with maximum E (Es = 6.73 and Es = 6.49, respectively), probably due to these examinations being subsequent FUs of the same lesion. </plain></SENT>
+<SENT sid="127" pm="."><plain>In addition, this is the only ID where mean and median select the highest E. </plain></SENT>
+<SENT sid="128" pm="."><plain>As regards ID6-FU4, it shows limited BF ranges (rμ = 7.3 and rM = 8.0, among the lowest values of all examinations) and μs and Ms are substantially equivalent for the three central slices. </plain></SENT>
+<SENT sid="129" pm="."><plain>This consideration regarding mean range also holds for ID6-FU3, where rμ = 13.8 is a little higher, but still among the lowest ones. </plain></SENT>
+<SENT sid="130" pm="."><plain>As for median, in ID6-FU3 it also selects slice 2 (Ms = 36.9) that has the lowest Es = 6.26. </plain></SENT>
+<SENT sid="131" pm="."><plain>On the other hand, in ID11-FU4 (Figure 5), Mw = 63.3 selects slice 1 (Ms = 64.3) which is the one with the lowest Es = 7.05. </plain></SENT>
+</text></p></sec><sec id="sec3.3"><title><text><SENT sid="132" pm="."><plain>3.3. </plain></SENT>
+<SENT sid="133" pm="."><plain>Baseline and FU CTp </plain></SENT>
+</text></title><p><text><SENT sid="134" pm="."><plain>In this section, we extend the analysis over the whole dataset, by considering all the CTp examinations together. </plain></SENT>
+<SENT sid="135" pm="."><plain>As regards the whole sets of slices, the most meaningful result is that on the whole 93 slices were not represented by the global BF values computed on the whole tumour. </plain></SENT>
+<SENT sid="136" pm="."><plain>As for the sets of whole tumours, here we analyse the sets of slices referring to two couples of meaningful lesions.  Figure 6 shows the BF maps of the four consecutive slices (1–4, from (a) to (d)) of ID11 (μw = 80.0, first row) and ID6-FU1 (μw = 77.5, second row). </plain></SENT>
+<SENT sid="137" pm="."><plain>Although these lesions have statistically equivalent μw, the respective composing slices have a different heterogeneity distribution. </plain></SENT>
+<SENT sid="138" pm="."><plain>In fact, the heterogeneity in all slices (except for slice 3) of ID11 is quite comparable, as it can be seen from Es values of Table 1. </plain></SENT>
+<SENT sid="139" pm="."><plain>On the contrary, slices 1 and 2 of ID6-FU1 (Figures 6(a) and 6(b), second row) are quite homogeneous and low-perfused, while slice 4 (Figure 6(d), second row) has the highest μs = 150.8 and Es = 7.75. </plain></SENT>
+<SENT sid="140" pm="."><plain>In addition, here the heterogeneity is made of local homogeneities, with a hyperperfused upper region and a hypoperfusion in the lower one. </plain></SENT>
+</text></p><p><text><SENT sid="141" pm="."><plain>Similar comments can be done for <z:uniprot sup="inside" fb="0" ids="Q5E981,Q712G9,Q02535">ID3</z:uniprot> and <z:uniprot sup="inside" fb="4" ids="Q3ZC46,Q02363,Q4R5J7,Q2VIU1,Q5RCH7">ID2</z:uniprot>-FU1, made of five slices each, whose BF maps are shown in Figure 7, first and second row, respectively. </plain></SENT>
+<SENT sid="142" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5E981,Q712G9,Q02535">ID3</z:uniprot> (μw = 111.8) shows a heterogeneity that keeps quite “homogeneous” within all slices (rE = 0.23, the second lowest value), also in terms of mean (rμ = 15.2) and median (rM = 10.2) BF (among the lowest values), with all μs around μw = 111.8. </plain></SENT>
+<SENT sid="143" pm="."><plain>On the other hand, the heterogeneity in <z:uniprot sup="inside" fb="4" ids="Q3ZC46,Q02363,Q4R5J7,Q2VIU1,Q5RCH7">ID2</z:uniprot>-FU1 (μw = 112.8) is made of well-defined hyper- and hypoperfused regions, mostly evident in the upper and lower part, respectively, of slices 2 and 3. </plain></SENT>
+</text></p><p><text><SENT sid="144" pm="."><plain>Finally, we also analysed the distribution of all slice entropies Es for baseline and FU examinations, separately. </plain></SENT>
+<SENT sid="145" pm="."><plain>Related histograms are reported in Figures 8(a) and 8(b), respectively. </plain></SENT>
+<SENT sid="146" pm="."><plain>Even at a glance, the histograms of baseline examinations appear shifted right with respect to the FU ones. </plain></SENT>
+<SENT sid="147" pm="."><plain>In fact, for baselines mean and standard deviation are 7.4 and 0.75, respectively, while for FUs they are 6.9 and 0.64. </plain></SENT>
+<SENT sid="148" pm="."><plain>Statistical tests confirm that the mean entropy of all slices is greater for baseline examinations (p values ≤10−4). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="sec4"><title><text><SENT sid="149" pm="."><plain>4. </plain></SENT>
+<SENT sid="150" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="151" pm="."><plain>Quantitative imaging has gained an increasing interest in these last years, as the need of personalized therapies progresses [42], deepening the knowledge of tumour's heterogeneity, the most important intrinsic properties of tumours. </plain></SENT>
+<SENT sid="152" pm="."><plain>In particular, perfusion's heterogeneity is from decades a well-known characteristic of many tumours [40]. </plain></SENT>
+<SENT sid="153" pm="."><plain>However, functional results obtained from CTp are still analysed using global statistical indexes, such as mean or median operators, that many times permit measurement reproducibility, while disregarding tumour heterogeneity [43]. </plain></SENT>
+<SENT sid="154" pm="."><plain>Together with the uncertainty on reliability of voxel-based perfusion measurements, this represents one of the most relevant causes preventing the diffusion of CTp in clinical oncology, mainly to assess the outcome of therapies, such as antiangiogenic treatments. </plain></SENT>
+</text></p><p><text><SENT sid="155" pm="."><plain>In this work, we have deeply analysed the representativeness of global mean and median values, as far as the heterogeneity is concerned, starting from the assumption that computing and using a global mean, or median, perfusion value for clinical purposes means accepting that the characteristics of the tumour are represented by that value alone. </plain></SENT>
+<SENT sid="156" pm="."><plain>Accordingly, this implies that sets of BF values (e.g., slices or whole tumours), with statistically equivalent mean or median values, are equivalently representative. </plain></SENT>
+<SENT sid="157" pm="."><plain>The outcome of this work proves that these are numerical equivalences only, not clinical ones. </plain></SENT>
+<SENT sid="158" pm="."><plain>In fact, we have discussed lesions with same global mean or median BF values, which showed a very different heterogeneity. </plain></SENT>
+<SENT sid="159" pm="."><plain>In addition, we analysed tumour slices having the same global values as the whole tumour and we realized that, when those slices existed, for baseline examinations they were never those with the highest information content. </plain></SENT>
+<SENT sid="160" pm="."><plain>Rather, it happened that in two examinations the whole tumour had mean and median BF values corresponding to the slice with the lowest heterogeneity (ID12 and <z:uniprot sup="inside" fb="0" ids="P47928,Q06AV5">ID4</z:uniprot>, respectively), while the remaining slices showed relevant clinical signs of different heterogeneities. </plain></SENT>
+</text></p><p><text><SENT sid="161" pm="."><plain>For FU examinations, there was only the wide, and highly necrotic, uniform lesion ID6 where mean and median selected the region with the highest E, in two subsequent FU examinations. </plain></SENT>
+<SENT sid="162" pm="."><plain>In addition, results prove that using the median as a more robust estimator is not so effective as expected, since mean and median practically select the same slices. </plain></SENT>
+<SENT sid="163" pm="."><plain>Rather, in ID6-FU3, the median operator selects the slices with maximum and minimum Es, at the same time. </plain></SENT>
+<SENT sid="164" pm="."><plain>This behaviour has relevantly misleading properties, all the more so because median is considered a powerful outlier removal. </plain></SENT>
+<SENT sid="165" pm="."><plain>Actually, this is true, if erroneous values lay in the extreme of values domain, but median cannot work in case that discriminating BF outliers strongly depends on spatial displacement and arrangement of BF values themselves. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec id="sec5"><title><text><SENT sid="166" pm="."><plain>5. </plain></SENT>
+<SENT sid="167" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="168" pm="."><plain>Global perfusion values computed on the whole tumour cannot be appropriate for therapy assessment and cannot improve the reproducibility of heterogeneity, accordingly. </plain></SENT>
+<SENT sid="169" pm="."><plain>In addition, we have shown that the global values computed on the whole tumour have a correspondence with parts of tumour (i.e., slices) that, just occasionally, could have either maximum or minimum entropy. </plain></SENT>
+<SENT sid="170" pm="."><plain>In the remaining cases, they have not any correspondence with any real parts of the tumour and just represent a generic tumour BF averaged behaviour, which is far from representing its real clinical features. </plain></SENT>
+<SENT sid="171" pm="."><plain>And perhaps, this happens much more times than expected. </plain></SENT>
+<SENT sid="172" pm="."><plain>As far as single slices are concerned, although preserving more details, they may be not representative of the clinical status of the whole lesion and this could severely mislead clinical considerations. </plain></SENT>
+</text></p><p><text><SENT sid="173" pm="."><plain>The solution is not at hand, but the research carried out in this work suggests that the first step is being very prudent in considering the global (mean or median) BF values as useful indicators for therapy assessment. </plain></SENT>
+<SENT sid="174" pm="."><plain>On the other hand, measuring heterogeneity is a key issue to achieve useful information to assess the effectiveness of antiangiogenic therapies that cannot be left out of consideration. </plain></SENT>
+<SENT sid="175" pm="."><plain>This is confirmed by the comparison between the average BF entropy of all slices before (baseline) and after (FU) treatment, proving the effectiveness of treatments themselves, expectedly reducing the overall BF heterogeneity of tumours. </plain></SENT>
+<SENT sid="176" pm="."><plain>We have also seen that the single slices of a tumour are widely varying from each other and can represent different BF heterogeneity patterns that, on the whole, could provide a radiologist with an overall view of the whole tumour. </plain></SENT>
+<SENT sid="177" pm="."><plain>Indeed, using all the single slices of a tumour, endowed with global BF values and a BF heterogeneity measures, would represent a step forwards, useful to help radiologists to draw more reliable clinical considerations. </plain></SENT>
+</text></p><p><text><SENT sid="178" pm="."><plain>As concluding notes, we believe that improving the reliability of voxel-based perfusion values has to be coupled with the reproducibility assessment of heterogeneity measurements. </plain></SENT>
+<SENT sid="179" pm="."><plain>To this purpose, a deeper application of the bioengineering and computer science techniques to CTp data processing, in a multidisciplinary team, will play a key role in the next future to help translation of CTp into clinics. </plain></SENT>
+</text></p><p><text><SENT sid="180" pm="."><plain>The achievements of this work could be also assessed using other perfusion parameters, such as the blood volume and the mean transit time. </plain></SENT>
+<SENT sid="181" pm="."><plain>In addition, a study dedicated to validate the BF entropy as a surrogate biomarker for the overall survival is being carried out, based on the existing correlation between BF entropy and tumour grading. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="AUTH_CONT"><ack><title>Acknowledgments</title><p>The authors would like to thank Alessia Bene and Alessia Baietta for their contribution in data collection and technical support during the starting stage of this study.</p></ack></SecTag><SecTag type="APPENDIX"><app-group><app><title>Appendix</title><sec id="secA"><title>Entropy</title><p> The Shannon entropy (or briefly, entropy) was introduced in the Information Theory in the late 1949 [<xref rid="B34" ref-type="bibr">34</xref>] as a useful tool able to quantify the information content. Since then, this feature has been widely applied in many fields, image analysis included. The entropy (<italic>E</italic>) is usually computed according to (<xref ref-type="disp-formula" rid="EEqA.1">A.1</xref>) [<xref rid="B12" ref-type="bibr">12</xref>]:<disp-formula id="EEqA.1"><label>(A.1)</label><mml:math id="M1"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mrow><mml:munder><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mi>p</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mspace height="4.42pt" depth="2.484pt"/><mml:msub><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mspace height="4.42pt" depth="2.484pt"/></mml:mrow></mml:mfenced><mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">log</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>⁡</mml:mo><mml:mrow><mml:mi> </mml:mi><mml:mi>p</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mspace height="4.42pt" depth="2.484pt"/><mml:msub><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mspace height="4.42pt" depth="2.484pt"/></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mrow></mml:mrow><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>where <italic>p</italic>(<italic>v</italic><sub><italic>i</italic></sub>) represents the frequency of the<italic> i</italic>th BF values inside the BF map.</p></sec></app></app-group></SecTag><SecTag type="COMP_INT"><sec sec-type="COI-statement"><title>Competing Interests</title><p>The authors declare that there is no conflict of interests regarding the publication of this paper.</p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="182" pm="."><plain>1García-FigueirasR.GohV. </plain></SENT>
+<SENT sid="183" pm="."><plain>J.PadhaniA. </plain></SENT>
+<SENT sid="184" pm="."><plain>R.CT perfusion in oncologic imaging: a useful tool?American Journal of Roentgenology2013200181910.2214/ajr.11.84762-s2.0-8487190775723255736 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="185" pm="."><plain>2MazzeiM. </plain></SENT>
+<SENT sid="186" pm="."><plain>A.PredaL.CianfoniA.VolterraniL.CT perfusion: technical developments and current and future applicationsBioMed Research International20152015239752110.1155/2015/3975212-s2.0-84933054921 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="187" pm="."><plain>3OhnoY.KoyamaH.FujisawaY.Dynamic contrast-enhanced perfusion area detector CT for non-small cell lung cancer patients: influence of mathematical models on early prediction capabilities for treatment response and recurrence after chemoradiotherapyEuropean Journal of Radiology201685117618610.1016/j.ejrad.2015.11.0092-s2.0-8495548752126724663 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="188" pm="."><plain>4TacelliN.SantangeloT.ScherpereelA.Perfusion CT allows prediction of therapy response in non-small cell lung cancer treated with conventional and anti-angiogenic chemotherapyEuropean Radiology20132382127213610.1007/s00330-013-2821-22-s2.0-8488032704723553586<?supplied-pmid 23553586?>23553586 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="189" pm="."><plain>5HuY.TianM.ZhangH.Molecular imaging in therapeutic efficacy assessment of targeted therapy for nonsmall cell lung cancerJournal of Biomedicine and Biotechnology201220121041940210.1155/2012/419402 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="190" pm="."><plain>6Nguyen-KimT. </plain></SENT>
+<SENT sid="191" pm="."><plain>D. </plain></SENT>
+<SENT sid="192" pm="."><plain>L.FrauenfelderT.StrobelK.Veit-HaibachP.HuellnerM. </plain></SENT>
+<SENT sid="193" pm="."><plain>W.Assessment of bronchial and pulmonary blood supply in non-small cell lung cancer subtypes using computed tomography perfusionInvestigative Radiology201550317918610.1097/<z:uniprot sup="inside" fb="1" ids="P61221">RLI</z:uniprot>.00000000000001242-s2.0-8492368511625500892 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="194" pm="."><plain>7MilesK. </plain></SENT>
+<SENT sid="195" pm="."><plain>A.LeeT.-Y.GohV.Current status and guidelines for the assessment of tumour vascular support with dynamic contrast-enhanced computed tomographyEuropean Radiology20122271430144110.1007/s00330-012-2379-42-s2.0-8486468697222367468<?supplied-pmid 22367468?>22367468 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="196" pm="."><plain>8GohV.NgQ. </plain></SENT>
+<SENT sid="197" pm="."><plain>S.MilesK.Computed tomography perfusion imaging for therapeutic assessment: has it come of age as a biomarker in oncology?Investigative Radiology20124712410.1097/rli.0b013e318229ff3e2-s2.0-8415516775721808202 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="198" pm="."><plain>9BevilacquaA.BaioccoS.Automatic classification of lung tumour heterogeneity according to a visual-based score system in dynamic contrast enhanced CT sequencesInternational Journal of Modern Physics C201627914165010610.1142/s0129183116501060MR3531917 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="199" pm="."><plain>10BevilacquaA.BaroneD.BaioccoS.GavelliG.A novel approach for semi-quantitative assessment of reliability of blood flow values in DCE-CT perfusionBiomedical Signal Processing and Control20173125726410.1016/j.bspc.2016.08.015 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="200" pm="."><plain>11LambinP.Rios-VelazquezE.LeijenaarR.Radiomics: extracting more information from medical images using advanced feature analysisEuropean Journal of Cancer201248444144610.1016/j.ejca.2011.11.0362-s2.0-8485703706122257792 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="201" pm="."><plain>12DavnallF.YipC. </plain></SENT>
+<SENT sid="202" pm="."><plain>S. </plain></SENT>
+<SENT sid="203" pm="."><plain>P.LjungqvistG.Assessment of tumor heterogeneity: an emerging imaging tool for clinical practice?Insights into Imaging20123657358910.1007/s13244-012-0196-62-s2.0-8487421303723093486 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="204" pm="."><plain>13MilesK. </plain></SENT>
+<SENT sid="205" pm="."><plain>A.HayballM. </plain></SENT>
+<SENT sid="206" pm="."><plain>P.DixonA. </plain></SENT>
+<SENT sid="207" pm="."><plain>K.Functional images of hepatic perfusion obtained with dynamic CTRadiology1993188240541110.1148/radiology.188.2.83276862-s2.0-00272263638327686<?supplied-pmid 8327686?>8327686 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="208" pm="."><plain>14HardersS. </plain></SENT>
+<SENT sid="209" pm="."><plain>W.MadsenH. </plain></SENT>
+<SENT sid="210" pm="."><plain>H.NellemannH. </plain></SENT>
+<SENT sid="211" pm="."><plain>M.Dynamic contrast-enhanced CT in suspected lung cancer: quantitative resultsBritish Journal of Radiology20138610312013025710.1259/bjr.201302572-s2.0-84886676944 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="212" pm="."><plain>15FraioliF.AnzideiM.SerraG.Whole-tumour CT-perfusion of unresectable lung cancer for the monitoring of anti-angiogenetic chemotherapy effectsBritish Journal of Radiology20138610292012017410.1259/bjr.201201742-s2.0-8488303883423908346<?supplied-pmid 23908346?>23908346 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="213" pm="."><plain>16BevilacquaA.BaroneD.MalavasiS.GavelliG.Automatic detection of misleading blood flow values in CT perfusion studies of lung cancerBiomedical Signal Processing and Control20162610911610.1016/j.bspc.2016.01.004 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="214" pm="."><plain>17D'OnofrioM.GallottiA.MantovaniW.Perfusion CT can predict tumoral grading of pancreatic adenocarcinomaEuropean Journal of Radiology201382222723310.1016/j.ejrad.2012.09.0232-s2.0-8487192295223127804<?supplied-pmid 23127804?>23127804 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="215" pm="."><plain>18MazzeiF. </plain></SENT>
+<SENT sid="216" pm="."><plain>G.VolterraniL.GuerriniS.Reduced time CT perfusion acquisitions are sufficient to measure the permeability surface area product with a deconvolution methodBioMed Research International20142014657326810.1155/2014/5732682-s2.0-84907388359 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="217" pm="."><plain>19WangJ.WuN.ChamM. </plain></SENT>
+<SENT sid="218" pm="."><plain>D.SongY.Tumor response in patients with advanced non-small cell lung cancer: perfusion CT evaluation of chemotherapy and radiation therapyAmerican Journal of Roentgenology200919341090109610.2214/ajr.08.13672-s2.0-7034968498019770333 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="219" pm="."><plain>20ShanF.XingW.QiuJ.ZhangZ.YangS.First-pass CT perfusion in small peripheral lung cancers: effect of the temporal interval between scan acquisitions on the radiation dose and quantitative vascular parametersAcademic Radiology201320897297910.1016/j.acra.2013.05.0022-s2.0-8488002067623830603 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="220" pm="."><plain>21WinT.MilesK. </plain></SENT>
+<SENT sid="221" pm="."><plain>A.JanesS. </plain></SENT>
+<SENT sid="222" pm="."><plain>M.Tumor heterogeneity and permeability as measured on the CT component of PET/CT predict survival in patients with non-small cell lung cancerClinical Cancer Research201319133591359910.1158/1078-0432.CCR-12-13072-s2.0-8487986265923659970<?supplied-pmid 23659970?>23659970 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="223" pm="."><plain>22JensenN. </plain></SENT>
+<SENT sid="224" pm="."><plain>K. </plain></SENT>
+<SENT sid="225" pm="."><plain>G.LockM.FisherB.Prediction and reduction of motion artifacts in free-breathing dynamic contrast enhanced CT perfusion imaging of primary and metastatic intrahepatic tumorsAcademic Radiology201320441442210.1016/j.acra.2012.09.0272-s2.0-8487507806323498981 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="226" pm="."><plain>23GordicS.PuippeG. </plain></SENT>
+<SENT sid="227" pm="."><plain>D.KraussB.Correlation between dual-energy and perfusion CT in patients with hepatocellular carcinomaRadiology20162801788710.1148/radiol.201515156026824712 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="228" pm="."><plain>24HayanoK.KulkarniN. </plain></SENT>
+<SENT sid="229" pm="."><plain>M.DudaD. </plain></SENT>
+<SENT sid="230" pm="."><plain>G.HeistR. </plain></SENT>
+<SENT sid="231" pm="."><plain>S.SahaniD. </plain></SENT>
+<SENT sid="232" pm="."><plain>V.Exploration of imaging biomarkers for predicting survival of patients with advanced non–small cell lung cancer treated with antiangiogenic chemotherapyAmerican Journal of Roentgenology2016206598799310.2214/ajr.15.1552826934729 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="233" pm="."><plain>25IppolitoD.CasiraghiA. </plain></SENT>
+<SENT sid="234" pm="."><plain>S.FranzesiC. </plain></SENT>
+<SENT sid="235" pm="."><plain>T.BonaffiniP. </plain></SENT>
+<SENT sid="236" pm="."><plain>A.FiorD.SironiS.Intraobserver and interobserver agreement in the evaluation of tumor vascularization with computed tomography perfusion in cirrhotic patients with hepatocellular carcinomaJournal of Computer Assisted Tomography201640115215910.1097/rct.00000000000003312-s2.0-8495565847326484957 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="237" pm="."><plain>26NgQ.-S.GohV.FichteH.Lung cancer perfusion at multi-detector row CT: reproducibility of whole tumor quantitative measurementsRadiology2006239254755310.1148/radiol.23920505682-s2.0-3364613602316543594 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="238" pm="."><plain>27NgC. </plain></SENT>
+<SENT sid="239" pm="."><plain>S.ChandlerA. </plain></SENT>
+<SENT sid="240" pm="."><plain>G.WeiW.Reproducibility of perfusion parameters obtained from perfusion CT in lung tumorsAmerican Journal of Roentgenology2011197111312110.2214/AJR.10.54042-s2.0-7996053051921701018<?supplied-pmid 21701018?>21701018 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="241" pm="."><plain>28LeeS. </plain></SENT>
+<SENT sid="242" pm="."><plain>M.LeeH.-J.KimJ. </plain></SENT>
+<SENT sid="243" pm="."><plain>I.Adaptive 4D volume perfusion CT of lung cancer: effects of computerized motion correction and the range of volume coverage on measurement reproducibilityAmerican Journal of Roentgenology20132006W603W60910.2214/ajr.12.94582-s2.0-8488096469823701090 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="244" pm="."><plain>29YuanX.ZhangJ.QuanC.Differentiation of malignant and benign pulmonary nodules with first-pass dual-input perfusion CTEuropean Radiology20132392469247410.1007/s00330-013-2842-x2-s2.0-8488225388523793548<?supplied-pmid 23793548?>23793548 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="245" pm="."><plain>30BohlsenD.TalakicE.FritzG. </plain></SENT>
+<SENT sid="246" pm="."><plain>A.QuehenbergerF.TillichM.SchoellnastH.First pass dual input volume CT-perfusion of lung lesions: the influence of the CT- value range settings on the perfusion values of benign and malignant entitiesEuropean Journal of Radiology20168561109111410.1016/j.ejrad.2016.03.01327161059 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="247" pm="."><plain>31NgQ. </plain></SENT>
+<SENT sid="248" pm="."><plain>S.GohV.KlotzE.Quantitative assessment of lung cancer perfusion using MDCT: does measurement reproducibility improve with greater tumor volume coverage?American Journal of Roentgenology200618741079108410.2214/ajr.05.08892-s2.0-3374899200316985160 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="249" pm="."><plain>32ReinerC. </plain></SENT>
+<SENT sid="250" pm="."><plain>S.GordicS.PuippeG.Histogram analysis of CT perfusion of hepatocellular carcinoma for predicting response to transarterial radioembolization: value of tumor heterogeneity assessmentCardioVascular and Interventional Radiology201639340040810.1007/s00270-015-1185-12-s2.0-8495743445326216725 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="251" pm="."><plain>33FraioliF.AnzideiM.ZaccagnaF.Whole-tumor perfusion CT in patients with advanced lung adenocarcinoma treated with conventional and antiangiogenetic chemotherapy: initial experienceRadiology2011259257458210.1148/radiol.111006002-s2.0-7995500232421357523 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="252" pm="."><plain>34ShannonC. </plain></SENT>
+<SENT sid="253" pm="."><plain>E.WeaverW.The Mathematical Theory of Communication2015University of Illinois PressMR0032134 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="254" pm="."><plain>35GibaldiA.BaroneD.GavelliG.MalavasiS.BevilacquaA.Effects of guided random sampling of TCCs on blood flow values in CT perfusion studies of lung tumorsAcademic Radiology2015221586910.1016/j.acra.2014.08.0092-s2.0-8491945988025481516 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="255" pm="."><plain>36BevilacquaA.BaroneD.MalavasiS.GavelliG.Quantitative assessment of effects of motion compensation for liver and lung tumors in CT perfusionAcademic Radiology201421111416142610.1016/j.acra.2014.06.0052-s2.0-8490805225025300721<?supplied-pmid 25300721?>25300721 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="256" pm="."><plain>37GaneshanB.MilesK. </plain></SENT>
+<SENT sid="257" pm="."><plain>A.YoungR. </plain></SENT>
+<SENT sid="258" pm="."><plain>C. </plain></SENT>
+<SENT sid="259" pm="."><plain>D.ChatwinC. </plain></SENT>
+<SENT sid="260" pm="."><plain>R.Hepatic enhancement in colorectal cancer. </plain></SENT>
+<SENT sid="261" pm="."><plain>Texture analysis correlates with hepatic hemodynamics and patient survivalAcademic Radiology200714121520153010.1016/j.acra.2007.06.0282-s2.0-3614897126118035281 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="262" pm="."><plain>38SkogenK.GaneshanB.GoodT.CritchleyG.MilesK.Imaging heterogeneity in gliomas using texture analysisCancer Imaging201111, article S113 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="263" pm="."><plain>39GaneshanB.AbalekeS.YoungR. </plain></SENT>
+<SENT sid="264" pm="."><plain>C. </plain></SENT>
+<SENT sid="265" pm="."><plain>D.ChatwinC. </plain></SENT>
+<SENT sid="266" pm="."><plain>R.MilesK. </plain></SENT>
+<SENT sid="267" pm="."><plain>A.Texture analysis of non-small cell lung cancer on unenhanced computed tomography: initial evidence for a relationship with tumour glucose metabolism and stageCancer Imaging201010113714310.1102/1470-7330.2010.00212-s2.0-7795790931620605762 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="268" pm="."><plain>40GilliesR. </plain></SENT>
+<SENT sid="269" pm="."><plain>J.SchornackP. </plain></SENT>
+<SENT sid="270" pm="."><plain>A.SecombT. </plain></SENT>
+<SENT sid="271" pm="."><plain>W.RaghunandN.Causes and effects of heterogeneous perfusion in tumorsNeoplasia19991319720710.1038/sj.neo.79000372-s2.0-003317055710935474 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="272" pm="."><plain>41ZarJ.Biostatistical Analysis1999Prentice Hall </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="273" pm="."><plain>42SubramaniamR. </plain></SENT>
+<SENT sid="274" pm="."><plain>M.A defining moment: cultural change in radiologyAcademic Radiology20152211210.1016/j.acra.2014.09.0192-s2.0-8491945650425481514 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="275" pm="."><plain>43CuenodC. </plain></SENT>
+<SENT sid="276" pm="."><plain>A.BalvayD.Perfusion and vascular permeability: basic concepts and measurement in DCE-CT and DCE-MRIDiagnostic and Interventional Imaging201394121187120410.1016/j.diii.2013.10.0102-s2.0-8489506668824211260 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="fig1" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="277" pm="."><plain>Original ROIs (HU, first row) and BF maps (second row) of all adjacent slices of lesion ID8, ordered by increasing Es values: the slice at level 2 (Es = 7.07) (a), level 1 (Es = 7.43) (b), level 5 (Es = 7.62) (c), level 4 (Es = 7.92) (d), and level 3 (Es = 8.10) (e). </plain></SENT>
+<SENT sid="278" pm="."><plain>Values are reported in arbitrary units (a.u.). </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.001"/></fig></SecTag><SecTag type="FIG"><fig id="fig2" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="279" pm="."><plain>ID12: the whole scan (first row), HU (second row), and BF maps (third row) ordered from (a) to (e) according to the scan position (the third section is the central one). </plain></SENT>
+<SENT sid="280" pm="."><plain>The BF maps are visualized using the same colour scale. </plain></SENT>
+<SENT sid="281" pm="."><plain>By chance, they are also sorted according to their E value: Es = 7.48 (a), Es = 7.64 (b), Es = 7.86 (c), Es = 8.01 (d), Es = 8.37 (e). </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.002"/></fig></SecTag><SecTag type="FIG"><fig id="fig3" orientation="portrait" position="float"><label>Figure 3</label><caption><p><text><SENT sid="282" pm="."><plain>BF maps of the four consecutive slices of ID6-FU3 (1–4, from (a) to (d)). μw = 44.4, Mw = 37.8. </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.003"/></fig></SecTag><SecTag type="FIG"><fig id="fig4" orientation="portrait" position="float"><label>Figure 4</label><caption><p><text><SENT sid="283" pm="."><plain>BF maps of the five consecutive slices of ID6-FU4 (1–5, from (a) to (e)). μw = 39.2, Mw = 33.2. </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.004"/></fig></SecTag><SecTag type="FIG"><fig id="fig5" orientation="portrait" position="float"><label>Figure 5</label><caption><p><text><SENT sid="284" pm="."><plain>BF maps of the five consecutive slices of ID11-FU4 (1–5, from (a) to (e)). μw = 72.3, Mw = 63.3. </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.005"/></fig></SecTag><SecTag type="FIG"><fig id="fig6" orientation="portrait" position="float"><label>Figure 6</label><caption><p><text><SENT sid="285" pm="."><plain>BF maps of the four consecutive slices (1–4, from (a) to (d)) composing lesions ID11, baseline (μw = 80.0, first row) and lesion ID6-FU1 (μw = 77.5, second row). μw's are statistically equivalent. </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.006"/></fig></SecTag><SecTag type="FIG"><fig id="fig7" orientation="portrait" position="float"><label>Figure 7</label><caption><p><text><SENT sid="286" pm="."><plain>BF maps of the five consecutive slices (1–5, from (a) to (e)) composing lesions <z:uniprot sup="inside" fb="0" ids="Q5E981,Q712G9,Q02535">ID3</z:uniprot>, baseline (μw = 111.8, first row) and lesion <z:uniprot sup="inside" fb="4" ids="Q3ZC46,Q02363,Q4R5J7,Q2VIU1,Q5RCH7">ID2</z:uniprot>-FU1 (μw = 112.8, second row). μw's are statistically equivalent. </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.007"/></fig></SecTag><SecTag type="FIG"><fig id="fig8" orientation="portrait" position="float"><label>Figure 8</label><caption><p><text><SENT sid="287" pm="."><plain>Histograms of entropies Es of all slices for baseline (a) and FU (b) examinations. </plain></SENT>
+<SENT sid="288" pm="."><plain>Mean values, highlighted by the vertical red lines, are 7.4 and 6.9, respectively. </plain></SENT>
+</text></p></caption><graphic xlink:href="BMRI2017-3236893.008"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="tab1" orientation="portrait" position="float"><label>Table 1</label><caption><p><text><SENT sid="289" pm="."><plain>Summary of measures for slices and whole tumour referred to baseline CTp examinations: entropy (E), mean (μ), and median (M) BF values, where the subscripts s and w stand for slice or whole, respectively. </plain></SENT>
+<SENT sid="290" pm="."><plain>For the whole tumour, r of each slice-based measure is computed as well. </plain></SENT>
+<SENT sid="291" pm="."><plain>Italicized and bold-italicized values point out minimum and maximum value of a given measure, respectively. </plain></SENT>
+<SENT sid="292" pm="."><plain>Bold nonitalicized values highlight an equivalence between μs and μw, or Ms and Mw. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="10" align="center" rowspan="1"><text><SENT sid="293" pm="."><plain>Baseline examinations </plain></SENT>
+</text></th></tr><tr><th rowspan="2" align="left" colspan="1"><text><SENT sid="294" pm="."><plain>Patient </plain></SENT>
+</text></th><th colspan="6" align="center" rowspan="1"><text><SENT sid="295" pm="."><plain>Slice </plain></SENT>
+</text></th><th colspan="3" align="center" rowspan="1"><text><SENT sid="296" pm="."><plain>Whole tumor </plain></SENT>
+</text></th></tr><tr><th align="center" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>Measure </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>1 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>2 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>3 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>4 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>5 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>Measure </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>Value </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>r </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="306" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P41134">ID1</z:uniprot> </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>7.27 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>7.27 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>7.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>6.75 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>6.61 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>7.14 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>0.66 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>67.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>62.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>62.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>45.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>40.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>56.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>27.4 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>56.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>50.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>45.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>33.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>28.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>41.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>28.5 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="334" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="335" pm="."><plain><z:uniprot sup="inside" fb="4" ids="Q3ZC46,Q02363,Q4R5J7,Q2VIU1,Q5RCH7">ID2</z:uniprot> </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>8.17 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>8.15 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>8.22 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>8.05 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>7.91 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>8.20 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>0.31 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>124.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>115.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>128.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>118.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>108.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>120.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>20.2 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>107.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>96.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>110.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>99.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>93.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>102.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>17.6 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="363" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="364" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5E981,Q712G9,Q02535">ID3</z:uniprot> </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>7.81 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>7.75 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>7.89 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>7.85 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>7.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>7.87 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>0.23 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>117.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>111.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>116.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>115.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>102.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>111.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>15.2 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>101.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>103.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>102.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>103.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>93.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>100.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>10.2 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="392" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="393" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P47928,Q06AV5">ID4</z:uniprot> </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>7.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>7.38 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>7.31 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>7.36 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>7.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>7.39 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>0.18 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>65.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>69.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>65.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>68.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>71.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>68.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>6.1 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>54.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>56.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>47.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>50.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>53.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>52.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>9.0 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="421" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="422" pm="."><plain>ID5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>7.81 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>7.84 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>7.36 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>6.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>7.79 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>7.70 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>1.23 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>115.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>106.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>80.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>43.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>107.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>87.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>71.8 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>93.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>87.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>67.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>38.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>90.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>67.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>55.0 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="450" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="451" pm="."><plain>ID6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>6.10 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>5.96 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>6.38 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>6.62 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>6.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>6.54 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>0.66 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>33.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>31.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>41.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>52.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>63.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>42.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>32.2 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>27.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>28.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>34.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>47.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>58.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>36.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>31.3 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="479" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="480" pm="."><plain>ID7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>6.37 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>6.27 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>6.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>6.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>0.26 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>46.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>38.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>60.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>47.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>22.7 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>38.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>30.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>55.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>40.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>24.8 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="508" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="509" pm="."><plain>ID8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>7.43 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>7.07 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>8.10 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>7.92 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>7.62 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>7.95 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>1.03 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>74.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>61.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>138.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>156.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>118.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>105.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>94.5 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>57.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>53.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>119.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>141.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>104.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>85.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>87.8 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="537" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="538" pm="."><plain>ID9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>8.54 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>7.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>7.65 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>8.03 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>8.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>8.24 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>0.95 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>175.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>79.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>81.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>104.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>160.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>118.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>96.1 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>158.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>60.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>62.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>73.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>133.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>88.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>98.3 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="566" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="567" pm="."><plain>ID10 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>6.75 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>6.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>6.42 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>6.52 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>6.76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>6.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>0.34 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>45.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>44.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>38.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>40.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>48.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>43.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>10.3 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>37.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>37.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>32.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>34.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>42.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>36.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>10.1 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="595" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="596" pm="."><plain>ID11 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>7.46 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>7.34 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>6.89 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>7.63 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>7.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>0.74 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>92.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>80.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>58.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>92.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>80.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>33.8 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>76.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>61.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>51.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>74.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>63.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>25.2 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="10" rowspan="1"><text><SENT sid="624" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="625" pm="."><plain>ID12 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>7.48 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>7.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>7.86 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>8.01 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>8.37 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>8.07 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>0.89 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>124.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>110.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>113.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>116.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>157.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>125.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>47.4 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>118.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>106.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>104.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>112.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>145.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>116.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>41.9 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="tab2" orientation="portrait" position="float"><label>Table 2</label><caption><p><text><SENT sid="653" pm="."><plain>Summary of measures for slices and whole tumour referred to FU CTp examinations. </plain></SENT>
+<SENT sid="654" pm="."><plain>Notations are the same as those in Table 1. </plain></SENT>
+<SENT sid="655" pm="."><plain>Here, the FU number is also reported. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="11" align="center" rowspan="1"><text><SENT sid="656" pm="."><plain>Follow-up examinations </plain></SENT>
+</text></th></tr><tr><th rowspan="2" align="left" colspan="1"><text><SENT sid="657" pm="."><plain>Patient </plain></SENT>
+</text></th><th rowspan="2" align="center" colspan="1"><text><SENT sid="658" pm="."><plain>FU </plain></SENT>
+</text></th><th rowspan="2" align="center" colspan="1"><text><SENT sid="659" pm="."><plain>Measure </plain></SENT>
+</text></th><th colspan="5" align="center" rowspan="1"><text><SENT sid="660" pm="."><plain>Slice </plain></SENT>
+</text></th><th colspan="3" align="center" rowspan="1"><text><SENT sid="661" pm="."><plain>Whole tumour </plain></SENT>
+</text></th></tr><tr><th align="center" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>1 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>2 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>3 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>4 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>5 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>Measure </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>Value </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>r </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="670" pm="."><plain><z:uniprot sup="inside" fb="4" ids="Q3ZC46,Q02363,Q4R5J7,Q2VIU1,Q5RCH7">ID2</z:uniprot> </plain></SENT>
+</text></td><td rowspan="3" align="center" colspan="1"><text><SENT sid="671" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>7.85 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>8.06 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>7.99 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>7.88 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>7.72 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>8.08 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>0.34 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>99.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>130.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>118.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>111.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>97.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>112.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>33.0 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>85.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>110.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>99.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>85.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>75.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>92.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>35.2 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="11" rowspan="1"><text><SENT sid="699" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="15" align="left" colspan="1"><text><SENT sid="700" pm="."><plain>ID6 </plain></SENT>
+</text></td><td rowspan="3" align="center" colspan="1"><text><SENT sid="701" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>6.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>6.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>7.33 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>7.70 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>7.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>1.44 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>47.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>38.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>76.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>145.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>77.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>107.6 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>41.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>33.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="723" pm="."><plain>70.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="724" pm="."><plain>120.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="725" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="726" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="727" pm="."><plain>60.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="728" pm="."><plain>87.1 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="729" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="730" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="731" pm="."><plain>6.63 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="732" pm="."><plain>6.21 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="733" pm="."><plain>6.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="734" pm="."><plain>6.90 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="735" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="736" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="737" pm="."><plain>6.82 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="738" pm="."><plain>0.69 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="739" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="740" pm="."><plain>58.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="741" pm="."><plain>42.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="742" pm="."><plain>45.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="743" pm="."><plain>80.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="744" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="745" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="746" pm="."><plain>53.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="747" pm="."><plain>37.8 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="748" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="749" pm="."><plain>49.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="750" pm="."><plain>38.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="751" pm="."><plain>32.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="752" pm="."><plain>71.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="753" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="754" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="755" pm="."><plain>43.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="756" pm="."><plain>38.9 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="757" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="758" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="759" pm="."><plain>6.37 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="760" pm="."><plain>6.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="761" pm="."><plain>6.73 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="762" pm="."><plain>6.43 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="763" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="764" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="765" pm="."><plain>6.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="766" pm="."><plain>0.47 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="767" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="768" pm="."><plain>40.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="769" pm="."><plain>40.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="770" pm="."><plain>45.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="771" pm="."><plain>54.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="772" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="773" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="774" pm="."><plain>44.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="775" pm="."><plain>13.8 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="776" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="777" pm="."><plain>33.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="778" pm="."><plain>36.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="779" pm="."><plain>36.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="780" pm="."><plain>50.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="781" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="782" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="783" pm="."><plain>37.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="784" pm="."><plain>17.1 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="785" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="786" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="787" pm="."><plain>6.42 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="788" pm="."><plain>6.31 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="789" pm="."><plain>6.49 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="790" pm="."><plain>6.42 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="791" pm="."><plain>6.18 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="792" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="793" pm="."><plain>6.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="794" pm="."><plain>0.31 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="795" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="796" pm="."><plain>42.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="797" pm="."><plain>38.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="798" pm="."><plain>40.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="799" pm="."><plain>39.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="800" pm="."><plain>35.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="801" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="802" pm="."><plain>39.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="803" pm="."><plain>7.3 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="804" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="805" pm="."><plain>38.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="806" pm="."><plain>31.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="807" pm="."><plain>32.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="808" pm="."><plain>33.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="809" pm="."><plain>30.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="810" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="811" pm="."><plain>33.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="812" pm="."><plain>8.0 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="813" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="814" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="815" pm="."><plain>7.47 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="816" pm="."><plain>6.14 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="817" pm="."><plain>5.94 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="818" pm="."><plain>5.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="819" pm="."><plain>5.75 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="820" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="821" pm="."><plain>6.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="822" pm="."><plain>1.84 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="823" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="824" pm="."><plain>96.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="825" pm="."><plain>33.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="826" pm="."><plain>24.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="827" pm="."><plain>19.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="828" pm="."><plain>24.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="829" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="830" pm="."><plain>35.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="831" pm="."><plain>76.3 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="832" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="833" pm="."><plain>91.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="834" pm="."><plain>29.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="835" pm="."><plain>19.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="836" pm="."><plain>16.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="837" pm="."><plain>21.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="838" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="839" pm="."><plain>24.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="840" pm="."><plain>75.4 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="11" rowspan="1"><text><SENT sid="841" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="6" align="left" colspan="1"><text><SENT sid="842" pm="."><plain>ID7 </plain></SENT>
+</text></td><td rowspan="3" align="center" colspan="1"><text><SENT sid="843" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="844" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="845" pm="."><plain>7.57 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="846" pm="."><plain>6.57 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="847" pm="."><plain>7.20 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="848" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="849" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="850" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="851" pm="."><plain>7.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="852" pm="."><plain>1.00 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="853" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="854" pm="."><plain>145.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="855" pm="."><plain>52.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="856" pm="."><plain>97.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="857" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="858" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="859" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="860" pm="."><plain>95.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="861" pm="."><plain>93.3 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="862" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="863" pm="."><plain>133.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="864" pm="."><plain>42.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="865" pm="."><plain>78.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="866" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="867" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="868" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="869" pm="."><plain>78.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="870" pm="."><plain>91.2 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="871" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="872" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="873" pm="."><plain>5.82 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="874" pm="."><plain>6.33 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="875" pm="."><plain>5.90 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="876" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="877" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="878" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="879" pm="."><plain>6.33 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="880" pm="."><plain>0.51 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="881" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="882" pm="."><plain>34.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="883" pm="."><plain>48.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="884" pm="."><plain>58.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="885" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="886" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="887" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="888" pm="."><plain>45.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="889" pm="."><plain>23.8 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="890" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="891" pm="."><plain>32.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="892" pm="."><plain>42.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="893" pm="."><plain>56.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="894" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="895" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="896" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="897" pm="."><plain>39.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="898" pm="."><plain>24.4 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="11" rowspan="1"><text><SENT sid="899" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="900" pm="."><plain>ID9 </plain></SENT>
+</text></td><td rowspan="3" align="center" colspan="1"><text><SENT sid="901" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="902" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="903" pm="."><plain>7.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="904" pm="."><plain>6.47 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="905" pm="."><plain>6.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="906" pm="."><plain>6.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="907" pm="."><plain>6.58 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="908" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="909" pm="."><plain>6.80 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="910" pm="."><plain>0.98 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="911" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="912" pm="."><plain>80.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="913" pm="."><plain>36.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="914" pm="."><plain>45.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="915" pm="."><plain>38.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="916" pm="."><plain>41.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="917" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="918" pm="."><plain>46.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="919" pm="."><plain>43.8 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="920" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="921" pm="."><plain>67.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="922" pm="."><plain>31.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="923" pm="."><plain>39.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="924" pm="."><plain>34.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="925" pm="."><plain>36.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="926" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="927" pm="."><plain>38.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="928" pm="."><plain>36.2 </plain></SENT>
+</text></td></tr><tr><td align="center" colspan="11" rowspan="1"><text><SENT sid="929" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td rowspan="15" align="left" colspan="1"><text><SENT sid="930" pm="."><plain>ID11 </plain></SENT>
+</text></td><td rowspan="3" align="center" colspan="1"><text><SENT sid="931" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="932" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="933" pm="."><plain>7.04 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="934" pm="."><plain>6.83 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="935" pm="."><plain>6.63 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="936" pm="."><plain>7.46 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="937" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="938" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="939" pm="."><plain>7.20 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="940" pm="."><plain>0.83 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="941" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="942" pm="."><plain>71.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="943" pm="."><plain>54.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="944" pm="."><plain>50.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="945" pm="."><plain>108.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="946" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="947" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="948" pm="."><plain>66.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="949" pm="."><plain>58.0 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="950" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="951" pm="."><plain>60.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="952" pm="."><plain>47.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="953" pm="."><plain>44.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="954" pm="."><plain>96.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="955" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="956" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="957" pm="."><plain>55.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="958" pm="."><plain>51.9 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="959" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="960" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="961" pm="."><plain>6.77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="962" pm="."><plain>6.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="963" pm="."><plain>7.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="964" pm="."><plain>7.49 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="965" pm="."><plain>7.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="966" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="967" pm="."><plain>7.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="968" pm="."><plain>0.87 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="969" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="970" pm="."><plain>52.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="971" pm="."><plain>43.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="972" pm="."><plain>67.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="973" pm="."><plain>90.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="974" pm="."><plain>107.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="975" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="976" pm="."><plain>70.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="977" pm="."><plain>64.6 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="978" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="979" pm="."><plain>41.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="980" pm="."><plain>33.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="981" pm="."><plain>55.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="982" pm="."><plain>84.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="983" pm="."><plain>95.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="984" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="985" pm="."><plain>56.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="986" pm="."><plain>62.3 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="987" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="988" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="989" pm="."><plain>7.20 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="990" pm="."><plain>7.17 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="991" pm="."><plain>7.30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="992" pm="."><plain>7.49 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="993" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="994" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="995" pm="."><plain>7.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="996" pm="."><plain>0.32 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="997" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="998" pm="."><plain>74.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="999" pm="."><plain>73.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1000" pm="."><plain>75.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1001" pm="."><plain>90.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1002" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1003" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1004" pm="."><plain>78.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1005" pm="."><plain>17.3 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="1006" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1007" pm="."><plain>70.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1008" pm="."><plain>66.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1009" pm="."><plain>69.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1010" pm="."><plain>81.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1011" pm="."><plain>— </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1012" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1013" pm="."><plain>71.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1014" pm="."><plain>14.8 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="1015" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1016" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1017" pm="."><plain>7.05 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1018" pm="."><plain>7.20 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1019" pm="."><plain>7.22 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1020" pm="."><plain>7.28 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1021" pm="."><plain>7.32 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1022" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1023" pm="."><plain>7.29 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1024" pm="."><plain>0.27 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="1025" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1026" pm="."><plain>69.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1027" pm="."><plain>72.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1028" pm="."><plain>70.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1029" pm="."><plain>71.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1030" pm="."><plain>79.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1031" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1032" pm="."><plain>72.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1033" pm="."><plain>10.1 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="1034" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1035" pm="."><plain>64.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1036" pm="."><plain>64.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1037" pm="."><plain>60.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1038" pm="."><plain>61.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1039" pm="."><plain>70.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1040" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1041" pm="."><plain>63.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1042" pm="."><plain>10.0 </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="center" colspan="1"><text><SENT sid="1043" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1044" pm="."><plain>E s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1045" pm="."><plain>7.57 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1046" pm="."><plain>7.39 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1047" pm="."><plain>7.52 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1048" pm="."><plain>7.87 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1049" pm="."><plain>8.24 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1050" pm="."><plain>E w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1051" pm="."><plain>7.81 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1052" pm="."><plain>0.85 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="1053" pm="."><plain>μ s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1054" pm="."><plain>80.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1055" pm="."><plain>71.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1056" pm="."><plain>76.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1057" pm="."><plain>99.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1058" pm="."><plain>144.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1059" pm="."><plain>μ w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1060" pm="."><plain>90.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1061" pm="."><plain>73.0 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="1062" pm="."><plain>M s </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1063" pm="."><plain>60.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1064" pm="."><plain>55.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1065" pm="."><plain>61.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1066" pm="."><plain>74.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1067" pm="."><plain>123.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1068" pm="."><plain>M w </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1069" pm="."><plain>66.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="1070" pm="."><plain>68.0 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></floats-group></article>

@@ -1,0 +1,668 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Bioinformatics</journal-id><journal-id journal-id-type="iso-abbrev">BMC Bioinformatics</journal-id><journal-title-group><journal-title>BMC Bioinformatics</journal-title></journal-title-group><issn pub-type="epub">1471-2105</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3583137</article-id><article-id pub-id-type="publisher-id">1471-2105-11-249</article-id><article-id pub-id-type="pmid">20465802</article-id><article-id pub-id-type="doi">10.1186/1471-2105-11-249</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Gene bi-targeting by viral and human miRNAs </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" id="A1"><name><surname>Veksler-Lublinsky</surname><given-names>Isana</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>vaksler@cs.bgu.ac.il</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Shemer-Avni</surname><given-names>Yonat</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>yonat@bgu.ac.il</email></contrib><contrib contrib-type="author" id="A3"><name><surname>Kedem</surname><given-names>Klara</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>klara@cs.bgu.ac.il</email></contrib><contrib contrib-type="author" corresp="yes" id="A4"><name><surname>Ziv-Ukelson</surname><given-names>Michal</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>zivukelson@gmail.com</email></contrib></contrib-group><aff id="I1"><label>1</label>Department of Computer Science, Ben-Gurion University, Beer-Sheva 84105, Israel</aff><aff id="I2"><label>2</label>Virology and Developmental Genetics/Health Sciences, Ben-Gurion University, Beer-Sheva 84105, Israel</aff><pub-date pub-type="collection"><year>2010</year></pub-date><pub-date pub-type="epub"><day>13</day><month>5</month><year>2010</year></pub-date><volume>11</volume><fpage>249</fpage><lpage>249</lpage><history><date date-type="received"><day>22</day><month>12</month><year>2009</year></date><date date-type="accepted"><day>13</day><month>5</month><year>2010</year></date></history><permissions><copyright-statement>Copyright ©2010 Veksler-Lublinsky et al; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2010</copyright-year><copyright-holder>Veksler-Lublinsky et al; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.biomedcentral.com/1471-2105/11/249"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>MicroRNAs (miRNAs) are an abundant class of small noncoding RNAs (20-24 nts) that can affect gene expression by post-transcriptional regulation of mRNAs. </plain></SENT>
+<SENT sid="3" pm="."><plain>They play important roles in several biological processes (e.g., development and cell cycle regulation). </plain></SENT>
+<SENT sid="4" pm="."><plain>Numerous bioinformatics methods have been developed to identify the function of miRNAs by predicting their target mRNAs. </plain></SENT>
+<SENT sid="5" pm="."><plain>Some viral organisms also encode miRNAs, a fact that contributes to the complex interactions between viruses and their hosts. </plain></SENT>
+<SENT sid="6" pm="."><plain>A need arises to understand the functional relationship between viral and host miRNAs and their effect on viral and host genes. </plain></SENT>
+<SENT sid="7" pm="."><plain>Our approach to meet this challenge is to identify modules where viral and host miRNAs cooperatively regulate host gene expression. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="8" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="9" pm="."><plain>We present a method to identify groups of viral and host miRNAs that cooperate in post-transcriptional gene regulation, and their target genes that are involved in similar biological processes. </plain></SENT>
+<SENT sid="10" pm="."><plain>We call these groups (genes and miRNAs of human and viral origin) - modules. </plain></SENT>
+<SENT sid="11" pm="."><plain>The modules are found in a new two-stage procedure, which we call bi-targeting, and is presented in this paper. </plain></SENT>
+<SENT sid="12" pm="."><plain>The stages are (i) a new and efficient target prediction, and (ii) a new method for clustering objects of three different data types. </plain></SENT>
+<SENT sid="13" pm="."><plain>In this work we integrate multiple information sources, including miRNA-target binding information, miRNA expression profiles, and GO annotations. </plain></SENT>
+<SENT sid="14" pm="."><plain>Our hypotheses and the methods have been tested on human and Epstein Barr virus (EBV) miRNAs and human genes, for which we found 34 modules. </plain></SENT>
+<SENT sid="15" pm="."><plain>We provide supporting evidence from biological and medical literature for two of our modules. </plain></SENT>
+<SENT sid="16" pm="."><plain>Our code and data are available at <ext-link ext-link-type="uri" xlink:href="http://www.cs.bgu.ac.il/~vaksler/BiTargeting.htm">http://www.cs.bgu.ac.il/~vaksler/BiTargeting.htm</ext-link> </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="17" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="18" pm="."><plain>The presented algorithm, which makes use of diverse biological data, is demonstrated to be an efficient approach for finding bi-targeting modules of viral and human miRNAs. </plain></SENT>
+<SENT sid="19" pm="."><plain>These modules can contribute to a better understanding of viral-host interactions and the role that miRNAs play in them. </plain></SENT>
+</text></SecTag></p></sec></abstract></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="20" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="21" pm="."><plain>MicroRNAs (miRNAs) are an abundant class of small noncoding RNAs (20-24 nts) that can affect gene expression by post-transcriptional regulation of mRNAs [1]. </plain></SENT>
+<SENT sid="22" pm="."><plain>They typically base pair with sequences in the 3' UTR of mRNAs to inhibit mRNA translation or to promote their degradation. </plain></SENT>
+<SENT sid="23" pm="."><plain>miRNAs have been shown to play important roles in various cellular and pathogenic processes, including development, cell death, immunological response, and carcinogenesis [2,3]. </plain></SENT>
+<SENT sid="24" pm="."><plain>Since the functional characterization of miRNAs depends heavily on identification of their specific target mRNAs, numerous bioinformatics methods have been developed for this task (see e.g., [4-11], for a review see [12-14]). </plain></SENT>
+</text></p><p><text><SENT sid="25" pm="."><plain>In recent years, it has been shown that viruses also encode miRNAs [15,16]. </plain></SENT>
+<SENT sid="26" pm="."><plain>Although for most of the viral miRNAs no functions have yet been described, it is conjectured that these miRNAs also take part in the complex interactions between viruses and their hosts, and several scenarios have been proposed [17] (see Figure 1, where scenario numbers are written in rhombi). </plain></SENT>
+<SENT sid="27" pm="."><plain>In the first scenario, viral miRNAs regulate viral gene expression for maintaining, e.g., replication, latency, or evading the host-immune system. </plain></SENT>
+<SENT sid="28" pm="."><plain>For example, miR-BART2 of EBV exhibits perfect complementarity to the 3'UTR of <z:uniprot sup="inside" fb="0" ids="Q1HVC1,P03198,Q3KSP1">BALF5</z:uniprot>, which encodes the viral <z:uniprot sup="inside" fb="0" ids="P09804,P05468,A4ZU91,P03261,P87503,P04495,P05664,P06538,P48311,O72539,O72540,Q65946,P87553,Q64751,Q8QNT0,Q88469,O29753,Q37882,Q37989,P19894,O64235,Q05254,B7SSM2,P03680,P06950,P30314,P06225,P19822,P30319,A7U6F1,Q7SIG7,P21402,Q69025,Q25BI3,A4KX57,P28859,Q58295,P52025,Q5UQR0,P18131,P41712,Q90162,P30318,Q83948,Q84173,Q6R7C9,P30321,P30320,A7U6F2,A7U6F3,P61875,Q9HH06,O59610,Q51334,P61876,O70736,Q779J8,O33845,P74918,Q9HH84,P56689,Q9HH05,P77933,P30317,Q56366,Q4U3V0,O57191,P20509,P06856,P0DOO5,P0DOO6,P10582">DNA polymerase</z:uniprot> [18], and such an interaction might be essential for maintaining EBV latency. </plain></SENT>
+<SENT sid="29" pm="."><plain>In the second scenario, host miRNAs interact with viral RNAs, thereby inhibiting virus replication, e.g., miR-32 can limit the replication of the retrovirus primate foamy virus (PFV) in cell culture through an interaction with PFV mRNAs [19]. </plain></SENT>
+<SENT sid="30" pm="."><plain>In the third scenario, viral miRNAs regulate host genes to induce a more favorable environment for the virus. </plain></SENT>
+<SENT sid="31" pm="."><plain>The regulated genes are most likely related to antiviral response, apoptosis, <z:uniprot sup="inside" fb="139" ids="P51527,P51526">interferon</z:uniprot> system, signal transduction, or cellular proliferation [20,21]. </plain></SENT>
+<SENT sid="32" pm="."><plain>Stern-Ginossar et al. [22] showed that human cytomegalovirus (HCMV) miRNA, miR-UL112, inhibits the translation of a cellular gene <z:uniprot sup="inside" fb="0" ids="Q29980">MICB</z:uniprot>, which is normally activated when cells are subjected to severe stress, such as viral infection. </plain></SENT>
+<SENT sid="33" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q29980">MICB</z:uniprot> marks these cells for destruction by natural killer cells. </plain></SENT>
+<SENT sid="34" pm="."><plain>The resulting absence of <z:uniprot sup="inside" fb="0" ids="Q29980">MICB</z:uniprot> protein protects HCMV-infected cells against lysis by natural killer cells. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="35" pm="."><plain>Four scenarios for miRNA involvement in host-virus interactions. </plain></SENT>
+<SENT sid="36" pm="."><plain>(1) Viral miRNAs inhibit the expression of viral mRNAs. </plain></SENT>
+<SENT sid="37" pm="."><plain>(2) Host miRNAs inhibit the expression of viral mRNAs. </plain></SENT>
+<SENT sid="38" pm="."><plain>(3) Viral miRNAs inhibit the expression of host mRNAs. </plain></SENT>
+<SENT sid="39" pm="."><plain>(4) Host miRNAs inhibit the expression of host mRNAs. </plain></SENT>
+<SENT sid="40" pm="."><plain>In this case, viruses may regulate host miRNA expression and indirectly regulate host gene expression. </plain></SENT>
+<SENT sid="41" pm="."><plain>(This figure is partially adapted from [81].) </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-1"/></fig></SecTag><p><text><SENT sid="42" pm="."><plain>Viruses may affect host miRNAs for their own advantage, by regulating up or down the expression of these miRNAs. </plain></SENT>
+<SENT sid="43" pm="."><plain>This happens in the fourth scenario reported in [23]. </plain></SENT>
+<SENT sid="44" pm="."><plain>In their research, host miR-17 and miR-20a were found to be downregulated following human immunodeficiency virus (HIV-1) infection. </plain></SENT>
+<SENT sid="45" pm="."><plain>These miRNAs target the 3'UTR of host gene <z:uniprot sup="inside" fb="0" ids="Q92831">PCAF</z:uniprot>, which has been proposed to promote HIV-1 transcriptional elongation. </plain></SENT>
+<SENT sid="46" pm="."><plain>Hence, this downregulation is needed for efficient replication of the virus. </plain></SENT>
+</text></p><p><text><SENT sid="47" pm="."><plain>In our work we will examine the combination of the last two scenarios, assuming that both human and viral miRNAs play an active role in regulating genes that either promote or inhibit viral replication or life cycle. </plain></SENT>
+</text></p><sec><title><text><SENT sid="48" pm="."><plain>Cooperativity of miRNAs in gene regulation </plain></SENT>
+</text></title><p><text><SENT sid="49" pm="."><plain>Previous studies show that one miRNA may have several target genes. </plain></SENT>
+<SENT sid="50" pm="."><plain>Furthermore, one mRNA can be targeted by multiple miRNAs, reflecting cooperative translational control [5,24,25]. </plain></SENT>
+<SENT sid="51" pm="."><plain>Experimental evidence indicates that multiple target sites (of one or more miRNAs) in the same 3'UTR can potentially increase the degree of translational repression [9]. </plain></SENT>
+<SENT sid="52" pm="."><plain>In addition, microarray analyses [26] reveal that most of the miRNAs only modestly affect their mRNA targets. </plain></SENT>
+<SENT sid="53" pm="."><plain>Recent findings show that some virus encoded miRNAs have sequence homology to their host human/mouse miRNAs, mainly in the seed region (see review [21]). </plain></SENT>
+<SENT sid="54" pm="."><plain>This is one of many mechanisms that are used by viruses to exploit their host [27-30]. </plain></SENT>
+<SENT sid="55" pm="."><plain>We were intrigued by an additional possibility in which viral and host encoded miRNAs target the same mRNA, possibly in different target sites, to promote gene silencing. </plain></SENT>
+<SENT sid="56" pm="."><plain>It would make sense that viral miRNAs that share targets with human miRNAs may contribute to increasing the translational repression and tighten the regulation which already exists at a low level in the cell (by the host regulation machinery). </plain></SENT>
+<SENT sid="57" pm="."><plain>This important question motivated us to study and predict the cooperativity of viral and host miRNAs on host genes. </plain></SENT>
+</text></p><p><text><SENT sid="58" pm="."><plain>In this paper, we present a new computational method for examining cooperative effects of viral and host miRNAs on the regulation of host genes. </plain></SENT>
+<SENT sid="59" pm="."><plain>We find modules consisting of both viral and human miRNAs, and their common target genes, that are involved in similar biological processes (according to GO). </plain></SENT>
+<SENT sid="60" pm="."><plain>The mathematical formulation of our problem is an extension of a related problem, where the sought modules consist of miRNAs and genes of the same species. </plain></SENT>
+<SENT sid="61" pm="."><plain>Below we present some studies that worked to solve the latter problem. </plain></SENT>
+<SENT sid="62" pm="."><plain>Yoon and De Micheli [31], the first to address that problem, represent the multiple relations between miRNAs and target genes by a weighted bipartite graph, and find bi-cliques in the graph that represent the miRNA-mRNA modules (see Figure 2). </plain></SENT>
+<SENT sid="63" pm="."><plain>They predict modules using target prediction based on sequence information. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="64" pm="."><plain>Bipartite graph. </plain></SENT>
+<SENT sid="65" pm="."><plain>Bi-cliques in the graph are circled. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-2"/></fig></SecTag><p><text><SENT sid="66" pm="."><plain>Two other approaches combine several information sources to extract the modules, including predictions of miRNA target genes and their respective expression profiles. </plain></SENT>
+<SENT sid="67" pm="."><plain>Joung et al. [32] apply a genetic algorithm, based on coevolutionary learning, to find an optimal miRNA-mRNA module. </plain></SENT>
+<SENT sid="68" pm="."><plain>Tran et al. [33] use a rule-based learning method to identify the modules. </plain></SENT>
+</text></p><p><text><SENT sid="69" pm="."><plain>In general, finding bi-cliques in bi-partite graphs can be formulated as a bi-clustering problem (reviewed in [34]), which is known to be NP-complete. </plain></SENT>
+<SENT sid="70" pm="."><plain>Therefore, most of the methods that address bi-clustering are based on heuristic approaches, which may miss good solutions. </plain></SENT>
+<SENT sid="71" pm="."><plain>Alternatively, applying naive exhaustive enumeration to this problem is extremely time consuming to the point of being impractical. </plain></SENT>
+<SENT sid="72" pm="."><plain>The problem becomes even more complicated when searching for cooperative human-viral miRNA modules. </plain></SENT>
+<SENT sid="73" pm="."><plain>Directly applying one of the existing bi-clustering algorithms to a united set of both human and viral miRNAs may be insensitive to the contribution of viral miRNAs. </plain></SENT>
+<SENT sid="74" pm="."><plain>This is due to the wide imbalance between the numbers of human miRNAs and viral miRNAs (hundreds of human miRNAs versus tens of viral miRNAs identified to date). </plain></SENT>
+</text></p><p><text><SENT sid="75" pm="."><plain>In order to be able to control the composition of the sought modules in terms of viral and human miRNA participants, a new type of clustering algorithm is needed. </plain></SENT>
+<SENT sid="76" pm="."><plain>And indeed, in this paper we describe a bi-targeting algorithm which we developed (see Methods). </plain></SENT>
+<SENT sid="77" pm="."><plain>We apply a branch and bound approach to develop and prune an enumeration tree of groups of human genes that are targeted by the same set of viral and human miRNAs. </plain></SENT>
+<SENT sid="78" pm="."><plain>This algorithm is very efficient since we exploit the fact that the number of known viral miRNAs is relatively small, and that we demand a quorum on the number of miRNAs in the modules (a minimum number of viral and human miRNAs). </plain></SENT>
+<SENT sid="79" pm="."><plain>This "pruning by quorum" allows us to apply enumeration in practical run time. </plain></SENT>
+<SENT sid="80" pm="."><plain>We implemented our bi-targeting algorithm into a software system that combines a variety of biological data sources, such as: genomic sequences, miRNA expression measurements, GO annotations, and tissue context. </plain></SENT>
+<SENT sid="81" pm="."><plain>The combination of several information sources in the task of module detection minimizes noise and errors accompanying each information source, resulting in more accurate results. </plain></SENT>
+</text></p><p><text><SENT sid="82" pm="."><plain>In addition, we developed a very flexible and efficient target prediction algorithm, which we briefly describe in the next section, and in more detail in the Appendix Section. </plain></SENT>
+<SENT sid="83" pm="."><plain>We use it as a preprocessing step to the module search. </plain></SENT>
+</text></p><p><text><SENT sid="84" pm="."><plain>Using the bi-targeting system, we study the cooperative regulation of human and Epstein Barr Virus (EBV) miRNAs on human mRNAs in various lymphomas related to EBV. </plain></SENT>
+<SENT sid="85" pm="."><plain>The significant modules are picked by a sampling procedure (described in the next section). </plain></SENT>
+<SENT sid="86" pm="."><plain>We validate two of these modules by surveying information from the biological and biomedical literature. </plain></SENT>
+<SENT sid="87" pm="."><plain>The rest of the significant modules can be found at <ext-link ext-link-type="uri" xlink:href="http://www.cs.bgu.ac.il/~vaksler/BiTargeting.htm">http://www.cs.bgu.ac.il/~vaksler/BiTargeting.htm</ext-link>. </plain></SENT>
+</text></p><p><text><SENT sid="88" pm="."><plain>We believe that the results of this research may have far-reaching implications, as they may be applied to the diagnosis and treatment of viral infections, as well as for a wider understanding of viral-induced diseases and the role that miRNAs plays in them. </plain></SENT>
+<SENT sid="89" pm="."><plain>Our study can contribute to the discovery of genes that regulate virus-host interactions, especially, but not only, in chronic infections, and can serve as targets for therapy [35,36]. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="90" pm="."><plain>Methods </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>Our method consists of two stages: a target prediction stage and a module search stage. </plain></SENT>
+<SENT sid="92" pm="."><plain>In the first stage, we perform all against all dynamic programming on two sets of sequences (miRNAs and mRNAs) in order to predict, for every miRNA in the set, its target mRNAs. </plain></SENT>
+<SENT sid="93" pm="."><plain>In the second stage we look for modules that are enriched in some biological process, using the results from the first stage and information from Gene Ontology and the miRNA Atlas. </plain></SENT>
+<SENT sid="94" pm="."><plain>We elaborate more on the second stage since this is the main goal of our paper. </plain></SENT>
+<SENT sid="95" pm="."><plain>The interested reader may find a description of the first stage in the Appendix Section. </plain></SENT>
+</text></p><sec><title><text><SENT sid="96" pm="."><plain>Stage 1 - Predicting microRNA targets </plain></SENT>
+</text></title><p><text><SENT sid="97" pm="."><plain>The purpose of this stage is to perform an efficient genome-wide target prediction of all the miRNAs against all the possible subsequences of a set of mRNAs. </plain></SENT>
+<SENT sid="98" pm="."><plain>miRNA target prediction is a well-studied problem, with numerous tools and approaches available. </plain></SENT>
+<SENT sid="99" pm="."><plain>Each of these tools accommodates a variety of principles and features of target recognition, for example typical base pairing patterns, thermodynamic analysis of the miRNA-target duplexes, conservation of the target site among related species, and accessibility of the target site. </plain></SENT>
+<SENT sid="100" pm="."><plain>For a review see [13,14]. </plain></SENT>
+</text></p><p><text><SENT sid="101" pm="."><plain>The amount of the data we need to analyze is huge (thousands of genes and hundreds of miRNAs) and thus applying existing tools to this analysis would be too time consuming. </plain></SENT>
+<SENT sid="102" pm="."><plain>Hence, we developed our own efficient tool for this task (which can serve as a plug-in filter to other target prediction tools). </plain></SENT>
+<SENT sid="103" pm="."><plain>The method we propose extends the threshold all-against-all sequence alignment algorithm [37,38]. </plain></SENT>
+</text></p><p><text><SENT sid="104" pm="."><plain>We store the miRNA sequences in a prefix tree (trie) and the mRNA sequences in a separate prefix tree (for details see the Appendix Section). </plain></SENT>
+<SENT sid="105" pm="."><plain>We then apply dynamic programming to compute hybridization error between a prefix from the mRNA tree and a prefix from the miRNA tree, for each such pair. </plain></SENT>
+<SENT sid="106" pm="."><plain>If, in one comparison, the number of errors we encounter is larger than a given threshold, then we stop comparing this pair and its descendants in the respective trees (prune the subtrees). </plain></SENT>
+<SENT sid="107" pm="."><plain>Those miRNA-target pairs that survived the error threshold can be further checked for duplex energy by the RNAduplex program [39]. </plain></SENT>
+<SENT sid="108" pm="."><plain>This results in linking each miRNA in our data set to its predicted target genes. </plain></SENT>
+</text></p><p><text><SENT sid="109" pm="."><plain>This method is efficient since it simultaneously checks sets of mRNA sequences (and, respectively, miRNA sequences) that share a prefix in the mRNA (respectively, miRNA) prefix trees. </plain></SENT>
+<SENT sid="110" pm="."><plain>Moreover, it goes over all the duplexes, and prunes those with a hybridization error above a threshold, allowing a very efficient filtration. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="111" pm="."><plain>Comparison with existing approaches </plain></SENT>
+</text></title><p><text><SENT sid="112" pm="."><plain>We compare our target prediction method with three existing tools (those that provide downloadable code). </plain></SENT>
+<SENT sid="113" pm="."><plain>The tools are miRanda [5], PITA [40] and RNAhybrid [10]. </plain></SENT>
+<SENT sid="114" pm="."><plain>Our dataset consists of 873 experimentally validated miRNA-gene pairs out of 99 human miRNAs and 640 mRNAs (from miRecords [41]). </plain></SENT>
+<SENT sid="115" pm="."><plain>We downloaded the 3'UTR sequences of these mRNAs from Ensembl Biomart [42], a total of 2183 different transcript sequences. </plain></SENT>
+<SENT sid="116" pm="."><plain>In our results, an miRNA-mRNA pair is considered a hit if the miRNA is found to target one of the transcripts of the mRNA. </plain></SENT>
+<SENT sid="117" pm="."><plain>We ran our target prediction method with the constraints listed in Table 1. </plain></SENT>
+<SENT sid="118" pm="."><plain>miRanda was run with default parameters. </plain></SENT>
+<SENT sid="119" pm="."><plain>The parameters of PITA and RNAhybrid were set to be close to ours (seed 2-8, and the maximal bulge size, in RNAhybrid was set to 6). </plain></SENT>
+<SENT sid="120" pm="."><plain>We compare the results of these four methods in Table 2. </plain></SENT>
+<SENT sid="121" pm="."><plain>The information which we compare includes: the total number of predicted pairs, the number of TP predicted pairs (sensitivity) and the running time. </plain></SENT>
+<SENT sid="122" pm="."><plain>For our target prediction tool, the total number of predicted pairs falls within the ballpark of both PITA and miRanda. </plain></SENT>
+<SENT sid="123" pm="."><plain>RNAhybrid, on the other hand, predicts twice as many pairs. </plain></SENT>
+<SENT sid="124" pm="."><plain>As far as sensitivity goes, our results pretty much match that of PITA and outperforms miRanda by far. </plain></SENT>
+<SENT sid="125" pm="."><plain>RNAhybrid gave the best sensitivity, (however this comes at the cost of a very high number of total predicted pairs). </plain></SENT>
+<SENT sid="126" pm="."><plain>When comparing running times, our tool noticeably outperformed all the other engines, this in spite of keeping up competitive sensitivity and total number of predicted pairs. </plain></SENT>
+<SENT sid="127" pm="."><plain>Recall that fast running time was the main objective for developing our fast filtration. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="128" pm="."><plain>Constraint parameters for the target prediction algorithm. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="129" pm="."><plain>seed location </plain></SENT>
+</text></th><th align="left"><text><SENT sid="130" pm="."><plain>2-8 </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="131" pm="."><plain>maximum GU pairs in seed </plain></SENT>
+</text></td><td align="left"><text><SENT sid="132" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td colspan="2"><text><SENT sid="133" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="134" pm="."><plain>maximum GU pairs total </plain></SENT>
+</text></td><td align="left"><text><SENT sid="135" pm="."><plain>4 </plain></SENT>
+</text></td></tr><tr><td colspan="2"><text><SENT sid="136" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="137" pm="."><plain>maximal number of mismatches/gaps </plain></SENT>
+</text></td><td align="left"><text><SENT sid="138" pm="."><plain>6 </plain></SENT>
+</text></td></tr><tr><td colspan="2"><text><SENT sid="139" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="140" pm="."><plain>maximal size of bulge in the target </plain></SENT>
+</text></td><td align="left"><text><SENT sid="141" pm="."><plain>6 </plain></SENT>
+</text></td></tr><tr><td colspan="2"><text><SENT sid="142" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="143" pm="."><plain>maximal size of bulge in miRNA </plain></SENT>
+</text></td><td align="left"><text><SENT sid="144" pm="."><plain>6 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="145" pm="."><plain>A comparison between our method and other target prediction tools. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="146" pm="."><plain>Tool </plain></SENT>
+</text></th><th align="left"><text><SENT sid="147" pm="."><plain>Total number of predicted pairsa </plain></SENT>
+</text></th><th align="left"><text><SENT sid="148" pm="."><plain>Number of TPpredicted pairsb </plain></SENT>
+</text></th><th align="left"><text><SENT sid="149" pm="."><plain>Sensitivity </plain></SENT>
+</text></th><th align="left"><text><SENT sid="150" pm="."><plain>Running time </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="151" pm="."><plain>miRanda </plain></SENT>
+</text></td><td align="left"><text><SENT sid="152" pm="."><plain>22,857 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="153" pm="."><plain>309 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="154" pm="."><plain>35% </plain></SENT>
+</text></td><td align="left"><text><SENT sid="155" pm="."><plain>2 hours and 42 minutess </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="156" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="157" pm="."><plain>PITA </plain></SENT>
+</text></td><td align="left"><text><SENT sid="158" pm="."><plain>28,032 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="159" pm="."><plain>661 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="160" pm="."><plain>75% </plain></SENT>
+</text></td><td align="left"><text><SENT sid="161" pm="."><plain>5 hours and 10 minutess </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="162" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="163" pm="."><plain>RNA hybrid </plain></SENT>
+</text></td><td align="left"><text><SENT sid="164" pm="."><plain>43,693 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="165" pm="."><plain>731 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="166" pm="."><plain>83% </plain></SENT>
+</text></td><td align="left"><text><SENT sid="167" pm="."><plain>31 minutes </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="168" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="169" pm="."><plain>Our method </plain></SENT>
+</text></td><td align="left"><text><SENT sid="170" pm="."><plain>24,571 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="171" pm="."><plain>625 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="172" pm="."><plain>71% </plain></SENT>
+</text></td><td align="left"><text><SENT sid="173" pm="."><plain>40 seconds </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="174" pm="."><plain>a Out of 63,360 pairs. b Out of 873 experimentally verified pairs. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="175" pm="."><plain>Stage 2 - Finding modules - the enumeration algorithm </plain></SENT>
+</text></title><p><text><SENT sid="176" pm="."><plain>In this section we describe our enumeration algorithm for finding modules that are statistically enriched in biological processes (GO categories). </plain></SENT>
+<SENT sid="177" pm="."><plain>An important objective in our study is to ensure that the modules found by our method contain miRNAs that are mutually expressed and thus can cooperatively regulate gene expression. </plain></SENT>
+<SENT sid="178" pm="."><plain>In order to ensure this condition, we use the miRNA Atlas [43]. </plain></SENT>
+<SENT sid="179" pm="."><plain>This Atlas provides miRNA expression profiles in different conditions (i.e., different organ systems and cell types, of normal and malignant tissues). </plain></SENT>
+<SENT sid="180" pm="."><plain>We focus on a set of conditions where both human and viral miRNAs (of the virus of interest) are expressed. </plain></SENT>
+<SENT sid="181" pm="."><plain>Based on these data sources, we address the following problem. </plain></SENT>
+</text></p><p><text><SENT sid="182" pm="."><plain>Given a GO category C, a miRNA atlas condition A, expression level threshold t, a p-value threshold p, the minimal number of human and viral miRNAs required in a sought module q1 and q2 (the quorums), respectively. </plain></SENT>
+<SENT sid="183" pm="."><plain>Find all the modules composed of miRNAs whose expression in A is greater than t, which include at least q1 and q2 human and viral miRNAs, respectively, and whose intersection of the target-sets of human genes yields an enrichment p-value smaller than p in C. </plain></SENT>
+</text></p><p><text><SENT sid="184" pm="."><plain>The enrichment is measured using a hypergeometric p-value [44]. </plain></SENT>
+<SENT sid="185" pm="."><plain>The hypergeometric p-value measures the statistical significance of the overlap between the target genes and the genes in the considered category (for more details see the Appendix Section). </plain></SENT>
+</text></p><p><text><SENT sid="186" pm="."><plain>For each GO category C and each Atlas condition A of interest, we perform the enumeration process as follows. </plain></SENT>
+<SENT sid="187" pm="."><plain>Let H and V be the set of human and viral miRNAs. </plain></SENT>
+<SENT sid="188" pm="."><plain>Let HA and VA be the subset of human and viral miRNAs expressed in A. </plain></SENT>
+<SENT sid="189" pm="."><plain>Let TA be the set of their target genes (each gene in TA is targeted by at least q1 human and q2 viral miRNAs); and let TCA = TA ∩ C (see Figure 3). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="190" pm="."><plain>An illustration of the connection between Atlas condition and GO category. H is all the known human miRNAs and V is all known viral miRNAs. HA (VA) are the human (viral) miRNAs expressed in Atlas category A. </plain></SENT>
+<SENT sid="191" pm="."><plain>They target gene set TA. TCA consists of the targets of TA that belong to GO category C. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-3"/></fig></SecTag><p><text><SENT sid="192" pm="."><plain>Our enumeration algorithm dynamically constructs and prunes an enumeration tree, which is built from the genes in TCA. </plain></SENT>
+<SENT sid="193" pm="."><plain>A path in the tree represents a potential module. </plain></SENT>
+<SENT sid="194" pm="."><plain>The module consists of the genes in the inner nodes of the path and a list of miRNAs (which target all these genes) in the leaf (see, e.g., Figures 4 and 5). </plain></SENT>
+<SENT sid="195" pm="."><plain>At the end of the run of the algorithm, the enumeration tree stores in its leaves all the modules that satisfy the quorum constraints. </plain></SENT>
+<SENT sid="196" pm="."><plain>The pseudocode of our algorithm is found in the Appendix Section. </plain></SENT>
+<SENT sid="197" pm="."><plain>Below we supply an illustration of the algorithm applied on the data from Table 3, with the quorum constraints q1 = 2 and q2 = 1. </plain></SENT>
+<SENT sid="198" pm="."><plain>We initialize the tree to consist of a root node and one dummy leaf node with all the human and viral miRNAs in A (see the leftmost leaf in Figure 4(a)). </plain></SENT>
+<SENT sid="199" pm="."><plain>Genes are inserted to the tree one by one in order of increasing number of hits of human miRNAs on the gene (b, c, d, a). </plain></SENT>
+<SENT sid="200" pm="."><plain>Each inserted gene, g, is connected by an edge to the root and becomes a root of newly generated copies of all its preceding siblings in the tree. </plain></SENT>
+<SENT sid="201" pm="."><plain>The leaves of the new subtree contain intersections of g's miRNA sets (human and viral) with the corresponding sets in the siblings' leaves. </plain></SENT>
+<SENT sid="202" pm="."><plain>When these intersections do not satisfy the quorum constraints we prune the unsatisfying edge from the tree. </plain></SENT>
+<SENT sid="203" pm="."><plain>(See the node for gene b, and then for gene c, in Figure 4(a). </plain></SENT>
+<SENT sid="204" pm="."><plain>The leaves of the subtree rooted at c contain the intersections of the set of miRNAs hitting c with the set of the dummy leaf, and of b. </plain></SENT>
+<SENT sid="205" pm="."><plain>Notice that the respective intersections of the miRNA sets hitting b and c are empty. </plain></SENT>
+<SENT sid="206" pm="."><plain>Thus the edge from c to b is pruned from the tree). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T3" position="float"><label>Table 3</label><caption><p><text><SENT sid="207" pm="."><plain>miRNA target information. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="208" pm="."><plain>Genes  miRNAs </plain></SENT>
+</text></th><th align="center"><text><SENT sid="209" pm="."><plain>a </plain></SENT>
+</text></th><th align="center"><text><SENT sid="210" pm="."><plain>b </plain></SENT>
+</text></th><th align="center"><text><SENT sid="211" pm="."><plain>c </plain></SENT>
+</text></th><th align="center"><text><SENT sid="212" pm="."><plain>d </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="213" pm="."><plain>human-miR-1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="214" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="215" pm="."><plain>√ </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="216" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="217" pm="."><plain>human-miR-2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="218" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="219" pm="."><plain>√ </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="220" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="221" pm="."><plain>human-miR-3 </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="222" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="223" pm="."><plain>√ </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="224" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="225" pm="."><plain>human-miR-4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="226" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="227" pm="."><plain>√ </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="228" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="229" pm="."><plain>human-miR-5 </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="230" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="231" pm="."><plain>√ </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="232" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="233" pm="."><plain>human-miR-6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="234" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="235" pm="."><plain>√ </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="236" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="237" pm="."><plain>viral-miR-A </plain></SENT>
+</text></td><td align="center"><text><SENT sid="238" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="239" pm="."><plain>√ </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="240" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="241" pm="."><plain>viral-miR-B </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="242" pm="."><plain>√ </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="243" pm="."><plain>√ </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="244" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="245" pm="."><plain>total human miRNAs </plain></SENT>
+</text></td><td align="center"><text><SENT sid="246" pm="."><plain>1,2,4,6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="247" pm="."><plain>3,5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="248" pm="."><plain>2,4,6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="249" pm="."><plain>1,3,5 </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="250" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="251" pm="."><plain>total viral miRNAs </plain></SENT>
+</text></td><td align="center"><text><SENT sid="252" pm="."><plain>A </plain></SENT>
+</text></td><td align="center"><text><SENT sid="253" pm="."><plain>B </plain></SENT>
+</text></td><td align="center"><text><SENT sid="254" pm="."><plain>A </plain></SENT>
+</text></td><td align="center"><text><SENT sid="255" pm="."><plain>B </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="256" pm="."><plain>The columns correspond to genes (in TCA) and the rows to human and viral miRNAs (HA and VA, respectively). </plain></SENT>
+<SENT sid="257" pm="."><plain>Cell (M, G) in the table is checked if miRNA M is predicted to target gene G. </plain></SENT>
+<SENT sid="258" pm="."><plain>The last row provides, for every gene, its targeting miRNAs (numbers and letters corresponding to human and viral miRNAs, respectively). </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="259" pm="."><plain>The process of building the enumeration tree for target information in Table 3. </plain></SENT>
+<SENT sid="260" pm="."><plain>The rhombus represents the root of the tree. </plain></SENT>
+<SENT sid="261" pm="."><plain>The circles represent the genes inserted into the tree. </plain></SENT>
+<SENT sid="262" pm="."><plain>The squares represent the leaves, which store two sets of miRNAs - human and viral. </plain></SENT>
+<SENT sid="263" pm="."><plain>These miRNAs are common "targeters" to all the genes in the path from the leaf to the root. </plain></SENT>
+<SENT sid="264" pm="."><plain>Viral miRNAs are labeled with uppercase letters and the human miRNAs are labeled with numbers. </plain></SENT>
+<SENT sid="265" pm="."><plain>The rectangles indicate modules that are pruned from the tree for one of two reasons: (1) modules that break the quorum are in solid rectangles (in this example the required quorum is 1 viral miRNA and 2 human miRNAs); (2) redundant modules (which are fully contained in another module) are in dotted rectangles. </plain></SENT>
+<SENT sid="266" pm="."><plain>The arrow indicates the containment, starting from the redundant module and ending in the bigger one. </plain></SENT>
+<SENT sid="267" pm="."><plain>The three sub-figures (a), (b), and (c) show the insertion of genes b and c, d, and a into the tree, respectively. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-4"/></fig></SecTag><SecTag type="FIG"><fig id="F5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="268" pm="."><plain>The final enumeration tree. </plain></SENT>
+<SENT sid="269" pm="."><plain>The modules found by the enumeration algorithm (encircled by ellipses). </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-5"/></fig></SecTag><p><text><SENT sid="270" pm="."><plain>In Figure 4(b) we show the tree after inserting d and making it the root of all its preceding siblings: the dummy node, b node, and c node. </plain></SENT>
+<SENT sid="271" pm="."><plain>In the leaves of the subtree rooted at d are the intersections of the respective miRNA sets. </plain></SENT>
+<SENT sid="272" pm="."><plain>Now two prunings occur in the enumeration tree. </plain></SENT>
+<SENT sid="273" pm="."><plain>The original node b (in the dotted rectangle) and its targeting miRNAs, are now fully contained in the subtree rooted in d, thus b is now redundant and deleted from the enumeration tree. </plain></SENT>
+<SENT sid="274" pm="."><plain>As in 4(a), the sets of miRNAs of c and of d are both empty and the edge from d to c is pruned (solid rectangle). </plain></SENT>
+</text></p><p><text><SENT sid="275" pm="."><plain>In Figure 4(c) we illustrate adding a, making it the root of the subtrees of its siblings. </plain></SENT>
+<SENT sid="276" pm="."><plain>Intersecting a's miRNA sets with the siblings' miRNA sets, resulting in deleting c (dotted rectangle) and pruning d (solid rectangle). </plain></SENT>
+</text></p><p><text><SENT sid="277" pm="."><plain>At the end of the process, the enumeration tree contains all the modules (see Figure 5). </plain></SENT>
+<SENT sid="278" pm="."><plain>The leaves of the tree are traversed and their p-value is computed. </plain></SENT>
+<SENT sid="279" pm="."><plain>The modules are then filtered (see the sampling procedure below) and reported according to ascending p-value. </plain></SENT>
+</text></p><sec><title><text><SENT sid="280" pm="."><plain>The sampling procedure </plain></SENT>
+</text></title><p><text><SENT sid="281" pm="."><plain>To set a cutoff p-value for significant modules, we estimate the distribution of the hyper-geometric p-value scores for every &lt;A, C&gt; pair as follows. </plain></SENT>
+<SENT sid="282" pm="."><plain>We sample, from the full set of miRNAs, two subsets of human and viral miRNAs, of same size as HA and VA, respectively. </plain></SENT>
+<SENT sid="283" pm="."><plain>Then we find their target genes that satisfy the quorums, and intersect them with C. </plain></SENT>
+<SENT sid="284" pm="."><plain>Next, we perform the enumeration algorithm on the genes in the intersection and store the hypergeometric p-values of the obtained modules. </plain></SENT>
+<SENT sid="285" pm="."><plain>We repeat this sampling process 10,000 times, and compute the distribution of the obtained p-values. </plain></SENT>
+<SENT sid="286" pm="."><plain>This distribution allows us to pick a significant p-value for our reported modules. </plain></SENT>
+<SENT sid="287" pm="."><plain>We pick the p-value that is in the 0.01 quantile of the distribution to be the p-value cutoff for our reported modules. </plain></SENT>
+</text></p></sec></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results"><title><text><SENT sid="288" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="289" pm="."><plain>We applied our system to the discovery of modules of genes targeted by human miRNAs and miRNAs of the Epstein Barr Virus. </plain></SENT>
+<SENT sid="290" pm="."><plain>The Epstein-Barr virus (EBV) is a human herpes-virus that infects over 90% of the human population worldwide. </plain></SENT>
+<SENT sid="291" pm="."><plain>EBV can infect B lymphocytes and epithelial cells, and typically establishes long-term asymptomatic latent infection in memory B lymphocytes. </plain></SENT>
+<SENT sid="292" pm="."><plain>Nevertheless, EBV infection has oncogenic potential, which can result in a number of malignancies, including Burkitt's lymphoma, Hodgkin's lymphoma, nasopharyngeal carcinoma, and lymphoproliferative diseases, especially among immunocompromised individuals [45]. </plain></SENT>
+<SENT sid="293" pm="."><plain>During the latent infection of EBV, only a limited subset of its genes is transcribed, allowing it to evade immune recognition. </plain></SENT>
+</text></p><p><text><SENT sid="294" pm="."><plain>Latency gene expression is classified into three groups: type I - expressing only nuclear protein <z:uniprot sup="inside" fb="0" ids="Q1HVF7,P03211,Q3KSS4">EBNA1</z:uniprot>; type II - expression of <z:uniprot sup="inside" fb="0" ids="Q1HVF7,P03211,Q3KSS4">EBNA1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P24266,P16629,Q07252,P28991,Q04565,A0MD35,Q0Q4E7,Q0Q472,Q0Q463,Q3LZX9,A3EXA0,A3EXD6,A3EXG9,Q3I5J2,P27904,O90305,Q91A23,P69703,P69599,Q8V433,Q9QAR9,P69704,P69600,P69705,P36299,Q7T6S9,K9N7A1,P15422,Q5MQC7,Q14EA7,Q0ZME4,Q6Q1R9,Q01455,P59596,Q9JEB4,P03415,P08549,Q8BB24,P09175,Q8JSP5,P04135,P33464,P24412,Q9WCD1,Q9IKC7,P26021,P25878,P69605,P05136,P69601,P11222,P69602,Q91QS9,P69603,Q9J3N8,Q910E2,P69604,P69607,P12649,P69606,P59771,P59770,Q008X3">membrane proteins</z:uniprot> <z:uniprot sup="inside" fb="0" ids="Q1HVB3,P03230,P29362,P0C741,P13198">LMP-1</z:uniprot>, 2A, 2B; type III - six nuclear proteins <z:uniprot sup="inside" fb="0" ids="Q1HVF7,P03211,Q3KSS4">EBNA-1</z:uniprot>, 2, 3A, 3B, 3C, LP, and three <z:uniprot sup="inside" fb="0" ids="P24266,P16629,Q07252,P28991,Q04565,A0MD35,Q0Q4E7,Q0Q472,Q0Q463,Q3LZX9,A3EXA0,A3EXD6,A3EXG9,Q3I5J2,P27904,O90305,Q91A23,P69703,P69599,Q8V433,Q9QAR9,P69704,P69600,P69705,P36299,Q7T6S9,K9N7A1,P15422,Q5MQC7,Q14EA7,Q0ZME4,Q6Q1R9,Q01455,P59596,Q9JEB4,P03415,P08549,Q8BB24,P09175,Q8JSP5,P04135,P33464,P24412,Q9WCD1,Q9IKC7,P26021,P25878,P69605,P05136,P69601,P11222,P69602,Q91QS9,P69603,Q9J3N8,Q910E2,P69604,P69607,P12649,P69606,P59771,P59770,Q008X3">membrane proteins</z:uniprot> <z:uniprot sup="inside" fb="0" ids="Q1HVB3,P03230,P29362,P0C741,P13198">LMP-1</z:uniprot>, 2A, 2B. </plain></SENT>
+<SENT sid="295" pm="."><plain>The noncoding RNAs EBER1 and EBER2 and a set of EBV-encoded miRNAs are differentially expressed in all three forms of latency [46]. </plain></SENT>
+</text></p><sec><title><text><SENT sid="296" pm="."><plain>Datasets </plain></SENT>
+</text></title><p><text><SENT sid="297" pm="."><plain>The set of human and viral mature miRNA sequences was downloaded from the miRNA registry [47] containing 866 human miRNAs and 39 EBV miRNAs (mature sequences). </plain></SENT>
+<SENT sid="298" pm="."><plain>The set of human 3'UTR sequences was extracted from the Ensembl's Biomart [42], database Ensembl 53. </plain></SENT>
+<SENT sid="299" pm="."><plain>Each 3'UTR in this set is annotated with an Ensembl gene and transcript ID. </plain></SENT>
+</text></p><p><text><SENT sid="300" pm="."><plain>The gene ontology (GO) associations and ontology structure files were downloaded from [48]. </plain></SENT>
+<SENT sid="301" pm="."><plain>Each 3'UTR was attributed to the corresponding gene name in the ontology file, using the Ensembl gene and transcipt IDs. </plain></SENT>
+</text></p><p><text><SENT sid="302" pm="."><plain>The set of 3'UTRs was filtered to contain 3' UTRs from genes that are expressed in B cells (data taken from Ensembl Biomart) and that have at least one biological process annotation. </plain></SENT>
+<SENT sid="303" pm="."><plain>This resulted in 7208 sequences (different transcripts) from 4773 genes. </plain></SENT>
+<SENT sid="304" pm="."><plain>UTRs longer than 3000 nts, were shortened to 3000 nts. </plain></SENT>
+<SENT sid="305" pm="."><plain>miRNA expressions were taken from the miRNA Atlas. </plain></SENT>
+<SENT sid="306" pm="."><plain>Eight tissue samples from the Atlas, expressing both human and EBV miRNAs, were found to be relevant. </plain></SENT>
+<SENT sid="307" pm="."><plain>Seventy-two GO categories (that contain 10-300 genes) related to apoptosis, immune response, signal transduction, proliferation, and cell cycle were chosen. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="308" pm="."><plain>The target prediction stage </plain></SENT>
+</text></title><p><text><SENT sid="309" pm="."><plain>In the first stage we ran all-against-all target prediction between the miRNA and 3'UTR sets described above. </plain></SENT>
+<SENT sid="310" pm="."><plain>The target prediction was carried out with the constraints listed in Table 1, which are derived from the literature (e.g. [12,22,49]). </plain></SENT>
+<SENT sid="311" pm="."><plain>In addition we checked duplex energy at the leaves of the prefix tree (see Methods). </plain></SENT>
+<SENT sid="312" pm="."><plain>The duplex energy was normalized by the energy of the duplex formed between the miRNA and its complement, and if the resulting ratio exceeded a threshold of 0.4 the target prediction was accepted as positive. </plain></SENT>
+</text></p><p><text><SENT sid="313" pm="."><plain>Running the target prediction on 866 human miRNAs (39 EBV miRNAs) and 7208 human mRNAs (3' UTRs) resulted in 283362 human miRNA/human mRNAs (11663 EBV miRNA/human mRNAs) pairs. </plain></SENT>
+<SENT sid="314" pm="."><plain>We analyzed some characteristics of the putative target-binding association (for the human miRNA-mRNA pairs). </plain></SENT>
+<SENT sid="315" pm="."><plain>Figure 6(a) shows the distribution of the number of target mRNAs per each human miRNA, and Figure 6(b) shows distribution of the number of human miRNAs targeting each mRNA. </plain></SENT>
+<SENT sid="316" pm="."><plain>According to this analysis, one human miRNA binds putatively to the 3'UTR of 327 mRNAs on average (4.5% of the total number of mRNAs in the dataset). </plain></SENT>
+<SENT sid="317" pm="."><plain>Alternatively, one mRNA is targeted by 39 human miRNAs on average (4.5% of the total number of human miRNAs in the dataset). </plain></SENT>
+<SENT sid="318" pm="."><plain>An analysis of the efficiency of our filter can be found in the Appendix Section. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F6" position="float"><label>Figure 6</label><caption><p><text><SENT sid="319" pm="."><plain>Characteristics of the human miRNAs/human mRNAs relationships. </plain></SENT>
+<SENT sid="320" pm="."><plain>(a) Distribution of the number of target mRNAs per each miRNA. </plain></SENT>
+<SENT sid="321" pm="."><plain>(b) Distribution of the number of miRNAs targeting each mRNA. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-6"/></fig></SecTag></sec><sec><title><text><SENT sid="322" pm="."><plain>The predicted modules and supporting evidence </plain></SENT>
+</text></title><p><text><SENT sid="323" pm="."><plain>In this stage we used the target prediction results from the previous stage. </plain></SENT>
+<SENT sid="324" pm="."><plain>The enumeration process was carried out on 72 GO categories versus 8 Atlas conditions, resulting in 576 &lt;A, C&gt; pairs, where A denotes an Atlas condition and C denotes a GO category. </plain></SENT>
+<SENT sid="325" pm="."><plain>We found 54 modules that fulfilled the following quorum constraints, q1 = 2, q2 = 1, and had a p-value lower than the cutoff (obtained by a sampling procedure for each such pair. </plain></SENT>
+<SENT sid="326" pm="."><plain>See Methods for details). </plain></SENT>
+<SENT sid="327" pm="."><plain>Modules with fewer than two genes were filtered out. </plain></SENT>
+<SENT sid="328" pm="."><plain>The expression level threshold t was calculated for each miRNA as the average expression among all the Atlas conditions related to B cells. </plain></SENT>
+<SENT sid="329" pm="."><plain>Among the GO categories tested in our experiment, there are dependent categories that contain the same genes. </plain></SENT>
+<SENT sid="330" pm="."><plain>Among Atlas conditions sometimes groups of expressed miRNAs overlap. </plain></SENT>
+<SENT sid="331" pm="."><plain>In order to reduce the redundancy of the reported modules we combined identical modules from different GO categories and Atlas conditions. </plain></SENT>
+<SENT sid="332" pm="."><plain>This procedure resulted in 34 modules. </plain></SENT>
+<SENT sid="333" pm="."><plain>Below we present and analyze two selected modules that were found by our method. </plain></SENT>
+<SENT sid="334" pm="."><plain>The full set of potential modules can be obtained at <ext-link ext-link-type="uri" xlink:href="http://www.cs.bgu.ac.il/~vaksler/BiTargeting.htm">http://www.cs.bgu.ac.il/~vaksler/BiTargeting.htm</ext-link>. </plain></SENT>
+</text></p><p><text><SENT sid="335" pm="."><plain>Module I( see Figure 7(a)) was obtained from genes related to "induction of apoptosis" and miRNAs that are expressed in Burkitt lymphoma. </plain></SENT>
+<SENT sid="336" pm="."><plain>The module consists of three human miRNAs, miR-17, miR-20a, and miR-15b, one viral miRNA, miR-BART5, and three human genes. </plain></SENT>
+<SENT sid="337" pm="."><plain>A thorough literature search supported our predictions as follows. </plain></SENT>
+<SENT sid="338" pm="."><plain>miR-17 and miR-20a belong to the genomic cluster miR-17-92. </plain></SENT>
+<SENT sid="339" pm="."><plain>The cluster consists of six miRNAs that are tightly grouped within an 800 base-pair region of human chromosome 13 [50]. </plain></SENT>
+<SENT sid="340" pm="."><plain>The miR-17-92 cluster first attracted attention following a series of observations linking these miRNAs to cancer pathogenesis, as it undergoes amplification in several types of lymphoma and solid tumors. </plain></SENT>
+<SENT sid="341" pm="."><plain>It was also shown that these miRNAs are tightly linked to the functions of the E2F family of transcription factors, which are critical regulators of the cell cycle and apoptosis. </plain></SENT>
+<SENT sid="342" pm="."><plain>Furthermore, O'Donnell et al. [51] validated that <z:uniprot sup="inside" fb="0" ids="Q90977,Q01094,Q61501,O09139">E2F1</z:uniprot> is a target of miR-17 and miR-20a. </plain></SENT>
+<SENT sid="343" pm="."><plain>Therefore, these miRNAs lead to decreased <z:uniprot sup="inside" fb="0" ids="Q90977,Q01094,Q61501,O09139">E2F1</z:uniprot> protein and thus attenuate E2F induced apoptosis (see Figure 8). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F7" position="float"><label>Figure 7</label><caption><p><text><SENT sid="344" pm="."><plain>Two predicted modules. </plain></SENT>
+<SENT sid="345" pm="."><plain>The length of the UTR is indicated in the parentheses near the gene name. </plain></SENT>
+<SENT sid="346" pm="."><plain>The expression in the Atlas condition and the average expression among B cell conditions is indicated in the parentheses under the miRNA name. </plain></SENT>
+<SENT sid="347" pm="."><plain>The Atlas conditions: (a) has_Burkitt-DG-75: Burkitt lymphoma cell line established from a 10-year-old boy, EBV+; (b) hsa_Hodgkin-L591: Hodgkin Lymphoma cell line, EBV+. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-7"/></fig></SecTag><SecTag type="FIG"><fig id="F8" position="float"><label>Figure 8</label><caption><p><text><SENT sid="348" pm="."><plain>The function of Module I genes in cellular apoptotic pathways, and the cooperative role of human and viral miRNAs in this cascade. </plain></SENT>
+<SENT sid="349" pm="."><plain>The dashed arrows indicate validated targets of the miRNAs, the solid arrows indicate the new regulation pattern discovered in our module (the figure is partially adopted from [56]). </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-8"/></fig></SecTag><p><text><SENT sid="350" pm="."><plain>The third human miRNA is miR-15b. </plain></SENT>
+<SENT sid="351" pm="."><plain>This miRNA was recently shown to regulate cell cycle progression in glioma cells by targeting cell cycle-related genes, such as <z:uniprot sup="inside" fb="0" ids="P49707,P24864">CCNE1</z:uniprot> [52]. </plain></SENT>
+<SENT sid="352" pm="."><plain>In addition, Cimmino et al. [53] reported that its analog miR-15a (along with miR-16-1) negatively regulates <z:uniprot sup="inside" fb="0" ids="Q00709">BCL2</z:uniprot>, which is an anti-apoptotic gene that is often overexpressed in many types of human cancers. </plain></SENT>
+<SENT sid="353" pm="."><plain>The participation of this miRNA in this module suggests that this miRNA may also have oncogenic roles in this particular type of malignancy, by targeting genes that promote apoptosis. </plain></SENT>
+</text></p><p><text><SENT sid="354" pm="."><plain>The viral miRNA miR-BART5 was shown to target a human protein <z:uniprot sup="inside" fb="88" ids="Q96PG8,Q9BXH1">PUMA</z:uniprot> [54]. </plain></SENT>
+<SENT sid="355" pm="."><plain><z:uniprot sup="inside" fb="88" ids="Q96PG8,Q9BXH1">PUMA</z:uniprot> plays a role in apoptosis as a direct downstream target of <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>, in addition to being able to initiate apoptosis via a <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-independent mechanism [55]. </plain></SENT>
+<SENT sid="356" pm="."><plain>Down-regulation of <z:uniprot sup="inside" fb="88" ids="Q96PG8,Q9BXH1">PUMA</z:uniprot> by miR-BART5 may protect EBV-infected cells from virus-induced apoptosis. </plain></SENT>
+<SENT sid="357" pm="."><plain>Furthermore, searching for targets of BART5 on the viral genome revealed 8 hits on the <z:uniprot sup="inside" fb="0" ids="Q1HVI8,Q8AZK7,P0C732">EBNA-LP</z:uniprot> protein. </plain></SENT>
+<SENT sid="358" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q1HVI8,Q8AZK7,P0C732">EBNA-LP</z:uniprot> promotes the expression of viral genes that expose the virus to the immune system. </plain></SENT>
+</text></p><p><text><SENT sid="359" pm="."><plain>Three human genes that were found to participate in this module are strongly related to apoptosis. </plain></SENT>
+<SENT sid="360" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96KQ4">PPP1R13B</z:uniprot> (also known as <z:uniprot sup="inside" fb="0" ids="Q96KQ4">ASPP1</z:uniprot>) has an important function in cellular apoptotic pathways [56,57]. </plain></SENT>
+<SENT sid="361" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96KQ4">ASPP1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q13625">ASPP2</z:uniprot> (another member of <z:uniprot sup="inside" fb="0" ids="Q9SZ63">ASPP</z:uniprot> family) are induced by the <z:uniprot sup="inside" fb="0" ids="Q90977,Q01094,Q61501,O09139">E2F1</z:uniprot> transcription factor and cooperate with the <z:uniprot sup="inside" fb="0" ids="Q9W678,P67938,P67939,Q29537,Q9WUR6,P10360,P13481,O09185,P79734,Q8SPZ3,Q29480,P41685,P79892,P04637,O93379,P56423,P61260,P56424,O36006,Q00366,P02340,P25035,P79820,Q64662,Q9TUB2,O12946,Q95330,P10361,P51664,Q9W679,Q9TTA1,P07193,O57538,Q92143">tumor suppressor p53</z:uniprot> and its family members <z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot> and <z:uniprot sup="inside" fb="2" ids="P22776,Q5IZJ5,Q8V9S6,Q5IZI7">p73</z:uniprot> in trans-activating pro-apoptotic genes such as the <z:uniprot sup="inside" fb="0" ids="Q00709">BCL2</z:uniprot>-family member <z:uniprot sup="inside" fb="17" ids="O02703,Q07812">BAX</z:uniprot>, the <z:uniprot sup="inside" fb="0" ids="Q00709">BCL2</z:uniprot>-binding component <z:uniprot sup="inside" fb="88" ids="Q96PG8,Q9BXH1">PUMA</z:uniprot>, and <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-induced gene 3 (<z:uniprot sup="inside" fb="0" ids="Q53FA7">PIG3</z:uniprot>) (see Figure 8). </plain></SENT>
+<SENT sid="362" pm="."><plain>Inhibition of endogenous <z:uniprot sup="inside" fb="0" ids="Q9SZ63">ASPP</z:uniprot> function suppresses the apoptotic function of endogenous <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> in response to apoptotic stimuli [57]. </plain></SENT>
+</text></p><p><text><SENT sid="363" pm="."><plain>The second gene in the module is <z:uniprot sup="inside" fb="0" ids="O43521">BCL2L11</z:uniprot>(also known as <z:uniprot sup="inside" fb="16" ids="O43521">BIM</z:uniprot>), which is a pro-apoptotic gene that regulates cell death in mature B cells. </plain></SENT>
+<SENT sid="364" pm="."><plain>It is thought to initiate apoptosis by binding to and inactivating pro-survival <z:uniprot sup="inside" fb="0" ids="Q00709">BCL2</z:uniprot>-family members, such as <z:uniprot sup="inside" fb="0" ids="Q00709">BCL2</z:uniprot> [58]. </plain></SENT>
+<SENT sid="365" pm="."><plain>Deletions or methylation of the <z:uniprot sup="inside" fb="16" ids="O43521">BIM</z:uniprot> locus are found in various human B lymphomas [59,60]. </plain></SENT>
+<SENT sid="366" pm="."><plain>Furthermore, it was shown previously that latent infection of Burkitt Lymphoma cells with EBV results in a significant reduction in the expression of <z:uniprot sup="inside" fb="16" ids="O43521">BIM</z:uniprot> [61]. </plain></SENT>
+<SENT sid="367" pm="."><plain>A number of recent works ([62-64]) have also identified <z:uniprot sup="inside" fb="16" ids="O43521">BIM</z:uniprot> as a direct target of multiple members of the miR-17-92 cluster (including <z:uniprot sup="inside" fb="119" ids="Q6TEM9">mir</z:uniprot>-17 and miR-20a). </plain></SENT>
+</text></p><p><text><SENT sid="368" pm="."><plain>The third gene, <z:uniprot sup="inside" fb="0" ids="Q9H3D4,O88898,Q9JJP6">TP63</z:uniprot> (also known as <z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot>), an important epithelial developmental gene, is a member of the <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> tumor-suppressor gene family. </plain></SENT>
+<SENT sid="369" pm="."><plain>The <z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot> gene has two promoters, resulting in two different types of proteins with opposing functions, a <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-like protein containing the TA domain (TAp63) and inhibitory proteins lacking TA, called DNp63. </plain></SENT>
+<SENT sid="370" pm="."><plain>TAp63 upregulates expression of proapoptotic <z:uniprot sup="inside" fb="0" ids="P10417,P49950">Bcl-2</z:uniprot> family members such as <z:uniprot sup="inside" fb="17" ids="Q07813,Q63690">Bax</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O43521">BCL2L11</z:uniprot> [65]. </plain></SENT>
+<SENT sid="371" pm="."><plain><z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot> is capable of binding a series of <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-responsive promoters and can transactivate many <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> target genes. </plain></SENT>
+<SENT sid="372" pm="."><plain><z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot> activity is regulated by proteins such as <z:uniprot sup="inside" fb="0" ids="Q96KQ4">ASPP1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q13625">ASPP2</z:uniprot> (see Figure 8), which also modulate <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> activity. </plain></SENT>
+<SENT sid="373" pm="."><plain><z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot> can mediate apoptosis in a manner similar to that of <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>, and it was proposed that <z:uniprot sup="inside" fb="4" ids="P25420,Q07065,Q8BMK4,Q9H3D4,O88898,Q9JJP6,Q9P2Y5">p63</z:uniprot> is essential for <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-mediated apoptosis induced by DNA damage [66]. </plain></SENT>
+<SENT sid="374" pm="."><plain>The cooperative regulation of human and viral miRNAs of the apoptotic pathway is demonstrated in Figure 8. </plain></SENT>
+<SENT sid="375" pm="."><plain>The dashed arrows indicate validated targets of miR-17, <z:uniprot sup="inside" fb="119" ids="Q6TEM9">mir</z:uniprot>-20a, and miR-BART5, and the solid arrows indicate the new regulation pattern discovered in our module. </plain></SENT>
+<SENT sid="376" pm="."><plain>Our predictions may imply that miRNAs in this module target genes along the cascade that leads to apoptosis. </plain></SENT>
+<SENT sid="377" pm="."><plain>In particular, these results predict that a primary function of miR-BART-5 may be to prevent <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> mediated apoptosis by targeting different mRNA transcripts. </plain></SENT>
+</text></p><p><text><SENT sid="378" pm="."><plain>Module II (see Figure 7(b)) consists of miRNAs from the Hodgkin Lymphoma cell line, hsa-miR-17, hsa-miR-24, and ebv-miR-BART3, and genes from the "regulation of lymphocyte activation" category - <z:uniprot sup="inside" fb="0" ids="Q8N726,O77618,P42771,O77617">CDKN2A</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O75144">ICOSLG</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="379" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N726,O77618,P42771,O77617">CDKN2A</z:uniprot> (also known as <z:uniprot sup="inside" fb="7" ids="Q9R0Z3,P0C044,P0C045,P0C794,P0C795,P26379">p16</z:uniprot>-INK4A) is a tumor suppressor that binds to the complex of <z:uniprot sup="inside" fb="0" ids="P42751">cyclin D1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q32KY4,P11802,P30285,P79432,P35426,B2MVY4,Q91727">cyclin-dependent kinase 4</z:uniprot> to repress its ability to phosphorylate the retinoblastoma protein, and consequently, blocks cell cycle progression from G1 to S [67,68]. </plain></SENT>
+<SENT sid="380" pm="."><plain>Inactivation of this gene has been shown in a wide variety of human cancers as a consequence of mutation, homozygous mutation, or promoter methylation [69-71]. </plain></SENT>
+<SENT sid="381" pm="."><plain>In addition, it was shown that EBV oncoprotein <z:uniprot sup="inside" fb="0" ids="Q1HVB3,P03230,P29362,P0C741,P13198">LMP1</z:uniprot> blocks the expression of <z:uniprot sup="inside" fb="0" ids="Q8N726,O77618,P42771,O77617">CDKN2A</z:uniprot>, by promoting the <z:uniprot sup="inside" fb="0" ids="Q9SRU2,O14980,P30822">CRM1</z:uniprot>-dependent nuclear export of <z:uniprot sup="inside" fb="0" ids="P15037">Ets2</z:uniprot>, which is an important transcription factor for <z:uniprot sup="inside" fb="0" ids="Q8N726,O77618,P42771,O77617">CDKN2A</z:uniprot>, thereby reducing the level of its expression [72]. </plain></SENT>
+<SENT sid="382" pm="."><plain>Furthermore, human miRNA miR-24, which presents in this module, has been demonstrated to promote cell growth through repression of this gene [73]. </plain></SENT>
+<SENT sid="383" pm="."><plain>miR-17, in addition to its function in attenuating E2F induced apoptosis (see module I), was shown to target <z:uniprot sup="inside" fb="0" ids="O19002,P38936">CDKN1A</z:uniprot> (also known as <z:uniprot sup="inside" fb="14" ids="O19002,P38936,P39689,Q07828,P50633,P50634,Q62092,Q08545,P61585,P63028,Q11118">p21</z:uniprot>), a gene that functions as a regulator of cell cycle progression at G1 [74]. </plain></SENT>
+</text></p><p><text><SENT sid="384" pm="."><plain>The second gene found in module II is <z:uniprot sup="inside" fb="0" ids="O75144">ICOSLG</z:uniprot>. </plain></SENT>
+<SENT sid="385" pm="."><plain>This gene is expressed on monocytes, dendritic cells, and B cells and can be induced by inflammatory stimuli in peripheral tissue. </plain></SENT>
+<SENT sid="386" pm="."><plain>Binding to <z:uniprot sup="inside" fb="0" ids="O75144">ICOSL</z:uniprot> delivers a co-stimulatory signal for T cell proliferation and cytokine secretion [75,76]. </plain></SENT>
+<SENT sid="387" pm="."><plain>Furthermore, this gene was shown to be important in several immune responses against pathogenic microorganisms such as bacteria, parasites and viruses [77-79]. </plain></SENT>
+</text></p><p><text><SENT sid="388" pm="."><plain>The two modules presented have a tight connection to the function of the EBV, which establishes a long-term latent infection in the host cells. </plain></SENT>
+<SENT sid="389" pm="."><plain>Thus, it is reasonable to assume that EBV will use its and the host's machinery, including miRNAs, for downregulating genes that lead to apoptosis or immune response. </plain></SENT>
+<SENT sid="390" pm="."><plain>These modules supply evidence of the cooperation between human and EBV miRNAs in the task of preventing apoptosis, promoting cell growth, and evading the immune response. </plain></SENT>
+<SENT sid="391" pm="."><plain>It is important to note that the target sites of the human and viral miRNAs on the UTRs of the genes in this module are different. </plain></SENT>
+<SENT sid="392" pm="."><plain>Thus this cooperation, with multiple target sites, can lead to an increased degree of translational repression. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS,CONCL"><sec><title><text><SENT sid="393" pm="."><plain>Discussion and Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="394" pm="."><plain>miRNAs represent a class of molecules produced by both viruses and their hosts that can benefit either the virus or the host, depending on the particular interaction. </plain></SENT>
+<SENT sid="395" pm="."><plain>Viral miRNAs were discovered only recently, and functional relationships between viruses and viral or host miRNAs are only now beginning to be elucidated. </plain></SENT>
+<SENT sid="396" pm="."><plain>A comprehensive understanding of the entire landscape of the miRNA-mediated host-virus interactions may uncover novel pathways that promote or limit virus replication. </plain></SENT>
+<SENT sid="397" pm="."><plain>In turn, this knowledge may lead towards the development of effective antiviral therapy and could help guide drug design. </plain></SENT>
+</text></p><p><text><SENT sid="398" pm="."><plain>In this work we focused on the contribution of viral and host miRNAs in regulating host genes, and thus in promoting or inhibiting viral replication or life cycle. </plain></SENT>
+<SENT sid="399" pm="."><plain>Our method searches for modules of miRNAs (host and viral) and their common host target genes that are involved in similar biological processes. </plain></SENT>
+</text></p><p><text><SENT sid="400" pm="."><plain>Our method is related to bi-clustering methods that have been used in various biological issues [34]. </plain></SENT>
+<SENT sid="401" pm="."><plain>The bi-clustering approach groups rows and columns simultaneously in a two-dimensional data matrix. </plain></SENT>
+<SENT sid="402" pm="."><plain>Alternatively, a data matrix can be viewed as a bipartite graph. </plain></SENT>
+<SENT sid="403" pm="."><plain>Previous works, dealing with module search, represent one set of nodes as miRNAs and the second set as target mRNAs; the edges represent target relations. </plain></SENT>
+<SENT sid="404" pm="."><plain>Since in our problem, the miRNAs are of two different sources (viral and human), we cannot use the existing methods of bi-clustering. </plain></SENT>
+<SENT sid="405" pm="."><plain>Instead, our graph can be viewed as a two-sided bi-partite graph, and the goal is to find two sided bi-cliques. </plain></SENT>
+</text></p><p><text><SENT sid="406" pm="."><plain>In order to achieve this goal, we developed a new bi-targeting algorithm. </plain></SENT>
+<SENT sid="407" pm="."><plain>The algorithm constructs an enumeration tree of human genes that are targeted by the same sets of miRNAs, and contains the modules at the end of its construction. </plain></SENT>
+<SENT sid="408" pm="."><plain>Due to the application of a branch and bound technique, the algorithm is very efficient and enables, within a practical time, enumeration of all possible modules. </plain></SENT>
+</text></p><p><text><SENT sid="409" pm="."><plain>Our method combines a variety of biological data sources. </plain></SENT>
+<SENT sid="410" pm="."><plain>Genomic sequences were used for the target prediction task. </plain></SENT>
+<SENT sid="411" pm="."><plain>Tissue context information was used to narrow the list of human genes to genes that are expressed in the cells infected by the virus of interest (e.g. B cells in the case of EBV). </plain></SENT>
+<SENT sid="412" pm="."><plain>miRNA expression profiles (from the miRNA atlas) and GO annotations enabled us to find potential modules consisting of miRNAs co-expressed in an Atlas condition (and have a potential to regulate cooperatively a group of genes) and genes with similar biological function from a GO category. </plain></SENT>
+<SENT sid="413" pm="."><plain>The combination of several information sources in the task of module detection minimizes noise and errors accompanying each information source, resulting in more reliable results. </plain></SENT>
+</text></p><p><text><SENT sid="414" pm="."><plain>In addition, we developed our own method for target prediction, which extends the threshold all-against-all algorithm. </plain></SENT>
+<SENT sid="415" pm="."><plain>The method performs an efficient genome-wide target prediction of all the miRNAs against all the possible subsequences of a set of mRNAs. </plain></SENT>
+<SENT sid="416" pm="."><plain>Our algorithm was able to prune a large portion of the aligned trees by utilizing the fact that the number of errors in the miRNA-mRNA duplex is bounded by some threshold. </plain></SENT>
+</text></p><p><text><SENT sid="417" pm="."><plain>Note that the two methods we present in this paper are independent. </plain></SENT>
+<SENT sid="418" pm="."><plain>One can use our target prediction algorithm as an efficient stand-alone target prediction system. </plain></SENT>
+<SENT sid="419" pm="."><plain>In addition, our module finding method can use any source of target information, produced by any of the existing target prediction tools, using different principles of target recognition. </plain></SENT>
+<SENT sid="420" pm="."><plain>The method can also be applied to other viruses, as long as their miRNA expression profiles are available (along with human miRNAs). </plain></SENT>
+</text></p><p><text><SENT sid="421" pm="."><plain>We applied our method to the discovery of modules consisting of human and viral (EBV) miRNAs and human genes. </plain></SENT>
+<SENT sid="422" pm="."><plain>The identified modules display meaningful discoveries supported by the literature. </plain></SENT>
+<SENT sid="423" pm="."><plain>Two of the modules are analyzed in detail in this paper. </plain></SENT>
+</text></p><p><text><SENT sid="424" pm="."><plain>Since not much is known about the function of viral miRNAs, finding modules that link the viral miRNAs and the human miRNAs, might help in understanding the role of viral miRNAs in viral infections. </plain></SENT>
+<SENT sid="425" pm="."><plain>Thus the method developed in this work can be of help to better understand viral-induced diseases and the role that miRNAs plays in them. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="AUTH_CONT"><sec><title><text><SENT sid="426" pm="."><plain>Authors' contributions </plain></SENT>
+</text></title><p><text><SENT sid="427" pm="."><plain>YSA presented the problem and constraint parameters. </plain></SENT>
+<SENT sid="428" pm="."><plain><z:uniprot sup="inside" fb="4" ids="P24708,P18174,P24709,P24711,P07476,P17941,P14590,P24710,P14591,P18175,P14708,P24712,Q95337">IVL</z:uniprot>, KK, and MZU developed the algorithms. </plain></SENT>
+<SENT sid="429" pm="."><plain><z:uniprot sup="inside" fb="4" ids="P24708,P18174,P24709,P24711,P07476,P17941,P14590,P24710,P14591,P18175,P14708,P24712,Q95337">IVL</z:uniprot> contributed to code development and data analysis, and found supporting evidence in the literature. </plain></SENT>
+<SENT sid="430" pm="."><plain>All authors drafted the manuscript, and read and approved the final manuscript. </plain></SENT>
+</text></p></sec></SecTag><sec><title><text><SENT sid="431" pm="."><plain>Appendix </plain></SENT>
+</text></title><sec><title><text><SENT sid="432" pm="."><plain>Predicting miRNA targets: a filter based on error bounded complementarity </plain></SENT>
+</text></title><p><text><SENT sid="433" pm="."><plain>We perform a genome-wide target prediction of all the miRNAs against all the possible subsequences of a set of mRNAs in an efficient way. </plain></SENT>
+<SENT sid="434" pm="."><plain>The method we propose extends the threshold all-against-all alignment algorithm [37,38]. </plain></SENT>
+<SENT sid="435" pm="."><plain>All-against-all alignment problems can be solved using dynamic programming and suffix trees [37]. </plain></SENT>
+<SENT sid="436" pm="."><plain>Sagot used a variant of this problem to extract approximate repeated motifs from a sequence or common motifs from a set of sequences [38]. </plain></SENT>
+<SENT sid="437" pm="."><plain>In this work we extend this idea to the task of target prediction by using prefix trees (tries). </plain></SENT>
+</text></p><p><text><SENT sid="438" pm="."><plain>The trie data structure [80], τ, allows representation of the miRNA/mRNA sequences in an efficient way. </plain></SENT>
+<SENT sid="439" pm="."><plain>The tree τ has the following properties: each edge of τ represents a character c ∈ {A, C, G, T/U}, the characters represented by sibling edges are distinct, and the concatenation of the labels of the edges on a path from the root to a leaf represents the full string inserted in the tree. </plain></SENT>
+</text></p><p><text><SENT sid="440" pm="."><plain>For our target prediction system we construct two tries, one for the miRNA sequences and one for sequence segments of the (reversed) mRNAs. </plain></SENT>
+<SENT sid="441" pm="."><plain>Next, we apply the branch and bound algorithm to find complementarities between sequences from the miRNA trie and the mRNA tries. </plain></SENT>
+<SENT sid="442" pm="."><plain>In more detail, construction of the tries is as follows. </plain></SENT>
+</text></p><p><text><SENT sid="443" pm="."><plain>Let M be a set of m miRNAs, and let G denote a set of n mRNA sequences in the database for the organism under consideration. </plain></SENT>
+<SENT sid="444" pm="."><plain>Consider the trees in Figure 9, τM and τG, which represent the miRNA and mRNA sequences, respectively. τM is built from the miRNA sequences in 5' → 3' orientation. </plain></SENT>
+<SENT sid="445" pm="."><plain>A node u in τM keeps the character of the incoming edge (the empty character in the root). </plain></SENT>
+<SENT sid="446" pm="."><plain>A leaf node, which corresponds to an miRNA, keeps in addition a boolean vector V (u) initialized with F (for false). </plain></SENT>
+<SENT sid="447" pm="."><plain>Each V (u) has n cells, one for each mRNA, and each mRNA has a running number. </plain></SENT>
+<SENT sid="448" pm="."><plain>Cell i in V (u) indicates whether the i'th mRNA is the miRNA's predicted target (V (u) [i] = T). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F9" position="float"><label>Figure 9</label><caption><p><text><SENT sid="449" pm="."><plain>The prefix tries. </plain></SENT>
+<SENT sid="450" pm="."><plain>(a) τM and (b) τG, miRNA and mRNA tries, respectively. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-9"/></fig></SecTag><p><text><SENT sid="451" pm="."><plain>τG is built from mRNA subsequences, which are produced by partitioning the mRNA reversed (3' → 5') sequences into given size consecutive overlapping windows with a slide of 1-nt. </plain></SENT>
+<SENT sid="452" pm="."><plain>The partitioning of the mRNA into windows ensures that every nucleotide in the mRNA will be examined as a potential starting point of a target site to one or more miRNAs. </plain></SENT>
+<SENT sid="453" pm="."><plain>Since the mRNA sequence may have bulges when hybridized to an miRNA, we set the size of the window to be longer than the typical miRNA length, namely to 30 nucleotides. </plain></SENT>
+<SENT sid="454" pm="."><plain>Each node in τG keeps the same data as τM . </plain></SENT>
+<SENT sid="455" pm="."><plain>It also has a list of all mRNAs for which the path from the root of τG to this node spells a substring of this mRNA (see Figure 9(b)). </plain></SENT>
+</text></p><p><text><SENT sid="456" pm="."><plain>Our goal now is to measure the complementarity between all the miRNAs in τM and the mRNA subsequences in τG. </plain></SENT>
+<SENT sid="457" pm="."><plain>In order to get an admissible branch-and-bound search, we use a target prediction score which is monotonic with respect to the increasing length of the prefixes of the compared miRNAs and mRNAs (see Figure 10). </plain></SENT>
+<SENT sid="458" pm="."><plain>The score, which is denoted by min_err(u, v) is computed using dynamic programming. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F10" position="float"><label>Figure 10</label><caption><p><text><SENT sid="459" pm="."><plain>min_err monotonicity property. </plain></SENT>
+<SENT sid="460" pm="."><plain>The score min_err(u, v) is monotone with respect to the increase in the prefix length of the miRNA and mRNA sequences. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2105-11-249-10"/></fig></SecTag></sec><sec><title><text><SENT sid="461" pm="."><plain>The dynamic programming table DP </plain></SENT>
+</text></title><p><text><SENT sid="462" pm="."><plain>for any pair of nodes (u, v), u ∈ τM, and v ∈ τG, DP [u, v] holds the target prediction score between the prefix of the (miRNA) sequence spelled by the path from the root of τM to node u versus the prefix of the (mRNA) sequence spelled by the path from the root of τG to node v, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="463" pm="."><plain>Let u' be the parent of node u in τM and let α be the character labeling the edge between them. </plain></SENT>
+<SENT sid="464" pm="."><plain>Similarly, let v' be the parent of v in τG and let β be the character labeling the edge between them. </plain></SENT>
+<SENT sid="465" pm="."><plain>If we traverse the trees in pre-order traversal, then (u', v'), (u', v), and (u, v') are computed before (u, v). </plain></SENT>
+</text></p><p><text><SENT sid="466" pm="."><plain>The target prediction score of (u, v) is computed using the recurrence formula given below: </plain></SENT>
+</text></p><p><text><SENT sid="467" pm="."><plain>where miRNA_gap and mRNA_gap are penalties for inserting a gap on the miRNA side of the duplex or on the mRNA side of the duplex, respectively, and match(α, β) is the dis-complementarity penalty between the characters α and β (equal to 0 if α and β are complementary, and a positive score otherwise). </plain></SENT>
+</text></p><p><text><SENT sid="468" pm="."><plain>Note that mismatches and gaps increase min_err. </plain></SENT>
+<SENT sid="469" pm="."><plain>Using the restrictions on miRNA target detection based on sequence complementarity, we can bound min_err with a threshold k. </plain></SENT>
+<SENT sid="470" pm="."><plain>Thus, an mRNA sequence T has a chance of being a target of miRNA sequence P if min_err of P and T is at most k. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="471" pm="."><plain>Observation </plain></SENT>
+</text></title><p><text><SENT sid="472" pm="."><plain>The score min_err(u, v) is monotone with respect to an increase in the prefix length of P and T (see k and k' in Figure 10). </plain></SENT>
+</text></p><p><text><SENT sid="473" pm="."><plain>Several features that are related to the hybridization pattern between the miRNA and its targets are incorporated into this algorithm. </plain></SENT>
+<SENT sid="474" pm="."><plain>There is an option (a) to require a seed of a given length and position (perfect complementarity region) in the hybridization between the miRNA and the mRNA, (b) to restrict the number of GU pairs that are formed in the duplex, and (c) to restrict the size of each bulge formed in the duplex. </plain></SENT>
+<SENT sid="475" pm="."><plain>The thresholds that we use for these features in our work are derived from the literature describing experimentally verified miRNA targets (see the Results Section). </plain></SENT>
+</text></p><p><text><SENT sid="476" pm="."><plain>The computation of min_err(u, v) is done in pre-order traversal of the trees. </plain></SENT>
+<SENT sid="477" pm="."><plain>Pruning is performed while traversing the mRNA trie. </plain></SENT>
+<SENT sid="478" pm="."><plain>The calculation is stopped at each node v of τG where min_err(u, v) &gt;k, or one of the above listed restrictions is violated. </plain></SENT>
+<SENT sid="479" pm="."><plain>When the algorithm reaches a leaf u in τM, it updates V (u) according to the mRNA sequences that are located in the non-pruned nodes of τG. </plain></SENT>
+<SENT sid="480" pm="."><plain>At this point a hybridization structure between the miRNA represented by leaf u and the corresponding mRNA target sequences is calculated using the RNAduplex program [39]. </plain></SENT>
+<SENT sid="481" pm="."><plain>Duplexes with a normalized free energy score (i.e., the duplex energy normalized by the energy score of the miRNA bound to its perfect complement) less than a given user threshold are filtered. </plain></SENT>
+<SENT sid="482" pm="."><plain>After performing the DP, we are left with an miRNA tree where every leaf node v is associated with the set of mRNAs which are its predicted targets, as maintained in the T(v) vector. </plain></SENT>
+</text></p><p><text><SENT sid="483" pm="."><plain>We note that the filter described in this section is stand-alone, and can be used independently on other species with different parameters. </plain></SENT>
+</text></p><sec><title><text><SENT sid="484" pm="."><plain>Filter efficiency measurements </plain></SENT>
+</text></title><p><text><SENT sid="485" pm="."><plain>We demonstrate the efficiency of applying our filter on the dataset, described in the Datasets subsection, with three sets of parameters as detailed in Table 4. </plain></SENT>
+<SENT sid="486" pm="."><plain>Each UTR was partitioned into sliding windows of size 30 nts, with a sliding offset of 1 nts between frames, resulting in 7356844 subsequences. </plain></SENT>
+<SENT sid="487" pm="."><plain>Since the RNAduplex procedure is by far the most time consuming component of our method, we measured the efficiency of our filter in terms of the number of calls to RNAduplex. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T4" position="float"><label>Table 4</label><caption><p><text><SENT sid="488" pm="."><plain>The efficiency of the filter on three different sets of parameters. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" colspan="6"><text><SENT sid="489" pm="."><plain>Constraints </plain></SENT>
+</text></th><th align="center"><text><SENT sid="490" pm="."><plain>(A) RNAduplex calls in the naive method </plain></SENT>
+</text></th><th align="center"><text><SENT sid="491" pm="."><plain>(B) RNAduplex calls by our method </plain></SENT>
+</text></th><th align="center"><text><SENT sid="492" pm="."><plain>(C)% of saved calls </plain></SENT>
+</text></th></tr><tr><th colspan="6"><text><SENT sid="493" pm="."><plain> </plain></SENT>
+</text></th><th/><th/><th/></tr><tr><th align="center"><text><SENT sid="494" pm="."><plain>Seed location </plain></SENT>
+</text></th><th align="center" colspan="2"><text><SENT sid="495" pm="."><plain>No. of GU pairs </plain></SENT>
+</text></th><th align="center" colspan="2"><text><SENT sid="496" pm="."><plain>Maximal bulge size </plain></SENT>
+</text></th><th/><th/><th/><th/></tr><tr><th/><th colspan="4"><text><SENT sid="497" pm="."><plain> </plain></SENT>
+</text></th><th/><th/><th/><th/></tr><tr><th/><th align="center"><text><SENT sid="498" pm="."><plain>in seed </plain></SENT>
+</text></th><th align="center"><text><SENT sid="499" pm="."><plain>total </plain></SENT>
+</text></th><th align="center"><text><SENT sid="500" pm="."><plain>on miRNA </plain></SENT>
+</text></th><th align="center"><text><SENT sid="501" pm="."><plain>on mRNA </plain></SENT>
+</text></th><th align="center"><text><SENT sid="502" pm="."><plain>Maximal no. of errors </plain></SENT>
+</text></th><th/><th/><th/></tr></thead><tbody><tr><td align="center"><text><SENT sid="503" pm="."><plain>2-8 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="504" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="505" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="506" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="507" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="508" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="509" pm="."><plain>1819306 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="510" pm="."><plain>1108226 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="511" pm="."><plain>39% </plain></SENT>
+</text></td></tr><tr><td colspan="9"><text><SENT sid="512" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="513" pm="."><plain>2-8 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="514" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="515" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="516" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="517" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="518" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="519" pm="."><plain>1819306 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="520" pm="."><plain>140920 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="521" pm="."><plain>92% </plain></SENT>
+</text></td></tr><tr><td colspan="9"><text><SENT sid="522" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="523" pm="."><plain>2-7 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="524" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="525" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="526" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="527" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="528" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="529" pm="."><plain>480099 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="530" pm="."><plain>267087 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="531" pm="."><plain>45% </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="532" pm="."><plain>We define by the naive method a method that calls RNAduplex when there is a seed complementarity, under the constraints of seed location and number of GU pairs in the seed (see columns 1 and 2 in Table 4). </plain></SENT>
+<SENT sid="533" pm="."><plain>Columns (A) and (B) contain the number of RNAduplex calls for the naive method and for our method, respectively, and column (C) contains the percent of calls saved by our method. </plain></SENT>
+</text></p><p><text><SENT sid="534" pm="."><plain>In all three data sets there is a great reduction in the number of RNAduplex calls. </plain></SENT>
+<SENT sid="535" pm="."><plain>The middle row demonstrates a much bigger save in number of calls by our method. </plain></SENT>
+<SENT sid="536" pm="."><plain>This is mainly because of the strong constraint applied on the number of allowed errors (column 6). </plain></SENT>
+<SENT sid="537" pm="."><plain>The reduction in the number of calls to RNAduplex is due to the compression of the sequences of both miRNAs and mRNAs into prefix trees and the strong pruning that we apply during the calculation of the hybridization score, accompanied with the constraints that we apply on potential duplexes. </plain></SENT>
+</text></p></sec></sec><sec><title><text><SENT sid="538" pm="."><plain>Hypergeometric p-value </plain></SENT>
+</text></title><p><text><SENT sid="539" pm="."><plain>For a given module obtained for a pair &lt;A, C&gt;, the hypergeometric p-value is computed as follows: Let n be the total number of genes in the dataset and c the number of genes that belong to the GO category C (denoted as N and C in Figure 3, respectively). </plain></SENT>
+<SENT sid="540" pm="."><plain>Let t be the number of mutual targets of the miRNAs in the module and tc the number of genes among them that also belong to C (the latter is the result of the enumeration algorithm). </plain></SENT>
+<SENT sid="541" pm="."><plain>The hypergeometric p-value of this module is: </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="542" pm="."><plain>Pseudocode of the enumeration algorithm </plain></SENT>
+</text></title><p><text><SENT sid="543" pm="."><plain>   input : Genes - list of genes from a certain GO category. </plain></SENT>
+<SENT sid="544" pm="."><plain>Every gene x in this list has a set of human and viral miRNAs targeting it, denoted as x.h_miRs and x.v_miRs, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="545" pm="."><plain>   input : h_miRs, v_miRs - full list of human and viral miRNAs. </plain></SENT>
+</text></p><p><text><SENT sid="546" pm="."><plain>   output: Enumeration tree </plain></SENT>
+</text></p><p><text><SENT sid="547" pm="."><plain>   root← new Node(); </plain></SENT>
+</text></p><p><text><SENT sid="548" pm="."><plain>   dummy← new Node(); </plain></SENT>
+</text></p><p><text><SENT sid="549" pm="."><plain>   dummy.h_miRs← h_miRs; </plain></SENT>
+</text></p><p><text><SENT sid="550" pm="."><plain>   dummy.v_miRs← v miRs; </plain></SENT>
+</text></p><p><text><SENT sid="551" pm="."><plain>   root.children.add(dummy); </plain></SENT>
+</text></p><p><text><SENT sid="552" pm="."><plain>   foreach gene ∈ Genes do </plain></SENT>
+</text></p><p><text><SENT sid="553" pm="."><plain>      node← appendSiblings(gene); </plain></SENT>
+</text></p><p><text><SENT sid="554" pm="."><plain>      root.children.add(node); </plain></SENT>
+</text></p><p><text><SENT sid="555" pm="."><plain>   end </plain></SENT>
+</text></p><p><text><SENT sid="556" pm="."><plain>Algorithm 1: construct tree </plain></SENT>
+</text></p><p><text><SENT sid="557" pm="."><plain>   input : gene - a new gene to be inserted into the tree </plain></SENT>
+</text></p><p><text><SENT sid="558" pm="."><plain>   input : root - the root node of the enumeration tree </plain></SENT>
+</text></p><p><text><SENT sid="559" pm="."><plain>   input : q1, q2 - quorum restriction on human and viral miRNAs </plain></SENT>
+</text></p><p><text><SENT sid="560" pm="."><plain>   output: Creates a new node and appends to it (as its children) all its siblings </plain></SENT>
+</text></p><p><text><SENT sid="561" pm="."><plain>   node = new Node(gene); </plain></SENT>
+</text></p><p><text><SENT sid="562" pm="."><plain>   foreach child ∈ root:children do </plain></SENT>
+</text></p><p><text><SENT sid="563" pm="."><plain>      sibling← copy(child); </plain></SENT>
+</text></p><p><text><SENT sid="564" pm="."><plain>      foreach leaf ∈ sibling:leaves do </plain></SENT>
+</text></p><p><text><SENT sid="565" pm="."><plain>         size1← leaf.h_miRs.size; </plain></SENT>
+</text></p><p><text><SENT sid="566" pm="."><plain>         leaf.h_miRs← Intersect(leaf.h_miRs, gene.h_miRs); </plain></SENT>
+</text></p><p><text><SENT sid="567" pm="."><plain>         size2← leaf.v_miRs.size; </plain></SENT>
+</text></p><p><text><SENT sid="568" pm="."><plain>         leaf.v_miRs← Intersect(leaf.v_miRs; gene.v_miRs); </plain></SENT>
+</text></p><p><text><SENT sid="569" pm="."><plain>         if size(leaf.h_miRs) == size1 and size(leaf.v_miRs) == size2 then </plain></SENT>
+</text></p><p><text><SENT sid="570" pm="."><plain>            /* Delete due to the containment      */ </plain></SENT>
+</text></p><p><text><SENT sid="571" pm="."><plain>            Delete the path from the leaf in child subtree; </plain></SENT>
+</text></p><p><text><SENT sid="572" pm="."><plain>         end </plain></SENT>
+</text></p><p><text><SENT sid="573" pm="."><plain>         if leaf.h_miRs.size &lt; q1 or leaf.v_miRs.size &lt; q2 then </plain></SENT>
+</text></p><p><text><SENT sid="574" pm="."><plain>            /* Prune due to the quorum restrictions      */ </plain></SENT>
+</text></p><p><text><SENT sid="575" pm="."><plain>            Delete the path from the leaf in sibling subtree; </plain></SENT>
+</text></p><p><text><SENT sid="576" pm="."><plain>         end </plain></SENT>
+</text></p><p><text><SENT sid="577" pm="."><plain>      end </plain></SENT>
+</text></p><p><text><SENT sid="578" pm="."><plain>      node.children.add(sibling); </plain></SENT>
+</text></p><p><text><SENT sid="579" pm="."><plain>   end </plain></SENT>
+</text></p><p><text><SENT sid="580" pm="."><plain>   return node; </plain></SENT>
+</text></p><p><text><SENT sid="581" pm="."><plain>Algorithm 2: appendSiblings </plain></SENT>
+</text></p></sec></sec></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="582" pm="."><plain>The authors wish to thank Gary Benson for a helpful discussion on the sampling procedure; Sivan Yogev for code design tips; Tamar Pinhas and Nimrod Milo for pointing the miRecords database. </plain></SENT>
+<SENT sid="583" pm="."><plain>The authors thank the anonymous reviewers for helpful comments. </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="584" pm="."><plain>EngelsBHutvagnerGPrinciples and effects of microRNA-mediated post-transcriptional gene regulationOncogene200611466163616910.1038/sj.onc.1209909<?supplied-pmid 17028595?>17028595 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="585" pm="."><plain>Esquela-KerscherASlackFOncomirs-microRNAs with a role in cancerNature Reviews Cancer200611425926910.1038/nrc1840<?supplied-pmid 16557279?>16557279 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="586" pm="."><plain>ZhaoYSrivastavaDA developmental view of microRNA functionTrends in biochemical sciences200711418919710.1016/j.tibs.2007.02.006<?supplied-pmid 17350266?>17350266 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="587" pm="."><plain>StarkABrenneckeJRussellRCohenSIdentification of Drosophila microRNA targetsPLoS Biol2003113E6010.1371/journal.pbio.0000060<?supplied-pmid 14691535?>14691535 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="588" pm="."><plain>EnrightAJohnBGaulUTuschlTSanderCMarksDMicroRNA targets in DrosophilaGenome biology2004111110.1186/gb-2003-5-1-r1 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="589" pm="."><plain>LewisBShihIJones-RhoadesMBartelDBurgeCPrediction of mammalian microRNA targetsCell200311778779810.1016/S0092-8674(03)01018-3<?supplied-pmid 14697198?>14697198 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="590" pm="."><plain>LewisBBurgeCBartelDConserved seed pairing, often flanked by adenosines, indicates that thousands of human genes are microRNA targetsCell200511152010.1016/j.cell.2004.12.035<?supplied-pmid 15652477?>15652477 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="591" pm="."><plain>KiriakidouMNelsonPKouranovAFitzievPBouyioukosCMourelatosZHatzigeorgiouAA combined computational-experimental approach predicts human microRNA targetsGenes &amp; development200411101165117815131085 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="592" pm="."><plain>KrekAGrunDPoyMWolfRRosenbergLEpsteinEMacMenaminPda PiedadeIGunsalusKStoffelMCombinatorial microRNA target predictionsNature genetics200511549550010.1038/ng1536<?supplied-pmid 15806104?>15806104 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="593" pm="."><plain>RehmsmeierMSteffenPHöchsmannMGiegerichRFast and effective prediction of microRNA/target duplexesRna200411101507151710.1261/rna.5248604<?supplied-pmid 15383676?>15383676 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="594" pm="."><plain>KimSNamJRheeJLeeWZhangBmiTarget: microRNA target gene prediction using a support vector machineBMC bioinformatics20061141110.1186/1471-2105-7-411<?supplied-pmid 16978421?>16978421 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="595" pm="."><plain>BartelDMicroRNAs: target recognition and regulatory functionsCell200911221523310.1016/j.cell.2009.01.002<?supplied-pmid 19167326?>19167326 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="596" pm="."><plain>WatanabeYTomitaMKanaiAComputational methods for microRNA target predictionMethods in Enzymology200711658610.1016/S0076-6879(07)27004-1<?supplied-pmid 17720479?>17720479 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="597" pm="."><plain>MazierePEnrightAPrediction of microRNA targetsDrug discovery today20071111-1245245810.1016/j.drudis.2007.04.002<?supplied-pmid 17532529?>17532529 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="598" pm="."><plain>GrundhoffASullivanCGanemDA combined computational and microarray-based approach identifies novel microRNAs encoded by human gamma-herpesvirusesRna200611573310.1261/rna.2326106<?supplied-pmid 16540699?>16540699 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="599" pm="."><plain>ScariaVHariharanMPillaiBMaitiSBrahmachariSHost-virus genome interactions: macro roles for microRNAsCellular Microbiology200711122784279410.1111/j.1462-5822.2007.01050.x<?supplied-pmid 17944962?>17944962 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="600" pm="."><plain>GottweinECullenBViral and cellular microRNAs as determinants of viral pathogenesis and immunityCell host &amp; microbe200811637538718541214 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="601" pm="."><plain>BarthSPfuhlTMamianiAEhsesCRoemerKKremmerEJakerCHockJMeisterGGrasserFEpstein-Barr virus-encoded microRNA miR-BART 2 down-regulates the viral <z:uniprot sup="inside" fb="0" ids="P09804,P05468,A4ZU91,P03261,P87503,P04495,P05664,P06538,P48311,O72539,O72540,Q65946,P87553,Q64751,Q8QNT0,Q88469,O29753,Q37882,Q37989,P19894,O64235,Q05254,B7SSM2,P03680,P06950,P30314,P06225,P19822,P30319,A7U6F1,Q7SIG7,P21402,Q69025,Q25BI3,A4KX57,P28859,Q58295,P52025,Q5UQR0,P18131,P41712,Q90162,P30318,Q83948,Q84173,Q6R7C9,P30321,P30320,A7U6F2,A7U6F3,P61875,Q9HH06,O59610,Q51334,P61876,O70736,Q779J8,O33845,P74918,Q9HH84,P56689,Q9HH05,P77933,P30317,Q56366,Q4U3V0,O57191,P20509,P06856,P0DOO5,P0DOO6,P10582">DNA polymerase</z:uniprot> BALF 5Nucleic Acids Research200811266667510.1093/nar/gkm1080<?supplied-pmid 18073197?>18073197 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="602" pm="."><plain>LecellierCDunoyerPArarKLehmann-CheJEyquemSHimberCSaibAVoinnetOA cellular microRNA mediates antiviral defense in human cellsScience200511572155756010.1126/science.1108784<?supplied-pmid 15845854?>15845854 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="603" pm="."><plain>CullenBViral and cellular messenger RNA targets of viral microRNAsNature200911722842142510.1038/nature07757<?supplied-pmid 19158788?>19158788 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="604" pm="."><plain>GhoshZMallickBChakrabartiJCellular versus viral microRNAs in host-virus interactionNucleic Acids Research2009114103510.1093/nar/gkn1004<?supplied-pmid 19095692?>19095692 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="605" pm="."><plain>Stern-GinossarNElefantNZimmermannAWolfDSalehNBitonMHorwitzEProkocimerZPrichardMHahnGHost immune system gene targeting by a viral miRNAScience200711583637638110.1126/science.1140956<?supplied-pmid 17641203?>17641203 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="606" pm="."><plain>TribouletRMariBLinYChable-BessiaCBennasserYLebrigandKCardinaudBMaurinTBarbryPBaillatVSuppression of microRNA-silencing pathway by HIV-1 during virus replicationScience20071158181579158210.1126/science.1136319<?supplied-pmid 17322031?>17322031 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="607" pm="."><plain>JohnBEnrightAAravinATuschlTSanderCHuman microRNA targetsPLoS Biol20041111e36310.1371/journal.pbio.0020363<?supplied-pmid 15502875?>15502875 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="608" pm="."><plain>WatanabeYYachieNNumataKSaitoRKanaiATomitaMComputational analysis of microRNA targets in Caenorhabditis elegansGene20061121010.1016/j.gene.2005.09.035<?supplied-pmid 16356665?>16356665 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="609" pm="."><plain>LimLLauNGarrett-EngelePGrimsonASchelterJCastleJBartelDLinsleyPJohnsonJMicroarray analysis shows that some microRNAs downregulate large numbers of target mRNAsNature20051176977310.1038/nature03315<?supplied-pmid 15685193?>15685193 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="610" pm="."><plain>JarvisMBortonJKeechAWongJBrittWMagunBNelsonJHuman Cytomegalovirus Attenuates Interleukin-1 {beta} and <z:uniprot sup="inside" fb="0" ids="P59684,Q1G1A2,Q06599,P59693,Q2MH05,Q19LH4,Q75N23,P51742,P13296,P51435,P51743,Q1WM27,Q8WNR1,P19101,P29553,P01375,P59694,O77764,P79337,P48094,O35734,P06804,Q8HZD9,P59695,O77510,P33620,P36939,P23563,P04924,P16599,Q8MKG8,P23383,Q8JFG3,P79374,Q539C2,Q9BEA1">Tumor Necrosis Factor</z:uniprot> Alpha Proin flammatory Signaling by Inhibition of NF-{kappa} B ActivationThe Journal of Virology200611115588559810.1128/JVI.00060-06 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="611" pm="."><plain>LanglandJCameronJHeckMJancovichJJacobsBInhibition of <z:uniprot sup="inside" fb="1" ids="P19525,Q03963,Q63184">PKR</z:uniprot> by RNA and DNA virusesVirus research20061110011010.1016/j.virusres.2005.10.014<?supplied-pmid 16704884?>16704884 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="612" pm="."><plain>MasucciMEpstein-Barr virus oncogenesis and the <z:uniprot sup="inside" fb="2" ids="P69310,Q865C5,P68197,P19848,Q8SWD4,P69313,P84589,P69317,P62975,P69326">ubiquitin</z:uniprot>-proteasome systemOncogene200411112107211510.1038/sj.onc.1207372<?supplied-pmid 15021898?>15021898 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="613" pm="."><plain>MahalingamSKarupiahGModulation of chemokines by poxvirus infectionsCurrent Opinion in Immunology200011440941210.1016/S0952-7915(00)00109-6<?supplied-pmid 10899024?>10899024 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="614" pm="."><plain>YoonSDe MicheliGPrediction of regulatory modules comprising microRNAs and target genesBioinformatics20051129310010.1093/bioinformatics/bti1116 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="615" pm="."><plain>JoungJHwangKNamJKimSZhangBDiscovery of microRNA-mRNA modules via population-based probabilistic learningBioinformatics20071191141114710.1093/bioinformatics/btm045<?supplied-pmid 17350973?>17350973 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="616" pm="."><plain>TranDSatouKHoTFinding microRNA regulatory modules in human genome using rule inductionBMC Bioinformatics200811Suppl 12S510.1186/1471-2105-9-<z:uniprot sup="inside" fb="21" ids="P28222,Q9YIT9,P34737,Q9SF35,P49201,P46297">S12</z:uniprot>-S5<?supplied-pmid 19091028?>19091028 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="617" pm="."><plain>MadeiraSOliveiraABiclustering algorithms for biological data analysis: a surveyIEEE/ACM Transactions on Computational Biology and Bioinformatics200411244510.1109/TCBB.2004.217048406 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="618" pm="."><plain>KaulAStaufferSBergerCPertelTSchmittJKallisSZayas LopezMLohmannVLubanJBartenschlagerREssential Role of <z:uniprot sup="inside" fb="0" ids="Q6DTV9,P62935,P62938,P14851,O53021,Q54SM3,P0AFL5,P0AFL4,P0AFL3,Q8HXS3,Q0ZQL0,P62937,Q0ZQK8,P62940,P17742,Q0ZQK7,Q0ZQL2,Q0ZQL1,P62941,P62936,Q5R8S7,Q59641,Q9TTC6,P10111,Q0ZQK3,Q0ZQK6">Cyclophilin A</z:uniprot> for Hepatitis C Virus Replication and Virus Production and Possible Link to Polyprotein Cleavage KineticsPLoS Pathog2009118e100054610.1371/journal.ppat.1000546<?supplied-pmid 19680534?>19680534 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="619" pm="."><plain>PerezJPhamALoriniMChuaMSteelJR tenOeverBMicroRNA-mediated species-specific attenuation of in uenza A virusNature Biotechnology200911657257610.1038/nbt.1542<?supplied-pmid 19483680?>19483680 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="620" pm="."><plain>GusfieldDAlgorithms on strings, trees, and sequences: computer science and computational biology1997Cambridge Univ Pr </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="621" pm="."><plain>SagotMSpelling approximate repeated or common motifs using a suffix treeLecture Notes in Computer Science199811374390full_text </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="622" pm="."><plain>BernhartSTaferHMücksteinUFlammCStadlerPHofackerIPartition function and base pairing probabilities of RNA heterodimersAlgorithms for Molecular Biology200611310.1186/1748-7188-1-3<?supplied-pmid 16722605?>16722605 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="623" pm="."><plain>KerteszMIovinoNUnnerstallUGaulUSegalEThe role of site accessibility in microRNA target recognitionNature genetics200711101278128410.1038/ng2135<?supplied-pmid 17893677?>17893677 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="624" pm="."><plain>XiaoFZuoZCaiGKangSGaoXLiTmiRecords: an integrated resource for microRNA-target interactionsNucleic Acids Research20081116 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="625" pm="."><plain>Ensembl<ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org/biomart/martview/">http://www.ensembl.org/biomart/martview/</ext-link> </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="626" pm="."><plain>LandgrafPRusuMSheridanRSewerAIovinoNAravinAPfefferSRiceAKamphorstALandthalerMA mammalian microRNA expression atlas based on small RNA library sequencingCell20071171401141410.1016/j.cell.2007.04.040<?supplied-pmid 17604727?>17604727 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="627" pm="."><plain>RivalsIPersonnazLTaingLPotierMEnrichment or depletion of a GO category within a class of genes: which test?Bioinformatics200711440140710.1093/bioinformatics/btl633<?supplied-pmid 17182697?>17182697 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="628" pm="."><plain>Thorley-LawsonDEpstein-Barr virus: exploiting the immune systemNat Rev Immunol200111758210.1038/35095584<?supplied-pmid 11905817?>11905817 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="629" pm="."><plain>PrattZKuzembayevaMSenguptaSSugdenBThe microRNAs of Epstein-Barr Virus are expressed at dramatically differing levels among cell linesVirology200911238739710.1016/j.virol.2009.01.006<?supplied-pmid 19217135?>19217135 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="630" pm="."><plain>miRbase<ext-link ext-link-type="uri" xlink:href="http://microrna.sanger.ac.uk/">http://microrna.sanger.ac.uk/</ext-link> </plain></SENT>
+</text></ref><ref id="B48"><text><SENT sid="631" pm="."><plain>AshburnerMBallCBlakeJBotsteinDButlerHCherryJDavisADolinskiKDwightSEppigJGene Ontology: tool for the unification of biologyNature genetics200011252910.1038/75556<?supplied-pmid 10802651?>10802651 </plain></SENT>
+</text></ref><ref id="B49"><text><SENT sid="632" pm="."><plain>RaganCCloonanNGrimmondSZukerMRaganMTranscriptome-Wide Prediction of miRNA Targets in Human and Mouse Using FASTHPLoS ONE2009115e574510.1371/journal.pone.0005745<?supplied-pmid 19478946?>19478946 </plain></SENT>
+</text></ref><ref id="B50"><text><SENT sid="633" pm="."><plain>MendellJmiRiad roles for the miR-17-92 cluster in development and diseaseCell200811221722210.1016/j.cell.2008.04.001<?supplied-pmid 18423194?>18423194 </plain></SENT>
+</text></ref><ref id="B51"><text><SENT sid="634" pm="."><plain>O'DonnellKWentzelEZellerKDangCMendellJc-<z:uniprot sup="inside" fb="92" ids="Q9W4S7,P01108,P09416">Myc</z:uniprot>-regulated microRNAs modulate <z:uniprot sup="inside" fb="0" ids="Q90977,Q01094,Q61501,O09139">E2F1</z:uniprot> expressionNature200511704383984310.1038/nature03677<?supplied-pmid 15944709?>15944709 </plain></SENT>
+</text></ref><ref id="B52"><text><SENT sid="635" pm="."><plain>XiaHQiYNgSChenXChenSFangMLiDZhaoYGeRLiGMicroRNA-15b regulates cell cycle progression by targeting <z:uniprot sup="inside" fb="1" ids="Q00268,Q00265,O01377,P24314,P17917,P12004,P17918,P17070,P61074,P31008,P04961,O16852,P22177,P53358,P18248">cyclins</z:uniprot> in glioma cellsBiochemical and Biophysical Research Communications200911220521010.1016/j.bbrc.2008.12.169<?supplied-pmid 19135980?>19135980 </plain></SENT>
+</text></ref><ref id="B53"><text><SENT sid="636" pm="."><plain>CimminoACalinGFabbriMIorioMFerracinMShimizuMWojcikSAqeilanRZupoSDonoMmiR-15 and miR-16 induce apoptosis by targeting BCL2Proceedings of the National Academy of Sciences200511391394410.1073/pnas.0506654102 </plain></SENT>
+</text></ref><ref id="B54"><text><SENT sid="637" pm="."><plain>ChoyESiuKKokKLungRTsangCToKKwongDTsaoSJinDAn Epstein-Barr virus-encoded microRNA targets <z:uniprot sup="inside" fb="88" ids="Q96PG8,Q9BXH1">PUMA</z:uniprot> to promote host cell survivalJournal of Experimental Medicine200811112551256010.1084/jem.20072581<?supplied-pmid 18838543?>18838543 </plain></SENT>
+</text></ref><ref id="B55"><text><SENT sid="638" pm="."><plain>HanJFlemingtonCHoughtonAGuZZambettiGLutzRZhuLChittendenTExpression of bbc3, a pro-apoptotic BH3-only gene, is regulated by diverse cell death and survival signalsProceedings of the National Academy of Sciences of the United States of America20011120113181132310.1073/pnas.201208798<?supplied-pmid 11572983?>11572983 </plain></SENT>
+</text></ref><ref id="B56"><text><SENT sid="639" pm="."><plain>TrigianteGLuXASPP and cancerNature reviews Cancer200611321722610.1038/nrc1818<?supplied-pmid 16498444?>16498444 </plain></SENT>
+</text></ref><ref id="B57"><text><SENT sid="640" pm="."><plain>Samuels-LevYO'ConnorDBergamaschiDTrigianteGHsiehJZhongSCampargueINaumovskiLCrookTLuXASPP proteins specifically stimulate the apoptotic function of p53Molecular cell200111478179410.1016/S1097-2765(01)00367-7<?supplied-pmid 11684014?>11684014 </plain></SENT>
+</text></ref><ref id="B58"><text><SENT sid="641" pm="."><plain>StrasserAThe role of <z:uniprot sup="inside" fb="0" ids="Q7L3V2,Q5R6M8">BH3-only proteins</z:uniprot> in the immune systemNature Reviews Immunology200511318920010.1038/nri1568<?supplied-pmid 15719025?>15719025 </plain></SENT>
+</text></ref><ref id="B59"><text><SENT sid="642" pm="."><plain>Mestre-EscorihuelaCRubio-MoscardoFRichterJSiebertRClimentJFresquetVBeltranEAgirreXMaruganIMarinMHomozygous deletions localize novel tumor suppressor genes in B-cell lymphomasBlood20071127128010.1182/blood-2006-06-026500<?supplied-pmid 16960149?>16960149 </plain></SENT>
+</text></ref><ref id="B60"><text><SENT sid="643" pm="."><plain>TagawaHKarnanSSuzukiRMatsuoKZhangXOtaAMorishimaYNakamuraSSetoMGenome-wide array-based CGH for mantle cell lymphoma: identification of homozygous deletions of the proapoptotic gene BIMOncogene20051181348135810.1038/sj.onc.1208300<?supplied-pmid 15608680?>15608680 </plain></SENT>
+</text></ref><ref id="B61"><text><SENT sid="644" pm="."><plain>ClybouwCMchichiBMouhamadSAuffredouMBourgeadeMSharmaSLecaGVazquezAEBV infection of human B lymphocytes leads to down-regulation of <z:uniprot sup="inside" fb="16" ids="O54918,O88498">Bim</z:uniprot> expression: relationship to resistance to apoptosisThe Journal of Immunology200511529682973<?supplied-pmid 16116183?>16116183 </plain></SENT>
+</text></ref><ref id="B62"><text><SENT sid="645" pm="."><plain>KoralovSMuljoSGallerGKrekAChakrabortyTKanellopoulouCJensenKCobbBMerkenschlagerMRajewskyNDicer ablation affects antibody diversity and cell survival in the B lymphocyte lineageCell200811586087410.1016/j.cell.2008.02.020<?supplied-pmid 18329371?>18329371 </plain></SENT>
+</text></ref><ref id="B63"><text><SENT sid="646" pm="."><plain>VenturaAYoungAWinslowMLintaultLMeissnerAErkelandSNewmanJBronsonRCrowleyDStoneJTargeted deletion reveals essential and overlapping functions of the miR-17 92 family of miRNA clustersCell200811587588610.1016/j.cell.2008.02.019<?supplied-pmid 18329372?>18329372 </plain></SENT>
+</text></ref><ref id="B64"><text><SENT sid="647" pm="."><plain>XiaoCSrinivasanLCaladoDPattersonHZhangBWangJHendersonJKutokJRajewskyKLymphoproliferative disease and autoimmunity in mice with elevated miR-17- 92 expression in lymphocytesNature immunology200811440541410.1038/ni1575<?supplied-pmid 18327259?>18327259 </plain></SENT>
+</text></ref><ref id="B65"><text><SENT sid="648" pm="."><plain>GressnerOSchillingTLorenzKSchleithoffEKochASchulze-BergkamenHLenaACandiETerrinoniACataniMTAp63α induces apoptosis by activating signaling via death receptors and mitochondriaThe EMBO Journal20051113245810.1038/sj.emboj.7600708<?supplied-pmid 15944736?>15944736 </plain></SENT>
+</text></ref><ref id="B66"><text><SENT sid="649" pm="."><plain>FloresETsaiKCrowleyDSenguptaSYangAMcKeonFJacksTp63 and <z:uniprot sup="inside" fb="2" ids="P22776,Q5IZJ5,Q8V9S6,Q5IZI7">p73</z:uniprot> are required for <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-dependent apoptosis in response to DNA damageNature200211688056056410.1038/416560a<?supplied-pmid 11932750?>11932750 </plain></SENT>
+</text></ref><ref id="B67"><text><SENT sid="650" pm="."><plain>SerranoMHannonGBeachDA new regulatory motif in cell-cycle control causing specific inhibition of <z:uniprot sup="inside" fb="0" ids="Q5SCB5">cyclin D</z:uniprot>/CDK4Nature199311645670470710.1038/366704a0<?supplied-pmid 8259215?>8259215 </plain></SENT>
+</text></ref><ref id="B68"><text><SENT sid="651" pm="."><plain>LukasJParryDAagaardLMannDBartkovaJStraussMPetersGBartekJRetinoblastoma-protein-dependent cell-cycle inhibition by the tumour suppressor p16Nature199511653150350610.1038/375503a0<?supplied-pmid 7777060?>7777060 </plain></SENT>
+</text></ref><ref id="B69"><text><SENT sid="652" pm="."><plain>GeradtsJKratzkeRNiehansGLincolnCImmunohistochemical detection of the <z:uniprot sup="inside" fb="0" ids="Q9SCR2,Q283L3">cyclin-dependent kinase inhibitor 2</z:uniprot>/multiple tumor suppressor gene 1 (<z:uniprot sup="inside" fb="0" ids="Q8N726,Q5E9Y0,P24941,P48963,P42771">CDKN2</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P42771">MTS1</z:uniprot>) product <z:uniprot sup="inside" fb="0" ids="P42771">p16INK4A</z:uniprot> in archival human solid tumors: correlation with retinoblastoma protein expressionCancer Research1995112460066011<?supplied-pmid 8521382?>8521382 </plain></SENT>
+</text></ref><ref id="B70"><text><SENT sid="653" pm="."><plain>ReedACalifanoJCairnsPWestraWJonesRKochWAhrendtSEbyYSewellDNawrozHHigh frequency of <z:uniprot sup="inside" fb="7" ids="Q9R0Z3,P0C044,P0C045,P0C794,P0C795,P26379">p16</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q8N726,Q5E9Y0,P24941,P48963,P42771">CDKN2</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P42771">MTS-1</z:uniprot>/INK4A) inactivation in head and neck squamous cell carcinomaCancer Research1996111636303633<?supplied-pmid 8705996?>8705996 </plain></SENT>
+</text></ref><ref id="B71"><text><SENT sid="654" pm="."><plain>SakaguchiMFujiiYHirabayashiHYoonHKomotoYOueTKusafukaTOkadaAMatsudaHInversely correlated expression of <z:uniprot sup="inside" fb="7" ids="Q9R0Z3,P0C044,P0C045,P0C794,P0C795,P26379">p16</z:uniprot> and Rb protein in non-small cell lung cancers: an immunohistochemical studyInternational Journal of Cancer199611444244510.1002/(SICI)1097-0215(19960208)65:4&lt;442::AID-IJC8&gt;3.0.CO;2-X </plain></SENT>
+</text></ref><ref id="B72"><text><SENT sid="655" pm="."><plain>OhtaniNBrennanPGaubatzSSanijEHertzogPWolvetangEGhysdaelJRoweMHaraEEpstein-Barr virus <z:uniprot sup="inside" fb="0" ids="Q1HVB3,P03230,P29362,P0C741,P13198">LMP1</z:uniprot> blocks <z:uniprot sup="inside" fb="0" ids="P42771,O77617,P51480,Q9R0Z3">p16INK4a</z:uniprot>-RB pathway by promoting nuclear export of <z:uniprot sup="inside" fb="0" ids="Q16254,Q8R0K9,Q6DE14">E2F4</z:uniprot>/5Journal of Cell Biology200311217318310.1083/jcb.200302085<?supplied-pmid 12860972?>12860972 </plain></SENT>
+</text></ref><ref id="B73"><text><SENT sid="656" pm="."><plain>LalAKimHAbdelmohsenKKuwanoYPullmannRJrSrikantanSSubrahmanyamRMartindaleJYangXAhmedFp16INK4a translation suppressed by miR-24PLoS One2008113e186410.1371/journal.pone.0001864<?supplied-pmid 18365017?>18365017 </plain></SENT>
+</text></ref><ref id="B74"><text><SENT sid="657" pm="."><plain>InomataMTagawaHGuoYKameokaYTakahashiNSawadaKMicroRNA-17-92 down-regulates expression of distinct targets in different B-cell lymphoma subtypesBlood200911239640210.1182/blood-2008-07-163907<?supplied-pmid 18941111?>18941111 </plain></SENT>
+</text></ref><ref id="B75"><text><SENT sid="658" pm="."><plain>RichterGBurdachSICOS: a new costimulatory ligand/receptor pair and its role in T-cell activionOnkologie200411919510.1159/000075612<?supplied-pmid 15007255?>15007255 </plain></SENT>
+</text></ref><ref id="B76"><text><SENT sid="659" pm="."><plain>AicherAHayden-LedbetterMBradyWPezzuttoARichterGMagalettiDBuckwalterSLedbetterJClarkECharacterization of human inducible costimulator ligand expression and functionThe Journal of Immunology200011946894696<?supplied-pmid 10779774?>10779774 </plain></SENT>
+</text></ref><ref id="B77"><text><SENT sid="660" pm="."><plain>MittruckerHKursarMKohlerAYanagiharaDYoshinagaSKaufmannSInducible costimulator protein controls the protective T cell response against Listeria monocytogenesThe Journal ofImmunology2002111058135817 </plain></SENT>
+</text></ref><ref id="B78"><text><SENT sid="661" pm="."><plain>GreenwaldRMcAdamAWoudeD Van derSatoskarASharpeACutting edge: inducible costimulator protein regulates both <z:uniprot sup="inside" fb="5" ids="Q64279,Q922L6">Th1</z:uniprot> and Th2 responses to cutaneous leishmaniasisThe Journal of Immunology2002113991995<?supplied-pmid 11801630?>11801630 </plain></SENT>
+</text></ref><ref id="B79"><text><SENT sid="662" pm="."><plain>BertramETafuriAShahinianAChanVHunzikerLRecherMOhashiPMakTWattsTRole of <z:uniprot sup="inside" fb="0" ids="Q58DF9,Q7YR73,Q9Y6W8">ICOS</z:uniprot> versus <z:uniprot sup="inside" fb="0" ids="Q28071,P31043,O02757,P10747,P42069">CD28</z:uniprot> in antiviral immunityEuropean journal of immunology2002111233763385<?supplied-pmid 12432568?>12432568 </plain></SENT>
+</text></ref><ref id="B80"><text><SENT sid="663" pm="."><plain>AhoAHopcroftJUllmanJData structures and algorithms1983Addison-Wesley Longman Publishing Co., Inc. </plain></SENT>
+<SENT sid="664" pm="."><plain>Boston, MA, USA </plain></SENT>
+</text></ref><ref id="B81"><text><SENT sid="665" pm="."><plain>CullenBViruses and microRNAsNature genetics200611253010.1038/ng1793 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

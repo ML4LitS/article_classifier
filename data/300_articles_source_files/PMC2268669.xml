@@ -1,0 +1,991 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Evol Biol</journal-id><journal-id journal-id-type="iso-abbrev">BMC Evol. Biol</journal-id><journal-title-group><journal-title>BMC Evolutionary Biology</journal-title></journal-title-group><issn pub-type="epub">1471-2148</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">2268669</article-id><article-id pub-id-type="publisher-id">1471-2148-8-42</article-id><article-id pub-id-type="pmid">18254971</article-id><article-id pub-id-type="doi">10.1186/1471-2148-8-42</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>A genomic view of the NOD-like receptor family in teleost fish: identification of a novel <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamily in zebrafish </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="A1"><name><surname>Laing</surname><given-names>Kerry J</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>klaing@fhcrc.org</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Purcell</surname><given-names>Maureen K</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>maureen_purcell@usgs.gov</email></contrib><contrib contrib-type="author" id="A3"><name><surname>Winton</surname><given-names>James R</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>jim_winton@usgs.gov</email></contrib><contrib contrib-type="author" id="A4"><name><surname>Hansen</surname><given-names>John D</given-names></name><xref ref-type="aff" rid="I1">1</xref><xref ref-type="aff" rid="I2">2</xref><email>jdh25@u.washington.edu</email></contrib></contrib-group><aff id="I1"><label>1</label>Department of Pathobiology, University of Washington, Seattle Washington, 98195, USA</aff><aff id="I2"><label>2</label>US Geological Survey, Western Fisheries Research Center, Seattle, Washington, 98115, USA</aff><pub-date pub-type="collection"><year>2008</year></pub-date><pub-date pub-type="epub"><day>6</day><month>2</month><year>2008</year></pub-date><volume>8</volume><fpage>42</fpage><lpage>42</lpage><history><date date-type="received"><day>31</day><month>5</month><year>2007</year></date><date date-type="accepted"><day>6</day><month>2</month><year>2008</year></date></history><permissions><copyright-statement>Copyright ©2008 Laing et al; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2008</copyright-year><copyright-holder>Laing et al; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.biomedcentral.com/1471-2148/8/42"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>A large multigene family of NOD-like receptor (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>) molecules have been described in mammals and implicated in immunity and apoptosis. </plain></SENT>
+<SENT sid="3" pm="."><plain>Little information, however, exists concerning this gene family in non-mammalian taxa. </plain></SENT>
+<SENT sid="4" pm="."><plain>This current study, therefore, provides an in-depth investigation of this gene family in lower vertebrates including extensive phylogenetic comparison of zebrafish NLRs with orthologs in tetrapods, and analysis of their tissue-specific expression. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="5" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>Three distinct <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamilies were identified by mining genome databases of various non-mammalian vertebrates; the first subfamily (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A) resembles mammalian NODs, the second (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B) resembles mammalian NALPs, while the third (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C) appears to be unique to teleost fish. </plain></SENT>
+<SENT sid="7" pm="."><plain>In zebrafish, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B subfamilies contain five and six genes respectively. </plain></SENT>
+<SENT sid="8" pm="."><plain>The third subfamily is large, containing several hundred <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes, many of which are predicted to encode a C-terminal B30.2 domain. </plain></SENT>
+<SENT sid="9" pm="."><plain>This subfamily most likely evolved from a <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot>-like molecule. </plain></SENT>
+<SENT sid="10" pm="."><plain>Gene predictions for zebrafish NLRs were verified using sequence derived from ESTs or direct sequencing of cDNA. </plain></SENT>
+<SENT sid="11" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">Reverse-transcriptase</z:uniprot> (RT)-PCR analysis confirmed expression of representative genes from each subfamily in selected tissues. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="12" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="13" pm="."><plain>Our findings confirm the presence of multiple <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> gene orthologs, which form a large multigene family in teleostei. </plain></SENT>
+<SENT sid="14" pm="."><plain>Although the functional significance of the three major <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamilies is unclear, we speculate that conservation and abundance of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> molecules in all teleostei genomes, reflects an essential role in cellular control, apoptosis or immunity throughout bony fish. </plain></SENT>
+</text></SecTag></p></sec></abstract></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="15" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="16" pm="."><plain>In recent years, a family of molecules with roles in apoptosis and immune regulation has been discovered in mammalian genomes. </plain></SENT>
+<SENT sid="17" pm="."><plain>This gene family, is known under several pseudonyms, including the CATERPILLER (CLR), NACHT, NOD-<z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> or NOD-like receptor (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>) family and is comprised of two major subfamilies of NOD and NALP molecules, along with 3 divergent members; <z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot>, the <z:uniprot sup="inside" fb="0" ids="P33076,P79621">MHC class II transactivator</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot>) and <z:uniprot sup="inside" fb="0" ids="Q13075">neuronal apoptosis inhibitory protein</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot>) [1,2]. </plain></SENT>
+<SENT sid="18" pm="."><plain>Official names have been recently assigned to many members of this family by the HUGO Gene Nomenclature Committee (HGNC) [3] using the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> prefix (Table 1). </plain></SENT>
+<SENT sid="19" pm="."><plain>NLRs are recognized by the presence of three specific domains; an effector domain at the N-terminus that is involved in protein:protein interactions, a central NACHT (or nucleotide binding oligomerization/NOD) domain and a C-terminal leucine-rich repeat (<z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot>) domain. </plain></SENT>
+<SENT sid="20" pm="."><plain>They are, therefore, structurally similar to disease resistance (R) proteins found in plants that are well known for their anti-microbial activities [4]. </plain></SENT>
+<SENT sid="21" pm="."><plain>In humans, 22 NLRs have been described including 14 NALPs, with a PYRIN effector domain, and 5 NODs whose effector domain is typically a <z:uniprot sup="inside" fb="0" ids="O01382">caspase</z:uniprot> recruitment domain (CARD). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="22" pm="."><plain>Human <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> sequences used for analyses </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="23" pm="."><plain>Nickname [1] </plain></SENT>
+</text></th><th align="left"><text><SENT sid="24" pm="."><plain>HGNC approved symbol </plain></SENT>
+</text></th><th align="left"><text><SENT sid="25" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> designation </plain></SENT>
+</text></th><th align="left"><text><SENT sid="26" pm="."><plain>CLR designation [2] </plain></SENT>
+</text></th><th align="left"><text><SENT sid="27" pm="."><plain>Uniprot accession number </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="28" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="29" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="30" pm="."><plain>NLRC1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="31" pm="."><plain>CLR7.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="32" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q9Y239">Q9Y239</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="33" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="34" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="35" pm="."><plain>NLRC2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="36" pm="."><plain>CLR16.3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="37" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q9HC29">Q9HC29</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="38" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="39" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7RTR2">NLRC3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="40" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7RTR2">NLRC3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="41" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7RTR2">CLR16.2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="42" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q7RTR2">Q7RTR2</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="43" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="44" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86WI3">NLRC5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="45" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86WI3">NLRC5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="46" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86WI3">CLR16.1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="47" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q86WI3">Q86WI3</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="48" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="49" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86UT6">NLRX1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="50" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86UT6">NLRX1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="51" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86UT6">CLR11.3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="52" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q7RTR3">Q7RTR3</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="53" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9C000">NALP1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="54" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9C000">NLRP1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="55" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9C000">NLRP1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="56" pm="."><plain>CLR17.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="57" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q9C000">Q9C000</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="58" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9NX02">NALP2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="59" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9NX02">NLRP2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="60" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9NX02">NLRP2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="61" pm="."><plain>CLR19.9 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="62" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q9NX02">Q9NX02</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="63" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="64" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A6QLE5,Q96P20,B0FPE9">NLRP3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="65" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A6QLE5,Q96P20,B0FPE9">NLRP3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="66" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96P20">CLR1.1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="67" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q96P20">Q96P20</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="68" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96MN2">NALP4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="69" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96MN2">NLRP4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="70" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96MN2">NLRP4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="71" pm="."><plain>CLR19.5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="72" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q96MN2">Q96MN2</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="73" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q647I9,P59047">NALP5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="74" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q647I9,P59047">NLRP5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="75" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q647I9,P59047">NLRP5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="76" pm="."><plain>CLR19.8 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="77" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="P59047">P59047</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="78" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="79" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NLRP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="80" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NLRP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="81" pm="."><plain>CLR11.4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="82" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="P59044">P59044</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="83" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8WX94">NALP7</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="84" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8WX94">NLRP7</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="85" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8WX94">NLRP7</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="86" pm="."><plain>CLR19.4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="87" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q32MH8">Q32MH8</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="88" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W28">NALP8</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="89" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W28">NLRP8</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="90" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W28">NLRP8</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="91" pm="."><plain>CLR19.2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="92" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q86W28">Q86W28</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="93" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q288C4,Q7RTR0">NALP9</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="94" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q288C4,Q7RTR0">NLRP9</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="95" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q288C4,Q7RTR0">NLRP9</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="96" pm="."><plain>CLR19.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="97" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q86W27">Q86W27</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="98" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W26">NALP10</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="99" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W26">NLRP10</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="100" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W26">NLRP10</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="101" pm="."><plain>CLR11.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="102" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q86W26">Q86W26</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="103" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59045">NALP11</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="104" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59045">NLRP11</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="105" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59045">NLRP11</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="106" pm="."><plain>CLR19.6 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="107" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="P59045">P59045</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="108" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59046,E9Q5R7">NALP12</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="109" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59046">NLRP12</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="110" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59046">NLRP12</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="111" pm="."><plain>CLR19.3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="112" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="P59046">P59046</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="113" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W25">NALP13</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="114" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W25">NLRP13</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="115" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W25">NLRP13</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="116" pm="."><plain>CLR19.7 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="117" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q86W25">Q86W25</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="118" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W24">NALP14</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="119" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W24">NLRP14</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="120" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W24">NLRP14</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="121" pm="."><plain>CLR11.2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="122" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q86W24">Q86W24</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="123" pm="."><plain><z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="124" pm="."><plain><z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">NLRC4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="125" pm="."><plain><z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">NLRC4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="126" pm="."><plain>CLR2.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="127" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q9NPP4">Q9NPP4</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="128" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="129" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="130" pm="."><plain>NLRB1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="131" pm="."><plain>CLR5.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="132" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="Q13075">Q13075</ext-link>] </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="133" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="134" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="135" pm="."><plain>NLRA </plain></SENT>
+</text></td><td align="left"><text><SENT sid="136" pm="."><plain>none </plain></SENT>
+</text></td><td align="left"><text><SENT sid="137" pm="."><plain>[Swiss-prot:<ext-link ext-link-type="sprot" xlink:href="P33076">P33076</ext-link>] </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="138" pm="."><plain>The functions of the NLRs are presently not well defined. </plain></SENT>
+<SENT sid="139" pm="."><plain>However, based on their structural characteristics, these molecules are thought to be expressed in the cytosol of immune-related cells, and have been implicated in autoimmune diseases and responses to bacterial [5] or viral molecules [6] supporting their importance in host immunity. </plain></SENT>
+<SENT sid="140" pm="."><plain>Some of these molecules activate <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> [7], while others initiate [8,9] or inhibit NF-κB signaling [10]. </plain></SENT>
+<SENT sid="141" pm="."><plain>These two molecular pathways are fundamental to a molecular platform known as the inflammasome [7], which coordinates the production and processing of important inflammatory cytokines such as interleukin (IL)-1, <z:uniprot sup="inside" fb="0" ids="Q5I931,Q9TU73,Q9XSR0,Q3ZT29,Q8QFQ8,Q95M33,Q9XSQ7,Q14116,P70380,O19073,P97636">IL-18</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O97863,O95760,Q8BVZ5,Q5RDG8,Q66H70">IL-33</z:uniprot> in mammals. </plain></SENT>
+<SENT sid="142" pm="."><plain>Proteins that assemble in this <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> inflammasome vary according to the cell type and stimulus [11]. </plain></SENT>
+<SENT sid="143" pm="."><plain>Other molecules (e.g. <z:uniprot sup="inside" fb="0" ids="P70343">caspase 11</z:uniprot>) that are necessary for inflammasome function are thought to be generated or recruited as a result of cross-talk between <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> and toll-like receptor (<z:uniprot sup="inside" fb="0" ids="P23799">TLR</z:uniprot>) signaling [12]. </plain></SENT>
+<SENT sid="144" pm="."><plain>According to current hypotheses, the activation of NLRs occurs following recognition of specific ligands by their <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domains similar to the way that <z:uniprot sup="inside" fb="0" ids="P23799">TLRs</z:uniprot> recognize molecules from extracellular pathogens. </plain></SENT>
+<SENT sid="145" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> proteins are, therefore, believed to represent cytosolic pattern recognition receptors (PRRs) that use <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> regions to detect intracellular pathogens. </plain></SENT>
+<SENT sid="146" pm="."><plain>Those NLRs that are better defined functionally include <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot>, and <z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot>. </plain></SENT>
+<SENT sid="147" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot>, have both been shown to play a role in immunity of the mammalian gut and are highly expressed in epithelial cells or macrophages associated with the intestine. </plain></SENT>
+<SENT sid="148" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> recognizes a molecule known as meso-<z:uniprot sup="inside" fb="23" ids="Q5EAE6,P51397,Q2UPZ7,Q9ULA0,Q7TNY6,P10997,P12968,P12969">DAP</z:uniprot> (γ-D-glutamyl-meso-diaminopimelic acid), which is a peptidoglycan (PGN) component found in Gram-negative and Gram-positive bacteria [13], while <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> recognizes muramyl dipeptide, a peptidoglycan component found only in Gram-positive bacteria [14]. </plain></SENT>
+<SENT sid="149" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> (alias <z:uniprot sup="inside" fb="0" ids="Q96P20,Q8R4B8,D4A523">cryopyrin</z:uniprot>) has been shown to recognize a wide range of molecules, including bacterial RNA and synthetic viral RNA/DNA mimics (R837 and R848) [6]. </plain></SENT>
+<SENT sid="150" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> becomes activated in <z:uniprot sup="inside" fb="0" ids="P23799">TLR</z:uniprot>-primed macrophages in response to ATP (adenosine triphosphate) and bacterial toxins that lower cytoplasmic K+ [12], which is thought to be the major mechanism in the <z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> response to certain Gram-positive bacteria. </plain></SENT>
+<SENT sid="151" pm="."><plain>In a distinct pathway, monosodium urate and calcium pyrophosphate dihydrate crystals have been shown to increase <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> activity in a <z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot>-dependent (<z:uniprot sup="inside" fb="0" ids="P23799">TLR</z:uniprot>-independent) manner [1], representing potential 'danger signal' ligands for <z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> [5] and defining a further role for NLRs in recognizing cellular stress. </plain></SENT>
+</text></p><p><text><SENT sid="152" pm="."><plain>Members of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> family have not been extensively studied in taxa other than mammals, although recent reports indicate some members of this family exist in lower vertebrates [15] and in invertebrates [16]. </plain></SENT>
+<SENT sid="153" pm="."><plain>Extending the knowledge of NLRs in ectotherms, this study reports an extensive overview of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> family in teleost fish, represented using information derived from the zebrafish Danio rerio. </plain></SENT>
+<SENT sid="154" pm="."><plain>Here, we describe the gene phylogeny and expression of three major subfamilies of NLRs in teleostei, which we designate <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B (resembling mammalian NOD and NALP subfamilies respectively) and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C, a large subfamily (characterized with a NOD-3-like NACHT domain and an unusual C-terminal domain) that appears in all teleostei genomes, and is unique to bony fish. </plain></SENT>
+<SENT sid="155" pm="."><plain>The implications of all three subfamilies in immune regulation of fish are discussed. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results"><title><text><SENT sid="156" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="157" pm="."><plain>Many <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-like sequences were identified in the genome and EST databases of non-mammalian vertebrates. </plain></SENT>
+<SENT sid="158" pm="."><plain>These genes were compared by phylogenetic analysis of their deduced NACHT domains (Fig 1). </plain></SENT>
+<SENT sid="159" pm="."><plain>Mammalian NLRs are categorized into NOD and NALP families according to previous publications [1] and as depicted in Table 1. </plain></SENT>
+<SENT sid="160" pm="."><plain>In the zebrafish genome, three distinct subfamilies were identified and highly supported by bootstrap analysis; some resembled mammalian NODs (designated subfamily A; Table 2; Fig 1C), some resembled mammalian NALPs (designated subfamily B; Table 3; Fig 1B) and some formed a unique clade, closely related to <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot>, which was restricted to teleostei (designated subfamily C; Table 4; Fig 1A). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="161" pm="."><plain>Phylogenetic comparison of vertebrate <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> molecules. </plain></SENT>
+<SENT sid="162" pm="."><plain>Amino acid sequences of the NACHT domains (between the GxxGxGKS/T motif and the 'FAAFY' signature of human <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> or equivalent region in other NLRs) of vertebrate NLRs were aligned using CLUSTALW. </plain></SENT>
+<SENT sid="163" pm="."><plain>Trees were constructed from these multiple alignments using the Maximum evolution and Neighbor-joining methods within the MEGA 3.1 program, using Poisson correction and complete deletion of gaps. </plain></SENT>
+<SENT sid="164" pm="."><plain>Maximum evolution trees are shown. </plain></SENT>
+<SENT sid="165" pm="."><plain>The resulting trees were bootstrapped 1000 times (shown as percentages). </plain></SENT>
+<SENT sid="166" pm="."><plain>[A] Zebrafish NLRs were compared to human NLRs to estimate orthology. </plain></SENT>
+<SENT sid="167" pm="."><plain>[B] The NALP subfamily was analyzed in more detail by comparing all zebrafish and Xenopus tropicalis predicted NALP-like molecules to human NALPs. </plain></SENT>
+<SENT sid="168" pm="."><plain>[C] The NOD/<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A subfamilies of zebrafish, frog, chicken and humans were compared. </plain></SENT>
+<SENT sid="169" pm="."><plain>DR = Danio rerio; XT = Xenopus tropicalis; GG = Gallus gallus; HS = Homo sapiens. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-42-1"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="170" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-SUBFAMILY A in zebrafish </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="171" pm="."><plain>Chromosome </plain></SENT>
+</text></th><th align="left"><text><SENT sid="172" pm="."><plain>Location (m) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="173" pm="."><plain>Nickname </plain></SENT>
+</text></th><th align="left"><text><SENT sid="174" pm="."><plain>ENSEMBL prediction ID (ENSDARG000000) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="175" pm="."><plain>REFSEQ/uniprot ID </plain></SENT>
+</text></th><th align="left"><text><SENT sid="176" pm="."><plain>Domains identifieda </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="177" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="178" pm="."><plain>61.01 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="179" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1/<z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="180" pm="."><plain>36308 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="181" pm="."><plain>XP_699379 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="182" pm="."><plain>C-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="183" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="184" pm="."><plain>47.25 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="185" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2/<z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="186" pm="."><plain>10756 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="187" pm="."><plain>Q1AMZ9 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="188" pm="."><plain>C-C-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="189" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="190" pm="."><plain>41.14 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="191" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3/<z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="192" pm="."><plain>61564 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="193" pm="."><plain>XP_697414 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="194" pm="."><plain>X-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="195" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="196" pm="."><plain>20.56 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="197" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4/<z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="198" pm="."><plain>24632c </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="199" pm="."><plain>X-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="200" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="201" pm="."><plain>32.04b </plain></SENT>
+</text></td><td align="left"><text><SENT sid="202" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5/<z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="203" pm="."><plain>89201 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="204" pm="."><plain>XP_685481 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="205" pm="."><plain>X-N-L </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="206" pm="."><plain>a C = CARD, N = NACHT, L = <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot>, X = unknown effector domain. </plain></SENT>
+</text></p><p><text><SENT sid="207" pm="."><plain>b Two copies of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 situated at 32.04 and 32.17 m on chromosome 15 are 100% identical and likely represent errors in the assembly of this chromosome. </plain></SENT>
+</text></p><p><text><SENT sid="208" pm="."><plain>c <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 is also encoded within GENSCAN prediction GENSCAN00000002276. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="T3" position="float"><label>Table 3</label><caption><p><text><SENT sid="209" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-SUBFAMILY B in zebrafish </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="210" pm="."><plain>Chromosome </plain></SENT>
+</text></th><th align="left"><text><SENT sid="211" pm="."><plain>Location (m) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="212" pm="."><plain>Nickname </plain></SENT>
+</text></th><th align="left"><text><SENT sid="213" pm="."><plain>ENSEMBL prediction ID (ENSDARG000000) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="214" pm="."><plain>REFSEQ ID </plain></SENT>
+</text></th><th align="left"><text><SENT sid="215" pm="."><plain>Domains identifieda </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="216" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="217" pm="."><plain>46.37 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="218" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B1 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="219" pm="."><plain>XP_694951 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="220" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="221" pm="."><plain>46.39 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="222" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="223" pm="."><plain>38493 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="224" pm="."><plain>XP_694893 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="225" pm="."><plain>C-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="226" pm="."><plain>48.19 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="227" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="228" pm="."><plain>04582 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="229" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="230" pm="."><plain>51.35 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="231" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="232" pm="."><plain>38549 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="233" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="234" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="235" pm="."><plain>28.33 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="236" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="237" pm="."><plain>56991 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="238" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="239" pm="."><plain>28.49 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="240" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B6 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="241" pm="."><plain>41744 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="242" pm="."><plain>N </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="243" pm="."><plain>a C = CARD, N = NACHT </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="T4" position="float"><label>Table 4</label><caption><p><text><SENT sid="244" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-SUBFAMILY C in zebrafish (selected examples) </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="245" pm="."><plain>Chromosome </plain></SENT>
+</text></th><th align="left"><text><SENT sid="246" pm="."><plain>Location (m) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="247" pm="."><plain>Nickname </plain></SENT>
+</text></th><th align="left"><text><SENT sid="248" pm="."><plain>ENSEMBL prediction ID (ENSDARG000000) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="249" pm="."><plain>REFSEQ ID </plain></SENT>
+</text></th><th align="left"><text><SENT sid="250" pm="."><plain>Domains identified a </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="251" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="252" pm="."><plain>61.59 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="253" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C1 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="254" pm="."><plain>XP_692844 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="255" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="256" pm="."><plain>69.38 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="257" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="258" pm="."><plain>52239 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="259" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="260" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="261" pm="."><plain>15.14 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="262" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="263" pm="."><plain>57488 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="264" pm="."><plain>XP_688571 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="265" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="266" pm="."><plain>37.15 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="267" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="268" pm="."><plain>54997 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="269" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="270" pm="."><plain>39.60 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="271" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="272" pm="."><plain>54809 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="273" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="274" pm="."><plain>39.94 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="275" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C6 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="276" pm="."><plain>54769 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="277" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="278" pm="."><plain>43.16 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="279" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C7 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="280" pm="."><plain>54521 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="281" pm="."><plain>XP_689993 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="282" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="283" pm="."><plain>43.36 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="284" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C8 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="285" pm="."><plain>54506 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="286" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="287" pm="."><plain>44.06 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="288" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C9 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="289" pm="."><plain>XP_698595 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="290" pm="."><plain>44.97 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="291" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C10 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="292" pm="."><plain>54412 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="293" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="294" pm="."><plain>45.05 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="295" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C11 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="296" pm="."><plain>XP_692726 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="297" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="298" pm="."><plain>45.10 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="299" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C12 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="300" pm="."><plain>54393 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="301" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="302" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="303" pm="."><plain>26.20 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="304" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C13 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="305" pm="."><plain>56022 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="306" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="307" pm="."><plain>45.15 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="308" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C14 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="309" pm="."><plain>53289 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="310" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="311" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="312" pm="."><plain>39.57 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="313" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C15 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="314" pm="."><plain>53299 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="315" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="316" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="317" pm="."><plain>83.86 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="318" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C16 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="319" pm="."><plain>51797 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="320" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="321" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="322" pm="."><plain>18.11 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="323" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C17 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="324" pm="."><plain>57564 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="325" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="326" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="327" pm="."><plain>48.99 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="328" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C18 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="329" pm="."><plain>XP_686111 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="330" pm="."><plain>X-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="331" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="332" pm="."><plain>50.04 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="333" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C19 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="334" pm="."><plain>52946 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="335" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="336" pm="."><plain>54.00 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="337" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C20 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="338" pm="."><plain>52760 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="339" pm="."><plain>XP_686816 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="340" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="341" pm="."><plain>54.59 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="342" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-<z:uniprot sup="inside" fb="2" ids="Q0WT48">C21</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="343" pm="."><plain>52752 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="344" pm="."><plain>XP_689021 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="345" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="346" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="347" pm="."><plain>51.64 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="348" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C22 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="349" pm="."><plain>52785 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="350" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="351" pm="."><plain>51.86 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="352" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C23 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="353" pm="."><plain>52776 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="354" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="355" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="356" pm="."><plain>37.23 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="357" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C24 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="358" pm="."><plain>55661 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="359" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="360" pm="."><plain>38.47 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="361" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C25 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="362" pm="."><plain>55600 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="363" pm="."><plain>XP_693637 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="364" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="365" pm="."><plain>38.57 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="366" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C26 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="367" pm="."><plain>55597 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="368" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="369" pm="."><plain>39.22 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="370" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C27 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="371" pm="."><plain>XP_694145 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="372" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="373" pm="."><plain>44.07 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="374" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C28 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="375" pm="."><plain>XP_693652 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="376" pm="."><plain>X-N-L </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="377" pm="."><plain>49.77 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="378" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C29 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="379" pm="."><plain>54752 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="380" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="381" pm="."><plain>52.05 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="382" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C30 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="383" pm="."><plain>54465 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="384" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="385" pm="."><plain>56.87 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="386" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C31 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="387" pm="."><plain>XP_691478 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="388" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="389" pm="."><plain>59.74 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="390" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C32 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="391" pm="."><plain>53860 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="392" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="393" pm="."><plain>60.05 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="394" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C33 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="395" pm="."><plain>53848 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="396" pm="."><plain>XP_689023 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="397" pm="."><plain>P-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="398" pm="."><plain>62.17 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="399" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C34 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="400" pm="."><plain>53740 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="401" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="402" pm="."><plain>69.67 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="403" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C35 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="404" pm="."><plain>53051 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="405" pm="."><plain>XP_698503 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="406" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="407" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="408" pm="."><plain>8.51 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="409" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C36 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="410" pm="."><plain>XP_690676 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="411" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="412" pm="."><plain>9.80 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="413" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C37 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="414" pm="."><plain>XP_689954 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="415" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="416" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="417" pm="."><plain>32.54 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="418" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C38 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="419" pm="."><plain>56197 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="420" pm="."><plain>XP_693868 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="421" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="422" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="423" pm="."><plain>7.77 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="424" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C39 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="425" pm="."><plain>43785 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="426" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="427" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="428" pm="."><plain>54.16 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="429" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C40 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="430" pm="."><plain>52974 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="431" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="432" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="433" pm="."><plain>34.79 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="434" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C41 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="435" pm="."><plain>55030 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="436" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="437" pm="."><plain>35.49 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="438" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C42 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="439" pm="."><plain>55004 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="440" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="441" pm="."><plain>35.68 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="442" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C43 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="443" pm="."><plain>54977 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="444" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="445" pm="."><plain>47.49 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="446" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C44 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="447" pm="."><plain>XP_688350 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="448" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="449" pm="."><plain>96.65 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="450" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C45 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="451" pm="."><plain>XP_697815 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="452" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="453" pm="."><plain>23 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="454" pm="."><plain>43.12 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="455" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C46 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="456" pm="."><plain>54149 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="457" pm="."><plain>XP_687258 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="458" pm="."><plain>P-N-L </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="459" pm="."><plain>44.18 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="460" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C47 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="461" pm="."><plain>XP_690327 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="462" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="463" pm="."><plain>47.00 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="464" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C48 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="465" pm="."><plain>39900 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="466" pm="."><plain>N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="467" pm="."><plain>Scaff 3690 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="468" pm="."><plain>480.02k </plain></SENT>
+</text></td><td align="left"><text><SENT sid="469" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C49 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="470" pm="."><plain>53964 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="471" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="472" pm="."><plain>Scaff 3699 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="473" pm="."><plain>44.42k </plain></SENT>
+</text></td><td align="left"><text><SENT sid="474" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-<z:uniprot sup="inside" fb="2" ids="Q8GUN6">C50</z:uniprot> </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="475" pm="."><plain>XP_687591 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="476" pm="."><plain>X-P-N-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="477" pm="."><plain>Scaff 3707 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="478" pm="."><plain>166.18k </plain></SENT>
+</text></td><td align="left"><text><SENT sid="479" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C51 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="480" pm="."><plain>58788 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="481" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="482" pm="."><plain>Scaff 3711 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="483" pm="."><plain>372.30k </plain></SENT>
+</text></td><td align="left"><text><SENT sid="484" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C52 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="485" pm="."><plain>55202 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="486" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="487" pm="."><plain>638.24k </plain></SENT>
+</text></td><td align="left"><text><SENT sid="488" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C53 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="489" pm="."><plain>55178 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="490" pm="."><plain>XP_691896 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="491" pm="."><plain>P-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="492" pm="."><plain>Scaff 3717 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="493" pm="."><plain>151.33k </plain></SENT>
+</text></td><td align="left"><text><SENT sid="494" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C54 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="495" pm="."><plain>55023 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="496" pm="."><plain>P-N </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="497" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="498" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C55 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="499" pm="."><plain>XP_689864 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="500" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="501" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="502" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C56 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="503" pm="."><plain>XP_690860 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="504" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="505" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="506" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C57 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="507" pm="."><plain>XP_694605 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="508" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="509" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="510" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C58 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="511" pm="."><plain>XP_694871 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="512" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="513" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="514" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C59 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="515" pm="."><plain>XP_696432 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="516" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="517" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="518" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C60 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="519" pm="."><plain>XP_698814 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="520" pm="."><plain>X-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="521" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="522" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C61 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="523" pm="."><plain>XP_699128 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="524" pm="."><plain>P-N-L-B </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="525" pm="."><plain>Unknown </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="526" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C62 </plain></SENT>
+</text></td><td/><td align="left"><text><SENT sid="527" pm="."><plain>XP_697396 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="528" pm="."><plain>N-L </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="529" pm="."><plain>a P = PYRIN, N = NACHT, L = <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot>, X = unknown effector domain </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><sec><title><text><SENT sid="530" pm="."><plain>Subfamily A </plain></SENT>
+</text></title><p><text><SENT sid="531" pm="."><plain>Teleost fish possess gene orthologs for all five members of the mammalian NOD subfamily (Table 2; Table 5). </plain></SENT>
+<SENT sid="532" pm="."><plain>While chicken and Xenopus genomes apparently lack the <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> gene (Table 5; Fig 1C), both are in possession of the remaining four NODs. </plain></SENT>
+<SENT sid="533" pm="."><plain>The gene predictions for zebrafish NOD sequences were corrected using corresponding ESTs identified in the <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot> database, and missing sequence found with assistance from other fish NOD-like sequences using the BLAT (BLAST-like alignment tool) program. </plain></SENT>
+<SENT sid="534" pm="."><plain>Following assembly, zebrafish NODs were highly structurally conserved relative to human NODs. </plain></SENT>
+<SENT sid="535" pm="."><plain>Zebrafish <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1) has an N-terminal CARD domain, and nine highly conserved leucine-rich repeats (LRRs) (Fig 2) although the 5' and 3' exons were not identified. </plain></SENT>
+<SENT sid="536" pm="."><plain>Two CARD domains were identified at the N-terminal end of zebrafish <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2), and eight <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domains were recognizable by their <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot>-like motifs (e.g. the amino acid signature LxxLxLxxCxL, where L = L, I, V or F and C = C or N) that align exactly with the LRRs of human <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> [see Additional file 1]. </plain></SENT>
+<SENT sid="537" pm="."><plain>Although the N-terminal end of <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3) was not recognized by the CDD, it shares some similarity with the human <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> effector domain with two conserved sequence signatures, <z:uniprot sup="inside" fb="3" ids="Q9UPZ9,Q9JKV2,Q62726,Q9NYL2,Q9ESL4">MRK</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O18965">EAG</z:uniprot> (amino acids 59–61 and 69–71 of DR-<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 respectively). </plain></SENT>
+<SENT sid="538" pm="."><plain>The C-terminal end of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 possessed 14 LRR motifs, which aligned exactly with <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domains of human <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> [see Additional file 1], with a similar motif (CxxLxMxxNxF) between the NACHT domain and the first true <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> motif. </plain></SENT>
+<SENT sid="539" pm="."><plain>Both <z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4) and <z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5) orthologs in zebrafish have conserved sequences within their <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domains relative to their human equivalents, although the predicted <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> for zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 is shorter than that of human <z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot>, and less conserved relative other human and zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A orthologs. </plain></SENT>
+<SENT sid="540" pm="."><plain>The N-terminal domains for <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5, as with <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3, were not identified within the CDD database set, but share some conserved features with the corresponding regions of mammalian <z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot>. </plain></SENT>
+<SENT sid="541" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4/<z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> appears to represent the most divergent gene within the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A subfamily, yet zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 groups with high bootstrap support with human <z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> and its orthologs from chicken and Xenopus during phylogenetic comparisons (Fig 1C). </plain></SENT>
+<SENT sid="542" pm="."><plain>All five <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-As are located on distinct chromosomes in zebrafish. </plain></SENT>
+<SENT sid="543" pm="."><plain>The <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 gene is located on chromosome 16 in version 6 of the zebrafish genome (Zv6) (Table 2), but is not mapped to a chromosome in version 7 (Zv7) [see Additional file 2], <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 resides at chromosome 7 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 can be found on chromosomes 24, 18 and 15 respectively. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="544" pm="."><plain>Schematic diagram depicting the deduced protein structures of zebrafish NLRs. </plain></SENT>
+<SENT sid="545" pm="."><plain>Zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamily-A have structures similar to the NOD subfamily in mammals, with <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot>/<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 possessing one CARD motif while <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot>/<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 possesses two. </plain></SENT>
+<SENT sid="546" pm="."><plain>While only the NACHT domain was identified for most members of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B subfamily, one member of this group (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2) was predicted with a putative N-terminal CARD effector domain. </plain></SENT>
+<SENT sid="547" pm="."><plain>All <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C subfamily members were predicted to have an N-terminal effector domain, a central NACHT domain and a <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domain. </plain></SENT>
+<SENT sid="548" pm="."><plain>In addition, some of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C molecules were identified with a C-terminal B30.2 domain. </plain></SENT>
+<SENT sid="549" pm="."><plain>The predicted effector domains of molecules within the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C subfamily varied; some had a <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">pyrin</z:uniprot> (P) effector domain, while others had a distinct uncharacterized effector domain (X). </plain></SENT>
+<SENT sid="550" pm="."><plain>B30.2 domains are also found in other important immune related molecules such as certain TRIMs and the <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">Pyrin</z:uniprot> molecule, whose structures are also shown. </plain></SENT>
+<SENT sid="551" pm="."><plain>C = card domain, P = <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">pyrin</z:uniprot> domain, X = other domain, N = NACHT domain, L = <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> region, B = B30.2/PRY-SPRY domain, R = ring finger domain, BB = B-box, CC = coiled coil. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-42-2"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="T5" position="float"><label>Table 5</label><caption><p><text><SENT sid="552" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamily genes identified in other non-mammalian genomes </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="553" pm="."><plain>Genome </plain></SENT>
+</text></th><th align="left"><text><SENT sid="554" pm="."><plain>Chromosome </plain></SENT>
+</text></th><th align="left"><text><SENT sid="555" pm="."><plain>Nickname </plain></SENT>
+</text></th><th align="left"><text><SENT sid="556" pm="."><plain>Closest ortholog </plain></SENT>
+</text></th><th align="left"><text><SENT sid="557" pm="."><plain>Identifier </plain></SENT>
+</text></th><th align="left"><text><SENT sid="558" pm="."><plain>Effector domain </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="559" pm="."><plain>Gallus gallus </plain></SENT>
+</text></td><td align="left"><text><SENT sid="560" pm="."><plain>Chr 2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="561" pm="."><plain>GG-<z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="562" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="563" pm="."><plain>ENSGALG00000011535 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="564" pm="."><plain>CARDa </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="565" pm="."><plain>Chr 14 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="566" pm="."><plain>GG-<z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="567" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="568" pm="."><plain>XM_414969 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="569" pm="."><plain>CARDb </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="570" pm="."><plain>Chr 11 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="571" pm="."><plain>GG-<z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="572" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="573" pm="."><plain>XM_414012 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="574" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="575" pm="."><plain>Chr 24 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="576" pm="."><plain>GG-<z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="577" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="578" pm="."><plain>XM_417893 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="579" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="580" pm="."><plain>Chr 5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="581" pm="."><plain>GG-NALP </plain></SENT>
+</text></td><td align="left"><text><SENT sid="582" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="583" pm="."><plain>Q5F3J4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="584" pm="."><plain>PYRIN </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="585" pm="."><plain>Xenopus tropicalis </plain></SENT>
+</text></td><td align="left"><text><SENT sid="586" pm="."><plain>Scaff 320 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="587" pm="."><plain>XT-<z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="588" pm="."><plain><z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="589" pm="."><plain>ENSXETG00000022012 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="590" pm="."><plain>CARDa </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="591" pm="."><plain>Scaff 27 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="592" pm="."><plain>XT-<z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="593" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="594" pm="."><plain>GENSCAN00000015124 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="595" pm="."><plain>CARDb </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="596" pm="."><plain>Scaff 112 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="597" pm="."><plain>XT-<z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="598" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="599" pm="."><plain>AC157698 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="600" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="601" pm="."><plain>Scaff 124 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="602" pm="."><plain>XT-<z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="603" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="604" pm="."><plain>ENSXETG00000021586 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="605" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="606" pm="."><plain>Scaff 279 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="607" pm="."><plain>XT-NALPa </plain></SENT>
+</text></td><td align="left"><text><SENT sid="608" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="609" pm="."><plain>scaffold_279.46c </plain></SENT>
+</text></td><td align="left"><text><SENT sid="610" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="611" pm="."><plain>Scaff 1247 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="612" pm="."><plain>XT-NALPb </plain></SENT>
+</text></td><td align="left"><text><SENT sid="613" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="614" pm="."><plain>scaffold_1247.5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="615" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="616" pm="."><plain>Scaff 3599 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="617" pm="."><plain>XT-NALPc </plain></SENT>
+</text></td><td align="left"><text><SENT sid="618" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="619" pm="."><plain>scaffold_3599.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="620" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="621" pm="."><plain>Scaff 626 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="622" pm="."><plain>XT-NALPd </plain></SENT>
+</text></td><td align="left"><text><SENT sid="623" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="624" pm="."><plain>scaffold_626.23 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="625" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="626" pm="."><plain>Scaff 279 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="627" pm="."><plain>XT-NALPe </plain></SENT>
+</text></td><td align="left"><text><SENT sid="628" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="629" pm="."><plain>scaffold_279.46c </plain></SENT>
+</text></td><td align="left"><text><SENT sid="630" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="631" pm="."><plain>Scaff 626 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="632" pm="."><plain>XT-NALPf </plain></SENT>
+</text></td><td align="left"><text><SENT sid="633" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="634" pm="."><plain>scaffold_626.24 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="635" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="636" pm="."><plain>Scaff 626 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="637" pm="."><plain>XT-NALPg </plain></SENT>
+</text></td><td align="left"><text><SENT sid="638" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="639" pm="."><plain>scaffold_626.25 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="640" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="641" pm="."><plain>Scaff 279 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="642" pm="."><plain>XT-NALPh </plain></SENT>
+</text></td><td align="left"><text><SENT sid="643" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="644" pm="."><plain>scaffold_279.46c </plain></SENT>
+</text></td><td align="left"><text><SENT sid="645" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="646" pm="."><plain>Scaff 279 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="647" pm="."><plain>XT-NALPi </plain></SENT>
+</text></td><td align="left"><text><SENT sid="648" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="649" pm="."><plain>scaffold_279.46c </plain></SENT>
+</text></td><td align="left"><text><SENT sid="650" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="651" pm="."><plain>Scaff 111 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="652" pm="."><plain>XT-NALPj </plain></SENT>
+</text></td><td align="left"><text><SENT sid="653" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="654" pm="."><plain>scaffold_111.48 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="655" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="656" pm="."><plain>Scaff_74 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="657" pm="."><plain>XT-<z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="658" pm="."><plain><z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="659" pm="."><plain>ENSXETG00000018490 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="660" pm="."><plain>CARD </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="661" pm="."><plain>Fugu rubripes (v4) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="662" pm="."><plain>Scaff 58 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="663" pm="."><plain>FR-<z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="664" pm="."><plain>NLR7.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="665" pm="."><plain>NEWSINFRUG00000144256 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="666" pm="."><plain>CARDa </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="667" pm="."><plain>Scaff 28 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="668" pm="."><plain>FR-<z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="669" pm="."><plain>NLR16.3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="670" pm="."><plain>NEWSINFRUG00000134206 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="671" pm="."><plain>CARDb </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="672" pm="."><plain>Scaff 3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="673" pm="."><plain>FR-<z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="674" pm="."><plain>NLR16.2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="675" pm="."><plain>NEWSINFRUG00000138086 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="676" pm="."><plain>CARDb </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="677" pm="."><plain>Scaff 140 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="678" pm="."><plain>FR-<z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="679" pm="."><plain>NLR16.1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="680" pm="."><plain>GENSCANSLICE00000000561 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="681" pm="?"><plain>? </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="682" pm="."><plain>Scaff 144 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="683" pm="."><plain>FR-<z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="684" pm="."><plain>NLR11.3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="685" pm="."><plain>NEWSINFRUG00000148012 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="686" pm="?"><plain>? </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="687" pm="."><plain>a Identified using the Conserved Domain Database, </plain></SENT>
+</text></p><p><text><SENT sid="688" pm="."><plain>b Based on similarity to human ortholog, </plain></SENT>
+</text></p><p><text><SENT sid="689" pm="."><plain>c Xenopus gene prediction scaffold_279.46 contains NACHT domains from multiple NLRs. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="690" pm="."><plain>Subfamily B </plain></SENT>
+</text></title><p><text><SENT sid="691" pm="."><plain>Six distinct genes encoding NACHT domains were identified in Zv6 that belong to subfamily B and form a separate cluster within the clade of mammalian NALPs. </plain></SENT>
+<SENT sid="692" pm="."><plain>Although zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2 and B3 were identified in distinct regions of the zebrafish genome (Table 3) these genes are identical in the region of the NACHT domain used for phylogenetic analysis. </plain></SENT>
+<SENT sid="693" pm="."><plain>Several NALP-like sequences were also identified for Xenopus tropicalis (Table 5) that similarly formed their own cluster distinct from the human and zebrafish NALPs (Fig 1B). </plain></SENT>
+<SENT sid="694" pm="."><plain>Gene predictions encoding putative NALPs in zebrafish are short, with most lacking a recognizable effector domain and C-terminal <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domain. </plain></SENT>
+<SENT sid="695" pm="."><plain>One exception is <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2, which appears to have an N-terminal region with low similarity to a CARD motif as identified by searching the CDD. </plain></SENT>
+<SENT sid="696" pm="."><plain>Only one cDNA sequence resembling this subfamily could be identified in the zebrafish EST database [GenBank:<ext-link ext-link-type="gen" xlink:href="AI883819">AI883819</ext-link>] that, although highly similar in sequence, was not an exact match to any of the predicted <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B genes and appeared to encode only a portion of the NACHT domain. </plain></SENT>
+<SENT sid="697" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamily B genes appear to be restricted to small clusters on chromosomes 2 and 15 in zebrafish. </plain></SENT>
+<SENT sid="698" pm="."><plain>Furthermore, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B5 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B6 reside close (28.3–28.5 m) to <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 (32 m) on chromosome 15. </plain></SENT>
+<SENT sid="699" pm="."><plain>Later analysis of Zv7 revealed removal of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B5 gene prediction, and its merger with the prediction for <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B6 [see Additional file 2]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="700" pm="."><plain>Subfamily C </plain></SENT>
+</text></title><p><text><SENT sid="701" pm="."><plain>Database searches revealed multiple genes that possessed NACHT domains and shared significant homology to human <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> yet were distinct from the zebrafish <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> molecule (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3) described above. </plain></SENT>
+<SENT sid="702" pm="."><plain>This large number of highly similar genes clearly arose from several gene(ome) duplication events. </plain></SENT>
+<SENT sid="703" pm="."><plain>Several hundred predicted genes/proteins were observed for this group in the databases for all teleost fish (data not shown). </plain></SENT>
+<SENT sid="704" pm="."><plain>In zebrafish, these genes were found at numerous chromosomal loci, with large clusters evident on (at least) chromosomes 1, 4, 14 and 17. </plain></SENT>
+<SENT sid="705" pm="."><plain>A small selection of these genes was subjected to further analysis (Table 4 and Fig 1A). </plain></SENT>
+<SENT sid="706" pm="."><plain>These molecules divided into three clusters during phylogenetic analysis, which also corresponded to sequence differences identified in the N-terminal region. </plain></SENT>
+<SENT sid="707" pm="."><plain>Representatives from chromosome 14 were identified in all three clusters, while NLRs from some other chromosomes (e.g. chromosomes 12 and 17) were restricted to one cluster, although not all genes were included in the analysis. </plain></SENT>
+</text></p><p><text><SENT sid="708" pm="."><plain>Although the NACHT domains of the C-group NLRs are clearly homologous to <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot>, many of these genes were found to encode a conserved PYRIN domain at the N-terminus (Figs 2, 3) showing some analogy to mammalian NALP genes. </plain></SENT>
+<SENT sid="709" pm="."><plain>The presence of this domain was confirmed by identifying an EST sequence containing the PYRIN domain and a partial NACHT domain that resembled C-group NLRs. </plain></SENT>
+<SENT sid="710" pm="."><plain>Other C-group NLRs had N-terminal sequences with no obvious gene ortholog. </plain></SENT>
+<SENT sid="711" pm="."><plain>While some are likely incorrectly predicted domains, EST sequences confirm at least two of these predicted N-termini are transcribed in association with the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> C-group NACHT domain (Fig 4). </plain></SENT>
+<SENT sid="712" pm="."><plain>The <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> C-group molecules also possess an <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> region, as with other NLRs. </plain></SENT>
+<SENT sid="713" pm="."><plain>Unexpectedly, a B30.2 (PRY-SPRY) domain was identified in several of the predicted genes for NLRs of the C subfamily. </plain></SENT>
+<SENT sid="714" pm="."><plain>Owing to nature of this large multigene family, a single representative EST was sequenced to confirm domain structure, including the verification of the B30.2 domain. </plain></SENT>
+<SENT sid="715" pm="."><plain>The B30.2. </plain></SENT>
+<SENT sid="716" pm="."><plain>This domain was found at the C-terminus, following the <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domain and was confirmed by completely sequencing EST [Genbank:<ext-link ext-link-type="gen" xlink:href="CK126487">CK126487</ext-link>]; the 4,524 bp sequence was submitted to GenBank [GenBank:<ext-link ext-link-type="gen" xlink:href="EF613347">EF613347</ext-link>] and contained sequence from the NACHT domain to the poly-A tail. </plain></SENT>
+<SENT sid="717" pm="."><plain>Further overlapping ESTs/TCs identified in the <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot> database provided additional confirmation for the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> C-group, with an effector (PYRIN or other) domain, NACHT domain, <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domain and a C-terminal B30.2 domain (Fig 5) [see Additional file 3] although, due to the high number of closely related sequences for this subfamily and the current stage of the zebrafish genome sequence, it was not possible to ascertain whether the overlapping ESTs were generated from the same gene or distinct genes within the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C family. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="718" pm="."><plain>Many N-terminal effector domains of the predicted zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C molecules are recognized as <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">pyrin</z:uniprot>/PAAD-DAPIN domains based on the HMM logo. </plain></SENT>
+<SENT sid="719" pm="."><plain>Some examples are shown, with conserved amino acids [A]. </plain></SENT>
+<SENT sid="720" pm="."><plain>Other N-terminal sequences were observed for <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C molecules, which were confirmed in the EST databases at <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot> [B]. </plain></SENT>
+<SENT sid="721" pm="."><plain>TC326097 encodes a <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">pyrin</z:uniprot> domain, whereas TC353741 and TC343155 represent undefined N-terminal domains such as those denoted by 'X' in Figure 2. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-42-3"/></fig></SecTag><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="722" pm="."><plain>A. </plain></SENT>
+<SENT sid="723" pm="."><plain>Schematic representation of the approximate positions of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> encoding EST sequences relative to predicted <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-<z:uniprot sup="inside" fb="0" ids="P31279,P03636,Q38037,P69173">C proteins</z:uniprot>. </plain></SENT>
+<SENT sid="724" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot> database accession numbers for the ESTs are given. </plain></SENT>
+<SENT sid="725" pm="."><plain>N1 = X effector domain beginning with sequence MAEERV, N2 = recognized <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">Pyrin</z:uniprot> effector domain, N3 = X effector domain beginning with sequence MEDTHS. </plain></SENT>
+<SENT sid="726" pm="."><plain>B. </plain></SENT>
+<SENT sid="727" pm="."><plain>Full cDNA sequence for EST CK126487 that spans a region from the NACHT domain to the 3'UTR of an <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C gene. </plain></SENT>
+<SENT sid="728" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> signatures are indicated with a wavy underline, and the signature for the B30.2 domain is boxed. </plain></SENT>
+<SENT sid="729" pm="."><plain>Features for polyadenlyation (AATAAA) and mRNA instability (ATTTA) in the 3'UTR are double or single underlined respectively, and the stop codon (tga) is shown in bold italics. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-42-4"/></fig></SecTag><SecTag type="FIG"><fig id="F5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="730" pm="."><plain>RT-PCR analysis of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> gene family in intestine (1 and 2), liver (3 and 4) and spleen (5 and 6) of two individual naïve zebrafish. </plain></SENT>
+<SENT sid="731" pm="."><plain><z:uniprot sup="inside" fb="56" ids="O60218,P61110,Q62781,Q13795,Q63055,P45951,Q04732,P04931,P54107,P80513,P55145,P32770,Q9P2R6">ARP</z:uniprot> expression was amplified to verify cDNA synthesis. </plain></SENT>
+<SENT sid="732" pm="."><plain>Negative controls were performed using templates from cDNA synthesis reactions without <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot> (7). </plain></SENT>
+<SENT sid="733" pm="."><plain>Genomic DNA (8) was amplified to verify primer efficiency and to show the difference in size of genomic amplicons compared to cDNA amplicons. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-42-5"/></fig></SecTag></sec><sec><title><text><SENT sid="734" pm="."><plain>Other NLRs </plain></SENT>
+</text></title><p><text><SENT sid="735" pm="."><plain>Although the <z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot> was evident in the genomes of the pufferfishes, frog and chicken, this molecule was not readily identifiable in zebrafish Zv6. </plain></SENT>
+<SENT sid="736" pm="."><plain>However, later analyses identified a <z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot>-like gene, in Zv7 of the zebrafish genome, which resides on Chromosome 3 at approximate position 24.3 m (Zv7_scaffold 244). </plain></SENT>
+<SENT sid="737" pm="."><plain>Sequences for <z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot> were not identified in lower vertebrates during this study. </plain></SENT>
+<SENT sid="738" pm="."><plain><z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> was identified in the frog genome (Table 5), but not in the other non-mammalian genomes. </plain></SENT>
+<SENT sid="739" pm="."><plain>A recently described family of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-like genes from the sea urchin was found to cluster with mammalian <z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot> molecules during phylogenetic analyses (data not shown). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="740" pm="."><plain>Expression of zebrafish NLRs </plain></SENT>
+</text></title><p><text><SENT sid="741" pm="."><plain>The spatial expression of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> genes was evaluated in selected tissues from naïve zebrafish. </plain></SENT>
+<SENT sid="742" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1, -A2, -A3 -A4 and -A5 were all identified in zebrafish intestine using RT-PCR. </plain></SENT>
+<SENT sid="743" pm="."><plain>All five genes were also expressed in liver although expression of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 was extremely weak. </plain></SENT>
+<SENT sid="744" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 expression was not detected in the spleen following 35 PCR cycles, but the four other <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A genes were expressed in this tissue (with low expression of splenic <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 in one individual). </plain></SENT>
+<SENT sid="745" pm="."><plain>As a representative of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B subfamily, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2 expression was investigated and detected in all three tissues. </plain></SENT>
+<SENT sid="746" pm="."><plain>Similarly, mRNA was detected for an <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C gene(s) in all three tissues using primers based on the completely sequenced EST clone. </plain></SENT>
+<SENT sid="747" pm="."><plain>The primers used to detect these genes amplified no products in control reactions whose templates were sterile water (not shown) or from cDNA syntheses performed in the absence of <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot> (RT-). </plain></SENT>
+<SENT sid="748" pm="."><plain><z:uniprot sup="inside" fb="56" ids="O60218,P61110,Q62781,Q13795,Q63055,P45951,Q04732,P04931,P54107,P80513,P55145,P32770,Q9P2R6">ARP</z:uniprot> was amplified from all tissues confirming the integrity of the cDNAs and the success of RT-PCR. </plain></SENT>
+<SENT sid="749" pm="."><plain>Genomic products were amplified for all <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A genes that were larger than the cDNA amplicons and supported the presence of intron(s) between the primer regions. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="750" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="751" pm="."><plain>New insight into the regulation of essential developmental, inflammatory and apoptotic pathways was achieved with the discovery and characterization of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> gene family of putative cytoplasmic pattern recognition molecules. </plain></SENT>
+<SENT sid="752" pm="."><plain>While an increasing amount of information exists for these molecules in mammals, this gene family is poorly studied in other vertebrates with little to no information available even at the gene level for birds, amphibians and fish. </plain></SENT>
+<SENT sid="753" pm="."><plain>This study resolves this issue by identifying and characterizing many <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-like genes from these three classes of animals and uncovering a unique subfamily of NLRs in teleost fish. </plain></SENT>
+</text></p><p><text><SENT sid="754" pm="."><plain>Our evidence shows early evolution and high conservation of the NOD (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A) subfamily of NLRs. </plain></SENT>
+<SENT sid="755" pm="."><plain>All species of teleost fish that were analyzed had five distinct members of this subfamily designated <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 that were clear gene orthologs of human <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> to <z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> [1]. </plain></SENT>
+<SENT sid="756" pm="."><plain>A <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> ortholog was also described during an earlier screen of zebrafish ESTs for molecules similar to apoptosis regulators [17]. </plain></SENT>
+<SENT sid="757" pm="."><plain>In addition to encoded NACHT domains, the effector domains and <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> regions were highly conserved in the fish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A genes relative to their human equivalents, suggesting retained function. </plain></SENT>
+<SENT sid="758" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2, the fish orthologs of human <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> respectively, both possessed clear CARD domains (one in <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 and two in <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2) with high amino acid identity to the equivalent regions of human molecules. </plain></SENT>
+<SENT sid="759" pm="."><plain>In mammalian <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> (and presumably <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot>), the CARD domains are necessary for the interaction with RICK kinase, an enzyme that participates in NFκB activation and, ultimately, the generation of pro-inflammatory molecules [18]. </plain></SENT>
+<SENT sid="760" pm="."><plain>Since RICK is also present in fish genomes (see zebrafish <z:uniprot sup="inside" fb="0" ids="Q3SZJ2,O43353">RIPK2</z:uniprot>, Q4V958), it would appear that this inflammatory cascade was established prior to the divergence of teleost fish from the tetrapod lineage, assuming that the same interaction occurs between these molecules in fish. </plain></SENT>
+<SENT sid="761" pm="."><plain>The highly conserved sequences in the <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domains implies these zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 may also be able to recognize meso-<z:uniprot sup="inside" fb="23" ids="Q5EAE6,P51397,Q2UPZ7,Q9ULA0,Q7TNY6,P10997,P12968,P12969">DAP</z:uniprot> and muramyl dipeptide as mammalian <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> respectively [13,14] although this requires formal confirmation. </plain></SENT>
+<SENT sid="762" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 transcript was detected equally in intestine, liver and spleen, reflecting the wide-spread distribution observed for murine <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> [18], while <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 was strongly expressed in intestine, with some expression in spleen and barely detectable levels in liver. </plain></SENT>
+<SENT sid="763" pm="."><plain>Similar to the highest expression of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 in zebrafish intestine, human <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> has a more restricted expression pattern, with predominant expression in cells of myeloid origin including monocytes [9] and Paneth cells [19] that are associated with the gut, although expression of <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> can also be induced in epithelial cells [20]. </plain></SENT>
+<SENT sid="764" pm="."><plain>Zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 is clearly an ortholog of mammalian <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot>, with similarity in the effector and NACHT domains and an equal number of <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domains. </plain></SENT>
+<SENT sid="765" pm="."><plain>At the genomic level, <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> is flanked by <z:uniprot sup="inside" fb="0" ids="Q5E9M9,Q5ZM83,Q8IXI1,Q864R5">RHOT2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q52WX2">SBK1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9XF67,O15530">PDPK1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58CS8,Q9UJJ9">GNPTG</z:uniprot> respectively in zebrafish and fugu further supporting the orthologous relationship for <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> between fish species. </plain></SENT>
+<SENT sid="766" pm="."><plain>Expression of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 was strong in zebrafish intestine, with some expression also in liver and little to no expression observed in the spleen. </plain></SENT>
+<SENT sid="767" pm="."><plain>Interestingly, the kidney (bone marrow equivalent) did not express <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 as well suggesting that it is not expressed by lymphocytes (data not shown). </plain></SENT>
+<SENT sid="768" pm="."><plain>In mammals, <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> expression occurs primarily in lymphocytes and is attributed to inhibition of T-cell activity [21]. </plain></SENT>
+<SENT sid="769" pm="."><plain>Two other <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A subfamily members were also identified in zebrafish that were designated <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 with <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 resembling human <z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 being highly conserved to human <z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot>. </plain></SENT>
+<SENT sid="770" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4/<z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> genes represent the most divergent members of this subfamily based on amino acid conservation within the N-terminal and <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> regions between different vertebrate orthologs. </plain></SENT>
+<SENT sid="771" pm="."><plain>Both <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 genes were constitutively expressed in intestine, spleen and liver of naïve zebrafish, although there is clearly some fish to fish variation preventing their detection in some individuals under the conditions used for RT-PCR. </plain></SENT>
+<SENT sid="772" pm="."><plain>Currently, there is no information concerning the expression patterns or functions of these latter two NLRs in mammals. </plain></SENT>
+</text></p><p><text><SENT sid="773" pm="."><plain>Whereas <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q86WI3">NOD4</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> appear to be conserved in bird and amphibian genomes, the gene for <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> was identified in neither the chicken nor the frog genomes. </plain></SENT>
+<SENT sid="774" pm="."><plain>This would suggest that <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> has been deleted from the genomes in these species, although the genome of Xenopus tropicalis is, at present, incomplete. </plain></SENT>
+<SENT sid="775" pm="."><plain>This is surprising since <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot>, in mammals, appears to be a highly important sensor for intracellular microbial molecules. </plain></SENT>
+<SENT sid="776" pm="."><plain>However, chickens do possess a <z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot> ortholog (see below) representing another potential <z:uniprot sup="inside" fb="0" ids="P07052">PRR</z:uniprot> for muramyl dipeptide [22] and may functionally replace <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> in this species. </plain></SENT>
+</text></p><p><text><SENT sid="777" pm="."><plain>Members of the NALP subfamily are also evident in lower vertebrates. </plain></SENT>
+<SENT sid="778" pm="."><plain>Six genes were identified in zebrafish (Zv6) for NALP-like molecules (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B1 to -B6), and ten predicted NALP-like genes (nicknamed NALPa to NALPj) were found for Xenopus. </plain></SENT>
+<SENT sid="779" pm="."><plain>These genes clustered separately for each species, suggesting recent duplication events formed the NALP subfamilies independently in fish, amphibians and mammals. </plain></SENT>
+<SENT sid="780" pm="."><plain>The closest human ortholog of the amphibian and fish NALPs appears to be <z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot>. </plain></SENT>
+<SENT sid="781" pm="."><plain>A single NALP-like sequence predicted in the chicken genome (ENSGALG00000005155) and in the Uniprot database (Q5F3J4) clusters closest to the group of human NALPs 1, 3, 10, and 12 when analyzed phylogenetically (although not with strong bootstrap support) and has recently been given the name <z:uniprot sup="inside" fb="0" ids="A6QLE5,Q96P20,B0FPE9">NLRP3</z:uniprot> (previously designated <z:uniprot sup="inside" fb="0" ids="Q96P20">CIAS1</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot>). </plain></SENT>
+<SENT sid="782" pm="."><plain>Chicken NALP was identified on chromosome 5, separate to the chicken <z:uniprot sup="inside" fb="0" ids="Q86W24,Q86UT6">NOD5</z:uniprot> gene (chromosome 24). </plain></SENT>
+<SENT sid="783" pm="."><plain>Although sequence variation makes accurate comparisons difficult, it is likely that this chicken gene arose from a distinct NALP than the fish and amphibian NALPs, with the ancestral NALP(s) possibly lost from the genome. </plain></SENT>
+<SENT sid="784" pm="."><plain>The discovery of multiple NALP-like proteins in lower vertebrates contradicts a recent hypothesis by Hughes suggesting that the NALP subfamily evolved only in mammals [15], with clear evidence that a gene encoding the NACHT domain of at least one NALP (possibly a <z:uniprot sup="inside" fb="0" ids="P59044">NALP6</z:uniprot>-like gene) was present prior to the fish-tetrapod split. </plain></SENT>
+<SENT sid="785" pm="."><plain>Zebrafish NALPs are situated at two distinct chromosomal locations, four of these genes (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B1 to -B4) are located on chromosome 2, and the other two (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B5 and -B6) can be found near <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 on chromosome 15; the new assembly of the zebrafish genome (Zv7) suggests these two sequences may represent the same gene. </plain></SENT>
+<SENT sid="786" pm="."><plain>It should be pointed out that although chicken <z:uniprot sup="inside" fb="0" ids="A6QLE5,Q96P20,B0FPE9">NLRP3</z:uniprot> has an N-terminal PYRIN domain, the N-terminal domains for the Xenopus and zebrafish NALPs were not identified. </plain></SENT>
+<SENT sid="787" pm="."><plain>One exception was <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2, which appears to have a domain that resembles a CARD and not a PYRIN domain as would be expected from its similarity to the mammalian NALPs. </plain></SENT>
+<SENT sid="788" pm="."><plain>No PYRIN domains are observed for the Xenopus NALP-like sequences and, other than the PY-CARD protein (prediction ENSXETT00000004042), no PYRIN domains were predicted in the Xenopus genome. </plain></SENT>
+<SENT sid="789" pm="."><plain>These observations may reflect that early ancestors of NALPs lacked these effector domains and later acquired the PYRIN domain (or CARD domain in the case of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B1). </plain></SENT>
+<SENT sid="790" pm="."><plain>Whether these NALP-like genes encode functional PRRs in poikilotherms remains uncertain, however, <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2 transcript was detectable in zebrafish intestine, spleen and liver suggesting this may represent a functional gene. </plain></SENT>
+</text></p><p><text><SENT sid="791" pm="."><plain>In addition to the NOD- and NALP-like subfamilies, a unique subfamily of NLRs was identified in teleost fish, and designated <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> subfamily C (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C). </plain></SENT>
+<SENT sid="792" pm="."><plain>This subfamily is interesting for several reasons. </plain></SENT>
+<SENT sid="793" pm="."><plain>Firstly, all teleostei genome (and EST) databases show numerous <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes, amounting to several hundred of these genes in a single species. </plain></SENT>
+<SENT sid="794" pm="."><plain>Secondly, these genes all possess a central NACHT domain that is highly similar to the NACHT domain of <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> (<z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3) suggesting they evolved from a <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3-like molecule, yet many of these genes possess a PYRIN domain at their N-terminus making them more structurally similar to mammalian NALP molecules. </plain></SENT>
+<SENT sid="795" pm="."><plain>Finally, following the <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domain many of these molecules (representatives found in all bony fish) possess a B30.2 (PRY-SPRY) domain, which may allow them to interact with distinct molecules to standard NLRs and thus perform some novel function. </plain></SENT>
+<SENT sid="796" pm="."><plain>B30.2 domains are also found on some tripartite motif containing (TRIM) proteins [23] and on the PYRIN molecule [24] (Fig 2) and have several roles related to immunity. </plain></SENT>
+<SENT sid="797" pm="."><plain>TRIM5a has been shown to inhibit retroviral activity by directly binding the capsid of the HIV retrovirus [25], and PYRIN has been shown to inhibit the activity of <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> by directly binding to the active site of this enzyme [24], both using their B30.2 domains for these interactions. </plain></SENT>
+<SENT sid="798" pm="."><plain>Each of these functions would fit with the role of NLRs as intracellular PRRs; the ability to bind viruses could be an extension of the pattern detection system attributed to the neighboring <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> domain, while the potential to inhibit <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> activity may make <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C molecules important negative regulators of the inflammasome in teleost fish. </plain></SENT>
+<SENT sid="799" pm="."><plain>The latter function would reflect gene families of cell surface receptors such as killer immunoglobulin-like receptors (KIRs) [26] or novel immune-type receptors (NITRs) [27] that possess many inhibitory receptors and a small number of stimulatory receptors for controlling cellular activation. </plain></SENT>
+<SENT sid="800" pm="."><plain>It is also interesting that these molecules all contain a NACHT domain similar to <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot>, since mammalian <z:uniprot sup="inside" fb="0" ids="Q7RTR2,E9KID3">NOD3</z:uniprot> has an inhibitory role in T cells [21]. </plain></SENT>
+<SENT sid="801" pm="."><plain>Importantly, since the predicted N- and C-termini of some <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-Cs are structurally similar to the two domains of the PYRIN molecule, this would also fit with a potential function of mimicking PYRIN. </plain></SENT>
+<SENT sid="802" pm="."><plain>However, additional studies are required to determine what, if any, role in the immune system <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C molecules may play. </plain></SENT>
+</text></p><p><text><SENT sid="803" pm="."><plain>The evolutionary processes generating the vast subfamily of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes are not clear and appear very complex. </plain></SENT>
+<SENT sid="804" pm="."><plain>The relationships are further confused by apparent errors in the assembly of the zebrafish genome (Zv6 versus Zv7), as evidenced by clear differences in the mapping of some <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes to their predicted chromosomes between assembly versions [see Additional file 2]. </plain></SENT>
+<SENT sid="805" pm="."><plain>However, evidence suggesting tandem duplications of individual genes within a chromosomal locus is consistent between Zv6 and Zv7, which result in <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes adopting new exons encoding distinct N-terminal domains and/or C-terminal domains via exon-shuffling. </plain></SENT>
+<SENT sid="806" pm="."><plain>The clusters of tandem <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes appear to have undergone en bloc duplication, to generate further clusters in the same locus (cis duplication), or within distinct loci or chromosomes (trans duplication) through translocation. </plain></SENT>
+<SENT sid="807" pm="."><plain>Single genes may also have duplicated independently multiple times, within established loci and to create new loci, prior to and following formation of new gene structures. </plain></SENT>
+<SENT sid="808" pm="."><plain>A large scale duplication of this gene family may be explained by the teleost-specific genome duplication event (3R) occurring early in the evolution of teleost fish, which followed two rounds of complete genome duplication (2R) observed early in the evolution of the vertebrate lineage [28]. </plain></SENT>
+<SENT sid="809" pm="."><plain>Should this be the case, mutations and deletions of many of the duplicated genes would be expected, to remove redundancy from the genome [29]. </plain></SENT>
+<SENT sid="810" pm="."><plain>Therefore, many <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C genes may be non-functional genes or pseudogenes, although a small number have likely established new functions. </plain></SENT>
+<SENT sid="811" pm="."><plain>Clearly, it is too early to assign functionality to these genes, except to note that many are transcribed and are presumably translated into protein products. </plain></SENT>
+<SENT sid="812" pm="."><plain>Transcripts for <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C were detected, in this study, in three distinct tissues in naïve zebrafish, and many more can be identified in the EST databases for this fish species. </plain></SENT>
+</text></p><p><text><SENT sid="813" pm="."><plain>A <z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot>-like gene was identified in the zebrafish genome (Zv7) and is an important molecule, in mammals, for controlling the expression of both major histocompatibility complex class I and class II molecules and therefore is significant for antigen presentation to T lymphocytes. </plain></SENT>
+<SENT sid="814" pm="."><plain>Defects in human <z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot> gene expression have been linked to several immune disorders [5]. </plain></SENT>
+<SENT sid="815" pm="."><plain>However, alternative molecules have been implicated in the induction of antigen presentation pathways [30], including other members of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> family, such as <z:uniprot sup="inside" fb="0" ids="P59046,E9Q5R7">NALP12</z:uniprot> [31]. </plain></SENT>
+<SENT sid="816" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> homologs have been identified in the sea urchin [16] implying that the ancestral <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> resembled one of these molecules. </plain></SENT>
+<SENT sid="817" pm="."><plain>However, neither <z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot> nor <z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> was identified in the fish genomes at this time, although <z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot> was evident in the frog genome, suggesting that the genes for these molecules may have been lost from the fish genomes during the teleost-specific genome duplication event. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions"><title><text><SENT sid="818" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="819" pm="."><plain>In summary, the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> gene family contains several members in all vertebrates, and at least one prototypical gene must have existed prior to the evolution of vertebrates. </plain></SENT>
+<SENT sid="820" pm="."><plain>Clearly, there are some losses and gains of <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> genes in the genomes of distinct species thus shaping unique repertoires of these molecules throughout vertebrates and invertebrates. </plain></SENT>
+<SENT sid="821" pm="."><plain>Although there are still many members of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> family that require functional characterization, their implication as regulators of immunity is highly intriguing and warrants future investigation. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="822" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="823" pm="."><plain>Identification of NLRs in non-mammalian vertebrates </plain></SENT>
+</text></title><p><text><SENT sid="824" pm="."><plain>The amino acid sequences for human NLRs were obtained from UNIPROT (Release 9.0) [32]. </plain></SENT>
+<SENT sid="825" pm="."><plain>These are listed in Table 1, with recently defined nomenclature assigned at HGNC [3]. </plain></SENT>
+<SENT sid="826" pm="."><plain>Predicted genes for non-mammalian NLRs were identified in the UNIPROT database and at ENSEMBL [33] for chicken Gallus gallus, pipid frog Xenopus tropicalis, Japanese pufferfish Fugu rubripes, green spotted pufferfish Tetraodon nigroviridis and zebrafish Danio rerio, by using the BLAST algorithm to search for sequences with similarity to human NLRs [34]. </plain></SENT>
+<SENT sid="827" pm="."><plain>Gene predictions were also identified in ENSEMBL by keyword searches for NACHT, PYRIN or CARD domains. </plain></SENT>
+<SENT sid="828" pm="."><plain>EST sequences for these species were identified by BLAST-based searching the <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot> gene indices [35] or the "other vertebrate EST" section of GenBank at NCBI, and used to confirm and correct the gene predictions. </plain></SENT>
+<SENT sid="829" pm="."><plain>The unique NACHT-<z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot>-B30.2 arrangement for <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C was determined by completely sequencing zebrafish EST CK126487 [GenBank:<ext-link ext-link-type="gen" xlink:href="EF613347">EF613347</ext-link>]. </plain></SENT>
+<SENT sid="830" pm="."><plain>The EST was obtained from the American Type Culture Collection (ATCC) (Image number 7049223) and sequencing was carried out in-house using an ABI 3030 automated sequencer, universal (<z:uniprot sup="inside" fb="3" ids="Q3SY56">SP6</z:uniprot>/T7) and gene specific primers (located in Table 6) and BigDye V3.1. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T6" position="float"><label>Table 6</label><caption><p><text><SENT sid="831" pm="."><plain>Oligonucleotide primers used for RT-PCR analyses and sequencing </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="832" pm="."><plain>Target </plain></SENT>
+</text></th><th align="left"><text><SENT sid="833" pm="."><plain>Primer name </plain></SENT>
+</text></th><th align="left"><text><SENT sid="834" pm="."><plain>Sequence 5'-3' </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="835" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="836" pm="."><plain>ZF-NOD1ex-F1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="837" pm="."><plain><z:uniprot sup="inside" fb="3" ids="Q10PC5">TTA</z:uniprot> <z:uniprot sup="inside" fb="5" ids="Q5JSL3,A2AF47">ACG</z:uniprot> ATT ATG GCG TGA AGC </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="838" pm="."><plain>ZF-NOD1ex-R1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="839" pm="."><plain>GAA CCT CAA <z:uniprot sup="inside" fb="57" ids="O64328,P03734,O64312,O64313">TAC</z:uniprot> CGC TGT CTG </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="840" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="841" pm="."><plain>ZF-NOD2ex-F1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="842" pm="."><plain>TGG ATG TTG AGC ACC TGA AG </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="843" pm="."><plain>ZF-NOD2ex-R1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="844" pm="."><plain>CCC TTT TCC AGA AGT TTT CG </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="845" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="846" pm="."><plain>ZF-NOD3ex-F1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="847" pm="."><plain>TCT GTG CTG TTC TCG CCT ATT </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="848" pm="."><plain>ZF-NOD3ex-R1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="849" pm="."><plain>ACT CAG CAG ACT TCC CAA CAG </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="850" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="851" pm="."><plain>ZF-NOD4ex-F1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="852" pm="."><plain>AAA CTG GCA AAG GCT ATT GGT </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="853" pm="."><plain>ZF-NOD4ex-R1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="854" pm="."><plain>CAG GAT ACC GCA CAA AGT CTC </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="855" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A5 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="856" pm="."><plain>ZF-NOD5ex-F1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="857" pm="."><plain>TGA ATG AGC TGA ACC TGT CCT </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="858" pm="."><plain>ZF-NOD5ex-R1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="859" pm="."><plain>TCA <z:uniprot sup="inside" fb="0" ids="P70106,P25092,Q3UWA6,P55204,P23897">GCC</z:uniprot> GCT GTA <z:uniprot sup="inside" fb="160" ids="P01105,P08405">GAG</z:uniprot> AGT GAT </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="860" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="861" pm="."><plain>NLRB FI </plain></SENT>
+</text></td><td align="left"><text><SENT sid="862" pm="."><plain>CAG ATC AAA GTG <z:uniprot sup="inside" fb="1" ids="P51176,P08587,Q01841,P21980,P21981,P52181">TGC</z:uniprot> AGC AGG TTC </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="863" pm="."><plain>NLRB RI </plain></SENT>
+</text></td><td align="left"><text><SENT sid="864" pm="."><plain>TTG TGG AAC GAC TCT GTG AAG CTC </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="865" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C </plain></SENT>
+</text></td><td align="left"><text><SENT sid="866" pm="."><plain>NLRC-F </plain></SENT>
+</text></td><td align="left"><text><SENT sid="867" pm="."><plain>GAA <z:uniprot sup="inside" fb="160" ids="P01105,P08405">GAG</z:uniprot> GAT <z:uniprot sup="inside" fb="57" ids="O64328,P03734,O64312,O64313">TAC</z:uniprot> AGC AGG ACT </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="868" pm="."><plain>NLRC-R </plain></SENT>
+</text></td><td align="left"><text><SENT sid="869" pm="."><plain>TCT CCA CTG CAG TCA ATC TC </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="870" pm="."><plain><z:uniprot sup="inside" fb="56" ids="O60218,P61110,Q62781,Q13795,Q63055,P45951,Q04732,P04931,P54107,P80513,P55145,P32770,Q9P2R6">ARP</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="871" pm="."><plain>ZF <z:uniprot sup="inside" fb="56" ids="O60218,P61110,Q62781,Q13795,Q63055,P45951,Q04732,P04931,P54107,P80513,P55145,P32770,Q9P2R6">ARP</z:uniprot> 35F </plain></SENT>
+</text></td><td align="left"><text><SENT sid="872" pm="."><plain><z:uniprot sup="inside" fb="3" ids="Q10PC5">TTA</z:uniprot> AAC CGG CTG TTC ACC GAT CCT </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="873" pm="."><plain>ZF <z:uniprot sup="inside" fb="56" ids="O60218,P61110,Q62781,Q13795,Q63055,P45951,Q04732,P04931,P54107,P80513,P55145,P32770,Q9P2R6">ARP</z:uniprot> 271R </plain></SENT>
+</text></td><td align="left"><text><SENT sid="874" pm="."><plain>CGA ATG <z:uniprot sup="inside" fb="0" ids="P70106,P25092,Q3UWA6,P55204,P23897">GCC</z:uniprot> TTC CTC ATC ATG GTG TT </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="875" pm="."><plain>EST-CK126487 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="876" pm="."><plain>ZF-EST487-F1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="877" pm="."><plain>GTC <z:uniprot sup="inside" fb="57" ids="O64328,P03734,O64312,O64313">TAC</z:uniprot> AGC TTC ATC CAT CT </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="878" pm="."><plain>ZF-EST487-R1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="879" pm="."><plain>ACA GAC TGA ATG ATT CTC TCA </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="880" pm="."><plain>ZF-EST487-F2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="881" pm="."><plain>AGC TCT GCT ACA GGA CTG T </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="882" pm="."><plain>ZF-EST487-R2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="883" pm="."><plain>CTC ATT ACT GAT CAA CTG AAC A </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="884" pm="."><plain>ZF-EST487-F3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="885" pm="."><plain>CCT CAA TCT GTG CCC T </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="886" pm="."><plain>ZF-EST487-R3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="887" pm="."><plain>CGG AGT AAA GCT GCT A </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="888" pm="."><plain>Chromosomal locations for the NLRs were deduced by matching the translated <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> sequences against the genomes using BLAT [36] at the UCSC Genome Browser database [37]. </plain></SENT>
+<SENT sid="889" pm="."><plain>Specific domains within the zebrafish NLRs were confirmed by searching the Conserved domain database (CDD v 2.09) [38] at NCBI, by comparison to the PFAM hidden Markov Model (HMM) logos [39] and by direct comparison to putative mammalian orthologs. </plain></SENT>
+<SENT sid="890" pm="."><plain>Genome versions used during these analyses are G. gallus assembly version 2.1 (May 2006), X. tropicalis assembly version 4.1 (August 2005), T. nigroviridis assembly version 7 (February 2004), T. rubripes assembly version 3 (August 2002) in BLAT and version 4 (December 2005) in ENSEMBL, and D. rerio assembly version 6 (March 2006). </plain></SENT>
+<SENT sid="891" pm="."><plain>Following submission of this manuscript, assembly version 7 of the zebrafish genome became available, and all gene predictions were reanalyzed against this assembly. </plain></SENT>
+<SENT sid="892" pm="."><plain>Data from Zv7 are available in supplementary tables [see Additional file 2]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="893" pm="."><plain>Phylogeny of NLRs </plain></SENT>
+</text></title><p><text><SENT sid="894" pm="."><plain>The phylogenetic relationships between zebrafish NLRs and human NLRs were predicted using both the maximum evolution and neighbor-joining methods within the MEGA 3.1 program [40]. </plain></SENT>
+<SENT sid="895" pm="."><plain>Partial amino acid sequences from the NACHT domain (from regions corresponding to the GxxGxGKS motif to the FAAFY sequence signature of human <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot>) were used in the analyses as this region was clearly identified in all NLRs. </plain></SENT>
+<SENT sid="896" pm="."><plain>Further analysis of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A and <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-B subfamilies including frog and chicken NLRs were performed using the same methods. </plain></SENT>
+<SENT sid="897" pm="."><plain>All trees were constructed from CLUSTALW generated alignments [41], using Poisson correction, complete deletion of gaps, and bootstrapped 1000 times. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="898" pm="."><plain>Expression of zebrafish NLRs </plain></SENT>
+</text></title><p><text><SENT sid="899" pm="."><plain>The specific expression patterns of the <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> gene family in zebrafish tissues were investigated. </plain></SENT>
+<SENT sid="900" pm="."><plain>Zebrafish (Ekwill strain) were obtained from Ekwill Fish Farm, FL and reared in sand-filtered and UV-treated freshwater at a constant temperature of 24°C. </plain></SENT>
+<SENT sid="901" pm="."><plain>Fish were fed a daily ration of adult zebrafish diet (Zeigler). </plain></SENT>
+<SENT sid="902" pm="."><plain>Genomic DNA was extracted from fin tissue using the DNeasy extraction kit (Qiagen) following manufacturer's instructions. </plain></SENT>
+<SENT sid="903" pm="."><plain>The spleen, liver and intestinal tissues were removed from two individuals and RNA was extracted using the RNeasy RNA extraction kit with in-column DNAse treatment (Qiagen) following manufacturer's instructions. </plain></SENT>
+<SENT sid="904" pm="."><plain>Total RNA was purified and cDNA was synthesized as previously described [42]. </plain></SENT>
+<SENT sid="905" pm="."><plain>A control, containing liver RNA but lacking <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot>, was also synthesized. </plain></SENT>
+<SENT sid="906" pm="."><plain>The 20 μL cDNA synthesis reactions were diluted to a final volume 100 μL and stored at -20°C until use. </plain></SENT>
+<SENT sid="907" pm="."><plain>PCR amplifications were performed in a 25 μl final reaction volume containing 2 μL of diluted cDNA, reagents from the Taq core PCR kit (Qiagen) and 12.5 pM of each primer. </plain></SENT>
+<SENT sid="908" pm="."><plain>Primer pairs used to detect transcripts for each <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot> gene are listed in Table 6 with their sequences. </plain></SENT>
+<SENT sid="909" pm="."><plain>Cycling conditions for all amplifications consisted of 95°C for 3 min, 35 cycles of 94°C for 30 sec, 55°C for 30 sec and 72°C for 1 min, followed by final extension of 10 min at 72°C. </plain></SENT>
+<SENT sid="910" pm="."><plain>Amplified products were subjected to electrophoresis on a 3% agarose gel and visualized by ethidium bromide staining. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="ABBR"><sec><title><text><SENT sid="911" pm="."><plain>Abbreviations </plain></SENT>
+</text></title><p><text><SENT sid="912" pm="."><plain>BLAST: Basic local alignment search tool; BLAT: The BLAST-like Alignment Tool; CDD: Conserved Domain Database; EST: Expressed sequence tag; HMM: Hidden Markov model; meso-<z:uniprot sup="inside" fb="23" ids="Q5EAE6,P51397,Q2UPZ7,Q9ULA0,Q7TNY6,P10997,P12968,P12969">DAP</z:uniprot>: γ-D-glutamyl-meso-diaminopimelic acid; <z:uniprot sup="inside" fb="0" ids="P07052">PRR</z:uniprot>: pattern recognition receptor; RT-PCR: <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot>-PCR; <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot>: The Institute for Genome Research. </plain></SENT>
+</text></p><p><text><SENT sid="913" pm="."><plain>List of proteins and protein family names: </plain></SENT>
+</text></p><p><text><SENT sid="914" pm="."><plain>CATERPILLER: CARD, Transcription Enhancer, R (purine)-binding, <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">Pyrin</z:uniprot>, Lots of Leucine Repeats; CLR: CATERPILLER-like receptor; <z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot>: <z:uniprot sup="inside" fb="0" ids="P33076,P79621">MHC class II transactivator</z:uniprot>; IL: interleukin; <z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4">IPAF</z:uniprot>: <z:uniprot sup="inside" fb="0" ids="F1MHT9,Q9NPP4,Q3UP24,F1M649,F6R2G2">Ice protease-activating factor</z:uniprot>; MHC: Major histocompatibility complex; <z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot>: <z:uniprot sup="inside" fb="0" ids="Q13075">neuronal apoptosis inhibitory protein</z:uniprot>; NALP: Nacht Domain-, Leucine-Rich Repeat-, and PYD-Containing Protein; NF-κB: Nuclear factor kappa b; <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>: NOD-like receptor; RICK: <z:uniprot sup="inside" fb="0" ids="O43353">RIP-like-interacting CLARP kinase</z:uniprot>; <z:uniprot sup="inside" fb="0" ids="P23799">TLR</z:uniprot>: Toll-like receptor. </plain></SENT>
+</text></p><p><text><SENT sid="915" pm="."><plain>List of conserved domain names: </plain></SENT>
+</text></p><p><text><SENT sid="916" pm="."><plain>CARD: <z:uniprot sup="inside" fb="0" ids="O01382">caspase</z:uniprot> recruitment domain; <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot>: Leucine-rich repeat; NACHT: <z:uniprot sup="inside" fb="0" ids="Q13075">NAIP</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P33076,P79621">CIITA</z:uniprot>, <z:uniprot sup="inside" fb="19" ids="Q96BI1,Q15424">HET</z:uniprot>-E (bacterial <z:uniprot sup="inside" fb="0" ids="Q57679">nucleotide triphosphatase</z:uniprot> protein) and <z:uniprot sup="inside" fb="0" ids="P15696,P56828,P56830,P56829,P56831,P56832,Q28594,Q28595,Q29429,Q08071,Q08072,Q08070,Q08053,P28169,P28171,O46633,Q95187,P28172,P82009,Q5F3A1,Q99442,Q8BU14,Q5R4Q3,P17305,P09430,P10856,P17306,P02317,P22613">TP1</z:uniprot> (telomerase-associated protein); NOD: nucleotide oligomerization domain; SPRY: SPla/RYanodine receptor; TRIM: tripartite motif-containing. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="AUTH_CONT"><sec><title><text><SENT sid="917" pm="."><plain>Authors' contributions </plain></SENT>
+</text></title><p><text><SENT sid="918" pm="."><plain>KJL carried out data mining, phylogenetics and bioinformatics analyses, participated in the conception, design and coordination of the study, and drafted the manuscript. </plain></SENT>
+<SENT sid="919" pm="."><plain>MKP designed and performed the expression analyses, participated in the conception, design and coordination of the study, and assisted in the writing and approval of the manuscript. </plain></SENT>
+<SENT sid="920" pm="."><plain>JRW provided advice and gave final approval for publication. </plain></SENT>
+<SENT sid="921" pm="."><plain>JDH performed in-house sequencing of EST clones, assisted in primer design, provided advice, read, edited and approved the final manuscript. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="922" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="S1"><caption><title><text><SENT sid="923" pm="."><plain>Additional File 1 </plain></SENT>
+</text></title><p><text><SENT sid="924" pm="."><plain>Comparison of human and zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A molecules. </plain></SENT>
+<SENT sid="925" pm="."><plain>Alignment of predicted translations of zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A genes with their predicted human orthologs. </plain></SENT>
+<SENT sid="926" pm="."><plain>Sequence signatures in the NACHT domains used as boundaries for phylogenetic analyses are highlighted in yellow, and putative leucine-rich repeat motifs (or variants) are highlighted in red. </plain></SENT>
+<SENT sid="927" pm="."><plain>Conserved amino acids between sequences are shown with "*", while ":" and "." represent high or low similarity of amino acids respectively. </plain></SENT>
+</text></p></caption><media xlink:href="1471-2148-8-42-S1.doc" mimetype="application" mime-subtype="msword"><caption><p><text><SENT sid="928" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S2"><caption><title><text><SENT sid="929" pm="."><plain>Additional File 2 </plain></SENT>
+</text></title><p><text><SENT sid="930" pm="."><plain>Tables describing gene predictions and their locations for <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-A, -B and -C genes in zebrafish genome assembly version 7. </plain></SENT>
+</text></p></caption><media xlink:href="1471-2148-8-42-S2.doc" mimetype="application" mime-subtype="msword"><caption><p><text><SENT sid="931" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S3"><caption><title><text><SENT sid="932" pm="."><plain>Additional File 3 </plain></SENT>
+</text></title><p><text><SENT sid="933" pm="."><plain>The B30.2 domain of zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C. </plain></SENT>
+<SENT sid="934" pm="."><plain>Alignment of zebrafish <z:uniprot sup="inside" fb="1" ids="P34997">NLR</z:uniprot>-C57 (see Table 4) with similar cDNA sequences identified in the <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot> database. </plain></SENT>
+<SENT sid="935" pm="."><plain>The B30.2 (PRY-SPRY) domain is indicated, with a conserved signature (WEIDW/C) in the SPRY domain highlighted. </plain></SENT>
+<SENT sid="936" pm="."><plain>Several upstream <z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> are also shown. </plain></SENT>
+<SENT sid="937" pm="."><plain>Numbers to the right of the alignment represent the amino acid position of the translated sequences. </plain></SENT>
+</text></p></caption><media xlink:href="1471-2148-8-42-S3.doc" mimetype="application" mime-subtype="msword"><caption><p><text><SENT sid="938" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="939" pm="."><plain>We thank Dr Chris Amemiya for valuable advice. </plain></SENT>
+<SENT sid="940" pm="."><plain>This work was supported by National Science Foundation Molecular and Cellular Biosciences Grant 0453924 (to J.D.H.) and by U.S. </plain></SENT>
+<SENT sid="941" pm="."><plain>Geological Survey base funding. </plain></SENT>
+<SENT sid="942" pm="."><plain>The use of trade, firm or corporation names in this publication is for the information and convenience of the reader. </plain></SENT>
+<SENT sid="943" pm="."><plain>Such use does not constitute an official endorsement or approval by the U.S. </plain></SENT>
+<SENT sid="944" pm="."><plain>Department of Interior or the U.S. </plain></SENT>
+<SENT sid="945" pm="."><plain>Geological Survey of any product or service to the exclusion of others that may be suitable. </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="946" pm="."><plain>MartinonFTschoppJNLRs join <z:uniprot sup="inside" fb="0" ids="P23799">TLRs</z:uniprot> as innate sensors of pathogensTrends in Immunology200526844745410.1016/j.it.2005.06.00415967716 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="947" pm="."><plain>TingJPYDavisBKCATERPILLER: A novel gene family important in immunity, cell death, and diseasesAnnual Review of Immunology200523138741410.1146/annurev.immunol.23.021704.115616 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="948" pm="."><plain>WainHMLushMJDucluzeauFKhodiyarVKPoveySGenew: the Human Gene Nomenclature Database, 2004 updatesNucl Acids Res200432suppl_1D25525710.1093/nar/gkh07214681406 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="949" pm="."><plain>DeYoungBJInnesRWPlant <z:uniprot sup="inside" fb="31" ids="P19667,O60934">NBS</z:uniprot>-<z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> proteins in pathogen sensing and host defenseNat Immunol20067121243124910.1038/ni141017110940 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="950" pm="."><plain>FritzJHFerreroRLPhilpottDJGirardinSENod-like proteins in immunity, inflammation and diseaseNat Immunol20067121250125710.1038/ni141217110941 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="951" pm="."><plain>KannegantiTDBody-MalapelMAmerAParkJHWhitfieldJFranchiLTaraporewalaZFMillerDPattonJTInoharaNNunezGCritical role for <z:uniprot sup="inside" fb="0" ids="Q96P20,Q8R4B8,D4A523">cryopyrin</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q8R4B8,D4A523">Nalp3</z:uniprot> in activation of <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> in response to viral infection and double-stranded RNAJ Biol Chem200628148365603656810.1074/jbc.M60759420017008311 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="952" pm="."><plain>OguraYSutterwalaFSFlavellRAThe Inflammasome: First line of the immune response to cell stressCell2006126465966210.1016/j.cell.2006.08.00216923387 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="953" pm="."><plain>InoharaNKosekiTLinJdel PesoLLucasPCChenFFOguraYNunezGAn induced proximity model for NF-kappa B activation in the <z:uniprot sup="inside" fb="0" ids="Q8BHB0">Nod1</z:uniprot>/RICK and RIP signaling pathwaysJ Biol Chem200027536278232783110880512 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="954" pm="."><plain>OguraYInoharaNBenitoAChenFFYamaokaSNunezGNod2, a <z:uniprot sup="inside" fb="0" ids="Q8BHB0">Nod1</z:uniprot>/Apaf-1 family member that is restricted to monocytes and activates NF-kappa BJ Biol Chem200127674812481810.1074/jbc.M00807220011087742 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="955" pm="."><plain>WilliamsKLLichJDDuncanJAReedWRallabhandiPMooreCKurtzSCoffieldVMNAccavitti-LoperMASuLVogelSNBraunsteinMTingJPYThe CATERPILLER protein <z:uniprot sup="inside" fb="0" ids="P59046,E9Q5R7">monarch-1</z:uniprot> is an antagonist of Toll-like Receptor-, <z:uniprot sup="inside" fb="0" ids="P59684,Q1G1A2,Q06599,P59693,Q2MH05,Q19LH4,Q75N23,P51742,P13296,P51435,P51743,Q1WM27,Q8WNR1,P19101,P29553,P01375,P59694,O77764,P79337,P48094,O35734,P06804,Q8HZD9,P59695,O77510,P33620,P36939,P23563,P04924,P16599,Q8MKG8,P23383,Q8JFG3,P79374,Q539C2,Q9BEA1">tumor necrosis factor</z:uniprot>-α- , and Mycobacterium tuberculosis-induced pro-inflammatory signalsJ Biol Chem200528048399143992410.1074/jbc.M50282020016203735 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="956" pm="."><plain>KummerJABroekhuizenREverettHAgostiniLKuijkLMartinonFvan BruggenRTschoppJInflammasome Components NALP 1 and 3 Show Distinct but Separate Expression Profiles in Human Tissues, Suggesting a Site-specific Role in the Inflammatory ResponseJ Histochem Cytochem2006In press (jhc.6A7101.2006) </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="957" pm="."><plain>MariathasanSWeissDSNewtonKMcBrideJO'RourkeKRoose-GirmaMLeeWPWeinrauchYMonackDMDixitVMCryopyrin activates the inflammasome in response to toxins and ATPNature2006440708122823210.1038/nature0451516407890 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="958" pm="."><plain>ChamaillardMHashimotoMHorieYMasumotoJQiuSSaabLOguraYKawasakiAFukaseKKusumotoSValvanoMAFosterSJMakTWNunezGInoharaNAn essential role for <z:uniprot sup="inside" fb="0" ids="E1F8Q4">NOD1</z:uniprot> in host recognition of bacterial peptidoglycan containing diaminopimelic acidNat Immunol20034770270710.1038/ni94512796777 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="959" pm="."><plain>GirardinSEBonecaIGVialaJChamaillardMLabigneAThomasGPhilpottDJSansonettiPJNod2 is a general sensor of peptidoglycan through muramyl dipeptide (<z:uniprot sup="inside" fb="32" ids="P16444">MDP</z:uniprot>) detectionJ Biol Chem2003278118869887210.1074/jbc.C20065120012527755 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="960" pm="."><plain>HughesALEvolutionary relationships of vertebrate NACHT domain-containing proteinsImmunogenetics2006V581078579110.1007/s00251-006-0148-817006665 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="961" pm="."><plain>HibinoTLoza-CollMMessierCMajeskeAJCohenAHTerwilligerDPBuckleyKMBrocktonVNairSVBerneyKThe immune gene repertoire encoded in the purple sea urchin genomeDevelopmental Biology2006300134936510.1016/j.ydbio.2006.08.06517027739 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="962" pm="."><plain>InoharaNNunezGGenes with homology to mammalian apoptosis regulators identified in zebrafish.Cell Death Differ20007550951010.1038/sj.<z:uniprot sup="inside" fb="8" ids="A3N1Z1,B3GYC3,B0BQT2,A6VLF5,A0KJH4,A4SNI2,Q5E4R6,B5FEN2,Q9KD53,P19079,A8AE87,A7MLJ4,A7ZNW5,B7UFF9,B7MF55,B7LA09,Q8X648,B5YW75,B7NMA8,B7MXF5,B7M4Y8,C4ZSM3,B1X7N2,A8A204,A1AD04,Q0TFU8,Q8FFV3,B1IYC6,P0ABF6,B7NCH2,B6I8J3,B1LKP0,Q1R9T0,C5BCM4,A4WCI1,B2VIF3,B7LVA3,Q7VMJ6,Q4QK60,A5UBV9,A5UEI7,P44325,Q0I4X6,B0USP2,B5XP65,A6TBN1,Q65RG8,P47298,P47718,P75051,P9WPH2,P9WPH3,Q9CP11,Q6D3B4,C6DDS7,Q7N6K3,Q6LRI0,B4ESY3,Q3IBX5,B5EYN3,A9MKS5,Q57MF5,B5FMZ9,B5R153,B5RC22,B4TAK5,B4SY15,Q5PE68,A9N6L3,C0Q0V4,B5BE52,B4TNP0,Q8Z5A8,Q8ZNM0,A8GC32,A1S723,B8EF35,A3D392,A6WLY5,A9KXF0,Q083S7,B0TQV3,A3QDC9,Q8EDG1,A8H5H1,A4Y5R0,B8CR83,A0KYD1,A8FWK2,Q0HHI5,Q0HTT9,A1RL10,B1KRC5,B2TVV2,Q322V3,Q32EM3,Q0T2Y0,P0ABF7,Q3Z062,Q2NUD2,Q9S3M0,A5F1V7,A7MVH6,Q9KSM5,C3LLS7,Q87Q52,B7VPF1,Q8DA31,Q7MK48,A7FJK3,Q1C9U7,B2JZJ6,Q8ZG08,A9R1B9,Q1CGT5,A4TKN7,Q66C79,B1JPZ5">cdd</z:uniprot>.440067910917738 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="963" pm="."><plain>InoharaNKosekiTdel PesoLHuYYeeCChenSCarrioRMerinoJLiuDNiJNunezGNod1, an Apaf-1-like activator of <z:uniprot sup="inside" fb="0" ids="P55211,Q8C3Q9">caspase-9</z:uniprot> and nuclear factor-kappa BJ Biol Chem199927421145601456710.1074/jbc.274.21.1456010329646 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="964" pm="."><plain>OguraYLalaSXinWSmithEDowdsTAChenFFZimmermannETretiakovaMChoJHHartJGreensonJKKeshavSNunezGExpression of <z:uniprot sup="inside" fb="0" ids="E1F8H4">NOD2</z:uniprot> in Paneth cells: a possible link to Crohn's ileitisGut200352111591159710.1136/gut.52.11.159114570728 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="965" pm="."><plain>GutierrezOPipaonCInoharaNFontalbaAOguraYProsperFNunezGFernandez-LunaJLInduction of <z:uniprot sup="inside" fb="0" ids="Q8K3Z0">Nod2</z:uniprot> in myelomonocytic and intestinal epithelial cells via nuclear factor-kappa B activationJ Biol Chem200227744417014170510.1074/jbc.M20647320012194982 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="966" pm="."><plain>ContiBJDavisBKZhangJO'ConnorWJr.WilliamsKLTingJPYCATERPILLER 16.2 (<z:uniprot sup="inside" fb="0" ids="Q7RTR2">CLR16.2</z:uniprot>), a Novel NBD/<z:uniprot sup="inside" fb="0" ids="P84730">LRR</z:uniprot> family member that negatively regulates T Cell functionJ Biol Chem200528018183751838510.1074/jbc.M41316920015705585 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="967" pm="."><plain>MartinonFAgostiniLMeylanETschoppJIdentification of Bacterial Muramyl Dipeptide as Activator of the <z:uniprot sup="inside" fb="0" ids="Q96P20">NALP3</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q96P20,Q8R4B8,D4A523">Cryopyrin</z:uniprot> InflammasomeCurrent Biology20041421192910.1016/j.cub.2004.10.02715530394 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="968" pm="."><plain>LiXGoldBO'HUiginCDiaz-GrifferoFSongBSiZLiYYuanWStremlauMMischeCUnique features of <z:uniprot sup="inside" fb="0" ids="Q5D7I6,Q5D7I1,Q5D7I5,Q587N7,Q5C8U4,Q5C8U3,Q5D7J0,Q5D7I3,Q5C8T6,Q2YEM8,Q3ZEE5,Q5D7H7,Q2YEN2,Q587N6,Q0PF16,Q2YEN0,Q1ACD7,Q1ACD8,Q5D7J1,Q5D7J2,Q5D7I2,Q5D7H8,Q5C8T8,Q2YEM9,Q5D7I9,Q5C8U1,Q1ACD5,Q5BN31,Q5D7I0,Q1ACD6">TRIM5α</z:uniprot> among closely related human TRIM family membersVirology2007360 241943310.1016/j.virol.2006.10.03517156811 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="969" pm="."><plain>ChaeJJWoodGMastersSLRichardKParkGSmithBJKastnerDLThe B30.2 domain of <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">pyrin</z:uniprot>, the familial Mediterranean fever protein, interacts directly with <z:uniprot sup="inside" fb="0" ids="Q9MZV7,O02002,Q9MZV6,Q9TV13,P29466,P29452,Q9N2I1,P43527,P89116">caspase-1</z:uniprot> to modulate <z:uniprot sup="inside" fb="0" ids="P09428,Q2MH07,Q28292,P79162,Q9WVG1,P46648,P51745,Q8WNR2,Q6R2X3,P41687,Q28386,P01584,Q865X8,P79182,P48090,P51493,P10749,A4UYK8,Q6PUD2,P26889,Q2HZH0,P14628,Q63264,P21621,Q9XS77">IL-1beta</z:uniprot> productionPNAS2006103269982998710.1073/pnas.060208110316785446 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="970" pm="."><plain>SongBGoldBO'HUiginCJavanbakhtHLiXStremlauMWinklerCDeanMSodroskiJThe B30.2(SPRY) Domain of the Retroviral Restriction Factor <z:uniprot sup="inside" fb="0" ids="Q5D7I6,Q5D7I1,Q5D7I5,Q587N7,Q5C8U4,Q5C8U3,Q5D7J0,Q5D7I3,Q5C8T6,Q2YEM8,Q3ZEE5,Q5D7H7,Q2YEN2,Q587N6,Q0PF16,Q2YEN0,Q1ACD7,Q1ACD8,Q5D7J1,Q5D7J2,Q5D7I2,Q5D7H8,Q5C8T8,Q2YEM9,Q5D7I9,Q5C8U1,Q1ACD5,Q5BN31,Q5D7I0,Q1ACD6">TRIM5α</z:uniprot> Exhibits Lineage-Specific Length and Sequence Variation in PrimatesJ Virol200579106111612110.1128/JVI.79.10.6111-6121.200515857996 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="971" pm="."><plain>MorettaLMorettaAKiller immunoglobulin-like receptorsCurrent Opinion in Immunology200416562610.1016/j.<z:uniprot sup="inside" fb="11" ids="P08305,P29643,P29644,P16262,O78681,P24985,Q9MIY8,P34188,Q36775,P29645,P29646,P29647,P29648,P03945,P48170,P29649,Q95911,P29650,P29651,P29652,Q9ZZM6,P29653,P29654,Q4JQI5,P00398">coi</z:uniprot>.2004.07.01015342010 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="972" pm="."><plain>YoderJALitmanRTMuellerMGDesaiSDobrinskiKPMontgomeryJSBuzzeoMPOtaTAmemiyaCTTredeNSWeiSDjeuJYHumphraySJekoschKHernandez PradaJAOstrovDALitmanGWResolution of the novel immune-type receptor gene cluster in zebrafishPNAS200410144157061571110.1073/pnas.040524210115496470 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="973" pm="."><plain>MeyerAVan de PeerYFrom 2R to 3R: evidence for a fish-specific genome duplication (FSGD)Bioessays200527993794510.1002/bies.2029316108068 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="974" pm="."><plain>DehalPBooreJLTwo rounds of whole genome duplication in the ancestral vertebratePLoS Biol2005310e31410.1371/journal.pbio.003031416128622 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="975" pm="."><plain>ZhouHSuHSZhangXDouhanJ3rdGlimcherLHCIITA-dependent and -independent class II MHC expression revealed by a dominant negative mutantJ Immunol199715810474147499144488 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="976" pm="."><plain>WilliamsKLTaxmanDJLinhoffMWReedWTingJPYCutting Edge: <z:uniprot sup="inside" fb="0" ids="P59046,E9Q5R7">Monarch-1</z:uniprot>: A <z:uniprot sup="inside" fb="0" ids="O15553,Q9JJ26,Q9JJ25">pyrin</z:uniprot>/nucleotide-binding domain/leucine-rich repeat protein that controls classical and nonclassical MHC class I genesJ Immunol2003170115354535812759408 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="977" pm="."><plain>WuCHApweilerRBairochANataleDABarkerWCBoeckmannBFerroSGasteigerEHuangHLopezRMagraneMMartinMJMazumderRO'DonovanCRedaschiNSuzekBThe Universal Protein Resource (UniProt): an expanding universe of protein informationNucl Acids Res200634suppl_1D18719110.1093/nar/gkj16116381842 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="978" pm="."><plain>Ensembl Genome Browser<ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org">http://www.ensembl.org</ext-link> </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="979" pm="."><plain>McGinnisSMaddenTLBLAST: at the core of a powerful and diverse set of sequence analysis toolsNucl Acids Res200432suppl_2W202510.1093/nar/gkh43515215342 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="980" pm="."><plain>The Institute for Genomic Research - <z:uniprot sup="inside" fb="0" ids="Q9XTA3,Q99972,Q863A3,Q866N2,A2A9C3">TIGR</z:uniprot><ext-link ext-link-type="uri" xlink:href="http://www.tigr.org">http://www.tigr.org</ext-link> </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="981" pm="."><plain>KentWJBLAT---The BLAST-like alignment toolGenome Res200212465666410.1101/gr.229202. </plain></SENT>
+<SENT sid="982" pm="."><plain>Article published online before March 200211932250 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="983" pm="."><plain>UCSC Genome Browser<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu">http://genome.ucsc.edu</ext-link> </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="984" pm="."><plain>Marchler-BauerAAndersonJBCherukuriPFDeWeese-ScottCGeerLYGwadzMHeSHurwitzDIJacksonJDKeZLanczyckiCJLiebertCALiuCLuFMarchlerGHMullokandovMShoemakerBASimonyanVSongJSThiessenPAYamashitaRAYinJJZhangDBryantSHCDD: a Conserved Domain Database for protein classificationNucl Acids Res200533suppl_1D19219615608175 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="985" pm="."><plain>Schuster-BocklerBSchultzJRahmannSHMM Logos for visualization of protein familiesBMC Bioinformatics200451710.1186/1471-2105-5-714736340 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="986" pm="."><plain>KumarSTamuraKNeiMMEGA3: Integrated software for Molecular Evolutionary Genetics Analysis and sequence alignmentBrief Bioinform20045215016310.1093/<z:uniprot sup="inside" fb="47" ids="P23645">bib</z:uniprot>/5.2.15015260895 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="987" pm="."><plain>ThompsonJDHigginsDGGibsonTJCLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choiceNucl Acids Res199422224673468010.1093/nar/22.22.46737984417 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="988" pm="."><plain>PurcellMKKurathGGarverKAHerwigRPWintonJRQuantitative expression profiling of immune response genes in rainbow trout following infectious haematopoietic necrosis virus (IHNV) infection of DNA vaccinationFish and Shellfish Immunology200417544746210.1016/j.fsi.2004.04.01715313511 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

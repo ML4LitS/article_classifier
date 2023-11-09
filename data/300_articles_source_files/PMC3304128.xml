@@ -1,0 +1,630 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sensors (Basel)</journal-id><journal-title-group><journal-title>Sensors (Basel, Switzerland)</journal-title></journal-title-group><issn pub-type="epub">1424-8220</issn><publisher><publisher-name>Molecular Diversity Preservation International (MDPI)</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3304128</article-id><article-id pub-id-type="doi">10.3390/s120201572</article-id><article-id pub-id-type="publisher-id">sensors-12-01572</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Method for Reading Sensors and Controlling Actuators Using Audio Interfaces of Mobile Devices </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Aroca</surname><given-names>Rafael V.</given-names></name><xref ref-type="corresp" rid="c1-sensors-12-01572"><sup>★</sup></xref></contrib><contrib contrib-type="author"><name><surname>Burlamaqui</surname><given-names>Aquiles F.</given-names></name></contrib><contrib contrib-type="author"><name><surname>Gonçalves</surname><given-names>Luiz M. G.</given-names></name></contrib><aff id="af1-sensors-12-01572">NatalNet Laboratory, Technology Center, Computing Engineering and Automation Department, Federal University of Rio Grande do Norte, Natal, RN 59078-900, Brazil; E-Mails: <email>aquiles@natalnet.br</email> (A.F.B.); <email>lmarcos@natalnet.br</email> (L.M.G.G.)</aff></contrib-group><author-notes><corresp id="c1-sensors-12-01572"><label>★</label>Author to whom correspondence should be addressed; E-Mail: <email>rafaelaroca@ieee.org</email>; Tel.: +55-84-8104-1397; Fax: +55-84-3215-3771.</corresp></author-notes><pub-date pub-type="collection"><year>2012</year></pub-date><pub-date pub-type="epub"><day>6</day><month>2</month><year>2012</year></pub-date><volume>12</volume><issue>2</issue><fpage>1572</fpage><lpage>1593</lpage><history><date date-type="received"><day>24</day><month>12</month><year>2011</year></date><date date-type="rev-recd"><day>29</day><month>1</month><year>2012</year></date><date date-type="accepted"><day>30</day><month>1</month><year>2012</year></date></history><permissions><copyright-statement>© 2012 by the authors; licensee MDPI, Basel, Switzerland</copyright-statement><copyright-year>2012</copyright-year><license><license-p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>).</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>This article presents a novel closed loop control architecture based on audio channels of several types of computing devices, such as mobile phones and tablet computers, but not restricted to them. </plain></SENT>
+<SENT sid="2" pm="."><plain>The communication is based on an audio interface that relies on the exchange of audio tones, allowing sensors to be read and actuators to be controlled. </plain></SENT>
+<SENT sid="3" pm="."><plain>As an application example, the presented technique is used to build a low cost mobile robot, but the system can also be used in a variety of mechatronics applications and sensor networks, where smartphones are the basic building blocks. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>sensors</kwd><kwd>smartphones</kwd><kwd>mobile devices</kwd><kwd>mechatronics</kwd><kwd>robotics</kwd><kwd>robot</kwd><kwd>control</kwd><kwd>actuators</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec><label>1.</label><title><text><SENT sid="4" pm="."><plain>Introduction and Motivation </plain></SENT>
+</text></title><p><text><SENT sid="5" pm="."><plain>Most robots and automation systems rely on processing units to control their behavior. </plain></SENT>
+<SENT sid="6" pm="."><plain>Such processing units can be embedded processors (such as microcontrollers) or general purpose computers (such as PCs) with specialized Input/Output (I/O) accessories. </plain></SENT>
+<SENT sid="7" pm="."><plain>One common practice is the use of USB devices with several I/O options connected to a PC. </plain></SENT>
+<SENT sid="8" pm="."><plain>Another approach consists of using a microcontroller unit that runs a software algorithm to control the system. </plain></SENT>
+<SENT sid="9" pm="."><plain>Frequently this microcontroller is connected to a computer to monitor and set parameters of the running system. </plain></SENT>
+</text></p><p><text><SENT sid="10" pm="."><plain>Although consolidated, these approaches require specific device drivers on the host computer and special configurations. </plain></SENT>
+<SENT sid="11" pm="."><plain>Moreover, if the control algorithm has to be changed, the user must reprogram the microcontroller, which in some cases requires special hardware tools such as in-circuit programmers and debuggers. </plain></SENT>
+</text></p><p><text><SENT sid="12" pm="."><plain>Mobile devices such as cell phones, tablets and netbooks are widespread and getting cheaper due to their large production, making them an interesting option to control mechatronics systems. </plain></SENT>
+<SENT sid="13" pm="."><plain>These devices also include several sensors that can be used in a mechatronic system. </plain></SENT>
+<SENT sid="14" pm="."><plain>Examples of sensors available in modern cell phones are the global positioning system receiver (GPS), 3-axis accelerometer, compass, liquid crystal display (LCD) with touchscreen, Internet access via WiFi or GPRS/3G services, camera, speakers, microphone, bluetooth module, light sensor and battery (some have even gyroscope, barometer and stereo camera). </plain></SENT>
+<SENT sid="15" pm="."><plain>If all those accessories would be bought separately and installed in a device, the costs would be more expensive than a device with all these features already included. </plain></SENT>
+</text></p><p><text><SENT sid="16" pm="."><plain>To use a mobile device as a mechatronics system main processing unit, a communication link must established between the control unit and the system under control. </plain></SENT>
+<SENT sid="17" pm="."><plain>Some works [1–3] use the mobile’s device RS-232 serial port signals while others use bluetooth [1,4]. </plain></SENT>
+<SENT sid="18" pm="."><plain>In all these works, a microcontroller still needs to be used to communicate with the mobile device, to read sensors and to control actuators. </plain></SENT>
+<SENT sid="19" pm="."><plain>The problem is that not all mobile devices have a serial port, or bluetooth communication interface. </plain></SENT>
+</text></p><p><text><SENT sid="20" pm="."><plain>Analyzing modern mobile devices it is possible to note that most of them have an universal communication interface: audio channels, that usually can be accessed through standard 3.5 mm P2 connectors. </plain></SENT>
+<SENT sid="21" pm="."><plain>If there are no connectors for external audio, this article also offers a solution using suction cups to use the proposed system in mobile devices where the speakers or microphones are built-in. </plain></SENT>
+<SENT sid="22" pm="."><plain>Details of such solution are discussed in Section 5.1. </plain></SENT>
+</text></p><p><text><SENT sid="23" pm="."><plain>In this article, a system that allows closed loop control using any mobile device that can produce and receive sounds was designed and built. </plain></SENT>
+<SENT sid="24" pm="."><plain>In such system, audio tones are used to encode actuators control commands and sensors states. </plain></SENT>
+<SENT sid="25" pm="."><plain>The system cost is low because only a few parts are needed (these parts are widely used in the telephony industry, making them also easy to find on the market). </plain></SENT>
+<SENT sid="26" pm="."><plain>Moreover the system does not need any intermediate processing unit, making it flexible to easily update the running algorithm, avoiding the need of reprogramming microcontrollers. </plain></SENT>
+</text></p><sec><label>1.1.</label><title><text><SENT sid="27" pm="."><plain>Robots and Smartphones </plain></SENT>
+</text></title><p><text><SENT sid="28" pm="."><plain>As mentioned, mobile devices have several features that can be used in robotics. </plain></SENT>
+<SENT sid="29" pm="."><plain>Some possibilities of using these features are briefly discussed in the following text. </plain></SENT>
+<SENT sid="30" pm="."><plain>These possibilities are, for sure, non-exhaustive. </plain></SENT>
+</text></p><list list-type="bullet"><list-item><p><text><SENT sid="31" pm="."><plain>CPU: Modern smartphones already have processors with clock rates of 1 GHz or more. </plain></SENT>
+<SENT sid="32" pm="."><plain>Some models also have multi-core processors. </plain></SENT>
+<SENT sid="33" pm="."><plain>These processing units are capable of doing many complex and computationally intensive operations for autonomous robots navigation. </plain></SENT>
+<SENT sid="34" pm="."><plain>Santos et al. [4], for example, showed that it is feasible to execute complex robotics navigation algorithms in processors of older smartphones with 300 MHz clock speed; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="35" pm="."><plain>Camera: can be used with a variety of algorithms for visual odometry, object recognition, robot attention (the ability to select a topic of interest [5]), obstacle detection and avoidance, object tracking, and others; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="36" pm="."><plain>Compass: can be used to sense the robot’s direction of movement. </plain></SENT>
+<SENT sid="37" pm="."><plain>The system can work with one or two encoders. </plain></SENT>
+<SENT sid="38" pm="."><plain>If only one encoder is used, the compass is used to guarantee that the robot is going in the expected direction and to control the desired curves angles; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="39" pm="."><plain>GPS: can be used to obtain the robot position in outdoor environments, altitude and speed; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="40" pm="."><plain>Accelerometer: can be used to detect speed changes and consequently if the robot has hit an object in any direction (a virtual bumper). </plain></SENT>
+<SENT sid="41" pm="."><plain>It can also detect the robot’s orientation. </plain></SENT>
+<SENT sid="42" pm="."><plain>It is also possible to use Kalman filtering to do sensor fusion of the camera, encoders and accelerometer to get more accurate positioning; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="43" pm="."><plain>Internet: WiFi or other Internet connection can be used to remotely monitor the robot and send commands to it. </plain></SENT>
+<SENT sid="44" pm="."><plain>The robot can also access a cloud system to aid some decision making process and communicate with other robots; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="45" pm="."><plain>Bluetooth: can be used to exchange information with nearby robots and for robot localization; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="46" pm="."><plain>Bluetooth audio: As the standard audio input and output are used for the control system, a bluetooth headset can be paired with the mobile device, allowing the robot to receive voice commands and give synthesized voice feedback to the user. </plain></SENT>
+<SENT sid="47" pm="."><plain>The Android voice recognizer worked well for both English and Portuguese. </plain></SENT>
+<SENT sid="48" pm="."><plain>The user can press a button in the bluetooth headset and say a complex command such as a phrase. </plain></SENT>
+<SENT sid="49" pm="."><plain>The Android system will then return a vector with most probable phrases that the user has said; </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="50" pm="."><plain>ROS: The Robot Operating System (ROS) [6] from Willow Garage is already supported in mobile devices running Android using the ros-java branch. </plain></SENT>
+<SENT sid="51" pm="."><plain>Using ROS and the system described in this article, a low cost robot can be built with all the advantages and features of ROS. </plain></SENT>
+</text></p></list-item></list></sec><sec><label>1.2.</label><title><text><SENT sid="52" pm="."><plain>Contributions </plain></SENT>
+</text></title><p><text><SENT sid="53" pm="."><plain>The main contributions of this work are:A novel system for controlling actuators using audio channelsA novel system for reading sensors information using audio channelsA closed loop control architecture using the above-mentioned itemsApplication of a camera and laser based distance measurement system for roboticsA low cost mobile robot controlled by smartphones and mobile devices using the techniques introduced in this work </plain></SENT>
+</text></p></sec><sec><label>1.3.</label><title><text><SENT sid="54" pm="."><plain>Organization </plain></SENT>
+</text></title><p><text><SENT sid="55" pm="."><plain>This paper is structured as follows: Section 2 describes previous architectures for mechatronics systems control. </plain></SENT>
+<SENT sid="56" pm="."><plain>Section 3 introduces the new technique. </plain></SENT>
+<SENT sid="57" pm="."><plain>Section 4 presents the experimental results of the proposed system. </plain></SENT>
+<SENT sid="58" pm="."><plain>Section 5 describes a case study with an application of the system to build a low cost mobile robot and in Section 6 are the final considerations. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="INTRO"><sec><label>2.</label><title><text><SENT sid="59" pm="."><plain>Related Work </plain></SENT>
+</text></title><p><text><SENT sid="60" pm="."><plain>This section reviews some of the most relevant related works that uses mobile devices to control robots and their communication interfaces. </plain></SENT>
+</text></p><sec sec-type="methods"><label>2.1.</label><title><text><SENT sid="61" pm="."><plain>Digital Data Interfaces </plain></SENT>
+</text></title><p><text><SENT sid="62" pm="."><plain>Santos et al. [4] analyze the feasibility of using smartphones to execute robot’s autonomous navigation and localization algorithms. </plain></SENT>
+<SENT sid="63" pm="."><plain>In the proposed system, the robot control algorithm is executed in the mobile phone and the motion commands are sent to the robot using bluetooth. </plain></SENT>
+<SENT sid="64" pm="."><plain>Their experiments are made with mobile phones with processor clocks of 220 MHz and 330 MHz and they conclude that it is possible and robust to execute complex navigation in these devices even with soft real-time requirements. </plain></SENT>
+<SENT sid="65" pm="."><plain>The tested algorithms are well-known: potential fields, particle filter and extended Kalman filter. </plain></SENT>
+</text></p><p><text><SENT sid="66" pm="."><plain>Another example of the use of smartphones to control robots is the open source project Cellbots [1] which uses Android based phones to control mobile robots. </plain></SENT>
+<SENT sid="67" pm="."><plain>The project requires a microcontroller that communicates with the phone via bluetooth or serial port and sends the electrical control signals to the motors. </plain></SENT>
+<SENT sid="68" pm="."><plain>The problem is that not all mobile devices have bluetooth or serial ports. </plain></SENT>
+<SENT sid="69" pm="."><plain>Moreover, in some cases the device has the serial port available only internally, requiring disassembly of the device to access the serial port signals. </plain></SENT>
+<SENT sid="70" pm="."><plain>When using bluetooth, the costs are higher because an additional bluetooth module must be installed and connected to the microcontroller. </plain></SENT>
+</text></p><p><text><SENT sid="71" pm="."><plain>The work of Hess and Rohrig [7] consists of using mobile phones to remotely control a robot. </plain></SENT>
+<SENT sid="72" pm="."><plain>Their system can connect to the robot using <z:uniprot sup="inside" fb="26" ids="P25805,O93659,P58845">TCP</z:uniprot>/IP interfaces or bluetooth. </plain></SENT>
+<SENT sid="73" pm="."><plain>In the case of the <z:uniprot sup="inside" fb="26" ids="P25805,O93659,P58845">TCP</z:uniprot>/IP sockets, the connection to the robot is made using an already existing wireless LAN (WiFi) infrastructure. </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>Park et al. [8] describe user interface techniques for using PDAs or smartphones to remotely control robots. </plain></SENT>
+<SENT sid="75" pm="."><plain>Again, the original robot controller is maintained and the mobile device is used simply as a remote control device. </plain></SENT>
+<SENT sid="76" pm="."><plain>Their system commands are exchanged using WiFi wireless networks. </plain></SENT>
+</text></p></sec><sec><label>2.2.</label><title><text><SENT sid="77" pm="."><plain>Analog Audio Interfaces </plain></SENT>
+</text></title><p><text><SENT sid="78" pm="."><plain>One interesting alternative is using a dedicated circuit to transform the audio output of the mobile device in a serial port signal [9], but the problem with such approach is that only unidirectional communication is possible, and still, as in the other cases, a microcontroller is needed to decode the serial signal and execute some action. </plain></SENT>
+</text></p><p><text><SENT sid="79" pm="."><plain>On the other hand, the telecommunications industry frequently uses the Dial Tone Multi Frequency (DTMF) system to exchange remote control commands between equipments. </plain></SENT>
+<SENT sid="80" pm="."><plain>Section 3.1 contains a description of the DTMF system. </plain></SENT>
+<SENT sid="81" pm="."><plain>The system is more known in telephony for sending the digits that a caller wants to dial to a switching office. </plain></SENT>
+<SENT sid="82" pm="."><plain>DTMF usage to control robots is not new. </plain></SENT>
+<SENT sid="83" pm="."><plain>There are some recent projects that use DTMF digits exchange to remotely control robots: Patil and Henry [10] used a remote mobile phone to telecommand a robot. </plain></SENT>
+<SENT sid="84" pm="."><plain>DTMF tones are sent from the mobile phone to the remote robot’s phone and decoded by a specific integrated circuit and the binary output is connected to a FPGA that controls the robot. </plain></SENT>
+<SENT sid="85" pm="."><plain>Manikandan et al. [11] proposed and built a robot that uses two cell phones. </plain></SENT>
+<SENT sid="86" pm="."><plain>One phone is placed in the robot and another acts as a remote control. </plain></SENT>
+<SENT sid="87" pm="."><plain>The DTMF audio produced by the keys pressed in the remote control phone is sent to the phone installed in the robot, and the audio output of this phone is connected to a DTMF decoder via the earphone output of the cell phone. </plain></SENT>
+<SENT sid="88" pm="."><plain>The 4-bit DTMF output is then connected to a microcontroller that interprets the codes and executes the movements related to the keys pressed in the remote control phone. </plain></SENT>
+<SENT sid="89" pm="."><plain>Sai and Sivaramakrishnan [12] used the same setup, where two mobile phones are used, one located at the robot and another used as a remote control. </plain></SENT>
+<SENT sid="90" pm="."><plain>The difference is that the system is applied to different type of robot (mechanically). </plain></SENT>
+<SENT sid="91" pm="."><plain>Naskar et al. [13] presented a work where a remote DTMF keypad is used to control a military robot. </plain></SENT>
+<SENT sid="92" pm="."><plain>Some DTMF digits are even used to fire real guns. </plain></SENT>
+<SENT sid="93" pm="."><plain>The main difference is that instead of transmitting the DTMF tones using a phone call, the tones are transmitted using a radio frequency link. </plain></SENT>
+</text></p><p><text><SENT sid="94" pm="."><plain>Still about DTMF based control, Ladwa et al. [14] proposed a system that can remotely control home appliances or robots via DTMF tones over telephone calls. </plain></SENT>
+<SENT sid="95" pm="."><plain>The tones are generated by keys pressed in a remote phone keypad, received by a phone installed in the system under control and decoded by a DTMF decoder circuit. </plain></SENT>
+<SENT sid="96" pm="."><plain>A microcontroller then executes some pre-programmed action. </plain></SENT>
+<SENT sid="97" pm="."><plain>A similar work is presented by Cho and Jeon [15] where key presses in a remote phone are sent through a telephone call to a receiver cell phone modem. </plain></SENT>
+<SENT sid="98" pm="."><plain>Its audio output is connected to a DTMF decoder chip which is then connected to a robot control board. </plain></SENT>
+<SENT sid="99" pm="."><plain>As the user presses keys in the remote phone, the robot goes forward, backwards or do curves according with the pressed key (a numerical digit that is represented by a DTMF code). </plain></SENT>
+</text></p><p><text><SENT sid="100" pm="."><plain>Recently, a startup company created a mobile robot that can be controlled by audio tones from mobile phones [16]. </plain></SENT>
+<SENT sid="101" pm="."><plain>The system is limited to controlling two motors and does not have any feedback or sensor reading capability. </plain></SENT>
+<SENT sid="102" pm="."><plain>The alternative is using camera algorithms such as optical flow to implement visual odometry, but even if so, such limitations make it difficult to build a complete mobile robot because of the lack of important sensory information such as bumpers and distance to objects. </plain></SENT>
+<SENT sid="103" pm="."><plain>Also, the information provided in the company website does not make it clear if the wheel speed can be controlled and which audio frequencies are used. </plain></SENT>
+</text></p><p><text><SENT sid="104" pm="."><plain>With the exception of the example in the last paragraph, all other mentioned examples and projects use DTMF tones to remotely control a distant robot over radio or telephone lines. </plain></SENT>
+<SENT sid="105" pm="."><plain>This system, in contrast, uses DTMF tones to control actuators and read sensors in a scheme where the control unit is physically attached to the robot, or near the robot (connected by an audio cable). </plain></SENT>
+<SENT sid="106" pm="."><plain>The advantage is that DTMF tones are very robust to interference and widely adopted, making it easy to find electrical components and software support for dealing with such system. </plain></SENT>
+</text></p></sec></sec></SecTag><sec><label>3.</label><title><text><SENT sid="107" pm="."><plain>System Architecture </plain></SENT>
+</text></title><p><text><SENT sid="108" pm="."><plain>This section describes the proposed system architecture. </plain></SENT>
+<SENT sid="109" pm="."><plain>Its main advantage is to provide a universal connection system to read sensors and control actuators of mechatronics systems. </plain></SENT>
+<SENT sid="110" pm="."><plain>The data is exchanged using audio tones, allowing the technique to be used with any device that has audio input/output interfaces. </plain></SENT>
+</text></p><sec><label>3.1.</label><title><text><SENT sid="111" pm="."><plain>Theoretical Background </plain></SENT>
+</text></title><p><text><SENT sid="112" pm="."><plain>The DTMF system was created in the decade of 1950 as a faster option to the (now obsolete) pulse dialing system. </plain></SENT>
+<SENT sid="113" pm="."><plain>Its main purpose at that time was to send the digits that a caller wants to dial to the switching system of the telephone company. </plain></SENT>
+<SENT sid="114" pm="."><plain>Although almost 60 years old, DTMF is still widely used in telecommunication systems and is still used in most new telephone designs [17]. </plain></SENT>
+</text></p><p><text><SENT sid="115" pm="."><plain>DTMF tones can be easily heard by pressing the keys on a phone during a telephone call. </plain></SENT>
+<SENT sid="116" pm="."><plain>The system is composed of 16 different audio frequencies organized in a 4 × 4 matrix. Table 1 shows these frequencies and the corresponding keys/digits. </plain></SENT>
+<SENT sid="117" pm="."><plain>A valid digit is always composed by a pair of frequencies (one from the table columns and one from the table rows) transmitted simultaneously. </plain></SENT>
+<SENT sid="118" pm="."><plain>For example, to transmit the digit 9, an audio signal containing the frequencies 852 Hz and 1,477 Hz would have to be generated. </plain></SENT>
+</text></p><p><text><SENT sid="119" pm="."><plain>As DTMF was designed to exchange data via telephone lines that can be noisy, the use of 2 frequencies to uniquely identify a digit makes the system efficient and very robust to noise and other sounds that do not characterize a valid DTMF digit. </plain></SENT>
+<SENT sid="120" pm="."><plain>In fact, when the DTMF system was designed, the frequencies were chosen to minimize tone pairs from natural sounds [18]. </plain></SENT>
+</text></p><p><text><SENT sid="121" pm="."><plain>The described robustness of DTMF led its use in a variety of current remote automation systems such as residential alarm monitoring, vehicle tracking systems and interactive voice response systems such as bank’s automatic answering machines menus that allows the user to execute interactive operations like “Press 1 to check your account balance; Press 2 to block your credit card”. </plain></SENT>
+</text></p><p><text><SENT sid="122" pm="."><plain>The wide adoption and reliability of the DTMF system led the semiconductor industry to develop low cost integrated circuits (ICs) that can encode and decode DTMF signals from and to digital binary digits. </plain></SENT>
+<SENT sid="123" pm="."><plain>The system proposed in this article uses such ICs to transmit and receive information. </plain></SENT>
+<SENT sid="124" pm="."><plain>Both actuators control and sensors data are encoded using DTMF tones. </plain></SENT>
+<SENT sid="125" pm="."><plain>The following sections describe the system design. </plain></SENT>
+</text></p></sec><sec><label>3.2.</label><title><text><SENT sid="126" pm="."><plain>Device Control </plain></SENT>
+</text></title><p><text><SENT sid="127" pm="."><plain>To control actuators, a mobile device generates a DTMF tone. </plain></SENT>
+<SENT sid="128" pm="."><plain>The tone is decoded by a commercial DTMF decoder chip (such as the MT8870), converting the tone to a 4-bit binary word equivalent to the DTMF input. </plain></SENT>
+<SENT sid="129" pm="."><plain>The decoded output remains present while the DTMF tone is present at the input. </plain></SENT>
+<SENT sid="130" pm="."><plain>The resulting bits can feed a power circuit to control up to four independent binary (on/off) devices such as robots brakes, lights or a pneumatic gripper. Figure 1 shows the basic concept of the system. </plain></SENT>
+</text></p><p><text><SENT sid="131" pm="."><plain>The audio output from the mobile device can be directly connected to the input of the DTMF decoder, but in some specific cases an audio preamplifier should be used to enhance the audio amplitude. </plain></SENT>
+</text></p><p><text><SENT sid="132" pm="."><plain>Figure 2 shows a direct current (DC) motor control application where the 4-bit output of the decoder is connected to a motor control circuit (an H-bridge, for example, using the L298 commercial dual H-bridge IC). </plain></SENT>
+<SENT sid="133" pm="."><plain>As 2 bits are required to control each motor, the system can control 2 DC motors independently. Table 2 shows the DTMF digits and corresponding motor states. </plain></SENT>
+<SENT sid="134" pm="."><plain>Note that these states can be different according to the pin connections between the DTMF decoder and the H-bridge. </plain></SENT>
+<SENT sid="135" pm="."><plain>In order to control the DC motor’s speed, the mobile device turns the DTMF signals on and off in a fixed frequency, mimicking a pulse width modulation (PWM) signal. </plain></SENT>
+</text></p><p><text><SENT sid="136" pm="."><plain>To control more devices it is possible to take advantage of the fact that most audio outputs of mobile devices are stereo. </plain></SENT>
+<SENT sid="137" pm="."><plain>Thus, generating different audio tones in the left and right channels doubles the number of controlled devices (8 different on/off devices or 4 DC motors). </plain></SENT>
+<SENT sid="138" pm="."><plain>One interesting option, possible only in devices with USB Host feature, such as netbooks and desktop computers, is to add low cost USB multimedia sound devices, increasing the number of audio ports in the system. </plain></SENT>
+</text></p><p><text><SENT sid="139" pm="."><plain>Another possibility consists in directly connecting servo-motors (the ones used in model airplanes) control signals to the output of the DTMF decoder. </plain></SENT>
+<SENT sid="140" pm="."><plain>As each servo needs only one PWM input signal, each stereo audio channel can drive up to eight servo-motors. </plain></SENT>
+</text></p></sec><sec><label>3.3.</label><title><text><SENT sid="141" pm="."><plain>Sensor Reading </plain></SENT>
+</text></title><p><text><SENT sid="142" pm="."><plain>Most mechatronics systems and sensor networks need sensors to sense the surrounding environment and their own state in order to decide what to do next. </plain></SENT>
+<SENT sid="143" pm="."><plain>To accomplish this task in this system, sensors are connected to the input of a DTMF encoder chip (such as the TCM5087). </plain></SENT>
+<SENT sid="144" pm="."><plain>Each time a sensor state changes, the encoder generates a DTMF tone that is captured and analyzed by the mobile device. </plain></SENT>
+<SENT sid="145" pm="."><plain>According to the digits received it is possible to know which sensor generated the tone. </plain></SENT>
+<SENT sid="146" pm="."><plain>More details on how to identify which sensor and its value are provided in Section 5.1. </plain></SENT>
+</text></p><p><text><SENT sid="147" pm="."><plain>As shown in Figure 3, up to four sensors can be connected to a DTMF encoder that generates tones according to the sensors states. </plain></SENT>
+<SENT sid="148" pm="."><plain>The generator’s output itself is connected to the audio input of the mobile device which continuously samples the audio input checking if the frequency pair that characterizes a DTMF digit is present in the signal. </plain></SENT>
+<SENT sid="149" pm="."><plain>To accomplish this task, the discrete Fourier transform (DFT) is used, according to Equation (1). (1)X(m)=∑n=0N−1x(n)e−j2πnm/Nwhere X(m) is the frequency magnitude of the signal under analysis at index m, x(n) is the input sequence in time (representing the signal) with n index and N is the DFT number of points. </plain></SENT>
+<SENT sid="150" pm="."><plain>N determines the resolution of the DFT and the number of samples to be analyzed. </plain></SENT>
+<SENT sid="151" pm="."><plain>For performance reasons, a Fast Fourier Transform (FFT) [19] is used to identify the frequency components of the input signal and consequently detect the DTMF digit generated by the DTMF generator that encodes sensor data. </plain></SENT>
+<SENT sid="152" pm="."><plain>For clear and detailed information about these digital signal processing concepts, please refer to Lyons’ book [20] on Digital Signal Processing. </plain></SENT>
+</text></p><p><text><SENT sid="153" pm="."><plain>To optimize the FFT computation it is necessary to specify adequate values for N and Fs (the sample rate of the input signal). </plain></SENT>
+<SENT sid="154" pm="."><plain>From Table 1, the highest frequency present in a DTMF tone is 1,633 Hz. </plain></SENT>
+<SENT sid="155" pm="."><plain>Applying the fundamental sampling theorem results in Fs = 3,266 Hz (the theorem states that the sample rate should be at least twice the highest signal to be captured). </plain></SENT>
+<SENT sid="156" pm="."><plain>For implementation convenience and better compatibility, a 8 KHz sample rate is used, which most mobile devices can perform. </plain></SENT>
+</text></p><p><text><SENT sid="157" pm="."><plain>The lower the number of points in the FFT, the faster the FFT is computed, and more digits per second can be recognized, leading to a better sensor reading frequency. </plain></SENT>
+<SENT sid="158" pm="."><plain>To compute the smallest adequate number of points for the FFT, Equation (2) is used. (2)f(m)=mFsN </plain></SENT>
+</text></p><p><text><SENT sid="159" pm="."><plain>In Equation (2), f(m) is each frequency under analysis, Fs is the sampling frequency (8 KHz) and N the FFT’s number of points to be minimized. </plain></SENT>
+<SENT sid="160" pm="."><plain>Using N = 256, results in an analysis resolution of about 30 Hz, that is enough to differ from one DTMF frequency component to another. </plain></SENT>
+<SENT sid="161" pm="."><plain>This is consistent with the DFT parameters used by Chitode to detect DTMF digits [21]. </plain></SENT>
+<SENT sid="162" pm="."><plain>The work developed by Khan also uses N = 256 and Fs = 8 KHz to detect DTMF tones [22]. </plain></SENT>
+</text></p><p><text><SENT sid="163" pm="."><plain>Later in this text, Section 5.1 and Table 3 explains the use and application of this technique to read four digital (on/off) sensors simultaneously. </plain></SENT>
+</text></p><p><text><SENT sid="164" pm="."><plain>One of the limitations of the described method is that it is restricted to binary (on/off) sensors. </plain></SENT>
+<SENT sid="165" pm="."><plain>As it is shown is Section 5.1, this is enough for many applications, including measuring angles and speeds using incremental optical encoders. </plain></SENT>
+<SENT sid="166" pm="."><plain>In any case, additional electronics could be used to encode analog signals and transmit these signals using the audio interface. </plain></SENT>
+<SENT sid="167" pm="."><plain>As each DTMF digit encodes 4 bits, the transmission of an analog value converted with a 12-bit analog-digital converter would take 3 transmission cycles. </plain></SENT>
+<SENT sid="168" pm="."><plain>It would also be possible to use digital signal multiplexing hardware to encode more information in the same system (with worse performance). </plain></SENT>
+<SENT sid="169" pm="."><plain>The demultiplexing would be done in the mobile device by software. </plain></SENT>
+</text></p></sec></sec><SecTag type="RESULTS"><sec><label>4.</label><title><text><SENT sid="170" pm="."><plain>Experimental Results </plain></SENT>
+</text></title><p><text><SENT sid="171" pm="."><plain>In order to evaluate the proposed system, an Android application was developed using the Android development kit, which is available for free. </plain></SENT>
+<SENT sid="172" pm="."><plain>Experiments were executed in several mobile devices and desktop computers. </plain></SENT>
+</text></p><p><text><SENT sid="173" pm="."><plain>For the actuator control subsystem, experiments showed that generating PWM signals by software is possible, but the resulting signal shows variations (a software generated PWM with 1 ms ON time and 1 ms OFF time produces a real signal with 50 ms ON time and 50 ms OFF time). </plain></SENT>
+<SENT sid="174" pm="."><plain>A better option is to use pre-recorded PWM DTMF tones resulting in high reliability PWM of DTMF tones with frequencies greater than 1 KHz. </plain></SENT>
+<SENT sid="175" pm="."><plain>As mobile devices have mature software support for playing pre-recorded audio, the PWM plays smoothly with low processor usage. </plain></SENT>
+<SENT sid="176" pm="."><plain>In these experiments it was also observed that another practical way of doing fine speed adjustments consists in controlling the audio output volume, resulting in proportional speed changes in the motor(s). </plain></SENT>
+</text></p><p><text><SENT sid="177" pm="."><plain>Experiments of the sensor reading subsystem are based on the FFT. </plain></SENT>
+<SENT sid="178" pm="."><plain>The experiments showed that in the worst case, the FFT computation time is 17 ms, leading to a theoretical limit of executing up to 58.8 FFTs per second. Figure 4 shows experimental results of the system running on 3 different devices. </plain></SENT>
+<SENT sid="179" pm="."><plain>The tested devices were an early Android based phone, the <z:uniprot sup="inside" fb="0" ids="Q90392">HTC</z:uniprot> G1 with a 528 MHz ARM processor, an Android based tablet computer with a dual core 1 GHz ARM processor and a 1 GHz PC netbook with an Intel Celeron processor (in this case a version of the Android operating system for the x86 architecture was used). </plain></SENT>
+<SENT sid="180" pm="."><plain>The FFT was implemented using Java and executed in the virtual machine (dalvik) of the Android system. </plain></SENT>
+<SENT sid="181" pm="."><plain>Using the native development system for Android, thus bypassing the virtual machine, would enhance these results. </plain></SENT>
+<SENT sid="182" pm="."><plain>Another performance improvement can be reached using the Goertzel algorithm [23,24]. </plain></SENT>
+</text></p><p><text><SENT sid="183" pm="."><plain>From Figure 4 it is possible to note that even the device with less processing power is able to handle about 40 DTMF digits per second with zero packet loss. </plain></SENT>
+<SENT sid="184" pm="."><plain>There are several causes for the increasing packet loss that starts at 40 Hz in the plot. </plain></SENT>
+<SENT sid="185" pm="."><plain>One of the causes are the different audio input timings [25] caused by the different audio hardware of each device. </plain></SENT>
+<SENT sid="186" pm="."><plain>Another cause is related to the task scheduler of the Android operating system (and the underlying Linux kernel) that can be indeterministic when the CPU load is high. </plain></SENT>
+</text></p><p><text><SENT sid="187" pm="."><plain>As a reference for comparison, some performance tests were made in a Lego Mindstorms (TM) robotics kit that is commonly used in educational robotics and some scientific researches. </plain></SENT>
+<SENT sid="188" pm="."><plain>When connected to a computer or smartphone via a bluetooth wireless link, the maximum sensor reading rate of the Lego-NXT brick is 20 Hz. </plain></SENT>
+<SENT sid="189" pm="."><plain>If several sensors are used, the bandwidth is divided. </plain></SENT>
+<SENT sid="190" pm="."><plain>For example, using 2 encoders and 2 touch sensors reduces the sensor reading rate to 5 Hz per sensor or less. </plain></SENT>
+<SENT sid="191" pm="."><plain>If the NXT brick is connected to a computer using the USB port, then the maximum sensor reading frequency rises to 166 Hz. </plain></SENT>
+<SENT sid="192" pm="."><plain>If two encoders and two touch sensors (bumpers) are used, then each sensor will be read at a rate of 41.5 Hz. </plain></SENT>
+<SENT sid="193" pm="."><plain>The performance of the system proposed in this article is comparable to this commercial product as a 40 Hz rate can be sustained for each sensor in a system with 4 sensors. </plain></SENT>
+</text></p></sec></SecTag><sec><label>5.</label><title><text><SENT sid="194" pm="."><plain>Case Study Application </plain></SENT>
+</text></title><p><text><SENT sid="195" pm="."><plain>The system described in Section 3 can be applied to several situations where a computing device needs to control actuators and read sensors, such as laboratory experiments, machine control and robotics. </plain></SENT>
+<SENT sid="196" pm="."><plain>In this section, a mobile robot case study is described. </plain></SENT>
+</text></p><sec><label>5.1.</label><title><text><SENT sid="197" pm="."><plain>Low Cost Mobile Robot </plain></SENT>
+</text></title><p><text><SENT sid="198" pm="."><plain>As an application example, the presented technique was used to build a low cost educational mobile robot. </plain></SENT>
+<SENT sid="199" pm="."><plain>For the Robot’s frame, wheels, gears and two motors 24 US dollars were spent. </plain></SENT>
+<SENT sid="200" pm="."><plain>For electronics parts more 6 US dollars were spent summing up a total of 30 US dollars to build the robot. </plain></SENT>
+<SENT sid="201" pm="."><plain>As most people own a mobile phone or a smartphone, there is the assumption that the control device will not have to be bought because a mobile device that the user already has will be used. </plain></SENT>
+</text></p><p><text><SENT sid="202" pm="."><plain>Even if the control device needed to be purchased, the option of using a smartphone would still be good because single board computers, typically used in robots or other robot computers, are more expensive than smartphones. </plain></SENT>
+<SENT sid="203" pm="."><plain>Furthermore, smartphones include camera, battery, Internet connection and a variety of sensors that would have to be bought separately and connected to the robot’s computer. </plain></SENT>
+<SENT sid="204" pm="."><plain>With multi-core smartphones running with clock speeds faster than 1 GHz and with 512 MB or 1 GB of RAM memory, they are a good alternative to traditional robots computers. </plain></SENT>
+</text></p><p><text><SENT sid="205" pm="."><plain>Important sensors in such kind of robot are the bumpers to detect collisions and encoders to compute odometry. Figure 5 shows a block diagram connecting bumpers and 2 wheel encoders to the DTMF generator. Table 3 shows a truth table with the possible states of each sensor and the corresponding DTMF digits. </plain></SENT>
+<SENT sid="206" pm="."><plain>Instead of using commercial encoders discs, several encoders were designed and printed with a conventional laser printer. </plain></SENT>
+<SENT sid="207" pm="."><plain>The discs were glued to the robot’s wheels and a standard CNY70 light reflection sensor was mounted in front of each disc. </plain></SENT>
+</text></p><p><text><SENT sid="208" pm="."><plain>As can be seen in Table 3, there is a unique DTMF digit that corresponds to each possible sensor state. </plain></SENT>
+<SENT sid="209" pm="."><plain>Using basic binary arithmetic it is possible to obtain the individual state of each sensor. </plain></SENT>
+<SENT sid="210" pm="."><plain>For example, from Table 3 it is known that the bumpers are the bits 0 and 1. </plain></SENT>
+<SENT sid="211" pm="."><plain>Using a bitwise AND operation with the binary mask 0001 will filter all other sensor states and the result will be either 0 or 1, indicating the left bumper state. </plain></SENT>
+<SENT sid="212" pm="."><plain>For the right bumper, the same AND operation can be applied with the binary mask 0010. </plain></SENT>
+<SENT sid="213" pm="."><plain>Furthermore, using the binary 0011 mask and the AND operation will only return a value different than zero if both bumpers are activate at the same time. </plain></SENT>
+<SENT sid="214" pm="."><plain>Using these types of comparisons it is then possible to know the state of each sensor. </plain></SENT>
+<SENT sid="215" pm="."><plain>In the case of the optical encoders, the system’s software monitors for state transitions and add a unit for each transition to a counter that keeps how many pulses each encoder generated. </plain></SENT>
+</text></p><p><text><SENT sid="216" pm="."><plain>As seen in the Figure 5, up to four sensors can be connected to each mono audio channel, allowing closed loop control of up to 4 motors if 4 encoders are used. </plain></SENT>
+<SENT sid="217" pm="."><plain>Using the number of pulses accounted for each encoder it is possible to compute displacement and speed for each wheel as it is done with other incremental encoders. </plain></SENT>
+<SENT sid="218" pm="."><plain>This information can be used in classical odometry and localization systems to obtain the robot’s position in a Cartesian space [26,27]. </plain></SENT>
+</text></p><p><text><SENT sid="219" pm="."><plain>To properly design a robot with the presented technique, a relation between wheel dimensions and the maximum linear speed that can be measured is introduced here. </plain></SENT>
+<SENT sid="220" pm="."><plain>In Equation (3), VMax is the maximum linear speed of the robot that can be measured, r is radius of the wheel, c is the maximum digits per second detection capacity of the mobile device and s is the encoder disc resolution (number of DTMF digits generated at each complete wheel revolution). (3)VMax=2πrcs </plain></SENT>
+</text></p><p><text><SENT sid="221" pm="."><plain>Table 4 shows the distance measurement resolution and maximum speed that can be measured according to the given equation considering several encoder resolutions. </plain></SENT>
+</text></p><p><text><SENT sid="222" pm="."><plain>Figure 6 shows odometry experimental results for this low cost robot. </plain></SENT>
+<SENT sid="223" pm="."><plain>The error bars are the standard deviation of the real displacement that occurred. </plain></SENT>
+<SENT sid="224" pm="."><plain>The blue line shows the real traveled distance and the red line shows the distance measured by the mobile phone using the proposed technique. </plain></SENT>
+<SENT sid="225" pm="."><plain>Each point in the graph is the average value of ten samples. </plain></SENT>
+</text></p><p><text><SENT sid="226" pm="."><plain>According to McComb and Predko, odometry errors are unavoidable due to several factors such as wheels’ slip and small measurement errors in the wheel radius that accumulate over time. </plain></SENT>
+<SENT sid="227" pm="."><plain>They say that a displacements of 6 to 9 meters leads to 15 centimeters odometer error [28] or more, which is a percentual error of 1.6%–2.5%. </plain></SENT>
+<SENT sid="228" pm="."><plain>The greatest odometry error of the system was 3.7% for 74 cm range. </plain></SENT>
+<SENT sid="229" pm="."><plain>But for 130 cm displacements the error was 1 centimeter (0.76%). </plain></SENT>
+<SENT sid="230" pm="."><plain>These values show that the proposed system performance is consistent with classical odometry errors described in the literature. </plain></SENT>
+</text></p><p><text><SENT sid="231" pm="."><plain>To close the control loop, the computed odometry information is sent to a classical PI (Proportional-Integral) controller that has as set-points (or goals) the desired distance to be displaced by the robot. </plain></SENT>
+<SENT sid="232" pm="."><plain>The encoders are read at a 40 Hz rate, the position is computed and sent to the controller to decide if the robot has to go faster, stop or walk. </plain></SENT>
+<SENT sid="233" pm="."><plain>If any of the bumpers are activated in the meantime, the control loop is interrupted and the robot immediately stops. </plain></SENT>
+</text></p><p><text><SENT sid="234" pm="."><plain>Although most mobile devices have the possibility of recording and reproducing sounds, not all of them have physical connectors for both the audio input and output. </plain></SENT>
+<SENT sid="235" pm="."><plain>To solve this problem in one of the tested devices that does not have an audio input connector, an earphone is attached near the built-in microphone of the device using a suction cup. </plain></SENT>
+<SENT sid="236" pm="."><plain>In this particular case, an audio preamplifier must be used to generate tones with sufficient amplitude to be detected. </plain></SENT>
+<SENT sid="237" pm="."><plain>The DTMF tones encoding sensors data is generated, amplified and sent to the earphone fixed very near the built-in microphone of the mobile device. </plain></SENT>
+<SENT sid="238" pm="."><plain>It is worth mentioning that this scheme works reliably because DTMF system was designed to avoid interference from natural sounds such as music and people’s voices [18]. </plain></SENT>
+</text></p></sec><sec><label>5.2.</label><title><text><SENT sid="239" pm="."><plain>Human Machine Interface </plain></SENT>
+</text></title><p><text><SENT sid="240" pm="."><plain>Users can control this robot from the web or using voice commands. </plain></SENT>
+<SENT sid="241" pm="."><plain>Both a web server and a voice recognition system were implemented. </plain></SENT>
+<SENT sid="242" pm="."><plain>The web-server is embedded into the application, therefore no intermediate computers or servers are needed. </plain></SENT>
+<SENT sid="243" pm="."><plain>Any Internet enabled device can access the web-page and issue several commands to move the robot forward, back, or do curves. </plain></SENT>
+<SENT sid="244" pm="."><plain>For debugging purposes the web-server also shows variable values such as distance, encoder pulses and recognized DTMF pulses from sensors. </plain></SENT>
+</text></p><p><text><SENT sid="245" pm="."><plain>The voice recognizer system is straightforward to implement thanks to the Android API. </plain></SENT>
+<SENT sid="246" pm="."><plain>When the user issues a voice command, the operating systems understands it (in several languages) and passes a vector of strings to the robot’s control application with the most probable phrases said. </plain></SENT>
+<SENT sid="247" pm="."><plain>The application just has to select the one that better fits the expected command. </plain></SENT>
+<SENT sid="248" pm="."><plain>Example voice commands are “Walk 30 centimeters” or “Forward 1 meter”. </plain></SENT>
+<SENT sid="249" pm="."><plain>The numbers said by the user are automatically converted to numeric values by the Android API, making it easy to implement softwares that makes the robot move for some distance using closed loop control. </plain></SENT>
+</text></p></sec><sec><label>5.3.</label><title><text><SENT sid="250" pm="."><plain>Distance Measurement </plain></SENT>
+</text></title><p><text><SENT sid="251" pm="."><plain>An important sensor to aid the navigation of autonomous mobile robots is the distance measurement from the robot to obstacles in front of it. </plain></SENT>
+<SENT sid="252" pm="."><plain>This task is typically performed by ultrasound or laser sensors. </plain></SENT>
+<SENT sid="253" pm="."><plain>Another approach is based on stereo vision, but the computational costs are high. </plain></SENT>
+<SENT sid="254" pm="."><plain>To support distance measurement in this low cost robot, a laser module (laser pointer) is used to project a brilliant red dot in the object in front of the robot. </plain></SENT>
+<SENT sid="255" pm="."><plain>The camera then captures a frame and uses the projected dot position on its image plane to compute the distance to the obstacle based on simple trigonometry. </plain></SENT>
+<SENT sid="256" pm="."><plain>This method is described by Danko [29] and better explained by Portugal-Zambrano and <z:uniprot sup="inside" fb="61" ids="Q03173">Mena</z:uniprot>-Chalco [30]. </plain></SENT>
+<SENT sid="257" pm="."><plain>The algorithm assumes that the brightest pixels on the captured image are on the laser projected dot. </plain></SENT>
+</text></p><p><text><SENT sid="258" pm="."><plain>Figure 7 depicts how the system works. </plain></SENT>
+<SENT sid="259" pm="."><plain>A laser pointer parallel to the camera emits a focused red dot that is projected in an object at distance D from the robot. </plain></SENT>
+<SENT sid="260" pm="."><plain>This red dot is reflected and projected in the camera’s image plane. </plain></SENT>
+<SENT sid="261" pm="."><plain>The distance pfc (pixels from center) between the center of the image plane (in the optical axis) and the red dot in the image plane is proportional to the distance D. </plain></SENT>
+</text></p><p><text><SENT sid="262" pm="."><plain>Equation (4) shows how to compute the distance using described system. </plain></SENT>
+<SENT sid="263" pm="."><plain>The distance between the camera and the laser (H) is known previously, the number of pixels from the image center to the red laser dot (pfc) is obtained from the image. </plain></SENT>
+<SENT sid="264" pm="."><plain>The radians per pixels (rpc) and the radian offset (ro) are obtained calibrating the system, which consists of taking several measurements of objects at known distances and their pixels distance from center (pfc). </plain></SENT>
+<SENT sid="265" pm="."><plain>Then a linear regression algorithm finds the best ro and rpc. </plain></SENT>
+<SENT sid="266" pm="."><plain>Details on this calibration can be found on the work of Portugal-Zambrano and <z:uniprot sup="inside" fb="61" ids="Q03173">Mena</z:uniprot>-Chalco [30]. (4)D=Htan(pfc*rpc+ro </plain></SENT>
+</text></p><p><text><SENT sid="267" pm="."><plain>As can be seem in Equation (4), the measurement range depends mainly on the baseline H given by the distance between the laser and the camera and the number of pixels from the image center, pfc, that has a limit given by the camera resolution. </plain></SENT>
+<SENT sid="268" pm="."><plain>This equation can be used to determine the measurement range. </plain></SENT>
+<SENT sid="269" pm="."><plain>As the object gets farther away, its pfc tends to zero. </plain></SENT>
+<SENT sid="270" pm="."><plain>Assuming pfc to be zero it is possible to simplify Equation (4) to Equation (5) which gives the maximum distance that can be measured. </plain></SENT>
+<SENT sid="271" pm="."><plain>In the same way, the minimum distance is given by half the camera resolution (because the measurement is made from the point to the center of image). Equation (6) specifies the minimum measurement distance. Table 5 shows some possible range values computed using these equations. (5)Dmax=Htan(ro) (6)Dmin=Htan(r2*rpc+ro) </plain></SENT>
+</text></p></sec><sec><label>5.4.</label><title><text><SENT sid="272" pm="."><plain>Block Diagram </plain></SENT>
+</text></title><p><text><SENT sid="273" pm="."><plain>Figure 8 shows a block diagram of the system. </plain></SENT>
+<SENT sid="274" pm="."><plain>Each task is executed in a separated thread, thereby reading sensors and controlling motors do not interfere with each other. </plain></SENT>
+<SENT sid="275" pm="."><plain>A task planner module allows the system to integrate the distance measurement, voice commands and web interface. </plain></SENT>
+<SENT sid="276" pm="."><plain>The system running with all these subsystems used between 10% and 45% of the processor in all devices, leaving room to also execute complex algorithms embedded on the robot. </plain></SENT>
+</text></p></sec><sec sec-type="results"><label>5.5.</label><title><text><SENT sid="277" pm="."><plain>Experimental Results </plain></SENT>
+</text></title><p><text><SENT sid="278" pm="."><plain>The algorithm implementation is straightforward: the system has to scan a region of the image for a group of pixels with the greatest values (255) in the red channel. </plain></SENT>
+<SENT sid="279" pm="."><plain>The current implementation searches for a pattern of 5 pixels in a cross shape. </plain></SENT>
+<SENT sid="280" pm="."><plain>The center of this cross is the pfc value. Figure 9 shows the results for 3 different distances. </plain></SENT>
+<SENT sid="281" pm="."><plain>The red dot found by the algorithm is shown by a green circle, and the green line shows the distance from the laser dot to the image center. </plain></SENT>
+</text></p><p><text><SENT sid="282" pm="."><plain>The baseline used is 4.5 centimeters and after executing a linear regression with a spreadsheet, the calibration values found are ro = 0.074 and rpc = 0.008579. </plain></SENT>
+</text></p><p><text><SENT sid="283" pm="."><plain>Table 6 shows experimental results of the system. </plain></SENT>
+<SENT sid="284" pm="."><plain>The average error is 2.55% and the maximum observed error is 8.5%, which happened at the limit of the measurement range. </plain></SENT>
+<SENT sid="285" pm="."><plain>The range of operation goes from 15 cm to 60 cm, but that can be changed modifying the H distance. </plain></SENT>
+</text></p><p><text><SENT sid="286" pm="."><plain>The advantage of such system is that the processing needed is very low: the system has to find the brightest red dot on a small limited region of interest in the image, and then compute the distance using simple trigonometric relations. </plain></SENT>
+<SENT sid="287" pm="."><plain>The implementation computes distance at a rate of 9 frames per second in the mobile device while running the FFTs and closed loop control system described. </plain></SENT>
+<SENT sid="288" pm="."><plain>This makes this approach an interesting solution to distance measurement in robotics systems. </plain></SENT>
+</text></p><p><text><SENT sid="289" pm="."><plain>Figures 10, 11 and 12 show photos of the robot under the control of different devices. </plain></SENT>
+<SENT sid="290" pm="."><plain>Thanks to the portability of the Android system, the same software can be used in PC computers and mobile devices using ARM processors. </plain></SENT>
+<SENT sid="291" pm="."><plain>Although a proof of concept was developed using the Android operating system, the proposed architecture can be used with any system or programming language that can produce and record sounds. </plain></SENT>
+<SENT sid="292" pm="."><plain>One should note that the main contribution of this work is the communication scheme, so these photos show a provisional robot’s assembly setup used to validate the proposed architecture for robotics. </plain></SENT>
+</text></p></sec></sec><SecTag type="CONCL"><sec><label>6.</label><title><text><SENT sid="293" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="294" pm="."><plain>This paper introduces a simple but universal control architecture that enables a wide variety of devices to implement control of mechatronics and automation systems. </plain></SENT>
+<SENT sid="295" pm="."><plain>The method can be used to implement closed loop control systems in mechatronics systems using audio channels of computing devices, allowing the processing unit to be easily replaced without the need of pairing or special configurations. </plain></SENT>
+<SENT sid="296" pm="."><plain>Several obsolete and current devices can be used to control robots such as PDAs, phones and computers. </plain></SENT>
+<SENT sid="297" pm="."><plain>Even an <z:uniprot sup="inside" fb="0" ids="Q9SK39">MP3</z:uniprot> player could be used if control without feedback is needed. </plain></SENT>
+<SENT sid="298" pm="."><plain>The sound produced by the player would drive the motors. </plain></SENT>
+</text></p><p><text><SENT sid="299" pm="."><plain>As an application example, the presented method is used to build a mobile robot with differential drive. </plain></SENT>
+<SENT sid="300" pm="."><plain>The robot’s complete costs, including frame, motors, sensors and electronics is less than 30 US dollars (in small quantities), and the parts can be easily found in stores or on the Internet. </plain></SENT>
+<SENT sid="301" pm="."><plain>The mentioned price does not include the mobile device. </plain></SENT>
+</text></p><p><text><SENT sid="302" pm="."><plain>The method can be used for several applications such as educational robotics, low cost robotics research platforms, telepresence robots, autonomous and remotely controlled robots. </plain></SENT>
+<SENT sid="303" pm="."><plain>In engineering courses it is also a motivation for students to learn digital signal processing theory, and all the other multidisciplinary fields involved in robotics. </plain></SENT>
+</text></p><p><text><SENT sid="304" pm="."><plain>Another interesting application of this system is to build sensor networks composed of smartphones that can gather data from their internal sensors and poll external sensors via audio tones, allowing sensor networks to be easily built and scaled using commercial off-the-shelf mobile devices instead of specific boards and development kits. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="305" pm="."><plain>We would like to thank Piotr Jasiun for the open FFT and DTMF decoder implementations for the Android system. </plain></SENT>
+<SENT sid="306" pm="."><plain>Although we optimized and modified most of his code, it was a good starting point. </plain></SENT>
+<SENT sid="307" pm="."><plain>The authors would also like to thank the support from the Brazilian National Council, Sponsoring Agency for Research (CNPq). </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="b1-sensors-12-01572"><text><SENT sid="308" pm="."><plain>1.Cellbots: Using Cellphones as Robotic Control PlatformsAvailable online: <ext-link ext-link-type="uri" xlink:href="http://www.cellbots./com/">http://www.cellbots./com/</ext-link> (accessed on 15 October 2011). </plain></SENT>
+</text></ref><ref id="b2-sensors-12-01572"><text><SENT sid="309" pm="."><plain>2.AhnH.S.SaI.ChoiJ.Y.<z:uniprot sup="inside" fb="22" ids="B9J8S0">PDA</z:uniprot>-based mobile robot system with remote monitoring for home environmentIEEE Trans. </plain></SENT>
+<SENT sid="310" pm="."><plain>Consum. </plain></SENT>
+<SENT sid="311" pm="."><plain>Electron20095514871495 </plain></SENT>
+</text></ref><ref id="b3-sensors-12-01572"><text><SENT sid="312" pm="."><plain>3.SaI.AhnH.S.YiK.M.ChoiJ.Y.Implementation of home automation system using a <z:uniprot sup="inside" fb="22" ids="B9J8S0">PDA</z:uniprot> based mobile robotProceedings of IEEE International Symposium on Industrial ElectronicsSeoul, Korea5–8 July 200917611766 </plain></SENT>
+</text></ref><ref id="b4-sensors-12-01572"><text><SENT sid="313" pm="."><plain>4.SantosA.C.TarratacaL.CardodosoJ.M.The feasibility of navigation algorithms on smartphones using J2MEMob. </plain></SENT>
+<SENT sid="314" pm="."><plain>Netw. </plain></SENT>
+<SENT sid="315" pm="."><plain>Appl201015819830 </plain></SENT>
+</text></ref><ref id="b5-sensors-12-01572"><text><SENT sid="316" pm="."><plain>5.GarciaL.M.OliveiraA.A.F.GrupenR.A.WheelerD.S.FaggA.H.Tracing patterns and attention: humanoid robot cognitionIEEE Intel. </plain></SENT>
+<SENT sid="317" pm="."><plain>Syst. </plain></SENT>
+<SENT sid="318" pm="."><plain>Appl2000157077 </plain></SENT>
+</text></ref><ref id="b6-sensors-12-01572"><text><SENT sid="319" pm="."><plain>6.QuigleyM.GerkeyB.ConleyK.FaustJ.FooteT.B.LeibsJ.BergerE.WheelerR.NgA.Y.ROS: An Open-Source Robot Operating SystemProceedings of ICRA Workshop on Open-Source SoftwareKobe, Japan12–17 May 2009 </plain></SENT>
+</text></ref><ref id="b7-sensors-12-01572"><text><SENT sid="320" pm="."><plain>7.HessD.RohrigC.Remote controlling of technical systems using mobile devicesProceedings of IEEE International Workshop on Intelligent Data Acquisition and Advanced Computing Systems: Technology and ApplicationsCalabria, Italy21–23 September 2009625628 </plain></SENT>
+</text></ref><ref id="b8-sensors-12-01572"><text><SENT sid="321" pm="."><plain>8.ParkJ.H.SongT.H.ParkJ.H.JeonJ.W.Usability analysis of a <z:uniprot sup="inside" fb="22" ids="B9J8S0">PDA</z:uniprot>-based user interface for mobile robot teleoperationProceedings of IEEE International Conference on Industrial InformaticsDaejeon, Korea13–16 July 200814871491 </plain></SENT>
+</text></ref><ref id="b9-sensors-12-01572"><text><SENT sid="322" pm="."><plain>9.Serial on Android using the audio portAvailable online: <ext-link ext-link-type="uri" xlink:href="http://robots-everywhere.com/re_wiki/index.php?title=Serial_on_Android_using_the_audio_port">http://robots-everywhere.com/re_wiki/index.<z:uniprot sup="inside" fb="0" ids="P39769">php</z:uniprot>?title=Serial_on_Android_using_the_audio_port</ext-link> (accessed on 15 October 2011). </plain></SENT>
+</text></ref><ref id="b10-sensors-12-01572"><text><SENT sid="323" pm="."><plain>10.PatilB.C.HenryR.Dual functional reconfigurable mobile robotProceedings of IEEE Region 10 ConferenceHyderabad, India19–21 November 200815 </plain></SENT>
+</text></ref><ref id="b11-sensors-12-01572"><text><SENT sid="324" pm="."><plain>11.ManikandanD.PareekP.RameshP.Cell phone operated robotProceedings of International Conference on Emerging Trends in Robotics and Communication Technologies (INTERACT)Salem, India3–5 December 2010183184 </plain></SENT>
+</text></ref><ref id="b12-sensors-12-01572"><text><SENT sid="325" pm="."><plain>12.SaiK.V.S.SivaramakrishnanR.Design and fabrication of holonomic motion robot using DTMF control tonesProceedings of International Conference on Control, Automation, Communication and Energy Conservation (INCACEC)Perundurai, India4–6 June 200914 </plain></SENT>
+</text></ref><ref id="b13-sensors-12-01572"><text><SENT sid="326" pm="."><plain>13.NaskarS.DasS.SethA.K.NathA.Application of Radio Frequency Controlled Intelligent Military Robot in DefenseProceedings of International Conference on Communication Systems and Network Technologies (CSNT)Katra, India3–5 June 2011396340 </plain></SENT>
+</text></ref><ref id="b14-sensors-12-01572"><text><SENT sid="327" pm="."><plain>14.LadwaT.M.LadwaS.M.KaarthikR.S.DharaA.R.DaleiN.Control of Remote Domestic System Using DTMFProceedings of International Conference on Instrumentation, Communications, Information Technology, and Biomedical Engineering (ICICI-BME)Bandung, Indonesia23–25 November 200916 </plain></SENT>
+</text></ref><ref id="b15-sensors-12-01572"><text><SENT sid="328" pm="."><plain>15.ChoY.C.JeonJ.W.Remote robot control system based on DTMF of mobile phoneProceedings of 6th IEEE International Conference on Industrial Informatics (INDIN)Daejeon, South Korea13–16 July 200814411446 </plain></SENT>
+</text></ref><ref id="b16-sensors-12-01572"><text><SENT sid="329" pm="."><plain>16.RomotiveAvailable online: <ext-link ext-link-type="uri" xlink:href="http://www.romotive.com/">http://www.romotive.com/</ext-link> (accessed on 15 October 2011). </plain></SENT>
+</text></ref><ref id="b17-sensors-12-01572"><text><SENT sid="330" pm="."><plain>17.DavidsonD.M.YatesD.C.MarksB.RumseyF.Distribution of audio signalsAudio Engineer’s Reference Book2nd edTalbot-SmithM.Focal PressWoburn, MA, USA1999 </plain></SENT>
+</text></ref><ref id="b18-sensors-12-01572"><text><SENT sid="331" pm="."><plain>18.van BosseJ.G.DevetakF.U.Signaling in Telecommunication Networks2nd edWiley Series in Telecommunications and Signal Processing;Wiley-InterscienceHoboken, NJ, USA2006 </plain></SENT>
+</text></ref><ref id="b19-sensors-12-01572"><text><SENT sid="332" pm="."><plain>19.CooleyJ.C.TukeyJ.W.An algorithm for the machine calculation of complex Fourier seriesMath. </plain></SENT>
+<SENT sid="333" pm="."><plain>Comput196519297301 </plain></SENT>
+</text></ref><ref id="b20-sensors-12-01572"><text><SENT sid="334" pm="."><plain>20.LyonsR.G.Understanding Digital Signal Processing2nd edPrentice Hall PTRUpper Saddle River, NJ, USA2004 </plain></SENT>
+</text></ref><ref id="b21-sensors-12-01572"><text><SENT sid="335" pm="."><plain>21.ChitodeJ.S.Digital Signal Processing2nd edTechnical Publications PunePune, India2008 </plain></SENT>
+</text></ref><ref id="b22-sensors-12-01572"><text><SENT sid="336" pm="."><plain>22.KhanA.A.Digital Signal Processing Fundamentals1st edDa Vinci Engineering PressHingham, MA, USA2005 </plain></SENT>
+</text></ref><ref id="b23-sensors-12-01572"><text><SENT sid="337" pm="."><plain>23.TanL.Digital Signal Processing: Fundamentals and Applications1st edAcademic Press (Elsevier)Burlington, MA, USA2008 </plain></SENT>
+</text></ref><ref id="b24-sensors-12-01572"><text><SENT sid="338" pm="."><plain>24.GoertzelG.An Algorithm for the evaluation of finite trigonometric seriesAmer. </plain></SENT>
+<SENT sid="339" pm="."><plain>Math. </plain></SENT>
+<SENT sid="340" pm="."><plain>Mon1958653435 </plain></SENT>
+</text></ref><ref id="b25-sensors-12-01572"><text><SENT sid="341" pm="."><plain>25.LukW.K.LiH.F.Microcomputer-based real-time/online f.f.t. processorIEE Proc- Comput. </plain></SENT>
+<SENT sid="342" pm="."><plain>Dig. </plain></SENT>
+<SENT sid="343" pm="."><plain>Tech19801271823 </plain></SENT>
+</text></ref><ref id="b26-sensors-12-01572"><text><SENT sid="344" pm="."><plain>26.SiegwartR.NourbakhshI.R.Introduction to Autonomous Mobile Robots (Intelligent Robotics and Autonomous Agents series)1st edThe MIT PressCambridge, MA, USA2004 </plain></SENT>
+</text></ref><ref id="b27-sensors-12-01572"><text><SENT sid="345" pm="."><plain>27.CrowleyJ.L.Asynchronous control of rotation and translation for a robot vehicleProceedings of IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS): The Autonomous Mobile Robots and Its ApplicationsTsukuba, Japan12–15 September 1989650655 </plain></SENT>
+</text></ref><ref id="b28-sensors-12-01572"><text><SENT sid="346" pm="."><plain>28.McCombG.PredkoM.The Robot Builder’s Bonanza3rd edMcGraw-HillNew York, NY, USA2006 </plain></SENT>
+</text></ref><ref id="b29-sensors-12-01572"><text><SENT sid="347" pm="."><plain>29.DankoT.Webcam based DIY laser rangefinderAvailable online: <ext-link ext-link-type="uri" xlink:href="http://sites.google.com/site/todddanko/home/webcam_laser_ranger">http://sites.google.com/site/todddanko/home/webcam_laser_ranger</ext-link>2009(22 December 2011). </plain></SENT>
+</text></ref><ref id="b30-sensors-12-01572"><text><SENT sid="348" pm="."><plain>30.Portugal-ZambranoC.E.<z:uniprot sup="inside" fb="61" ids="Q03173">Mena</z:uniprot>-ChalcoJ.P.Robust Range Finder Through a Laser Pointer and a WebcamProceedings of the 2011 Latin American Conference in Informatics (CLEI)Quito, Ecuador10–14 October 2011143157 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="f1-sensors-12-01572" position="float"><label>Figure 1.</label><caption><p><text><SENT sid="349" pm="."><plain>DTMF decoder with four independent outputs controlled by audio from a mobile device. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2-sensors-12-01572" position="float"><label>Figure 2.</label><caption><p><text><SENT sid="350" pm="."><plain>Dual motor control using one mono audio channel. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3-sensors-12-01572" position="float"><label>Figure 3.</label><caption><p><text><SENT sid="351" pm="."><plain>Sensors input using a DTMF generator. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4-sensors-12-01572" position="float"><label>Figure 4.</label><caption><p><text><SENT sid="352" pm="."><plain>DTMF digit recognition performance in different devices. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f4"/></fig></SecTag><SecTag type="FIG"><fig id="f5-sensors-12-01572" position="float"><label>Figure 5.</label><caption><p><text><SENT sid="353" pm="."><plain>Sensors connection in a mobile robot with differential drive. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f5"/></fig></SecTag><SecTag type="FIG"><fig id="f6-sensors-12-01572" position="float"><label>Figure 6.</label><caption><p><text><SENT sid="354" pm="."><plain>Experimental odometry results. </plain></SENT>
+<SENT sid="355" pm="."><plain>X axis is the real traveled distance manually measured with a tape measure. </plain></SENT>
+<SENT sid="356" pm="."><plain>Y axis is the distance computed by the mobile device using the proposed system with data from the encoders. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f6"/></fig></SecTag><SecTag type="FIG"><fig id="f7-sensors-12-01572" position="float"><label>Figure 7.</label><caption><p><text><SENT sid="357" pm="."><plain>Distance measurement system using a camera and a laser pointer. </plain></SENT>
+<SENT sid="358" pm="."><plain>H is the distance between the camera optical axis and the laser pointer, D the distance between the camera and the object, theta is the angle between the camera’s optical axis and the laser reflected by the object. pfc (pixels from center) is the distance in pixels from the center of the image and the red dot. </plain></SENT>
+<SENT sid="359" pm="."><plain>Figure adapted from Danko and Portugal-Zambrano [29,30]. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f7"/></fig></SecTag><SecTag type="FIG"><fig id="f8-sensors-12-01572" position="float"><label>Figure 8.</label><caption><p><text><SENT sid="360" pm="."><plain>Block diagram of the robot’s software. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f8"/></fig></SecTag><SecTag type="FIG"><fig id="f9-sensors-12-01572" position="float"><label>Figure 9.</label><caption><p><text><SENT sid="361" pm="."><plain>Image seen by the robot’s camera of the same object at different distances. </plain></SENT>
+<SENT sid="362" pm="."><plain>Note the distance of the laser dot to the image center (shown by the green line) when the object is at different distances. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f9"/></fig></SecTag><SecTag type="FIG"><fig id="f10-sensors-12-01572" position="float"><label>Figure 10.</label><caption><p><text><SENT sid="363" pm="."><plain>Robot under the control of a mobile phone. </plain></SENT>
+<SENT sid="364" pm="."><plain>The audio input and output channels are connected in a single connector below the phone. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f10"/></fig></SecTag><SecTag type="FIG"><fig id="f11-sensors-12-01572" position="float"><label>Figure 11.</label><caption><p><text><SENT sid="365" pm="."><plain>Robot under the control of a tablet computer. </plain></SENT>
+<SENT sid="366" pm="."><plain>The audio output is driven from a P2 connector attached to the earphone jack and the audio input is captured by the built-in microphone of the device. </plain></SENT>
+<SENT sid="367" pm="."><plain>Note the suction cup holding an earphone near the microphone. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f11"/></fig></SecTag><SecTag type="FIG"><fig id="f12-sensors-12-01572" position="float"><label>Figure 12.</label><caption><p><text><SENT sid="368" pm="."><plain>Robot under the control of a netbook computer. </plain></SENT>
+<SENT sid="369" pm="."><plain>Audio input and output channels are connected with independent P2 connectors. </plain></SENT>
+<SENT sid="370" pm="."><plain>This is the most common case for computers. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-12-01572f12"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="t1-sensors-12-01572" position="float"><label>Table 1.</label><caption><p><text><SENT sid="371" pm="."><plain>DTMF frequencies pairs and corresponding digits. </plain></SENT>
+<SENT sid="372" pm="."><plain>Adapted from the Audio Engineer’s Reference Book [17]. </plain></SENT>
+</text></p></caption><table frame="box" rules="all"><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1"/><th align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>1,209 Hz </plain></SENT>
+</text></th><th align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>1,336 Hz </plain></SENT>
+</text></th><th align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>1,477 Hz </plain></SENT>
+</text></th><th align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>1,633 Hz </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>697 Hz </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>A </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>770 Hz </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>B </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>852 Hz </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>C </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>941 Hz </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>* </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain># </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>D </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t2-sensors-12-01572" position="float"><label>Table 2.</label><caption><p><text><SENT sid="397" pm="."><plain>DTMF digits and corresponding motors states. </plain></SENT>
+</text></p></caption><table frame="box" rules="all"><thead><tr><th align="center" valign="middle" rowspan="2" colspan="1"><text><SENT sid="398" pm="."><plain>DTMF digit </plain></SENT>
+</text></th><th align="center" valign="middle" rowspan="2" colspan="1"><text><SENT sid="399" pm="."><plain>Binary word </plain></SENT>
+</text></th><th colspan="2" align="center" valign="middle" rowspan="1"><text><SENT sid="400" pm="."><plain>Motor state </plain></SENT>
+</text></th></tr><tr><th align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>Motor A </plain></SENT>
+</text></th><th align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>Motor B </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>None </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>00 00 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>Stopped </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>Stopped </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>D </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>00 00 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>Stopped </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>Stopped </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>00 01 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>Stopped </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>Left spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>00 10 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>Stopped </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>Right spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>00 11 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>Stopped </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>Invalid </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>01 00 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>Left spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>Stopped </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>01 01 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>Left spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>Left spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>01 10 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>Left spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>Right spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>01 11 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>Left spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>Invalid </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>10 00 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>Right spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>Stopped </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>10 01 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>Right spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>Left spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>10 10 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>Right spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>Right spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>* </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>10 11 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>Right spin </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>Invalid </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain># </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>11 00 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>Invalid </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>Stopped </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>A </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>11 01 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>Invalid </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>Left spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>B </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>11 10 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>Invalid </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>Right spin </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>C </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>11 11 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>Invalid </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>Invalid </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t3-sensors-12-01572" position="float"><label>Table 3.</label><caption><p><text><SENT sid="471" pm="."><plain>Truth table used with 4 sensors input used in the case study robot. </plain></SENT>
+</text></p></caption><table frame="box" rules="all"><thead><tr><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>Left Encoder (bit 3) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>Right encoder (bit 2) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>Right bumper (bit 1) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>Left bumper (bit 0) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>DTMF Digit </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>4 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>6 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>A </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>B </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>C </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>D </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>* </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain># </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t4-sensors-12-01572" position="float"><label>Table 4.</label><caption><p><text><SENT sid="557" pm="."><plain>Encoder resolution, displacement measurement resolution and maximum speed that can be measured (considering r = 25 mm and s = 40 DTMF digits per second). </plain></SENT>
+</text></p></caption><table frame="box" rules="all"><thead><tr><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>Encoder resolution (digits per revolution) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>Displacement resolution </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>Maximum speed </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>157 mm </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>6,283 mm/s </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>26 mm </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>1,047 mm/s </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>13 mm </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>571 mm/s </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>24 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>6.5 mm </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>261 mm/s </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>40 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>3.92 mm </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>157 mm/s </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t5-sensors-12-01572" position="float"><label>Table 5.</label><caption><p><text><SENT sid="576" pm="."><plain>Measurement range for a VGA camera (640 × 480). </plain></SENT>
+<SENT sid="577" pm="."><plain>All values in centimeters. </plain></SENT>
+</text></p></caption><table frame="box" rules="all"><thead><tr><th align="center" valign="top" rowspan="2" colspan="1"><text><SENT sid="578" pm="."><plain>H </plain></SENT>
+</text></th><th colspan="2" align="center" valign="top" rowspan="1"><text><SENT sid="579" pm="."><plain>Measurement Range </plain></SENT>
+</text></th></tr><tr><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>Minimum </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>Maximum </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>1.74 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>6.74 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>3.48 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>13.48 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>4.5 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>15.65 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>60.68 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>34.79 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>134.86 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t6-sensors-12-01572" position="float"><label>Table 6.</label><caption><p><text><SENT sid="594" pm="."><plain>Distance measurement results using a mobile phone camera. </plain></SENT>
+</text></p></caption><table frame="box" rules="all"><thead><tr><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>Real distance (cm) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>Measured distance (cm) </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>Error (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>16.02 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>0.12 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>20.30 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>1.50 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>25.29 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>1.16 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>29.70 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>1.00 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>35.43 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>1.22 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>40 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>39.79 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>0.50 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>45 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>43.80 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>2.66 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>47.80 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>4.40 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>55 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>52.57 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>4.41 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>54.90 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>8.50 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></floats-group></article>

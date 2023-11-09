@@ -1,0 +1,588 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article article-type="research-article"><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4302291</article-id><article-id pub-id-type="pii">srep07930</article-id><article-id pub-id-type="doi">10.1038/srep07930</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Assessing Cholesterol Storage in Live Cells and C. elegans by Stimulated Raman Scattering Imaging of Phenyl-Diyne Cholesterol </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Lee</surname><given-names>Hyeon Jeong</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">*</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Wandi</given-names></name><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n1">*</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Delong</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Yang</surname><given-names>Yang</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Liu</surname><given-names>Bin</given-names></name><xref ref-type="aff" rid="a4">4</xref></contrib><contrib contrib-type="author"><name><surname>Barker</surname><given-names>Eric L.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a5">5</xref></contrib><contrib contrib-type="author"><name><surname>Buhman</surname><given-names>Kimberly K.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a6">6</xref></contrib><contrib contrib-type="author"><name><surname>Slipchenko</surname><given-names>Lyudmila V.</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Dai</surname><given-names>Mingji</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Cheng</surname><given-names>Ji-Xin</given-names></name><xref ref-type="corresp" rid="c2">b</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a7">7</xref></contrib><aff id="a1"><label>1</label><institution>Interdisciplinary Life Science Program, Purdue University</institution>, West Lafayette, IN, <country>USA</country></aff><aff id="a2"><label>2</label><institution>Department of Comparative Pathobiology, Purdue University</institution>, West Lafayette, IN, <country>USA</country></aff><aff id="a3"><label>3</label><institution>Department of Chemistry, Purdue University</institution>, West Lafayette, IN, <country>USA</country></aff><aff id="a4"><label>4</label><institution>National Key Laboratory of Science and Technology on Tunable Laser, Harbin Institute of Technology</institution>, Harbin 150080, <country>China</country></aff><aff id="a5"><label>5</label><institution>Medicinal Chemistry and Molecular Pharmacology, Purdue University</institution>, West Lafayette, IN, <country>USA</country></aff><aff id="a6"><label>6</label><institution>Department of Nutrition Science, Purdue University</institution>, West Lafayette, IN, <country>USA</country></aff><aff id="a7"><label>7</label><institution>Weldon School of Biomedical Engineering, Purdue University</institution>, West Lafayette, IN, <country>USA</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>mjdai@purdue.edu</email></corresp><corresp id="c2"><label>b</label><email>jcheng@purdue.edu</email></corresp><fn id="n1"><label>*</label><p><text><SENT sid="1" pm="."><plain>These authors contributed equally to this work. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>22</day><month>01</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>5</volume><elocation-id>7930</elocation-id><history><date date-type="received"><day>03</day><month>10</month><year>2014</year></date><date date-type="accepted"><day>22</day><month>12</month><year>2014</year></date></history><permissions><copyright-statement>Copyright © 2015, Macmillan Publishers Limited. All rights reserved</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Macmillan Publishers Limited. All rights reserved</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder in order to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>We report a cholesterol imaging method using rationally synthesized phenyl-diyne cholesterol (PhDY-Chol) and stimulated Raman scattering (SRS) microscope. </plain></SENT>
+<SENT sid="3" pm="."><plain>The phenyl-diyne group is biologically inert and provides a Raman scattering cross section that is 88 times larger than the endogenous C = O stretching mode. </plain></SENT>
+<SENT sid="4" pm="."><plain>SRS microscopy offers an imaging speed that is faster than spontaneous Raman microscopy by three orders of magnitude, and a detection sensitivity of 31 μM PhDY-Chol (~1,800 molecules in the excitation volume). </plain></SENT>
+<SENT sid="5" pm="."><plain>Inside living CHO cells, PhDY-Chol mimics the behavior of cholesterol, including membrane incorporation and esterification. </plain></SENT>
+<SENT sid="6" pm="."><plain>In a cellular model of Niemann-Pick type C disease, PhDY-Chol reflects the lysosomal accumulation of cholesterol, and shows relocation to lipid droplets after HPβCD treatment. </plain></SENT>
+<SENT sid="7" pm="."><plain>In live C. elegans, PhDY-Chol mimics cholesterol uptake by intestinal cells and reflects cholesterol storage. </plain></SENT>
+<SENT sid="8" pm="."><plain>Together, our work demonstrates an enabling platform for study of cholesterol storage and trafficking in living cells and vital organisms. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="9" pm="."><plain>As an important component of cellular membrane, cholesterol controls physical properties of the membrane and contributes to specific membrane structures such as lipid rafts12. </plain></SENT>
+<SENT sid="10" pm="."><plain>Inside cells, cholesterol plays an important role in various signaling pathways34 and serves as the precursor for signaling molecules, and modifies specific proteins, such as hedgehog, to control protein trafficking and activity5. </plain></SENT>
+<SENT sid="11" pm="."><plain>The distribution of cholesterol in a living cell is highly regulated67. </plain></SENT>
+<SENT sid="12" pm="."><plain>Intracellular cholesterol is stored in lipid droplets (LDs) in the form of cholesteryl ester to avoid the toxicity caused by free cholesterol89. </plain></SENT>
+<SENT sid="13" pm="."><plain>Dysregulation of cholesterol metabolism and/or trafficking has been linked to diseases, including atherosclerosis910, Niemann-Pick type C (NP-C) disease11, and various cancers1213. </plain></SENT>
+<SENT sid="14" pm="."><plain>So far, our understanding of cholesterol transport and metabolism is limited, partly due to lack of suitable tools for imaging cholesterol in a living system14. </plain></SENT>
+</text></p><p><text><SENT sid="15" pm="."><plain>Intracellular cholesterol transport and metabolism have been studied extensively using various reporter molecules15, including cholesterol binding molecules and cholesterol analogs. </plain></SENT>
+<SENT sid="16" pm="."><plain>Cholesterol binding molecules, such as <z:uniprot sup="inside" fb="0" ids="P22637,P9WMV8,P9WMV9,P12676">cholesterol oxidase</z:uniprot>, filipin, and <z:uniprot sup="inside" fb="0" ids="Q0TUS0,P0C2E9">perfringolysin O</z:uniprot> derivatives, are commonly used to study steady-state distribution of cholesterol in fixed cells and tissues161718. </plain></SENT>
+<SENT sid="17" pm="."><plain>Fluorescent cholesterol, including intrinsic fluorescent sterols such as dehydroergosterol (DHE) and fluorophore-tagged analogs such as 7-nitrobenz-2-oxa-1,3-diazole (NBD)-cholesterol and boron dipyrromethene difluoride (BODIPY)-cholesterol are widely used in vitro and in vivo192021. </plain></SENT>
+<SENT sid="18" pm="."><plain>Radiolabeled cholesterol or its precursors are used in biochemical studies of metabolism and trafficking of cholesterol15. </plain></SENT>
+<SENT sid="19" pm="."><plain>More recently, clickable cholesterol analogs were also developed for studying cholesterol-binding proteins and tracking cholesterol metabolism and distribution2223. </plain></SENT>
+</text></p><p><text><SENT sid="20" pm="."><plain>These current cholesterol assays have limitations. </plain></SENT>
+<SENT sid="21" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P22637,P9WMV8,P9WMV9,P12676">Cholesterol oxidase</z:uniprot> is commonly used in fluorometric or colorimetric assays to quantify total cholesterol in homogenized cells. </plain></SENT>
+<SENT sid="22" pm="."><plain>Radiolabeled cholesterol has to be used in combination with separation methods to determine intracellular cholesterol distribution indirectly. </plain></SENT>
+<SENT sid="23" pm="."><plain>For imaging purpose, filipin is the most commonly used molecule for visualizing distribution of free cholesterol, but it is only applicable to fixed cells or tissues with moderate specificity because filipin also labels other lipids24. </plain></SENT>
+<SENT sid="24" pm="."><plain>BODIPY-cholesterol is known to cause perturbations due to bulkiness of the fluorophores25. </plain></SENT>
+<SENT sid="25" pm="."><plain>DHE has the closest structure as cholesterol, but its fluorescence undergoes rapid photo-bleaching15, which impedes real-time observation of cholesterol trafficking. </plain></SENT>
+<SENT sid="26" pm="."><plain>Clickable cholesterol analog requires additional steps before fluorescence imaging. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>Owing to smaller volumes compared to fluorophores, Raman tags provide a promising way of imaging biomolecules like DNA and <z:uniprot sup="inside" fb="0" ids="O07091,P00059,P00063,P81280,P00064,P00020,P00038,P00017,P29380,P00065,Q753F4,P56205,P00029,P00003,P62894,P62772,P62773,P68099,P53698,P25400,P00011,P00053,Q52V09,P00022,P67881,P15451,Q96VP3,P00021,P00032,P00078,P68517,P68518,P68519,P00051,Q6IQM2,P00043,Q869N1,P00018,P00030,P38091,P00028,P68097,P68096,P68100,P00076,P22342,P00072,O22642,Q4HVX7,P00074,Q6WUX8,P00058,P00069,P00035,P00070,P00007,P00004,P99999,P00025,P32556,P68098,P00024,P00036,P00014,P00031,P00002,Q52V08,P00056,P00039,P67882,P00013,P00012,P00048,P00066,A2Y4S9,Q0DI31,B4USV4,O93863,P99998,P00071,Q6QLW4,P00041,Q6Q4H8,O13393,P62895,Q5RFH4,P00008,P00057,P59218,Q52V10,P00037,P00062,P12831,P00040,P19681,P00046,P00054,P62896,P00060,P00061,P00073,P00027,Q41346,P00019,P00077,Q4SG99,P00079,Q4UEA0,P00047,Q4N594,P81459,Q7YR71,P00067,P18822,P00075,P00049,P21665,P00052,P00068,P00042,Q6C9Q0">cytochrome c</z:uniprot> inside cells on a Raman microscope2627. </plain></SENT>
+<SENT sid="28" pm="."><plain>These Raman tags utilize the vibrational signatures of the carbon-deuterium (C–D) bond, the cyano bond (C≡N) or the alkyne bond (C≡C) that are spectrally isolated from the endogenous Raman bands28. </plain></SENT>
+<SENT sid="29" pm="."><plain>Spontaneous Raman imaging has allowed cellular trafficking of different C–D labeled lipid species in fixed cells29, and direct visualization of alkyne-tagged DNA synthesis and <z:uniprot sup="inside" fb="0" ids="O07091,P00059,P00063,P81280,P00064,P00020,P00038,P00017,P29380,P00065,Q753F4,P56205,P00029,P00003,P62894,P62772,P62773,P68099,P53698,P25400,P00011,P00053,Q52V09,P00022,P67881,P15451,Q96VP3,P00021,P00032,P00078,P68517,P68518,P68519,P00051,Q6IQM2,P00043,Q869N1,P00018,P00030,P38091,P00028,P68097,P68096,P68100,P00076,P22342,P00072,O22642,Q4HVX7,P00074,Q6WUX8,P00058,P00069,P00035,P00070,P00007,P00004,P99999,P00025,P32556,P68098,P00024,P00036,P00014,P00031,P00002,Q52V08,P00056,P00039,P67882,P00013,P00012,P00048,P00066,A2Y4S9,Q0DI31,B4USV4,O93863,P99998,P00071,Q6QLW4,P00041,Q6Q4H8,O13393,P62895,Q5RFH4,P00008,P00057,P59218,Q52V10,P00037,P00062,P12831,P00040,P19681,P00046,P00054,P62896,P00060,P00061,P00073,P00027,Q41346,P00019,P00077,Q4SG99,P00079,Q4UEA0,P00047,Q4N594,P81459,Q7YR71,P00067,P18822,P00075,P00049,P21665,P00052,P00068,P00042,Q6C9Q0">cytochrome c</z:uniprot> release from mitochondria in living cells2627 with an image acquisition speed of 50 min per frame of 127 × 127 pixels. </plain></SENT>
+<SENT sid="30" pm="."><plain>To enhance the signal level, nonlinear vibrational microscopy based on the coherent Raman process has been developed30 and deployed for imaging C–D labeled fatty acids3132, amino acids33, and drugs34 in living cells with a speed that is ~1,000 times faster than with spontaneous Raman microscopy. </plain></SENT>
+<SENT sid="31" pm="."><plain>More recently, stimulated Raman scattering (SRS) imaging of alkyne-tagged molecules has been reported, with a detection limit at the level of hundreds of micromolar3536. </plain></SENT>
+<SENT sid="32" pm="."><plain>SRS is a third order nonlinear optical process that involves two laser fields, namely, a pump field at ωp and a Stokes field at ωS. </plain></SENT>
+<SENT sid="33" pm="."><plain>When the beating frequency (ωp − ωS) is tuned to excite a molecular vibration, the energy difference between ωp and ωS pumps the molecule from a ground state to a vibrationally excited state. </plain></SENT>
+<SENT sid="34" pm="."><plain>In correspondence, the laser fields experience a weak decrease in pump beam intensity, called stimulated Raman loss (SRL), and a corresponding increase in Stokes beam intensity, called stimulated Raman gain (SRG). </plain></SENT>
+<SENT sid="35" pm="."><plain>In the case of SRL, the Stokes beam intensity IS is modulated and the pump beam intensity Ip is recorded by a photodiode. </plain></SENT>
+<SENT sid="36" pm="."><plain>The induced modulation is often extracted by a lock-in amplifier. </plain></SENT>
+<SENT sid="37" pm="."><plain>Theoretically, the modulation depth induced by SRL, ISRL/Ip, is linearly proportional to the Raman cross section, σ, molar concentration of the target molecule, N, and the Stokes beam intensity, i.e., ISRL/Ip ∝ σ N IS. </plain></SENT>
+<SENT sid="38" pm="."><plain>SRS microscopy offers much faster imaging speed compared to spontaneous Raman microscopy37. </plain></SENT>
+</text></p><p><text><SENT sid="39" pm="."><plain>Here, we report the synthesis of a Raman probe, phenyl-diyne cholesterol (PhDY-Chol), and its use for imaging cholesterol esterification, storage and trafficking inside living cells and vital organisms. </plain></SENT>
+<SENT sid="40" pm="."><plain>By rational design and chemical synthesis, we prepared a probe molecule, PhDY-Chol, which gives a 2,254 cm−1 Raman peak that is 88 times stronger than the endogenous C = O stretching band. </plain></SENT>
+<SENT sid="41" pm="."><plain>Compared to alkyne-tagged cholesterol of which the IC50 is 16 μM, the phenyl-diyne group is biologically inert and did not cause cytotoxicity after 16 h incubation at 50 μM. </plain></SENT>
+<SENT sid="42" pm="."><plain>In live Chinese hamster ovary (CHO) cells, SRS imaging showed incorporation into plasma membrane, esterification of PhDY-Chol by acyl-CoA: <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">cholesterol acyltransferase 1</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot>), and storage in LDs. </plain></SENT>
+<SENT sid="43" pm="."><plain>In a cellular model of NP-C disease, PhDY-Chol is selectively accumulated in lysosomes and is esterified and relocated to LDs after treatment with a cholesterol-mobilization drug. </plain></SENT>
+<SENT sid="44" pm="."><plain>In live C. elegans, SRS imaging of PhDY-Chol reflected cholesterol uptake through ChUP-1 regulated manner, and storage in the intestinal cells. </plain></SENT>
+<SENT sid="45" pm="."><plain>These studies herald the potential of our method for unveiling intracellular cholesterol trafficking mechanisms and highly efficient screening of drugs that target cholesterol metabolism. </plain></SENT>
+</text></p><SecTag type="RESULTS"><sec disp-level="1" sec-type="results"><title><text><SENT sid="46" pm="."><plain>Results </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="47" pm="."><plain>Rational design and synthesis of tagged cholesterol with an extremely large Raman scattering cross section </plain></SENT>
+</text></title><p><text><SENT sid="48" pm="."><plain>In order to design a probe molecule that not only maintains physiological functions of cholesterol, but also has a large Raman scattering cross section, we chose to replace the aliphatic side chain of cholesterol with a cyano or an alkynyl group (Fig. 1). </plain></SENT>
+<SENT sid="49" pm="."><plain>These groups have small size, which could minimize structural perturbation of the molecule of interest, in this case, cholesterol. </plain></SENT>
+<SENT sid="50" pm="."><plain>Meanwhile, these groups produce strong Raman scattering peaks in a cellular silent region (1,800–2,800 cm−1)2628 and therefore, can potentially be used for Raman imaging in a low-concentration condition. </plain></SENT>
+<SENT sid="51" pm="."><plain>It has been reported that as the chain length increases, the hyperpolarizability increases in polyynes38. </plain></SENT>
+<SENT sid="52" pm="."><plain>Also, aromatic ring capped alkyne was shown to give stronger Raman signals than terminal alkyne27. </plain></SENT>
+<SENT sid="53" pm="."><plain>To design tagged cholesterol with very strong Raman intensity, we calculated the Raman cross section of potential tags, namely alkyne, phenyl-alkyne, diyne, and phenyl-diyne, using the Q-Chem and GAMESS electronic structure packages to provide insight of the relation between molecular structure and Raman intensity. </plain></SENT>
+<SENT sid="54" pm="."><plain>Our results show that the localized polarizabilities on each C≡C moiety increase with the number of conjugated triple bonds, as well as with addition of a phenyl ring (Supplementary Figure 1a and Supplementary Table 1). </plain></SENT>
+<SENT sid="55" pm="."><plain>Thus, the total polarizability of the molecule increases as a result of the additive effect as well as non-linear boost in the polarizability of conjugated bonds. </plain></SENT>
+<SENT sid="56" pm="."><plain>The phenyl ring serves as both a donor and an acceptor of π-electrons from the neighboring triple bonds, further escalating polarizabilities of neighboring conjugated bonds. </plain></SENT>
+<SENT sid="57" pm="."><plain>Taking into account that the Raman intensity is proportional to squares of polarizability derivatives, the additional three-fold enhancement of the total polarizability due to conjugation results in a ~10-fold boost in Raman intensity. </plain></SENT>
+<SENT sid="58" pm="."><plain>Together, compared to the alkyne group, the Raman intensity increases by 9 times by adding a phenyl group to the terminal alkyne, and 52 times by conjugating a phenyl group and another alkyne (Supplementary Fig. 1b). </plain></SENT>
+</text></p><p><text><SENT sid="59" pm="."><plain>Based on the above considerations, we have synthesized a series of tagged cholesterols – alkyne cholesterol (A-Chol, 5), phenyl-alkyne cholesterol (PhA-Chol, 6), phenyl-diyne cholesterol (PhDY-Chol, 7), and cyano cholesterol (CN-Chol, 8), as shown in Figure 1. </plain></SENT>
+<SENT sid="60" pm="."><plain>Our synthesis commenced with commercially available cholenic acid 3. </plain></SENT>
+<SENT sid="61" pm="."><plain>Using a sequence of <z:uniprot sup="inside" fb="0" ids="P10070,P48733,Q862Z3,P07911,Q91X17,P27590">THP</z:uniprot>-protection, LiAlH4 reduction, Dess-Martin oxidation and Seyferth-Gilbert-Bestmann homologation, cholenic acid 3 was converted to compound 4 with a terminal alkyne group in excellent yield. </plain></SENT>
+<SENT sid="62" pm="."><plain>Removal of the <z:uniprot sup="inside" fb="0" ids="P10070,P48733,Q862Z3,P07911,Q91X17,P27590">THP</z:uniprot>-protecting group gave probe 5. </plain></SENT>
+<SENT sid="63" pm="."><plain>We further prepared PhA-Chol 6 and PhDY-Chol 7 from compound 4 via a palladium-catalyzed Sonogashira reaction and a copper-catalyzed Cadiot-Chodkiewicz reaction, respectively, followed by acidic removal of <z:uniprot sup="inside" fb="0" ids="P10070,P48733,Q862Z3,P07911,Q91X17,P27590">THP</z:uniprot> group. </plain></SENT>
+<SENT sid="64" pm="."><plain>Additionally, CN-Chol 8 was prepared from cholenic acid 3 via standard transformations. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="65" pm="."><plain>Raman spectral analysis and SRS imaging of tagged cholesterol </plain></SENT>
+</text></title><p><text><SENT sid="66" pm="."><plain>To determine the Raman shift of the C≡C stretching vibrational mode and to compare the level of Raman signals from the tagged cholesterols, we prepared 50 mM of each compound in cyclohexanone and performed confocal Raman spectral analysis (Fig. 2). </plain></SENT>
+<SENT sid="67" pm="."><plain>The signal from CN-Chol was too weak to be detected. </plain></SENT>
+<SENT sid="68" pm="."><plain>A-Chol showed its peak for C≡C vibrational mode at 2,122 cm−1; PhA-Chol at 2,239 cm−1; PhDY-Chol at 2,254 cm−1 (Fig. 2a). </plain></SENT>
+<SENT sid="69" pm="."><plain>To evaluate the amplitude of the Raman scattering cross section, we fitted each Raman band with a Lorentzian profile and calculated the area under the fitted profile. </plain></SENT>
+<SENT sid="70" pm="."><plain>Compared to the Raman peak of each tag to the 1,714 cm−1 C = O Raman peak from the solvent (9.7 M for pure cyclohexanone), the alkyne, PhA, and PhDY groups were found to be 6, 15, and 88 times stronger in Raman cross section, respectively (Fig. 2b). </plain></SENT>
+<SENT sid="71" pm="."><plain>This result showed that the PhDY tag produces a spectrally-isolated peak, which is stronger than the C = O vibrational mode by two orders of magnitude. </plain></SENT>
+</text></p><p><text><SENT sid="72" pm="."><plain>To determine the SRS imaging sensitivity for PhDY-Chol, we used a femtosecond SRL microscope reported elsewhere32. </plain></SENT>
+<SENT sid="73" pm="."><plain>Cyclohexanone solutions of PhDY-Chol were prepared by serial dilution, and SRS images of PhDY-Chol were recorded with the laser beating frequency tuned to be resonant with C≡C vibration at 2,254 cm−1. </plain></SENT>
+<SENT sid="74" pm="."><plain>In solutions without PhDY-Chol, a residual background was detected, caused by cross phase modulation. </plain></SENT>
+<SENT sid="75" pm="."><plain>The SRS contrast, defined as (S − B)/B, where S and B denote SRS signal and background, was calculated as a function of PhDY-Chol molar concentration. </plain></SENT>
+<SENT sid="76" pm="."><plain>At the speed of 200 μs per pixel, a linear relationship was observed (Fig. 2c) and 13% and 4% contrasts were reached at 313 μM and 156 μM, respectively. </plain></SENT>
+<SENT sid="77" pm="."><plain>To increase the detection sensitivity, we chirped the femtosecond lasers to 0.8 picoseconds with a SF-10 glass rod. </plain></SENT>
+<SENT sid="78" pm="."><plain>This spectral focusing approach39 maintained 85% of the SRS signal while reduced the cross phase modulation background level by 3 times, to a level of 6.3 × 10−7 in terms of modulation depth. </plain></SENT>
+<SENT sid="79" pm="."><plain>As a result, the SRS contrast became 14% at 31 μM, corresponding to ~1,800 molecules in the excitation volume (Fig. 2d). </plain></SENT>
+<SENT sid="80" pm="."><plain>We also depicted the modulation depth (ΔI/I) as a function of molar concentration (Supplementary Fig. 2), which is used for estimating the molar concentration of PhDY-Chol inside cells in following studies. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="81" pm="."><plain>Cytotoxicity caused by terminal alkyne is avoided by phenyl group </plain></SENT>
+</text></title><p><text><SENT sid="82" pm="."><plain>To evaluate the cytotoxicity of tagged cholesterols, we performed MTT cell-viability assays after treating CHO cells with tagged cholesterol. </plain></SENT>
+<SENT sid="83" pm="."><plain>Various concentrations of tagged cholesterol were added to the culture media and the cells were incubated for 48 h before the assays were conducted. </plain></SENT>
+<SENT sid="84" pm="."><plain>A-Chol was found to be toxic to the cells with IC50 of 16 μM. </plain></SENT>
+<SENT sid="85" pm="."><plain>Importantly, adding a phenyl group effectively reduced the cytotoxicity (Supplementary Fig. 3a). </plain></SENT>
+<SENT sid="86" pm="."><plain>To directly visualize the toxic effect, we stained the cells with propidium iodide for late apoptosis and necrosis. </plain></SENT>
+<SENT sid="87" pm="."><plain>Cells incubated with A-Chol showed reduced density and extensive apoptosis, whereas both PhA-Chol and PhDY-Chol caused minimum cell death (Supplementary Fig. 3b). </plain></SENT>
+<SENT sid="88" pm="."><plain>This result presents another important role of the phenyl group, which is to reduce the toxicity caused by terminal alkyne. </plain></SENT>
+<SENT sid="89" pm="."><plain>Based on the signal level and the severity of toxicity, we conclude that PhDY-Chol is the most suitable cholesterol analog for live cell imaging, and we used PhDY-Chol in subsequent experiments. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="90" pm="."><plain>Membrane incorporation and esterification of PhDY-Chol in live cells </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>We chose CHO cells which are commonly used for cholesterol trafficking and metabolism studies40. </plain></SENT>
+<SENT sid="92" pm="."><plain>To enhance cellular uptake of PhDY-Chol, the cells were pre-incubated in medium supplemented with lipoprotein-deficient serum to deplete medium cholesterol, after which the cells were incubated with 50 μM PhDY-Chol for 16 h. </plain></SENT>
+<SENT sid="93" pm="."><plain>By tuning the laser beating frequency to be resonant with C≡C vibration (2,254 cm−1), SRL signals arose from PhDY-Chol. </plain></SENT>
+<SENT sid="94" pm="."><plain>We also tuned the laser to be resonant with C–H vibration (2,885 cm−1) and obtained signals from C–H-rich lipid structures, such as LDs. </plain></SENT>
+</text></p><p><text><SENT sid="95" pm="."><plain>To show the incorporation of PhDY-Chol into the plasma membrane, we performed spectral focusing SRS imaging of live CHO cells after treating with PhDY-Chol for 1 h with 6 μs per pixel speed. </plain></SENT>
+<SENT sid="96" pm="."><plain>PhDY-Chol in the membrane was detected in the on-resonance image, and the contrast disappeared in the off-resonance image (Supplementary Fig. 4a). </plain></SENT>
+<SENT sid="97" pm="."><plain>The membrane incorporation was confirmed by filipin staining of free cholesterol and Raman spectral analysis (Supplementary Fig. 4b and 4c). </plain></SENT>
+<SENT sid="98" pm="."><plain>By focusing at the filipin-stained membrane, we have obtained the Raman spectrum showing the C = C band from filipin (Supplementary Fig. 4d), the amide I band from protein, and the C≡C band from the PhDY (Supplementary Fig. 4c). </plain></SENT>
+<SENT sid="99" pm="."><plain>Inside live CHO cells, PhDY-Chol was colocalized with LDs found in the C–H vibrational region (Fig. 3a). </plain></SENT>
+<SENT sid="100" pm="."><plain>This colocalization was confirmed by two-photon-excited fluorescence (TPEF) imaging and Raman spectral analysis of BODIPY-stained LDs in fixed CHO cells. </plain></SENT>
+<SENT sid="101" pm="."><plain>(Supplementary Fig. 5a and 5b). </plain></SENT>
+<SENT sid="102" pm="."><plain>The Raman spectra of the BODIPY-labeled LDs showed 702 cm−1 peak from cholesterol ring and the C≡C band from the PhDY (Supplementary Fig. 5b), which further supports the localization of PhDY-Chol in LDs. </plain></SENT>
+<SENT sid="103" pm="."><plain>Importantly, high imaging speed offered by SRS microscopy allowed real-time imaging of the trafficking of PhDY-Chol containing LDs within living cells (Supplementary Movie 1). </plain></SENT>
+</text></p><p><text><SENT sid="104" pm="."><plain>It is important to note that PhDY-Chol-rich structures inside the CHO cells could not be stained by filipin (Supplementary Fig. 4b), implicating that it is not in the free form. </plain></SENT>
+<SENT sid="105" pm="."><plain>We hypothesize that PhDY-Chol is converted into PhDY-cholesteryl ester, by <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot>, the enzyme responsible for cholesterol esterification8 (Fig. 3b). </plain></SENT>
+<SENT sid="106" pm="."><plain>To confirm the esterification of PhDY-Chol, we inhibited <z:uniprot sup="inside" fb="0" ids="P23141,Q60457,P35610,O77761,P24752">ACAT</z:uniprot> with avasimibe for 24 h before addition of PhDY-Chol. </plain></SENT>
+<SENT sid="107" pm="."><plain>After blocking cholesterol esterification, the amount of PhDY-Chol storage found in CHO cells significantly decreased (Fig. 3c). </plain></SENT>
+<SENT sid="108" pm="."><plain>Although LDs were still visible, the amount of PhDY-Chol signal found inside LDs reduced by 4 times (Fig. 3d). </plain></SENT>
+<SENT sid="109" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> knockdown by shRNA was also conducted to specifically inhibit the enzyme. </plain></SENT>
+<SENT sid="110" pm="."><plain>Similarly, we found decreased amount of PhDY-Chol in <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> knocked down CHO cells, and the amount of PhDY-Chol in LDs reduced significantly (Supplementary Fig. 6a). </plain></SENT>
+<SENT sid="111" pm="."><plain>To determine where PhDY-Chol accumulates after <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition, we stained the cells with LysoTracker for lysosomes. </plain></SENT>
+<SENT sid="112" pm="."><plain>Our result indicated that after <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition, PhDY-Chol partially located in lysosomes (Supplementary Fig. 6b). </plain></SENT>
+<SENT sid="113" pm="."><plain>Collectively, these results show that PhDY-Chol can be transported into cells, converted into PhDY-cholesteryl ester by <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot>, and stored in LDs following the normal metabolic pathway of cholesterol. </plain></SENT>
+<SENT sid="114" pm="."><plain>To emphasize the physiological compatibility of our PhDY tag, we treated CHO cells with BODIPY-cholesterol. </plain></SENT>
+<SENT sid="115" pm="."><plain>The amount of BODIPY-cholesterol incorporated into LDs did not change after <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition (Fig. 3d and 3e), indicating that BODIPY-cholesterol directly labels the LDs without metabolic conversion into cholesteryl ester. </plain></SENT>
+<SENT sid="116" pm="."><plain>It is known that excess cholesterol inside cells is stored into LDs through cholesterol esterification by <z:uniprot sup="inside" fb="0" ids="P23141,Q60457,P35610,O77761,P24752">ACAT</z:uniprot> proteins8. </plain></SENT>
+<SENT sid="117" pm="."><plain>Therefore, PhDY-Chol reflects the intracellular cholesterol metabolism more faithfully compared to BODIPY-cholesterol. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="118" pm="."><plain>Lysosomal accumulation and relocation to LDs in NP-C disease model </plain></SENT>
+</text></title><p><text><SENT sid="119" pm="."><plain>Next, we explored the potential of PhDY-Chol for studying cholesterol transport in NP-C disease, a disorder featured by abnormal cholesterol accumulation in late endosome/lysosome caused by mutation in <z:uniprot sup="inside" fb="0" ids="Q8L7Y9,O15118,P56941">NPC1</z:uniprot> or 2 gene41. </plain></SENT>
+<SENT sid="120" pm="."><plain>M12 cells, mutant CHO cells that contain a deletion of the <z:uniprot sup="inside" fb="0" ids="Q8L7Y9,O15118,P56941">NPC1</z:uniprot> locus, were established as a cellular model of the NP-C disease42. </plain></SENT>
+<SENT sid="121" pm="."><plain>By combining SRL imaging of PhDY with TPEF imaging of filipin, we observed that, unlike wildtype CHO cells, the PhDY-Chol-rich structures were stained by filipin, indicating that these PhDY-Chol molecules were located in lysosomes. </plain></SENT>
+<SENT sid="122" pm="."><plain>(Fig. 4a, Supplementary Fig. 7a and 7b). </plain></SENT>
+<SENT sid="123" pm="."><plain>Moreover, we observed some filipin labeled structures that do not contain PhDY-Chol. </plain></SENT>
+<SENT sid="124" pm="."><plain>This result is reasonable given that filipin has been shown to label other lipid molecules, such as glycosphingolipids24. </plain></SENT>
+<SENT sid="125" pm="."><plain>As additional evidence, we incubated M12 cells with PhDY-Chol and stained the cells with LysoTracker. </plain></SENT>
+<SENT sid="126" pm="."><plain>It was found that all PhDY-Chol-rich areas were localized in LysoTracker-stained organelles (Supplementary Fig. 7c). </plain></SENT>
+<SENT sid="127" pm="."><plain>Collectively, these results showed that PhDY-Chol selectively represents the lysosomal storage of cholesterol in the NP-C disease model. </plain></SENT>
+</text></p><p><text><SENT sid="128" pm="."><plain>We then treated the PhDY-Chol-labeled M12 cells with a cholesterol-mobilizing drug, hydroxypropyl β-cyclodextrin (HPβCD)43. </plain></SENT>
+<SENT sid="129" pm="."><plain>This drug is known to mediate lysosomal escape of cholesterol, and promote storage of excess cholesterol into LDs44. </plain></SENT>
+<SENT sid="130" pm="."><plain>After treating with HPβCD, the amount of PhDY-Chol in M12 cells decreased by half (Fig. 4b and c). </plain></SENT>
+<SENT sid="131" pm="."><plain>Interestingly, we observed that some PhDY-Chol-rich areas were not labeled by filipin after HPβCD treatment (arrow heads in Fig. 4b). </plain></SENT>
+<SENT sid="132" pm="."><plain>These areas likely represent PhDY-cholesteryl ester stored in LDs. </plain></SENT>
+<SENT sid="133" pm="."><plain>To confirm this possibility, we stained the cells with BODIPY for localization of LDs. </plain></SENT>
+<SENT sid="134" pm="."><plain>The result clearly showed that PhDY-Chol has moved into LDs after HPβCD treatment, and the number of PhDY-rich LDs increased significantly (Fig. 4d and 4e). </plain></SENT>
+<SENT sid="135" pm="."><plain>Together, these data indicate that PhDY-Chol can be used as a reliable cholesterol analog to study cholesterol mobilization inside living cells. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="136" pm="."><plain>Cholesterol uptake and storage in intestinal cells in C. elegans visualized by PhDY-Chol </plain></SENT>
+</text></title><p><text><SENT sid="137" pm="."><plain>Finally, to demonstrate the capability of monitoring cholesterol uptake and distribution in vivo, we used C. elegans as an animal model to study cholesterol uptake and storage. </plain></SENT>
+<SENT sid="138" pm="."><plain>We fed N2 wildtype C. elegans with PhDY-Chol-labeled E. coli and imaged PhDY-Chol storage in the worms using our SRL microscope at speed of 40 μs per pixel. </plain></SENT>
+<SENT sid="139" pm="."><plain>PhDY-Chol was found most abundantly in the intestinal cells inside the wildtype worms (upper panels in Fig. 5a). </plain></SENT>
+<SENT sid="140" pm="."><plain>To confirm the uptake of PhDY-Chol by intestinal cells, we fed ChUP-1 mutant C. elegans, in which dietary cholesterol uptake is inhibited by ChUP-1 deletion45, with PhDY-Chol. </plain></SENT>
+<SENT sid="141" pm="."><plain>We did not observe PhDY-Chol inside this strain (lower panels in Fig. 5a), which indicates that the PhDY tag did not affect the cholesterol uptake process. </plain></SENT>
+<SENT sid="142" pm="."><plain>Then, we tuned the laser to be resonant with C–H vibration for lipid-rich LDs. </plain></SENT>
+<SENT sid="143" pm="."><plain>Unlike CHO cells, the PhDY-Chol-rich compartments were found to be distinguished from LDs in wildtype worms (upper panels in Fig. 5a). </plain></SENT>
+<SENT sid="144" pm="."><plain>To explore the nature of PhDY-Chol-rich compartments found in our study, we used hjIs9 worms that contain <z:uniprot sup="inside" fb="2" ids="P42212">GFP</z:uniprot> targeted to lysosome-related organelles (LROs) in intestinal cells46. </plain></SENT>
+<SENT sid="145" pm="."><plain>Dual-modality SRS and TPEF imaging showed that PhDY-Chol is stored in the LROs (Fig. 5b). </plain></SENT>
+<SENT sid="146" pm="."><plain>We further confirmed the cholesterol storage in intestinal LROs by combining TPEF imaging of <z:uniprot sup="inside" fb="2" ids="P42212">GFP</z:uniprot> targeted LROs and Raman spectral analysis of hjIs9 worms fed with normal cholesterol (Supplementary Fig. 8). </plain></SENT>
+<SENT sid="147" pm="."><plain>Raman spectrum of LROs showed peaks for sterol C = C bond at 1,667 cm−1 and Fermi resonance between asymmetrical <z:uniprot sup="inside" fb="6" ids="P30440">CH2</z:uniprot> vibrational modes at 2,875 cm−1, indicating the presence of cholesterol in this organelle. </plain></SENT>
+<SENT sid="148" pm="."><plain>Collectively, these results suggest that dietary PhDY-Chol uptake is through a ChUP-1 mediated process, and unlike mammalian CHO cells, C. elegans stores cholesterol in LROs, but not in LDs in the intestine. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec disp-level="1" sec-type="discussion"><title><text><SENT sid="149" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="150" pm="."><plain>In this study, we have developed a series of tagged cholesterols based on quantum chemistry calculations and chemical synthesis. </plain></SENT>
+<SENT sid="151" pm="."><plain>By using PhDY to replace the aliphatic chain in cholesterol, we produced a cholesterol analog, PhDY-Chol, with a Raman signal that is two orders of magnitude stronger than the C = O group. </plain></SENT>
+<SENT sid="152" pm="."><plain>By SRS imaging of live CHO cells, PhDY-Chol was found to be incorporated into the membrane, and converted to PhDY-cholesteryl ester for storage in LDs. </plain></SENT>
+<SENT sid="153" pm="."><plain>With this cholesterol analog, we experimentally validated that after <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition, cholesterol partly accumulates in lysosomes. </plain></SENT>
+<SENT sid="154" pm="."><plain>In live <z:uniprot sup="inside" fb="0" ids="Q8L7Y9,O15118,P56941">NPC1</z:uniprot>-deleted CHO cells, PhDY-Chol selectively represented lysosomal accumulation of cholesterol in untreated cells, and esterification and relocation to LDs after HPβCD treatment. </plain></SENT>
+<SENT sid="155" pm="."><plain>Lastly, SRS imaging of PhDY-Chol in live C. elegans showed cholesterol uptake by intestinal cells, and indicated LROs, but not LDs, as the cholesterol storage compartments in the intestine. </plain></SENT>
+</text></p><p><text><SENT sid="156" pm="."><plain>Essential parameters of a valid Raman tag include its amplitude of Raman scattering cross section, cytotoxicity, and biocompatibility. </plain></SENT>
+<SENT sid="157" pm="."><plain>Although the C–D bond can be used to replace C–H bonds without changing the structures of the molecules, it gives relatively weak Raman intensities. </plain></SENT>
+<SENT sid="158" pm="."><plain>Raman signal from alkyne bond is stronger than that from C–D bond by one order of magnitude27, and detection at hundreds of micromolar of alkyne-containing molecules by SRS microscopy was reported3536. </plain></SENT>
+<SENT sid="159" pm="."><plain>It should be noted that terminal alkyne is known to react with the cysteine residues in proteins47, which might induce cytotoxicity at micromolar concentrations. </plain></SENT>
+<SENT sid="160" pm="."><plain>In our study, through rational design and synthesis of a PhDY tag, we increased the Raman scattering cross section by 15 times compared to the alkyne group, and 88 times compared to the endogenous C = O group. </plain></SENT>
+<SENT sid="161" pm="."><plain>This enhancement is a result of conjugation of π-electrons among the two C≡C bonds and the phenyl group. </plain></SENT>
+<SENT sid="162" pm="."><plain>As a result, we have been able to detect ~30 μM of PhDY-Chol molecules (~1,800 molecules at excitation volume), and demonstrated SRS imaging of PhDY-Chol in single membrane at speed of 6 μs per pixel, and a real-time movie of PhDY-Chol containing LDs. </plain></SENT>
+<SENT sid="163" pm="."><plain>Importantly, this design also shielded the activity of terminal alkyne and significantly reduced cytotoxicity. </plain></SENT>
+<SENT sid="164" pm="."><plain>Moreover, PhDY-Chol structurally mimics cholesterol, using the same physiological process for cholesterol transport and metabolism inside cells. </plain></SENT>
+<SENT sid="165" pm="."><plain>Cell membrane morphology did not alter when PhDY-Chol was supplemented at high concentrations when compared to the cells supplemented with the same concentrations of cholesterol (Supplementary Fig. 3). </plain></SENT>
+<SENT sid="166" pm="."><plain>Moreover, the fluorescent property of pyrenedecanoic acid, a membrane fluidity indicator48, did not change after CHO cells were treated with 50 μM of PhDY-Chol or 50 μM of cholesterol for 16 h. </plain></SENT>
+<SENT sid="167" pm="."><plain>These evaluations suggest that the membrane property of the cells was not significantly affected by addition of PhDY-Chol or cholesterol under our experimental conditions. </plain></SENT>
+<SENT sid="168" pm="."><plain>We note that using the same strategy, other Raman tag molecules can be designed for sensitive and biocompatible probing of biomolecules in live cells. </plain></SENT>
+</text></p><p><text><SENT sid="169" pm="."><plain>The potential value of a Raman tag is also related to the detection sensitivity of SRS microscopy. </plain></SENT>
+<SENT sid="170" pm="."><plain>One limitation comes from the cross phase modulation, which produces a background that reduces the contrast for the tag molecules. </plain></SENT>
+<SENT sid="171" pm="."><plain>Although broadband femtosecond lasers provide high peak intensity to enhance the SRS signal32, they also increase the amplitude of the cross phase modulation. </plain></SENT>
+<SENT sid="172" pm="."><plain>As shown in our study, this background can be reduced by 3 times using spectral focusing39. </plain></SENT>
+<SENT sid="173" pm="."><plain>The spectral focusing approach also increases the spectral selectivity, reduces the photodamage, and provides opportunities to conduct hyperspectral SRS imaging49. </plain></SENT>
+</text></p><p><text><SENT sid="174" pm="."><plain>In this study, we compared BODIPY-cholesterol21 and PhDY-Chol. </plain></SENT>
+<SENT sid="175" pm="."><plain>Our results show that PhDY-Chol is stored in LDs via esterification which can be blocked by <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition. </plain></SENT>
+<SENT sid="176" pm="."><plain>In contrast, BODIPY-cholesterol labels LDs even after <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition. </plain></SENT>
+<SENT sid="177" pm="."><plain>This result may be due to the strong hydrophobic interaction of BODIPY with LDs, and is consistent with previous studies showing that BODIPY-cholesterol is hardly esterified by <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inside the cells21. </plain></SENT>
+<SENT sid="178" pm="."><plain>These results demonstrate that PhDY-Chol, but not BODIPY-cholesterol, reflects the intracellular behavior of free cholesterol. </plain></SENT>
+<SENT sid="179" pm="."><plain>We also showed that PhDY-Chol reflects the location of the cholesterol in real-time, unlike filipin staining, which requires fixation. </plain></SENT>
+<SENT sid="180" pm="."><plain>Lastly, SRS microscopy utilizes chemical-bond vibrational signals for visualization. </plain></SENT>
+<SENT sid="181" pm="."><plain>Thus, unlike fluorophores, the PhDY tag does not undergo bleaching (Supplementary Fig. 9), in contrast to BODIPY-cholesterol and DHE15 which is known to have a rapid photo-bleaching rate. </plain></SENT>
+<SENT sid="182" pm="."><plain>Combining these unique properties, PhDY-Chol allows quantitative imaging of intracellular cholesterol, and repetitive observation of the same sample before and after treatment. </plain></SENT>
+</text></p><p><text><SENT sid="183" pm="."><plain>Our work opens new opportunities for mechanistic study of the NP-C disease, a fatal neurodegenerative disease that shows extensive lysosomal accumulation of cholesterol. </plain></SENT>
+<SENT sid="184" pm="."><plain>Early detection methods and treatment strategies of this disease are still under development11. </plain></SENT>
+<SENT sid="185" pm="."><plain>The involvement of lysosomal cholesterol accumulation to the neurodegeneration is still unclear50. </plain></SENT>
+<SENT sid="186" pm="."><plain>Our in vitro study shows the cholesterol trafficking and metabolism in a cellular model. </plain></SENT>
+<SENT sid="187" pm="."><plain>This can be extended to in vivo studies using suitable mouse models to understand the progression of the disease and impact of potential therapeutic strategies, especially in central nervous system. </plain></SENT>
+</text></p><p><text><SENT sid="188" pm="."><plain>C. elegans is an important model for genetic and chemical screening in many diseases51. </plain></SENT>
+<SENT sid="189" pm="."><plain>It has been proposed that the intracellular sterol trafficking pathway might be conserved in nematodes52, making it a good model for exploring the genetics of fat storage and lipid metabolism53. </plain></SENT>
+<SENT sid="190" pm="."><plain>However, lipid storage in C. elegans has been a debate because of limitations and controversies of the visualization tool for lipids5455, especially cholesterol. </plain></SENT>
+<SENT sid="191" pm="."><plain>Filipin labeling causes sterol extraction and some tissues were not accessible with staining2056. </plain></SENT>
+<SENT sid="192" pm="."><plain>Imaging fluorescent cholesterol in C. elegans is a challenge due to strong and spectrally overlapping autofluorescence from the worm57. </plain></SENT>
+<SENT sid="193" pm="."><plain>Using label-free coherent anti-Stokes Raman scattering (CARS) microscopy, fat storage compartments in C. elegans were studied5859. </plain></SENT>
+<SENT sid="194" pm="."><plain>However, single color CARS microscopy based on the signal from C–H stretching vibrations cannot tell the compositions of the LDs, and so far it is not clear where the cholesterol is stored inside the worms. </plain></SENT>
+<SENT sid="195" pm="."><plain>By combination of chemical synthesis of PhDY-Chol and real-time SRS imaging, we found evidences suggesting the cholesterol storage in LROs. </plain></SENT>
+<SENT sid="196" pm="."><plain>Label-free Raman spectral analysis was performed to validate the finding. </plain></SENT>
+<SENT sid="197" pm="."><plain>Sterol uptake and transport in worms are still poorly understood45, and SRS imaging of PhDY-Chol opens an avenue to directly assess cholesterol uptake and transport for genome-wide RNA interference screening of cholesterol transport and storage genes in this animal model. </plain></SENT>
+<SENT sid="198" pm="."><plain>Finally, our work also opens new opportunities to study cholesterol trafficking and metabolism in other animal models such as zebrafish and mice. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec disp-level="1" sec-type="methods"><title><text><SENT sid="199" pm="."><plain>Methods </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="200" pm="."><plain>Calculation of Raman intensity </plain></SENT>
+</text></title><p><text><SENT sid="201" pm="."><plain>All calculations were performed at the HF/6-311G* level of theory. </plain></SENT>
+<SENT sid="202" pm="."><plain>Geometry optimizations, vibrational frequencies and Raman intensities are obtained in Q-Chem electronic structure package60. </plain></SENT>
+<SENT sid="203" pm="."><plain>Localized polarizabilities are calculated in the GAMESS quantum chemistry software61. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="204" pm="."><plain>Chemicals </plain></SENT>
+</text></title><p><text><SENT sid="205" pm="."><plain>3β-hydroxy-Δ5-cholenic acid was purchased from VWR. </plain></SENT>
+<SENT sid="206" pm="."><plain>Lipoprotein-deficient serum was purchased from Biomedical Technologies Inc. </plain></SENT>
+<SENT sid="207" pm="."><plain>Cholesterol, avasimibe, and filipin complex were purchased from Sigma-Aldrich. </plain></SENT>
+<SENT sid="208" pm="."><plain>BODIPY-cholesterol was purchased from Avanti Polar Lipids, Inc. </plain></SENT>
+<SENT sid="209" pm="."><plain>Propidium iodide, BODIPY, and LysoTracker were purchased from Life technologies. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="210" pm="."><plain>Synthesis of Raman-tagged cholesterol </plain></SENT>
+</text></title><p><text><SENT sid="211" pm="."><plain>Detailed synthesis procedures and characterization of compounds are shown in Supplementary Information. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="212" pm="."><plain>Solubilization of tagged cholesterol </plain></SENT>
+</text></title><p><text><SENT sid="213" pm="."><plain>To solubilize the tagged cholesterol molecules, the following procedure was used to prepare a stock solution of 10 mM cholesterol probe molecules. </plain></SENT>
+<SENT sid="214" pm="."><plain>The appropriate amount of cholesterol probe powder was dissolved in 100% ethanol to make a 20 mM solution. </plain></SENT>
+<SENT sid="215" pm="."><plain>The tube was vortexed and then sonicated in bath sonicator for 2 min. </plain></SENT>
+<SENT sid="216" pm="."><plain>The same volume of DMSO was added into the tube, vortexed, and then sonicated in bath sonicator for 2 min. </plain></SENT>
+<SENT sid="217" pm="."><plain>BODIPY-cholesterol was prepared with the same procedure. </plain></SENT>
+<SENT sid="218" pm="."><plain>For SRS imaging and Raman spectral analysis of tagged cholesterol solutions, cholesterol probe molecules were prepared in cyclohexanone at 50 mM. </plain></SENT>
+<SENT sid="219" pm="."><plain>The tube was vortexed and then sonicated in bath sonicator for 2 min. </plain></SENT>
+<SENT sid="220" pm="."><plain>1 μL of the solution was taken to prepare cover glass samples immediately before use. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="221" pm="."><plain>Cell culture and PhDY-Chol treatment </plain></SENT>
+</text></title><p><text><SENT sid="222" pm="."><plain>CHO-K1 cells and M12 cells (mutant CHO-K1 cells that contain a deletion of the <z:uniprot sup="inside" fb="0" ids="Q8L7Y9,O15118,P56941">NPC1</z:uniprot> locus42) were kindly provided by Dr. Daniel Ory, and were grown in a monolayer at 37°C in 5% CO2 in DMEM/F-12 medium supplemented with 10% (vol/vol) FBS. </plain></SENT>
+<SENT sid="223" pm="."><plain>To incubate cells with PhDY-Chol, cells were pre-incubated in DMEM/F-12 medium supplemented with 4.4% lipoprotein-deficient serum to deplete medium cholesterol for 16 h. </plain></SENT>
+<SENT sid="224" pm="."><plain>The cells were then incubated with PhDY-Chol containing medium (DMEM/F-12 + 4.4% lipoprotein-deficient serum +50 μM PhDY-Chol) for 16 h to 24 h. </plain></SENT>
+<SENT sid="225" pm="."><plain>Cells were rinsed with 1× PBS buffer three times before the next procedure. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="226" pm="."><plain>Raman spectromicroscopy </plain></SENT>
+</text></title><p><text><SENT sid="227" pm="."><plain>The background of Raman spectrum was removed as described62. </plain></SENT>
+<SENT sid="228" pm="."><plain>Each Raman spectrum of tagged cholesterol solution was acquired in 10 seconds, and each Raman spectrum of fluorescence stained cells was acquired in 30 seconds. </plain></SENT>
+<SENT sid="229" pm="."><plain>On the same microscope, TPEF imaging was performed with 707 nm laser with 100 mW power. </plain></SENT>
+<SENT sid="230" pm="."><plain>Backward-detected two-photon fluorescence signal was collected through a 425/40 nm or 522/40 nm band-pass filter for imaging filipin or BODIPY fluorescence, respectively. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="231" pm="."><plain>SRS microscopy </plain></SENT>
+</text></title><p><text><SENT sid="232" pm="."><plain>SRS imaging was performed on a femtosecond SRL microscope, with the laser beating frequency tuned to the C≡C vibration band at 2,254 cm−1, or to the C–H vibration band at 2,885 cm−1, as described previously32. </plain></SENT>
+<SENT sid="233" pm="."><plain>The laser power at the specimen was maintained at 75 mW, and no cell or tissue damage was observed. </plain></SENT>
+<SENT sid="234" pm="."><plain>For off-resonance, 2,099 cm−1 was used. </plain></SENT>
+<SENT sid="235" pm="."><plain>On the same microscope, TPEF imaging was performed with 843 nm laser with 30 mW power. </plain></SENT>
+<SENT sid="236" pm="."><plain>Forward-detected two-photon fluorescence signal was collected through an appropriate band-pass filter for imaging filipin, BODIPY, or LysoTracker. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="237" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition </plain></SENT>
+</text></title><p><text><SENT sid="238" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition was used to block cholesterol esterification either by adding a potent <z:uniprot sup="inside" fb="0" ids="P23141,Q60457,P35610,O77761,P24752">ACAT</z:uniprot> inhibitor, avasimibe, or by RNA interference with <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> shRNA plasmid. </plain></SENT>
+<SENT sid="239" pm="."><plain>Avasimibe: Cells were pre-treated with avasimibe at a final concentration of 10 μM for 24 h. </plain></SENT>
+<SENT sid="240" pm="."><plain>Then PhDY-Chol containing medium with 10 μM avasimibe was added into the cells and incubated for 24 h. </plain></SENT>
+<SENT sid="241" pm="."><plain>RNA interference: RNA interference was employed to specifically inhibit endogenous <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot>. </plain></SENT>
+<SENT sid="242" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> shRNA plasmid was purchased from Santa Cruz (sc-29624-SH). </plain></SENT>
+<SENT sid="243" pm="."><plain>shRNA plasmid was transfected with Lipofectamine®2000 (Invitrogen 11668030) as described in the manufacturer's protocols. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="244" pm="."><plain>HPβCD treatment </plain></SENT>
+</text></title><p><text><SENT sid="245" pm="."><plain>HPβCD was used as a drug treatment of NP-C disease. </plain></SENT>
+<SENT sid="246" pm="."><plain>M12 cells were incubated with PhDY-Chol for 16 h as described above. </plain></SENT>
+<SENT sid="247" pm="."><plain>Then cells were treated with 500 μM HPβCD for 30 h. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="248" pm="."><plain>Cell-viability assay </plain></SENT>
+</text></title><p><text><SENT sid="249" pm="."><plain>CHO cells were grown in 96-well plates with density of 4000 cells per well. </plain></SENT>
+<SENT sid="250" pm="."><plain>The next day, the cells were treated with each cholesterol probe at the indicated concentrations for 48 h. </plain></SENT>
+<SENT sid="251" pm="."><plain>Cell-viability was measured with the MTT colorimetric assay (Sigma). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="252" pm="."><plain>Propidium iodide staining </plain></SENT>
+</text></title><p><text><SENT sid="253" pm="."><plain>Propidium iodide was used to stain late apoptotic or necrotic cells. </plain></SENT>
+<SENT sid="254" pm="."><plain>CHO cells were incubated with 30 μM of tagged cholesterol molecules for 24 h. </plain></SENT>
+<SENT sid="255" pm="."><plain>The propidium iodide staining was performed following protocols provided by the manufacturer (Life Technologies). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="256" pm="."><plain>Fluorescent staining of free cholesterol, LDs, and lysosomes </plain></SENT>
+</text></title><p><text><SENT sid="257" pm="."><plain>Filipin was used to stain free cholesterol. </plain></SENT>
+<SENT sid="258" pm="."><plain>Cells were fixed with 10% formalin solution (Sigma) for 1 h at room temperature. </plain></SENT>
+<SENT sid="259" pm="."><plain>1.5 mg/mL glycine in PBS was used to quench the formalin by incubating the fixed cells for 10 minutes at room temperature. </plain></SENT>
+<SENT sid="260" pm="."><plain>To stain the cells with filipin, working solution of 0.05 mg/mL of filipin in PBS/10% FBS was used to incubate cells for 2 h at room temperature. </plain></SENT>
+<SENT sid="261" pm="."><plain>BODIPY was used to label LDs. </plain></SENT>
+<SENT sid="262" pm="."><plain>Cells were incubated with 10 μg/mL of BODIPY for 30 minutes at room temperature. </plain></SENT>
+<SENT sid="263" pm="."><plain>LysoTracker Yellow-<z:uniprot sup="inside" fb="6" ids="P08631,Q95M30">HCK</z:uniprot>-123 was used to stain lysosomes following protocols provided by the manufacturer (Life Technologies). </plain></SENT>
+<SENT sid="264" pm="."><plain>Cells were rinsed with PBS three times before TPEF imaging. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="265" pm="."><plain>C. elegans strains </plain></SENT>
+</text></title><p><text><SENT sid="266" pm="."><plain>The N2 Bristol was used as wild-type strain. </plain></SENT>
+<SENT sid="267" pm="."><plain>VC452 strain with chup-1(gk245) X genotype was used to study PhDY-Chol uptake. </plain></SENT>
+<SENT sid="268" pm="."><plain>VS17 strain with hjIs9 [<z:uniprot sup="inside" fb="0" ids="P08795">ges</z:uniprot>-1p::<z:uniprot sup="inside" fb="3" ids="Q27302,P30627">glo</z:uniprot>-1::<z:uniprot sup="inside" fb="2" ids="P42212">GFP</z:uniprot> + <z:uniprot sup="inside" fb="0" ids="Q17297,Q10658,Q9XYQ2">unc-119</z:uniprot>(+)] genotype was used to study cholesterol storage in LROs. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="269" pm="."><plain>PhDY-Chol uptake into C. elegans </plain></SENT>
+</text></title><p><text><SENT sid="270" pm="."><plain>PhDY-Chol uptake procedure was modified from a previously reported procedure20. </plain></SENT>
+<SENT sid="271" pm="."><plain>Briefly, 500 μM of PhDY-Chol in DMSO was spread on the NGM plates seeded with an E. coli OP50 lawn and allowed to grow overnight at room temperature. C. elegans was then transferred to PhDY-Chol containing plates and grown for 3 days before SRS imaging. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="272" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="273" pm="."><plain>To quantify PhDY-rich area, we first selected one cell and used “Threshold” function to select PhDY-rich cellular regions using ImageJ. </plain></SENT>
+<SENT sid="274" pm="."><plain>Then, by using “Analyze Particles” function, the area fraction (%) of PhDY-rich region was obtained. </plain></SENT>
+<SENT sid="275" pm="."><plain>To quantify PhDY-rich LDs, “Image Calculator” function in ImageJ was used to multiply SRS image of PhDY-Chol by TPEF image of BODIPY. </plain></SENT>
+<SENT sid="276" pm="."><plain>Then, after using “Threshold” function to select PhDY-rich LDs, the number of PhDY-rich LDs was counted by “Analyze Particles” function. </plain></SENT>
+<SENT sid="277" pm="."><plain>For each group, 7 cells were analyzed, and results were shown as mean ± standard deviation (SD). </plain></SENT>
+<SENT sid="278" pm="."><plain>Student's t test was used for all the comparisons. p &lt; 0.05 was considered statistically significant. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="AUTH_CONT"><sec disp-level="1"><title><text><SENT sid="279" pm="."><plain>Author Contributions </plain></SENT>
+</text></title><p><text><SENT sid="280" pm="."><plain>M.D. and J.X.C. designed the research. </plain></SENT>
+<SENT sid="281" pm="."><plain>D.Z. and L.V.S. performed and analyzed the quantum chemistry calculation. </plain></SENT>
+<SENT sid="282" pm="."><plain>W.Z. and Y.Y. synthesized and analyzed the compounds. </plain></SENT>
+<SENT sid="283" pm="."><plain>H.J.L. and D.Z. performed and analyzed the SRS experiments. </plain></SENT>
+<SENT sid="284" pm="."><plain>B.L. developed dual-modality imaging. </plain></SENT>
+<SENT sid="285" pm="."><plain>E.L.B. and K.K.B. provided the NP-C disease model and discussed the data. </plain></SENT>
+<SENT sid="286" pm="."><plain>H.J.L. performed and analyzed in vitro and in vivo experiments. </plain></SENT>
+<SENT sid="287" pm="."><plain>H.J.L., W.Z., M.D. and J.X.C. wrote the manuscript. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s1"><title><text><SENT sid="288" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material id="d33e24" content-type="local-data"><caption><title><text><SENT sid="289" pm="."><plain>Supplementary Information </plain></SENT>
+</text></title><p><text><SENT sid="290" pm="."><plain>Supplementary Movie </plain></SENT>
+</text></p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-s1.avi"/></supplementary-material><supplementary-material id="d33e30" content-type="local-data"><caption><title><text><SENT sid="291" pm="."><plain>Supplementary Information </plain></SENT>
+</text></title><p><text><SENT sid="292" pm="."><plain>Supplementary Information </plain></SENT>
+</text></p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-s2.pdf"/></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="293" pm="."><plain>We thank Dr. Daniel Ory at Washington University in St. Louis for providing CHO and M12 cell lines. </plain></SENT>
+<SENT sid="294" pm="."><plain>We thank Chunrui Hu for the help with the experiments. </plain></SENT>
+<SENT sid="295" pm="."><plain>VC452 strain was provided by the C. elegans Reverse Genetics Core Facility at <z:uniprot sup="inside" fb="6" ids="Q5UQC9,P27949,P0C8G3,P25869,P0C8G4,P0C8G5,P0CH28,P0CG66,P0CG48,P0CG64,P0CG68,P0CG61">UBC</z:uniprot>, which is part of the International C. elegans Gene Knockout Consortium, made from Moerman D, C. elegans Reverse Genetics Core, Vancouver, BC, Canada. </plain></SENT>
+<SENT sid="296" pm="."><plain>Other C. elegans strains were provided by the CGC, which is funded by <z:uniprot sup="inside" fb="65" ids="F4IDQ6">NIH</z:uniprot> Office of Research Infrastructure Programs (<z:uniprot sup="inside" fb="0" ids="P33166">P40</z:uniprot> OD010440). </plain></SENT>
+<SENT sid="297" pm="."><plain>This research was supported by R21 CA182608 to J.X.C., and the Ara Parseghian Medical Research Foundation/Smith Family BReaK-Thru Fund to E.L.B. </plain></SENT>
+<SENT sid="298" pm="."><plain>M.D. thanks Purdue University for Startup support and <z:uniprot sup="inside" fb="65" ids="F4IDQ6">NIH</z:uniprot> P30CA023168 for supporting shared NMR resources through Purdue Center for Cancer Research. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="299" pm="."><plain>YeagleP. </plain></SENT>
+<SENT sid="300" pm="."><plain>L. Cholesterol and the cell membrane. Biochim. </plain></SENT>
+<SENT sid="301" pm="."><plain>Biophys. </plain></SENT>
+<SENT sid="302" pm="."><plain>Acta 822, 267–287 (1985).3904832 </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="303" pm="."><plain>LingwoodD. &amp; SimonsK. Lipid rafts as a membrane-organizing principle. Science 327, 46–50 (2010).20044567 </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="304" pm="."><plain>WangP. </plain></SENT>
+<SENT sid="305" pm="."><plain>Y., WengJ. &amp; AndersonR. </plain></SENT>
+<SENT sid="306" pm="."><plain>G. <z:uniprot sup="inside" fb="0" ids="P22059,P16258">OSBP</z:uniprot> is a cholesterol-regulated <z:uniprot sup="inside" fb="0" ids="P20324,P26748">scaffolding protein</z:uniprot> in control of <z:uniprot sup="inside" fb="0" ids="P27361,Q63844,P21708">ERK 1</z:uniprot>/2 activation. Science 307, 1472–1476 (2005).15746430 </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="307" pm="."><plain>ShengR. et al. Cholesterol modulates cell signaling and protein networking by specifically interacting with PDZ domain-containing <z:uniprot sup="inside" fb="0" ids="P0DTA5,P0DTA6,Q9ZXI1,Q37887,P51719,Q04763,O64209,Q05222,Q04764,P25478,P13848,P07533,Q38580,P20324,P04534,P03716">scaffold proteins</z:uniprot>. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="308" pm="."><plain>Commun. 3, 1249 (2012).23212378 </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="309" pm="."><plain>MannR. </plain></SENT>
+<SENT sid="310" pm="."><plain>K. &amp; BeachyP. </plain></SENT>
+<SENT sid="311" pm="."><plain>A. Cholesterol modification of proteins. Biochim. </plain></SENT>
+<SENT sid="312" pm="."><plain>Biophys. </plain></SENT>
+<SENT sid="313" pm="."><plain>Acta 1529, 188–202 (2000).11111088 </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="314" pm="."><plain>GoldsteinJ. </plain></SENT>
+<SENT sid="315" pm="."><plain>L., DeBose-BoydR. </plain></SENT>
+<SENT sid="316" pm="."><plain>A. &amp; BrownM. </plain></SENT>
+<SENT sid="317" pm="."><plain>S. Protein sensors for membrane sterols. Cell 124, 35–46 (2006).16413480 </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="318" pm="."><plain>IkonenE. Cellular cholesterol trafficking and compartmentalization. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="319" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="320" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="321" pm="."><plain>Cell Biol. 9, 125–138 (2008).18216769 </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="322" pm="."><plain>ChangT. </plain></SENT>
+<SENT sid="323" pm="."><plain>Y., ChangC. </plain></SENT>
+<SENT sid="324" pm="."><plain>C. &amp; ChengD. Acyl-coenzyme A: cholesterol <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferase</z:uniprot>. Annu. </plain></SENT>
+<SENT sid="325" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="326" pm="."><plain>Biochem. 66, 613–638 (1997).9242919 </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="327" pm="."><plain>FareseR. </plain></SENT>
+<SENT sid="328" pm="."><plain>V.Jr &amp; WaltherT. </plain></SENT>
+<SENT sid="329" pm="."><plain>C. Lipid droplets finally get a little R-E-S-P-E-C-T. Cell 139, 855–860 (2009).19945371 </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="330" pm="."><plain>TabasI. Consequences of cellular cholesterol accumulation: basic concepts and physiological implications. J. </plain></SENT>
+<SENT sid="331" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="332" pm="."><plain>Invest. 110, 905–911 (2002).12370266 </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="333" pm="."><plain>PattersonM. </plain></SENT>
+<SENT sid="334" pm="."><plain>C. A riddle wrapped in a mystery: understanding Niemann-Pick disease, type C. Neurologist 9, 301–310 (2003).14629784 </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="335" pm="."><plain>NelsonE. </plain></SENT>
+<SENT sid="336" pm="."><plain>R. et al. 27-Hydroxycholesterol links hypercholesterolemia and breast cancer pathophysiology. Science 342, 1094–1098 (2013).24288332 </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="337" pm="."><plain>YueS. et al. Cholesteryl ester accumulation induced by <z:uniprot sup="inside" fb="0" ids="P60483,P60484">PTEN</z:uniprot> loss and <z:uniprot sup="inside" fb="0" ids="P54673,P42347,P54674,P42348,P54675,P54676">PI3K</z:uniprot>/AKT activation underlies human prostate cancer aggressiveness. Cell Metab. 19, 393–406 (2014).24606897 </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="338" pm="."><plain>ChangT. </plain></SENT>
+<SENT sid="339" pm="."><plain>Y., ChangC. </plain></SENT>
+<SENT sid="340" pm="."><plain>C., OhgamiN. &amp; YamauchiY. Cholesterol sensing, trafficking, and esterification. Annu. </plain></SENT>
+<SENT sid="341" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="342" pm="."><plain>Cell Dev. </plain></SENT>
+<SENT sid="343" pm="."><plain>Biol. 22, 129–157 (2006).16753029 </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="344" pm="."><plain>GimplG. &amp; Gehrig-BurgerK. Cholesterol reporter molecules. Biosci. </plain></SENT>
+<SENT sid="345" pm="."><plain>Rep. 27, 335–358 (2007).17668316 </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="346" pm="."><plain>ButlerJ. </plain></SENT>
+<SENT sid="347" pm="."><plain>D. et al. Progesterone blocks cholesterol translocation from lysosomes. J. </plain></SENT>
+<SENT sid="348" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="349" pm="."><plain>Chem. 267, 23797–23805 (1992).1429719 </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="350" pm="."><plain>MacLachlanJ., WotherspoonA. </plain></SENT>
+<SENT sid="351" pm="."><plain>T., AnsellR. </plain></SENT>
+<SENT sid="352" pm="."><plain>O. &amp; BrooksC. </plain></SENT>
+<SENT sid="353" pm="."><plain>J. <z:uniprot sup="inside" fb="0" ids="P22637,P9WMV8,P9WMV9,P12676">Cholesterol oxidase</z:uniprot>: sources, physical properties and analytical applications. J. </plain></SENT>
+<SENT sid="354" pm="."><plain>Steroid Biochem. </plain></SENT>
+<SENT sid="355" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="356" pm="."><plain>Biol. 72, 169–195 (2000).10822008 </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="357" pm="."><plain>ReidP. </plain></SENT>
+<SENT sid="358" pm="."><plain>C. et al. A novel cholesterol stain reveals early neuronal cholesterol accumulation in the Niemann-Pick type C1 mouse brain. J. </plain></SENT>
+<SENT sid="359" pm="."><plain>Lipid Res. 45, 582–591 (2004).14703504 </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="360" pm="."><plain>MukherjeeS., ZhaX., TabasI. &amp; MaxfieldF. </plain></SENT>
+<SENT sid="361" pm="."><plain>R. Cholesterol distribution in living cells: fluorescence imaging using dehydroergosterol as a fluorescent cholesterol analog. Biophys. </plain></SENT>
+<SENT sid="362" pm="."><plain>J. 75, 1915–1925 (1998).9746532 </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="363" pm="."><plain>MatyashV. et al. Distribution and transport of cholesterol in Caenorhabditis elegans. Mol. </plain></SENT>
+<SENT sid="364" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="365" pm="."><plain>Cell 12, 1725–1736 (2001).11408580 </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="366" pm="."><plain>Holtta-VuoriM. et al. BODIPY-cholesterol: a new tool to visualize sterol trafficking in living cells and organisms. Traffic 9, 1839–1849 (2008).18647169 </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="367" pm="."><plain>HulceJ. </plain></SENT>
+<SENT sid="368" pm="."><plain>J. et al. Proteome-wide mapping of cholesterol-interacting proteins in mammalian cells. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="369" pm="."><plain>Methods 10, 259–264 (2013).23396283 </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="370" pm="."><plain>HofmannK. et al. A novel alkyne cholesterol to trace cellular cholesterol metabolism and localization. J. </plain></SENT>
+<SENT sid="371" pm="."><plain>Lipid Res. 55, 583–591 (2014).24334219 </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="372" pm="."><plain>ArthurJ. </plain></SENT>
+<SENT sid="373" pm="."><plain>R., HeineckeK. </plain></SENT>
+<SENT sid="374" pm="."><plain>A. &amp; SeyfriedT. </plain></SENT>
+<SENT sid="375" pm="."><plain>N. Filipin recognizes both <z:uniprot sup="inside" fb="1" ids="P48648">GM1</z:uniprot> and cholesterol in <z:uniprot sup="inside" fb="1" ids="P48648">GM1</z:uniprot> gangliosidosis mouse brain. J. </plain></SENT>
+<SENT sid="376" pm="."><plain>Lipid Res. 52, 1345–1351 (2011).21508255 </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="377" pm="."><plain>SolankoL. </plain></SENT>
+<SENT sid="378" pm="."><plain>M. et al. Membrane orientation and lateral diffusion of BODIPY-cholesterol as a function of probe structure. Biophys. </plain></SENT>
+<SENT sid="379" pm="."><plain>J. 105, 2082–2092 (2013).24209853 </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="380" pm="."><plain>YamakoshiH. et al. Imaging of EdU, an alkyne-tagged cell proliferation probe, by Raman microscopy. J. </plain></SENT>
+<SENT sid="381" pm="."><plain>Am. </plain></SENT>
+<SENT sid="382" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="383" pm="."><plain>Soc. 133, 6102–6105 (2011).21443184 </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="384" pm="."><plain>YamakoshiH. et al. Alkyne-tag Raman imaging for visualization of mobile small molecules in live cells. J. </plain></SENT>
+<SENT sid="385" pm="."><plain>Am. </plain></SENT>
+<SENT sid="386" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="387" pm="."><plain>Soc. 134, 20681–20689 (2012).23198907 </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="388" pm="."><plain>PezackiJ. </plain></SENT>
+<SENT sid="389" pm="."><plain>P. et al. Chemical contrast for imaging living systems: molecular vibrations drive CARS microscopy. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="390" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="391" pm="."><plain>Biol. 7, 137–145 (2011).21321552 </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="392" pm="."><plain>MatthausC. et al. Noninvasive imaging of intracellular lipid metabolism in macrophages by Raman microscopy in combination with stable isotopic labeling. Anal. </plain></SENT>
+<SENT sid="393" pm="."><plain>Chem. 84, 8549–8556 (2012).22954250 </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="394" pm="."><plain>ChengJ.-X. &amp; XieX. </plain></SENT>
+<SENT sid="395" pm="."><plain>S. Coherent Raman scattering microscopy (CRC Press, 2013). </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="396" pm="."><plain>XieX. </plain></SENT>
+<SENT sid="397" pm="."><plain>S., YuJ. &amp; YangW. </plain></SENT>
+<SENT sid="398" pm="."><plain>Y. Living cells as test tubes. Science 312, 228–230 (2006).16614211 </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="399" pm="."><plain>ZhangD., SlipchenkoM. </plain></SENT>
+<SENT sid="400" pm="."><plain>N. &amp; ChengJ. </plain></SENT>
+<SENT sid="401" pm="."><plain>X. Highly sensitive vibrational imaging by femtosecond pulse stimulated Raman loss. J. </plain></SENT>
+<SENT sid="402" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="403" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="404" pm="."><plain>Lett. 2, 1248–1253 (2011).21731798 </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="405" pm="."><plain>WeiL. et al. Vibrational imaging of newly synthesized proteins in live cells by stimulated Raman scattering microscopy. Proc. </plain></SENT>
+<SENT sid="406" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="407" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="408" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="409" pm="."><plain>U. </plain></SENT>
+<SENT sid="410" pm="."><plain>S. </plain></SENT>
+<SENT sid="411" pm="."><plain>A. 110, 11226–11231 (2013).23798434 </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="412" pm="."><plain>BergnerG. et al. Quantitative detection of C-deuterated drugs by CARS microscopy and Raman microspectroscopy. Analyst 136, 3686–3693 (2011).21785774 </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="413" pm="."><plain>WeiL. et al. Live-cell imaging of alkyne-tagged small biomolecules by stimulated Raman scattering. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="414" pm="."><plain>Methods 4, 410–412 (2014).24584195 </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="415" pm="."><plain>HongS. et al. Live-cell stimulated Raman scattering imaging of alkyne-tagged biomolecules. Angew. </plain></SENT>
+<SENT sid="416" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="417" pm="."><plain>Int. </plain></SENT>
+<SENT sid="418" pm="."><plain>Ed. </plain></SENT>
+<SENT sid="419" pm="."><plain>Engl. 53, 5827–5831 (2014).24753329 </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="420" pm="."><plain>ZhangD., WangP., SlipchenkoM. </plain></SENT>
+<SENT sid="421" pm="."><plain>N. &amp; ChengJ. </plain></SENT>
+<SENT sid="422" pm="."><plain>X. Fast vibrational imaging of single cells and tissues by stimulated Raman scattering microscopy. Acc. </plain></SENT>
+<SENT sid="423" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="424" pm="."><plain>Res. 47, 2282–2290 (2014).24871269 </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="425" pm="."><plain>LeeJ. </plain></SENT>
+<SENT sid="426" pm="."><plain>Y., SuhS. </plain></SENT>
+<SENT sid="427" pm="."><plain>B. &amp; KimK. </plain></SENT>
+<SENT sid="428" pm="."><plain>S. Polyenes vs polyynes: Efficient π-frame for nonlinear optical pathways. J. </plain></SENT>
+<SENT sid="429" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="430" pm="."><plain>Phys. 112, 344–348 (2000). </plain></SENT>
+</text></ref><ref id="b39"><text><SENT sid="431" pm="."><plain>HellererT., EnejderA. </plain></SENT>
+<SENT sid="432" pm="."><plain>M. </plain></SENT>
+<SENT sid="433" pm="."><plain>K. &amp; ZumbuschA. Spectral focusing: High spectral resolution spectroscopy with broad-bandwidth laser pulses. <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="434" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="435" pm="."><plain>Lett. 85, 25–27 (2004). </plain></SENT>
+</text></ref><ref id="b40"><text><SENT sid="436" pm="."><plain>CadiganK. </plain></SENT>
+<SENT sid="437" pm="."><plain>M., ChangC. </plain></SENT>
+<SENT sid="438" pm="."><plain>C. &amp; ChangT. </plain></SENT>
+<SENT sid="439" pm="."><plain>Y. Isolation of Chinese hamster ovary cell lines expressing human acyl-coenzyme A/cholesterol <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferase</z:uniprot> activity. J. </plain></SENT>
+<SENT sid="440" pm="."><plain>Cell Biol. 108, 2201–2210 (1989).2738092 </plain></SENT>
+</text></ref><ref id="b41"><text><SENT sid="441" pm="."><plain>CarsteaE. </plain></SENT>
+<SENT sid="442" pm="."><plain>D. et al. Niemann-Pick C1 disease gene: homology to mediators of cholesterol homeostasis. Science 277, 228–231 (1997).9211849 </plain></SENT>
+</text></ref><ref id="b42"><text><SENT sid="443" pm="."><plain>MillardE. </plain></SENT>
+<SENT sid="444" pm="."><plain>E. et al. Niemann-pick type C1 (<z:uniprot sup="inside" fb="0" ids="Q8L7Y9,O15118,P56941">NPC1</z:uniprot>) overexpression alters cellular cholesterol homeostasis. J. </plain></SENT>
+<SENT sid="445" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="446" pm="."><plain>Chem. 275, 38445–38451 (2000).10964915 </plain></SENT>
+</text></ref><ref id="b43"><text><SENT sid="447" pm="."><plain>LiuB. et al. Reversal of defective lysosomal transport in <z:uniprot sup="inside" fb="89" ids="P82535">NPC</z:uniprot> disease ameliorates liver dysfunction and neurodegeneration in the <z:uniprot sup="inside" fb="0" ids="Q7SI17,Q19127">npc1</z:uniprot>-/- mouse. Proc. </plain></SENT>
+<SENT sid="448" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="449" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="450" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="451" pm="."><plain>U. </plain></SENT>
+<SENT sid="452" pm="."><plain>S. </plain></SENT>
+<SENT sid="453" pm="."><plain>A. 106, 2377–2382 (2009).19171898 </plain></SENT>
+</text></ref><ref id="b44"><text><SENT sid="454" pm="."><plain>Abi-MoslehL. et al. Cyclodextrin overcomes deficient lysosome-to-endoplasmic reticulum transport of cholesterol in Niemann-Pick type C cells. Proc. </plain></SENT>
+<SENT sid="455" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="456" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="457" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="458" pm="."><plain>U. </plain></SENT>
+<SENT sid="459" pm="."><plain>S. </plain></SENT>
+<SENT sid="460" pm="."><plain>A. 106, 19316–19321 (2009).19884502 </plain></SENT>
+</text></ref><ref id="b45"><text><SENT sid="461" pm="."><plain>ValdesV. </plain></SENT>
+<SENT sid="462" pm="."><plain>J. et al. CUP-1 is a novel protein involved in dietary cholesterol uptake in Caenorhabditis elegans. PLoS One 7, e33962 (2012).22479487 </plain></SENT>
+</text></ref><ref id="b46"><text><SENT sid="463" pm="."><plain>ZhangS. </plain></SENT>
+<SENT sid="464" pm="."><plain>O. et al. Genetic and dietary regulation of lipid droplet expansion in Caenorhabditis elegans. Proc. </plain></SENT>
+<SENT sid="465" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="466" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="467" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="468" pm="."><plain>U. </plain></SENT>
+<SENT sid="469" pm="."><plain>S. </plain></SENT>
+<SENT sid="470" pm="."><plain>A. 107, 4640–4645 (2010).20176933 </plain></SENT>
+</text></ref><ref id="b47"><text><SENT sid="471" pm="."><plain>EkkebusR. et al. On terminal alkynes that can react with active-site cysteine nucleophiles in proteases. J. </plain></SENT>
+<SENT sid="472" pm="."><plain>Am. </plain></SENT>
+<SENT sid="473" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="474" pm="."><plain>Soc. 135, 2867–2870 (2013).23387960 </plain></SENT>
+</text></ref><ref id="b48"><text><SENT sid="475" pm="."><plain>DixJ. </plain></SENT>
+<SENT sid="476" pm="."><plain>A. &amp; VerkmanA. </plain></SENT>
+<SENT sid="477" pm="."><plain>S. Pyrene eximer mapping in cultured fibroblasts by ratio imaging and time-resolved microscopy. Biochemistry 29, 1949–1953 (1990).2331474 </plain></SENT>
+</text></ref><ref id="b49"><text><SENT sid="478" pm="."><plain>FuD. et al. Hyperspectral imaging with stimulated Raman scattering by chirped femtosecond lasers. J. </plain></SENT>
+<SENT sid="479" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="480" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="481" pm="."><plain>B 117, 4634–4640 (2013).23256635 </plain></SENT>
+</text></ref><ref id="b50"><text><SENT sid="482" pm="."><plain>PfriegerF. </plain></SENT>
+<SENT sid="483" pm="."><plain>W. Cholesterol homeostasis and function in neurons of the central nervous system. Cell. </plain></SENT>
+<SENT sid="484" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="485" pm="."><plain>Life Sci. 60, 1158–1171 (2003).12861382 </plain></SENT>
+</text></ref><ref id="b51"><text><SENT sid="486" pm="."><plain>KalettaT. &amp; HengartnerM. </plain></SENT>
+<SENT sid="487" pm="."><plain>O. Finding function in novel targets: C. elegans as a model organism. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="488" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="489" pm="."><plain>Drug Discov. 5, 387–398 (2006).16672925 </plain></SENT>
+</text></ref><ref id="b52"><text><SENT sid="490" pm="."><plain>LiJ. et al. NCR-1 and NCR-2, the C. elegans homologs of the human Niemann-Pick type C1 disease protein, function upstream of <z:uniprot sup="inside" fb="115" ids="Q60401,P08174,P49457">DAF</z:uniprot>-9 in the dauer formation pathways. Development 131, 5741–5752 (2004).15509773 </plain></SENT>
+</text></ref><ref id="b53"><text><SENT sid="491" pm="."><plain>AshrafiK. et al. Genome-wide RNAi analysis of Caenorhabditis elegans fat regulatory genes. Nature 421, 268–272 (2003).12529643 </plain></SENT>
+</text></ref><ref id="b54"><text><SENT sid="492" pm="."><plain>O'RourkeE. </plain></SENT>
+<SENT sid="493" pm="."><plain>J., SoukasA. </plain></SENT>
+<SENT sid="494" pm="."><plain>A., CarrC. </plain></SENT>
+<SENT sid="495" pm="."><plain>E. &amp; RuvkunG. </plain></SENT>
+<SENT sid="496" pm="."><plain>C. elegans Major Fats Are Stored in Vesicles Distinct from Lysosome-Related Organelles. Cell Metab. 10, 430–435 (2009).19883620 </plain></SENT>
+</text></ref><ref id="b55"><text><SENT sid="497" pm="."><plain>MakH. </plain></SENT>
+<SENT sid="498" pm="."><plain>Y. Lipid droplets as fat storage organelles in Caenorhabditis elegans: Thematic Review Series: Lipid Droplet Synthesis and Metabolism: from Yeast to Man. J. </plain></SENT>
+<SENT sid="499" pm="."><plain>Lipid Res. 53, 28–33 (2012).22049244 </plain></SENT>
+</text></ref><ref id="b56"><text><SENT sid="500" pm="."><plain>MerrisM. et al. Sterol effects and sites of sterol accumulation in Caenorhabditis elegans: developmental requirement for 4alpha-methyl sterols. J. </plain></SENT>
+<SENT sid="501" pm="."><plain>Lipid Res. 44, 172–181 (2003).12518036 </plain></SENT>
+</text></ref><ref id="b57"><text><SENT sid="502" pm="."><plain>WustnerD. et al. Selective visualization of fluorescent sterols in Caenorhabditis elegans by bleach-rate-based image segmentation. Traffic 11, 440–454 (2010).20070610 </plain></SENT>
+</text></ref><ref id="b58"><text><SENT sid="503" pm="."><plain>LeT. </plain></SENT>
+<SENT sid="504" pm="."><plain>T. et al. Label-free quantitative analysis of lipid metabolism in living Caenorhabditis elegans[S]. J. </plain></SENT>
+<SENT sid="505" pm="."><plain>Lipid Res. 51, 672–677 (2010).19776402 </plain></SENT>
+</text></ref><ref id="b59"><text><SENT sid="506" pm="."><plain>YenK. et al. A comparative study of fat storage quantitation in nematode Caenorhabditis elegans using label and label-free methods. PLoS One 5, e12810 (2010).20862331 </plain></SENT>
+</text></ref><ref id="b60"><text><SENT sid="507" pm="."><plain>ShaoY. et al. Advances in methods and algorithms in a modern quantum chemistry program package. Phys. </plain></SENT>
+<SENT sid="508" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="509" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="510" pm="."><plain>Phys. 8, 3172–3191 (2006).16902710 </plain></SENT>
+</text></ref><ref id="b61"><text><SENT sid="511" pm="."><plain>GordonM. </plain></SENT>
+<SENT sid="512" pm="."><plain>S. &amp; SchmidtM. </plain></SENT>
+<SENT sid="513" pm="."><plain>W. in Theory and Applications of Computational Chemistry (eds Clifford E. </plain></SENT>
+<SENT sid="514" pm="."><plain>Dykstra, Gernot Frenking, Kwang S. </plain></SENT>
+<SENT sid="515" pm="."><plain>Kim, &amp; Gustavo E. </plain></SENT>
+<SENT sid="516" pm="."><plain>Scuseria) 1167–1189 (Elsevier, 2005). </plain></SENT>
+</text></ref><ref id="b62"><text><SENT sid="517" pm="."><plain>SlipchenkoM. </plain></SENT>
+<SENT sid="518" pm="."><plain>N., LeT. </plain></SENT>
+<SENT sid="519" pm="."><plain>T., ChenH. &amp; ChengJ. </plain></SENT>
+<SENT sid="520" pm="."><plain>X. High-speed vibrational imaging and spectral analysis of lipid bodies by compound Raman microscopy. J. </plain></SENT>
+<SENT sid="521" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="522" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="523" pm="."><plain>B 113, 7681–7686 (2009).19422201 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><title>Design and synthesis of tagged cholesterol probes.</title><p><text><SENT sid="524" pm="."><plain>Reagents and conditions: (a) <z:uniprot sup="inside" fb="0" ids="Q55DL0,Q14117,Q9P903,Q9EQF5,Q63150">DHP</z:uniprot> (5.0 equiv), p-TsOH (0.2 equiv), THF, RT, 91%; (b) LiAlH4 (3.0 equiv), THF, 0°C to RT, 98%; (c) <z:uniprot sup="inside" fb="4" ids="P19236">DMP</z:uniprot> (3.0 equiv), NaHCO3 (3.0 equiv), CH2Cl2, 0°C, 86%; (d) dimethyl (1-diazo-2-oxopropyl)phosphonate (Bestmann reagent, 2.4 equiv), K2CO3 (4.0 equiv), THF/MeOH, RT, 99%; (e) p-TsOH (1.0 equiv), THF/MeOH, RT, 84%; (f) Iodobenzene (1.02 equiv), PdCl2(PPh3)2 (0.05 equiv), CuI (0.05 equiv), TEA, RT; then p-TsOH (1.0 equiv), THF/MeOH, RT, 77%; (g) CuI (0.1 equiv), K2CO3 (2.0 equiv), P(o-Tol)3 (0.2 equiv), phenyl bromoacetylene (1.3 equiv), EtOH, 100°C, 51%; (h) p-TsOH (1.0 equiv), THF/MeOH, RT, 95%; (i) MsCl (3.0 equiv), TEA (3.0 equiv), CH2Cl2, 0°C to RT, 75%; (j) KCN (2.0 equiv), DMSO, 90°C, 76%; (k) p-TsOH (1.0 equiv), THF/MeOH, RT, 74%. </plain></SENT>
+<SENT sid="525" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q55DL0,Q14117,Q9P903,Q9EQF5,Q63150">DHP</z:uniprot> = 3,4-Dihydro-2H-pyran, <z:uniprot sup="inside" fb="4" ids="P19236">DMP</z:uniprot> = Dess-Martin Periodinane, p-TsOH = p-Toluenesulfonic acid, TEA = triethylamine, P(o-Tol)3 = <z:uniprot sup="inside" fb="12" ids="P95871,P96086,Q97A95">tri</z:uniprot>(o-tolyl)phosphine, MsCl = methanesulfonyl chloride. </plain></SENT>
+<SENT sid="526" pm="."><plain>CN: cyano; A: alkyne; PhA: phenyl-alkyne; PhDY: phenyl-diyne; Chol: cholesterol. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>Raman spectral analysis of tagged cholesterol and SRS detection of PhDY-Chol.</title><p><text><SENT sid="527" pm="."><plain>(a) Raman spectra of 50 mM tagged cholesterols in cyclohexanone (solvent). </plain></SENT>
+<SENT sid="528" pm="."><plain>Spectral intensity was normalized by C = O vibration band at 1,714 cm−1. </plain></SENT>
+<SENT sid="529" pm="."><plain>Spectral acquisition time: 10 s. </plain></SENT>
+<SENT sid="530" pm="."><plain>(b) Plot of relative intensity of Raman tags versus solvent and Raman shifts of tagged cholesterols. </plain></SENT>
+<SENT sid="531" pm="."><plain>Based on the molar concentration of the molecules (50 mM) and the solvent (9.7 M), the Raman cross section of C≡C from A-Chol, PhA-Chol, and PhDY-Chol are 6 times, 15 times, and 88 times larger than the C = O band from the solvent, respectively. </plain></SENT>
+<SENT sid="532" pm="."><plain>CN: cyano; A: alkyne; PhA: phenyl-alkyne; PhDY: phenyl-diyne; Chol: cholesterol. </plain></SENT>
+<SENT sid="533" pm="."><plain>(c) SRS contrast versus concentration plot of PhDY-Chol solutions. </plain></SENT>
+<SENT sid="534" pm="."><plain>13% contrast was reached at 313 μM and 4% contrast was reached at 156 μM. </plain></SENT>
+<SENT sid="535" pm="."><plain>Image acquisition speed: 200 μs per pixel. </plain></SENT>
+<SENT sid="536" pm="."><plain>Data represents the mean ± SEM in 3 measurements. </plain></SENT>
+<SENT sid="537" pm="."><plain>R2 = 0.996. </plain></SENT>
+<SENT sid="538" pm="."><plain>(d) SRS contrast versus concentration plot of PhDY-Chol solutions using chirped femtosecond lasers with spectral focusing approach. </plain></SENT>
+<SENT sid="539" pm="."><plain>14% contrast was reached at 31 μM. </plain></SENT>
+<SENT sid="540" pm="."><plain>Image acquisition speed: 200 μs per pixel. </plain></SENT>
+<SENT sid="541" pm="."><plain>Data represents the mean ± SEM in 3 measurements. </plain></SENT>
+<SENT sid="542" pm="."><plain>R2 = 0.980. </plain></SENT>
+<SENT sid="543" pm="."><plain>Contrast was defined as (S − B)/B. </plain></SENT>
+<SENT sid="544" pm="."><plain>S: SRS signal; B: background. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><title>SRS images of PhDY-Chol in live CHO cells and blockage of PhDY-Chol storage into LDs via ACAT-1 inhibition.</title><p><text><SENT sid="545" pm="."><plain>(a) SRS images of live CHO cells treated with PhDY-Chol (50 μM) for 16 h. </plain></SENT>
+<SENT sid="546" pm="."><plain>C≡C vibrational mode at 2,254 cm−1 was used for PhDY-Chol, and C–H vibrational mode at 2,885 cm−1 was used for C–H-rich lipid structures. </plain></SENT>
+<SENT sid="547" pm="."><plain>Lasers were also tuned away to 2,099 cm−1 to show specificity of PhDY-Chol signal inside the cells. </plain></SENT>
+<SENT sid="548" pm="."><plain>PhDY-Chol was found to accumulate in LDs (arrows). </plain></SENT>
+<SENT sid="549" pm="."><plain>Image acquisition speed: 10 μs per pixel for 512 × 512 pixels. </plain></SENT>
+<SENT sid="550" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+<SENT sid="551" pm="."><plain>(b) Schematic graph showing the hypothesis of PhDY-Chol metabolism inside the cells. </plain></SENT>
+<SENT sid="552" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot>: Acyl-CoA:cholesterol <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferase</z:uniprot>. </plain></SENT>
+<SENT sid="553" pm="."><plain>(c) SRS images of PhDY-Chol in CHO cells and <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibited CHO cells by avasimibe treatment. </plain></SENT>
+<SENT sid="554" pm="."><plain>As shown in circles, PhDY-Chol was stored in LDs in CHO cells, but not in avasimibe treated CHO cells. </plain></SENT>
+<SENT sid="555" pm="."><plain>Image acquisition speed: 100 μs per pixel for 400 × 400 pixels. </plain></SENT>
+<SENT sid="556" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+<SENT sid="557" pm="."><plain>Intensity bars in (a) and (c) show the ΔI/I of the SRS image. </plain></SENT>
+<SENT sid="558" pm="."><plain>(d) Quantification of PhDY-rich and BODIPY-rich LDs in CHO cells before and after <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibition. </plain></SENT>
+<SENT sid="559" pm="."><plain>The number of the LDs was normalized by the control group (n = 7). </plain></SENT>
+<SENT sid="560" pm="."><plain>Error bars represent standard deviation. *: p &lt; 0.05. </plain></SENT>
+<SENT sid="561" pm="."><plain>(e) TPEF images of BODIPY-cholesterol and SRS images C–H-rich structures in CHO cells and <z:uniprot sup="inside" fb="0" ids="O77760,Q60457,P35610,O77761,Q61263,O70536">ACAT-1</z:uniprot> inhibited CHO cells. </plain></SENT>
+<SENT sid="562" pm="."><plain>As shown in circles, BODIPY-cholesterol showed no difference between the two groups. </plain></SENT>
+<SENT sid="563" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4"><label>Figure 4</label><caption><title>Restored cholesterol transport in M12 cells treated with HPβCD.</title><p><text><SENT sid="564" pm="."><plain>TPEF images of filipin and SRS images PhDY-Chol in (a) PhDY-Chol-loaded M12 cells, and (b) the same cells treated with HPβCD (500 μM) for 30 h. </plain></SENT>
+<SENT sid="565" pm="."><plain>Arrows indicate PhDY-rich area labeled by filipin before treatment (non-esterified PhDY-Chol), and arrow heads indicate PhDY-rich area not labeled by filipin after treatment (esterified PhDY-Chol). </plain></SENT>
+<SENT sid="566" pm="."><plain>Green intensity bar shows the ΔI/I value of the SRS image; red intensity bar represents the relative intensity of fluorescence. </plain></SENT>
+<SENT sid="567" pm="."><plain>Image acquisition speed: 100 μs per pixel for 400 × 400 pixels. </plain></SENT>
+<SENT sid="568" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+<SENT sid="569" pm="."><plain>(c) Quantification of PhDY-rich area in the cells before and after HPβCD treatment (n = 7). </plain></SENT>
+<SENT sid="570" pm="."><plain>Error bars represent standard deviation. *: p &lt; 0.05. </plain></SENT>
+<SENT sid="571" pm="."><plain>(d) TPEF images of BODIPY and SRS images of PhDY-Chol in M12 cells treated with or without HPβCD (500 μM) for 30 h. </plain></SENT>
+<SENT sid="572" pm="."><plain>Arrow heads indicate LDs without PhDY-Chol before treatment, and arrows indicate LDs with PhDY-Chol after treatment. </plain></SENT>
+<SENT sid="573" pm="."><plain>Green intensity bar shows the ΔI/I value of the SRS image; red intensity bar represents the relative intensity of fluorescence. </plain></SENT>
+<SENT sid="574" pm="."><plain>Image acquisition speed: 100 μs per pixel for 400 × 400 pixels. </plain></SENT>
+<SENT sid="575" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+<SENT sid="576" pm="."><plain>(e) Quantification of PhDY-rich LDs in the cells before and after HPβCD treatment (n = 7). </plain></SENT>
+<SENT sid="577" pm="."><plain>Error bars represent standard deviation. **: p &lt; 0.005. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-f4"/></fig></SecTag><SecTag type="FIG"><fig id="f5"><label>Figure 5</label><caption><title>SRS imaging of PhDY-Chol visualizes compartments of cholesterol storage in live <italic>C. elegans</italic>.</title><p><text><SENT sid="578" pm="."><plain>(a) SRS images of live wildtype and ChUP-1 deleted C. elegans fed with PhDY-Chol (500 μM) for 3 days. </plain></SENT>
+<SENT sid="579" pm="."><plain>Arrows indicate PhDY-rich particles in the intestine. </plain></SENT>
+<SENT sid="580" pm="."><plain>Image acquisition speed: 40 μs per pixel for 400 × 400 pixels. </plain></SENT>
+<SENT sid="581" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+<SENT sid="582" pm="."><plain>(b) TPEF and SRS images of live hjIs9 [<z:uniprot sup="inside" fb="0" ids="P08795">ges</z:uniprot>-1p::<z:uniprot sup="inside" fb="3" ids="Q27302,P30627">glo</z:uniprot>-1::<z:uniprot sup="inside" fb="2" ids="P42212">GFP</z:uniprot> + <z:uniprot sup="inside" fb="0" ids="Q17297,Q10658,Q9XYQ2">unc-119</z:uniprot>(+)] worm fed with PhDY-Chol (500 μM) for 3 days. </plain></SENT>
+<SENT sid="583" pm="."><plain>Arrows indicate the PhDY-rich particles in LROs. </plain></SENT>
+<SENT sid="584" pm="."><plain>Image acquisition speed: 40 μs per pixel for 400 × 400 pixels. </plain></SENT>
+<SENT sid="585" pm="."><plain>Scalar bar: 10 μm. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep07930-f5"/></fig></SecTag></floats-group></article>

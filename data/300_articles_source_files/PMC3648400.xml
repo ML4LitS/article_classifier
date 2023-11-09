@@ -1,0 +1,446 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Cheminform</journal-id><journal-id journal-id-type="iso-abbrev">J Cheminform</journal-id><journal-title-group><journal-title>Journal of Cheminformatics</journal-title></journal-title-group><issn pub-type="epub">1758-2946</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3648400</article-id><article-id pub-id-type="publisher-id">1758-2946-5-21</article-id><article-id pub-id-type="pmid">23627990</article-id><article-id pub-id-type="doi">10.1186/1758-2946-5-21</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>A tandem regression-outlier analysis of a ligand cellular system for key structural modifications around ligand binding </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="A1"><name><surname>Lin</surname><given-names>Ying-Ting</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>ytlin@kmu.edu.tw</email></contrib></contrib-group><aff id="I1"><label>1</label>Department of Biotechnology, College of Life Sciences, Kaohsiung Medical University, 100, Shih-Chuan 1st Road, San Ming District, 807, Kaohsiung City, Taiwan</aff><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>30</day><month>4</month><year>2013</year></pub-date><volume>5</volume><fpage>21</fpage><lpage>21</lpage><history><date date-type="received"><day>29</day><month>8</month><year>2012</year></date><date date-type="accepted"><day>24</day><month>4</month><year>2013</year></date></history><permissions><copyright-statement>Copyright © 2013 Lin; licensee Chemistry Central Ltd.</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Lin; licensee Chemistry Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.jcheminf.com/content/5/1/21"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>A tandem technique of hard equipment is often used for the chemical analysis of a single cell to first isolate and then detect the wanted identities. </plain></SENT>
+<SENT sid="3" pm="."><plain>The first part is the separation of wanted chemicals from the bulk of a cell; the second part is the actual detection of the important identities. </plain></SENT>
+<SENT sid="4" pm="."><plain>To identify the key structural modifications around ligand binding, the present study aims to develop a counterpart of tandem technique for cheminformatics. </plain></SENT>
+<SENT sid="5" pm="."><plain>A statistical regression and its outliers act as a computational technique for separation. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="6" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>A <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">peroxisome proliferator-activated receptor gamma</z:uniprot>) agonist cellular system was subjected to such an investigation. </plain></SENT>
+<SENT sid="8" pm="."><plain>Results show that this tandem regression-outlier analysis, or the prioritization of the context equations tagged with features of the outliers, is an effective regression technique of cheminformatics to detect key structural modifications, as well as their tendency of impact to ligand binding. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="9" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="10" pm="."><plain>The key structural modifications around ligand binding are effectively extracted or characterized out of cellular reactions. </plain></SENT>
+<SENT sid="11" pm="."><plain>This is because molecular binding is the paramount factor in such ligand cellular system and key structural modifications around ligand binding are expected to create outliers. </plain></SENT>
+<SENT sid="12" pm="."><plain>Therefore, such outliers can be captured by this tandem regression-outlier analysis. </plain></SENT>
+</text></SecTag></p></sec></abstract></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="13" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="14" pm="."><plain>In any chemical analysis of a single cell, the first step is the separation of wanted chemicals from the bulk of a cell. </plain></SENT>
+<SENT sid="15" pm="."><plain>This is due to the fact that a cellular system has a complex, heterogeneous composition. </plain></SENT>
+<SENT sid="16" pm="."><plain>Various methods [1] using hard equipment have been developed for such uses. </plain></SENT>
+<SENT sid="17" pm="."><plain>After a single cell is separated from the other cells, the wanted component can be further isolated and then detected through what is called a tandem technique [1]. </plain></SENT>
+<SENT sid="18" pm="."><plain>The first part of a tandem technique, as mentioned above, is the separation of wanted chemicals from the bulk of a cell; the second part is the detection of the components. </plain></SENT>
+<SENT sid="19" pm="."><plain>By mimicking such a tandem technique, a computational counterpart was developed herein; a statistical regression and its outliers (influential observations [2]) act as a computational technique for separation, which can cause the important identities (i.e. the factors causing outliers) to be isolated from the bulk of a cellular system. </plain></SENT>
+<SENT sid="20" pm="."><plain>As a pioneer investigation, one molecular descriptor and one class of descriptors will be prepared: the descriptor resembles the filter in the tandem equipment; the class resembles the detector. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>In a ligand-dependent receptor-mediated cellular system (or ligand cellular system), key structural modifications surrounding ligand binding are expected to cause outliers. </plain></SENT>
+<SENT sid="22" pm="."><plain>For example, hydrogen bond formation, or deformation, can cause drastic alterations in cellular reaction. </plain></SENT>
+<SENT sid="23" pm="."><plain>These singular situations are, at times, the reasons for statistical breakdown points in many analyses that are otherwise correct (i.e. resulting in the outliers of a statistical regression [3,4]). </plain></SENT>
+<SENT sid="24" pm="."><plain>At the same time, such outliers can have the most prominent and often most informative features of the target-specific activity landscapes [5]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Therefore, the concept that after this tandem regression-outlier analysis, the features of these resulting outliers can correspond to important structural modifications around molecular binding in such a ligand cellular system, if correct, would be very useful. </plain></SENT>
+</text></p><p><text><SENT sid="26" pm="."><plain>For this first tandem part, we sought the most representative descriptor for the bulk system of a cell. </plain></SENT>
+<SENT sid="27" pm="."><plain>We found Jurs_RNCG [6], after observing more than 521×17 data sets of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">peroxisome proliferator-activated receptor gamma</z:uniprot>) agonists [7-21]. </plain></SENT>
+<SENT sid="28" pm="."><plain>The methods and results are depicted in the first body of materials, methods, and results. </plain></SENT>
+<SENT sid="29" pm="."><plain>To connect this to the second tandem part, the descriptor that is sought in the first part has functionality, which yields outlier residues for the second part. </plain></SENT>
+</text></p><p><text><SENT sid="30" pm="."><plain>Acting as an assay for detection in the second tandem part, for which the electrotopological state (ES) class of descriptors [22-26] is used. </plain></SENT>
+<SENT sid="31" pm="."><plain>All possible structural modifications in a given collected analog set are pre-assigned by ES descriptors. </plain></SENT>
+<SENT sid="32" pm="."><plain>The ES descriptors involve atom types in various electro-topological states. </plain></SENT>
+<SENT sid="33" pm="."><plain>For example, in ES terminology, an ES_Count_ssO of a molecular structure is the count of “ssO” linkages, and here the “ssO” represents a bonding oxygen atom (O) linked via two single bonds (ss). </plain></SENT>
+<SENT sid="34" pm="."><plain>A structural modification is considered a fundamental element (an action) for the reaction of such a ligand cellular system. </plain></SENT>
+<SENT sid="35" pm="."><plain>In actuality, any structural modification of such an analog set can be expressed by the change of an associated ES descriptor. </plain></SENT>
+<SENT sid="36" pm="."><plain>The details and results of the second part are also depicted in the second body of materials, methods and results. </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>This tandem regression-outlier technique is, therefore, in mathematical terms, carried out so as to prioritize the context equations tagged with features of these outliers. </plain></SENT>
+<SENT sid="38" pm="."><plain>We want to know if the top-ranked structural modifications correspond to the key interactions around molecular binding as we expected them to. </plain></SENT>
+<SENT sid="39" pm="."><plain>This expectation was based on the fact that: I: this singular situation causes outliers in a regression. </plain></SENT>
+<SENT sid="40" pm="."><plain>II: molecular binding is the paramount factor in such a ligand cellular system, and III, key structural modifications around ligand binding are expected to create singular situations, i.e. cause outliers in a statistical regression. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>In the end, after this tandem regression-outlier analysis for the <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonist cellular system, a top ranked ES symbol can faithfully correspond to key interactions around molecular binding with the correct order of potency. </plain></SENT>
+<SENT sid="42" pm="."><plain>The outcome of such an analysis confirmed the two main underlying and mutually-dependent speculations; one being that, in the second tandem part, the top ranked ES symbols reflect the key interactions around ligand binding, and the other that, in the first tandem part, the designation of Jurs_RNCG (relative negative charge) can effectively remove the general effects of such a ligand cellular system. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="43" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="44" pm="."><plain>The first tandem filter: in order to seek the most representative descriptor for a ligand cellular system </plain></SENT>
+</text></title><p><text><SENT sid="45" pm="."><plain>In mathematics, the dependent variable Y is the ligand-dependent receptor-mediated cellular reaction. </plain></SENT>
+<SENT sid="46" pm="."><plain>The context equation of the descriptor selection is given as follows: </plain></SENT>
+</text></p><p><text><SENT sid="47" pm="."><plain>(1)Y=β0+βchXch </plain></SENT>
+</text></p><p><text><SENT sid="48" pm="."><plain>where Y is the dependent variable that stands for the ligand-dependent receptor-mediated cellular reaction, Xch is the descriptor to be chosen, and β0 and βch are the regression coefficients after the least squares fit. </plain></SENT>
+<SENT sid="49" pm="."><plain>Once the ligand-dependent receptor-mediated cellular data of a given set of analogs are available, the r2 correlation fit can be obtained for each descriptor. </plain></SENT>
+<SENT sid="50" pm="."><plain>Here, 521 descriptors of eminent classes are used. </plain></SENT>
+<SENT sid="51" pm="."><plain>All descriptors in the working equation with correlation fits are prioritized by correlation coefficient. </plain></SENT>
+<SENT sid="52" pm="."><plain>All calculations of descriptors were performed using the Discovery Studio 2.1 QSAR module [27]. </plain></SENT>
+<SENT sid="53" pm="."><plain>The regression fits were conducted for each descriptor in the context equation and Pearson’s coefficients were performed using R 2.11.0 [28]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="54" pm="."><plain>The second tandem detector: to prioritize the context equations tagged with all possible features of the outliers </plain></SENT>
+</text></title><p><text><SENT sid="55" pm="."><plain>Following the designation of the Jurs_RNCG descriptor, a three-variable equation is used for the prioritization of all the ES descriptors. </plain></SENT>
+<SENT sid="56" pm="."><plain>The context equation using Jurs_RNCG, tagged with all possible features of the outliers, is given as follows: </plain></SENT>
+</text></p><p><text><SENT sid="57" pm="."><plain>(2)Y=β0+βJurs_RNCGJurs_RNCG+βESES </plain></SENT>
+</text></p><p><text><SENT sid="58" pm="."><plain>where Y is the dependent variable standing for the ligand-dependent receptor-mediated cellular reaction, Jurs_RNCG is the calculated Jurs descriptor, ES are all the possible ES descriptors; and all βs are the estimated regression coefficients after the least squares fit. </plain></SENT>
+<SENT sid="59" pm="."><plain>The context equations tagged with all possible ES descriptors are prioritized by correlation coefficient. </plain></SENT>
+<SENT sid="60" pm="."><plain>12 top-ranked ES descriptors monitored in the table indicate 12 important structural modifications in a given analog set. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials"><title><text><SENT sid="61" pm="."><plain>Materials </plain></SENT>
+</text></title><sec><title><text><SENT sid="62" pm="."><plain>Three data sets of analogs with two cores </plain></SENT>
+</text></title><p><text><SENT sid="63" pm="."><plain>To demonstrate the ability of this tandem regression-outlier analysis to remove all interference from any general effects in a ligand cellular system, three data sets of the ligand-dependent receptor-mediated data are used here. </plain></SENT>
+<SENT sid="64" pm="."><plain>The first data set is a collection of 46 PPARγ agonists with the thiazolidinedione (TZD) core. </plain></SENT>
+<SENT sid="65" pm="."><plain>The second data set is composed of 178 PPARγ agonists with a carboxylic acid core. </plain></SENT>
+<SENT sid="66" pm="."><plain>The third data set is a merger of the first and second data set (i.e., 224 PPARγ agonists mixed with both TZD and carboxylic acid cores). </plain></SENT>
+<SENT sid="67" pm="."><plain>The two main cores of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists and their merger are adopted, so as to observe the variations of top-ranked structural modifications. </plain></SENT>
+<SENT sid="68" pm="."><plain>All EC50 (50% efficacy concentration) data were extracted from the literature [7-21]. </plain></SENT>
+<SENT sid="69" pm="."><plain>The cellular reaction is the measurement of the activation of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> within the construct of the cellular transactivation assays. </plain></SENT>
+<SENT sid="70" pm="."><plain>Indeterminate and uncertain EC50 values were excluded. </plain></SENT>
+<SENT sid="71" pm="."><plain>A negative logarithm of the EC50 values of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists was then taken. </plain></SENT>
+<SENT sid="72" pm="."><plain>The original publication of all agonists and the activity quantities are listed in Additional file 1: Tables S1 and S2. </plain></SENT>
+<SENT sid="73" pm="."><plain>All images of molecular structures were created by using Pybel [29,30]. </plain></SENT>
+<SENT sid="74" pm="."><plain>All molecular structures were energetically geometry-optimized using molecular mechanics and MMF97 calculations, which were implemented using the ChemBio3D software of the ChemBioOffice package [31]. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results"><title><text><SENT sid="75" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="76" pm="."><plain>Jurs_RNCG as most representative descriptor </plain></SENT>
+</text></title><p><text><SENT sid="77" pm="."><plain>In the mathematical formulation in the first tandem filter, we used a large number data set, or 178 collected carboxylic acid <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists, as a base to seek the most representative descriptor. </plain></SENT>
+<SENT sid="78" pm="."><plain>More details about <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists are available in Material Section. </plain></SENT>
+<SENT sid="79" pm="."><plain>To check the size dependency, for each data size from 10 to 170, a total of 521 × 17 data sets were taken for the selection of the descriptor just for the enough randomness. </plain></SENT>
+<SENT sid="80" pm="."><plain>Sample agonists of each size were picked out by prioritizing 521 molecular properties. </plain></SENT>
+<SENT sid="81" pm="."><plain>The dominant descriptor and the frequency of the Jurs type descriptor for each size, including Jurs_RNCG [6], is listed in Table 1. </plain></SENT>
+<SENT sid="82" pm="."><plain>For example, in the data size of 170 agonists, the dominant descriptors of 369 data sets among a total of 521 sets are all Jurs_RNCG. </plain></SENT>
+<SENT sid="83" pm="."><plain>We can clearly see that when the data size increases, the Jurs_RNCG is more frequently dominant or near dominant (rank &gt; 4). </plain></SENT>
+<SENT sid="84" pm="."><plain>In Jurs terminology, RNCG means a relative negative charge [6]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T1"><label>Table 1</label><caption><p><text><SENT sid="85" pm="."><plain>Dominant descriptors for each data size and the frequency of Jurs_RNCG (Jurs type descriptors) throughout 521 data sets are summarized here </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center"><text><SENT sid="86" pm="."><plain>Data size </plain></SENT>
+</text></th><th align="center"><text><SENT sid="87" pm="."><plain>Dominant descriptor (Near dominant) </plain></SENT>
+</text></th><th align="center"><text><SENT sid="88" pm="."><plain>Frequency of Jurs descriptors (Jurs_RNCG/Jurs type /521 data sets) </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="89" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="90" pm="."><plain>Molecular_PolarSASA </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="91" pm="."><plain>4/41/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="92" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="93" pm="."><plain>Molecular_FractionalPolarSASA </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="94" pm="."><plain>5/25/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="95" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="96" pm="."><plain>ES_Count_dOb </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="97" pm="."><plain>4/14/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="98" pm="."><plain>40 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="99" pm="."><plain>Num_RingBonds </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="100" pm="."><plain>10/14/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="101" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="102" pm="."><plain>SC_3_Pa </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="103" pm="."><plain>9/16/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="104" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="105" pm="."><plain>SC_3_Pa </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="106" pm="."><plain>9/12/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="107" pm="."><plain>70 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="108" pm="."><plain>ICa </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="109" pm="."><plain>18/31/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="110" pm="."><plain>80 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="111" pm="."><plain>ICa </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="112" pm="."><plain>18/33/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="113" pm="."><plain>90 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="114" pm="."><plain>Jurs_RNCG </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="115" pm="."><plain>21/31/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="116" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="117" pm="."><plain>ICa (Jurs_RNCG) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="118" pm="."><plain>19/31/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="119" pm="."><plain>110 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="120" pm="."><plain>Jurs_RNCG </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="121" pm="."><plain>16/21/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="122" pm="."><plain>120 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="123" pm="."><plain>Num_AtomClasses (Jurs_RNCG) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="124" pm="."><plain>21/23/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="125" pm="."><plain>130 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="126" pm="."><plain>ICa (Jurs_RNCG) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="127" pm="."><plain>28/29/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="128" pm="."><plain>140 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="129" pm="."><plain>ICa (Jurs_RNCG) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="130" pm="."><plain>39/306/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="131" pm="."><plain>150 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="132" pm="."><plain>Jurs_RNCG </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="133" pm="."><plain>39/39/521 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="134" pm="."><plain>160 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="135" pm="."><plain>ICa (Jurs_RNCG) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="136" pm="."><plain>53/53/521 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="137" pm="."><plain>170 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="138" pm="."><plain>Jurs_RNCG </plain></SENT>
+</text></td><td align="center"><text><SENT sid="139" pm="."><plain>369/369/521 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="140" pm="."><plain>a The descriptors SC_3_P and IC are calculated based on graph theory. </plain></SENT>
+</text></p><p><text><SENT sid="141" pm="."><plain>b The descriptor ES_Count_dO is a fractional descriptor (The definition of a fractional descriptor is in the discussion section). </plain></SENT>
+</text></p><p><text><SENT sid="142" pm="."><plain>Agonists of each data set are selected out of the 178 carboxylic acid <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists. </plain></SENT>
+<SENT sid="143" pm="."><plain>The top-ranked descriptor of each set was selected from 521 descriptors of eminent classes. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="144" pm="."><plain>In a realistic physical-chemical representation, one would prefer the Jurs_RNCG to the IC (Information Content) [32] as the most representative descriptor for all general effects. </plain></SENT>
+<SENT sid="145" pm="."><plain>This is because Jurs_RNCG was originally designed based on the charge-related nature. </plain></SENT>
+<SENT sid="146" pm="."><plain>The descriptor IC, as an index of graph theory, deals with the topological aspect in nature. </plain></SENT>
+<SENT sid="147" pm="."><plain>Therefore, the Jurs_RNCG descriptor here is thought to be the most representative single descriptor for all general effects in the <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonist cellular system. </plain></SENT>
+<SENT sid="148" pm="."><plain>After this designation, to our surprise, the Jurs_RNCG is further shown to be a linear combination of three important descriptors: LogD (partition coefficient), PSA (polar surface area), and shape-like descriptors in a subsequent work [33]. </plain></SENT>
+<SENT sid="149" pm="."><plain>These three descriptors happen to be the three most important factors of investigation in medicinal chemistry over the past 50 years [34]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="150" pm="."><plain>Top-ranked ES descriptors as important structural modifications around ligand binding </plain></SENT>
+</text></title><p><text><SENT sid="151" pm="."><plain>Table 2 lists the 12 top-ranked ES descriptors for the 46 TZD <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists after the conduct of prioritization in the second tandem detector. </plain></SENT>
+<SENT sid="152" pm="."><plain>Table 3 lists the 12 top-ranked ES descriptors for the 178 carboxylic acid <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists. </plain></SENT>
+<SENT sid="153" pm="."><plain>Table 4, which is the merger of the two former sets, lists the 12 top-ranked ES descriptors for the 224 PPARγ agonists. </plain></SENT>
+<SENT sid="154" pm="."><plain>The striking feature in all three tables is that the ES symbol, ssO, ranks in the first position. ‘s’ indicates a single bond. ‘ss’ indicates two single bonds linked in structure. </plain></SENT>
+<SENT sid="155" pm="."><plain>This feature reflects a key interaction between potent agonist and <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> receptors, which shows concurrence with the inference of the X-ray crystallography depicted in the next section. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T2"><label>Table 2</label><caption><p><text><SENT sid="156" pm="."><plain>The top-ranked ES descriptors of 46 TZD <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center"><text><SENT sid="157" pm="."><plain>ES descriptors </plain></SENT>
+</text></th><th align="center"><text><SENT sid="158" pm="."><plain>Rank </plain></SENT>
+</text></th><th align="center"><text><SENT sid="159" pm="."><plain>Sign of βES </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="160" pm="."><plain>Count_ssO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="161" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="162" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="163" pm="."><plain>Sum_ssO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="164" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="165" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="166" pm="."><plain>Sum_sssN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="167" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="168" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="169" pm="."><plain>Count_sssN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="170" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="171" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="172" pm="."><plain>Count_ssCH2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="173" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="174" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="175" pm="."><plain>Sum_aaO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="176" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="177" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="178" pm="."><plain>Count_aaO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="179" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="180" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="181" pm="."><plain>Count_sCH3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="182" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="183" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="184" pm="."><plain>Sum_aaN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="185" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="186" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="187" pm="."><plain>Count_aaN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="188" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="189" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="190" pm="."><plain>Count_dsCH </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="191" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="192" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="193" pm="."><plain>Sum_dsCH </plain></SENT>
+</text></td><td align="center"><text><SENT sid="194" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="195" pm="."><plain>- </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="T3"><label>Table 3</label><caption><p><text><SENT sid="196" pm="."><plain>The top-ranked ES descriptors of 178 carboxylic acid <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center"><text><SENT sid="197" pm="."><plain>ES descriptors </plain></SENT>
+</text></th><th align="center"><text><SENT sid="198" pm="."><plain>Rank </plain></SENT>
+</text></th><th align="center"><text><SENT sid="199" pm="."><plain>Sign of βES </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="200" pm="."><plain>Sum_ssO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="201" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="202" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="203" pm="."><plain>Count_ssO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="204" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="205" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="206" pm="."><plain>Sum_aaO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="207" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="208" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="209" pm="."><plain>Count_aaO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="210" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="211" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="212" pm="."><plain>Count_aaaC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="213" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="214" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="215" pm="."><plain>Sum_ssCH2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="216" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="217" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="218" pm="."><plain>Count_aaaC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="219" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="220" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="221" pm="."><plain>Count_ssCH2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="222" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="223" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="224" pm="."><plain>Count_aaNH </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="225" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="226" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="227" pm="."><plain>Sum_aaNH </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="228" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="229" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="230" pm="."><plain>Count_ssssC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="231" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="232" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="233" pm="."><plain>Sum_sssN </plain></SENT>
+</text></td><td align="center"><text><SENT sid="234" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="235" pm="."><plain>+ </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="T4"><label>Table 4</label><caption><p><text><SENT sid="236" pm="."><plain>The top-ranked ES descriptors of 224 PPARγ agonists with both TZD and carboxylic acid cores </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center"><text><SENT sid="237" pm="."><plain>ES descriptors </plain></SENT>
+</text></th><th align="center"><text><SENT sid="238" pm="."><plain>Rank </plain></SENT>
+</text></th><th align="center"><text><SENT sid="239" pm="."><plain>Sign of βES </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="240" pm="."><plain>Count_ssO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="241" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="242" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="243" pm="."><plain>Sum_ssO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="244" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="245" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="246" pm="."><plain>Sum_aaO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="247" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="248" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="249" pm="."><plain>Count_aaO </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="250" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="251" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="252" pm="."><plain>Sum_aaaC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="253" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="254" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="255" pm="."><plain>Count_aaaC </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="256" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="257" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="258" pm="."><plain>Count_sssN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="259" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="260" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="261" pm="."><plain>Sum_sssN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="262" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="263" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="264" pm="."><plain>Count_aaNH </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="265" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="266" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="267" pm="."><plain>Sum_aaNH </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="268" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="269" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="270" pm="."><plain>Sum_aaN </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="271" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="272" pm="."><plain>+ </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="273" pm="."><plain>Count_aaN </plain></SENT>
+</text></td><td align="center"><text><SENT sid="274" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="275" pm="."><plain>+ </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="276" pm="."><plain>To begin with, in Table 2, the ES_Count_ssO and ES_Sum_ssO rank in most top positions with a negative regression coefficient. </plain></SENT>
+<SENT sid="277" pm="."><plain>Basically, this is a negative structural modification with respect to cellular reaction. </plain></SENT>
+<SENT sid="278" pm="."><plain>But care should be taken here: this does not mean that the existence of ssO moiety in the structure is bad. </plain></SENT>
+<SENT sid="279" pm="."><plain>On the contrary, the existence of single ssO moiety is extremely good. </plain></SENT>
+<SENT sid="280" pm="."><plain>(We can read this from the most potent leads which all have tyrosine moiety.) When examining the original data, each collected TZD <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonist has at least one ssO moiety in the structure, here known as an oxygen atom in tyrosine moiety. </plain></SENT>
+<SENT sid="281" pm="."><plain>The correct interpretation for the sign of such a symbol here therefore is that the introduction of more than one ssO moiety importantly decreases cellular reaction. </plain></SENT>
+<SENT sid="282" pm="."><plain>Rosiglitazone, an established drug that is one of the collected TZD agonists, shows this corresponding feature with the ES symbol, ssO in Figure 1(a). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="283" pm="."><plain>Molecular structures of: (a) Rosiglitzaone with tyrosine moiety (ssO), (b) Rosiglitzaone with tertiary alkylamine moiety (sssN), (c) AD-7075 and BRL48482 with oxazole moiety (aaO), and (d) Two carboxylic acid agonists with Fmoc-like moiety (aaaC). All moiety structures are colored in blue and the atom of the ES symbol is colored in red. </plain></SENT>
+</text></p></caption><graphic xlink:href="1758-2946-5-21-1"/></fig></SecTag><p><text><SENT sid="284" pm="."><plain>Next, the ES symbol sssN, indicates the introduction of a tertiary amine (sssN) moiety, which is a positive structural modification. ‘<z:uniprot sup="inside" fb="6" ids="B5A5T4,Q51566,Q8VS06">sss</z:uniprot>’ indicates three single bonds linked in structure. </plain></SENT>
+<SENT sid="285" pm="."><plain>Nine agonists have 1 sssN moiety of the 46 collected agonists. </plain></SENT>
+<SENT sid="286" pm="."><plain>The corresponding feature of the ES symbol, sssN, in the tertiary amine (sssN) moiety, is shown in Figure 1(b). </plain></SENT>
+</text></p><p><text><SENT sid="287" pm="."><plain>The next ES symbol in Table 2 is ssCH2. </plain></SENT>
+<SENT sid="288" pm="."><plain>The positive regression coefficient indicates that the elongation of a ligand structure through the addition of carbon moiety (ssCH2) is a positive structural modification. </plain></SENT>
+<SENT sid="289" pm="."><plain>This topological elongation of the agonist makes a large impact to the molecular binding. </plain></SENT>
+<SENT sid="290" pm="."><plain>However, we notice that the ssCH2 symbol is negative in Table 3. </plain></SENT>
+<SENT sid="291" pm="."><plain>And, when combining two data sets in Table 4, the topological structural modification ssCH2 falls out of the monitor table. </plain></SENT>
+<SENT sid="292" pm="."><plain>Apparently, the suitable length of the TZD agonist is optimal for cellular binding. </plain></SENT>
+</text></p><p><text><SENT sid="293" pm="."><plain>The ES symbol following this in Table 2 is aaO. ‘aa’ indicates oxygen atom in an aromatic ring. </plain></SENT>
+<SENT sid="294" pm="."><plain>Throughout the whole 46 TZD agonists there are only two agonists: AD-7075 and BRL48482, in Figure 1(c), that have the oxazole moiety. </plain></SENT>
+<SENT sid="295" pm="."><plain>We notice that these two agonists serve as very good examples of “analog outliers”, which bear specific feature of outliers The other ES symbols, aaO, aaN and aaCH, also indicate this oxazole moiety. </plain></SENT>
+<SENT sid="296" pm="."><plain>The 5-methyl-oxazole of AD-7075 has the additional symbols aasC and sCH3 whereas the benzo-oxazole of BRL48482 has the additional symbol aaaC. </plain></SENT>
+<SENT sid="297" pm="."><plain>Taken together, the significance of oxazole moieties are faithfully pointed out by these symbols. </plain></SENT>
+<SENT sid="298" pm="."><plain>The other monitored symbols, sCH3 and dsCH, indicate other, less important, structural modifications. </plain></SENT>
+</text></p><p><text><SENT sid="299" pm="."><plain>Lastly, in Table 3 and Table 4, we find a similar picture regarding the potency order of structural modifications. </plain></SENT>
+<SENT sid="300" pm="."><plain>The top ES symbol, ssO, represents the most important structural modification, tyrosine moiety, performed on the middle part of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonist. </plain></SENT>
+<SENT sid="301" pm="."><plain>The rest of the top-ranked ES symbols represent important structural modifications done to the tail part. </plain></SENT>
+<SENT sid="302" pm="."><plain>For example, a fmoc-like moiety (fluorenylmethyloxycarbonyl-like), other than oxazole moiety and tertiary amine, is another case which has an ES symbol of significance: aaaC. </plain></SENT>
+<SENT sid="303" pm="."><plain>Again, serving as analog outliers, these two potent agonists [18] are shown in Figure 1(d). </plain></SENT>
+</text></p><p><text><SENT sid="304" pm="."><plain>There is one more observation: we can clearly see that no ES symbol regarding TZD moieties, dssC, dO, sssCH, ssNH, or ssS, appears in Table 2; and we can also see that no carboxylic acid symbols, such as dssC, dO, or sOH, appear in Table 3. ‘d’ indicates double bond. </plain></SENT>
+<SENT sid="305" pm="."><plain>When combining the two data sets, no ES symbols regarding TZD or carboxylic acid appear in Table 4. </plain></SENT>
+<SENT sid="306" pm="."><plain>There are two simple interpretations of this: 1, the lack of modification of the core part of analogs in a given set will naturally lead to no ES symbols monitored in the table, and 2, a core shift in the combined set without causing a large difference of reaction will not produce related ES symbols of significance. </plain></SENT>
+<SENT sid="307" pm="."><plain>Thus, in conclusion, the TZD and carboxylic acid are known as the necessary parts of full <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists without synthetic modifications. </plain></SENT>
+<SENT sid="308" pm="."><plain>The necessity of two essential cores for full cellular activity can be immediately inferred when comparing the inactive compounds at initial synthesis. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="309" pm="."><plain>The top-ranked ES symbols point out key ligand binding interactions </plain></SENT>
+</text></title><p><text><SENT sid="310" pm="."><plain>As mentioned in the introduction, we would like to see if the top-ranked ES descriptor finds its corresponding key interactions for molecular binding. </plain></SENT>
+<SENT sid="311" pm="."><plain>In this section we examine real physical pictures. </plain></SENT>
+<SENT sid="312" pm="."><plain>First, in Table 2, the top-ranked ES symbols are ssO and sssN. </plain></SENT>
+<SENT sid="313" pm="."><plain>We can go to the crystallographic image of the rosiglitazone-<z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> complex (PDB code: 2PRG) [35]. </plain></SENT>
+<SENT sid="314" pm="."><plain>Figure 2 shows, around the bound structure of rosiglitazone, that the ES symbol ssO can detect the key interaction between rosiglitazone ether oxygen and two sulfurs of Cys285 (3.79 Å) and Met364 (4.70 Å). </plain></SENT>
+<SENT sid="315" pm="."><plain>Another important ES symbol, sssN, detects the key interaction between rosiglitazone tertiary amine nitrogen and Cys285 side-chain sulfur (4.44 Å), or Leu340 backbone oxygen (4.46 Å). </plain></SENT>
+<SENT sid="316" pm="."><plain>We noticed that all the measured distances are between relevant heavy atoms because hydrogen is transparent in X-ray crystallography. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="317" pm="."><plain>Illustration of the top-ranked ES symbols, ssO and sssN. Around the bound structure of rosiglitazone (PDB: 2PRG), the ES symbol ssO can detect the key interaction between rosiglitazone ether oxygen and the two sulfurs of Cys285 (3.79 Å) and Met364 (4.70 Å). </plain></SENT>
+<SENT sid="318" pm="."><plain>Another important ES symbol, sssN, detects the key interaction between rosiglitazone trialkylamine nitrogen and Cys285 side-chain sulfur (4.44 Å), or Leu340 backbone oxygen (4.46 Å). </plain></SENT>
+<SENT sid="319" pm="."><plain>Notice that all the measured distances are between relevant heavy atoms because hydrogen is transparent in the X-ray crystallography. </plain></SENT>
+</text></p></caption><graphic xlink:href="1758-2946-5-21-2"/></fig></SecTag><p><text><SENT sid="320" pm="."><plain>Second, in Table 3, the top-ranked ES symbols are ssO and aaO. </plain></SENT>
+<SENT sid="321" pm="."><plain>We then look at the crystallographic image of the 1K74 ligand-<z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> complex (PDB code: 1K47) [36]. </plain></SENT>
+<SENT sid="322" pm="."><plain>Figure 3 shows that, around the bound structure of the 1K47 ligand, a important ES symbol, ssO, can detect the key interaction between 1K74 ligand ether oxygen and Cys285 side-chain sulfur (3.63 Å) or Met364 sulfur (4.87 Å). </plain></SENT>
+<SENT sid="323" pm="."><plain>Another important ES symbol, aaO, detects the key interactions between 1K74 ligand oxazole oxygen and Cys285 side-chain sulfur (3.61 Å). </plain></SENT>
+<SENT sid="324" pm="."><plain>Here we also measured the distance (4.95 Å) between oxazole nitrogen (aaN) and Leu340 backbone oxygen. </plain></SENT>
+<SENT sid="325" pm="."><plain>The symbol, aaN, as a important structural modification of the tail part, is indicated in Tables 2 and 4. </plain></SENT>
+<SENT sid="326" pm="."><plain>More ES symbols regarding the tail part modifications of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists, as mentioned above, can also detect their corresponding key interactions in other crystallographic images of potent <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="327" pm="."><plain>Illustration of the top-ranked ES symbols ssO, aaO, and aaN. Around a bound structure of 1K47 ligand (PDB: 1k47), the important ES symbol ssO can detect the key interaction between 1K74 ligand ether oxygen and Cys285 side-chain sulfur (3.63 Å) or Met364 sulfur (4.87 Å). </plain></SENT>
+<SENT sid="328" pm="."><plain>Another key ES symbol, aaO, detects the key interactions between 1K74 ligand oxazole oxygen and Cys285 side-chain sulfur (3.61 Å). </plain></SENT>
+<SENT sid="329" pm="."><plain>Here we also measured the distance (4.95 Å) between oxazole nitrogen (aaN) and Leu340 backbone oxygen. </plain></SENT>
+</text></p></caption><graphic xlink:href="1758-2946-5-21-3"/></fig></SecTag><p><text><SENT sid="330" pm="."><plain>Taken together, these correspondences clearly point out that the top-ranked ES symbols are the key structural modifications surrounding molecular binding. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="331" pm="."><plain>Discussion </plain></SENT>
+</text></title><sec><title><text><SENT sid="332" pm="."><plain>Jurs_RNCG as a filter </plain></SENT>
+</text></title><p><text><SENT sid="333" pm="."><plain>The descriptor Jurs_RNCG acts as a filter. </plain></SENT>
+<SENT sid="334" pm="."><plain>One might expect to see some outcomes if the single Jurs_RNCG descriptor is not included, i.e. there is no first filter of this tandem technique. </plain></SENT>
+<SENT sid="335" pm="."><plain>Apparently, all general effects will contribute to the top-ranked ES descriptor. </plain></SENT>
+<SENT sid="336" pm="."><plain>In Additional file 1: Table S3, for example, the top-ranked ES symbol, ssO, tyrosine moiety, of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists, falls outside the monitor table. </plain></SENT>
+<SENT sid="337" pm="."><plain>In other words, we need a descriptor in the first regression that can effectively remove the general effect of a ligand cellular system. </plain></SENT>
+<SENT sid="338" pm="."><plain>As mentioned above, one purpose for using Jurs_RNCG is to leave outliers for the second part. </plain></SENT>
+</text></p><p><text><SENT sid="339" pm="."><plain>Moreover, the potency orders and tendencies (signs of regression coefficients) of structural modifications coincide with our knowledge about the structural modifications of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists. </plain></SENT>
+<SENT sid="340" pm="."><plain>So the top-ranked structural modifications can detect their corresponding key interactions surrounding molecular binding, as shown in the X-ray image of a potent agonist-<z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> complex. </plain></SENT>
+<SENT sid="341" pm="."><plain>The outcomes of such a regression-outlier analysis also tell us that the Jurs_RNCG is truly an adequate filter. </plain></SENT>
+</text></p><p><text><SENT sid="342" pm="."><plain>In addition, and exceeding our expectations, the Jurs_RNCG can be expressed in a linear combination of partition coefficients, polar surface area, and shape-like descriptors [33], which further reveals three essential factors for drug-cell interfaces in such a ligand cellular system [34]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="343" pm="."><plain>Three types of dependency in the top-ranked ES descriptors </plain></SENT>
+</text></title><p><text><SENT sid="344" pm="."><plain>For a closer inspection of the top-ranked ES descriptors, the ES symbols from Table 2 were intentionally combined in a single fitting equation. </plain></SENT>
+<SENT sid="345" pm="."><plain>Three fitting equations are listed in Table 5. </plain></SENT>
+<SENT sid="346" pm="."><plain>First, in Equation 1 of Table 5, the ES symbol Sum_ssO, has a positive regression coefficient opposite to the sign presented in Table 2. </plain></SENT>
+<SENT sid="347" pm="."><plain>In Equation 2, the symbol Count_sssN, has a negative regression coefficient opposite to the sign provided in Table 2. </plain></SENT>
+<SENT sid="348" pm="."><plain>At the same time, we noticed that the correlation (r) between Count_ssO and Sum_ssO in this 46 TZD data set is +0.98 and the correlation (r) between Count_sssN and Sum_sssN is +0.99; i.e., they have extremely significant positive correlations. </plain></SENT>
+<SENT sid="349" pm="."><plain>In the interest of realistic representation, it is impossible that an identical important structural modification be represented by two highly positive-correlated descriptors indicating different tendencies. </plain></SENT>
+<SENT sid="350" pm="."><plain>However, the fitting regression coefficient resulting in the different signs in these 2 equations is obvious. </plain></SENT>
+<SENT sid="351" pm="."><plain>Therefore, the Count_ssO and Sum_ssO (or, the Count_sssN and Sum_sssN) have a dependency of description on identical structural modification. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T5"><label>Table 5</label><caption><p><text><SENT sid="352" pm="."><plain>The ES symbols monitored in the Table2are intentionally combined in a single fitting equation </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/></colgroup><thead valign="top"><tr><th align="left"><text><SENT sid="353" pm="."><plain># </plain></SENT>
+</text></th><th align="left"><text><SENT sid="354" pm="."><plain>Equation </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="bottom"><text><SENT sid="355" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="356" pm="."><plain>Y = 4.97 − 20.8Jurs _ RNCG − 2.81 Count _ ssO + 0.38 Sum _ ssO * </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="357" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="358" pm="."><plain>Y = 3.41 − 4.50 Jurs_RNCG − 3.09 Count_ssO  + 0.47 Sum_ssO * + 0.95 Sum_sssN − 0.86 Count_ssN * </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="359" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="360" pm="."><plain>Y = 3.34 − 11.1 Jurs_RNCG − 0.33 Count_ssO + 0.31Count_sssN  + 0.47 Count_aaO − 0.33 Count_sCH3 − 0.079 Count_aaN * </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="361" pm="."><plain>*The coefficient signs of these ES symbols labeled with star signs (*) contradict the ones presented in Table 2. </plain></SENT>
+</text></p><p><text><SENT sid="362" pm="."><plain>Three fitting equations with signs of regression coefficients are presented. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="363" pm="."><plain>Second, by removing the modification description dependency, the Count and Sum values of the same ES symbol are not in the same equation. </plain></SENT>
+<SENT sid="364" pm="."><plain>In Equation 3 of Table 5, the symbol Count_aaN has a negative regression coefficient compared to the sign listed in Table 2. </plain></SENT>
+<SENT sid="365" pm="."><plain>It therefore contradicts the observation that the captured symbols, aaO, aaaC, sssN, aaNH, and aaN, represent positive structural modifications to the tail part of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists. </plain></SENT>
+<SENT sid="366" pm="."><plain>Obviously, in this equation form 3, the symbols aaO and sssN represent the identical key interaction in the tail part of <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists, and the simultaneous appearance of them for the same moiety turned the regression coefficient of the additional aaN into the opposite sign. </plain></SENT>
+<SENT sid="367" pm="."><plain>Thus, one can say here that the ES symbols aaN, aaO and sssN have dependency of description on the identical moiety. </plain></SENT>
+</text></p><p><text><SENT sid="368" pm="."><plain>Third, throughout all of the 46 TZD <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists, when examining the values of the symbol aaO and related structural moieties, we found that no structural moiety contains this aaO feature aside for oxazole. </plain></SENT>
+<SENT sid="369" pm="."><plain>The moiety oxazole exists only in the two potent agonists AD-7057 and BRL48482 [10]. </plain></SENT>
+<SENT sid="370" pm="."><plain>The value of ES_Count_aaO is 1 for these 2 agonists whereas the value is 0 for the rest of collected <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists. </plain></SENT>
+<SENT sid="371" pm="."><plain>The ES symbols of oxazole have aaO, aaN, and aaCH. </plain></SENT>
+<SENT sid="372" pm="."><plain>Four agonists have the aaN structural moiety of these 46 collected agonists and, among those four, two compounds are AD-7057 and BRL48482. </plain></SENT>
+<SENT sid="373" pm="."><plain>Moreover, all agonists have the aaCH structural moiety, but the symbol aaCH does not appear in Table 2. </plain></SENT>
+<SENT sid="374" pm="."><plain>Clearly, the symbols aaO, aaN and aaCH have unequal dependencies of description in these data samples. </plain></SENT>
+</text></p><p><text><SENT sid="375" pm="."><plain>Especially, these dependencies of descriptor will actually cause serious consequence to all QSARs of four categories (classical, 3-dimensional, decisional and orthogonal) [37-39], their existence would make a model lose its interpretability. </plain></SENT>
+<SENT sid="376" pm="."><plain>Put together, the three types of dependencies in the top-ranked ES symbols actually play a major role in the design of the context equation. </plain></SENT>
+<SENT sid="377" pm="."><plain>That is, two ES symbols don’t appear simultaneously in a context equation. </plain></SENT>
+<SENT sid="378" pm="."><plain>Obviously, if one forces two dependent ES descriptors to be combined in a single equation, the signs in the regression coefficients of key structural modifications may change, and thus fail to point out the real tendency of impact to ligand binding in an analog set. </plain></SENT>
+<SENT sid="379" pm="."><plain>If one mixes two ES descriptors in a single equation acting as a detector, the one in this regression-outlier analysis will lose its ability to correctly detect the real tendencies of key structural modifications in the given analog sets. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions"><title><text><SENT sid="380" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="381" pm="."><plain>The innovative point of the present study is the fact that we used a statistical regression and its outlier as a computational technique for separation. </plain></SENT>
+<SENT sid="382" pm="."><plain>This technique was used specifically in the ligand cellular system. </plain></SENT>
+<SENT sid="383" pm="."><plain>As a counterpart to the hard equipment in the tandem technique, the prior molecular descriptor resembles a filter that removes the influence from the bulk of a cell and the latter class of descriptors is an array of detectors that can identify any important identities. </plain></SENT>
+<SENT sid="384" pm="."><plain>In the case of the <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonist cellular system, the key structural modifications surrounding ligand binding were successfully detected and the tendencies of impact were examined. </plain></SENT>
+<SENT sid="385" pm="."><plain>In the end, after the tandem regression-outlier analysis of this ligand cellular system, the results show that this prioritization of the context equations (filter) tagged with features of outliers (detector) is an effective computational tool for cheminformatics to detect possible features of outliers (key structural modifications), as well as their impact tendencies to ligand binding. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="386" pm="."><plain>Competing interests </plain></SENT>
+</text></title><p><text><SENT sid="387" pm="."><plain>The author declares that he has no competing interests. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="388" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="S1"><caption><title><text><SENT sid="389" pm="."><plain>Additional file 1: Table S1 </plain></SENT>
+</text></title><p><text><SENT sid="390" pm="."><plain>Lists the structures of the TZD <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists with their activities. </plain></SENT>
+<SENT sid="391" pm="."><plain>All images of molecular structures were created by using Pybel [29,30]. Table S2 lists the structures of the Carboxylic (COOH) <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists with their activities. </plain></SENT>
+<SENT sid="392" pm="."><plain>All images of molecular structures were created by using Pybel [29,30]. Table S3 lists the top-ranked ES descriptors of 178 carboxylic acid <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARγ</z:uniprot> agonists against cellular reactions, without the inclusion of Jurs_RNCG. </plain></SENT>
+</text></p></caption><media xlink:href="1758-2946-5-21-S1.docx"><caption><p><text><SENT sid="393" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="394" pm="."><plain>The author, Y.-T. </plain></SENT>
+<SENT sid="395" pm="."><plain>Lin, thanks the National Science Council of Taiwan for the financial supports (Grant No. NSC101-2113-M-037-010, NSC100-2113-M-037-010, NSC97-2113-M-037-004 and NSC95-2113-M-037-016-MY2). </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="396" pm="."><plain>LinYTrouillonRSafinaGEwingAGChemical analysis of single cellsAnal Chem2011834369439210.1021/ac2009838<?supplied-pmid 21500835?>21500835 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="397" pm="."><plain>ChatterjeeSHadiAInfluential Observations, High Leverage Points, and Outliers in Linear RegressionStat Sci1986137941610.1214/ss/1177013622 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="398" pm="."><plain>MaggioraGMOn outliers and activity cliffs–why QSAR often disappointsJ Chem Inf Model200646153510.1021/ci060117s<?supplied-pmid 16859285?>16859285 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="399" pm="."><plain>JohnsonSRThe trouble with QSAR (or how I learned to stop worrying and embrace fallacy)J Chem Inf Model200848252610.1021/ci700332k<?supplied-pmid 18161959?>18161959 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="400" pm="."><plain>PeltasonLIyerPBajorathJRationalizing three-dimensional activity landscapes and the influence of molecular representations on landscape topology and the formation of activity cliffsJ Chem Inf Model2010501021103310.1021/ci100091e<?supplied-pmid 20443603?>20443603 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="401" pm="."><plain>StantonDTJursPCDevelopment and use of charged partial surface area structure descriptors in computer-assisted quantitative structure–property relationshipAnal Chem1990622323232910.1021/ac00220a013 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="402" pm="."><plain>HenkeBRBlanchardSGBrackeenMFBrownKKCobbJECollinsJLHarringtonWWJrHashimMAHull-RydeEAKaldorIN-(2-Benzoylphenyl)-L-tyrosine <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARgamma</z:uniprot> agonists. </plain></SENT>
+<SENT sid="403" pm="."><plain>1. </plain></SENT>
+<SENT sid="404" pm="."><plain>Discovery of a novel series of potent antihyperglycemic and antihyperlipidemic agentsJ Med Chem1998415020503610.1021/jm9804127<?supplied-pmid 9836620?>9836620 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="405" pm="."><plain>NeogiPLaknerFJMedicherlaSChengJDeyDGowriMNagBSharmaSDPickfordLBGrossCSynthesis and structure-activity relationship studies of cinnamic acid-based novel thiazolidinedione antihyperglycemic agentsBioorg Med Chem2003114059406710.1016/S0968-0896(03)00393-6<?supplied-pmid 12927868?>12927868 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="406" pm="."><plain>DesaiRCHanWMetzgerEJBergmanJPGrataleDFMacNaulKLBergerJPDoebberTWLeungKMollerDE5-aryl thiazolidine-2,4-diones: discovery of <z:uniprot sup="inside" fb="0" ids="Q07869">PPAR</z:uniprot> dual alpha/gamma agonists as antidiabetic agentsBioorg Med Chem Lett2003132795279810.1016/S0960-894X(03)00505-5<?supplied-pmid 12873517?>12873517 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="407" pm="."><plain>WillsonTMBrownPJSternbachDDHenkeBRThe PPARs: from orphan receptors to drug discoveryJ Med Chem20004352755010.1021/jm990554g<?supplied-pmid 10691680?>10691680 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="408" pm="."><plain>ChittiboyinaAGVenkatramanMSMizunoCSDesaiPVPatnyABensonSCHoCIKurtzTWPershadsinghHAAveryMADesign and synthesis of the first generation of dithiolane thiazolidinedione- and phenylacetic acid-based <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARgamma</z:uniprot> agonistsJ Med Chem2006494072408410.1021/jm0510880<?supplied-pmid 16821769?>16821769 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="409" pm="."><plain>SauerbergPMogensenJPJeppesenLSvenssonLAFlecknerJNehlinJWulffEMPetterssonIStructure-activity relationships of dimeric <z:uniprot sup="inside" fb="0" ids="Q07869">PPAR</z:uniprot> agonistsBioorg Med Chem Lett2005151497150010.1016/j.bmcl.2004.12.084<?supplied-pmid 15713415?>15713415 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="410" pm="."><plain>LiuKBlackRMActonJJ3rdMosleyRDebenhamSAbolaRYangMTschirret-GuthRColwellLLiuCSelective <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARgamma</z:uniprot> modulators with improved pharmacological profilesBioorg Med Chem Lett2005152437244010.1016/j.bmcl.2005.03.092<?supplied-pmid 15863293?>15863293 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="411" pm="."><plain>MartinJABrooksDAPrietoLGonzalezRTorradoARojoILopez de UraldeBLamasCFerrittoRDolores Martin-OrtegaM2-Alkoxydihydrocinnamates as <z:uniprot sup="inside" fb="0" ids="Q07869">PPAR</z:uniprot> agonists. </plain></SENT>
+<SENT sid="412" pm="."><plain>Activity modulation by the incorporation of phenoxy substituentsBioorg Med Chem Lett200515515510.1016/j.bmcl.2004.10.042<?supplied-pmid 15582409?>15582409 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="413" pm="."><plain>CaiZFengJGuoYLiPShenZChuFGuoZSynthesis and evaluation of azaindole-alpha-alkyloxyphenylpropionic acid analogues as <z:uniprot sup="inside" fb="0" ids="Q95N78,O35507,Q07869,P23204,Q8HYL6,P37230,P37232">PPARalpha</z:uniprot>/gamma agonistsBioorg Med Chem20061486687410.1016/j.bmc.2005.09.040<?supplied-pmid 16249089?>16249089 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="414" pm="."><plain>LuYGuoZGuoYFengJChuFDesign, synthesis, and evaluation of 2-alkoxydihydrocinnamates as <z:uniprot sup="inside" fb="0" ids="Q07869">PPAR</z:uniprot> agonistsBioorg Med Chem Lett20061691591910.1016/j.bmcl.2005.10.104<?supplied-pmid 16300944?>16300944 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="415" pm="."><plain>HenkeBRAdkisonKKBlanchardSGLeesnitzerLMMookRAJrPlunketKDRayJARobersonCUnwallaRWillsonTMSynthesis and biological activity of a novel series of indole-derived <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARgamma</z:uniprot> agonistsBioorg Med Chem Lett199993329333410.1016/S0960-894X(99)00603-4<?supplied-pmid 10612594?>10612594 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="416" pm="."><plain>SauerbergPPetterssonIJeppesenLBuryPSMogensenJPWassermannKBrandCLSturisJWoldikeHFFlecknerJNovel tricyclic-alpha-alkyloxyphenylpropionic acids: dual <z:uniprot sup="inside" fb="0" ids="Q95N78,O35507,Q07869,P23204,Q8HYL6,P37230,P37232">PPARalpha</z:uniprot>/gamma agonists with hypolipidemic and antidiabetic activityJ Med Chem20024578980410.1021/jm010964g<?supplied-pmid 11831892?>11831892 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="417" pm="."><plain>RybczynskiPJZeckREDudashJJrCombsDWBurrisTPYangMOsborneMCChenXDemarestKTBenzoxazinones as <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARgamma</z:uniprot> agonists. </plain></SENT>
+<SENT sid="418" pm="."><plain>2. </plain></SENT>
+<SENT sid="419" pm="."><plain>SAR of the amide substituent and in vivo results in a type 2 diabetes modelJ Med Chem20044719620910.1021/jm0301888<?supplied-pmid 14695833?>14695833 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="420" pm="."><plain>KoyamaHMillerDJBoueresJKDesaiRCJonesABBergerJPMacNaulKLKellyLJDoebberTWWuMS(2R)-2-ethylchromane-2-carboxylic acids: discovery of novel <z:uniprot sup="inside" fb="0" ids="Q95N78,O35507,Q07869,P23204,Q8HYL6,P37230,P37232">PPARalpha</z:uniprot>/gamma dual agonists as antihyperglycemic and hypolipidemic agentsJ Med Chem2004473255326310.1021/jm030621d<?supplied-pmid 15163205?>15163205 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="421" pm="."><plain>PinelliAGodioCLaghezzaAMitroNFracchiollaGTortorellaVLavecchiaANovellinoEFruchartJCStaelsBSynthesis, biological evaluation, and molecular modeling investigation of new chiral fibrates with <z:uniprot sup="inside" fb="0" ids="Q95N78,O35507,Q07869,P23204,Q8HYL6,P37230,P37232">PPARalpha</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O18971,Q4U3Q4,P57797,P37231,O18924,P37238,O62807,O19052,O88275,P37234">PPARgamma</z:uniprot> agonist activityJ Med Chem2005485509551910.1021/jm0502844<?supplied-pmid 16107150?>16107150 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="422" pm="."><plain>KierLBHallLHDerivation and significance of valence molecular connectivityJ Pharm Sci19817058358910.1002/jps.2600700602<?supplied-pmid 7252795?>7252795 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="423" pm="."><plain>KierLBHallLHGeneral definition of valence delta-values for molecular connectivityJ Pharm Sci1983721170117310.1002/jps.2600721016<?supplied-pmid 6644566?>6644566 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="424" pm="."><plain>KierLBHallLHAn electrotopological-state index for atom in moleculesPharm Res1990780180710.1023/A:1015952613760<?supplied-pmid 2235877?>2235877 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="425" pm="."><plain>HallLHKierLBThe E-state as the basis for molecular structure space definition and structure similarityJ Chem Inf Comput Sci20004078479110.1021/ci990140w<?supplied-pmid 10850783?>10850783 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="426" pm="."><plain>HallLHMohneyBKierLBThe electrotopological state: structure information at the atomic level for molecular graphsJ Chem Inf Comput Sci199131768210.1021/ci00001a012 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="427" pm="."><plain>The QSAR module in Discovery Studio200821San Diego, CA, USA: Accelrys Software Inc </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="428" pm="."><plain>R development core teamR20052110Vienna, Austria: R Foundation for Statistical Computing </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="429" pm="."><plain>O'BoyleNMMorleyCHutchisonGRPybel: a Python wrapper for the OpenBabel cheminformatics toolkitChem Cent J20082510.1186/1752-153X-2-5<?supplied-pmid 18328109?>18328109 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="430" pm="."><plain>O'BoyleNMBanckMJamesCAMorleyCVandermeerschTHutchisonGROpen Babel: An open chemical toolboxJ Cheminform201133310.1186/1758-2946-3-33<?supplied-pmid 21982300?>21982300 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="431" pm="."><plain>KerwinSMChemBioOffice Ultra 2010 suiteJ Am Chem Soc20101322466246710.1021/ja1005306<?supplied-pmid 20121088?>20121088 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="432" pm="."><plain>BasakSCMagnusonVRMolecular topology and narcosis. </plain></SENT>
+<SENT sid="433" pm="."><plain>A quantitative structure-activity relationship (QSAR) study of alcohols using complementary information content (CIC)Arzneimittelforschung198333501503<?supplied-pmid 6683525?>6683525 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="434" pm="."><plain>LinYTChenGYA scaffold-independent subcellular event-based analysis: characterization of significant structural modificationsJ Chem Inf Model20125250651410.1021/ci200540y<?supplied-pmid 22288932?>22288932 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="435" pm="?"><plain>WaltersWPGreenJWeissJRMurckoMAWhat do medicinal chemists actually make? </plain></SENT>
+<SENT sid="436" pm="."><plain>A 50-year retrospectiveJ Med Chem2011546405641610.1021/jm200504p<?supplied-pmid 21755928?>21755928 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="437" pm="."><plain>NolteRTWiselyGBWestinSCobbJELambertMHKurokawaRRosenfeldMGWillsonTMGlassCKMilburnMVLigand binding and co-activator assembly of the peroxisome proliferator-activated receptor-gammaNature199839513714310.1038/25931<?supplied-pmid 9744270?>9744270 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="438" pm="."><plain>XuHELambertMHMontanaVGPlunketKDMooreLBCollinsJLOplingerJAKliewerSAGampeRTJrMcKeeDDStructural determinants of ligand binding selectivity between the peroxisome proliferator-activated receptorsProc Natl Acad Sci U S A200198139191392410.1073/pnas.241410198<?supplied-pmid 11698662?>11698662 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="439" pm="."><plain>PutzMVLacramaAMIntroducing spectral structure activity relationship (S-SAR) analysis. </plain></SENT>
+<SENT sid="440" pm="."><plain>Application to ecotoxicologyInt J Mol Sci2007836339110.3390/i8050363 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="441" pm="."><plain>LacramaAMPutzMVOstafeVA spectral-SAR model for the anionic-cationic interaction in ionic liquids: Application to Vibrio fischeri ecotoxicityInt J Mol Sci2007884286310.3390/i8080842 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="442" pm="."><plain>PutzMVResidual-QSAR. </plain></SENT>
+<SENT sid="443" pm="."><plain>Implications for genotoxic carcinogenesisChem Cent J201152910.1186/1752-153X-5-29<?supplied-pmid 21668999?>21668999 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,521 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5241644</article-id><article-id pub-id-type="pii">srep40697</article-id><article-id pub-id-type="doi">10.1038/srep40697</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Seasonal and regional presence of hymenopteran parasitoids of Drosophila in Switzerland and their ability to parasitize the invasive Drosophila suzukii </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Knoll</surname><given-names>Valery</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Ellenbroek</surname><given-names>Thomas</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Romeis</surname><given-names>Jörg</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Collatz</surname><given-names>Jana</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref></contrib><aff id="a1"><label>1</label><institution>Agroscope, Biosafety group, Reckenholzstrasse 191</institution>, 8046 Zurich, <country>Switzerland</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>jana.collatz@agroscope.admin.ch</email></corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>01</month><year>2017</year></pub-date><pub-date pub-type="collection"><year>2017</year></pub-date><volume>7</volume><elocation-id>40697</elocation-id><history><date date-type="received"><day>23</day><month>08</month><year>2016</year></date><date date-type="accepted"><day>03</day><month>11</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2017, The Author(s)</copyright-statement><copyright-year>2017</copyright-year><copyright-holder>The Author(s)</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>Since its introduction into Europe the invasive Drosophila suzukii has established and spread widely, thereby entering habitats populated by native Drosophila species and their natural enemies. </plain></SENT>
+<SENT sid="2" pm="."><plain>The highly prolific D. suzukii will likely interact with these species as a competitor, host or prey. </plain></SENT>
+<SENT sid="3" pm="."><plain>To investigate potential interactions of D. suzukii with parasitoids, a field survey was conducted across several fruit-growing regions in Switzerland in two consecutive years. </plain></SENT>
+<SENT sid="4" pm="."><plain>Eight species of hymenopteran parasitoids were collected using D. melanogaster as sentinel hosts in field-traps. </plain></SENT>
+<SENT sid="5" pm="."><plain>Parasitoid capture was much higher in 2015 than in 2014 and varied among regions, time of the growing season, and habitat type. </plain></SENT>
+<SENT sid="6" pm="."><plain>Laboratory no-choice assays with the field-collected species demonstrated that the larval parasitoids Asobara tabida, Leptopilina boulardi, and L. heterotoma could not use D. suzukii for reproduction, although the latter two reduced the number of emerging D. suzukii. </plain></SENT>
+<SENT sid="7" pm="."><plain>In contrast, the pupal parasitoids Pachycrepoideus vindemmiae, Trichopria drosophilae, Vrestovia fidenas and Spalangia erythromera all developed with D. suzukii as hosts. </plain></SENT>
+<SENT sid="8" pm="."><plain>Regional differences between strains were generally not evident, with the exception of two T. drosophilae strains that differed in parasitization rate. </plain></SENT>
+<SENT sid="9" pm="."><plain>Thus, native parasitoids may interact with D. suzukii and should be regarded when implementing pest control measures. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="10" pm="."><plain>Exotic insect species establishing in novel habitats interact with the living environment in their new habitat. </plain></SENT>
+<SENT sid="11" pm="."><plain>The ecological consequences that arise from these interactions range from negligible effects to vast impacts on populations of other organisms1 and on ecosystem processes2. </plain></SENT>
+<SENT sid="12" pm="."><plain>The newly established species may feed on plants or seeds, prey or parasitize upon other species and thus affect lower trophic levels345. </plain></SENT>
+<SENT sid="13" pm="."><plain>However, they may also serve as prey or hosts to natural enemies67. </plain></SENT>
+<SENT sid="14" pm="."><plain>In particular, rapidly multiplying, invasive herbivore species present an abundant resource to be exploited by predators and parasitoids that are able to include them into their prey or host range. </plain></SENT>
+<SENT sid="15" pm="."><plain>Broadening host or prey range may occur immediately in preadapted natural enemy species or can take place after a phase of adaptation6. </plain></SENT>
+<SENT sid="16" pm="."><plain>The consequences of these novel interactions depend on the acceptability and suitability of the herbivore as host or prey. </plain></SENT>
+<SENT sid="17" pm="."><plain>Attractive but toxic preys or acceptable hosts that do not support adult parasitoid development may represent dead ends for the natural enemies and thus have negative consequences on their populations8910. </plain></SENT>
+<SENT sid="18" pm="."><plain>In contrast, a well-suited and abundant novel food source will allow the natural enemies to thrive and their enhanced populations may even reduce native herbivore populations via apparent competition1112. </plain></SENT>
+<SENT sid="19" pm="."><plain>Finally, management of invasive species may also result in ecological consequences when control efforts such as chemical or biological control also affect natural enemies1314. </plain></SENT>
+<SENT sid="20" pm="."><plain>Understanding the interactions of a novel herbivore species in an ecosystem is therefore a crucial prerequisite for the implementation of targeted control measures. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>An invasive species that has received much attention recently is the spotted wing drosophila, Drosophila suzukii (Matsumura) (Diptera: Drosophilidae). </plain></SENT>
+<SENT sid="22" pm="."><plain>It is an invasive frugivorous species native to Asia15, which causes considerable economic damage due to its ability to oviposit into intact ripening soft fruits16. </plain></SENT>
+<SENT sid="23" pm="."><plain>Outside its native range it has been recorded for the first time in Spain, Italy, and in North America in 20081718 and within a few years it spread widely and established on both continents19. </plain></SENT>
+<SENT sid="24" pm="."><plain>In Switzerland, the species has been detected for the first time in 201120 and nowadays occurs across all fruit-growing areas21. </plain></SENT>
+<SENT sid="25" pm="."><plain>It builds up large populations and adult individuals can be sampled throughout the year in agricultural and semi-natural habitats (ref. 22, own observations). D. suzukii entered ecosystems harbouring numerous native Drosophila species as well as their natural enemies. </plain></SENT>
+<SENT sid="26" pm="."><plain>For example, in northern Switzerland twenty-five Drosophila species were identified at the edge of a single forest during a five month study23. </plain></SENT>
+<SENT sid="27" pm="."><plain>Previous studies conducted in Italy242526, Spain27, the United States2428, and Mexico29 have found several native parasitoids to attack D. suzukii sentinel larvae and pupae deployed in the field. </plain></SENT>
+<SENT sid="28" pm="."><plain>Thus, we assume that parasitoids of Drosophila present in Switzerland will accept D. suzukii as a host as well. </plain></SENT>
+<SENT sid="29" pm="."><plain>Knowledge of the nature of the natural enemy interactions constitutes an important base for the development of control strategies. </plain></SENT>
+<SENT sid="30" pm="."><plain>We thus studied potential interactions between D. suzukii and the local parasitoid community with the aims to (i) assess the parasitoid species composition in areas inhabited by D. suzukii, (ii) investigate the influence of habitat and time of the fruit growing season on parasitoid presence, and (iii) determine host quality of D. suzukii for the different parasitoid species and local strains in comparison to the common native host species Drosophila melanogaster Meigen and Drosophila subobscura Collin. </plain></SENT>
+</text></p><SecTag type="RESULTS"><sec disp-level="1"><title><text><SENT sid="31" pm="."><plain>Results </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="32" pm="."><plain>Field samples </plain></SENT>
+</text></title><p><text><SENT sid="33" pm="."><plain>Eight species of parasitoids from four families of Hymenoptera emerged from the traps baited with D. melanogaster and set up in different locations in Switzerland (Fig. 1; Table 1). </plain></SENT>
+<SENT sid="34" pm="."><plain>The most common parasitoid was Pachycrepoideus vindemmiae (Rondani), of which the highest overall number of individuals emerged and that was present in all regions. </plain></SENT>
+<SENT sid="35" pm="."><plain>Also Leptopilina heterotoma (Thomson) was collected in all regions, while Leptopilina boulardi Barbotin et al. was not recovered from the northern-most region, Thurgau. Trichopria drosophilae (Perkins) was collected only south of the Alps in Ticino, whereas Asobara tabida (Nees) was only collected north of the Alps. Trichopria modesta (Ratzeburg) and the two pteromalid species Vrestovia fidenas (Walker) and Spalangia erythromera Förster were only collected occasionally. D. suzukii was present in both years during all three sampling time spans in all regions and in total 91% (2014) and 82% (2015) of fly traps contained adult D. suzukii. </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain>Species composition was similar in the three northern regions and differed most between Ticino and the northern regions (Fig. 2). </plain></SENT>
+<SENT sid="37" pm="."><plain>Season had a significant influence on the incidence of L. heterotoma (generalized linear model GLM: W2,102 = 9.819, P = 0.007), P. vindemmiae (GLM: W2,138 = 16.492, P &lt; 0.001) and L. boulardi (GLM: W2,102 = 7.025, P = 0.030) but not on T. drosophilae and A. tabida (Fig. 3). </plain></SENT>
+<SENT sid="38" pm="."><plain>In contrast to the other species, L. heterotoma incidence was significantly higher during early and mid-season compared to late season, whereas P. vindemmiae was significantly higher during mid-season than during the two other seasons and L. boulardi incidence was higher during mid-season than during early season (Fig. 3a). </plain></SENT>
+<SENT sid="39" pm="."><plain>A similar pattern was revealed when analysing the number of L. heterotoma individuals that emerged (GLM: W2,102 = 60.970, P &lt; 0.001), P. vindemmiae (GLM: W2,138 = 182.770, P &lt; 0.001), L. boulardi (GLM: W2,102 = 14.267, P &lt; 0.001), T. drosophilae (GLM: W2,32 = 7.987, P = 0.005) and A. tabida (GLM: W2,102 = 19.882, P &lt; 0.001). </plain></SENT>
+<SENT sid="40" pm="."><plain>Most L. heterotoma emerged from early season samples, while emergence declined over the following two seasons. </plain></SENT>
+<SENT sid="41" pm="."><plain>Likewise A. tabida emerged mainly from early season samples, with significantly fewer individuals collected later. P. vindemmiae emergence was highest in samples from mid-season and lowest in samples from late season. </plain></SENT>
+<SENT sid="42" pm="."><plain>Also L. boulardi emergence was significantly higher in mid-season than during the two other seasons. T. drosophilae was only collected during mid- and late season with significantly more individuals emerging from the mid-season samples compared to the early season (Fig. 3b). </plain></SENT>
+</text></p><p><text><SENT sid="43" pm="."><plain>Significantly more traps in semi-natural habitats contained T. drosophilae (GLM: W1,32 = 4.314, P = 0.038) than traps in agricultural habitats (Fig. 4a). P. vindemmiae (GLM: W1,138 = 3.186, P = 0.074) tended to occur more often in traps in agricultural habitats. </plain></SENT>
+<SENT sid="44" pm="."><plain>Furthermore, significantly more individuals from L. heterotoma (GLM: W1,102 = 30.517, P &lt; 0.001) and T. drosophilae (GLM: W1,32 = 21.635, P &lt; 0.001) emerged from samples exposed in semi-natural habitats. </plain></SENT>
+<SENT sid="45" pm="."><plain>More P. vindemmiae emerged from samples exposed in agricultural than in semi-natural habitats (GLM: W1,138 = 5.928, P = 0.015) (Fig. 4b). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="46" pm="."><plain>Parasitization assays </plain></SENT>
+</text></title><p><text><SENT sid="47" pm="."><plain>The overall hatching rate of D. suzukii flies in the controls without larval parasitoids was 79.79 ± 1.21%. </plain></SENT>
+<SENT sid="48" pm="."><plain>With the exception of two individuals of L. heterotoma, none of the three larval parasitoid species completed development on D. suzukii (Fig. 5). </plain></SENT>
+<SENT sid="49" pm="."><plain>The number of emerged D. suzukii, however, was significantly reduced when larvae were exposed to L. boulardi (Basel-Land and Ticino-strains combined: GLM: W1,36 = 29.907, P &lt; 0.001). </plain></SENT>
+<SENT sid="50" pm="."><plain>In L. heterotoma the presence of parasitoids (GLM: W3,72 = 5.432, P = 0.020) as well as the factor strain (GLM: W3,72 = 12.194, P = 0.007) but not the interaction of both factors had a significant influence on the reduction of D. suzukii flies. </plain></SENT>
+<SENT sid="51" pm="."><plain>The strain from Basel-Land reduced fly emergence significantly more than the strain from Ticino. A. tabida did not have any influence on the number of D. suzukii emerging. </plain></SENT>
+</text></p><p><text><SENT sid="52" pm="."><plain>The overall hatching rate of D. suzukii flies in the controls without pupal parasitoids was 78.14 ± 1.40%. </plain></SENT>
+<SENT sid="53" pm="."><plain>All tested pupal parasitoid species and strains reproduced on D. suzukii (Fig. 6). P. vindemmiae reduced D. suzukii emergence significantly (64.0% mean reduction; GLM: W3,72 = 21.370, P &lt; 0.001) and produced a high number of offspring on pupae from all three host species offered. </plain></SENT>
+<SENT sid="54" pm="."><plain>Parasitization indices did not differ significantly between host species or parasitoid strain (Table 2). S. erythromera reduced D. suzukii emergence significantly (62.3%; GLM: W3,18 = 80.648, P &lt; 0.001) but produced overall fewer offspring than P. vindemmiae with parasitization indices being not significantly different between host species. </plain></SENT>
+<SENT sid="55" pm="."><plain>Offspring production was lowest in V. fidenas and did not differ between host species, however also this species reduced D. suzukii emergence significantly (29.7%; GLM: W3,18 = 16.060, P &lt; 0.001). </plain></SENT>
+<SENT sid="56" pm="."><plain>In contrast, parasitization indices differed between parasitoid strains in T. drosophilae (Mann-Whitney-U-test: U: 192.5, P &lt; 0.001), with higher offspring production in the strain from Vaud compared to the strain from Ticino. </plain></SENT>
+<SENT sid="57" pm="."><plain>Parasitization indices did not differ between host species. </plain></SENT>
+<SENT sid="58" pm="."><plain>Reduction of D. suzukii emergence was significantly influenced by parasitoid presence (GLM: W3,36 = 111.376, P &lt; 0.001), parasitoid strain (strain Ticino: 37.0% and strain Vaud: 61.4% mean reduction; GLM: W3,36 = 19.297, P &lt; 0.001) and the interaction of both factors (GLM: W3,36 = 13.385, P &lt; 0.001) in T. drosophila. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec disp-level="1"><title><text><SENT sid="59" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="60" pm="."><plain>Eight native parasitoid species were recorded in habitats recently invaded by D. suzukii in Switzerland. </plain></SENT>
+<SENT sid="61" pm="."><plain>Parasitoid species composition differed among regions, in particular between Ticino in the south and Basel-Land, Zurich, and Thurgau north of the Alps, likely because of the different climatic conditions. </plain></SENT>
+<SENT sid="62" pm="."><plain>Several species of Drosophila parasitoids seem to have their geographic distribution borders within Switzerland. </plain></SENT>
+<SENT sid="63" pm="."><plain>For example, T. drosophilae had been recorded previously in Italy2628 and Spain27 and was found during our surveys in Southern Switzerland in Ticino and Vaud (S. </plain></SENT>
+<SENT sid="64" pm="."><plain>Fischer, Agroscope, pers. <z:uniprot sup="inside" fb="39" ids="Q24139">comm</z:uniprot>.), however, it was not retrieved from any of the samples from northern Switzerland. </plain></SENT>
+<SENT sid="65" pm="."><plain>Like Central France, Switzerland seems to be at the northern geographic limit of L. boulardi, a species native to the Mediterranean region that is currently expanding its distribution range northwards30. </plain></SENT>
+<SENT sid="66" pm="."><plain>Previous studies have shown that developmental success of L. heterotoma is reduced in the presence of L. boulardi, but not vice versa and in cage experiments L. boulardi outcompeted L. heterotoma31. </plain></SENT>
+<SENT sid="67" pm="."><plain>However, differences in overwintering strategies with L. heterotoma being active several weeks before L. boulardi mediate the coexistence of the two species3233. L. boulardi was found in Ticino in both study years, in Zurich and Basel-Land only in 2015, but was never collected in Thurgau. </plain></SENT>
+<SENT sid="68" pm="."><plain>It is possible that in a year with high average temperatures L. boulardi is able to build up large populations in northern Switzerland and limit reproduction for L. heterotoma from mid-season on. </plain></SENT>
+<SENT sid="69" pm="."><plain>This idea is corroborated by the observation that incidence and abundance of L. heterotoma decreased from spring to fall. </plain></SENT>
+<SENT sid="70" pm="."><plain>It might be also valid for the larval parasitoid A. tabida, which also interacts with the two Leptopilina species32 and of which the number of emerged parasitoids decreased over the course of the growing season. </plain></SENT>
+</text></p><p><text><SENT sid="71" pm="."><plain>In contrast to L. heterotoma and A. tabida, the number of emerged parasitoids was highest in summer for L. boulardi, T. drosophilae and P. vindemmiae. </plain></SENT>
+<SENT sid="72" pm="."><plain>This observation is in accordance with findings from northern Italy2628 and might be explained by a combination of fluctuations of the parasitoid populations in the course of the season and a thermally induced high activity of parasitoids that leads to higher trap captures. </plain></SENT>
+<SENT sid="73" pm="."><plain>In all regions the number of parasitoid species and individuals collected in 2015 was markedly higher than in 2014. </plain></SENT>
+<SENT sid="74" pm="."><plain>It is likely that the differences can be attributed to the different weather conditions. </plain></SENT>
+<SENT sid="75" pm="."><plain>In 2014 a particular mild winter was followed by a cool and humid summer, both favourable conditions to the build-up of large D. suzukii populations3435. </plain></SENT>
+<SENT sid="76" pm="."><plain>This is evident from the important economic damage incurred by Swiss fruit growers in 201436. </plain></SENT>
+<SENT sid="77" pm="."><plain>Additionally the high humidity led to ruptures and fungal infections of the fruits, thus fostering native Drosophila-species as well. </plain></SENT>
+<SENT sid="78" pm="."><plain>As natural enemy populations respond to an increase in host populations with a time lag, our sentinel traps competed with a high natural host availability. </plain></SENT>
+<SENT sid="79" pm="."><plain>In contrast, a high number of parasitoids was present after hibernation in 2015, when hot and dry summer conditions reduced host availability and this might have resulted in the remarkably high emergence of parasitoid offspring from traps in 2015. </plain></SENT>
+</text></p><p><text><SENT sid="80" pm="."><plain>In particular P. vindemmiae was present in a very high proportion of traps. </plain></SENT>
+<SENT sid="81" pm="."><plain>It was also the only parasitoid, for which significantly higher emergence was recorded from traps set up in agricultural habitats compared to traps in the semi-natural habitats. </plain></SENT>
+<SENT sid="82" pm="."><plain>It seems that this parasitoid copes well with high temperatures and dry conditions as it prevailed in most of the agricultural habitats during summer. </plain></SENT>
+<SENT sid="83" pm="."><plain>This species may play a particular role in shaping the communities of flies and parasitoids in Switzerland as it interacts with them in several ways. </plain></SENT>
+<SENT sid="84" pm="."><plain>First, P. vindemmiae is a broad generalist on numerous Drosophila species including D. suzukii3738 as well as other Dipterans39. </plain></SENT>
+<SENT sid="85" pm="."><plain>It is thus likely to benefit from the new and abundant resource that is provided by the invading D. suzukii. </plain></SENT>
+<SENT sid="86" pm="."><plain>Enhanced populations of the parasitoid may then affect other fly species via apparent competition. </plain></SENT>
+<SENT sid="87" pm="."><plain>Second, P. vindemmiae can hyperparasitize Leptopilina <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. and Asobara spp40. </plain></SENT>
+<SENT sid="88" pm="."><plain>Therefore, its high abundance in agricultural habitats may limit the numbers of the larval parasitoids in the same habitat via intraguild predation. </plain></SENT>
+<SENT sid="89" pm="."><plain>Third, it may also compete for host resources with other pupal parasitoids41. </plain></SENT>
+</text></p><p><text><SENT sid="90" pm="."><plain>Often, semi-natural habitats provide more suitable microclimates and alternative food and host resources to parasitoids compared to agricultural habitats42. </plain></SENT>
+<SENT sid="91" pm="."><plain>This may be the case for L. heterotoma, A. tabida, and in particular for T. drosophilae, which was found almost exclusively in the semi-natural habitats. </plain></SENT>
+<SENT sid="92" pm="."><plain>The latter species seems to be active only from mid-season on (ref. 26 and Fig. 3), despite having an upper thermal limit for adult survival at around 34 °C43, a temperature that is often reached in Switzerland in open field conditions during summer. </plain></SENT>
+<SENT sid="93" pm="."><plain>In particular for this species thermal limitations in the crop environment as well as an activity peak late in the growing season may reduce the impact on D. suzukii populations that are active in Switzerland even during the winter22. </plain></SENT>
+<SENT sid="94" pm="."><plain>Thus, targeting the microhabitat structure as well as enhancing parasitoid populations early in the growing season could be promising strategies in the biological control of D. suzukii. </plain></SENT>
+<SENT sid="95" pm="."><plain>In a recent publication, the relevance of unmanaged, semi-natural habitats has been also pointed out by Wang et al.44. </plain></SENT>
+<SENT sid="96" pm="."><plain>These habitats may play an important role for the population dynamics of D. suzukii as they can serve as reservoirs for the recolonization of crops after the application of insecticides and provide shelter for the flies during unfavourable weather conditions4546. </plain></SENT>
+<SENT sid="97" pm="."><plain>Further studies are required to investigate their relative importance for D. suzukii and the community of potential natural enemies to assess the impact of management actions. </plain></SENT>
+</text></p><p><text><SENT sid="98" pm="."><plain>Our laboratory assays demonstrate for the first time the ability of the pupal parasitoids S. erythromera and V. fidenas to utilize D. suzukii as hosts. </plain></SENT>
+<SENT sid="99" pm="."><plain>Together with the already reported P. vindemmiae and T. drosophilae2738, they add to the community of species that could play a role in the control of D. suzukii. While parasitization rates varied largely among species, with most parasitoids emerging in P. vindemmiae and fewest in V. fidenas, all pupal parasitoids developed on D. suzukii at a rate comparable to that on the other two native Drosophila species tested. </plain></SENT>
+<SENT sid="100" pm="."><plain>No major strain differences in parasitization of D. suzukii were detected between P. vindemmiae from different locations in Switzerland. </plain></SENT>
+<SENT sid="101" pm="."><plain>Likewise, Chabert et al.38 could not detect any difference between strains collected from different locations within France, whereas differences were detected between strains from the United States and strains from Italy25. </plain></SENT>
+<SENT sid="102" pm="."><plain>In our study T. drosophilae from Vaud produced significantly more offspring than a strain from Ticino, likewise strains from the United States and South Korea and from different areas within France differed in their parasitization efficacy on D. suzukii3844. </plain></SENT>
+<SENT sid="103" pm="."><plain>Thus, a careful evaluation of the biological characteristics of the used strain is crucial to the evaluation of this species as a potential biocontrol candidate for D. suzukii. </plain></SENT>
+</text></p><p><text><SENT sid="104" pm="."><plain>In contrast to the pupal parasitoids, the larval parasitoids L. heterotoma, L. boulardi and A. tabida were not able to develop on D. suzukii in our study, although numbers of emerged flies were significantly reduced for D. suzukii in the presence of L. boulardi and L. heterotoma, probably due to unsuccessful parasitization events. </plain></SENT>
+<SENT sid="105" pm="."><plain>Even stronger than D. melanogaster, D. suzukii defends itself against larval parasitoids by encapsulating and subsequent melanising the parasitoid eggs within the larval tissue4748. </plain></SENT>
+<SENT sid="106" pm="."><plain>However, the immune response of the flies seems to be costly, as it is associated with a reduced feeding rate49 and a reduced fecundity of the surviving adults505152. </plain></SENT>
+<SENT sid="107" pm="."><plain>Furthermore there appear to be indirect fitness costs as P. vindemmiae has been found to preferentially parasitize pupae of hosts that had been attacked as larvae by A. tabida53. </plain></SENT>
+<SENT sid="108" pm="."><plain>Consequently, the presence of these species may still have a negative impact on D. suzukii populations. </plain></SENT>
+</text></p><p><text><SENT sid="109" pm="."><plain>Novel invasive species such as D. suzukii can act as a sink for the native parasitoid populations, when eggs are deposited into the unsuitable hosts. </plain></SENT>
+<SENT sid="110" pm="."><plain>Such an ecological trap54 provided by an invasive species has been observed for the egg parasitoid Telenomus podisi Ashmead (Hymenoptera: Scelionidae) that accepts the non-native Halyomorpha halys (Stål) (Hemiptera: Pentatomidae) for oviposition but is not able to develop within this host10. </plain></SENT>
+<SENT sid="111" pm="."><plain>Abram et al.10 suggest that reduced abundance of T. podisi due to the presence of H. halys could also cause a release from control for native pentatomid species in the sense of apparent predation (sensu Holt11). </plain></SENT>
+</text></p><p><text><SENT sid="112" pm="."><plain>Outcomes of the interactions between larval parasitoids and Drosophila <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. also depend on the specific strains of parasitoids and flies involved555657. </plain></SENT>
+<SENT sid="113" pm="."><plain>Within the Swiss populations of L. heterotoma differences in lethality to flies were observed among strains. </plain></SENT>
+<SENT sid="114" pm="."><plain>Strain-specific differences could also explain discrepancies between our results and other studies. </plain></SENT>
+<SENT sid="115" pm="."><plain>For example a study from Italy found a high mortality in D. suzukii larvae exposed to L. heterotoma but not in those exposed to L. boulardi26. </plain></SENT>
+<SENT sid="116" pm="."><plain>Another study even observed development and emergence of L. heterotoma on D. suzukii25. </plain></SENT>
+</text></p><p><text><SENT sid="117" pm="."><plain>However, in how far the parasitoids attack D. suzukii under natural conditions remains to be investigated for most of the species. </plain></SENT>
+<SENT sid="118" pm="."><plain>In particular for the larval parasitoids, studies with a long exposition time of samples in the field bear the risk of misinterpretation when native Drosophila were able to lay additional eggs in the bait and larvae hatching from those eggs then became parasitized. </plain></SENT>
+<SENT sid="119" pm="."><plain>This aspect is less likely for the observation of the pupal parasitoids P. vindemmiae and T. drosophilae that were recovered from D. suzukii in the field2725. </plain></SENT>
+<SENT sid="120" pm="."><plain>While many pupal parasitoids are known to develop on D. suzukii under controlled laboratory conditions and in no-choice assays, little information is available on the host-finding and host-choice behaviour in the presence of native Drosophila species. </plain></SENT>
+<SENT sid="121" pm="."><plain>To our knowledge, only two studies have addressed this aspect by the investigation of T. drosophilae, which has been shown to produce a higher number of offspring on D. suzukii in a choice situation with D. melanogaster2644. </plain></SENT>
+<SENT sid="122" pm="."><plain>Differences in offspring numbers were attributed to a higher mortality of the parasitoid in D. melanogaster pupae rather than to a host-preference26. </plain></SENT>
+</text></p><p><text><SENT sid="123" pm="."><plain>We conclude that a complex of native parasitoids potentially interacts with the invasive D. suzukii in agricultural and semi-natural habitats in Switzerland, and likely in other temperate regions of Europe. </plain></SENT>
+<SENT sid="124" pm="."><plain>The diversity of the parasitoids, their biological characteristics and their requirements provide the potential for enhanced pest control, in particular via improvement of the habitat. </plain></SENT>
+<SENT sid="125" pm="."><plain>As the interactions among native and exotic flies with their natural enemies can be manifold, care has to be taken when implementing control measures against D. suzukii, as these might affect multiple species on several trophic levels. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec disp-level="1"><title><text><SENT sid="126" pm="."><plain>Material and Methods </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="127" pm="."><plain>Insects </plain></SENT>
+</text></title><p><text><SENT sid="128" pm="."><plain>Cultures of D. suzukii and D. subobscura originated from individuals collected in Zurich-Affoltern, Switzerland in 2013. D. melanogaster were obtained from a laboratory wild-type culture from Professor Walter J. </plain></SENT>
+<SENT sid="129" pm="."><plain>Gehring’s Lab (University of Basel, Switzerland). </plain></SENT>
+<SENT sid="130" pm="."><plain>Larvae of all Drosophila species were reared on an artificial diet based on banana (400 g Banana, 20 g agar-agar, 50 g brewer’s yeast, 30 g wheat flour, 20 g saccharose, 4 g nipagin, 1 l water) within plastic jars (11 cm dia., 15 cm height) sealed with a plastic gauze that allowed gas exchange. </plain></SENT>
+<SENT sid="131" pm="."><plain>Upon emergence, adults were transferred either into flight cages (D. melanogaster, D. subobscura, 32 * 22 * 16 cm) or into plastic jars (11 cm dia., 15 cm height) with a fine metal grid at the bottom, which were placed onto the artificial diet within a plastic cup (D. suzukii). </plain></SENT>
+<SENT sid="132" pm="."><plain>Adults in the flight cages were allowed to oviposit directly onto fresh blocks of diet, while adults in the jars oviposited through the metal grid. </plain></SENT>
+<SENT sid="133" pm="."><plain>The diet was exchanged three times per week and adult flies were replaced every four weeks. </plain></SENT>
+<SENT sid="134" pm="."><plain>All rearings were kept in climate chambers at 70% RH, 14:10 L:D and 22 °C (D. suzukii, D. subobscura) or 25 °C (D. melanogaster). </plain></SENT>
+</text></p><p><text><SENT sid="135" pm="."><plain>Parasitoids of Drosophila originated from field collections as described below; an additional strain of T. drosophilae was collected in Vaud. </plain></SENT>
+<SENT sid="136" pm="."><plain>Cultures were kept separated by strain in flight cages (32 * 22 * 16 cm) at 22 °C, 70% RH, 14:10 L:D. </plain></SENT>
+<SENT sid="137" pm="."><plain>Larval parasitoids were reared on larval stage 1–2 of D. melanogaster (L. boulardi and L. heterotoma) or D. subobscura (A. tabida). </plain></SENT>
+<SENT sid="138" pm="."><plain>Therefore, diet from the fly rearing that was infested with Drosophila larvae was supplemented with fresh diet and exposed to the parasitoids for 3–4 days. </plain></SENT>
+<SENT sid="139" pm="."><plain>Pupal parasitoids were reared on pupae of D. melanogaster (T. drosophilae, P. vindemmiae, V. fidenas, S. erythromera). </plain></SENT>
+<SENT sid="140" pm="."><plain>Pieces of cotton wool (Dental rolls, 12 mm dia., Gerber Instruments, Effretikon, Switzerland) were introduced into the Drosophila rearing jars when larvae were close to pupation and removed after 24 h. </plain></SENT>
+<SENT sid="141" pm="."><plain>The cotton wool with freshly formed pupae was then exposed to the parasitoids for 3–4 days. </plain></SENT>
+<SENT sid="142" pm="."><plain>Parasitized larvae and pupae were transferred into cups sealed with a plastic gauze (6 cm dia., 8 cm height) and kept until emergence of parasitoids 3 to 5 weeks later. </plain></SENT>
+<SENT sid="143" pm="."><plain>Four to 7 days after emergence, parasitoids were either used for parasitization experiments or introduced into the flight cage for further rearing. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="144" pm="."><plain>Field sampling </plain></SENT>
+</text></title><p><text><SENT sid="145" pm="."><plain>Four major fruit-growing regions in Switzerland (Cantons: Ticino, Zurich, Thurgau, and Basel-Land) were chosen for field sampling (Fig. 1). </plain></SENT>
+<SENT sid="146" pm="."><plain>In each region, 12 locations were sampled, of which 6 were agricultural sites with fruiting crops and 6 were semi-natural sites, either forest or hedgerows. </plain></SENT>
+<SENT sid="147" pm="."><plain>Fruiting crops comprised according to season cherry, berries, plum and grapevine, all of which are suitable and common hosts for D. suzukii. </plain></SENT>
+<SENT sid="148" pm="."><plain>In each region sampling was conducted once during early, mid- and end of growing season (2014: 23.6.−26.7., 11.8.−12.9., 15.9.−11.10; 2015: 08.6.−10.7., 27.7.−21.8., 7.9.−2.10.) resulting in a total of 144 samples per year. </plain></SENT>
+<SENT sid="149" pm="."><plain>While locations were kept the same for semi-natural sites during the growing season, agricultural locations were chosen to provide available host fruits in a stage susceptible to D. suzukii attack and thus had to be changed between the sampling time spans. </plain></SENT>
+<SENT sid="150" pm="."><plain>Traps were deployed for 4 days but baits were exchanged after 2 days to avoid desiccation and to provide appropriate host stages to the parasitoids. </plain></SENT>
+</text></p><p><text><SENT sid="151" pm="."><plain>To assess the presence of D. suzukii a custom-made cylindrical fly-trap (9.5 cm dia., 12 cm height) with 10 entry holes (4 mm) baited with 250 ml of a mixture of red-wine, vinegar, water (1:1:1), and a few droplets of detergent was placed at a distance of approx. </plain></SENT>
+<SENT sid="152" pm="."><plain>5 m from each parasitoid-trap. </plain></SENT>
+</text></p><sec disp-level="3"><title><text><SENT sid="153" pm="."><plain>Traps </plain></SENT>
+</text></title><p><text><SENT sid="154" pm="."><plain>To allow for parasitoid oviposition plastic dishes (6 cm dia.) with diet (only 2014) or seasonal fruits (cherries or plums) that had been pierced multiple times with a needle to enable fly access were exposed for 48 h to adult D. melanogaster inside a flight cage at 25 °C. </plain></SENT>
+<SENT sid="155" pm="."><plain>Baits were prepared either directly (larval stage 1–2) or after another 48 h (beginning of pupation) using either 25 g infested diet, 3 cherries, or ½ plum. </plain></SENT>
+<SENT sid="156" pm="."><plain>Self-constructed plastic Delta-traps (20*20*10 cm; white, with red edges) were baited with larvae and pupae (modified after Rossi-Stacconi et al. </plain></SENT>
+<SENT sid="157" pm="."><plain>2013) as well as with approx. </plain></SENT>
+<SENT sid="158" pm="."><plain>15 caged 2–4-day old adult D. melanogaster of both sexes on artificial diet, hence taking into account the role of adult fly pheromones in host location of the parasitoids58. </plain></SENT>
+<SENT sid="159" pm="."><plain>In 2014, each Delta-trap contained two dishes with diet and two dishes with seasonal fruits; in 2015 traps were modified to a smaller size (20*13*8 cm) and contained only two baits with seasonal fruits. </plain></SENT>
+<SENT sid="160" pm="."><plain>For each collection date, one bait sample was kept in the laboratory to assess the number of emerged flies. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="161" pm="."><plain>Parasitoid collections </plain></SENT>
+</text></title><p><text><SENT sid="162" pm="."><plain>Samples from the field were kept in plastic jars (9.5 cm dia., 12 cm height) that were sealed with a plastic gauze to allow gas exchange within a walk-in climate chamber (22 °C, 70% RH, 14:10 L:D) for six weeks. </plain></SENT>
+<SENT sid="163" pm="."><plain>Samples were checked three times a week and emerged flies and parasitoids were collected using an aspirator. </plain></SENT>
+<SENT sid="164" pm="."><plain>Number and species of emerged parasitoids per sample were recorded. </plain></SENT>
+<SENT sid="165" pm="."><plain>The number of emerged parasitoid offspring from a sentinel bait is proportional to the number of female parasitoids attracted to the sample. </plain></SENT>
+<SENT sid="166" pm="."><plain>Thus, counting emerged parasitoids overestimates true effects, while determining solely presence/absence of a species underestimates true effects. </plain></SENT>
+<SENT sid="167" pm="."><plain>We report both values, as the number of eggs laid by each female is unknown and affected by various factors such as the species, the physiological status and the time spent at the trap. </plain></SENT>
+</text></p><p><text><SENT sid="168" pm="."><plain>Collected parasitoids were used to establish laboratory cultures, while small subsamples were preserved in Eppendorf-vials with 70% ethanol as voucher specimens. </plain></SENT>
+<SENT sid="169" pm="."><plain>Figitidae parasitoids were identified using the taxonomic keys published by Nordlander59 and Forshage and Nordlander60. </plain></SENT>
+<SENT sid="170" pm="."><plain>Pteromalidae, Diapriidae and Braconidae were identified by taxonomic experts. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="171" pm="."><plain>Parasitization assays </plain></SENT>
+</text></title><p><text><SENT sid="172" pm="."><plain>Parasitoid species and strains were comparatively tested for their ability to parasitize D. suzukii, D. melanogaster and D. subobscura (only pupal parasitoids) in no-choice assays. </plain></SENT>
+<SENT sid="173" pm="."><plain>Prior to the assays newly emerged male and female parasitoids were kept with a droplet of honey but without hosts for 4–7 days to assure mating. </plain></SENT>
+<SENT sid="174" pm="."><plain>For larval parasitoids, 40 first instars of either D. suzukii or D. melanogaster were placed on a block of diet (2 g) with a fine metal hook under a stereo microscope. </plain></SENT>
+<SENT sid="175" pm="."><plain>The diet was then transferred into a vial (2 cm dia., 6 cm height) containing a humid piece of cotton wool and a droplet of honey. </plain></SENT>
+<SENT sid="176" pm="."><plain>The vial was sealed with a foam plug that allowed gas exchange. </plain></SENT>
+<SENT sid="177" pm="."><plain>For pupal parasitoids, a paper tissue was added to the rearing jars of D. suzukii, D. melanogaster and D. subobscura 24 h prior to assays to provide the larvae a substrate for pupation. </plain></SENT>
+<SENT sid="178" pm="."><plain>Subsequently, the paper was cut into pieces containing 45 freshly formed pupae that were then introduced into a ventilated vial (6 cm dia., 8 cm height). </plain></SENT>
+<SENT sid="179" pm="."><plain>A piece of humid cotton wool and a droplet of honey were added. </plain></SENT>
+<SENT sid="180" pm="."><plain>Single female parasitoids were added to half of the vials, whereas the other half served as control. </plain></SENT>
+<SENT sid="181" pm="."><plain>Ten replicates were performed per parasitoid strain and host species. </plain></SENT>
+<SENT sid="182" pm="."><plain>No more than five replicates were conducted during the same week to assure that all parasitoids and hosts originated from at least two different batches. </plain></SENT>
+</text></p></sec></sec><sec disp-level="2"><title><text><SENT sid="183" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="184" pm="."><plain>From the total of 288 traps, three were excluded from the final analysis because they had been vandalized. </plain></SENT>
+<SENT sid="185" pm="."><plain>Due to the low number of collected parasitoids in 2014, we focused detailed statistical analysis for field collections on data from 2015. </plain></SENT>
+</text></p><p><text><SENT sid="186" pm="."><plain>Chao’s Sørensen similarity indices for replicated incidence based data61 were calculated for comparison of parasitoid species composition among regions using estimateS (Version 9, 2013, Robert K. </plain></SENT>
+<SENT sid="187" pm="."><plain>Colwell). </plain></SENT>
+<SENT sid="188" pm="."><plain>All other statistical analyses were performed using SPSS, version 23 (IBM Corp., Armonk, New York, 2015). </plain></SENT>
+</text></p><p><text><SENT sid="189" pm="."><plain>To investigate the influence of the factors season and habitat on the five most prevalent parasitoid species (L. heterotoma, L. boulardi, P. vindemmiae, T. drosophilae, and A. tabida), data were pooled across regions. </plain></SENT>
+<SENT sid="190" pm="."><plain>Only regions were included into the analysis, where the respective parasitoid species had been collected. </plain></SENT>
+<SENT sid="191" pm="."><plain>Generalized linear models (main-effect) were applied to investigate the effects of habitat and season on a) the incidence of parasitoid species, i.e. the number of traps that contained at least one individual of a particular species, and b) the abundance of parasitoids, i.e. the number of parasitoid individuals of a particular species that emerged from a trap. </plain></SENT>
+<SENT sid="192" pm="."><plain>As a preliminary analysis did not detect significant differences for any of the species between the habitats “hedges” and “forests” these habitats were pooled as semi-natural habitats. </plain></SENT>
+<SENT sid="193" pm="."><plain>Therefore the final models contained the parameters “early”, “mid-“ and “late” for the fixed factor “season” and the parameters “agricultural” and “semi-natural” for the fixed factor “habitat”. </plain></SENT>
+</text></p><p><text><SENT sid="194" pm="."><plain>The binomial data on incidence were modelled with binomial logistic error distribution and count data on abundance were modelled with negative binomial error distributions due to over-dispersion of errors when assuming Poisson distribution. </plain></SENT>
+<SENT sid="195" pm="."><plain>Where significant differences for the factor season were detected, post-hoc tests were conducted with sequential Bonferroni corrections. </plain></SENT>
+</text></p><p><text><SENT sid="196" pm="."><plain>In the laboratory parasitization assays, the effect of parasitoid presence and, where applicable, of parasitoid strain and the interaction of both factors on the number of emerged D. suzukii was analysed using generalized linear modelling. </plain></SENT>
+<SENT sid="197" pm="."><plain>Poisson or negative binomial error distribution were used according to model fit (Omnibus-test; ratio: deviance/df). </plain></SENT>
+<SENT sid="198" pm="."><plain>Where significant strain differences were detected, post hoc tests with sequential Bonferroni corrections were used for pairwise comparisons of strain effects. </plain></SENT>
+</text></p><p><text><SENT sid="199" pm="."><plain>As controls demonstrated differences in survival rates of unparasitized pupae of the three fly species, a parasitization index was calculated, i.e., the ratio between emerged parasitoids and total emerged individuals (flies + parasitoids) to compare the level of successful parasitoid development of pupal parasitoids on different host species. </plain></SENT>
+<SENT sid="200" pm="."><plain>Due to heteroscedasticity indices were compared between host fly species and parasitoid strain using non-parametric Kruskal-Wallis-tests. </plain></SENT>
+<SENT sid="201" pm="."><plain>The data are stored at DOI 10.6084/m9.figshare.4054731. </plain></SENT>
+</text></p></sec></sec></SecTag><sec disp-level="1"><title><text><SENT sid="202" pm="."><plain>Additional Information </plain></SENT>
+</text></title><p><text><SENT sid="203" pm="."><plain>How to cite this article: Knoll, V. et al. </plain></SENT>
+<SENT sid="204" pm="."><plain>Seasonal and regional presence of hymenopteran parasitoids of Drosophila in Switzerland and their ability to parasitize the invasive Drosophila suzukii. </plain></SENT>
+<SENT sid="205" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="206" pm="."><plain>Rep. 7, 40697; doi: 10.1038/srep40697 (2017). </plain></SENT>
+</text></p><p><text><SENT sid="207" pm="."><plain>Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. </plain></SENT>
+</text></p></sec></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="208" pm="."><plain>This work was funded by the Swiss Federal Office for the Environment (FOEN) and by the Drosophila suzukii R &amp; D Task Force funded by the Swiss Federal Office for Agriculture (FOAG). </plain></SENT>
+<SENT sid="209" pm="."><plain>We are thankful to Serge Fischer and Mélanie Dorsaz (Agroscope) for collection of additional parasitoid strains in Vaud and Valais. </plain></SENT>
+<SENT sid="210" pm="."><plain>Cristina Marazzi (Servizio fitosanitario cantonale, Bellinzona) and Mauro Jermini (Agroscope) supported our field collections in Ticino. </plain></SENT>
+<SENT sid="211" pm="."><plain>Hannes Baur (Natural History Museum Bern), Augusto Loni (Università di Pisa), David Notton (Natural History Museum London) and Daniela Lupi (Università di Milano) helped us identifying the parasitoid samples. </plain></SENT>
+<SENT sid="212" pm="."><plain>Judith Riedel gave support during statistical analyses and Dominique Mazzi (Agroscope) gave helpful comments on an earlier version of this manuscript. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="213" pm="."><plain>KenisM. . Ecological effects of invasive alien insects. </plain></SENT>
+<SENT sid="214" pm="."><plain>In: Ecological Impacts of Non-Native Invertebrates and Fungi on Terrestrial Ecosystems (eds LangorD. </plain></SENT>
+<SENT sid="215" pm="."><plain>W. &amp; SweeneyJ.) 21–45 (Springer, 2009). </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="216" pm="."><plain>ParkerI. </plain></SENT>
+<SENT sid="217" pm="."><plain>M. . Impact: toward a framework for understanding the ecological effects of invaders. Biol. </plain></SENT>
+<SENT sid="218" pm="."><plain>Invasions 1, 3–19 (1999). </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="219" pm="."><plain>DavidsonW. &amp; RieskeL. </plain></SENT>
+<SENT sid="220" pm="."><plain>K. Native parasitoid response to Emerald Ash Borer (Coleoptera: Buprestidae) and Ash decline in recently invaded forests of the central United States. Ann. </plain></SENT>
+<SENT sid="221" pm="."><plain>Entomol. </plain></SENT>
+<SENT sid="222" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="223" pm="."><plain>Am. 108, 777–784 (2015). </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="224" pm="."><plain>RoyH. </plain></SENT>
+<SENT sid="225" pm="."><plain>E. . The harlequin ladybird, Harmonia axyridis: global perspectives on invasion history and ecology. Biol. </plain></SENT>
+<SENT sid="226" pm="."><plain>Invasions 18, 997–1044 (2016). </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="227" pm="."><plain>ParryD. Beyond Pandora’s Box: quantitatively evaluating non-target effects of parasitoids in classical biological control. Biol. </plain></SENT>
+<SENT sid="228" pm="."><plain>Invasions 11, 47–58 (2009). </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="229" pm="."><plain>ColaresF., MichaudJ. </plain></SENT>
+<SENT sid="230" pm="."><plain>P., BainC. </plain></SENT>
+<SENT sid="231" pm="."><plain>L. &amp; TorresJ. </plain></SENT>
+<SENT sid="232" pm="."><plain>B. Recruitment of aphidophagous arthropods to sorghum plants infested with Melanaphis sacchari and Schizaphis graminum (Hemiptera: Aphididae). Biol. </plain></SENT>
+<SENT sid="233" pm="."><plain>Control 90, 16–24 (2015). </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="234" pm="."><plain>SchönroggeK., BeggT., WilliamsR., MelikaG., RandleZ. &amp; StoneG. </plain></SENT>
+<SENT sid="235" pm="."><plain>N. Range expansion and enemy recruitment by eight alien gall wasp species in Britain. Insect Conserv. </plain></SENT>
+<SENT sid="236" pm="."><plain>Divers. 5, 298–311 (2012). </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="237" pm="."><plain>BarryA. &amp; OhnoK. Prey aphid inhibits development and reproduction of Coccinella septempunctata bruckii and Propylea japonica (Coleoptera: Coccinellidae) but maintains adults. <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="238" pm="."><plain>Entomol. </plain></SENT>
+<SENT sid="239" pm="."><plain>Zool. 50, 517–523 (2015). </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="240" pm="."><plain>HoogendoornM. &amp; HeimpelG. </plain></SENT>
+<SENT sid="241" pm="."><plain>E. Indirect interactions between an introduced and a native ladybird beetle species mediated by a shared parasitoid. Biol. </plain></SENT>
+<SENT sid="242" pm="."><plain>Control. 25, 224–230 (2002). </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="243" pm="."><plain>AbramP. </plain></SENT>
+<SENT sid="244" pm="."><plain>K., GariepyT. </plain></SENT>
+<SENT sid="245" pm="."><plain>D., BoivinG. &amp; BrodeurJ. An invasive stink bug as an evolutionary trap for an indigenous egg parasitoid. Biol. </plain></SENT>
+<SENT sid="246" pm="."><plain>Invasions 16, 1387–1395 (2014). </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="247" pm="."><plain>HoltR. </plain></SENT>
+<SENT sid="248" pm="."><plain>D. Predation, apparent competition, and structure of prey communities. Theor. </plain></SENT>
+<SENT sid="249" pm="."><plain>Popul. </plain></SENT>
+<SENT sid="250" pm="."><plain>Biol. 12, 197–229 (1977).929457 </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="251" pm="."><plain>BompardA., JaworskiC. </plain></SENT>
+<SENT sid="252" pm="."><plain>C., BearezP. &amp; DesneuxN. Sharing a predator: can an invasive alien pest affect the predation on a local pest? Popul. </plain></SENT>
+<SENT sid="253" pm="."><plain>Ecol. 55, 433–440 (2013). </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="254" pm="."><plain>VarenhorstA. </plain></SENT>
+<SENT sid="255" pm="."><plain>J. &amp; O’NealM. </plain></SENT>
+<SENT sid="256" pm="."><plain>E. The response of natural enemies to selective insecticides applied to soybean. Environ. </plain></SENT>
+<SENT sid="257" pm="."><plain>Entomol. 41, 1565–1574 (2012).23321105 </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="258" pm="."><plain>BiglerF., BabendreierD. &amp; KuhlmannU. Environmental Impact of Invertebrates for Biological Control of Arthropods: Methods and Risk Assessment (CABI Publishing, 2006). </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="259" pm="."><plain>AsplenM. </plain></SENT>
+<SENT sid="260" pm="."><plain>K. . Invasion biology of spotted wing Drosophila (Drosophila suzukii): a global perspective and future priorities. J. </plain></SENT>
+<SENT sid="261" pm="."><plain>Pest Sci. 88, 469–494 (2015). </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="262" pm="."><plain>WalshD. </plain></SENT>
+<SENT sid="263" pm="."><plain>B. . Drosophila suzukii (Diptera: Drosophilidae): Invasive pest of ripening soft fruit expanding its geographic range and damage potential. J. </plain></SENT>
+<SENT sid="264" pm="."><plain>Integr. </plain></SENT>
+<SENT sid="265" pm="."><plain>Pest Manag. 2, G1–G7 (2011). </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="266" pm="."><plain>GoodhueR. </plain></SENT>
+<SENT sid="267" pm="."><plain>E., BoldaM., FarnsworthD., WilliamsJ. </plain></SENT>
+<SENT sid="268" pm="."><plain>C. &amp; ZalomF. </plain></SENT>
+<SENT sid="269" pm="."><plain>G. Spotted wing drosophila infestation of California strawberries and raspberries: economic analysis of potential revenue losses and control costs. Pest. </plain></SENT>
+<SENT sid="270" pm="."><plain>Manag. </plain></SENT>
+<SENT sid="271" pm="."><plain>Sci. 67, 1396–1402 (2011).21815244 </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="272" pm="."><plain>CalabriaG., MacaJ., BächliG., SerraL. &amp; PascualM. First records of the potential pest species Drosophila suzukii (Diptera: Drosophilidae) in Europe. J. </plain></SENT>
+<SENT sid="273" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="274" pm="."><plain>Entomol. 136, 139–147 (2012). </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="275" pm="."><plain>CiniA. . Tracking the invasion of the alien fruit pest Drosophila suzukii in Europe. J. </plain></SENT>
+<SENT sid="276" pm="."><plain>Pest. </plain></SENT>
+<SENT sid="277" pm="."><plain>Sci. 87, 559–566 (2014). </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="278" pm="."><plain>BaroffioC. &amp; FischerS. Neue Bedrohung für Obstplantagen und Beerenpflanzen. UFA Revue 11, 46–47 (2011). </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="279" pm="."><plain>BaroffioC., FischerS., KehrliP., KuskeS., LinderC. &amp; RichozP. Drosophila suzukii 3 years of experience in Switzerland. International soft fruit conference ISFC, St-Hertogenbasch, 1–26 (2014). </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="280" pm="."><plain>BaroffioC. &amp; KuonenF. Newsletter Drosophila suzukii Mitte April – Mitte Mai 2016. Agroscope Transfer 131/2016, 1-5 <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.agroscope.admin.ch/agroscope/en/home/topics/plant-production/plant-protection/drosophila-suzukii.html">https://www.agroscope.admin.ch/agroscope/en/home/topics/plant-production/plant-protection/drosophila-suzukii.html</ext-link> (2016). </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="281" pm="."><plain>BächliG. Faunistische und ökologische Untersuchungen an Drosophiliden-Arten (Diptera) der Schweiz, I. </plain></SENT>
+<SENT sid="282" pm="."><plain>Fangort Zürich. Mitt. </plain></SENT>
+<SENT sid="283" pm="."><plain>Schweiz. </plain></SENT>
+<SENT sid="284" pm="."><plain>Entomol. </plain></SENT>
+<SENT sid="285" pm="."><plain>Ges. 45, 49–53 (1972). </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="286" pm="."><plain>Rossi-StacconiM. </plain></SENT>
+<SENT sid="287" pm="."><plain>V. . First field records of Pachycrepoideus vindemiae as a parasitoid of Drosophila suzukii in European and Oregon small fruit production areas. Entomologia 1, 11–16 (2013). </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="288" pm="."><plain>Rossi-StacconiM. </plain></SENT>
+<SENT sid="289" pm="."><plain>V. . Host stage preference, efficacy and fecundity of parasitoids attacking Drosophila suzukii in newly invaded areas. Biol. </plain></SENT>
+<SENT sid="290" pm="."><plain>Control 84, 28–35 (2015). </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="291" pm="."><plain>MazzettoF. . Drosophila parasitoids in northern Italy and their potential to attack the exotic pest Drosophila suzukii. J. </plain></SENT>
+<SENT sid="292" pm="."><plain>Pest. </plain></SENT>
+<SENT sid="293" pm="."><plain>Sci. 89, 837–850 (2016). </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="294" pm="."><plain>GabarraR., RiudavetsJ., RodríguezG. </plain></SENT>
+<SENT sid="295" pm="."><plain>A., Pujade-VillarJ. &amp; ArnóJ. Prospects for the biological control of Drosophila suzukii. BioControl 84, 28–35 (2014). </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="296" pm="."><plain>MillerB. . Seasonal occurence of resident parasitoids associated with Drosophila suzukii in two small fruit production regions of Italy and the USA. B. </plain></SENT>
+<SENT sid="297" pm="."><plain>Insectol. 68, 255–263 (2015). </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="298" pm="."><plain>CancinoM. </plain></SENT>
+<SENT sid="299" pm="."><plain>D. </plain></SENT>
+<SENT sid="300" pm="."><plain>G., HernandezA. </plain></SENT>
+<SENT sid="301" pm="."><plain>G., CabreraJ. </plain></SENT>
+<SENT sid="302" pm="."><plain>G., CarrilloG. </plain></SENT>
+<SENT sid="303" pm="."><plain>M., GonzalezJ. </plain></SENT>
+<SENT sid="304" pm="."><plain>A. </plain></SENT>
+<SENT sid="305" pm="."><plain>S. &amp; BernalH. </plain></SENT>
+<SENT sid="306" pm="."><plain>C. </plain></SENT>
+<SENT sid="307" pm="."><plain>A. Parasitoids of Drosophila suzukii (Matsumura) (Diptera: Drosophilidae) in Colima, Mexico. Southwest. </plain></SENT>
+<SENT sid="308" pm="."><plain>Entomol. 40, 855–858 (2015). </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="309" pm="."><plain>PatotS., MartinezJ., AllemandR., GandonS., VaraldiJ. &amp; FleuryF. Prevalence of a virus inducing behavioural manipulation near species range border. Mol. </plain></SENT>
+<SENT sid="310" pm="."><plain>Ecol. 19, 2995–3007 (2010).20565576 </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="311" pm="."><plain>CartonY., HaouasS., MarrakchiM. &amp; HochbergM. Two competing parasitoid species coexist in sympatry. Oikos 60, 222–230 (1991). </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="312" pm="."><plain>FleuryF., GibertP., RisN. &amp; AllemandR. Ecology and life history evolution of frugivorous Drosophila parasitoids. Advances in Parasitology 70, 3–44 (2009).19773065 </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="313" pm="."><plain>VayssadeC., MartelV., MoirouxJ., FauvergueX., Van AlphenJ. </plain></SENT>
+<SENT sid="314" pm="."><plain>J. </plain></SENT>
+<SENT sid="315" pm="."><plain>M. &amp; Van BaarenJ. The response of life-history traits to a new species in the community: a story of Drosophila parasitoids from the Rhone and Saone valleys. Biol. </plain></SENT>
+<SENT sid="316" pm="."><plain>J. </plain></SENT>
+<SENT sid="317" pm="."><plain>Linn. </plain></SENT>
+<SENT sid="318" pm="."><plain>Soc. 107, 153–165 (2012). </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="319" pm="."><plain>KimuraM. </plain></SENT>
+<SENT sid="320" pm="."><plain>T. Cold and heat tolerance of drosophilid flies with reference to their latitudinal distributions. Oecologia 140, 442–449 (2004).15221433 </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="321" pm="."><plain>TochenS., WoltzJ. </plain></SENT>
+<SENT sid="322" pm="."><plain>M., DaltonD. </plain></SENT>
+<SENT sid="323" pm="."><plain>T., LeeJ. </plain></SENT>
+<SENT sid="324" pm="."><plain>C., WimanN. </plain></SENT>
+<SENT sid="325" pm="."><plain>G. &amp; WaltonV. </plain></SENT>
+<SENT sid="326" pm="."><plain>M. Humidity affects populations of Drosophila suzukii (Diptera: Drosophilidae) in blueberry. J. </plain></SENT>
+<SENT sid="327" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="328" pm="."><plain>Entomol. 140, 47–57 (2016). </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="329" pm="."><plain>KuskeS. . Netze gegen die Kirschessigfliege. Schweizer Zeitschrift für Obst- und Weinbau 22, 14–18 (2014). </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="330" pm="."><plain>CartonY., BoulétreauM., Van AlphenJ. </plain></SENT>
+<SENT sid="331" pm="."><plain>J. </plain></SENT>
+<SENT sid="332" pm="."><plain>M. &amp; van LenterenJ. </plain></SENT>
+<SENT sid="333" pm="."><plain>C. The Drosophila parasitic wasps. </plain></SENT>
+<SENT sid="334" pm="."><plain>In The Genetics and Biology of Drosophila (ed. AshburneM.) 347–389 (Academic Press, 1986). </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="335" pm="."><plain>ChabertS., AllemandR., PoyetM., EslinP. &amp; GibertP. Ability of European parasitoids (Hymenoptera) to control a new invasive Asiatic pest, Drosophila suzukii. </plain></SENT>
+<SENT sid="336" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="337" pm="."><plain>Control 63, 40–47 (2012). </plain></SENT>
+</text></ref><ref id="b39"><text><SENT sid="338" pm="."><plain>PetersR. New habitat and host records and notes on the life history of Pachycrepoideus vindemmiae (Rodani, 1875) (Hymenoptera: Chalcidoidea: Pteromalidae). Mitteilungen aus dem Hamburgischen Zoologischen Museum und Institut 106, 39–49 (2009). </plain></SENT>
+</text></ref><ref id="b40"><text><SENT sid="339" pm="."><plain>Van AlphenJ. </plain></SENT>
+<SENT sid="340" pm="."><plain>J. </plain></SENT>
+<SENT sid="341" pm="."><plain>M. &amp; ThunnissenI. Host selection and sex allocation by Pachycrepoideus vindemiae Rondani (Pteromalidae) as a facultative hyperparasitoid of Asobara tabida Nees (Braconidae, Alysiinae) and Leptopilina heterotoma (Cynipoidea, Eucoilidae). Neth. </plain></SENT>
+<SENT sid="342" pm="."><plain>J. </plain></SENT>
+<SENT sid="343" pm="."><plain>Zool. 33, 497–514 (1983). </plain></SENT>
+</text></ref><ref id="b41"><text><SENT sid="344" pm="."><plain>WangX.-G., KaçarG., BiondiA. &amp; DaaneK. </plain></SENT>
+<SENT sid="345" pm="."><plain>M. Foraging efficiency and outcomes of interactions of two pupal parasitoids attacking the invasive spotted wing drosophila. Biol. </plain></SENT>
+<SENT sid="346" pm="."><plain>Control 96, 64–71 (2016). </plain></SENT>
+</text></ref><ref id="b42"><text><SENT sid="347" pm="."><plain>GillespieM. </plain></SENT>
+<SENT sid="348" pm="."><plain>A. </plain></SENT>
+<SENT sid="349" pm="."><plain>K., GurrG. </plain></SENT>
+<SENT sid="350" pm="."><plain>M. &amp; WrattenS. </plain></SENT>
+<SENT sid="351" pm="."><plain>D. Beyond nectar provision: the other resource requirements of parasitoid biological control agents. Entomol. </plain></SENT>
+<SENT sid="352" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="353" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. 159, 207–221 (2016). </plain></SENT>
+</text></ref><ref id="b43"><text><SENT sid="354" pm="."><plain>AmiresmaeiliN., ColomboM. &amp; LupiD. Impact of high temperature on Trichopria drosophilae (Perkins, 1910) (Hymenoptera: Diapriidae). European PhD Network in “Insect Science” - 6th Annual Meeting and SEI-SIPaV Joint Workshop; Florence, Italy (2015). </plain></SENT>
+</text></ref><ref id="b44"><text><SENT sid="355" pm="."><plain>WangX.-G., KaçarG., BiondiA. &amp; DaaneK. </plain></SENT>
+<SENT sid="356" pm="."><plain>M. Life-history and host preference of Trichopria drosophilae, a pupal parasitoid of spotted wing drosophila. BioControl 61, 1–11 (2016a). </plain></SENT>
+</text></ref><ref id="b45"><text><SENT sid="357" pm="."><plain>KlickJ., LeeJ. </plain></SENT>
+<SENT sid="358" pm="."><plain>C., HaglerJ. </plain></SENT>
+<SENT sid="359" pm="."><plain>R., BruckD. </plain></SENT>
+<SENT sid="360" pm="."><plain>J. &amp; YangW. </plain></SENT>
+<SENT sid="361" pm="."><plain>Q. Evaluating Drosophila suzukii immunomarking for mark-capture research. Entomol. </plain></SENT>
+<SENT sid="362" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="363" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. 152, 31–41 (2014). </plain></SENT>
+</text></ref><ref id="b46"><text><SENT sid="364" pm="."><plain>LeeJ. </plain></SENT>
+<SENT sid="365" pm="."><plain>C. . Infestation of wild and ornamental noncrop fruits by Drosophila suzukii (Diptera: Drosophilidae). Ann. </plain></SENT>
+<SENT sid="366" pm="."><plain>Entomol. </plain></SENT>
+<SENT sid="367" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="368" pm="."><plain>Am. 108, 117–129 (2015). </plain></SENT>
+</text></ref><ref id="b47"><text><SENT sid="369" pm="."><plain>KacsohB. </plain></SENT>
+<SENT sid="370" pm="."><plain>Z. &amp; SchlenkeT. </plain></SENT>
+<SENT sid="371" pm="."><plain>A. High hemocyte load is associated with increased resistance against parasitoids in Drosophila suzukii, a relative of D. melanogaster. Plos One 7, e34721 (2012).22529929 </plain></SENT>
+</text></ref><ref id="b48"><text><SENT sid="372" pm="."><plain>PoyetM. . Resistance of Drosophila suzukii to the larval parasitoids Leptopilina heterotoma and Asobara japonica is related to haemocyte load. Physiol. </plain></SENT>
+<SENT sid="373" pm="."><plain>Entomol. 38, 45–53 (2013). </plain></SENT>
+</text></ref><ref id="b49"><text><SENT sid="374" pm="."><plain>FellowesM. </plain></SENT>
+<SENT sid="375" pm="."><plain>D. </plain></SENT>
+<SENT sid="376" pm="."><plain>E., KraaijeveldA. </plain></SENT>
+<SENT sid="377" pm="."><plain>R. &amp; GodfrayH. </plain></SENT>
+<SENT sid="378" pm="."><plain>C. </plain></SENT>
+<SENT sid="379" pm="."><plain>J. The relative fitness of Drosophila melanogaster (Diptera: Drosophilidae) that have successfully defended themselves against the parasitoid Asobara tabida (Hymenoptera: Braconidae). J. </plain></SENT>
+<SENT sid="380" pm="."><plain>Evolution. </plain></SENT>
+<SENT sid="381" pm="."><plain>Biol. 12, 123–128 (1999). </plain></SENT>
+</text></ref><ref id="b50"><text><SENT sid="382" pm="."><plain>CartonY. &amp; DavidJ. </plain></SENT>
+<SENT sid="383" pm="."><plain>R. Reduction of fitness in Drosophila adults surviving parasitization by a cynipid wasp. Experientia 39, 231–233 (1983). </plain></SENT>
+</text></ref><ref id="b51"><text><SENT sid="384" pm="."><plain>FellowesM. </plain></SENT>
+<SENT sid="385" pm="."><plain>D. </plain></SENT>
+<SENT sid="386" pm="."><plain>E., KraaijeveldA. </plain></SENT>
+<SENT sid="387" pm="."><plain>R. &amp; GodfrayH. </plain></SENT>
+<SENT sid="388" pm="."><plain>C. </plain></SENT>
+<SENT sid="389" pm="."><plain>J. Association between feeding rate and parasitoid resistance in Drosophila melanogaster. Evolution 53, 1302–1305 (1999). </plain></SENT>
+</text></ref><ref id="b52"><text><SENT sid="390" pm="."><plain>IacovoneA., RisN., PoirieM. &amp; GattiJ.-L. Drosophila suzukii pays the price of parasitoid wasp encapsulation. 4th International Entomophagous Insects Conference. </plain></SENT>
+<SENT sid="391" pm="."><plain>Malaga, Spain (2015). </plain></SENT>
+</text></ref><ref id="b53"><text><SENT sid="392" pm="."><plain>FellowesM. </plain></SENT>
+<SENT sid="393" pm="."><plain>D. </plain></SENT>
+<SENT sid="394" pm="."><plain>E., MasnattaP., KraaijeveldA. </plain></SENT>
+<SENT sid="395" pm="."><plain>R. &amp; GodfrayH. </plain></SENT>
+<SENT sid="396" pm="."><plain>C. </plain></SENT>
+<SENT sid="397" pm="."><plain>J. Pupal parasitoid attack influences the relative fitness of Drosophila that have encapsulated larval parasitoids. Ecol. </plain></SENT>
+<SENT sid="398" pm="."><plain>Entomol. 23, 281–284 (1998). </plain></SENT>
+</text></ref><ref id="b54"><text><SENT sid="399" pm="."><plain>SchlaepferM. </plain></SENT>
+<SENT sid="400" pm="."><plain>A., ShermanP. </plain></SENT>
+<SENT sid="401" pm="."><plain>W., BlosseyB. &amp; RungeM. </plain></SENT>
+<SENT sid="402" pm="."><plain>C. Introduced species as evolutionary traps. Ecol. </plain></SENT>
+<SENT sid="403" pm="."><plain>Lett. 8, 241–246 (2005). </plain></SENT>
+</text></ref><ref id="b55"><text><SENT sid="404" pm="."><plain>FellowesM. </plain></SENT>
+<SENT sid="405" pm="."><plain>D. </plain></SENT>
+<SENT sid="406" pm="."><plain>E. &amp; GodfrayH. </plain></SENT>
+<SENT sid="407" pm="."><plain>C. </plain></SENT>
+<SENT sid="408" pm="."><plain>J. The evolutionary ecology of resistance to parasitoids by Drosophila. Heredity 84, 1–8 (2000).10692005 </plain></SENT>
+</text></ref><ref id="b56"><text><SENT sid="409" pm="."><plain>JalvinghK. </plain></SENT>
+<SENT sid="410" pm="."><plain>M., ChangP. </plain></SENT>
+<SENT sid="411" pm="."><plain>L., NuzhdinS. </plain></SENT>
+<SENT sid="412" pm="."><plain>V. &amp; WertheimB. Genomic changes under rapid evolution: selection for parasitoid resistance. Proc. </plain></SENT>
+<SENT sid="413" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="414" pm="."><plain>Sci. 281, 2013230 (2014). </plain></SENT>
+</text></ref><ref id="b57"><text><SENT sid="415" pm="."><plain>KraaijeveldA. </plain></SENT>
+<SENT sid="416" pm="."><plain>R. &amp; GodfrayH. </plain></SENT>
+<SENT sid="417" pm="."><plain>C. </plain></SENT>
+<SENT sid="418" pm="."><plain>J. Geographic patterns in the evolution of resistance and virulence in Drosophila and its parasitoids. Am. </plain></SENT>
+<SENT sid="419" pm="."><plain><z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. 153, S61–S74 (1999). </plain></SENT>
+</text></ref><ref id="b58"><text><SENT sid="420" pm="."><plain>DickeM., VetL. </plain></SENT>
+<SENT sid="421" pm="."><plain>E., WiskerkeJ. </plain></SENT>
+<SENT sid="422" pm="."><plain>S. &amp; StapelO. Parasitoid of Drosophila larvae solves foraging problem through infochemical detour: conditions affecting employment of this strategy. Nor. </plain></SENT>
+<SENT sid="423" pm="."><plain>J. </plain></SENT>
+<SENT sid="424" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="425" pm="."><plain>Sci. 16, 227–232 (1994). </plain></SENT>
+</text></ref><ref id="b59"><text><SENT sid="426" pm="."><plain>NordlanderG. Revision of the genus Leptopilina Förster, 1869, with notes on the status of some other genera (Hymenoptera, Cynipoidea: Eucoilidae). Scand. </plain></SENT>
+<SENT sid="427" pm="."><plain>Entomol. 11, 428–453 (1980). </plain></SENT>
+</text></ref><ref id="b60"><text><SENT sid="428" pm="."><plain>ForshageM. &amp; NordlanderG. Identification key to European genera of Eucoilinae (Hymenoptera, Cynipoidea, Figitidae). Insect Syst. </plain></SENT>
+<SENT sid="429" pm="."><plain>Evol. 39, 341–360 (2008). </plain></SENT>
+</text></ref><ref id="b61"><text><SENT sid="430" pm="."><plain>ChaoA., ChazdonR. </plain></SENT>
+<SENT sid="431" pm="."><plain>L., ColwellR. </plain></SENT>
+<SENT sid="432" pm="."><plain>K. &amp; ShenT. </plain></SENT>
+<SENT sid="433" pm="."><plain>J. A new statistical approach for assessing similarity of species composition with incidence and abundance data. Ecol. </plain></SENT>
+<SENT sid="434" pm="."><plain>Lett. 8, 148–159 (2005). </plain></SENT>
+</text></ref></ref-list></SecTag><fn-group><fn><p><text><SENT sid="435" pm="."><plain>Author Contributions V.K. conducted field experiments and the major part of the laboratory experiments, she participated in designing the experiments. </plain></SENT>
+<SENT sid="436" pm="."><plain>T.E. conducted field work and laboratory experiments. </plain></SENT>
+<SENT sid="437" pm="."><plain>J.R. participated in designing the experiments and manuscript writing. </plain></SENT>
+<SENT sid="438" pm="."><plain>J.C. designed the major part of the experiments, analysed the results and wrote the manuscript. </plain></SENT>
+</text></p></fn></fn-group></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><title>Outline of Switzerland indicating the four sampling regions.</title><p><text><SENT sid="439" pm="."><plain>ZH: Zurich; TI: Ticino; TG: Thurgau; BL: Basel-Land; an additional strain of parasitoids was obtained from VD: Vaud. </plain></SENT>
+<SENT sid="440" pm="."><plain>(The outline has been redrawn from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://d-maps.com/carte.php?num_car=2645&amp;lang=de">http://d-maps.com/carte.<z:uniprot sup="inside" fb="0" ids="P39769">php</z:uniprot>?num_car=2645&amp;lang=de</ext-link>, using Adobe Illustrator <z:uniprot sup="inside" fb="0" ids="Q8H0D3">CS6</z:uniprot> 16; 2012, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.adobe.com">www.adobe.com</ext-link>). </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep40697-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>Parasitoid species incidence (measured as presence of parasitoid offspring) in <italic>Drosophila melanogaster</italic> infested fruit samples that had been exposed to parasitization by native <italic>Drosophila-</italic>parasitoids in the field in different regions in Switzerland (TI: Ticino; BL: Basel-Land; ZH: Zurich; TG: Thurgau) in 2015.</title><p><text><SENT sid="441" pm="."><plain>N = 44–45 traps per region. </plain></SENT>
+<SENT sid="442" pm="."><plain>Numbers and lines represent Chao-Sørensen-Raw Incidence based similarity indices comparing species composition between each two regions. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep40697-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><title>Influence of season on parasitoid presence in <italic>Drosophila melanogaster</italic> infested fruit samples that had been exposed to parasitization by native <italic>Drosophila-</italic>parasitoids in the field during early, mid- and late fruit growing season in Switzerland during 4 days in 2015.</title><p><text><SENT sid="443" pm="."><plain>(a) Mean (+s.e.m.) parasitoid species incidence (measured as presence of parasitoid offspring), (b) Mean (+s.e.m.) number of parasitoids that emerged from samples. </plain></SENT>
+<SENT sid="444" pm="."><plain>N = 11–12 traps per region per season, data pooled across regions: L. heterotoma: ZH, BL, TG; P. vindemmiae: ZH, TI, BL, TG; L. boulardi: ZH, TI, BL; T. drosophilae: TI, A. tabida: ZH, BL, TG. ***P &lt; 0.001, **P &lt; 0.01, *P &lt; 0.05, GLM, different letters indicate significant difference, P &lt; 0.05, Sequential Bonferroni post hoc test. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep40697-f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4"><label>Figure 4</label><caption><title>Influence of habitat on parasitoid presence in <italic>Drosophila melanogaster</italic> infested fruit samples that had been exposed to parasitization by native <italic>Drosophila-</italic>parasitoids in the field in agricultural and natural habitats in Switzerland during 4 days in 2015.</title><p><text><SENT sid="445" pm="."><plain>(a) Mean (+s.e.m.) parasitoid species incidence (measured as presence of parasitoid offspring), (b) Mean (+s.e.m.) number of parasitoids that emerged from samples. </plain></SENT>
+<SENT sid="446" pm="."><plain>N = 17–18 traps per region per habitat, data pooled across seasons and regions: L. heterotoma: ZH, BL, TG; P. vindemmiae: ZH, TI, BL, TG; L. boulardi: ZH, TI, BL; T. drosophilae: TI, A. tabida: ZH, BL, TG. ***P &lt; 0.001, **P &lt; 0.01, *P &lt; 0.05, GLM, different letters indicate significant difference, P &lt; 0.05, Sequential Bonferroni post hoc test. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep40697-f4"/></fig></SecTag><SecTag type="FIG"><fig id="f5"><label>Figure 5</label><caption><title>Mean number of fly and parasitoid individuals that emerged from each of 40 <italic>Drosophila suzukii</italic> (DS) and <italic>Drosophila melanogaster</italic> (DM) larvae that were exposed (+P) or not exposed to larval parasitoids for 5 days in no-choice parasitization assays.</title><p><text><SENT sid="447" pm="."><plain>(a) Leptopilina heterotoma (strains: BL, ZH, and TG, n = 30), (b) Leptopilina boulardi (strains: BL and TI, n = 20), (c) Asobara tabida (strain: TG, n = 10). </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep40697-f5"/></fig></SecTag><SecTag type="FIG"><fig id="f6"><label>Figure 6</label><caption><title>Mean number of fly and parasitoid individuals that emerged from each of 45 pupae of <italic>Drosophila suzukii</italic> (DS), <italic>Drosophila melanogaster</italic> (DM), and <italic>Drosophila subobscura</italic> (DO) that were exposed (+P) or not exposed to larval parasitoids for 5 days in no-choice parasitization assays.</title><p><text><SENT sid="448" pm="."><plain>(a) Pachycrepoideus vindemmiae (strains: BL, ZH, TG, and TI n = 40), (b) Spalangia erythromera (strain: BL, n = 10), (c) Vrestovia fidenas (strain: TG, n = 10), (d) Trichopria drosophilae (strain: Vaud, n = 10), (e) Trichopria drosophilae (strain: TI, n = 10). </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep40697-f6"/></fig></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t1"><label>Table 1</label><caption><title>Regions, number of emerged parasitoid individuals and number of traps with parasitoid emergence from field samples in 2014 and 2015.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50"><text><SENT sid="449" pm="."><plain>Family, Species </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="450" pm="."><plain>Regions </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="451" pm="."><plain>Individuals </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="452" pm="."><plain>Traps </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="453" pm="."><plain>Braconidae </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="454" pm="."><plain>Asobara tabida </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="455" pm="."><plain>ZH, TG, BL </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="456" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="457" pm="."><plain>9 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="458" pm="."><plain>Diapriidae </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="459" pm="."><plain>Trichopria drosophilae </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="460" pm="."><plain>TI </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="461" pm="."><plain>520 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="462" pm="."><plain>9 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="463" pm="."><plain>Trichopria modesta </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="464" pm="."><plain>TG </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="465" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="466" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="467" pm="."><plain>Figitidae </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="468" pm="."><plain>Leptopilina boulardi </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="469" pm="."><plain>ZH, TI, BL </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="470" pm="."><plain>2498* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="471" pm="."><plain>39* </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="472" pm="."><plain>Leptopilina heterotoma </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="473" pm="."><plain>ZH, TI, BL, TG </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="474" pm="."><plain>695* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="475" pm="."><plain>36* </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="476" pm="."><plain>Pteromalidae </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="477" pm="."><plain>Pachycrepoideus vindemmiae </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="478" pm="."><plain>ZH, TI, BL, TG </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="479" pm="."><plain>7585 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="480" pm="."><plain>82 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="481" pm="."><plain>Spalangia erythromera </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="482" pm="."><plain>BL </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="483" pm="."><plain>62 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="484" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="485" pm="."><plain>Vrestovia fidenas </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="486" pm="."><plain>BL, TG </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="487" pm="."><plain>13 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="488" pm="."><plain>2 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="t1-fn1"><p>ZH: Zurich; TI: Ticino; TG: Thurgau; BL: Basel-Land.</p></fn><fn id="t1-fn2"><p><sup>*</sup>2014: A total of 1836 <italic>Leptopilina</italic> sp. emerged from 17 traps.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t2"><label>Table 2</label><caption><title>Parasitization indices (Mean ± s.e.m.) of pupal parasitoids in no-choice assays when offered 45 host pupae during 5 days.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50"><text><SENT sid="489" pm="."><plain>  </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="490" pm="."><plain>strains </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="491" pm="."><plain>D. suzukii </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="492" pm="."><plain>D. melanogaster </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="493" pm="."><plain>D. subobscura </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50"><text><SENT sid="494" pm="."><plain>P. vindemmiae </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="495" pm="."><plain>BL, ZH, TG, TI </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="496" pm="."><plain>0.65 ± 0.06 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="497" pm="."><plain>0.66 ± 0.06 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="498" pm="."><plain>0.74 ± 0.06 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="499" pm="."><plain>S. erythromera </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="500" pm="."><plain>BL </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="501" pm="."><plain>0.62 ± 0.04 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="502" pm="."><plain>0.53 ± 0.08 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="503" pm="."><plain>0.58 ± 0.07 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="504" pm="."><plain>V. fidenas </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="505" pm="."><plain>TG </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="506" pm="."><plain>0.13 ± 0.07 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="507" pm="."><plain>0.06 ± 0.03 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="508" pm="."><plain>0.11 ± 0.06 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="509" pm="."><plain>T. drosophilae </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="510" pm="."><plain>Vaud </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="511" pm="."><plain>0.68 ± 0.07 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="512" pm="."><plain>0.68 ± 0.08 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="513" pm="."><plain>0.60 ± 0.05 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="514" pm="."><plain>T. drosophilae </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="515" pm="."><plain>TI </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="516" pm="."><plain>0.45 ± 0.06 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="517" pm="."><plain>0.53 ± 0.07 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="518" pm="."><plain>0.30 ± 0.06 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="t2-fn1"><p>Parasitization indices represent the number of emerged parasitoids divided by the number of flies + parasitoids emerged.</p></fn></table-wrap-foot></table-wrap></SecTag></floats-group></article>

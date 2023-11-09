@@ -1,0 +1,523 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4901335</article-id><article-id pub-id-type="pii">srep27624</article-id><article-id pub-id-type="doi">10.1038/srep27624</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>On the Computational Power of Spiking Neural P Systems with Self-Organization </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Xun</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Song</surname><given-names>Tao</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Gong</surname><given-names>Faming</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Zheng</surname><given-names>Pan</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><aff id="a1"><label>1</label><institution>College of Computer and Communication Engineering, China University of Petroleum</institution>, Qingdao 266580, Shandong, <country>China</country></aff><aff id="a2"><label>2</label><institution>Faculty of Engineering, Computing and Science, Swinburne University of Technology Sarawak Campus</institution>, Kuching, 93350, <country>Malaysia</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>tsong@upc.edu.cn</email> or <email>tsong@swinburne.edu.my</email></corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>06</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>6</volume><elocation-id>27624</elocation-id><history><date date-type="received"><day>01</day><month>03</month><year>2016</year></date><date date-type="accepted"><day>23</day><month>05</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016, Macmillan Publishers Limited</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>Macmillan Publishers Limited</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>Neural-like computing models are versatile computing mechanisms in the field of artificial intelligence. </plain></SENT>
+<SENT sid="2" pm="."><plain>Spiking neural P systems (SN P systems for short) are one of the recently developed spiking neural network models inspired by the way neurons communicate. </plain></SENT>
+<SENT sid="3" pm="."><plain>The communications among neurons are essentially achieved by spikes, i. e. short electrical pulses. </plain></SENT>
+<SENT sid="4" pm="."><plain>In terms of motivation, SN P systems fall into the third generation of neural network models. </plain></SENT>
+<SENT sid="5" pm="."><plain>In this study, a novel variant of SN P systems, namely SN P systems with self-organization, is introduced, and the computational power of the system is investigated and evaluated. </plain></SENT>
+<SENT sid="6" pm="."><plain>It is proved that SN P systems with self-organization are capable of computing and accept the family of sets of Turing computable natural numbers. </plain></SENT>
+<SENT sid="7" pm="."><plain>Moreover, with 87 neurons the system can compute any Turing computable recursive function, thus achieves Turing universality. </plain></SENT>
+<SENT sid="8" pm="."><plain>These results demonstrate promising initiatives to solve an open problem arisen by Gh Păun. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="9" pm="."><plain>In the central nervous system, there are abundant amount of computational intelligence precipitated throughout millions of years of evolution. </plain></SENT>
+<SENT sid="10" pm="."><plain>The computational intelligence has provided plenty of inspirations to construct powerful computing models and algorithms123. </plain></SENT>
+<SENT sid="11" pm="."><plain>Neural-like computing models are a class of powerful models inspired by the way how neurons communicate. </plain></SENT>
+<SENT sid="12" pm="."><plain>The communication among neurons is essentially achieved by spikes, i.e. short electrical pulses. </plain></SENT>
+<SENT sid="13" pm="."><plain>The biological phenomenon has been intensively investigated in the field of neural computation4. </plain></SENT>
+<SENT sid="14" pm="."><plain>Using different mathematic approaches to describe neural spiking behaviours, various neural-like computing models have been proposed, such as artificial neural networks5 and spiking neural networks6. </plain></SENT>
+<SENT sid="15" pm="."><plain>In the field of membrane computing, a kind of distributed and parallel neural-like computation model, named spiking neural P systems (SN P systems), were proposed in 20067. </plain></SENT>
+<SENT sid="16" pm="."><plain>SN P systems are widely considered as a promising variant of the third generation of neural network models8. </plain></SENT>
+</text></p><p><text><SENT sid="17" pm="."><plain>Generally, an SN P system can be represented by a directed graph, where neurons are placed in nodes and the synapses are denoted using arcs. </plain></SENT>
+<SENT sid="18" pm="."><plain>Every neuron can contain a number of spikes and a set of firing (or spiking) rules. </plain></SENT>
+<SENT sid="19" pm="."><plain>Following the firing rules, a neuron can send information encoded in spikes to other neurons. </plain></SENT>
+<SENT sid="20" pm="."><plain>Input neurons read spikes from the environment, and output neurons emit spikes into the environment. </plain></SENT>
+<SENT sid="21" pm="."><plain>The computation result can be embodied in various ways. </plain></SENT>
+<SENT sid="22" pm="."><plain>One of the common approaches is the time elapsed between the first two consecutive spikes sent into the environment910 and the total number of spikes emitted into the environment111213. </plain></SENT>
+</text></p><p><text><SENT sid="23" pm="."><plain>For the past decade, there have been quite a few research efforts put forward to SN P systems. </plain></SENT>
+<SENT sid="24" pm="."><plain>Notably, SN P systems can generate and accept the sets of Turing computable natural numbers14, generate the recursively enumerable languages1516 and compute the sets of Turing computable functions17. </plain></SENT>
+<SENT sid="25" pm="."><plain>Inspired by different biological phenomena and mathematical motivations, lots of variants of SN P systems have been proposed, such as SN P systems with anti-spikes1819, SN P systems with weight20, SN P systems with astrocyte21, homogenous SN P systems2223, SN P systems with threshold24, fuzzy SN P systems2526, sequential SN P systems27, SN P systems with rules on synapses28, SN P systems with structural plasticity29. </plain></SENT>
+<SENT sid="26" pm="."><plain>For applications, SN P systems are used to design logic gates, logic circuites30 and operating systems31, perform basic arithmetic operations3233, solve combinatorial optimization problems34, diagnose fault of electric power systems35. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>SN P systems are known as a class of neural-like computing models under the framework of membrane computing36. </plain></SENT>
+<SENT sid="28" pm="."><plain>Spiking neural network (shortly named SNN) is a well known candidate of siking neural network models37, which incorporates the concept of time into their operating model, besides neuronal and synaptic state in general artificial neural networks, The neuron in SNN cannot fire at each propagation cycle, but only when a membrane potential reaches a specific value. </plain></SENT>
+<SENT sid="29" pm="."><plain>When a neuron fires, it generates a signal which travels to other neurons which, in turn, increase or decrease their potentials in accordance with this signal. </plain></SENT>
+<SENT sid="30" pm="."><plain>In SN P systems, spiking rules, denoted by formal production in grammar theory of formal languages, is used to describe the neuron's spiking behaviour, which determine the conditions of triggering spiking, the number of spikes consumed, and the number of spikes emitting to the neighboring neurons. </plain></SENT>
+<SENT sid="31" pm="."><plain>The spikes from different neurons can be accumulated in the target neuron for further spiking. </plain></SENT>
+<SENT sid="32" pm="."><plain>In terms of motivation of models, SN P systems also fall into the spiking neural network models, i.e., the third generation of neural network models. </plain></SENT>
+</text></p><p><text><SENT sid="33" pm="."><plain>Since SN P systems have more fundamental data structure (spike trains, i.e., binary strings), it performs well in achieving significant computation power with using a small number of units (neurons). </plain></SENT>
+<SENT sid="34" pm="."><plain>It was proved by Gh Păun that 49 neurons are sufficient for SN P systems to achieve Turing universality. </plain></SENT>
+<SENT sid="35" pm="."><plain>But, for conventional artificial neural networks, it was shown that 886 sigmoid function based processors are needed to achieve Turing universality38. </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain>In the nervous system, synaptic plasticity forms the cell assemblies with the self-organization of neurons, which induces ordered or even synchronized neural dynamics replicating basic processes of long-term memory3940. </plain></SENT>
+<SENT sid="37" pm="."><plain>The self-organizing principle in the developing nervous system and its importance for preserving and continuing neural system development provide us insights on how neural-like networks might be reorganized and configured in response to environment changes. </plain></SENT>
+<SENT sid="38" pm="."><plain>Enlightened by the biological fact, self-organizing artificial neural networks with unsupervised and supervised learning have been proposed and gain their popularity for visualisation and classification4142. </plain></SENT>
+<SENT sid="39" pm="."><plain>It is still an open problem as formulated by Gh Păun in ref. 43, to construct SN P systems with self-organization and to use the system to perform possible computer vision and pattern recognition tasks. </plain></SENT>
+</text></p><SecTag type="RESULTS"><sec disp-level="1"><title><text><SENT sid="40" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="41" pm="."><plain>In this research, a novel variant of SN P systems, namely SN P systems with self-organization, is proposed and developed. </plain></SENT>
+<SENT sid="42" pm="."><plain>The system initially has no synapse, but the synapses can be dynamically formed during the computation, which exhibits the self-organization behaviour. </plain></SENT>
+<SENT sid="43" pm="."><plain>In the system, creation and deletion rules are used to create and delete synapses. </plain></SENT>
+<SENT sid="44" pm="."><plain>The applications of synapse creation and deletion rules are controlled by the states of the involved neurons, i.e., the number of spikes contained in the neurons. </plain></SENT>
+<SENT sid="45" pm="."><plain>The computational power of the system is investigated as well. </plain></SENT>
+<SENT sid="46" pm="."><plain>As a result, it demonstrates that SN P systems with self-organization can compute and accept any set of Turing computable natural numbers. </plain></SENT>
+<SENT sid="47" pm="."><plain>Moreover, with 87 neurons, the system can compute any Turing computable recursive function, ergo achieves Turing universality. </plain></SENT>
+</text></p><p><text><SENT sid="48" pm="."><plain>Before stating the results in mathematical forms, some notations should be introduced. NmSPSOall(creh, delg, ruler) (resp. NmSPSOacc(creh′, delg′, ruler′)) denotes the family of sets of numbers computed (resp. </plain></SENT>
+<SENT sid="49" pm="."><plain>accepted) by SN P systems with self-organization of degree m, where h (resp. h′) indicates the maximal number of synapses that can be created using a synapse creation rule, g (resp. g′) is the maximal number of synapses that can be deleted by using a synapse deletion rule, r (resp. r′) is the maximal number of rules in each neuron, and the subscript all indicates the computation result is encoded by the number of spikes emitted into the environment (resp. the subscript acc indicates the system works in the accepting mode). </plain></SENT>
+<SENT sid="50" pm="."><plain>If the parameters are not bounded, i.e., there is no limit imposed on them, then they are replaced with *. NRE denotes the family of Turing computable sets of numbers44. </plain></SENT>
+</text></p><p><text><SENT sid="51" pm="."><plain>The main results of this work can be mathematically depicted by the following theorems. </plain></SENT>
+</text></p><p><text><SENT sid="52" pm="."><plain>Theorem 1. N*SPSOall(<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5) = NRE. </plain></SENT>
+</text></p><p><text><SENT sid="53" pm="."><plain>Theorem 2. N*SPSOacc(<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5) = NRE. </plain></SENT>
+</text></p><p><text><SENT sid="54" pm="."><plain>Theorem 3. There is a universal SN P system with self-organization having 87 neurons for computing functions. </plain></SENT>
+</text></p><p><text><SENT sid="55" pm="."><plain>These results show that SN P systems with self-organization are powerful computing models, i.e., they are capable of doing what Turing machine can do. </plain></SENT>
+<SENT sid="56" pm="."><plain>Also, they provide potential and theoretical feasibility of using SN P systems to solve real-life problems, such as pattern recognition and classification. </plain></SENT>
+</text></p><p><text><SENT sid="57" pm="."><plain>In SN P system with self-organization, it has no initially designed synapses. </plain></SENT>
+<SENT sid="58" pm="."><plain>The synapses can be created or deleted according to the information contained in involved neurons during the computation. </plain></SENT>
+<SENT sid="59" pm="."><plain>In previous work, it was found that the information diversing ability of synapses had some programable feature for SN P systems, but the computation power of SN P systems without initial synapses is an open problem. </plain></SENT>
+<SENT sid="60" pm="."><plain>Although this is not the first time the feature of creating or deleting synapses investigated in SN P systems, see e.g. SN P systems with structural plasticity, it is quite the first attempt to construct SN P systems has no initial synapses. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec disp-level="1"><title><text><SENT sid="61" pm="."><plain>Methods </plain></SENT>
+</text></title><p><text><SENT sid="62" pm="."><plain>In this section, it starts by the mathematical definition of SN P system with self-organization, and then the computation power of SN P systems with self-organization is investigated as number generator, acceptor and function computing devices. </plain></SENT>
+<SENT sid="63" pm="."><plain>It is proved in constructive ways that SN P systems with self-organization can compute and accept the family of sets of Turing computable natural numbers. </plain></SENT>
+<SENT sid="64" pm="."><plain>With 87 neurons, such system can compute any Turing computable recursive function. </plain></SENT>
+</text></p><sec disp-level="2"><title><text><SENT sid="65" pm="."><plain>Spiking Neural P Systems with Self-Organization </plain></SENT>
+</text></title><p><text><SENT sid="66" pm="."><plain>Before introducing the definition of SN P system with self-organization, some prerequisites of basic concepts of formal language theory45 are recalled. </plain></SENT>
+</text></p><p><text><SENT sid="67" pm="."><plain>For an alphabet V, V* denotes the set of all finite strings of symbols from V, the empty string is denoted by λ, and the set of all nonempty strings over V is denoted by V+. </plain></SENT>
+<SENT sid="68" pm="."><plain>When V = {a} is a singleton, then we write simply a* and a+ instead of {a}*, {a}+. </plain></SENT>
+<SENT sid="69" pm="."><plain>A regular expression over an alphabet V is defined as follows: (1) λ and each a ∈ V is a regular expression; (2) if E1 and E2 are regular expressions over V, then (E1)(E2), (E1) ∪ (E2), and (E1)+ are regular expressions over V; (3) nothing else is a regular expression over V. </plain></SENT>
+</text></p><p><text><SENT sid="70" pm="."><plain>For each regular expression E, a language L(E) is associated, defined in the following way: (1) L(λ) = {λ} and L(a) = {a}, for all a ∈ V, (2) L((E1)∪(E2)) = L(E1) ∪ L(E2), L((E1)(E2)) = L(E1)L(E2) and L((E1)+) = (L(E1))+ for all regular expressions E1, E2 over V. </plain></SENT>
+<SENT sid="71" pm="."><plain>Unnecessary parentheses can be omitted when writing a regular expression, and (E)+ ∪ {λ} can also be written as E*. </plain></SENT>
+<SENT sid="72" pm="."><plain>By NRE we denote the family of Turing computable sets of numbers. </plain></SENT>
+<SENT sid="73" pm="."><plain>(NRE is the family of length sets of recursively enumerable languages–those recognized by Turing machines). </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>An SN P system with self-organization of degree m ≥ 1 is a construct of the form </plain></SENT>
+</text></p><p><text><SENT sid="75" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="76" pm="."><plain>where O = {a} is a singleton, where a is called the spike;σ1, σ2, …, σm are neurons of the form σi = (ni, Ri) with 1 ≤ i ≤ m, where </plain></SENT>
+</text></p><p><text><SENT sid="77" pm="."><plain>–  is the initial number of spikes contained in neuron σi; </plain></SENT>
+</text></p><p><text><SENT sid="78" pm="."><plain>– Ri is a finite set of rules in neuron σi of the following three forms: spiking rule: E/ac → ap; d, where E is a regular expression over O, d ≥ 0 and c ≥ p ≥ 0;synapse creation rule: E′/ac′ → +(ap′, <z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>(i)), where E′ is a regular expression over O, <z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>(i) ⊆ {σ1, σ2, …, σm}/{σi} and c′ ≥ p′ &gt; 1;synapse deletion rule: E″/ac″ → −(λ, del(i)), where E″ is a regular expression over O, del(i) ⊆ {σ1, σ2, …, σm}/{σi} and c″ ≥ 1; </plain></SENT>
+</text></p><p><text><SENT sid="79" pm="."><plain> is the initial set of synapses, which means no synapse is initially set; at any moment t, the set of synapses is denoted by synt ⊆ {1, 2, …, m} × {1, 2, …, m}.in, out ∈ {1, 2, …, m} indicates the input and output neuron, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="80" pm="."><plain>A spiking rule of the form E/ac → ap; d is applied as follows. </plain></SENT>
+<SENT sid="81" pm="."><plain>If neuron σi contains k spikes, and ak ∈ L(E), k ≥ c, then rule E/ac → ap; d ∈ Ri can be applied. </plain></SENT>
+<SENT sid="82" pm="."><plain>It means that c spikes are consumed and removed from neuron σi, i.e., k − c spikes are remained, while the neuron emits p spikes to its neighboring neurons after d steps. </plain></SENT>
+<SENT sid="83" pm="."><plain>(It is a common practice in membrane computing to have a global clock defined. </plain></SENT>
+<SENT sid="84" pm="."><plain>The clock is used to mark the time of the whole system and ensure the system synchronization.) If d = 0, then the p spikes are emitted out immediately, if d = 1, then the p spikes are emitted in the next step, etc. </plain></SENT>
+<SENT sid="85" pm="."><plain>If the rule is used in step t and d ≥ 1, then in steps t, t + 1, ..., t + d − 1 the neuron is closed (this corresponds to the refractory period from neurobiology), so that it cannot receive new spikes (if a neuron tries to send spikes to a neuron in close status, then these particular spikes will be lost). </plain></SENT>
+<SENT sid="86" pm="."><plain>In the step t + d, the neuron fires and regains open status, so it can receive spikes (which can be used starting with the step t + d + 1, when the neuron can again apply rules). </plain></SENT>
+<SENT sid="87" pm="."><plain>It is possible that p is associated with value 0. </plain></SENT>
+<SENT sid="88" pm="."><plain>In this case, neuron σi consumes c spikes without emitting any spike. </plain></SENT>
+<SENT sid="89" pm="."><plain>Spiking rule with p = 0 is also called forgetting rule, by which a pre-defined number of spikes can be removed out of the neuron. </plain></SENT>
+<SENT sid="90" pm="."><plain>If E = ac, then the rule can be written in the simplified form ac → ap; d, and if d = 0, then the rule can be simply written as E/ac → ap. </plain></SENT>
+</text></p><p><text><SENT sid="91" pm="."><plain>Synapse creation and deletion rules are used to create and delete synapses during the computation. </plain></SENT>
+<SENT sid="92" pm="."><plain>Synapse creation rule E′/ac′ → +(ap′, <z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>(i)) is applied as follows. </plain></SENT>
+<SENT sid="93" pm="."><plain>If neuron σi has k′ spikes such that ak′ ∈ L(E′), k′ ≥ c′, then the synapse creation rule is applied with consuming c′ spikes, creating synapses to connect neuron σi to each neuron in <z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>(i) and emitting p′ spikes to each neuron in <z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>(i). </plain></SENT>
+<SENT sid="94" pm="."><plain>If neuron σi has k″ spikes such that ak″ ∈ L(E″) and k″ ≥ c″, then synapse deletion rule E″/ac″ → −(λ, del(i)) is applied, removing c″ spikes from neuron σi and deleting all the synapses connecting neuron σi to the neurons from del(i). </plain></SENT>
+<SENT sid="95" pm="."><plain>With the synapse creation and deletion rules, E′ and E″ are regular expressions over O = {a}, which regulate the application of synapse creation and deletion rules. </plain></SENT>
+<SENT sid="96" pm="."><plain>This means that synapse creation and deletion rules can be used if and only if the neuron contain some particular numbers of spikes, i.e., the neuron is in some specific states. </plain></SENT>
+<SENT sid="97" pm="."><plain>With the applications of synapse creation and deletion rules the system can dynamically rebuild its topological structure during the computation, which is herein defined as self-organization. </plain></SENT>
+</text></p><p><text><SENT sid="98" pm="."><plain>One neuron is specified as the input neuron, through which the system can read spikes from the environment. </plain></SENT>
+<SENT sid="99" pm="."><plain>The output neuron has a synapse creation rule of the form E′/ac′ → +(ap′, {0}), where the environment is labelled by 0. </plain></SENT>
+<SENT sid="100" pm="."><plain>By using the rule, the output neuron creates a synapse pointing to the environment, and then it can emit spikes into the environment along the created synapse. </plain></SENT>
+</text></p><p><text><SENT sid="101" pm="."><plain>For each time step, as long as there is one available rule in Ri, neuron σi must apply the rule. </plain></SENT>
+<SENT sid="102" pm="."><plain>It is possible that there are more than one rule that can be used in a neuron at some moment, since spiking rules, synapse creation rules and synapse deletion rules may be associated with regular languages (according to their regular expressions). </plain></SENT>
+<SENT sid="103" pm="."><plain>In this case, the neuron will non-deterministically uses one of the enabled rules. </plain></SENT>
+<SENT sid="104" pm="."><plain>The system works sequentially in each neuron (at most one rule from each Ri can be used), and if parallelism is designed for the system, all the neurons at the same system level have at least one enabled rule activated. </plain></SENT>
+</text></p><p><text><SENT sid="105" pm="."><plain>The configuration of the system at certain moment is defined by three major factors which are the number of spikes contained in each neuron, the number of steps to wait until it becomes open and the current set of synapses. </plain></SENT>
+<SENT sid="106" pm="."><plain>With the notion, the initial configuration of the system is 〈n1/0, n2/0, …, nm/0, . </plain></SENT>
+<SENT sid="107" pm="."><plain>Using the spiking, forgetting, synapse creation and deletion rules as described above, we can define transitions among configurations. </plain></SENT>
+<SENT sid="108" pm="."><plain>Any sequence of transitions starting from the initial configuration is called a computation. </plain></SENT>
+<SENT sid="109" pm="."><plain>A computation halts, also called successful, if it reaches a configuration where no rule can be applied in any neuron in the system. </plain></SENT>
+<SENT sid="110" pm="."><plain>For each successful computation of the system, a computation result is generated, which is total the number of spikes sent to the environment by the output neuron. </plain></SENT>
+</text></p><p><text><SENT sid="111" pm="."><plain>System Π generates a number n as follows. </plain></SENT>
+<SENT sid="112" pm="."><plain>The computation of the system starts from the initial configuration and finally halts, emitting totally n spikes to the environment. </plain></SENT>
+<SENT sid="113" pm="."><plain>The set of all numbers computed in this way by Π is denoted by Nall(Π) (the subscript all indicates that the computation result is the total number of spikes emitted into the environment by the system). </plain></SENT>
+<SENT sid="114" pm="."><plain>System Π can also work in the accepting mode. </plain></SENT>
+<SENT sid="115" pm="."><plain>A number n is read through input neurons from the environment in form of spike train 10n−11, which will be stored in a specified neuron σ1 in the form of f(n) spikes. </plain></SENT>
+<SENT sid="116" pm="."><plain>If the computation eventually halts, then number n is said to be accepted by Π. </plain></SENT>
+<SENT sid="117" pm="."><plain>The set of numbers accepted by Π is denoted by Nacc(Π). </plain></SENT>
+</text></p><p><text><SENT sid="118" pm="."><plain>It is denoted by NmSPSOall(creh, delg, ruler) (resp. NmSPSOacc(creh′, delg′, ruler′)) the family of sets of numbers computed (resp. </plain></SENT>
+<SENT sid="119" pm="."><plain>accepted) by SN P systems with self-organization of degree m, where h (resp. h′) indicates the maximal number of synapses that can be created with using a synapse creation rule, g (resp. g′) is the maximal number of synapses that can be deleted with using a synapse deletion rule, r (resp. r′) is the maximal number of rules in each neuron, and the subscript all indicates the computation result is encoded by the number of spikes emitted into the environment (resp. the subscript acc indicates the system works in a accepting mode). </plain></SENT>
+<SENT sid="120" pm="."><plain>If the parameters are not bounded, i.e., there is no limit imposed on them, then they are replaced with *. </plain></SENT>
+</text></p><p><text><SENT sid="121" pm="."><plain>In order to compute a function f : Nk → N by SN P systems with self-organization, k natural numbers n1, n2, …, nk are introduced in the system by reading from the environment a spike train (which is a binary sequence) . </plain></SENT>
+<SENT sid="122" pm="."><plain>The input neuron has a synapse pointing from the environment, by which the spikes can enter it. </plain></SENT>
+<SENT sid="123" pm="."><plain>The input neuron reads a spike in each step corresponding to a digit 1 from the string z; otherwise, no spike is received. </plain></SENT>
+<SENT sid="124" pm="."><plain>Note that exactly k + 1 spikes are introduced into the system through the input neuron, i.e., after the last spike, it is assumed that no further spike is coming to the input neuron. </plain></SENT>
+<SENT sid="125" pm="."><plain>The output neuron has a synapse pointing to the environment from it, by which the spikes can be emitted to the environment. </plain></SENT>
+<SENT sid="126" pm="."><plain>The result of the computation is the total number of spikes emitted into the environment by the output neuron, hence producing r spikes with r = f(n1, n2, …, nk). </plain></SENT>
+</text></p><p><text><SENT sid="127" pm="."><plain>SN P systems with self-organization can be represented graphically, which is easier to understand than that in a symbolic way. </plain></SENT>
+<SENT sid="128" pm="."><plain>A rounded rectangle with the initial number of spikes and rules is used to represent a neuron and a directed edge connecting two neurons represents a synapse. </plain></SENT>
+</text></p><p><text><SENT sid="129" pm="."><plain>In the following proofs, the notion of register machine is used. </plain></SENT>
+<SENT sid="130" pm="."><plain>A register machine is a construct M = (m, H, l0, lh, I), where m is the number of registers, H is the set of instruction labels, l0 is the start label, lh is the halt label (assigned to instruction HALT), and I is the set of instructions; each label from H labels only one instruction from I, thus precisele following forms: li: (ADD(r), lj, lk) (<z:uniprot sup="inside" fb="0" ids="Q9U9K0">add 1</z:uniprot> to register r and then go to one of the instructions with labels lj, lk),li: (SUB(r), lj, lk) (if register r is non-zero, then subtract 1 from it, and go to the instruction with label lj; otherwise, go to the instruction with label lk),lh: HALT (the halt instruction). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="131" pm="."><plain>As number generator </plain></SENT>
+</text></title><p><text><SENT sid="132" pm="."><plain>A register machine M computes a number n as follows. </plain></SENT>
+<SENT sid="133" pm="."><plain>It starts by using initial instruction l0 with all registers storing number 0. </plain></SENT>
+<SENT sid="134" pm="."><plain>When it reaches halt instruction lh, the number stored in register 1 is called the number generated or computed by register machine M. </plain></SENT>
+<SENT sid="135" pm="."><plain>The set of numbers generated or computed by register machine M is denoted by N(M). </plain></SENT>
+<SENT sid="136" pm="."><plain>It is known that register machines compute all sets of numbers which are Turing computable, hence they characterize NRE, i.e., N(M) = NRE, where NRE is the family of Turing computable sets of numbers44. </plain></SENT>
+</text></p><p><text><SENT sid="137" pm="."><plain>Without loss of generality, it can be assumed that in the halting configuration, all registers different from the first one are empty, and that the first register is never decremented during the computation (i.e., its content is only added to). </plain></SENT>
+<SENT sid="138" pm="."><plain>When the power of two number generating devices D1 and D2 are compared, number zero is ignored; that is, N(D1) = N(D2) if and only if N(D1) − {0} = N(D2) − {0} (this corresponds to the usual practice of ignoring the empty string in language and automata theory). </plain></SENT>
+</text></p><p><text><SENT sid="139" pm="."><plain>Theorem 4. N*SPSOall(<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5) = NRE. </plain></SENT>
+</text></p><sec disp-level="3"><title><text><SENT sid="140" pm="."><plain>Proof </plain></SENT>
+</text></title><p><text><SENT sid="141" pm="."><plain>It only has to prove NRE⊆N*SPSOall (<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5), since the converse inclusion is straightforward from the Turing-Church thesis (or it can be proved by the similar technical details in Section 8.1 in ref. 46, but is cumbersome). </plain></SENT>
+<SENT sid="142" pm="."><plain>To achieve this, we use the characterization of NRE by means of register machines in the generative mode. </plain></SENT>
+<SENT sid="143" pm="."><plain>Let us consider a register machine M = (m, H, l0, lh, I) defined above. </plain></SENT>
+<SENT sid="144" pm="."><plain>It is assumed that register 1 of M is the output register, which is never decremented during the computation. </plain></SENT>
+<SENT sid="145" pm="."><plain>For each register r of M, let sr be the number of instructions of the form li: (SUB(r), lj, lk), i.e., the number of SUB instructions acting on register r. </plain></SENT>
+<SENT sid="146" pm="."><plain>If there is no such SUB instruction, then sr = 0, which is the case for the first register r = 1. </plain></SENT>
+<SENT sid="147" pm="."><plain>In what follows, a specific SN P system with self-organization Π is constructed to simulate register machine M. </plain></SENT>
+</text></p><p><text><SENT sid="148" pm="."><plain>System Π consists of three modules–ADD, SUB and FIN modules. </plain></SENT>
+<SENT sid="149" pm="."><plain>The ADD and SUB modules are used to simulate the operations of ADD and SUB instructions of M; and the FIN module is used to output a computation result. </plain></SENT>
+</text></p><p><text><SENT sid="150" pm="."><plain>In general, with any register r of M, a neuron σr in system Π is associated; the number stored in register r is encoded by the number of spikes in neuron σr. </plain></SENT>
+<SENT sid="151" pm="."><plain>Specifically, if register r stores number n ≥ 0, then there are 5n spikes in neuron σr. </plain></SENT>
+<SENT sid="152" pm="."><plain>For each label li of an instruction in M, a neuron  is associated. </plain></SENT>
+<SENT sid="153" pm="."><plain>During the simulation, when neuron  receives 6 spikes, it becomes active and starts to simulate instruction li: (OP(r), lj, lk) of M: the process starts with neuron  activated, operates on the number of spikes in neuron σr as requested by OP, then sends 6 spikes into neuron  or , which becomes active in this way. </plain></SENT>
+<SENT sid="154" pm="."><plain>Since there is no initial synapse in system Π, some synapses are created to pass spikes to target neurons with synapse creation rules, after that the created synapses will be deleted when simulation completes by synapse deletion rules. </plain></SENT>
+<SENT sid="155" pm="."><plain>When neuron  (associated with the halting instruction lh of M) is activated, a computation in M is completely simulated by system Π. </plain></SENT>
+</text></p><p><text><SENT sid="156" pm="."><plain>The following describes the works of ADD, SUB, and FIN modules of the SN P systems with self-organization. </plain></SENT>
+</text></p><p><text><SENT sid="157" pm="."><plain>Module ADD (shown in Fig. 1): Simulating the ADD instruction li: (ADD(r), lj, lk). </plain></SENT>
+</text></p><p><text><SENT sid="158" pm="."><plain>Initially, there is no synapse in system Π, and all the neurons have no spike with exception that neuron  has 6 spikes. </plain></SENT>
+<SENT sid="159" pm="."><plain>This means system Π starts by simulating initial instruction l0. </plain></SENT>
+<SENT sid="160" pm="."><plain>Let us assume that at step t, an instruction li: (ADD(r), lj, lk) has to be simulated, with 6 spikes present in neuron  (like  in the initial configuration) and no spike in any other neurons, except in those neurons associated with registers. </plain></SENT>
+</text></p><p><text><SENT sid="161" pm="."><plain>At step t, neuron  has 6 spikes, and synapse creation rule  is applied in , it generates three synapses connecting neuron  to neurons ,  and σr. </plain></SENT>
+<SENT sid="162" pm="."><plain>Meanwhile, it consumes 5 spikes (one spike remaining) and sends 5 spikes to each of neurons ,  and σr. </plain></SENT>
+<SENT sid="163" pm="."><plain>The number of spikes in neuron σr is increased by 5, which simulates adding 1 to register r of M. </plain></SENT>
+<SENT sid="164" pm="."><plain>At step t + 1, neuron  deletes the three synapses created at step t by using rule . </plain></SENT>
+<SENT sid="165" pm="."><plain>At the same moment, neuron  uses synapse creation rule a5/a4 → + (a3, {lj, lk}), and creates two synapses to neurons  and , as well as sends 3 spikes to each of the two neurons. </plain></SENT>
+<SENT sid="166" pm="."><plain>At step t + 2, neuron  deletes the two synapses by using synapse deletion rule a → − (λ, {lj, lk}). </plain></SENT>
+<SENT sid="167" pm="."><plain>In neuron , there are 5 spikes at step t + 1 such that both of synapse creation rules a5/a4 → + (a3, {lj}) and a5/a4 → + (a3, {lk}) are enabled, but only one of them is non-deterministically used. </plain></SENT>
+</text></p><p><text><SENT sid="168" pm="."><plain>– If rule a5/a4 → + (a3, {lj}) is chosen to use, neuron  creates a synapse and sends 3 spikes to neuron . </plain></SENT>
+<SENT sid="169" pm="."><plain>In this case, neuron  accumulates 6 spikes, which means system Π starts to simulate instruction lj of M. </plain></SENT>
+<SENT sid="170" pm="."><plain>One step later, with one spike inside neuron  uses rule a → − (λ, {lj, lk}) to delete the synapse to neuron , and neuron  removes the 3 spikes (from neuron ) by the forgetting rule a3 → λ. </plain></SENT>
+</text></p><p><text><SENT sid="171" pm="."><plain>– If rule a5/a4 → + (a3, {lk}) is selected to apply, neuron  creates a synapse and sends 3 spikes to neuron . </plain></SENT>
+<SENT sid="172" pm="."><plain>Neuron  accumulates 6 spikes, which indicates system Π goes to simulate instruction lk of M. </plain></SENT>
+<SENT sid="173" pm="."><plain>One step later, neuron  removes the 3 spikes by using forgetting rule a3 → λ, and the synapse from neuron  to  is deleted by using rule a → − (λ, {lj, lk}) in neuron . </plain></SENT>
+</text></p><p><text><SENT sid="174" pm="."><plain>Therefore, from firing neuron , system Π adds 5 spikes to neuron σr and non-deterministically activates one of the neurons  and , which correctly simulates the ADD instruction li: (ADD(r), lj, lk). </plain></SENT>
+<SENT sid="175" pm="."><plain>When the simulation of ADD instruction is completed, the ADD module returns to its initial topological structure, i.e., there is no synapse in the module. </plain></SENT>
+<SENT sid="176" pm="."><plain>The dynamic transformation of topological structure and the numbers of spikes in neurons of ADD module during the ADD instruction simulation with neuron  or  finally activated is shown in Figs 2 and 3. </plain></SENT>
+<SENT sid="177" pm="."><plain>In the figures, the spiking rules are omitted for clear illustration, neurons are represented by circles with the number of spikes and directed edges is used to represent the synapses. </plain></SENT>
+</text></p><p><text><SENT sid="178" pm="."><plain>Module SUB (shown in Fig. 4): Simulating the SUB instruction li: (SUB(r), lj, lk). </plain></SENT>
+</text></p><p><text><SENT sid="179" pm="."><plain>Given starting time stamp t, system Π simulates a SUB instruction li: (SUB(r), lj, lk). </plain></SENT>
+<SENT sid="180" pm="."><plain>Let sr be the number of SUB instructions acting on register r and the set of labels of instructions acting on register r be . </plain></SENT>
+<SENT sid="181" pm="."><plain>Obviously, it holds . </plain></SENT>
+</text></p><p><text><SENT sid="182" pm="."><plain>At step t, neuron  has 6 spikes, and becomes active by using synapse creation rule , creating synapses and sending 4 spikes to each of neurons ,  and σr. </plain></SENT>
+<SENT sid="183" pm="."><plain>With 4 spikes inside, neurons  and  keep inactive at step t + 1 because no rule can be used. </plain></SENT>
+<SENT sid="184" pm="."><plain>In neuron σr, it has the following two cases. </plain></SENT>
+</text></p><p><text><SENT sid="185" pm="."><plain>– If neuron σr has 5n (n &gt; 0) spikes (corresponding to the fact that the number stored in register r is n, and n &gt; 0), then by receiving 4 spikes from neuron , it accumulates 5n + 4 spikes and becomes active by using rule  at step t + 1. </plain></SENT>
+<SENT sid="186" pm="."><plain>It creates a synapse to each of neurons  and  with  and sending 6 spikes to the neurons. </plain></SENT>
+<SENT sid="187" pm="."><plain>By consuming 8 spikes, the number of spikes in neuron σr becomes 5n + 4 − 8 = 5(n − 1) + 1 (n ≥ 0) such that rule  is enabled and applied at step t + 2. </plain></SENT>
+<SENT sid="188" pm="."><plain>With application of the rule, neuron σr removes the synapses from neuron σr to neurons  and , . </plain></SENT>
+<SENT sid="189" pm="."><plain>Meanwhile, neurons  and  with s ≠ i remove the 6 spikes by using forgetting rule a6 → λ, and neuron  removes the 10 spikes by forgetting rule a10 → λ. </plain></SENT>
+<SENT sid="190" pm="."><plain>Neuron  accumulates 10 spikes (4 spikes from neuron  and 6 spikes from neuron σr), and rule a10/a9 → + (a6, {lj}) is applied at step t + 2, creating a synapse and sending 6 spikes to neuron . </plain></SENT>
+<SENT sid="191" pm="."><plain>In this case, neuron  receives 6 spikes, which means system Π starts to simulate instruction lj of M. </plain></SENT>
+<SENT sid="192" pm="."><plain>One step later, the synapse from neuron  to neuron  is deleted by using synapse deletion rule a → − (λ, {lj}). </plain></SENT>
+</text></p><p><text><SENT sid="193" pm="."><plain>– If neuron σr has no spike (corresponding to the fact that the number stored in register r is 0), then after receiving 4 spikes from neuron , it has 4 spikes and rule  is used, creating a synapse to each of neurons  and  with  and sending 3 spikes to the neurons. </plain></SENT>
+<SENT sid="194" pm="."><plain>Neuron σr remains one spike, and synapse deletion rule  is applied at step t + 2, removing the synapses from neuron σr to neurons  and , . </plain></SENT>
+<SENT sid="195" pm="."><plain>At the same moment, neurons  and  with s ≠ i remove the 3 spikes by using forgetting rule a3 → λ, and neuron  removes 7 spikes using spiking rule a7 → λ. </plain></SENT>
+<SENT sid="196" pm="."><plain>Having 7 spikes, Neuron  becomes active by using rule a7/a6 → + (a6, {lk}) at step t + 2, creating a synapse to neuron  and sending 6 spikes to neuron . </plain></SENT>
+<SENT sid="197" pm="."><plain>In this case, neuron  receives 6 spikes, which means system Π starts to simulate instruction lk of M. </plain></SENT>
+<SENT sid="198" pm="."><plain>At step t + 3, neuron  uses rule a → − (λ, {lk}) to remove the synapse to neuron . </plain></SENT>
+</text></p><p><text><SENT sid="199" pm="."><plain>The simulation of SUB instruction performs correctly: System Π starts from  having 6 spikes and becoming active, and ends in neuron  receiving 6 spikes (if the number stored in register r is great than 0 and decreased by one), or in neuron  receiving 6 spikes (if the number stored in register r is 0). </plain></SENT>
+</text></p><p><text><SENT sid="200" pm="."><plain>When the simulation of SUB instruction is completed, the SUB module returns to its initial topological structure, i.e., there is no synapse in the module. </plain></SENT>
+<SENT sid="201" pm="."><plain>The dynamic transformation of topological structure and the numbers of spikes in involved neurons in the SUB instruction simulation with neuron  (resp. neuron ) finally activated is shown in Fig. 5 (resp. Fig. 6). </plain></SENT>
+</text></p><p><text><SENT sid="202" pm="."><plain>Module FIN (shown in Fig. 7) – outputting the result of computation. </plain></SENT>
+</text></p><p><text><SENT sid="203" pm="."><plain>Assume that at step t the computation in M halts, i.e., the halting instruction is reached. </plain></SENT>
+<SENT sid="204" pm="."><plain>In this case, neuron  in Π receives 6 spikes. </plain></SENT>
+<SENT sid="205" pm="."><plain>At that moment, neuron σ1 contains 5n spikes, for the number n ≥ 1 stored in register 1 of M. </plain></SENT>
+<SENT sid="206" pm="."><plain>With 6 spikes inside, neuron  becomes active by using rule a6/a5 → +(a2, {1}), creating a synapse to neuron σ1 and sending 2 spikes to neuron σ1. </plain></SENT>
+<SENT sid="207" pm="."><plain>Neuron  ends with one spike, and rule a → −(λ, {1}) is used, removing the synapse to neuron σ1 one step later. </plain></SENT>
+</text></p><p><text><SENT sid="208" pm="."><plain>After neuron σ1 receives the 2 spikes from neuron , the number of spikes in neuron σ1 becomes 5n + 2 and rule a2(a5)+/a → +(λ, {0}) is enabled and applied at step t + 2. </plain></SENT>
+<SENT sid="209" pm="."><plain>By using the rule, neuron σ1 consumes one spike and creates a synapse to the environment. </plain></SENT>
+<SENT sid="210" pm="."><plain>Neuron σ1 contains 5n + 1 spikes such that spiking rule a(a5)+/a5 → a is used, consuming 5 spikes and emitting one spike to the environment at step t + 3. </plain></SENT>
+<SENT sid="211" pm="."><plain>Note that the number of spikes in neuron σ1 becomes 5(n − 1) + 1. </plain></SENT>
+<SENT sid="212" pm="."><plain>So, if the number of spikes in neuron σ1 is not one, then neuron σ1 will fire again in the next step sending one spike into the environment. </plain></SENT>
+<SENT sid="213" pm="."><plain>In this way, neuron σ1 can fire for n times, i.e., until the number of spikes in neuron σ1 reaches one. </plain></SENT>
+<SENT sid="214" pm="."><plain>For each time when neuron σ1 fires, it sends one spike into the environment. </plain></SENT>
+<SENT sid="215" pm="."><plain>So, in total, neuron σ1 sends n spikes into the environment, which is exactly the number stored in register 1 of M at the moment when the computation of M halts. </plain></SENT>
+<SENT sid="216" pm="."><plain>When neuron σ1 has one spike, rule a → −(λ, {0}) is used to remove the synapse from neuron σ1 to the environment, and system Π eventually halts. </plain></SENT>
+</text></p><p><text><SENT sid="217" pm="."><plain>The dynamic transformation of topological structure of the FIN module and the numbers of spikes in the neurons of FIN module and in the environment are shown in Fig. 8. </plain></SENT>
+</text></p><p><text><SENT sid="218" pm="."><plain>Based on the description of the work of system Π above, the register machine M is correctly simulated by system Π, i.e., N(M) = Nall(Π). </plain></SENT>
+<SENT sid="219" pm="."><plain>We can check that each neuron in system Π has at most three rules, and no limit is imposed on the numbers of neurons and the synapses that can be created (or deleted) by using one synapse creation (or deletion) rule. </plain></SENT>
+<SENT sid="220" pm="."><plain>Therefore, it concludes N*SPSOall(<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5) = NRE. </plain></SENT>
+</text></p><p><text><SENT sid="221" pm="."><plain>This concludes the proof. </plain></SENT>
+</text></p></sec></sec><sec disp-level="2"><title><text><SENT sid="222" pm="."><plain>As number acceptor </plain></SENT>
+</text></title><p><text><SENT sid="223" pm="."><plain>Register machine can work in the accepting mode. </plain></SENT>
+<SENT sid="224" pm="."><plain>Number n is accepted by register machine M′ as follows. </plain></SENT>
+<SENT sid="225" pm="."><plain>Initially, number n is stored in the first register of M′ and all the other registers are empty. </plain></SENT>
+<SENT sid="226" pm="."><plain>If the computation starting in this configuration eventually halts, then the number n is said to be accepted by register machine M′. </plain></SENT>
+<SENT sid="227" pm="."><plain>The set of numbers accepted by register machine M′ is denoted by Nacc(M′). </plain></SENT>
+<SENT sid="228" pm="."><plain>It is known that all the sets of numbers in NRE can be accepted by register machine M′, even using the deterministic register machine; i.e. the machine with the ADD instructions of the form li: (ADD(r), lj, lk) where lj = lk (in this case, the instruction is written in the form li: (ADD(r), lj))44. </plain></SENT>
+</text></p><p><text><SENT sid="229" pm="."><plain>Theorem 5. N*SPSOacc(<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5) = NRE. </plain></SENT>
+</text></p><sec disp-level="3"><title><text><SENT sid="230" pm="."><plain>Proof </plain></SENT>
+</text></title><p><text><SENT sid="231" pm="."><plain>It only has to prove NRE ⊆ N*SPSOacc (<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5), since the converse inclusion is straightforward from the Turing-Church thesis. </plain></SENT>
+<SENT sid="232" pm="."><plain>In what follows, an SN P system Π′ with self-organization working in accepting mode is constructed to simulate a deterministic register machine M′ = (m, H, l0, lh, I) working in the acceptive mode. </plain></SENT>
+<SENT sid="233" pm="."><plain>Actually, the proof is given by modifying the proof of Theorem 4. </plain></SENT>
+</text></p><p><text><SENT sid="234" pm="."><plain>Each register r of M′ is associated with a neuron σr in system Π′, and for each instruction li of M′ a neuron  is associated. </plain></SENT>
+<SENT sid="235" pm="."><plain>A number n stored in register r is represented by 5n spikes in neuron σr. </plain></SENT>
+</text></p><p><text><SENT sid="236" pm="."><plain>The system Π′ consists of an INPUT module, deterministic ADD and SUB modules. </plain></SENT>
+<SENT sid="237" pm="."><plain>The INPUT module is shown in Fig. 9, where all neurons are initially empty with the exception that input neuron σin has 8 spikes. </plain></SENT>
+<SENT sid="238" pm="."><plain>Spike train 10n−11 is introduced into the system through input neuron σin, where the internal between the two spikes in the spike train is (n + 1) − 1 = n, which indicates that number n is going to be accepted by system Π′. </plain></SENT>
+</text></p><p><text><SENT sid="239" pm="."><plain>Assuming at step t neuron σin receives the first spike. </plain></SENT>
+<SENT sid="240" pm="."><plain>At step t + 1, neuron σin contains 9 spikes, and rule a9/a6 → +(a6, {I1, I2}) is used, creating a synapse from neuron σin to neurons  and . </plain></SENT>
+<SENT sid="241" pm="."><plain>Meanwhile, neuron σin sends 6 spikes to the two neurons. </plain></SENT>
+<SENT sid="242" pm="."><plain>In neuron σin, 6 spikes are consumed and 3 spikes remain. </plain></SENT>
+<SENT sid="243" pm="."><plain>With 6 spikes inside, neurons  and  become active at step t + 2. </plain></SENT>
+<SENT sid="244" pm="."><plain>Neuron  uses rule a6/a → +(λ, {I2}) to create a synapse to neuron ; and neuron  uses rule a6/a → +(λ, {I1, 1}) to create a synapse to each of neurons  and σ1. </plain></SENT>
+<SENT sid="245" pm="."><plain>Each of neurons  and  has 5 spikes left. </plain></SENT>
+<SENT sid="246" pm="."><plain>From step t + 3 on, neurons  and  fire and begin to exchange 5 spikes between them. </plain></SENT>
+<SENT sid="247" pm="."><plain>In this way, neuron σ1 receives 5 spikes from neurons  at each step. </plain></SENT>
+</text></p><p><text><SENT sid="248" pm="."><plain>At step t + n, neuron σin receives the second spike from the environment, accumulating 4 spikes inside. </plain></SENT>
+<SENT sid="249" pm="."><plain>At step t + n + 1, neuron σin fires for the second time by using spiking rule a4/a3 → a3, sending 3 spikes to neurons  and . </plain></SENT>
+<SENT sid="250" pm="."><plain>Each of neurons  and  accumulates 8 spikes. </plain></SENT>
+<SENT sid="251" pm="."><plain>At step t + n + 2, neuron  uses synapse creation rule a8/a6 → +(a6, {l0}), creating a synapse to neuron  and sending 6 spikes to neuron . </plain></SENT>
+<SENT sid="252" pm="."><plain>This means that system Π′ starts to simulate the initial instruction l0 of register machine M′. </plain></SENT>
+<SENT sid="253" pm="."><plain>Meanwhile, neuron  uses synapse deletion rule a8/a → −(λ, {I1}), removing the synapse from neuron .. to neuron . </plain></SENT>
+<SENT sid="254" pm="."><plain>In the next step, neuron  creates a synapse to neuron σ1 and sends 5 spikes to neuron σ1 by using rule a7 → +(a5, {1}). </plain></SENT>
+</text></p><p><text><SENT sid="255" pm="."><plain>From step t + 3 to t + n + 1, neuron σ1 receives 5 spikes in each step from neuron , thus in total accumulating 5(n − 1) spikes. </plain></SENT>
+<SENT sid="256" pm="."><plain>Neuron σ1 receives no spike at step t + n + 2, and gets 5 spikes from neuron  at step t + n + 3. </plain></SENT>
+<SENT sid="257" pm="."><plain>After that, no more spikes are sent to neuron . </plain></SENT>
+<SENT sid="258" pm="."><plain>Neuron σ1 contains 5n spikes, which indicates the number to be accepted by register machine M′ is n. </plain></SENT>
+<SENT sid="259" pm="."><plain>At step t + n + 4, neuron  uses rule a2 → −(λ, {1}), deleting the synapse to neuron σ1. </plain></SENT>
+</text></p><p><text><SENT sid="260" pm="."><plain>The dynamic transformation of topological structure of INPUT module and the numbers of spikes in the neurons of INPUT module are shown in Fig. 10. </plain></SENT>
+</text></p><p><text><SENT sid="261" pm="."><plain>The deterministic ADD module is shown in Fig. 11, whose function is rather clear. </plain></SENT>
+<SENT sid="262" pm="."><plain>By receiving 6 spikes, neuron  becomes active, creating a synapse and sending 5 spikes to each of neurons σr,  and . </plain></SENT>
+<SENT sid="263" pm="."><plain>The number of spikes in neuron σr is increased by 5, which simulates the number stored in register 1 is increased by one. </plain></SENT>
+<SENT sid="264" pm="."><plain>In the next step, neuron  uses rule , removing the synapses from neuron  to neurons σr,  and . </plain></SENT>
+<SENT sid="265" pm="."><plain>In neurons  and , there are 5 spikes. </plain></SENT>
+<SENT sid="266" pm="."><plain>The two neurons become active by using rule a5/a4 → +(a3, {lj}). </plain></SENT>
+<SENT sid="267" pm="."><plain>Each of them creates a synapse to neuron  and emits 3 spikes to neuron . </plain></SENT>
+<SENT sid="268" pm="."><plain>In this way, neuron  accumulates 6 spikes inside, which means the system Π′ goes to simulate instruction lj of M′. </plain></SENT>
+<SENT sid="269" pm="."><plain>The synapses from neuron  and  to neuron  will be removed by using synapse deletion rule a → −(λ, {lj}) in neurons  and . </plain></SENT>
+</text></p><p><text><SENT sid="270" pm="."><plain>Module SUB remains unchanged, as shown in Fig. 4. </plain></SENT>
+<SENT sid="271" pm="."><plain>Module FIN is removed, with neuron  remaining in the system, but having no rule inside. </plain></SENT>
+<SENT sid="272" pm="."><plain>When neuron  receives 6 spikes, it means that the computation of register machine M′ reaches instruction lh and stops. </plain></SENT>
+<SENT sid="273" pm="."><plain>Having 6 spikes inside, neuron  cannot become active for no rule can be used. </plain></SENT>
+<SENT sid="274" pm="."><plain>In this way, the work of system Π′ halts. </plain></SENT>
+</text></p><p><text><SENT sid="275" pm="."><plain>Based on the description of the implementation of system Π′ above, it is clear that the register machine M′ in acceptive mode is correctly simulated by the system Π′ working in acceptive mode, i.e., Nacc(M′) = Nacc(Π′). </plain></SENT>
+</text></p><p><text><SENT sid="276" pm="."><plain>We can check that each neuron in system Π′ has at most five rules, and no limit is imposed on the numbers of neurons and the synapses that can be created (or deleted) with using one synapse creation (or deletion) rule. </plain></SENT>
+<SENT sid="277" pm="."><plain>Therefore, it concludes N*SPSOacc(<z:uniprot sup="inside" fb="78" ids="P16961,P06956">cre</z:uniprot>*, del*, rule5) = NRE. </plain></SENT>
+</text></p></sec></sec><sec disp-level="2"><title><text><SENT sid="278" pm="."><plain>As function computing device </plain></SENT>
+</text></title><p><text><SENT sid="279" pm="."><plain>A register machine M can compute a function f : Nk → N as follows: the arguments are introduced in special registers r1, r2, …, rk (without loss of the generality, it is assumed that the first k registers are used). </plain></SENT>
+<SENT sid="280" pm="."><plain>The computation starts with the initial instruction l0. if the register machine halts, i.e., reaches HALT instruction lh, the value of the function is placed in another specified register, labelled by rt, with all registers different from rt storing number 0. </plain></SENT>
+<SENT sid="281" pm="."><plain>The partial function computed by a register machine M in this way is denoted by M(n1, n2, …, nk). </plain></SENT>
+<SENT sid="282" pm="."><plain>All Turing computable functions can be computed by register machine in this way. </plain></SENT>
+</text></p><p><text><SENT sid="283" pm="."><plain>Several universal register machines for computing functions were defined. </plain></SENT>
+<SENT sid="284" pm="."><plain>Let (φ0, φ1,…) be a fixed admissible enumeration of the unary partial recursive functions. </plain></SENT>
+<SENT sid="285" pm="."><plain>A register machine Mu is said to be universal if there is a recursive function g such that for all natural numbers x, y we have φx(y) = Mu(g(x), y). </plain></SENT>
+<SENT sid="286" pm="."><plain>As addressed by Minsky, universal register machine can compute any φx(y) by inputting a couple of numbers g(x) and y in registers 1 and 2, and the result can be obtained in register 047. </plain></SENT>
+</text></p><p><text><SENT sid="287" pm="."><plain>In the following proof of universality, a specific universal register machine Mu from47 is used, the machine Mu = (8, H, l0, lh, I) presented in Fig. 12. </plain></SENT>
+<SENT sid="288" pm="."><plain>In this universal register machine Mu, there are 8 registers (numbered from 0 to 7) and 23 instructions, and the last instruction is the halting one. </plain></SENT>
+<SENT sid="289" pm="."><plain>As described above, the input numbers (the “code” of the partial recursive function to compute and the argument for this function) are introduced in registers 1 and 2, and the result is outputted in register 0 when the machine Mu halts. </plain></SENT>
+</text></p><p><text><SENT sid="290" pm="."><plain>A modification is necessary to be made in Mu, because the subtraction operation in the register where the result is placed is not allowed in the construction of the previous Theorems, but register 0 of Mu is subject of such operations. </plain></SENT>
+<SENT sid="291" pm="."><plain>That is why an extra register is needed - labeled with 8 - and the halt instruction lh of Mu should be replaced by the following instructions: </plain></SENT>
+</text></p><p><text><SENT sid="292" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="293" pm="."><plain>Therefore, the modified universal register machine  has 9 registers, 24 ADD and SUB instructions, and 25 labels. </plain></SENT>
+<SENT sid="294" pm="."><plain>The result of a computation of  is stored in register 8 </plain></SENT>
+</text></p><p><text><SENT sid="295" pm="."><plain>Theorem 6 There is a universal SN P system with self-organization having 87 neurons for computing functions. </plain></SENT>
+</text></p><sec disp-level="3"><title><text><SENT sid="296" pm="."><plain>Proof </plain></SENT>
+</text></title><p><text><SENT sid="297" pm="."><plain>An SN P system with self-organization Π″ is constructed to simulate the computation of the universal register machine . </plain></SENT>
+<SENT sid="298" pm="."><plain>Specifically, the system Π″ consists of deterministic ADD modules, SUB modules, as well as an INPUT module and an OUTPUT module. </plain></SENT>
+<SENT sid="299" pm="."><plain>The deterministic ADD module shown in Fig. 11 and SUB module shown in Fig. 4 can be used here to simulate the deterministic ADD instruction and SUB instruction of . </plain></SENT>
+<SENT sid="300" pm="."><plain>The INPUT module introduces the necessary spikes into the system by reading a spike train from the environment, and the OUTPUT module outputs the computation result. </plain></SENT>
+</text></p><p><text><SENT sid="301" pm="."><plain>With each register r of , a neuron σr in system Π″ is associated; the number stored in register r is encoded by the number of spikes in neuron σr. </plain></SENT>
+<SENT sid="302" pm="."><plain>If register r holds the number n ≥ 0, then neuron σr contains 5n spikes. </plain></SENT>
+<SENT sid="303" pm="."><plain>With each instruction li in .., a neuron  in system Π″ is associated. </plain></SENT>
+<SENT sid="304" pm="."><plain>If neuron  has 6 spikes inside, it becomes active and starts to simulate the instruction li. </plain></SENT>
+<SENT sid="305" pm="."><plain>When neuron  (associated with the label l′h of the halting instruction of ) receives 6 spikes, the computation in  is completely simulated by the system Π″; the number of spikes emitted into the environment from the output neuron, i.e., neuron σ8, corresponds to the result computed by  (stored in register 8). </plain></SENT>
+</text></p><p><text><SENT sid="306" pm="."><plain>The tasks of loading 5g(x) spikes in neuron σ1 and 5y spikes in neuron σ2 by reading the spike train 10g(x)−110y−11 through input neuron σin can be carried out by the INPUT module shown in Fig. 13. </plain></SENT>
+</text></p><p><text><SENT sid="307" pm="."><plain>Initially, all the neurons contain no spike inside, with the exception that neuron σin has 15 spikes. </plain></SENT>
+<SENT sid="308" pm="."><plain>It is assumed at step t neuron σin reads the first spike from the environment. </plain></SENT>
+<SENT sid="309" pm="."><plain>With 16 spikes inside, neuron σin becomes active by using rule a16/a6 → +(a6, {I1, I2}) at step t + 1. </plain></SENT>
+<SENT sid="310" pm="."><plain>It creates a synapse and sends 6 spikes to each of neurons  and . </plain></SENT>
+<SENT sid="311" pm="."><plain>Subsequently, neuron σin keeps inactive (for no rule can be used) until the second spike arrives at step t + g(x). </plain></SENT>
+<SENT sid="312" pm="."><plain>Neuron  has 6 spikes and uses rule a6/a → +(λ, {I2, 1}) at step t + 2 it creates a synapse to neurons  and σ1 and sends 5 spikes to each of the two neurons. </plain></SENT>
+<SENT sid="313" pm="."><plain>Meanwhile, neuron  creates a synapse to neuron  and sends 5 spikes to it. </plain></SENT>
+<SENT sid="314" pm="."><plain>From step t + 3 on, neuron  sends 5 spikes to neuron  and exchanges 5 spikes with neuron  in each step. </plain></SENT>
+</text></p><p><text><SENT sid="315" pm="."><plain>At step t + g(x), neuron σin receives the second spike from the environment. </plain></SENT>
+<SENT sid="316" pm="."><plain>By then it accumulates 11 spikes inside. </plain></SENT>
+<SENT sid="317" pm="."><plain>At step t + g(x) + 1, neuron σin fires by using spiking rule a11/a3 → a3, and sends 3 spikes to neurons  and . </plain></SENT>
+<SENT sid="318" pm="."><plain>Each of neurons  and .. contains 8 spike, which will be remained in σin. </plain></SENT>
+</text></p><p><text><SENT sid="319" pm="."><plain>At step t + g(x) + 2, neuron  applies synapse deletion rule a8/a → −(λ, {I1}) and removes the synapse to neuron , meanwhile neuron  removes the synapse to neuron . </plain></SENT>
+<SENT sid="320" pm="."><plain>The two neurons stop to exchange spikes with each other. </plain></SENT>
+<SENT sid="321" pm="."><plain>At step t + g(x) + 3, neuron  has 7 spikes and fires by using spiking rule a7/a5 → a5, and sends 5 spikes to neuron σ1. </plain></SENT>
+<SENT sid="322" pm="."><plain>In the next step, neuron  removes the synapse to neuron σ1, and cannot send spikes to neuron σ1. </plain></SENT>
+</text></p><p><text><SENT sid="323" pm="."><plain>In general, in each step from step t + 3 to t + g(x) +1, neuron σ1 receives 5 spikes from neuron , in total receiving 5(g(x) − 1) spikes; at step t + g(x) + 2, no spike arriving in neuron σ1, and at step t + g(x) + 3, 5 spikes reaching neuron σ1. </plain></SENT>
+<SENT sid="324" pm="."><plain>In this way, neuron σ1 accumulates 5g(x) spikes, which simulates number g(x) is stored in register 1 of . </plain></SENT>
+</text></p><p><text><SENT sid="325" pm="."><plain>At step t + g(x) + 2, neuron σin contains 8 spikes such that rule a8/a6 → + (a6, {I3, I4}) is used, creating a synapse and sends 6 spikes to each of neurons  and . </plain></SENT>
+<SENT sid="326" pm="."><plain>At step t + g(x) + 3, neurons  and  create synapses to each other, meanwhile neuron  creates a synapse to neuron σ2. </plain></SENT>
+<SENT sid="327" pm="."><plain>From step t + g(x) + 4 on, neuron  begins to exchange 5 spikes with  and send 5 spikes to neuron σ2 in each step. </plain></SENT>
+<SENT sid="328" pm="."><plain>At step t + g(x) + y, neuron σin receives the third spike from the environment, accumulating 3 spikes inside. </plain></SENT>
+<SENT sid="329" pm="."><plain>One step later, it fires by using spiking rule a3/a2 → a2, sending 2 spikes to neurons , ,  and . </plain></SENT>
+<SENT sid="330" pm="."><plain>With 2 spikes inside, neuron σ1 removes its synapse to neuron σ1 by rule a2 → −(λ, {1}); while neuron  forgets the two spikes by forgetting rule a2 → λ. </plain></SENT>
+<SENT sid="331" pm="."><plain>By receiving 2 spikes from neuron σin, neurons  and  contain 7 spikes. </plain></SENT>
+<SENT sid="332" pm="."><plain>At step t + g(x) + y + 2, neuron  fires by using rule a7/a3 → a3 and sends 3 spikes to neurons σ2 and . </plain></SENT>
+<SENT sid="333" pm="."><plain>The number of spikes in neuron σ2 is 5(y − 1) + 3. </plain></SENT>
+<SENT sid="334" pm="."><plain>Neuron  consumes 6 spikes, creates a synapse and sends 6 spikes to neuron . </plain></SENT>
+<SENT sid="335" pm="."><plain>This means system Π'' starts to simulate the initial instruction l0 of . </plain></SENT>
+</text></p><p><text><SENT sid="336" pm="."><plain>At step t + g(x) + y + 3, neuron  has 4 spikes, and it becomes active by rule a4/a → −(λ, {I4}), and removes its synapse to neuron  and ends with 3 spikes. </plain></SENT>
+<SENT sid="337" pm="."><plain>In the next step, neuron  fires by using spiking rule a3/a2 → a2, emitting 2 spikes to neuron σ2. </plain></SENT>
+<SENT sid="338" pm="."><plain>In this way, the number of spikes in neuron σ2 becomes 5(y − 1) + 3 + 2 = 5y, which indicates number y is stored in register 2 of . </plain></SENT>
+</text></p><p><text><SENT sid="339" pm="."><plain>The deterministic ADD module shown in Fig. 11 and SUB module shown in Fig. 4 can be used to simulate ADD and SUB instructions of . </plain></SENT>
+<SENT sid="340" pm="."><plain>The FIN module shown in Fig. 7 can be used to output the computation result with changing neuron σ1 into σ8. </plain></SENT>
+</text></p><p><text><SENT sid="341" pm="."><plain>Until now, we have used 9 neurons for 9 registers,25 neurons for 25 labels,20 neurons for 10 ADD instructions,28 neurons for 14 SUB instruction,5 additional neurons in the INPUT module, </plain></SENT>
+</text></p><p><text><SENT sid="342" pm="."><plain>which comes to a total of 87 neurons. </plain></SENT>
+</text></p><p><text><SENT sid="343" pm="."><plain>This concludes the proof. </plain></SENT>
+</text></p></sec></sec></sec></SecTag><SecTag type="DISCUSS,CONCL"><sec disp-level="1"><title><text><SENT sid="344" pm="."><plain>Discussion and Future Works </plain></SENT>
+</text></title><p><text><SENT sid="345" pm="."><plain>In this work, a novel variant of SN P systems, namely SN P systems with self-organization, is introduced. </plain></SENT>
+<SENT sid="346" pm="."><plain>As results, it is proven that the systems are Turing universal, i.e., they can compute and accept the family of sets of Turing computable natural numbers. </plain></SENT>
+<SENT sid="347" pm="."><plain>With 87 neurons, the system can compute any Turing computable recursive function, thus achieving Turing universality. </plain></SENT>
+</text></p><p><text><SENT sid="348" pm="."><plain>There has been a research focus on the construction of small universal SN P with less computing resource, i.e. less number of neuron in use174849505152. </plain></SENT>
+<SENT sid="349" pm="."><plain>It is of interest that whether we can reduce the number of neurons in universal SN P systems with self-organization as function computing devices. </plain></SENT>
+<SENT sid="350" pm="."><plain>A possible way is to construct ADD-ADD, ADD-SUB and SUB-ADD modules to perform particular consecutive ADD-ADD, ADD-SUB, and SUB-ADD instructions of . </plain></SENT>
+</text></p><p><text><SENT sid="351" pm="."><plain>SN P systems with learning function/capabiliy is a promising direction. </plain></SENT>
+<SENT sid="352" pm="."><plain>Learning strategies and feedback mechanism have been intensively studied and investigated in conventional artificial neural networks. </plain></SENT>
+<SENT sid="353" pm="."><plain>It is worthy to look into these techniques and transplant these ideas into SN P systems with self-organization. </plain></SENT>
+</text></p><p><text><SENT sid="354" pm="."><plain>In research of using artificial neural networks to recognize digital English letters, database MNIST (Mixed National Institute of Standards and Technology database) is widely used for training various letter recognition systems53, and for training and testing in the field of machine learning54. </plain></SENT>
+<SENT sid="355" pm="."><plain>For further research, SN P systems with self-organization may be used to recognize handwritten digits letters and other possible pattern recognition problems. </plain></SENT>
+<SENT sid="356" pm="."><plain>Since the data structure of SN P systems is binary sequences, an extra task of transmitting letters or pictures into binary sequences should be addressed. </plain></SENT>
+<SENT sid="357" pm="."><plain>A possible way is transmitting digital numbers of pixels of pictures to binary form. </plain></SENT>
+<SENT sid="358" pm="."><plain>Also, local binary pattern method, can be used to transmit pictures to binary forms. </plain></SENT>
+</text></p><p><text><SENT sid="359" pm="."><plain>Bioinformatics is s an interdisciplinary field that develops methods and software tools for understanding biological data55. </plain></SENT>
+<SENT sid="360" pm="."><plain>Artificial intelligence based methods and data mining strategy have been used in processing biological data, see e.g.56575859606162, it is worthy to processing biological data by SN P systems, such as DNA motif finding6364, nuclear export signal identification6566. </plain></SENT>
+</text></p></sec></SecTag><sec disp-level="1"><title><text><SENT sid="361" pm="."><plain>Additional Information </plain></SENT>
+</text></title><p><text><SENT sid="362" pm="."><plain>How to cite this article: Wang, X. et al. </plain></SENT>
+<SENT sid="363" pm="."><plain>On the Computational Power of Spiking Neural P Systems with Self-Organization. Sci. </plain></SENT>
+<SENT sid="364" pm="."><plain>Rep. 6, 27624; doi: 10.1038/srep27624 (2016). </plain></SENT>
+</text></p></sec></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="365" pm="."><plain>The research is under the auspices of National Natural Science Foundation of China (Nos 41276135, 31172010, 61272093, 61320106005, 61402187, 61502535, 61572522 and 61572523), Program for New Century Excellent Talents in University (NCET-13-1031), 863 Program (2015AA020925), and Fundamental Research Funds for the Central Universities (15CX05015A). </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="366" pm="."><plain>ChenX., Perez-JimenezM. </plain></SENT>
+<SENT sid="367" pm="."><plain>J., ValenciacabreraL., WangB. &amp; ZengX. Computing with viruses. Theor. </plain></SENT>
+<SENT sid="368" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="369" pm="."><plain>Sci. 623, 146–159 (2016). </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="370" pm="."><plain>ZhangX., TianY. &amp; JinY. A knee point-driven evolutionary algorithm for many-objective optimization. IEEE T. </plain></SENT>
+<SENT sid="371" pm="."><plain>Evolut. </plain></SENT>
+<SENT sid="372" pm="."><plain>Compu. 16, 35–41 (2015). </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="373" pm="."><plain>ZhangX., TianY., ChengR. &amp; JinY. An efficient approach to nondominated sorting for evolutionary multiobjective optimization. IEEE T. </plain></SENT>
+<SENT sid="374" pm="."><plain>Evolut. </plain></SENT>
+<SENT sid="375" pm="."><plain>Compu. 19, 201–213 (2015). </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="376" pm="."><plain>GerstnerW. &amp; KistlerW. </plain></SENT>
+<SENT sid="377" pm="."><plain>M. Spiking neuron models: single neurons, populations, plasticity (Cambridge university press, 2002). </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="378" pm="."><plain>HaganM. </plain></SENT>
+<SENT sid="379" pm="."><plain>T., DemuthH. </plain></SENT>
+<SENT sid="380" pm="."><plain>B. &amp; BealeM. </plain></SENT>
+<SENT sid="381" pm="."><plain>H. Neural network design (Pws Publishing: Boston, 1996). </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="382" pm="."><plain>Ghosh-DastidarS. &amp; AdeliH. Spiking neural networks. Int. </plain></SENT>
+<SENT sid="383" pm="."><plain>J. </plain></SENT>
+<SENT sid="384" pm="."><plain>Neural Syst. 19, 295–308 (2009).19731402 </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="385" pm="."><plain>IonescuM., PăunGh. &amp; YokomoriT. Spiking neural P systems. Fund. </plain></SENT>
+<SENT sid="386" pm="."><plain>Inform. 71, 279–308 (2006). </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="387" pm="."><plain>MaassW. Networks of spiking neurons: the third generation of neural network models. Neural Networks 10, 1659–1671 (1997). </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="388" pm="."><plain>PanL. &amp; PăunGh. Spiking neural P systems: an improved normal form. Theor. </plain></SENT>
+<SENT sid="389" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="390" pm="."><plain>Sci. 411, 906–918 (2010). </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="391" pm="."><plain>SongT. &amp; PanL. Spiking neural P systems with rules on synapses working in maximum spiking strategy. IEEE T. </plain></SENT>
+<SENT sid="392" pm="."><plain>Nanobiosci. 14, 465–477 (2015). </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="393" pm="."><plain>CavaliereM. . Asynchronous spiking neural P systems. Theor. </plain></SENT>
+<SENT sid="394" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="395" pm="."><plain>Sci. 410, 2352–2364 (2009). </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="396" pm="."><plain>SongT. &amp; PanL. Spiking neural P systems with rules on synapses working in maximum spikes consumption strategy. IEEE T. </plain></SENT>
+<SENT sid="397" pm="."><plain>Nanobiosci. 14, 37–43 (2015). </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="398" pm="."><plain>SongT., PanL. &amp; PăunGh. Asynchronous spiking neural P systems with local synchronization. Inform. </plain></SENT>
+<SENT sid="399" pm="."><plain>Sciences 219, 197–207 (2012). </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="400" pm="."><plain>PăunGh. Spiking neural P systems with astrocyte-like control. J. </plain></SENT>
+<SENT sid="401" pm="."><plain>Univers. </plain></SENT>
+<SENT sid="402" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="403" pm="."><plain>Sci. 13, 1707–1721 (2007). </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="404" pm="."><plain>ChenH., FreundR., IonescuM., PăunGh. &amp; Pérez-JiménezM. </plain></SENT>
+<SENT sid="405" pm="."><plain>J. On string languages generated by spiking neural P systems. Fund. </plain></SENT>
+<SENT sid="406" pm="."><plain>Inform. 75, 141–162 (2007). </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="407" pm="."><plain>ZengX., XuL., LiuX. &amp; PanL. On languages generated by spiking neural P systems with weights. Inform. </plain></SENT>
+<SENT sid="408" pm="."><plain>Sciences 278, 423–433 (2014). </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="409" pm="."><plain>PăunA. &amp; PăunGh. Small universal spiking neural P systems. Biosystems 90, 48–60 (2007).16965853 </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="410" pm="."><plain>SongT., PanL., JiangK., SongB. &amp; ChenW. Normal forms for some classes of sequential spiking neural P systems. IEEE T. </plain></SENT>
+<SENT sid="411" pm="."><plain>Nanobiosci. 12, 255–264 (2013). </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="412" pm="."><plain>PanL. &amp; PăunGh. Spiking neural P systems with anti-spikes. Int. </plain></SENT>
+<SENT sid="413" pm="."><plain>J. </plain></SENT>
+<SENT sid="414" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="415" pm="."><plain>Commun. 4, 273–282 (2009). </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="416" pm="."><plain>PanL., WangJ., HoogeboomH. </plain></SENT>
+<SENT sid="417" pm="."><plain>J. &amp; Pérez-JiménezM. </plain></SENT>
+<SENT sid="418" pm="."><plain>J. Spiking neural P systems with weights. Neural Comput. 22, 2615–2646 (2010).20608870 </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="419" pm="."><plain>PanL., WangJ. &amp; HoogeboomH. </plain></SENT>
+<SENT sid="420" pm="."><plain>J. Spiking neural P systems with astrocytes. Neural Comput. 24, 805–825 (2012).22091670 </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="421" pm="."><plain>SongT., WangX., ZhangZ. &amp; ChenZ. Homogenous spiking neural P systems with anti-spikes. Neural Comput. </plain></SENT>
+<SENT sid="422" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. 24, 1833–1841 (2013). </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="423" pm="."><plain>ZengX., ZhangX. &amp; PanL. Homogeneous spiking neural P systems. Fund. </plain></SENT>
+<SENT sid="424" pm="."><plain>Inform. 97, 275–294 (2009). </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="425" pm="."><plain>ZengX., ZhangX., SongT. &amp; PanL. Spiking neural P systems with thresholds. Neural Comput. 26, 1340–1361 (2014).24708366 </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="426" pm="."><plain>WangJ., ShiP., PengH., Pérez-JiménezM. </plain></SENT>
+<SENT sid="427" pm="."><plain>J. &amp; WangT. Weighted fuzzy spiking neural P systems. IEEE T. </plain></SENT>
+<SENT sid="428" pm="."><plain>Fuzzy Syst. 21, 209–220 (2013). </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="429" pm="."><plain>PengH. . Fuzzy reasoning spiking neural P system for fault diagnosis. Inform. </plain></SENT>
+<SENT sid="430" pm="."><plain>Sciences 235, 106–116 (2013). </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="431" pm="."><plain>IbarraO. </plain></SENT>
+<SENT sid="432" pm="."><plain>H., PăunA. &amp; Rodrguez-PatónA. Sequential SNP systems based on min/max spike number. Theor. </plain></SENT>
+<SENT sid="433" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="434" pm="."><plain>Sci. 410, 2982–2991 (2009). </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="435" pm="."><plain>SongT., ZouQ., LiX. &amp; ZengX. Asynchronous spiking neural P systems with rules on synapses. Neurocomputing 151, 1439–1445 (2015). </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="436" pm="."><plain>CabarleF. </plain></SENT>
+<SENT sid="437" pm="."><plain>G. </plain></SENT>
+<SENT sid="438" pm="."><plain>C., AdornaH. </plain></SENT>
+<SENT sid="439" pm="."><plain>N., Pérez-JiménezM. </plain></SENT>
+<SENT sid="440" pm="."><plain>J. &amp; SongT. Spiking neural P systems with structural plasticity. Neural Comput. </plain></SENT>
+<SENT sid="441" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. 26, 1905–1917 (2015). </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="442" pm="."><plain>IonescuM. &amp; SburlanD. Several applications of spiking neural P systems. Proceedings of the Fifth Brainstorming Week on Membrane Computing, Sevilla, Spain (2007). </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="443" pm="."><plain>AdlA., BadrA. &amp; FaragI. Towards a spiking neural P systems OS. arXiv preprint arXiv:1012.0326 (2010). </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="444" pm="."><plain>LiuX., LiZ., LiuJ., LiuL. &amp; ZengX. Implementation of arithmetic operations with time-free spiking neural P systems. IEEE T. </plain></SENT>
+<SENT sid="445" pm="."><plain>Nanobiosci. 14, 617–624 (2015). </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="446" pm="."><plain>ZengX., SongT., ZhangX. &amp; PanL. Performing four basic arithmetic operations with spiking neural P systems. IEEE T. </plain></SENT>
+<SENT sid="447" pm="."><plain>Nanobiosci. 11, 366–374 (2012). </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="448" pm="."><plain>ZhangG., RongH., NeriF. &amp; Pérez-JiménezM. </plain></SENT>
+<SENT sid="449" pm="."><plain>J. An optimization spiking neural P system for approximately solving combinatorial optimization problems. Int. </plain></SENT>
+<SENT sid="450" pm="."><plain>J. </plain></SENT>
+<SENT sid="451" pm="."><plain>Neural Syst. 24, 1440006 (2014).24875789 </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="452" pm="."><plain>WangT. . Fault diagnosis of electric power systems based on fuzzy reasoning spiking neural P systems IEEE T. </plain></SENT>
+<SENT sid="453" pm="."><plain>Power Syst. 30 1182–1194 (2015). </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="454" pm="."><plain>PăunGh., RozenbergG. &amp; SalomaaA. The Oxford handbook of membrane computing (Oxford University Press, Inc., 2010). </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="455" pm="."><plain>MaassW. &amp; BishopC. </plain></SENT>
+<SENT sid="456" pm="."><plain>M. Pulsed neural networks (MIT press, 2001). </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="457" pm="."><plain>SiegelmannH. </plain></SENT>
+<SENT sid="458" pm="."><plain>T. &amp; SontagE. </plain></SENT>
+<SENT sid="459" pm="."><plain>D. On the computational power of neural nets. J. </plain></SENT>
+<SENT sid="460" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="461" pm="."><plain>Syst. </plain></SENT>
+<SENT sid="462" pm="."><plain>Sci. 50, 132–150 (1995). </plain></SENT>
+</text></ref><ref id="b39"><text><SENT sid="463" pm="."><plain>BuzsákiG. Neural syntax: cell assemblies, synapsembles, and readers. Neuron 68, 362–385 (2010).21040841 </plain></SENT>
+</text></ref><ref id="b40"><text><SENT sid="464" pm="."><plain>TetzlaffC., KolodziejskiC., TimmeM., TsodyksM. &amp; WörgötterF. Synaptic scaling enables dynamically distinct short-and long-term memory formation. BMC Neurosci. 14, P415 (2013). </plain></SENT>
+</text></ref><ref id="b41"><text><SENT sid="465" pm="."><plain>FritzkeB. Growing cell structures a self-organizing network for unsupervised and supervised learning. Neural Networks 7, 1441–1460 (1994). </plain></SENT>
+</text></ref><ref id="b42"><text><SENT sid="466" pm="."><plain>UltschA. Self-organizing neural networks for visualisation and classification (Springer-Verlag, Berlin, 1993). </plain></SENT>
+</text></ref><ref id="b43"><text><SENT sid="467" pm="."><plain>GheorgheM., PăunGh., Pérez-JiménezM. </plain></SENT>
+<SENT sid="468" pm="."><plain>J. &amp; RozenbergG. Spiking neural P systems, research frontiers of membrane computing: Open problems and research topics. Int. </plain></SENT>
+<SENT sid="469" pm="."><plain>J. </plain></SENT>
+<SENT sid="470" pm="."><plain>Found. </plain></SENT>
+<SENT sid="471" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="472" pm="."><plain>S. 24, 547–623 (2013). </plain></SENT>
+</text></ref><ref id="b44"><text><SENT sid="473" pm="."><plain>MinskyM. </plain></SENT>
+<SENT sid="474" pm="."><plain>L. Computation: finite and infinite machines (Prentice-Hall, New Jersey, 1967). </plain></SENT>
+</text></ref><ref id="b45"><text><SENT sid="475" pm="."><plain>RozenbergG. &amp; SalomaaA. Handbook of formal languages, vol. </plain></SENT>
+<SENT sid="476" pm="."><plain>3 (Springer-Verlag, Berlin, 1997). </plain></SENT>
+</text></ref><ref id="b46"><text><SENT sid="477" pm="."><plain>PăunGh. Membrane computing: an introduction (Springer-Verlag, Berlin, 2002). </plain></SENT>
+</text></ref><ref id="b47"><text><SENT sid="478" pm="."><plain>KorecI. Small universal register machines. Theor. </plain></SENT>
+<SENT sid="479" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="480" pm="."><plain>Sci. 168, 267–301 (1996). </plain></SENT>
+</text></ref><ref id="b48"><text><SENT sid="481" pm="."><plain>NearyT. A universal spiking neural P system with 11 neurons. Proceedings of the Eleventh International Conference on Membrane Computing, Jena, Germany (2010). </plain></SENT>
+</text></ref><ref id="b49"><text><SENT sid="482" pm="."><plain>PanL. &amp; ZengX. A note on small universal spiking neural P systems. </plain></SENT>
+<SENT sid="483" pm="."><plain>In Lect. </plain></SENT>
+<SENT sid="484" pm="."><plain>Notes Comput. </plain></SENT>
+<SENT sid="485" pm="."><plain>Sci. vol. </plain></SENT>
+<SENT sid="486" pm="."><plain>5957, 436–447 (Springer-Verlag, Berlin, 2010). </plain></SENT>
+</text></ref><ref id="b50"><text><SENT sid="487" pm="."><plain>PăunA. &amp; SidoroffM. Sequentiality induced by spike number in SNP systems: small universal machines. Membrane Computing, 333–345 (Springer-Verlag, Berlin, 2012). </plain></SENT>
+</text></ref><ref id="b51"><text><SENT sid="488" pm="."><plain>SongT., JiangY., ShiX. &amp; ZengX. Small universal spiking neural P systems with anti-spikes. J. </plain></SENT>
+<SENT sid="489" pm="."><plain>Comput. </plain></SENT>
+<SENT sid="490" pm="."><plain>Theor. </plain></SENT>
+<SENT sid="491" pm="."><plain>Nanos. 10, 999–1006 (2013). </plain></SENT>
+</text></ref><ref id="b52"><text><SENT sid="492" pm="."><plain>ZhangX., ZengX. &amp; PanL. Smaller universal spiking neural P systems. </plain></SENT>
+<SENT sid="493" pm="."><plain>In Annales Societatis Mathematicae Polonae. </plain></SENT>
+<SENT sid="494" pm="."><plain>Series 4: Fundamenta Informaticae, vol. </plain></SENT>
+<SENT sid="495" pm="."><plain>87, 117–136 (2008). </plain></SENT>
+</text></ref><ref id="b53"><text><SENT sid="496" pm="."><plain>BurgesC. </plain></SENT>
+<SENT sid="497" pm="."><plain>J. A tutorial on support vector machines for pattern recognition. Data Min. </plain></SENT>
+<SENT sid="498" pm="."><plain>Knowl. </plain></SENT>
+<SENT sid="499" pm="."><plain>Disc. 2, 121–167 (1998). </plain></SENT>
+</text></ref><ref id="b54"><text><SENT sid="500" pm="."><plain>LiuC.-L., NakashimaK., SakoH. &amp; FujisawaH. Handwritten digit recognition: benchmarking of state-of-the-art techniques. Pattern Recogn. 36, 2271–2285 (2003). </plain></SENT>
+</text></ref><ref id="b55"><text><SENT sid="501" pm="."><plain>Bioinformatics-Wikipedia, the free encyclopedia., 5 May 2016. </plain></SENT>
+</text></ref><ref id="b56"><text><SENT sid="502" pm="."><plain>ZouQ., LiJ., SongL., ZengX. &amp; WangG. Similarity computation strategies in the microRNA disease network: a survey. Brief Funct. Genomic 15, 55–64 (2015). </plain></SENT>
+</text></ref><ref id="b57"><text><SENT sid="503" pm="."><plain>LinC. . LibD3C: Ensemble classifiers with a clustering and dynamic selection strategy. Neurocomputing 123, 424–435 (2014). </plain></SENT>
+</text></ref><ref id="b58"><text><SENT sid="504" pm="."><plain>LiuB. . <z:uniprot sup="inside" fb="14" ids="Q9WTP3">Pse</z:uniprot>-in-One: a web server for generating various modes of pseudo components of DNA, RNA, and protein sequences. Nucleic Acids Res. W1, W65–W71 (2015).25958395 </plain></SENT>
+</text></ref><ref id="b59"><text><SENT sid="505" pm="."><plain>ZouQ., HuQ., GuoM. &amp; WangG. Halign: Fast multiple similar DNA/RNA sequence alignment based on the centre star strategy. Bioinformatics 31, 2475–2481 (2015).25812743 </plain></SENT>
+</text></ref><ref id="b60"><text><SENT sid="506" pm="."><plain>ZengJ., LiD., WuY., ZouQ. &amp; LiuX. An empirical study of features fusion techniques for protein-protein interaction prediction. Curr. </plain></SENT>
+<SENT sid="507" pm="."><plain>Bioinform. 11, 4–12 (2016). </plain></SENT>
+</text></ref><ref id="b61"><text><SENT sid="508" pm="."><plain>YunfengW. &amp; S.K. Combining least-squares support vector machines for classification of biomedical signals: a case study with knee-joint vibroarthrographic signals. J Exp. </plain></SENT>
+<SENT sid="509" pm="."><plain>Theor. </plain></SENT>
+<SENT sid="510" pm="."><plain>Artif. </plain></SENT>
+<SENT sid="511" pm="."><plain>In. 23, 63–77 (2011). </plain></SENT>
+</text></ref><ref id="b62"><text><SENT sid="512" pm="."><plain>SongL. . ndna-prot: identification of <z:uniprot sup="inside" fb="0" ids="P41726,P24649,P24648,P03264,P06500,P03265,P04497,P04498,P11806,P11807,Q65956,Q96687,Q64759,Q8JN65,P06545,O80837">DNA-binding proteins</z:uniprot> based on unbalanced classification. BMC Bioinformatics 15, 1 (2014).24383880 </plain></SENT>
+</text></ref><ref id="b63"><text><SENT sid="513" pm="."><plain>LiuB., LiuF., FangL., WangX. &amp; ChouK. repDNA: a python package to generate various modes of feature vectors for DNA sequences by incorporating user-defined physicochemical properties and sequence-order effects. Bioinformatics 31, 1307–1309 (2015).25504848 </plain></SENT>
+</text></ref><ref id="b64"><text><SENT sid="514" pm="."><plain>ZengX., LiaoY., LiuY. &amp; ZouQ. Prediction and validation of disease genes using hetesim scores. IEEE ACM T Comput. </plain></SENT>
+<SENT sid="515" pm="."><plain>Bi., 10.1109/TCBB.2016.2520947 (2016). </plain></SENT>
+</text></ref><ref id="b65"><text><SENT sid="516" pm="."><plain>ZouQ., LiJ., SongL., ZengX. &amp; WangG. Similarity computation strategies in the microrna-disease network: a survey. BRIEF Funct. </plain></SENT>
+<SENT sid="517" pm="."><plain>Genomic 15, 55–64 (2016). </plain></SENT>
+</text></ref><ref id="b66"><text><SENT sid="518" pm="."><plain>ZengX., ZhangX. &amp; ZouQ. Integrative approaches for predicting microrna function and prioritizing disease-related microRNA using biological interaction networks. Brief Bioinform. 17, 193–203 (2015).26059461 </plain></SENT>
+</text></ref></ref-list></SecTag><fn-group><fn><p><text><SENT sid="519" pm="."><plain>Author Contributions T.S. and X.W. contributed the main idea, X.W. and F.G. performed the analysis and theoretical proofs, P.Z. and X.W. wrote the paper. </plain></SENT>
+<SENT sid="520" pm="."><plain>All authors reviewed the manuscript. </plain></SENT>
+</text></p></fn></fn-group></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><title>Module ADD simulating the ADD instruction.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>The dynamic transformation of topological structure and the numbers of spikes in neurons of ADD module during the ADD instruction simulation with neuron <inline-formula id="d33e5616"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e5617" xlink:href="srep27624-m206.jpg"/></inline-formula> finally activated.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><title>The dynamic transformation of topological structure and the numbers of spikes in neurons of ADD module during the ADD instruction simulation with neuron<inline-formula id="d33e5622"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e5623" xlink:href="srep27624-m207.jpg"/></inline-formula> finally activated.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4"><label>Figure 4</label><caption><title>Module SUB simulating the SUB instruction.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f4"/></fig></SecTag><SecTag type="FIG"><fig id="f5"><label>Figure 5</label><caption><title>The dynamic transformation of topological structure and the numbers of spikes in involved neurons in the SUB instruction simulation with neuron <inline-formula id="d33e5631"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e5632" xlink:href="srep27624-m208.jpg"/></inline-formula> finally activated.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f5"/></fig></SecTag><SecTag type="FIG"><fig id="f6"><label>Figure 6</label><caption><title>The dynamic transformation of topological structure and the numbers of spikes in involved neurons in the SUB instruction simulation with neuron<inline-formula id="d33e5637"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="d33e5638" xlink:href="srep27624-m209.jpg"/></inline-formula> finally activated.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f6"/></fig></SecTag><SecTag type="FIG"><fig id="f7"><label>Figure 7</label><caption><title>Outputting the computation result.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f7"/></fig></SecTag><SecTag type="FIG"><fig id="f8"><label>Figure 8</label><caption><title>The dynamic transformation of topological structure of the FIN module and the numbers of spikes in the neurons of FIN module and the environment.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f8"/></fig></SecTag><SecTag type="FIG"><fig id="f9"><label>Figure 9</label><caption><title>The INPUT module of system Π′.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f9"/></fig></SecTag><SecTag type="FIG"><fig id="f10"><label>Figure 10</label><caption><title>The dynamic transformation of topological structure of INPUT module and the numbers of spikes in the neurons of INPUT module.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f10"/></fig></SecTag><SecTag type="FIG"><fig id="f11"><label>Figure 11</label><caption><title>The deterministic ADD module of system Π′.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f11"/></fig></SecTag><SecTag type="FIG"><fig id="f12"><label>Figure 12</label><caption><title>The universal register machine <italic>M</italic><sub><italic>u</italic></sub> from<xref ref-type="bibr" rid="b47">47</xref>.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f12"/></fig></SecTag><SecTag type="FIG"><fig id="f13"><label>Figure 13</label><caption><title>The INPUT module of system Π″.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep27624-f13"/></fig></SecTag></floats-group></article>

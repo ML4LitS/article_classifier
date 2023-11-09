@@ -1,0 +1,900 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3542345</article-id><article-id pub-id-type="pmid">23326503</article-id><article-id pub-id-type="publisher-id">PONE-D-12-30792</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0053780</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Computational Biology</subject><subj-group><subject>Microarrays</subject><subject>Sequence Analysis</subject><subject>Systems Biology</subject></subj-group></subj-group><subj-group><subject>Genetics</subject><subj-group><subject>Epigenetics</subject><subj-group><subject>RNA interference</subject></subj-group></subj-group><subj-group><subject>Gene expression</subject><subj-group><subject>RNA interference</subject></subj-group></subj-group><subj-group><subject>Human Genetics</subject><subj-group><subject>Autosomal Dominant</subject><subj-group><subject>Polycystic Kidney Disease</subject></subj-group></subj-group></subj-group></subj-group><subj-group><subject>Model Organisms</subject><subj-group><subject>Animal Models</subject><subj-group><subject>Rat</subject></subj-group></subj-group></subj-group><subj-group><subject>Molecular cell biology</subject><subj-group><subject>Gene expression</subject><subj-group><subject>RNA interference</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Clinical Genetics</subject><subj-group><subject>Autosomal Dominant</subject><subj-group><subject>Polycystic Kidney Disease</subject></subj-group></subj-group></subj-group><subj-group><subject>Clinical Research Design</subject><subj-group><subject>Animal Models of Disease</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Parallel Analysis of mRNA and microRNA Microarray Profiles to Explore Functional Regulatory Patterns in Polycystic Kidney Disease: Using <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm Rat Model </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">MicroRNAs and ADPKD</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Dweep</surname><given-names>Harsh</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sticht</surname><given-names>Carsten</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kharkar</surname><given-names>Asawari</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pandey</surname><given-names>Priyanka</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gretz</surname><given-names>Norbert</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Medical Faculty Mannheim, Medical Research Center, University of Heidelberg, Mannheim, Germany</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Netaji Subhas Sanatorium, National Institute of Biomedical Genomics, West-Bengal, India</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Camussi</surname><given-names>Giovanni</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>University of Torino, Italy</addr-line>
+</aff><author-notes><corresp id="cor1">* E-mail: <email>norbert.gretz@medma.uni-heidelberg.de</email></corresp><fn fn-type="COI-statement"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: HD NG. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: HD. </plain></SENT>
+<SENT sid="4" pm="."><plain>Analyzed the data: HD CS AK PP. </plain></SENT>
+<SENT sid="5" pm="."><plain>Wrote the paper: HD NG. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>10</day><month>1</month><year>2013</year></pub-date><pub-date pub-type="ecorrected"><day>24</day><month>10</month><year>2014</year></pub-date><volume>8</volume><issue>1</issue><elocation-id>e53780</elocation-id><history><date date-type="received"><day>9</day><month>10</month><year>2012</year></date><date date-type="accepted"><day>3</day><month>12</month><year>2012</year></date></history><permissions><copyright-statement>© 2013 Dweep et al</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Dweep et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>Autosomal polycystic kidney disease (ADPKD) is a frequent monogenic renal disease, characterised by fluid-filled cysts that are thought to result from multiple deregulated pathways such as cell proliferation and apoptosis. </plain></SENT>
+<SENT sid="7" pm="."><plain>MicroRNAs (miRNAs) are small non-coding RNAs that regulate the expression of many genes associated with such biological processes and human pathologies. </plain></SENT>
+<SENT sid="8" pm="."><plain>To explore the possible regulatory role of miRNAs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>, the <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) rat, served as a model to study human ADPKD. </plain></SENT>
+<SENT sid="9" pm="."><plain>A parallel microarray-based approach was conducted to profile the expression changes of mRNAs and miRNAs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rats. </plain></SENT>
+<SENT sid="10" pm="."><plain>1,573 up- and 1,760 down-regulated genes were differentially expressed in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm. </plain></SENT>
+<SENT sid="11" pm="."><plain>These genes are associated with 17 pathways (such as focal adhesion, cell cycle, <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction, DNA replication and metabolic pathways) and 47 (e.g., cell proliferation, Wnt and Tgfβ signaling) Gene Ontologies. </plain></SENT>
+<SENT sid="12" pm="."><plain>Furthermore, we found the similar expression patterns of deregulated genes between <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) rat and human ADPKD, <z:uniprot sup="inside" fb="0" ids="Q7Z443">PKD1L3</z:uniprot>/L3, <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>−/−, <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α-deficient, and Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> models. </plain></SENT>
+<SENT sid="13" pm="."><plain>Additionally, several differentially regulated genes were noted to be target hubs for miRNAs. </plain></SENT>
+<SENT sid="14" pm="."><plain>We also obtained 8 significantly up-regulated miRNAs (<z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-199a-5p, −214, −146b, −21, −34a, −132, −31 and −503) in diseased kidneys of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rats. </plain></SENT>
+<SENT sid="15" pm="."><plain>Additionally, the binding site overrepresentation and pathway enrichment analyses were accomplished on the putative targets of these 8 miRNAs. </plain></SENT>
+<SENT sid="16" pm="."><plain>7 out of these 8 miRNAs and their possible interactions have not been previously described in ADPKD. </plain></SENT>
+<SENT sid="17" pm="."><plain>We have shown a strong overlap of functional patterns (pathways) between deregulated miRNAs and mRNAs in the <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) rat model. </plain></SENT>
+<SENT sid="18" pm="."><plain>Our findings suggest that several miRNAs may be associated in regulating pathways in ADPKD. </plain></SENT>
+<SENT sid="19" pm="."><plain>We further describe novel miRNAs and their possible targets in ADPKD, which will open new avenues to understand the pathogenesis of human ADPKD. </plain></SENT>
+<SENT sid="20" pm="."><plain>Furthermore they could serve as a useful resource for anti-fibrotic therapeutics. </plain></SENT>
+</text></SecTag></p></abstract><funding-group><funding-statement>This work was funded by the Research Council through Graduiertenkolleg 886 and by the German Federal Ministry of Research and Education through the National Genome Research Network (NGFN-2, Grant no. 01GR0450). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="12"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="21" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="22" pm="."><plain>MicroRNAs (miRNAs) comprise a recently discovered class of small, non-coding RNA molecules of 21–25 nucleotides in length that regulate the gene expression by base-pairing with the transcripts of their targets i.e. protein-coding genes, leading to down-regulation or repression of the target genes [1]. </plain></SENT>
+<SENT sid="23" pm="."><plain>However, target gene activation has also been described [2]. </plain></SENT>
+<SENT sid="24" pm="."><plain>miRNAs are involved in diverse regulatory pathways, including control of developmental timing, apoptosis, cell proliferation, cell differentiation, modulation of immune response to macrophages and organ development [1], [3] and are associated with a wide range of human diseases [3], [4], [5]. </plain></SENT>
+</text></p><p><text><SENT sid="25" pm="."><plain>Cilia, hair like structures [6], are evolutionary conserved organelles that extend from the cell surface into extracellular space [7] to perform diverse biological functions, including whole-cell locomotion, fluid movement; photo-, chemo-, and mechanosensation and sexual reproduction. </plain></SENT>
+<SENT sid="26" pm="."><plain>Recent findings show an important role of primary cilia in several signal transduction pathways, including Wnt [8], Hedgehog [9], <z:uniprot sup="inside" fb="0" ids="Q9PUF6,Q9DE49,P16234,P26618,P20786,Q8AXC7,P26619">platelet-derived growth factor receptor-alpha</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q9PUF6,Q9DE49,P16234,P26618,P20786,Q8AXC7,P26619">PDGFRα</z:uniprot>) [10] signaling cascades and cell cycle regulation [11]. </plain></SENT>
+<SENT sid="27" pm="."><plain>The biological importance of primary cilia in human diseases was ignored for a long time; however the dysfunction of cilia and the basal body has recently been recognised in numerous human pathologies (also termed as “ciliopathies” or “cilia-related disorders”) including polycystic kidney diseases (<z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>), nephronophthisis (NPHP), Bardet-Biedl syndrome (BBS) and Oral-facial-digital syndrome (OFD). </plain></SENT>
+<SENT sid="28" pm="."><plain>According to the ciliary hypothesis most of the proteins of cystic kidney diseases in humans, rats, mice, or zebrafish are expressed in primary cilia or centrosomes of the renal epithelial cells [7]. </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>Autosomal dominant polycystic kidney disease (ADPKD) is a frequent monogenic renal disease which occurs worldwide with a prevalence of about 1∶1,000 [12]. </plain></SENT>
+<SENT sid="30" pm="."><plain>This is characterised by development of fluid filled renal, hepatic and pancreatic cysts. </plain></SENT>
+<SENT sid="31" pm="."><plain>Nonetheless, the epigenetic factors which regulate cystogenesis are still unknown. </plain></SENT>
+<SENT sid="32" pm="."><plain>Although, accumulating evidence suggests several potential mechanisms such as deregulated cellular proliferation, abnormal programmed cell death (apoptosis), secretion of fluids into the tubular lumen, cyclic adenosine monophosphate (cAMP), irregular extracellular matrix interaction (<z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>) and defective planar cell polarity (<z:uniprot sup="inside" fb="96" ids="P13497,P98063,P42852,P80484,P51873,P80483,P51889,P42785,P51874,Q5W265">PCP</z:uniprot>) could promote cyst formation in ADPKD [13], [14], [15]. </plain></SENT>
+<SENT sid="33" pm="."><plain>For example, a primary defect in apoptotic regulation (e.g. <z:uniprot sup="inside" fb="0" ids="P10417,P49950">bcl-2</z:uniprot> null mice) can result in a cystic phenotype [16]. </plain></SENT>
+<SENT sid="34" pm="."><plain>Moreover, the kidney-specific overexpression of <z:uniprot sup="inside" fb="92" ids="Q9W4S7,P01108,P09416">Myc</z:uniprot> leads to a cystic phenotype and an increase in both proliferation and apoptosis [17], [18]. </plain></SENT>
+<SENT sid="35" pm="."><plain>In another study, the cAMP has been shown to play an important role in stimulating cell proliferation and fluid secretion associated with cyst formation in ADPKD [13]. </plain></SENT>
+<SENT sid="36" pm="."><plain>Interestingly, the knocking out of <z:uniprot sup="inside" fb="0" ids="Q9V5Z7,Q8SRK2,Q1M1A0,Q1M2P4,B7XIC4,Q25074,C4VBN2">aquaporins</z:uniprot> (such as <z:uniprot sup="inside" fb="0" ids="F6S3G9,Q8NBQ7,G5CTG8">AQP11</z:uniprot>) results in cysts formation and finally leads to renal failure, which is similar to <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> [15]. </plain></SENT>
+<SENT sid="37" pm="."><plain>Aberrant increases in basement membrane components (e.g., Laminin, <z:uniprot sup="inside" fb="48" ids="P07589,Q28275,P11722,Q28377,P02751,P11276,Q91400,Q91289,Q28749,P04937,Q91740">Fibronectin</z:uniprot> and Collagen IV) have also been described to cause <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="38" pm="."><plain>Due to these changes, the basement membrane could contribute to cyst initiation and expansion [19], [20]. </plain></SENT>
+<SENT sid="39" pm="."><plain>Of note, the key roles of metabolic pathways and their activators have also been reported in the progression of chronic kidney diseases (CKD) in human [21], [22]. </plain></SENT>
+</text></p><p><text><SENT sid="40" pm="."><plain>Mutant studies have identified some players in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> development and a transcriptional network involving <z:uniprot sup="inside" fb="0" ids="P35680,P27889,Q03365,Q5RER5,P23899,Q91910">Hepatocyte Nuclear Factor 1β</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P35680,P27889,Q03365,Q5RER5,P23899">HNF1β</z:uniprot>) [23], <z:uniprot sup="inside" fb="0" ids="Q90867,P20823,P22361,P15257,Q91474">HNF1α</z:uniprot> [24], <z:uniprot sup="inside" fb="0" ids="P41235,P49698,P22449,Q91766">HNF4α</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9BZE0">GLIS2</z:uniprot> [25] have been described recently. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>Rats or mice have been used as common model systems for the study of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="42" pm="."><plain>The inbred Hannover rat, <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+), has been efficiently used as a model for human <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> [26], [27]. </plain></SENT>
+<SENT sid="43" pm="."><plain>It is an autosomal dominant model for <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> resulting in cyst formation and slowly progressive chronic renal failure [26], [27]. </plain></SENT>
+<SENT sid="44" pm="."><plain>In the current investigation, (1) we performed microarray profiles using the <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm [26], [27] to measure the transcriptional changes (mRNA and miRNAs expressions), (2) comparative transcriptomic studies were conducted to elucidate the similarities with human ADPKD [28], mouse (<z:uniprot sup="inside" fb="0" ids="Q7Z443">PKD1L3</z:uniprot>/L3 [29] and <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>−/− [30]), <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α-deficient [24] and Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> [25], and (3) in addition we investigated the possible regulatory roles of miRNAs on the expression levels of mRNAs change in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm using miRWalk database [31]. </plain></SENT>
+<SENT sid="45" pm="."><plain>We also conducted miRNA binding site enrichment analysis to identify the overrepresented miRNAs. </plain></SENT>
+<SENT sid="46" pm="."><plain>Furthermore, pathway and Gene Ontology analyses were performed to evaluate enriched functional patterns. </plain></SENT>
+<SENT sid="47" pm="."><plain>We predicted miRNAs that could target significant pathways in ADPKD.  Figure 1  depicts the workflow of this study. </plain></SENT>
+<SENT sid="48" pm="."><plain>Our results suggest that several miRNAs may be involved in regulating the genetic switches in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="49" pm="."><plain>Additionally, we describe novel possible miRNA:mRNA signatures. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0053780-g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="50" pm="."><plain>Systematic workflow to explore functional regulatory patterns in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0053780.g001"/></fig></SecTag></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods" id="s2"><title><text><SENT sid="51" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="52" pm="."><plain>Ethics Statement </plain></SENT>
+</text></title><p><text><SENT sid="53" pm="."><plain>An ethical approval was granted by Regierungspraesidium Nordbaden to conduct this experiment on animals. </plain></SENT>
+</text></p></sec><sec id="s2b"><title><text><SENT sid="54" pm="."><plain>Animal Model </plain></SENT>
+</text></title><p><text><SENT sid="55" pm="."><plain>After approximately 40 generations of breeding Han:SPRD-cy rats which carry a dominant mutation that causes cystic kidneys and is an accepted model for human <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>, was registered as <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm-cy inbred strain of rats: polycystic kidney diseases, Mannheim, Germany hereafter designated as <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm. </plain></SENT>
+<SENT sid="56" pm="."><plain>In this study, <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm heterozygous (cy/+) and homozygous unaffected (+/+) 36 days old animals, littermates were investigated to profile expression differences in mRNAs and miRNAs. </plain></SENT>
+<SENT sid="57" pm="."><plain>Heterozygous rats develop slowly progressive cystic disease with interstitial fibrosis and thickened basement membranes [32]. </plain></SENT>
+<SENT sid="58" pm="."><plain>About 75% of the cysts are derived from the proximal tubule. </plain></SENT>
+<SENT sid="59" pm="."><plain>The cystic transformation starts with a sharp onset of basement membrane alterations and a loss of epithelial differentiation restricted to small focal areas [26]. </plain></SENT>
+<SENT sid="60" pm="."><plain>There is a substantial matrix overproduction and accumulation of collagen IV and laminin [26], [33]. </plain></SENT>
+</text></p><p><text><SENT sid="61" pm="."><plain>The control and diseased animals were sacrificed by cervical dislocation. </plain></SENT>
+<SENT sid="62" pm="."><plain>The left and right kidneys were immediately removed and preserved for histological analyses [34], and the genotypes were confirmed. </plain></SENT>
+</text></p></sec><sec id="s2c"><title><text><SENT sid="63" pm="."><plain>RNA Isolation and Affymetrix mRNA Microarray </plain></SENT>
+</text></title><p><text><SENT sid="64" pm="."><plain>Total RNA was extracted using TRIzol method according to manufacturer’s protocol (Invitrogen Life Technologies). </plain></SENT>
+<SENT sid="65" pm="."><plain>cDNA synthesis was performed using the SuperScript Choice System (Invitrogen Life Technologies, Invitrogen Corporation) according to manufacturer’s protocol. </plain></SENT>
+<SENT sid="66" pm="."><plain>Biotin-labeled cRNA was produced using ENZO BioArray HighYield RNA Transcript Labeling Kit. </plain></SENT>
+<SENT sid="67" pm="."><plain>Standard protocol from Affymetrix (Santa Clara, CA) with 3.3 µL of cDNA was used for the in vitro transcription (IVT). </plain></SENT>
+<SENT sid="68" pm="."><plain>Clean-up of the IVT product was done using CHROMA SPIN-100 columns (Clontech, USA). </plain></SENT>
+<SENT sid="69" pm="."><plain>Spectrophotometric analysis was used for quantification of cRNA with acceptable A260/A280 ratio of 1.9 to 2.1. </plain></SENT>
+<SENT sid="70" pm="."><plain>After that the cRNA was fragmented using Affymetrix defined protocol. </plain></SENT>
+<SENT sid="71" pm="."><plain>Labeled and fragmented cRNA was hybridised to 10 Affymetrix Rat 230_2 microarrays for 16 hours at 45°C using Affymetrix defined protocol. </plain></SENT>
+<SENT sid="72" pm="."><plain>Microarrays were washed using an Affymetrix fluidics station 450 and stained initially with <z:uniprot sup="inside" fb="19" ids="P22629">streptavidin</z:uniprot> phycoerythrin (SA-PE). </plain></SENT>
+<SENT sid="73" pm="."><plain>For each sample the signal was further enhanced by incubation with biotinylated goat anti-<z:uniprot sup="inside" fb="19" ids="P22629">streptavidin</z:uniprot> followed by a second incubation with SA-PE and a second round of intensities were measured. </plain></SENT>
+<SENT sid="74" pm="."><plain>Microarrays were scanned with Affymetrix Genechip scanner 3000 controlled by Affymetrix Genechip Command Console (Affymetrix Microarray Suite) software. </plain></SENT>
+</text></p></sec><sec id="s2d"><title><text><SENT sid="75" pm="."><plain>RNA Isolation and Affymetrix miRNA Microarray </plain></SENT>
+</text></title><p><text><SENT sid="76" pm="."><plain>Total RNA was isolated using Trizol method as described for mRNA microarrays followed by additional purification using the miRNeasy Mini Kit (Qiagen). </plain></SENT>
+<SENT sid="77" pm="."><plain>RNA was tested by capillary electrophoresis on an Agilent 2100 bioanalyzer (Agilent) and high quality was confirmed. </plain></SENT>
+<SENT sid="78" pm="."><plain>1 µg of total RNA was Biotinylated using FlashTag Biotin RNA Labeling Kit according to the manufacturer’s protocol (Genisphere LLC). </plain></SENT>
+<SENT sid="79" pm="."><plain>Labeled product was hybridised to 4 Affymetrix miRNA microarrays (Version 1.0) for 16 hours at 48°C with 60 rpm by using a GeneChip Hybridisation oven 640. </plain></SENT>
+<SENT sid="80" pm="."><plain>Microarrays were then washed and stained. </plain></SENT>
+<SENT sid="81" pm="."><plain>Thereafter, microarrays were scanned. </plain></SENT>
+</text></p></sec><sec id="s2e"><title><text><SENT sid="82" pm="."><plain>Statistical Analysis of Microarray Data </plain></SENT>
+</text></title><p><text><SENT sid="83" pm="."><plain>Before statistical evaluation, quality control and scatter plot analyses were carried out to minimise bad quality intensity signals, variation during chip hybridisation and separation of groups used for genetic profiling (Text S1). </plain></SENT>
+<SENT sid="84" pm="."><plain>Thereafter, the raw fluorescence intensity values were normalised by applying quantile normalisation. </plain></SENT>
+<SENT sid="85" pm="."><plain>Differential mRNA expression was analysed by one-way analysis of variance (ANOVA) [35], using SAS JMP7 Genomics, version 4, from SAS (SAS Institute, Cary, NC, USA). </plain></SENT>
+<SENT sid="86" pm="."><plain>A false discovery rate (FDR) correction was taken for multiple testing with 5% level of significance (α = 0.05). </plain></SENT>
+<SENT sid="87" pm="."><plain>A custom chip definition file (CDF, version 14 with Entrez GeneIDs based gene definitions) was employed to annotate the arrays [36]. </plain></SENT>
+<SENT sid="88" pm="."><plain>Similarly, the miRNA microarrays were analysed using customised “R script” (Bioconductor version 2.10 including affy and limma packages) to obtain differentially regulated miRNAs. </plain></SENT>
+<SENT sid="89" pm="."><plain>To verify the results of miRNA microarray, qRT-PCR assays (TaqMan miRNA assays) were performed. </plain></SENT>
+</text></p></sec><sec id="s2f"><title><text><SENT sid="90" pm="."><plain>Reverse Transcription and Quantitative Real-time PCR (qPCR) Analysis of miRNAs </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot> reactions were performed according to “TaqMan MicroRNA Assays” protocol (Applied Biosystems, USA). </plain></SENT>
+<SENT sid="92" pm="."><plain>TaqMan MicroRNA Reverse Transcription kit (Applied Biosystems) was used for cDNA synthesis. </plain></SENT>
+<SENT sid="93" pm="."><plain>The Reverse Transcription (RT) mix was prepared for cDNA synthesis and transferred into a single reaction tube. </plain></SENT>
+<SENT sid="94" pm="."><plain>2.5 µL diluted RNA (10 ng) was added to each tube. </plain></SENT>
+<SENT sid="95" pm="."><plain>The RT reaction was accomplished in the cycler with different incubations as indicated in the “TaqMan MicroRNA Assays” protocol (Applied Biosystems, USA). </plain></SENT>
+<SENT sid="96" pm="."><plain>Then Real-Time PCR was performed. </plain></SENT>
+<SENT sid="97" pm="."><plain>Thereafter, a master mix was prepared by adding 5 µL universal PCR Master Mix with NO UNGase from Applied Biosystems and 1 µL TaqMan probe. </plain></SENT>
+<SENT sid="98" pm="."><plain>The prepared master mix was aliquotted on the 96-well plate and then 4 µL of the template (cDNA) was added. </plain></SENT>
+<SENT sid="99" pm="."><plain>Cycling conditions were kept as indicated. </plain></SENT>
+</text></p><p><text><SENT sid="100" pm="."><plain>The real-time PCR was performed on MxPro – Mx3005P v4.01 Build 369, Schema 80 quantitative PCR software from Stratagene. </plain></SENT>
+<SENT sid="101" pm="."><plain>All the reactions were run in triplicates. </plain></SENT>
+<SENT sid="102" pm="."><plain>The threshold cycle (CT) is defined as the fractional cycle number at which the fluorescence passes the fixed threshold. </plain></SENT>
+<SENT sid="103" pm="."><plain>The expression of miRNA genes between control and <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) animals was determined according to manufacturer’s protocol. </plain></SENT>
+<SENT sid="104" pm="."><plain>The <z:uniprot sup="inside" fb="119" ids="Q6TEM9">mir</z:uniprot>-193a was chosen as an endogenous control because of its uniform expression in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm [34]. </plain></SENT>
+</text></p><p><text><SENT sid="105" pm="."><plain>The fold change expression of miRNAs among the two groups was examined by MxPro – Mx3005P software. </plain></SENT>
+<SENT sid="106" pm="."><plain>The significance of differences in relative expression of miRNAs among the two groups was tested by implementing t-test method in ‘R’. </plain></SENT>
+<SENT sid="107" pm="."><plain>The relative expression plots of miRNAs were created by using the same “R script”. </plain></SENT>
+</text></p></sec><sec id="s2g"><title><text><SENT sid="108" pm="."><plain>Gene Ontology and Pathway Enrichment Analysis </plain></SENT>
+</text></title><p><text><SENT sid="109" pm="."><plain>The DAVID database [37] was utilised to collect the statistically enriched pathways and GO terms information for 1,573 up- and 1,760 down-regulated genes that may modulate cystogenesis. </plain></SENT>
+</text></p></sec><sec id="s2h"><title><text><SENT sid="110" pm="."><plain>Comparison with Other ADPKD Datasets </plain></SENT>
+</text></title><p><text><SENT sid="111" pm="."><plain>ADPKD datasets with mutation in <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>: Pkd1L3/L3 [29], human ADPKD [28], <z:uniprot sup="inside" fb="0" ids="Q09624">Pkd1</z:uniprot>−/− [30] and Pandey et al [34] were downloaded from 4 published studies. </plain></SENT>
+<SENT sid="112" pm="."><plain>In human ADPKD study, the samples were collected from 5 polycystic kidneys having renal cysts of different sizes: small, medium and large. </plain></SENT>
+<SENT sid="113" pm="."><plain>The size of each cyst was determined by measuring the amount of cystic fluid. </plain></SENT>
+<SENT sid="114" pm="."><plain>The volume cut-off values of cystic fluid for defining the different sizes were set to less than 1 ml, between 10 to 25 ml, and greater than 50 ml for small, medium and large cysts, respectively. </plain></SENT>
+<SENT sid="115" pm="."><plain>All the patients used in this study were shown to have <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot> by DNA linkage or documentation of pathogenic mutation [28]. </plain></SENT>
+</text></p><p><text><SENT sid="116" pm="."><plain>The lists of significantly regulated genes of these 4 studies were compared with the differentially expressed genes observed in the cystic kidneys of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rats. </plain></SENT>
+<SENT sid="117" pm="."><plain>Moreover, the significantly regulated genes in cystic kidneys of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rats were also compared with two other studies that were conducted on <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α-deficient mice [24] and Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> model [25]. </plain></SENT>
+</text></p></sec><sec id="s2i"><title><text><SENT sid="118" pm="."><plain>miRNA Target Predictions and Enrichment Analysis </plain></SENT>
+</text></title><p><text><SENT sid="119" pm="."><plain>An “in-silico” screening of miRNA binding site predictions was carried out within deregulated genes by adopting the miRWalk algorithm [31]. </plain></SENT>
+<SENT sid="120" pm="."><plain>Furthermore, a meta-analysis for miRNA binding site predictions was performed using the comprehensive platform of miRWalk database. </plain></SENT>
+<SENT sid="121" pm="."><plain>The comparative platform of miRWalk database supplies the possible miRNA binding sites resulting from 10 different prediction datasets. </plain></SENT>
+<SENT sid="122" pm="."><plain>Moreover, integrating the results from multiple miRNA-target prediction algorithms can be very helpful in reducing the false positive targets [38], [39]. </plain></SENT>
+<SENT sid="123" pm="."><plain>Thus, the putative targets (genes) information for deregulated miRNAs were downloaded by interrogating the “MicroRNA Target web interface” which is implemented under the “Predicted Target module” of miRWalk database and then the commonly predicted genes were separated. </plain></SENT>
+<SENT sid="124" pm="."><plain>For overrepresentation analysis of miRNA binding site, a customised “R script” was used by implementing Fishers’ exact test with Benjamini and Hochberg (BH) as multiple testing (background correction) with 5% level of significance. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="s3"><title><text><SENT sid="125" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s3a"><title><text><SENT sid="126" pm="."><plain>Statistical Analysis of mRNA Microarray Profiling in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> </plain></SENT>
+</text></title><p><text><SENT sid="127" pm="."><plain>The expression of 3,333 genes was significantly changed between diseased and healthy kidneys (Table S1). </plain></SENT>
+<SENT sid="128" pm="."><plain>We found 1,573 genes as significantly up-regulated, whereas the remaining 1,760 genes were significantly down-regulated in diseased kidneys compared to healthy. </plain></SENT>
+</text></p><p><text><SENT sid="129" pm="."><plain>Several markers for the severity of tubular damage such as <z:uniprot sup="inside" fb="0" ids="Q5QNS5,O54947">Havcr1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q06890,P05371">Clu</z:uniprot> were found highly expressed in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="130" pm="."><plain>These genes are involved in tissue remodelling, immune/inflammatory response, cell adhesion, cell proliferation, cell migration and metabolic pathways [37].  Figure 2  shows the top 30 significantly regulated (15 up- and 15 down-regulated) genes, according to their p-values. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0053780-g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="131" pm="."><plain>Differential expression of top 30 genes in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> and control animals. </plain></SENT>
+</text></title><p><text><SENT sid="132" pm="."><plain>The heatmap was produced by clustering the data matrix of top 30 genes using Pearson correlation. </plain></SENT>
+<SENT sid="133" pm="."><plain>The gene clustering tree is shown on the left and the sample clustering tree is shown on the top. </plain></SENT>
+<SENT sid="134" pm="."><plain>The other information such as fold change expression, p-value, gene symbol and involvement are given on the right. </plain></SENT>
+<SENT sid="135" pm="."><plain>The samples are broadly divided into two groups, healthy (control) and <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="136" pm="."><plain>The color scale shown at the top illustrates the relative expression level of the indicated genes across all samples. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0053780.g002"/></fig></SecTag><p><text><SENT sid="137" pm="."><plain>We also observed up-regulation of multiple developmental genes including secreted modulators (<z:uniprot sup="inside" fb="0" ids="P98063">Bmp1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P34960,Q63341">Mmp12</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P97794,Q63664">Kcnj8</z:uniprot>) and integrin receptors subunit (<z:uniprot sup="inside" fb="0" ids="Q3V3R4,P18614">Itga1</z:uniprot>, 5 and 11) in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="138" pm="."><plain>Microarray analysis also showed many differentially expressed transcription factors (TFs) such as <z:uniprot sup="inside" fb="92" ids="Q9W4S7,P01108,P09416">Myc</z:uniprot>, Jun, <z:uniprot sup="inside" fb="0" ids="P42227,P52631">Stat3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9I8V2">Smad1</z:uniprot> were up-regulated, whereas <z:uniprot sup="inside" fb="0" ids="Q20363">Sip1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α, <z:uniprot sup="inside" fb="0" ids="P49698,P22449">Hnf4</z:uniprot>α and <z:uniprot sup="inside" fb="0" ids="Q98T94">Glis2</z:uniprot> were down-regulated in diseased kidneys. </plain></SENT>
+</text></p></sec><sec id="s3b"><title><text><SENT sid="139" pm="."><plain>Functional Enrichment Analysis of Differentially Regulated Genes in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> </plain></SENT>
+</text></title><p><text><SENT sid="140" pm="."><plain>We obtained 12 and 5 significantly enriched pathways linked with up- and down-regulated genes, respectively ( Table 1 ). </plain></SENT>
+<SENT sid="141" pm="."><plain>The most relevant pathways (such as focal adhesion, cell cycle, <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction, regulation of <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot> cytoskeleton and <z:uniprot sup="inside" fb="0" ids="O42781,Q00859,P27638">MAPK</z:uniprot> signaling) were found significantly up-regulated in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="142" pm="."><plain>We also noted 5 significant metabolic pathways on down-regulated genes. </plain></SENT>
+<SENT sid="143" pm="."><plain>Moreover, 45 and 2 GO biological processes were observed to be associated with up- and down-regulated genes, respectively ( Table 2  ). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0053780-t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="144" pm="."><plain>Differentially regulated pathways on significantly up- and –down-regulated genes. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0053780-t001-1" xlink:href="pone.0053780.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>Pathway </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>p-value </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>Fold Enrichment </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>Benjamini correction </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="4" align="left" rowspan="1"><text><SENT sid="149" pm="."><plain>Pathways associated with significantly up-regulated genes </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>Focal adhesion </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>1.47E−10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>2.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>2.41E−08 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>Cell cycle </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>6.32E−10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>3.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>5.18E−08 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain><z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>3.79E−09 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>3.68 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>2.07E−07 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>DNA replication </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>3.12E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>4.10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>Regulation of <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot> cytoskeleton </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>2.12E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>1.90 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>Fc gamma R-mediated phagocytosis </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>2.48E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>2.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>Pathways in cancer </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>3.77E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>1.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>0.005 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>Hematopoietic cell lineage </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>4.63E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>2.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>0.005 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>Chemokine signaling pathway </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>5.93E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>1.93 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>0.006 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>Leukocyte transendothelial migration </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>0.003 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>2.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>0.032 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>Neurotrophin signaling pathway </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>0.004 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>1.92 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O42781,Q00859,P27638">MAPK</z:uniprot> signaling pathway </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>0.004 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>1.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" rowspan="1"><text><SENT sid="198" pm="."><plain>Pathways associated with significantly down-regulated genes </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>Valine, leucine and isoleucine degradation </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>1.19E−13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>5.831178 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>2.17E−11 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>Fatty acid metabolism </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>4.22E−07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>4.342839 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>3.84E−05 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>Citrate cycle (TCA cycle) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>6.70E−06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>4.649392 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>4.06E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>Pantothenate and CoA biosynthesis </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>1.00E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>5.722329 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>0.006 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>Propanoate metabolism </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>5.00E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>3.576456 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>0.01 </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pone-0053780-t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="219" pm="."><plain>Differentially regulated GO biological processes associated with up- and down-regulated genes. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0053780-t002-2" xlink:href="pone.0053780.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>Gene Ontology Biological Process </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>p-value </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>Fold Enrichment </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>Benjamini correction </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="4" align="left" rowspan="1"><text><SENT sid="224" pm="."><plain>GO biological processes associated with up-regulated genes </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>Regulation of cell proliferation </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>1.76E−09 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>1.82 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>3.34E−07 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>Positive regulation of developmental process </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>3.42E−06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>1.96 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>2.28E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>Negative regulation of signal transduction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>4.68E−06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>2.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>2.92E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>Response to oxygen levels </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>1.67E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>2.14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>7.62E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>Response to cytokine stimulus </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>1.82E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>2.62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>8.03E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>Negative regulation of cell communication </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>2.20E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>2.04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>9.19E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>Regulation of cell cycle </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>5.13E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>1.95 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>Aging </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>5.55E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>2.27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>Tissue remodeling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>6.42E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>3.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain><z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> filament bundle formation </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>8.51E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>5.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0.002 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>Response to mechanical stimulus </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>2.01E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>2.74 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>Intracellular signaling cascade </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>2.17E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>1.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>0.005 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>Response to hypoxia </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>3.33E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>1.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>0.007 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>Cytokine-mediated signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>7.91E−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>2.75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>0.014 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>Transforming <z:uniprot sup="inside" fb="0" ids="Q8V307,Q776B5,P08072,Q6RZT5,P08441">growth factor</z:uniprot> beta receptor signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>3.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>0.021 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>Negative regulation of cell adhesion </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>3.56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>0.022 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>Myeloid leukocyte activation </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>2.88 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>0.022 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>Transmembrane receptor protein serine/threonine kinase </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>2.40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>0.023 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>Wnt receptor signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>2.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>0.026 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>Microtubule-based process </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>1.80 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>0.031 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>Microtubule cytoskeleton organization </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>2.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>0.033 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" rowspan="1"><text><SENT sid="309" pm="."><plain>GO biological processes associated with down-regulated genes </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>Oxidation reduction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>4.26E−07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>1.70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>1.74E−04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>Vesicle-mediated transport </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>1.33E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>1.72 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>0.002 </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag></sec><sec id="s3c"><title><text><SENT sid="318" pm="."><plain>Comparison with Other ADPKD Data Sets </plain></SENT>
+</text></title><p><text><SENT sid="319" pm="."><plain>We attempted to derive correlations among the gene expression changes in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> and a set of genes that modulate disease severity in our rat model, and human ADPKD. </plain></SENT>
+<SENT sid="320" pm="."><plain>We compared the significantly regulated genes of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) rat models with data obtained from 3 other published studies which include, <z:uniprot sup="inside" fb="0" ids="Q7Z443">PKD1L3</z:uniprot>/L3 [29], <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>−/− [30] and human ADPKD [28]. </plain></SENT>
+<SENT sid="321" pm="."><plain>A total of 599 (346 and 253 up-, and down-regulated, respectively) dysregulated genes were common between the <z:uniprot sup="inside" fb="0" ids="Q7Z443">PKD1L3</z:uniprot>/L3 and <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) with similar expression patterns (Table S2). </plain></SENT>
+<SENT sid="322" pm="."><plain>The comparison between <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) dataset and <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>−/− data showed 37 common genes (with up-regulated expression) (Table S3). </plain></SENT>
+<SENT sid="323" pm="."><plain>In a comparison of our data with human ADPKD dataset, a total of 38 dysregulated genes with up-regulated expression patterns were observed (Table S4). </plain></SENT>
+<SENT sid="324" pm="."><plain>Moreover, we obtained 315 up- and 127 down-regulated genes (with similar expressions) when our <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm dataset was compared with the data obtained from Pandey et al [34] (Table S5). </plain></SENT>
+<SENT sid="325" pm="."><plain>Notably, many pathways (such as focal adhesion, cell cycle, <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction, regulation of acting cytoskeleton, <z:uniprot sup="inside" fb="0" ids="P63085,P63086">Mapk</z:uniprot> and metabolic pathways) were also found as commonly deregulated in both datasets. </plain></SENT>
+</text></p></sec><sec id="s3d"><title><text><SENT sid="326" pm="."><plain>miRNA Microarray Data Analysis in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> and Validation of the Findings </plain></SENT>
+</text></title><p><text><SENT sid="327" pm="."><plain>The seven miRNAs i.e. <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-146b, -132, -21, -503, -199a-5p, -214 and -34a were determined as significantly up-regulated in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> as depicted in  Figure 3 . </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0053780-g003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.g003</object-id><label>Figure 3</label><caption><title><text><SENT sid="328" pm="."><plain>Overview of fold changes of miRNAs versus a measure of statistical significance. </plain></SENT>
+</text></title><p><text><SENT sid="329" pm="."><plain>The volcano plot shows the -log10 (p-value) on the y-axis and the fold change (log2) on the x-axis. </plain></SENT>
+<SENT sid="330" pm="."><plain>A cut-off [-log10 (p-value) = 1.86] was considered to determine differentially expressed miRNAs between diseased and health (control) animals. </plain></SENT>
+<SENT sid="331" pm="."><plain>Seven miRNAs i.e. <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-146b, -132, -21, -503, -199a-5p, -214 and -34a were found to be significantly up-regulated in diseased animals with a fold change ≥0.5 with significant p-value ≤0.01. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0053780.g003"/></fig></SecTag><p><text><SENT sid="332" pm="."><plain>In order to further verify the results of miRNA microarray analysis, we selected three candidates i.e. <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-199a-5p, -214 and -146b miRNAs for quantitative real-time PCR (qPCR) assays. </plain></SENT>
+<SENT sid="333" pm="."><plain>We also chose <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-31 as another candidate for qPCR due to its previous verification in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) rat model [34]. </plain></SENT>
+<SENT sid="334" pm="."><plain>Taqman assays showed increased expression of <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-199a-5p, -214, -146b and -31 in diseased kidneys ( Figure 4 ). </plain></SENT>
+<SENT sid="335" pm="."><plain>These results confirmed the outcomes of miRNA microarrays profiling for selected miRNAs ( Figure 3 ). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0053780-g004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.g004</object-id><label>Figure 4</label><caption><title><text><SENT sid="336" pm="."><plain>TaqMan assays for miRNAs. </plain></SENT>
+</text></title><p><text><SENT sid="337" pm="."><plain>The figure shows high abundance of transcripts of <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-146b, -199a-5p, -214 and -31 in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm (cy/+) rat model as observed on microarrays. ‘***’ indicates for p-value &lt;0.0001. </plain></SENT>
+<SENT sid="338" pm="."><plain>The black and white box plots represent cystic and healthy kidneys. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0053780.g004"/></fig></SecTag></sec><sec id="s3e"><title><text><SENT sid="339" pm="."><plain>Putative Targets Identification and Pathway Enrichment Analysis of 8 Up-regulated miRNAs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> </plain></SENT>
+</text></title><p><text><SENT sid="340" pm="."><plain>Approximately 33,500 miRNA-target interaction pairs were observed between 8 up-regulated miRNAs and all known genes of rat by performing an in-silico screening using miRWalk database. </plain></SENT>
+<SENT sid="341" pm="."><plain>Many genes were identified as the putative target of these 8 up-regulated miRNAs. </plain></SENT>
+</text></p><p><text><SENT sid="342" pm="."><plain>Moreover, about 37,306 binding pairs were also obtained on 8 miRNAs by interrogating the comparative platform of miRWalk database [31] (Table S6). </plain></SENT>
+<SENT sid="343" pm="."><plain>More than 100 common genes (such as <z:uniprot sup="inside" fb="0" ids="P42227,P52631">Stat3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P02340,P10361">Tp53</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q7ZVX0,Q6GN15">Ccnl1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P49002">Bmp3</z:uniprot>) were predicted as the putative targets of these 8 miRNAs by 6 different algorithms. </plain></SENT>
+</text></p><p><text><SENT sid="344" pm="."><plain>To determine the possible roles of these 8 up-regulated miRNAs in different pathways, we selected only those transcripts that were predicted by at least 2 algorithms. </plain></SENT>
+<SENT sid="345" pm="."><plain>Then, the significantly enriched pathways were evaluated using a customised R-script. </plain></SENT>
+<SENT sid="346" pm="."><plain>A total of 107 significantly enriched pathways were found on the putative target genes of these 8 miRNAs (Table S7). </plain></SENT>
+<SENT sid="347" pm="."><plain>Of note, 61 pathways (e.g., metabolic, Wnt signaling, adipocytokine signaling, calcium signaling, Tgf-β signaling and cell cycle) showed a strong overlap with the pathways resulting from 3,333 deregulated genes in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+</text></p></sec><sec id="s3f"><title><text><SENT sid="348" pm="."><plain>Possible Interactions Among Deregulated Genes and Up-regulated miRNAs </plain></SENT>
+</text></title><p><text><SENT sid="349" pm="."><plain>The miRWalk algorithm was adopted to identify the putative potential binding sites between deregulated genes and miRNAs during <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="350" pm="."><plain>More than 13,880 mRNA-miRNA interactions were observed. </plain></SENT>
+<SENT sid="351" pm="."><plain>The interaction pairs were decreased to 5,472, when a significant threshold cut-off p-value was set to 0.05.  Table 3  shows an overview of binding seeds of 8 miRNAs that were predicted within the different regions of 3,333 deregulated genes. </plain></SENT>
+<SENT sid="352" pm="."><plain>Notably, miR-214 was predicted to anneal with the maximum number of significant genes (1,118 i.e. 583 down- and 535 up-regulated) and its seeds were more specific to down-regulated genes ( Table 3 ). </plain></SENT>
+<SENT sid="353" pm="."><plain>The miR-34a was determined as the 2nd highest targeting miRNA which can anneal with 693 genes. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0053780-t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="354" pm="."><plain>Distribution of binding sites of 8 miRNAs within 3,333 deregulated genes. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0053780-t003-3" xlink:href="pone.0053780.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="4" align="left" rowspan="1"><text><SENT sid="355" pm="."><plain>Down-regulated genes (sites/genes) </plain></SENT>
+</text></td><td colspan="4" align="left" rowspan="1"><text><SENT sid="356" pm="."><plain>Up-regulated genes (sites/genes) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>miRNAs </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>5UTR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>CDS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>3UTR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>Enrichment (p-value) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>5UTR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>CDS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>3UTR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>Enrichment (p-value) </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>miR-214 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>101/71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>438/322 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>268/190 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>9.77E−15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>60/53 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>412/313 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>223/169 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>2.43E−09 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>miR-34a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>43/34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>249/188 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>155/124 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>7.42E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>41/37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>253/189 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>152/121 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>2.14E−12 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>miR-199a-5p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>33/28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>176/152 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>170/128 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>0.003 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>29/24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>164/129 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>139/93 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>Non-significant </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>miR-146b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>35/28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>177/128 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>147/105 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>1.17E−08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>19/16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>144/107 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>116/84 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>miR-503 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>46/50 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>106/119 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>151/56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>0.0002 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>47/61 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>63/119 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>164/55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>2E−06 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>miR-31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>62/34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>146/77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>65/109 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>1.05E−05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>67/40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>142/48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>60/126 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>8.54E−07 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>miR-132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>17/13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>71/59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>114/94 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>0.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>19/17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>55/42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>125/96 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>0.0007 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>miR-21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>9/7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>41/34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>65/55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>Non- significant </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>9/4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>35/27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>53/42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>Non-significant </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag><p><text><SENT sid="438" pm="."><plain>To further support these findings, we accomplished a binding sites overrepresentation analysis in which <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-34a (p-value = 2.14e−12), -31, -503, -214, -132 and -146b binding sites were observed as significantly enriched within up-regulated genes ( Table 3 ), whereas <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-214 (p-value = 9.77e−15), -146b, -31, -34a, -503, -199a-5p and -132 were determined as overrepresented within down-regulated genes ( Table 3  ). </plain></SENT>
+<SENT sid="439" pm="."><plain>The <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-34a and -214 were noticed as the highly overrepresented miRNAs within up- and down-regulated genes, respectively. </plain></SENT>
+<SENT sid="440" pm="."><plain>These findings support our previous assumption in which we found that <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-214 binding sites are abundantly present within down-regulated genes. </plain></SENT>
+</text></p><p><text><SENT sid="441" pm="."><plain>Furthermore, over 8,700 interactions were obtained by querying the comparative platform of miRWalk database (at least 2 algorithms). </plain></SENT>
+<SENT sid="442" pm="."><plain>33 (17 down-regulated: e.g., <z:uniprot sup="inside" fb="0" ids="P41216,P18163">Acsl1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q64518,P18596">Atp2a3</z:uniprot>, and <z:uniprot sup="inside" fb="0" ids="P10630,Q5RKI1">Eif4a2</z:uniprot> and 16 up-regulated: such as <z:uniprot sup="inside" fb="0" ids="P02340,P10361">Tp53</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P42227,P52631">Stat3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q8R1R4,Q4KM46">Il34</z:uniprot>) genes were predicted as target of these 8 miRNAs by 6 different algorithms. </plain></SENT>
+<SENT sid="443" pm="."><plain>Moreover, <z:uniprot sup="inside" fb="0" ids="P11276,P04937">Fn1</z:uniprot> was predicted to be a putative target of miR-146b (5 programs) and miR-503, -214, -31, -34a, -199a-5p, and -132 (2 programs). </plain></SENT>
+<SENT sid="444" pm="."><plain>These results indicate that the expression of 3,333 deregulated genes could be modulated by these 8 up-regulated miRNAs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+</text></p></sec><sec id="s3g"><title><text><SENT sid="445" pm="."><plain>Impact of 8 miRNAs on Dysregulated Pathways of 3,333 Deregulated Genes </plain></SENT>
+</text></title><p><text><SENT sid="446" pm="."><plain>We wanted to explore how many members of overrepresented pathways are the putative targets of these 8 up-regulated miRNAs and how their possible binding sites could promote cysts formation in healthy kidneys. </plain></SENT>
+<SENT sid="447" pm="."><plain>Toward this task, we determined over 700 and 150 putative binding seeds (7 to 12 nt long) of these 8 miRNAs within the different regions of the members engaged with significantly up- and down-regulated pathways. </plain></SENT>
+<SENT sid="448" pm="."><plain>Few examples include; <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-214 can target <z:uniprot sup="inside" fb="0" ids="A2A863,Q64632">Itgb4</z:uniprot> (focal adhesion, <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor and <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot> cytoskeleton), <z:uniprot sup="inside" fb="0" ids="O70460">Ccl19</z:uniprot> (chemokine signaling), <z:uniprot sup="inside" fb="0" ids="Q95XQ8">Mcm4</z:uniprot> (cell cycle and DNA replication) and <z:uniprot sup="inside" fb="0" ids="Q9QXE7">Tbl1x</z:uniprot> (Wnt signaling). </plain></SENT>
+</text></p><p><text><SENT sid="449" pm="."><plain> Table 4  depicts a comprehensive atlas of the possible binding sites of these 8 miRNAs within the deregulated members of differentially regulated pathways. </plain></SENT>
+<SENT sid="450" pm="."><plain>Notably, <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-214 was predicted to have maximum number of binding sites within the representative members of down-regulated pathways, whereas, <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-34a was detected as miRNA hub having maximum number of interactions within the members of up-regulated pathways. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0053780-t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0053780.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="451" pm="."><plain>Overview of binding site predictions of 8 miRNAs within the representative members of deregulated pathways. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0053780-t004-4" xlink:href="pone.0053780.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>Terms </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>miR-132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>miR-146b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>miR-199a-5p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>miR-21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>miR-214 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>miR-31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>miR-34a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>miR-503 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>N (interaction) </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="10" align="left" rowspan="1"><text><SENT sid="462" pm="."><plain>Up-regulated pathways </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O42781,Q00859,P27638">MAPK</z:uniprot> signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>79 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>Focal adhesion </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>74 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain><z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> cytoskeleton </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>60 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>Cell cycle </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>58 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>Cytokine-cytokine </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>54 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>Chemokine signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>52 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>CAMs </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>46 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain><z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>40 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>Wnt signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>39 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>VSMC signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>29 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain><z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>27 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>Calcium signaling </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>23 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>Apoptosis </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>23 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>DNA replication </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>22 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>Jak-<z:uniprot sup="inside" fb="30" ids="P35610,P08457">STAT</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>21 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>TGF-beta </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>16 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>Phosphatidylinositol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>15 </plain></SENT>
+</text></td></tr><tr><td colspan="10" align="left" rowspan="1"><text><SENT sid="633" pm="."><plain>Significantly down-regulated pathways </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>V.L.I. degradation </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>54 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>Fatty acid metabolism </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>32 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>Propanoate metabolism </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>25 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>Citrate cycle (TCA cycle) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>18 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>Pantothenate and CoA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>18 </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s4"><title><text><SENT sid="684" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="685" pm="."><plain>Parallel mRNA and miRNA microarray profiling in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> revealed 3,333 significantly deregulated genes and 8 up-regulated miRNAs, respectively. </plain></SENT>
+<SENT sid="686" pm="."><plain>The expression patterns of nephron segment-specific genes (e.g., <z:uniprot sup="inside" fb="0" ids="Q9Z2V4,P07379">Pck1</z:uniprot>, Kcnj1a and <z:uniprot sup="inside" fb="0" ids="Q9WU39,P37091">Scnn1g</z:uniprot>) were down-regulated. </plain></SENT>
+<SENT sid="687" pm="."><plain>Of note, we found up-regulation of multiple developmental genes (e.g., <z:uniprot sup="inside" fb="0" ids="P98063">Bmp1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P34960,Q63341">Mmp12</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P97794,Q63664">kcnj8</z:uniprot>), transcription factors (TFs) (e.g., <z:uniprot sup="inside" fb="92" ids="Q9W4S7,P01108,P09416">Myc</z:uniprot>, Ap1, <z:uniprot sup="inside" fb="0" ids="P42227,P52631">Stat3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P70403,P53564,P53565">Cux1</z:uniprot>) and integrins (e.g., <z:uniprot sup="inside" fb="0" ids="Q3V3R4,P18614">Itga1</z:uniprot>, 2b, a3, 5 and b11). </plain></SENT>
+<SENT sid="688" pm="."><plain>Many of these members are closely related to ureteric bud formation, outgrowth and branching during metanephric kidney development [28], [29], [40]. </plain></SENT>
+<SENT sid="689" pm="."><plain>On the other hand, up-regulation of genes i.e. <z:uniprot sup="inside" fb="0" ids="P98063">Bmp1</z:uniprot>, Tgfβ1, Tgfβ2, Tgfβr1 and Tgfβr2 suggest epithelial-mesenchymal transition (EMT). </plain></SENT>
+<SENT sid="690" pm="."><plain>Taken together, these data suggest re-activation of signaling pathways for renal development and repair in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm renal cysts. </plain></SENT>
+<SENT sid="691" pm="."><plain>Further, the previous studies of the cystic kidneys implicated TGF-β in renal cell hypertrophy and extracellular matrix (<z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>) deposition in diabetic nephropathy [41] and <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> [42]. </plain></SENT>
+<SENT sid="692" pm="."><plain>The expression of <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot> components such as <z:uniprot sup="inside" fb="0" ids="Q9D1D6,Q8CG08">Cthrc1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P11276,P04937">Fn1</z:uniprot> and Collagens was significantly higher in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="693" pm="."><plain><z:uniprot sup="inside" fb="92" ids="Q17103,P10395,P01110,P06295,P0C0N8,P0C0N9,P12523,Q2HJ27,P49032,Q28350,P01109,P68271,P68272,P21438,Q9MZU0,P01106,P49033,B8XIA5,P22555,A1YG22,P23583,Q29031,A2T7L5,Q9MZT8,Q28566,Q9MZT6,Q9MZT7,Q9MZT9">MYC</z:uniprot> gene is often found up-regulated in human ADPKD [17] and we also detected the similar expression in our study. <z:uniprot sup="inside" fb="92" ids="Q17103,P10395,P01110,P06295,P0C0N8,P0C0N9,P12523,Q2HJ27,P49032,Q28350,P01109,P68271,P68272,P21438,Q9MZU0,P01106,P49033,B8XIA5,P22555,A1YG22,P23583,Q29031,A2T7L5,Q9MZT8,Q28566,Q9MZT6,Q9MZT7,Q9MZT9">MYC</z:uniprot> is known to be involved in cell proliferation, apoptosis, differentiation and neoplasia [18]. </plain></SENT>
+<SENT sid="694" pm="."><plain>Of note, in the kidneys of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> patients, both apoptosis and proliferation are associated with increased expression of <z:uniprot sup="inside" fb="92" ids="Q9W4S7,P01108,P09416">Myc</z:uniprot> [43]. </plain></SENT>
+</text></p><p><text><SENT sid="695" pm="."><plain>Interestingly, <z:uniprot sup="inside" fb="0" ids="P31482,P14423">Pla2g2a</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P47713,P50393">Pla2g4a</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9WV91,Q62786">Ptgfrn</z:uniprot> genes (involved in cAMP mediated signaling and calcium regulation) were also up-regulated, while negative regulators (such as <z:uniprot sup="inside" fb="0" ids="Q23376">Rgs9</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q8CGE9,O08774">Rgs12</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P97492,O08773">Rgs14</z:uniprot>) of GPCR signaling were down-regulated. </plain></SENT>
+<SENT sid="696" pm="."><plain>These transcriptomic changes suggest a modification in GPCR signaling that may result in the regulation of cAMP and calcium signaling in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="697" pm="."><plain>We also observed up-regulation of <z:uniprot sup="inside" fb="0" ids="Q80TL1,P26769">Adcy2</z:uniprot>. </plain></SENT>
+<SENT sid="698" pm="."><plain>This gene may elevate the cAMP signaling in cysts which further leads to proliferation [44]. </plain></SENT>
+<SENT sid="699" pm="."><plain>An increased in the cAMP production has previously been shown to stimulate renal cystic epithelial proliferation in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> [44]. </plain></SENT>
+</text></p><p><text><SENT sid="700" pm="."><plain>Notably, the additional genes (down-regulated: <z:uniprot sup="inside" fb="0" ids="Q9QY53">Nphp1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9VYM3,Q5SW45,Q499Q5">Mks1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q5CZ52">Bbs4</z:uniprot>; up-regulated: <z:uniprot sup="inside" fb="0" ids="Q9U1S7">Pkd2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="B0DOB4">Nphp4</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9XW70">Bbs7</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q80Z25">Ofd1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9DE49,Q8AXC7,P26619">Pdgfra</z:uniprot>) associated with ciliary function or renal cystic disorders were also differentially expressed in diseased kidneys. </plain></SENT>
+<SENT sid="701" pm="."><plain>Abnormal expression of <z:uniprot sup="inside" fb="0" ids="Q9U1S7">Pkd2</z:uniprot> leads to disrupt multiple biological processes (e.g., cell division, proliferation, and deregulated cell-matrix and/or cell-cell interactions). </plain></SENT>
+<SENT sid="702" pm="."><plain>The up-regulation of similar processes such as cell cycle, proliferation, <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction and focal adhesion were also noticed in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="703" pm="."><plain>Moreover, 12 pathways (such as focal adhesion, cell cycle and <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction) were identified as significantly up-regulated in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="704" pm="."><plain>Previous studies suggested that an aberrant activation of these pathways plays a role in ADPKD. </plain></SENT>
+<SENT sid="705" pm="."><plain>Therefore, these genes might be considered as potential markers for the activation of complex network processes that may promote cysts in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> animals. </plain></SENT>
+<SENT sid="706" pm="."><plain>Additionally, we also obtained five significantly down-regulated metabolic pathways ( Table 1 ). </plain></SENT>
+</text></p><p><text><SENT sid="707" pm="."><plain>miRNAs have emerged as mediators of gene expression. </plain></SENT>
+<SENT sid="708" pm="."><plain>They direct the regulation of cellular processes include; differentiation, proliferation, cell-cell interaction, cell death, metabolism and many diseases. </plain></SENT>
+<SENT sid="709" pm="."><plain>Another important aim of this study was to determine the possible regulatory role of miRNAs in ADPKD. </plain></SENT>
+<SENT sid="710" pm="."><plain>Several potential binding sites were observed between 3,333 deregulated genes and 8 up-regulated miRNAs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> using the miRWalk database [31]. </plain></SENT>
+<SENT sid="711" pm="."><plain>A few potential interactions are: <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-214, -31, -199a-5p, -21, -34a and -132 were predicted to target several down-regulated TFs such as <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α, <z:uniprot sup="inside" fb="0" ids="Q8K120,D3Z9H7">Nfatc4</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q98T94">Glis2</z:uniprot>. </plain></SENT>
+<SENT sid="712" pm="."><plain>These TFs may play a crucial role (either positive or negative regulators) in the promoter region of deregulated genes in the cystic kidneys. </plain></SENT>
+<SENT sid="713" pm="."><plain>Our findings show an agreement with a previous study that states miRNAs often control the expression of key genes by annealing within the sequence of upstream flanking regions’ regulators (repressors or enhancers) [45]. </plain></SENT>
+</text></p><p><text><SENT sid="714" pm="."><plain>The <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-199a-5p/214 transcript was previously reported during development [46] and epithelial ovarian cancer cells [47]. </plain></SENT>
+<SENT sid="715" pm="."><plain>The implications of miR-146a (but not miR-146b) have been shown in chronic renal inflammation [48], human renal cell carcinoma [49] and retinoic acid induction in acute promyelocytic leukemia [50]. </plain></SENT>
+<SENT sid="716" pm="."><plain>The miR-21 has been reported to promote mostly fibrosis [51], to correlate lower kidney cancer survival [52] and to modulate cell apoptosis in renal cell carcinoma [53]. </plain></SENT>
+<SENT sid="717" pm="."><plain>The <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-31 is the only miRNAs that has been previously reported in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> [34]. </plain></SENT>
+<SENT sid="718" pm="."><plain>Of note, 7 of these 8 miRNAs have not been previously reported in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="719" pm="."><plain>miRNAs direct the temporal changes in the expression of the representative members of key signaling pathways, as these small changes may alter the responsiveness of cells to signaling molecules (such as TGF-β, Wnt, <z:uniprot sup="inside" fb="141" ids="P46530">Notch</z:uniprot>, and EGF) [54]. </plain></SENT>
+<SENT sid="720" pm="."><plain>Once an inhibitor (e.g., <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α, <z:uniprot sup="inside" fb="0" ids="P49698,P22449">Hnf4</z:uniprot>α, <z:uniprot sup="inside" fb="0" ids="Q98T94">Glis2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q20363">Sip1</z:uniprot>) of signaling networks is down-regulated by one or more miRNAs, these miRNAs then act as a positive regulator which further amplifies the expression of many genes engaged with human pathologies. </plain></SENT>
+<SENT sid="721" pm="."><plain>Such possible regulatory roles were also observed in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="722" pm="."><plain>For example, the putative seeds of miR-199a-5p (9nt long seed) and miR-34a (7nt long seed) within 3′-UTR region of <z:uniprot sup="inside" fb="6" ids="P68764,O11451,P68763,P69181,P69182,P69183,P69184,O11452,P68765,P40305,P0C6L4,P0C6L5,P29996,P0C6L6,P0C6M1,P0C6L7,P0C6L8,P0C6M2,P0C6M3,P0C6L9,P0C6M0,P0C6M4,P0C6M5,P0C6M8,P0C6M6,P0C6M7,P0C6M9,Q9QBU2,P9WI00,P9WI01,Q9Y3B3,D3ZTX0,O74503">p27</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P46414">Cdkn1b</z:uniprot>) suggest the possibility that this gene may be down-regulated by these 2 miRNAs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="723" pm="."><plain>The <z:uniprot sup="inside" fb="6" ids="P68764,O11451,P68763,P69181,P69182,P69183,P69184,O11452,P68765,P40305,P0C6L4,P0C6L5,P29996,P0C6L6,P0C6M1,P0C6L7,P0C6L8,P0C6M2,P0C6M3,P0C6L9,P0C6M0,P0C6M4,P0C6M5,P0C6M8,P0C6M6,P0C6M7,P0C6M9,Q9QBU2,P9WI00,P9WI01,Q9Y3B3,D3ZTX0,O74503">p27</z:uniprot> is a CDKs (<z:uniprot sup="inside" fb="1" ids="Q00268,Q00265,O01377,P24314,P17917,P12004,P17918,P17070,P61074,P31008,P04961,O16852,P22177,P53358,P18248">cyclin</z:uniprot>-dependent kinases) inhibitor of the cell cycle at G1 phase (<z:uniprot sup="inside" fb="0" ids="O61847">Cdk2</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q9Z238">Ccne2</z:uniprot> complex). </plain></SENT>
+<SENT sid="724" pm="."><plain>Furthermore, Apc (down-regulated) was predicted as a putative target of miR-214 with a seed of 10nt long. Apc (an E3 <z:uniprot sup="inside" fb="2" ids="P69310,Q865C5,P68197,P19848,Q8SWD4,P69313,P84589,P69317,P62975,P69326">ubiquitin</z:uniprot> ligase) gene stimulates the cell cycle progression by degrading checkpoint proteins such as <z:uniprot sup="inside" fb="0" ids="P24860,P30277">Ccnb1</z:uniprot> (up-regulated). </plain></SENT>
+<SENT sid="725" pm="."><plain>Moreover, three miRNAs (miR-199a-5p, -214 and -132) were predicted to anneal within 3′-UTR of <z:uniprot sup="inside" fb="0" ids="P13405,P33568">Rb1</z:uniprot> (down-regulated) which is also a cell cycle inhibitor. </plain></SENT>
+<SENT sid="726" pm="."><plain>Several other down-regulated genes such as <z:uniprot sup="inside" fb="0" ids="Q9JHE6">Hes6</z:uniprot> (inhibits cell proliferation), <z:uniprot sup="inside" fb="1" ids="Q64700,O55081">Rbl2</z:uniprot> (tumour suppressor and inhibitor of E2F target genes) and <z:uniprot sup="inside" fb="0" ids="P20067,P41135">Id1</z:uniprot> (a bHLH transcription factor that regulates cell proliferation by supressing <z:uniprot sup="inside" fb="14" ids="O19002,P38936,P39689,Q07828,P50633,P50634,Q62092,Q08545,P61585,P63028,Q11118">p21</z:uniprot> or <z:uniprot sup="inside" fb="0" ids="P39689">Cdkn1a</z:uniprot>, a CDKs inhibitor) were also observed as the putative targets of <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-503, -214 and -146b and -503. </plain></SENT>
+<SENT sid="727" pm="."><plain>Of note, <z:uniprot sup="inside" fb="0" ids="Q61371">Ift88</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q6NWV3">Ift122</z:uniprot> were determined as the possible targets of <z:uniprot sup="inside" fb="6" ids="Q7YZH1,Q29EQ3">rno</z:uniprot>-miR-199a-5p and -214. </plain></SENT>
+<SENT sid="728" pm="."><plain>These genes were noticed as significantly down-regulated in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="729" pm="."><plain>It has been previously shown that a small interfering in <z:uniprot sup="inside" fb="0" ids="Q61371">Ift88</z:uniprot> accelerates cell cycle progression with an increase in proliferation (reviewed in [55]). </plain></SENT>
+<SENT sid="730" pm="."><plain>Our putative findings suggest that these 8 miRNAs could mediate the down-regulation of the crucial checkpoint genes (inhibitors) of the cell cycle, and proliferation and may result in the aberrant activation of these processes which may lead to <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="731" pm="."><plain>Moreover, the importance of apoptosis has been highlighted in which the inactivation of apoptosis inhibitors such as <z:uniprot sup="inside" fb="0" ids="P10417,P49950">Bcl2</z:uniprot> causes CKD [16]. </plain></SENT>
+<SENT sid="732" pm="."><plain>3 miRNAs (miR-34a, -21 and -503) were predicted to target <z:uniprot sup="inside" fb="0" ids="P10417,P49950">Bcl2</z:uniprot> gene (down-regulated). </plain></SENT>
+<SENT sid="733" pm="."><plain>These 3 miRNAs may decrease the expression of <z:uniprot sup="inside" fb="0" ids="P10417,P49950">Bcl2</z:uniprot> and could cause <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> via abnormal activation of apoptosis. </plain></SENT>
+<SENT sid="734" pm="."><plain>Interestingly, other down-regulated genes that encode for cilia and <z:uniprot sup="inside" fb="96" ids="P13497,P98063,P42852,P80484,P51873,P80483,P51889,P42785,P51874,Q5W265">PCP</z:uniprot> signaling proteins such as <z:uniprot sup="inside" fb="0" ids="Q61037,P49816">Tsc2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q8K1R7">Nek9</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q5CZ52">Bbs4</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9VYM3,Q5SW45,Q499Q5">Mks1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P51141,Q9WVB9">Dvl1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9U1S7">Pkd2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P09671">Sod2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P43446">Wnt10a</z:uniprot> were also determined as the putative targets of these 8 up-regulated miRNAs. </plain></SENT>
+<SENT sid="735" pm="."><plain>Altogether, it can be concluded that these mRNA:miRNA interactions may result in ADPKD via the dysregulation of cell cycle, differentiation, orientation, proliferation and apoptosis. </plain></SENT>
+<SENT sid="736" pm="."><plain>The abnormalities in these pathways have previously been reported in human ADPKD [17], [56], [57]. </plain></SENT>
+</text></p><p><text><SENT sid="737" pm="."><plain>Interestingly, several potential interactions between 8 up-regulated miRNAs and 6 down-regulated <z:uniprot sup="inside" fb="0" ids="Q9V5Z7,Q8SRK2,Q1M1A0,Q1M2P4,B7XIC4,Q25074,C4VBN2">aquaporins</z:uniprot> (AQPs) genes were observed for examples: miR-199a-5p, -214 and -503 can anneal to <z:uniprot sup="inside" fb="0" ids="Q02013,P29975">Aqp1</z:uniprot> and Aqp12a with octamer seeds; and <z:uniprot sup="inside" fb="0" ids="P55088,P47863">Aqp4</z:uniprot> has multiple 9nt long binding sites for miR-132. </plain></SENT>
+<SENT sid="738" pm="."><plain>These binding sites may explain why the kidneys of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rats have enlarged cysts. </plain></SENT>
+<SENT sid="739" pm="."><plain>Since, AQPs are the most important water channel for transepithelial water permeability, and exit pathway for water that enters the cell [58] and most importantly their knocking out resulted in renal failure, which is similar to <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> [15], [59], [60]. </plain></SENT>
+<SENT sid="740" pm="."><plain>These miRNA-mediated down-regulations could abolish these exit doors. </plain></SENT>
+<SENT sid="741" pm="."><plain>Notably, these interactions have not been previously described in ADPKD. </plain></SENT>
+</text></p><p><text><SENT sid="742" pm="."><plain>Also, miR-214 and -503 were predicted to hybridise with <z:uniprot sup="inside" fb="0" ids="Q95N78,O35507,Q07869,P23204,Q8HYL6,P37230,P37232">Peroxisome proliferator-activated receptor α</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P23204,P37230">Ppar</z:uniprot>α) (down-regulated) with octamer seeds. <z:uniprot sup="inside" fb="0" ids="P23204,P37230">Ppar</z:uniprot>α is a major TF that regulates a number of lipid oxidation and metabolism pathways. </plain></SENT>
+<SENT sid="743" pm="."><plain>Moreover, many genes (such as <z:uniprot sup="inside" fb="0" ids="Q8K370">Acad10</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9EPL9,Q63448">Acox3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P52825,P18886">Cpt2</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="G5EGA6">Dhrs4</z:uniprot> and Sult5a1) regulated by <z:uniprot sup="inside" fb="0" ids="P23204,P37230">Ppar</z:uniprot>α were also found down-regulated on mRNA-chips and predicted targets of 8 miRNAs. </plain></SENT>
+<SENT sid="744" pm="."><plain>These genes are closely engaged with lipid and other metabolic pathways. </plain></SENT>
+<SENT sid="745" pm="."><plain>It has been previously described that <z:uniprot sup="inside" fb="0" ids="P23204,P37230">Ppar</z:uniprot>α plays a central role in controlling epithelial signals to the interstitium that promote fibrosis via inhibiting the appearance of myofibroblasts as directed by α smooth muscle <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actins</z:uniprot> (e.g., <z:uniprot sup="inside" fb="0" ids="Q7TPR4,Q9Z1P2">Actn1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P60710,P60711">Actb</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P63268,P63269">Actg2</z:uniprot>) and inhibiting the development of interstitial fibrosis [51]. </plain></SENT>
+<SENT sid="746" pm="."><plain>The miRNA-mediated down-regulation of <z:uniprot sup="inside" fb="0" ids="P23204,P37230">Ppar</z:uniprot>α and alteration in lipid metabolism pathways could lead to kidney injury and fibrosis as observed in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="747" pm="."><plain>Furthermore, recent studies identify metabolic pathways and genes regulating them as significantly and independently linked with the progression of CKD [21], [22]. </plain></SENT>
+</text></p><p><text><SENT sid="748" pm="."><plain>Most, but not all types of CKD are complicated by an excessive accumulation and deposition of <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot> that progressively leads to destruction of functional nephrons (tubulointerstitial fibrosis). </plain></SENT>
+<SENT sid="749" pm="."><plain>The miRNA-mediated inhibition of E-Box repressors (e.g., <z:uniprot sup="inside" fb="0" ids="Q64318,Q62947">Zeb1</z:uniprot>) of upstream flanking region of fibrotic genes (such as <z:uniprot sup="inside" fb="0" ids="P11276,P04937">Fn1</z:uniprot> and Collagens) under chronic Tgfβ signaling has been demonstrated to drive renal fibrosis [61]. </plain></SENT>
+<SENT sid="750" pm="."><plain>Similarly, 5 miRNAs (e.g., miR-214, -31 and -34a) were predicted to target down-regulated genes such as <z:uniprot sup="inside" fb="0" ids="Q98T94">Glis2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α. </plain></SENT>
+<SENT sid="751" pm="."><plain>A small interference in the expression patterns of these inhibitors may result in <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot> deposition and could lead to fibrosis as described in previous studies (associated with <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>). </plain></SENT>
+<SENT sid="752" pm="."><plain>For example, a renal-specific inactivation of <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α in mice has been implicated in polycystic kidney disease and shown to mediate the down-regulation of several cystic disease genes localised to primary cilia, including <z:uniprot sup="inside" fb="0" ids="Q61371">Ift88</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q6NWV3">Ift122</z:uniprot> [23]. </plain></SENT>
+<SENT sid="753" pm="."><plain>On the other hand, <z:uniprot sup="inside" fb="0" ids="Q98T94">Glis2</z:uniprot> has been described as a transcriptional repressor for several genes during the expression profiling of kidneys between wild type and Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> mice [25]. </plain></SENT>
+<SENT sid="754" pm="."><plain>Moreover, the development of fibrosis in Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> mice accompanied by increased synthesis of various <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot> components, such as various types of collagen, <z:uniprot sup="inside" fb="0" ids="O08999,O35806">Ltbp2</z:uniprot>/4, <z:uniprot sup="inside" fb="0" ids="P11276,P04937">Fn1</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P48616,P09654,P84198,P48670,Q92155,P08670,Q4R4X4,P02544,P20152,P48674,Q5R1W8,P02543,P31000,Q9MZA9">vimentin</z:uniprot> (<z:uniprot sup="inside" fb="17" ids="P20152,P31000">Vim</z:uniprot>) has also been described [25]. </plain></SENT>
+<SENT sid="755" pm="."><plain>Furthermore, a comparison of human ADPKD and <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm datasets was conducted in which 38 genes were identified with similar expression patterns (Table S4). </plain></SENT>
+<SENT sid="756" pm="."><plain>These genes are the representatives of <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction, focal adhesion, cell cycle, proliferation and metabolic pathways. </plain></SENT>
+<SENT sid="757" pm="."><plain>Also, 174 genes were found with common expression patterns in a comparison with Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> dataset (Table S8). </plain></SENT>
+<SENT sid="758" pm="."><plain>Moreover, 117 genes were noticed with similar expression patterns (87 up- and 30 down-regulated), when the dataset of our ADPKD model was compared with the dataset of <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α-deficient mice [24] (Table S8). </plain></SENT>
+<SENT sid="759" pm="."><plain>Taken together, this data suggest a direct transcriptional hierarchy in which <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α and <z:uniprot sup="inside" fb="0" ids="Q98T94">Glis2</z:uniprot> regulate other cystic genes. </plain></SENT>
+<SENT sid="760" pm="."><plain>It can be assumed that these 8 up-regulated miRNAs may promote renal fibrosis by targeting the upstream E-Box repressors of up-regulated genes in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="761" pm="."><plain>Therefore, these discoveries postulate a possibility by which the down-regulation of these 8 miRNAs may restore the normal expression of the crucial members of the altered pathways (such as focal adhesion, cell cycle, regulation of <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot> cytoskeleton, <z:uniprot sup="inside" fb="33" ids="Q13201">ECM</z:uniprot>-receptor interaction and metabolic pathways). </plain></SENT>
+<SENT sid="762" pm="."><plain>Then, these pathways could be stabilised to their normal function by using antagomirs [62]. </plain></SENT>
+</text></p><sec id="s4a"><title><text><SENT sid="763" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="764" pm="."><plain>In this study we have performed mRNA and miRNA microarray profiles to explore further epigenetic factors which regulate cystogenesis in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="765" pm="."><plain>Taken together, our microarray data identified multiple genes that are significantly de-regulated during disease condition. </plain></SENT>
+<SENT sid="766" pm="."><plain>Furthermore, our rat model describes up-regulation of several biological processes and down-regulation of metabolic pathways which are closely associated with cyst formation and expansion. </plain></SENT>
+<SENT sid="767" pm="."><plain>We also observed up-regulation of secreted modulators and integrin receptors subunit. </plain></SENT>
+<SENT sid="768" pm="."><plain>In addition, we also detected many differentially regulated TFs in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>. </plain></SENT>
+<SENT sid="769" pm="."><plain>Interestingly, the down-regulation of genes associated with ciliary function or renal cystic kidney diseases were also differentially regulated. </plain></SENT>
+<SENT sid="770" pm="."><plain>Moreover, we also contribute 8 miRNAs to the complex regulatory layers of ADPKD. </plain></SENT>
+<SENT sid="771" pm="."><plain>We predicted that several deregulated genes/pathways are the targets of these 8 miRNAs. </plain></SENT>
+<SENT sid="772" pm="."><plain>Therefore, we suggest that these 8 miRNAs may play a central role in <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot> via the down-regulation of key checkpoint genes (inhibitors) of the crucial pathways. </plain></SENT>
+<SENT sid="773" pm="."><plain>These miRNAs should be explored as novel therapeutic targets by performing knockdown/knockout studies using antagomirs that may stabilise the deregulated pathways to their normal function. </plain></SENT>
+<SENT sid="774" pm="."><plain>Moreover, these miRNAs could serve as useful candidates for anti-fibrotic therapies. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s5"><title><text><SENT sid="775" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0053780.s001"><label>Table S1</label><caption><p><text><SENT sid="776" pm="."><plain>Significantly regulated genes found in the diseased kidneys of <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat model. This table shows significantly regulated genes on the Affymetrix mRNA microarrays obtained from SAS analysis. </plain></SENT>
+<SENT sid="777" pm="."><plain>A threshold cut-off value was set to 1fold change which indicates that the expression of a given gene is uniform in both diseased and control kidneys. </plain></SENT>
+<SENT sid="778" pm="."><plain>The fold change values greater than 1 indicate up-regulated genes, whereas, the remaining fold change values describe down-regulated genes in diseased kidneys. </plain></SENT>
+</text></p><p><text><SENT sid="779" pm="."><plain>(XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s001.xls"><caption><p><text><SENT sid="780" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s002"><label>Table S2</label><caption><p><text><SENT sid="781" pm="."><plain>Comparison among <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm and <z:uniprot sup="inside" fb="0" ids="Q7Z443">PKD1L3</z:uniprot>/L3 datasets. This table shows the common genes obtained by comparing <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and <z:uniprot sup="inside" fb="0" ids="Q7Z443">PKD1L3</z:uniprot>/L3 models. </plain></SENT>
+<SENT sid="782" pm="."><plain>Similar cut-offs were chosen (as described in Table S1) to display up- and down-regulated genes among these two datasets. </plain></SENT>
+</text></p><p><text><SENT sid="783" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s002.xlsx"><caption><p><text><SENT sid="784" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s003"><label>Table S3</label><caption><p><text><SENT sid="785" pm="."><plain>Comparison between <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>−/− datasets. This table shows the common genes obtained by comparing <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot>−/− models. </plain></SENT>
+<SENT sid="786" pm="."><plain>Similar cut-offs were chosen (as described in Table S1) to display up- and down-regulated genes among these two datasets. </plain></SENT>
+</text></p><p><text><SENT sid="787" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s003.xlsx"><caption><p><text><SENT sid="788" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s004"><label>Table S4</label><caption><p><text><SENT sid="789" pm="."><plain>Comparison between <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and human ADPKD datasets. This table shows the common genes obtained by comparing <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and human datasets. </plain></SENT>
+<SENT sid="790" pm="."><plain>Similar cut-offs were chosen (as described in Table S1) to display up- and down-regulated genes among these two datasets. </plain></SENT>
+</text></p><p><text><SENT sid="791" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s004.xlsx"><caption><p><text><SENT sid="792" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s005"><label>Table S5</label><caption><p><text><SENT sid="793" pm="."><plain>Common genes obtained between <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat data and Pandey et al dataset. This table shows the common genes obtained by comparing <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat data with the data obtained from Pandey et al [34]. </plain></SENT>
+<SENT sid="794" pm="."><plain>Similar cut-offs were chosen (as described in Table S1) to display up- and down-regulated genes among these two datasets. </plain></SENT>
+</text></p><p><text><SENT sid="795" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s005.xlsx"><caption><p><text><SENT sid="796" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s006"><label>Table S6</label><caption><p><text><SENT sid="797" pm="."><plain>Comparison between <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and 2 published studies. This table shows the common genes obtained by comparing <z:uniprot sup="inside" fb="0" ids="Q15139">PKD</z:uniprot>/Mhm rat and <z:uniprot sup="inside" fb="0" ids="P22361,P15257">Hnf1</z:uniprot>α-deficient [24] and Glis2lacZ/<z:uniprot sup="inside" fb="10" ids="Q47077,P06219,Q5FJ41,Q2XQU3,A7KGA5,P70753,A0KQH4,B4S2K9,Q59140,D5JGG0,Q9K9C6,A8AKB8,A7MN76,A7ZI91,B7UJI9,Q8X685,B5Z2P7,A7ZWZ1,A1A831,Q0TKT1,Q8FKG6,B1J0T5,P00722,B7N8Q1,Q8VNN2,B1LIM9,Q1RFJ2,A4W7D2,A3FEW8,B2VHN8,B5XQY2,Q1G9Z4,P0C1Y0,Q48727,Q03WL0,Q04F24,Q6D736,Q6LL68,P81650,A1SWB8,Q59750,P30812,A9MQ82,A8GGN3,Q32JB6,Q3Z583,O33815,P23989,Q56307,P77989,P26257,A5F5U6,Q8D4H3,Q7MG04,A1JTC4,A7FH78,Q1C6T8,B2K6E6,Q7CIZ3,A9R0J8,Q1CI76,A4TLL5,Q669R9,B1JI86">lacZ</z:uniprot> [25] datasets. </plain></SENT>
+<SENT sid="798" pm="."><plain>Similar cut-offs were chosen (as described in Table S1) to display up- and down-regulated genes among these two datasets. </plain></SENT>
+</text></p><p><text><SENT sid="799" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s006.xlsx"><caption><p><text><SENT sid="800" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s007"><label>Table S7</label><caption><p><text><SENT sid="801" pm="."><plain>Putative miRNA binding sites of 8 miRNAs within 3,333 deregulated genes using miRWalk database. This table shows the putative miRNA binding site predictions obtained from the comparative platform of miRWalk database which integrates the results from 9 different predictions datasets for comprehensive view. </plain></SENT>
+</text></p><p><text><SENT sid="802" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s007.xlsx"><caption><p><text><SENT sid="803" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s008"><label>Table S8</label><caption><p><text><SENT sid="804" pm="."><plain>Significant pathways obtained on 8 up-regulated miRNAs. This table shows significantly regulated pathways obtained on the target genes of 8 up-regulated miRNAs. </plain></SENT>
+</text></p><p><text><SENT sid="805" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s008.xlsx"><caption><p><text><SENT sid="806" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0053780.s009"><label>Text S1</label><caption><p><text><SENT sid="807" pm="."><plain>Information on mRNA and miRNA microarrays quality control analysis. </plain></SENT>
+</text></p><p><text><SENT sid="808" pm="."><plain>(PDF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0053780.s009.pdf"><caption><p><text><SENT sid="809" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0053780-Bartel1"><text><SENT sid="810" pm="."><plain>1 BartelDP (2004) MicroRNAs: genomics, biogenesis, mechanism, and function. Cell 116: 281–297.14744438 </plain></SENT>
+</text></ref><ref id="pone.0053780-Li1"><text><SENT sid="811" pm="."><plain>2 LiLC, OkinoST, ZhaoH, PookotD, PlaceRF, et al (2006) Small dsRNAs induce transcriptional activation in human cells. Proc Natl Acad Sci U S A 103: 17337–17342.17085592 </plain></SENT>
+</text></ref><ref id="pone.0053780-Ambros1"><text><SENT sid="812" pm="."><plain>3 AmbrosV (2004) The functions of animal microRNAs. Nature 431: 350–355.15372042 </plain></SENT>
+</text></ref><ref id="pone.0053780-Croce1"><text><SENT sid="813" pm="."><plain>4 CroceCM, CalinGA (2005) miRNAs, cancer, and stem cell division. Cell 122: 6–7.16009126 </plain></SENT>
+</text></ref><ref id="pone.0053780-EsquelaKerscher1"><text><SENT sid="814" pm="."><plain>5 Esquela-KerscherA, TrangP, WigginsJF, PatrawalaL, ChengA, et al (2008) The let-7 microRNA reduces tumor growth in mouse models of lung cancer. Cell Cycle 7: 759–764.18344688 </plain></SENT>
+</text></ref><ref id="pone.0053780-Zariwala1"><text><SENT sid="815" pm="."><plain>6 ZariwalaMA, KnowlesMR, OmranH (2007) Genetic defects in ciliary structure and function. Annu Rev Physiol 69: 423–450.17059358 </plain></SENT>
+</text></ref><ref id="pone.0053780-Hildebrandt1"><text><SENT sid="816" pm="."><plain>7 HildebrandtF, ZhouW (2007) Nephronophthisis-associated ciliopathies. J Am Soc Nephrol 18: 1855–1871.17513324 </plain></SENT>
+</text></ref><ref id="pone.0053780-Simons1"><text><SENT sid="817" pm="."><plain>8 SimonsM, GloyJ, GannerA, BullerkotteA, BashkurovM, et al (2005) <z:uniprot sup="inside" fb="0" ids="Q6JAN1,Q8UVC3,Q8UVC1,Q9Y283,O89019">Inversin</z:uniprot>, the gene product mutated in nephronophthisis type II, functions as a molecular switch between Wnt signaling pathways. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 37: 537–543.15852005 </plain></SENT>
+</text></ref><ref id="pone.0053780-Rohatgi1"><text><SENT sid="818" pm="."><plain>9 RohatgiR, MilenkovicL, ScottMP (2007) <z:uniprot sup="inside" fb="0" ids="Q98864">Patched1</z:uniprot> regulates hedgehog signaling at the primary cilium. Science 317: 372–376.17641202 </plain></SENT>
+</text></ref><ref id="pone.0053780-Schneider1"><text><SENT sid="819" pm="."><plain>10 SchneiderL, ClementCA, TeilmannSC, PazourGJ, HoffmannEK, et al (2005) PDGFRalphaalpha signaling is regulated through the primary cilium in fibroblasts. Curr Biol 15: 1861–1866.16243034 </plain></SENT>
+</text></ref><ref id="pone.0053780-OToole1"><text><SENT sid="820" pm="."><plain>11 O’TooleET, GiddingsTH, McIntoshJR, DutcherSK (2003) Three-dimensional organization of basal bodies from wild-type and <z:uniprot sup="inside" fb="0" ids="Q8HZV4,Q9UJT1,Q4R7T7,Q9R1K7,Q6DIM3">delta-tubulin</z:uniprot> deletion strains of Chlamydomonas reinhardtii. Mol Biol Cell 14: 2999–3012.12857881 </plain></SENT>
+</text></ref><ref id="pone.0053780-Gabow1"><text><SENT sid="821" pm="."><plain>12 GabowPA (1990) Autosomal dominant polycystic kidney disease–more than a renal disease. Am J Kidney Dis 16: 403–413.2239929 </plain></SENT>
+</text></ref><ref id="pone.0053780-Torres1"><text><SENT sid="822" pm="."><plain>13 TorresVE, HarrisPC (2007) Polycystic kidney disease: genes, proteins, animal models, disease mechanisms and therapeutic opportunities. J Intern Med 261: 17–31.17222165 </plain></SENT>
+</text></ref><ref id="pone.0053780-Hanaoka1"><text><SENT sid="823" pm="."><plain>14 HanaokaK, GugginoWB (2000) cAMP regulates cell proliferation and cyst formation in autosomal polycystic kidney disease cells. J Am Soc Nephrol 11: 1179–1187.10864573 </plain></SENT>
+</text></ref><ref id="pone.0053780-Okada1"><text><SENT sid="824" pm="."><plain>15 OkadaS, MisakaT, TanakaY, MatsumotoI, IshibashiK, et al (2008) <z:uniprot sup="inside" fb="0" ids="F6S3G9,Q8NBQ7,G5CTG8,Q8BHH1,Q8CHM1">Aquaporin-11</z:uniprot> knockout mice and polycystic kidney disease animals share a common mechanism of cyst formation. FASEB J 22: 3672–3684.18606867 </plain></SENT>
+</text></ref><ref id="pone.0053780-Veis1"><text><SENT sid="825" pm="."><plain>16 VeisDJ, SorensonCM, ShutterJR, KorsmeyerSJ (1993) <z:uniprot sup="inside" fb="0" ids="P10417,P49950">Bcl-2</z:uniprot>-deficient mice demonstrate fulminant lymphoid apoptosis, polycystic kidneys, and hypopigmented hair. Cell 75: 229–240.8402909 </plain></SENT>
+</text></ref><ref id="pone.0053780-Lanoix1"><text><SENT sid="826" pm="."><plain>17 LanoixJ, D’AgatiV, SzabolcsM, TrudelM (1996) Dysregulation of cellular proliferation and apoptosis mediates human autosomal dominant polycystic kidney disease (ADPKD). Oncogene 13: 1153–1160.8808689 </plain></SENT>
+</text></ref><ref id="pone.0053780-Trudel1"><text><SENT sid="827" pm="."><plain>18 TrudelM, D’AgatiV (1992) A model of polycystic kidney disease in SBM transgenic mice. Contrib Nephrol 97: 47–59.1321706 </plain></SENT>
+</text></ref><ref id="pone.0053780-Battini1"><text><SENT sid="828" pm="."><plain>19 BattiniL, FedorovaE, MacipS, LiX, WilsonPD, et al (2006) Stable knockdown of <z:uniprot sup="inside" fb="0" ids="Q09624,P98161,O08852">polycystin-1</z:uniprot> confers integrin-alpha2beta1-mediated anoikis resistance. J Am Soc Nephrol 17: 3049–3058.17005934 </plain></SENT>
+</text></ref><ref id="pone.0053780-Wilson1"><text><SENT sid="829" pm="."><plain>20 WilsonPD, GengL, LiX, BurrowCR (1999) The <z:uniprot sup="inside" fb="0" ids="Q15139,P98161">PKD1</z:uniprot> gene product, “<z:uniprot sup="inside" fb="0" ids="Q09624,P98161,O08852">polycystin-1</z:uniprot>,” is a tyrosine-phosphorylated protein that colocalizes with alpha2beta1-integrin in focal clusters in adherent renal epithelia. Lab Invest 79: 1311–1323.10532593 </plain></SENT>
+</text></ref><ref id="pone.0053780-Ju1"><text><SENT sid="830" pm="."><plain>21 JuW, EichingerF, BitzerM, OhJ, McWeeneyS, et al (2009) Renal gene and protein expression signatures for prediction of kidney disease progression. Am J Pathol 174: 2073–2085.19465643 </plain></SENT>
+</text></ref><ref id="pone.0053780-Susztak1"><text><SENT sid="831" pm="."><plain>22 SusztakK, BottingerE, NovetskyA, LiangD, ZhuY, et al (2004) Molecular profiling of diabetic mouse kidney reveals novel genes linked to glomerular disease. Diabetes 53: 784–794.14988265 </plain></SENT>
+</text></ref><ref id="pone.0053780-Gresh1"><text><SENT sid="832" pm="."><plain>23 GreshL, FischerE, ReimannA, TanguyM, GarbayS, et al (2004) A transcriptional network in polycystic kidney disease. EMBO J 23: 1657–1668.15029248 </plain></SENT>
+</text></ref><ref id="pone.0053780-Servitja1"><text><SENT sid="833" pm="."><plain>24 ServitjaJM, PignatelliM, MaestroMA, CardaldaC, BojSF, et al (2009) Hnf1alpha (MODY3) controls tissue-specific transcriptional programs and exerts opposed effects on cell growth in pancreatic islets and liver. Mol Cell Biol 29: 2945–2959.19289501 </plain></SENT>
+</text></ref><ref id="pone.0053780-Attanasio1"><text><SENT sid="834" pm="."><plain>25 AttanasioM, UhlenhautNH, SousaVH, O’TooleJF, OttoE, et al (2007) Loss of <z:uniprot sup="inside" fb="0" ids="Q9BZE0">GLIS2</z:uniprot> causes nephronophthisis in humans and mice by increased apoptosis and fibrosis. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 39: 1018–1024.17618285 </plain></SENT>
+</text></ref><ref id="pone.0053780-Gretz1"><text><SENT sid="835" pm="."><plain>26 GretzN, KranzlinB, PeyR, SchierenG, BachJ, et al (1996) Rat models of autosomal dominant polycystic kidney disease. Nephrol Dial Transplant 11 Suppl 6: 46–51. </plain></SENT>
+</text></ref><ref id="pone.0053780-KaspareitRittinghausen1"><text><SENT sid="836" pm="."><plain>27 Kaspareit-RittinghausenJ, DeerbergF, RappKG, WcisloA (1990) A new rat model for polycystic kidney disease of humans. Transplant Proc 22: 2582–2583.2264162 </plain></SENT>
+</text></ref><ref id="pone.0053780-Song1"><text><SENT sid="837" pm="."><plain>28 SongX, Di GiovanniV, HeN, WangK, IngramA, et al (2009) Systems biology of autosomal dominant polycystic kidney disease (ADPKD): computational identification of gene expression pathways and integrated regulatory networks. Hum Mol Genet 18: 2328–2343.19346236 </plain></SENT>
+</text></ref><ref id="pone.0053780-Chen1"><text><SENT sid="838" pm="."><plain>29 ChenWC, TzengYS, LiH (2008) Gene expression in early and progression phases of autosomal dominant polycystic kidney disease. BMC Res Notes 1: 131.19099603 </plain></SENT>
+</text></ref><ref id="pone.0053780-Pandey1"><text><SENT sid="839" pm="."><plain>30 PandeyP, QinS, HoJ, ZhouJ, KreidbergJA (2011) Systems biology approach to identify transcriptome reprogramming and candidate microRNA targets during the progression of polycystic kidney disease. BMC Syst Biol 5: 56.21518438 </plain></SENT>
+</text></ref><ref id="pone.0053780-Dweep1"><text><SENT sid="840" pm="."><plain>31Dweep H, Sticht C, Pandey P, Gretz N (2011) miRWalk - Database: Prediction of possible miRNA binding sites by “walking” the genes of three genomes. </plain></SENT>
+<SENT sid="841" pm="."><plain>J Biomed Inform. </plain></SENT>
+</text></ref><ref id="pone.0053780-Schafer1"><text><SENT sid="842" pm="."><plain>32 SchaferK, GretzN, BaderM, OberbaumerI, EckardtKU, et al (1994) Characterization of the Han:SPRD rat model for hereditary polycystic kidney disease. Kidney Int 46: 134–152.7933831 </plain></SENT>
+</text></ref><ref id="pone.0053780-Gretz2"><text><SENT sid="843" pm="."><plain>33 GretzN, CeccheriniI, KranzlinB, KlotingI, DevotoM, et al (1995) Gender-dependent disease severity in autosomal polycystic kidney disease of rats. Kidney Int 48: 496–500.7564118 </plain></SENT>
+</text></ref><ref id="pone.0053780-Pandey2"><text><SENT sid="844" pm="."><plain>34 PandeyP, BrorsB, SrivastavaPK, BottA, BoehnSN, et al (2008) Microarray-based approach identifies microRNAs and their target functional patterns in polycystic kidney disease. BMC Genomics 9: 624.19102782 </plain></SENT>
+</text></ref><ref id="pone.0053780-LeRoy1"><text><SENT sid="845" pm="."><plain>35Le Roy HL (1976) A special use of the general interpretation for the one-way analysis of variance in population genetics of quantitative characters. </plain></SENT>
+<SENT sid="846" pm="."><plain>Experientia Suppl 22: 191–200. </plain></SENT>
+</text></ref><ref id="pone.0053780-Dai1"><text><SENT sid="847" pm="."><plain>36 DaiM, WangP, BoydAD, KostovG, AtheyB, et al (2005) Evolving gene/transcript definitions significantly alter the interpretation of GeneChip data. Nucleic Acids Res 33: e175.16284200 </plain></SENT>
+</text></ref><ref id="pone.0053780-Huangda1"><text><SENT sid="848" pm="."><plain>37 Huang daW, ShermanBT, LempickiRA (2009) Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Protoc 4: 44–57.19131956 </plain></SENT>
+</text></ref><ref id="pone.0053780-Felekkis1"><text><SENT sid="849" pm="."><plain>38 FelekkisK, VoskaridesK, DweepH, StichtC, GretzN, et al (2011) Increased number of microRNA target sites in genes encoded in CNV regions. </plain></SENT>
+<SENT sid="850" pm="."><plain>Evidence for an evolutionary genomic interaction. Mol Biol Evol 28: 2421–2424.21441354 </plain></SENT>
+</text></ref><ref id="pone.0053780-Papagregoriou1"><text><SENT sid="851" pm="."><plain>39 PapagregoriouG, ErgulerK, DweepH, VoskaridesK, KoupepidouP, et al (2012) A miR-1207–5p binding site polymorphism abolishes regulation of <z:uniprot sup="inside" fb="0" ids="Q9W7C5,Q09118,Q99075,Q01580">HBEGF</z:uniprot> and is associated with disease severity in <z:uniprot sup="inside" fb="0" ids="Q9BXR6">CFHR5</z:uniprot> nephropathy. PLoS ONE 7: e31021.22319602 </plain></SENT>
+</text></ref><ref id="pone.0053780-Bartel2"><text><SENT sid="852" pm="."><plain>40 BartelDP (2009) MicroRNAs: target recognition and regulatory functions. Cell 136: 215–233.19167326 </plain></SENT>
+</text></ref><ref id="pone.0053780-Chen2"><text><SENT sid="853" pm="."><plain>41 ChenS, JimB, ZiyadehFN (2003) Diabetic nephropathy and transforming <z:uniprot sup="inside" fb="0" ids="Q8V307,Q776B5,P08072,Q6RZT5,P08441">growth factor</z:uniprot>-beta: transforming our view of glomerulosclerosis and fibrosis build-up. Semin Nephrol 23: 532–543.14631561 </plain></SENT>
+</text></ref><ref id="pone.0053780-Obermuller1"><text><SENT sid="854" pm="."><plain>42 ObermullerN, MorenteN, KranzlinB, GretzN, WitzgallR (2001) A possible role for metalloproteinases in renal cyst development. Am J Physiol Renal Physiol 280: F540–550.11181417 </plain></SENT>
+</text></ref><ref id="pone.0053780-Couillard1"><text><SENT sid="855" pm="."><plain>43 CouillardM, GuillaumeR, TanjiN, D’AgatiV, TrudelM (2002) <z:uniprot sup="inside" fb="0" ids="Q17103">c-myc</z:uniprot>-induced apoptosis in polycystic kidney disease is independent of <z:uniprot sup="inside" fb="5" ids="Q9BDN1,Q861W5,P48023,P63308,P63307,P63306,P41047,Q9BEA8,P36940">FasL</z:uniprot>/<z:uniprot sup="inside" fb="9" ids="P25446,Q63199">Fas</z:uniprot> interaction. Cancer Res 62: 2210–2214.11956070 </plain></SENT>
+</text></ref><ref id="pone.0053780-Yamaguchi1"><text><SENT sid="856" pm="."><plain>44 YamaguchiT, NagaoS, WallaceDP, BelibiFA, CowleyBD, et al (2003) Cyclic AMP activates <z:uniprot sup="inside" fb="0" ids="P28028">B-Raf</z:uniprot> and <z:uniprot sup="inside" fb="13" ids="P29323">ERK</z:uniprot> in cyst epithelial cells from autosomal-dominant polycystic kidneys. Kidney Int 63: 1983–1994.12753285 </plain></SENT>
+</text></ref><ref id="pone.0053780-Angerstein1"><text><SENT sid="857" pm="."><plain>45Angerstein C, Hecker M, Paap BK, Koczan D, Thamilarasan M, et al. </plain></SENT>
+<SENT sid="858" pm="."><plain>(2012) Integration of MicroRNA Databases to Study MicroRNAs Associated with Multiple Sclerosis. </plain></SENT>
+<SENT sid="859" pm="."><plain>Mol Neurobiol. </plain></SENT>
+</text></ref><ref id="pone.0053780-Lee1"><text><SENT sid="860" pm="."><plain>46 LeeYB, BantounasI, LeeDY, PhylactouL, CaldwellMA, et al (2009) Twist-1 regulates the miR-199a/214 cluster during development. Nucleic Acids Res 37: 123–128.19029138 </plain></SENT>
+</text></ref><ref id="pone.0053780-Yin1"><text><SENT sid="861" pm="."><plain>47 YinG, ChenR, AlveroAB, FuHH, HolmbergJ, et al (2010) TWISTing stemness, inflammation and proliferation of epithelial ovarian cancer cells through MIR199A2/214. Oncogene 29: 3545–3553.20400975 </plain></SENT>
+</text></ref><ref id="pone.0053780-Ichii1"><text><SENT sid="862" pm="."><plain>48 IchiiO, OtsukaS, SasakiN, NamikiY, HashimotoY, et al (2012) Altered expression of microRNA miR-146a correlates with the development of chronic renal inflammation. Kidney Int 81: 280–292.21975861 </plain></SENT>
+</text></ref><ref id="pone.0053780-Ha1"><text><SENT sid="863" pm="."><plain>49 HaE, BangJH, SonJN, ChoHC, MunKC (2010) Carbamylated albumin stimulates microRNA-146, which is increased in human renal cell carcinoma. Mol Med Report 3: 275–279. </plain></SENT>
+</text></ref><ref id="pone.0053780-Zhong1"><text><SENT sid="864" pm="."><plain>50 ZhongH, WangHR, YangS, ZhongJH, WangT, et al (2010) Targeting <z:uniprot sup="inside" fb="0" ids="Q1HE26,Q13485,P97471,Q9GKQ9,O70437">Smad4</z:uniprot> links microRNA-146a to the TGF-beta pathway during retinoid acid induction in acute promyelocytic leukemia cell line. Int J Hematol 92: 129–135.20577838 </plain></SENT>
+</text></ref><ref id="pone.0053780-Chau1"><text><SENT sid="865" pm="."><plain>51 ChauBN, XinC, HartnerJ, RenS, CastanoAP, et al (2012) MicroRNA-21 promotes fibrosis of the kidney by silencing metabolic pathways. Sci Transl Med 4: 121ra118. </plain></SENT>
+</text></ref><ref id="pone.0053780-Zaman1"><text><SENT sid="866" pm="."><plain>52 ZamanMS, ShahryariV, DengG, ThamminanaS, SainiS, et al (2012) Up-Regulation of MicroRNA-21 Correlates with Lower Kidney Cancer Survival. PLoS ONE 7: e31060.22347428 </plain></SENT>
+</text></ref><ref id="pone.0053780-Zhang1"><text><SENT sid="867" pm="."><plain>53Zhang A, Liu Y, Shen Y, Xu Y, Li X (2011) miR-21 modulates cell apoptosis by targeting multiple genes in renal cell carcinoma. </plain></SENT>
+<SENT sid="868" pm="."><plain>Urology 78: 474 e413–479. </plain></SENT>
+</text></ref><ref id="pone.0053780-Inui1"><text><SENT sid="869" pm="."><plain>54 InuiM, MartelloG, PiccoloS (2010) MicroRNA control of signal transduction. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Rev Mol Cell Biol 11: 252–263.20216554 </plain></SENT>
+</text></ref><ref id="pone.0053780-Yoder1"><text><SENT sid="870" pm="."><plain>55 YoderBK (2007) Role of primary cilia in the pathogenesis of polycystic kidney disease. J Am Soc Nephrol 18: 1381–1388.17429051 </plain></SENT>
+</text></ref><ref id="pone.0053780-Bastos1"><text><SENT sid="871" pm="."><plain>56 BastosAP, OnuchicLF (2011) Molecular and cellular pathogenesis of autosomal dominant polycystic kidney disease. Braz J Med Biol Res 44: 606–617.21625823 </plain></SENT>
+</text></ref><ref id="pone.0053780-Xu1"><text><SENT sid="872" pm="."><plain>57 XuT, WangNS, FuLL, YeCY, YuSQ, et al (2012) Celecoxib inhibits growth of human autosomal dominant polycystic kidney cyst-lining epithelial cells through the <z:uniprot sup="inside" fb="0" ids="P15691,Q9MYV3,P26617,P67964,P67965,Q9GKR0,P15692,Q99PS1,P49151,P50412">VEGF</z:uniprot>/Raf/<z:uniprot sup="inside" fb="0" ids="O42781,Q00859,P27638">MAPK</z:uniprot>/<z:uniprot sup="inside" fb="13" ids="P29323">ERK</z:uniprot> signaling pathway. Mol Biol Rep 39: 7743–7753.22415852 </plain></SENT>
+</text></ref><ref id="pone.0053780-Agre1"><text><SENT sid="873" pm="."><plain>58 AgreP (2006) The <z:uniprot sup="inside" fb="0" ids="Q9V5Z7,Q8SRK2,Q1M1A0,Q1M2P4,B7XIC4,Q25074,C4VBN2">aquaporin</z:uniprot> water channels. Proc Am Thorac Soc 3: 5–13.16493146 </plain></SENT>
+</text></ref><ref id="pone.0053780-Morishita1"><text><SENT sid="874" pm="."><plain>59 MorishitaY, MatsuzakiT, Hara-chikumaM, AndooA, ShimonoM, et al (2005) Disruption of <z:uniprot sup="inside" fb="0" ids="F6S3G9,Q8NBQ7,G5CTG8,Q8BHH1,Q8CHM1">aquaporin-11</z:uniprot> produces polycystic kidneys following vacuolization of the proximal tubule. Mol Cell Biol 25: 7770–7779.16107722 </plain></SENT>
+</text></ref><ref id="pone.0053780-Tchekneva1"><text><SENT sid="875" pm="."><plain>60 TcheknevaEE, KhuchuaZ, DavisLS, KadkinaV, DunnSR, et al (2008) Single amino acid substitution in <z:uniprot sup="inside" fb="0" ids="F6S3G9,Q8NBQ7,G5CTG8,Q8BHH1,Q8CHM1">aquaporin 11</z:uniprot> causes renal failure. J Am Soc Nephrol 19: 1955–1964.18701606 </plain></SENT>
+</text></ref><ref id="pone.0053780-Chung1"><text><SENT sid="876" pm="."><plain>61 ChungAC, HuangXR, MengX, LanHY (2010) miR-192 mediates TGF-beta/<z:uniprot sup="inside" fb="0" ids="P84023,P84022,Q8BUN5,P84024,P84025">Smad3</z:uniprot>-driven renal fibrosis. J Am Soc Nephrol 21: 1317–1325.20488955 </plain></SENT>
+</text></ref><ref id="pone.0053780-Krutzfeldt1"><text><SENT sid="877" pm="."><plain>62 KrutzfeldtJ, RajewskyN, BraichR, RajeevKG, TuschlT, et al (2005) Silencing of microRNAs in vivo with ‘antagomirs’. Nature 438: 685–689.16258535 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

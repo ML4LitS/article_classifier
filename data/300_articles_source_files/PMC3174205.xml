@@ -1,0 +1,866 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3174205</article-id><article-id pub-id-type="pmid">21935471</article-id><article-id pub-id-type="publisher-id">PONE-D-11-10733</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0024815</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Epidemiology</subject><subj-group><subject>Molecular Epidemiology</subject></subj-group></subj-group><subj-group><subject>Metabolic Disorders</subject></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Associations of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> with Inflammatory Markers and Metabolic Syndrome in Apparently Healthy Chinese </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Amylin and Metabolic Syndrome in Chinese</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Hou</surname><given-names>Xinwei</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Sun</surname><given-names>Liang</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Zongmeng</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Mou</surname><given-names>Haiwei</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yu</surname><given-names>Zhijie</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Huaixing</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Jiang</surname><given-names>Peizhen</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yu</surname><given-names>Danxia</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wu</surname><given-names>Hongyu</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Ye</surname><given-names>Xingwang</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lin</surname><given-names>Xu</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Le</surname><given-names>Yingying</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Key Laboratory of Nutrition and Metabolism, Institute for Nutritional Sciences, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Graduate School of the Chinese Academy of Sciences, Shanghai, China</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Shanghai Municipal Center for Disease Control &amp; Prevention, Shanghai, China</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Song</surname><given-names>Yiqing</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Brigham &amp; Women's Hospital, and Harvard Medical School, United States of America</aff><author-notes><corresp id="cor1">* E-mail: <email>yyle@sibs.ac.cn</email> (YL); <email>xlin@sibs.ac.cn</email> (XL)</corresp><fn fn-type="con"><p><text><SENT sid="1" pm="."><plain>Conceived and designed the experiments: YL XL XH LS. </plain></SENT>
+<SENT sid="2" pm="."><plain>Performed the experiments: XH LS ZL HM ZY HL PJ DY HW. </plain></SENT>
+<SENT sid="3" pm="."><plain>Analyzed the data: XH LS ZY XY. </plain></SENT>
+<SENT sid="4" pm="."><plain>Wrote the paper: XH LS YL XL. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2011</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2011</year></pub-date><volume>6</volume><issue>9</issue><elocation-id>e24815</elocation-id><history><date date-type="received"><day>14</day><month>6</month><year>2011</year></date><date date-type="accepted"><day>18</day><month>8</month><year>2011</year></date></history><permissions><copyright-statement>Hou et al.</copyright-statement><copyright-year>2011</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title><text><SENT sid="5" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>Cellular and animal studies implicate multiple roles of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in regulating insulin action, glucose and lipid metabolisms. </plain></SENT>
+<SENT sid="7" pm="."><plain>However, the role of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in obesity related metabolic disorders has not been thoroughly investigated in humans. </plain></SENT>
+<SENT sid="8" pm="."><plain>Therefore, we aimed to evaluate the distribution of circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and its association with metabolic syndrome (MetS) and explore if this association is influenced by obesity, inflammatory markers or insulin resistance in apparently healthy Chinese. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="9" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="10" pm="."><plain>A population-based sample of 1,011 Chinese men and women aged 35–54 years was employed to measure plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>, inflammatory markers (<z:uniprot sup="inside" fb="0" ids="P49254,P02741,P49262,P14847,P19094,O19062,P12245,P02742,P48199,Q07203">C-reactive protein</z:uniprot> [CRP] and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">interleukin-6</z:uniprot> [<z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>]), insulin, glucose and lipid profiles. </plain></SENT>
+<SENT sid="11" pm="."><plain>MetS was defined according to the updated National Cholesterol Education Program Adult Treatment Panel III criteria for Asian-Americans. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="12" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="13" pm="."><plain>Plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations were higher in overweight/obese participants than normal-weight counterparts (P&lt;0.001) without sex difference. </plain></SENT>
+<SENT sid="14" pm="."><plain>Circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> was positively associated with CRP, <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>, BMI, waist circumference, blood pressure, fasting glucose, insulin, <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>/insulin ratio, HOMA-IR, LDL cholesterol and triglycerides, while negatively associated with HDL cholesterol (all P&lt;0.001). </plain></SENT>
+<SENT sid="15" pm="."><plain>After multiple adjustments, the risk of MetS was significantly higher (odds ratio 3.71; 95% confidence interval: 2.53 to 5.46) comparing the highest with the lowest <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartile. </plain></SENT>
+<SENT sid="16" pm="."><plain>The association remained significant even further controlling for BMI, inflammatory markers, insulin or HOMA-IR. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="17" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="18" pm="."><plain>Our study suggests that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> is strongly associated with inflammatory markers and MetS. </plain></SENT>
+<SENT sid="19" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>-MetS association is independent of established risk factors of MetS, including obesity, inflammatory markers and insulin resistance. </plain></SENT>
+<SENT sid="20" pm="."><plain>The causal role of hyperamylinemia in the development of MetS needs to be confirmed prospectively. </plain></SENT>
+</text></SecTag></p></sec></abstract><counts><page-count count="8"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="21" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="22" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot>, also named <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">islet amyloid polypeptide</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P22889,Q29119,Q07334,Q28934,Q28605">IAPP</z:uniprot>), is a 37 amino acid polypeptide initially isolated from amyloid deposit in pancreatic islets of type 2 diabetes patients [1], [2]. </plain></SENT>
+<SENT sid="23" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> is co-secreted with insulin by β-cells in response to stimulation of glucose, free fatty acids and food intake [3]–[5]. </plain></SENT>
+<SENT sid="24" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> is an important player in the control of energy balance [6]. </plain></SENT>
+<SENT sid="25" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> inhibits food intake by promoting meal-ending satiation, possibly through stimulation of its receptor in the area postrema [7]. </plain></SENT>
+<SENT sid="26" pm="."><plain>The nucleus of the solitary tract and the lateral parabrachial nucleus seem to be also involved in the inhibitory effect of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> on food intake [6]. </plain></SENT>
+<SENT sid="27" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> increases energy expenditure after peripheral and central administration in animals [6]. </plain></SENT>
+<SENT sid="28" pm="."><plain>Chronic infusion of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> into the brain reduces body weight gain and adiposity, while chronic infusion of an <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> receptor antagonist into the brain increases body adiposity [6], [8]. </plain></SENT>
+<SENT sid="29" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> was found in vitro to inhibit both basal and insulin stimulated glycogenesis in rat skeleton muscle [9] and also to impair glucose disposal in liver cells [10]. </plain></SENT>
+<SENT sid="30" pm="."><plain>Moreover, an animal study also showed that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> could suppress insulin secretion by enhancing β-cell apoptosis, which consequently induced hepatic and extrahepatic insulin resistance and glucose dysregulation in human <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P22889,Q29119,Q07334,Q28934,Q28605">IAPP</z:uniprot> transgenic rats [11]. </plain></SENT>
+<SENT sid="31" pm="."><plain>Infusion of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in dog also induced peripheral insulin resistance [12]. </plain></SENT>
+<SENT sid="32" pm="."><plain>Elevated levels of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> were observed in obese children [13] and obese adults with impaired glucose tolerance or type 2 diabetes [14], or in women with polycystic ovary syndrome and preterm neonates with feed intolerance [15], [16]. </plain></SENT>
+<SENT sid="33" pm="."><plain>However, the pathophysiological role(s) of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in human metabolic diseases have not been studied in large-scale populations. </plain></SENT>
+</text></p><p><text><SENT sid="34" pm="."><plain>Metabolic syndrome (MetS), an aggregation of metabolic abnormalities comprising central obesity, dyslipidemia, elevated blood pressure and hyperglycemia, is a generally acknowledged precursor of type 2 diabetes and cardiovascular disease (CVD) [17]. </plain></SENT>
+<SENT sid="35" pm="."><plain>A recent meta-analysis showed that MetS is associated with a 2-fold increase in risk of CVD, CVD mortality, and stroke [18]. </plain></SENT>
+<SENT sid="36" pm="."><plain>Owing to excess caloric intake and a sedentary lifestyle, global epidemic trends of obesity and MetS have become one of the public health challenges not only in Western countries [19] but also in Asian societies like China [20]. </plain></SENT>
+<SENT sid="37" pm="."><plain>It was estimated that approximate 38% of men and 33% of women aged 35–74 years in China had at least one component of MetS, and 14% of men and 18% of women had three or more components of MetS [20]. </plain></SENT>
+<SENT sid="38" pm="."><plain>During past decades, accumulating evidence has highlighted chronic low-grade inflammation as one of the important mechanisms involving in pathogenesis of obesity and related metabolic disorders such as metabolic syndrome, type 2 diabetes and cardiovascular diseases [21]. </plain></SENT>
+<SENT sid="39" pm="."><plain>However, evidence is scarce about the relationships between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>, inflammatory status and metabolic diseases. </plain></SENT>
+<SENT sid="40" pm="."><plain>Therefore, we aimed to investigate the distribution of plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and its associations with inflammatory markers and MetS in 1011 apparently healthy Chinese adults. </plain></SENT>
+<SENT sid="41" pm="."><plain>We also examined whether the <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>-MetS association is independent of well established risk factors including obesity, inflammatory markers and insulin resistance. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s2"><title><text><SENT sid="42" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="43" pm="."><plain>Ethics statements </plain></SENT>
+</text></title><p><text><SENT sid="44" pm="."><plain>The study was approved by the Institutional Review Board of the Institute for Nutritional Sciences, Chinese Academy of Sciences (Permit No. </plain></SENT>
+<SENT sid="45" pm="."><plain>E-2007-01) and a written informed consent was obtained from each participant. </plain></SENT>
+</text></p></sec><sec id="s2b"><title><text><SENT sid="46" pm="."><plain>Study design </plain></SENT>
+</text></title><p><text><SENT sid="47" pm="."><plain>The study design and recruitment of participants have been described in detail elsewhere [22]. </plain></SENT>
+<SENT sid="48" pm="."><plain>In brief, the study population was from the Gut Microbiota and Obesity Study, a population-based case-control study among noninstitutionalized residents aged 35–54 years in Shanghai, China. </plain></SENT>
+<SENT sid="49" pm="."><plain>Two urban districts (Luwan and Zhabei) were chosen to represent people with high and low socioeconomic status in urban Shanghai. </plain></SENT>
+<SENT sid="50" pm="."><plain>Eligible candidates were apparently healthy adults who have lived in Shanghai for at least 10 years. </plain></SENT>
+<SENT sid="51" pm="."><plain>Five hundred pairs of age- and sex-matched subjects (overweight/obesity) and control subjects (normal-weight) were planned to be recruited. </plain></SENT>
+<SENT sid="52" pm="."><plain>Finally, a total of 1,059 eligible participants were successfully recruited from November 2007 to January 2008. </plain></SENT>
+<SENT sid="53" pm="."><plain>Normal weight and overweight/obesity were defined as 18≤BMI&lt;24.0 kg/m2 and BMI≥24.0 kg/m2, respectively, according to the recommendation by the Working Group on Obesity in China [23]–[25]. </plain></SENT>
+<SENT sid="54" pm="."><plain>The BMI range is 18.0 to 23.9 kg/m2 for normal weight and 24.0 to 40.5 kg/m2 for overweight/obesity. </plain></SENT>
+</text></p><p><text><SENT sid="55" pm="."><plain>Face to face interviews were conducted by trained physicians or public health workers from the local Centers for Disease Control and Prevention, and also from community clinics. </plain></SENT>
+<SENT sid="56" pm="."><plain>Information of demographic variables, health status and behaviors, physical activity and educational attainment were obtained through a standardized questionnaire. </plain></SENT>
+<SENT sid="57" pm="."><plain>Family history of chronic diseases was positive if one of the parents or siblings had coronary heart disease, stroke, or type 2 diabetes. </plain></SENT>
+<SENT sid="58" pm="."><plain>Body weight, height, waist circumference, and blood pressure were measured using a standardized protocol [22]. </plain></SENT>
+</text></p></sec><sec id="s2c"><title><text><SENT sid="59" pm="."><plain>Laboratory measurements </plain></SENT>
+</text></title><p><text><SENT sid="60" pm="."><plain>Overnight fasting venous blood samples were collected by tubes containing EDTA, centrifuged at 4°C and stored at −80°C until laboratory analyses. </plain></SENT>
+<SENT sid="61" pm="."><plain>Laboratory assays for total cholesterol, <z:uniprot sup="inside" fb="0" ids="P81182">high-density lipoprotein</z:uniprot> (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, triglycerides, glucose, <z:uniprot sup="inside" fb="0" ids="P49254,P02741,P49262,P14847,P19094,O19062,P12245,P02742,P48199,Q07203">C-reactive protein</z:uniprot> (CRP), <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">interleukin 6</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>), and insulin were described previously [22]. </plain></SENT>
+<SENT sid="62" pm="."><plain>The insulin resistance index (homeostasis model assessment of insulin resistance, HOMA-IR) was calculated according to updated homeostasis model assessment methods (<ext-link ext-link-type="uri" xlink:href="http://www.dtu.ox.ac.uk/">http://www.<z:uniprot sup="inside" fb="0" ids="P18335,P40732">dtu</z:uniprot>.ox.ac.uk/</ext-link>). </plain></SENT>
+<SENT sid="63" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> concentrations were measured by a monoclonal antibody-based sandwich immunoassay (Human <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> total ELISA kit, Millipore, Billerica, MA). </plain></SENT>
+<SENT sid="64" pm="."><plain>The assay has a sensitivity of 1 pmol/l with measurable concentrations within 1–100 pmol/l. </plain></SENT>
+<SENT sid="65" pm="."><plain>All procedures followed the manufacture's instructions with two quality controls in expected ranges for each assay. </plain></SENT>
+<SENT sid="66" pm="."><plain>The inter assay-CV was 10% for one of quality controls and was 7.3% for the other one. </plain></SENT>
+<SENT sid="67" pm="."><plain>Every tenth sample was duplicated on the same plate and the average intra-assay CV for <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> was 7.6%. </plain></SENT>
+<SENT sid="68" pm="."><plain>Forty-eight persons with limited plasma samples were excluded and data from 1011 (527 overweight/obese and 484 normal-weight) participants were available for <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> analyses. </plain></SENT>
+</text></p></sec><sec id="s2d"><title><text><SENT sid="69" pm="."><plain>Definition of <z:uniprot sup="inside" fb="9" ids="Q8R4Z4">Mets</z:uniprot> </plain></SENT>
+</text></title><p><text><SENT sid="70" pm="."><plain>MetS was defined based on the updated National Cholesterol Education Program Adult Treatment Panel III criteria for Asian-Americans [17], including at least three of the following components: 1) waist circumference ≥90 cm in men or ≥80 cm in women; 2) triglycerides ≥1.7 mmol/l; 3) HDL cholesterol &lt;1.03 mmol/l in men, or &lt;1.30 mmol/l in women; 4) blood pressure ≥130/85 mm Hg, or current use of antihypertensive medications; and 5) fasting plasma glucose ≥5.6 mmol/l. </plain></SENT>
+</text></p></sec><sec id="s2e"><title><text><SENT sid="71" pm="."><plain>Statistical analyses </plain></SENT>
+</text></title><p><text><SENT sid="72" pm="."><plain>Normally distributed variables were expressed as mean ± standard deviation (SD), while variables with a skewed distribution, including <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>, insulin, HOMA-IR, <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>/insulin ratio, triglycerides, CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>, were reported as geometric mean (95% confidence interval). </plain></SENT>
+<SENT sid="73" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> was log transformed to approximate normality before statistical analyses. </plain></SENT>
+<SENT sid="74" pm="."><plain>Categorical variables were represented by frequency and percentage. </plain></SENT>
+<SENT sid="75" pm="."><plain>Analysis of covariance was used to calculate <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations according to sex, age and BMI. </plain></SENT>
+<SENT sid="76" pm="."><plain>Continuous characteristics across <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles were compared using analysis of covariance, whereas categorical characteristics across <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles were compared using logistic regression model. </plain></SENT>
+<SENT sid="77" pm="."><plain>Medians of each <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartile were included as an independent variable for trend test. </plain></SENT>
+<SENT sid="78" pm="."><plain>Spearman partial correlation coefficients of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> with metabolic parameters and inflammatory markers were calculated in the whole sample and subgroups. </plain></SENT>
+<SENT sid="79" pm="."><plain>Multivariate logistic regression models were applied to evaluate the adjusted odds ratios (ORs) for MetS and its components according to the <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles. </plain></SENT>
+<SENT sid="80" pm="."><plain>Potential confounders were carefully controlled, including age, sex, lifestyle factors, educational attainment, family history of chronic diseases, and inflammatory markers. </plain></SENT>
+<SENT sid="81" pm="."><plain>Potential interactions between BMI, inflammatory markers, insulin, HOMA-IR and <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> were also examined. </plain></SENT>
+<SENT sid="82" pm="."><plain>All statistical analyses were performed with Stata 9.2. </plain></SENT>
+<SENT sid="83" pm="."><plain>(College Station, TX, USA) and considered statistically significant when 2-sided P&lt;0.05. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="s3"><title><text><SENT sid="84" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s3a"><title><text><SENT sid="85" pm="."><plain>Distribution of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations and characteristics of participants </plain></SENT>
+</text></title><p><text><SENT sid="86" pm="."><plain>As shown in Table 1, geometric means of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> were significantly higher in older (aged ≥45 years) and overweight/obese participants than their younger (6.85 vs. 6.57 pmol/l, P = 0.030) and normal weight counterparts (7.01 vs. 6.46 pmol/l, P&lt;0.001). </plain></SENT>
+<SENT sid="87" pm="."><plain>When participants were characterized according to <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (Table 2), persons in the higher <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartile had significantly higher levels of BMI, waist circumference, blood pressure, fasting glucose, insulin, HOMA-IR, <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>/insulin ratio, total and LDL cholesterol, triglycerides, but lower HDL cholesterol concentrations (all P&lt;0.001) compared with those in the lower quartile. </plain></SENT>
+<SENT sid="88" pm="."><plain>Moreover, plasma CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> also elevated along with increased <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (both P&lt;0.001). </plain></SENT>
+<SENT sid="89" pm="."><plain>We also characterized the participants according to BMI quartiles, and found that plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations increased gradually according to the quartile of BMI, the geometric means (95% confidence interval [CI]) is 6.21 (5.99–6.44), 6.65(6.40–6.90), 6.84 (6.59–7.10) and 7.20 (6.96–7.46) pmol/l, respectively (P&lt;0.001 for trend). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0024815-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0024815.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="90" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> concentrations according to sex, age and obesity status (pmol/l)a. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0024815-t001-1" xlink:href="pone.0024815.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>Geometric mean(95% confidence interval) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>P value </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>Sexb </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>0.121 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>370 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>6.85 (6.64–7.06) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>641 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>6.64 (6.49–6.80) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>Agec </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>0.030 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>&lt;45 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>395 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>6.57 (6.38–6.77) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>≥45 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>616 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>6.85 (6.69–7.02) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>Obesity statusd </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>Normal weight </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>484 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>6.46 (6.29–6.64) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>Overweight/Obese </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>527 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>7.01 (6.83–7.19) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label>a</label><p><text><SENT sid="118" pm="."><plain>Geometric means of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations were compared using general linear models (n = 1011). </plain></SENT>
+</text></p></fn><fn id="nt102"><label>b</label><p><text><SENT sid="119" pm="."><plain>Adjustment for BMI and age. </plain></SENT>
+</text></p></fn><fn id="nt103"><label>c</label><p><text><SENT sid="120" pm="."><plain>Adjustment for sex and BMI. </plain></SENT>
+</text></p></fn><fn id="nt104"><label>d</label><p><text><SENT sid="121" pm="."><plain>Adjustment for age and sex. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pone-0024815-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0024815.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="122" pm="."><plain>Characteristics of participants according to <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (n = 1011)a. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0024815-t002-2" xlink:href="pone.0024815.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>Variables </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>Q1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>Q2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>Q3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>Q4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>P for trend </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>n (case/control) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>252 (101/151) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>253 (129/124) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>253 (132/121) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>253 (165/88) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> (pmol/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>4.71 (4.61–4.82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>6.24 (6.20–6.27) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>7.21 (7.18–7.25) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>9.59 (9.28–9.90) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>Age (years)b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>45.2 (5.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>45.5 (5.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>46.0 (5.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>46.8 (5.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>Male, n (%)b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>94 (37.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>83 (32.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>88 (34.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>105 (41.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>0.242 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>Education, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>0.994 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>0–9 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>68 (27.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>67 (26.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>73 (28.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>68 (26.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>10–12 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>129 (51.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>129 (51.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>129 (51.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>137 (54.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>≥13 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>55 (21.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>57 (22.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>51 (20.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>48 (19.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>Current smoker, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>59 (23.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>54 (21.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>57 (22.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>74 (29.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>0.271 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>Alcohol drinker, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>111 (44.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>74 (29.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>83 (32.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>96 (37.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>0.083 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>Physical activity, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>0.471 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>Low </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>13 (5.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>28 (11.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>23 (9.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>32 (12.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>Moderate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>158 (62.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>147 (58.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>145 (57.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>136 (53.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>High </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>81 (32.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>78 (30.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>85 (33.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>85 (33.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>Family history of coronary heart disease, stroke and diabetes, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>103 (40.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>98 (38.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>101 (39.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>101 (39.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>0.693 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>Metabolic syndrome, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>65 (25.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>83 (32.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>119 (47.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>145 (57.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>BMI (kg/m2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>23.4 (3.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>24.2 (3.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>24.9 (4.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>25.8 (4.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>Waist circumference (cm) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>81.5 (10.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>82.9 (10.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>85.3 (11.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>89.0 (11.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P18632,Q2KJ32,Q13228,Q5RF48,Q04672,P04278,P97497,Q62588,P15196,P08689,P15501,P08723,P68675">SBP</z:uniprot> (mm Hg) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>121.7 (15.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>122.1 (16.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>126.7 (18.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>128.1 (18.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain><z:uniprot sup="inside" fb="4" ids="Q32PF6,Q10586,P51659,P51660,P97852,P03264,P06500,P03265,P04497,P04498,P11806,P11807,Q65956,Q96687,Q64759,Q8JN65,O36360,P12639,Q1HVB8,P03227,Q3KSN9,P28932,Q6S6P0,Q66611,Q18LF9,Q9E6P0,P17147,F5HDQ6,P04296,P17469,P17470,P36384,P89452,P52338,P52538,P52339,Q2HRD3,P30672,Q6UDK2,P13215,P24910,P11870,Q9WRL7,P09246,Q4JQU6,P23847,O80837,Q3MHN5,P02774,P21614,P53789,P04276">DBP</z:uniprot> (mm Hg) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>76.9 (10.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>78.2 (11.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>80.5 (12.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>81.7 (11.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>Fasting glucose (mmol/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>5.8 (1.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>6.0 (1.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>6.1 (1.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>6.3 (1.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>Insulin (µU/ml) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>7.46 (7.03–7.92) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>8.43 (7.88–9.01) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>9.52 (8.97–10.11) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>11.80 (11.05–12.61) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>HOMA-IR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>0.87 (0.82–0.92) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>0.98 (0.92–1.05) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>1.11 (1.05–1.18) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>1.38 (1.29–1.48) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot>/insulin </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>0.09 (0.09–0.10) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>0.11 (0.10–0.11) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>0.11 (0.10–0.12) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>0.12 (0.11–0.13) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>Total cholesterol (mmol/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>5.0 (1.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>5.1 (1.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>5.4 (1.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>5.4 (1.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>LDL cholesterol (mmol/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>3.1 (0.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>3.2 (1.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>3.4 (1.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>3.4 (0.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>HDL cholesterol (mmol/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>1.5 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>1.4 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>1.4 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>1.3 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>Triglycerides (mmol/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>1.01 (0.95–1.07) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>1.10 (1.03–1.18) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>1.36 (1.26–1.46) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>1.70 (1.57–1.84) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>CRP (mg/l) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>0.74 (0.66–0.82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>0.83 (0.74–0.94) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>1.00 (0.88–1.13) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>1.17 (1.04–1.31) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> (pg/ml) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>1.33 (1.23–1.43) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>1.27 (1.17–1.37) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>1.45 (1.34–1.56) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>1.63 (1.50–1.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt105"><label>a</label><p><text><SENT sid="294" pm="."><plain>Data are arithmetic mean (SD) or geometric mean (95% confidence interval) if not specified. </plain></SENT>
+<SENT sid="295" pm="."><plain>Percentages may not sum to 100 because of rounding. P for trend was calculated after adjustment for age and sex. </plain></SENT>
+</text></p></fn><fn id="nt106"><label>b</label><p><text><SENT sid="296" pm="."><plain>Not adjusted for itself. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s3b"><title><text><SENT sid="297" pm="."><plain>Correlations of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations with metabolic parameters and inflammatory markers </plain></SENT>
+</text></title><p><text><SENT sid="298" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> was positively correlated with BMI, waist circumference, blood pressure, fasting glucose, insulin, HOMA-IR, total cholesterol, LDL-cholesterol, triglycerides, inflammatory markers of CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>, while, negatively correlated with plasma HDL-cholesterol (Table 3, all P&lt;0.001), after adjustment for age and sex. </plain></SENT>
+<SENT sid="299" pm="."><plain>Among all the metabolic parameters, <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> showed the strongest correlation with insulin and HOMA-IR. </plain></SENT>
+<SENT sid="300" pm="."><plain>In stratified analyses, the correlations were generally stronger in overweight/obese and male participants than in their normal-weight and female peers. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0024815-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0024815.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="301" pm="."><plain>Partial spearman correlation coefficients of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> with metabolic parameters and inflammatory markers. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0024815-t003-3" xlink:href="pone.0024815.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="302" pm="."><plain>Totala(n = 1011) </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="303" pm="."><plain>Normal weighta(n = 484) </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="304" pm="."><plain>Overweight/obesea(n = 527) </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="305" pm="."><plain>Maleb(n = 370) </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="306" pm="."><plain>Femaleb(n = 641) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>r </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>P value </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>r </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>P value </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>r </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>P value </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>r </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>P value </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>r </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>P value </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>BMI </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>0.21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>0.007 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>0.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>0.17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>Waist circumference </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>0.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>0.34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P18632,Q2KJ32,Q13228,Q5RF48,Q04672,P04278,P97497,Q62588,P15196,P08689,P15501,P08723,P68675">SBP</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>0.13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>0.05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>0.229 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>0.08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>0.062 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>0.08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>0.044 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain><z:uniprot sup="inside" fb="4" ids="Q32PF6,Q10586,P51659,P51660,P97852,P03264,P06500,P03265,P04497,P04498,P11806,P11807,Q65956,Q96687,Q64759,Q8JN65,O36360,P12639,Q1HVB8,P03227,Q3KSN9,P28932,Q6S6P0,Q66611,Q18LF9,Q9E6P0,P17147,F5HDQ6,P04296,P17469,P17470,P36384,P89452,P52338,P52538,P52339,Q2HRD3,P30672,Q6UDK2,P13215,P24910,P11870,Q9WRL7,P09246,Q4JQU6,P23847,O80837,Q3MHN5,P02774,P21614,P53789,P04276">DBP</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>0.14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>0.07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>0.131 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>0.09 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>0.042 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>0.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>0.007 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>Fasting glucose </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>0.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>0.10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>0.027 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>0.17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>0.14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>Insulin </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>0.33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>0.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>0.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>0.28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>HOMA-IR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>0.33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>0.21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>0.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>0.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>Total cholesterol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>0.07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>0.108 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>0.13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>0.004 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>0.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>0.159 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>LDL-cholesterol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>0.09 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>0.040 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>0.10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>0.027 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>0.08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>0.045 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>HDL-cholesterol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>−0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>−0.08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>0.080 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>−0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>−0.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>−0.13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>Triglycerides </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>0.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>0.17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>0.35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>0.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>0.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>CRP </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>0.10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>0.027 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>0.14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>0.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>0.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>0.159 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>0.08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>0.054 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>0.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>0.034 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>0.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>0.006 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt107"><label>a</label><p><text><SENT sid="460" pm="."><plain>Correlation coefficients were calculated after adjustment for age and sex. </plain></SENT>
+</text></p></fn><fn id="nt108"><label>b</label><p><text><SENT sid="461" pm="."><plain>Correlation coefficients were calculated after adjustment for age only. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s3c"><title><text><SENT sid="462" pm="."><plain>Associations of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> with metabolic syndrome and its components </plain></SENT>
+</text></title><p><text><SENT sid="463" pm="."><plain>The prevalence of MetS progressively increased from 25.8% to 57.3% across <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (Table 4). </plain></SENT>
+<SENT sid="464" pm="."><plain>The severity of MetS, indicated as ≤1, 2, 3 and ≥4 components, also increased gradually across <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (Figure 1). Table 4 (model 2) showed that, compared with the lowest quartile of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>, the ORs in the highest quartile were 3.71 (95% CI: 2.53–5.46) for MetS, 2.72 (1.88–3.93) for central obesity, 1.66 (1.14–2.41) for elevated blood pressure, 1.88 (1.28–2.76) for hyperglycemia, 5.55 (3.58–8.61) for hypertriglyceridemia, and 2.56 (1.75–3.76) for low HDL cholesterol (P&lt;0.001 for trend for the overall risk of MetS and most of the features except elevated blood pressure with P for trend = 0.002). </plain></SENT>
+<SENT sid="465" pm="."><plain>Further adjustment for BMI and inflammatory markers (model 4) only slightly reduced the magnitude of the association of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> with MetS (with an OR of 2.41, 95% CI: 1.46–3.97). </plain></SENT>
+<SENT sid="466" pm="."><plain>Although further adjustment of insulin based on model 2 decrease the magnitude of the <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>-MetS association (with an OR of 1.85, 95% CI: 1.21–2.85), the association of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> with MetS is still statistically significant (P = 0.001 for trend). </plain></SENT>
+<SENT sid="467" pm="."><plain>These results suggest that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> is associated with MetS independent of obesity, inflammatory markers or insulin. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0024815-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0024815.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="468" pm="."><plain>The severity of MetS according to <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles. </plain></SENT>
+</text></title><p><text><SENT sid="469" pm="."><plain>P&lt;0.001 for trend. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0024815.g001"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone-0024815-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0024815.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="470" pm="."><plain>Odds ratios and 95% confidence interval for MetS and its individual components according to <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (n = 1011). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0024815-t004-4" xlink:href="pone.0024815.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="471" pm="."><plain>Odds Ratios (95% CI) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>Q1(&lt;5.70) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>Q2(5.70–6.75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>Q3(6.75–7.83) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>Q4(≥7.83) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>P for trend </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>Metabolic syndrome </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>65/252 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>83/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>119/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>145/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>1.42 (0.96–2.09) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>2.54 (1.74–3.71) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>3.66 (2.51–5.36) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>1.43 (0.96–2.12) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>2.54 (1.73–3.72) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>3.71 (2.53–5.46) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>1.23 (0.75–2.00) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>2.33 (1.43–3.80) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>2.53 (1.55–4.14) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>Model 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>1.25 (0.76–2.06) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>2.22 (1.35–3.65) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>2.41 (1.46–3.97) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>Model 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>1.19 (0.77–1.82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>1.86 (1.22–2.82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>1.85 (1.21–2.85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>Model 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>1.16 (0.75–1.79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>1.81 (1.18–2.75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>1.75 (1.13–2.70) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>Central obesity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>98/252 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>125/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>133/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>162/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>1.51 (1.06–2.16) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>1.71 (1.20–2.44) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>2.75 (1.91–3.95) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>1.47 (1.03–2.11) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>1.66 (1.16–2.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>2.72 (1.88–3.93) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>1.07 (0.55–2.11) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>1.04 (0.53–2.04) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>1.29 (0.64–2.58) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>0.505 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>Model 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>1.11 (0.56–2.21) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>0.99 (0.50–1.96) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>1.24 (0.61–2.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>0.617 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>Model 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>1.26 (0.85–1.86) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>1.16 (0.78–1.71) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>1.39 (0.92–2.10) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>0.160 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>Model 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>1.24 (0.84–1.84) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>1.13 (0.77–1.68) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>1.35 (0.89–2.04) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>0.216 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>Elevated blood pressure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>90/252 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>87/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>111/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>125/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>0.96 (0.66–1.40) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>1.40 (0.96–2.02) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>1.59 (1.10–2.30) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>0.99 (0.67–1.45) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>1.43 (0.98–2.08) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>1.66 (1.14–2.41) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>0.002 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>0.84 (0.56–1.27) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>1.11 (0.74–1.67) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>1.04 (0.69–1.57) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>0.598 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>Model 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>0.85 (0.56–1.29) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>1.07 (0.71–1.62) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>1.00 (0.66–1.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>0.768 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>Model 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>0.87 (0.59–1.30) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>1.15 (0.78–1.69) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>1.07 (0.72–1.60) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>0.515 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>Model 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>0.86 (0.58–1.28) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>1.13 (0.76–1.66) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>1.03 (0.69–1.55) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>0.624 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>Hyperglycemia </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>144/252 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>143/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>165/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>184/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>0.95 (0.67–1.36) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>1.36 (0.94–1.95) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>1.89 (1.29–2.75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>0.96 (0.67–1.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>1.37 (0.95–1.97) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>1.88 (1.28–2.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>0.90 (0.62–1.29) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>1.21 (0.84–1.77) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>1.54 (1.04–2.28) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>0.014 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>Model 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>0.86 (0.60–1.25) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>1.16 (0.80–1.70) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>1.49 (1.00–2.22) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>0.022 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>Model 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>0.92 (0.64–1.32) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>1.23 (0.85–1.79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>1.54 (1.03–2.29) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>0.017 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>Model 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>0.89 (0.62–1.28) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>1.16 (0.80–1.69) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>1.38 (0.92–2.07) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>0.067 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>Hypertriglyceridemia </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>38/252 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>57/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>85/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>124/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>1.74 (1.09–2.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>3.01 (1.93–4.68) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>5.42 (3.51–8.37) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>1.77 (1.11–2.82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>3.07 (1.96–4.79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>5.55 (3.58–8.61) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>1.60 (0.99–2.59) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>2.53 (1.60–4.02) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>4.15 (2.64–6.54) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>Model 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>1.61 (0.99–2.61) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>2.45 (1.53–3.91) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>4.07 (2.57–6.45) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>Model 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>1.54 (0.96–2.49) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>2.40 (1.52–3.80) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>3.48 (2.20–5.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>Model 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>1.52 (0.94–2.46) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>2.34 (1.47–3.71) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>3.32 (2.09–5.28) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>Low HDL cholesterol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>69/252 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>91/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>92/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>117/253 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>1.51 (1.03–2.21) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>1.58 (1.08–2.31) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>2.51 (1.72–3.67) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>1.53 (1.04–2.25) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>1.58 (1.07–2.32) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>2.56 (1.75–3.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>1.39 (0.93–2.07) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>1.29 (0.87–1.93) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>1.88 (1.26–2.81) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>Model 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>1.42 (0.95–2.12) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>1.30 (0.87–1.95) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>1.87 (1.25–2.79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>Model 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>1.38 (0.92–2.05) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>1.24 (0.83–1.86) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>1.63 (1.08–2.45) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>0.034 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>Model 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>1.38 (0.93–2.06) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>1.26 (0.85–1.87) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>1.67 (1.11–2.52) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>0.024 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt109"><label/><p><text><SENT sid="723" pm="."><plain>Model 1, adjusted for age and sex; </plain></SENT>
+</text></p></fn><fn id="nt110"><label/><p><text><SENT sid="724" pm="."><plain>Model 2, further adjusted for smoking, alcohol drinking, physical activity, educational attainment and family history of chronic diseases based on model 1; </plain></SENT>
+</text></p></fn><fn id="nt111"><label/><p><text><SENT sid="725" pm="."><plain>Model 3, further adjusted for BMI based on model 2; </plain></SENT>
+</text></p></fn><fn id="nt112"><label/><p><text><SENT sid="726" pm="."><plain>Model 4, further adjusted for inflammatory markers (CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>) based on model 3. </plain></SENT>
+</text></p></fn><fn id="nt113"><label/><p><text><SENT sid="727" pm="."><plain>Model 5, further adjusted for insulin based on model 2; </plain></SENT>
+</text></p></fn><fn id="nt114"><label/><p><text><SENT sid="728" pm="."><plain>Model 6, further adjusted for HOMA-IR based on model 2. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="729" pm="."><plain>In joint classification analyses, rising <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> was associated with approximately 2–5 fold higher risk of MetS in the individuals with normal-weight (OR = 2.6 [95% CI: 1.4–4.7] for Q4 vs. OR = 1 [reference group], Figure 2A) and low inflammatory status indicated as in the lowest quartile of CRP (OR = 2.2 [95% CI: 0.7–7.4] for Q4 vs. OR = 1.0 for Q1, Figure 2B), <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> (OR = 4.9 [95% CI: 1.6–15.6] for Q4 vs. OR = 1.0 for Q1, Figure 2C), insulin (OR = 2.1 [95% CI: 0.7–6.2] for Q4 vs. OR = 1.0 for Q1, Fig. 2D), and HOMA-IR (OR = 1.9 [95% CI: 0.6–6.0] for Q4 vs. OR = 1.0 for Q1 Fig. 2E). </plain></SENT>
+<SENT sid="730" pm="."><plain>However, the risk of MetS was more pronounced among the participants who were overweight/obese (OR = 23.6 [95% CI: 12.9–43.1] for Q4 vs. OR = 5.9 [95% CI: 3.3–10.5] for Q1) or in the highest quartile of plasma CRP (OR = 37.9 [95% CI: 14.1–101.8] for Q4 vs. OR = 13.0 [95% CI: 4.6–36.5] for Q1), <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> (OR = 35.9 [95% CI: 12.5–102.9] for Q4 vs. OR = 8.3 [95% CI: 2.9–23.8] for Q1), insulin (OR = 42.8 [95% CI: 18.7–97.6] for Q4 vs. OR = 11.5 [95% CI: 4.2–31.9] for Q1) and HOMA-IR (OR = 46.1 [95% CI: 20.0–106.1] for Q4 vs. OR = 16.7 [95% CI: 5.9–47.3] for Q1) in combination with elevated circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>. </plain></SENT>
+<SENT sid="731" pm="."><plain>No significant interactions were observed between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>, obesity, inflammatory status and insulin resistance on the risk of MetS (P&gt;0.05 for all interaction tests). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0024815-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0024815.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="732" pm="."><plain>Adjusted odds ratios for MetS according to <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles, obesity status (A), and quartiles of CRP (B), <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> (C), insulin (D), HOMA-IR (E). </plain></SENT>
+</text></title><p><text><SENT sid="733" pm="."><plain>Adjusted for age, sex, smoking, alcohol drinking, physical activity, educational attainment and family history of chronic diseases. </plain></SENT>
+<SENT sid="734" pm="."><plain>A: Modified MetS was defined as having two or more components of the MetS without central obesity. </plain></SENT>
+<SENT sid="735" pm="."><plain>Normal weight: 18≤BMI&lt;24 kg/m2; overweight/obese: BMI≥24.0 kg/m2. P = 0.105 for interaction of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and BMI, P = 0.443 for interaction of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and CRP; P = 0.448 for interaction of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>; P = 0.375 for interaction of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and insulin; P = 0.397 for interaction of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and HOMA-IR. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0024815.g002"/></fig></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s4"><title><text><SENT sid="736" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="737" pm="."><plain>In this study, we found that elevated <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations were significantly correlated with inflammatory status and unfavorable metabolic traits. </plain></SENT>
+<SENT sid="738" pm="."><plain>The strong positive association between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and the risk of MetS was independent of the well established risk factors, including obesity, inflammatory markers (CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>) and insulin resistance in apparently healthy Chinese population. </plain></SENT>
+</text></p><p><text><SENT sid="739" pm="."><plain>Few studies have examined the distribution of circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in a large population. </plain></SENT>
+<SENT sid="740" pm="."><plain>Previously, Reinehr et al reported that serum <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> of 37 obese children was significantly higher than that in 16 health lean children, but was not correlated with age, sex and BMI [13]. </plain></SENT>
+<SENT sid="741" pm="."><plain>Obese persons with/without impaired glucose tolerance were found to have increased circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> [13], [14], [26], [27] and obese individuals also tended to have higher <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> response toward glucose load compared with non-obese individuals [27]. </plain></SENT>
+<SENT sid="742" pm="."><plain>With a relatively large sample, our data showed that increased <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentrations across quartiles were associated with not only advanced age and higher BMI, but also unfavorable metabolic and inflammatory profiles (Table 2). </plain></SENT>
+<SENT sid="743" pm="."><plain>In general, the correlations were stronger in overweight/obese participants than their normal-weight counterparts, particularly in the case of insulin, HOMA-IR and triglycerides. </plain></SENT>
+<SENT sid="744" pm="."><plain>However, the mechanistic linkage between elevated <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> levels and obesity related metabolic disorders has not been fully understood thus far. </plain></SENT>
+<SENT sid="745" pm="."><plain>Indeed, data from a weight loss intervention in obese children suggested that changing of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> levels was correlated with altered insulin rather than change of BMI or percentage of body fat [13]. </plain></SENT>
+</text></p><p><text><SENT sid="746" pm="."><plain>One of the major findings of our current study is that we discovered a strong association between plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and the risk of MetS. </plain></SENT>
+<SENT sid="747" pm="."><plain>Accumulating evidence, mainly from cellular and animal studies, suggested that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> plays important roles in regulating food intake, insulin action and energy homeostasis, as well as glucose and lipid metabolisms. </plain></SENT>
+<SENT sid="748" pm="."><plain>Moreover, adverse effects of increased <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> levels on metabolic abnormalities such as insulin resistance or type 2 diabetes, have been indicated by some of human studies [13], [14]. </plain></SENT>
+<SENT sid="749" pm="."><plain>However, little is known whether high circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> is an independent risk factor for MetS, a preclinical condition associated with a 2-fold increase in risk of CVD, CVD mortality, and stroke [18]. </plain></SENT>
+<SENT sid="750" pm="."><plain>In this study, we found that elevated <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> per se is associated with higher risk of MetS even in normal weight persons, despite the fact that the MetS risk was pronounced in overweight/obese participants (Figure 2A). </plain></SENT>
+<SENT sid="751" pm="."><plain>Obesity is a well established risk factor of MetS [28]–[30]. </plain></SENT>
+<SENT sid="752" pm="."><plain>Adjustments for BMI in combining other potential confounders, however, yielded only a minor reduction on the risk of MetS across <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartiles (Table 4). </plain></SENT>
+<SENT sid="753" pm="."><plain>Thus, the <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>-MetS association in the current study apparently could not mainly be attributed to obesity. </plain></SENT>
+<SENT sid="754" pm="."><plain>Hyperinsulinemia associated with the insulin resistance of obesity is also a defining marker of MetS. </plain></SENT>
+<SENT sid="755" pm="."><plain>Our present study showed that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and insulin were both elevated in obesity and insulin resistance, which is consistent with previous reports [13], [14], [26], [27]. </plain></SENT>
+<SENT sid="756" pm="."><plain>In addition, we found that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> was associated with MetS independent of hyperinsulinemia/insulin resistance. </plain></SENT>
+<SENT sid="757" pm="."><plain>Although the secretion of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and insulin is generally parallel under physiological conditions, these two hormones are differently regulated under certain circumstances. </plain></SENT>
+<SENT sid="758" pm="."><plain>High glucose increases the relative amount of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> to insulin secretion from islets isolated from dexamethasone- or glucose-treated rats in comparison with islets isolated from fed and fasted rats [31]. </plain></SENT>
+<SENT sid="759" pm="."><plain>Increased storage and secretion of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> relative to insulin has been reported in spontaneously diabetic GK rats [32]. </plain></SENT>
+<SENT sid="760" pm="."><plain>We found that participants in the higher <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> quartile had higher <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>/insulin ratio and higher risk of MetS, supporting the involvement of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in MetS independent of insulin. </plain></SENT>
+</text></p><p><text><SENT sid="761" pm="."><plain>Another noteworthy finding in our study was that we observed a significantly positive correlation between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and inflammatory markers (CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>) (Table 3). </plain></SENT>
+<SENT sid="762" pm="."><plain>Low-grade inflammation is one of the widely accepted key mechanisms related to obesity, insulin resistance, type 2 diabetes and cardiovascular diseases, the conditions often coexisted with hyperamylinemia. </plain></SENT>
+<SENT sid="763" pm="."><plain>However, direct evidence was scarce regarding the relationship between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and inflammation. </plain></SENT>
+<SENT sid="764" pm="."><plain>In our recent in vitro study, we observed that <z:uniprot sup="inside" fb="0" ids="P59684,Q1G1A2,Q06599,P59693,Q2MH05,Q19LH4,Q75N23,P51742,P13296,P51435,P51743,Q1WM27,Q8WNR1,P19101,P29553,P01375,P59694,O77764,P79337,P48094,O35734,P06804,Q8HZD9,P59695,O77510,P33620,P36939,P23563,P04924,P16599,Q8MKG8,P23383,Q8JFG3,P79374,Q539C2,Q9BEA1">tumor necrosis factor</z:uniprot>- α (<z:uniprot sup="inside" fb="0" ids="P59684,Q1G1A2,Q06599,P59693,Q2MH05,Q19LH4,Q75N23,P51742,P13296,P51435,P51743,Q1WM27,Q8WNR1,P19101,P29553,P01375,P59694,O77764,P79337,P48094,O35734,P06804,Q8HZD9,P59695,O77510,P33620,P36939,P23563,P04924,P16599,Q8MKG8,P23383,Q8JFG3,P79374,Q539C2,Q9BEA1">TNF-α</z:uniprot>), a proinflammatory cytokine elevated in obesity and insulin resistance, could induce <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> gene expression in murine pancreatic β-cells and islets, and also could activate human <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> promoter through multiple signaling pathways [33]. </plain></SENT>
+<SENT sid="765" pm="."><plain>Masters et al. [34] recently reported that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> triggered the <z:uniprot sup="inside" fb="0" ids="A6QLE5,Q96P20,B0FPE9">NLRP3</z:uniprot> inflammasome and generated mature <z:uniprot sup="inside" fb="0" ids="P09428,Q2MH07,Q28292,P79162,Q9WVG1,P46648,P51745,Q8WNR2,Q6R2X3,P41687,Q28386,P01584,Q865X8,P79182,P48090,P51493,P10749,A4UYK8,Q6PUD2,P26889,Q2HZH0,P14628,Q63264,P21621,Q9XS77">IL-1β</z:uniprot>, an important inflammatory mediator in type 2 diabetes, in macrophages. </plain></SENT>
+<SENT sid="766" pm="."><plain>Mice transgenic for human <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> had more <z:uniprot sup="inside" fb="0" ids="P09428,Q2MH07,Q28292,P79162,Q9WVG1,P46648,P51745,Q8WNR2,Q6R2X3,P41687,Q28386,P01584,Q865X8,P79182,P48090,P51493,P10749,A4UYK8,Q6PUD2,P26889,Q2HZH0,P14628,Q63264,P21621,Q9XS77">IL-1β</z:uniprot> in pancreatic islets, which localized together with amyloid and macrophages. </plain></SENT>
+<SENT sid="767" pm="."><plain>While it is still waiting to be verified whether the findings from the in vitro and animal studies are biologically relevant to humans, our data, however, showed that elevated <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> was significantly correlated with increased plasma CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot>. </plain></SENT>
+<SENT sid="768" pm="."><plain>Interestingly, like in the case of obesity and insulin resistance, the effect of CRP and <z:uniprot sup="inside" fb="0" ids="P26892,Q6V919,Q2MH06,Q865W7,P41323,Q28319,P46650,Q90YI0,Q9XT80,P41683,Q95181,P05231,Q865X6,P79341,P51494,Q5I6E3,O35736,P08505,A3FBE9,P41693,Q0GGL7,Q28747,A0S0B0,Q28819,P26893,Q9MZR1,P20607,Q8MKH0,P29455,B6CKP4,Q6L6X6,Q25BC2">IL-6</z:uniprot> on the <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>-MetS association was rather minor (Table 4). </plain></SENT>
+<SENT sid="769" pm="."><plain>Together, this data again suggests that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> might independently promote metabolic disorders through the mechanism(s) other than inflammatory signaling pathway. </plain></SENT>
+</text></p><p><text><SENT sid="770" pm="."><plain>In the present study, we also documented that increased circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> was significantly associated with the severity (Figure 1) and each component of MetS (Table 4). </plain></SENT>
+<SENT sid="771" pm="."><plain>Interestingly, the association between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and hypertriglyceridemia was particularly strong and also independent of BMI, a well recognized risk factor for hypertriglyceridemia [35], whereas the associations between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and the rest of the MetS components were largely explained by BMI (Table 4). </plain></SENT>
+<SENT sid="772" pm="."><plain>Previously, a positive correlation between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and triglycerides was reported based on a study of 53 children [13]. </plain></SENT>
+<SENT sid="773" pm="."><plain>However, it remains controversial whether elevated <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> directly or indirectly induce dyslipidemia or vice versa. </plain></SENT>
+<SENT sid="774" pm="."><plain>For instance, Smith and coworkers reported that a bolus injection or infusion with <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> significantly raised total plasma triglyceride levels and reduced clearance of TG-rich lipoproteins by about 45% [36]. </plain></SENT>
+<SENT sid="775" pm="."><plain>In another study, Ye et al showed that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> infusion in rats increased not only circulating levels of non-esterified fatty acids and glycerol, but also hepatic triglyceride content [37]. </plain></SENT>
+<SENT sid="776" pm="."><plain>On the other hand, we found that acute treatment with dietary fatty acids could enhance <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> expression and secretion in murine pancreatic β cells [4], as well as stimulate human <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> promoter activation. </plain></SENT>
+<SENT sid="777" pm="."><plain>Furthermore, acutely fed mice with high-lipid contained diet could raise plasma levels of fatty acid, <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and insulin in a temporal manner, implicating fatty acid might play a critical role in inducing <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> release [4]. </plain></SENT>
+<SENT sid="778" pm="."><plain>The discrepancies might be due to inter-species variations of animal models, different protocols and doses used among studies. </plain></SENT>
+<SENT sid="779" pm="."><plain>Nonetheless, long-term studies, especially human studies, are merited to prove the observations from acute animal studies and also to identify mechanism(s) linking between hyperamylinemia and dyslipidemia. </plain></SENT>
+</text></p><p><text><SENT sid="780" pm="."><plain>To our knowledge, this is the first study to evaluate the association between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> levels and the risk of MetS in a relatively large-scale population. </plain></SENT>
+<SENT sid="781" pm="."><plain>Admittedly, due to the cross-sectional nature of current study, we can not establish a causal association of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> with MetS risk and its components. </plain></SENT>
+<SENT sid="782" pm="."><plain>We have made efforts to eliminate possible effects of most potential confounders by employing strict exclusion criteria and recruiting a relatively large sample of apparently healthy adults with both sexes. </plain></SENT>
+<SENT sid="783" pm="."><plain>A randomized study with a sufficiently large sample will further decrease the potential role of residual confounding. </plain></SENT>
+<SENT sid="784" pm="."><plain>Certainly, our results should be examined in longitudinal studies to establish the causal relationship between <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and metabolic syndrome. </plain></SENT>
+<SENT sid="785" pm="."><plain>Whether increased <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> could serve as a useful biomarker or intervention target in clinical settings for predicting and controlling metabolic diseases should be determined prospectively among different populations. </plain></SENT>
+</text></p><p><text><SENT sid="786" pm="."><plain>In summary, our findings suggest that elevated circulating <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> is strongly associated with MetS, independent of established risk factors including obesity, inflammatory markers and insulin resistance in apparently healthy Chinese. </plain></SENT>
+<SENT sid="787" pm="."><plain>Our results also provide novel insights into the potential role(s) of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in the development of metabolic diseases. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="788" pm="."><plain>We thank Juan Chen, Bo Deng, An Pan, Qibin Qi, Ling Lu, Chen Liu, Geng Zhang, Geng Zong, Shaojie Ma, He Zheng and the local Center for Disease Control and Prevention staffs of Shanghai for their kind help during this study. </plain></SENT>
+</text></text4fund></p></ack></SecTag><fn-group><fn fn-type="COI-statement"><p><text><SENT sid="789" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><SecTag type="ACK_FUND"><fn fn-type="financial-disclosure"><p><text4fund><text><SENT sid="790" pm="."><plain>Funding: This work was supported by research grants from the National Basic Research Program of China (973 Program) (2011CB504002); the Chief Scientist Program of Shanghai Institutes for Biological Sciences (SIBS2008006); the Knowledge Innovation Program of the Chinese Academy of Sciences (KSCX2-EW-R-10); the One Hundred Talents Program of the Chinese Academy of Sciences; the Science &amp; Technology Commission of Shanghai Municipality (03JC14079 and 04DZ14007); the National Natural Science Foundation of China (30930081 and 81021002) and the Ministry of Science and Technology of China (2009AA022704 and 2008DFA31960) and the China Postdoctoral Science Foundation. </plain></SENT>
+<SENT sid="791" pm="."><plain>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of manuscript. </plain></SENT>
+</text></text4fund></p></fn></SecTag></fn-group><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0024815-Cooper1"><text><SENT sid="792" pm="."><plain>1 CooperGJWillisACClarkATurnerRCSimRB 1987 Purification and characterization of a peptide from amyloid-rich pancreases of type 2 diabetic patients. Proc Natl Acad Sci U S A 84 8628 8632 3317417 </plain></SENT>
+</text></ref><ref id="pone.0024815-Westermark1"><text><SENT sid="793" pm="."><plain>2 WestermarkPWernstedtCO'BrienTDHaydenDWJohnsonKH 1987 Islet amyloid in type 2 human diabetes mellitus and adult diabetic cats contains a novel putative polypeptide hormone. Am J Pathol 127 414 417 3296768 </plain></SENT>
+</text></ref><ref id="pone.0024815-Mitsukawa1"><text><SENT sid="794" pm="."><plain>3 MitsukawaTTakemuraJAsaiJNakazatoMKangawaK 1990 Islet amyloid polypeptide response to glucose, insulin, and <z:uniprot sup="inside" fb="84" ids="P26917,P49670,P33094,P61278,Q9PRR0,P61279,P60041,P19209,P01168,P60042,O46688">somatostatin</z:uniprot> analogue administration. Diabetes 39 639 642 1970540 </plain></SENT>
+</text></ref><ref id="pone.0024815-Qi1"><text><SENT sid="795" pm="."><plain>4 QiDCaiKWangOLiZChenJ 2010 Fatty acids induce <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> expression and secretion by pancreatic beta-cells. Am J Physiol Endocrinol Metab 298 E99 E107 19843871 </plain></SENT>
+</text></ref><ref id="pone.0024815-Butler1"><text><SENT sid="796" pm="."><plain>5 ButlerPCChouJCarterWBWangYNBuBH 1990 Effects of meal ingestion on plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> concentration in NIDDM and nondiabetic humans. Diabetes 39 752 756 2189768 </plain></SENT>
+</text></ref><ref id="pone.0024815-Lutz1"><text><SENT sid="797" pm="."><plain>6 LutzTA 2010 The role of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in the control of energy homeostasis. Am J Physiol Regul Integr Comp Physiol 298 R1475 1484 20357016 </plain></SENT>
+</text></ref><ref id="pone.0024815-Lutz2"><text><SENT sid="798" pm="."><plain>7 LutzTA 2006 Amylinergic control of food intake. Physiol Behav 89 465 471 16697020 </plain></SENT>
+</text></ref><ref id="pone.0024815-Wielinga1"><text><SENT sid="799" pm="."><plain>8 WielingaPYLowensteinCMuffSMunzMWoodsSC 2010 Central <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> acts as an adiposity signal to control body weight and energy expenditure. Physiol Behav 101 45 52 20416330 </plain></SENT>
+</text></ref><ref id="pone.0024815-Leighton1"><text><SENT sid="800" pm="."><plain>9 LeightonBCooperGJ 1988 Pancreatic <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="P10286,P30880,P30881,P31888">calcitonin gene-related peptide</z:uniprot> cause resistance to insulin in skeletal muscle in vitro. Nature 335 632 635 3050530 </plain></SENT>
+</text></ref><ref id="pone.0024815-Ciaraldi1"><text><SENT sid="801" pm="."><plain>10 CiaraldiTPGoldbergMOdomRStolpeM 1992 In vitro effects of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> on carbohydrate metabolism in liver cells. Diabetes 41 975 981 1628773 </plain></SENT>
+</text></ref><ref id="pone.0024815-Matveyenko1"><text><SENT sid="802" pm="."><plain>11 MatveyenkoAVButlerPC 2006 Beta-cell deficit due to increased apoptosis in the human <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">islet amyloid polypeptide</z:uniprot> transgenic (HIP) rat recapitulates the metabolic defects present in type 2 diabetes. Diabetes 55 2106 2114 16804082 </plain></SENT>
+</text></ref><ref id="pone.0024815-Sowa1"><text><SENT sid="803" pm="."><plain>12 SowaRSankeTHirayamaJTabataHFurutaH 1990 Islet amyloid polypeptide amide causes peripheral insulin resistance in vivo in dogs. Diabetologia 33 118 120 2184060 </plain></SENT>
+</text></ref><ref id="pone.0024815-Reinehr1"><text><SENT sid="804" pm="."><plain>13 ReinehrTde SousaGNiklowitzPRothCL 2007 Amylin and its relation to insulin and lipids in obese children before and after weight loss. Obesity 15 2006 2011 17712118 </plain></SENT>
+</text></ref><ref id="pone.0024815-Sanke1"><text><SENT sid="805" pm="."><plain>14 SankeTHanabusaTNakanoYOkiCOkaiK 1991 Plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">islet amyloid polypeptide</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot>) levels and their responses to oral glucose in type 2 (non-insulin-dependent) diabetic patients. Diabetologia 34 129 132 2065848 </plain></SENT>
+</text></ref><ref id="pone.0024815-James1"><text><SENT sid="806" pm="."><plain>15 JamesSMoralezJNagamaniM 2010 Increased secretion of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> in women with polycystic ovary syndrome. Fertil Steril 94 211 215 19338997 </plain></SENT>
+</text></ref><ref id="pone.0024815-Kairamkonda1"><text><SENT sid="807" pm="."><plain>16 KairamkondaVRDeorukhkarABruceCCoombsRFraserR 2008 Amylin peptide is increased in preterm neonates with feed intolerance. Arch Dis Child Fetal Neonatal Ed 93 F265 270 18252818 </plain></SENT>
+</text></ref><ref id="pone.0024815-Grundy1"><text><SENT sid="808" pm="."><plain>17 GrundySMCleemanJIDanielsSRDonatoKAEckelRH 2005 Diagnosis and management of the metabolic syndrome: an American Heart Association/National Heart, Lung, and Blood Institute Scientific Statement. Circulation 112 2735 2752 16157765 </plain></SENT>
+</text></ref><ref id="pone.0024815-Mottillo1"><text><SENT sid="809" pm="."><plain>18 MottilloSFilionKBGenestJJosephLPiloteL 2010 The metabolic syndrome and cardiovascular risk a systematic review and meta-analysis. J Am Coll Cardiol 56 1113 1132 20863953 </plain></SENT>
+</text></ref><ref id="pone.0024815-Ford1"><text><SENT sid="810" pm="."><plain>19 FordESGilesWHDietzWH 2002 Prevalence of the metabolic syndrome among US adults: findings from the third National Health and Nutrition Examination Survey. <z:uniprot sup="inside" fb="0" ids="Q9XT56,Q2WGK2,Q9Y624,O88792,Q9JHY1">JAMA</z:uniprot> 287 356 359 11790215 </plain></SENT>
+</text></ref><ref id="pone.0024815-Gu1"><text><SENT sid="811" pm="."><plain>20 GuDReynoldsKWuXChenJDuanX 2005 Prevalence of the metabolic syndrome and overweight among adults in China. The Lancet 365 1398 1405  </plain></SENT>
+</text></ref><ref id="pone.0024815-Tataranni1"><text><SENT sid="812" pm="."><plain>21 TataranniPAOrtegaE 2005 A burning question: does an adipokine-induced activation of the immune system mediate the effect of overnutrition on type 2 diabetes? Diabetes 54 917 927 15793228 </plain></SENT>
+</text></ref><ref id="pone.0024815-Sun1"><text><SENT sid="813" pm="."><plain>22 SunLYuZYeXZouSLiH 2010 A marker of endotoxemia is associated with obesity and related metabolic disorders in apparently healthy Chinese. Diabetes Care 33 1925 1932 20530747 </plain></SENT>
+</text></ref><ref id="pone.0024815-Zhou1"><text><SENT sid="814" pm="."><plain>23 ZhouBF 2002 Predictive values of body mass index and waist circumference for risk factors of certain related diseases in Chinese adults–study on optimal cut-off points of body mass index and waist circumference in Chinese adults. Biomed Environ Sci 15 83 96 12046553 </plain></SENT>
+</text></ref><ref id="pone.0024815-Zhou2"><text><SENT sid="815" pm="."><plain>24 ZhouBF 2002 Effect of body mass index on all-cause mortality and incidence of cardiovascular diseases–report for meta-analysis of prospective studies open optimal cut-off points of body mass index in Chinese adults. Biomed Environ Sci 15 245 252 12500665 </plain></SENT>
+</text></ref><ref id="pone.0024815-Chen1"><text><SENT sid="816" pm="."><plain>25 ChenCLuFC 2004 The guidelines for prevention and control of overweight and obesity in Chinese adults. Biomed Environ Sci 17 Suppl 1 36  </plain></SENT>
+</text></ref><ref id="pone.0024815-Hanabusa1"><text><SENT sid="817" pm="."><plain>26 HanabusaTKuboKOkiCNakanoYOkaiK 1992 Islet amyloid polypeptide (<z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P22889,Q29119,Q07334,Q28934,Q28605">IAPP</z:uniprot>) secretion from islet cells and its plasma concentration in patients with non-insulin-dependent diabetes mellitus. Diabetes Res Clin Pract 15 89 96 1541240 </plain></SENT>
+</text></ref><ref id="pone.0024815-Enoki1"><text><SENT sid="818" pm="."><plain>27 EnokiSMitsukawaTTakemuraJNakazatoMAburayaJ 1992 Plasma <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">islet amyloid polypeptide</z:uniprot> levels in obesity, impaired glucose tolerance and non-insulin-dependent diabetes mellitus. Diabetes Res Clin Pract 15 97 102 1541241 </plain></SENT>
+</text></ref><ref id="pone.0024815-Despres1"><text><SENT sid="819" pm="."><plain>28 DespresJ-PLemieuxI 2006 Abdominal obesity and metabolic syndrome. Nature 444 881 887 17167477 </plain></SENT>
+</text></ref><ref id="pone.0024815-Han1"><text><SENT sid="820" pm="."><plain>29 HanTSSattarNWilliamsKGonzalez-VillalpandoCLeanME 2002 Prospective study of <z:uniprot sup="inside" fb="0" ids="P49254,P02741,P49262,P14847,P19094,O19062,P12245,P02742,P48199,Q07203">C-reactive protein</z:uniprot> in relation to the development of diabetes and metabolic syndrome in the Mexico City Diabetes Study. Diabetes Care 25 2016 2021 12401749 </plain></SENT>
+</text></ref><ref id="pone.0024815-Ye1"><text><SENT sid="821" pm="."><plain>30 YeXYuZLiHFrancoOHLiuY 2007 Distributions of <z:uniprot sup="inside" fb="0" ids="P49254,P02741,P49262,P14847,P19094,O19062,P12245,P02742,P48199,Q07203">C-reactive protein</z:uniprot> and its association with metabolic syndrome in middle-aged and older Chinese people. J Am Coll Cardiol 49 1798 1805 17466231 </plain></SENT>
+</text></ref><ref id="pone.0024815-OBrien1"><text><SENT sid="822" pm="."><plain>31 O'BrienTDWestermarkPJohnsonKH 1991 Islet amyloid polypeptide and insulin secretion from isolated perfused pancreas of fed, fasted, glucose-treated, and dexamethasone-treated rats. Diabetes 40 1701 1706 1756910 </plain></SENT>
+</text></ref><ref id="pone.0024815-Leckstrm1"><text><SENT sid="823" pm="."><plain>32 LeckströmAOstensonCGEfendićSArneloUPermertJ 1996 Increased storage and secretion of <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">islet amyloid polypeptide</z:uniprot> relative to insulin in the spontaneously diabetic GK rat. Pancreas 13 259 267 8884847 </plain></SENT>
+</text></ref><ref id="pone.0024815-Cai1"><text><SENT sid="824" pm="."><plain>33 CaiKQiDWangOChenJLiuX 2011 TNF-alpha acutely upregulates <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> expression in murine pancreatic beta cells. Diabetologia 54 617 626 21116608 </plain></SENT>
+</text></ref><ref id="pone.0024815-Masters1"><text><SENT sid="825" pm="."><plain>34 MastersSLDunneASubramanianSLHullRLTannahillGM 2010 Activation of the <z:uniprot sup="inside" fb="0" ids="A6QLE5,Q96P20,B0FPE9">NLRP3</z:uniprot> inflammasome by <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">islet amyloid polypeptide</z:uniprot> provides a mechanism for enhanced <z:uniprot sup="inside" fb="0" ids="P09428,Q2MH07,Q28292,P79162,Q9WVG1,P46648,P51745,Q8WNR2,Q6R2X3,P41687,Q28386,P01584,Q865X8,P79182,P48090,P51493,P10749,A4UYK8,Q6PUD2,P26889,Q2HZH0,P14628,Q63264,P21621,Q9XS77">IL-1β</z:uniprot> in type 2 diabetes. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Immunol 11 897 904 20835230 </plain></SENT>
+</text></ref><ref id="pone.0024815-Denke1"><text><SENT sid="826" pm="."><plain>35 DenkeMASemposCTGrundySM 1993 Excess body weight. </plain></SENT>
+<SENT sid="827" pm="."><plain>An underrecognized contributor to high blood cholesterol levels in white American men. Arch Intern Med 153 1093 1103 8481076 </plain></SENT>
+</text></ref><ref id="pone.0024815-Smith1"><text><SENT sid="828" pm="."><plain>36 SmithDMamoJC 2000 Islet amyloid polypeptide (<z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot>) modulates chylomicron metabolism in rats. Clin Exp Pharmacol Physiol 27 345 351 10831234 </plain></SENT>
+</text></ref><ref id="pone.0024815-Ye2"><text><SENT sid="829" pm="."><plain>37 YeJMLim-FraserMCooneyGJCooperGJIglesiasMA 2001 Evidence that <z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">amylin</z:uniprot> stimulates lipolysis in vivo: a possible mediator of induced insulin resistance. Am J Physiol Endocrinol Metab 280 E562 569 11254462 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

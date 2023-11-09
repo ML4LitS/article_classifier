@@ -1,0 +1,751 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Bioinformatics</journal-id><journal-title-group><journal-title>BMC Bioinformatics</journal-title></journal-title-group><issn pub-type="epub">1471-2105</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3228540</article-id><article-id pub-id-type="publisher-id">1471-2105-12-391</article-id><article-id pub-id-type="pmid">21982331</article-id><article-id pub-id-type="doi">10.1186/1471-2105-12-391</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Microarray-based cancer prediction using single genes </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" id="A1"><name><surname>Wang</surname><given-names>Xiaosheng</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>xiaosheng.wang@nih.gov</email></contrib><contrib contrib-type="author" corresp="yes" id="A2"><name><surname>Simon</surname><given-names>Richard</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>rsimon@mail.nih.gov</email></contrib></contrib-group><aff id="I1"><label>1</label>Biometric Research Branch, National Cancer Institute, National Institutes of Health, Rockville, MD 20852, USA</aff><pub-date pub-type="collection"><year>2011</year></pub-date><pub-date pub-type="epub"><day>7</day><month>10</month><year>2011</year></pub-date><volume>12</volume><fpage>391</fpage><lpage>391</lpage><history><date date-type="received"><day>24</day><month>5</month><year>2011</year></date><date date-type="accepted"><day>7</day><month>10</month><year>2011</year></date></history><permissions><copyright-statement>Copyright ©2011 Wang and Simon; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2011</copyright-year><copyright-holder>Wang and Simon; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.biomedcentral.com/1471-2105/12/391"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Although numerous methods of using microarray data analysis for cancer classification have been proposed, most utilize many genes to achieve accurate classification. </plain></SENT>
+<SENT sid="3" pm="."><plain>This can hamper interpretability of the models and ease of translation to other assay platforms. </plain></SENT>
+<SENT sid="4" pm="."><plain>We explored the use of single genes to construct classification models. </plain></SENT>
+<SENT sid="5" pm="."><plain>We first identified the genes with the most powerful univariate class discrimination ability and then constructed simple classification rules for class prediction using the single genes. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="6" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>We applied our model development algorithm to eleven cancer gene expression datasets and compared classification accuracy to that for standard methods including Diagonal Linear Discriminant Analysis, k-Nearest Neighbor, Support Vector Machine and Random Forest. </plain></SENT>
+<SENT sid="8" pm="."><plain>The single gene classifiers provided classification accuracy comparable to or better than those obtained by existing methods in most cases. </plain></SENT>
+<SENT sid="9" pm="."><plain>We analyzed the factors that determined when simple single gene classification is effective and when more complex modeling is warranted. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="10" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="11" pm="."><plain>For most of the datasets examined, the single-gene classification methods appear to work as well as more standard methods, suggesting that simple models could perform well in microarray-based cancer prediction. </plain></SENT>
+</text></SecTag></p></sec></abstract></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="12" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="13" pm="."><plain>Recent advances in microarray technology have made it feasible to rapidly measure the expression levels of tens of thousands of genes in a single experiment at a reasonable expense [1]. </plain></SENT>
+<SENT sid="14" pm="."><plain>This technology has facilitated the molecular exploration of cancer [2-9]. </plain></SENT>
+<SENT sid="15" pm="."><plain>For medical applications, gene expression profiling can be used to develop classifiers of prognosis or sensitivity to particular treatments. </plain></SENT>
+<SENT sid="16" pm="."><plain>A large literature on the development and validation of predictive classifiers has emerged [10]. </plain></SENT>
+<SENT sid="17" pm="."><plain>Most of the classifiers developed have involved complex models containing numerous genes [5,11-16]. </plain></SENT>
+<SENT sid="18" pm="."><plain>This has limited the interpretability of the classifiers and lack of interpretability hampers the acceptance of such diagnostic tools. </plain></SENT>
+<SENT sid="19" pm="."><plain>Classification models based on numerous genes can also be more difficult to transfer to other assay platforms which may be more suitable for clinical application. </plain></SENT>
+<SENT sid="20" pm="."><plain>Several authors have suggested that simple models could perform well in some cases of microarray-based cancer prediction [17-23]. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>The development of a molecular classifier includes gene selection and classification rule generation. </plain></SENT>
+<SENT sid="22" pm="."><plain>A variety of gene selection strategies have been used. </plain></SENT>
+<SENT sid="23" pm="."><plain>These include univariate gene selection and more complex multivariate methods. </plain></SENT>
+<SENT sid="24" pm="."><plain>In [3], [17] and [24], the authors investigated classification based on a small number of selected gene pairs. </plain></SENT>
+<SENT sid="25" pm="."><plain>In [20], the authors explored the use of one or two genes to perform tumor classifications. </plain></SENT>
+<SENT sid="26" pm="."><plain>These investigations indicated that for the data examined, classifiers could be developed containing few genes that provided classification accuracy comparable to that achieved by more complex models. </plain></SENT>
+<SENT sid="27" pm="."><plain>Some more complex algorithms have been used to select few genes for classification, but often overfit the data [15,25-29]. </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>Many different classification rules have been proposed for high dimensional predictive classification including Support Vector Machines (SVM), Diagonal Linear Discriminant Analysis (DLDA), Artificial Neural Network (ANN), Prediction Analysis of Microarrays (PAM), Naïve Bayes (NB), k-Nearest Neighbor (k-NN), Nearest Centroid (NC), Decision Tree (DT), Random Forest (RF), Rough Set (RS) [30], Emerging Pattern (EP) [31] etc. </plain></SENT>
+<SENT sid="29" pm="."><plain>Most of these methods produce "black-box" models, in which class predication is based on mathematical formulae which are difficult to interpret. </plain></SENT>
+</text></p><p><text><SENT sid="30" pm="."><plain>In this study, we explored the usefulness of very simple single gene classification models for molecular classification of cancer. </plain></SENT>
+<SENT sid="31" pm="."><plain>Although in [20], the authors have investigated the use of single genes for classification of cancer, the applicability of that method was limited in that the authors identified multiple single genes potentially having good classification performance instead of determining one which would be validated and used for cancer prediction. </plain></SENT>
+</text></p><p><text><SENT sid="32" pm="."><plain>We compared the performance of the single gene models to that of a wide variety of more standard models using eleven publicly available gene expression datasets (<ext-link ext-link-type="uri" xlink:href="http://linus.nci.nih.gov/~brb/DataArchive_New.html">http://linus.nci.nih.gov/~brb/DataArchive_New.html</ext-link>) [32]. </plain></SENT>
+<SENT sid="33" pm="."><plain>We also compared the performance of single gene classifiers to a wide range of standard classifiers on the datasets evaluated in [33]. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS"><sec><title><text><SENT sid="34" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="35" pm="."><plain>Table 1 lists the LOOCV results for single gene classification using the t-test and the WMW test for gene selection. </plain></SENT>
+<SENT sid="36" pm="."><plain>For comparison, LOOCV results obtained by using the DLDA, k-NN, SVM and RF methods are also listed in Table 1. </plain></SENT>
+<SENT sid="37" pm="."><plain>The classification results based on split-sample rather than LOOCV evaluation are presented in Table S1 and Table S2 (Additional file 1). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="38" pm="."><plain>The LOOCV classification accuracy (%) </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="39" pm="."><plain>MethodDataset </plain></SENT>
+</text></th><th align="center"><text><SENT sid="40" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></th><th align="center"><text><SENT sid="41" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></th><th align="center"><text><SENT sid="42" pm="."><plain>DLDA </plain></SENT>
+</text></th><th align="center"><text><SENT sid="43" pm="."><plain>k-NN </plain></SENT>
+</text></th><th align="center"><text><SENT sid="44" pm="."><plain>SVM </plain></SENT>
+</text></th><th align="center"><text><SENT sid="45" pm="."><plain>RF </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="46" pm="."><plain>Melanoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="47" pm="."><plain>97* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="48" pm="."><plain>96** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="49" pm="."><plain>97* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="50" pm="."><plain>97* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="51" pm="."><plain>97* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="52" pm="."><plain>97* </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="53" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="54" pm="."><plain>Breast Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="55" pm="."><plain>63** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="56" pm="."><plain>69* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="57" pm="."><plain>61 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="58" pm="."><plain>53 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="59" pm="."><plain>52 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="60" pm="."><plain>43 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="61" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="62" pm="."><plain>Brain Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="63" pm="."><plain>80* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="64" pm="."><plain>77** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="65" pm="."><plain>65 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="66" pm="."><plain>73 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="67" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="68" pm="."><plain>70 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="69" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="70" pm="."><plain>Breast Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="71" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="72" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="73" pm="."><plain>73* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="74" pm="."><plain>67** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="75" pm="."><plain>73* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="76" pm="."><plain>67** </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="77" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="78" pm="."><plain>Gastric Tumor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="79" pm="."><plain>89 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="80" pm="."><plain>80 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="81" pm="."><plain>81 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="82" pm="."><plain>96** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="83" pm="."><plain>97* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="84" pm="."><plain>95 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="85" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="86" pm="."><plain>Lung Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="87" pm="."><plain>98* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="88" pm="."><plain>95** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="89" pm="."><plain>95** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="90" pm="."><plain>98* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="91" pm="."><plain>98* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="92" pm="."><plain>98* </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="93" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="94" pm="."><plain>Lung Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="95" pm="."><plain>93** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="96" pm="."><plain>93** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="97" pm="."><plain>99* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="98" pm="."><plain>99* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="99" pm="."><plain>99* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="100" pm="."><plain>99* </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="101" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="102" pm="."><plain>Lymphoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="103" pm="."><plain>74* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="104" pm="."><plain>71** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="105" pm="."><plain>66 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="106" pm="."><plain>52 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="107" pm="."><plain>59 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="108" pm="."><plain>57 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="109" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="110" pm="."><plain>Myeloma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="111" pm="."><plain>68 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="112" pm="."><plain>67 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="113" pm="."><plain>75 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="114" pm="."><plain>78** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="115" pm="."><plain>74 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="116" pm="."><plain>79* </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="117" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="118" pm="."><plain>Pancreatic Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="119" pm="."><plain>69** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="120" pm="."><plain>90* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="121" pm="."><plain>63 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="122" pm="."><plain>61 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="123" pm="."><plain>65 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="124" pm="."><plain>55 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="125" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="126" pm="."><plain>Prostate Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="127" pm="."><plain>89** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="128" pm="."><plain>89** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="129" pm="."><plain>78 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="130" pm="."><plain>93* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="131" pm="."><plain>93* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="132" pm="."><plain>93* </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="133" pm="."><plain>Note: </plain></SENT>
+</text></p><p><text><SENT sid="134" pm="."><plain>1 SGC-t: Single Gene Classifier with the t-test gene selection method. </plain></SENT>
+</text></p><p><text><SENT sid="135" pm="."><plain>2 SGC-W: Single Gene Classifier with the WMW gene selection method. </plain></SENT>
+</text></p><p><text><SENT sid="136" pm="."><plain>3 for each dataset, the highest classification accuracy is highlighted with a single asterisk and the second highest is highlighted with a double asterisk. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="137" pm="."><plain>From Table 1, we can see that the Melanoma is an easily-classified dataset for which all the methods exhibit very high classification accuracy. </plain></SENT>
+<SENT sid="138" pm="."><plain>In contrast, Breast Cancer 1 is a difficult dataset for which the standard methods show relatively low classification accuracy, whereas the single gene classifiers based on WMW and t-test show the best and second best results, respectively. </plain></SENT>
+<SENT sid="139" pm="."><plain>In the Brain Cancer dataset, the t-test and the WMW single gene classifiers achieved the highest and second highest classification accuracy, respectively. </plain></SENT>
+<SENT sid="140" pm="."><plain>In the Breast Cancer 2 dataset, the WMW and the t-test single gene classifiers show poorer accuracy than other methods. </plain></SENT>
+<SENT sid="141" pm="."><plain>In the Gastric Tumor dataset, the WMW and the t-test classifiers show poorer accuracy than the k-NN, SVM and RF classifiers but are comparable to the DLDA classifier. </plain></SENT>
+<SENT sid="142" pm="."><plain>In the Lung Cancer 1, Lung Cancer 2, Myeloma and Prostate Cancer datasets, the classification results obtained by the WMW and the t-test single gene classifiers are close to those obtained by the other four methods. </plain></SENT>
+<SENT sid="143" pm="."><plain>Surprisingly, in the Lymphoma and the Pancreatic Cancer datasets, the classification results obtained by the WMW and the t-test single gene classifiers are much better than those obtained by the other four methods. </plain></SENT>
+<SENT sid="144" pm="."><plain>For the evaluations based on separating each dataset into training and test sets, we obtained similar conclusions (see Table S1 and Table S2 of Additional file 1). </plain></SENT>
+</text></p><p><text><SENT sid="145" pm="."><plain>The number of genes used for building the classifiers averaged across the loops of the cross validation is listed in Table 2 for each method. </plain></SENT>
+<SENT sid="146" pm="."><plain>From this table, we can see that the DLDA, k-NN, SVM and RF have used a large number of genes for constructing the classifiers in most of the eleven datasets. </plain></SENT>
+<SENT sid="147" pm="."><plain>The number of genes in the classifiers constructed in the cases of separating samples into one training set and one test set is presented in Table S3 and Table S4 (Additional file 1). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="148" pm="."><plain>The mean number of genes in classifiers </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="149" pm="."><plain>MethodDataset </plain></SENT>
+</text></th><th align="center"><text><SENT sid="150" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></th><th align="center"><text><SENT sid="151" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></th><th align="center"><text><SENT sid="152" pm="."><plain>DLDA </plain></SENT>
+</text></th><th align="center"><text><SENT sid="153" pm="."><plain>k-NN </plain></SENT>
+</text></th><th align="center"><text><SENT sid="154" pm="."><plain>SVM </plain></SENT>
+</text></th><th align="center"><text><SENT sid="155" pm="."><plain>RF </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="156" pm="."><plain>Melanoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="157" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="158" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="159" pm="."><plain>7200 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="160" pm="."><plain>7200 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="161" pm="."><plain>7200 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="162" pm="."><plain>7200 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="163" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="164" pm="."><plain>Breast Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="165" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="166" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="167" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="168" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="169" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="170" pm="."><plain>15 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="171" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="172" pm="."><plain>Brain Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="173" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="174" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="175" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="176" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="177" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="178" pm="."><plain>14 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="179" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="180" pm="."><plain>Breast Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="181" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="182" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="183" pm="."><plain>176 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="184" pm="."><plain>176 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="185" pm="."><plain>176 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="186" pm="."><plain>176 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="187" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="188" pm="."><plain>Gastric Tumor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="189" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="190" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="191" pm="."><plain>848 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="192" pm="."><plain>848 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="193" pm="."><plain>848 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="194" pm="."><plain>848 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="195" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="196" pm="."><plain>Lung Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="197" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="198" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="199" pm="."><plain>7472 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="200" pm="."><plain>7472 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="201" pm="."><plain>7472 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="202" pm="."><plain>7472 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="203" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="204" pm="."><plain>Lung Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="205" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="206" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="207" pm="."><plain>3207 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="208" pm="."><plain>3207 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="209" pm="."><plain>3207 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="210" pm="."><plain>3207 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="211" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="212" pm="."><plain>Lymphoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="213" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="214" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="215" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="216" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="217" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="218" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="219" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="220" pm="."><plain>Myeloma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="221" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="222" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="223" pm="."><plain>169 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="224" pm="."><plain>169 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="225" pm="."><plain>169 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="226" pm="."><plain>169 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="227" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="228" pm="."><plain>Pancreatic Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="229" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="230" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="231" pm="."><plain>56 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="232" pm="."><plain>56 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="233" pm="."><plain>56 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="234" pm="."><plain>44 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="235" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="236" pm="."><plain>Prostate Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="237" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="238" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="239" pm="."><plain>798 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="240" pm="."><plain>798 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="241" pm="."><plain>798 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="242" pm="."><plain>798 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="243" pm="."><plain>Generally speaking, in the datasets with small sample sizes such as those for Melanoma, Brain Cancer, Lung Cancer 1, Lymphoma and Pancreatic Cancer, the single gene classifiers showed better or comparable classification results compared with the standard methods. </plain></SENT>
+<SENT sid="244" pm="."><plain>In the datasets with relatively large sample sizes like the Lung Cancer 2, Gastric Tumor and Myeloma, the single gene classifiers showed poorer results. </plain></SENT>
+<SENT sid="245" pm="."><plain>One possible explanation is that complex models require larger datasets for training and in some cases may be overfit for smaller datasets. </plain></SENT>
+<SENT sid="246" pm="."><plain>The comparative results were not very related to the number of genes in the dataset. </plain></SENT>
+<SENT sid="247" pm="."><plain>All datasets included many thousands of genes and as noted in [34], a good classifier from high-dimensional microarray data can involve a short gene list if there are many genes with large differences in expression between the classes. </plain></SENT>
+<SENT sid="248" pm="."><plain>Clearly, in the Melanoma, Gastric Tumor, Lung Cancer 1, Lung Cancer 2 and Prostate Cancer dataset, there are many genes with large differences in expression between the classes so that it is not difficult to find a single gene on which to base a good classifier. </plain></SENT>
+<SENT sid="249" pm="."><plain>In such cases, it is unnecessary for the standard algorithms to use so many genes in constructing classifiers for these datasets (see Table 2). </plain></SENT>
+<SENT sid="250" pm="."><plain>Actually, the single gene classifiers achieve near-optimal classification results in these datasets. </plain></SENT>
+<SENT sid="251" pm="."><plain>In contrast, if there are very few genes with large differences in expression between the classes, it will be difficult to build an effective single gene classifier because the gene selected may be the noise-gene with the greatest apparent degree of differential expression. </plain></SENT>
+<SENT sid="252" pm="."><plain>In some cases, however, it might be equally difficult for complex algorithms to produce good classifiers for this sort of dataset, particularly when the sample size is small and overfitting is likely to occur. </plain></SENT>
+<SENT sid="253" pm="."><plain>This might explain why the single gene classifiers performed better than complex classifiers in some difficult small sample datasets like the Brain Cancer, Lymphoma and Pancreatic Cancer. </plain></SENT>
+</text></p><p><text><SENT sid="254" pm="."><plain>Single gene classifiers are more influenced by selection of noise genes than standard methods. </plain></SENT>
+<SENT sid="255" pm="."><plain>Some ''noise'' genes could have good t-test or WMW test statistics in the training set, and if such genes were selected for building the single gene classifiers, the performance of the classifiers would be poorer than the classifiers built based on a longer gene list. </plain></SENT>
+<SENT sid="256" pm="."><plain>In the Breast Cancer 2 and Myeloma datasets, it was likely that the selection of ''noise'' genes had contributed to the poor results of the single gene classifiers. </plain></SENT>
+<SENT sid="257" pm="."><plain>In fact, in the Breast Cancer 2 dataset, we found one gene in the list of five genes with the smallest t-test p-value, which could result in 73% classification accuracy, and in the Myeloma dataset, we found one gene in the list of 10 genes with the smallest t-test p-value, which could result in 92% classification accuracy. </plain></SENT>
+<SENT sid="258" pm="."><plain>Both results are much better than those obtained by using the present gene selection methods (see Table 1). </plain></SENT>
+<SENT sid="259" pm="."><plain>Therefore, sometimes it might be better to include a longer gene list in classifiers to prevent from falling into the trap of noise genes. </plain></SENT>
+</text></p><p><text><SENT sid="260" pm="."><plain>Table 3 explores how the performance of the single gene classifiers and the standard classifiers varies with some characteristics of the datasets. </plain></SENT>
+<SENT sid="261" pm="."><plain>We calculated the smallest univariate t-test p-value and the corresponding t-statistic, the largest mean gene expression fold change between the classes, the total number of genes significantly different between the classes at 0.001 significance level, the average classification accuracy of the standard classifiers and the average classification accuracy of the single gene classifiers for each dataset. </plain></SENT>
+<SENT sid="262" pm="."><plain>From this table, we can see that for the Melanoma, Gastric Tumor, Lung Cancer 1, Lung Cancer 2 and Prostate Cancer datasets, a large number of statistically significant genes were identified and used for building the classifiers by the standard algorithms, while for the Breast Cancer 1, Brain Cancer, Lymphoma and Pancreatic Cancer datasets, the number of statistically significant genes was quite limited so that the standard algorithms performed much more poorly on these datasets and the single gene classifiers had consistently improved classification performance compared to the standard classifiers in these datasets. </plain></SENT>
+<SENT sid="263" pm="."><plain>This table also indicates that the fold change is highly related to the classification accuracy. </plain></SENT>
+<SENT sid="264" pm="."><plain>In the Melanoma, Lung Cancer 1 and Lung Cancer 2 dataset, the fold changes are huge and the classification accuracies are extremely high. </plain></SENT>
+<SENT sid="265" pm="."><plain>In the Gastric Tumor and Prostate Cancer datasets, although the numbers of statistically significant genes are also large, the fold changes are not as notable as those in the aforementioned three datasets, and therefore the classification accuracies in the latter are inferior to those in the three former datasets. </plain></SENT>
+<SENT sid="266" pm="."><plain>Fold change affects the classification accuracy more than the number of significant genes. </plain></SENT>
+<SENT sid="267" pm="."><plain>One evident example is that the significant gene number in the Brain Cancer dataset is less than those in the Breast Cancer 1 and Pancreatic Cancer dataset, whereas the classification accuracy in this dataset is higher than those in the former two as its fold change is larger than theirs. </plain></SENT>
+<SENT sid="268" pm="."><plain>This finding is consistent with the conclusion proposed in [34]. </plain></SENT>
+<SENT sid="269" pm="."><plain>For multivariate normal data with mean vectors μ1 and μ2 for the two classes, and common covariance matrix Σ, the optimal classifier has misclassification rate exp{-(μ1 - μ2)' Σ-1(μ1 - μ2)}/2. </plain></SENT>
+<SENT sid="270" pm="."><plain>Thus, genes that are differentially expressed by a small amount are not particularly useful for classifying individual cases unless there are many uncorrelated such genes and the sample size is large enough to detect such genes without accepting numerous noise genes. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T3" position="float"><label>Table 3</label><caption><p><text><SENT sid="271" pm="."><plain>Comparison of single gene classifiers and standard classifiers </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="272" pm="."><plain>ParameterDataset </plain></SENT>
+</text></th><th align="center"><text><SENT sid="273" pm="."><plain>Smallestp-valuea </plain></SENT>
+</text></th><th align="center"><text><SENT sid="274" pm="."><plain>t-test statisticb </plain></SENT>
+</text></th><th align="center"><text><SENT sid="275" pm="."><plain>Fold changec </plain></SENT>
+</text></th><th align="center"><text><SENT sid="276" pm="."><plain># Significant gened </plain></SENT>
+</text></th><th align="center"><text><SENT sid="277" pm="."><plain>Accuracy (%) of standard classifierse </plain></SENT>
+</text></th><th align="center"><text><SENT sid="278" pm="."><plain>Accuracy (%) of single gene classifiersf </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="279" pm="."><plain>Melanoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="280" pm="."><plain>1.37e-29 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="281" pm="."><plain>22.68 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="282" pm="."><plain>277.78 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="283" pm="."><plain>7263 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="284" pm="."><plain>97 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="285" pm="."><plain>96.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="286" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="287" pm="."><plain>Breast Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="288" pm="."><plain>8.10e-06 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="289" pm="."><plain>9.06 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="290" pm="."><plain>3.65 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="291" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="292" pm="."><plain>52.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="293" pm="."><plain>66 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="294" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="295" pm="."><plain>Brain Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="296" pm="."><plain>1.51e-04 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="297" pm="."><plain>4.06 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="298" pm="."><plain>21.73 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="299" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="300" pm="."><plain>67 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="301" pm="."><plain>78.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="302" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="303" pm="."><plain>Breast Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="304" pm="."><plain>3.10e-06 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="305" pm="."><plain>5.16 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="306" pm="."><plain>3.48 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="307" pm="."><plain>180 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="308" pm="."><plain>70 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="309" pm="."><plain>54 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="310" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="311" pm="."><plain>Gastric Tumor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="312" pm="."><plain>7.34e-10 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="313" pm="."><plain>9.51 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="314" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="315" pm="."><plain>4798 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="316" pm="."><plain>92.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="317" pm="."><plain>84.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="318" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="319" pm="."><plain>Lung Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="320" pm="."><plain>2.51e-21 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="321" pm="."><plain>20.34 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="322" pm="."><plain>1923.48 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="323" pm="."><plain>7561 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="324" pm="."><plain>97.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="325" pm="."><plain>96.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="326" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="327" pm="."><plain>Lung Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="328" pm="."><plain>6.82e-35 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="329" pm="."><plain>24.72 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="330" pm="."><plain>505.16 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="331" pm="."><plain>3219 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="332" pm="."><plain>99 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="333" pm="."><plain>93 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="334" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="335" pm="."><plain>Lymphoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="336" pm="."><plain>1.50e-04 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="337" pm="."><plain>4.07 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="338" pm="."><plain>1.33 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="339" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="340" pm="."><plain>58.5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="341" pm="."><plain>72.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="342" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="343" pm="."><plain>Myeloma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="344" pm="."><plain>5.00e-07 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="345" pm="."><plain>5.23 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="346" pm="."><plain>4.49 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="347" pm="."><plain>172 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="348" pm="."><plain>76.5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="349" pm="."><plain>67.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="350" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="351" pm="."><plain>Pancreatic Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="352" pm="."><plain>1.30e-06 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="353" pm="."><plain>5.37 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="354" pm="."><plain>5.88 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="355" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="356" pm="."><plain>61 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="357" pm="."><plain>79.5 </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="358" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="359" pm="."><plain>Prostate Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="360" pm="."><plain>1.34e-21 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="361" pm="."><plain>12.53 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="362" pm="."><plain>12.82 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="363" pm="."><plain>812 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="364" pm="."><plain>89.3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="365" pm="."><plain>89 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="366" pm="."><plain>Note: </plain></SENT>
+</text></p><p><text><SENT sid="367" pm="."><plain>aThe minimum univariate t-test p-value for the genes significantly different between the classes. </plain></SENT>
+</text></p><p><text><SENT sid="368" pm="."><plain>bThe absolute value of the t-test statistic corresponding to the left smallest p-value. </plain></SENT>
+</text></p><p><text><SENT sid="369" pm="."><plain>cThe maximum fold change in the geometry mean of gene expression between the classes, </plain></SENT>
+</text></p><p><text><SENT sid="370" pm="."><plain>dThe total number of genes significantly different between the classes at 0.001 significance level. </plain></SENT>
+</text></p><p><text><SENT sid="371" pm="."><plain>eThe mean classification accuracy of the four standard classifiers. </plain></SENT>
+</text></p><p><text><SENT sid="372" pm="."><plain>fThe mean classification accuracy of the two single gene classifiers. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="373" pm="."><plain>We also evaluated single gene classification on the datasets studied in [33]. </plain></SENT>
+<SENT sid="374" pm="."><plain>In [33], the authors compared the classification results produced by some standard classifiers including those used in this study. </plain></SENT>
+<SENT sid="375" pm="."><plain>They built classifiers based on selecting the 10, 50, 100, 500 and 1000 genes with the largest absolute t- and Wilcoxon statistics as well as all genes to conduct four classification experiments in two datasets [7,35]. </plain></SENT>
+<SENT sid="376" pm="."><plain>Table S5 is a summary of results for those two datasets (Additional file 1). </plain></SENT>
+</text></p><p><text><SENT sid="377" pm="."><plain>We preprocessed the data as described in [33], and then performed a complete LOOCV to obtain the honest estimates of classification error. </plain></SENT>
+<SENT sid="378" pm="."><plain>Table S6-9 list classification results for the single gene classifiers as well as part of the results presented in [33] for comparison (Additional file 1). </plain></SENT>
+<SENT sid="379" pm="."><plain>These tables show that for the two datasets in [33], error rates for the single gene classifiers are generally close to those produced by standard methods. </plain></SENT>
+<SENT sid="380" pm="."><plain>The one exception was the high error rate for the single gene classifier based on the Wilcoxon statistic in the Breast tumor estrogen dataset (see Table S6 of Additional file 1). </plain></SENT>
+</text></p><p><text><SENT sid="381" pm="."><plain>Two-gene classifiers have attracted a broad interest for their simplicity and interpretability, among which the top-scoring pair(s) (TSP) classifier was based on decision rules induced by comparing mRNA abundance in gene pairs [17]. </plain></SENT>
+<SENT sid="382" pm="."><plain>We applied the TSP classifier to the eleven gene expression datasets and compared its performance to that of our single gene models (see Table 4). </plain></SENT>
+<SENT sid="383" pm="."><plain>Table 4 demonstrates that the classification performance of our single gene classifiers is comparable to that of the TSP classifier. </plain></SENT>
+<SENT sid="384" pm="."><plain>Our single gene classifiers have a substantial advantage over the TSP classifier in time efficiency for development and evaluation in cross validation. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T4" position="float"><label>Table 4</label><caption><p><text><SENT sid="385" pm="."><plain>Comparison of classification accuracy (%) with the TSP classifier </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="386" pm="."><plain>MethodDataset </plain></SENT>
+</text></th><th align="center"><text><SENT sid="387" pm="."><plain>TSP </plain></SENT>
+</text></th><th align="center"><text><SENT sid="388" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></th><th align="center"><text><SENT sid="389" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="390" pm="."><plain>Melanoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="391" pm="."><plain>99 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="392" pm="."><plain>97 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="393" pm="."><plain>96 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="394" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="395" pm="."><plain>Breast Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="396" pm="."><plain>75 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="397" pm="."><plain>63 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="398" pm="."><plain>69 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="399" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="400" pm="."><plain>Brain Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="401" pm="."><plain>77 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="402" pm="."><plain>80 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="403" pm="."><plain>77 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="404" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="405" pm="."><plain>Breast Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="406" pm="."><plain>47 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="407" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="408" pm="."><plain>50 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="409" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="410" pm="."><plain>Gastric Tumor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="411" pm="."><plain>91 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="412" pm="."><plain>89 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="413" pm="."><plain>80 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="414" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="415" pm="."><plain>Lung Cancer 1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="416" pm="."><plain>95 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="417" pm="."><plain>98 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="418" pm="."><plain>95 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="419" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="420" pm="."><plain>Lung Cancer 2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="421" pm="."><plain>97 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="422" pm="."><plain>93 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="423" pm="."><plain>93 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="424" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="425" pm="."><plain>Lymphoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="426" pm="."><plain>57 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="427" pm="."><plain>74 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="428" pm="."><plain>71 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="429" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="430" pm="."><plain>Myeloma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="431" pm="."><plain>71 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="432" pm="."><plain>68 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="433" pm="."><plain>67 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="434" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="435" pm="."><plain>Pancreatic Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="436" pm="."><plain>90 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="437" pm="."><plain>69 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="438" pm="."><plain>90 </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="439" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="440" pm="."><plain>Prostate Cancer </plain></SENT>
+</text></td><td align="center"><text><SENT sid="441" pm="."><plain>81 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="442" pm="."><plain>89 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="443" pm="."><plain>89 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="444" pm="."><plain>Note: The number of gene pairs selected is set as one for the TSP classifier. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="445" pm="."><plain>The stability of the genes selected across the cross validation (CV) loop is also an important criterion to evaluate the usefulness of simple classifiers which involve a small number of genes. </plain></SENT>
+<SENT sid="446" pm="."><plain>Table 5 presents all the genes selected and their occurrence percentages across the CV loop by the single gene classifiers in every dataset. </plain></SENT>
+<SENT sid="447" pm="."><plain>Generally speaking, the genes selected across the CV loop with our methods are relatively stable (see Table 5). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T5" position="float"><label>Table 5</label><caption><p><text><SENT sid="448" pm="."><plain>Stability of gene selection </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="449" pm="."><plain>Dataset </plain></SENT>
+</text></th><th align="left"><text><SENT sid="450" pm="."><plain>Classifier </plain></SENT>
+</text></th><th align="left"><text><SENT sid="451" pm="."><plain>The genes selected and their occurrence percentages across the CV loop </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="452" pm="."><plain>Melanoma </plain></SENT>
+</text></td><td align="left"><text><SENT sid="453" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="454" pm="."><plain>200965_s_at (99%), 213050_at (1%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="455" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="456" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="457" pm="."><plain>217906_at (92%), 218552_at (4%), 218996_at (1%), 219343_at (1%), 221577_x_at (1%), 221882_s_at (1%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="458" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="459" pm="."><plain>Breast Cancer 1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="460" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="461" pm="."><plain>259466 (92%), 291660 (5%), 950574 (3%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="462" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="463" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="464" pm="."><plain>259466 (98%), 291660 (2%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="465" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="466" pm="."><plain>Brain Cancer </plain></SENT>
+</text></td><td align="left"><text><SENT sid="467" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="468" pm="."><plain>J02611_at (95%), X53331_at (5%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="469" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="470" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="471" pm="."><plain>J02611_at (93%), X67951_at (3%), HG3543-HT3739_at (2%), X12794_at (2%), </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="472" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="473" pm="."><plain>Breast Cancer 2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="474" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="475" pm="."><plain>AI868854 (65%), AK026899 (13%), AK026789 (12%), AK025709 (3%), AI240933 (3%), AF119844 (2%), AW006861 (2%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="476" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="477" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="478" pm="."><plain>N30081 (65%), AF119844 (23%), AI868854 (12%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="479" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="480" pm="."><plain>Gastric Tumor </plain></SENT>
+</text></td><td align="left"><text><SENT sid="481" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="482" pm="."><plain>W70254 (100%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="483" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="484" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="485" pm="."><plain>AA171606 (94%), W70254 (6%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="486" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="487" pm="."><plain>Lung Cancer 1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="488" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="489" pm="."><plain>37210_at (66%), 198_g_at (15%), 40165_at (12%), 32254_at (5%), 41344_s_at (2%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="490" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="491" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="492" pm="."><plain>1252_at (100%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="493" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="494" pm="."><plain>Lung Cancer 2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="495" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="496" pm="."><plain>33754_at (100%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="497" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="498" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="499" pm="."><plain>40936_at (98%), 33833_at (0.5%), 34320_at (0.5%), 37157_at (0.5%), 39640_at (0.5%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="500" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="501" pm="."><plain>Lymphoma </plain></SENT>
+</text></td><td align="left"><text><SENT sid="502" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="503" pm="."><plain>X76538_at (100%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="504" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="505" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="506" pm="."><plain>X76538_at (91%), D30655_at (9%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="507" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="508" pm="."><plain>Myeloma </plain></SENT>
+</text></td><td align="left"><text><SENT sid="509" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="510" pm="."><plain>33146_at (88%), 32546_at (12%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="511" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="512" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="513" pm="."><plain>32546_at (99%), 1071_at (1%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="514" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="515" pm="."><plain>Pancreatic Cancer </plain></SENT>
+</text></td><td align="left"><text><SENT sid="516" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="517" pm="."><plain>209596_at (98%), 206451_at (2%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="518" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="519" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="520" pm="."><plain>206451_at (45%), 209596_at (43%), 218498_s_at (6%), 219625_s_at (4%), 212058_at (2%) </plain></SENT>
+</text></td></tr><tr><td colspan="3"><text><SENT sid="521" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="522" pm="."><plain>Prostate Cancer </plain></SENT>
+</text></td><td align="left"><text><SENT sid="523" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-t </plain></SENT>
+</text></td><td align="left"><text><SENT sid="524" pm="."><plain>34452_at (100%) </plain></SENT>
+</text></td></tr><tr><td/><td colspan="2"><text><SENT sid="525" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="526" pm="."><plain><z:uniprot sup="inside" fb="5" ids="Q9M345">SGC</z:uniprot>-W </plain></SENT>
+</text></td><td align="left"><text><SENT sid="527" pm="."><plain>34452_at (100%) </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="528" pm="."><plain>Note: In Breast Cancer 1, the genes are denoted by Clone ID; in Breast Cancer 2 and Gastric Tumor, the genes are denoted by GenBank Accession number; in all the others, the genes are denoted by Probe Set. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec></SecTag><SecTag type="DISCUSS"><sec><title><text><SENT sid="529" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="530" pm="."><plain>In contrast to most of the data investigated in traditional machine learning and data mining applications which are often composed of low-dimensional attributes and high-dimensional instances, microarray data are composed of high-dimensional attributes (p) and low-dimensional instances (n). </plain></SENT>
+<SENT sid="531" pm="."><plain>Consequently some traditional machine learning and data mining algorithms which are effective for the former become ineffective for some p &gt; n problems like microarray classification. </plain></SENT>
+<SENT sid="532" pm="."><plain>Excellent classification can in some cases be achieved with a small number of genes, even a single gene selected from thousands of candidates. </plain></SENT>
+<SENT sid="533" pm="."><plain>Optimal complexity depends on the degree of differential expression among the classes and sample size. </plain></SENT>
+<SENT sid="534" pm="."><plain>Complexity is not, however simply the number of genes in the classifiers. </plain></SENT>
+<SENT sid="535" pm="."><plain>Complexity also depends on gene selection criteria and classification rules employed. </plain></SENT>
+<SENT sid="536" pm="."><plain>Simple models typically involve a simple feature selection scheme and simple classification rule. </plain></SENT>
+<SENT sid="537" pm="."><plain>In contrast, complex models often involve sophisticated feature selection procedures and/or complicated classification rules. </plain></SENT>
+<SENT sid="538" pm="."><plain>Models based on complex algorithms for multivariate gene selection and complex classification rules may contain few genes but overfit the data. </plain></SENT>
+<SENT sid="539" pm="."><plain>Empirical comparisons have indicated that complicated wrapper methods such as aggregated classification trees sometimes perform poorly compared to simple classifiers such as DLDA and k-NN in some cases [36]. </plain></SENT>
+</text></p><p><text><SENT sid="540" pm="?"><plain>Gene selection is critical in building good classifiers and there is no simple completely general answer to the question of how many genes a good classifier should include? </plain></SENT>
+<SENT sid="541" pm="."><plain>For interpretability and ease of porting to assay platforms more suitable to use in clinical practice, it is advantageous to include a small number of genes in the classifier. </plain></SENT>
+<SENT sid="542" pm="."><plain>The optimal number of genes depends on the sample size, the number of differentially expressed genes, their degree of differential expression and correlation structure and the type of classifier used [34,37,38]. </plain></SENT>
+<SENT sid="543" pm="."><plain>In some cases, the number of genes or other aspects of classifier complexity can be regarded as tuning parameters to be optimized by an inner-loop of cross-validation [39]. </plain></SENT>
+<SENT sid="544" pm="."><plain>Our results indicate that single-gene models should be included as candidate classifiers in such optimization. </plain></SENT>
+</text></p><p><text><SENT sid="545" pm="."><plain>In [33], the authors explored the sensitivity to number of features for some standard classifiers, and found only limited changes in performance when varying the number of genes used with a lower limit of 10 genes. </plain></SENT>
+<SENT sid="546" pm="."><plain>Classification accuracy with 10 genes was in most cases as good as or better than accuracy with more genes. </plain></SENT>
+<SENT sid="547" pm="."><plain>Although the univariate feature selection approach used by Dudoit and Fridyland was simple compared to some of the complex multivariate feature selection approaches that have been used, the former often outperformed the latter [29,40]. </plain></SENT>
+</text></p><p><text><SENT sid="548" pm="."><plain>We have found that single gene classification models are frequently of commensurate accuracy as more complex classifiers. </plain></SENT>
+<SENT sid="549" pm="."><plain>For problems with genes that are quite differentially expressed, single gene classifiers appear to do well. </plain></SENT>
+<SENT sid="550" pm="."><plain>For more difficult problems without highly differentially expressed genes, it can be useful to include more genes in the model instead of using the single most extreme gene which may be noise. </plain></SENT>
+<SENT sid="551" pm="."><plain>In some of these cases with small number of samples, however, the single gene model might do as well because models with more genes may overfit the data. </plain></SENT>
+</text></p><p><text><SENT sid="552" pm="."><plain>For most of the datasets examined, the single-gene classification methods appear to work as well as more standard methods such as DLDA, SVM, k-NN and RF, based on a larger number of genes, and two-gene classifiers such as the TSP classifier. </plain></SENT>
+<SENT sid="553" pm="."><plain>Here the classification results used for comparison obtained by DLDA, SVM, k-NN and RF might not be optimal as we have pre-specified their model parameters rather than optimized these parameters. </plain></SENT>
+<SENT sid="554" pm="."><plain>Thus, we re-examined the classification results obtained through optimizing the parameters of the compared classification models. </plain></SENT>
+<SENT sid="555" pm="."><plain>For k-NN, we compared the three groups of classification results obtained by1-NN, 3-NN and the nearest centroid, respectively. </plain></SENT>
+<SENT sid="556" pm="."><plain>These results were close to each other (see Table S10 of Additional file 1). </plain></SENT>
+<SENT sid="557" pm="."><plain>Furthermore, we re-classified the eleven data sets using the DLDA, k-NN and SVM classifiers with the optimized gene selection significance level which was chosen from the grid 0.01, 0.005, 0.001, and 0.0005 in order to minimize the CV error rate. </plain></SENT>
+<SENT sid="558" pm="."><plain>Table <z:uniprot sup="inside" fb="0" ids="P98175">S11</z:uniprot> presents the classification accuracies attained with the optimized and no- optimized parameter for all of the datasets (Additional file 1), suggesting that their gap is minor. </plain></SENT>
+<SENT sid="559" pm="."><plain>In addition, we examined the classification results achieved under varied values of tuning parameter cost for SVM for selected datasets and found no change. </plain></SENT>
+<SENT sid="560" pm="."><plain>Finally, we investigated the performance variation of the RF classifier by tuning its two parameters: the number of trees and the number of genes randomly sampled as candidates at each split. </plain></SENT>
+<SENT sid="561" pm="."><plain>We found that the performance variation was minimal. </plain></SENT>
+<SENT sid="562" pm="."><plain>In summary, the classification performance with the pre-specified parameters is close to that with the optimized parameters for DLDA, SVM, k-NN and RF, and therefore the conclusions gained from the comparison analyses of our single-gene classifiers and the standard classifiers are justified. </plain></SENT>
+</text></p><p><text><SENT sid="563" pm="."><plain>Our single gene classifier for a training set was developed by applying the entropy-based discretization method to find the optimal cut point for the single gene selected based on the t or WMW statistics (see the Methods). </plain></SENT>
+<SENT sid="564" pm="."><plain>Of course, the cut-point finding could also be included in the single gene selection like the methods proposed in [20,41]. </plain></SENT>
+<SENT sid="565" pm="."><plain>However, our experiments have indicated that the cut-point based feature selection for all genes would greatly compromise the time efficiency of the algorithm for high-dimensional gene expression data which generally contain thousands of attributes. </plain></SENT>
+<SENT sid="566" pm="."><plain>Additionally, the gene selection methods involved in discretization may miss the most informative genes because the discretization procedure itself could cause the partial loss of the information hidden behind data. </plain></SENT>
+<SENT sid="567" pm="."><plain>By contrast, the t-test or WMW based gene selection approach can avoid of this kind of information loss, and therefore is more likely to select the most informative genes. </plain></SENT>
+<SENT sid="568" pm="."><plain>Including optimal discretization in gene selection could also result in overfitting the training set. </plain></SENT>
+<SENT sid="569" pm="."><plain>This issue could be addressed in future research. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec><title><text><SENT sid="570" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="571" pm="."><plain>To deal with high-dimensional gene expression data, simple classifiers should be preferred to complicated ones for their interpretability and applicability. </plain></SENT>
+<SENT sid="572" pm="."><plain>In the present study, we developed extremely simple single-gene classifiers. </plain></SENT>
+<SENT sid="573" pm="."><plain>We examined a large number of datasets and a large number of previously published classifier algorithms and found that our single gene classifiers have comparable performance to more complex classifiers in most cases examined. </plain></SENT>
+<SENT sid="574" pm="."><plain>Our algorithm for development of single gene classifiers is computationally efficient and the single gene developed appears reasonably stable. </plain></SENT>
+<SENT sid="575" pm="."><plain>Although single gene classifiers are not always successful, their examination is worthwhile because of their advantages for interpretability and applicability for biological study and medical use. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="576" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="577" pm="."><plain>Classifier Development </plain></SENT>
+</text></title><p><text><SENT sid="578" pm="."><plain>Within each training set, we used the t-test or the Wilcoxon-Mann-Whitney (WMW) test to identify the most statistically significant gene(s) in distinguishing the two classes. </plain></SENT>
+<SENT sid="579" pm="."><plain>If there were multiple genes with the smallest p-value (very rare), we chose the one with the smallest order number in the dataset. </plain></SENT>
+<SENT sid="580" pm="."><plain>Although the t-test is a popularly used feature selection method, it is sensitive to gross errors in the data [42]. </plain></SENT>
+<SENT sid="581" pm="."><plain>Alternatively, the WMW test is a rank-based test which is robust to errors in the data. </plain></SENT>
+<SENT sid="582" pm="."><plain>Therefore we evaluated it for gene selection as an alternative to the t-test. </plain></SENT>
+</text></p><p><text><SENT sid="583" pm="."><plain>Once the single gene was selected for the training set, we constructed the classification rule based on a single cut-point for the expression levels of that gene. </plain></SENT>
+<SENT sid="584" pm="."><plain>If the expression level of gene g in the sample s is no more than T, then the sample is assigned to the class c1; otherwise the sample is assigned to the class c2, i.e., "E(g, s) ≤ T = &gt; C(s) = c1; E(g, s) &gt; T = &gt; C(s) = c2". </plain></SENT>
+<SENT sid="585" pm="."><plain>Here we refer to the T as the optimal cut point for gene g. </plain></SENT>
+<SENT sid="586" pm="."><plain>We found the optimal cut point by using the entropy-based discretization method [43]. </plain></SENT>
+</text></p><p><text><SENT sid="587" pm="."><plain>For each training set S, we determined the gene g with the most significant t or WMW statistic, then sorted the samples as s1, s2, ..., sn, based on the expression levels of the selected gene g. </plain></SENT>
+<SENT sid="588" pm="."><plain>We constructed the candidate cut point set P which was composed of the mean values of E(g, sk) and E(g, sk+1) for all C(sk)≠C(sk+1). </plain></SENT>
+<SENT sid="589" pm="."><plain>For each candidate cut point t ∈ P, we partitioned S into two equivalence classes S1 and S2, where S1 = {s ∈ S | E(g, s) ≤ t} and S2 = {s ∈ S | E(g, s) &gt; t}. </plain></SENT>
+<SENT sid="590" pm="."><plain>Let C1 denote the subset of samples whose class label is c1, and C2 the subset of samples whose class label is c2. </plain></SENT>
+<SENT sid="591" pm="."><plain>Define the four sets: <z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>, P12, <z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot> and P22, where <z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>= S1 ∩ C1, P12= S1 ∩ C2, <z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot>= S2 ∩ C1, and P22= S2 ∩ C2. </plain></SENT>
+<SENT sid="592" pm="."><plain>We calculated the class information entropy of the partition induced by t, denoted E(g, t, S), which is given by: </plain></SENT>
+</text></p><p><text><SENT sid="593" pm="."><plain>E(g,t,S)=-|S1||S|(|<z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>||S1|log2|<z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>||S1|+|P12||S1|log2|P12||S1|)-|S2||S|(|<z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot>||S2|log2|<z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot>||S2|+|P22||S2|log2|P22||S2|). </plain></SENT>
+</text></p><p><text><SENT sid="594" pm="."><plain>We selected the t which minimized E(g, t, S) as the optimal cut point T produced by the gene g. </plain></SENT>
+<SENT sid="595" pm="."><plain>If the candidate cut point set P was empty (very rare), we took the mean expression level of gene g in all training samples as the optimal cut point. </plain></SENT>
+</text></p><p><text><SENT sid="596" pm="."><plain>Here |<z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>| and |P22| denote the number of class 1 and class 2 samples predicted correctly respectively, and |<z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot>| and |P12| denote the number of class 1 and class 2 samples predicted incorrectly. </plain></SENT>
+<SENT sid="597" pm="."><plain>We adopt the classification rule "E(g, s) ≤ T = &gt; C(s) = c1; E(g, s) &gt; T = &gt; C(s) = c2" if |<z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>| + |P22| &gt; |P12| + |<z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot>|. </plain></SENT>
+<SENT sid="598" pm="."><plain>However, if |<z:uniprot sup="inside" fb="35" ids="P07582,Q96519,P82657">P11</z:uniprot>| + |P22| ≤ |P12| + |<z:uniprot sup="inside" fb="0" ids="P84674">P21</z:uniprot>|, then we reverse the direction of classification, i.e., "E(g, s) ≤ T = &gt; C(s) = c2; E(g, s) &gt; T = &gt; C(s) = c1". </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="599" pm="."><plain>Measuring Classifier Performance </plain></SENT>
+</text></title><p><text><SENT sid="600" pm="."><plain>We used complete leave-one-out cross validation (LOOCV) to evaluate classifier performance. </plain></SENT>
+<SENT sid="601" pm="."><plain>All components of classifier development were repeated within each loop of the cross-validation; i.e. in each leave-one-out training set we selected a single gene and a single cut-point for that gene and used that single classifier to classify the omitted sample. </plain></SENT>
+<SENT sid="602" pm="."><plain>In addition, we also conducted the validation by randomly separating the samples into one training set and one test set. </plain></SENT>
+<SENT sid="603" pm="."><plain>For each data set, we carried out two types of separations: Type 1 separation (the sample size in the training set is approximately equal to that in the test set), and Type 2 separation (the sample size in the training set is about twice as that in the test set) (see Table <z:uniprot sup="inside" fb="21" ids="P28222,Q9YIT9,P34737,Q9SF35,P49201,P46297">S12</z:uniprot> and Table S13 of Additional file 1). </plain></SENT>
+<SENT sid="604" pm="."><plain>Thus, we obtained three sets of classification accuracy results. </plain></SENT>
+<SENT sid="605" pm="."><plain>The LOOCV results are presented in this text, while the other two are presented in Additional file 1. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="606" pm="."><plain>Materials </plain></SENT>
+</text></title><p><text><SENT sid="607" pm="."><plain>We selected eleven gene expression datasets to evaluate classifier performance. </plain></SENT>
+<SENT sid="608" pm="."><plain>These datasets were selected to cover the range of sample size, gene number and degree of classification difficulty. </plain></SENT>
+<SENT sid="609" pm="."><plain>The Lung Cancer 2 and Myeloma datasets have large sample size. </plain></SENT>
+<SENT sid="610" pm="."><plain>The Melanoma, Brain Cancer, Breast Cancer 2, Lung Cancer 1, Lymphoma and Pancreatic Cancer have relatively small sample size. </plain></SENT>
+<SENT sid="611" pm="."><plain>The sample size of the Breast Cancer 1, Gastric Tumor and Prostate Cancer is intermediate. </plain></SENT>
+<SENT sid="612" pm="."><plain>The Melanoma, Breast Cancer 2, Gastric Tumor and Pancreatic Cancer datasets contain a large number of genes, the Breast Cancer 1, Brain Cancer and Lymphoma datasets involve a relatively small number of genes and the gene numbers in the other datasets are intermediate. </plain></SENT>
+<SENT sid="613" pm="."><plain>As for the degree of classification difficulty, the Melanoma, Gastric Tumor, Lung Cancer 1, Lung Cancer 2 and Prostate Cancer are easily-classified datasets, while the others are more difficult. </plain></SENT>
+<SENT sid="614" pm="."><plain>The datasets are described in Table 6. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T6" position="float"><label>Table 6</label><caption><p><text><SENT sid="615" pm="."><plain>Summary of the eleven gene expression datasets </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="616" pm="."><plain>Dataset </plain></SENT>
+</text></th><th align="center"><text><SENT sid="617" pm="."><plain># Genes </plain></SENT>
+</text></th><th align="center"><text><SENT sid="618" pm="."><plain>Class </plain></SENT>
+</text></th><th align="center"><text><SENT sid="619" pm="."><plain># Samples </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="620" pm="."><plain>Melanoma [45] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="621" pm="."><plain>22283 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="622" pm="."><plain>malignant/nonmalignant </plain></SENT>
+</text></td><td align="center"><text><SENT sid="623" pm="."><plain>70 (45/25) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="624" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="625" pm="."><plain>Breast Cancer 1 [46] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="626" pm="."><plain>7650 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="627" pm="."><plain>relapse/no-relapse </plain></SENT>
+</text></td><td align="center"><text><SENT sid="628" pm="."><plain>99 (45/54) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="629" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="630" pm="."><plain>Brain Cancer [7] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="631" pm="."><plain>7129 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="632" pm="."><plain>classic/desmoplastic </plain></SENT>
+</text></td><td align="center"><text><SENT sid="633" pm="."><plain>60 (46/14) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="634" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="635" pm="."><plain>Breast Cancer 2 [47] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="636" pm="."><plain>22575 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="637" pm="."><plain>disease-free/cancer recurred </plain></SENT>
+</text></td><td align="center"><text><SENT sid="638" pm="."><plain>60 (32/28) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="639" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="640" pm="."><plain>Gastric Tumor [48] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="641" pm="."><plain>19508 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="642" pm="."><plain>normal/tumor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="643" pm="."><plain>132 (29/103) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="644" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="645" pm="."><plain>Lung Cancer 1 [49] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="646" pm="."><plain>12600 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="647" pm="."><plain>squamous cell lung carcinoma/pulmonary carcinoid </plain></SENT>
+</text></td><td align="center"><text><SENT sid="648" pm="."><plain>41 (21/20) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="649" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="650" pm="."><plain>Lung Cancer 2 [3] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="651" pm="."><plain>12533 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="652" pm="."><plain>mesothelioma/adenocarcinoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="653" pm="."><plain>181 (31/150) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="654" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="655" pm="."><plain>Lymphoma [8] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="656" pm="."><plain>7129 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="657" pm="."><plain>cured/fatal </plain></SENT>
+</text></td><td align="center"><text><SENT sid="658" pm="."><plain>58 (32/26) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="659" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="660" pm="."><plain>Myeloma [50] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="661" pm="."><plain>12651 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="662" pm="."><plain>without bone lytic lesion/with bone lytic lesion </plain></SENT>
+</text></td><td align="center"><text><SENT sid="663" pm="."><plain>173 (36/137) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="664" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="665" pm="."><plain>Pancreatic Cancer [51] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="666" pm="."><plain>22283 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="667" pm="."><plain>normal/pancreatic ductal carcinoma </plain></SENT>
+</text></td><td align="center"><text><SENT sid="668" pm="."><plain>49 (25/24) </plain></SENT>
+</text></td></tr><tr><td colspan="4"><text><SENT sid="669" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="670" pm="."><plain>Prostate Cancer [6] </plain></SENT>
+</text></td><td align="center"><text><SENT sid="671" pm="."><plain>12600 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="672" pm="."><plain>normal/tumor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="673" pm="."><plain>102 (50/52) </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="674" pm="."><plain>Note: The sample size of each class is given in parenthesis. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="675" pm="."><plain>Standard Classification Methods Used for Comparison </plain></SENT>
+</text></title><p><text><SENT sid="676" pm="."><plain>We compared the performance of our models to that of four standard classifiers: DLDA, k-NN, RF and SVM. </plain></SENT>
+<SENT sid="677" pm="."><plain>For the k-NN classifier, we set the parameter k as 3. </plain></SENT>
+<SENT sid="678" pm="."><plain>For the RF classifier, we set the number of trees and genes randomly sampled as candidates at each split as 100 and the squared root of the total number of genes, respectively. </plain></SENT>
+<SENT sid="679" pm="."><plain>The SVM is based on the linear inner product kernel function. </plain></SENT>
+</text></p><p><text><SENT sid="680" pm="."><plain>For the four classifiers, the genes significantly different between the classes at 0.001 significance level were used for class prediction. </plain></SENT>
+<SENT sid="681" pm="."><plain>We carried out the four classification algorithms in <z:uniprot sup="inside" fb="12" ids="P87350,P39873,P79351,Q29542,Q29543">BRB</z:uniprot>-ArrayTools, which is an integrated package for the visualization and statistical analysis of DNA microarray gene expression data [44]. </plain></SENT>
+<SENT sid="682" pm="."><plain>The software can be freely downloaded from the website: <ext-link ext-link-type="uri" xlink:href="http://linus.nci.nih.gov/BRB-ArrayTools.html">http://linus.nci.nih.gov/<z:uniprot sup="inside" fb="12" ids="P87350,P39873,P79351,Q29542,Q29543">BRB</z:uniprot>-ArrayTools.html</ext-link>. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="AUTH_CONT"><sec><title><text><SENT sid="683" pm="."><plain>Authors' contributions </plain></SENT>
+</text></title><p><text><SENT sid="684" pm="."><plain>XW and RS designed the research. </plain></SENT>
+<SENT sid="685" pm="."><plain>XW and RS wrote the manuscript. </plain></SENT>
+<SENT sid="686" pm="."><plain>XW performed the data analyses and programming for the plugin for <z:uniprot sup="inside" fb="12" ids="P87350,P39873,P79351,Q29542,Q29543">BRB</z:uniprot>-ArrayTools. </plain></SENT>
+<SENT sid="687" pm="."><plain>Both authors read and approved the final manuscript. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="688" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="S1"><caption><title><text><SENT sid="689" pm="."><plain>Additional file 1 </plain></SENT>
+</text></title><p><text><SENT sid="690" pm="."><plain>Supplementary Table S1-13. </plain></SENT>
+<SENT sid="691" pm="."><plain>The list of 13 supplementary tables </plain></SENT>
+</text></p></caption><media xlink:href="1471-2105-12-391-S1.DOC" mimetype="application" mime-subtype="msword"><caption><p><text><SENT sid="692" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="693" pm="."><plain>We would like to thank Dr. M. </plain></SENT>
+<SENT sid="694" pm="."><plain>Li and Dr. Y. </plain></SENT>
+<SENT sid="695" pm="."><plain>Zhao for their helpful advice on developing the plugin for <z:uniprot sup="inside" fb="12" ids="P87350,P39873,P79351,Q29542,Q29543">BRB</z:uniprot>-ArrayTools. </plain></SENT>
+<SENT sid="696" pm="."><plain>We thank the anonymous referees for their valuable comments which helped us to improve the manuscript. </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="697" pm="."><plain>SchenaMShalonDDavisRWBrownPOQuantitative monitoring of gene expression patterns with a complementary DNA microarrayScience1995270523546747010.1126/science.270.5235.4677569999 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="698" pm="."><plain>GolubTRSlonimDKTamayoPHuardCGaasenbeekMMesirovJPCollerHLohMLDowningJRCaligiuriMABloomfieldCDLanderESMolecular classification of cancer: class discovery and class prediction by gene expression monitoringScience1999286543953153710.1126/science.286.5439.53110521349 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="699" pm="."><plain>GordonGJJensenRVHsiaoLLGullansSRBlumenstockJERamaswamySRichardsWGSugarbakerDJBuenoRTranslation of microarray data into clinically relevant cancer diagnostic tests using gene expression ratios in lung cancer and mesotheliomaCancer Res200262174963496712208747 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="700" pm="."><plain>GordonGJJensenRVHsiaoLLGullansSRBlumenstockJERichardsWGJaklitschMTSugarbakerDJBuenoRUsing gene expression ratios to predict outcome among patients with mesotheliomaJ Natl Cancer Inst200395859860510.1093/jnci/95.8.59812697852 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="701" pm="."><plain>van't VeerLJDaiHvan de VijverMJHeYDHartAAMaoMPeterseHLvan der KooyKMartonMJWitteveenATSchreiberGJKerkhovenRMRobertsCLinsleyPSBernardsRFriendSHGene expression profiling predicts clinical outcome of breast cancerNature2002415687153053610.1038/415530a11823860 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="702" pm="."><plain>SinghDFebboPGRossKJacksonDGManolaJLaddCTamayoPRenshawAAD'AmicoAVRichieJPLanderESLodaMKantoffPWGolubTRSellersWRGene expression correlates of clinical prostate cancer behaviorCancer Cell20021220320910.1016/S1535-6108(02)00030-212086878 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="703" pm="."><plain>PomeroySLTamayoPGaasenbeekMSturlaLMAngeloMMcLaughlinMEKimJYGoumnerovaLCBlackPMLauCAllenJCZagzagDOlsonJMCurranTWetmoreCBiegelJAPoggioTMukherjeeSRifkinRCalifanoAStolovitzkyGLouisDNMesirovJPLanderESGolubTRPrediction of central nervous system embryonal tumour outcome based on gene expressionNature2002415687043644210.1038/415436a11807556 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="704" pm="."><plain>ShippMARossKNTamayoPWengAPKutokJLAguiarRCGaasenbeekMAngeloMReichMPinkusGSRayTSKovalMALastKWNortonAListerTAMesirovJNeubergDSLanderESAsterJCGolubTRDiffuse large B-cell lymphoma outcome prediction by gene-expression profiling and supervised machine learningNat Med200281687410.1038/nm0102-6811786909 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="705" pm="."><plain>LiottaLPetricoinEMolecular profiling of human cancerNat Rev Genet200011485610.1038/3504956711262874 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="706" pm="."><plain>DupuyASimonRMCritical review of published microarray studies for cancer outcome and guidelines on statistical analysis and reportingJ Natl Cancer Inst200799214715710.1093/jnci/djk01817227998 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="707" pm="."><plain>AntonovAVTetkoIVMaderMTBudcziesJMewesHWOptimization models for cancer classification: extracting gene interaction information from microarray expression dataBioinformatics200420564465210.1093/bioinformatics/btg46215033871 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="708" pm="."><plain>NguyenDVRockeDMTumor classification by partial least squares using microarray gene expression dataBioinformatics2002181395010.1093/bioinformatics/18.1.3911836210 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="709" pm="."><plain>FureyTSCristianiniNDuffyNBednarskiDWSchummerMHausslerDSupport vector machine classification and validation of cancer tissue samples using microarray expression dataBioinformatics2000161090691410.1093/bioinformatics/16.10.90611120680 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="710" pm="."><plain>StameyTAWarringtonJACaldwellMCChenZFanZMahadevappaMMcNealJENolleyRZhangZMolecular genetic profiling of Gleason grade 4/5 prostate cancers compared to benign prostatic hyperplasiaJ Urol200116662171217710.1016/S0022-5347(05)65528-011696729 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="711" pm="."><plain>LiJWongLUsing rules to analyse bio-medical data: a comparison between C4.5 and PCLAdvances in Web-Age Information Management2003Berlin/Heidelberg: Springer254265 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="712" pm="."><plain>TanACGilbertDEnsemble machine learning on gene expression data for cancer classificationAppl Bioinformatics200323 SupplS758315130820 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="713" pm="."><plain>GemanDd'AvignonCNaimanDQWinslowRLClassifying gene expression profiles from pairwise mRNA comparisonsStat <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Genet Mol Biol20043Article 19 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="714" pm="."><plain>SimonRSupervised analysis when the number of candidate feature (p) greatly exceeds the number of cases (n)ACM SIGKDD Explorations Newsletter200352313610.1145/980972.980978 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="715" pm="."><plain>SimonRRadmacherMDDobbinKMcShaneLMPitfalls in the use of DNA microarray data for diagnostic and prognostic classificationJ Natl Cancer Inst2003951141810.1093/jnci/95.1.1412509396 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="716" pm="."><plain>WangXGotohOAccurate molecular classification of cancer using simple rulesBMC Med Genomics200926410.1186/1755-8794-2-6419874631 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="717" pm="."><plain>BakerSGSimple and flexible classification of gene expression microarrays via Swirls and RipplesBMC Bioinformatics20101145210.1186/1471-2105-11-45220825641 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="718" pm="."><plain>LiJLiuHDowningJRYeohAEWongLSimple rules underlying gene expression profiles of more than six subtypes of acute lymphoblastic leukemia (ALL) patientsBioinformatics2003191717810.1093/bioinformatics/19.1.7112499295 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="719" pm="."><plain>WesselsLFAReindersMJTHartAAMVeenmanCJDaiHHeYDvan't VeerLJA protocol for building and evaluating predictors of disease state based on microarray dataBioinformatics200521193755376210.1093/bioinformatics/bti42915817694 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="720" pm="."><plain>BoTJonassenINew feature subset selection procedures for classification of expression profilesGenome Biol200234RESEARCH001711983058 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="721" pm="."><plain>HuangCJLiaoWCApplication of probabilistic neural networks to the class prediction of leukemia and embryonal tumor of central nervous systemNeural Processing Letters200419211226 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="722" pm="."><plain>MominBFMitraSReduct generation and classification of gene expression dataFirst International Conference on Hybrid Information Technology 2006699708 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="723" pm="."><plain>BanerjeeMMitraSBankaHEvolutinary-rough feature selection in gene expression dataIEEE Transaction on Systems, Man, and Cybernetics, Part C: Application and Reviews200737622632 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="724" pm="."><plain>WangYTetkoIVHallMAFrankEFaciusAMayerKFMewesHWGene selection from microarray data for cancer classification--a machine learning approachComput Biol Chem2005291374610.1016/j.compbiolchem.2004.11.00115680584 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="725" pm="."><plain>LaiCReindersMJTvan't VeerLJWesselsLFAA comparison of univariate and multivariate gene selection techniques for classification of cancer datasetsBMC Bioinformatics2006723510.1186/1471-2105-7-23516670007 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="726" pm="."><plain>PawlakZRough setsInternational Journal of Computer and Information Sciences19821134135610.1007/BF01001956 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="727" pm="."><plain>LiJWongLIdentifying good diagnostic gene groups from gene expression profiles using the concept of emerging patternsBioinformatics200218572573410.1093/bioinformatics/18.5.72512050069 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="728" pm="."><plain>ZhaoYSimonRBRB-ArrayTools Data Archive for human cancer gene expression: a unique and efficient data sharing resourceCancer Inform2008691519259398 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="729" pm="."><plain>DudoitSFridlyandJSpeed TClassification in microarray experimentsStatistical Analysis of Gene Expression Microarray Data2003Chapman &amp; Hall/CRC93158 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="730" pm="."><plain>DobbinKKZhaoYSimonRMHow large a training set is needed to develop a classifier for microarray data?Clin Cancer Res200814110811410.1158/1078-0432.CCR-07-044318172259 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="731" pm="."><plain>WestMBlanchetteCDressmanHHuangEIshidaSSpangRZuzanHOlsonJAMarksJRNevinsJRPredicting the clinical status of human breast cancer by using gene expression profilesProc Natl Acad Sci USA20019820114621146710.1073/pnas.20116299811562467 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="732" pm="."><plain>DudoitSFridlyandJSpeedTPComparison of discrimination methods for the classification of tumors using gene expression dataJ Am <z:uniprot sup="inside" fb="30" ids="Q7QDU4,Q24151">Stat</z:uniprot> Assoc200297457778710.1198/016214502753479248 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="733" pm="."><plain>DobbinKKSimonRMSample size planning for developing classifiers using high-dimensional DNA microarray dataBiostatistics20078110111716613833 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="734" pm="."><plain>DobbinKSimonRSample size determination in microarray experiments for class comparison and prognostic classificationBiostatistics200561273810.1093/biostatistics/kxh01515618525 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="735" pm="."><plain>VarmaSSimonRBias in error estimation when using cross-validation for model selectionBMC Bioinformatics200679110.1186/1471-2105-7-9116504092 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="736" pm="."><plain>LecockeMHessKAn empirical study of univariate and genetic algorithm-based feature selection in binary classification with microarray dataCancer Inform2007231332719458774 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="737" pm="."><plain>WangXGotohOA robust gene selection method for microarray-based cancer classificationCancer Inform20109153020234770 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="738" pm="?"><plain>FayMPProschanMAWilcoxon-Mann-Whitney or t-test? </plain></SENT>
+<SENT sid="739" pm="."><plain>On assumptions for hypothesis tests and multiple interpretations of decision rulesStatistics Surveys2010413910.1214/09-SS05120414472 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="740" pm="."><plain>FayyadUMIraniKBMulti-interval discretization of continuous-valued attributes for classification learningProceedings of the 13th International Joint Conference of Artificial Intelligence: August 28 -September 3 1993; Chambéry, FranceMorgan Kaufmann10221027 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="741" pm="."><plain>SimonRLamALiMCNganMMenenzesSZhaoYAnalysis of Gene Expression Data Using <z:uniprot sup="inside" fb="12" ids="P87350,P39873,P79351,Q29542,Q29543">BRB</z:uniprot>-Array ToolsCancer Informatics20073111719455231 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="742" pm="."><plain>TalantovDMazumderAYuJXBriggsTJiangYBackusJAtkinsDWangYNovel genes associated with malignant melanoma but not benign melanocytic lesionsClin Cancer Res200511207234724210.1158/1078-0432.CCR-05-068316243793 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="743" pm="."><plain>SotiriouCNeoSYMcShaneLMKornELLongPMJazaeriAMartiatPFoxSBHarrisALLiuETBreast cancer classification and prognosis based on gene expression profiles from a population-based studyProceedings of the National Academy of Sciences of the United States of America200310018103931039810.1073/pnas.173291210012917485 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="744" pm="."><plain>MaXJWangZRyanPDIsakoffSJBarmettlerAFullerAMuirBMohapatraGSalungaRTuggleJTTranYTranDTassinAAmonPWangWWangWEnrightESteckerKEstepa-SabalESmithBYoungerJBalisUMichaelsonJBhanAHabinKBaerTMBruggeJHaberDAErlanderMGSgroiDCA two-gene expression ratio predicts clinical outcome in breast cancer patients treated with tamoxifenCancer Cell20045660761610.1016/j.<z:uniprot sup="inside" fb="34" ids="Q3IZ91,Q53865">ccr</z:uniprot>.2004.05.01515193263 </plain></SENT>
+</text></ref><ref id="B48"><text><SENT sid="745" pm="."><plain>ChenXLeungSYYuenSTChuKMJiJLiRChanASYLawSTroyanskayaOGWongJSoSBotsteinDBrownPOVariation in gene expression patterns in human gastric cancersMol Biol Cell20031483208321510.1091/mbc.E02-12-083312925757 </plain></SENT>
+</text></ref><ref id="B49"><text><SENT sid="746" pm="."><plain>BhattacharjeeARichardsWGStauntonJLiCMontiSVasaPLaddCBeheshtiJBuenoRGilletteMLodaMWeberGMarkEJLanderESWongWJohnsonBEGolubTRSugarbakerDJMeyersonMClassification of human lung carcinomas by mRNA expression profiling reveals distinct adenocarcinoma subclassesProc Natl Acad Sci USA20019824137901379510.1073/pnas.19150299811707567 </plain></SENT>
+</text></ref><ref id="B50"><text><SENT sid="747" pm="."><plain>TianEZhanFWalkerRRasmussenEMaYBarlogieBShaughnessyJDThe role of the Wnt-signaling antagonist <z:uniprot sup="inside" fb="0" ids="O94907">DKK1</z:uniprot> in the development of osteolytic lesions in multiple myelomaN Engl J Med2003349262483249410.1056/NEJMoa03084714695408 </plain></SENT>
+</text></ref><ref id="B51"><text><SENT sid="748" pm="."><plain>IshikawaMYoshidaKYamashitaYOtaJTakadaSKisanukiHKoinumaKChoiYLKanedaRIwaoTTamadaKSuganoKManoHExperimental trial for diagnosis of pancreatic ductal carcinoma based on gene expression profiles of pancreatic ductal cellsCancer Sci200596738739310.1111/j.1349-7006.2005.00064.x16053509 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

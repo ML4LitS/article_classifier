@@ -1,0 +1,615 @@
+<!DOCTYPE article  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id><journal-id journal-id-type="publisher-id">ijms</journal-id><journal-title-group><journal-title>International Journal of Molecular Sciences</journal-title></journal-title-group><issn pub-type="epub">1422-0067</issn><publisher><publisher-name>Molecular Diversity Preservation International (MDPI)</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3233425</article-id><article-id pub-id-type="doi">10.3390/ijms12117594</article-id><article-id pub-id-type="publisher-id">ijms-12-07594</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Rice Protein Extracted by Different Methods Affects Cholesterol Metabolism in Rats Due to Its Lower Digestibility </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Yang</surname><given-names>Lin</given-names></name><xref ref-type="aff" rid="af1-ijms-12-07594">1</xref><xref ref-type="aff" rid="af2-ijms-12-07594">2</xref><xref ref-type="corresp" rid="c1-ijms-12-07594">*</xref></contrib><contrib contrib-type="author"><name><surname>Chen</surname><given-names>Jiahou</given-names></name><xref ref-type="aff" rid="af3-ijms-12-07594">3</xref></contrib><contrib contrib-type="author"><name><surname>Xu</surname><given-names>Tong</given-names></name><xref ref-type="aff" rid="af4-ijms-12-07594">4</xref></contrib><contrib contrib-type="author"><name><surname>Qiu</surname><given-names>Wei</given-names></name><xref ref-type="aff" rid="af5-ijms-12-07594">5</xref><xref ref-type="aff" rid="af6-ijms-12-07594">6</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Yan</given-names></name><xref ref-type="aff" rid="af7-ijms-12-07594">7</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Lanwei</given-names></name><xref ref-type="aff" rid="af1-ijms-12-07594">1</xref></contrib><contrib contrib-type="author"><name><surname>Xu</surname><given-names>Fuping</given-names></name><xref ref-type="aff" rid="af1-ijms-12-07594">1</xref></contrib><contrib contrib-type="author"><name><surname>Liu</surname><given-names>Hongbo</given-names></name><xref ref-type="aff" rid="af7-ijms-12-07594">7</xref></contrib></contrib-group><aff id="af1-ijms-12-07594"><label>1</label>School of Food Science and Engineering, Harbin Institute of Technology, 73 Huanghe Road, Harbin 150090, China; E-Mails: <email>lanweizhang@yahoo.com.cn</email> (L.Z.); <email>chinacentre@163.com</email> (F.X.)</aff><aff id="af2-ijms-12-07594"><label>2</label>School of Chemical Engineering and Technology, Harbin Institute of Technology, Harbin 150001, China</aff><aff id="af3-ijms-12-07594"><label>3</label>Heilongjiang Provincial Environmental Monitoring Central Station, Harbin 150056, China; E-Mail: <email>cjh6617@126.com</email></aff><aff id="af4-ijms-12-07594"><label>4</label>Heilongjiang Provincial Hospital, Harbin 150036, China; E-Mail: <email>furukawa1964@yahoo.com.cn</email></aff><aff id="af5-ijms-12-07594"><label>5</label>State Key Laboratory of Urban Water Resources and Environment, Harbin Institute of Technology, Harbin 150090, China; E-mail: <email>qiuwei@hit.edu.cn</email></aff><aff id="af6-ijms-12-07594"><label>6</label>School of Municipal and Environmental Engineering, Harbin Institute of Technology, Harbin 150090, China</aff><aff id="af7-ijms-12-07594"><label>7</label>College of Bioinformatics Science and Technology, Harbin Medical University, Harbin 150081, China; E-Mails: <email>yangyou1225@yahoo.com.cn</email> (Y.Z.); <email>hongbo919@gmai.com</email> (H.L.)</aff><author-notes><corresp id="c1-ijms-12-07594"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>ly6617@hit.edu.cn</email>; Tel.: +86-451-8628-2910; Fax: +86-451-8628-2906.</corresp></author-notes><pub-date pub-type="collection"><year>2011</year></pub-date><pub-date pub-type="epub"><day>07</day><month>11</month><year>2011</year></pub-date><volume>12</volume><issue>11</issue><fpage>7594</fpage><lpage>7608</lpage><history><date date-type="received"><day>11</day><month>8</month><year>2011</year></date><date date-type="rev-recd"><day>18</day><month>10</month><year>2011</year></date><date date-type="accepted"><day>01</day><month>11</month><year>2011</year></date></history><permissions><copyright-statement>© 2011 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2011</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0"><license-p>This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>).</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>To elucidate whether the digestibility is responsible for the hypocholesterolemic action of rice protein, the effects of rice proteins extracted by alkali (<z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>) and <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> (RP-E) on cholesterol metabolism were investigated in 7-week-old male Wistar rats fed cholesterol-free diets for 3 weeks. </plain></SENT>
+<SENT sid="2" pm="."><plain>The in vitro and in vivo digestibility was significantly reduced by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E as compared to casein (<z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>). </plain></SENT>
+<SENT sid="3" pm="."><plain>The digestibility was lower in RP-E than that of <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>. </plain></SENT>
+<SENT sid="4" pm="."><plain>Compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, the significant cholesterol-lowering effects were observed in rats fed by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E. </plain></SENT>
+<SENT sid="5" pm="."><plain>Fecal excretion of bile acids was significantly stimulated by RP-E, but not by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>. </plain></SENT>
+<SENT sid="6" pm="."><plain>The apparent cholesterol absorption was more effectively inhibited by RP-E than <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> because more fecal neutral sterols were excreted in rats fed RP-E. </plain></SENT>
+<SENT sid="7" pm="."><plain>There was a significant correlation between protein digestibility and cholesterol absorption (r = 0.8662, P &lt; 0.01), resulting in a significant correlation between protein digestibility and plasma cholesterol level (r = 0.7357, P &lt; 0.01) in this study. </plain></SENT>
+<SENT sid="8" pm="."><plain>The present study demonstrates that the digestibility of rice protein affected by extraction method plays a major role in the modulation of cholesterol metabolism. </plain></SENT>
+<SENT sid="9" pm="."><plain>Results suggest that the hypocholesterolemic action induced by rice protein with lower digestibility primarily contribute to the inhibition of cholesterol absorption. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>rice protein</kwd><kwd>digestibility</kwd><kwd>cholesterol</kwd><kwd>absorption</kwd><kwd>rats</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="10" pm="."><plain>1. </plain></SENT>
+<SENT sid="11" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="12" pm="."><plain>Rice is a staple cereal and widely consumed in the world. </plain></SENT>
+<SENT sid="13" pm="."><plain>Recent attempts have been focused on the physiological functions of rice to prevent the life style-related diseases [1–4], in which the association of rice protein (RP) consumption with modulation of plasma cholesterol level has been demonstrated in some studies [5–9]. </plain></SENT>
+<SENT sid="14" pm="."><plain>However, evidence as to how the hypocholesterolemic mechanism exerted by rice protein works is lacking. </plain></SENT>
+</text></p><p><text><SENT sid="15" pm="."><plain>As for isolation of rice protein, alkaline treatment and <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> degradation are two major industrial processing [5,10]. </plain></SENT>
+<SENT sid="16" pm="."><plain>Alkaline treatment is a common process for rice protein extraction, by which the digestibility of rice protein is suggested to be effectively improved rather than by <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> degradation [5,11,12]. </plain></SENT>
+<SENT sid="17" pm="."><plain>Morita et al. indicated that the true digestibility of rice protein extracted by alkaline treatment was higher than that treated by <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot>, and showed that rice protein isolates produced by the two different methods (alkaline treatment and <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> degradation) could lower serum cholesterol concentration in Sprague-Dawley rats compared with casein [5]. </plain></SENT>
+<SENT sid="18" pm="."><plain>Taken together, these findings provided evidence that there may be a link of extraction method and protein digestibility which may be connected to the physiological function of rice protein. </plain></SENT>
+</text></p><p><text><SENT sid="19" pm="."><plain>Some studies have suggested that the biological utilization of a protein is primarily dependent on its digestibility by gastric, pancreatic and intestinal peptidases [13–15], further providing the insight that the digestibility may play a major role in the modulation of physiological function of dietary protein. </plain></SENT>
+<SENT sid="20" pm="."><plain>In addition, the most frequently suggested mechanism responsible for the cholesterol-lowering effect of plant protein is the interference with enterohepatic circulation of cholesterol, leading to an inhibition of intestinal cholesterol absorption and an increase in fecal steroid excretion [16]. </plain></SENT>
+<SENT sid="21" pm="."><plain>Taking advantage of this view, some studies suggest that the low digestibility of dietary protein is a factor involved with the inhibition of intestinal cholesterol absorption and the disturbance of enterohepatic circulation to lead to the cholesterol-lowering action [17,18]. </plain></SENT>
+<SENT sid="22" pm="."><plain>Thus, the digestibility of rice protein may be a major factor to influence cholesterol metabolism. </plain></SENT>
+</text></p><p><text><SENT sid="23" pm="."><plain>Therefore, in the present study, two extraction methods for preparation of rice protein, namely, an alkaline treatment and heat-stable <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> degradation, were developed to evaluate and compare the physiological function of rice protein. </plain></SENT>
+<SENT sid="24" pm="."><plain>The key question addressed are: (1) whether the digestibility is responsible for the hypocholesterolemic action of rice protein and (2) how the digestibility of rice protein possesses a vital function in improving cholesterol metabolism in growing rats fed cholesterol-free diets. </plain></SENT>
+<SENT sid="25" pm="."><plain>In addition, the present work also focused on the effect of rice protein on triglyceride metabolism. </plain></SENT>
+</text></p></sec></SecTag><sec><title><text><SENT sid="26" pm="."><plain>2. </plain></SENT>
+<SENT sid="27" pm="."><plain>Experimental Section </plain></SENT>
+</text></title><sec><title><text><SENT sid="28" pm="."><plain>2.1. </plain></SENT>
+<SENT sid="29" pm="."><plain>Protein Sources </plain></SENT>
+</text></title><p><text><SENT sid="30" pm="."><plain>Casein (<z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>) (Gansu Hualing Industrial Group, Gansu, China) and rice proteins extracted from Oryza sativa L. cv. Longjing 26 (Rice Research Institute of Heilongjiang Academy of Agricultural Sciences, Jiamusi, China) were used as the dietary protein sources. </plain></SENT>
+<SENT sid="31" pm="."><plain>Two methods were conducted for preparation of rice proteins, a classical extraction method with alkaline followed by precipitation with acidic solution (<z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>) [5], and a method for rice protein isolation by starch degradation using a heat-stable <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> (Sigma, St. Louis, MO, USA) (RP-E) [5]. </plain></SENT>
+</text></p><p><text><SENT sid="32" pm="."><plain>The chemical composition of dietary proteins was analyzed, according to the previous study [6]. </plain></SENT>
+<SENT sid="33" pm="."><plain>Amino acid analysis of these proteins was performed using a Biochrom 30 amino acid analyzer (Biochrom, Holliston, MA, USA) according to Yang et al. [6]. </plain></SENT>
+</text></p></sec><sec sec-type="methods"><title><text><SENT sid="34" pm="."><plain>2.2. </plain></SENT>
+<SENT sid="35" pm="."><plain>In Vitro Digestion Study </plain></SENT>
+</text></title><p><text><SENT sid="36" pm="."><plain>The lipid fraction of protein samples (<z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>, RP-E) was removed by chloroform-methanol (2:1, v/v) extraction [19], and the in vitro digestion of <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E with pepsin and pancreatin was performed according to previous study [17]. </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>Of the defatted sample (<z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>, RP-E), protein solution (5% w/v, in distilled water) was adjusted to pH 2.0 with dilute HCl, and incubated at 37 °C with 5 mg of porcine pepsin (Sigma, St. Louis, MO, USA). </plain></SENT>
+<SENT sid="38" pm="."><plain>During the pepsin digestion, the digest was sampled at intervals of 10 min, 30 min, 45 min, 1 h and 2 h. </plain></SENT>
+<SENT sid="39" pm="."><plain>After deproteinization by 30% trichloroacetic acid, free amino group, which was reacted with 2,4,6-trinitrobenzenesulfonic acid at 37 °C for 2 h, was measured at 420 nm to evaluate the pepsin digestion. </plain></SENT>
+</text></p><p><text><SENT sid="40" pm="."><plain>The in vitro protein digestibility was conducted according to the method of Mohamed et al. and Ali et al. [13,20], with slight modification. </plain></SENT>
+<SENT sid="41" pm="."><plain>After 2 h of pepsin digestion, the peptic digest was adjusted to pH 8.5 with NaHCO3, and then treated with 15 mg porcine pancreatin (Sigma, St. Louis, MO, USA). </plain></SENT>
+<SENT sid="42" pm="."><plain>The mixture was incubated at 37 °C for 24 h. </plain></SENT>
+<SENT sid="43" pm="."><plain>At appropriate intervals (4, 6, 8 and 24 h), samples were taken and treated with 30% trichloroacetic acid and centrifuged at 12,000× g for 5 min at room temperature. </plain></SENT>
+<SENT sid="44" pm="."><plain>After centrifugation, the acid-soluble fraction was estimated according to the method of Lowry et al. [21]. In vitro protein digestibility was calculated as: In vitro protein digestibility (%) = Protein in the supernatant/Protein in the sample × 100. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="45" pm="."><plain>2.3. </plain></SENT>
+<SENT sid="46" pm="."><plain>Animals and Diets </plain></SENT>
+</text></title><p><text><SENT sid="47" pm="."><plain>The present experiments followed the same as the previous study [6]. </plain></SENT>
+<SENT sid="48" pm="."><plain>7-week-old male Wistar rats were purchased from Animal Center of Harbin Medical University (SCXK20020002, Harbin, China) and individually housed in metabolic cages in a room maintained at 22 ± 2 °C under a 12 h light-dark cycle (07:00–19:00 for light). </plain></SENT>
+<SENT sid="49" pm="."><plain>Rats were allowed free access to commercial pellets (Animal Center of Harbin Medical University, Harbin, China) for 3 days. </plain></SENT>
+<SENT sid="50" pm="."><plain>After acclimatization, rats were randomly divided into three groups of similar body weight. </plain></SENT>
+<SENT sid="51" pm="."><plain>Each group consisted of six rats. </plain></SENT>
+</text></p><p><text><SENT sid="52" pm="."><plain>All animals were fed ad libitum with experimental diets according to the formula recommended by American Institute of Nutrition [22]. </plain></SENT>
+<SENT sid="53" pm="."><plain>For 3 weeks, growing rats were fed cholesterol-free diets with dietary protein level of 20% (as crude protein) of <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E, respectively. </plain></SENT>
+<SENT sid="54" pm="."><plain>Diets were completed to 100% with starch. </plain></SENT>
+<SENT sid="55" pm="."><plain>The composition of experimental diets is shown in Table 1. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="56" pm="."><plain>2.4. </plain></SENT>
+<SENT sid="57" pm="."><plain>Samples Collection </plain></SENT>
+</text></title><p><text><SENT sid="58" pm="."><plain>During the feeding period, food consumption and body weight were recorded daily in the morning before replenishing the diet. </plain></SENT>
+<SENT sid="59" pm="."><plain>Feces were collected for the final 3 days of the experimental period and dried to a constant weight and ground to a fine powder for fecal steroids determination according to Yang et al. [6]. </plain></SENT>
+</text></p><p><text><SENT sid="60" pm="."><plain>At the end of the feeding period, the rats were deprived for 18 h and then sacrificed. </plain></SENT>
+<SENT sid="61" pm="."><plain>Blood was withdrawn from abdominal vein into a heparinized syringe under anesthesia with sodium pentobarbital (50 mg/kg body weight), immediately cooled on ice and separated by centrifugation at 12,000× g for 5 min. </plain></SENT>
+<SENT sid="62" pm="."><plain>The plasma obtained was frozen at −20 °C until analysis. </plain></SENT>
+<SENT sid="63" pm="."><plain>After blood collection, the liver, perirenal fat and epididymal fat were excised immediately, rinsed in saline and weighed after blotted on a filter paper. </plain></SENT>
+<SENT sid="64" pm="."><plain>The whole liver was cut into three portions and quickly freeze-clamped in liquid nitrogen and stored at −80 °C until analysis. </plain></SENT>
+</text></p></sec><sec sec-type="methods"><title><text><SENT sid="65" pm="."><plain>2.5 Plasma Lipid Analysis </plain></SENT>
+</text></title><p><text><SENT sid="66" pm="."><plain>Plasma concentrations of total cholesterol (TC), low-density lipoprotein cholesterol (LDL-C), <z:uniprot sup="inside" fb="0" ids="P81182">high-density lipoprotein</z:uniprot> cholesterol (HDL-C) and triglyceride (TG) were measured colorimetrically with commercial kits (Nanjing Jiancheng Bioengineering Institute, Nanjing, China). </plain></SENT>
+<SENT sid="67" pm="."><plain>Plasma very-low-density lipoprotein cholesterol (VLDL-C) was calculated as: VLDL-C = TC − HDL-C − LDL-C. </plain></SENT>
+</text></p></sec><sec sec-type="methods"><title><text><SENT sid="68" pm="."><plain>2.6. </plain></SENT>
+<SENT sid="69" pm="."><plain>Liver Lipid Analysis </plain></SENT>
+</text></title><p><text><SENT sid="70" pm="."><plain>The lipids in the liver were extracted and purified according to the method of Folch et al. [19], and were analyzed as described by Yang et al. [6]. </plain></SENT>
+<SENT sid="71" pm="."><plain>Samples of liver were extracted with chloroform/methanol (2:1, v/v). </plain></SENT>
+<SENT sid="72" pm="."><plain>Total- and free-cholesterol and triglyceride were measured with a commercial kit (Nanjing Jiancheng Bioengineering Institute, Nanjing, China). </plain></SENT>
+<SENT sid="73" pm="."><plain>Total lipids were determined gravimetrically. </plain></SENT>
+<SENT sid="74" pm="."><plain>The concentration of esterified cholesterol was calculated as: esterified cholesterol = total cholesterol − free cholesterol. </plain></SENT>
+<SENT sid="75" pm="."><plain>Cholesterol esterification ratio was described as: cholesterol esterification ratio (%) = (total cholesterol − free cholesterol) × 100/total cholesterol. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="76" pm="."><plain>2.7. </plain></SENT>
+<SENT sid="77" pm="."><plain>Determination of Fecal Excretion </plain></SENT>
+</text></title><p><text><SENT sid="78" pm="."><plain>Fecal bile acid and neutral sterol concentrations were measured as described in detail previously [6]. </plain></SENT>
+<SENT sid="79" pm="."><plain>Total bile acids were determined by <z:uniprot sup="inside" fb="0" ids="Q91WR5,Q6AYQ2,Q8HYR6,Q9BPW9,Q58NB6,Q8VD48,P23457">3α-hydroxysteroid dehydrogenase</z:uniprot> (Sigma, St. Louis, MO, USA) with sodium taurocholate as the standard. </plain></SENT>
+<SENT sid="80" pm="."><plain>Cholesterol and coprostanol were identified by their retention time and mass-spectrum standard material by GCMS (GCMS QP5050A, Shimadzu, Kyoto, Japan), and the other sterols were identified by mass-spectrum and calculated by coprostanol’s standard curve. </plain></SENT>
+<SENT sid="81" pm="."><plain>Apparent cholesterol absorption was calculated as: apparent cholesterol absorption = cholesterol intake − neutral sterol excretion. </plain></SENT>
+<SENT sid="82" pm="."><plain>After lipid extraction by chloroform-methanol (2:1, v/v) [19], fecal triglyceride in the extracted lipid was assayed with a commercial kit (Nanjing Jiancheng Bioengineering Institute, Nanjing, China). </plain></SENT>
+<SENT sid="83" pm="."><plain>Fecal nitrogen content was determined by Kjeldahl method [23]. </plain></SENT>
+<SENT sid="84" pm="."><plain>Apparent digestibility of protein was calculated as: Apparent protein digestibility (%) = (Protein intake − Fecal protein) × 100/Protein intake. </plain></SENT>
+</text></p></sec><sec sec-type="methods"><title><text><SENT sid="85" pm="."><plain>2.8. </plain></SENT>
+<SENT sid="86" pm="."><plain>Statistical Analysis </plain></SENT>
+</text></title><p><text><SENT sid="87" pm="."><plain>Data are presented as means ± SEM. </plain></SENT>
+<SENT sid="88" pm="."><plain>Differences between groups were examined for statistical significance using the one-way analysis of variance (ANOVA), and then determined with the least significant difference test. </plain></SENT>
+<SENT sid="89" pm="."><plain>The criterion for significance was P &lt; 0.05. </plain></SENT>
+</text></p></sec></sec><SecTag type="RESULTS"><sec><title><text><SENT sid="90" pm="."><plain>3. </plain></SENT>
+<SENT sid="91" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="92" pm="."><plain>3.1. </plain></SENT>
+<SENT sid="93" pm="."><plain>Chemical Composition and Amino Acids of Dietary Protein </plain></SENT>
+</text></title><p><text><SENT sid="94" pm="."><plain>Chemical composition of dietary protein was shown in Table 2. </plain></SENT>
+<SENT sid="95" pm="."><plain>As the dry matter basis, the rice proteins used in the present study included a rather high CP (crude protein) content: <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>, 95.8%; RP-E, 89.3%. </plain></SENT>
+<SENT sid="96" pm="."><plain>Ash and lipid contents were almost negligible in all dietary proteins (<z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, 2.2%; <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>, 1.8%; RP-E, 2.3%). </plain></SENT>
+<SENT sid="97" pm="."><plain>As carbohydrate, including fiber, they were about 0.8% in <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, 2.0% in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and 7.2% in RP-E. </plain></SENT>
+</text></p><p><text><SENT sid="98" pm="."><plain>It is notable that the contents of fiber in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E were higher than the contents of carbohydrate in them. </plain></SENT>
+<SENT sid="99" pm="."><plain>To explain this phenomenon, the washing procedure, during which carbohydrate might be lost, should be taken into account in this study. </plain></SENT>
+<SENT sid="100" pm="."><plain>Interestingly, the residual of fiber was higher in RP-E after <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> extraction than that in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> extracted by alkaline, implying alkaline treatment could reduce the fiber content in rice protein extract. </plain></SENT>
+</text></p><p><text><SENT sid="101" pm="."><plain>The amino acid compositions were shown in Table 3. </plain></SENT>
+<SENT sid="102" pm="."><plain>As compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, rice proteins have higher levels of Asp, Glu, Gly, Ala, Cys and Arg, whereas they have lower content of Lys, Thr and Pro. </plain></SENT>
+<SENT sid="103" pm="."><plain>As a result, the higher ratio of Arg/Lys was found in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (2.56) and in RP-E (3.15) than that in <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (0.44). </plain></SENT>
+<SENT sid="104" pm="."><plain>Also, it should be noted in this study that the contents of Lys and Thr in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E were lower than that in rice flour (Lys, 37.7; Thr, 31.97), suggesting that the first limiting amino acid (Lys) and the second limiting amino acid (Thr) of rice protein seem be easily lost during the extraction processing, despite the fact that the extraction method was different. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="105" pm="."><plain>3.2. </plain></SENT>
+<SENT sid="106" pm="."><plain>In Vitro Digestibility </plain></SENT>
+</text></title><p><text><SENT sid="107" pm="."><plain>As illustrated in Figure 1, the in vitro digestibility with pepsin and pancreatin was significantly lower in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E than that in <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, in accordance with the findings investigated by Morita et al. [5,10]. </plain></SENT>
+</text></p><p><text><SENT sid="108" pm="."><plain>The in vitro digestibility induced by pepsin was determined by the changes in free amino group during the 2 h of pepsin digestion (Figure 1). </plain></SENT>
+<SENT sid="109" pm="."><plain>At any incubation time, concentrations of the free amino group were significantly lowered by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (from 38.1% to 7.5%) and RP-E (from 61.0% to 18.0%) as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05). </plain></SENT>
+</text></p><p><text><SENT sid="110" pm="."><plain>After 2 h pepsin and appropriate (4, 6, 8, and 24 h) pancreatin digestion, the in vitro digestibility of <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E was measured (Figure 2). </plain></SENT>
+<SENT sid="111" pm="."><plain>With the similar tendency of pepsin digestion, the in vitro digestibility of <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E at any pancreatic incubation were all significantly lower than that of <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05), indicating the lower in vitro digestibility was induced by RP as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>. </plain></SENT>
+<SENT sid="112" pm="."><plain>Moreover, it must be noted that RP-E extracted by <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> exhibited a significant reduction in the in vitro digestibility, both pepsin digestion and pancreatin digestion, as compared with <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> treated by alkali (P &lt; 0.05). </plain></SENT>
+<SENT sid="113" pm="."><plain>As a result, our results confirmed and supported the previous observation that the digestibility of RP could be improved by alkali treatment [11,12], suggesting that the in vitro digestibility of RP was closely associated with the extraction method. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="114" pm="."><plain>3.3. </plain></SENT>
+<SENT sid="115" pm="."><plain>Food Intake and Body Weight </plain></SENT>
+</text></title><p><text><SENT sid="116" pm="."><plain>Body weight gain of growing rats were significantly reduced in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E groups (P &lt; 0.05), as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>. </plain></SENT>
+<SENT sid="117" pm="."><plain>Food intake was not significantly different among groups, suggesting that dietary protein did not affect food intake (Table 4). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="118" pm="."><plain>3.4. </plain></SENT>
+<SENT sid="119" pm="."><plain>Plasma Lipids and Lipoprotein Profiles </plain></SENT>
+</text></title><p><text><SENT sid="120" pm="."><plain>As shown in Table 4, plasma TC concentrations were significantly lowered in growing rats fed <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (TC: 12.5%) and RP-E (TC: 16.0%) as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05). </plain></SENT>
+</text></p><p><text><SENT sid="121" pm="."><plain>Similarly, accompanying the decreased level of TC, plasma VLDL-C and LDL-C concentrations were also distinctly lower in growing rats fed RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> than those fed <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05), whereas HDL-C level was not significantly different among experimental groups (P &gt; 0.05). </plain></SENT>
+<SENT sid="122" pm="."><plain>As a result, the ratio of non-HDL-C/HDL-C was significantly lowered by 29.7% and 34.4% in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E, respectively, compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="123" pm="."><plain>With the decreased plasma TC, plasma TG concentration was also lowered by RP feeding, as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (Table 4). </plain></SENT>
+<SENT sid="124" pm="."><plain>However, a marked reduction in plasma TG concentration was only produced by RP-E (P &lt; 0.05). </plain></SENT>
+<SENT sid="125" pm="."><plain>As for the ratio of TG to HDL-C, the decrease was found in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E compared to <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, but there was no significant difference of TG/HDL-C ratio among experimental groups (P &gt; 0.05). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="126" pm="."><plain>3.5 Hepatic Lipids and Deposit Fat </plain></SENT>
+</text></title><p><text><SENT sid="127" pm="."><plain>The liver weights of rats fed <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E were significantly lower than those fed <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05). </plain></SENT>
+<SENT sid="128" pm="."><plain>The liver weights in growing rats fed RP-E did not differ from those fed <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (P &gt; 0.05) (Table 5). </plain></SENT>
+</text></p><p><text><SENT sid="129" pm="."><plain>As shown in Table 5, hepatic accumulations of total lipids, total cholesterol and triglyceride in RP-feeding groups were significantly lower than those in the <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> group (P &lt; 0.05), in accordance with the previous study [6]. </plain></SENT>
+<SENT sid="130" pm="."><plain>The hepatic cholesterol-lowering actions induced by RP-feeding were mainly reflected by diminished concentrations of free- and esterified cholesterol. </plain></SENT>
+<SENT sid="131" pm="."><plain>Compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E significantly reduced hepatic esterified cholesterol levels by 43.6% and 56.4%, respectively. </plain></SENT>
+<SENT sid="132" pm="."><plain>These changes resulted in the significant reduction in hepatic cholesterol esterification ratio, which fell by 24.7% in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and 36.9% in RP-E, as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="133" pm="."><plain>With the similar tendency of hepatic lipid accumulation, the deposits of perirenal fat and epididymal fat were also inhibited by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (perirenal fat: 9.5%; epididymal fat: 9.5%) and RP-E (perirenal fat: 12.2%; epididymal fat: 12.3%), as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="134" pm="."><plain>3.6. </plain></SENT>
+<SENT sid="135" pm="."><plain>Fecal Excretion </plain></SENT>
+</text></title><p><text><SENT sid="136" pm="."><plain>The 3-d fecal output was shown in Table 6. </plain></SENT>
+<SENT sid="137" pm="."><plain>Compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, RP-E produced marked fecal output by increasing 9.0% (P &lt; 0.05), while fecal output in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> did not differ from <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &gt; 0.05). </plain></SENT>
+</text></p><p><text><SENT sid="138" pm="."><plain>Compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, RP-E significantly enhanced fecal bile acids excretion by 35.1% (P &lt; 0.05), whereas fecal bile acid excretion was not significantly affected by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (P &gt; 0.05). </plain></SENT>
+<SENT sid="139" pm="."><plain>These findings were in accordance with our previous studies, in which rice protein extracted by alkaline treatment did not stimulate fecal bile acids excretion as comparison with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> [6]. </plain></SENT>
+</text></p><p><text><SENT sid="140" pm="."><plain>As shown in Table 6, fecal neutral sterol excretion was significantly stimulated with RP-feeding (P &lt; 0.05). </plain></SENT>
+<SENT sid="141" pm="."><plain>Compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>, fecal neutral sterols excretion was 111.4% higher in growing rats fed <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>, while RP-E increased 167.7%. </plain></SENT>
+<SENT sid="142" pm="."><plain>Among the neutral sterols excreted, the concentrations of cholesterol and coprostanol were also significantly affected by RP-feeding, accounting for 85.8% and 131.8% enhancements of cholesterol and coprostanol in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E, respectively, as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (Table 6). </plain></SENT>
+<SENT sid="143" pm="."><plain>These results clearly indicated that RP-E could produce more excretion of fecal sterols than those in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> group (P &lt; 0.05). </plain></SENT>
+</text></p><p><text><SENT sid="144" pm="."><plain>As for fecal triglyceride excretion, the distinct increases were also observed in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> and RP-E as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05) (Table 6). </plain></SENT>
+<SENT sid="145" pm="."><plain>There was no difference of fecal triglyceride output was found in RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (P &gt; 0.05). </plain></SENT>
+<SENT sid="146" pm="."><plain>As shown in Table 6, fecal excretions of nitrogen in the RP groups were significantly higher than that in the <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> group (P &lt; 0.05), leading to the result that the apparent protein digestibility was significantly lower in RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &lt; 0.05). </plain></SENT>
+<SENT sid="147" pm="."><plain>This observation was in agreement with the results shown by Morita et al. [5,10]. </plain></SENT>
+<SENT sid="148" pm="."><plain>Moreover, to support our in vitro finding that the digestibility of RP-E was significantly lower than <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (Figures 1 and 2), we also found that there was a marked difference of apparent protein digestibility between RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (P &lt; 0.05) (Table 6). </plain></SENT>
+</text></p><p><text><SENT sid="149" pm="."><plain>As shown in Figure 3, apparent cholesterol absorption in rats was significantly depressed from −111.35 to −167.65% in RP-feeding as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>-feeding. </plain></SENT>
+<SENT sid="150" pm="."><plain>As a result, apparent cholesterol absorption was more effectively inhibited by RP-E than <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (Figure 3). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec><title><text><SENT sid="151" pm="."><plain>4. </plain></SENT>
+<SENT sid="152" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="153" pm="."><plain>We examined the cholesterol-lowering potential of rice protein extracted by different method, suggesting that the hypocholesterolemic action of RP was associated with lower protein digestibility and higher fecal excretion of neutral sterols. </plain></SENT>
+<SENT sid="154" pm="."><plain>Our findings clearly indicate that the digestibility of rice protein is a major factor to influence cholesterol metabolism through the inhibition of cholesterol absorption. </plain></SENT>
+</text></p><p><text><SENT sid="155" pm="."><plain>Conversion of cholesterol to bile acids is the principal regulated pathway whereby cholesterol is eliminated from the body, primarily via the enterohepatic circulation [7,8]. </plain></SENT>
+<SENT sid="156" pm="."><plain>In the present study, our data suggested that the fecal excretion of bile acids can be affected by the digestibility of RP. </plain></SENT>
+<SENT sid="157" pm="."><plain>Results indicated that RP-E significantly stimulated fecal excretion of bile acids (P &lt; 0.05), whereas fecal bile acids excretion of <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> was comparable to <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (P &gt; 0.05). </plain></SENT>
+<SENT sid="158" pm="."><plain>These findings support the previous studies that alkaline treatment may improve the digestibility of rice protein [11,12], suggesting that <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> appears to have less influence on binding bile acids in the intestinal tract due to its higher digestibility, in line with our previous findings [6]. </plain></SENT>
+<SENT sid="159" pm="."><plain>Nevertheless, of interest was the finding that <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> caused the cholesterol-lowering effect in growing rats under the present experimental condition, despite the fecal excretion of bile acids was not significantly stimulated by <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> feeding. </plain></SENT>
+<SENT sid="160" pm="."><plain>The precise mechanism by which RP affects cholesterol metabolism is not fully established, but the higher extent to which RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> enhanced excretions of neutral sterols in fecal output should be taken into account. </plain></SENT>
+<SENT sid="161" pm="."><plain>Clearly, the finding observed in this study suggests that hypocholesterolemic action induced by RP cannot be explained by the result of a simple diversion of bile acids toward fecal excretion, whereas the inhibition of intestinal cholesterol absorption, which was induced by the lower digestibility, might be one of possible mechanisms exerted by rice protein due to its lower digestibility. </plain></SENT>
+</text></p><p><text><SENT sid="162" pm="."><plain>In this study, we provided the in vivo and in vitro evidences for the lower digestibility of RP as compared with <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot>. </plain></SENT>
+<SENT sid="163" pm="."><plain>These results confirmed the finding that the digestibility of RP-E extracted by <z:uniprot sup="inside" fb="0" ids="A0P8X0,P22630,C0HJE4,P17654,P21567,P41131,Q9V298,P49067,O57932,P17859,B0KZK1,P30292,P00692,P08137,P06278,P20845,P86331,P00691,P30269,P86005,P23671,P49274,P06279,P91778,O97396,P29957,P30270,P08486,Q05884,P09794,P27350,P22998,P56634,P29750,P85843,P09107">α-amylase</z:uniprot> was significantly lower than <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> by alkaline treatment, further supporting the view that the digestibility of RP could be affected by the processing of extraction [5,11,12]. </plain></SENT>
+<SENT sid="164" pm="."><plain>More importantly, to support our hypothesis that lower digestibility of RP might produce the cholesterol-lowering action, we found a significant positive correlation between the protein digestibility and the concentration of plasma cholesterol (r = 0.7357, P &lt; 0.01), as well as liver cholesterol accumulation (r = 0.9025, P &lt; 0.01) (Table 7). </plain></SENT>
+<SENT sid="165" pm="."><plain>These data clearly indicated that there was a close link of lower protein digestibility and cholesterol-lowering action exerted by RP. </plain></SENT>
+</text></p><p><text><SENT sid="166" pm="."><plain>The most frequently suggested mechanism responsible for the cholesterol-lowering effect of dietary protein is to inhibit the intestinal cholesterol absorption and an increase in fecal steroid excretion [5,16–18,24]. </plain></SENT>
+<SENT sid="167" pm="."><plain>In the present study, our results confirm and expand this view, indicating that higher fecal excretions of neutral sterols and nitrogen were closely associated with lower cholesterol concentration in plasma and liver (Table 7). </plain></SENT>
+<SENT sid="168" pm="."><plain>Results showed a significant negative correlation between fecal neutral sterols and plasma cholesterol concentration (r = −0.7451, P &lt; 0.01), as well as liver cholesterol concentration (r = −0.8629, P &lt; 0.01). </plain></SENT>
+<SENT sid="169" pm="."><plain>Furthermore, with the increasing proportion of nitrogen in feces, the absorption of cholesterol was more efficaciously depressed in rats, indicating a significant positive correlation between the protein digestibility and the apparent cholesterol absorption (r = 0.8662, P &lt; 0.01). </plain></SENT>
+<SENT sid="170" pm="."><plain>Thus, with the lower digestibility, RP posses a cholesterol-lowering action through enhancing fecal excretion of neutral sterols, further suggesting the digestibility of rice protein is a major factor to influence cholesterol metabolism through the inhibition of cholesterol absorption. </plain></SENT>
+</text></p><p><text><SENT sid="171" pm="."><plain>Here, it must be noted that the hypocholesterolemic effect of RP-E was not more effective than that of <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>. </plain></SENT>
+<SENT sid="172" pm="."><plain>Also, we did not observe a difference of liver cholesterol-lowering effect between RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>. </plain></SENT>
+<SENT sid="173" pm="."><plain>Thus, the question arises why the stronger inhibition of cholesterol absorption induced by RP-E with lower digestibility did not lead to lower cholesterol level in rats fed RP-E than those fed <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>. </plain></SENT>
+<SENT sid="174" pm="."><plain>The precise mechanism by which RP affects cholesterol metabolism is not fully understood, but the mechanism responsible for the effect on the removal of non-HDL-C from circulation by hepatic uptake should be taken into account. </plain></SENT>
+<SENT sid="175" pm="."><plain>Our data obtained from plasma HDL-C and non-HDL-C indicated that RP-E and <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> produced the similar ratio of non-HDL-C to HDL-C in the present study (RP-E, 0.42; <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>, 0.45), which may result in the similar transfer of peripheral free cholesterol to the liver by a mechanism known as “reverse cholesterol transfer” promoted by HDL-C. </plain></SENT>
+<SENT sid="176" pm="."><plain>Thus, the findings observed in this study suggest that, except for the inhibition of cholesterol absorption induced by lower digestibility of RP, other mechanisms, such as the stimulation of the uptake of lipoprotein cholesterol by the liver may also come into play to fully explain the hypocholesterolemic response to RP. </plain></SENT>
+<SENT sid="177" pm="."><plain>Clearly, the observed effect of RP on cholesterol metabolism remains to be clarified in further studies. </plain></SENT>
+</text></p><p><text><SENT sid="178" pm="."><plain>Cholesterol absorption has been also suggested to be affected by amino acid composition. </plain></SENT>
+<SENT sid="179" pm="."><plain>Vahouny et al. reported that the cholesterol-lowering effect of soy protein was due mainly to the ratio of arginine (Arg) to lysine (Lys), which was involved with the inhibition of intestinal lipid absorption [25]. </plain></SENT>
+<SENT sid="180" pm="."><plain>Results shown by Vahouny et al. indicated that the addition of Arg to a <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> diet to increase the Arg/Lys ratio resulted in a slower rate of lipid absorption, and the addition of Lys to the soy protein diet to decrease the Arg/Lys ratio caused a faster rate of lipid absorption. </plain></SENT>
+<SENT sid="181" pm="."><plain>In addition, some studies have led to better understanding of the higher ratio of Arg/Lys can result in an elevation in hepatic 7α-hydroxylase activity, which is a rate-limiting enzyme for conversion of cholesterol to bile acids [26]. </plain></SENT>
+<SENT sid="182" pm="."><plain>Thus, whatever the mechanism of action, the effect of Arg/Lys ratio on cholesterol metabolism is important. </plain></SENT>
+<SENT sid="183" pm="."><plain>Considering this view, the highest Arg/Lys ratio in RP-E (3.15), the higher in <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> (2.56) and the lowest in <z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> (0.44) might explain the different levels in plasma cholesterol and fecal output of sterols in the present study. </plain></SENT>
+<SENT sid="184" pm="."><plain>In light of these findings, the higher ratio of Arg/Lys in RP, which may depress the cholesterol absorption to result in hypocholesterolemia, should be also emphasized in the present study. </plain></SENT>
+<SENT sid="185" pm="."><plain>Thus, in respect to the influence on digestibility, the difference of amino acid composition induced by the different extraction method may represent a principal mechanism for inhibition of cholesterol absorption to induce the cholesterol-lowering action of RP. </plain></SENT>
+</text></p><p><text><SENT sid="186" pm="."><plain>Additionally, some studies have suggested that other non-protein contents, e.g., carbohydrate, dietary fiber, unsaturated fatty acids, also could induce the cholesterol-lowering action [27]. </plain></SENT>
+<SENT sid="187" pm="."><plain>However, it does not seem very likely that the other remaining non-protein components, e.g., dietary fiber, carbohydrate, in RP may contribute to the cholesterol-lowering effects in this study because their concentrations are extremely low compared to the concentrations normally used for the induction of hypolipidemia. </plain></SENT>
+<SENT sid="188" pm="."><plain>This may explain the phenomenon that RP-E containing more dietary fiber could not produce more effective cholesterol-lowering effect than <z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot>. </plain></SENT>
+<SENT sid="189" pm="."><plain>Clearly, additional studies are required to confirm this view. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec><title><text><SENT sid="190" pm="."><plain>5. </plain></SENT>
+<SENT sid="191" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="192" pm="."><plain>The present study demonstrates that digestibility of rice protein plays a major role in the modification of cholesterol metabolism. </plain></SENT>
+<SENT sid="193" pm="."><plain>The hypocholesterolemic action of rice protein is attributed to the enhanced fecal excretion of neutral sterols, varying with the digestibility of rice protein. </plain></SENT>
+<SENT sid="194" pm="."><plain>Our results suggest that the inhibition of cholesterol absorption, which is closely associated with the digestibility and the ratio of Arg/Lys, may be the main modulator responsible for the cholesterol-lowering action of rice protein. </plain></SENT>
+<SENT sid="195" pm="."><plain>The precise mechanisms involved in the hypocholesterolemic responses to rice protein await more detailed investigation. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><title>Acknowledgments</title><p><text4fund><text><SENT sid="196" pm="."><plain>This work was in part supported by National Natural Science Foundation of China (31071526, 61075023), National Natural Science Foundation of Heilongjiang Province (C201027), Science Innovation Foundation of Harbin (2009RFLXN013) and China Postdoctoral Science Foundation Funded Project (200902391, 20080440864). </plain></SENT>
+</text></text4fund></p></ack></SecTag><fn-group><fn><p><text><SENT sid="197" pm="."><plain>Conflict of Interest </plain></SENT>
+</text></p><p><text><SENT sid="198" pm="."><plain>The authors have declared no conflict of interest. </plain></SENT>
+</text></p></fn></fn-group><SecTag type="REF"><ref-list><title>References</title><ref id="b1-ijms-12-07594"><text><SENT sid="199" pm="."><plain>1KishineM.SuzukiK.NakamuraS.OhtsuboK.Grain qualities and their genetic derivation of 7 new rice for Africa (NERICA) varietiesJ. </plain></SENT>
+<SENT sid="200" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="201" pm="."><plain>Food Chem2008564605461018512938 </plain></SENT>
+</text></ref><ref id="b2-ijms-12-07594"><text><SENT sid="202" pm="."><plain>2OhtsuboK.NakamuraS.Cultivar identification of rice (Oryza sativa L.) by polymerase chain reaction method and its application to processed rice productsJ. </plain></SENT>
+<SENT sid="203" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="204" pm="."><plain>Food Chem2007551501150917256960 </plain></SENT>
+</text></ref><ref id="b3-ijms-12-07594"><text><SENT sid="205" pm="."><plain>3TranT.U.SuzukiK.OkadomeH.IkezakiH.HommaS.OhtsuboK.Detection of changes in taste of japonica and indica brown and milled rice (Oryza sativa L.) during storage using physicochemical analyses and a taste sensing systemJ. </plain></SENT>
+<SENT sid="206" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="207" pm="."><plain>Food Chem2005531108111815713027 </plain></SENT>
+</text></ref><ref id="b4-ijms-12-07594"><text><SENT sid="208" pm="."><plain>4ChenX.J.GuoZ.J.Tobacco OPBP1 enhances salt tolerance and disease resistance of transgenic riceInt. </plain></SENT>
+<SENT sid="209" pm="."><plain>J. </plain></SENT>
+<SENT sid="210" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="211" pm="."><plain>Sci200892601261319330095 </plain></SENT>
+</text></ref><ref id="b5-ijms-12-07594"><text><SENT sid="212" pm="."><plain>5MoritaT.Oh-hashiA.KasaokaS.IkaiM.KiriyamaS.Rice protein isolates produced by the two different methods lower serum cholesterol concentration in rats compared with caseinJ. </plain></SENT>
+<SENT sid="213" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="214" pm="."><plain>Food Agric199671415424 </plain></SENT>
+</text></ref><ref id="b6-ijms-12-07594"><text><SENT sid="215" pm="."><plain>6YangL.KumagaiT.KawamuraH.WatanabeT.KubotaM.FujimuraS.WatanabeR.KadowakiM.Effects of rice proteins from two cultivars, Koshihikari and Shunyo, on cholesterol and triglyceride metabolism in growing and adult ratsBiosci. </plain></SENT>
+<SENT sid="216" pm="."><plain>Biotechnol. </plain></SENT>
+<SENT sid="217" pm="."><plain>Biochem20077169470317341819 </plain></SENT>
+</text></ref><ref id="b7-ijms-12-07594"><text><SENT sid="218" pm="."><plain>7YangL.KadowakiM.Addition of methionine to rice protein affects hepatic cholesterol output inducing hypocholesterolemia in rats fed cholesterol-free dietsJ. </plain></SENT>
+<SENT sid="219" pm="."><plain>Med. </plain></SENT>
+<SENT sid="220" pm="."><plain>Food20111444545321434776 </plain></SENT>
+</text></ref><ref id="b8-ijms-12-07594"><text><SENT sid="221" pm="."><plain>8YangL.KadowakiM.Effects of rice proteins from two cultivars, Koshihikari and Shunyo, on hepatic cholesterol secretion by isolated perfused livers of rats fed cholesterol-enriched dietsAnn. </plain></SENT>
+<SENT sid="222" pm="."><plain>Nutr. </plain></SENT>
+<SENT sid="223" pm="."><plain>Metab20095428329019641306 </plain></SENT>
+</text></ref><ref id="b9-ijms-12-07594"><text><SENT sid="224" pm="."><plain>9MoritaT.Oh-hashiA.TakeiK.IkaiM.KasaokaS.KiryamaS.Cholesterol-lowering effects of soybean, potato and rice proteins depend on their low methionine contents in rats fed a cholesterol-free purified dietJ. </plain></SENT>
+<SENT sid="225" pm="."><plain>Nutr19971274704779082032 </plain></SENT>
+</text></ref><ref id="b10-ijms-12-07594"><text><SENT sid="226" pm="."><plain>10MoritaT.KiriyamaS.Mass production method for rice protein isolate and nutritional evaluationJ. </plain></SENT>
+<SENT sid="227" pm="."><plain>Food Sci19935813931396 </plain></SENT>
+</text></ref><ref id="b11-ijms-12-07594"><text><SENT sid="228" pm="."><plain>11KubotaM.SatoY.MasumuraT.KumagaiT.WatanabeR.FujimuraS.KadowaliM.Improvement in the in vitro digestibility of rice protein by alkali extraction is due to structural changes in <z:uniprot sup="inside" fb="7" ids="P80356,Q09095,Q09114,Q09097,P02863,P04721,P04722,P04723,P04724,P04725,P04726,P04727,P04728,P18573">prolamin</z:uniprot>/protein body-I particleBiosci. </plain></SENT>
+<SENT sid="229" pm="."><plain>Biotechnol. </plain></SENT>
+<SENT sid="230" pm="."><plain>Biochem20107461461920208351 </plain></SENT>
+</text></ref><ref id="b12-ijms-12-07594"><text><SENT sid="231" pm="."><plain>12KumagaiT.KawamuraH.FuseT.WatanabeT.SatoY.MasumuraT.WatanabeR.KadowakiM.Production of rice protein by alkaline extraction improves its digestibilityJ. </plain></SENT>
+<SENT sid="232" pm="."><plain>Nutr. </plain></SENT>
+<SENT sid="233" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="234" pm="."><plain>Vitaminol20065246747217330511 </plain></SENT>
+</text></ref><ref id="b13-ijms-12-07594"><text><SENT sid="235" pm="."><plain>13MohamedT.K.ZhuK.IssoufouA.FatmataT.ZhouH.M.Functionality, in vitro digestibility and physcochemical properities of two varieties of defatted foxtail millet protein concentratesInt. </plain></SENT>
+<SENT sid="236" pm="."><plain>J. </plain></SENT>
+<SENT sid="237" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="238" pm="."><plain>Sci20091052245238 </plain></SENT>
+</text></ref><ref id="b14-ijms-12-07594"><text><SENT sid="239" pm="."><plain>14GuC.M.PanH.B.SunZ.W.QinG.X.Effect of soybean variety on anti-nutritional factors content, and growth performance and nutrients metabolism in ratInt. </plain></SENT>
+<SENT sid="240" pm="."><plain>J. </plain></SENT>
+<SENT sid="241" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="242" pm="."><plain>Sci2010111048105620479998 </plain></SENT>
+</text></ref><ref id="b15-ijms-12-07594"><text><SENT sid="243" pm="."><plain>15GuoC.M.ShiY.H.LeG.W.Effect of dietary protein level and origin on the redox status in the digestive tract of miceInt. </plain></SENT>
+<SENT sid="244" pm="."><plain>J. </plain></SENT>
+<SENT sid="245" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="246" pm="."><plain>Sci2008946447519325762 </plain></SENT>
+</text></ref><ref id="b16-ijms-12-07594"><text><SENT sid="247" pm="."><plain>16KatoN.IwamiK.Resistant protein: its existence and function beneficial to healthJ. </plain></SENT>
+<SENT sid="248" pm="."><plain>Nutr. </plain></SENT>
+<SENT sid="249" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="250" pm="."><plain>Vitaminol2002481512026181 </plain></SENT>
+</text></ref><ref id="b17-ijms-12-07594"><text><SENT sid="251" pm="."><plain>17KayashitaJ.ShimokaI.NakajohM.YamazakiM.KatoN.Consumption of buckwheat protein lowers plasma cholesterol and raises fecal neutral sterols in cholesterol-fed rats because of its low digestibilityJ. </plain></SENT>
+<SENT sid="252" pm="."><plain>Nutr1997127139514009202097 </plain></SENT>
+</text></ref><ref id="b18-ijms-12-07594"><text><SENT sid="253" pm="."><plain>18SuganoM.GotoS.YamadaY.YoshidaK.HashimotoY.MatsuoT.KimotoM.Cholesterol-lowering activity of various undigested fractions of soybean protein in ratsJ. </plain></SENT>
+<SENT sid="254" pm="."><plain>Nutr19901209779852398419 </plain></SENT>
+</text></ref><ref id="b19-ijms-12-07594"><text><SENT sid="255" pm="."><plain>19FolchJ.LeesM.Sloane-StanleyG.H.A simple method for the isolation and purification of total lipids from animal tissuesJ. </plain></SENT>
+<SENT sid="256" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="257" pm="."><plain>Chem195722649750913428781 </plain></SENT>
+</text></ref><ref id="b20-ijms-12-07594"><text><SENT sid="258" pm="."><plain>20AliM.A.M.TinayA.H.E.AbdallaA.H.Effect of fermentation on the in vitro protein digestibility of pearl milletFood Chem2003805154 </plain></SENT>
+</text></ref><ref id="b21-ijms-12-07594"><text><SENT sid="259" pm="."><plain>21LowryO.H.RosebroughN.J.FarrA.L.RandallR.J.Protein measurement with the Folin phenol reagentJ. </plain></SENT>
+<SENT sid="260" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="261" pm="."><plain>Chem195119326527514907713 </plain></SENT>
+</text></ref><ref id="b22-ijms-12-07594"><text><SENT sid="262" pm="."><plain>22ReevesP.G.NielsenF.H.FaheyG.C.AIN-93 purified diets for laboratory rodents: final report of the American Institute of Nutrition Ad Hoc Writing Committee on the reformulation of the AIN-76A rodent dietJ. </plain></SENT>
+<SENT sid="263" pm="."><plain>Nutr1993123193919518229312 </plain></SENT>
+</text></ref><ref id="b23-ijms-12-07594"><text><SENT sid="264" pm="."><plain>23Association of Official Agricultural ChemistsAOAC Official Methods of Analysis16th edAssociation of Official Agricultural ChemistsWashington, DC, USA1995Chapter 417 </plain></SENT>
+</text></ref><ref id="b24-ijms-12-07594"><text><SENT sid="265" pm="."><plain>24DawsonP.A.RudelL.L.Intestinal cholesterol absorptionCurr. </plain></SENT>
+<SENT sid="266" pm="."><plain>Opin. </plain></SENT>
+<SENT sid="267" pm="."><plain>Lipidol19991031532010482134 </plain></SENT>
+</text></ref><ref id="b25-ijms-12-07594"><text><SENT sid="268" pm="."><plain>25VahounyG.V.ChalcarzW.SatchithanandamS.AdamsonI.KlurfeldD.M.KritchevskyD.Effect of soy protein and casein intake on intestinal absorption and lymphatic transport of cholesterol and oleic acidAm. </plain></SENT>
+<SENT sid="269" pm="."><plain>J. </plain></SENT>
+<SENT sid="270" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="271" pm="."><plain>Nutr198440115611646439025 </plain></SENT>
+</text></ref><ref id="b26-ijms-12-07594"><text><SENT sid="272" pm="."><plain>26VahounyG.V.AdamsonI.ChalcarzW.SatchithanandamS.MuesingR.KlurfeldD.M.TepperS.A.SanghviA.KritchevskyD.Effects of casein and soy protein on hepatic and serum lipids and lipoprotein lipid distributions in the ratAtherosclerosis1985561271373935124 </plain></SENT>
+</text></ref><ref id="b27-ijms-12-07594"><text><SENT sid="273" pm="."><plain>27ChenZ.Y.JiaoR.<z:uniprot sup="inside" fb="15" ids="O07177,Q7DAF6,Q7WUM3,A0QN14,Q7U2S7,A1KEU8,C1AJF3,A4T432,B2HLP4,Q73U39,A0R6D9,A3Q7Y6,A1UNJ0,E6TMM3,Q1B1L0,A5TYK2,A5WII2,C6DQZ2,A0PWI9,A1TH50">MaK</z:uniprot>.Y.Cholesterol-lowering nutraceuticals and functional foodsJ. </plain></SENT>
+<SENT sid="274" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="275" pm="."><plain>Food Chem2008568761877318778072 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="f1-ijms-12-07594" position="float"><label>Figure 1</label><caption><p><text><SENT sid="276" pm="."><plain>Effects of dietary proteins on free amino groups during pepsin digestion (10 min, 30 min, 45 min, 1 h, 2 h). </plain></SENT>
+<SENT sid="277" pm="."><plain>Values are means ± SEM (n = 3). </plain></SENT>
+<SENT sid="278" pm="."><plain>Bars for each value with different letters are significantly different (P &lt; 0.05). </plain></SENT>
+</text></p></caption><graphic xlink:href="ijms-12-07594f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2-ijms-12-07594" position="float"><label>Figure 2</label><caption><p><text><SENT sid="279" pm="."><plain>The in vitro digestibility of dietary protein after pepsin (2 h) and pancreatin (4, 6, 8, 24 h) digestion. </plain></SENT>
+<SENT sid="280" pm="."><plain>Values are means ± SEM (n = 3). </plain></SENT>
+<SENT sid="281" pm="."><plain>Bars for each value with different letters are significantly different (P &lt; 0.05). </plain></SENT>
+</text></p></caption><graphic xlink:href="ijms-12-07594f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3-ijms-12-07594" position="float"><label>Figure 3</label><caption><p><text><SENT sid="282" pm="."><plain>Apparent cholesterol absorption in growing rats fed cholesterol-free diets. </plain></SENT>
+<SENT sid="283" pm="."><plain>Values are means ± SEM (n = 6). </plain></SENT>
+<SENT sid="284" pm="."><plain>Bars for each value with different letters were significantly different (P &lt; 0.05). </plain></SENT>
+</text></p></caption><graphic xlink:href="ijms-12-07594f3"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="t1-ijms-12-07594" position="float"><label>Table 1</label><caption><p><text><SENT sid="285" pm="."><plain>Composition of experimental diets (g/kg diet). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>Ingredients </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>RP-E </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>229.1 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>231.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>RP-E c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>251.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>Sucrose </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>100.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>100.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>100.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>Cellulose </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>50.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>50.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>50.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>Soybean oil </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>70.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>70.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>70.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>β-cornstarch </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>500.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>501.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>481.2 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>Mineral mix d </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>35.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>35.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>35.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>Vitamin mix e </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>10.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>10.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>10.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>Choline bitartrate </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>2.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>2.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>2.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain><z:uniprot sup="inside" fb="2" ids="O70372,Q673L6">Tert</z:uniprot>-butylhydroquinone </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>0.014 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>0.014 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>0.014 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>l-Cystine </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>3.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>− </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn1-ijms-12-07594"><label>a</label><p>CAS, casein; protein concentration 873 g/kg, obtained from Hualing Industrial Group (Gansu, China);</p></fn><fn id="tfn2-ijms-12-07594"><label>b</label><p>RP-A, rice protein extracted by alkaline treatment; protein concentration 864 g/kg, prepared by our laboratory;</p></fn><fn id="tfn3-ijms-12-07594"><label>c</label><p>RP-E, rice protein extracted by α-amylase; protein concentration 796 g/kg, prepared by our laboratory;</p></fn><fn id="tfn4-ijms-12-07594"><label>d</label><p>Mineral mix, AIN-93G-MX (Nosan Corp., Yokohama, Japan);</p></fn><fn id="tfn5-ijms-12-07594"><label>e</label><p>Vitamin mix, AIN-93-VX (Nosan Corp., Yokohama, Japan).</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t2-ijms-12-07594" position="float"><label>Table 2</label><caption><p><text><SENT sid="338" pm="."><plain>Composition of dietary proteins (%). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>Composition </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>RP-E </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>Moisture </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>9.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>9.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>10.9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>Protein </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>87.3 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>86.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>79.6 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>Carbohydrate </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>0.2 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>0.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>2.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>Lipids </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>0.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>0.8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>Ash </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>1.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>1.0 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>Dietary fiber </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>0.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>1.1 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>4.7 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn6-ijms-12-07594"><p>Data are averages of triplicate analysis. CAS, casein; RP-A, rice protein extracted by alkaline treatment; RP-E, rice protein extracted by α-amylase.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t3-ijms-12-07594" position="float"><label>Table 3</label><caption><p><text><SENT sid="367" pm="."><plain>Amino acid composition of dietary protein (μg/mg). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>Amino acid </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>RP-E </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>Asp </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>67.3 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>87.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>89.7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>Thr </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>40.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>29.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>30.7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>Ser </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>50.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>48.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>47.9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>Glu </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>163.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>192.3 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>189.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>Gly </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>19.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>44.2 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>44.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>Ala </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>33.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>55.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>53.9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>Val </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>58.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>63.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>60.7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>Ile </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>49.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>41.2 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>43.2 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>Leu </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>84.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>81.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>83.6 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>Met </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>29.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>21.2 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>17.7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>Cys </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>2.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>21.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>20.8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>Tyr </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>55.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>56.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>46.9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>Phe </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>50.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>51.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>51.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>Lys </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>75.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>34.3 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>27.9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>Arg </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>33.3 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>87.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>88.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>His </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>29.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>24.3 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>23.8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>Pro </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>94.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>37.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>37.4 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn7-ijms-12-07594"><p>Data are averages of triplicate analysis.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t4-ijms-12-07594" position="float"><label>Table 4</label><caption><p><text><SENT sid="440" pm="."><plain>Body weight gain, food intake and plasma lipids in rats. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>Parameters </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>RP-E </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>Body weight gain (g/day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>5.56 ± 0.21 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>4.61 ± 0.15 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>4.45 ± 0.16 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>Food intake (g/day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>20.04 ± 0.64 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>19.02 ± 0.29 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>18.88 ± 0.42 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>Plasma Cholesterol (mmol/L) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain> TC </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>1.44 ± 0.04 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>1.26 ± 0.05 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>1.21 ± 0.04 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain> VLDL-C </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>0.17 ± 0.01 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>0.13 ± 0.01 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>0.12 ± 0.01 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain> LDL-C </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>0.39 ± 0.06 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>0.26 ± 0.05 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>0.24 ± 0.06 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain> HDL-C </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>0.88 ± 0.04 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>0.87 ± 0.02 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>0.85 ± 0.04 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain> Non-HDL/HDL-C (mol/mol) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>0.64 ± 0.07 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>0.45 ± 0.06 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>0.42 ± 0.05 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>Triglyceride (mmol/L) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>0.38 ± 0.02 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>0.35 ± 0.01 ab </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>0.33 ± 0.01 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain> TG/HDL-C (mol/mol) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>0.43 ± 0.03 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>0.40 ± 0.01 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>0.39 ± 0.01 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn8-ijms-12-07594"><p>Values are means ± SEM for six rats.</p></fn><fn id="tfn9-ijms-12-07594"><label>a,b</label><p>Values with different letters are significant different, <italic>P</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t5-ijms-12-07594" position="float"><label>Table 5</label><caption><p><text><SENT sid="482" pm="."><plain>Hepatic lipids and deposit fat of rats fed experimental diets. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>Parameters </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>RP-E </plain></SENT>
+</text></th></tr></thead><tbody><tr><td colspan="4" align="left" valign="top" rowspan="1"><text><SENT sid="487" pm="."><plain>Liver </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>Liver weight (g) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>8.80 ± 0.18 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>7.98 ± 0.31 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>7.65 ± 0.28 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>Total lipids (mg/g liver) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>125.71 ± 11.34 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>94.09 ± 6.28 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>88.98 ± 2.19 b </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" rowspan="1"><text><SENT sid="496" pm="."><plain>Cholesterol (μmol/g liver) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain> total </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>14.90 ± 0.53 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>11.17 ± 0.36 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>10.29 ± 0.31 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain> free </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>11.00 ± 0.39 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>8.97 ± 0.29 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>8.59 ± 0.27 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain> esterified </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>3.90 ± 0.14 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>2.20 ± 0.07 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>1.70 ± 0.04 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain> esterification ratio (%) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>26.17 ± 1.57 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>19.70 ± 0.87 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>16.52 ± 0.59 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>Triglyceride (μmol/g liver) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>63.49 ± 2.66 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>41.05 ± 1.37 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>39.12 ± 0.68 b </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" rowspan="1"><text><SENT sid="517" pm="."><plain>Deposit fat (g/kg body weight) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>perirenal </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>14.49 ± 0.49 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>13.11 ± 0.43 ab </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>12.72 ± 0.25 b </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>epididymal </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>10.93 ± 0.37 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>9.89 ± 0.32 ab </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>9.59 ± 0.19 b </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn10-ijms-12-07594"><p>Values are means ± SEM for six rats.</p></fn><fn id="tfn11-ijms-12-07594"><label>a,b</label><p>Values with different letters are significant different, <italic>P</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t6-ijms-12-07594" position="float"><label>Table 6</label><caption><p><text><SENT sid="526" pm="."><plain>Fecal excretion of steroid and nitrogen in rats fed experimental diets. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>Fecal excretion </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain><z:uniprot sup="inside" fb="51" ids="P56945,O82139,H8ZM73,O60716,P30999,Q43153,O45679,Q9ZPY7,P55060">CAS</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q58559,O27438">RP-A</z:uniprot> </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>RP-E </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>Fecal output (g dry weight/3 day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>4.68 ± 0.11 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>4.81 ± 0.15 ab </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>5.10 ± 0.17 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>Bile acids (μmol/3 day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>114.62 ± 5.12 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>131.21 ± 5.95 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>154.86 ± 8.65 a </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" rowspan="1"><text><SENT sid="539" pm="."><plain>Neutral sterol (μmol/3 day) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>total </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>58.26 ± 2.52 c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>123.13 ± 3.85 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>155.93 ± 6.60 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>23.28 ± 1.09 c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>32.21 ± 1.70 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>38.33 ± 1.90 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>coprostanol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>20.34 ± 1.55 c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>48.85 ± 1.97 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>62.76 ± 3.46 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>other sterols </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>14.64 ± 1.06 c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>42.07 ± 1.88 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>54.84 ± 2.42 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>Triglyceride (μmol/3 day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>7.44 ± 0.38 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>9.55 ± 0.57 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>10.82 ± 0.55 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>Nitrogen (mg/3 day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>88.27 ± 0.81 c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>220.21 ± 4.72 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>280.78 ± 3.79 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>Fecal protein (g/3 day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>0.55 ± 0.01 c </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>1.38 ± 0.03 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>1.75 ± 0.02 a </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>Intake of dietary protein (g/3 day) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>9.62 ± 0.31 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>9.13 ± 0.14 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>9.06 ± 0.20 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>Apparent protein digestibility (%) </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>94.28 ± 0.20 a </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>84.88 ± 0.47 b </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>80.68 ± 0.61 c </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn12-ijms-12-07594"><p>Values are means ± SEM for six rats.</p></fn><fn id="tfn13-ijms-12-07594"><label>a-c</label><p>Values with different letters are significant different, <italic>P</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="t7-ijms-12-07594" position="float"><label>Table 7</label><caption><p><text><SENT sid="576" pm="."><plain>Correlation analyses of factors to affect plasma and liver cholesterol concentrations in rats fed dietary proteins. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="2" align="center" valign="bottom" rowspan="1"><text><SENT sid="577" pm="."><plain>Variable </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="2" colspan="1"><text><SENT sid="578" pm="."><plain>Slope </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="2" colspan="1"><text><SENT sid="579" pm="."><plain>Intercept </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="2" colspan="1"><text><SENT sid="580" pm="."><plain>Correlation Coefficient </plain></SENT>
+</text></th></tr><tr><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>X (independent) </plain></SENT>
+</text></th><th align="center" valign="bottom" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>Y (Dependent) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>Fecal nitrogen excretion </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>Plasma cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>−0.0012 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>1.547 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>0.7586 * </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>Fecal neutral sterol excretion </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>Plasma cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>−0.0024 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>1.568 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>0.7451 * </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>Apparent protein digestibility </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>Plasma cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>0.0168 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>0.151 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>0.7357 * </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>Fecal nitrogen excretion </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>Liver cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>−0.0247 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>16.961 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>0.9154 * </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>Fecal neutral sterol excretion </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>Liver cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>−0.0450 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>17.177 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>0.8629 * </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>Apparent protein digestibility </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>Liver cholesterol </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>0.3396 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>17.285 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>0.9025 * </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn14-ijms-12-07594"><label>*</label><p><italic>P</italic> &lt; 0.01.</p></fn></table-wrap-foot></table-wrap></SecTag></floats-group></article>

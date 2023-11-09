@@ -1,0 +1,882 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d2 20140930//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Microbiol</journal-id><journal-id journal-id-type="iso-abbrev">Front Microbiol</journal-id><journal-id journal-id-type="publisher-id">Front. Microbiol.</journal-id><journal-title-group><journal-title>Frontiers in Microbiology</journal-title></journal-title-group><issn pub-type="epub">1664-302X</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4313693</article-id><article-id pub-id-type="doi">10.3389/fmicb.2015.00036</article-id><article-categories><subj-group subj-group-type="heading"><subject>Plant Science</subject><subj-group><subject>Original Research Article</subject></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Techniques for transferring host-pathogen protein interactions knowledge to new tasks </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kshirsagar</surname><given-names>Meghana</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><uri xlink:type="simple" xlink:href="http://community.frontiersin.org/people/u/169166"/></contrib><contrib contrib-type="author"><name><surname>Schleker</surname><given-names>Sylvia</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><uri xlink:type="simple" xlink:href="http://community.frontiersin.org/people/u/45600"/></contrib><contrib contrib-type="author"><name><surname>Carbonell</surname><given-names>Jaime</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Klein-Seetharaman</surname><given-names>Judith</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="author-notes" rid="fn001"><sup>*</sup></xref><uri xlink:type="simple" xlink:href="http://community.frontiersin.org/people/u/189324"/></contrib></contrib-group><aff id="aff1"><sup>1</sup><institution>School of Computer Science, Language Technologies Institute, Carnegie Mellon University</institution><country>Pittsburgh, PA, USA</country></aff><aff id="aff2"><sup>2</sup><institution>Metabolic and Vascular Health, Warwick Medical School, University of Warwick</institution><country>Coventry, UK</country></aff><aff id="aff3"><sup>3</sup><institution>Molecular Phytomedicine, Institute of Crop Science and Resource Conservation, University of Bonn</institution><country>Bonn, Germany</country></aff><author-notes><fn fn-type="edited-by"><p><text><SENT sid="1" pm="."><plain>Edited by: Nicola Holden, The James Hutton Institute, UK </plain></SENT>
+</text></p></fn><fn fn-type="edited-by"><p><text><SENT sid="2" pm="."><plain>Reviewed by: Leighton Pritchard, James Hutton Institute, UK; Eric Kemen, Max Planck Institute for Plant Breeding Research, Germany </plain></SENT>
+</text></p></fn><corresp id="fn001">*Correspondence: Judith Klein-Seetharaman, Metabolic and Vascular Health, Warwick Medical School, University of Warwick, Coventry, CV4 7AL, UK e-mail: <email xlink:type="simple">j.klein-seetharaman@warwick.ac.uk</email></corresp><fn fn-type="other" id="fn002"><p><text><SENT sid="3" pm="."><plain>This article was submitted to Plant-Microbe Interaction, a specialty of Frontiers in Microbiology. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>02</day><month>2</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>6</volume><elocation-id>36</elocation-id><history><date date-type="received"><day>09</day><month>9</month><year>2014</year></date><date date-type="accepted"><day>12</day><month>1</month><year>2015</year></date></history><permissions><copyright-statement>Copyright © 2015 Kshirsagar, Schleker, Carbonell and Klein-Seetharaman.</copyright-statement><copyright-year>2015</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="4" pm="."><plain>We consider the problem of building a model to predict protein-protein interactions (PPIs) between the bacterial species Salmonella Typhimurium and the plant host Arabidopsis thaliana which is a host-pathogen pair for which no known PPIs are available. </plain></SENT>
+<SENT sid="5" pm="."><plain>To achieve this, we present approaches, which use homology and statistical learning methods called “transfer learning.” In the transfer learning setting, the task of predicting PPIs between Arabidopsis and its pathogen S. </plain></SENT>
+<SENT sid="6" pm="."><plain>Typhimurium is called the “target task.” The presented approaches utilize labeled data i.e., known PPIs of other host-pathogen pairs (we call these PPIs the “source tasks”). </plain></SENT>
+<SENT sid="7" pm="."><plain>The homology based approaches use heuristics based on biological intuition to predict PPIs. </plain></SENT>
+<SENT sid="8" pm="."><plain>The transfer learning methods use the similarity of the PPIs from the source tasks to the target task to build a model. </plain></SENT>
+<SENT sid="9" pm="."><plain>For a quantitative evaluation we consider Salmonella-mouse PPI prediction and some other host-pathogen tasks where known PPIs exist. </plain></SENT>
+<SENT sid="10" pm="."><plain>We use metrics such as precision and recall and our results show that our methods perform well on the target task in various transfer settings. </plain></SENT>
+<SENT sid="11" pm="."><plain>We present a brief qualitative analysis of the Arabidopsis-Salmonella predicted interactions. </plain></SENT>
+<SENT sid="12" pm="."><plain>We filter the predictions from all approaches using Gene Ontology term enrichment and only those interactions involving Salmonella effectors. </plain></SENT>
+<SENT sid="13" pm="."><plain>Thereby we observe that Arabidopsis proteins involved e.g., in transcriptional regulation, hormone mediated signaling and defense response may be affected by Salmonella. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>protein interaction prediction</kwd><kwd>host pathogen protein interactions</kwd><kwd>plant pathogen protein interactions</kwd><kwd>machine learning methods</kwd><kwd>transfer learning</kwd><kwd>kernel mean matching</kwd></kwd-group></SecTag><counts><fig-count count="5"/><table-count count="4"/><equation-count count="4"/><ref-count count="34"/><page-count count="13"/><word-count count="9872"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="14" pm="."><plain>1. </plain></SENT>
+<SENT sid="15" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="16" pm="."><plain>Understanding the workings of plant responses to pathogens is an important fundamental questions that also has enormous economic importance due to the role of pathogens in food production and processing. </plain></SENT>
+<SENT sid="17" pm="."><plain>While “classical” plant pathogens cause crop losses during production by impacting on plant health, processing of plant-based food can lead to contamination by opportunistic pathogens. </plain></SENT>
+<SENT sid="18" pm="."><plain>It is becoming increasingly supported by experimental evidence that some human bacterial pathogens can colonize plants and cause disease (Kirzinger et al., 2011). Salmonella is one of these bacterial species with extremely broad host range that infects not only animals, but also plants (Hernandez-Reyes and Schikora, 2013). </plain></SENT>
+<SENT sid="19" pm="."><plain>Evidence increases that Salmonella can utilize plants as alternative host and can be considered as a bona fide plant pathogen. </plain></SENT>
+<SENT sid="20" pm="."><plain>In this respect it has been reported that (a) Salmonella actively invades plant cells, proliferates there and can cause disease symptoms (Schikora et al., 2008; Berger et al., 2011) (b) the plant recognizes Salmonella and plant defense responses are activated (Iniguez et al., 2005; Schikora et al., 2008) and (c) that functional Type Three Secretion Systems (TTSS) 1 and 2 are important for Salmonella pathogenicity in plants with respect to bacterial proliferation and suppression of plant defense responses (Iniguez et al., 2005; Schikora et al., 2011; Shirron and Yaron, 2011). Salmonella TTSS-1 and 2 encode proteins, so called effectors, which are known to be translocated into the animal host cell in order to manipulate host cell mechanisms mainly via PPIs (Schleker et al., 2012). </plain></SENT>
+<SENT sid="21" pm="."><plain>Hence, it may be assumed that Salmonella utilizes the same proteins during its communication with animals and plant. </plain></SENT>
+<SENT sid="22" pm="."><plain>However, the details of this communication are not known. </plain></SENT>
+<SENT sid="23" pm="."><plain>A critical component of the communication between any host and its pathogen are PPIs. </plain></SENT>
+<SENT sid="24" pm="."><plain>However, the infection of plants by Salmonella is only a nascent field, so there are no known PPIs for Salmonella with any plant reported yet. </plain></SENT>
+<SENT sid="25" pm="."><plain>Even for the well established pathogen-host pair, Salmonella-human, relatively few interactions are known (Schleker et al., 2012). </plain></SENT>
+<SENT sid="26" pm="."><plain>Only 62 interactions between Salmonella and mostly human proteins (some Salmonella interactions involve other mammalian species, such as mouse and rat) are known to date. </plain></SENT>
+<SENT sid="27" pm="."><plain>Because there exists no plant-Salmonella interactions data, we need to rely on computational methods to predict them [reviewed in the accompanying paper (Schleker et al., 2015)]. </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>In this paper, we describe techniques to build computational models to predict interactions between the model plant, A. thaliana, and S. Typhimurium.</plain></SENT>
+<SENT sid="29" pm="."><plain>Typhimurium. </plain></SENT>
+<SENT sid="30" pm="."><plain>Since there is no labeled data of this host-pathogen pair available, we aim to transfer knowledge from known host-pathogen PPI data of other organisms. </plain></SENT>
+<SENT sid="31" pm="."><plain>We use various statistical methods to build models for predicting host-pathogen PPIs. </plain></SENT>
+<SENT sid="32" pm="."><plain>In each case, we cast the PPI prediction problem as a binary classification task, where given two proteins the goal is to learn a function that predicts whether the pair would interact or not. </plain></SENT>
+<SENT sid="33" pm="."><plain>We derive features on every protein pair using protein sequence data. </plain></SENT>
+<SENT sid="34" pm="."><plain>Each host-pathogen PPI prediction problem is considered as one task. </plain></SENT>
+<SENT sid="35" pm="."><plain>Figure 1 shows our problem setting. </plain></SENT>
+<SENT sid="36" pm="."><plain>The upper host-pathogen task with Salmonella as pathogen and human as the host is the source task. </plain></SENT>
+<SENT sid="37" pm="."><plain>The lower task is the target task. </plain></SENT>
+<SENT sid="38" pm="."><plain>The arrow shows the direction of knowledge transfer. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="39" pm="."><plain>Transfer of PPIs from the source host (for ex: human) to another host, the target host (for example Arabidopsis), for the common pathogen, Salmonella. </plain></SENT>
+</text></p></caption><graphic xlink:href="fmicb-06-00036-g0001"/></fig></SecTag><p><text><SENT sid="40" pm="."><plain>In order to transfer knowledge from one organism to another, we need to utilize some measure of similarity between them. </plain></SENT>
+<SENT sid="41" pm="."><plain>This similarity can be defined between smaller units such as individual proteins or genes from the organisms or higher level units. </plain></SENT>
+<SENT sid="42" pm="."><plain>The higher the similarity, the greater the information transfer between them. </plain></SENT>
+<SENT sid="43" pm="."><plain>Hence the notion of similarity is very critical to the results we obtain from such a transfer based method and should be biologically motivated. </plain></SENT>
+<SENT sid="44" pm="."><plain>Our methods enable the transfer of knowledge using the following mechanisms: </plain></SENT>
+</text></p><list list-type="bullet"><list-item><p><text><SENT sid="45" pm="."><plain>We use the structural similarity between the individual proteins of the two hosts measured using protein sequence alignment. </plain></SENT>
+<SENT sid="46" pm="."><plain>This follows from the biological intuition that structurally similar proteins in two different organisms are very likely to have similar functions. </plain></SENT>
+<SENT sid="47" pm="."><plain>Hence a pathogen that wants to disrupt a specific function will target structurally similar proteins in different hosts. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="48" pm="."><plain>Interactome-level similarity, comparing the human PPI graph with the plant PPI graph. </plain></SENT>
+<SENT sid="49" pm="."><plain>Any biological process in an organism involves the participation of several proteins and more importantly the interactions between these. </plain></SENT>
+<SENT sid="50" pm="."><plain>By comparing the interactomes of different hosts, we are comparing them at the biological process-level. </plain></SENT>
+<SENT sid="51" pm="."><plain>The components of the two graphs that are highly similar will most likely correspond to similar processes in the two organisms. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="52" pm="."><plain>Distributional similarity between the protein pairs: here, we identify which of the human-Salmonella protein pairs are the most similar (hence most relevant) to the plant-Salmonella protein pairs. </plain></SENT>
+<SENT sid="53" pm="."><plain>This similarity is computed using the features of the protein-pairs. </plain></SENT>
+<SENT sid="54" pm="."><plain>Since it is distributional similarity, it involves a comparison over all protein pairs from both organisms. </plain></SENT>
+<SENT sid="55" pm="."><plain>Only the most relevant human-Salmonella protein pairs are used to build a model. </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="56" pm="."><plain>The main contributions of this paper are: </plain></SENT>
+</text></p><list list-type="order"><list-item><p><text><SENT sid="57" pm="."><plain>We present methods that combine known PPIs from various sources to build a model for a new task </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="58" pm="."><plain>We evaluate our methods quantitatively and our results show the benefits in performance that are possible if we incorporate the similarity information discussed in the previous paragraphs </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="59" pm="."><plain>We present the first machine learning based predictions for plant-Salmonella PPIs. </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="60" pm="."><plain>In the rest of the paper, we start by describing the host-pathogen PPI datasets we use in Section 2, followed by a detailed description of our methods in Section 3 and a quantitative and qualitative analysis of the results in Section 5. </plain></SENT>
+</text></p></sec></SecTag><sec><title><text><SENT sid="61" pm="."><plain>2. </plain></SENT>
+<SENT sid="62" pm="."><plain>Source tasks </plain></SENT>
+</text></title><p><text><SENT sid="63" pm="."><plain>As source tasks we used the known PPIs between various other hosts and pathogens. </plain></SENT>
+<SENT sid="64" pm="."><plain>Many of these interactions were obtained from the PHISTO (Tekir et al., 2012) database which reports literature-curated known interactions. </plain></SENT>
+<SENT sid="65" pm="."><plain>For PPIs between human and Salmonella we use the manually literature-curated interactions reported in Schleker et al. (2012). </plain></SENT>
+<SENT sid="66" pm="."><plain>Please note that all of these interactions come from biochemical and biophysical experiments. </plain></SENT>
+<SENT sid="67" pm="."><plain>The details of the dataset used in each approach are shown in Table 1 and they are available for download from <ext-link ext-link-type="uri" xlink:href="http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/data.zip">http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/data.zip</ext-link>. </plain></SENT>
+<SENT sid="68" pm="."><plain>Our first approach is a rule-based approach and it uses human-Salmonella PPIs from two sources: the 62 experimentally generated PPIs reported in Schleker et al. (2012) and the predicted PPIs from Kshirsagar et al. (2012). </plain></SENT>
+<SENT sid="69" pm="."><plain>Please note that this is the only method that uses any predicted PPIs as “ground truth.” All other methods discussed in subsequent sections of this paper do not use any predicted PPIs as source. </plain></SENT>
+<SENT sid="70" pm="."><plain>They use only PPIs validated experimentally by biochemical and biophysical methods. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="71" pm="."><plain>Datasets used in the various approaches, their sizes and the appropriate citations. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>Approach(es) </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>Source task(s) </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>Number of interactions </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>Citation for interactions data </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>Feature set </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>1. </plain></SENT>
+<SENT sid="78" pm="."><plain>Homology based </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>Human-Salmonella known PPI Human-Salmonella predictions </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>62 190,868 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>Schleker et al., 2012* Kshirsagar et al., 2012 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>No feature set. </plain></SENT>
+<SENT sid="83" pm="."><plain>Heuristics are used to infer interactions </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="3" valign="top" colspan="1"><text><SENT sid="84" pm="."><plain>2. </plain></SENT>
+<SENT sid="85" pm="."><plain>T-SVM# </plain></SENT>
+</text></td><td align="left" rowspan="3" valign="top" colspan="1"><text><SENT sid="86" pm="."><plain>Human-Salmonella known PPI </plain></SENT>
+</text></td><td align="center" rowspan="3" valign="top" colspan="1"><text><SENT sid="87" pm="."><plain>62 </plain></SENT>
+</text></td><td align="left" rowspan="3" valign="top" colspan="1"><text><SENT sid="88" pm="."><plain>Schleker et al., 2012* </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>(a) Protein sequence k-mers </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>(b) Gene expression (from GEO) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>(c) GO term similarity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>3. </plain></SENT>
+<SENT sid="93" pm="."><plain>KMM†-SVM </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>Human-Salmonella known PPI </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>62 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>Schleker et al., 2012* </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>Human-Francisella tularensis </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>1380 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>Human-E.coli </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>32 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>A. thaliana - Agrobact. tumefaciens </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>PHISTO* </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>Protein sequence k-mers </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>A. thaliana - E. coli </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>(Tekir et al., 2012) </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>A. thaliana - Pseudomonas syringae </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>13 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>A. thaliana - Synechocyctis </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>23 </plain></SENT>
+</text></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="TN1"><label>†</label><p><text><SENT sid="112" pm="."><plain>KMM, Kernel Mean Matching; </plain></SENT>
+</text></p></fn><fn id="TN2"><label>#</label><p><text><SENT sid="113" pm="."><plain>SVM, Support Vector Machine; GO, Gene Ontology. </plain></SENT>
+</text></p></fn><fn id="TN3"><label>*</label><p><text><SENT sid="114" pm="."><plain>This source reports PPIs validated experimentally by biochemical and biophysical methods. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><sec><title><text><SENT sid="115" pm="."><plain>2.1. Salmonella species/strains considered </plain></SENT>
+</text></title><p><text><SENT sid="116" pm="."><plain>The source data that we use for human-Salmonella from Schleker et al. (2012) comes from two different strains: Salmonella Typhimurium strain LT2 and Salmonella Typhimurium strain SL 1344. </plain></SENT>
+<SENT sid="117" pm="."><plain>One of our three approaches (row-1 of Table 1) uses human-Salmonella predicted PPIs. </plain></SENT>
+<SENT sid="118" pm="."><plain>These predicted PPIs from Kshirsagar et al. (2012) contain Salmonella proteins from two additional strains: Salmonella enteritidis <z:uniprot sup="inside" fb="0" ids="O48639,Q01MW8,Q8H6H2">PT4</z:uniprot> and Salmonella Typhi. </plain></SENT>
+<SENT sid="119" pm="."><plain>From henceforth, for the sake of brevity, we will refer to proteins from all strains as Salmonella proteins. </plain></SENT>
+<SENT sid="120" pm="."><plain>For Salmonella proteins, we used the UniprotKB database (The UniProt Consortium, 2014) to obtain all proteins from the various strains. </plain></SENT>
+<SENT sid="121" pm="."><plain>For Arabidopsis thaliana proteins, we used the TAIR database (Lamesch et al., 2012). </plain></SENT>
+</text></p></sec></sec><SecTag type="METHODS"><sec id="s2"><title><text><SENT sid="122" pm="."><plain>3. </plain></SENT>
+<SENT sid="123" pm="."><plain>Methods </plain></SENT>
+</text></title><p><text><SENT sid="124" pm="."><plain>In the previous section, we described the dataset used in our various approaches. </plain></SENT>
+<SENT sid="125" pm="."><plain>We now describe the details of the methods we use. </plain></SENT>
+</text></p><sec><title><text><SENT sid="126" pm="."><plain>3.1. </plain></SENT>
+<SENT sid="127" pm="."><plain>Approach-1 : homology based transfer </plain></SENT>
+</text></title><p><text><SENT sid="128" pm="."><plain>In this approach, we use the sequence similarity between the plant and human protein sequences to infer new interactions. </plain></SENT>
+<SENT sid="129" pm="."><plain>We use two techniques to predict interactions between plant and Salmonella proteins. </plain></SENT>
+<SENT sid="130" pm="."><plain>The first technique uses plant-human orthologs and the second is based on plant-human homology (sequence alignment scores). </plain></SENT>
+<SENT sid="131" pm="."><plain>Both techniques use two sources of interactions: true PPIs from Schleker et al. (2012) and predicted PPIs from Kshirsagar et al. (2012). </plain></SENT>
+<SENT sid="132" pm="."><plain>Please note that this is the only method that uses any predicted PPIs as “ground truth.” All other methods discussed in subsequent sections of this paper do not use any predicted PPIs as source. </plain></SENT>
+</text></p><p><text><SENT sid="133" pm="."><plain>Homologs and Orthologs: Homologous pairs of genes are related by descent from a common ancestral DNA sequence. </plain></SENT>
+<SENT sid="134" pm="."><plain>These can be either orthologs: genes that evolved from a common ancestral gene by speciation or paralogs: genes separated by the event of genetic duplication. </plain></SENT>
+<SENT sid="135" pm="."><plain>We obtained orthologs from the InParanoid database (Ostlund et al., 2010). </plain></SENT>
+<SENT sid="136" pm="."><plain>To find homologous pairs of proteins, we used BLAST sequence alignment with an e-value threshold of 0.01. </plain></SENT>
+</text></p><list list-type="alpha-lower"><list-item><p><text><SENT sid="137" pm="."><plain>Host ortholog based predictions: We start with the known human-Salmonella PPIs. </plain></SENT>
+<SENT sid="138" pm="."><plain>For each interaction, we search for an ortholog of the human protein in Arabidopsis. </plain></SENT>
+<SENT sid="139" pm="."><plain>If one exists, we infer an interaction between the Salmonella and the Arabidopsis protein. </plain></SENT>
+<SENT sid="140" pm="."><plain>This is similar to finding interologs, with the exception that we restrict ourselves to orthologs of the host protein rather than considering all possible homologs of both the host and pathogen proteins. </plain></SENT>
+<SENT sid="141" pm="."><plain>Figure 2 illustrates this simple heuristic. </plain></SENT>
+<SENT sid="142" pm="."><plain>There are 62 human-Salmonella PPIs in our dataset. </plain></SENT>
+<SENT sid="143" pm="."><plain>Using this ortholog based inference for the host proteins, we obtained a total of 25 plant-Salmonella PPIs as some of the human proteins did not have any plant orthologs. </plain></SENT>
+<SENT sid="144" pm="."><plain>The orthologous Arabidopsis proteins for the human proteins were obtained from the InParanoid database (Ostlund et al., 2010). </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="145" pm="."><plain>Host graph alignment based predictions: This method uses homologs between the human and plant proteins. </plain></SENT>
+<SENT sid="146" pm="."><plain>Since the set of known PPIs is very small (62 interactions), here we use them to generate “bootstrap” interactions. </plain></SENT>
+<SENT sid="147" pm="."><plain>The known 62 PPIs are used to build a classifier using the method published in Kshirsagar et al. (2012) to generate a total of 190,868 human-Salmonella PPI predictions. </plain></SENT>
+<SENT sid="148" pm="."><plain>These predicted PPIs form the “bootstrap” PPIs and will be used in a graph-based transfer approach. </plain></SENT>
+<SENT sid="149" pm="."><plain>In this graph-based transfer method, we first align the PPI graphs of the two host organisms using NetworkBlast (Sharan et al., 2005). </plain></SENT>
+<SENT sid="150" pm="."><plain>The human PPI network was obtained from the HPRD database (Prasad et al., 2009) and the plant-plant PPIs from TAIR database (Lamesch et al., 2012). </plain></SENT>
+<SENT sid="151" pm="."><plain>The algorithm aligns the human PPI graph with the plant PPI graph using the pairs of homologous proteins between the two organisms. </plain></SENT>
+<SENT sid="152" pm="."><plain>To find the homologous proteins, we used BLAST sequence alignment with an e-value threshold of 0.01. </plain></SENT>
+<SENT sid="153" pm="."><plain>Next, we use NetworkBlast to find the graph components that are the most similar across the two graphs. </plain></SENT>
+<SENT sid="154" pm="."><plain>We call them the “enriched components.” By comparing the interactomes of the two hosts, we are comparing them at the biological process-level. </plain></SENT>
+<SENT sid="155" pm="."><plain>The components of the two graphs that are highly similar will most likely correspond to similar processes in the two organisms. </plain></SENT>
+<SENT sid="156" pm="."><plain>NetworkBlast finds a total of 2329 enriched protein complex pairs between the two host organisms. </plain></SENT>
+<SENT sid="157" pm="."><plain>Figure 3 shows one such enriched protein complex pair: the complex on the left is from Arabidopsis and the one on the right is from human. </plain></SENT>
+<SENT sid="158" pm="."><plain>Using these we determine the plant proteins that are the most likely targets for the different Salmonella proteins as shown in the Figure 3. </plain></SENT>
+</text></p><p><text><SENT sid="159" pm="."><plain>For each PPI between a human protein from an enriched protein complex, we infer an equivalent PPI between the corresponding plant protein and the Salmonella protein (example, <z:uniprot sup="inside" fb="4" ids="P41026,Q8VQB5,P74849,E1WAC6,P0CL52">sipA</z:uniprot> in the Figure 3). </plain></SENT>
+<SENT sid="160" pm="."><plain>This filtering procedure gives us a final of 23,664 plant-Salmonella PPIs. </plain></SENT>
+<SENT sid="161" pm="."><plain>The biological relevance for using the enriched graph components lies in the premise that clusters of similarly interacting proteins across the two organisms will represent biological processes that have been conserved in the two organisms. </plain></SENT>
+<SENT sid="162" pm="."><plain>Hence, the proteins in these components are also likely to be conserved as pathogen targets. </plain></SENT>
+</text></p></list-item></list><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="163" pm="."><plain>Approach-1 (a) Ortholog based protein interaction inference. “S1” represents a Salmonella protein and S2 is the homolog of S1 or S1 itself. H represents a human protein and A represents an Arabidopsis protein that is an ortholog of the human protein. </plain></SENT>
+</text></p></caption><graphic xlink:href="fmicb-06-00036-g0002"/></fig></SecTag><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="164" pm="."><plain>Approach-1(b) Graph based interaction transfer. </plain></SENT>
+<SENT sid="165" pm="."><plain>The big circles show the two protein complexes found to be enriched by Network Blast : the Arabidopsis protein complex on the left, and the human protein complex on the right. </plain></SENT>
+<SENT sid="166" pm="."><plain>The edges within a protein complex are the PPIs within the host organism. </plain></SENT>
+<SENT sid="167" pm="."><plain>The edges connecting the two protein complexes (i.e., the two circles) are the homology edges. </plain></SENT>
+<SENT sid="168" pm="."><plain>The solid line connecting <z:uniprot sup="inside" fb="4" ids="P41026,Q8VQB5,P74849,E1WAC6,P0CL52">sipA</z:uniprot> with a human protein node is a bootstrap interaction. </plain></SENT>
+<SENT sid="169" pm="."><plain>We use this to infer the new plant-Salmonella interaction indicated by the dotted line. </plain></SENT>
+</text></p></caption><graphic xlink:href="fmicb-06-00036-g0003"/></fig></SecTag></sec><sec><title><text><SENT sid="170" pm="."><plain>3.2. </plain></SENT>
+<SENT sid="171" pm="."><plain>Approach-2: transductive learning </plain></SENT>
+</text></title><p><text><SENT sid="172" pm="."><plain>This method considers the target task i.e., plant proteins while building a model. </plain></SENT>
+<SENT sid="173" pm="."><plain>It provides a way of incorporating the target task information during model construction. </plain></SENT>
+<SENT sid="174" pm="."><plain>Conventional inductive learning approaches such as the Support Vector Machine classifier use only the training examples to build a model. </plain></SENT>
+<SENT sid="175" pm="."><plain>Transductive learning approaches also use the distribution of the unlabeled test examples. </plain></SENT>
+<SENT sid="176" pm="."><plain>They jointly learn the labels on the test examples while minimizing the error on the labeled training examples. </plain></SENT>
+<SENT sid="177" pm="."><plain>This often results in a good performance, as the classifier has additional information about the unseen test data. </plain></SENT>
+<SENT sid="178" pm="."><plain>In our work here, we use transductive learning for transfer learning in particular the Transductive Support Vector Machine algorithm (T-SVM) (Joachims, 1999). </plain></SENT>
+<SENT sid="179" pm="."><plain>The training examples are the source task examples, i.e., human-Salmonella protein interactions. </plain></SENT>
+<SENT sid="180" pm="."><plain>We use the target task examples as the test data. </plain></SENT>
+</text></p><p><text><SENT sid="181" pm="."><plain>Training negatives: Since there are 62 known PPIs in the source task, we sample a set of random 6200 human-Salmonella protein pairs to maintain the positive:negative class ratio at 1:100. </plain></SENT>
+</text></p><p><text><SENT sid="182" pm="."><plain>Figure 4 depicts this setting. </plain></SENT>
+<SENT sid="183" pm="."><plain>This method thus builds a model by using data from both hosts. </plain></SENT>
+<SENT sid="184" pm="."><plain>The optimization function of T-SVM jointly minimizes the training error on the known human-pathogen interactions and the label assignments on the unknown plant-pathogen interactions. </plain></SENT>
+<SENT sid="185" pm="."><plain>The set of target examples can not be used entirely as it is very large and makes the T-SVM algorithm very computationally expensive. </plain></SENT>
+<SENT sid="186" pm="."><plain>Hence we randomly sample 1 percent of the target dataset. </plain></SENT>
+<SENT sid="187" pm="."><plain>For the T-SVM based algorithm to be effective, the kernel function that is used to compute the similarity between examples matters a lot. </plain></SENT>
+<SENT sid="188" pm="."><plain>We use a homology-based kernel function that incorporates the BLAST similarity score between the proteins. </plain></SENT>
+<SENT sid="189" pm="."><plain>Let <z:uniprot sup="inside" fb="8" ids="P68926,P68927,Q9AZ38,P20710,P27079,P04889,P05998,O22010,P03699,P15482,O31490,P22876,P61623,P61624">xis</z:uniprot> be the feature-vector representing a source task example: the protein pair &lt; ss, hs &gt; where ss is the Salmonella protein (i.e., the pathogen protein) and hs is the host protein. </plain></SENT>
+<SENT sid="190" pm="."><plain>Let the target task example be the protein pair &lt; st, at &gt; where at is the Arabidopsis protein; and the corresponding feature vector be xkt. </plain></SENT>
+<SENT sid="191" pm="."><plain>The kernel function that computes the similarity between the given two pairs of proteins (i.e., their feature vectors) is defined as shown below. </plain></SENT>
+</text></p><disp-formula id="E1"><mml:math id="M1"><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:mi>k</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mtext>sim</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mtext>sim</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>h</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mtext> where</mml:mtext></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>                        sim</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mtext>normalized</mml:mtext><mml:mo>−</mml:mo><mml:mtext>BLAST</mml:mtext><mml:mo>−</mml:mo><mml:mtext>score</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>k</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>s</mml:mi><mml:mi>j</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>s</mml:mi><mml:mi>j</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mtext> and </mml:mtext><mml:mi>k</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>t</mml:mi><mml:mi>j</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>t</mml:mi><mml:mi>j</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="192" pm="."><plain>Transductive Support Vector Machine (SVM) for transfer learning. </plain></SENT>
+<SENT sid="193" pm="."><plain>The first panel shows the conventional SVM classifier. </plain></SENT>
+<SENT sid="194" pm="."><plain>The second panel shows T-SVM with circles representing unlabeled examples. </plain></SENT>
+<SENT sid="195" pm="."><plain>We use examples from the target task i.e., Arabidopsis-Salmonella protein pairs as the unlabeled examples to influence the classifier boundary. </plain></SENT>
+</text></p></caption><graphic xlink:href="fmicb-06-00036-g0004"/></fig></SecTag><p><text><SENT sid="196" pm="."><plain>The first equation is used in the case where the two protein pairs come from different tasks. </plain></SENT>
+<SENT sid="197" pm="."><plain>We use homology-distance between the pathogen proteins and the host proteins to compute the kernel. </plain></SENT>
+<SENT sid="198" pm="."><plain>The homology distance itself is simply the BLAST protein sequence alignment score. </plain></SENT>
+<SENT sid="199" pm="."><plain>The next two equations show the computation when the examples both come from the same task. </plain></SENT>
+<SENT sid="200" pm="."><plain>Here we simply take the dot product of the two feature vectors. </plain></SENT>
+<SENT sid="201" pm="."><plain>This kernel is symmetric. </plain></SENT>
+<SENT sid="202" pm="."><plain>The similarity between two sequences <z:uniprot sup="inside" fb="102" ids="P05709">sim</z:uniprot>(m, n) is computed using the bit-score from BLAST sequence alignment, normalized using the sequence length of the larger protein. </plain></SENT>
+<SENT sid="203" pm="."><plain>We used the SVMlight package (Joachims, 2008) and incorporated our kernel function into it. </plain></SENT>
+<SENT sid="204" pm="."><plain>The parameter tuning for T-SVM (the regularization parameter C) was done using cross validation on the PPIs where we have the true labels. </plain></SENT>
+<SENT sid="205" pm="."><plain>We found C = 0.1 was the best setting. </plain></SENT>
+<SENT sid="206" pm="."><plain>This best model is subsequently used to generate predictions on all Arabidopsis-Salmonella protein-pairs. </plain></SENT>
+<SENT sid="207" pm="."><plain>The model outputs a score indicating the distance from the classifier hyperplane. </plain></SENT>
+<SENT sid="208" pm="."><plain>A positive score indicates that the protein-pair is on the positive side of the hyperplane and hence closer to the known interacting protein-pairs. </plain></SENT>
+<SENT sid="209" pm="."><plain>All such protein-pairs will be considered as potential interactions predicted by this model. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="210" pm="."><plain>3.3. </plain></SENT>
+<SENT sid="211" pm="."><plain>Approach-3: kernel mean matching </plain></SENT>
+</text></title><p><text><SENT sid="212" pm="."><plain>Our transfer learning scenario here consist of the following setting: multiple “source” tasks with small amounts of labeled data, a single “target” task with no labeled data. </plain></SENT>
+<SENT sid="213" pm="."><plain>The first challenge is to pick the best instances from the source tasks, such that the resultant model when applied on the target task generates high confidence predictions. </plain></SENT>
+<SENT sid="214" pm="."><plain>Toward this, we use the instance reweighting technique Kernel Mean Matching (KMM). </plain></SENT>
+<SENT sid="215" pm="."><plain>The reweighted source task instances are used to build a kernelized support vector machine (SVM) model, which is applied on the target task data to get the predicted PPIs. </plain></SENT>
+<SENT sid="216" pm="."><plain>This brings forth the second challenge—selecting appropriate hyperparameters while building a model for a task with no labeled data. </plain></SENT>
+<SENT sid="217" pm="."><plain>For simplicity we also use the same set of features across all tasks (protein sequence features). </plain></SENT>
+<SENT sid="218" pm="."><plain>However the data distribution will be different across tasks due to the different organisms involved. </plain></SENT>
+</text></p><p><text><SENT sid="219" pm="."><plain>This approach is based on instance-transfer where the goal is to pick from each of the source tasks, the most relevant instances w.r.t the target task. </plain></SENT>
+<SENT sid="220" pm="."><plain>We use a two-step process: (1) the first step does the instance weighting on the source tasks. </plain></SENT>
+<SENT sid="221" pm="."><plain>(2) the second step uses the reweighted instance to build several SVM classifier models—one model for each hyper-parameter setting. </plain></SENT>
+<SENT sid="222" pm="."><plain>To deal with the second challenge, we present two heuristic methods to select the best set of hyperparameters. </plain></SENT>
+</text></p><sec><title><text><SENT sid="223" pm="."><plain>3.3.1. </plain></SENT>
+<SENT sid="224" pm="."><plain>Step-1: instance reweighting </plain></SENT>
+</text></title><p><text><SENT sid="225" pm="."><plain>The similarity between the source and target data can be expressed using the similarity in their distributions PS(x, y) and Pt(x, y). </plain></SENT>
+<SENT sid="226" pm="."><plain>Here PS represents the joint distribution of all source tasks. </plain></SENT>
+<SENT sid="227" pm="."><plain>Since we do not have access to the labels y on the target, we make a simplifying assumption that there is only a covariate shift between the source and target tasks—i.e., the conditional distribution P(y|x) is the same for both tasks. </plain></SENT>
+<SENT sid="228" pm="."><plain>Mathematically, PS(x,y)Pt(x,y)=PS(x)Pt(x)=r(x). </plain></SENT>
+<SENT sid="229" pm="."><plain>Many methods have been proposed for estimating the ratio r. </plain></SENT>
+<SENT sid="230" pm="."><plain>Sugiyama et al. (2008) proposed an algorithm Kullback-Leibler Importance Estimation Procedure (KLIEP) to estimate r directly without estimating the densities of the two distributions. </plain></SENT>
+</text></p><p><text><SENT sid="231" pm="."><plain>We use the nonparametric Kernel Mean Matching (KMM) (Huang et al., 2007), which was originally developed to handle the problem of covariate shift between the training and test data distributions. </plain></SENT>
+<SENT sid="232" pm="."><plain>KMM reweighs the training data instances such that the means of the training and test data distributions are close in a reproducing kernel Hilbert space (RKHS). </plain></SENT>
+<SENT sid="233" pm="."><plain>This approach does not require distribution estimation. </plain></SENT>
+<SENT sid="234" pm="."><plain>Let xSi ~ PS and nS be the number of source instances from all source tasks. </plain></SENT>
+<SENT sid="235" pm="."><plain>Let xti ~ Pt and nt be the number of target instances. </plain></SENT>
+<SENT sid="236" pm="."><plain>Let βi represent the “importance” of the source instances. </plain></SENT>
+<SENT sid="237" pm="."><plain>KMM uses a function based on the maximum mean discrepancy statistic (MMD). </plain></SENT>
+<SENT sid="238" pm="."><plain>In the form written below, it minimizes the difference between the empirical means of the joint source and target distributions. </plain></SENT>
+</text></p><disp-formula id="E2"><label>(1)</label><mml:math id="M2"><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mi>β</mml:mi></mml:munder><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mo>‖</mml:mo><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:munderover><mml:mstyle mathsize="140%" displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mi>Φ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>S</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>−</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:munderover><mml:mstyle mathsize="140%" displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:munderover><mml:mi>Φ</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>‖</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>  </mml:mtext><mml:mo>⇔</mml:mo><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mi>β</mml:mi></mml:munder><mml:mtext> </mml:mtext><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msubsup><mml:mi>n</mml:mi><mml:mi>S</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac><mml:msup><mml:mi>β</mml:mi><mml:mi>T</mml:mi></mml:msup><mml:mi>K</mml:mi><mml:mi>β</mml:mi><mml:mo>−</mml:mo><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:msubsup><mml:mi>n</mml:mi><mml:mi>S</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mfrac><mml:msup><mml:mi>κ</mml:mi><mml:mi>T</mml:mi></mml:msup><mml:mi>β</mml:mi><mml:mtext> </mml:mtext><mml:mo>+</mml:mo><mml:mi>C</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>  subject to </mml:mtext><mml:msub><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>∈</mml:mo><mml:mo stretchy="false">[</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>B</mml:mi><mml:mo stretchy="false">]</mml:mo><mml:mtext> and </mml:mtext><mml:mstyle displaystyle="true"><mml:munder><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:munder><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle><mml:mo>≤</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>  where </mml:mtext><mml:msub><mml:mi>K</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>k</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>S</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>j</mml:mi><mml:mi>S</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mtext> and </mml:mtext><mml:msub><mml:mi>κ</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:munderover><mml:mi>k</mml:mi></mml:mstyle><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>S</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula><p><text><SENT sid="239" pm="."><plain>K is the kernel matrix over all the source examples. </plain></SENT>
+<SENT sid="240" pm="."><plain>The function (1) is a quadratic program and can be efficiently solved using sequential minimal optimization (SMO), projected gradient based methods. </plain></SENT>
+<SENT sid="241" pm="."><plain>We use the KMM implementation from the Shogun (Sonnenburg et al., 2010) package. </plain></SENT>
+</text></p><p><text><SENT sid="242" pm="."><plain>3.3.1.1. </plain></SENT>
+<SENT sid="243" pm="."><plain>Selecting an appropriate set of source and target instances. </plain></SENT>
+<SENT sid="244" pm="."><plain>Using all instances in the optimization problem in equation (1) is infeasible for two reasons. </plain></SENT>
+<SENT sid="245" pm="."><plain>The optimization involves the computation of the gram matrix K of O(n2) where n is the number of instances. </plain></SENT>
+<SENT sid="246" pm="."><plain>Typically the total number of protein-protein pairs between a host-pathogen are of the order of 100 million. </plain></SENT>
+<SENT sid="247" pm="."><plain>Secondly, the total number of labeled source instances is quite small (≈ 1500). </plain></SENT>
+<SENT sid="248" pm="."><plain>This set is likely to get underweighted (i.e., βi ≈ 0) if there are too many unlabeled source instances. </plain></SENT>
+<SENT sid="249" pm="."><plain>To represent the source's empirical mean, in addition to the labeled instances we randomly sample four times as many unlabeled instances. </plain></SENT>
+<SENT sid="250" pm="."><plain>For the target, we randomly sampled nS instances. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="251" pm="."><plain>3.3.2. </plain></SENT>
+<SENT sid="252" pm="."><plain>Step-2: model learning </plain></SENT>
+</text></title><p><text><SENT sid="253" pm="."><plain>Once we have the optimal set of source instances, we can train a Kernel-SVM model using these. </plain></SENT>
+<SENT sid="254" pm="."><plain>Along with the first step, we thus call this two step process KMM-SVM. </plain></SENT>
+<SENT sid="255" pm="."><plain>We pick a kernel-based learning algorithm since we plan to extend our work to deal with different feature spaces across the tasks. </plain></SENT>
+<SENT sid="256" pm="."><plain>In such a scenario, the only mechanism to operate on the target data is via similarities, i.e., the kernel. </plain></SENT>
+<SENT sid="257" pm="."><plain>The dual formulation for the weighted version of SVM solves the following problem, where the weights βi were obtained in Step-1. </plain></SENT>
+</text></p><disp-formula id="E3"><mml:math id="M3"><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow/><mml:mi>α</mml:mi></mml:msub></mml:mrow></mml:munder><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle><mml:mo>−</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mstyle displaystyle="true"><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle><mml:msub><mml:mi>α</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>y</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mi>K</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>i</mml:mi><mml:mi>S</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mi>j</mml:mi><mml:mi>S</mml:mi></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mtext>   subject to </mml:mtext><mml:mstyle displaystyle="true"><mml:munder><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:munder><mml:mrow><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mstyle><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>                                                                                     and  </mml:mtext><mml:msub><mml:mi>β</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mi>C</mml:mi><mml:mo>≥</mml:mo><mml:msub><mml:mi>α</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>≥</mml:mo><mml:mn>0</mml:mn><mml:mtext>  </mml:mtext></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula></sec><sec><title><text><SENT sid="258" pm="."><plain>3.3.3. </plain></SENT>
+<SENT sid="259" pm="."><plain>Model selection </plain></SENT>
+</text></title><p><text><SENT sid="260" pm="."><plain>Parameter tuning and selecting the best model in the absence of labeled data is a very hard problem. </plain></SENT>
+<SENT sid="261" pm="."><plain>The model built on the source data cannot be tuned using cross validation on the source data because doing so will optimize it for the source distribution. </plain></SENT>
+<SENT sid="262" pm="."><plain>Hence we developed two heuristic approaches to select the best hyperparameters. </plain></SENT>
+<SENT sid="263" pm="."><plain>The first one uses the expected class-skew on the target task while the second uses reweighted cross-validation. </plain></SENT>
+</text></p><p><text><SENT sid="264" pm="."><plain>Class-skew based parameter selection: We first built several models by doing a grid-search on the classifier hyper-parameters. </plain></SENT>
+<SENT sid="265" pm="."><plain>There are 3 parameters to tune for the Kernel-SVM: the kernel width γ, the cost parameter C, the weight parameter for the positive class w+. </plain></SENT>
+<SENT sid="266" pm="."><plain>The total number of parameter combinations in our grid-search were 50. </plain></SENT>
+<SENT sid="267" pm="."><plain>We thus had 50 models trained on the reweighted source data obtained after KMM in Step-1 (Section 3.3.1). </plain></SENT>
+<SENT sid="268" pm="."><plain>We applied each model on the target data and computed the predicted class-skew rpred using the predicted class labels. </plain></SENT>
+<SENT sid="269" pm="."><plain>The expected class skew based on our understanding of the PPI experimental literature is roughly 1:100 (= rtrue). </plain></SENT>
+<SENT sid="270" pm="."><plain>We ranked all 50 models on the statistic |rpred − rtrue|. </plain></SENT>
+<SENT sid="271" pm="."><plain>The top k models were selected based on this criteria and a weighted voting ensemble was built using them. </plain></SENT>
+<SENT sid="272" pm="."><plain>This ensemble was used to get the final class label on the target data. </plain></SENT>
+<SENT sid="273" pm="."><plain>We used k = 5. </plain></SENT>
+</text></p><p><text><SENT sid="274" pm="."><plain>Aggregating the models and assigning interaction scores: In our experiments, we used k = 5 to pick the best models w.r.t the ranking statistic described above. </plain></SENT>
+<SENT sid="275" pm="."><plain>Note that each model gives us a classifier score for every protein-pair in the test data, which can be considered to be the probability of interaction. </plain></SENT>
+<SENT sid="276" pm="."><plain>For k = 5, we have five scores for each test protein-pair. </plain></SENT>
+<SENT sid="277" pm="."><plain>These scores were aggregated using two criteria: </plain></SENT>
+</text></p><list list-type="alpha-lower"><list-item><p><text><SENT sid="278" pm="."><plain>The majority vote over the five models where each model votes “yes” if the output probability score is greater than or equal to 0.5. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="279" pm="."><plain>The averaged of all five probability scores. </plain></SENT>
+</text></p></list-item></list></sec><sec><title><text><SENT sid="280" pm="."><plain>3.3.4. </plain></SENT>
+<SENT sid="281" pm="."><plain>Spectrum RBF kernel </plain></SENT>
+</text></title><p><text><SENT sid="282" pm="."><plain>We used a variant of the spectrum kernel, based on the features used by Dyer et al. (2007) for HIV-human PPI prediction. </plain></SENT>
+<SENT sid="283" pm="."><plain>The kernel uses the n-mers of a given input sequence and is defined as: kspn(x,x′)=exp{−‖ϕ<z:uniprot sup="inside" fb="7" ids="O15743">spn</z:uniprot>(x)−ϕ<z:uniprot sup="inside" fb="7" ids="O15743">spn</z:uniprot>(x′)‖2σ2}, where x, x′ are two sequences over an alphabet Σ. </plain></SENT>
+<SENT sid="284" pm="."><plain>Instead of using the 20 amino acids as the alphabet Σ, we used a classification of the amino-acids. </plain></SENT>
+<SENT sid="285" pm="."><plain>There are seven classes based on the electrostatic and hydrophobic properties of proteins, i.e., |Σ| = 7. </plain></SENT>
+<SENT sid="286" pm="."><plain>Here ϕnsp transforms a sequence s into a |Σ|n-dimensional feature-space. </plain></SENT>
+<SENT sid="287" pm="."><plain>One dimension of ϕnsp corresponds to the normalized frequency of one of the 7n possible strings in s. </plain></SENT>
+<SENT sid="288" pm="."><plain>We use n = 2, 3, 4, 5. </plain></SENT>
+</text></p></sec></sec></sec></SecTag><sec><title><text><SENT sid="289" pm="."><plain>4. </plain></SENT>
+<SENT sid="290" pm="."><plain>Negative examples and feature-set </plain></SENT>
+</text></title><p><text><SENT sid="291" pm="."><plain>Classification techniques need a negative class (set of non-interactions) in order to identify the special characteristics of the positives (i.e., interactions). </plain></SENT>
+<SENT sid="292" pm="."><plain>Since there is no published experimental evidence about “non-interacting” host-pathogen proteins for any plant with Salmonella, we construct the negative class using random pairs of proteins sampled from the set of all possible host-pathogen protein pairs. </plain></SENT>
+<SENT sid="293" pm="."><plain>The number of random pairs chosen as the negative class is decided by what we expect the interaction ratio to be. </plain></SENT>
+<SENT sid="294" pm="."><plain>It is a parameter that can be changed as our knowledge of the size and nature of the host-pathogen interactome improves. </plain></SENT>
+</text></p><p><text><SENT sid="295" pm="."><plain>The interaction ratio/ negative examples are used in different ways as described below. </plain></SENT>
+<SENT sid="296" pm="."><plain>The homology-based transfer method does not directly use any negative examples/ interaction ratios. </plain></SENT>
+<SENT sid="297" pm="."><plain>In the case of T-SVM, while training the transductive model, we use negative examples from the source task. </plain></SENT>
+<SENT sid="298" pm="."><plain>In the case of KMM-SVM, the data used to build the model comes from the source tasks, where negative examples from each source task are used. </plain></SENT>
+<SENT sid="299" pm="."><plain>Next, during the model selection phase we pick the best models based on the interaction ratio of the model over the predictions on the target task (See Section 3.3.3 for details). </plain></SENT>
+<SENT sid="300" pm="."><plain>No explicit negative examples are used in this part; the interaction ratio is simply used to pick the best model. </plain></SENT>
+</text></p><p><text><SENT sid="301" pm="."><plain>We initially chose a positive:negative class ratio of 1:100 meaning that we expect 1 in every 100 random bacteria-human protein pairs to interact with each other. </plain></SENT>
+<SENT sid="302" pm="."><plain>This has been a common practice in host-pathogen PPI prediction in the past (Dyer et al., 2007; Tastan et al., 2009). </plain></SENT>
+<SENT sid="303" pm="."><plain>Recently published work (Mukhtar et al., 2011) involving a yeast-2-hybrid study on plant-bacterial PPIs suggests a higher interaction ratio of around 1:1000. </plain></SENT>
+<SENT sid="304" pm="."><plain>Our choice of 1:100 as the class-skew is an overestimate when considering interactions with all Salmonella genes, but if we restrict the binding partners to only the so-called Salmonella effector proteins, the ratio we use is reasonable. </plain></SENT>
+<SENT sid="305" pm="."><plain>(There are ≈85 known Salmonella effector genes). </plain></SENT>
+<SENT sid="306" pm="."><plain>Also note that, while the exact examples that we choose as negative data may not be true negatives, we expect the false negative rate to be low enough (≈ 1%) to justify our choice of this heuristic. </plain></SENT>
+</text></p><p><text><SENT sid="307" pm="."><plain>The class skew is an important parameter in any machine learning method. </plain></SENT>
+<SENT sid="308" pm="."><plain>The choice of this parameter determines the properties of the resultant model. </plain></SENT>
+<SENT sid="309" pm="."><plain>A very balanced class skew of 1:1 will result in a model that is over-predictive i.e., has a very high false positive rate when applied on the target task. </plain></SENT>
+<SENT sid="310" pm="."><plain>On the other hand, a very skewed setting of 1:1000 could give a lower false positive rate but is likely to have a poor recall as compared to models with lower class skews. </plain></SENT>
+<SENT sid="311" pm="."><plain>This parameter thus offers a trade-off between the precision and recall of the resultant model. </plain></SENT>
+<SENT sid="312" pm="."><plain>Our choice of a class ratio of 1:100 will result in a higher recall as compared to models trained on higher class skews. </plain></SENT>
+<SENT sid="313" pm="."><plain>It will however, have some false positives. </plain></SENT>
+<SENT sid="314" pm="."><plain>From a statistical perspective, a model trained with a high class skew such as 1:1000 will capture the distribution of the negatives since they hugely outnumber the positives. </plain></SENT>
+<SENT sid="315" pm="."><plain>Since the negative class examples are not true negatives, the goodness of a model which depends mostly on noisy negatives is debatable. </plain></SENT>
+<SENT sid="316" pm="."><plain>Computationally, the time required for training a model increases as we increase the number of examples. </plain></SENT>
+<SENT sid="317" pm="."><plain>In the case of a high class skew such as 1:1000, there will be thousand times as many examples as the number of positives. </plain></SENT>
+<SENT sid="318" pm="."><plain>This makes training a model very slow, especially for the Kernel-SVM algorithm and Transductive SVM models that are used by our methods. </plain></SENT>
+<SENT sid="319" pm="."><plain>Nonetheless, we also calculated the predictions for a higher skew of 1:500. </plain></SENT>
+<SENT sid="320" pm="."><plain>The results are described in Section 5. </plain></SENT>
+</text></p><p><text><SENT sid="321" pm="."><plain>The features used in each approach are shown in Table 1. </plain></SENT>
+<SENT sid="322" pm="."><plain>A detailed description of each feature and the biological significance of it follows. </plain></SENT>
+<SENT sid="323" pm="."><plain>We derive protein sequence based features similar to the ones derived by Dyer et al. (2011) for HIV-human PPI prediction. </plain></SENT>
+</text></p><list list-type="bullet"><list-item><p><text><SENT sid="324" pm="."><plain>Protein sequence n-mer or n-gram features: Since the sequence of a protein determines its function to a great extent, it may be possible to predict PPIs using the amino acid sequence of a protein pair. </plain></SENT>
+<SENT sid="325" pm="."><plain>Shen et al. (2007) introduced the “conjoint triad model” for predicting PPIs using only amino acid sequences. </plain></SENT>
+<SENT sid="326" pm="."><plain>Shen et al. (2007) partitioned the twenty amino acids into seven classes based on their electrostatic and hydrophobic properties. </plain></SENT>
+<SENT sid="327" pm="."><plain>For each protein, they counted the number of times each distinct three-mer (set of three consecutive amino acids) occurred in the sequence. </plain></SENT>
+<SENT sid="328" pm="."><plain>To account for protein size, they normalized these counts by linearly transforming them to lie between 0 and 1 (see Shen et al. (2007) for details). </plain></SENT>
+<SENT sid="329" pm="."><plain>They represented the protein with a 343-element feature vector, where the value of each feature is the normalized count for each of the 343 (73) possible amino acid three-mers. </plain></SENT>
+<SENT sid="330" pm="."><plain>We use two-, three-, four-, and five-mers. </plain></SENT>
+<SENT sid="331" pm="."><plain>For each host-pathogen protein pair, we concatenated the feature vectors of the individual proteins. </plain></SENT>
+<SENT sid="332" pm="."><plain>Therefore, each host-pathogen protein pair had a feature vector of length at most 98, 646, 4802, and 33614, in the cases of two-, three-, four-, and five-mers, respectively. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="333" pm="."><plain>Gene expression features: These features depend only on the human protein (gene) involved in a human-Salmonella protein pair. </plain></SENT>
+<SENT sid="334" pm="."><plain>We selected 3 transcriptomic datasets from GEO (Barrett et al., 2011), which give the differential gene expression of human genes infected by Salmonella. </plain></SENT>
+<SENT sid="335" pm="."><plain>The 3 datasets (GDS77, GDS78, GDS80) give us a total of 7 features representing differential gene expression of human genes in 7 different control conditions. </plain></SENT>
+<SENT sid="336" pm="."><plain>The intuition behind this feature is that genes that are significantly differentially regulated are more likely to be involved in the infection process, and thereby in interactions with bacterial proteins. </plain></SENT>
+<SENT sid="337" pm="."><plain>Note: these were used in only the human-Salmonella task. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="338" pm="."><plain>GO similarity features: These features model the similarity between the functional properties of two proteins. </plain></SENT>
+<SENT sid="339" pm="."><plain>These were used in only the human-Salmonella task. </plain></SENT>
+<SENT sid="340" pm="."><plain>Gene Ontology (Ashburner et al., 2000) provides GO-term annotations for three important protein properties: molecular function (F), cellular component (C) and biological process (P). </plain></SENT>
+<SENT sid="341" pm="."><plain>We derive 6 types of features using these properties. </plain></SENT>
+<SENT sid="342" pm="."><plain>For each of “F,” “C,” and “P,” two types of GO similarity features were defined: (a) pair-level similarity and (b) similarity with human protein's binding partners. </plain></SENT>
+<SENT sid="343" pm="."><plain>The similarity between two individual GO terms was computed using the G-Sesame algorithm (Du et al., 2009). </plain></SENT>
+<SENT sid="344" pm="."><plain>This feature is a matrix of all the GO term combinations found in a given protein pair: &lt; ps, ph &gt;, the rows of the matrix represent GO terms from protein ps and the columns represent GO terms from ph. </plain></SENT>
+<SENT sid="345" pm="."><plain>Analogously, the second feature type-(b) computes the similarity between the GO term sets of the Salmonella protein and the human protein's binding partners in the human interactome. </plain></SENT>
+<SENT sid="346" pm="."><plain>We used HPRD to get the human interactome. </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="347" pm="."><plain>Code: The executable files from the packages used to build our methods, and the scripts that we used to run these can be downloaded here: <ext-link ext-link-type="uri" xlink:href="http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/code.zip">http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/code.zip</ext-link>. </plain></SENT>
+</text></p></sec><SecTag type="RESULTS,DISCUSS"><sec><title><text><SENT sid="348" pm="."><plain>5. </plain></SENT>
+<SENT sid="349" pm="."><plain>Results and discussion </plain></SENT>
+</text></title><p><text><SENT sid="350" pm="."><plain>A quantitative evaluation on the target task i.e., plant-Salmonella is currently not feasible as there is no known PPI data. </plain></SENT>
+<SENT sid="351" pm="."><plain>Hence for the purpose of evaluation, we used some of the PPI datasets as “sources” for building a model and one as the “target.” We evaluate the machine-learning based methods in two settings of transfer: pathogen-level transfer, where the host is fixed to be human and the pathogen is one of various bacterial species. </plain></SENT>
+<SENT sid="352" pm="."><plain>The second setting host-level transfer, is more relevant and refers to the case where the pathogen is fixed to be Salmonella and we modify the host species. </plain></SENT>
+<SENT sid="353" pm="."><plain>Since there are few known PPIs involving Salmonella, we are only able to experiment with mouse as an alternate host. </plain></SENT>
+<SENT sid="354" pm="."><plain>There are 14 known mouse-Salmonella PPIs. </plain></SENT>
+<SENT sid="355" pm="."><plain>Interestingly they involve mouse proteins whose human homologs also interact with the same Salmonella proteins—i.e., these 14 PPIs have interologs in the human-Salmonella dataset. </plain></SENT>
+</text></p><p><text><SENT sid="356" pm="."><plain>Our evaluation criteria does not use accuracy (which measures performance on both the positives and negatives). </plain></SENT>
+<SENT sid="357" pm="."><plain>Our PPI datasets are highly imbalanced with a large number of negative samples, and a trivial classifier that calls all protein pairs as “negative” will achieve a very good performance. </plain></SENT>
+<SENT sid="358" pm="."><plain>So we instead use precision (P), recall (R) and F-score(F1) computed on the interacting pairs (positive class). </plain></SENT>
+</text></p><disp-formula id="E4"><mml:math id="M4"><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:mtext> Precision</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mtext>P</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mtext> </mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>true positives</mml:mtext></mml:mrow><mml:mrow><mml:mtext>predicted positives</mml:mtext></mml:mrow></mml:mfrac><mml:mo>;</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>Recall</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mtext>R</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mtext>   </mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>true positives</mml:mtext></mml:mrow><mml:mrow><mml:mtext>total true positives in data</mml:mtext></mml:mrow></mml:mfrac><mml:mo>;</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>  F1 score </mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mtext>F1</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>P</mml:mi><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>R</mml:mi></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula><p><text><SENT sid="359" pm="."><plain>The source tasks (i.e., training data) and target task (i.e., test datasets) are shown in the Table 2. </plain></SENT>
+<SENT sid="360" pm="."><plain>Parameters for all methods are tuned using a class-skew based model selection similar to the one described in Section 3.3.3 for the KMM-SVM method. </plain></SENT>
+<SENT sid="361" pm="."><plain>We compare the following machine-learning based methods: </plain></SENT>
+</text></p><list list-type="order"><list-item><p><text><SENT sid="362" pm="."><plain>Inductive Kernel-SVM (Baseline): This model assumes that the source and target distributions are identical. </plain></SENT>
+<SENT sid="363" pm="."><plain>All source data is pooled together and used to build a single model. </plain></SENT>
+<SENT sid="364" pm="."><plain>For the kernel we used the RBF-spectrum kernel. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="365" pm="."><plain>Transductive SVM (T-SVM): This is the method described in Section 3.2. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="366" pm="."><plain>KMM-SVM: This method is discussed in Section 3.3. </plain></SENT>
+</text></p></list-item></list><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="367" pm="."><plain>Performance of the machine learning based methods on various transfer settings. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>Source task(s) (training data) </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>Target task (test data) </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>Method </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>P† </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>R† </plain></SENT>
+</text></th><th align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>F1† </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" colspan="6" rowspan="1"><text><SENT sid="374" pm="."><plain>HOST-LEVEL TRANSFER </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>Salmonella-human </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>Salmonella-mouse </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>Baseline </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>42.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>93.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>58.8 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>T-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>45.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>93.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>61.2 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>KMM-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>51.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>93.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>66.7 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>Salmonella-mouse </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>Salmonella-human </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>Baseline </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>95.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>33.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>50 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>T-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>67.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>43.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>52.9 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>KMM-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>35.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>52 </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="6" rowspan="1"><text><SENT sid="403" pm="."><plain>PATHOGEN-LEVEL TRANSFER </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>Francisella-human, E.coli-human </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>Salmonella-human </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>Baseline </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>17.8 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>12.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>14.9 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>T-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>14.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>14.7 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>KMM-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>25.7 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>16.1 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>19.9 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>Francisella-human, Salmonella-human </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>E.coli-human </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>Baseline </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>12.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>12.5 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>12.7 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>T-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>10.4 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>15.6 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>12.5 </plain></SENT>
+</text></td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>KMM-SVM </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>15.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>21.9 </plain></SENT>
+</text></td><td align="center" valign="top" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>18.4 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="432" pm="."><plain>We compare them with a simple baseline: inductive kernel-SVM. </plain></SENT>
+<SENT sid="433" pm="."><plain>We report precision (P), recall (R) and f-score (F1). </plain></SENT>
+<SENT sid="434" pm="."><plain>The data that was used to build each of the models is shown in the first column. </plain></SENT>
+<SENT sid="435" pm="."><plain>The second column shows the target task—the data on which we evaluate the model. </plain></SENT>
+<SENT sid="436" pm="."><plain>The numbers in bold font indicate the highest performance in that column (i.e., for that metric). </plain></SENT>
+</text></p><fn id="TN4"><label>†</label><p><text><SENT sid="437" pm="."><plain>Computed using the default classifier threshold: 0.5. </plain></SENT>
+</text></p></fn><p><text><SENT sid="438" pm="."><plain>The positive:negative class ratio in all datasets was 1:100. </plain></SENT>
+</text></p><p><text><SENT sid="439" pm="."><plain>The performance of a random classifier would be F-score = 1. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="440" pm="."><plain>The host-level transfer performance is shown in the first two rows of Table 2. </plain></SENT>
+<SENT sid="441" pm="."><plain>The KMM-SVM based method performs much better while transferring from Salmonella-human to Salmonella-mouse. </plain></SENT>
+<SENT sid="442" pm="."><plain>The recall is very high at 93.7 since the mouse-pathogen PPIs are interologs of the human-pathogen PPIs. </plain></SENT>
+<SENT sid="443" pm="."><plain>The precision is not as high as some additional positives are predicted and we found that they had a high classifier score. </plain></SENT>
+<SENT sid="444" pm="."><plain>These “false positives” are likely to be true interactions. </plain></SENT>
+<SENT sid="445" pm="."><plain>For the reverse setting, T-SVM does slightly better than the KMM-SVM and 2 points higher than the baseline. </plain></SENT>
+<SENT sid="446" pm="."><plain>Note that here, the source data is very small in size with only 14 PPIs. </plain></SENT>
+<SENT sid="447" pm="."><plain>In the pathogen-level transfer, on the Salmonella-human target task, the F1 of the KMM-SVM method is the highest at 19.9 and is 5 points better than the other two methods. </plain></SENT>
+<SENT sid="448" pm="."><plain>On the E.coli-human task, the performance is 18.4 which is 5.7 points better than the other methods. </plain></SENT>
+</text></p><p><text><SENT sid="449" pm="."><plain>A very interesting observation to make from the table is, the performance on the target task: Salmonella-human in the two settings. </plain></SENT>
+<SENT sid="450" pm="."><plain>In the host-level transfer, the F1 is 52 whereas in the pathogen-level transfer it is much lower at 19.9. </plain></SENT>
+<SENT sid="451" pm="."><plain>The hosts human and mouse are much more similar than the group of bacterial species namely: Salmonella, E. coli and F. tularensis. </plain></SENT>
+<SENT sid="452" pm="."><plain>The source tasks are indeed very critical in determining the performance on the target. </plain></SENT>
+</text></p><sec><title><text><SENT sid="453" pm="."><plain>5.1. </plain></SENT>
+<SENT sid="454" pm="."><plain>Analysis </plain></SENT>
+</text></title><p><text><SENT sid="455" pm="."><plain>We apply the models trained using the procedures from previous sections on Arabidopsis-Salmonella protein-pairs to get predictions for potential interactions. </plain></SENT>
+<SENT sid="456" pm="."><plain>The homology based approach does not assign any confidence scores to the predictions while both T-SVM and KMM-SVM allow us to obtain a score for every predicted interaction. </plain></SENT>
+<SENT sid="457" pm="."><plain>All predictions from T-SVM with a positive score (&gt;0) are considered to be interacting. </plain></SENT>
+<SENT sid="458" pm="."><plain>For the KMM-SVM method, we filter the predictions using a threshold of 0.7 on the averaged probability-score. </plain></SENT>
+<SENT sid="459" pm="."><plain>(See Section 3.3.3 for details on the probability score computation for the KMM-SVM method). </plain></SENT>
+<SENT sid="460" pm="."><plain>We chose this threshold of 0.7 since all positives in our training data are assigned a score ≥0.7 by the classifier model. </plain></SENT>
+<SENT sid="461" pm="."><plain>The full lists of predicted interactions from all three approaches are available at the following link: <ext-link ext-link-type="uri" xlink:href="http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/predictions.zip">http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/predictions.zip</ext-link>. </plain></SENT>
+</text></p><p><text><SENT sid="462" pm="."><plain>The total number of PPI predictions based on the score thresholds described above are: 106,807 for homology-based, 1088 for T-SVM and 163,644 from KMM-SVM. </plain></SENT>
+<SENT sid="463" pm="."><plain>Hundreds of thousands of interacting pairs may not be likely and we therefore expect that many of the predictions are likely to be false positives (FPs). </plain></SENT>
+<SENT sid="464" pm="."><plain>We would like to emphasize that, by ranking the predictions on the classifier scores and picking only the top few we are likely to filter out most of the false positives, since the machine learning models are expected to score FPs lower than the true positives. </plain></SENT>
+<SENT sid="465" pm="."><plain>The threshold of 0.7 for KMM-SVM was chosen just to ensure consistency with the threshold that we observed in the training data (i.e., in the known interactions). </plain></SENT>
+<SENT sid="466" pm="."><plain>If one considers say the top 10% of the predictions from the KMM-SVM method, we have 1636 PPIs over ≈1300 unique Arabidopsis proteins and 5 Salmonella proteins. </plain></SENT>
+<SENT sid="467" pm="."><plain>Choosing by thresholding the prediction score is one way to select potential interactions for further scrutiny. </plain></SENT>
+<SENT sid="468" pm="."><plain>Another approach is to analyze the predictions based on the biological functions one is interested in. </plain></SENT>
+<SENT sid="469" pm="."><plain>To demonstrate the type of biological functions that are represented in the predictions, we performed GO term enrichment analysis of the Arabidopsis proteins involved in the predictions. </plain></SENT>
+<SENT sid="470" pm="."><plain>We can then look at Arabidopsis genes with the most enriched GO terms and what their predicted Salmonella partners are. </plain></SENT>
+</text></p><p><text><SENT sid="471" pm="."><plain>A Venn diagram depicting the overlap between the predicted pairs of proteins interacting according to the three approaches is shown in Figure 5. </plain></SENT>
+<SENT sid="472" pm="."><plain>The PPIs reported by each approach are quite different from the others. </plain></SENT>
+<SENT sid="473" pm="."><plain>Only 189 are shared between T-SVM and KMM-SVM and 4305 between the homology approach and KMM-SVM. </plain></SENT>
+<SENT sid="474" pm="."><plain>No overlap was found between the homology approach and the T-SVM approaches. </plain></SENT>
+<SENT sid="475" pm="."><plain>These relatively small overlaps are due to the different input sources (tasks) used by each approach. </plain></SENT>
+<SENT sid="476" pm="."><plain>Further, the machine-learning based approaches KMM-SVM and T-SVM use a discriminative model which employs negative examples whereas the heuristics based approach does not use any such negative data and hence has a small overlap with the other two. </plain></SENT>
+<SENT sid="477" pm="."><plain>The two machine-learning based approaches differ due to the use of different kernels. </plain></SENT>
+<SENT sid="478" pm="."><plain>The KMM-SVM approach is the only approach that shows overlap in predictions to both, the heuristics and the T-SVM approaches, and the results are therefore discussed in detail in the accompanying paper (Schleker et al., 2015). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="479" pm="."><plain>Overlap amongst the novel PPI predictions from each approach. </plain></SENT>
+<SENT sid="480" pm="."><plain>All predictions from the homology based approach and the T-SVM are shown. </plain></SENT>
+<SENT sid="481" pm="."><plain>For the KMM-SVM method, we filter the predictions using a threshold of 0.7 on the interaction probability reported by the classifier. </plain></SENT>
+<SENT sid="482" pm="."><plain>We picked this threshold based on the interaction probabilities reported on the known interactions. </plain></SENT>
+</text></p></caption><graphic xlink:href="fmicb-06-00036-g0005"/></fig></SecTag><p><text><SENT sid="483" pm="."><plain>Because the ratio of 1 positive to 100 negative pairs likely overestimates the number of interactions, we next changed this ratio to 1:500 and generated a new model. </plain></SENT>
+<SENT sid="484" pm="."><plain>As expected, a much smaller number of pairs are predicted namely, 6035. </plain></SENT>
+<SENT sid="485" pm="."><plain>This is a more manageable list and the predictions of the new model are provided at <ext-link ext-link-type="uri" xlink:href="http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/predictions_class_skew_500.txt">http://www.cs.cmu.edu/~mkshirsa/data/frontiers2014/predictions_class_skew_500.txt</ext-link>. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="486" pm="."><plain>5.2. </plain></SENT>
+<SENT sid="487" pm="."><plain>Qualitative analysis of predicted interactions </plain></SENT>
+</text></title><p><text><SENT sid="488" pm="."><plain>As with any predictions, experimental validation is ultimately needed to verify them. </plain></SENT>
+<SENT sid="489" pm="."><plain>The choice depends on the interest of the experimentalist. </plain></SENT>
+<SENT sid="490" pm="."><plain>Here we have chosen for discussion a few predictions that are interesting to us, but we encourage the reader to look at the list of predictions for others of potential biological interest. </plain></SENT>
+</text></p><p><text><SENT sid="491" pm="."><plain>We calculated Gene Ontology (GO) enrichment in the Arabidopsis proteins predicted to be targeted by the Salmonella proteins. </plain></SENT>
+<SENT sid="492" pm="."><plain>We are interested in analyzing the characteristics of the plant proteins predicted to be the most popular targets for pathogenesis. </plain></SENT>
+<SENT sid="493" pm="."><plain>We defined the “popular targets” using the following criteria: (a) the Arabidopsis protein is predicted to be targeted by at least 3 Salmonella effectors with a probability greater than 0.9 and (b) the GO term annotations of the Arabidopsis protein are significantly enriched [with a p-value of &lt;0.001 as obtained by GO enrichment analysis using FuncAssociate (Berriz et al., 2003)]. </plain></SENT>
+<SENT sid="494" pm="."><plain>There are a total of 5247 Arabidopsis proteins satisfying these criteria. </plain></SENT>
+<SENT sid="495" pm="."><plain>In Table 3, we show 20 Arabidopsis genes selected randomly from this set of highly targeted Arabidopsis proteins. </plain></SENT>
+<SENT sid="496" pm="."><plain>In Table 4, we show the list of all enriched GO terms. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T3" position="float"><label>Table 3</label><caption><p><text><SENT sid="497" pm="."><plain>GO terms that were enriched in the most targetted Arabidopsis proteins in our predictions. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>Arabidopsis (TAIR id) </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>Protein name/gene </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>Enriched Gene Ontology annotations </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>Enriched GO terms (corresp. to column 3) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="502" pm="."><plain>AT1G01030 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="503" pm="."><plain>B3 domain containing transcription factor </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="504" pm="."><plain>Sequence-specific DNA binding transcription factor activity ; regulation of transcription, DNA-templated </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>GO:0003700 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>GO:0006355 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="507" pm="."><plain>AT1G06160 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="508" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9LND1">Ethylene-responsive transcription factor ERF094</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="509" pm="."><plain>DNA binding ; sequence-specific DNA binding transcription factor activity ; regulation of transcription from RNA-polymerase II promoter ; response to jasmonic acid stimulus </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>GO:0003677 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>GO:0003700 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>GO:0006355 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>GO:0009753 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="514" pm="."><plain>AT1G01060 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="515" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P04197,P06876">Myb</z:uniprot>-related putative transcription factor </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="516" pm="."><plain>Response to cadmium ion ; response to salt stress ; response to auxin stimulus ; response to cold </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>GO:0046686 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>GO:0009651 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>GO:0009733 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>GO:0009409 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>AT1G13180 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P53490,Q9SAF1,P61157,Q61WW9,Q9N4I0,Q90WD0,P42528,P32392,P61158,Q99JY9,P78712,A2X6S3,Q6K908,Q5R8R1,Q4V7C7,P32390,O73723,P47117">Actin-related protein 3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain><z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>GO:0003779 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="525" pm="."><plain>AT2G40220 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="526" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A0MES8,C7J2Z1">Ethylene-responsive transcription factor ABI4</z:uniprot>. </plain></SENT>
+<SENT sid="527" pm="."><plain>Protein glucose insensitive 6 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="4" colspan="1"><text><SENT sid="528" pm="."><plain>DNA binding ; response to water deprivation ; positive regulation of transcription, DNA-dependent ; sequence-specific DNA binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>GO:0003677 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>GO:0009414 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>GO:0045893 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>GO:0043565 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>AT2G46400 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>Putative <z:uniprot sup="inside" fb="0" ids="Q6VWJ6">WRKY transcription factor 46</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>Response to chitin </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>GO:0010200 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="537" pm="."><plain>AT1G01080 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="538" pm="."><plain>Ribonucleoprotein, putative </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="539" pm="."><plain>nucleic acid binding ; RNA binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>GO:0003676 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>GO:0003723 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>AT3G12110 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P53496,P07830,P41341">Actin-11</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>Chloroplast stroma </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>GO:0009570 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="3" colspan="1"><text><SENT sid="546" pm="."><plain>AT3G56400 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="3" colspan="1"><text><SENT sid="547" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9LY00">Probable WRKY transcription factor 70</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="3" colspan="1"><text><SENT sid="548" pm="."><plain>Response to salicylic acid stimulus ; sequence-specific DNA binding transcription factor activity ; protein amino acid binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>GO:0009751 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>GO:0003700 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>GO:0005515 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>AT1G01090 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O24457,Q7XTJ3">Pyruvate dehydrogenase E1 component subunit alpha-3, chloroplastic</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>Chloroplast stroma </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>GO:0009570 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>AT4G09570 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>Ca-dependent <z:uniprot sup="inside" fb="0" ids="P34103">protein kinase 4</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>protein amino acid binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>GO:0005515 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="560" pm="."><plain>AT1G01150 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="561" pm="."><plain>Homeodomain-like protein with RING-type zinc finger domain </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="562" pm="."><plain>Zinc ion binding ; regulation of transcription, DNA-templated </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>GO:0008270 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>GO:0006355 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="565" pm="."><plain>AT4G18170 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="566" pm="."><plain>Probable <z:uniprot sup="inside" fb="0" ids="Q8VWJ2">WRKY transcription factor 28</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="567" pm="."><plain>Regulation of transcription, DNA-templated ; sequence- specific DNA binding transcription factor activity </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>GO:0006355 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>GO:0003700 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>AT1G01160 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9MAL9">GRF1-interacting factor 2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>Protein amino acid binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>GO:0005515 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="3" colspan="1"><text><SENT sid="574" pm="."><plain>AT1G01200 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="3" colspan="1"><text><SENT sid="575" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9LNK1">Ras-related protein RABA3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="3" colspan="1"><text><SENT sid="576" pm="."><plain>GTP binding; small GTPase mediated signal transduction ; protein transport </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>GO:0005525 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>GO:0007264 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>GO:0015031 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="580" pm="."><plain>AT5G47220 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="581" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O80338,Q9LW50,Q40479">Ethylene-responsive transcription factor 2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="582" pm="."><plain>Positive regulation of transcription, DNA-dependent ; ethylene mediated signaling pathway </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>GO:0045893 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>GO:0009873 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="585" pm="."><plain>AT1G01250 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="586" pm="."><plain>Ethylene-responsive TF <z:uniprot sup="inside" fb="0" ids="Q1ECI2">ERF023</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="587" pm="."><plain>Sequence-specific DNA binding transcription factor activity ; nuclear envelope </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>GO:0003700 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>GO:0005634 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="590" pm="."><plain>AT1G01350 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="591" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8GX84,Q5VR07,Q9H0J9,Q8BZ20">Zinc finger CCCH domain-containing protein 1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="592" pm="."><plain>Nucleic acid binding ; zinc ion binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>GO:0003676 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>GO:0008270 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="595" pm="."><plain>AT1G01370 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="596" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8RVQ9">Histone H3-like centromeric protein HTR12</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="2" colspan="1"><text><SENT sid="597" pm="."><plain>DNA binding ; protein amino acid binding </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>GO:0003677 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>GO:0005515 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="600" pm="."><plain>To get this list, we performed a GO term enrichment analysis using the FuncAssociate tool (Berriz et al., 2003). </plain></SENT>
+<SENT sid="601" pm="."><plain>We then procure the set of Arabidopsis genes which correspond to the enriched GO terms; i.e., GO terms with a p-value of &lt;0.001. </plain></SENT>
+<SENT sid="602" pm="."><plain>We further filter this set to include only those Arabidopsis genes predicted to interact with at least 3 Salmonella effector proteins. </plain></SENT>
+<SENT sid="603" pm="."><plain>In this table, we show around 20 such Arabidopsis genes for the lack of space. </plain></SENT>
+<SENT sid="604" pm="."><plain>The remaining are available via the download link. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="T4" position="float"><label>Table 4</label><caption><p><text><SENT sid="605" pm="."><plain>List of all enriched GO terms obtained by applying enrichment analysis tool FuncAssociate (Berriz et al., 2003) on the set of highly targeted Arabidopsis proteins (i.e., Arabidopsis proteins predicted to interact with at least 3 Salmonella effectors). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>GO term </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>Description </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>GO:0003676 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>Nucleic acid binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>GO:0003677 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>DNA binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>GO:0003700 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>Sequence-specific DNA binding TF activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>GO:0003723 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>RNA binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>GO:0003735 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>Structural constituent of ribosome </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>GO:0003755 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P34887,P81531,P24525,Q39613,Q8SRE1,O49886,P21569,P18253,P21568,O00060,P14832,P35627,P48375,Q41649,Q4WLV6,Q6KBA8,Q4W9R2,P0CY37,P0C1J4,P0C1J5,P54397,Q9VL78,P81104,Q43207,Q554J3,P0C1J3,Q4WHX4,Q2UPT7,Q6FSC1,P0CP97,P0CP96,Q6BP84,Q54SR7,Q5ATN7,Q4IN00,Q6CUZ8,Q86ZF2,Q6CGG3,Q756V1,Q59VR3,Q6FKH7,Q6BSE7,Q54N80,Q6CWE8,Q6C4C9,P38911,Q4WMV5,Q2UN37,Q6FK71,G0SC91,P0CP99,P0CP98,Q54NB6,P0C1B0,Q4INZ9,P0C1J6,O74191,Q26486,Q4PIN7,Q06205,Q54G21,P0C1J7,Q54Y27,Q754K8,Q2U316,P28870,Q6FMA3,P42458,P0CP95,O94746,P0CP94,Q6BX45,Q4HZB8,Q6CX30,P56989,P0A0W2,P0A0W3,O42993,P28725,Q6CF41,P20081,P53605,A5IGB8,Q5ZXE0,Q70YI1,P31106,Q09734,P42693,P54985,P22011,P25007,P14088,Q9ZJH5,O25982,P91791,P84342,P84343,O00845,P85444,Q26565,P29820">peptidyl-prolyl cis-trans isomerase</z:uniprot> activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>GO:0003779 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain><z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>GO:0003899 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P18147,Q7Y2D9,P06221,P07659,P00573">DNA-directed RNA polymerase</z:uniprot> activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>GO:0004298 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>Threonine-type endopeptidase activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>GO:0004693 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain><z:uniprot sup="inside" fb="1" ids="Q00268,Q00265,O01377,P24314,P17917,P12004,P17918,P17070,P61074,P31008,P04961,O16852,P22177,P53358,P18248">Cyclin</z:uniprot>-dependent protein serine/threonine kinase activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>GO:0004842 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain><z:uniprot sup="inside" fb="2" ids="P69310,Q865C5,P68197,P19848,Q8SWD4,P69313,P84589,P69317,P62975,P69326">Ubiquitin</z:uniprot>-protein transferase activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>GO:0004871 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>Signal transducer activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>GO:0005484 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>SNAP receptor activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>GO:0005507 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>Copper ion binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>GO:0005509 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>Calcium ion binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>GO:0005515 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>Protein binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>GO:0005525 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>GTP binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>GO:0005576 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>Extracellular region </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>GO:0005622 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>Intracellular region </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>GO:0005634 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>Nuclear envelope </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>GO:0005839 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>Proteasome core complex </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>GO:0005840 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>Ribosome </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>GO:0006351 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>Transcription, DNA-templated </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>GO:0006355 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>Regulation of transcription, DNA-templated </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>GO:0006412 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>Translation </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>GO:0006413 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>Translational initiation </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>GO:0006457 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>Protein folding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>GO:0006511 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain><z:uniprot sup="inside" fb="2" ids="P69310,Q865C5,P68197,P19848,Q8SWD4,P69313,P84589,P69317,P62975,P69326">Ubiquitin</z:uniprot>-dependent protein catabolic process </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>GO:0007264 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>Small GTPase mediated signal transduction </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>GO:0007267 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>Cell-cell signaling </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>GO:0008233 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>Peptidase activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>GO:0008270 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>Zinc ion binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>GO:0008794 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P08692,P52147,O50595,C3P101,C3LDK1,Q81NJ6,B7INE4,C1F0A7,B7HWU2,A7GP55,B9IRF0,Q81BK3,Q639D2,Q9K8K8,Q6HGP0,Q65IV4,Q8GJ74,Q5WJS9,P45947,C0ZEV2,P0AB96,A4INR2,B9E7M5,Q8ENQ5,P0AB97,Q2FFW6,Q2FXF5,Q2YTL3,Q5HF01,A6QHV6,P0A005,Q6GIZ3,A8Z4K0,P0A006,Q8CQF5,Q01257,P74984,Q8GY31,Q8RUD6">Arsenate reductase</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P00276,Q54GP8,P45242,Q9JVU9,Q9JY15,Q9HU55,P55143,Q9ZR41,O81187,Q9KSW0">glutaredoxin</z:uniprot>) activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>GO:0009408 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>Response to heat </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>GO:0009409 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>Response to cold </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>GO:0009414 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>Response to water deprivation </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>GO:0009570 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>Chloroplast stroma </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>GO:0009579 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>Thylakoid </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>GO:0009651 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>Response to salt stress </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>GO:0009733 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>Response to auxin </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>GO:0009737 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>Response to abscisic acid </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>GO:0009739 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>Response to gibberellin </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>GO:0009751 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>Response to salicylic acid </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>GO:0009753 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>Response to jasmonic acid </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>GO:0009828 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>Plant-type cell wall loosening </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>GO:0009873 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>Ethylene mediated signaling pathway </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>GO:0010200 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>Response to chitin </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>GO:0015031 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>Protein transport </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>GO:0015035 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>Protein <z:uniprot sup="inside" fb="0" ids="Q822U2,Q9PKL7,Q9Z8V7,O84179,B6J6V9,B6J0H4,A9KFZ1,Q83D55,Q9RWB5,Q8ERY3,Q8GHM3,Q44856,A1TQ84,Q6F6X5,A3MA10,A1W8C0,A3MZ39,A0KL09,A4SN81,Q0VSY8,Q5E4B6,Q0A4N8,Q5P2Z1,A1KAY2,Q7VQZ2,Q492M6,Q1BY52,P94287,A0K5J7,Q0BHC9,Q62M01,A3NXZ6,Q63RY4,Q2SY47,Q1QU58,Q7NT68,Q47YD3,Q1LNJ0,Q0K9W2,Q46ZY7,Q47BA6,P0A6M3,A1AAA8,Q0TIJ0,P59343,P0A6M2,Q1RCR1,Q7VKY2,Q4QNB7,P44707,Q0I309,Q2S8G1,A4G1N1,Q5QWN6,Q5X1F8,Q5WT71,Q65VH4,A1TXV0,Q602K4,Q1H058,Q5F791,Q9JTA9,Q9JYC6,A1KV57,Q0AFX4,Q82VB9,Q2YA85,Q3J7Z4,Q13V94,Q9L6B3,Q6D4M8,Q7N3Z3,Q6LNY7,A1VMI3,Q12AY6,Q15S31,Q3IE23,Q887H2,A4VGY3,Q4FVQ0,Q1QES7,A1SVD8,A5WBG4,Q8XZM2,Q21WM5,Q21EN9,Q57NK5,Q5PCR9,P63994,P63993,A1S6X5,Q12NQ9,Q083H4,A3QEZ4,P59346,A0KVP7,Q0HJX3,Q0HW69,A1RKH3,Q31ZM6,Q32H31,Q0T5L6,Q54155,Q3Z2W3,Q2NTB0,A1WG92,Q56578,Q9KQU6,Q87N03,P59347,Q7MJN7,Q8PNQ6,Q3BWV6,Q4URG5,Q8PC32,Q2P728,Q5H488,Q9PGG2,Q87AV3,A1JQQ3,Q1C7V4,Q8ZEM1,Q1CJ90,A4TJC8,Q66AR0">disulfide oxidoreductase</z:uniprot> activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>GO:0016491 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>Oxidoreductase activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>GO:0016607 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>Nuclear speck </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>GO:0016762 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>Xyloglucan:xyloglucosyl transferase activity </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>GO:0022626 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>Cytosolic ribosome </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>GO:0022627 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>Cytosolic small ribosomal subunit </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>GO:0042254 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>Ribosome biogenesis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>GO:0042742 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>Defense response to bacterium </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>GO:0043565 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>Sequence-specific DNA binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>GO:0045454 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="723" pm="."><plain>Cell redox homeostasis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="724" pm="."><plain>GO:0045892 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="725" pm="."><plain>Negative regulation of transcription, DNA-templated </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="726" pm="."><plain>GO:0045893 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="727" pm="."><plain>Positive regulation of transcription, DNA-templated </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="728" pm="."><plain>GO:0046686 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="729" pm="."><plain>Response to cadmium ion </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="730" pm="."><plain>GO:0046872 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="731" pm="."><plain>Metal ion binding </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="732" pm="."><plain>GO:0051726 </plain></SENT>
+</text></td><td align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="733" pm="."><plain>Regulation of cell cycle </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="734" pm="."><plain>The shown terms had a p-value less than 0.001. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="735" pm="."><plain>For each gene we show the description and the enriched GO annotations. </plain></SENT>
+<SENT sid="736" pm="."><plain>Among the presented Arabidopsis proteins, nearly one third are transcription factors. </plain></SENT>
+<SENT sid="737" pm="."><plain>These function e.g., in hormone-mediated signaling pathways. </plain></SENT>
+<SENT sid="738" pm="."><plain>It has been reported that jasmonic acid and ethylene signaling pathways are involved in plant defense response against Salmonella (Schikora et al., 2008). </plain></SENT>
+<SENT sid="739" pm="."><plain>Other examples that highlight the role of transcription factors in plant-pathogen interaction are e.g., that a Xanthomonas effector protein targets an ethylene responsive transcription factor (<z:uniprot sup="inside" fb="5" ids="P50548">ERF</z:uniprot>) in tomato to inhibit ethylene induced transcription (Kim et al., 2013) and systemic immunity in barley induced by Xanthomonas and Pseudomonas bacteria may involve WRKY and <z:uniprot sup="inside" fb="5" ids="P50548">ERF</z:uniprot>-like transcription factors (Dey et al., 2014). </plain></SENT>
+<SENT sid="740" pm="."><plain>Further, <z:uniprot sup="inside" fb="0" ids="P53496,P07830,P41341">actin-11</z:uniprot> and <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot>-related proteins involved in <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot> polymerization and depolymerization are obtained. </plain></SENT>
+<SENT sid="741" pm="."><plain>It is well known that Salmonella translocates effectors into the mammalian host cell in order to interact with <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot> and e.g., modify the cell cytoskeleton to allow bacterial entry (for review see Schleker et al., 2012). </plain></SENT>
+<SENT sid="742" pm="."><plain>Our analysis revealed <z:uniprot sup="inside" fb="0" ids="O81001,A0A060D764,A2XA73,Q6AWY8">growth regulating factor 1</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q9NRY4">GRF1</z:uniprot>)-interacting factor 2, a transcriptional co-activator which is part of a regulatory complex with <z:uniprot sup="inside" fb="0" ids="Q9NRY4">GRF1</z:uniprot> and microRNA (miRNA) 396. </plain></SENT>
+<SENT sid="743" pm="."><plain>MiRNAs are involved in plant disease resistance to bacteria and miRNA396 has been shown to be upregulated in plants upon flg22 treatment (Li et al., 2010). </plain></SENT>
+<SENT sid="744" pm="."><plain>Liu et al. (2014) reported that putative <z:uniprot sup="inside" fb="0" ids="Q9NRY4">GRF1</z:uniprot> targets in Arabidopsis are heavily involved in biosynthetic and metabolic pathways, e.g., phenylpropanoid, amino acids and lignin biosynthesis as well as plant hormone signal transduction indicating the role of <z:uniprot sup="inside" fb="0" ids="Q9NRY4">GRF1</z:uniprot> in plant defense mechanisms. </plain></SENT>
+<SENT sid="745" pm="."><plain>Other examples of predicted interactions and more details of their possible relevance in Salmonella-plant interplay are discussed in the accompanying paper (Schleker et al., 2015). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="746" pm="."><plain>5.3. </plain></SENT>
+<SENT sid="747" pm="."><plain>Limitations and future work </plain></SENT>
+</text></title><p><text><SENT sid="748" pm="."><plain>In this paper, we addressed the challenge of predicting the Salmonella-Arabidopsis interactome in the absence of any experimentally known interactions. </plain></SENT>
+<SENT sid="749" pm="."><plain>Previous work in this area was based purely on homology between human and Arabidopsis proteins and was therefore limited to proteins that do display sequence similarity. </plain></SENT>
+<SENT sid="750" pm="."><plain>Due to the large divergence between the two organisms, this approach neglects a large fraction of potential Arabidopsis targets. </plain></SENT>
+<SENT sid="751" pm="."><plain>We therefore presented here three different sophisticated computational and machine learning methods to predict hereto unknown Salmonella-plant interactions from a relatively small list of known Salmonella-human interactions. </plain></SENT>
+<SENT sid="752" pm="."><plain>This is a very challenging task because it is not possible to quantitatively validate the predictions. </plain></SENT>
+<SENT sid="753" pm="."><plain>Nonetheless, the predictions provide a gold-mine for discovery because they provide experimentally testable hypotheses on the communication mechanisms between plant and Salmonella without restriction to known effectors in the pathogen or sequences of similarity to those observed in better studied eukaryotic organisms. </plain></SENT>
+<SENT sid="754" pm="."><plain>With these advantages comes a set of limitations to be aware of. </plain></SENT>
+</text></p><p><text><SENT sid="755" pm="."><plain>Since machine learning methods need some known interactions to evaluate the models on, and to pick the best set of predictions, their application in the current paper has limitations. </plain></SENT>
+<SENT sid="756" pm="."><plain>For example, we can obtain different predictions from our methods by varying the parameters, especially the class skew (we studied the ratios 1:100 and 1:500 in this paper). </plain></SENT>
+<SENT sid="757" pm="."><plain>Because there are currently no known Salmonella-plant interactions, we are not able to quantify which of these sets of predictions is more reliable. </plain></SENT>
+<SENT sid="758" pm="."><plain>Augmenting the predictions with some other biological information from the target task can help in picking the most plausible PPIs. </plain></SENT>
+<SENT sid="759" pm="."><plain>This is a direction for future research. </plain></SENT>
+<SENT sid="760" pm="."><plain>Further, </plain></SENT>
+</text></p><list list-type="order"><list-item><p><text><SENT sid="761" pm="."><plain>The interactome predicted by each method is not the true interactome, but is a set of predictions. </plain></SENT>
+<SENT sid="762" pm="."><plain>There will be false positive and false negative interactions. </plain></SENT>
+<SENT sid="763" pm="."><plain>Thus, each individual prediction has to be considered a hypothesis not a fact. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="764" pm="."><plain>In line with point 1 above, the size of the predicted interactomes does not necessarily relate to the true interactome. </plain></SENT>
+<SENT sid="765" pm="."><plain>We dont know how many interactions to expect. </plain></SENT>
+<SENT sid="766" pm="."><plain>Our different predictions vary greatly in size, with one method predicting only one thousand interactions, while others predict more than 100,000 interactions. </plain></SENT>
+<SENT sid="767" pm="."><plain>While it is more likely that smaller numbers of interactions are more likely, it does not mean that this method is inherently better than the other methods. </plain></SENT>
+</text></p></list-item><list-item><p><text><SENT sid="768" pm="."><plain>The size of the predicted interactions list also depends on a critical parameter, the positive to negative class ratio. </plain></SENT>
+<SENT sid="769" pm="."><plain>This parameter is important but it is tuneable, so the methods validity is not dependent on its choice. </plain></SENT>
+<SENT sid="770" pm="."><plain>However, it is important to appreciate that the predictions will differ greatly when this parameter is changed. </plain></SENT>
+<SENT sid="771" pm="."><plain>Thus, biological insight in choosing predictions to validate still needs to be applied, regardless of the prior choice of ratio in generating the model. </plain></SENT>
+</text></p></list-item></list><p><text><SENT sid="772" pm="."><plain>These general limitations in the context of the specific results of the models presented here translate to the following issues, pointed out by a reviewer of this paper: The data presented for the KMM-SVM model indicate that 163,644 PPIs are predicted (Figure 5). </plain></SENT>
+<SENT sid="773" pm="."><plain>This is of the same order of magnitude as the number of false positives that would be predicted, given the reported false positive rate of the method that indicate ≈180,000 false positive PPIs would be expected. </plain></SENT>
+<SENT sid="774" pm="."><plain>This raises the possibility that the bulk of the predictions may be false positives. </plain></SENT>
+<SENT sid="775" pm="."><plain>The data presented for the KMM-SVM model also indicates that 25,124 distinct Arabidopsis genes participate in PPIs with 31 distinct Salmonella genes (Figure 5). </plain></SENT>
+<SENT sid="776" pm="."><plain>This implies that 91% of the Arabidopsis protein-coding gene complement (TAIR10: 27,416 genes— <ext-link ext-link-type="uri" xlink:href="http://www.arabidopsis.org/portals/genAnnotation/gene_structural_annotation/annotation_data.jsp">http://www.arabidopsis.org/portals/genAnnotation/gene_structural_annotation/annotation_data.jsp</ext-link>) enters into productive interaction with only 31 Salmonella proteins. </plain></SENT>
+<SENT sid="777" pm="."><plain>It also implies that, on average, each interacting Salmonella protein is capable of productive interaction with over 5000 Arabidopsis proteins. </plain></SENT>
+<SENT sid="778" pm="."><plain>It is unlikely that this is the case, again suggesting that a large number of false positives have to be expected. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="779" pm="."><plain>Conflict of interest statement </plain></SENT>
+</text></title><p><text><SENT sid="780" pm="."><plain>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. </plain></SENT>
+</text></p></sec></sec></SecTag></body><back><SecTag type="REF"><ref-list><title>References</title><ref id="B1"><text><SENT sid="781" pm="."><plain>AshburnerM.BallC. </plain></SENT>
+<SENT sid="782" pm="."><plain>A.BlakeJ. </plain></SENT>
+<SENT sid="783" pm="."><plain>A.BotsteinD.ButlerH.CherryJ. </plain></SENT>
+<SENT sid="784" pm="."><plain>M.. </plain></SENT>
+<SENT sid="785" pm="."><plain>(2000). Gene ontology: tool for the unification of biology. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="786" pm="."><plain>Genet. 25, 25–29. 10.1038/75556<?supplied-pmid 10802651?>10802651 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="787" pm="."><plain>BarrettT.TroupD. </plain></SENT>
+<SENT sid="788" pm="."><plain>B.WilhiteS. </plain></SENT>
+<SENT sid="789" pm="."><plain>E.LedouxP.EvangelistaC.KimI. </plain></SENT>
+<SENT sid="790" pm="."><plain>F.. </plain></SENT>
+<SENT sid="791" pm="."><plain>(2011). Ncbi geo: archive for functional genomics data sets 10 years on. Nucleic Acids Res. 39, D1005–D1010. 10.1093/nar/gkq1184<?supplied-pmid 21097893?>21097893 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="792" pm="."><plain>BergerC. </plain></SENT>
+<SENT sid="793" pm="."><plain>N.BrownD. </plain></SENT>
+<SENT sid="794" pm="."><plain>J.ShawR. </plain></SENT>
+<SENT sid="795" pm="."><plain>K.MinuzziF.FeysB.FrankelG. (2011). Salmonella enterica strains belonging to O serogroup 1,3,19 induce chlorosis and wilting of Arabidopsis thaliana leaves. Environ. </plain></SENT>
+<SENT sid="796" pm="."><plain>Microbiol. 13, 1299–1308. 10.1111/j.1462-2920.2011.02429.x<?supplied-pmid 21349136?>21349136 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="797" pm="."><plain>BerrizG. </plain></SENT>
+<SENT sid="798" pm="."><plain>F.KingO. </plain></SENT>
+<SENT sid="799" pm="."><plain>D.BryantB.SanderC.RothF. </plain></SENT>
+<SENT sid="800" pm="."><plain>P. (2003). Characterizing gene sets with funcAssociate. Bioinformatics19, 2502–2504. 10.1093/bioinformatics/btg363<?supplied-pmid 14668247?>14668247 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="801" pm="."><plain>DeyS.WenigM.LangenG.SharmaS.KuglerK.KnappeC.. </plain></SENT>
+<SENT sid="802" pm="."><plain>(2014). Bacteria-triggered systemic immunity in barley appears to be associated with WRKY and ethylene responsive factors but not with salicylic acid. Plant Physiol. 166:114. 10.1104/pp.114.249276<?supplied-pmid 25332505?>25332505 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="803" pm="."><plain>DuZ.LiL.ChenC.-F.PhilipS. </plain></SENT>
+<SENT sid="804" pm="."><plain>Y.WangJ. </plain></SENT>
+<SENT sid="805" pm="."><plain>Z. (2009). G-Sesame: web tools for GO-term-based gene similarity analysis and knowledge discovery. Nucleic Acids Res. 37, W345–W349. 10.1093/nar/gkp463<?supplied-pmid 19491312?>19491312 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="806" pm="."><plain>DyerM.MuraliT.SobralB. (2007). Computational prediction of host-pathogen protein-protein interactions. Bioinformatics 23, i159–i166. 10.1093/bioinformatics/btm208<?supplied-pmid 17646292?>17646292 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="807" pm="."><plain>DyerM.MuraliT.SobralB. (2011). Supervised learning and prediction of physical interactions between human and hiv proteins. Infection. </plain></SENT>
+<SENT sid="808" pm="."><plain>Genet. </plain></SENT>
+<SENT sid="809" pm="."><plain>Evol. 11, 917–923. 10.1016/j.meegid.2011.02.022<?supplied-pmid 21382517?>21382517 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="810" pm="."><plain>Hernandez-ReyesC.SchikoraA. (2013). Salmonella, a cross-kingdom pathogen infecting humans and plants. FEMS Microbiol. </plain></SENT>
+<SENT sid="811" pm="."><plain>Lett. 343, 1–7. 10.1111/1574-6968.12127<?supplied-pmid 23488473?>23488473 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="812" pm="."><plain>HuangJ.SmolaA.GrettonA.BorgwardtK.ScholkopfB. (2007). Correcting sample selection bias by unlabeled data. Neural Inf. </plain></SENT>
+<SENT sid="813" pm="."><plain>Proc. </plain></SENT>
+<SENT sid="814" pm="."><plain>Syst. 601–608. </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="815" pm="."><plain>IniguezA.DongY.CarterH.AhmerB.StoneJ.TriplettE. (2005). Regulation of enteric endophytic bacterial colonization by plant defenses. Mole. </plain></SENT>
+<SENT sid="816" pm="."><plain>Plant Microbe Interact. 18, 169–178. 10.1094/MPMI-18-0169<?supplied-pmid 15720086?>15720086 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="817" pm="."><plain>JoachimsT. (1999). Transductive inference for text classification using support vector machines. ICML. 200–209. <?supplied-pmid 19623491?>19623491 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="818" pm="."><plain>JoachimsT. (2008). Svmlight. </plain></SENT>
+<SENT sid="819" pm="."><plain>Availabe online at: <ext-link ext-link-type="uri" xlink:href="http://svmlight.joachims.org/">http://svmlight.joachims.org/</ext-link>. </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="820" pm="."><plain>KimJ.StorkW.MudgettM. (2013). Xanthomonas type iii effector xopd desumoylates tomato transcription factor slerf4 to suppress ethylene responses and promote pathogen growth. Cell Host Microbe 13, 143–154. 10.1016/j.chom.2013.01.006<?supplied-pmid 23414755?>23414755 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="821" pm="."><plain>KirzingerM. </plain></SENT>
+<SENT sid="822" pm="."><plain>W. </plain></SENT>
+<SENT sid="823" pm="."><plain>B.NadarasahG.StavrinidesJ. (2011). Insights into cross-kingdom plant pathogenic bacteria. Genes 2, 980–997. 10.3390/genes2040980<?supplied-pmid 24710301?>24710301 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="824" pm="."><plain>KshirsagarM.CarbonellJ.Klein-SeetharamanJ. (2012). Techniques to cope with missing data in host–pathogen protein interaction prediction. Bioinformatics 28, i466–i472. 10.1093/bioinformatics/bts375<?supplied-pmid 22962468?>22962468 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="825" pm="."><plain>LameschP.BerardiniT. </plain></SENT>
+<SENT sid="826" pm="."><plain>Z.LiD.SwarbreckD.WilksC.SasidharanR.. </plain></SENT>
+<SENT sid="827" pm="."><plain>(2012). The Arabidopsis Information Resource (TAIR): improved gene annotation and new tools. Nucleic Acids Res. 40, D1202–D1210. 10.1093/nar/gkr1090<?supplied-pmid 22140109?>22140109 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="828" pm="."><plain>LiY.ZhangQ.ZhangJ.WuL.QiY.ZhouJ.-M. (2010). Identification of micrornas involved in pathogen-associated molecular pattern-triggered plant innate immunity. Plant Physiol. 152, 2222–2231. 10.1104/pp.109.151803<?supplied-pmid 20164210?>20164210 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="829" pm="."><plain>LiuJ.RiceJ. </plain></SENT>
+<SENT sid="830" pm="."><plain>H.ChenN.BaumT. </plain></SENT>
+<SENT sid="831" pm="."><plain>J.HeweziT. (2014). Synchronization of developmental processes and defense signaling by growth regulating transcription factors. PLoS ONE 9:e98477. 10.1371/journal.pone.0098477<?supplied-pmid 24875638?>24875638 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="832" pm="."><plain>MukhtarM. </plain></SENT>
+<SENT sid="833" pm="."><plain>S.CarvunisA.-R.DrezeM.EppleP.SteinbrennerJ.MooreJ.. </plain></SENT>
+<SENT sid="834" pm="."><plain>(2011). Independently evolved virulence effectors converge onto hubs in a plant immune system network. Science 333, 596–601. 10.1126/science.1203659<?supplied-pmid 21798943?>21798943 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="835" pm="."><plain>OstlundG.SchmittT.ForslundK.KostlerT.MessinaD.RoopraS.. </plain></SENT>
+<SENT sid="836" pm="."><plain>(2010). Inparanoid 7: new algorithms and tools for eukaryotic orthology analysis. Nucleic Acids Res. 38, D196–D203. 10.1093/nar/gkp931<?supplied-pmid 19892828?>19892828 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="837" pm="."><plain>PrasadT. </plain></SENT>
+<SENT sid="838" pm="."><plain>S. </plain></SENT>
+<SENT sid="839" pm="."><plain>K.GoelR.KandasamyK.KeerthikumarS.KumarS.MathivananS. (2009). Human protein reference database—2009 update. Nucleic Acids Res. 3, D767–D772 10.1093/nar/gkn892 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="840" pm="."><plain>SchikoraA.CarreriA.CharpentierE.HirtH. (2008). The dark side of the salad: Salmonella typhimurium overcomes the innate immune response of arabidopsis thaliana and shows an endopathogenic lifestyle. PLoS ONE 3:e2279. 10.1371/journal.pone.0002279<?supplied-pmid 18509467?>18509467 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="841" pm="."><plain>SchikoraA.Virlogeux-PayantI.BuesoE.GarciaA.NilauT.CharrierA.. </plain></SENT>
+<SENT sid="842" pm="."><plain>(2011). Conservation of salmonella infection mechanisms in plants and animals. PLoS ONE 6:e24112. 10.1371/journal.pone.0024112<?supplied-pmid 21915285?>21915285 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="843" pm="."><plain>SchlekerS.KshirsagarM.Klein-SeetharamanJ. (2015). Comparing human-salmonella and plant-salmonella protein-protein interaction predictions. Front. </plain></SENT>
+<SENT sid="844" pm="."><plain>Microbiol. 6:45 10.3389/fmicb.2015.00045 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="845" pm="."><plain>SchlekerS.SunJ.RaghavanB.SrnecM.MüllerN.KoepfingerM.. </plain></SENT>
+<SENT sid="846" pm="."><plain>(2012). The current salmonella-host interactome. Proteom. </plain></SENT>
+<SENT sid="847" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="848" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. 6, 117–133. 10.1002/prca.201100083<?supplied-pmid 22213674?>22213674 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="849" pm="."><plain>SharanR.SuthramS.KelleyR. </plain></SENT>
+<SENT sid="850" pm="."><plain>M.KuhnT.McCuineS.UetzP.. </plain></SENT>
+<SENT sid="851" pm="."><plain>(2005). Conserved patterns of protein interaction in multiple species. Proc. </plain></SENT>
+<SENT sid="852" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="853" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="854" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="855" pm="."><plain>U.S.A. 102, 1974–1979. 10.1073/pnas.0409522102<?supplied-pmid 15687504?>15687504 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="856" pm="."><plain>ShenJ.ZhangJ.LuoX.ZhuW.YuK.ChenK.. </plain></SENT>
+<SENT sid="857" pm="."><plain>(2007). Predicting protein-protein interactions based only on sequences information. Proc. </plain></SENT>
+<SENT sid="858" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="859" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="860" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="861" pm="."><plain>U.S.A. 104, 4337–4341. 10.1073/pnas.0607879104<?supplied-pmid 17360525?>17360525 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="862" pm="."><plain>ShirronN.YaronS. (2011). Active suppression of early immune response in tobacco by the human pathogen salmonella typhimurium. PLoS ONE 6:e18855. 10.1371/journal.pone.0018855<?supplied-pmid 21541320?>21541320 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="863" pm="."><plain>SonnenburgS.RätschG.HenschelS.WidmerC.BehrJ.ZienA.. </plain></SENT>
+<SENT sid="864" pm="."><plain>(2010). The SHOGUN machine learning toolbox. J. </plain></SENT>
+<SENT sid="865" pm="."><plain>Mach. </plain></SENT>
+<SENT sid="866" pm="."><plain>Learn. </plain></SENT>
+<SENT sid="867" pm="."><plain>Res. 11, 1799–1802. </plain></SENT>
+<SENT sid="868" pm="."><plain>Availble online at: <ext-link ext-link-type="uri" xlink:href="http://www.shogun-toolbox.org">http://www.shogun-toolbox.org</ext-link>. <?supplied-pmid 21034432?>21034432 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="869" pm="."><plain>SugiyamaM.NakajimaS.KashimaH.BuenauP.KawanabeM. (2008). Direct importance estimation with model selection and its application to covariate shift adaptation. Neural Info. </plain></SENT>
+<SENT sid="870" pm="."><plain>Proc. </plain></SENT>
+<SENT sid="871" pm="."><plain>Syst. 1433–1440. </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="872" pm="."><plain>TastanO.QiY.CarbonellJ. </plain></SENT>
+<SENT sid="873" pm="."><plain>G.Klein-SeetharamanJ. (2009). Prediction of interactions between hiv-1 and human proteins by information integration. Pac. </plain></SENT>
+<SENT sid="874" pm="."><plain>Symp. </plain></SENT>
+<SENT sid="875" pm="."><plain>Biocomput. 14, 516–527. <?supplied-pmid 19209727?>19209727 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="876" pm="."><plain>TekirS. </plain></SENT>
+<SENT sid="877" pm="."><plain>D.ÇakirT.ÜlgenK. Ö. (2012). Infection strategies of bacterial and viral pathogens through pathogen–human protein–protein interactions. Front. </plain></SENT>
+<SENT sid="878" pm="."><plain>Microbiol. 3:46. 10.3389/fmicb.2012.00046<?supplied-pmid 22347880?>22347880 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="879" pm="."><plain>The UniProt Consortium (2014). Activities at the Universal protein resource (UniProt). Nucleic Acids Res. 42, D191–D198. 10.1093/nar/gkt1140<?supplied-pmid 24253303?>24253303 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

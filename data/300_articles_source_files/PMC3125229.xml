@@ -1,0 +1,955 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Implement Sci</journal-id><journal-title-group><journal-title>Implementation Science : IS</journal-title></journal-title-group><issn pub-type="epub">1748-5908</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3125229</article-id><article-id pub-id-type="publisher-id">1748-5908-6-55</article-id><article-id pub-id-type="pmid">21619689</article-id><article-id pub-id-type="doi">10.1186/1748-5908-6-55</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research </subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Applying psychological theories to evidence-based clinical practice: identifying factors predictive of lumbar spine x-ray for low back pain in UK primary care practice </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="A1"><name><surname>Grimshaw</surname><given-names>Jeremy M</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>jgrimshaw@ohri.ca</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Eccles</surname><given-names>Martin P</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>martin.eccles@ncl.ac.uk</email></contrib><contrib contrib-type="author" id="A3"><name><surname>Steen</surname><given-names>Nick</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>nick.steen@ncl.ac.uk</email></contrib><contrib contrib-type="author" id="A4"><name><surname>Johnston</surname><given-names>Marie</given-names></name><xref ref-type="aff" rid="I3">3</xref><email>m.johnston@abdn.ac.uk</email></contrib><contrib contrib-type="author" id="A5"><name><surname>Pitts</surname><given-names>Nigel B</given-names></name><xref ref-type="aff" rid="I4">4</xref><email>n.b.pitts@chs.dundee.ac.uk</email></contrib><contrib contrib-type="author" id="A6"><name><surname>Glidewell</surname><given-names>Liz</given-names></name><xref ref-type="aff" rid="I5">5</xref><email>l.glidewell@leeds.ac.uk</email></contrib><contrib contrib-type="author" id="A7"><name><surname>Maclennan</surname><given-names>Graeme</given-names></name><xref ref-type="aff" rid="I6">6</xref><email>g.maclennan@abdn.ac.uk</email></contrib><contrib contrib-type="author" id="A8"><name><surname>Thomas</surname><given-names>Ruth</given-names></name><xref ref-type="aff" rid="I6">6</xref><email>r.e.thomas@abdn.ac.uk</email></contrib><contrib contrib-type="author" id="A9"><name><surname>Bonetti</surname><given-names>Debbie</given-names></name><xref ref-type="aff" rid="I4">4</xref><email>D.bonetti@cpse.dundee.ac.uk</email></contrib><contrib contrib-type="author" id="A10"><name><surname>Walker</surname><given-names>Anne</given-names></name><xref ref-type="aff" rid="I6">6</xref><email>anne_walker1@yahoo.co.uk</email></contrib></contrib-group><aff id="I1"><label>1</label>Clinical Epidemiology Programme, Ottawa Health Research Institute and Department of Medicine, University of Ottawa, 1053 Carling Avenue, Administration Building Room 2-017, Ottawa, K1Y 4E9, Canada</aff><aff id="I2"><label>2</label>Institute of Health and Society, Newcastle University, Baddiley-Clark Building, Richardson Road, Newcastle upon Tyne, NE2 4AX, UK</aff><aff id="I3"><label>3</label>College of Life Sciences and Medicine, University of Aberdeen, Health Sciences Building (2nd floor), Foresterhill, Aberdeen, AB25 2ZD, UK</aff><aff id="I4"><label>4</label>Dental Health Services &amp; Research Unit, University of Dundee, MacKenzie Building, Kirsty Semple Way, Dundee, DD2 4BF, UK</aff><aff id="I5"><label>5</label>Leeds Institute of Health Sciences, University of Leeds, Charles Thackrah Building, 101 Clarendon Road, Leeds, LS2 9LJ, UK</aff><aff id="I6"><label>6</label>Health Services Research Unit, University of Aberdeen, Foresterhill, Aberdeen, AB25 2ZD, UK</aff><pub-date pub-type="collection"><year>2011</year></pub-date><pub-date pub-type="epub"><day>28</day><month>5</month><year>2011</year></pub-date><volume>6</volume><fpage>55</fpage><lpage>55</lpage><history><date date-type="received"><day>13</day><month>1</month><year>2011</year></date><date date-type="accepted"><day>28</day><month>5</month><year>2011</year></date></history><permissions><copyright-statement>Copyright ©2011 Grimshaw et al; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2011</copyright-year><copyright-holder>Grimshaw et al; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.implementationscience.com/content/6/1/55"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Psychological models predict behaviour in a wide range of settings. </plain></SENT>
+<SENT sid="3" pm="."><plain>The aim of this study was to explore the usefulness of a range of psychological models to predict the health professional behaviour 'referral for lumbar spine x-ray in patients presenting with low back pain' by UK primary care physicians. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="4" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="5" pm="."><plain>Psychological measures were collected by postal questionnaire survey from a random sample of primary care physicians in Scotland and north England. </plain></SENT>
+<SENT sid="6" pm="."><plain>The outcome measures were clinical behaviour (referral rates for lumbar spine x-rays), behavioural simulation (lumbar spine x-ray referral decisions based upon scenarios), and behavioural intention (general intention to refer for lumbar spine x-rays in patients with low back pain). </plain></SENT>
+<SENT sid="7" pm="."><plain>Explanatory variables were the constructs within the Theory of Planned Behaviour (TPB), Social Cognitive Theory (<z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot>), Common Sense Self-Regulation Model (CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>), Operant Learning Theory (OLT), Implementation Intention (II), Weinstein's Stage Model termed the Precaution Adoption Process (<z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot>), and knowledge. </plain></SENT>
+<SENT sid="8" pm="."><plain>For each of the outcome measures, a generalised linear model was used to examine the predictive value of each theory individually. </plain></SENT>
+<SENT sid="9" pm="."><plain>Linear regression was used for the intention and simulation outcomes, and negative binomial regression was used for the behaviour outcome. </plain></SENT>
+<SENT sid="10" pm="."><plain>Following this 'theory level' analysis, a 'cross-theoretical construct' analysis was conducted to investigate the combined predictive value of all individual constructs across theories. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="11" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>Constructs from TPB, <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot>, CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>, and OLT predicted behaviour; however, the theoretical models did not fit the data well. </plain></SENT>
+<SENT sid="13" pm="."><plain>When predicting behavioural simulation, the proportion of variance explained by individual theories was TPB 11.6%, <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> 12.1%, OLT 8.1%, and II 1.5% of the variance, and in the cross-theory analysis constructs from TPB, CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> and II explained 16.5% of the variance in simulated behaviours. </plain></SENT>
+<SENT sid="14" pm="."><plain>When predicting intention, the proportion of variance explained by individual theories was TPB 25.0%, <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> 21.5%, CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> 11.3%, OLT 26.3%, <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot> 2.6%, and knowledge 2.3%, and in the cross-theory analysis constructs from TPB, <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot>, CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>, and OLT explained 33.5% variance in intention. </plain></SENT>
+<SENT sid="15" pm="."><plain>Together these results suggest that physicians' beliefs about consequences and beliefs about capabilities are likely determinants of lumbar spine x-ray referrals. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="16" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="17" pm="."><plain>The study provides evidence that taking a theory-based approach enables the creation of a replicable methodology for identifying factors that predict clinical behaviour. </plain></SENT>
+<SENT sid="18" pm="."><plain>However, a number of conceptual and methodological challenges remain. </plain></SENT>
+</text></SecTag></p></sec></abstract></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="19" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="20" pm="."><plain>Healthcare systems and professionals fail to deliver the quality of care to which they aspire. </plain></SENT>
+<SENT sid="21" pm="."><plain>Multiple studies internationally have observed evidence to practice gaps demonstrating that 30 to 40 percent of patients do not get treatments of proven effectiveness, and equally discouraging, up to 25 percent of patients receive unnecessary care that is potentially harmful [1-3]. </plain></SENT>
+<SENT sid="22" pm="."><plain>Such evidence to practice gaps have significant adverse effects on the health and social welfare of citizens and economic productivity. </plain></SENT>
+</text></p><p><text><SENT sid="23" pm="."><plain>Lumbar spine imaging for low back pain in primary care settings is an example of an evidence to practice gap. </plain></SENT>
+<SENT sid="24" pm="."><plain>Low back pain is an extremely common presentation in primary care. </plain></SENT>
+<SENT sid="25" pm="."><plain>However, lumbar spine imaging in patients under 50 years is of limited diagnostic benefit within primary care settings [4]. </plain></SENT>
+<SENT sid="26" pm="."><plain>Globally, clinical guidelines for the management of low back pain do not recommend routine imaging of patients with low back pain [4-8]. </plain></SENT>
+<SENT sid="27" pm="."><plain>Furthermore, standard lumbar spine x-rays (the most common imaging modality used by UK primary care physicians) are associated with significant ionising radiation dosage. </plain></SENT>
+<SENT sid="28" pm="."><plain>Despite this, lumbar spine x-rays are the fourth most common x-ray request from UK primary care physicians [9], with x-ray referrals continuing at the rate of 7 per 1000 patients per year [10]. </plain></SENT>
+<SENT sid="29" pm="."><plain>We conducted a trial that found that for the majority of primary care physician requests, case note review could not identify appropriate indications for referral [10]. </plain></SENT>
+<SENT sid="30" pm="."><plain>The trial also observed a reduction in lumbar spine x-rays of 20 percent without apparent adverse effects following the introduction of educational messages [10]. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>Recognition of evidence to practice gaps has led to increased interest in more active strategies to disseminate and implement evidence. </plain></SENT>
+<SENT sid="32" pm="."><plain>Over the past two decades, a considerable body of implementation research has been developed [11]. </plain></SENT>
+<SENT sid="33" pm="."><plain>This research demonstrates that dissemination and implementation interventions can be effective, but provides little information to guide the choice or optimise the components of such complex interventions in practice [12,13]. </plain></SENT>
+<SENT sid="34" pm="."><plain>The effectiveness of interventions appears to vary across different clinical problems, contexts, and organizations. </plain></SENT>
+<SENT sid="35" pm="."><plain>Our understanding of potential barriers and enablers to dissemination and implementation is limited and hindered by a lack of a 'basic science' relating to determinants of professional and organizational behaviour and potential targets for intervention [14]. </plain></SENT>
+<SENT sid="36" pm="."><plain>The challenge for implementation researchers is to develop and evaluate a theoretical base to support the choice and development of interventions as well as the interpretation of implementation study results [15]. </plain></SENT>
+<SENT sid="37" pm="."><plain>Despite recent increased interest in the potential value of behavioural theory to predict healthcare professional behaviour, relatively few studies have assessed this. </plain></SENT>
+<SENT sid="38" pm="."><plain>A recent review by Godin et al. explored the use of social cognitive models to better understand determinants of health care professionals' intentions and behaviours [16]. </plain></SENT>
+<SENT sid="39" pm="."><plain>They identified 72 studies that provided information on the determinants of intention, but only 16 prospective studies that provided information on the determinants of behaviour. </plain></SENT>
+</text></p><p><text><SENT sid="40" pm="."><plain>The current study, one part of the PRIME (PRocess modelling in ImpleMEntation research) study) [17], aimed to investigate the use of a number of psychological theories to explore factors associated with primary care physician lumbar spine x-ray referrals. </plain></SENT>
+<SENT sid="41" pm="."><plain>Previous PRIME studies have used similar methods to explore factors associated with primary care physicians' use of antibiotics for sore throats and general dental practitioners' use of routine intra-oral x-rays and preventive fissure sealants [18-20]. </plain></SENT>
+<SENT sid="42" pm="."><plain>Variables were drawn from the Theory of Planned Behaviour (TPB) [21], Social Cognitive Theory (<z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot>) [22], Operant Learning Theory (OLT) [23] (<ext-link ext-link-type="uri" xlink:href="http://www.bfskinner.org/BFSkinner/Home.html">http://www.bfskinner.org/BFSkinner/Home.html</ext-link>, Implementation Intentions (II) [24], Common Sense Self-Regulation Model (CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>) [25], and Weinstein's Stage Model termed the Precaution Adoption Process (<z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot>) [26,27]. </plain></SENT>
+<SENT sid="43" pm="."><plain>These specific theories, which are described in detail elsewhere [28], were chosen because they predict behaviour but vary in their emphasis. </plain></SENT>
+<SENT sid="44" pm="."><plain>Some focus on motivation, proposing that motivation determines behaviour, and therefore the best predictors of behaviour are factors that predict or determine motivation (e.g., TPB). </plain></SENT>
+<SENT sid="45" pm="."><plain>Some place more emphasis on factors that are necessary to predict behaviour in people who are already motivated to change (e.g., II). </plain></SENT>
+<SENT sid="46" pm="."><plain>Others propose that individuals are at different stages in the progress toward behaviour change, and that predictors of behaviour may be different for individuals at different stages (e.g., <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot>). </plain></SENT>
+<SENT sid="47" pm="."><plain>The specific models used in this study were chosen for three additional reasons. </plain></SENT>
+<SENT sid="48" pm="."><plain>First, they have been rigorously evaluated with patients or with healthy individuals. </plain></SENT>
+<SENT sid="49" pm="."><plain>Second, they allow us to examine the influence on clinical behaviour of perceived external factors, such as patient preferences and organisational barriers and facilitators. </plain></SENT>
+<SENT sid="50" pm="."><plain>Third, they all explain behaviour in terms of variables that are amenable to change. </plain></SENT>
+</text></p><p><text><SENT sid="51" pm="."><plain>The objective of this study was to identify those theories and the theoretical constructs that predicted clinical behaviour, behavioural simulation (as measured by the decisions made in response to five written clinical scenarios) and behavioural intention for lumbar spine x-ray referral. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="52" pm="."><plain>Methods </plain></SENT>
+</text></title><p><text><SENT sid="53" pm="."><plain>The methods of the study are described in detail elsewhere [17-20]. </plain></SENT>
+<SENT sid="54" pm="."><plain>Briefly, this was a predictive study of the theory-based cognitions and clinical behaviours of primary care physicians; in this paper, we report data on primary care physicians' lumbar spine x-ray requests. </plain></SENT>
+<SENT sid="55" pm="."><plain>Study participants were a random sample of primary care physicians selected from a list of all such physicians in selected regions of Scotland (Grampian, Tayside, Lothian) and north England (Durham, Newcastle and South Tees) by a statistician using a list of random sampling numbers. </plain></SENT>
+<SENT sid="56" pm="."><plain>Data on theory-based cognitions (predictor measures) and two interim outcome measures (stated behavioural intention and behavioural simulation) were collected by postal questionnaire survey during the 12-month period to which the behavioural data related. </plain></SENT>
+<SENT sid="57" pm="."><plain>Behavioural data were collected from routine data systems in the hospitals that primary care physicians reported as their referral centres for lumbar spine x-rays. </plain></SENT>
+<SENT sid="58" pm="."><plain>Planned analyses explored the predictive value of theories and theory-based cognitions in explaining variance in the behavioural data. </plain></SENT>
+</text></p><sec><title><text><SENT sid="59" pm="."><plain>Predictor measures </plain></SENT>
+</text></title><p><text><SENT sid="60" pm="."><plain>Theoretically-derived measures were developed following standard operationalisation protocols wherever possible [21,29-33]. </plain></SENT>
+<SENT sid="61" pm="."><plain>The cognition questions were developed from semi-structured interviews with 18 primary care physicians in Scotland and north England that lasted up to 60 minutes. </plain></SENT>
+<SENT sid="62" pm="."><plain>The interviews use standard elicitation methods and covered physicians' views and experiences about managing patients with low back pain. </plain></SENT>
+<SENT sid="63" pm="."><plain>Responses were used to create the questions measuring constructs. </plain></SENT>
+<SENT sid="64" pm="."><plain>Five knowledge questions were developed by the study team based on issues for which there was good evidence. </plain></SENT>
+<SENT sid="65" pm="."><plain>Table 1 provides a summary of the predictor measures used in this study (see also [28]); the instrument is available as Additional File 1. </plain></SENT>
+<SENT sid="66" pm="."><plain>Unless otherwise stated, all questions were rated on a 7-point scale from 'strongly disagree' to 'strongly agree.' We aimed to include at least three questions per psychological construct. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="67" pm="."><plain>Summary of the explanatory measures </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><tbody><tr><td align="left" colspan="2"><text><SENT sid="68" pm="."><plain>Theory of Planned Behaviour (Ajzen, 1991) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="69" pm="."><plain> Constructs (number of questions) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="70" pm="."><plain>Example Question(s) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="71" pm="."><plain>Behavioural intention (3) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="72" pm="."><plain>I intend to refer patients with back pain for an X-ray as part of their management </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="73" pm="."><plain>Attitude: Direct (3); Indirecta (8 behavioural beliefs (bb) multiplied by 8 outcome evaluations (oe). </plain></SENT>
+<SENT sid="74" pm="."><plain>The score was the mean of the summed multiplicatives.) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="75" pm="."><plain>Direct: In general, the possible harm to the patient of a lumbar spine X-ray is outweighed by its benefits; Indirect: In general, referring patients with back pain for an X-ray would reassure them (bb) x reassuring patients with back pain is (oe: un/important) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="76" pm="."><plain>Subjective Norm: Indirect (4 normative beliefs (nb) multiplied by 4 motivation to comply (mtc) questions. </plain></SENT>
+<SENT sid="77" pm="."><plain>The score was the mean of the summed multiplicatives). </plain></SENT>
+</text></td><td align="left"><text><SENT sid="78" pm="."><plain>I feel under pressure from the NHS not to refer patients for an X-ray (nb) x How motivated are you to do what the NHS thinks you should (mtc: very much/not at all) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="79" pm="."><plain>Perceived Behavioural Control: Direct (4); Indirect/power (14)c </plain></SENT>
+</text></td><td align="left"><text><SENT sid="80" pm="."><plain>Direct: Whether I refer patients for a lumbar X-ray is entirely up to me. Indirect: Without an X-ray, how confident are you in your ability to treat patients with back pain who expect me to refer them for an X-ray </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="2"><text><SENT sid="81" pm="."><plain>Social Cognitive Theory (Bandura,1998) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="82" pm="."><plain>Risk Perception (3) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="83" pm="."><plain>It is highly likely that patients with back pain will be worse off if I do not refer them for an X-ray. </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="84" pm="."><plain>Outcome ExpectanciesSelf (2x2), Behaviour (8x8). </plain></SENT>
+<SENT sid="85" pm="."><plain>The score was the mean of the summed multiplicatives. </plain></SENT>
+</text></td><td align="left"><text><SENT sid="86" pm="."><plain>Self: If I refer a patient with back pain for an X-ray, then I will think of myself as a competent GP x Thinking of myself as a competent GP is (Un/Important) Behaviour: See Attitude (Theory of Planned Behaviour) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="87" pm="."><plain>Self Efficacy: General: Generalized Self-Efficacy Scale (Schwarzer, 1992) (10: 4 point scale, not at all true/exactly true); Specific (7) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="88" pm="."><plain>General: I can always manage to solve difficult problems if I try hard enough Specific: How confident are you in your ability to treat back problems without using an X-ray report </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="2"><text><SENT sid="89" pm="."><plain>Implementation Intention (Gollwitzer, 1993) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="90" pm="."><plain>Action planning (3) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="91" pm="."><plain>Currently, my standard method of managing patients with back pain does not include referring them for an X-ray </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="2"><text><SENT sid="92" pm="."><plain>Operant Learning Theory (Skinner, Blackman, 1974) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="93" pm="."><plain>Anticipated consequences (3) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="94" pm="."><plain>If I start routinely referring patients with back pain then, on balance, my life as a GP will be easier in the long run </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="95" pm="."><plain>Evidence of habit (2) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="96" pm="."><plain>When I see a patient with back pain, I automatically consider referring them for an X-ray </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="97" pm="."><plain>Experienced (rewarding and punishing) consequences (4: more likely to refer (score = 1); less likely (score=-1); unchanged/not sure/never occurred (score = 0)). </plain></SENT>
+<SENT sid="98" pm="."><plain>Scores were summed. </plain></SENT>
+</text></td><td align="left"><text><SENT sid="99" pm="."><plain>Think about the last time you referred a patient for a lumbar spine X-ray and felt pleased that you had done so. </plain></SENT>
+<SENT sid="100" pm="."><plain>Do you think the result of this episode has made you: Think about the last time you decided not to refer a patient for a lumbar spine X-ray and felt sorry that you had not done so. </plain></SENT>
+<SENT sid="101" pm="."><plain>Do you think the result of this episode has made you: </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="2"><text><SENT sid="102" pm="."><plain>Common Sense Self-regulation Modeld (Leventhal et al., 1984) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="103" pm="."><plain>Perceived identity (3) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="104" pm="."><plain>Back pain as seen in general practice is generally of an intense nature </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="105" pm="."><plain>Perceived cause (8) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="106" pm="."><plain>Back pain is caused by stress or worry </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="107" pm="."><plain>Perceived controllability (7) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="108" pm="."><plain>What the patient does can determine whether back pain gets better or worse, What I do can determine whether the patient's back pain gets better or worse </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="109" pm="."><plain>Perceived duration (5) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="110" pm="."><plain>Back pain as seen in general practice is very unpredictable </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="111" pm="."><plain>Perceived consequences (3) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="112" pm="."><plain>Back pain does not have much effect on a patient's life </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="113" pm="."><plain>Coherence (2) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="114" pm="."><plain>I have a clear picture or understanding of back pain </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="115" pm="."><plain>Emotional response (4) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="116" pm="."><plain>Seeing patients with back pain does not worry me </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="2"><text><SENT sid="117" pm="."><plain>Precaution Adoption Process (Stage model)(Weinstein, 1988; Weinstein, Rothman &amp; Sutton, 1998) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="118" pm="."><plain>Current stage of change. </plain></SENT>
+<SENT sid="119" pm="."><plain>A single statement is ticked to indicate the behavioural stage </plain></SENT>
+</text></td><td align="left"><text><SENT sid="120" pm="."><plain>Unmotivated (3): I have not yet thought about changing the number of lumbar X-rays I currently request. </plain></SENT>
+<SENT sid="121" pm="."><plain>It has been a while since I have thought about changing the number of lumbar X-rays I request. </plain></SENT>
+<SENT sid="122" pm="."><plain>Motivated (2): I have thought about it and decided that I will not change the number of lumbar X-rays I request. </plain></SENT>
+<SENT sid="123" pm="."><plain>I have decided that I will request more lumbar X-rays. </plain></SENT>
+<SENT sid="124" pm="."><plain>I have decided that I will request less lumbar X-rays. </plain></SENT>
+<SENT sid="125" pm="."><plain>Action (1): I have already done something about increasing the number of lumbar X-rays I request I have already done something about decreasing the number of lumbar X-rays I request </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="2"><text><SENT sid="126" pm="."><plain>Other Measures </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="127" pm="."><plain>Knowledge (5) (True/False/Not Sure) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="128" pm="."><plain>The presence of spondolytic changes on a lumbar spine X-ray correlates well with back pain </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="129" pm="."><plain>Demographic </plain></SENT>
+</text></td><td align="left"><text><SENT sid="130" pm="."><plain>Post code, gender, time qualified, number of other doctors in practice, trainer status, hours per week, list size </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="131" pm="."><plain>a All indirect measures consist of specific belief questions identified in the preliminary study as salient to the management of low back pain. </plain></SENT>
+</text></p><p><text><SENT sid="132" pm="."><plain>b These individuals and groups were identified in the preliminary study as influential in the management of low back pain </plain></SENT>
+</text></p><p><text><SENT sid="133" pm="."><plain>c An indirect measure of perceived behavioural control usually would be the sum of a set of multiplicatives (control beliefs x power of each belief to inhibit/enhance behaviour). </plain></SENT>
+<SENT sid="134" pm="."><plain>However, the preliminary study demonstrated that it proved problematic to ask clinicians meaningful questions which used the word 'control' as clinicians tended to describe themselves as having complete control over the final decision to perform the behaviour. </plain></SENT>
+<SENT sid="135" pm="."><plain>Support for measuring perceived behavioural control using only questions as to the ease or difficulty of performing the outcome behaviour was derived from a metanalysis which suggested that perceived ease/difficulty questions were sensitive predictors of behavioural intention and behaviour (Trafimow et al., 2002). </plain></SENT>
+</text></p><p><text><SENT sid="136" pm="."><plain>d Illness representation measures were derived from the Revised Illness Perception Questionnaire (Moss-Morris, R., Weinman, J., Petrie, K. </plain></SENT>
+<SENT sid="137" pm="."><plain>J., Horne, R., Cameron, L.D., &amp; Buick, D. </plain></SENT>
+<SENT sid="138" pm="."><plain>2002) </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="139" pm="."><plain>Outcome measures </plain></SENT>
+</text></title><sec><title><text><SENT sid="140" pm="."><plain>Behaviour </plain></SENT>
+</text></title><p><text><SENT sid="141" pm="."><plain>The number of lumbar spine x-ray imaging requests made by each primary care physician over 12 months were obtained from the hospitals that the responding primary care physicians identified as their radiology referral centres. </plain></SENT>
+<SENT sid="142" pm="."><plain>At the time of the study, primary care physicians in the United Kingdom did not have open access to other modalities of lumbar imaging (CT and MRI scans). </plain></SENT>
+<SENT sid="143" pm="."><plain>We standardised our behaviour by the number of patients registered with the primary care doctor to reflect differences in workloads of the participating primary care doctors. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="144" pm="."><plain>Behavioural simulation </plain></SENT>
+</text></title><p><text><SENT sid="145" pm="."><plain>Our measure used vignettes to simulate clinical decision-making in specific situations; such measures have been shown to be predictive of behaviour, though less so than general measures of intention [34]. </plain></SENT>
+<SENT sid="146" pm="."><plain>Key elements which may influence primary care physicians' decisions to refer for a lumbar spine x-ray on patients with low back pain were identified from the literature, opinion of the clinical members of the research team, and the interviews with primary care physicians. </plain></SENT>
+<SENT sid="147" pm="."><plain>From this, five clinical scenarios were constructed describing patients presenting in primary care with low back pain. </plain></SENT>
+<SENT sid="148" pm="."><plain>Respondents were asked to decide whether or not they would request a lumbar spine x-ray for each scenario, and decisions to request an x-ray were summed to create a total score out of a possible maximum of five. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="149" pm="."><plain>Behavioural intention </plain></SENT>
+</text></title><p><text><SENT sid="150" pm="."><plain>Three questions assessed primary care physicians' intention to refer patients presenting with low back pain for lumbar spine x-ray: </plain></SENT>
+</text></p><p><text><SENT sid="151" pm="."><plain>'When a patient presents with back pain, I have in mind to refer them for X-ray, I intend to refer patients with back pain for an X-ray as part of their management, I aim to refer patients with back pain for an X-ray as part of patient management (rated on a 7-point scale from 'Strongly Disagree' to 'Strongly Agree').' </plain></SENT>
+</text></p><p><text><SENT sid="152" pm="."><plain>Responses were summed (range 3 to 21) and scaled so that a low score equated with a low intention to refer for lumbar spine x-ray. </plain></SENT>
+</text></p></sec></sec><sec><title><text><SENT sid="153" pm="."><plain>Procedure </plain></SENT>
+</text></title><p><text><SENT sid="154" pm="."><plain>Participants were mailed an invitation pack (letter of invitation, questionnaire consisting of psychological and demographic measures, a form requesting consent to allow the research team to access the respondent's referral data, a study newsletter, and a reply paid envelope) by research staff. </plain></SENT>
+<SENT sid="155" pm="."><plain>Initially, 700 primary care physicians were surveyed between July and mid-August 2003. </plain></SENT>
+<SENT sid="156" pm="."><plain>Due to a low initial response rate, a further sample of 400 primary care physicians were surveyed between October and December 2003. </plain></SENT>
+<SENT sid="157" pm="."><plain>Two postal reminders were sent to non-responders at two and four weeks. </plain></SENT>
+<SENT sid="158" pm="."><plain>Behavioural data were collected over a one-year period, from approximately six months before to six months after the assessment of cognitions. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="159" pm="."><plain>Sample size and statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="160" pm="."><plain>The target sample size of 200 was based on a recommendation by Green [35] to have a minimum of 162 subjects when undertaking multiple regression analysis with 14 predictor variables. </plain></SENT>
+</text></p><p><text><SENT sid="161" pm="."><plain>The internal consistency of the measures was tested using Cronbach's alpha. </plain></SENT>
+<SENT sid="162" pm="."><plain>If this was less than 0.6, then questionnaire items were removed from each measure to achieve the highest Cronbach's alpha possible. </plain></SENT>
+<SENT sid="163" pm="."><plain>For constructs with only two questions, a correlation coefficient of 0.25 was used as a cut off. </plain></SENT>
+</text></p><p><text><SENT sid="164" pm="."><plain>For each of the three outcome variables, we examined the relationship between predictor and outcome variables within the structure of each of the theories individually. </plain></SENT>
+<SENT sid="165" pm="."><plain>Spearman's correlation (for behaviour outcome) and Pearson Correlation Coefficients (for behavioural simulation and intention outcomes) between the individual constructs and the outcome measures were calculated. </plain></SENT>
+<SENT sid="166" pm="."><plain>Given the distribution of the behavioural data, we used negative binomial regression (NBR) to model the predictive ability of individual theoretical constructs and complete theories. </plain></SENT>
+<SENT sid="167" pm="."><plain>NBR is used to model count exhibiting over dispersion, as in the case of the behaviour outcome data in this study. </plain></SENT>
+<SENT sid="168" pm="."><plain>We reported incidence rate ratios (IRR) from the NRB models. </plain></SENT>
+<SENT sid="169" pm="."><plain>IRRs estimate the change in the rate of the dependent variable associated with changes in the independent variables. </plain></SENT>
+<SENT sid="170" pm="."><plain>NBR does not generate a direct equivalent of an R2 statistic to estimate the proportion of variance in the dependent variable explained by models. </plain></SENT>
+<SENT sid="171" pm="."><plain>However, it is possible to compute a number of different R2 statistics to explore the goodness of fit of the model [36]. </plain></SENT>
+<SENT sid="172" pm="."><plain>The pseudo-R2 we chose to use was McFaddens' adjusted R2 because it penalizes models in the spirit of adjusted R2 in linear regression for adding more variables to a model (see Additional File 2 for further discussion). </plain></SENT>
+<SENT sid="173" pm="."><plain>Linear regression was used for intention and behavioural simulation. </plain></SENT>
+<SENT sid="174" pm="."><plain>For the five 'perceived cause of illness' questions in the CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>, responses were dichotomized into scores of five to seven (indicating agreement that the cause in question was responsible for low back pain) versus anything else (indicating disagreement). </plain></SENT>
+<SENT sid="175" pm="."><plain>These dichotomous variables were then entered as independent variables into the regression models. </plain></SENT>
+<SENT sid="176" pm="."><plain>The relationship between II and intention was not explored as it is a post-intentional theory. </plain></SENT>
+<SENT sid="177" pm="."><plain>For the analysis of the <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot>, respondents were dichotomized into two groups (decided to reduce or have already reduced x-rays versus other responses) and the relationship between predictive and outcome variables were examined using regression models. </plain></SENT>
+<SENT sid="178" pm="."><plain>Finally, for predictors p &lt; 0.25 irrespective of whether or not they came from the same theory, we conducted a cross-theoretical construct analyses that examined the relationship between predictive and outcome variables. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="179" pm="."><plain>Ethics approval </plain></SENT>
+</text></title><p><text><SENT sid="180" pm="."><plain>The study was approved by the UK South East Multi-Centre Research Ethics Committee (MREC/03/01/03). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec><title><text><SENT sid="181" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="182" pm="."><plain>Of the 1,100 primary care physicians approached, 299 (27%) agreed to participate. </plain></SENT>
+<SENT sid="183" pm="."><plain>Most respondents provided usable data on intention (296) and behavioural simulation (297), and we were able to obtain imaging request data from 287 (Figure 1). </plain></SENT>
+<SENT sid="184" pm="."><plain>Numbers included in analyses vary between the outcome measures because complete case analysis was used. </plain></SENT>
+<SENT sid="185" pm="."><plain>For the negative binomial regression analyses, we had complete data from 240 respondents. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="186" pm="."><plain>Response rates. </plain></SENT>
+</text></p></caption><graphic xlink:href="1748-5908-6-55-1"/></fig></SecTag><p><text><SENT sid="187" pm="."><plain>Fifty eight percent of the respondents were male. </plain></SENT>
+<SENT sid="188" pm="."><plain>Respondents had been qualified for a mean (SD) of 21 (8) years. </plain></SENT>
+<SENT sid="189" pm="."><plain>They had a median inter-quartile range (IQR) list size of 1,450 registered patients, a median IQR of 4.8 (3.6 to 6.8) partners, and worked a median IQR of 8 (6 to 9) half day sessions a week; 45 (15%) were trainers. </plain></SENT>
+<SENT sid="190" pm="."><plain>Descriptive statistics for the independent variables are provided in Table 2. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="191" pm="."><plain>Descriptive statistics </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="192" pm="."><plain>Theory </plain></SENT>
+</text></th><th align="left"><text><SENT sid="193" pm="."><plain>Predictive Constructs </plain></SENT>
+</text></th><th align="center"><text><SENT sid="194" pm="."><plain>N </plain></SENT>
+</text></th><th align="center"><text><SENT sid="195" pm="."><plain>Alpha </plain></SENT>
+</text></th><th align="center"><text><SENT sid="196" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center"><text><SENT sid="197" pm="."><plain>(SD) </plain></SENT>
+</text></th><th align="center"><text><SENT sid="198" pm="."><plain>Respondents agreeing with item (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="199" pm="."><plain>Theory of </plain></SENT>
+</text></td><td align="left"><text><SENT sid="200" pm="."><plain>Attitude direct </plain></SENT>
+</text></td><td align="center"><text><SENT sid="201" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="202" pm="."><plain>0.25 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="203" pm="."><plain>4.6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="204" pm="."><plain>(1.2) </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="205" pm="."><plain>Planned </plain></SENT>
+</text></td><td align="left"><text><SENT sid="206" pm="."><plain>Attitude indirect </plain></SENT>
+</text></td><td align="center"><text><SENT sid="207" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="208" pm="."><plain>0.75 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="209" pm="."><plain>18.6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="210" pm="."><plain>(6.9) </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="211" pm="."><plain>Behaviour </plain></SENT>
+</text></td><td align="left"><text><SENT sid="212" pm="."><plain>Subjective Norm </plain></SENT>
+</text></td><td align="center"><text><SENT sid="213" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="214" pm="."><plain>0.68 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="215" pm="."><plain>15.0 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="216" pm="."><plain>(4.8) </plain></SENT>
+</text></td><td/></tr><tr><td/><td colspan="6"><text><SENT sid="217" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="218" pm="."><plain>Intention </plain></SENT>
+</text></td><td align="center"><text><SENT sid="219" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="220" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="221" pm="."><plain>2.1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="222" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="223" pm="."><plain>PBC direct </plain></SENT>
+</text></td><td align="center"><text><SENT sid="224" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="225" pm="."><plain>0.63 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="226" pm="."><plain>4.5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="227" pm="."><plain>(1.1) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="228" pm="."><plain>PBC power </plain></SENT>
+</text></td><td align="center"><text><SENT sid="229" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="230" pm="."><plain>0.91 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="231" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="232" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td colspan="7"><text><SENT sid="233" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="234" pm="."><plain>Social Cognitive Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="235" pm="."><plain>Risk perception </plain></SENT>
+</text></td><td align="center"><text><SENT sid="236" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="237" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="238" pm="."><plain>2.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="239" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="240" pm="."><plain>Outcome expectancies </plain></SENT>
+</text></td><td align="center"><text><SENT sid="241" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="242" pm="."><plain>0.76 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="243" pm="."><plain>13.9 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="244" pm="."><plain>(8.3) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="245" pm="."><plain>Self efficacy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="246" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="247" pm="."><plain>0.93 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="248" pm="."><plain>3.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="249" pm="."><plain>(0.8) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="250" pm="."><plain>Generalised self efficacy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="251" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="252" pm="."><plain>0.87 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="253" pm="."><plain>2.8 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="254" pm="."><plain>(0.4) </plain></SENT>
+</text></td><td/></tr><tr><td colspan="7"><text><SENT sid="255" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="256" pm="."><plain>Implementation Intention </plain></SENT>
+</text></td><td align="left"><text><SENT sid="257" pm="."><plain>Action Planning </plain></SENT>
+</text></td><td align="center"><text><SENT sid="258" pm="."><plain>- </plain></SENT>
+</text></td><td align="center"><text><SENT sid="259" pm="."><plain>- </plain></SENT>
+</text></td><td align="center"><text><SENT sid="260" pm="."><plain>2.4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="261" pm="."><plain>(1.6) </plain></SENT>
+</text></td><td/></tr><tr><td colspan="7"><text><SENT sid="262" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="263" pm="."><plain>Operant Learning Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="264" pm="."><plain>Anticipated consequences </plain></SENT>
+</text></td><td align="center"><text><SENT sid="265" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="266" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="267" pm="."><plain>2.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="268" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="269" pm="."><plain>Evidence of habitual behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="270" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="271" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="272" pm="."><plain>3.3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="273" pm="."><plain>(1.7) </plain></SENT>
+</text></td><td/></tr><tr><td colspan="7"><text><SENT sid="274" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="275" pm="."><plain>Common Sense </plain></SENT>
+</text></td><td align="left"><text><SENT sid="276" pm="."><plain>Identity of condition </plain></SENT>
+</text></td><td align="center"><text><SENT sid="277" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="278" pm="."><plain>0.49 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="279" pm="."><plain>4.2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="280" pm="."><plain>(0.8) </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="281" pm="."><plain>Self-regulation </plain></SENT>
+</text></td><td align="left"><text><SENT sid="282" pm="."><plain>Timeline acute </plain></SENT>
+</text></td><td align="center"><text><SENT sid="283" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="284" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="285" pm="."><plain>3.4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="286" pm="."><plain>(0.8) </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="287" pm="."><plain>Model </plain></SENT>
+</text></td><td align="left"><text><SENT sid="288" pm="."><plain>Timeline cyclical </plain></SENT>
+</text></td><td align="center"><text><SENT sid="289" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="290" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="291" pm="."><plain>4.4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="292" pm="."><plain>(0.9) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="293" pm="."><plain>Control - by treatment </plain></SENT>
+</text></td><td align="center"><text><SENT sid="294" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="295" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="296" pm="."><plain>5.6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="297" pm="."><plain>(0.8) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="298" pm="."><plain>Control - by patient </plain></SENT>
+</text></td><td align="center"><text><SENT sid="299" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="300" pm="."><plain>0.85 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="301" pm="."><plain>5.7 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="302" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="303" pm="."><plain>Control - by doctor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="304" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="305" pm="."><plain>0.36 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="306" pm="."><plain>5.3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="307" pm="."><plain>(0.9) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="308" pm="."><plain>Cause - stress </plain></SENT>
+</text></td><td align="center"><text><SENT sid="309" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="310" pm="."><plain>126 (42) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="311" pm="."><plain>Cause - family problems </plain></SENT>
+</text></td><td align="center"><text><SENT sid="312" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="313" pm="."><plain>117 (39) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="314" pm="."><plain>Cause - poor prior medical care </plain></SENT>
+</text></td><td align="center"><text><SENT sid="315" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="316" pm="."><plain>66 (22) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="317" pm="."><plain>Cause - patient's own behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="318" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="319" pm="."><plain>225 (85) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="320" pm="."><plain>Cause - ageing </plain></SENT>
+</text></td><td align="center"><text><SENT sid="321" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="322" pm="."><plain>217 (73) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="323" pm="."><plain>Cause - bad luck </plain></SENT>
+</text></td><td align="center"><text><SENT sid="324" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="325" pm="."><plain>140 (47) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="326" pm="."><plain>Cause - overwork </plain></SENT>
+</text></td><td align="center"><text><SENT sid="327" pm="."><plain>1 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="328" pm="."><plain>148 (49) </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="329" pm="."><plain>Consequence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="330" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="331" pm="."><plain>0.21 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="332" pm="."><plain>4.8 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="333" pm="."><plain>(0.8) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="334" pm="."><plain>Emotional Response </plain></SENT>
+</text></td><td align="center"><text><SENT sid="335" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="336" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="337" pm="."><plain>5.1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="338" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="339" pm="."><plain>Coherence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="340" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="341" pm="."><plain>0.74 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="342" pm="."><plain>2.7 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="343" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr><tr><td colspan="7"><text><SENT sid="344" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="345" pm="."><plain>Precaution Adoption Process </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td align="center"><text><SENT sid="346" pm="."><plain>157 (53)† </plain></SENT>
+</text></td></tr><tr><td colspan="7"><text><SENT sid="347" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="348" pm="."><plain>Other </plain></SENT>
+</text></td><td align="left"><text><SENT sid="349" pm="."><plain>Knowledge </plain></SENT>
+</text></td><td align="center"><text><SENT sid="350" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="351" pm="."><plain>0.21 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="352" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="353" pm="."><plain>(1.0) </plain></SENT>
+</text></td><td/></tr></tbody></table><table-wrap-foot><p><text><SENT sid="354" pm="."><plain>*p≤0.05; ** p≤0.01; ***p≤0.001. </plain></SENT>
+</text></p><p><text><SENT sid="355" pm="."><plain>Alpha = Cronbach's </plain></SENT>
+</text></p><p><text><SENT sid="356" pm="."><plain>†Number of respondents who replied 'I have decided that I will request less lumbar X-rays' or 'I have already done something about decreasing the number of lumbar X-rays I request.' </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><sec><title><text><SENT sid="357" pm="."><plain>Relationship between the three outcome measures </plain></SENT>
+</text></title><p><text><SENT sid="358" pm="."><plain>The three outcome measures were significantly (though weakly) correlated with each other: for behaviour and behavioural simulation, the Spearman's rho statistic was 0.169 (p = 0.004); similarly for behaviour and behavioural intention it was 0.165 (p = 0.005); and for behavioural simulation and behavioural intention the Pearson's r was 0.313 (p &lt; 0.001). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="359" pm="."><plain>Predicting behaviour </plain></SENT>
+</text></title><p><text><SENT sid="360" pm="."><plain>The mean number of lumbar spine x-rays was 5.0 per 1,000 patients registered per year. </plain></SENT>
+<SENT sid="361" pm="."><plain>The results of analyses are shown in Table 3. </plain></SENT>
+<SENT sid="362" pm="."><plain>Individual construct analyses suggested that constructs from TPB (attitudes, intention, and perceived behavioural control), <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> (risk perception, self efficacy), OLT (anticipated consequences) and CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (cause - aging) significantly predicted the lumbar spine referrals. </plain></SENT>
+<SENT sid="363" pm="."><plain>To aid interpretation of the results, we provide the following example; intention had a mean score of 2.1 (SD 1.0), the IRR was 1.29 -- this suggests that for every point increase in intention (equivalent in this example to one SD), lumbar spine referrals would increase by 29.0%. </plain></SENT>
+<SENT sid="364" pm="."><plain>Theory-level analyses (Table 3) suggested that TPB (perceived behavioural control), <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> (risk perception), OLT (anticipated consequences), CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (control - by patient, cause - poor prior medical care, cause - patients' own behaviours, cause - aging) predicted behaviour. </plain></SENT>
+<SENT sid="365" pm="."><plain>II, <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot>, and knowledge did not predict behaviour. </plain></SENT>
+<SENT sid="366" pm="."><plain>However, the goodness to fit measures suggested that the theoretical models did not predict behaviour data in this dataset (McFadden's pseudo R2 range from 0 to 0.004, see also Additional file 2 for addition goodness to fit measures). </plain></SENT>
+<SENT sid="367" pm="."><plain>In the cross-theoretical construct analysis, constructs from TPB (attitudes) and CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (coherence, cause - poor prior medical care, control - by patient) were retained in the regression model; again the goodness of fit models performed poorly (Table 4). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T3" position="float"><label>Table 3</label><caption><p><text><SENT sid="368" pm="."><plain>Predicting behaviour by psychological theory: negative binomial regression analyses </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="369" pm="."><plain>Theory </plain></SENT>
+</text></th><th align="left"><text><SENT sid="370" pm="."><plain>Predictive Constructs </plain></SENT>
+</text></th><th align="center" colspan="2"><text><SENT sid="371" pm="."><plain>IRR Individual and p-value </plain></SENT>
+</text></th><th align="center" colspan="2"><text><SENT sid="372" pm="."><plain>IRR model </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="373" pm="."><plain>Theory of Planned </plain></SENT>
+</text></td><td align="left"><text><SENT sid="374" pm="."><plain>Intention </plain></SENT>
+</text></td><td align="center"><text><SENT sid="375" pm="."><plain>1.285 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="376" pm="."><plain>0.008 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="377" pm="."><plain>1.097 </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="378" pm="."><plain>Behaviour </plain></SENT>
+</text></td><td align="left"><text><SENT sid="379" pm="."><plain>PBC direct </plain></SENT>
+</text></td><td align="center"><text><SENT sid="380" pm="."><plain>1.023 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="381" pm="."><plain>0.823 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="382" pm="."><plain>1.175 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="383" pm="."><plain>PBC power </plain></SENT>
+</text></td><td align="center"><text><SENT sid="384" pm="."><plain>1.427 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="385" pm="."><plain>&lt; 0.001 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="386" pm="."><plain>1.444** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="387" pm="."><plain>R2 = 0.004 </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="388" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="389" pm="."><plain>Social Cognitive Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="390" pm="."><plain>Risk perception </plain></SENT>
+</text></td><td align="center"><text><SENT sid="391" pm="."><plain>1.444 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="392" pm="."><plain>&lt; 0.001 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="393" pm="."><plain>1.392** </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="394" pm="."><plain>Outcome expectancies </plain></SENT>
+</text></td><td align="center"><text><SENT sid="395" pm="."><plain>1.019 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="396" pm="."><plain>0.080 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="397" pm="."><plain>1.001 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="398" pm="."><plain>Self efficacy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="399" pm="."><plain>1.363 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="400" pm="."><plain>0.019 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="401" pm="."><plain>1.110 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="402" pm="."><plain>Generalised self efficacy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="403" pm="."><plain>0.855 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="404" pm="."><plain>0.564 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="405" pm="."><plain>0.823 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="406" pm="."><plain>R2 = 0.002 </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="407" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="408" pm="."><plain>Implementation Intention </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="409" pm="."><plain>1. </plain></SENT>
+<SENT sid="410" pm="."><plain>111 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="411" pm="."><plain>0.138 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="412" pm="."><plain>1.111 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="413" pm="."><plain>R2 = 0.000 </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="414" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="415" pm="."><plain>Operant Learning Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="416" pm="."><plain>Anticipated consequences </plain></SENT>
+</text></td><td align="center"><text><SENT sid="417" pm="."><plain>1.449 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="418" pm="."><plain>&lt; 0.001 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="419" pm="."><plain>1.413** </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="420" pm="."><plain>Evidence of habitual behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="421" pm="."><plain>1.089 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="422" pm="."><plain>0.179 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="423" pm="."><plain>1.017 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="424" pm="."><plain>R2 = 0.004 </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="425" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="426" pm="."><plain>Common Sense </plain></SENT>
+</text></td><td align="left"><text><SENT sid="427" pm="."><plain>Identity of condition </plain></SENT>
+</text></td><td align="center"><text><SENT sid="428" pm="."><plain>0.864 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="429" pm="."><plain>0.278 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="430" pm="."><plain>0.867 </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="431" pm="."><plain>Self-regulation </plain></SENT>
+</text></td><td align="left"><text><SENT sid="432" pm="."><plain>Timeline acute </plain></SENT>
+</text></td><td align="center"><text><SENT sid="433" pm="."><plain>1.08 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="434" pm="."><plain>0.957 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="435" pm="."><plain>1.026 </plain></SENT>
+</text></td><td/></tr><tr><td align="left"><text><SENT sid="436" pm="."><plain>Model </plain></SENT>
+</text></td><td align="left"><text><SENT sid="437" pm="."><plain>Timeline cyclical </plain></SENT>
+</text></td><td align="center"><text><SENT sid="438" pm="."><plain>1.187 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="439" pm="."><plain>0.196 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="440" pm="."><plain>1.273 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="441" pm="."><plain>Control - by treatment </plain></SENT>
+</text></td><td align="center"><text><SENT sid="442" pm="."><plain>1.105 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="443" pm="."><plain>0.970 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="444" pm="."><plain>1.170 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="445" pm="."><plain>Control - by patient </plain></SENT>
+</text></td><td align="center"><text><SENT sid="446" pm="."><plain>0.869 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="447" pm="."><plain>0.142 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="448" pm="."><plain>0.725* </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="449" pm="."><plain>Control - by doctor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="450" pm="."><plain>0.936 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="451" pm="."><plain>0.524 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="452" pm="."><plain>1.064 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="453" pm="."><plain>Cause - stress </plain></SENT>
+</text></td><td align="center"><text><SENT sid="454" pm="."><plain>1.191 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="455" pm="."><plain>0.370 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="456" pm="."><plain>0.519 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="457" pm="."><plain>Cause - family problems </plain></SENT>
+</text></td><td align="center"><text><SENT sid="458" pm="."><plain>1.345 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="459" pm="."><plain>0.130 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="460" pm="."><plain>2.526 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="461" pm="."><plain>Cause - poor prior medical care </plain></SENT>
+</text></td><td align="center"><text><SENT sid="462" pm="."><plain>1.403 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="463" pm="."><plain>0.134 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="464" pm="."><plain>1.70* </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="465" pm="."><plain>Cause - patient's own behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="466" pm="."><plain>0.897 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="467" pm="."><plain>0.581 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="468" pm="."><plain>0.592* </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="469" pm="."><plain>Cause - ageing </plain></SENT>
+</text></td><td align="center"><text><SENT sid="470" pm="."><plain>1.609 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="471" pm="."><plain>0.028 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="472" pm="."><plain>1.671* </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="473" pm="."><plain>Cause - bad luck </plain></SENT>
+</text></td><td align="center"><text><SENT sid="474" pm="."><plain>0.712 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="475" pm="."><plain>0.080 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="476" pm="."><plain>0.759 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="477" pm="."><plain>Cause - overwork </plain></SENT>
+</text></td><td align="center"><text><SENT sid="478" pm="."><plain>0.878 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="479" pm="."><plain>0.502 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="480" pm="."><plain>0.969 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="481" pm="."><plain>Consequence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="482" pm="."><plain>1.006 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="483" pm="."><plain>0.902 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="484" pm="."><plain>1.060 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="485" pm="."><plain>Emotional Response </plain></SENT>
+</text></td><td align="center"><text><SENT sid="486" pm="."><plain>0.962 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="487" pm="."><plain>0.699 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="488" pm="."><plain>1.005 </plain></SENT>
+</text></td><td/></tr><tr><td/><td align="left"><text><SENT sid="489" pm="."><plain>Coherence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="490" pm="."><plain>1.231 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="491" pm="."><plain>0.046 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="492" pm="."><plain>1.171 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="493" pm="."><plain>R2 = 0.000 </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="494" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="495" pm="."><plain>Precaution Adoption Process </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="496" pm="."><plain>0.871 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="497" pm="."><plain>0.599 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="498" pm="."><plain>0.871 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="499" pm="."><plain>R2 = 0.000 </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="500" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="501" pm="."><plain>Knowledge </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="502" pm="."><plain>0.859 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="503" pm="."><plain>0.104 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="504" pm="."><plain>0.859 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="505" pm="."><plain>R2 = 0.000 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="506" pm="."><plain>*p ≤ 0.05; ** p ≤ 0.01; ***p ≤ 0.001. </plain></SENT>
+</text></p><p><text><SENT sid="507" pm="."><plain>Alpha = Cronbach's; IRR Individual = incidence rate ratio from a regression model with the single construct independent variable IRR Model = incidence rate ratio from the theoretical model with all constructs included as independent variables. </plain></SENT>
+<SENT sid="508" pm="."><plain>R2 is MacFadden's adjusted R2. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="T4" position="float"><label>Table 4</label><caption><p><text><SENT sid="509" pm="."><plain>Results of the stepwise regression cross-theoretical construct analyses </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="510" pm="."><plain>Predictive Constructs </plain></SENT>
+</text></th><th align="left"><text><SENT sid="511" pm="."><plain>Entered </plain></SENT>
+</text></th><th/><th/><th/><th/></tr></thead><tbody><tr><td align="left"><text><SENT sid="512" pm="."><plain>Outcome: Ordering lumbar spine x-rays </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="513" pm="."><plain>IRR </plain></SENT>
+</text></td><td align="center"><text><SENT sid="514" pm="."><plain>Adj. </plain></SENT>
+<SENT sid="515" pm="."><plain>R2 </plain></SENT>
+</text></td><td/><td/></tr><tr><td colspan="6"><text><SENT sid="516" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="517" pm="."><plain>TPB: Attitude Indirect and Direct; PBC Power; IntentionSCT: Risk Perception; Self EfficacyOperant learning theory: anticipated consequences; Evidence of habitual behaviourImplementation IntentionCS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> Timeline cyclical; Control - by patient; Cause - family problems, poor prior medical care, ageing, bad luck; CoherenceKnowledge </plain></SENT>
+</text></td><td align="left"><text><SENT sid="518" pm="."><plain>Coherence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="519" pm="."><plain>1.122* </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="520" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="521" pm="."><plain>Control - by patient </plain></SENT>
+</text></td><td align="center"><text><SENT sid="522" pm="."><plain>0.897* </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="523" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="524" pm="."><plain>Attitude Direct </plain></SENT>
+</text></td><td align="center"><text><SENT sid="525" pm="."><plain>1.017*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="526" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="527" pm="."><plain>Cause - poor prior medical care </plain></SENT>
+</text></td><td align="center"><text><SENT sid="528" pm="."><plain>1.848** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="529" pm="."><plain>0.015† </plain></SENT>
+</text></td><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="530" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td colspan="6"><text><SENT sid="531" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="532" pm="."><plain>Outcome: Behavioural Simulation </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="533" pm="."><plain>Beta </plain></SENT>
+</text></td><td align="center"><text><SENT sid="534" pm="."><plain>Adj. </plain></SENT>
+<SENT sid="535" pm="."><plain>R2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="536" pm="."><plain>df </plain></SENT>
+</text></td><td align="center"><text><SENT sid="537" pm="."><plain>F </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="538" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="539" pm="."><plain>TPB: Attitude Indirect and Direct; PBC Power and PBC Power direct; IntentionSCT: Risk Perception; Outcome expectancy Self EfficacyOperant learning theory: Anticipated Consequences; Evidence of Habitual BehaviourImplementation IntentionCS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>: Control - by treatment, patient, doctor; Cause - ageing; Coherence; Emotional ResponsePrecaution Adoption Process </plain></SENT>
+</text></td><td align="left"><text><SENT sid="540" pm="."><plain>Action Planning </plain></SENT>
+</text></td><td align="center"><text><SENT sid="541" pm="."><plain>0.272*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="542" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="543" pm="."><plain>PBC Power </plain></SENT>
+</text></td><td align="center"><text><SENT sid="544" pm="."><plain>0.252*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="545" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="546" pm="."><plain>Cause - ageing </plain></SENT>
+</text></td><td align="center"><text><SENT sid="547" pm="."><plain>0.126* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="548" pm="."><plain>0.165 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="549" pm="."><plain>3, 277 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="550" pm="."><plain>19.4*** </plain></SENT>
+</text></td></tr><tr><td/><td colspan="5"><text><SENT sid="551" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td colspan="6"><text><SENT sid="552" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="553" pm="."><plain>Outcome: Behavioural Intention </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="554" pm="."><plain>Beta </plain></SENT>
+</text></td><td align="center"><text><SENT sid="555" pm="."><plain>Adj. </plain></SENT>
+<SENT sid="556" pm="."><plain>R2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="557" pm="."><plain>df </plain></SENT>
+</text></td><td align="center"><text><SENT sid="558" pm="."><plain>F </plain></SENT>
+</text></td></tr><tr><td colspan="6"><text><SENT sid="559" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="560" pm="."><plain>TPB: Attitude Indirect and Direct; Subjective Norm; PBC Power and PBC Power directSCT: Risk Perception; Outcome expectancy Self EfficacyOperant learning theory: anticipated consequences; Evidence of Habitual BehaviourCS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>: Control - by treatment, patient and doctor; Cause- stress; Coherence; Emotional ResponsePrecaution Adoption ProcessKnowledge </plain></SENT>
+</text></td><td align="left"><text><SENT sid="561" pm="."><plain>PBC Power </plain></SENT>
+</text></td><td align="center"><text><SENT sid="562" pm="."><plain>0.273*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="563" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="564" pm="."><plain>Evidence of Habitual Behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="565" pm="."><plain>0.286*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="566" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="567" pm="."><plain>Outcome expectancy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="568" pm="."><plain>0.169** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td colspan="5"><text><SENT sid="569" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="570" pm="."><plain>Control - by treatment </plain></SENT>
+</text></td><td align="center"><text><SENT sid="571" pm="."><plain>-0.115* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="572" pm="."><plain>0.335 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="573" pm="."><plain>4, 275 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="574" pm="."><plain>36.1*** </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="575" pm="."><plain>*p ≤ 0.05; ** p ≤ 0.01; ***p ≤ 0.001. </plain></SENT>
+</text></p><p><text><SENT sid="576" pm="."><plain>PBC = perceived behavioural control; TPB = Theory of Planned Behaviour; <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> = Social Cognitive Theory; CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> = Common Sense Self-Regulation Model; </plain></SENT>
+</text></p><p><text><SENT sid="577" pm="."><plain>† McFadden's pseudo R2 </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="578" pm="."><plain>Predicting behavioural simulation </plain></SENT>
+</text></title><p><text><SENT sid="579" pm="."><plain>In response to the five clinical scenarios, the respondents indicated that they would refer for lumbar spine x-ray in a mean (SD) of 1.5 (1.2) cases. </plain></SENT>
+<SENT sid="580" pm="."><plain>The median number of referrals was 1 with a range of 0 to 3. </plain></SENT>
+<SENT sid="581" pm="."><plain>From Table 5, the individual constructs that predicted behavioural simulation (i.e., what primary care physicians said they would do in response to the specific clinical scenarios) were: TPB (attitudes, social norms, perceived behavioural control, and intention), <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> (risk perception, outcome expectancies, and self efficacy); II; OLT (anticipated consequences, evidence of habitual behaviour); CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (control - by treatment, control - by patient, control - by doctor, cause - ageing, emotional response treatment). </plain></SENT>
+<SENT sid="582" pm="."><plain>Neither knowledge nor <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot> predicted behavioural simulation. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T5" position="float"><label>Table 5</label><caption><p><text><SENT sid="583" pm="."><plain>Predicting behavioural simulation and intention by psychological theory: correlation and multiple regression analyses </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th/><th align="center" colspan="5"><text><SENT sid="584" pm="."><plain>Behavioural simulation </plain></SENT>
+</text></th><th align="center" colspan="5"><text><SENT sid="585" pm="."><plain>Behavioural intention </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="586" pm="."><plain>Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="587" pm="."><plain>Predictive Constructs </plain></SENT>
+</text></td><td align="center"><text><SENT sid="588" pm="."><plain>r </plain></SENT>
+</text></td><td align="center"><text><SENT sid="589" pm="."><plain>Beta </plain></SENT>
+</text></td><td align="center"><text><SENT sid="590" pm="."><plain>R2(adj) </plain></SENT>
+</text></td><td align="center"><text><SENT sid="591" pm="."><plain>df </plain></SENT>
+</text></td><td align="center"><text><SENT sid="592" pm="."><plain>F </plain></SENT>
+</text></td><td align="center"><text><SENT sid="593" pm="."><plain>r </plain></SENT>
+</text></td><td align="center"><text><SENT sid="594" pm="."><plain>Beta </plain></SENT>
+</text></td><td align="center"><text><SENT sid="595" pm="."><plain>R2(adj) </plain></SENT>
+</text></td><td align="center"><text><SENT sid="596" pm="."><plain>df </plain></SENT>
+</text></td><td align="center"><text><SENT sid="597" pm="."><plain>F </plain></SENT>
+</text></td></tr><tr><td colspan="12"><text><SENT sid="598" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="599" pm="."><plain>Theory of Planned </plain></SENT>
+</text></td><td align="left"><text><SENT sid="600" pm="."><plain>Intention </plain></SENT>
+</text></td><td align="center"><text><SENT sid="601" pm="."><plain>0.313*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="602" pm="."><plain>0.182** </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td align="left"><text><SENT sid="603" pm="."><plain>Behaviour </plain></SENT>
+</text></td><td align="left"><text><SENT sid="604" pm="."><plain>PBC direct </plain></SENT>
+</text></td><td align="center"><text><SENT sid="605" pm="."><plain>-0.143* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="606" pm="."><plain>0.018 </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="607" pm="."><plain>PBC power </plain></SENT>
+</text></td><td align="center"><text><SENT sid="608" pm="."><plain>0.315*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="609" pm="."><plain>0.236** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="610" pm="."><plain>.116 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="611" pm="."><plain>3, 282 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="612" pm="."><plain>13.4*** </plain></SENT>
+</text></td><td/><td/><td/><td/><td/></tr><tr><td/><td colspan="11"><text><SENT sid="613" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="left"><text><SENT sid="614" pm="."><plain>Attitude direct </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td align="center"><text><SENT sid="615" pm="."><plain>-0.180** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="616" pm="."><plain>-0.088 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="617" pm="."><plain>Attitude indirect </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td align="center"><text><SENT sid="618" pm="."><plain>0.361*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="619" pm="."><plain>0.013 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="620" pm="."><plain>Subjective Norm </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td align="center"><text><SENT sid="621" pm="."><plain>0.149** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="622" pm="."><plain>-0.003 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="623" pm="."><plain>PBC direct </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td align="center"><text><SENT sid="624" pm="."><plain>-0.320*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="625" pm="."><plain>-0.068 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="626" pm="."><plain>PBC power </plain></SENT>
+</text></td><td/><td/><td/><td/><td/><td align="center"><text><SENT sid="627" pm="."><plain>0.487*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="628" pm="."><plain>0.090*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="629" pm="."><plain>.250 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="630" pm="."><plain>5, 282 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="631" pm="."><plain>20.1*** </plain></SENT>
+</text></td></tr><tr><td colspan="12"><text><SENT sid="632" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="633" pm="."><plain>Social Cognitive </plain></SENT>
+</text></td><td align="left"><text><SENT sid="634" pm="."><plain>Risk perception </plain></SENT>
+</text></td><td align="center"><text><SENT sid="635" pm="."><plain>0.286*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="636" pm="."><plain>0.204** </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="637" pm="."><plain>0.392*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="638" pm="."><plain>0.226*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td align="left"><text><SENT sid="639" pm="."><plain>Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="640" pm="."><plain>Outcome expectancies </plain></SENT>
+</text></td><td align="center"><text><SENT sid="641" pm="."><plain>0.139* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="642" pm="."><plain>-0.023 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="643" pm="."><plain>0.350*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="644" pm="."><plain>0.210** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="645" pm="."><plain>Self efficacy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="646" pm="."><plain>0.301*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="647" pm="."><plain>0.245*** </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="648" pm="."><plain>0.336*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="649" pm="."><plain>0.197** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="650" pm="."><plain>Generalised self efficacy </plain></SENT>
+</text></td><td align="center"><text><SENT sid="651" pm="."><plain>-0.036 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="652" pm="."><plain>-0.001 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="653" pm="."><plain>.121 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="654" pm="."><plain>4, 272 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="655" pm="."><plain>10.5*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="656" pm="."><plain>-0.035 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="657" pm="."><plain>0.022 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="658" pm="."><plain>.215 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="659" pm="."><plain>4, 271 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="660" pm="."><plain>19.8*** </plain></SENT>
+</text></td></tr><tr><td colspan="12"><text><SENT sid="661" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="662" pm="."><plain>Implementation intention </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="663" pm="."><plain>.135* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="664" pm="."><plain>.135* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="665" pm="."><plain>.015 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="666" pm="."><plain>1, 275 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="667" pm="."><plain>5.1* </plain></SENT>
+</text></td><td/><td/><td/><td/><td/></tr><tr><td colspan="12"><text><SENT sid="668" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="669" pm="."><plain>Operant Learning Theory </plain></SENT>
+</text></td><td align="left"><text><SENT sid="670" pm="."><plain>Anticipated consequences </plain></SENT>
+</text></td><td align="center"><text><SENT sid="671" pm="."><plain>0.286*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="672" pm="."><plain>0.253*** </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="673" pm="."><plain>0.392*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="674" pm="."><plain>0.238*** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="675" pm="."><plain>Evidence of habitual behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="676" pm="."><plain>0.184** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="677" pm="."><plain>0.080 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="678" pm="."><plain>.081 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="679" pm="."><plain>2, 287 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="680" pm="."><plain>13.7*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="681" pm="."><plain>0.470*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="682" pm="."><plain>0.371*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="683" pm="."><plain>.263 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="684" pm="."><plain>2, 286 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="685" pm="."><plain>52.3*** </plain></SENT>
+</text></td></tr><tr><td colspan="12"><text><SENT sid="686" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="687" pm="."><plain>Common sense </plain></SENT>
+</text></td><td align="left"><text><SENT sid="688" pm="."><plain>Identity of condition </plain></SENT>
+</text></td><td align="center"><text><SENT sid="689" pm="."><plain>-0.043 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="690" pm="."><plain>-0.029 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="691" pm="."><plain>0.043 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="692" pm="."><plain>0.081 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td align="left"><text><SENT sid="693" pm="."><plain>Self regulation model </plain></SENT>
+</text></td><td align="left"><text><SENT sid="694" pm="."><plain>Timeline acute </plain></SENT>
+</text></td><td align="center"><text><SENT sid="695" pm="."><plain>0.079 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="696" pm="."><plain>-0.029 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="697" pm="."><plain>0.097 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="698" pm="."><plain>0.000 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="699" pm="."><plain>Timeline cyclical </plain></SENT>
+</text></td><td align="center"><text><SENT sid="700" pm="."><plain>0.010 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="701" pm="."><plain>0.006 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="702" pm="."><plain>-0.020 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="703" pm="."><plain>-0.050 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="704" pm="."><plain>Control - by treatment </plain></SENT>
+</text></td><td align="center"><text><SENT sid="705" pm="."><plain>-0.187* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="706" pm="."><plain>-0.115 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="707" pm="."><plain>-0.217** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="708" pm="."><plain>-0.160** </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="709" pm="."><plain>Control - by patient </plain></SENT>
+</text></td><td align="center"><text><SENT sid="710" pm="."><plain>-0.121* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="711" pm="."><plain>-0.004 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="712" pm="."><plain>-0.282** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="713" pm="."><plain>-0.089 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="714" pm="."><plain>Control - by doctor </plain></SENT>
+</text></td><td align="center"><text><SENT sid="715" pm="."><plain>-0.140* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="716" pm="."><plain>-0.024 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="717" pm="."><plain>-0.315** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="718" pm="."><plain>-0.107 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="719" pm="."><plain>Cause - stress </plain></SENT>
+</text></td><td align="center"><text><SENT sid="720" pm="."><plain>-0.104 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="721" pm="."><plain>-0.051 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="722" pm="."><plain>-0.119* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="723" pm="."><plain>-0.190 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="724" pm="."><plain>Cause - family problems </plain></SENT>
+</text></td><td align="center"><text><SENT sid="725" pm="."><plain>-0.096 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="726" pm="."><plain>-0.097 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="727" pm="."><plain>-0.080 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="728" pm="."><plain>0.084 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="729" pm="."><plain>Cause - poor prior medical care </plain></SENT>
+</text></td><td align="center"><text><SENT sid="730" pm="."><plain>0.039 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="731" pm="."><plain>0.100 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="732" pm="."><plain>-0.033 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="733" pm="."><plain>0.011 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="734" pm="."><plain>Cause - patient's own behaviour </plain></SENT>
+</text></td><td align="center"><text><SENT sid="735" pm="."><plain>0.040 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="736" pm="."><plain>0.074 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="737" pm="."><plain>-0.048 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="738" pm="."><plain>0.017 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="739" pm="."><plain>Cause - ageing </plain></SENT>
+</text></td><td align="center"><text><SENT sid="740" pm="."><plain>0.145*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="741" pm="."><plain>0.145* </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="742" pm="."><plain>0.073 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="743" pm="."><plain>0.062 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="744" pm="."><plain>Cause - bad luck </plain></SENT>
+</text></td><td align="center"><text><SENT sid="745" pm="."><plain>0.053 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="746" pm="."><plain>0.071 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="747" pm="."><plain>-0.010 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="748" pm="."><plain>-0.044 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="749" pm="."><plain>Cause - overwork </plain></SENT>
+</text></td><td align="center"><text><SENT sid="750" pm="."><plain>-0.032 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="751" pm="."><plain>-0.080 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="752" pm="."><plain>0.046 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="753" pm="."><plain>0.052 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="754" pm="."><plain>Consequence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="755" pm="."><plain>-0.080 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="756" pm="."><plain>-0.063 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="757" pm="."><plain>-0.061 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="758" pm="."><plain>-0.015 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="759" pm="."><plain>Emotional Response </plain></SENT>
+</text></td><td align="center"><text><SENT sid="760" pm="."><plain>-0.184*** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="761" pm="."><plain>-0.117 </plain></SENT>
+</text></td><td/><td/><td/><td align="center"><text><SENT sid="762" pm="."><plain>0.187** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="763" pm="."><plain>-0.001 </plain></SENT>
+</text></td><td/><td/><td/></tr><tr><td/><td align="left"><text><SENT sid="764" pm="."><plain>Coherence </plain></SENT>
+</text></td><td align="center"><text><SENT sid="765" pm="."><plain>0.089 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="766" pm="."><plain>-0.060 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="767" pm="."><plain>.036 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="768" pm="."><plain>16,268 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="769" pm="."><plain>1.7 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="770" pm="."><plain>-0.249** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="771" pm="."><plain>-0.142** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="772" pm="."><plain>.113 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="773" pm="."><plain>16,265 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="774" pm="."><plain>3.2*** </plain></SENT>
+</text></td></tr><tr><td colspan="12"><text><SENT sid="775" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="776" pm="."><plain>Precaution Adoption Process </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="777" pm="."><plain>-0.09 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="778" pm="."><plain>-0.09 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="779" pm="."><plain>.005 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="780" pm="."><plain>1, 296 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="781" pm="."><plain>2.5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="782" pm="."><plain>-0.17** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="783" pm="."><plain>-0.17** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="784" pm="."><plain>0.026 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="785" pm="."><plain>1, 294 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="786" pm="."><plain>8.3** </plain></SENT>
+</text></td></tr><tr><td colspan="12"><text><SENT sid="787" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="788" pm="."><plain>Knowledge </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="789" pm="."><plain>-.091 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="790" pm="."><plain>-.091 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="791" pm="."><plain>.005 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="792" pm="."><plain>1, 292 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="793" pm="."><plain>0.1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="794" pm="."><plain>-.163** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="795" pm="."><plain>-.148** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="796" pm="."><plain>.023 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="797" pm="."><plain>1, 292 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="798" pm="."><plain>8.0** </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="799" pm="."><plain>*p = or &lt;0.05; ** p = or &lt;0.01; ***p = or &lt;0.001. </plain></SENT>
+</text></p><p><text><SENT sid="800" pm="."><plain>r = Pearson product moment correlation coefficient; Beta = standardised regression coefficients. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="801" pm="."><plain>The results of the theory-level analyses are shown in Table 5. </plain></SENT>
+<SENT sid="802" pm="."><plain>The TPB explained 11.6% of the variance in behavioural simulation, <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> explained 12.1%, II explained 1.5%, and OLT explained 8.1%. </plain></SENT>
+<SENT sid="803" pm="."><plain>In the cross-theoretical construct analysis, constructs from TPB (perceived behavioural control), II and CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (cause - ageing) were retained in the regression model, together explaining 16.5% of the variance in the scenario score (Table 4). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="804" pm="."><plain>Predicting behavioural intention </plain></SENT>
+</text></title><p><text><SENT sid="805" pm="."><plain>With the range of possible scores for intention of 1 to 7, the mean (SD) intention score was 2.1 (1.0); the median intention score was 1.6 with a range of 1 to 5.5. </plain></SENT>
+<SENT sid="806" pm="."><plain>The constructs that predicted behavioural intention were: TPB (attitudes, subjective norms, perceived behavioural control); <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> (risk perception, outcome expectancy, self efficacy); OLT (anticipated consequences, evidence of habitual behaviour); CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (control - treatment, control - patient, control - doctor, cause - stress, emotional response, and coherence); knowledge; and <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot> (Table 5). </plain></SENT>
+</text></p><p><text><SENT sid="807" pm="."><plain>The results of the theory level analyses are shown in Table 5. </plain></SENT>
+<SENT sid="808" pm="."><plain>The TPB explained 25% of the variance in behavioural intention, <z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> 21.5%, OLT 26.3%, CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> 11.3%, knowledge 2.3%, and <z:uniprot sup="inside" fb="97" ids="P53933,O43150,Q7SIG6,O74326,O74518,Q9UT49,Q9UTN3,O13833,Q13442,Q3UHX2,Q62785,Q9NVV4,Q9D0D3,P51006,P25500,P51003,P39155,Q9ZWQ8,Q54J73,P28958,P84399,Q51D88,Q77MR9,S0F332,P10226,P89463,Q6UDI9,Q10295,P36702,P09274,Q4JQV9,P29468,P46547,P93732,P46541,C0ZKI1,C7PDD8,A5I3F5,Q184M8,O05420,A5FIF5,Q5FMT1,Q03NE0,D5H0J3,Q1G8L9,P46544,P46542,A8YWL3,P52278,Q890D8,C7TMK0,O83041,P47266,P75092,P42786,Q9JUV1,Q9JZR6,Q97UA2,O32449,Q9S2L4,P96084,Q97A76,P52279,Q9PD69,Q87DF8,Q83XD3,Q9HYF1,Q886D9,Q38924,P80366,Q09131,P15309,Q06141,P36322,P16790,F5HC97,P27417,P52439,Q9QJ40,P52440">PAP</z:uniprot> explained 2.6%. </plain></SENT>
+<SENT sid="809" pm="."><plain>In the cross-theoretical construct analysis, constructs from TPB (perceived behavioural control), OLT (evidence of habitual behaviour, outcome expectancy), CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (control - treatment) were retained in the regression model, together explaining 33.5% of the variance in intention (Table 4). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec><title><text><SENT sid="810" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="811" pm="."><plain>We have successfully developed and applied psychological theory-based questionnaires that have, in the context of ordering of lumbar spine x-rays in the management of patients with low back pain been able to predict two proxies for behaviour (behavioural simulation and intention) and (to a lesser extent) behaviour. </plain></SENT>
+</text></p><sec><title><text><SENT sid="812" pm="."><plain>Overall interpretation </plain></SENT>
+</text></title><p><text><SENT sid="813" pm="."><plain>Low back pain is a frequent presenting problem in primary care settings. </plain></SENT>
+<SENT sid="814" pm="."><plain>However, the use of x-rays in clinical management of low back pain is relatively infrequent. </plain></SENT>
+<SENT sid="815" pm="."><plain>In the theory level analysis predicting clinical behaviour, constructs relating to beliefs about consequences (<z:uniprot sup="inside" fb="1" ids="Q8VZU3,Q8GYW8,P63296,P09910,P63297,P01280,P09683,P63298,P32647,P31299">SCT</z:uniprot> (risk perception) and CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> (cause - poor prior medical treatment, cause - patient's own behaviour and cause-ageing, control - patient) and beliefs about capabilities (TPB (perceived behavioural control)) all significantly predicted behaviour. </plain></SENT>
+<SENT sid="816" pm="."><plain>Looking across our two other outcome measures, there are also suggestions that beliefs about consequences (attitudes, outcome expectancies, risk perception, anticipated consequences) and beliefs about capabilities (PBC, self efficacy) may be important. </plain></SENT>
+<SENT sid="817" pm="."><plain>In addition, II predicted behavioural simulation and OLT (evidence of habitual behaviour) predicted intention. </plain></SENT>
+<SENT sid="818" pm="."><plain>The theories individually explained a significant proportion of the variance in behavioural simulation and intention, but overall were poorly predictive of behaviour. </plain></SENT>
+<SENT sid="819" pm="."><plain>Together, these findings suggest both beliefs about consequences and beliefs about capabilities are likely determinants of lumbar spine x-ray requests. </plain></SENT>
+</text></p><p><text><SENT sid="820" pm="."><plain>This is a correlational study, so the causative aspects of the theories and their constructs remain untested in this population; but it is promising for the utility of applying psychological theory to changing clinical behaviour that the constructs are acting as the theories expect. </plain></SENT>
+<SENT sid="821" pm="."><plain>These results suggest that an intervention that specifically targets predictive elements should have the greatest likelihood of success in influencing the implementation of this evidence-based practice. </plain></SENT>
+</text></p><p><text><SENT sid="822" pm="."><plain>The PRIME study has evaluated the predictive value of a range of theories across different behaviours (prescribing antibiotics for upper respiratory tract infections, or URTIs, taking dental radiographs, placing preventive fissure sealants), target professional groups (primary care doctors, dentists), and contexts [17,19,20,37]; we have demonstrated that different constructs predicted different proportions of the variance in the intention and behaviour. </plain></SENT>
+<SENT sid="823" pm="."><plain>This raises the question of how best to identify relevant theories specific to different behaviours and clinical groups. </plain></SENT>
+<SENT sid="824" pm="."><plain>One option would be to undertake preliminary work to identify the key construct domains that are likely to influence the target behaviours, and use them to specify potentially relevant theories [38,39]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="825" pm="."><plain>Strengths and weaknesses </plain></SENT>
+</text></title><p><text><SENT sid="826" pm="."><plain>Operationalising our behaviour of interest in the surveys that reflected the available behavioural data was challenging. </plain></SENT>
+<SENT sid="827" pm="."><plain>Our behaviour of interest was managing patients with low back pain without referral for lumbar spine x-ray. </plain></SENT>
+<SENT sid="828" pm="."><plain>However, we could only get behavioural data on the number of lumbar spine x-ray referrals ordered by primary care physicians. </plain></SENT>
+<SENT sid="829" pm="."><plain>In general, we tried to word the survey questions to correspond to the available behavioural data (e.g., 'when a patient presents with back pain, I have in mind to refer them for X-ray'). </plain></SENT>
+<SENT sid="830" pm="."><plain>However, we found it difficult to frame some questions that corresponded to the behavioural data and clinically sensible. </plain></SENT>
+<SENT sid="831" pm="."><plain>As a result the final questionnaire, included some questions worded in terms of doing the behaviour (e.g., in general, referring patients with back pain for an X-ray would...) and some worded in terms of not doing the behaviour (e.g., without an x-ray, how confident are you in your ability to...). </plain></SENT>
+<SENT sid="832" pm="."><plain>This raises the issue of whether doing and not doing a behaviour are two sides of the same behaviour, or whether they represent linked but alternate behaviours. </plain></SENT>
+<SENT sid="833" pm="."><plain>If the latter, the predictive ability of our survey instrument would be likely to be reduced. </plain></SENT>
+</text></p><p><text><SENT sid="834" pm="."><plain>Operationalising the constructs with theoretical fidelity was also challenging. </plain></SENT>
+<SENT sid="835" pm="."><plain>A number of the models (OLT, II, CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot>) had not been operationalised in this way prior to the PRIME studies. </plain></SENT>
+<SENT sid="836" pm="."><plain>OLT and II are usually used as intervention methods to change behaviour. </plain></SENT>
+<SENT sid="837" pm="."><plain>However, both predicted behavioural simulation, and OLT predicted intention and behaviour. </plain></SENT>
+<SENT sid="838" pm="."><plain>Since we undertook this study, some of the models have been adapted or enhanced, and different approaches to measurement have been developed -- for example, the post intentional action-coping planning enhancements of the TPB [40,41] and Verplanken's Self Reported Habit Index [42]. </plain></SENT>
+</text></p><p><text><SENT sid="839" pm="."><plain>The CS-<z:uniprot sup="inside" fb="3" ids="P19623">SRM</z:uniprot> pattern of results mirrored the overall picture of beliefs about consequences and capabilities being important. </plain></SENT>
+<SENT sid="840" pm="."><plain>However, they did not predict behaviour, behavioural simulation, and intention particularly well. </plain></SENT>
+<SENT sid="841" pm="."><plain>The model has previously been used mainly to refer to an individual's perceptions of their clinical condition; we used it to measure a clinician's perception of the condition in general. </plain></SENT>
+<SENT sid="842" pm="."><plain>We had difficulty operationalising this model, and further work is needed to explore the utility of this theory to predict clinician behaviour. </plain></SENT>
+</text></p><p><text><SENT sid="843" pm="."><plain>There is a stepwise decrease in the proportion of variance across our dependent variables from intention to behavioural simulation (to behaviour) (Tables 2 and 4) as found in previous PRIME studies. </plain></SENT>
+<SENT sid="844" pm="."><plain>Godin's review [16] of the predictive value of social cognitive models on professional behaviour showed a similar pattern, with social cognitive models explaining means of 13% of the variance in objectively measured behaviour (from 11 studies), 44% of self-reported behaviour (from four studies), and 59% of intention (from 72 studies). </plain></SENT>
+<SENT sid="845" pm="."><plain>Our results are each lower than Godin's average figures, but all are within the range reported by other studies. </plain></SENT>
+<SENT sid="846" pm="."><plain>However, our explanation of behaviour is at the very lowest limit of the reported range. </plain></SENT>
+<SENT sid="847" pm="."><plain>In the previous PRIME studies, we have been able to explain 16% of the variance in general dental practitioners' use of dental radiographs [37] and 6% of primary care physicians prescribing of antibiotics for patients who present with an URTI [20]. </plain></SENT>
+<SENT sid="848" pm="."><plain>This suggests that our operationalisation of the models was likely to have been good, and raises the question of why the models did not work as well for ordering lumbar spine x-rays by primary care physicians. </plain></SENT>
+</text></p><p><text><SENT sid="849" pm="."><plain>We can identify three potential explanations. </plain></SENT>
+<SENT sid="850" pm="."><plain>Firstly, there was poor correspondence between the behaviour specified in the survey and the measured behaviour as mentioned above. </plain></SENT>
+<SENT sid="851" pm="."><plain>This highlights the importance of clear and consistent framing of the questions and concordance with the measured behaviour. </plain></SENT>
+<SENT sid="852" pm="."><plain>In the previous PRIME papers, the behaviours specified in the surveys and the measured behaviours were: dental radiographs (survey - use of intra-oral radiographs in patient management, data - the number of intra oral radiographs taken per course of treatment (good concordance)) [18], and antibiotics (survey - prescribing an antibiotic for patients presenting with URTIs, managing patients without an antibiotic, data - number of likely URTI relevant antibiotic prescriptions per 100 patients registered (weak concordance)) [20]. </plain></SENT>
+</text></p><p><text><SENT sid="853" pm="."><plain>Second, there was potentially excess observational error (noise) in our behaviour measure. </plain></SENT>
+<SENT sid="854" pm="."><plain>X-ray-ordering data was chosen because it was available from routine data sources, and was therefore inexpensive to collect. </plain></SENT>
+<SENT sid="855" pm="."><plain>Low back pain was chosen because it was more likely that a request for an investigation would be attributed to the primary care doctor who issued it. </plain></SENT>
+<SENT sid="856" pm="."><plain>Despite this, anecdotally we believe that there may be errors in the attribution of x-rays to doctors, with radiology departments reporting that requests could be reported to the correct practice but attributed to the wrong primary care doctor. </plain></SENT>
+<SENT sid="857" pm="."><plain>In addition, we attempted to standardise our behaviour by the number of patients registered with the primary care doctor to reflect differences in workloads of the participating primary care doctors. </plain></SENT>
+<SENT sid="858" pm="."><plain>We only had data on the total number of patients and number of primary care doctors in each practice, and so calculated an average list size per primary care doctor within each practice. </plain></SENT>
+<SENT sid="859" pm="."><plain>This is a relatively crude standardisation approach that does not take account of likely variations of workload within practices (not all primary care doctors in the same practice will have the same workload) and variations in presentation of the target condition (not all primary care doctors will have same rate of presentation of low back pain). </plain></SENT>
+<SENT sid="860" pm="."><plain>In the previous PRIME studies, these issues were likely to have been more problematic in the antibiotic study rather than the fissure sealant study (where data were abstracted from a claims database). </plain></SENT>
+<SENT sid="861" pm="."><plain>These issues reflect some of the challenges of using routine data to measure behaviour relating to the level of clinical detail available (we could not estimate the number of patients each primary care doctor saw presenting with back pain) and problems of attribution of clinical actions to specific primary care doctors. </plain></SENT>
+<SENT sid="862" pm="."><plain>In future studies of this kind, it will be important to invest more in the measurement of the behavioural data. </plain></SENT>
+<SENT sid="863" pm="."><plain>These issues are likely to be less problematic in population-based large administrative database facilities where there may be detailed understanding of the content of the available data and their limitations. </plain></SENT>
+<SENT sid="864" pm="."><plain>Alternatively it could be possible to collect behavioural data directly. </plain></SENT>
+</text></p><p><text><SENT sid="865" pm="."><plain>Thirdly, we used a different analytical approach to analyse the behavioural data. </plain></SENT>
+<SENT sid="866" pm="."><plain>Previous PRIME studies have used multiple regression analyses and used the adjusted R2 statistic from ordinary least squares (OLS) regression to quantify the proportion of variance explained by the models. </plain></SENT>
+<SENT sid="867" pm="."><plain>In the current study, when we conducted multiple regression analyses of behavioural simulation and intention, we observed similar magnitude R2 statistics for behavioural simulation and intention models. </plain></SENT>
+<SENT sid="868" pm="."><plain>However given the distribution of the lumbar spine x-ray data, we had to use negative binomial regression for the behavioural analysis. </plain></SENT>
+<SENT sid="869" pm="."><plain>A direct equivalent to the adjusted R2 statistic does not exist for negative binomial regression. </plain></SENT>
+<SENT sid="870" pm="."><plain>There are several pseudo R2 statistics that mimic OLS R2 in the sense that they can range over the scale 0 to 1 with higher values indicating a better fit of models to data. </plain></SENT>
+<SENT sid="871" pm="."><plain>We present the results for various goodness to fit models that suggest that, in general, the resulting models overall were poorly predictive of the behavioural data. </plain></SENT>
+<SENT sid="872" pm="."><plain>However these pseudo R2 values cannot be used to compare the performance of competing theoretical models across different data sets, making comparisons of proportion variation explained with previous PRIME study surveys qualitative only. </plain></SENT>
+<SENT sid="873" pm="."><plain>To explore the likely comparability of these results with previous PRIME studies, we undertook an OLS regression of square root transformed behavioural data and observed an R2 statistic of 0.05, which is at the lower end of the observed R2 statistics from previous PRIME studies. </plain></SENT>
+<SENT sid="874" pm="."><plain>Together, we believe these data suggest that the models may be performing similarly to those in previous PRIME studies and the analytical approach required due to the negative binomial distribution is obscuring this. </plain></SENT>
+</text></p><p><text><SENT sid="875" pm="."><plain>Our final response rate was not high compared to what would be expected for a postal questionnaire survey to healthcare professionals. </plain></SENT>
+<SENT sid="876" pm="."><plain>Following the report by Cummings et al. that up to 1995, response rates of surveys of healthcare professionals remained constant at approximately 60% [43], Cook et al. demonstrated that by 2005 response rates in surveys of healthcare professionals had slightly declined to an average of 57.5% [44]. </plain></SENT>
+<SENT sid="877" pm="."><plain>Given this, we cannot exclude the possibility of selection bias in respondents and should be cautious about generalising from our respondents to the population of UK primary care physicians. </plain></SENT>
+<SENT sid="878" pm="."><plain>However, this may be less of an issue at this exploratory stage of using these methods, as the purpose of the study was theory testing and an exploration of the predictive ability of theories to explain variations in behaviour. </plain></SENT>
+<SENT sid="879" pm="."><plain>Our aim was not to generate data that was representative, but to receive our pre-specified number of responses from a population who had a range of behaviour, reported a range of behavioural simulation and intention, and who reported a range of cognitions. </plain></SENT>
+<SENT sid="880" pm="."><plain>The study achieved this aim. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="CONCL"><sec><title><text><SENT sid="881" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="882" pm="."><plain>This study provides evidence that psychological models may be useful in understanding and predicting clinical behaviour. </plain></SENT>
+<SENT sid="883" pm="."><plain>Taking a theory-based approach enables the creation of a replicable methodology for identifying factors that predict clinical behaviour. </plain></SENT>
+<SENT sid="884" pm="."><plain>However, there remain conceptual challenges in operationalising a number of the models and a range of methodological challenges in terms of instrument development and measurement of behaviour that have to be surmounted before these methods could be regarded as routine. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="885" pm="."><plain>Competing interests </plain></SENT>
+</text></title><p><text><SENT sid="886" pm="."><plain>Martin Eccles is Co-Editor in Chief of Implementation Science; Jeremy Grimshaw is a member of the editorial board of Implementation Science. </plain></SENT>
+<SENT sid="887" pm="."><plain>All editorial decisions on this article were made by Robbie Foy, Deputy Editor. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="AUTH_CONT"><sec><title><text><SENT sid="888" pm="."><plain>Authors' contributions </plain></SENT>
+</text></title><p><text><SENT sid="889" pm="."><plain>AW, MPE, JG, MJ, and NP conceived the study. </plain></SENT>
+<SENT sid="890" pm="."><plain>MJ, LS, GM, RT, DB, and MPE contributed to the daily running of the study. </plain></SENT>
+<SENT sid="891" pm="."><plain>MJ and NS oversaw the analysis, which was conducted by GM. </plain></SENT>
+<SENT sid="892" pm="."><plain>All authors commented on sequential drafts of the paper and agreed the final draft. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="893" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="S1"><caption><title><text><SENT sid="894" pm="."><plain>Additional File 1 </plain></SENT>
+</text></title><p><text><SENT sid="895" pm="."><plain>PRIME Lumbar Spine Survey Instrument </plain></SENT>
+</text></p></caption><media xlink:href="1748-5908-6-55-S1.DOC" mimetype="application" mime-subtype="msword"><caption><p><text><SENT sid="896" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S2"><caption><title><text><SENT sid="897" pm="."><plain>Additional File 2 </plain></SENT>
+</text></title><p><text><SENT sid="898" pm="."><plain>Goodness of fit models for the negative binomial regression analysis </plain></SENT>
+</text></p></caption><media xlink:href="1748-5908-6-55-S2.PDF" mimetype="application" mime-subtype="pdf"><caption><p><text><SENT sid="899" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="900" pm="."><plain>The development of this study was supported by the UK Medical Research Council Health Services Research Collaboration. </plain></SENT>
+<SENT sid="901" pm="."><plain>It was funded by a grant from the UK Medical Research Council (G0001325). </plain></SENT>
+<SENT sid="902" pm="."><plain>The Health Services Research Unit is funded by the Chief Scientist Office of the Scottish Executive. </plain></SENT>
+<SENT sid="903" pm="."><plain>Ruth Thomas was funded by the Wellcome Trust (GR063790MA). </plain></SENT>
+<SENT sid="904" pm="."><plain>Jeremy Grimshaw holds a Canada Research Chair in Health Knowledge Transfer and Uptake. </plain></SENT>
+<SENT sid="905" pm="."><plain>The views expressed in this paper are those of the authors and may not be shared by the funding bodies. </plain></SENT>
+<SENT sid="906" pm="."><plain>We would also like to thank Jill Francis and participating primary care physicians for their contribution to this study. </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="907" pm="."><plain>SeddonMEMarshallMNCampbellSMRolandMOSystematic review of studies of quality of clinical care in general practice in the UK, Australia and New ZealandQual Health Care20011015215810.1136/qhc.010015211533422 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="908" pm="."><plain>GrolRSuccesses and failures in the implementation of evidence-based guidelines for clinical practiceMed Care200139II46II5411583121 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="909" pm="."><plain>McGlynnEAAschSMAdamsJKeeseyJHicksJDeCristofaroAThe quality of health care delivered to adults in the United StatesN Engl J Med20033482635264510.1056/NEJMsa02261512826639 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="910" pm="."><plain>JarvikJGDeyoRADiagnostic evaluation of low back pain with emphasis on imagingAnn Intern Med200213758659712353946 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="911" pm="."><plain>Royal College of RadiologistsMaking the best use of a Department of Radiology1998London: Royal College of Radiologists </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="912" pm="."><plain>Australian Acute Musculoskeletal Pain Guidelines Group (AAMPGG)Evidence-based management of acute musculoskeleta pain2003Brisbane: Australian Academic Press </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="913" pm="."><plain>SavignyPKuntzeSWatsonPUnderwoodMRitchieGCotterellMLow back pain: early management of persistent non-specific low back pain2009London: National Collaborating Centre for Primary Care and Royal College of General Practitioners </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="914" pm="."><plain>National Institute for Health and Clinical ExcellenceNICE clinical guideline 88 Low back pain early management of persistent non-specific low back oain2009London: National Institute for Health and Clinical Excellence </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="915" pm="."><plain>MatoweLRamsayCRGrimshawJMGilbertFJMacleodMJNeedhamGEffects of mailed dissemination of the Royal College of Radiologists' guidelines on general practitioner referrals for radiography: a time series analysisClin Radiol20025757557810.1053/<z:uniprot sup="inside" fb="0" ids="Q5RG44">crad</z:uniprot>.2001.089412096854 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="916" pm="."><plain>EcclesMSteenNGrimshawJThomasLMcNameePSoutterJEffect of audit and feedback, and reminder messages on primary-care radiology referrals: a randomised trialLancet20013571406140910.1016/S0140-6736(00)04564-511356439 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="917" pm="."><plain>GrimshawJMShirranLThomasRMowattGFraserCBeroLChanging provider behavior: an overview of systematic reviews of interventionsMed Care200139II24511583120 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="918" pm="."><plain>GrimshawJMThomasREMaclennanGFraserCRamsayCRValeLEffectiveness and efficiency of guideline dissemination and implementation strategiesHealth Technol Assess20048iii7214960256 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="919" pm="?"><plain>FoyREcclesMPJamtvedtGYoungJGrimshawJMBakerRWhat do we know about how to do audit and feedback? </plain></SENT>
+<SENT sid="920" pm="."><plain>Pitfalls in applying evidence from a systematic reviewBMC Health Serv Res200555010.1186/1472-6963-5-5016011811 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="921" pm="."><plain>EcclesMGrimshawJWalkerAJohnstonMPittsNChanging the behavior of healthcare professionals: the use of theory in promoting the uptake of research findingsJ Clin Epidemiol20055810711210.1016/j.jclinepi.2004.09.00215680740 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="922" pm="."><plain>The Improved Clinical Effectiveness through Behavioural Research Group (ICEBeRG)Designing theoretically-informed implementation interventionsImplement Sci20061416722571 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="923" pm="."><plain>GodinGBelanger-GravelAEcclesMGrimshawJHealthcare professionals' intentions and behaviours: A systematic review of studies based on social cognitive theoriesImplement Sci200833610.1186/1748-5908-3-3618631386 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="924" pm="."><plain>WalkerAEGrimshawJJohnstonMPittsNSteenNEcclesMPRIME--PRocess modelling in ImpleMEntation research: selecting a theoretical basis for interventions to change clinical practiceBMC Health Serv Res200332210.1186/1472-6963-3-2214683530 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="925" pm="."><plain>BonettiDPittsNBEcclesMGrimshawJJohnstonMSteenNApplying psychological theory to evidence-based clinical practice: identifying factors predictive of taking intra-oral radiographsSoc Sci Med2006631889189910.1016/j.socscimed.2006.04.00516843579 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="926" pm="."><plain>BonettiDJohnstonMClarksonJEGrimshawJPittsNBEcclesMApplying psychological theories to evidence-based clinical practice: identifying factors predictive of placing preventive fissure sealantsImplement Sci201052510.1186/1748-5908-5-2520377849 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="927" pm="."><plain>EcclesMPGrimshawJMJohnstonMSteenNPittsNBThomasRApplying psychological theories to evidence-based clinical practice: Identifying factors predictive of managing upper respiratory tract infections without antibioticsImplement Sci200722610.1186/1748-5908-2-2617683558 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="928" pm="."><plain>AjzenIThe theory of planned behaviorOrganizational Behavior and Human Decision Processes19915017921110.1016/0749-5978(91)90020-T </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="929" pm="."><plain>BanduraASelf-efficacy: toward a unifying theory of behavioral changePsychol Rev197784191215847061 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="930" pm="."><plain>BlackmanDOperant conditioning an experimental analysis of behaviour1974London: Methuen </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="931" pm="."><plain>GollwitzerPMStroebe W, Hewstone MGoal achievement: the role of intentionsEuropean Review of Social Psychology1993Chichester: Wiley </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="932" pm="."><plain>LeventhalHNerenzDSteeleDJHandbook of psychology and health1984New Jersey: Lawrence Erlbaum </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="933" pm="."><plain>WeinsteinNDThe precaution adoption processHealth Psychol198873553863049068 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="934" pm="."><plain>WeinsteinNDRothmanASuttonSRStage theories of health behaviour: conceptual and methodological issuesHealth Psychol1998172902999619480 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="935" pm="."><plain>WalkerAEGrimshawJJohnstonMPittsNSteenNEcclesMPRIME--PRocess modelling in ImpleMEntation research: selecting a theoretical basis for interventions to change clinical practiceBMC Health Serv Res200332210.1186/1472-6963-3-2214683530 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="936" pm="."><plain>ConnerMSparksPConner M, Norman PThe theory of planned behaviour and health behavioursPredicting health behaviour Research and practice with social cognition models19961Buckingham: Open University Press121162 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="937" pm="."><plain>FrancisJJEcclesMJohnstonMWalkerAGrimshawJFoyRConstructing questionnaires based on the theory of planned behaviour A manual for health services researchers2004 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="938" pm="."><plain>BanduraASelf-efficacy the exercise of control1997New York: Freeman </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="939" pm="."><plain>BanduraANorman P, Abraham C, Conner MHealth promotion from the persepctive of social cognitive theoryUnderstanding and changing Health Behaviour from Health Beliefs to Self-Regulation2000Amsterdam: Harwood </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="940" pm="."><plain>Moss-MorrisRWeinmanJPetrieKJHorneRCameronLDBuickDThe revised illness perception questionnaire (IPQ-R)Psychol Health20021711610.1080/08870440290001494 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="941" pm="?"><plain>HrisosSEcclesMPFrancisJJDickinsonHOKanerEFBeyerFAre there valid proxy measures of clinical behaviour? </plain></SENT>
+<SENT sid="942" pm="."><plain>A systematic reviewImplement Sci200943710.1186/1748-5908-4-3719575790 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="943" pm="."><plain>GreenSBHow many subjects does it take to do a regression analysis?Multivariate Behavioural Research19912649951010.1207/s15327906mbr2603_7 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="944" pm="."><plain>FreeseJLongJSRegression models for categorical dependent variables using Stata2006College Station: Stata Press </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="945" pm="."><plain>BonettiDPittsNBEcclesMGrimshawJSteenNGlidewellLApplying psychological theory to evidence-based clinical practice: identifying factors predictive of taking intra-oral radiographsSoc Sci Med2006631889189910.1016/j.socscimed.2006.04.00516843579 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="946" pm="."><plain>FrancisJJTinmouthAStanworthSJGrimshawJMJohnstonMHydeCUsing theories of behaviour to understand transfusion prescribing in three clinical contexts in two countries: development work for an implementation trialImplement Sci200947010.1186/1748-5908-4-7019852832 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="947" pm="."><plain>FrancisJJStocktonCEcclesMPJohnstonMCuthbertsonBHGrimshawJMEvidence-based selection of theories for designing behaviour change interventions: using methods based on theoretical construct domains to understand clinicians' blood transfusion behaviourBr J Health Psychol20091462564610.1348/135910708X39702519159506 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="948" pm="."><plain>SniehottaFFScholzUSchwarzerRAction plans and coping plans for physical exercise: A longitudinal intervention study in cardiac rehabilitationBr J Health Psychol200611233710.1348/135910705X4380416480553 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="949" pm="."><plain>SniehottaFFSchwarzerRScholzUSchuzBAction planning and coping planning for long term lifestyle change: theory and assessmentEuropean Journal of Social Psychology20053556557610.1002/ejsp.258 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="950" pm="."><plain>VerplankenBOrbellSReflections on past behavior: a self-report index of habit strengthJournal of Applied Social Psychology2003331313133010.1111/j.1559-1816.2003.tb01951.x </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="951" pm="."><plain>CummingsSMSavitzLAKonradTRReported response rates to mailed physician questionnairesHealth Serv Res2001351347135511221823 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="952" pm="."><plain>CookJVDickinsonHOEcclesMPResponse rates in postal surveys of healthcare professionals between 1996 and 2005: an observational studyBMC Health Serv Res2009916010.1186/1472-6963-9-16019751504 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

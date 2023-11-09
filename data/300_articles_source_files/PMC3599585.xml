@@ -1,0 +1,861 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Infect Dis</journal-id><journal-id journal-id-type="iso-abbrev">BMC Infect. Dis</journal-id><journal-title-group><journal-title>BMC Infectious Diseases</journal-title></journal-title-group><issn pub-type="epub">1471-2334</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3599585</article-id><article-id pub-id-type="publisher-id">1471-2334-13-74</article-id><article-id pub-id-type="pmid">23390953</article-id><article-id pub-id-type="doi">10.1186/1471-2334-13-74</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>A cross-sectional study to estimate high-risk human papillomavirus prevalence and type distribution in Italian women aged 18–26 years </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="A1"><name><surname>Giambi</surname><given-names>Cristina</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>cristina.giambi@iss.it</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Donati</surname><given-names>Serena</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>serena.donati@iss.it</email></contrib><contrib contrib-type="author" id="A3"><name><surname>Carozzi</surname><given-names>Francesca</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>f.carozzi@ispo.toscana.it</email></contrib><contrib contrib-type="author" id="A4"><name><surname>Salmaso</surname><given-names>Stefania</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>stefania.salmaso@iss.it</email></contrib><contrib contrib-type="author" id="A5"><name><surname>Declich</surname><given-names>Silvia</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>silvia.declich@iss.it</email></contrib><contrib contrib-type="author" id="A6"><name><surname>Atti</surname><given-names>Marta L Ciofi degli</given-names></name><xref ref-type="aff" rid="I3">3</xref><email>marta.ciofidegliatti@opbg.net</email></contrib><contrib contrib-type="author" id="A7"><name><surname>Ronco</surname><given-names>Guglielmo</given-names></name><xref ref-type="aff" rid="I4">4</xref><email>guglielmo.ronco@cpo.it</email></contrib><contrib contrib-type="author" id="A8"><name><surname>Alibrandi</surname><given-names>Maria P</given-names></name><xref ref-type="aff" rid="I5">5</xref><email>igiene.pubb@aslto4.piemonte.it</email></contrib><contrib contrib-type="author" id="A9"><name><surname>Brezzi</surname><given-names>Silvia</given-names></name><xref ref-type="aff" rid="I6">6</xref><email>silvia.brezzi@asl.vt.it</email></contrib><contrib contrib-type="author" id="A10"><name><surname>Collina</surname><given-names>Natalina</given-names></name><xref ref-type="aff" rid="I7">7</xref><email>natalina.collina@ausl.bo.it</email></contrib><contrib contrib-type="author" id="A11"><name><surname>Franchi</surname><given-names>Daniela</given-names></name><xref ref-type="aff" rid="I8">8</xref><email>dfranchi@asl1abruzzo.it</email></contrib><contrib contrib-type="author" id="A12"><name><surname>Lattanzi</surname><given-names>Amedeo</given-names></name><xref ref-type="aff" rid="I9">9</xref><email>amedeo.lattanzi@aslteramo.it</email></contrib><contrib contrib-type="author" id="A13"><name><surname>Minna</surname><given-names>Maria C</given-names></name><xref ref-type="aff" rid="I10">10</xref><email>mariacarmela.minna@ausl.pe.it</email></contrib><contrib contrib-type="author" id="A14"><name><surname>Nannini</surname><given-names>Roberto</given-names></name><xref ref-type="aff" rid="I11">11</xref><email>r.nannini@ausl.imola.bo.it</email></contrib><contrib contrib-type="author" id="A15"><name><surname>Barretta</surname><given-names>Elena</given-names></name><xref ref-type="aff" rid="I12">12</xref><email>elenbarretta@libero.it</email></contrib><contrib contrib-type="author" id="A16"><name><surname>Burroni</surname><given-names>Elena</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>e.burroni@ispo.toscana.it</email></contrib><contrib contrib-type="author" id="A17"><name><surname>Gillio-Tos</surname><given-names>Anna</given-names></name><xref ref-type="aff" rid="I13">13</xref><email>gilliotos.demarco@cpo.it</email></contrib><contrib contrib-type="author" id="A18"><name><surname>Macallini</surname><given-names>Vincenzo</given-names></name><xref ref-type="aff" rid="I14">14</xref><email>vmaccallini@aslavezzano.it</email></contrib><contrib contrib-type="author" id="A19"><name><surname>Pierotti</surname><given-names>Paola</given-names></name><xref ref-type="aff" rid="I15">15</xref><email>paola.pierotti@ausl.bo.it</email></contrib><contrib contrib-type="author" id="A20"><name><surname>Bella</surname><given-names>Antonino</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>antonino.bella@iss.it</email></contrib></contrib-group><aff id="I1"><label>1</label>Communicable Disease Epidemiology Unit, National Centre for Epidemiology, Surveillance and Health Promotion; Istituto Superiore di Sanità, Viale Regina Elena 299, 00161 Rome, Italy</aff><aff id="I2"><label>2</label>Analytical Cytology and Biomolecular Unit, Cancer Research and Prevention Institute, Via Cosimo il Vecchio 2, 50139 Florence, Italy</aff><aff id="I3"><label>3</label>Medical Direction, Bambino Gesù Children’s Hospital, Piazza S. Onofrio 4, 00165 Rome, Italy</aff><aff id="I4"><label>4</label>Unit of cancer epidemiology, Center for Cancer Prevention, S. Francesco da Paola 31, 10123 Turin, Italy</aff><aff id="I5"><label>5</label>Hygiene and Public Health Unit, LHU Torino4, Via Aldisio 2, Ivrea, 10015 Turin, Italy</aff><aff id="I6"><label>6</label>Department of Prevention, LHU Viterbo, via Enrico Fermi 15, 01100 Viterbo, Italy</aff><aff id="I7"><label>7</label>Public Health Department, LHU Bologna, Via del Seminario 1, San Lazzaro di Savena, 40068, Bologna, Italy</aff><aff id="I8"><label>8</label>Department of Prevention, LHU Avezzano-Sulmona-L’Aquila, Via Monte Velino 18, 67051 Avezzano, L’Aquila, Italy</aff><aff id="I9"><label>9</label>San Liberatore Hospital, LHU Teramo, Viale Risorgimento, 64032 Atri, Teramo, Italy</aff><aff id="I10"><label>10</label>Community Medicine Unit, LHU Pescara, Via Paolini 45, 65124 Pescara, Italy</aff><aff id="I11"><label>11</label>Oncologic Screening Center, LHU Imola, viale Amendola 8, 40026 Imola, Bologna, Italy</aff><aff id="I12"><label>12</label>Mother and Child Department, LHU Napoli 2 Nord, Corso Italia 129, 80010 Quarto, Napoli, Italy</aff><aff id="I13"><label>13</label>Center for Experimental Research and Medical Science, University of Turin, Via Santena 7, 10126 Turin, Italy</aff><aff id="I14"><label>14</label>S. Rinaldi Hospital, Via Serafino Rinaldi 63, 67057 Pescina, L’Aquila, Italy</aff><aff id="I15"><label>15</label>Maggiore Hospital, LHU Bologna, Largo B. Nigrisoli 2, 40133 Bologna, Italy</aff><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>7</day><month>2</month><year>2013</year></pub-date><volume>13</volume><fpage>74</fpage><lpage>74</lpage><history><date date-type="received"><day>20</day><month>9</month><year>2012</year></date><date date-type="accepted"><day>29</day><month>1</month><year>2013</year></date></history><permissions><copyright-statement>Copyright ©2013 Giambi et al; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Giambi et al; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.biomedcentral.com/1471-2334/13/74"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Pre-vaccination information on HPV type-specific prevalence in target populations is essential for designing and monitoring immunization strategies for cervical cancer (CC) prevention. </plain></SENT>
+<SENT sid="3" pm="."><plain>Data on HPV prevalence in Italy are available for women over the age of 24 years, target of the population-based CC screening programmes; while data of HPV prevalence in younger ages are very limited. </plain></SENT>
+<SENT sid="4" pm="."><plain>The present study enrolled Italian women aged 18–26 years in order to assess the prevalence and distribution of high-risk (HR) HPV types. </plain></SENT>
+<SENT sid="5" pm="."><plain>Risk-factors correlated with HR-HPV positivity were also described. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="6" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>A sample of 2,289 women was randomly selected from the resident population lists of ten Local Health Units (LHUs) located in six Italian Regions scattered across the country; both rural and urban LHUs were involved. </plain></SENT>
+<SENT sid="8" pm="."><plain>Women aged between 18 and 26 years and living in the selected LHUs were included in the study; pregnant women and women who did not speak Italian were excluded. </plain></SENT>
+<SENT sid="9" pm="."><plain>A total of 1,102 women met the inclusion criteria and agreed to participate. </plain></SENT>
+<SENT sid="10" pm="."><plain>Participants were offered <z:uniprot sup="inside" fb="97" ids="Q7KTX8,P46547,Q83XD3,P29430">pap</z:uniprot> test and Hybrid-Capture 2 (<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot>) test for HR-HPV types and genotyping was performed on positive smears. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="11" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>Out of 1,094 valid samples, 205 (18.7%) were HR-HPV positive. </plain></SENT>
+<SENT sid="13" pm="."><plain>Women with 2–4 (ORadj = 4.15, 95%CI: 2.56-6.72) and ≥5 lifetime partners (ORadj = 10.63, 95%CI: 6.16-18.36) and women who have used any contraceptive in the last six months (ORadj = 1.67, 95%CI: 1.09-2.54) had a higher risk to be infected; women living with their partner had a lower risk (ORadj = 0.56, 95%CI: 0.34-0.92) to acquire infection than women living with parents/friends/alone. </plain></SENT>
+<SENT sid="14" pm="."><plain>Among <z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive women, HPV16 was the most prevalent type (30.9%), followed by 31 (19.6%), 66 (12.9%), 51 (11.3%), 18 (8.8%), 56 (8.8%). </plain></SENT>
+<SENT sid="15" pm="."><plain>Co-infections of HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> targeted types were found in 20.4% of positive samples. </plain></SENT>
+<SENT sid="16" pm="."><plain>The HR-HPV prevalence in women with abnormal cytology (52.4%) was significantly higher than in women with normal cytology (14.6%); however 33.0% of HR-HPV infected women had an abnormal cytology. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="17" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="18" pm="."><plain>HR-HPV prevalence in Italian women aged 18–26 years was 19%, higher than what detected for older women, by other studies using the same molecular method and laboratory network; this result supports the choice of electing girls before the sexual debut as the primary target of HPV vaccination. </plain></SENT>
+<SENT sid="19" pm="."><plain>The HPV type distribution found in this study may represent a baseline picture; an accurate post-vaccine surveillance is necessary to early detect a possible genotype replacement. </plain></SENT>
+<SENT sid="20" pm="."><plain>The high prevalence of viral types other than vaccine-HPV types supports the necessity to guarantee the progression of CC screening programmes in vaccinated women. </plain></SENT>
+</text></SecTag></p></sec></abstract><SecTag type="KEYWORD"><kwd-group><kwd>Human papillomavirus</kwd><kwd>High-risk types</kwd><kwd>Prevalence</kwd><kwd>Genotype distribution</kwd><kwd>Cervical cancer</kwd><kwd>Italy</kwd><kwd>Risk factors</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="21" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="22" pm="."><plain>In the last decade many studies have shown that infection with high-risk (HR) types of human papillomavirus (HPV) is a necessary condition for the development of invasive cervical cancer (CC) [1]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Genital HPV infection is very common in sexually active women and is transient in most cases; only women with persistent infection by HR-HPV types are likely to develop a cervical lesion [2]. </plain></SENT>
+<SENT sid="24" pm="."><plain>These findings led to the development of prophylactic vaccines targeted to provide protection against HPV16 and 18, responsible for the 70% of all cervical cancers; efficacy has been shown to be highest in subjects naïf to the infection [3,4]. </plain></SENT>
+</text></p><p><text><SENT sid="25" pm="."><plain>As of July 2010, 18 European countries had integrated HPV vaccination in their national immunization programmes, most of them targeting pre-adolescent girls; nine countries had also planned catch up programmes for older girls [5]. </plain></SENT>
+<SENT sid="26" pm="."><plain>In Italy HPV vaccination is included in the national immunization program and is offered to 11 year-old girls since 2007 [6]; six of the 21 Italian Regions have also extended the offer to one older birth cohort (varying by Region between 15–18 years), and one Region to three cohorts (15, 18 and 24 year-old) [7]. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>Pre-vaccination distribution of HPV genotypes in target populations is essential for designing, monitoring and evaluating immunization strategies. </plain></SENT>
+<SENT sid="28" pm="."><plain>Baseline prevalence is relevant to estimate vaccine effectiveness against the HPV-vaccine types, to evaluate the cross-protection of the vaccines, and to monitor over time the relative frequency of genotypes under the selective pressure of the vaccines. </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>Data on HPV prevalence in Italy are available for women over the age of 24 years [8-10], target of the population-based CC screening programmes. </plain></SENT>
+<SENT sid="30" pm="."><plain>On the contrary there is very limited amount of data on HPV prevalence in younger ages [11,12]. </plain></SENT>
+<SENT sid="31" pm="."><plain>The present study enrolled Italian women aged 18–26 years in order to assess the prevalence of HR-HPV types and detect the prevalent genotypes. </plain></SENT>
+<SENT sid="32" pm="."><plain>Risk-factors correlated with HR-HPV positivity were also described. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="33" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="34" pm="."><plain>Study design and study population </plain></SENT>
+</text></title><p><text><SENT sid="35" pm="."><plain>This cross-sectional study was carried out in the period 2007–2009, coordinated by the Istituto Superiore di Sanità (ISS, Italy’s National Institute of Public Health) and partially sponsored by the Ministry of Health. </plain></SENT>
+<SENT sid="36" pm="."><plain>It was part of a national project (PreGio), which also included a <z:uniprot sup="inside" fb="1" ids="P61110,Q62781,Q16667,Q9MYN5,O09043">KAP</z:uniprot> (knowledge-attitudes-practices) survey on HPV infection and CC prevention [13] and a study to estimate the acceptance rate of HPV vaccination [14] . </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>A sample of 2,289 women was randomly selected from the resident population lists of ten Local Health Units (LHU) located in six Italian Regions scattered across the country: Abruzzo and Campania in southern Italy (1,026), Lazio and Tuscany in central Italy (388) and Emilia-Romagna and Piedmont in northern Italy (875). </plain></SENT>
+<SENT sid="38" pm="."><plain>Both rural and urban LHUs were involved; all 10 LHUs have population-based CC screening programmes. </plain></SENT>
+</text></p><p><text><SENT sid="39" pm="."><plain>The inclusion criteria for the study were: women aged between 18 and 26 years and living in the selected LHUs. </plain></SENT>
+<SENT sid="40" pm="."><plain>Pregnant women and women who did not speak Italian were excluded. </plain></SENT>
+<SENT sid="41" pm="."><plain>The women were stratified into two age groups (18–24 and 25–26 years), partially overlapping (25–26 years) with the target age of population-based CC screening. </plain></SENT>
+<SENT sid="42" pm="."><plain>Procedures for enrolling participants as well as study methodology have already been described [13,14]. </plain></SENT>
+</text></p><p><text><SENT sid="43" pm="."><plain>All women were offered <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot>-test and HPV test; a written informed consent was obtained by each participant. </plain></SENT>
+<SENT sid="44" pm="."><plain>Selected midwives, especially trained for this study, were in charge of contacting sampled women, collecting socio-demographic data and information regarding sexual and reproductive history, getting informed consent and performing cervical smears. </plain></SENT>
+<SENT sid="45" pm="."><plain>The study was approved by the national ethics committee of the ISS. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="46" pm="."><plain>Cytology </plain></SENT>
+</text></title><p><text><SENT sid="47" pm="."><plain>Cervical smears were taken according to the consolidate CC-screening procedures at the LHU. </plain></SENT>
+<SENT sid="48" pm="."><plain>In most Regions (Tuscany, Piedmont, Emilia-Romagna, Lazio, Campania) two cervical samples were taken: one for <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot>-test and one for the HPV test in Specimen Transport Medium (STM, DNAPAP cervical sampler, Qiagen, Gaithersburg, USA); for STM sample, cytobrush was used to obtain samples. </plain></SENT>
+<SENT sid="49" pm="."><plain>In Abruzzo Region the cervical cell specimens were put in PreservCyt solution (Hologic, Inc., Marlborough, MA) and used both for HPV testing and for cytological examination; for Preservcyt sample, Ayre spatula and cytobrush were used. </plain></SENT>
+<SENT sid="50" pm="."><plain>The cytology was interpreted locally according to Bethesda 2001 system [15]. </plain></SENT>
+<SENT sid="51" pm="."><plain>Information on reproductive, sexual and cervical screening history were collected (Table 1). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T1"><label>Table 1</label><caption><p><text><SENT sid="52" pm="."><plain>Characteristics of the study population </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="right"/><col align="right"/></colgroup><thead valign="top"><tr><th align="left"><text><SENT sid="53" pm="."><plain>Characteristics </plain></SENT>
+</text></th><th align="left"><text><SENT sid="54" pm="."><plain>  </plain></SENT>
+</text></th><th align="right"><text><SENT sid="55" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="right"><text><SENT sid="56" pm="."><plain>N </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td colspan="4" align="center" valign="bottom"><text><SENT sid="57" pm="."><plain>Socio-demographic characteristics </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="58" pm="."><plain>Mean age (years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="59" pm="."><plain>  </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="60" pm="."><plain>23.8 ± 0.07 * </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="61" pm="."><plain>1,094 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="62" pm="."><plain>Age group </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="63" pm="."><plain>18–24 years </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="64" pm="."><plain>598 (54.7) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="65" pm="."><plain>1,094 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="66" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="67" pm="."><plain>25–26 years </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="68" pm="."><plain>496 (45.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="69" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="70" pm="."><plain>Geographical area of residence </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="71" pm="."><plain>North </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="72" pm="."><plain>445 (40.7) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="73" pm="."><plain>1,094 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="74" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="75" pm="."><plain>Centre </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="76" pm="."><plain>235 (21.5) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="77" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="78" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="79" pm="."><plain>South </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="80" pm="."><plain>414 (37.8) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="81" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="82" pm="."><plain>Nationality </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="83" pm="."><plain>Foreign </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="84" pm="."><plain>69 (6.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="85" pm="."><plain>1,092 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="86" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="87" pm="."><plain>Italian </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="88" pm="."><plain>1,023 (93.7) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="89" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="90" pm="."><plain>Educational level </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="91" pm="."><plain>Low (≤8 years) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="92" pm="."><plain>216 (19.8) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="93" pm="."><plain>1,090 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="94" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="95" pm="."><plain>High (&gt;8 years) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="96" pm="."><plain>874 (80.2) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="97" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="98" pm="."><plain>Employment status </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="99" pm="."><plain>Student </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="100" pm="."><plain>455 (42.0) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="101" pm="."><plain>1,084 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="102" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="103" pm="."><plain>Employed </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="104" pm="."><plain>415 (38.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="105" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="106" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="107" pm="."><plain>Unemployed </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="108" pm="."><plain>163 (15.0) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="109" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="110" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="111" pm="."><plain>Housewife </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="112" pm="."><plain>51 (4.7) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="113" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="114" pm="."><plain>Marital status </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="115" pm="."><plain>Single </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="116" pm="."><plain>974 (89.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="117" pm="."><plain>1,091 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="118" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="119" pm="."><plain>Married </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="120" pm="."><plain>113 (10.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="121" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="122" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="123" pm="."><plain>Divorced </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="124" pm="."><plain>4 (0.4) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="125" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="126" pm="."><plain>Lives with </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="127" pm="."><plain>parents </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="128" pm="."><plain>813 (74.7) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="129" pm="."><plain>1,089 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="130" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="131" pm="."><plain>partner </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="132" pm="."><plain>185 (17.0) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="133" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="134" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="135" pm="."><plain>alone </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="136" pm="."><plain>48 (4.4) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="137" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="138" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="139" pm="."><plain>friends </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="140" pm="."><plain>43 (3.9) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="141" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="center" valign="bottom"><text><SENT sid="142" pm="."><plain>Sexual behaviour and reproductive history </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="143" pm="."><plain>Mean age at first sexual intercourse (years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="144" pm="."><plain>  </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="145" pm="."><plain>17.5 ± 0.1 * </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="146" pm="."><plain>1,089 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="147" pm="."><plain>Parity </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="148" pm="."><plain>0 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="149" pm="."><plain>988 (90.4) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="150" pm="."><plain>1,093 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="151" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="152" pm="."><plain>≥1child </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="153" pm="."><plain>105 (9.6) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="154" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="155" pm="."><plain>Mean age at first delivery (years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="156" pm="."><plain>  </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="157" pm="."><plain>21.7 ± 0.3 * </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="158" pm="."><plain>105 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="159" pm="."><plain>No. of lifetime partners </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="160" pm="."><plain>1 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="161" pm="."><plain>377 (34.6) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="162" pm="."><plain>1,091 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="163" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="164" pm="."><plain>2–4 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="165" pm="."><plain>558 (51.1) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="166" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="167" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="168" pm="."><plain>≥5 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="169" pm="."><plain>156 (14.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="170" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="171" pm="."><plain>No. of partners in the last 6 months </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="172" pm="."><plain>0 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="173" pm="."><plain>69 (6.3) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="174" pm="."><plain>1,093 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="175" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="176" pm="."><plain>1 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="177" pm="."><plain>962 (88.0) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="178" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="179" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="180" pm="."><plain>2–4 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="181" pm="."><plain>53 (4.9) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="182" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="183" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="184" pm="."><plain>≥5 </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="185" pm="."><plain>9 (0.8) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="186" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="187" pm="."><plain>Use of contraceptives in the last 6 months </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="188" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="189" pm="."><plain>762 (74.5) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="190" pm="."><plain>1,023 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="191" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="192" pm="."><plain>No </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="193" pm="."><plain>261 (25.5) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="194" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="195" pm="."><plain>Use of condoms in the last 6 months </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="196" pm="."><plain>Always </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="197" pm="."><plain>346 (33.9) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="198" pm="."><plain>1,020 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="199" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="200" pm="."><plain>Rarely </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="201" pm="."><plain>307 (30.1) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="202" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="203" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="204" pm="."><plain>Never </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="205" pm="."><plain>369 (36.0) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="206" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="207" pm="."><plain>Previous <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot>-test </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="208" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="209" pm="."><plain>420 (38.5) </plain></SENT>
+</text></td><td align="right" valign="bottom"><text><SENT sid="210" pm="."><plain>1,091 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="211" pm="."><plain>  </plain></SENT>
+</text></td><td align="left"><text><SENT sid="212" pm="."><plain>No </plain></SENT>
+</text></td><td align="right"><text><SENT sid="213" pm="."><plain>671 (61.5) </plain></SENT>
+</text></td><td align="right"><text><SENT sid="214" pm="."><plain>  </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="215" pm="."><plain>* (mean ± Standard Error). </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="216" pm="."><plain>Women aged 25–26 years followed the routine protocol of treatment or follow-up according to cytological results. </plain></SENT>
+<SENT sid="217" pm="."><plain>A specific protocol for 18–24 year-old women was adopted: colposcopy was offered to women with HSIL (high squamous intraepithelial lesions) and ASCH (atypical squamous cells that cannot exclude high-grade lesions), while women with LSIL (low squamous intraepithelial lesions) or less severe lesions were invited to repeat <z:uniprot sup="inside" fb="97" ids="Q7KTX8,P46547,Q83XD3,P29430">pap</z:uniprot>-test two years later and colposcopy was offered only if, after two years, the diagnosis was still LSIL or it progressed to a more severe lesion. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="218" pm="."><plain>HPV testing </plain></SENT>
+</text></title><p><text><SENT sid="219" pm="."><plain>The HPV test was performed using Hybrid Capture 2 (<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> High-Risk HPV DNA, Qiagen; Hilden, Germany) according to the manufacturer’s instructions. </plain></SENT>
+<SENT sid="220" pm="."><plain>It is a hybridization assay which detects the presence of HPV-DNA using cocktails of RNA probes and an amplified, chemiluminescent signal. </plain></SENT>
+<SENT sid="221" pm="."><plain>The high-risk group of probes B, designed to detect HPV types 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59 and 68, was used. </plain></SENT>
+<SENT sid="222" pm="."><plain>The assay is calibrated on a positive cut off (pc) of 1 pg/ml of HPV-DNA. </plain></SENT>
+<SENT sid="223" pm="."><plain>Samples were considered positive when the ratio between the Relative Light Units (RLU) of specimen and the pc attained or exceeded the value of 1.0. </plain></SENT>
+</text></p><p><text><SENT sid="224" pm="."><plain>A regional laboratory was identified in Tuscany, Piedmont, Abruzzo and Emilia-Romagna Regions for performing HPV testing; the Analytical and Biomolecular Cytology Unit of the Cancer Prevention and Research Institute (ISPO) in Tuscany also analysed samples from Campania and Lazio Regions. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="225" pm="."><plain>Genotyping </plain></SENT>
+</text></title><p><text><SENT sid="226" pm="."><plain>Genotyping was performed on HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive samples. </plain></SENT>
+<SENT sid="227" pm="."><plain>DNA was extracted using the QIAamp DNAMini kit (Qiagen) according to the manufacturer’s instructions. </plain></SENT>
+<SENT sid="228" pm="."><plain>For PreservCyt™ samples the elution volume varied from 80 to 100 μl depending on the size of the pellet, while for STM samples 100 μl of elution buffer (Buffer AE) were used. </plain></SENT>
+<SENT sid="229" pm="."><plain>To facilitate a higher recovery of DNA a double elution was done for all the samples. </plain></SENT>
+<SENT sid="230" pm="."><plain>HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive samples were typed using the “Consensus High Risk HPV genotyping” kit assay (Digene Corporation, Gaithersburg, USA). </plain></SENT>
+<SENT sid="231" pm="."><plain>The test is based on the reverse hybridization principle. </plain></SENT>
+<SENT sid="232" pm="."><plain>Denaturated biotynilated amplicons, resulting from the amplification of a part of the L1 region with <z:uniprot sup="inside" fb="0" ids="P28995,Q04569,A0MD34,P40197,P0DJX9">GP5</z:uniprot>+/<z:uniprot sup="inside" fb="0" ids="Q9HCN6">GP6</z:uniprot>+ primers, were hybridized with specific oligonucleotide probes, which were immobilized as parallel lines on membrane strips (Reverse Line Blot Hybridization). </plain></SENT>
+<SENT sid="233" pm="."><plain>The hybrids were detected with <z:uniprot sup="inside" fb="0" ids="P86348,P81800,P00634,P21948,P83456,Q05205,O60109,P19147">alkaline phosphatase</z:uniprot>–<z:uniprot sup="inside" fb="19" ids="P22629">streptavidin</z:uniprot> conjugate and substrate (5-bromo-4-chloro-3-indolylphosphate and nitroblue tetrazolium), resulting in a purple precipitate at positive probe lines. </plain></SENT>
+<SENT sid="234" pm="."><plain>The kit allows the identification of 18 HPV types (16, 18, 26, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68, 73, 82). </plain></SENT>
+<SENT sid="235" pm="."><plain>One HPV-positive control and two negative PCR controls (a purified DNA sample negative for HPV and a DNA free sample) were included in each PCR run and subsequent Reverse Line Blot (RLB). </plain></SENT>
+<SENT sid="236" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P28995,Q04569,A0MD34,P40197,P0DJX9">GP5</z:uniprot>+/<z:uniprot sup="inside" fb="0" ids="Q9HCN6">GP6</z:uniprot>+ PCR-negative and RLB-negative samples were amplified for the <z:uniprot sup="inside" fb="0" ids="O93349,P08851,P68061,P18982,P18983,P02073,P02130,Q6WN29,P02114,P02115,P02117,P02118,P02120,P14388,Q6WN26,P02035,P80216,P15165,P02122,P02116,P68047,P0C239,P68234,P68232,Q6WN22,P84792,P18984,P84217,P09422,P67819,P02072,P02070,P68944,P14526,P67820,P02131,P14260,Q6WN21,Q6WN28,P68230,P68231,P60525,P60524,P02140,Q10733,P82113,P02095,P02040,P67822,P02051,P02031,P02066,Q98905,P80271,P83123,Q6WN20,P02112,P02028,P07036,P60526,P13274,P02125,Q9TT33,P11342,P19885,P84652,P30893,P18986,P02129,P86919,P20855,P68945,P11754,P02087,P07420,O13164,P24292,P14521,P02084,P67823,P67824,P02059,P16418,P10058,P02053,P22742,O13077,P02024,P29625,P68063,Q7M3C2,P68013,P56692,P02143,P19016,P02062,P68871,P41332,P02025,Q6WN25,P68226,P68229,P68227,P23741,P56251,P02054,P02039,P68054,P08535,P02138,P15166,P02135,P02048,P02085,P10893,P41328,P09840,Q6H1U7,P68223,P68222,P24660,P02106,P02026,P68225,P02107,P68224,P08259,P68053,P08853,P11752,O09232,P15449,P02055,O13078,P02094,P18707,P18985,P02092,Q9YGW1,P23602,P68044,P68045,P11758,P26916,P29628,P16309,P02049,P68046,Q98TS0,P02093,P83761,P02111,P02076,P19646,Q6Y239,C0HJE1,P68872,P04244,P68873,Q9TSP1,P02030,P07406,P02134,P10782,P02113,P02121,P09909,P02067,P02033,Q6WN27,P0C240,Q9TT34,P02108,P23020,P02086,P18989,P80044,P21668,P14391,P68052,D0VX08,P14392,P21380,P02124,B2KHZ4,P09907,P02058,P02038,P68055,P02036,Q91473,P67821,Q2KPA4,Q2KPA3,P02032,P02075,O13163,Q28932,P02090,P09421,P07409,P02123,Q7LZB9,P02126,P02060,P02110,P11756,P02061,P28781,P13557,P02029,P11749,P04245,O93351,P07415,P68062,P02052,P14524,P18990,P68011,P68012,P21667,P68228,P07411,P21201">β-globin</z:uniprot> gene sequence using GH20-PC04 primers (268-bp amplicon length) to assess DNA integrity (Bauer). </plain></SENT>
+</text></p><p><text><SENT sid="237" pm="."><plain>The molecular Laboratory of ISPO performed genotyping of samples collected in all Italian regions involved in the study except samples collected in Piedmont Region, which were genotyped at the Center for Experimental Research and Medical Science of the Turin University. </plain></SENT>
+<SENT sid="238" pm="."><plain>ISPO also coordinated the molecular activities of the whole project, standardizing the procedures for storing and analysing the samples according to a protocol defined to guarantee the quality of molecular methods [16]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="239" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="240" pm="."><plain>Categorical variables were summarized by absolute frequencies and percentages, and continuous variables by means and Standard Error (SE). </plain></SENT>
+<SENT sid="241" pm="."><plain>The Chi-square test and Fisher’s exact test were used to compare proportions; the t-test or Mann–Whitney nonparametric test was used to compare continuous variables. </plain></SENT>
+<SENT sid="242" pm="."><plain>Crude and adjusted odds ratios (OR) and 95% confidence intervals (95%CI) were calculated to evaluate the association between the HR-HPV positivity and socio-behavioural characteristics. </plain></SENT>
+</text></p><p><text><SENT sid="243" pm="."><plain>Confounding was assessed by a multivariate logistic regression approach; all variables with a p-value ≤0.15 in the univariate analysis were included in the multivariate model and retained in the final model according to a log-likelihood-ratio test for goodness-of-fit. </plain></SENT>
+<SENT sid="244" pm="."><plain>Statistical analysis was performed using STATA 11.2 (Stata Corporation, College Station, Texas, USA). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results"><title><text><SENT sid="245" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="246" pm="."><plain>Study population </plain></SENT>
+</text></title><p><text><SENT sid="247" pm="."><plain>Recruitment was performed in the period ranging from February 2008 to April 2009. </plain></SENT>
+<SENT sid="248" pm="."><plain>The initial sample included 2,289 women; 239 did not meet the inclusion criteria (124 did not live in the selected LHU, 57 were pregnant, 45 were not included in the 18–26 years range of age and 13 did not speak Italian) and were replaced, and 290 could not be contacted. </plain></SENT>
+<SENT sid="249" pm="."><plain>Thus 1,999 women were offered <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot> test and HPV test. </plain></SENT>
+<SENT sid="250" pm="."><plain>Among them, 897 (44.9%) declined participation for several issues (non interested in the study, practical constraints, health disorders, HPV-positivity, recent previous <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot>-test, embarrassment, parental advice, safety concerns, no sexual activity) (Figure 1). </plain></SENT>
+<SENT sid="251" pm="."><plain>Women who did not participate were slightly younger than participants (mean age 23.2 ± 0.09 vs. 23.9 ± 0.07 years; p &lt; 0.001); the proportion of women with a lower education level (24.6% vs 19.9%; p = 0.017), living with parents (87.9 vs 74.6%; p = 0 &lt; 001), unmarried (93.5 vs 89.5%; p = 0.003) and living in southern Italy (53.3% vs 38.0%; p &lt; 0.001) was higher in the group of women who refused to participate. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="252" pm="."><plain>Study population. *Not traced: women who were not traced although three phone calls and two home visits. **Not eligible: women who did not meet inclusion criteria and were replaced with women of the same age group and local health unit. ***Declined participation: women who were contacted and met the inclusion criteria, but refused to participate in the prevalence study. ‡Un-typeable samples: HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive samples that resulted negative at any of the 18 types identifiable by the kit assay used for genotyping. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2334-13-74-1"/></fig></SecTag><p><text><SENT sid="253" pm="."><plain>In conclusion a total of 1,102 out of 2,289 women (48.1%) were enrolled in the study. </plain></SENT>
+<SENT sid="254" pm="."><plain>In order to calculate the participation rate to the prevalence study, we considered more appropriate to exclude from the denominator (2,289) the 154 women (among the 897 women who declined participation) who spontaneously declared not to be sexually active: therefore the participation rate was 51.6% (1,102/2,135), with a range among LHUs of 23.9-80.7. </plain></SENT>
+</text></p><p><text><SENT sid="255" pm="."><plain>The mean age of participants was 23.8 ± 0.07 years; 40.7% lived in northern Italy, 37.8% in southern Italy, and 21.5% in central Italy. </plain></SENT>
+<SENT sid="256" pm="."><plain>Most women were Italian (93.7%), unmarried (89.3%) and had a high educational level, defined as &gt; 8 years of education (80.2%). </plain></SENT>
+<SENT sid="257" pm="."><plain>Detailed socio-behavioural characteristics are shown in Table 1. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="258" pm="."><plain>HPV prevalence and genotyping </plain></SENT>
+</text></title><p><text><SENT sid="259" pm="."><plain>The <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot>-test was performed on 1,099 cervical smears because three samples were missed (they were included in the CC screening programme, instead of being included in the PreGio study) and the HR-HPV testing was performed on 1,094 out of 1,999 samples (the material of five samples was not sufficient for HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test). </plain></SENT>
+<SENT sid="260" pm="."><plain>The proportion of HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive samples was 18.7% (205/1,094) and did not differ by geographic area and age group (Table 2). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T2"><label>Table 2</label><caption><p><text><SENT sid="261" pm="."><plain>Determinants of HR-HPV prevalence: univariate (OR crude) and multivariate (OR adj) logistic regression analysis </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th colspan="2" align="left" valign="bottom"><text><SENT sid="262" pm="."><plain>Characteristics </plain></SENT>
+</text></th><th align="left" valign="bottom"><text><SENT sid="263" pm="."><plain>HR-HPV positivity </plain></SENT>
+</text></th><th colspan="2" align="center" valign="bottom"><text><SENT sid="264" pm="."><plain>Univariate analysis </plain></SENT>
+</text></th><th colspan="2" align="center" valign="bottom"><text><SENT sid="265" pm="."><plain>Multivariate model** </plain></SENT>
+</text></th></tr><tr><th align="left"><text><SENT sid="266" pm="."><plain>  </plain></SENT>
+</text></th><th align="left"><text><SENT sid="267" pm="."><plain>  </plain></SENT>
+</text></th><th align="left"><text><SENT sid="268" pm="."><plain>n/N (%) </plain></SENT>
+</text></th><th align="center"><text><SENT sid="269" pm="."><plain>OR crude </plain></SENT>
+</text></th><th align="center"><text><SENT sid="270" pm="."><plain>95%CI </plain></SENT>
+</text></th><th align="center"><text><SENT sid="271" pm="."><plain>OR adj </plain></SENT>
+</text></th><th align="center"><text><SENT sid="272" pm="."><plain>95%CI </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="bottom"><text><SENT sid="273" pm="."><plain>Age Group </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="274" pm="."><plain>18-24 years </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="275" pm="."><plain>119/597 (19.9) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="276" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="277" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="278" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="279" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="280" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="281" pm="."><plain>25-26 years </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="282" pm="."><plain>86/496 (17.3) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="283" pm="."><plain>0.84 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="284" pm="."><plain>(0.62 – 1.14) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="285" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="286" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="287" pm="."><plain>Geographical area of residence </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="288" pm="."><plain>Centre </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="289" pm="."><plain>44/235 (18.8) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="290" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="291" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="292" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="293" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="294" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="295" pm="."><plain>North </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="296" pm="."><plain>86/445 (19.3) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="297" pm="."><plain>1.03 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="298" pm="."><plain>(0.69 – 1.55) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="299" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="300" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="301" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="302" pm="."><plain>South </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="303" pm="."><plain>75/414 (18.1) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="304" pm="."><plain>0.95 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="305" pm="."><plain>(0.63 – 1.44) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="306" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="307" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="308" pm="."><plain>Nationality </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="309" pm="."><plain>Foreign </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="310" pm="."><plain>13/69 (18.8) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="311" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="312" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="313" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="314" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="315" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="316" pm="."><plain>Italian </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="317" pm="."><plain>192/1023 (18.7) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="318" pm="."><plain>0.99 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="319" pm="."><plain>(0.53 – 1.86) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="320" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="321" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="322" pm="."><plain>Educational level </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="323" pm="."><plain>Low (≤8 years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="324" pm="."><plain>39/216 (18.1) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="325" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="326" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="327" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="328" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="329" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="330" pm="."><plain>High (&gt;8 years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="331" pm="."><plain>166/874 (19.0) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="332" pm="."><plain>1.06 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="333" pm="."><plain>(0.72 – 1.56) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="334" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="335" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="336" pm="."><plain>Employment status </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="337" pm="."><plain>Student </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="338" pm="."><plain>79/455 (17.4) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="339" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="340" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="341" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="342" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="343" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="344" pm="."><plain>Employed </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="345" pm="."><plain>80/415 (19.3) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="346" pm="."><plain>1.14 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="347" pm="."><plain>(0.80 – 1.60) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="348" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="349" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="350" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="351" pm="."><plain>Other </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="352" pm="."><plain>45/214 (21.0) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="353" pm="."><plain>1.27 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="354" pm="."><plain>(0.84 – 1.91) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="355" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="356" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="357" pm="."><plain>Marital status </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="358" pm="."><plain>Single </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="359" pm="."><plain>197/974 (20.2) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="360" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="361" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="362" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="363" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="364" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="365" pm="."><plain>Married </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="366" pm="."><plain>8/113 (7.1) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="367" pm="."><plain>0.30 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="368" pm="."><plain>(0.14 – 0.63) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="369" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="370" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="371" pm="."><plain>Lives with </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="372" pm="."><plain>Parents/friends/alone </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="373" pm="."><plain>182/904 (20.1) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="374" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="375" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="376" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="377" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="378" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="379" pm="."><plain>Partner </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="380" pm="."><plain>22/185 (11.9) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="381" pm="."><plain>0.53 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="382" pm="."><plain>(0.33 – 0.86) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="383" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="384" pm="."><plain>(0.34 - 0.92) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="385" pm="."><plain>Mean age at first sexual intercourse (years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="386" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="387" pm="."><plain>* 17.2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="388" pm="."><plain>0.92 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="389" pm="."><plain>(0.85 – 0.99) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="390" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="391" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="392" pm="."><plain>Parity </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="393" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="394" pm="."><plain>195/988 (19.7) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="395" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="396" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="397" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="398" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="399" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="400" pm="."><plain>≥ 1 child </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="401" pm="."><plain>10/105 (9.5) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="402" pm="."><plain>0.43 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="403" pm="."><plain>(0.22 – 0.84) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="404" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="405" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="406" pm="."><plain>Mean age at first delivery (years) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="407" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="408" pm="."><plain>* 21.8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="409" pm="."><plain>1.01 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="410" pm="."><plain>(0.78 – 1.30) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="411" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="412" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="413" pm="."><plain>No. of lifetime partners </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="414" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="415" pm="."><plain>25/377 (6.3) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="416" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="417" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="418" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="419" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="420" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="421" pm="."><plain>2-4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="422" pm="."><plain>118/558 (21.1) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="423" pm="."><plain>3.78 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="424" pm="."><plain>(2.40 – 5.94) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="425" pm="."><plain>4.15 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="426" pm="."><plain>(2.56 – 6.72) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="427" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="428" pm="."><plain>≥5 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="429" pm="."><plain>62/156 (39.7) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="430" pm="."><plain>9.29 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="431" pm="."><plain>(5.54 – 15.57) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="432" pm="."><plain>10.63 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="433" pm="."><plain>(6.16 – 18.36) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="434" pm="."><plain>No. of partners in the last 6 months </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="435" pm="."><plain>0-1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="436" pm="."><plain>181/1031 (17.6) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="437" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="438" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="439" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="440" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="441" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="442" pm="."><plain>≥2 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="443" pm="."><plain>24/62 (38.7) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="444" pm="."><plain>2.96 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="445" pm="."><plain>(1.73 – 5.07) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="446" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="447" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="448" pm="."><plain>Use of contraceptives in the last 6 months </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="449" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="450" pm="."><plain>35/261 (13.4) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="451" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="452" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="453" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="454" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="455" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="456" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="457" pm="."><plain>159/762 (20.9) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="458" pm="."><plain>1.70 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="459" pm="."><plain>(1.14 – 2.53) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="460" pm="."><plain>1.67 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="461" pm="."><plain>(1.09 – 2.54) </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="462" pm="."><plain>Use of condoms in the last 6 months </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="463" pm="."><plain>Always </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="464" pm="."><plain>68/346 (19.7) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="465" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="466" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="467" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="468" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="469" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="470" pm="."><plain>Rarely </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="471" pm="."><plain>65/307 (21.2) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="472" pm="."><plain>1.10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="473" pm="."><plain>(0.75 – 1.60) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="474" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="475" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="476" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="477" pm="."><plain>Never </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="478" pm="."><plain>61/367 (16.6) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="479" pm="."><plain>0.81 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="480" pm="."><plain>(0.56 – 1.19) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="481" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="482" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="483" pm="."><plain>Previous <z:uniprot sup="inside" fb="97" ids="Q61183,P35230,P25031">Pap</z:uniprot>-test </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="484" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="485" pm="."><plain>135/671 (20.1) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="486" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="487" pm="."><plain>- </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="488" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="489" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="490" pm="."><plain>  </plain></SENT>
+</text></td><td align="left"><text><SENT sid="491" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left"><text><SENT sid="492" pm="."><plain>70/420 (16.7) </plain></SENT>
+</text></td><td align="center"><text><SENT sid="493" pm="."><plain>0.79 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="494" pm="."><plain>(0.58 – 1.09) </plain></SENT>
+</text></td><td align="center"><text><SENT sid="495" pm="."><plain>  </plain></SENT>
+</text></td><td align="center"><text><SENT sid="496" pm="."><plain>  </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="497" pm="."><plain>*mean. </plain></SENT>
+</text></p><p><text><SENT sid="498" pm="."><plain>**The following variables have been included in the multivariate model: marital status, living with, mean age at first sexual intercourse, mean age at first delivery, parity, number of lifetime partners, number of partners in the last 6 months, use of contraceptives in the last 6 months. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="499" pm="."><plain>The genotyping was performed on 202/205 HR-HPV positive samples (three samples were not adequate because material was not sufficient for genotyping) and 194 (96%) showed positivity at least for one of the 18 types identifiable by the kit assay used for genotyping. </plain></SENT>
+<SENT sid="500" pm="."><plain>In contrast, eight samples (4%) did not result positive at any of these 18 types: this proportion is in line with data reported in literature [17,18] and is mainly due to the cross-reactivity of the probe B with low-risk HPV types. </plain></SENT>
+</text></p><p><text><SENT sid="501" pm="."><plain>Among Hybrid Capture positive women HPV16 was the most prevalent type (30.9%), followed by 31 (19.6%), 66 (12.9%), 51 (11.3%), 18 (8.8%), 56 (8.8%) and 58 (8.3%); all the other types were detected at frequencies lower than 5.2% (Table 3); the cumulative rate of 16 and 18 was 38.7%. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T3"><label>Table 3</label><caption><p><text><SENT sid="502" pm="."><plain>Distribution of HPV genotypes in HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test positive women and overall population </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="center"><text><SENT sid="503" pm="."><plain>HPV genotypes </plain></SENT>
+</text></th><th align="center"><text><SENT sid="504" pm="."><plain>Number of infections </plain></SENT>
+</text></th><th align="center"><text><SENT sid="505" pm="."><plain>HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test positive women (N = 194), % </plain></SENT>
+</text></th><th align="center"><text><SENT sid="506" pm="."><plain>Overall population* (N = 1094), % </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="507" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="508" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="509" pm="."><plain>30.9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="510" pm="."><plain>5.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="511" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="512" pm="."><plain>38 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="513" pm="."><plain>19.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="514" pm="."><plain>3.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="515" pm="."><plain>66** </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="516" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="517" pm="."><plain>12.9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="518" pm="."><plain>2.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="519" pm="."><plain>51 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="520" pm="."><plain>22 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="521" pm="."><plain>11.3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="522" pm="."><plain>2.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="523" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="524" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="525" pm="."><plain>8.8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="526" pm="."><plain>1.6 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="527" pm="."><plain>56 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="528" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="529" pm="."><plain>8.8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="530" pm="."><plain>1.6 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="531" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="532" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="533" pm="."><plain>8.3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="534" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="535" pm="."><plain>59 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="536" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="537" pm="."><plain>5.2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="538" pm="."><plain>0.9 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="539" pm="."><plain>52 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="540" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="541" pm="."><plain>4.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="542" pm="."><plain>0.8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="543" pm="."><plain>39 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="544" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="545" pm="."><plain>4.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="546" pm="."><plain>0.8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="547" pm="."><plain>45 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="548" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="549" pm="."><plain>4.1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="550" pm="."><plain>0.7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="551" pm="."><plain>53** </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="552" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="553" pm="."><plain>3.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="554" pm="."><plain>0.6 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="555" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="556" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="557" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="558" pm="."><plain>0.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="559" pm="."><plain>68 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="560" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="561" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="562" pm="."><plain>0.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="563" pm="."><plain>73** </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="564" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="565" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="566" pm="."><plain>0.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="567" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="568" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="569" pm="."><plain>1.0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="570" pm="."><plain>0.2 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="571" pm="."><plain>82** </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="572" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="573" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="574" pm="."><plain>0.1 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="575" pm="."><plain>26** </plain></SENT>
+</text></td><td align="center"><text><SENT sid="576" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="577" pm="."><plain>0.0 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="578" pm="."><plain>0.0 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="579" pm="."><plain>* HPV type-specific prevalence has been extrapolated to overall population although it should be stressed that the genotyping was performed only on HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive samples. </plain></SENT>
+</text></p><p><text><SENT sid="580" pm="."><plain>** The prevalence of HPV 26,53,66,73,82 is probably underestimated because these HPV types are detected by the “Consensus High Risk HPV genotyping” assay, but they are not targeted by the HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="581" pm="."><plain>The prevalence of HPV 26, 53, 66, 73, 82 is underestimated because these HPV types are detected by the “Consensus High Risk HPV genotyping” assay, but they are not targeted by HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test; the detection of HPV 26, 53, 66, 73, 82 is due to an occasional cross-hybridization of HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> method or co-infection with HPV-targeted types, therefore they could more likely appear in multiple than single infections. </plain></SENT>
+<SENT sid="582" pm="."><plain>For this reason we limited the analysis of multiple infections to the 13 HR-HPV types targeted by HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test. </plain></SENT>
+</text></p><p><text><SENT sid="583" pm="."><plain>Out of 181 women infected by HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> targeted types, 37 (20.4%) had a multiple infection (36 infected by two types and one by three types). </plain></SENT>
+<SENT sid="584" pm="."><plain>No difference in socio-demographic characteristics and sexual and reproductive history was found between women presenting a multiple and single infection. </plain></SENT>
+<SENT sid="585" pm="."><plain>HPV16 was the most common genotype detected in multiple infections, followed by HPV31 and 18. </plain></SENT>
+<SENT sid="586" pm="."><plain>Table 4 shows the distribution of HPV types in single and multiple infections; the proportion of single and co-infections by genotype is also reported: the proportion of infections occurring in conjunction with other types did not significantly differ by HPV type (Fisher’s exact test: p = 0.264). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T4"><label>Table 4</label><caption><p><text><SENT sid="587" pm="."><plain>Distribution of HPV genotypes in single/multiple infections and proportion of single/multiple infections by type </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th rowspan="2" align="center"><text><SENT sid="588" pm="."><plain>HPV genotypes* </plain></SENT>
+</text></th><th colspan="2" align="center" valign="bottom"><text><SENT sid="589" pm="."><plain>Single infections </plain></SENT>
+</text></th><th colspan="2" align="center" valign="bottom"><text><SENT sid="590" pm="."><plain>Multiple infections </plain></SENT>
+</text></th></tr><tr><th align="center"><text><SENT sid="591" pm="."><plain>n </plain></SENT>
+</text></th><th align="center"><text><SENT sid="592" pm="."><plain>%** </plain></SENT>
+</text></th><th align="center"><text><SENT sid="593" pm="."><plain>n </plain></SENT>
+</text></th><th align="center"><text><SENT sid="594" pm="."><plain>%** </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="center" valign="bottom"><text><SENT sid="595" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="596" pm="."><plain>43 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="597" pm="."><plain>71.7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="598" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="599" pm="."><plain>28.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="600" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="601" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="602" pm="."><plain>55.3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="603" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="604" pm="."><plain>44.7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="605" pm="."><plain>51 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="606" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="607" pm="."><plain>72.7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="608" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="609" pm="."><plain>27.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="610" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="611" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="612" pm="."><plain>41.2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="613" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="614" pm="."><plain>58.8 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="615" pm="."><plain>56 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="616" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="617" pm="."><plain>70.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="618" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="619" pm="."><plain>29.4 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="620" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="621" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="622" pm="."><plain>68.7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="623" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="624" pm="."><plain>31.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="625" pm="."><plain>59 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="626" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="627" pm="."><plain>60.0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="628" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="629" pm="."><plain>40.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="630" pm="."><plain>52 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="631" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="632" pm="."><plain>55.6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="633" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="634" pm="."><plain>44.4 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="635" pm="."><plain>39 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="636" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="637" pm="."><plain>66.7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="638" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="639" pm="."><plain>33.3 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="640" pm="."><plain>45 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="641" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="642" pm="."><plain>87.5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="643" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="644" pm="."><plain>12.5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="645" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="646" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="647" pm="."><plain>50.0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="648" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="649" pm="."><plain>50.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="650" pm="."><plain>68 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="651" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="652" pm="."><plain>100.0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="653" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="654" pm="."><plain>0.0 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="bottom"><text><SENT sid="655" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="656" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="657" pm="."><plain>50.0 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="658" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="659" pm="."><plain>50.0 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="660" pm="."><plain>All </plain></SENT>
+</text></td><td align="center"><text><SENT sid="661" pm="."><plain>144 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="662" pm="."><plain>65.5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="663" pm="."><plain>76 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="664" pm="."><plain>34.5 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="665" pm="."><plain>* All genotypes from single and multiple infections were computed individually. </plain></SENT>
+</text></p><p><text><SENT sid="666" pm="."><plain>** The denominator is represented by the total number of infections (single plus multiple) by genotype. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="667" pm="."><plain>Determinants of high risk HPV prevalence </plain></SENT>
+</text></title><p><text><SENT sid="668" pm="."><plain>The univariate analysis of socio-behavioural characteristics and HR-HPV infection is reported in Table 2. </plain></SENT>
+<SENT sid="669" pm="."><plain>The risk of HR-HPV infection resulted significantly higher in women who declared a greater number of partners in lifetime (OR = 3.78, 95%CI: 2.40-5.94 if 2–4 partners and OR = 9.29, 95%CI: 5.54-15.57 if ≥5 partners) and in the last six months (OR = 2.96, 95%CI 1.73-5.07 if ≥2 partners), and in women who have used any contraceptive method in the last six months (OR = 1.70, 95%CI 1.14-2.53). </plain></SENT>
+<SENT sid="670" pm="."><plain>In contrast, the risk of HR-HPV infection resulted significantly lower in women living with their partner compared to women living with parents/friends/alone (OR = 0.53, 95%CI: 0.33-0.86), in married women (OR = 0.30, 95%CI: 0.14-0.63) and women with children (OR = 0.43, 95%CI: 0.22-0.84). </plain></SENT>
+<SENT sid="671" pm="."><plain>Also a higher age at the first intercourse showed a protective effect (OR = 0.92, 95%CI: 0.85-0.99). </plain></SENT>
+</text></p><p><text><SENT sid="672" pm="."><plain>The following variables were included in the multivariate model: marital status, “living with”, age at first sexual intercourse, age at first delivery, parity, number of lifetime partners, number of partners in the last six months, use of contraceptives in the last six months. </plain></SENT>
+</text></p><p><text><SENT sid="673" pm="."><plain>In the multivariate logistic regression model (Table 2), the effect of the number of lifetime sexual partner remained statistically significant (ORadj = 4.15, 95%CI: 2.56-6.72 if 2–4 partners and ORadj = 10.63, 95%CI: 6.16-18.36 if ≥5 partners). </plain></SENT>
+<SENT sid="674" pm="."><plain>Also, living with the sexual partner and having used any contraceptive in the last six months remained significantly associated with the detection of HR-HPV infection (ORadj = 0.56, 95%CI: 0.34-0.92 and ORadj = 1.67, 95%CI: 1.09-2.54 respectively). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="675" pm="."><plain>Cytology </plain></SENT>
+</text></title><p><text><SENT sid="676" pm="."><plain>The <z:uniprot sup="inside" fb="97" ids="Q7KTX8,P46547,Q83XD3,P29430">pap</z:uniprot>-test result was available for 1,093/1,094 cervical smears tested for HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot>; 5.7% (62/1,093) of samples were inadequate, cytology was normal in 83.0% samples (907/1,093) and abnormal in 11.3% (124/1,093) samples: 62 ASCUS/AGUS (atypical squamous/glandular cervical cells of undetermined significance), 52 LSIL, 6 ASCH and 4 HSIL. </plain></SENT>
+<SENT sid="677" pm="."><plain>The proportion of HR-HPV positivity was significantly higher in women with abnormal cytology (65/124, 52.4%) than in women with normal cytology (132/907, 14.6%) (p &lt; 0,001). </plain></SENT>
+<SENT sid="678" pm="."><plain>Among the 197 HPV-infected women with adequate cytology, 65 (33.0%) had an abnormal finding. </plain></SENT>
+</text></p><p><text><SENT sid="679" pm="."><plain>HPV16 was the most frequent virus strain in normal cytology, ASCUS/AGUS, LSIL and ASCH, detected in 29.3, 47.8, 24.2 and 66.7% of the samples respectively. </plain></SENT>
+<SENT sid="680" pm="."><plain>All the four HSIL were HR-HPV positive and four different types were detected respectively (16, 18, 31, 33). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="681" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="682" pm="."><plain>We found a prevalence of HR-HPV infections of 19% in a sample of Italian women aged 18–26 years. </plain></SENT>
+<SENT sid="683" pm="."><plain>This percentage is in agreement with an Italian study which used a similar methodology to measure the HR-HPV prevalence in 18–24 year-old women from Tuscany Region [11]. </plain></SENT>
+<SENT sid="684" pm="."><plain>This value is also included within the range (20-45%) reported in other national or worldwide studies for women younger than 25 years [12,19-22], although it is difficult to compare results of different studies because of different age groups and different procedures for enrolling participants. </plain></SENT>
+<SENT sid="685" pm="."><plain>Not surprisingly, the rate of infection in this age group was higher than what was found in women aged 25–29 (14%) in New Technologies for CC screening (NTCC) randomized trials, which studied 45,000 women aged 25–60 years of northern and central Italy, participating in CC screening programmes [8,9]. </plain></SENT>
+<SENT sid="686" pm="."><plain>This finding reflects a higher probability of acquiring new infections at younger ages, confirming the trend described in the international literature with a peak of HR-HPV prevalence in younger women and a continuous decline with increasing age [19-22]. </plain></SENT>
+</text></p><p><text><SENT sid="687" pm="."><plain>Cervical cancer incidence is lower in the South than in the North of Italy, therefore a lower HR-HPV prevalence in the general population was expected in the South. </plain></SENT>
+<SENT sid="688" pm="."><plain>Instead, we did not find any difference in HR-HPV prevalence rates between northern, central and southern regions of Italy, confirming what reported by Agarossi and coll. </plain></SENT>
+<SENT sid="689" pm="."><plain>[22]. </plain></SENT>
+<SENT sid="690" pm="."><plain>This finding should encourage the implementation, strengthening and promotion of cervical cancer screening programmes in southern Italy, where coverage and acceptance are still lower than in the rest of the country [23]. </plain></SENT>
+</text></p><p><text><SENT sid="691" pm="."><plain>Genotype HPV16 was detected in 31% of HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> positive samples, followed by 31, 66, 51 and 18. </plain></SENT>
+<SENT sid="692" pm="."><plain>This is well consistent with the results of a comprehensive meta-analysis on HPV positive women with normal cytology conducted by de Sanjosé and coll. </plain></SENT>
+<SENT sid="693" pm="."><plain>[24], which reported HPV16, 31 and 18 among the five most common types worldwide. </plain></SENT>
+<SENT sid="694" pm="."><plain>In Italy, HPV16 resulted to be the genotype most frequently detected in all studies and HPV 31 was frequently reported as the second most common genotype [11,22,25,26]. </plain></SENT>
+<SENT sid="695" pm="."><plain>Regarding the other genotypes a high variability is reported among studies, which could be due to geographical differences, different target populations, different methods for genotyping and random fluctuation for quite rare genotypes [27,28]. </plain></SENT>
+</text></p><p><text><SENT sid="696" pm="."><plain>According to the International Agency for Research on Cancer (IARC) classification, HPV16, 31, 51 and 18 are classified as “carcinogenic to humans”, while HPV 66 is classified as “possibly carcinogenic” [29]. </plain></SENT>
+<SENT sid="697" pm="."><plain>It should be also mentioned that the prevalence of HPV 66, as of the other genotypes not targeted by HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> (HPV 53, 26, 73, 82), observed in the present study is plausibly underestimated because the detection of these types is only due to an occasional cross-hybridization of the method or co-infection with HPV-targeted types. </plain></SENT>
+</text></p><p><text><SENT sid="698" pm="."><plain>As expected, we found that women with cervical cytological abnormalities were at significantly increased risk for being infected by HR-HPV types than women with normal cytology (52 vs. 15%). </plain></SENT>
+<SENT sid="699" pm="."><plain>Current Italian studies involving women with cytological abnormalities (different ages and enrolment criteria) reported HR-HPV prevalence of 34-68%, increasing with cytology severity: 24-56% in case of diagnosis of ASCUS/AGUS, 42-72% in LSIL and 73-95% in HSIL [21,22,26,27,30-32]. </plain></SENT>
+</text></p><p><text><SENT sid="700" pm="."><plain>Co-infections of HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> targeted types represented the 20% of HPV positive samples. </plain></SENT>
+<SENT sid="701" pm="."><plain>This value is included in the range (15-50%) reported in literature [33]; similar percentages of single and multiple HPV infections have been observed in young general populations [34,35]. </plain></SENT>
+<SENT sid="702" pm="."><plain>It is still not clear whether co-infection with multiple types increases the risk of progression to cancer [22,36]. </plain></SENT>
+</text></p><p><text><SENT sid="703" pm="."><plain>The multivariate analysis evidenced the role of the number of lifetime sexual partners as determinant of HPV infection, consistently with other studies [11,12,21,37], and strengthens the concept that that the most suitable age for HPV vaccination is the period preceding sexual activity. </plain></SENT>
+<SENT sid="704" pm="."><plain>Living with partner had a protective effect against HR-HPV infection in the multivariate model; consistently with another Italian study [38], being married and having children showed a protective effect in the crude analysis, although not statistically significant in the multivariate analysis. </plain></SENT>
+<SENT sid="705" pm="."><plain>All these variables could be considered markers of a steady relationship, explaining the association with a low HR-HPV prevalence. </plain></SENT>
+<SENT sid="706" pm="."><plain>The use of any contraceptive method in the last six months remained associated to HR-HPV infection in the final model; we could suppose that women who used contraceptives in the last six months could have had a more intense sexual activity, with a higher risk of acquiring HPV, whose prevalence is higher in young ages. </plain></SENT>
+<SENT sid="707" pm="."><plain>If considering only the use of condoms in the last six months, no association was detected between HR-HPV prevalence and this method of contraception; this point is debated and conclusions about the association between condoms’ use and HR-HPV prevalence are discordant among authors [11]. </plain></SENT>
+</text></p><p><text><SENT sid="708" pm="."><plain>The major strengths of this study are that the sample was large and it targeted an age group that has not been investigated extensively. </plain></SENT>
+</text></p><p><text><SENT sid="709" pm="."><plain>Among the limitations, it should be mentioned the fact that our sample may not be entirely representative of Italy’s general population of females aged 18–26 years because only ten LHUs in six Regions participated, though local probabilistic samples were population-based and both urban and rural LHUs in northern, central and southern Italy were involved. </plain></SENT>
+</text></p><p><text><SENT sid="710" pm="."><plain>In addition the participation rate was 52%, therefore our findings could not be representative of the entire study population; however differences in socio-demographic characteristics between participants and people who declined participation were minimal. </plain></SENT>
+</text></p><p><text><SENT sid="711" pm="."><plain>The participation rate could be underestimated because we have excluded from the initial sample the 154 women who spontaneously declared not to be sexually active, but we do not know if other women, who declined participation, were virgin too (we did not collect this information). </plain></SENT>
+<SENT sid="712" pm="."><plain>This age group represents a difficult target for prevention measures, because in Italy young adult women are not accustomed to being targeted by preventive programmes; moreover, enrolled women were offered the participation to a package of activities within the PreGio project, which is more difficult to be accepted than a single cervical smear. </plain></SENT>
+<SENT sid="713" pm="."><plain>On the other hand, it should be noted that the study personnel had received special training and that a high number of attempts were made to contact non-respondents. </plain></SENT>
+<SENT sid="714" pm="."><plain>Two other studies [11,12], which detected HPV prevalence of a sample of Italian women aged 18–24 years randomly selected from population registries, got a lower participation rate (15-22%). </plain></SENT>
+<SENT sid="715" pm="."><plain>In these two studies letters of invitation were mailed to sampled women and a reminder was sent in case of no response, whereas we planned three phone calls and two home visits for non respondents. </plain></SENT>
+</text></p><p><text><SENT sid="716" pm="."><plain>As already mentioned, another limitation is that the prevalence of HPV 26, 53, 66, 73 and 82 could be heavily underestimated because they are not targeted by HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> test. </plain></SENT>
+<SENT sid="717" pm="."><plain>In fact HPV 73 and 82 were observed only in co-infection with other HR-HPV types, suggesting that they could have been found only because coexisted with HPV types detected by HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> probes B (for this reason we excluded HR-<z:uniprot sup="inside" fb="1" ids="Q95P07,P25786">HC2</z:uniprot> not targeted types from the analysis of co-infections). </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions"><title><text><SENT sid="718" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="719" pm="."><plain>We measured the genital HR-HPV prevalence in Italian women aged 18–26 years before the introduction of HPV vaccination across all the areas of Italy; we found a prevalence of 19%, higher than what detected for older women [19-22]. </plain></SENT>
+<SENT sid="720" pm="."><plain>The use of the same molecular method and laboratory network of the NTCC studies [8,9], targeting women aged 25–60 years, allowed us to depict a comprehensive picture of HR-HPV prevalence in Italy from 18 to 60 years of age, observing in young adult women a peak of prevalence, which drops with increasing age. </plain></SENT>
+<SENT sid="721" pm="."><plain>The findings support the choice of electing girls before the sexual debut as the primary target of HPV vaccination. </plain></SENT>
+</text></p><p><text><SENT sid="722" pm="."><plain>The HPV type distribution found in this study may represent a baseline picture; an accurate post-vaccine surveillance is, in fact, necessary to early detect a possible genotype replacement. </plain></SENT>
+<SENT sid="723" pm="."><plain>The high prevalence of viral types other than vaccine-HPV types supports the necessity to guarantee the progression of CC screening programmes in vaccinated women. </plain></SENT>
+<SENT sid="724" pm="."><plain>Studies linking screening programmes with vaccine immunization registries should be performed to evaluate the HPV vaccine effectiveness on vaccine-related and not-vaccine related types. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="725" pm="."><plain>Competing interests </plain></SENT>
+</text></title><p><text><SENT sid="726" pm="."><plain>The authors declare that they have no competing interests. </plain></SENT>
+</text></p></sec></SecTag><sec><title><text><SENT sid="727" pm="."><plain>Authors’ contributions </plain></SENT>
+</text></title><p><text><SENT sid="728" pm="."><plain>CG coordinated and monitored the project activities, analysed the data, interpreted the results, drafted and edited the manuscript. </plain></SENT>
+<SENT sid="729" pm="."><plain>SDo designed the study, coordinated and monitored the project activities, interpreted the results and revised the manuscript. </plain></SENT>
+<SENT sid="730" pm="."><plain>FC and GR participated in the study design, carried out the immunoassays, coordinated the activities of laboratories and revised the manuscript. </plain></SENT>
+<SENT sid="731" pm="."><plain>SS designed the study, interpreted the results and revised the manuscript. </plain></SENT>
+<SENT sid="732" pm="."><plain>SDe coordinated and monitored the project activities and revised the manuscript. </plain></SENT>
+<SENT sid="733" pm="."><plain>MLCdA designed the study, coordinated and monitored the project activities in the first phase of the project and revised the manuscript. </plain></SENT>
+<SENT sid="734" pm="."><plain>AB analysed the data and revised the manuscript. </plain></SENT>
+<SENT sid="735" pm="."><plain><z:uniprot sup="inside" fb="10" ids="P18674,P18675,P18676,P18677">MPA</z:uniprot>, SB, NC, DF, AL, <z:uniprot sup="inside" fb="5" ids="O86028,Q3J4D7,Q9UXG1,Q80Z19,Q9GK13,Q23381,P22033,Q8HXX1,P16332,P65486,P9WJK6,P9WJK7,Q8MI68,Q5RFN2,P65488,P9WJK4,P9WJK5,P27253">MCM</z:uniprot>, RN, EB participated in the study design and coordinated the activities in their local health units. </plain></SENT>
+<SENT sid="736" pm="."><plain>EB, AG, VM, PP carried out the immunoassays. </plain></SENT>
+<SENT sid="737" pm="."><plain>All authors read and approved the final manuscript. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="738" pm="."><plain>Pre-publication history </plain></SENT>
+</text></title><p><text><SENT sid="739" pm="."><plain>The pre-publication history for this paper can be accessed here: </plain></SENT>
+</text></p><p><text><SENT sid="740" pm="."><plain><ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/1471-2334/13/74/prepub">http://www.biomedcentral.com/1471-2334/13/74/prepub</ext-link> </plain></SENT>
+</text></p></sec></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgments</title><p><text4fund><text><SENT sid="741" pm="."><plain>We wish to thank all the additional members of the PreGio Working group1 for their precious and active collaboration in all the activities of this study. </plain></SENT>
+<SENT sid="742" pm="."><plain>We also wish to thank all the enrolled women, whose participation was essential to achieve the PreGio results. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="743" pm="."><plain>1Additional members of the PreGio Working Group: B. </plain></SENT>
+<SENT sid="744" pm="."><plain>De Mei, S. </plain></SENT>
+<SENT sid="745" pm="."><plain>De Santis, A. </plain></SENT>
+<SENT sid="746" pm="."><plain>Filia, S. </plain></SENT>
+<SENT sid="747" pm="."><plain>Giannitelli, S. </plain></SENT>
+<SENT sid="748" pm="."><plain>Lana, F. </plain></SENT>
+<SENT sid="749" pm="."><plain>Meduri, G. </plain></SENT>
+<SENT sid="750" pm="."><plain>Nacca, A. </plain></SENT>
+<SENT sid="751" pm="."><plain>Ranghiasci (ISS, Roma); M. </plain></SENT>
+<SENT sid="752" pm="."><plain>Toschi (Umbria Region); L. </plain></SENT>
+<SENT sid="753" pm="."><plain>Caroselli, M. </plain></SENT>
+<SENT sid="754" pm="."><plain>Gallese, C. </plain></SENT>
+<SENT sid="755" pm="."><plain>Gallina, R. </plain></SENT>
+<SENT sid="756" pm="."><plain>Nardella (Avezzano/Sulmona LHU); C. </plain></SENT>
+<SENT sid="757" pm="."><plain>Angeloni, S. </plain></SENT>
+<SENT sid="758" pm="."><plain>Acciavatti, A. </plain></SENT>
+<SENT sid="759" pm="."><plain>Angelozzi, M. </plain></SENT>
+<SENT sid="760" pm="."><plain>Di Febo, R. </plain></SENT>
+<SENT sid="761" pm="."><plain>Mucciarelli (Teramo LHU); C. </plain></SENT>
+<SENT sid="762" pm="."><plain>Granchelli, M. </plain></SENT>
+<SENT sid="763" pm="."><plain>Patrizii, I. </plain></SENT>
+<SENT sid="764" pm="."><plain>Taglione, E. </plain></SENT>
+<SENT sid="765" pm="."><plain>Tini (Pescara LHU); MT. </plain></SENT>
+<SENT sid="766" pm="."><plain>Pini, M. </plain></SENT>
+<SENT sid="767" pm="."><plain>Faredo, G. </plain></SENT>
+<SENT sid="768" pm="."><plain>Gallicchio, R. </plain></SENT>
+<SENT sid="769" pm="."><plain>Granata, A. </plain></SENT>
+<SENT sid="770" pm="."><plain>Improta, E. </plain></SENT>
+<SENT sid="771" pm="."><plain>Lorido, A. </plain></SENT>
+<SENT sid="772" pm="."><plain>Musella, MA. </plain></SENT>
+<SENT sid="773" pm="."><plain>Petricciuoli, I. </plain></SENT>
+<SENT sid="774" pm="."><plain>Scherillo (Napoli 2 Nord LHU); M. </plain></SENT>
+<SENT sid="775" pm="."><plain>Becca, P. </plain></SENT>
+<SENT sid="776" pm="."><plain>Cavalli, P. </plain></SENT>
+<SENT sid="777" pm="."><plain>Quercia, R. </plain></SENT>
+<SENT sid="778" pm="."><plain>Raspanti, O. </plain></SENT>
+<SENT sid="779" pm="."><plain>Turrini (Imola LHU); MG. </plain></SENT>
+<SENT sid="780" pm="."><plain>Aloi, G. </plain></SENT>
+<SENT sid="781" pm="."><plain>Belletti, P. </plain></SENT>
+<SENT sid="782" pm="."><plain>Biavati, A. </plain></SENT>
+<SENT sid="783" pm="."><plain>Calzolari, B. </plain></SENT>
+<SENT sid="784" pm="."><plain>Fava, A. </plain></SENT>
+<SENT sid="785" pm="."><plain>Montrone, G. </plain></SENT>
+<SENT sid="786" pm="."><plain>Nanetti, D. </plain></SENT>
+<SENT sid="787" pm="."><plain>Onofri, S. </plain></SENT>
+<SENT sid="788" pm="."><plain>Salerno (Bologna LHU); L. </plain></SENT>
+<SENT sid="789" pm="."><plain>Bonelli, A. </plain></SENT>
+<SENT sid="790" pm="."><plain>Brachini, T. </plain></SENT>
+<SENT sid="791" pm="."><plain>Cappelli, AM. </plain></SENT>
+<SENT sid="792" pm="."><plain>Casciani, G. </plain></SENT>
+<SENT sid="793" pm="."><plain>Esposito, M. </plain></SENT>
+<SENT sid="794" pm="."><plain>Mosconi, P. </plain></SENT>
+<SENT sid="795" pm="."><plain>Polesi (Viterbo LHU); E. </plain></SENT>
+<SENT sid="796" pm="."><plain>Anselmo, L. </plain></SENT>
+<SENT sid="797" pm="."><plain>Avalle, P. </plain></SENT>
+<SENT sid="798" pm="."><plain>Baracco, E. </plain></SENT>
+<SENT sid="799" pm="."><plain>Lucchini (Ivrea 9 LHU); M. </plain></SENT>
+<SENT sid="800" pm="."><plain>Meda, G. </plain></SENT>
+<SENT sid="801" pm="."><plain>Cavani (Torino 1 LHU); M. </plain></SENT>
+<SENT sid="802" pm="."><plain>Caruana, R. </plain></SENT>
+<SENT sid="803" pm="."><plain>Rizzolo (CPO, Torino); MG. </plain></SENT>
+<SENT sid="804" pm="."><plain>Santini, S. </plain></SENT>
+<SENT sid="805" pm="."><plain>Peroni, S. </plain></SENT>
+<SENT sid="806" pm="."><plain>Pini, D. </plain></SENT>
+<SENT sid="807" pm="."><plain>Trotto (AS Firenze); L. </plain></SENT>
+<SENT sid="808" pm="."><plain>Brandigi, C. </plain></SENT>
+<SENT sid="809" pm="."><plain>Di Pierro, C. </plain></SENT>
+<SENT sid="810" pm="."><plain>Sani (ISPO Firenze); L. </plain></SENT>
+<SENT sid="811" pm="."><plain>De Marco (CERMS, University of Turin). </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="812" pm="."><plain>BoschFXLorinczAMuñozNMeijerCJLMShahKVThe causal relation between human papillomavirus and cervical cancerJ Clin Pathol20025524426510.1136/jcp.55.4.24411919208 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="813" pm="."><plain>BasemanJGKoutskyLAThe epidemiology of human papillomavirus infectionsJ Clin Virol200532SS16S2415753008 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="814" pm="."><plain>World Health Organization position paperHuman papillomavirus vaccinesWeekly epidemiological record20091584117132Available at: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/wer/2009/wer8415.pdf">http://www.who.int/wer/2009/wer8415.pdf</ext-link>. </plain></SENT>
+<SENT sid="815" pm="."><plain>Accessed 4 May 2012 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="816" pm="."><plain>MarianiLMonfulledaNAlemanyLVizzaEMarandinoFVocaturoAHuman Papilloma Virus prevalence and type-specific relative contribution in invasive cervical cancer specimens from ItalyBMC Cancer20101025910.1186/1471-2407-10-25920525370 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="817" pm="."><plain>DorleansFGiambiCDematteLCotterSStefanoffPMereckieneJThe current state of introduction of human papillomavirus vaccination into national immunisation schedules in Europe: first results of the VENICE2 2010 survey?Euro Surveill20101547Available at: <ext-link ext-link-type="uri" xlink:href="http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=19730">http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=19730</ext-link>. </plain></SENT>
+<SENT sid="818" pm="."><plain>Accessed 4 May 2012 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="819" pm="."><plain>Presidency of the CouncilState-Regions Agreement “Strategies for HPV Vaccination Active Offer in Italy”2007ItalianAvailable at: <ext-link ext-link-type="uri" xlink:href="http://www.statoregioni.it/Documenti/DOC_016696_264%20csr.pdf">http://www.statoregioni.it/Documenti/DOC_016696_264%20csr.pdf</ext-link>. </plain></SENT>
+<SENT sid="820" pm="."><plain>Accessed 4 May 2012 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="821" pm="."><plain>GiambiCProgresses of HPV Vaccination Campaign: Vaccination Coverage Data at 31/12/2011Available at: <ext-link ext-link-type="uri" xlink:href="http://www.epicentro.iss.it/problemi/hpv/pdf/Aggiornamento_datiHPV_31_12_2011_validato.pdf">http://www.epicentro.<z:uniprot sup="inside" fb="98" ids="P19592">iss</z:uniprot>.it/problemi/hpv/pdf/Aggiornamento_datiHPV_31_12_2011_validato.pdf</ext-link>. </plain></SENT>
+<SENT sid="822" pm="."><plain>Accessed 18 May 2012 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="823" pm="."><plain>RoncoGBrezziSCarozziFDalla PalmaPGiorgi-RossiPMinucciDNTCC study group. </plain></SENT>
+<SENT sid="824" pm="."><plain>The New technologies for cervical cancer screening randomized controlled trial. </plain></SENT>
+<SENT sid="825" pm="."><plain>An overview of results during the first phase of recruitmentGynecol Oncol2007107S230S23210.1016/j.ygyno.2007.07.02117822751 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="826" pm="."><plain>RoncoGGiorgi-RossiPCarozziFConfortiniMDalla PalmaPDel MistroANTCC Working GroupEfficacy of human papillomavirus testing for the detection of invasive cervical cancers and cervical intraepithelial neoplasia: a randomized controlled trialLancet Oncol20101124925710.1016/S1470-2045(09)70360-220089449 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="827" pm="."><plain>Giorgi-RossiPBisanziSPaganiniIDi IasiAAngeloniCScalisiAHPV Prevalence Italian Working GroupPrevalence of HPV high and low risk types in cervical samples from the Italian general population: a population based studyBMC Infect Dis20101021420646310 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="828" pm="."><plain>ConfortiniMCarozziFZappaMVenturaLIossaACariaggiPHuman papillomavirus infection and risk factors in a cohort of Tuscan women aged 18–24: results at recruitmentBMC Infect Dis20101015710.1186/1471-2334-10-15720529280 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="829" pm="."><plain>AmmatunaPGiovannelliLMatrangaDCiriminnaSPerinoAPrevalence of genital human papilloma virus infection and genotypes among young women in Sicily, South ItalyCancer Epidemiol Biomarkers Prev2008172002200610.1158/1055-9965.EPI-08-018018708390 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="830" pm="."><plain>DonatiAGiambiSDeclichSSalmasoSFiliaAAtti MLCdThe PreGio Working groupKnowledge, attitude and practice in primary and secondary cervical cancer prevention among young adult Italian womenVaccine2012302075208210.1016/j.vaccine.2012.01.05722300719 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="831" pm="."><plain>GiambiCDonatiSDeclichSSalmasoSAtti MLCdAlibrandiMPThe PreGio Working GroupEstimated acceptance of HPV vaccination among Italian women aged 18–26 yearsVaccine2011298373838010.1016/j.vaccine.2011.08.07921872630 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="832" pm="."><plain>SolomonDDaveyDKurmanRMoriartyAO’ConnorDPreyMForum Group Members and Bethesda 2001 WorkshopThe 2001 Bethesda System: terminology for reporting results of cervical cytologyJAMA20022872114211910.1001/jama.287.16.211411966386 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="833" pm="."><plain>CarozziFDel MistroAConfortiniMSaniCPulitiDTrevisanRReproducibility of HPV DNA testing by hybrid capture 2 in a screening setting: intralaboratory and interlaboratory quality control in seven laboratories participating in the same clinical trialAm J Clin Pathol20051241610.1309/044P-L9GT-0C3D-B4N4 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="834" pm="."><plain>CastlePESchiffmanMBurkRDWacholderSHildesheimAHerreroRRestricted cross-reactivity of hybrid capture 2 with nononcogenic human papillomavirus typesCancer Epidemiol Biomarkers Prev2002111394139912433717 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="835" pm="."><plain>CastlePESolomonDWheelerCMGravittPEWacholderSShiffmanMHuman Papillomavirus genotype specificity of Hybrid Capture 2J Clin Microbiol2008462595260410.1128/JCM.00824-0818579716 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="836" pm="."><plain>BoschFXBurchellANSchiffmanMGiulianoARde SanjoseSBruniLEpidemiology and natural history of human papillomavirus infections and type-specific implications in cervical neoplasiaVaccine200826SK1K1618847553 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="837" pm="."><plain>RipabelliGGrassoGMDel RiccioITamburroMSammarcoMLPrevalence and genotype identification of human papilloma virus in women undergoing voluntary cervical cancer screening in Molise, central ItalyCancer Epidemiology201034216216710.1016/j.canep.2009.12.01020080070 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="838" pm="."><plain>MasiaGMazzoleniAPContuGLaconiSMinerbaLMontixiSEpidemiology and genotype distribution of human papillomavirus (HPV) in women of Sardinia (Italy)Vaccine200927A11A1619480954 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="839" pm="."><plain>AgarossiAFerrazziEParazziniFPernoCFGhisoniLPrevalence and type distribution of high-risk human papillomavirus infection in women undergoing voluntary cervical cancer screening in ItalyJ Med Virol20098152953510.1002/jmv.2134719152401 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="840" pm="."><plain>RoncoGGiubilatoPNaldoniCZorziMAnghinoniEScalisiAExtension of organised cervical cancer screening programmes in Italy and their process indicators, 2009 activityEpidemiol Prev201135Suppl. </plain></SENT>
+<SENT sid="841" pm="."><plain>539545–622166349 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="842" pm="."><plain>De SanjosèSDiazMCastellsaguéXCliffordGBruniLMuñozNWorldwide prevalence and genotype distribution of cervical human papillomavirus DNA in women with normal cytology: a meta-analysisLancet Infect Dis2007745345910.1016/S1473-3099(07)70158-517597569 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="843" pm="."><plain>De FrancesscoMAGargiuloFSchreiberCCiravoloGSalinaroFMancaNDetection and genotyping of human papillomavirus in cervical samples from Italian patientsJ Med Virol20057558859210.1002/jmv.2030615714493 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="844" pm="."><plain>BroccoloFChiariSPianaACastigliaPDell’AnnaTGarcia-ParraRPrevalence and viral load of oncogenic human papilloma virus types associated with cervical carcinoma in a population of North ItalyJ Med Virol20098327828719107971 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="845" pm="."><plain>AgodiABarchittaMLa RosaNCipressoRGuarnacciaMCarusoMHuman papillomavirus infection. </plain></SENT>
+<SENT sid="846" pm="."><plain>Low-risk and high risk genotypes in women in Catania, SicilyInt J Gynecol Cancer2009191094109810.1111/IGC.0b013e3181a83c9d19820375 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="847" pm="."><plain>PianaASotgiuGCastigliaPPischeddaSCocuzzaCCapobiancoGPrevalence and type distribution of human papillomavirus infection in women from North Sardinia, ItalyBMC Publ Health20111178510.1186/1471-2458-11-785 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="848" pm="."><plain>BouvardVBaanRStraifKGrosseYSecretanBEl GhissassiFon behalf of the WHO International Agency for Research on Cancer Monograph Working GroupSpecial report: policy. </plain></SENT>
+<SENT sid="849" pm="."><plain>A review of human carcinogens—part B: biological agentsLancet Oncol200910432132210.1016/S1470-2045(09)70096-819350698 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="850" pm="."><plain>RoncoGSegnanNGiorgi-RossiPZappaMCasadeiGPCarozziFHuman papillomavirus testing and liquid-based cytology in primary cervical screening: results at recruitment from the New technologies for cervical cancer randomized controlled trialJ Natl Cancer Inst20069876577410.1093/jnci/djj20916757701 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="851" pm="."><plain>RoncoGGiorgi-RossiPCarozziFDalla PalmaPDel MistroADe MarcoLNTCC Working GroupHuman papillomavirus testing and liquid-based cytology in primary screening of women younger than 35 years: results at recruitment for a randomised controlled trialLancet Oncol2006754755510.1016/S1470-2045(06)70731-816814206 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="852" pm="."><plain>Giorgi-RossiPChiniFBisanziSBurroniECarilloGLattanziAThe Prevalence Italian Working Group HPVDistribution of high and low risk HPV types by cytological status: a population based study from ItalyInfectious Agents and Cancer20116210.1186/1750-9378-6-221247508 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="853" pm="."><plain>ShiffmanMCastlePEJeronimoJRodriguezACWacholderSHuman paillomavirus and cervical cancerLancet200737089090710.1016/S0140-6736(07)61416-017826171 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="854" pm="."><plain>LenselinkCHMelchersWJQuintWGHoebersAMHendriksJCMassugerLFBekkersRLSexual behaviour and HPV infections in 18 to 29 year old women in the pre-vaccine era in the NetherlandsPLoS One2008311e3743Epub 2008 Nov 1710.1371/journal.pone.000374319011683 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="855" pm="."><plain>SkjeldestadFEMehtaVSingsHLØvrenessTTurpinJSuLSeroprevalence and genital DNA prevalence of HPV types 6, 11, 16 and 18 in a cohort of young Norwegian women: study design and cohort characteristicsActa Obstet Gynecol Scand2008871818810.1080/0001634070171470317943470 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="856" pm="."><plain>MartínPKilanyLGarcíaDLó<z:uniprot sup="inside" fb="2" ids="P0A7Z4,P0A7Z8">pez</z:uniprot>-GarcíaAMMartín-AzañaMJAbrairaVHuman papillomavirus genotype distribution in Madrid and correlation with cytological dataBMC Infect Dis20111131610.1186/1471-2334-11-31622081930 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="857" pm="."><plain>KarlssonRJonssonMEdlundKEvanderMGustavssonABodénERylanderELifetime number of partners as the only independent risk factor for human papillomavirus infection: a population-based studySex Transm Dis199522211912710.1097/00007435-199503000-000087624813 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="858" pm="."><plain>RoncoGGhisettiVSegnanNSnijdersPJGillio-TosAMeijerCJPrevalence of human papillomavirus infection in women in Turin, ItalyEur J Cancer200541229730510.1016/j.ejca.2004.07.00515661556 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

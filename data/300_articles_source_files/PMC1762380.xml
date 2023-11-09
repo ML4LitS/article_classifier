@@ -1,0 +1,644 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">1762380</article-id><article-id pub-id-type="pmid">17183716</article-id><article-id pub-id-type="publisher-id">06-PONE-RA-00290R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0000085</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology</subject><subject>Genetics and Genomics</subject><subject>Evolutionary Biology/Bioinformatics</subject><subject>Evolutionary Biology/Evolutionary and Comparative Genetics</subject><subject>Evolutionary Biology/Genomics</subject><subject>Genetics and Genomics/Bioinformatics</subject><subject>Genetics and Genomics/Comparative Genomics</subject><subject>Evolutionary Biology/Human Evolution</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>The Evolution of Mammalian Gene Families </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Mammalian Gene Families</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Demuth</surname><given-names>Jeffery P.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Bie</surname><given-names>Tijl De</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref rid="fn1">
+<sup>a</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Stajich</surname><given-names>Jason E.</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref rid="fn2">
+<sup>b</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cristianini</surname><given-names>Nello</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref rid="fn3">
+<sup>c</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hahn</surname><given-names>Matthew W.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="n101">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution>Department of Biology and School of Informatics, Indiana University</institution>
+<addr-line>Bloomington, Indiana, United States of America</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<institution>School of Electronics and Computer Science, ISIS Group, University of Southampton</institution>
+<addr-line>Southampton, United Kingdom</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<institution>Department of Molecular Genetics and Microbiology, Duke University</institution>
+<addr-line>Durham, North Carolina, United States of America</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<institution>Department of Statistics, University of California Davis</institution>
+<addr-line>Davis, California, United States of America</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Borevitz</surname><given-names>Justin</given-names></name><role>Academic Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Chicago, United States of America</aff><author-notes><corresp id="n101">* To whom correspondence should be addressed. E-mail: <email>mwh@indiana.edu</email></corresp><fn id="fn1" fn-type="current-aff"><p><text><SENT sid="1" pm="."><plain>a Katholieke Universiteit Leuven, OKP Research Group, Leuven, Belgium </plain></SENT>
+</text></p></fn><fn id="fn2" fn-type="current-aff"><p><text><SENT sid="2" pm="."><plain>b Department of Plant and Microbial Biology, University of California Berkeley, Berkeley, California, United States of America </plain></SENT>
+</text></p></fn><fn id="fn3" fn-type="current-aff"><p><text><SENT sid="3" pm="."><plain>c Department of Engineering Mathematics, University Of Bristol, Bristol, United Kingdom </plain></SENT>
+</text></p></fn><fn fn-type="con"><p><text><SENT sid="4" pm="."><plain>Conceived and designed the experiments: MH JD. </plain></SENT>
+<SENT sid="5" pm="."><plain>Performed the experiments: MH JD JS. </plain></SENT>
+<SENT sid="6" pm="."><plain>Analyzed the data: MH JD JS. </plain></SENT>
+<SENT sid="7" pm="."><plain>Contributed reagents/materials/analysis tools: MH TD JS NC. </plain></SENT>
+<SENT sid="8" pm="."><plain>Wrote the paper: MH JD TD JS NC. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2006</year></pub-date><pub-date pub-type="epub"><day>20</day><month>12</month><year>2006</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e85</elocation-id><history><date date-type="received"><day>26</day><month>10</month><year>2006</year></date><date date-type="accepted"><day>14</day><month>11</month><year>2006</year></date></history><permissions><copyright-statement>Demuth et al.</copyright-statement><copyright-year>2006</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="9" pm="."><plain>Gene families are groups of homologous genes that are likely to have highly similar functions. </plain></SENT>
+<SENT sid="10" pm="."><plain>Differences in family size due to lineage-specific gene duplication and gene loss may provide clues to the evolutionary forces that have shaped mammalian genomes. </plain></SENT>
+<SENT sid="11" pm="."><plain>Here we analyze the gene families contained within the whole genomes of human, chimpanzee, mouse, rat, and dog. </plain></SENT>
+<SENT sid="12" pm="."><plain>In total we find that more than half of the 9,990 families present in the mammalian common ancestor have either expanded or contracted along at least one lineage. </plain></SENT>
+<SENT sid="13" pm="."><plain>Additionally, we find that a large number of families are completely lost from one or more mammalian genomes, and a similar number of gene families have arisen subsequent to the mammalian common ancestor. </plain></SENT>
+<SENT sid="14" pm="."><plain>Along the lineage leading to modern humans we infer the gain of 689 genes and the loss of 86 genes since the split from chimpanzees, including changes likely driven by adaptive natural selection. </plain></SENT>
+<SENT sid="15" pm="."><plain>Our results imply that humans and chimpanzees differ by at least 6% (1,418 of 22,000 genes) in their complement of genes, which stands in stark contrast to the oft-cited 1.5% difference between orthologous nucleotide sequences. </plain></SENT>
+<SENT sid="16" pm="."><plain>This genomic “revolving door” of gene gain and loss represents a large number of genetic differences separating humans from our closest relatives. </plain></SENT>
+</text></SecTag></p></abstract><counts><page-count count="10"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="17" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="18" pm="."><plain>Explaining the obvious morphological, physiological, and behavioral traits that separate modern humans from our closest relatives, the chimpanzees, is challenging given the low level of nucleotide divergence between the two species [1]. </plain></SENT>
+<SENT sid="19" pm="."><plain>More than 30 years have passed since King and Wilson first pointed out this apparent paradox, saying that “the genetic distance between humans and the chimpanzee is probably too small to account for their substantial organismal differences” [2]. </plain></SENT>
+<SENT sid="20" pm="."><plain>To explain the paradox, King and Wilson proposed that regulatory changes rather than protein-coding mutations were responsible for the vast majority of observed biological differences [2]. </plain></SENT>
+<SENT sid="21" pm="."><plain>Evidence gathered since that time demonstrates that amino acid [e.g. refs.1], [3], [4], [5] and regulatory sequence [6], [7] changes have both been involved in the evolution of uniquely human phenotypes. </plain></SENT>
+</text></p><p><text><SENT sid="22" pm="."><plain>A third source of differentiation, necessarily overlooked in comparison of orthologous sequences, is the differential duplication and deletion of chromosomal regions [8], [9]. </plain></SENT>
+<SENT sid="23" pm="."><plain>Among human segmental duplications larger than 20 kilobases, 33% are not present in chimpanzee [10]. </plain></SENT>
+<SENT sid="24" pm="."><plain>In total, it is estimated that at least 2.7% of the total genome has been uniquely duplicated subsequent to the human-chimpanzee split [10]; this number does not factor either deletions or small insertions into the total amount of divergence and therefore represents a minimum estimate. </plain></SENT>
+<SENT sid="25" pm="."><plain>Per base pair, this translates into more than twice as many nucleotides unique to each species as there are nucleotide substitutions in orthologous sequences [11]. </plain></SENT>
+<SENT sid="26" pm="."><plain>Without accounting for differences in the total DNA unique to each species, we cannot hope to take a proper accounting of the meaningful genetic divergence between humans and chimpanzees. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>The most interesting duplication/deletion events from an evolutionary viewpoint are those that involve intact genes. </plain></SENT>
+<SENT sid="28" pm="."><plain>Gene duplication has been hypothesized to be a powerful engine for evolutionary change in general [12], [13], and gene loss has been put forward as a common, advantageous response to changes in selective regimes in human history [14]. </plain></SENT>
+<SENT sid="29" pm="."><plain>Recent gene duplicates are estimated to have arisen in the human genome at a rate of 0.009 /gene/million years (my) [15]. </plain></SENT>
+<SENT sid="30" pm="."><plain>Using this rate, we would expect there to have been 1,188 new gene duplicates in the human genome since our split with chimpanzee (0.009 duplications/gene/my * 22,000 genes * 6 my). </plain></SENT>
+<SENT sid="31" pm="."><plain>Assuming equal numbers of gene gains and losses and similar rates of turnover in <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimps</z:uniprot>, the total number of genes in humans not present in <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimps</z:uniprot> would be 2,376 (or ∼11% of all genes). </plain></SENT>
+<SENT sid="32" pm="."><plain>This estimate of total genic divergence implied by rates of gene duplication has been widely overlooked due to the pervasive emphasis on nucleotide divergence between orthologous genes. </plain></SENT>
+<SENT sid="33" pm="."><plain>Although this hypothesis assumes identical rates of gene gain and loss, and our coarse calculations have not considered that new gene duplicates are also the most likely genes to be lost, the consistency of gene number among fully sequenced mammals suggests that this is not an onerous assumption across short evolutionary time periods. </plain></SENT>
+</text></p><p><text><SENT sid="34" pm="."><plain>The process of differential gene gain and loss among species results in gene families that share sequence and functional homology but differ in gene number. </plain></SENT>
+<SENT sid="35" pm="."><plain>Changes in gene family size have likely been important during human evolution [11], [16]–[20] and large differences in gene family size are generally ascribed to a selective advantage for either an increased or decreased gene number [19], [21]–[23]. </plain></SENT>
+<SENT sid="36" pm="."><plain>While many of these differences may indeed be the result of natural selection, there has been little effort to account for the accumulation of differences due to random processes. </plain></SENT>
+<SENT sid="37" pm="."><plain>For instance, a difference of 20 genes within a single family may be remarkable between human and chimpanzee, but not between human and mouse, or human and dog. </plain></SENT>
+<SENT sid="38" pm="."><plain>Unlike the analysis of orthologous sequences, where there are widely accepted neutral expectations for molecular evolution [24], there has been no corresponding framework for the study of gene family evolution until recently [25]. </plain></SENT>
+</text></p><p><text><SENT sid="39" pm="."><plain>The completed sequencing of multiple mammalian genomes provides unprecedented insight into the gain and loss of genetic material between species, and into the genomic changes exclusive to humans. </plain></SENT>
+<SENT sid="40" pm="."><plain>In this paper we analyze gene gain and loss at a genomic scale by studying the expansion and contraction of gene families in the whole genomes of human, chimpanzee, mouse, rat, and dog. </plain></SENT>
+<SENT sid="41" pm="."><plain>Using gene family assignments from the Ensembl project [26] (version 41 – October 2006; <ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org">www.ensembl.org</ext-link>) we assign probabilities to the observed changes in gene family size along each mammalian lineage using a likelihood method that makes efficient use of genomic data in a phylogenetic context [25]. </plain></SENT>
+<SENT sid="42" pm="."><plain>Our statistical framework provides a basis for improved inferences about causative evolutionary mechanisms by providing an expectation for the extent of variation in gene family size when gains and losses occur randomly. </plain></SENT>
+<SENT sid="43" pm="."><plain>This means that we can identify branches of the phylogenetic tree where larger-than-expected contractions or expansions potentially indicate the action of adaptive natural selection [25]. </plain></SENT>
+</text></p><p><text><SENT sid="44" pm="."><plain>Our investigation suggests that random processes explain most changes in gene family size; however, we find several families with larger than expected changes, including expansions in the human lineage for families with brain-specific functions. </plain></SENT>
+<SENT sid="45" pm="."><plain>Additionally, we find that the total number of gene differences between humans and <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimps</z:uniprot> estimated by our method is similar to that predicted above from independent analyses of recent segmental duplications. </plain></SENT>
+<SENT sid="46" pm="."><plain>In total, our results support mounting evidence that gene duplication and loss may have played a greater role than nucleotide substitution in the evolution of uniquely human phenotypes, and certainly a greater role than has been widely appreciated. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS"><sec id="s2"><title><text><SENT sid="47" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="48" pm="."><plain>Rate of Change in Gene Family Size </plain></SENT>
+</text></title><p><text><SENT sid="49" pm="."><plain>Over the 93 million years of mammalian evolution included in our analysis (Figure 1; Table 1), 56.3% (5,622/9,990) of gene families change size in at least one lineage. </plain></SENT>
+<SENT sid="50" pm="."><plain>Despite this large amount of change, on average 90.2% of gene families do not change size along any particular branch of the phylogenetic tree (Table 2). </plain></SENT>
+<SENT sid="51" pm="."><plain>The observed stasis of so many families along individual branches combined with the large proportion of families changing tree-wide indicates that most changes in gene family size are lineage-specific. </plain></SENT>
+<SENT sid="52" pm="."><plain>Since the number of observed changes does not include families where equal numbers of gains and losses have occurred, our estimates represent minimum numbers of families that have changed in size during mammalian evolution. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0000085-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000085.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="53" pm="."><plain>Distribution of gene gain and loss among mammalian lineages. </plain></SENT>
+</text></title><p><text><SENT sid="54" pm="."><plain>Numbers in parentheses report number of genes gained or lost on each branch. </plain></SENT>
+</text></p><p><text><SENT sid="55" pm="."><plain>Pie charts near branches show the proportion of families that expanded (green), contracted (red), or did not change (blue). </plain></SENT>
+</text></p><p><text><SENT sid="56" pm="."><plain>The large pie chart shows the proportion of all families that change (orange), or remain constant (blue) across all lineages. </plain></SENT>
+</text></p><p><text><SENT sid="57" pm="."><plain>Changes along long branches and on the ingroup branch may represent underestimates due to multiple gains and losses within individual families and or lack of phylogenetic resolution. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0000085.g001"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone-0000085-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000085.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="58" pm="."><plain>Numbers of genes and gene families in mammals. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0000085.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="59" pm="."><plain><z:uniprot sup="inside" fb="64" ids="Q9CR50">Chimp</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="60" pm="."><plain>Human </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="61" pm="."><plain>Mouse </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="62" pm="."><plain>Rat </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="63" pm="."><plain>Dog </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="64" pm="."><plain>Primate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="65" pm="."><plain>Rodent </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="66" pm="."><plain>Ingroup </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="67" pm="."><plain>MRCA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="68" pm="."><plain>Total # Unique </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="69" pm="."><plain>Total # of Families </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="70" pm="."><plain>9,693 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="71" pm="."><plain>10,349 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>11,410 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>9,969 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>9,663 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>15,389 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>Total # of Genes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>20,947 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain>22,763 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>24,502 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>22,557 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>18,213 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>Annotation Artifacts </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>94 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>612 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>1,674 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>500 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>234 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>3,114 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>Creations </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>1,714 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>488 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>2,285 </plain></SENT>
+</text></td></tr><tr><td colspan="11" align="left" rowspan="1"><text><SENT sid="99" pm="."><plain>Likelihood Analysis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>- Families </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>9,597 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>9,717 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>9,696 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>9,454 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>9,423 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>9,766 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>9,847 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>9,990 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>9,990 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>9,990 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>- Genes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>18,660 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>19,966 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>21,763 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>21,155 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>17,962 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>19,363 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>20,920 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>19,525 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>19,513 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>- Genes/Family </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>1.94 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>2.05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>2.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>2.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>1.91 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>1.98 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>2.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>1.95 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>1.95 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="nt101"><p><text><SENT sid="131" pm="."><plain>Data are based on the genome annotations in Ensembl v41. </plain></SENT>
+<SENT sid="132" pm="."><plain><z:uniprot sup="inside" fb="64" ids="Q9CR50">Chimp</z:uniprot>, human, mouse, rat, and dog are observed values; whereas, Primate, Rodent, Ingroup, and MRCA values are inferred from our analysis. </plain></SENT>
+<SENT sid="133" pm="."><plain>Taxon labels correspond to branches in Figure 1. </plain></SENT>
+<SENT sid="134" pm="."><plain>Annotation artifacts: the number of families represented by a single gene and found only in a single species. </plain></SENT>
+<SENT sid="135" pm="."><plain>Creations: gene families that appear to have arisen subsequent to the MRCA. </plain></SENT>
+<SENT sid="136" pm="."><plain>Families, Genes, and Genes/Family indicate the numbers used in the likelihood analysis. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pone-0000085-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000085.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="137" pm="."><plain>Changes in gene family size along each branch in the phylogenetic tree. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0000085.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>Branch </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>Branch Length </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>n </plain></SENT>
+</text></td><td colspan="3" align="left" rowspan="1"><text><SENT sid="141" pm="."><plain>Expansions </plain></SENT>
+</text></td><td colspan="3" align="left" rowspan="1"><text><SENT sid="142" pm="."><plain>Contractions </plain></SENT>
+</text></td><td colspan="3" align="left" rowspan="1"><text><SENT sid="143" pm="."><plain>Extinctions </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>No Change </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>Avg. </plain></SENT>
+<SENT sid="146" pm="."><plain>Exp. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>Families </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>Genes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>genes/expansion </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>Families </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>Genes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>genes/contraction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>Families </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>Genes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>genes/extinction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>Human </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>9,717 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>414 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>689 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>1.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>86 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>86 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>9,217 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0.062 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain><z:uniprot sup="inside" fb="64" ids="Q9CR50">Chimp</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>9,597 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>1.04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>546 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>729 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>1.34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>169 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>172 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>1.02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>9,026 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>−0.073 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>Mouse </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>9,696 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>714 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>1,405 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>1.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>453 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>562 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>1.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>151 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>163 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>1.08 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>8,529 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>0.087 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>Rat </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>9,454 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>673 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>1,355 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>2.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>940 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>1,120 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>1.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>393 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>403 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>1.03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>7,841 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>0.025 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>Primate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>81 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>9,766 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>453 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>870 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>1.92 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>621 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>1,032 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>1.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>224 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>240 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>1.07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>8,692 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>−0.017 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>Rodent </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>9,847 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>514 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>1,773 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>3.45 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>338 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>378 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>1.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>143 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>144 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>1.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>8,995 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>0.142 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>Ingroup </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>9,990 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>9,978 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>Dog </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>93 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>9,423 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>395 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>607 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>1.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>1,336 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>2,165 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>1.62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>567 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>607 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>1.07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>7,692 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>−0.165 </plain></SENT>
+</text></td></tr><tr><td colspan="14" align="left" rowspan="1"><text><SENT sid="268" pm="."><plain>n: total number of families from each taxon present in the likelihood analysis </plain></SENT>
+</text></td></tr><tr><td colspan="14" align="left" rowspan="1"><text><SENT sid="269" pm="."><plain>Avg. </plain></SENT>
+<SENT sid="270" pm="."><plain>Exp.: Average Expansion </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="nt103"><p><text><SENT sid="271" pm="."><plain>Branches are labeled according to Figure 1 and branch lengths are in millions of years. </plain></SENT>
+<SENT sid="272" pm="."><plain>Families, genes, and genes per family indicate the total number for each category of change. </plain></SENT>
+<SENT sid="273" pm="."><plain>Extinctions are a subset of contractions. </plain></SENT>
+<SENT sid="274" pm="."><plain>Average expansion = (total genes gained – total genes lost)/n; negative average expansion indicates net reduction in gene number. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="275" pm="."><plain>To account for unseen gains and losses, we estimated the average rate of change across all gene families via maximum likelihood. </plain></SENT>
+<SENT sid="276" pm="."><plain>Based on the 9,990 families inferred to be present in the most recent common ancestor (MRCA) of mammals, our estimate for the average rate of genomic turnover is 0.0016 gains and losses per gene per million years. </plain></SENT>
+<SENT sid="277" pm="."><plain>This number represents the probability that a given gene will give rise to a duplicate or be lost from the genome, and assumes that genomes are neither consistently expanding nor contracting. </plain></SENT>
+<SENT sid="278" pm="."><plain>The assumption of no net gain or loss of genes is consistent with the observation that both total gene number and the distribution of family sizes remain relatively constant (Table 1) despite changes in the size of many individual gene families. </plain></SENT>
+<SENT sid="279" pm="."><plain>Our estimate for the rate of gene gain and loss is similar to previously reported values for yeast [25] and is close to estimates for the birth rate of gene duplicates in mouse and rat (0.0013–0.0026 [27]), as well as several other non-human eukaryotes (0.001–0.016 [15]). </plain></SENT>
+</text></p></sec><sec id="s2b"><title><text><SENT sid="280" pm="."><plain>Gain and Loss of Genes </plain></SENT>
+</text></title><p><text><SENT sid="281" pm="."><plain>While the likelihood estimate of the average rate of genome turnover assumes equal probability of gene gain and loss across the phylogenetic tree, for any given gene family or branch of the tree there may be more gains than losses (or vice versa). </plain></SENT>
+<SENT sid="282" pm="."><plain>To map changes in gene family size onto individual branches of the tree, and to determine whether changes are expansions or contractions [cf. refs.23], [28], we obtained maximum likelihood estimates of ancestral gene family sizes across the mammalian tree. </plain></SENT>
+<SENT sid="283" pm="."><plain>Changes on each branch were then calculated by taking the difference in the size of families between parent and daughter nodes. </plain></SENT>
+</text></p><p><text><SENT sid="284" pm="."><plain>In total, expansions outnumber contractions on the human, <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot>, mouse, rodent, and ingroup branches (Table 2). </plain></SENT>
+<SENT sid="285" pm="."><plain>The mouse lineage has the largest number of gene family expansions (714 families), while the rodent lineage has the largest gain in gene number via expansion (1,773 genes) [29]. </plain></SENT>
+<SENT sid="286" pm="."><plain>Contractions predominate on the primate, rat, and dog branches. </plain></SENT>
+<SENT sid="287" pm="."><plain>Dog has the smallest number of genes in its genome, as well as the largest number of gene family contractions (1,336) and losses of genes (2,165). </plain></SENT>
+<SENT sid="288" pm="."><plain>Thus the equal probability of gain and loss in our likelihood model has clearly not constrained our inference of overall genome size change in this species. </plain></SENT>
+<SENT sid="289" pm="."><plain>Along the lineage leading to humans, 414 families have expanded and 86 have contracted (Table 2). </plain></SENT>
+<SENT sid="290" pm="."><plain>These changes account for the gain of 689 genes and the loss of 86 genes from the human genome. </plain></SENT>
+<SENT sid="291" pm="."><plain>Over the same time period, chimpanzees have experienced expansions in 25 families (26 genes) and contractions in 546 families (729 genes). </plain></SENT>
+</text></p><p><text><SENT sid="292" pm="."><plain>In order to investigate the impacts of ongoing refinements to genome annotations and the similarity threshold used for defining gene families, we conducted two extensive checks on our results. </plain></SENT>
+<SENT sid="293" pm="."><plain>To investigate the effects of revised annotation, we conducted many of the same analyses carried out on Ensembl v41 on previous versions 32, 35, 38, and 39. </plain></SENT>
+<SENT sid="294" pm="."><plain>In addition to numerous minor gene annotation updates to all of the genomes, these five Ensembl versions represent major assembly or annotation changes for human, mouse, and chimpanzee. </plain></SENT>
+<SENT sid="295" pm="."><plain>Analyses of versions prior to v41 yielded highly similar results: the numbers of gains and losses remain similar across annotations, as do the overall number of genes that differ among species (Table S1). </plain></SENT>
+<SENT sid="296" pm="."><plain>These versions include major changes to the human and mouse genome annotations. </plain></SENT>
+<SENT sid="297" pm="."><plain>The major revision of the chimpanzee genome in v41 represents a substantial improvement in sequencing coverage for that species from ∼4× to ∼6×. </plain></SENT>
+<SENT sid="298" pm="."><plain>As a result, the difference in gene complement between humans and chimpanzees decreases by ∼1.5 fold (∼2,382 in v32-39 to 1,418 in v41). </plain></SENT>
+<SENT sid="299" pm="."><plain>Our estimate for the average rate of gene gain and loss across mammals is impacted less by the improved chimpanzee assembly, changing from 0.0022 in v32-39 to 0.0016 in v41. </plain></SENT>
+</text></p><p><text><SENT sid="300" pm="."><plain>To assess the impact of different clustering thresholds used to define gene families on our inferences of gene gain and loss, we obtained the raw protein distance data used to construct gene families from Ensembl (A. </plain></SENT>
+<SENT sid="301" pm="."><plain>Ureta-Vidal, pers. <z:uniprot sup="inside" fb="39" ids="Q24139">comm</z:uniprot>.). </plain></SENT>
+<SENT sid="302" pm="."><plain>Using an arbitrary subset of the data (∼90,000 genes) —for computational tractability—we mimicked the Ensembl pipeline to generate our own gene families using the program MCL [30]. </plain></SENT>
+<SENT sid="303" pm="."><plain>We ran MCL with five different values of the clustering parameter, including the value used by Ensembl, to generate families with average amino acid similarities both higher and lower than the original data. </plain></SENT>
+<SENT sid="304" pm="."><plain>Across these new gene family datasets, the number of families and their size changed predictably with the clustering threshold: higher similarity cut-offs resulted in a greater number of individually smaller families, while lower cut-offs resulted in fewer, larger families. </plain></SENT>
+<SENT sid="305" pm="."><plain>Most importantly, however, the estimated differences in gene complement between human and <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot> changed by a maximum of only 0.41% from the value found using the original Ensembl clustering parameter (Table S1). </plain></SENT>
+<SENT sid="306" pm="."><plain>Thus, even though individual families include more or fewer genes, the patterns of change are highly consistent across parameter values such that our conclusions remain qualitatively unaffected. </plain></SENT>
+</text></p></sec><sec id="s2c"><title><text><SENT sid="307" pm="."><plain>Loss of Gene Families </plain></SENT>
+</text></title><p><text><SENT sid="308" pm="."><plain>Summing across all of the inferred family sizes at the root of the tree, we estimate that the genome of the mammalian MRCA contained at least 19,513 genes. </plain></SENT>
+<SENT sid="309" pm="."><plain>This estimate may be low given that more genes may have been present in gene families that no longer exist in extant taxa. </plain></SENT>
+<SENT sid="310" pm="."><plain>Indeed, many families that experience contractions are lost completely on one or more branches of the phylogenetic tree [e.g. ref. </plain></SENT>
+<SENT sid="311" pm="."><plain>31]. </plain></SENT>
+<SENT sid="312" pm="."><plain>These “extinctions” occur on almost every branch of the tree (Table 2), and include genes involved in a wide variety of biological functions. </plain></SENT>
+<SENT sid="313" pm="."><plain>In total there are 1,421 families inferred to have been present in the mammalian MRCA that have zero genes in at least one extant genome. </plain></SENT>
+</text></p><p><text><SENT sid="314" pm="."><plain>The most common functional categories of extinct families involve immune response, chemosensation, reproduction, and transcription (but note that the function of 36.4% were categorized as ambiguous or unknown). </plain></SENT>
+<SENT sid="315" pm="."><plain>A complete list of extinct families is available as Table S2 online. </plain></SENT>
+<SENT sid="316" pm="."><plain>We found 289 families present in the mammalian MRCA that appear to have been lost from the human genome. </plain></SENT>
+<SENT sid="317" pm="."><plain>Of these losses, 240 are shared with chimpanzees and 49 are unique to the human lineage (Table 2). </plain></SENT>
+<SENT sid="318" pm="."><plain>The human lineage has the fewest number, but greatest proportion of extinctions, with 49 (48.3%) of 86 contractions resulting in gene family extinction. </plain></SENT>
+<SENT sid="319" pm="."><plain>The dog genome has lost the largest number of families since the mammalian MRCA, with 567. </plain></SENT>
+</text></p><p><text><SENT sid="320" pm="."><plain>For each extinction the average number of genes lost on the terminal lineage is approximately 1.0 (Table 2). </plain></SENT>
+<SENT sid="321" pm="."><plain>While this value does not indicate the total distance traversed to extinction, it does show that most extinctions do not involve the sudden loss of many genes. </plain></SENT>
+<SENT sid="322" pm="."><plain>Among extinct gene families in humans, the largest families in the mammalian MRCA are both inferred to have contained only two genes. </plain></SENT>
+<SENT sid="323" pm="."><plain>However, the largest family in the mammalian MRCA to eventually go extinct in any lineage (11 genes) is a <z:uniprot sup="inside" fb="0" ids="P48044,O77808,P30518,O88721,P32307,Q00788">V2R</z:uniprot> vomeronasal receptor gene family that has &gt;100 genes in each rodent lineage but is absent from the dog, human, and chimpanzee genomes (it is, however, present in the preliminary assembly of the rhesus macaque genome; see Materials and Methods). </plain></SENT>
+</text></p><p><text><SENT sid="324" pm="."><plain>The apparent loss of whole gene families can result from several factors, including: 1) the true loss of all genes from a genome due to deletion or pseudogenization; 2) the rapid evolution of protein sequences, such that the genes are no longer identified as belonging to the same family; or 3) losses may be an artifact of the threshold used for clustering. </plain></SENT>
+<SENT sid="325" pm="."><plain>The types of families that are lost most commonly in our analysis have also been shown to have elevated rates of nonsynonymous substitution [32], which suggests that some families that we have counted as “extinct” may simply be highly diverged in a single lineage. </plain></SENT>
+</text></p><p><text><SENT sid="326" pm="."><plain>Inferences of complete gene family loss depend on the similarity threshold used to define families; if a lower threshold is used, then families are larger and proportionally fewer of them are expected to be lost [31]. </plain></SENT>
+<SENT sid="327" pm="."><plain>Using the re-clustered Ensembl gene families described in the previous section, we find that the clustering parameter has a significant effect on the number of gene family extinctions (r2 = 0.976, P = 0.004). </plain></SENT>
+<SENT sid="328" pm="."><plain>However, even in the situation where families are individually quite large, there are still extinctions of entire gene families (Figure S1). </plain></SENT>
+</text></p></sec><sec id="s2d"><title><text><SENT sid="329" pm="."><plain>Lineage-specific Gene Families </plain></SENT>
+</text></title><p><text><SENT sid="330" pm="."><plain>In addition to the families inferred to be present in the 93 million year-old MRCA, 2,278 gene families are found in only a subset of extant taxa and likely arose more recently (Table 1; “Creations”). </plain></SENT>
+<SENT sid="331" pm="."><plain>Because our likelihood model assumes that each family is present in the MRCA, we analyzed the gene families with more recent origins separately from those discussed above. </plain></SENT>
+<SENT sid="332" pm="."><plain>The largest fraction of these (1,730/2,278 families) are found only in both human and chimpanzee (Table 1). </plain></SENT>
+<SENT sid="333" pm="."><plain>There are an additional 20 families containing greater than one gene found only in the human genome and 2 found only in the chimpanzee genome. </plain></SENT>
+<SENT sid="334" pm="."><plain>The much larger number of lineage-specific families in humans and primates as a whole may be due to the fact that much of the genome annotations of the other mammalian species were transferred directly from the human genome [1]. </plain></SENT>
+<SENT sid="335" pm="."><plain>The complete list of creations, including gene distributions among taxa, is available as Table S3 online. </plain></SENT>
+</text></p><p><text><SENT sid="336" pm="."><plain>The largest family created along the primate lineage has 46 chimpanzee and 63 human genes. </plain></SENT>
+<SENT sid="337" pm="."><plain>One of the few genes in this family where functional data are available is <z:uniprot sup="inside" fb="0" ids="P55210,P55214,P97864">caspase-7</z:uniprot>. </plain></SENT>
+<SENT sid="338" pm="."><plain>Genes in the <z:uniprot sup="inside" fb="0" ids="O01382">caspase</z:uniprot>-dependent apoptosis pathway, of which <z:uniprot sup="inside" fb="0" ids="P55210,P55214,P97864">caspase-7</z:uniprot> is a part, are critical in mammalian brain and neuronal development. </plain></SENT>
+<SENT sid="339" pm="."><plain>Furthermore, genes in this pathway have undergone accelerated protein sequence evolution in primates—especially in humans —that is consistent with positive natural selection [33]. </plain></SENT>
+</text></p><p><text><SENT sid="340" pm="."><plain>Creations in rodents are clustered into fewer but larger families than in primates (1,963 genes in 542 families). </plain></SENT>
+<SENT sid="341" pm="."><plain>In dog there are only six, relatively small, unique families. </plain></SENT>
+<SENT sid="342" pm="."><plain>The largest of these families, <z:uniprot sup="inside" fb="0" ids="P83762">submaxillary mucin</z:uniprot>, contains five genes total and a single characterized salivary protein. </plain></SENT>
+<SENT sid="343" pm="."><plain>Across all taxa, the proportion of families with unknown or ambiguous function is twice as large for creations (1,192 unknown+360 ambiguous/2,278 total creations = 68.1%) as for families included in the full statistical analysis (896 unknown+1,586 ambiguous/9,990 total families = 24.8%). </plain></SENT>
+</text></p><p><text><SENT sid="344" pm="."><plain>There are multiple biological processes that may be responsible for the creation of new gene families [23]. </plain></SENT>
+<SENT sid="345" pm="."><plain>These include: the creation of new genes (through both gene fusion and de novo origination [34]), accelerated nucleotide divergence of a new duplicate or member of a previously existing gene family [35], and/or horizontal gene transfer [36]. </plain></SENT>
+<SENT sid="346" pm="."><plain>While many newly arisen gene families have unknown or ambiguous function, many of them can be functionally annotated via similarity to pre-existing families — though the low level of similarity between them may preclude placing them in the same family. </plain></SENT>
+<SENT sid="347" pm="."><plain>Additionally, even families where the consensus function is “unknown” often contain at least one gene with known function, as in the case of the family containing the primate <z:uniprot sup="inside" fb="0" ids="P55210,P55214,P97864">caspase-7</z:uniprot> gene. </plain></SENT>
+<SENT sid="348" pm="."><plain>These pieces of evidence suggest that creations are largely due, at least in large part, to divergence of young duplicates from previously existing families. </plain></SENT>
+</text></p><p><text><SENT sid="349" pm="."><plain>Creations may also arise as an artifact of the gene family clustering. </plain></SENT>
+<SENT sid="350" pm="."><plain>If creations were solely an artifact of the clustering threshold, we would expect there to be a correlation between the number of creations in each lineage and the number of contractions (including extinctions) in that lineage. </plain></SENT>
+<SENT sid="351" pm="."><plain>The number of creations and contractions within lineages are not significantly correlated (r = −0.23, P = 0.59). </plain></SENT>
+<SENT sid="352" pm="."><plain>To further investigate the effect of clustering threshold on our inference of gene family creations, we analyzed the re-clustered Ensembl gene families as we did above for extinctions. </plain></SENT>
+<SENT sid="353" pm="."><plain>As with extinctions, the clustering parameter has a significant effect on the number of gene family creations (r2 = 0.983, P = 0.003). </plain></SENT>
+<SENT sid="354" pm="."><plain>Not surprisingly, the absolute number of inferred family creations depends on the similarity cut-off used: if a lower threshold is used then the absolute number of families decreases, and consequently there are proportionally fewer creations of entire families. </plain></SENT>
+<SENT sid="355" pm="."><plain>Note, again that even in the situation where families are quite large there are still many creations of entire gene families (Figure S1). </plain></SENT>
+</text></p></sec><sec id="s2e"><title><text><SENT sid="356" pm="."><plain>Accelerated Evolution of Gene Families </plain></SENT>
+</text></title><p><text><SENT sid="357" pm="."><plain>Considering only the 9,990 gene families present in the MRCA of mammals, we found 164 to be evolving non-randomly at P &lt;0.0001 (Figure 2). </plain></SENT>
+<SENT sid="358" pm="."><plain>At this cut-off we expect zero families to be significant by chance, resulting in a false discovery rate [37] of 0.01% for this set of rapidly-evolving gene families. </plain></SENT>
+<SENT sid="359" pm="."><plain>The most common biological functions assigned to these gene families include immune defense and response, transcription, translation, brain and neuron development, intercellular communication and transport, reproduction, and metabolism. </plain></SENT>
+<SENT sid="360" pm="."><plain>Interestingly, comparisons of both nonsynonymous to synonymous nucleotide divergence and regulatory sequence divergence have also shown that genes with these biological functions are evolving rapidly in mammals [1], [6], [27], [38], [39]. </plain></SENT>
+<SENT sid="361" pm="."><plain>This implies that natural selection may act at a multiplicity of levels during adaptive molecular evolution. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0000085-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0000085.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="362" pm="."><plain>Rapidly evolving gene families in mammals. </plain></SENT>
+</text></title><p><text><SENT sid="363" pm="."><plain>Horizontal bars indicate the relative rates of change among taxa for each family (where rate is the change in number of genes per million years). </plain></SENT>
+</text></p><p><text><SENT sid="364" pm="."><plain>The top bar indicates the hypothetical case where each lineage has an equal evolutionary rate. </plain></SENT>
+</text></p><p><text><SENT sid="365" pm="."><plain>Bars are partitioned by the color codes assigned to the taxon names at the far right. </plain></SENT>
+</text></p><p><text><SENT sid="366" pm="."><plain>Boxes immediately right of each bar indicate whether changes in that family are expansions (+) or contractions (−) in each taxon. </plain></SENT>
+</text></p><p><text><SENT sid="367" pm="."><plain>Each column of boxes represents a single taxon, color coded in the same order as the bars. </plain></SENT>
+</text></p><p><text><SENT sid="368" pm="."><plain>Vertical bars on the right span families that were found to be least likely in the same lineage under the random model of gene gain and loss. </plain></SENT>
+</text></p><p><text><SENT sid="369" pm="."><plain>Families with ambiguous or unknown function are left out of the figure to improve legibility. </plain></SENT>
+</text></p><p><text><SENT sid="370" pm="."><plain>The complete statistical results are presented in Table S7. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0000085.g002"/></fig></SecTag><p><text><SENT sid="371" pm="."><plain>For each of the significant gene families, we identified the branch of the phylogenetic tree that showed the most unlikely acceleration in genomic turnover (Figure 2; see Materials and Methods). </plain></SENT>
+<SENT sid="372" pm="."><plain>We find 30 families where the lineage leading to modern humans contains the most significant departure from random gain and loss of genes. </plain></SENT>
+<SENT sid="373" pm="."><plain>One of the families evolving significantly faster than expected in humans contains the gene <z:uniprot sup="inside" fb="0" ids="Q9UPQ3,Q8BXK8,Q6NRL1">centaurin gamma 2</z:uniprot>, which has been implicated in the genetic etiology of autism [40]. </plain></SENT>
+<SENT sid="374" pm="."><plain>This family has 15 genes in humans and no more than 6 genes in any of the other extant mammals. </plain></SENT>
+<SENT sid="375" pm="."><plain>The large expansion along the human lineage implies the gain of at least 8 genes in the last six million years. </plain></SENT>
+</text></p><p><text><SENT sid="376" pm="."><plain>Other gene families that are evolving rapidly along the human lineage include significant expansions in a forkhead box transcription factor family and a golgin subfamily. </plain></SENT>
+<SENT sid="377" pm="."><plain>Language acquisition in humans has been tied to a rapidly-evolving forkhead box protein, <z:uniprot sup="inside" fb="0" ids="Q4VYS1">foxp2</z:uniprot> [3], although this particular gene is in a different forkhead family. </plain></SENT>
+<SENT sid="378" pm="."><plain>The golgins are a group of coiled-coil proteins responsible for tethering specific molecules for transport through the golgi complex [41], and have been implicated in systemic autoimmune diseases such as lupus erythematosus and Sjögren's syndrome [42]. </plain></SENT>
+<SENT sid="379" pm="."><plain>This particular golgin subfamily has 49 human genes, 23 chimpanzee genes, and only a single copy each in the rodents and dog. </plain></SENT>
+</text></p><p><text><SENT sid="380" pm="."><plain>One concern may be that our likelihood approach does not accurately estimate the number of gains and losses when there are large changes in gene family size. </plain></SENT>
+<SENT sid="381" pm="."><plain>To investigate the extent that our method is accurately estimating the number of changes, we generated gene trees for the three rapidly-evolving families discussed in the preceding paragraphs (see Materials and Methods and Figures S2–S4). </plain></SENT>
+<SENT sid="382" pm="."><plain>Reconciling these gene trees with the 5-taxon species tree (Figure 1) provides an alternative method for estimating gene gain and loss [43]. </plain></SENT>
+<SENT sid="383" pm="."><plain>Overall, there is a strong agreement between the results produced by the likelihood and gene tree methods: the correlations between gains and losses for all branches of the tree are r = 1.0 (P&lt;0.00001) for centaurin gamma, r = 0.85 (P = 0.007) for forkhead box, and r = 0.80 (P = 0.016) for the golgins (there are multiple lineages with zero changes using both methods in this last family, resulting in a slightly lower P-value). </plain></SENT>
+<SENT sid="384" pm="."><plain>Along the lineage leading to humans—where the largest changes occur—both methods agree exactly for the centaurin gamma and forkhead box families, while the likelihood method underestimates the number of gene gains relative to the gene tree method for the golgin family. </plain></SENT>
+<SENT sid="385" pm="."><plain>This underestimation is expected when either multiple gains and losses occur on an individual branch, or parallel gains or losses occur on multiple branches [25]. </plain></SENT>
+<SENT sid="386" pm="."><plain>These results indicate that the likelihood method used here is highly accurate, though it may sometimes give an underestimate of the number of changes along individual lineages. </plain></SENT>
+</text></p><p><text><SENT sid="387" pm="."><plain>Interestingly, all of the most significant human families are expansions (Figure 2). </plain></SENT>
+<SENT sid="388" pm="."><plain>If large expansions in family size are more likely the result of natural selection than are large contractions [23], [44], then our results suggest that many of the significant changes in human are due to adaptive evolution. </plain></SENT>
+<SENT sid="389" pm="."><plain>While this does not mean that any single gene gain or loss has not been driven by natural selection, it does indicate that gene gain may be a likely instrument of adaptation. </plain></SENT>
+<SENT sid="390" pm="."><plain>It should be noted, however, that large expansions in the size of gene families could also be due to either increased rates of gene duplication via mutation in individual families, or some form of relaxed selection that allows for increased rates of fixation of duplicate genes. </plain></SENT>
+<SENT sid="391" pm="."><plain>We favor an interpretation of positive selection, though definitive evidence will have to await further studies. </plain></SENT>
+</text></p><p><text><SENT sid="392" pm="."><plain>In contrast to the potential for gene family expansion via natural selection, there is a well-documented loss of olfactory receptors (ORs) in primates that may be due to relaxed selection on odorant perception coincident with the acquisition of trichromatic vision [45]; relaxed selection may also be responsible for large losses in other families. </plain></SENT>
+<SENT sid="393" pm="."><plain>Significant contractions of OR gene families are also found by our analyses, and thus act as a positive control for the statistical methodology used here. </plain></SENT>
+<SENT sid="394" pm="."><plain>Olfactory receptors are the largest gene superfamily in mammals, with each subfamily being responsible for detecting hundreds of odor molecules [17], [46]. </plain></SENT>
+<SENT sid="395" pm="."><plain>In humans and chimpanzees it is known that most ORs are present in the genome as non-functional pseudogenes [47]. </plain></SENT>
+<SENT sid="396" pm="."><plain>This is reflected in the distribution of genes in the extant genomes, where the rodent species have more than twice as many OR genes as the primate species: dog (539), rat (1,192), mouse (1,128), chimpanzee (335), human (494). </plain></SENT>
+<SENT sid="397" pm="."><plain>In our analysis 18 of 26 OR sub-families contain significant changes in size (Figure 2). </plain></SENT>
+<SENT sid="398" pm="."><plain>For each of the families, highly unlikely changes occur on more than one branch. </plain></SENT>
+<SENT sid="399" pm="."><plain>The MRCA of mammals is inferred to have had 660 ORs total, and the predominant pattern has been one of expansions in rodents and contractions in primates. </plain></SENT>
+<SENT sid="400" pm="."><plain>This agrees with recent results showing that differences between humans and mice are a result of both accelerated loss in humans and addition of functional OR genes in mice [48]. </plain></SENT>
+</text></p><p><text><SENT sid="401" pm="."><plain>We also observed the co-evolution of several functionally related gene families. </plain></SENT>
+<SENT sid="402" pm="."><plain>The proteins that make up the 40S and 60S ribosomal subunits show a coordinated expansion along the lineages leading to mouse and rat. </plain></SENT>
+<SENT sid="403" pm="."><plain>Of the 20 significant expansions involving ribosome-related gene families, 18 represent changes on the rodent, mouse, or rat lineages (Figure 2). </plain></SENT>
+<SENT sid="404" pm="."><plain>Ribosomes are the site of protein synthesis in all organisms; increases in ribosome-associated proteins may therefore be the result of selection for increased reproductive rate and/or shorter generation time [49]. </plain></SENT>
+<SENT sid="405" pm="."><plain>An alternative to this adaptive hypothesis is the possibility that a high rate of ribosomal protein retroposition has left many intact, but non-functional copies in the two rodent genomes, though the rate of retroposition for this class of genes is in fact increased in humans relative to mouse [50]. </plain></SENT>
+</text></p><p><text><SENT sid="406" pm="."><plain>To ensure the robustness of our inferences of accelerated gene family evolution, we again identified families with P&lt;0.0001 in Ensembl v39 and v32. </plain></SENT>
+<SENT sid="407" pm="."><plain>To the extent that homologous families can be identified, results among the different annotations are highly congruent (Table S4). </plain></SENT>
+<SENT sid="408" pm="."><plain>Thus, our re-analysis of rapidly evolving families indicates that our approach remains robust to the level of revision in these annotations, which includes major updates of human, mouse, and chimpanzee genome assemblies. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s3"><title><text><SENT sid="409" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="410" pm="."><plain>Our analyses demonstrate a high rate of genomic turnover at the level of gene gain and loss. </plain></SENT>
+<SENT sid="411" pm="."><plain>This genomic “revolving door” of genes entering genomes just as genes are leaving has important implications for the number of differences between closely related species. </plain></SENT>
+<SENT sid="412" pm="."><plain>Our results indicate that the human genome contains 1,418 genes—6.4% of all genes—that do not have orthologs in the chimpanzee genome (689 gains in humans+729 losses in chimpanzee/22,000 total genes). </plain></SENT>
+<SENT sid="413" pm="."><plain>This difference is similar to the proportion of large duplicated regions that are unique to each species (2.7%) [10], as well as to estimates of divergence that consider both smaller insertions and deletions (5%) [8]. </plain></SENT>
+<SENT sid="414" pm="."><plain>Furthermore, if we include differences in the size of gene families that are unique to the primates (such that we cannot polarize changes as gains or losses), this would add an additional 566 genes that do not have orthologs between the two species (Table S3). </plain></SENT>
+<SENT sid="415" pm="."><plain>Similar calculations between rat and mouse reveal that approximately 10% of genes between these two species are not orthologs (Table 2). </plain></SENT>
+<SENT sid="416" pm="."><plain>These estimates are consistent with elevated rates of duplication in hominoids and Old World monkeys relative to New World monkeys and other fully sequenced animals [11], [18]. </plain></SENT>
+</text></p><p><text><SENT sid="417" pm="."><plain>Recent studies of gene copy-number polymorphism also provide evidence for the presence of a large number of segregating gene duplications and deletions in humans [51], [52]; many of these genes are even in the same families that we find to be evolving at the highest rates in humans [52], [53]. </plain></SENT>
+<SENT sid="418" pm="."><plain>Our results therefore support a growing appreciation for the importance of duplication and deletion events in the course of human evolution [9], [14]. </plain></SENT>
+</text></p><p><text><SENT sid="419" pm="."><plain>There are two primary sources of potential bias in our study. </plain></SENT>
+<SENT sid="420" pm="."><plain>First, differential sequencing coverage and genome assembly quality may inflate our estimates of gene gain and loss. </plain></SENT>
+<SENT sid="421" pm="."><plain>To minimize this source of bias we focused only on mammalian genomes that were estimated to be &gt;90% complete (rat &gt;90% [27], chimpanzee &gt;94% [1], mouse ≈96% [38], dog ≈99% [54], human ≈99% [39]). </plain></SENT>
+<SENT sid="422" pm="."><plain>Our analyses of multiple versions of genome annotations showed that the most dramatic change in perceived gene gain and loss occurred as a result of the 1.5× increase in chimpanzee genome sequencing coverage. </plain></SENT>
+<SENT sid="423" pm="."><plain>The pattern of gene gain and loss between humans and chimpanzees is in the direction expected if many genes remain unidentified in the PanTro2.1 genome assembly (i.e. more gains in humans and losses in <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimps</z:uniprot>). </plain></SENT>
+</text></p><p><text><SENT sid="424" pm="."><plain>The total difference in gene number between these two species cannot explain all of the divergence in gene complement that we observe. </plain></SENT>
+<SENT sid="425" pm="."><plain>Even if all of the unidentified genes in chimpanzee contributed to reducing the number of differences between these two species (such that there were equal numbers of genes in the two genomes), there would still be a 2% difference in the gene complement between humans and <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimps</z:uniprot> (∼400 genes). </plain></SENT>
+<SENT sid="426" pm="."><plain>Ultimately judging the extent to which our results are impacted by heterogeneous data quality will require comparison with future refinements of the genome sequences and annotations. </plain></SENT>
+<SENT sid="427" pm="."><plain>Our analyses do suggest that comprehensive identification of the genetic changes that underlie species differences will require genome sequencing deeper than 6× coverage in order to fully account for duplication and loss events. </plain></SENT>
+<SENT sid="428" pm="."><plain>In the unlikely event that revised annotations significantly reduce the estimated difference between human and chimpanzee presented here, our results would still suggest an important and widely unappreciated contribution of gene gain and loss to human evolution. </plain></SENT>
+</text></p><p><text><SENT sid="429" pm="."><plain>A second concern is that the level of similarity used to define gene families affects the size of families, and stricter criteria result in more apparent extinctions and creations of entire families [31]. </plain></SENT>
+<SENT sid="430" pm="."><plain>Conversely, allowing gene families to include highly-diverged members will necessarily result in larger families and fewer extinctions and creations. </plain></SENT>
+<SENT sid="431" pm="."><plain>While there is no one accepted similarity criterion for the definition of gene families, differences in the relative numbers of creations and extinctions among lineages (as well as single gene gains and losses) should not be affected by the definition used. </plain></SENT>
+<SENT sid="432" pm="."><plain>Indeed, the number of creations and extinctions are highly correlated across similarity thresholds (r = 0.995, P = 0.0004). </plain></SENT>
+<SENT sid="433" pm="."><plain>Our results provide evidence for a high number of extinctions and creations of whole gene families, no matter how families are defined. </plain></SENT>
+<SENT sid="434" pm="."><plain>We expect that commensurately many of both types of events will be found in future analyses, regardless of the exact definitions of gene families. </plain></SENT>
+</text></p><p><text><SENT sid="435" pm="."><plain>Because our analyses attempt to give a genome-wide perspective on gene family evolution, the precision of genic divergence estimates will necessarily reflect the accuracy of the underlying genome sequences and annotations. </plain></SENT>
+<SENT sid="436" pm="."><plain>In the interest of transparency, we use widely-accepted and freely-accessible genome annotations as the foundation for our analyses [26]. </plain></SENT>
+<SENT sid="437" pm="."><plain>In most cases sequencing and annotation errors are likely to inflate estimates of change; however, the simple method we have used to count differences in gene number is fundamentally conservative because we are unable to account for instances where both gains and losses occur within a family along the same branch of the tree. </plain></SENT>
+<SENT sid="438" pm="."><plain>Careful individual analysis of each gene family is sure to increase the number of both gains and losses on every branch of the tree. </plain></SENT>
+</text></p><p><text><SENT sid="439" pm="."><plain>Although alignment of orthologous genomic regions has shown that there is less than 2% divergence between humans and chimpanzees at the nucleotide level [1], these analyses perforce do not consider unalignable or ambiguously-aligned regions [8]. </plain></SENT>
+<SENT sid="440" pm="."><plain>In contrast, our results demonstrate that humans and chimpanzees differ by ∼6% at the level of gene complement. </plain></SENT>
+<SENT sid="441" pm="."><plain>Though recent work has focused on distinguishing amino acid changes from regulatory changes as the major determinants of human evolution [55], we have shown here that the similarity in total gene number between humans and our closest relatives has masked the gain and loss of genes as a fertile source of adaptive change. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="s4"><title><text><SENT sid="442" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s4a"><title><text><SENT sid="443" pm="."><plain>Data collection </plain></SENT>
+</text></title><p><text><SENT sid="444" pm="."><plain>Gene families were assembled by the Ensembl project [26] (version 41 – October 2006; <ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org">www.ensembl.org</ext-link>) using the MCL algorithm. </plain></SENT>
+<SENT sid="445" pm="."><plain>Briefly, MCL uses a Markov clustering algorithm to cluster proteins into families by simultaneous analysis of sequence similarities among all genes in all taxa. </plain></SENT>
+<SENT sid="446" pm="."><plain>The approach overcomes many of the difficulties that arise when attempting pair-wise clustering of proteins with complex domain structures [30]. </plain></SENT>
+<SENT sid="447" pm="."><plain>Furthermore, because clustering proceeds irrespective of the species-of-origin, the resulting assignments represent an objective measure of the number of genes in each family, for each species. </plain></SENT>
+<SENT sid="448" pm="."><plain>We assembled a matrix of gene family sizes for: Canis familiaris (dog), Rattus norvegicus (rat), Mus musculus (mouse), Pan troglodytes (<z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot>), and Homo sapiens (human), for analysis of mammalian gene family evolution. </plain></SENT>
+<SENT sid="449" pm="."><plain>We included only the longest isoform of each gene in our analysis. </plain></SENT>
+</text></p><p><text><SENT sid="450" pm="."><plain>The resulting matrix includes 15,389 gene families. </plain></SENT>
+<SENT sid="451" pm="."><plain>Among these families, 3,114 (20.3%) are species-specific, single-gene families. </plain></SENT>
+<SENT sid="452" pm="."><plain>We consider these to be artifacts of gene prediction and to minimize this source of bias, we exclude them from our analyses. </plain></SENT>
+<SENT sid="453" pm="."><plain>The remaining dataset consisted of 12,225 gene families present in at least two species, or composed of greater than one gene in a single species (Table 1). </plain></SENT>
+<SENT sid="454" pm="."><plain>The mouse genome, which initially appeared to have the largest number of genes and gene families, contains the highest proportion of these “annotation artifacts” (1,674 of 11,370 mouse families). </plain></SENT>
+<SENT sid="455" pm="."><plain>The list of families deemed to be artifacts is available as Table S5 online. </plain></SENT>
+</text></p></sec><sec id="s4b"><title><text><SENT sid="456" pm="."><plain>Likelihood analysis of gene gain and loss </plain></SENT>
+</text></title><p><text><SENT sid="457" pm="."><plain>To identify gene families that have undergone significant expansion or contraction and to estimate the global rates of gene gain and loss, we applied the probabilistic framework developed by Hahn et al. [25]. </plain></SENT>
+<SENT sid="458" pm="."><plain>The method models gene family evolution as a stochastic birth and death process, taking into account the phylogenetic tree topology and branch lengths. </plain></SENT>
+<SENT sid="459" pm="."><plain>Assuming that all genes have equal probability, λ, of gain (birth) or loss (death), the conditional probability of going from an initial number of genes, X0 = s, to size c during time t, Xt = c, is given by. </plain></SENT>
+</text></p><p><text><SENT sid="460" pm="."><plain>Note that if X0 = 0 then there is no chance of birth or death, as 0 is an absorbing boundary; therefore we restrict our analysis to X0&gt;0. </plain></SENT>
+<SENT sid="461" pm="."><plain>The assumption of the stochastic birth-death model that each family is present in the MRCA (i.e. X0&gt;0), means that we excluded newly created families from our estimation of λ. </plain></SENT>
+</text></p><p><text><SENT sid="462" pm="."><plain>For gene families inferred to be present in the MRCA of mammals, family sizes at the internal nodes are computed while maximizing the likelihood of the observed family sizes at the tips. </plain></SENT>
+<SENT sid="463" pm="."><plain>This maximization involves averaging over all possible values of unspecified internal nodes except for the root node, X0, on which each iteration is conditioned. </plain></SENT>
+<SENT sid="464" pm="."><plain>Software used to conduct the analysis performed above is publicly available (<ext-link ext-link-type="uri" xlink:href="http://www.bio.indiana.edu/~hahnlab/Software.html">www.bio.indiana.edu/∼hahnlab/Software.html</ext-link>; [56]). </plain></SENT>
+</text></p><p><text><SENT sid="465" pm="."><plain>Details specific to the analysis of mammalian genomes are as follows: The topology and branch lengths of the phylogenetic tree used are taken from the average values reported by Springer et al. [57] based on 16,397 aligned nucleotides of 19 nuclear and three mitochondrial genes. </plain></SENT>
+<SENT sid="466" pm="."><plain>We then estimated λ using all 9,990 families present in the mammal MRCA (Table S6). </plain></SENT>
+<SENT sid="467" pm="."><plain>Branch identification for significant families was not computed on the full data set due to computing time constraints. </plain></SENT>
+<SENT sid="468" pm="."><plain>To be conservative we first determined families significant at a false discovery rate [37] of 0.01% (i.e. P&lt;0.0001). </plain></SENT>
+<SENT sid="469" pm="."><plain>For the 164 families with tree-wide P&lt;0.0001, we then specified use of the estimated λ while calculating branch-cutting, Viterbi, and likelihood ratio tests [25]. </plain></SENT>
+<SENT sid="470" pm="."><plain>This final step required approximately 6.5 days to compute on a dual processor 2.7 GHz PowerMac G5. </plain></SENT>
+<SENT sid="471" pm="."><plain>In the end, all three methods yielded congruent results (see Table S7 for individual results from all three methods). </plain></SENT>
+</text></p></sec><sec id="s4c"><title><text><SENT sid="472" pm="."><plain>Distinguishing creations and extinctions </plain></SENT>
+</text></title><p><text><SENT sid="473" pm="."><plain>Based on the distribution of family presence in the leaf taxa, we assign creations to specific branches of the tree using a parsimony rule where: if two branches share a family, a creation is assigned to the MRCA of those branches. </plain></SENT>
+<SENT sid="474" pm="."><plain>To illustrate, a family shared by only humans and chimpanzees is assigned a creation on the primate branch. </plain></SENT>
+<SENT sid="475" pm="."><plain>In order to ensure that creations were not simply extinctions in a majority of the species studied here, we further queried the other eukaryotic genomes present in Ensembl v.41. </plain></SENT>
+<SENT sid="476" pm="."><plain>These genomes included Saccharomyces cerevisiae, Ciona savignyi, Caenorhabditis elegans, Anopheles gambiae, Ciona intestinalis, Drosophila melanogaster, Danio rerio, Xenopus tropicalis, Gallus gallus, Macaca mulatta, Bos taurus, Monodelphis domestica, Takifugu rubripes, and Tetraodon nigroviridis. </plain></SENT>
+<SENT sid="477" pm="."><plain>In total, 611 gene families were found in further outgroup taxa and represent a minimum number of additional extinctions that occurred in the majority of lineages included in our full analysis. </plain></SENT>
+<SENT sid="478" pm="."><plain>Excluding families found in one of the 14 more distantly-related eukaryotes as well as transposable elements and retroviruses leaves 1,317 gene families that appear within the past 93 million years. </plain></SENT>
+<SENT sid="479" pm="."><plain>To investigate the correlation between gene family creations and gene family contractions (see Lineage-specific Gene Families above), we considered the total number of each type of event on every branch of the tree separately (data from Table 2). </plain></SENT>
+</text></p></sec><sec id="s4d"><title><text><SENT sid="480" pm="."><plain>Effects of annotation changes and clustering criterion </plain></SENT>
+</text></title><p><text><SENT sid="481" pm="."><plain>To assess the effects of genome annotation updates, many of the analyses conducted on Ensembl v41 (October 2006) were also conducted on the following versions of Ensembl: v32 (July 2005), v35 (November 2005), v38 (April 2006), and v39 (June 2006). </plain></SENT>
+<SENT sid="482" pm="."><plain>Results for changes in gene family size are available in Table S1. </plain></SENT>
+<SENT sid="483" pm="."><plain>To assess the effects of clustering threshold, we used MCL to cluster a subset of the data obtained directly from Ensembl containing 89,562 genes (A. </plain></SENT>
+<SENT sid="484" pm="."><plain>Ureta-Vidal, pers. <z:uniprot sup="inside" fb="39" ids="Q24139">comm</z:uniprot>.). </plain></SENT>
+<SENT sid="485" pm="."><plain>The clustering parameter, i, values used were: 1.5, 1.9, 2.3, 2.7, and 3.1. </plain></SENT>
+<SENT sid="486" pm="."><plain>The Ensembl database uses i = 2.3 to define gene families. </plain></SENT>
+<SENT sid="487" pm="."><plain>Clustering threshold has a strong influence on the absolute number of families, as well as on the number of creations and extinctions (Figure S1). </plain></SENT>
+<SENT sid="488" pm="."><plain>In order to see whether the clustering parameter affects the number of differences inferred between human and chimpanzee, we calculated the number of differences between these two taxa at i = 2.3. </plain></SENT>
+<SENT sid="489" pm="."><plain>We then compared this value to the number of differences estimated from the four other clustering parameter values used (Table S1). </plain></SENT>
+</text></p></sec><sec id="s4e"><title><text><SENT sid="490" pm="."><plain>Reconciling gene trees and species trees </plain></SENT>
+</text></title><p><text><SENT sid="491" pm="."><plain>For the forkhead box (ENSF00000000311), centaurin gamma (ENSF00000000936), and golgin (ENSF00000000597) families, we downloaded protein sequences for all genes in all five mammalian species. </plain></SENT>
+<SENT sid="492" pm="."><plain>We then generated neighbor-joining trees in PHYLIP using JTT protein distances [58]. </plain></SENT>
+<SENT sid="493" pm="."><plain>We reconciled the resulting gene tree with the 5-taxon species tree described above using the NOTUNG software package [59]. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s5"><title><text><SENT sid="494" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0000085.s001"><label>Figure S1</label><caption><p><text><SENT sid="495" pm="."><plain>The effect of clustering threshold on total number of families and the correlation with creations and extinctions. </plain></SENT>
+<SENT sid="496" pm="."><plain>r2 is reported for the correlation between total number of families and the number of creations or extinctions. i values represent the clustering threshold (in MCL) responsible for the corresponding numbers of gene families, creations, and extinctions. </plain></SENT>
+</text></p><p><text><SENT sid="497" pm="."><plain>(0.08 MB TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s001.tif"><caption><p><text><SENT sid="498" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s002"><label>Figure S2</label><caption><p><text><SENT sid="499" pm="."><plain>Gene tree for the forkhead box gene family (ENSF00000000311), showing gene duplication events as red boxes (H = human, C = <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot>, M = mouse, R = rat, D = dog). </plain></SENT>
+</text></p><p><text><SENT sid="500" pm="."><plain>(6.70 MB TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s002.tif"><caption><p><text><SENT sid="501" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s003"><label>Figure S3</label><caption><p><text><SENT sid="502" pm="."><plain>Gene tree for the centaurin gamma gene family (ENSF00000000936), showing gene duplication events as red boxes (H = human, C = <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot>, M = mouse, R = rat, D = dog). </plain></SENT>
+</text></p><p><text><SENT sid="503" pm="."><plain>(8.27 MB TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s003.tif"><caption><p><text><SENT sid="504" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s004"><label>Figure S4</label><caption><p><text><SENT sid="505" pm="."><plain>Gene tree for the golgin gene family (ENSF00000000597), showing gene duplication events as red boxes (H = human, C = <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot>, M = mouse, R = rat, D = dog). </plain></SENT>
+</text></p><p><text><SENT sid="506" pm="."><plain>(4.09 MB TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s004.tif"><caption><p><text><SENT sid="507" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s005"><label>Table S1</label><caption><p><text><SENT sid="508" pm="."><plain>Supporting analyses of the effects of gene family clustering thresholds and genome annotation updates. </plain></SENT>
+</text></p><p><text><SENT sid="509" pm="."><plain>(0.02 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s005.xls"><caption><p><text><SENT sid="510" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s006"><label>Table S2</label><caption><p><text><SENT sid="511" pm="."><plain>Families that have gone extinct in one or more lineages. </plain></SENT>
+</text></p><p><text><SENT sid="512" pm="."><plain>(0.24 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s006.xls"><caption><p><text><SENT sid="513" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s007"><label>Table S3</label><caption><p><text><SENT sid="514" pm="."><plain>Families inferred to have arisen after the MRCA of the taxa included in our analyses. </plain></SENT>
+<SENT sid="515" pm="."><plain>The first column describes whether the family on each row was found in the 14 other eukaryotes we queried to verify our inferences. </plain></SENT>
+<SENT sid="516" pm="."><plain>Ingroup creations are those that are present in 3 or 4 of the mouse, rat, human, chimpanzee group, but absent in dog and the other 14 eukaryotes. </plain></SENT>
+</text></p><p><text><SENT sid="517" pm="."><plain>(0.34 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s007.xls"><caption><p><text><SENT sid="518" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s008"><label>Table S4</label><caption><p><text><SENT sid="519" pm="."><plain>Comparison of rapidly evolving families found in Ensembl versions 32, 39, and 41. </plain></SENT>
+</text></p><p><text><SENT sid="520" pm="."><plain>(0.03 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s008.xls"><caption><p><text><SENT sid="521" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s009"><label>Table S5</label><caption><p><text><SENT sid="522" pm="."><plain>Species-specific single-gene families. </plain></SENT>
+<SENT sid="523" pm="."><plain>We considered these to be annotation artifacts and excluded them from analyses. </plain></SENT>
+</text></p><p><text><SENT sid="524" pm="."><plain>(0.48 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s009.xls"><caption><p><text><SENT sid="525" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s010"><label>Table S6</label><caption><p><text><SENT sid="526" pm="."><plain>The full list of families included in the likelihood analysis of gene family evolution. </plain></SENT>
+<SENT sid="527" pm="."><plain>The table includes the inferred gene family sizes at the ancestral nodes. </plain></SENT>
+</text></p><p><text><SENT sid="528" pm="."><plain>(1.75 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s010.xls"><caption><p><text><SENT sid="529" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0000085.s011"><label>Table S7</label><caption><p><text><SENT sid="530" pm="."><plain>The 164 families that show individually accelerated rates of evolution. </plain></SENT>
+<SENT sid="531" pm="."><plain>The table contains results from all three methods of identifying the branch that is least likely to be evolving randomly. </plain></SENT>
+</text></p><p><text><SENT sid="532" pm="."><plain>(0.14 MB XLS) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0000085.s011.xls"><caption><p><text><SENT sid="533" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="534" pm="."><plain>We thank L. </plain></SENT>
+<SENT sid="535" pm="."><plain>Moyle, M. </plain></SENT>
+<SENT sid="536" pm="."><plain>Lynch, D. </plain></SENT>
+<SENT sid="537" pm="."><plain>Ortiz-Barrientos, J. </plain></SENT>
+<SENT sid="538" pm="."><plain>Palmer, and M. </plain></SENT>
+<SENT sid="539" pm="."><plain>Wade for comments and discussion, and A. </plain></SENT>
+<SENT sid="540" pm="."><plain>Ureta-Vidal and S.-G. </plain></SENT>
+<SENT sid="541" pm="."><plain>Han for computational assistance. </plain></SENT>
+<SENT sid="542" pm="."><plain>Three anonymous reviewers and J. </plain></SENT>
+<SENT sid="543" pm="."><plain>Borevitz also helped to improve the manuscript. </plain></SENT>
+</text></text4fund></p></ack></SecTag><fn-group><SecTag type="ACK_FUND"><fn fn-type="financial-disclosure"><p><text4fund><text><SENT sid="544" pm="."><plain>Funding: This work was supported by grants from the National Science Foundation (MCB-0528465 and <z:uniprot sup="inside" fb="3" ids="P07106,O01805,P45882,P07107,Q9TQX6,P82934,Q9PRL8,P42281,P07108,P31824,P31786,P45883,P12026,Q8WN94,P11030">DBI</z:uniprot>-0543586) to MWH and the National Institutes of Health (R33HG003070-01) to NC. </plain></SENT>
+<SENT sid="545" pm="."><plain>TDB acknowledges support from the CoE EF/05/007 SymBioSys, and from GOA/2005/04, both from the Research Council K.U. </plain></SENT>
+<SENT sid="546" pm="."><plain>Leuven. </plain></SENT>
+<SENT sid="547" pm="."><plain>MWH and JPD are also supported by the METACyt Initiative of Indiana University, funded in part through a major grant from the Lilly Endowment, Inc. </plain></SENT>
+<SENT sid="548" pm="."><plain>None of the sponsors played any role in any part of the study. </plain></SENT>
+</text></text4fund></p></fn></SecTag></fn-group><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0000085-Mikkelsen1"><text><SENT sid="549" pm="."><plain>1 MikkelsenTSHillierLWEichlerEEZodyMCJaffeDB 2005 Initial sequence of the chimpanzee genome and comparison with the human genome. Nature 437 69 87 16136131 </plain></SENT>
+</text></ref><ref id="pone.0000085-King1"><text><SENT sid="550" pm="."><plain>2 KingM-CWilsonAC 1975 Evolution at two levels in humans and chimpanzees. Science 188 107 116 1090005 </plain></SENT>
+</text></ref><ref id="pone.0000085-Zhang1"><text><SENT sid="551" pm="."><plain>3 ZhangJWebbDMPodlahaO 2002 Accelerated protein evolution and origins of human-specific features: <z:uniprot sup="inside" fb="0" ids="Q8MJ99,O15409,Q5QL03,Q8MJ97,Q8HZ00,Q8MJA0,Q8MJ98">FOXP2</z:uniprot> as an example. Genetics 162 1825 1835 12524352 </plain></SENT>
+</text></ref><ref id="pone.0000085-Bustamante1"><text><SENT sid="552" pm="."><plain>4 BustamanteCDFledel-AlonAWilliamsonSNielsenRTodd HubiszM 2005 Natural selection on protein-coding genes in the human genome. Nature 437 1153 1157 16237444 </plain></SENT>
+</text></ref><ref id="pone.0000085-Enard1"><text><SENT sid="553" pm="."><plain>5 EnardWPrzeworskiMFisherSELaiCSLWiebeV 2002 Molecular evolution of <z:uniprot sup="inside" fb="0" ids="Q8MJ99,O15409,Q5QL03,Q8MJ97,Q8HZ00,Q8MJA0,Q8MJ98">FOXP2</z:uniprot>, a gene involved in speech and language. Nature 418 869 872 12192408 </plain></SENT>
+</text></ref><ref id="pone.0000085-Rockman1"><text><SENT sid="554" pm="."><plain>6 RockmanMVHahnMWSoranzoNZimprichFGoldsteinDB 2005 Ancient and recent positive selection transformed opioid cis-regulation in humans. PLoS Biology 3  </plain></SENT>
+</text></ref><ref id="pone.0000085-Hahn1"><text><SENT sid="555" pm="."><plain>7 HahnMWRockmanMVSoranzoNGoldsteinDBWrayGA 2004 Population genetic and phylogenetic evidence for positive selection on regulatory mutations at the factor VII locus in humans. Genetics 167 867 877 15238535 </plain></SENT>
+</text></ref><ref id="pone.0000085-Britten1"><text><SENT sid="556" pm="."><plain>8 BrittenRJ 2002 Divergence between samples of chimpanzee and human DNA sequences is 5%, counting indels. Proceedings of the National Academy of Sciences of the United States of America 99 13633 13635 12368483 </plain></SENT>
+</text></ref><ref id="pone.0000085-Wooding1"><text><SENT sid="557" pm="."><plain>9 WoodingSJordeLB 2006 Duplication and divergence in humans and chimpanzees. BioEssays 28 335 338 16547951 </plain></SENT>
+</text></ref><ref id="pone.0000085-Cheng1"><text><SENT sid="558" pm="."><plain>10 ChengZVenturaMSheXKhaitovichPGravesT 2005 A genome-wide comparison of recent chimpanzee and human segmental duplications. Nature 437 88 93 16136132 </plain></SENT>
+</text></ref><ref id="pone.0000085-Bailey1"><text><SENT sid="559" pm="."><plain>11 BaileyJAEichlerEE 2006 Primate segmental duplications: crucibles of evolution, diversity and disease. Nature Reviews Genetics 7 552 564  </plain></SENT>
+</text></ref><ref id="pone.0000085-Ohno1"><text><SENT sid="560" pm="."><plain>12 OhnoS 1970 Evolution by Gene Duplication. Heidelberg, Germany Springer-Verlag  </plain></SENT>
+</text></ref><ref id="pone.0000085-Lynch1"><text><SENT sid="561" pm="."><plain>13 LynchMConeryJS 2000 The evolutionary fate and consequences of duplicate genes. Science 290 1151 1155 11073452 </plain></SENT>
+</text></ref><ref id="pone.0000085-Olson1"><text><SENT sid="562" pm="."><plain>14 OlsonMV 1999 When less is more: Gene loss as an engine of evolutionary change. American Journal of Human Genetics 64 18 23 9915938 </plain></SENT>
+</text></ref><ref id="pone.0000085-Lynch2"><text><SENT sid="563" pm="."><plain>15 LynchMConeryJS 2003 The evolutionary demography of duplicate genes. Journal of Structural and Functional Genomics 3 35 44 12836683 </plain></SENT>
+</text></ref><ref id="pone.0000085-Grus1"><text><SENT sid="564" pm="."><plain>16 GrusWEShiPZhangY-pZhangJ 2005 Dramatic variation of the vomeronasal pheromone receptor gene repertoire among five orders of placental and marsupial mammals. Proceedings of the National Academy of Sciences of the United States of America 102 5767 5772 15790682 </plain></SENT>
+</text></ref><ref id="pone.0000085-Gilad1"><text><SENT sid="565" pm="."><plain>17 GiladYManOGlusmanG 2005 A comparison of the human and chimpanzee olfactory receptor gene repertoires. Genome Research 15 224 230 15687286 </plain></SENT>
+</text></ref><ref id="pone.0000085-Fortna1"><text><SENT sid="566" pm="."><plain>18 FortnaAKimYMacLarenEMarshallKHahnG 2004 Lineage-specific gene duplication and loss in human and great ape evolution. PLoS Biology 2 e207 15252450 </plain></SENT>
+</text></ref><ref id="pone.0000085-Johnson1"><text><SENT sid="567" pm="."><plain>19 JohnsonMEViggianoLBaileyJAAbdul-RaufMGoodwinG 2001 Positive selection of a gene family during the emergence of humans and African apes. Nature 413 514 519 11586358 </plain></SENT>
+</text></ref><ref id="pone.0000085-Wang1"><text><SENT sid="568" pm="."><plain>20 WangXGrusWEZhangJ 2006 Gene losses during human origins. PLoS Biology 4 e52 16464126 </plain></SENT>
+</text></ref><ref id="pone.0000085-Garczarek1"><text><SENT sid="569" pm="."><plain>21 GarczarekLHessWRHoltzendorffJvan der StaayGWMPartenskyF 2000 Multiplication of antenna genes as a major adaptation to low light in a marine prokaryote. Proceedings of the National Academy of Sciences of the United States of America 97 4098 4101 10725393 </plain></SENT>
+</text></ref><ref id="pone.0000085-Ranson1"><text><SENT sid="570" pm="."><plain>22 RansonHClaudianosCOrtelliFAbgrallCHemingwayJ 2002 Evolution of supergene families associated with insecticide resistance. Science 298 179 181 12364796 </plain></SENT>
+</text></ref><ref id="pone.0000085-McLysaght1"><text><SENT sid="571" pm="."><plain>23 McLysaghtABaldiPFGautBS 2003 Extensive gene gain associated with adaptive evolution of poxviruses. Proceedings of the National Academy of Sciences of the United States of America 100 15655 15660 14660798 </plain></SENT>
+</text></ref><ref id="pone.0000085-Li1"><text><SENT sid="572" pm="."><plain>24 LiW-H 1997 Molecular Evolution. Sunderland, MA Sinaur Associates, Inc  </plain></SENT>
+</text></ref><ref id="pone.0000085-Hahn2"><text><SENT sid="573" pm="."><plain>25 HahnMWDe BieTStajichJENguyenCCristianiniN 2005 Estimating the tempo and mode of gene family evolution from comparative genomic data. Genome Research 15 1153 1160 16077014 </plain></SENT>
+</text></ref><ref id="pone.0000085-Hubbard1"><text><SENT sid="574" pm="."><plain>26 HubbardTAndrewsDCaccamoMCameronGChenY 2005 Ensembl 2005. Nucleic Acids Research 33 D447 453 15608235 </plain></SENT>
+</text></ref><ref id="pone.0000085-Gibbs1"><text><SENT sid="575" pm="."><plain>27 GibbsRAWeinstockGMMetzkerMLMuznyDMSodergrenEJ 2004 Genome sequence of the Brown Norway rat yields insights into mammalian evolution. Nature 428 493 521 15057822 </plain></SENT>
+</text></ref><ref id="pone.0000085-Boussau1"><text><SENT sid="576" pm="."><plain>28 BoussauBKarlbergEOFrankACLegaultB-AAnderssonSGE 2004 Computational inference of scenarios for α-proteobacterial genome evolution. Proceedings of the National Academy of Sciences of the United States of America 101 9722 9727 15210995 </plain></SENT>
+</text></ref><ref id="pone.0000085-Shiu1"><text><SENT sid="577" pm="."><plain>29 ShiuS-HByrnesJKPanRZhangPLiW-H 2006 Role of positive selection in the retention of duplicate genes in mammalian genomes. PNAS 103 2232 2236 16461903 </plain></SENT>
+</text></ref><ref id="pone.0000085-Enright1"><text><SENT sid="578" pm="."><plain>30 EnrightAJVan DongenSOuzounisCA 2002 An efficient algorithm for large-scale detection of protein families. Nucleic Acids Research 30 1575 1584 11917018 </plain></SENT>
+</text></ref><ref id="pone.0000085-Hughes1"><text><SENT sid="579" pm="."><plain>31 HughesALFriedmanR 2004 Shedding genomic ballast: Extensive parallel loss of ancestral gene families in animals. Journal of Molecular Evolution 59 827 833 15599514 </plain></SENT>
+</text></ref><ref id="pone.0000085-Nielsen1"><text><SENT sid="580" pm="."><plain>32 NielsenRBustamanteCClarkAGGlanowskiSSacktonTB 2005 A scan for positively selected genes in the genomes of humans and chimpanzees. PLoS Biology 3 e170 15869325 </plain></SENT>
+</text></ref><ref id="pone.0000085-Vallender1"><text><SENT sid="581" pm="."><plain>33 VallenderEJLahnBT 2006 A primate-specific acceleration in the evolution of the <z:uniprot sup="inside" fb="0" ids="O01382">caspase</z:uniprot>-dependent apoptosis pathway. Hum Mol Genet 15 3034 3040 16980329 </plain></SENT>
+</text></ref><ref id="pone.0000085-Long1"><text><SENT sid="582" pm="."><plain>34 LongMBetranEThorntonKWangW 2003 The origin of new genes: glimpses from the young and old. Nature Reviews Genetics 4 865 875  </plain></SENT>
+</text></ref><ref id="pone.0000085-Copley1"><text><SENT sid="583" pm="."><plain>35 CopleyRRGoodstadtLPontingC 2003 Eukaryotic domain evolution inferred from genome comparisons. Current Opinion in Genetics &amp; Development 13 623 628 14638325 </plain></SENT>
+</text></ref><ref id="pone.0000085-Bergthorsson1"><text><SENT sid="584" pm="."><plain>36 BergthorssonUAdamsKLThomasonBPalmerJD 2003 Widespread horizontal transfer of mitochondrial genes in flowering plants. Nature 424 197 201 12853958 </plain></SENT>
+</text></ref><ref id="pone.0000085-Benjamini1"><text><SENT sid="585" pm="."><plain>37 BenjaminiYHochbergY 1995 Controlling the false discovery rate: a practical and powerful approach to multiple testing. Journal of the Royal Statistical Society Series B (Methodological) 57 289 300  </plain></SENT>
+</text></ref><ref id="pone.0000085-Waterston1"><text><SENT sid="586" pm="."><plain>38 WaterstonRHLindblad-TohKBirneyERogersJAbrilJF 2002 Initial sequencing and comparative analysis of the mouse genome. Nature 420 520 562 12466850 </plain></SENT>
+</text></ref><ref id="pone.0000085-International1"><text><SENT sid="587" pm="."><plain>39 International Human Genome Sequencing Consortium 2004 Finishing the euchromatic sequence of the human genome. Nature 431 931 945 15496913 </plain></SENT>
+</text></ref><ref id="pone.0000085-Wassink1"><text><SENT sid="588" pm="."><plain>40 WassinkTHPivenJVielandVJJenkinsLFrantzR 2005 Evaluation of the chromosome 2q37.3 gene <z:uniprot sup="inside" fb="0" ids="Q9UPQ3">CENTG2</z:uniprot> as an autism susceptibility gene. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics 136B 36 44  </plain></SENT>
+</text></ref><ref id="pone.0000085-Malsam1"><text><SENT sid="589" pm="."><plain>41 MalsamJSatohAPelletierLWarrenG 2005 Golgin tethers define subpopulations of COPI vesicles. Science 307 1095 1098 15718469 </plain></SENT>
+</text></ref><ref id="pone.0000085-Eystathioy1"><text><SENT sid="590" pm="."><plain>42 EystathioyTJakymiwAFujitaDJFritzlerMJChanEKL 2000 Human autoantibodies to a novel golgi protein <z:uniprot sup="inside" fb="0" ids="A8MQT2">golgin-67</z:uniprot>: High similarity with <z:uniprot sup="inside" fb="0" ids="Q08379">golgin-95</z:uniprot>/gm 130 autoantigen. Journal of Autoimmunity 14 179 187 10677249 </plain></SENT>
+</text></ref><ref id="pone.0000085-Zmasek1"><text><SENT sid="591" pm="."><plain>43 ZmasekCMEddySR 2001 A simple algorithm to infer gene duplication and speciation events on a gene tree. Bioinformatics 17 821 828 11590098 </plain></SENT>
+</text></ref><ref id="pone.0000085-Francino1"><text><SENT sid="592" pm="."><plain>44 FrancinoMP 2005 An adaptive radiation model for the origin of new gene functions. Nature Genetics 37 573 578 15920518 </plain></SENT>
+</text></ref><ref id="pone.0000085-Gilad2"><text><SENT sid="593" pm="."><plain>45 GiladYWiebeVPrzeworskiMLancetDPaaboS 2004 Loss of olfactory receptor genes coincides with the acquisition of full trichromatic vision in primates. PLoS Biology 2 e5 14737185 </plain></SENT>
+</text></ref><ref id="pone.0000085-Buck1"><text><SENT sid="594" pm="."><plain>46 BuckLAxelR 1991 A novel multigene family may encode odorant receptors - a molecular-basis for odor recognition. Cell 65 175 187 1840504 </plain></SENT>
+</text></ref><ref id="pone.0000085-Rouquier1"><text><SENT sid="595" pm="."><plain>47 RouquierSBlancherAGiorgiD 2000 The olfactory receptor gene repertoire in primates and mouse: Evidence for reduction of the functional fraction in primates. Proceedings of the National Academy of Sciences of the United States of America 97 2870 2874 10706615 </plain></SENT>
+</text></ref><ref id="pone.0000085-Niimura1"><text><SENT sid="596" pm="."><plain>48 NiimuraYNeiM 2005 Evolutionary changes of the number of olfactory receptor genes in the human and mouse lineages. Gene 346 23 28 15716099 </plain></SENT>
+</text></ref><ref id="pone.0000085-Weider1"><text><SENT sid="597" pm="."><plain>49 WeiderLElserJCreaseTMateosMCotnerJ 2005 The functional significance of ribosomal (r)DNA variation: Impacts on the evolutionary ecology of organisms. Annual Review of Ecology Evolution and Systematics 36 219 242  </plain></SENT>
+</text></ref><ref id="pone.0000085-Torrents1"><text><SENT sid="598" pm="."><plain>50 TorrentsDSuyamaMZdobnovEBorkP 2003 A genome-wide survey of human pseudogenes. Genome Research 13 2559 2567 14656963 </plain></SENT>
+</text></ref><ref id="pone.0000085-Sebat1"><text><SENT sid="599" pm="."><plain>51 SebatJLakshmiBTrogeJAlexanderJYoungJ 2004 Large-scale copy number polymorphism in the human genome. Science 305 525 528 15273396 </plain></SENT>
+</text></ref><ref id="pone.0000085-Nguyen1"><text><SENT sid="600" pm="."><plain>52 NguyenD-QWebberCPontingCP 2006 Bias of selection on human copy-number variants. PLoS Genetics 2 e20 16482228 </plain></SENT>
+</text></ref><ref id="pone.0000085-Noonan1"><text><SENT sid="601" pm="."><plain>53 NoonanJPLiJNguyenLCaoileCDicksonM 2003 Extensive linkage disequilibrium, a common 16.7-kilobase deletion, and evidence of balancing selection in the human protocadherin alpha cluster. American Journal of Human Genetics 72 621 635 12577201 </plain></SENT>
+</text></ref><ref id="pone.0000085-LindbladToh1"><text><SENT sid="602" pm="."><plain>54 Lindblad-TohKWadeCMMikkelsenTSKarlssonEKJaffeDB 2005 Genome sequence, comparative analysis and haplotype structure of the domestic dog. Nature 438 803 819 16341006 </plain></SENT>
+</text></ref><ref id="pone.0000085-Carroll1"><text><SENT sid="603" pm="."><plain>55 CarrollSB 2005 Evolution at two levels: on genes and form. PLoS Biology 3  </plain></SENT>
+</text></ref><ref id="pone.0000085-DeBie1"><text><SENT sid="604" pm="."><plain>56 De BieTCristianiniNDemuthJPHahnMW 2006 CAFE: a computational tool for the study of gene family evolution. Bioinformatics 22 1269 1271 16543274 </plain></SENT>
+</text></ref><ref id="pone.0000085-Springer1"><text><SENT sid="605" pm="."><plain>57 SpringerMSMurphyWJEizirikEO'BrienSJ 2003 Placental mammal diversification and the cretaceous-tertiary boundary. Proceedings of the National Academy of Sciences of the United States of America 100 1056 1061 12552136 </plain></SENT>
+</text></ref><ref id="pone.0000085-Felsenstein1"><text><SENT sid="606" pm="."><plain>58 FelsensteinJ 1989 PHYLIP – Phylogeny Inference Package (Version 3.2). Cladistics 5 164 166  </plain></SENT>
+</text></ref><ref id="pone.0000085-Chen1"><text><SENT sid="607" pm="."><plain>59 ChenKDurandDFarach-ColtonM 2000 NOTUNG: A program for dating gene duplications and optimizing gene family trees. Journal of Computational Biology 7 429 447 11108472 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

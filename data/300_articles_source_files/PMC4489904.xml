@@ -1,0 +1,638 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4489904</article-id><article-id pub-id-type="pmid">26136229</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0131683</article-id><article-id pub-id-type="publisher-id">PONE-D-14-56517</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>The Sap Flow Dynamics and Response of Hedysarum scoparium to Environmental Factors in Semiarid Northwestern China </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head"><italic>Hedysarum scoparium</italic> Sap Flow Dynamics in Semiarid Northwest China</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Deng</surname><given-names>Jifeng</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Ding</surname><given-names>Guodong</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref><xref rid="cor001" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Gao</surname><given-names>Guanglei</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wu</surname><given-names>Bin</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Yuqing</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Qin</surname><given-names>Shugao</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fan</surname><given-names>Wenhui</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="aff001">
+<label>1</label>
+<addr-line>Yanchi Research Station, School of Soil &amp; Water Conservation, Beijing Forestry University, Beijing, 100083, P. R. China</addr-line>
+</aff><aff id="aff002">
+<label>2</label>
+<addr-line>Key Laboratory of Soil and Water Conservation and Desertification Combating, Ministry of Education, Beijing Forestry University, Beijing, 100083, P. R. China</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Reigosa</surname><given-names>Manuel</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>University of Vigo, SPAIN</addr-line>
+</aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con" id="contrib001"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: JD GD GG BW YZ SQ WF. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: JD GD GG SQ WF. </plain></SENT>
+<SENT sid="4" pm="."><plain>Analyzed the data: JD GD GG. </plain></SENT>
+<SENT sid="5" pm="."><plain>Contributed reagents/materials/analysis tools: GD BW YZ SQ. </plain></SENT>
+<SENT sid="6" pm="."><plain>Wrote the paper: JD GD. </plain></SENT>
+</text></p></fn><corresp id="cor001">* E-mail: <email>dingguodong@bjfu.edu.cn</email></corresp></author-notes><pub-date pub-type="epub"><day>2</day><month>7</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>10</volume><issue>7</issue><elocation-id>e0131683</elocation-id><history><date date-type="received"><day>23</day><month>12</month><year>2014</year></date><date date-type="accepted"><day>5</day><month>6</month><year>2015</year></date></history><permissions><copyright-statement>© 2015 Deng et al</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Deng et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0131683.pdf"/><abstract><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Hedysarum scoparium is an important, fast-growing and drought-resistant shrub that has been extensively used for grassland restoration and preventing desertification in semiarid regions of northwestern China. </plain></SENT>
+<SENT sid="8" pm="."><plain>The primary objective of this study was to investigate the diurnal and seasonal variations in stem sap flow (J s) and its relation to environmental factors. </plain></SENT>
+<SENT sid="9" pm="."><plain>The stem heat balance method was applied to plants that were approximately 17 years old (with diameters of 25, 16, 13, and 9 mm at ground level and heights of 3.1, 1.8, 1.7 and 1.4 m) and growing under natural conditions. </plain></SENT>
+<SENT sid="10" pm="."><plain>The vertical soil temperature profile (ST), soil surface heat flux (SoilG), volumetric soil moisture content (SWC) and meteorological variables such as solar radiation (R n), air temperature (T a), vapour pressure deficit (VPD), wind speed (W s) relative humidity (RH) and precipitation (P) were simultaneously measured at a meteorological station on site. </plain></SENT>
+<SENT sid="11" pm="."><plain>Results indicated that J s varied regularly during the diurnal and seasonal term. </plain></SENT>
+<SENT sid="12" pm="."><plain>The nocturnal J s was substantial, with a seasonal variation similar to the patterns of daytime J s. </plain></SENT>
+<SENT sid="13" pm="."><plain>The magnitude of J s changed considerably between sunny and rainy days. </plain></SENT>
+<SENT sid="14" pm="."><plain>Redundancy (RDA) and Kendall’s tau analysis suggested that daily J s in large plants was more sensitive to environmental factors, and the variation in daily J s during the growing season could be described by a multiple linear regression against environmental variables including T a, VPD, W s, RH, ST, and SoilG. </plain></SENT>
+<SENT sid="15" pm="."><plain>While the nocturnal J s in smaller plants was more sensitive to meteorological factors. T a, VPD, and W s were significantly correlated with nighttime J s. </plain></SENT>
+<SENT sid="16" pm="."><plain>The hourly nighttime sap flow rate of H. scoparium corresponded closely to T a and VPD following a non-linear pattern. </plain></SENT>
+<SENT sid="17" pm="."><plain>The results of this study can be used to estimate the transpiration of H. scoparium. </plain></SENT>
+</text></SecTag></p></abstract><funding-group><funding-statement>This work was funded by one of National Basic Research Program of China (2013CB429906)(<ext-link ext-link-type="uri" xlink:href="http://www.973.gov.cn/English/Index.aspx">http://www.973.gov.cn/English/Index.aspx</ext-link>), the National Technology &amp; Science Support Program of China (2012BAD16B02) and The Fundamental Research Funds for the Central Universities (BJFU-TD2011-04). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><fig-count count="15"/><table-count count="2"/><page-count count="24"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>All relevant data are within the paper and its Supporting Information files.</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>All relevant data are within the paper and its Supporting Information files.</p></notes></front><body><SecTag type="INTRO"><sec sec-type="intro" id="sec001"><title><text><SENT sid="18" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="19" pm="."><plain>China is among the countries most severely affected by desertification. </plain></SENT>
+<SENT sid="20" pm="."><plain>In the early 1950’s, more than 70 severe sandstorms occurred which led to topsoil losses, affecting the north central plain and northwestern China and eventually encroaching on the living environment of local people. </plain></SENT>
+<SENT sid="21" pm="."><plain>In order to deal with problems associated with desertification and sandstorms, many ecological engineering projects have been established to minimize the impacts of desertification [1]. </plain></SENT>
+</text></p><p><text><SENT sid="22" pm="."><plain>Hedysarum scoparium (Fisch. &amp; C.A. </plain></SENT>
+<SENT sid="23" pm="."><plain>May) (H. scoparium) is a vivacious leguminous and deciduous shrub growing in arid and semi-arid regions of northern China. </plain></SENT>
+<SENT sid="24" pm="."><plain>The shrub can reach a height of 0.8–3.0 m. </plain></SENT>
+<SENT sid="25" pm="."><plain>The extensive root system of the large shrub can spread to 10 m horizontally and penetrate soil to 5–8 m depth (15 m in some cases). </plain></SENT>
+<SENT sid="26" pm="."><plain>The extensive root system allows H. scoparium to survive on sandy desert soils (water content below 3%) and tolerate extremely high temperatures (from 50–60°C) and dry climates (&lt; 200 mm annual precipitation). </plain></SENT>
+<SENT sid="27" pm="."><plain>Due to its high tolerance to drought and extreme temperatures, H. scoparium is an ideal xerophyte shrub for resisting desertification, and preventing soil, wind, and water erosion by providing sand dune stabilization. </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>In 1956 the Hedysarum scoparium shrub was used to establish a vegetation belt along rail lines from Lanzhou to Baotou, which runs along the edge of the Tengger Desert [1]. </plain></SENT>
+<SENT sid="29" pm="."><plain>Designed purpose for the vegetation belt was to stabilize migrating desert dunes in the Shapotou area at the Tengger Desert southeastern edge. </plain></SENT>
+<SENT sid="30" pm="."><plain>This project is viewed as a successful model for desertification control and ecological restoration along the railway infrastructure in the arid desert region in China. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>Restoration of desert ecosystems using xerophyte shrubs produces a wide range of hydrological effects [1]. </plain></SENT>
+<SENT sid="32" pm="."><plain>There are more apparent in semiarid regions due to the large temporal and spatial variability in precipitation. </plain></SENT>
+<SENT sid="33" pm="."><plain>However, our understanding of the water relations and physiological responses to environmental factors of these desert-living shrubs is limited, and a better understanding of transpiration by desert plants is urgently required. </plain></SENT>
+<SENT sid="34" pm="."><plain>At this time, few studies have been conducted to quantify the diurnal and seasonal transpiration of H. scoparium under natural conditions. </plain></SENT>
+</text></p><p><text><SENT sid="35" pm="."><plain>In recent years, various methods using dyes, radioisotope, tracers, lysimeters, a heat balance and thermal diffusion have been used to measure plant transpiration [2]. </plain></SENT>
+<SENT sid="36" pm="."><plain>However, many of these measurement techniques are invasive and may damage the plant. </plain></SENT>
+<SENT sid="37" pm="."><plain>The stem heat balance technique has been widely used for transpiration studies because it maintains the basic conditions of normal tree growth allows continuous monitoring over a period of time, is relatively easy, does not induce any modification of the environment, and is non-destructive to the shrub [3–8]. </plain></SENT>
+<SENT sid="38" pm="."><plain>Many studies have used the stem heat balance method to measure the fluid-flow characteristics of various plants [2, 3]. </plain></SENT>
+<SENT sid="39" pm="."><plain>Moreover, shrubs with low stem porosity such as H. scoparium, are suitable for the application of the stem heat balance technique. </plain></SENT>
+<SENT sid="40" pm="."><plain>For these reasons, we used the method in this study. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>Eco-hydrological studies of transpiration indicate that plants regulate sap flow (J s) by adjusting stomatal conductance in response to changes in environmental variables, such as radiation intensity, soil moisture, rainfall, air temperature (T a), and wind speed (W s) [9]. </plain></SENT>
+<SENT sid="42" pm="."><plain>Previous studies have focused mainly on the effect of individual environmental factors on plant physiology [10]. </plain></SENT>
+<SENT sid="43" pm="."><plain>However, the interaction of exterior environmental factors should not be neglected, as a certain combination of environmental factors likely play a role in determining plant respiration. </plain></SENT>
+<SENT sid="44" pm="."><plain>For example, semiarid regions of northwestern China are characterized by summers with long water deficit periods and high solar radiation (R n); T a, and vapour pressure deficit (VPD). </plain></SENT>
+<SENT sid="45" pm="."><plain>These variables are correlated with each other, potentially with a compensation effect that influences plant growth under adverse environmental conditions. </plain></SENT>
+<SENT sid="46" pm="."><plain>Plants may have acquired certain genetic characteristics enabling them to dynamically respond to different combinations of environmental factors. </plain></SENT>
+<SENT sid="47" pm="."><plain>As a dominant native species, H. scoparium has adapted to survive in a variety of harsh environmental conditions by adjusting its transpiration [10, 11]. </plain></SENT>
+</text></p><p><text><SENT sid="48" pm="."><plain>The measurement of J s can provide an accurate estimation of actual plant water consumption, but is often influenced by environmental factors. </plain></SENT>
+<SENT sid="49" pm="."><plain>As a result, accurately estimating the sap flow rate and exploiting its relationships with various environmental factors or their interactions is important not only for physiological research but also for the appropriate management of this plant to combat desertification in arid regions. </plain></SENT>
+<SENT sid="50" pm="."><plain>The objectives of this study are to i) determine the diurnal and seasonal sap flow dynamics; ii) analyze the characteristics of daytime and nighttime sap flow and their environment dependence by using regression and redundancy analysis (RDA) methods. </plain></SENT>
+<SENT sid="51" pm="."><plain>Our results will provide the useful information for supporting the management of this ecologically important shrub in semiarid Northwestern China. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="sec002"><title><text><SENT sid="52" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="sec003"><title><text><SENT sid="53" pm="."><plain>Experimental site and plant material </plain></SENT>
+</text></title><p><text><SENT sid="54" pm="."><plain>Beijing Forestry University is responsible for the study site. </plain></SENT>
+<SENT sid="55" pm="."><plain>The study site does not contain any national park or other protected area of land or sea. </plain></SENT>
+<SENT sid="56" pm="."><plain>Environment Protection and Forestry Bureau of Yanchi County supervised the protection of wildlife and environment. </plain></SENT>
+<SENT sid="57" pm="."><plain>The location is not privately owned or protected, and the field studies did not involve endangered or protected species. </plain></SENT>
+<SENT sid="58" pm="."><plain>No specific permits were required for the described field studies. </plain></SENT>
+<SENT sid="59" pm="."><plain>For Yanchi Research Station was found by Beijing Forestry University and authorized by China government. </plain></SENT>
+<SENT sid="60" pm="."><plain>The authorities and we authors confirm that the field studies did not involve endangered or protected species. </plain></SENT>
+</text></p><p><text><SENT sid="61" pm="."><plain>The experimental area was located in Ningxia Yanchi Research Station of State Forestry Administration (between 37°04´N and 38°10´N, and between 106°300´E and 107°410´E, with altitude 1354 m above sea level) (Fig 1), covering an area of approximately 8661.3 km2. </plain></SENT>
+<SENT sid="62" pm="."><plain>The climate is dominated by a semiarid continental monsoon of the mid-temperate zone, with long winters, short summers, a late spring, and an early autumn. </plain></SENT>
+<SENT sid="63" pm="."><plain>The annual precipitation averages 287 mm (1950~2010). </plain></SENT>
+<SENT sid="64" pm="."><plain>About 70% of the total precipitation occurred from July to September. </plain></SENT>
+<SENT sid="65" pm="."><plain>Mean annual potential evaporation is 1273 mm. </plain></SENT>
+<SENT sid="66" pm="."><plain>A biologically active temperature accumulation (&gt;0°C) is 2810°C, with a mean annual temperature of around 8.1°C, with lowest monthly mean temperatures being -24.2°C in January and high monthly temperature of 34.9°C in July. </plain></SENT>
+<SENT sid="67" pm="."><plain>The prevailing wind is mainly from the northwest, and wind speed averages 2.6 m.s-1. </plain></SENT>
+<SENT sid="68" pm="."><plain>The landscape is a typical transitional zone, the terrain changes from the Loess to the Ordos plateau. </plain></SENT>
+<SENT sid="69" pm="."><plain>Soils are primarily dark loessial soil, eolian sandy soil and sierozem soil, with some loess deposits, saline soil, planosol, along with other soil types. </plain></SENT>
+<SENT sid="70" pm="."><plain>Vegetation type varies from dry steppe to desert grassland. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g001</object-id><label>Fig 1</label><caption><title><text><SENT sid="71" pm="."><plain>A map of the study site and its location in China. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g001"/></fig></SecTag><p><text><SENT sid="72" pm="."><plain>H. scoparium grows naturally in the study area. </plain></SENT>
+<SENT sid="73" pm="."><plain>It is a deciduous desert shrub with small leaves, and has also been confirmed to be a C3 plant. </plain></SENT>
+<SENT sid="74" pm="."><plain>The phenological character of H. scoparium is clearly indicative of an adaptive function to the local environment. H. scoparium has bud-burst at the end of April, blooms in May, is fructified in June, becomes mature in June, and begins to wither and turn yellowish in the middle of October (S1 Fig). </plain></SENT>
+</text></p><p><text><SENT sid="75" pm="."><plain>During our research, a 5× 5 m plot was selected at the study site. </plain></SENT>
+<SENT sid="76" pm="."><plain>Four plants within the plot were carefully selected for monitoring based on their stem diameter. </plain></SENT>
+<SENT sid="77" pm="."><plain>The basic characters of the plant, such as height and coverage, were also investigated (The plant stem diameters were 26, 19, 15 and 11 mm; the plant heights were 3.1, 1.8, 1.7, and 1.4 m; and the crown projected areas were 1.5 × 2.0, 1.0 × 1.2, 0.8 × 1.2 and 0.8 × 0.8 m, respectively). </plain></SENT>
+</text></p></sec><sec id="sec004"><title><text><SENT sid="78" pm="."><plain>Field set up of the sap flow measurement system </plain></SENT>
+</text></title><p><text><SENT sid="79" pm="."><plain>Model SGB25, SGB16, SGB13, and SGB9 gauges (Flow32 meters, Dynamax Inc., Houston, TX, USA) were mounted at the stems of 17 year old H. scoparium plants during the period from 1st May to 15th October, 2011 (due to the changing trend of the leave area index (LAI) we measured after DOY 290, but found the sap flow rate was very low, and had almost stopped). </plain></SENT>
+<SENT sid="80" pm="."><plain>Each sensor was installed on stem of different individual plants (S2 Fig). </plain></SENT>
+<SENT sid="81" pm="."><plain>Data was recorded at 10 second intervals and stored as 15 minute averages using a CR1000 data logger (Campbell Scientific, Logan, UT, USA). </plain></SENT>
+<SENT sid="82" pm="."><plain>The gauges were strictly installed following the manufacturer’s instructions [12]. </plain></SENT>
+</text></p><p><text><SENT sid="83" pm="."><plain>Unlike other methods, Dynagages require no calibration since sap flow is directly determined by the energy balance and rates of heat convection by the sap flux (see more details at ftp://ftp.dynamax.com/Manuals/Dynagage_Manual.pdf). </plain></SENT>
+<SENT sid="84" pm="."><plain>For stem heat balance technique will continue to give off heat to plant stem for a continuous time, its sensors are not affected by external interferences as the most common sensor types (like Trunk Heat Balance THB, Thermal Dissipation TD, Heat field deformation HFD) do. </plain></SENT>
+<SENT sid="85" pm="."><plain>And it is different from other sap flow systems, which can get "net" sap flow data, from subtract the baseline representing the "fictitious flow" due to heat loses from the heated space. </plain></SENT>
+<SENT sid="86" pm="."><plain>The Dynagage system is accurate, and the sap flow computations are maintained during all conditions within reasonable limits. </plain></SENT>
+<SENT sid="87" pm="."><plain>Since the additional heat is properly accounted for in the energy balance, the user does not need any special computation to compensate for these events [12]. </plain></SENT>
+</text></p><p><text><SENT sid="88" pm="."><plain>In our research, we used Beijing time to illustrate the diurnal and seasonal variations of sap flow rates, because the Shanxi Astronomy Observatory in Shanxi province sets the standard time (Beijing time) (GMT+08:00) in China. </plain></SENT>
+<SENT sid="89" pm="."><plain>In this context, the local time is suitable for use (Shanxi and Ningxia provinces are in the same time zone). </plain></SENT>
+</text></p></sec><sec id="sec005"><title><text><SENT sid="90" pm="."><plain>Meteorological and soil moisture measurements </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>Meteorological data were obtained using an on-site meteorological monitoring station (Campbell Scientific Inc., Logan, UT, USA) that has both aboveground and underground units. </plain></SENT>
+<SENT sid="92" pm="."><plain>The above ground unit contains one CR3000, one <z:uniprot sup="inside" fb="0" ids="D9HP20">CNR4</z:uniprot> net radiation sensor, two PAR-LITE; one CMP3 total radiation sensor, one 034B anemometer, one HMP155a, two ombrometer sensors, six si_111 Infrared temperature sensors, measuring solar radiation (R n, W.m-2), photosynthetic active radiation (PAR, u.mol.s-2.m-2), vapour pressure deficit (VPD, KPa), net radiation (PAR_net, u.mol.s-2.m-2), relative humidity (RH, %), wind speed (W s, m.s-1), rainfall (P, mm) and air temperature (T a,°C), respectively. </plain></SENT>
+<SENT sid="93" pm="."><plain>The underground units consisted of one ACC-SEN-<z:uniprot sup="inside" fb="64" ids="F6I457,A0A217EJJ0">SDI</z:uniprot> soil temperature humidity sensor, ten T109 and five hfp01 soil thermal throughput sensors in each pit (total of 5), which measured soil temperature (ST,°C) at depths of 10 and 30 cm and soil surface heat flux (SoilG, W.m-2), respectively. </plain></SENT>
+<SENT sid="94" pm="."><plain>All variables were measured with a frequency of 10 Hz and recorded an average on every 15 minutes. </plain></SENT>
+</text></p><p><text><SENT sid="95" pm="."><plain>Soil moisture content (SWC, %) was obtained using a soil volumetric moisture detector (HH2 Soil Moisture Probe type ML2x and Meter type HH2) (Dynamax Inc., Houston, TX, USA) at soil depths between 0–100 cm. </plain></SENT>
+<SENT sid="96" pm="."><plain>Soil profiles were dug every 15 days and extra measurement was taken after each rainfall event. </plain></SENT>
+<SENT sid="97" pm="."><plain>Gaps in the data were filled using linear interpolation method. </plain></SENT>
+<SENT sid="98" pm="."><plain>Data with obvious errors were carefully examined and removed. </plain></SENT>
+</text></p><p><text><SENT sid="99" pm="."><plain>The diurnal reference evapotranspiration (ET 0) was calculated using the FAO 56 Penman-Monteith equation [13] on the basis of the R n, T a, W s, and RH measured by an automatic weather station over the experimental period as shown in Fig 2. </plain></SENT>
+<SENT sid="100" pm="."><plain>The FAO 56 Penman-Monteith equation is as follows: ET 0 equation: ET0=0.408Δ(Rn−G)+ϒ900Ta+273μ2(es−ea)Δ+ϒ(1+0.34)μ2(1) Where: ET 0 is reference evapotranspiration (mm.d-1); R n is Net radiation (W.m-2); G = SoilG is Soil heat flux density (W.m-2); T a is average temperature (°C); μ 2 = W s is wind speed at 2 m height (m.s-1), e s is saturated vapour pressure (KPa); e a is actual vapour pressure (KPa); △ is vapour pressure slope of curves (KPa.°C-1); γ is psychrometric constant (65.5 KPa.°C-1). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g002</object-id><label>Fig 2</label><caption><title><text><SENT sid="101" pm="."><plain>Diurnal variation of daily reference evapotranspiration rate and rainfall distribution in the whole growing season (1st May–15th October 2011). </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g002"/></fig></SecTag></sec><sec id="sec006"><title><text><SENT sid="102" pm="."><plain>Leaf area index and leaf gas exchange measurements </plain></SENT>
+</text></title><p><text><SENT sid="103" pm="."><plain>A simple measurement of the amount of foliage by harvesting leaves (DOY 131, 150, 170, 178, 190, 210, 215, 230, 243, 250, 274, and 290) was performed. </plain></SENT>
+<SENT sid="104" pm="."><plain>LAI (m2.m-2) was determined directly by taking a statistically significant sample of foliage from a plant canopy, measuring the leaf area per sample plot and dividing it by the plot land surface area. </plain></SENT>
+</text></p><p><text><SENT sid="105" pm="."><plain>Additionally leaf transpiration of the shrub with stem diameter of 25 mm within the experimental plot was measured with a gas exchange system (LI-6400; Li-<z:uniprot sup="inside" fb="127" ids="P17651">cor</z:uniprot>, USA). </plain></SENT>
+<SENT sid="106" pm="."><plain>The measurements were taken on an hourly basis from 18:00 to 08:00 (GMT +08:00) on 5th~ 6th July, 2011 (DOY 186–187). </plain></SENT>
+<SENT sid="107" pm="."><plain>The purpose of this measurement was to confirm if there was obvious nighttime transpiration in H. scoparium. </plain></SENT>
+</text></p></sec><sec id="sec007"><title><text><SENT sid="108" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="109" pm="."><plain>We analyzed the correlations between sap flow and meteorological variables by using version 21.0 of the SPSS software (IBM Inc. </plain></SENT>
+<SENT sid="110" pm="."><plain>NC, USA). </plain></SENT>
+<SENT sid="111" pm="."><plain>Software Canoco for Windows 4.5 was used for redundancy analysis (RDA) to explore the responses of sap flow and environmental factors. </plain></SENT>
+<SENT sid="112" pm="."><plain>The Figs were drawn using CanoDraw (Canoco 4.5; University of South Bohemia, Ceske Budejovice, Czech Republic). </plain></SENT>
+<SENT sid="113" pm="."><plain>Data processing and plotting were completed with software OriginPro 9.0 (OriginLab Inc., Northampton, MA, USA). </plain></SENT>
+</text></p><p><text><SENT sid="114" pm="."><plain>Sap flow, physiology characteristics and environmental variables data from the present study are presented in S1 Dataset. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="sec008"><title><text><SENT sid="115" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="sec009"><title><text><SENT sid="116" pm="."><plain>Environmental characteristics of the study period </plain></SENT>
+</text></title><p><text><SENT sid="117" pm="."><plain>During the study period from May to October (DOY 131–290), 2011, the frost-free period was about 128 days. </plain></SENT>
+</text></p><p><text><SENT sid="118" pm="."><plain>Figs 2 and 3 illustrate the variations in the meteorological variables at the study site. Fig 2 exhibits that total ET 0 during the study period was 938.57 mm, while P ranged from 1.20 to 50.00 mm per event with averaged 17.52 mm per event. </plain></SENT>
+<SENT sid="119" pm="."><plain>In general P was highest during the summer in the form of intensive storm with short period typically less than a day. T a, VPD, R n and PAR are shown in Fig 3 with the minimum values occurring mostly after a rainfall event followed by increasing values and reaching the maximum values before the next rainfall during the summer time. </plain></SENT>
+<SENT sid="120" pm="."><plain>On the contrary, the RH values were positively correlated with precipitation densities. </plain></SENT>
+<SENT sid="121" pm="."><plain>Throughout the study, average values of T a, VPD, RH, R n and PAR were 13.95°C, 1.06 KPa, 66.63%, 81.48 W.m-2.day-1, and 323.90 μ.mol.s-2.m-2, respectively. </plain></SENT>
+<SENT sid="122" pm="."><plain>In the study area, strong wind (&gt;11 m.s-1) usually occurs in spring and winter. </plain></SENT>
+<SENT sid="123" pm="."><plain>While during the study period, W s values changed with time but extend of their changes was small, and the W s averaged 2.42 m.s-1, with maximum and minimum values of 1.27 m.s-1 and 6.18 m.s-1, respectively. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g003</object-id><label>Fig 3</label><caption><title><text><SENT sid="124" pm="."><plain>The patterns of variation in the meteorological variables during the measurement period. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g003"/></fig></SecTag><p><text><SENT sid="125" pm="."><plain>SWC was higher after precipitation events, and particularly after large events. </plain></SENT>
+<SENT sid="126" pm="."><plain>It generally ranged from 1.00 to 10.74% at soil depth of 0–100 cm. </plain></SENT>
+<SENT sid="127" pm="."><plain>SWC was higher at a depth of 0–50 cm than at 60–100 cm and fluctuated markedly. </plain></SENT>
+<SENT sid="128" pm="."><plain>It differed among months, with greater soil moisture in May, June, July, and August than in September and October (Fig 4). </plain></SENT>
+<SENT sid="129" pm="."><plain>The SoilG is important in micrometeorology because it effectively couples energy transfer processes at the surface with energy transfer processes in the soil. </plain></SENT>
+<SENT sid="130" pm="."><plain>The value and direction of the heat flux varied among the seasons due to the uneven rainfall distribution and intensive evaporation during the research period. </plain></SENT>
+<SENT sid="131" pm="."><plain>During summer (June, July and early August), positive values of the SoilG (from atmosphere to soil) were observed as a result of the relatively unstable values of evapotranspiration and strong R n (see Figs 2 and 3), in addition moist soil absorbs more heat than does loose, dry soil in the wet season. </plain></SENT>
+<SENT sid="132" pm="."><plain>However, negative SoilG values were obtained in the spring and fall indicating that the heat transfer process was from the soil surface to the atmosphere (Fig 5a). </plain></SENT>
+<SENT sid="133" pm="."><plain>Soil temperatures responded well to changes in the SoilG. </plain></SENT>
+<SENT sid="134" pm="."><plain>The values differed among the seasons, and were higher in June, July and August than in September and October (Fig 5b and 5c). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g004</object-id><label>Fig 4</label><caption><title><text><SENT sid="135" pm="."><plain>The seasonal variation of soil moisture contents measured in 0–100 cm soil layer during the measurement period. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g004"/></fig></SecTag><SecTag type="FIG"><fig id="pone.0131683.g005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g005</object-id><label>Fig 5</label><caption><title><text><SENT sid="136" pm="."><plain>Seasonal variation of soil heat flux and soil temperatures during the measurement period. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g005"/></fig></SecTag></sec><sec id="sec010"><title><text><SENT sid="137" pm="."><plain>Diurnal and seasonal sap flow patterns </plain></SENT>
+</text></title><sec id="sec011"><title><text><SENT sid="138" pm="."><plain>Diurnal variations of sap flow rate </plain></SENT>
+</text></title><p><text><SENT sid="139" pm="."><plain>The J s in the stems of H. scoparium varied greatly during the measurement period because of natural heterogeneity and in response to environmental parameters. </plain></SENT>
+<SENT sid="140" pm="."><plain>The experimental measurements also generated uncertainties due to the small sample sizes. </plain></SENT>
+<SENT sid="141" pm="."><plain>In our study, the J s values among the four plants were significantly correlated with each other during the entire growing season (the relations of the plant with a stem diameter of 25 mm with the other plants (16, 13, and 9 mm) (R 2 = 0.675, 0.673, and 0.703)). </plain></SENT>
+<SENT sid="142" pm="."><plain>As shown in S3 Fig, the average values of J s had a high dependence on stem diameter (standard deviations were in a reasonable range). </plain></SENT>
+</text></p><p><text><SENT sid="143" pm="."><plain>Thus to illustrate the changing diurnal trend, two consecutive clear days in each month were selected (DOY 132 and 133, 153 and 154, 186 and 187, 213 and 214, 267 and 268, and 280 and 290). </plain></SENT>
+</text></p><p><text><SENT sid="144" pm="."><plain>Sap flow began at least 1 h before dawn and increased sharply during the first several hours of sunlight, increasing to midday (08:00–10:00 hours) as the R n increased in intensity and the T a increased. </plain></SENT>
+<SENT sid="145" pm="."><plain>It reached a maximum between 10:00–12:00 hours (July, August, September and October), and then decreased after 16:00–17:00 hours (June)) before nightfall (Fig 6c, 6d, 6e and 6f). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g006" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g006</object-id><label>Fig 6</label><caption><title><text><SENT sid="146" pm="."><plain>Dynamic variation in hourly sap flow rate, (a) May, (b) June, (c) July, (d) August, (e) September and (f) October in the whole growing season </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g006"/></fig></SecTag><p><text><SENT sid="147" pm="."><plain>As shown in Fig 6a and 6b, in May, there was substantial J s at night and before dawn, indicating that the transpiration rate was low during the early stages of plant growth due to the small number leaves and physiological inactivity. </plain></SENT>
+<SENT sid="148" pm="."><plain>As the plants grew, the J s increased gradually after 08:00 hours, to a peak at 12:00 hours, and lasted for 13 h, with a value of 0.6 L.h-1 in June. </plain></SENT>
+<SENT sid="149" pm="."><plain>Two factors contributed to this phenomenon. </plain></SENT>
+<SENT sid="150" pm="."><plain>First, the vegetative shoots of H. scoparium continually produced leaves and lateral branches from late April. </plain></SENT>
+<SENT sid="151" pm="."><plain>The photosynthetic rate of the leaves increased with the increase in leaf area, and the water uptake process developed from passive water absorption into transpiration pull. </plain></SENT>
+<SENT sid="152" pm="."><plain>Second, a large amount of rainfall (about 135 mm) occurred in June. </plain></SENT>
+<SENT sid="153" pm="."><plain>Soil water was saturated and provided the basic conditions for plants to grow, with a high transpiration rate meeting the growth needs during the day. </plain></SENT>
+<SENT sid="154" pm="."><plain>The duration of water recharging at night was shortened, and during the night J s almost stopped. </plain></SENT>
+</text></p><p><text><SENT sid="155" pm="."><plain>Unlike other desert shrubs [10, 12], H. scoparium had no significant ‘noon depression’. </plain></SENT>
+<SENT sid="156" pm="."><plain>It is possible that the stomata of H. scoparium are not completely closed and transpiration therefore continues. </plain></SENT>
+<SENT sid="157" pm="."><plain>Transpiration is influenced indirectly by leaf water potential through its effect on the stomatal aperture of plants. </plain></SENT>
+<SENT sid="158" pm="."><plain>Reductions in transpiration have been attributed to decreases in leaf conductance in response to decreasing RH, thereby protecting leaf tissues from turgor loss and desiccation. </plain></SENT>
+<SENT sid="159" pm="."><plain>In the semiarid areas, the increasing intensity of R n and increasing T a during the morning may induce stomatal opening, thereby accelerating J s due to the high evaporative demand from the canopy. </plain></SENT>
+<SENT sid="160" pm="."><plain>Therefore the primary response to the drought conditions is not to close the stomata. </plain></SENT>
+</text></p><p><text><SENT sid="161" pm="."><plain>However, the J s pattern differed among months, and continued more substantially in spring and early summer than in autumn (compare Fig 6a and 6b to Fig 6e and 6f). </plain></SENT>
+<SENT sid="162" pm="."><plain>The diurnal variation in sap flow rates was best described using an evident wide and multimodal curve in June, July and August, a bimodal curve in September. </plain></SENT>
+</text></p></sec><sec id="sec012"><title><text><SENT sid="163" pm="."><plain>Variations in the sap flow rate during the night </plain></SENT>
+</text></title><p><text><SENT sid="164" pm="."><plain>In this paper, the nighttime range was determined between 18:00 to 06:00 hours when R n was less than 5 W.m-2. </plain></SENT>
+<SENT sid="165" pm="."><plain>It could also be a result of actual nighttime transpiration of the canopy or of recharging the depleted internal water storage of trees. </plain></SENT>
+<SENT sid="166" pm="."><plain>In our studies, there existed substantial nighttime leaf transpiration in the studied shrub (Fig 7) that decreased sharply after 18:00 hours, slightly increased around midnight (0:00 hours and 02:00 hours), and then remained steady after 02:00 hours. </plain></SENT>
+<SENT sid="167" pm="."><plain>We made a comparison between temporal dynamics of nighttime J s and possible nighttime transpiration rates of canopy leaves in July 2011 to provide a basis for estimating the amount of stored water. </plain></SENT>
+<SENT sid="168" pm="."><plain>During the most nighttime, the nighttime J s did not follow the changing trend of leaf transpiration. </plain></SENT>
+<SENT sid="169" pm="."><plain>The total accumulated water loss by canopy leaves (E L) was only 1.67% of the total nighttime sap flow (SF n). </plain></SENT>
+<SENT sid="170" pm="."><plain>The result showed that the leaf transpiration of canopy comprises inappreciable fraction of the nighttime J s. </plain></SENT>
+<SENT sid="171" pm="."><plain>The nighttime J s is confirmed to be primarily used to recharge depleted internal water storages of trees. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g007" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g007</object-id><label>Fig 7</label><caption><title><text><SENT sid="172" pm="."><plain>Dynamics of nighttime sap flow rate and leaf transpiration rate of H.scoparium (25 mm) during the nights of 5th–6th July, 2011 </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g007"/></fig></SecTag><p><text><SENT sid="173" pm="."><plain>As shown in the graph above (Fig 6), nighttime J s fluctuated more significantly and was relatively higher before midnight, when it approached a steady state. </plain></SENT>
+<SENT sid="174" pm="."><plain>The J s after midnight was slightly higher in May, July, August, and September compared to that in June and October, which is consistent with the higher stem water recharge demand in summer. </plain></SENT>
+<SENT sid="175" pm="."><plain>The nighttime J s followed a seasonal trend similar to that in the daytime. </plain></SENT>
+</text></p><p><text><SENT sid="176" pm="."><plain>Our calculation showed that the contribution of daytime stem water recharge to the total transpiration of H. scoparium ranged from 51.53 to 80.41%, depending on the stem diameter and was considerably higher in the larger plants than the smaller plants. </plain></SENT>
+<SENT sid="177" pm="."><plain>The contribution of nighttime stem water recharge to total transpiration was higher in plants with a smaller stem diameter. </plain></SENT>
+<SENT sid="178" pm="."><plain>Over the whole growing season, the amount of nighttime J s was considerable, reaching 19.59% (25 mm), 28.25% (16 mm), 21.76% (13 mm), and 48.47% (9 mm) of total daily J s. </plain></SENT>
+</text></p></sec><sec id="sec013"><title><text><SENT sid="179" pm="."><plain>Seasonal variations of sap flow rate </plain></SENT>
+</text></title><p><text><SENT sid="180" pm="."><plain>The J s displayed different seasonal patterns. </plain></SENT>
+<SENT sid="181" pm="."><plain>The J s increased gradually from May and decreased gradually after August to a low and relatively steady value in October. </plain></SENT>
+<SENT sid="182" pm="."><plain>The cumulative J s of H. scoparium from June to August increased progressively due to the high level of water consumption during the long flowing period, high evaporation and abundant rainfall. </plain></SENT>
+<SENT sid="183" pm="."><plain>Plants were later shed their leaves during the course of the experiment (Fig 8 and S4 Fig). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g008" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g008</object-id><label>Fig 8</label><caption><title><text><SENT sid="184" pm="."><plain>The seasonal variation of sap flow rate of H.scoparium (1st May–15th October 2011) </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g008"/></fig></SecTag><p><text><SENT sid="185" pm="."><plain>The cumulative J s of the four plants (25, 16, 13, and 9 mm stem diameters) from May to August contributed the majority of the sap flow rate, which accounted for approximately 77–80% of the total J s. </plain></SENT>
+<SENT sid="186" pm="."><plain>The minimum monthly cumulative J s occurred in October, whereas the maximum was in June (25 mm) or July (16, 13, and 9 mm). </plain></SENT>
+<SENT sid="187" pm="."><plain>The total water transpiration values of the four plants in the growing season (25, 16, 13, and 9 mm) were 1045.4, 397.7, 311.1, and 159.7 L, with maximum and minimum sap flow rates of 12.80 (8th August) and 0.83 (18th August), 11.76 (29th July) and 0.95 (11th May), 7.40 (29th July) and 0.77 (22th May), 3.54 (30th July) and 0.62 L.d-1 (11th May), respectively. </plain></SENT>
+<SENT sid="188" pm="."><plain>The average water transpiration values per leaf area of the four plants during the growing season (25, 16, 13, and 9 mm) were 0.94, 0.92, 1.06, and 1.03 L.m-2.d-1, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="189" pm="."><plain>Overall, the difference in J s resulted mainly from the plant growth status. </plain></SENT>
+<SENT sid="190" pm="."><plain>Among the four plants, J s in the plants with a 25 mm stem diameter had the highest flow rates, with substantial fluctuations due to its physiological traits. </plain></SENT>
+</text></p></sec></sec><sec id="sec014"><title><text><SENT sid="191" pm="."><plain>The dependence of sap flow on meteorological variables </plain></SENT>
+</text></title><sec id="sec015"><title><text><SENT sid="192" pm="."><plain>Correlation between sap flow, reference evapotranspiration and soil moisture content </plain></SENT>
+</text></title><p><text><SENT sid="193" pm="."><plain>The diurnal variation of ET 0, was calculated by the Penman-Monteith model. </plain></SENT>
+<SENT sid="194" pm="."><plain>At the daily time scale, there was a close relationship between the sap flow rate per leaf area and daily ET 0 (Fig 9). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g009" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g009</object-id><label>Fig 9</label><caption><title><text><SENT sid="195" pm="."><plain>The relationship between daily sap flow rate per leaf area of H.scoparium and daily reference evapotranspiration rate. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g009"/></fig></SecTag><p><text><SENT sid="196" pm="."><plain>The daily sap flow (abbreviated SF d in Figs and Table) in H. scoparium was greatly affected by P, which can lead to SWC fluctuations causing daily changes in J s. </plain></SENT>
+<SENT sid="197" pm="."><plain>However, because rain events were rare and the SWC rapidly declined after each rain event due to the high level of evaporation, the SWC was relatively low during the entire growing season, and had no direct relation with the daily J s (Fig 10) Soil moisture levels increased during the rainy season (71% of annual precipitation occurs from June to August); however, ET 0 was relatively high during these periods (especially in June). </plain></SENT>
+<SENT sid="198" pm="."><plain>In contrast, in the early and late growing period, ET 0 was relatively low, which led to a lower daily sap flow rate, indicating that the daily J s was more closely coupled to changes in the ET 0 (see Fig 9). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g010" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g010</object-id><label>Fig 10</label><caption><title><text><SENT sid="199" pm="."><plain>The relationship between daily sap flow rate of H.scoparium and soil moisture content. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g010"/></fig></SecTag></sec><sec id="sec016"><title><text><SENT sid="200" pm="."><plain>Variations of sap flow rate under different weather </plain></SENT>
+</text></title><p><text><SENT sid="201" pm="."><plain>Environmental variables influence J s through their effects on the plants’ physiological characteristics. </plain></SENT>
+<SENT sid="202" pm="."><plain>In the whole growing season, the hourly J s in the stem diameter of 25 mm plant was compared under typical weather days, e. g. sunny, flouting dust, cloudy, sandstorm and light rain days (DOY were 180, 227, 192, 69, 164 and 209, respectively). Fig 11 indicated that meteorological factors were the primary factors affecting the plants’ transpiration. </plain></SENT>
+<SENT sid="203" pm="."><plain>The J s reached the maximum in the sunny day of DOY 180, but the minimum in the rainy day of DOY 209. </plain></SENT>
+<SENT sid="204" pm="."><plain>The J s in the cloudy day were similar to those in the dust days. </plain></SENT>
+<SENT sid="205" pm="."><plain>In sandstorm and dust days, high W s can typically reduce water loss and cause the stomatal closure [11]. </plain></SENT>
+<SENT sid="206" pm="."><plain>Rainy weather suppressed J s due to the increased RH, reduced VPD and R n. </plain></SENT>
+<SENT sid="207" pm="."><plain>In contrast, high J s was caused by high R n, T a, and VPD in sunny weather. </plain></SENT>
+<SENT sid="208" pm="."><plain>The order of mean J s under different weather conditions are: sunny &gt; cloudy &gt; sandstorm &gt; flouting dust &gt; light rain days. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g011" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g011</object-id><label>Fig 11</label><caption><title><text><SENT sid="209" pm="."><plain>Fluctuation of hourly sap flow rate of H.scoparium (25 mm) under different weather conditions. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g011"/></fig></SecTag></sec><sec id="sec017"><title><text><SENT sid="210" pm="."><plain>The response of sap flow to environmental factors </plain></SENT>
+</text></title><p><text><SENT sid="211" pm="."><plain>The daily J s in H. Scoparium (25, 16, 13, and 9 mm stem diameters) varied in response to environmental conditions (Fig 12). </plain></SENT>
+<SENT sid="212" pm="."><plain>In Fig 12, the second, third, and fourth axes can explain most of the variation. </plain></SENT>
+<SENT sid="213" pm="."><plain>The three RDA graphs indicated a strong correlation between the J s values of H. Scoparium and natural environmental conditions, suggesting that most of the environmental variables are significant for plant transpiration (Table 1). </plain></SENT>
+<SENT sid="214" pm="."><plain>The correlation between the J s and meteorological variables was high for the second and third canonical axes (R 2 = 0.812 and 0.876 respectively) and the total cumulative variance (TCA) accounting for two axes totaled 43.7 and 57.5%, which suggests that J s values in H. Scoparium (25, 16, 13, and 9 mm) were strongly correlated with these axes. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g012" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g012</object-id><label>Fig 12</label><caption><title><text><SENT sid="215" pm="."><plain>Redundancy analysis for the relationship between daily sap flow rate and the environment variables. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g012"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone.0131683.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="216" pm="."><plain>Kendall’s tau correlation matrix between sap flow and the meteorological variables a . </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0131683.t001g" xlink:href="pone.0131683.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th colspan="2" align="center" rowspan="1"><text><SENT sid="217" pm="."><plain>Diameter/Factors </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>R n </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>PAR </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>T a </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>VPD </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>W s </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>RH </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>ST_10 cm </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>ST_30 cm </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>SoilG </plain></SENT>
+</text></th></tr></thead><tbody><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="227" pm="."><plain>25 mm </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>Whole time </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>0.135 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>0.280** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>0.0690 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>0.131 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>0.222** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>-0.301** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>0.0720 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>0.0860 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>0.0910 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>Daytime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>0.439** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>0.463** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>0.234** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>-0.147 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>Nighttime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>0.0930 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>-0.004 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>-0.151 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>-0.0380 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="258" pm="."><plain>16 mm </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>Whole time </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>0.326** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>0.349** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>0.216** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>0.265** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0.249** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>-0.228** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>0.254** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>0.249** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>0.247** </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>Daytime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>0.316** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>0.580** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>0.579** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>-0.102 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>Nighttime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>0.0610 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.0390 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>-0.0210 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>-0.0200 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="285" pm="."><plain>13 mm </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>Whole time </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0.280** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>0.332** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>0.156* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>0.248** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>0.188* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>-0.335** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>0.182* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>0.172* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>0.176* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>Daytime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>0.505** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>0.650** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>-0.480** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>-0.116 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>Nighttime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>0.111 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>0.00800 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>-0.086 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>-0.0330 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td rowspan="3" align="left" colspan="1"><text><SENT sid="316" pm="."><plain>9 mm </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>Whole time </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>0.344** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>0.188* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>0.650** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>0.587** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>0.311** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>-0.005 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>0.622** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>0.648** </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>0.651** </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>Daytime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>0.203 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>0.230 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>-0.101 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>-0.173 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>Nighttime </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>0.231* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>0.256* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>0.231* </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>-0.123 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>- </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p><text><SENT sid="347" pm="."><plain>a*and**mean they are significant at p&lt;0.05 and p&lt;0.01, respectively </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="348" pm="."><plain>The RDA and Kendall’s tau values indicated that R n and PAR had the strongest influence on daily J s (25, 16, 13, and 9 mm), R 2 = 0.135, 0.326, 0.280, 0.344 and 0.280, 0.349, 0.332, 0.188, respectively. </plain></SENT>
+<SENT sid="349" pm="."><plain>RH had the least effect on J s. </plain></SENT>
+<SENT sid="350" pm="."><plain>The SoilG and ST were significantly positively correlated with J s (p &lt; 0.01), and J s was more strongly affected by ST than by SoilG. </plain></SENT>
+<SENT sid="351" pm="."><plain>In addition, VPD, T a and W s were significantly positively correlated with J s (p &lt; 0.01) (Table 1). </plain></SENT>
+</text></p><p><text><SENT sid="352" pm="."><plain>We expressed the variation in daily J s in plants with a stem diameter of 25 mm by means of a stepwise linear regression against the meteorological factors. </plain></SENT>
+<SENT sid="353" pm="."><plain>The resulting model performed well, explaining 70.0–89.0% of the variation in sap flow rates (Table 2). </plain></SENT>
+<SENT sid="354" pm="."><plain>Taking into account the self-correlation of environmental factors, the optimal regression model indicated that the daily J s was significantly correlated with T a, VPD, and soil conditions, with a strong, but insignificant, correlation with RH over the whole growing season, which was in agreement with the RDA analysis. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0131683.t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="355" pm="."><plain>The stepwise linear correlation equations between daily sap flow and environment factors in different growth stages. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0131683.t002g" xlink:href="pone.0131683.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>Month </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>Regression equations </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>Intercept </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>T a </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>VPD </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>W s </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>RH </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>ST_30 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>SoilG </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>R 2 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>F </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>n </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>May </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>SF d = f (RH) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>3.60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>-0.024 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>0.73 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>21.83** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>20 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>June </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>SF d = f (RH) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>-0.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>0.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>0.76 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>7.18** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>30 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>July </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>SF d = f (RH) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>12.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>-0.097 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>0.82 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>12.34** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>31 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>August </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>SF d = f (RH, W s) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>46.65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>10.60 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>-0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>0.86 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>45.24** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>31 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>September </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>SF d = f (VPD) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>-1.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>2.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>0.76 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>22.34** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>30 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>October </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>SF d = f (ST_30, SoilG) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>28.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>-1.88 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>0.70 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>18.42** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>20 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>Whole season </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>SF d = f (T a, VPD, ST_30, SoilG) </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>-1.38 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>-0.099 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>0.76 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>- </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>0.024 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>0.89 </plain></SENT>
+</text></td><td align="char" char="." rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>133.89** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>162 </plain></SENT>
+</text></td></tr></tbody></table></alternatives></table-wrap></SecTag></sec><sec id="sec018"><title><text><SENT sid="452" pm="."><plain>Daytime and nighttime sap flow driving force </plain></SENT>
+</text></title><p><text><SENT sid="453" pm="."><plain>A comparison of the day and nighttime J s of H.scoparium (25, 16, 13, and 9 mm stem diameters) in response to climate conditions is shown separately in Fig 13. </plain></SENT>
+<SENT sid="454" pm="."><plain>Because radiation is absent during the nighttime, the interaction of environmental driving factors is different from that during the daytime. </plain></SENT>
+<SENT sid="455" pm="."><plain>To eliminate the side effects of soil conditions (ST and SoilG), J s data for rainy days were not applied and R n and PAR factors were also excluded. </plain></SENT>
+<SENT sid="456" pm="."><plain>Correlation analyses of both the daytime and nighttime J s of H. scoparium and T a, VPD, W s, and RH in the growing season of 2011 were conducted. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g013" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g013</object-id><label>Fig 13</label><caption><title><text><SENT sid="457" pm="."><plain>Redundancy analysis for the relationship between (a) daytime and (b) nighttime sap flow rate and the meteorological variables. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g013"/></fig></SecTag><p><text><SENT sid="458" pm="."><plain>The results showed that nighttime J s had different meteorological driving patterns from daytime J s, and sap flow rates responded to meteorological factors differently depending on the stem diameter. </plain></SENT>
+<SENT sid="459" pm="."><plain>According to the RDA analysis, the J s of H. scoparium (25, 16, 13 and 9 mm) and environmental variables were more clustered in daytime than in nighttime (e.g., compare Fig 13a and 13b). </plain></SENT>
+<SENT sid="460" pm="."><plain>While during the nighttime, there was a higher correlation between the J s of H. scoparium and meteorological variables in the plants with a 9 mm than those of the 13, 16, and 25 mm diameter plants, suggesting that the nighttime transpiration in small plants was more sensitive to meteorological variables. </plain></SENT>
+</text></p><p><text><SENT sid="461" pm="."><plain>The RDA and Kendall’s tau values indicated that both daytime and nighttime J s were significantly correlated with T a and VPD, but were negatively correlated with W s and RH (Table 1). </plain></SENT>
+<SENT sid="462" pm="."><plain>The correlation between the J s and meteorological variables was high for the fourth canonical axes and the TCA that accounted for this axe in daytime and nighttime totaled 95.8 and 93.4%, respectively (data not shown). </plain></SENT>
+</text></p><p><text><SENT sid="463" pm="."><plain>Regression analysis showed that there was a significant correlation between J s and T a and VPD, but neither T a nor VPD did not adequately explained the variation in the nighttime J s. </plain></SENT>
+<SENT sid="464" pm="."><plain>The sensitivity of nighttime J s to T a and VPD differed significantly from the sensitivity of daytime J s to T a and VPD. </plain></SENT>
+<SENT sid="465" pm="."><plain>The regressions describing the relationship of the two variables were significant in the daytime, but not the nighttime. </plain></SENT>
+<SENT sid="466" pm="."><plain>However, the sensitivity of nighttime sap flow rates to T a in the 25, 16, and 13 mm stem diameter plants were much lower than in the 9 mm stem diameter plants, while for VPD the highest R 2 in the daytime was for intermediate sized plants and in the nighttime for the 25 mm stem diameter plant (Fig 14). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g014" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g014</object-id><label>Fig 14</label><caption><title><text><SENT sid="467" pm="."><plain>Sensitivity of daily sap flow rate to air temperature at (a) day and (c) night. </plain></SENT>
+</text></title><p><text><SENT sid="468" pm="."><plain>Sensitivity of daily sap flow rate to vapour pressure deficit at (b) day and (d) night during the day in 2011. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0131683.g014"/></fig></SecTag><p><text><SENT sid="469" pm="."><plain>In previous studies, a significant linear correlation between the nighttime J s and both T a and VPD was identified [14–17]. </plain></SENT>
+<SENT sid="470" pm="."><plain>During our research, the interactions between the nighttime J s of H. scoparium and climatic factors in this region were more complex. </plain></SENT>
+<SENT sid="471" pm="."><plain>This may imply that the nighttime J s of H. scoparium was influenced by the combined effect of both T a and VPD. </plain></SENT>
+<SENT sid="472" pm="."><plain>Thus, we analyzed the relationship between the hourly J s (L.h-1) of H. scoparium (9 mm) and both T a and VPD. </plain></SENT>
+<SENT sid="473" pm="."><plain>The results revealed that high T a and VPD values could lead to high plant transpiration. </plain></SENT>
+<SENT sid="474" pm="."><plain>The J s varied greatly when T a and VPD increased. </plain></SENT>
+<SENT sid="475" pm="."><plain>From Fig 15, the minimum threshold of VPD driving force can be seen to be around 1.5 KPa and the optimal T a was about 20°C. </plain></SENT>
+<SENT sid="476" pm="."><plain>The nighttime driving force was maximized when T a was high and an elevated VPD was observed on many nights (usually from nightfall to midnight during summer) during the study. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0131683.g015" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0131683.g015</object-id><label>Fig 15</label><caption><title><text><SENT sid="477" pm="."><plain>Hourly sap flow rate response to instantaneous values of vapour pressure deficit and air temperature for H.scoparium (9 mm) Z axis units are hourly integrated estimations. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0131683.g015"/></fig></SecTag></sec></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="conclusions" id="sec019"><title><text><SENT sid="478" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="479" pm="."><plain>Measurements of J s have been widely used to study plant responses to environmental factors. </plain></SENT>
+<SENT sid="480" pm="."><plain>In our experiment, the diurnal stem J s of H. scoparium varied regularly and displayed consistent patterns of day and night cycles in plants with different stem diameters. </plain></SENT>
+<SENT sid="481" pm="."><plain>In semi-arid regions, because of the large daily transpiration, tree roots passively absorb water, resulting in a large J s with a bimodal or multimodal curve. </plain></SENT>
+<SENT sid="482" pm="."><plain>This behavior is universal among similar desert plant species, such as Haloxylon ammodendron [18], Salix gordejevii [19], Caragana microphylla [15], Nitraria sphaerocarpa and Elaeagnus angustifolia [10]. </plain></SENT>
+<SENT sid="483" pm="."><plain>During nighttime, J s still occurs and becomes constant to alleviate water stress and achieve a water balance in the plant body. </plain></SENT>
+<SENT sid="484" pm="."><plain>In this study, the nocturnal J s was very stable than the daytime J s and reveals that there were minor turbulence changes in nighttime environmental variables with the J s responding to atmospheric drivers [20–23]. </plain></SENT>
+</text></p><p><text><SENT sid="485" pm="."><plain>It is commonly assumed that transpiration does not occur at night because leaf stomata are closed in the absence of light [17]. </plain></SENT>
+<SENT sid="486" pm="."><plain>However, there is considerable evidence that the stomata of some species do not close completely during the night which allows for transpiration in the presence of sufficient environmental driving forces [24]. </plain></SENT>
+<SENT sid="487" pm="."><plain>Our study revealed that the nighttime J s of H. scoparium was substantial and varied according to the time of year and at different times of the night. </plain></SENT>
+<SENT sid="488" pm="."><plain>Nighttime J s was correlated with the daytime J s of the previous day. </plain></SENT>
+<SENT sid="489" pm="."><plain>This is consistent with the results of Snyder’s study which revealed that higher nighttime stomatal conductance and transpiration associated with higher daytime values across species and habitats, implying that quite an amount of nighttime J s was used to refill the stem water deficit as a result of high water loss during previous daytime [25]. </plain></SENT>
+</text></p><p><text><SENT sid="490" pm="."><plain>Leaf gas exchange and stem heat balance measurements were conducted in order to investigate the partition of nighttime J s. </plain></SENT>
+<SENT sid="491" pm="."><plain>It was found that the E L was only 1.67% of the SF n (see Fig 7). </plain></SENT>
+<SENT sid="492" pm="."><plain>Therefore, it is likely that the nighttime J s we observed was mainly used for refilling water in the trunk. </plain></SENT>
+<SENT sid="493" pm="."><plain>Same to our results, nocturnal J s was found to be primarily a function of refilling of stem storage rather than transpiration from the canopy with canopy transpiration accounting for 2.6–8.5% of nocturnal flows in Acacia mangium in the hilly lands of subtropical South China [26]. </plain></SENT>
+</text></p><p><text><SENT sid="494" pm="."><plain>Plant size is often the major parameter determining the water storage capacity [26]. </plain></SENT>
+<SENT sid="495" pm="."><plain>During our studies, the nighttime water recharge of H. scoparium was strongly dependent on stem diameter. </plain></SENT>
+<SENT sid="496" pm="."><plain>Our estimates of the contribution of nighttime water recharge to the total transpiration ranged from 19.59 to 48.7% depending on the stem diameter of the plant. </plain></SENT>
+<SENT sid="497" pm="."><plain>The contribution of nighttime stem water recharge in H. scoparium was higher in summer than other seasons. </plain></SENT>
+</text></p><p><text><SENT sid="498" pm="."><plain>During the entire experimental period, the total sap flow rates of H. scoparium were 1045.4 (25 mm), 397.7 (16 mm), 311.1 (13 mm) and 159.7 L (9 mm). </plain></SENT>
+<SENT sid="499" pm="."><plain>Sap flow rates increased from May to August, and then decreased from September to October due to changes in the local natural environment. </plain></SENT>
+<SENT sid="500" pm="."><plain>There was a significant exponential relationship between J s and the ET 0 on a daily time scale. </plain></SENT>
+<SENT sid="501" pm="."><plain>On an hourly time scale, the relationship was influenced by P [27]. </plain></SENT>
+<SENT sid="502" pm="."><plain>Usually, a small amount of P would increase the J s and the ET 0, but when the P was large, the J s and the ET 0 decreased sharply. </plain></SENT>
+<SENT sid="503" pm="."><plain>The reason for this was that a small amount of rainfall would increase the leaf water potential and leaf conductance to the water VPD, gas exchange and photosynthesis, but when the rainfall was large, the R n, T a, and VPD would decline over a long period (see Figs 2 and 3), and hence the J s and ET 0 decreased [27]. </plain></SENT>
+<SENT sid="504" pm="."><plain>In the experimental period, 25 individual rainfall events were observed, with over 70% occurring in summer. </plain></SENT>
+<SENT sid="505" pm="."><plain>The rainfall occurred as strong and short-term events, and afterwards long-term drought stress occurred on the soil surface. </plain></SENT>
+<SENT sid="506" pm="."><plain>Thus, in our research, J s data during rainy days was not used in the correlation analysis because the duration and amount of P were crucial for determining the J s values, which was dependent on the resulting variations in meteorological factors, SWC and soil water limitations can cause a decreased J s and high evaporative demand may result in data errors and inaccuracy [11]. </plain></SENT>
+</text></p><p><text><SENT sid="507" pm="."><plain>SWC in the 0–100 cm layer, with P mainly accumulated at this infiltration depth. </plain></SENT>
+<SENT sid="508" pm="."><plain>In the previous studies, the relationship between the SWC and J s was shown to be complex. </plain></SENT>
+<SENT sid="509" pm="."><plain>Xia et al. (2008) reported that SWC had no direct relationship with the daily J s [11], but contrary results have also been reported [27–29]. </plain></SENT>
+<SENT sid="510" pm="."><plain>In our study, no obvious evidence of strong close correlations between J s and the shallow SWC levels (0–100 cm) was found, but the close relationship between J s and the ET 0, indicated that the transpiration rate of H. scoparium was more responsive to the changes of ET 0. </plain></SENT>
+<SENT sid="511" pm="."><plain>In northwestern China, regional climate change is likely to increase the variability in P patterns. </plain></SENT>
+<SENT sid="512" pm="."><plain>Consequently, desert shrubs will be forced to endure repetitive cycles of water scarcity followed by uneven rainfall. </plain></SENT>
+<SENT sid="513" pm="."><plain>As a high water consumption plant, in H. scoparium, natural rainfall in the shallow soil layer is not fully utilized. </plain></SENT>
+<SENT sid="514" pm="."><plain>It is therefore possible that H. scoparium may consume underground water (in the region the typical underground water depth is below 15 m) to maintain growth and drought resistance. </plain></SENT>
+<SENT sid="515" pm="."><plain>In some locations, H. scoparium may have a negative impact on the water equilibrium due to its deep root system and potential water consuming capacity, which requires further investigation. </plain></SENT>
+</text></p><p><text><SENT sid="516" pm="."><plain>The variation of J s in tree species was related not only to their biological and physiological characteristics, such as canopy structure, stomatal closure and root hydraulic conductance, but also to environmental factors [9, 27, 28]. </plain></SENT>
+<SENT sid="517" pm="."><plain>In the whole growing season due to rapidly changing weather, there were many outliers data points in the J s data values which were very sporadic, jumpy and inconsistent, most of which were observed in the 25 mm stem diameter plant. </plain></SENT>
+<SENT sid="518" pm="."><plain>Indicate that larger plant was more sensitive to climatic factors. </plain></SENT>
+<SENT sid="519" pm="."><plain>Because of its broad transpiration leaf area, the stem diameter of 25 mm plant had the largest flow rate and a great fluctuating variation. </plain></SENT>
+</text></p><p><text><SENT sid="520" pm="."><plain>In our study, J s varied under different weather, agreeing with a Giorio and Giorio (2003) who reported that the magnitude of J s for olive trees during sunny days was greater than during rainy days due to low T a, low R n and a low VPD [30]. </plain></SENT>
+<SENT sid="521" pm="."><plain>Similar trends were also found in Larix decidua [31], Eucalyptus grandis [32, 33], Ligustrum japonicum [34] and Tamarix elongata [28] that low J s can be caused by low VPD in windy weather; increasing intensity of R n and increasing T a on sunny days induce stomatal opening in a certain time, thereby accelerating J s. </plain></SENT>
+</text></p><p><text><SENT sid="522" pm="."><plain>RDA and Kendall’s tau values suggested that daily J s of plants was correlated positively with R n, T a, and W s, and negatively with RH (p &lt; 0.01). </plain></SENT>
+<SENT sid="523" pm="."><plain>The daily J s (25 mm) in H. scoparium was found to be a function of six environmental factors (T a, VPD, W s, RH, soil temperature at 30 cm, and SoilG) but all varied throughout the year. </plain></SENT>
+<SENT sid="524" pm="."><plain>The same methods were applied in Juglans regia L [28], Malus domestica Borkh [35], Caragana korshinskii [11], Caragana microphylla [12] and Populus euphratica [24], and it was found that T a, VPD, and RH were the three major factors affecting sap flow rate on clear days, but the role of the three factors varied according to the growth stages. </plain></SENT>
+</text></p><p><text><SENT sid="525" pm="."><plain>It has previously been suggested that environmental factors, such as T a and VPD, significantly affect nighttime J s [22, 24, 26, 33, 36–41]. </plain></SENT>
+<SENT sid="526" pm="."><plain>The significant correlation between some environmental factors and the nighttime J s of H. scoparium observed in this study supports this assertion (see Table 1). </plain></SENT>
+<SENT sid="527" pm="."><plain>In addition, the nighttime J s was more affected by tree features, especially in the plants with a smaller diameter. </plain></SENT>
+<SENT sid="528" pm="."><plain>The nocturnal J s of small plants corresponded to T a and VPD at the study site, which can be approximated by a non-linear relationship based on the minimum threshold for nighttime J s. </plain></SENT>
+<SENT sid="529" pm="."><plain>The obtained minimum threshold of VPD driving force was consistent with results reported by Moore GW (2008) and Sellin A (2010) [42–43]. </plain></SENT>
+<SENT sid="530" pm="."><plain>Both researchers suggested nighttime sap flow was elevated under relatively high T a and VPD. </plain></SENT>
+<SENT sid="531" pm="."><plain>There studies were carried out on Tamarix elongata, and Juniperus scopulorum in the semiarid regions where optimal VPD values reached 1.5 KPa and 2.5 KPa, respectively. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions" id="sec020"><title><text><SENT sid="532" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="533" pm="."><plain>Sap flow drives the physiological responses of desert plants which also respond to changes in the environmental variables. </plain></SENT>
+<SENT sid="534" pm="."><plain>The sap flow of Hedysarum scoparium accelerated significantly under increasing evaporative demand, and refill water during the nighttime. </plain></SENT>
+<SENT sid="535" pm="."><plain>The daily sap flow rate had more close correlation with reference evapotranspiration than with soil moisture content. </plain></SENT>
+<SENT sid="536" pm="."><plain>Between day and night time, the sap flow rate responded to meteorological factors differently, and the intrinsic differences in physiology between different stems of Hedysarum scoparium may lead to differences in responding to meteorological factors. </plain></SENT>
+<SENT sid="537" pm="."><plain>By using Redundancy analysis and the optimal regression model of the daily sap flow rate with the meteorological factors during the growing season that could be used to estimate the transpiration of Hedysarum scoparium. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="sec021"><title><text><SENT sid="538" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0131683.s001"><label>S1 Dataset</label><caption><title><text><SENT sid="539" pm="."><plain>The excel “S3” has showed all the data we used in this paper, including sap flow, environmental variables and physiology characteristics related to this paper. </plain></SENT>
+</text></title><p><text><SENT sid="540" pm="."><plain>Worksheets are arranged in the order of the corresponding Figs appears. </plain></SENT>
+<SENT sid="541" pm="."><plain>Every worksheet has been named clearly and label in each rank is marked. </plain></SENT>
+</text></p><p><text><SENT sid="542" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0131683.s001.xlsx"><caption><p><text><SENT sid="543" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0131683.s002"><label>S1 Fig</label><caption><title><text><SENT sid="544" pm="."><plain>The phenological change of H. scoparium (1st May–15th October 2011) (a represents new leaves appearing period; b represents flowers blooming period; c represents leaves withering period). </plain></SENT>
+</text></title><p><text><SENT sid="545" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0131683.s002.tif"><caption><p><text><SENT sid="546" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0131683.s003"><label>S2 Fig</label><caption><title><text><SENT sid="547" pm="."><plain>Installation of the sap flow gauge on the stem of H. scoparium (a), and data logger description (b). </plain></SENT>
+</text></title><p><text><SENT sid="548" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0131683.s003.tif"><caption><p><text><SENT sid="549" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0131683.s004"><label>S3 Fig</label><caption><title><text><SENT sid="550" pm="."><plain>The seasonal variation of sap flow rate on diameter of sample shrubs (1st May–15th October 2011). </plain></SENT>
+</text></title><p><text><SENT sid="551" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0131683.s004.tif"><caption><p><text><SENT sid="552" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0131683.s005"><label>S4 Fig</label><caption><title><text><SENT sid="553" pm="."><plain>The seasonal variation of leaf area index between different stems of H.scoparium (1st May–15th October 2011). </plain></SENT>
+</text></title><p><text><SENT sid="554" pm="."><plain>(TIF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0131683.s005.tif"><caption><p><text><SENT sid="555" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="556" pm="."><plain>We gratefully thank our colleague Yue Guo, Bao Wei, and Rina Wu (Beijing Forestry University) for their generous help in the field experiment as well as the great cooperation with the Environment Protection and Forestry Bureau of Yanchi County, Ningxia Hui Autonomous Region, P. </plain></SENT>
+<SENT sid="557" pm="."><plain>R. </plain></SENT>
+<SENT sid="558" pm="."><plain>China. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0131683.ref001"><text><SENT sid="559" pm="."><plain>1 WangXP, ZhangYF, HuaR, PanYX, BerndtssonR. Canopy storage capacity of xerophytic shrubs in Northwestern China. J Hydro. 2012; 454–455: 152–159. 10.1016/j.jhydrol.2012.06.003  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref002"><text><SENT sid="560" pm="."><plain>2 XuXY, ZhangRD, XueXZ, ZhaoM. Determination of evapotranspiration in the desert area using lysimeters. Commun Soil Sci Plant Anal. 1998; 29: 1–13. 10.1080/00103629809369924  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref003"><text><SENT sid="561" pm="."><plain>3 EdwardsWRN, BeckerP, ÈermákJ. A unified nomenclature for sap flow measurements. 1996; Tree Physiol 17: 65–67. 10.1093/treephys/17.1.65  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref004"><text><SENT sid="562" pm="."><plain>4 FfolliottPF, GottfriedGJ, CohenY, SchillerG. Transpiration by dryland oaks: studies in the south-western United States and Northern Israel. J Arid Environ. 2003; 55: 595–605. 10.1016/S0140-1963(02)00290-2  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref005"><text><SENT sid="563" pm="."><plain>5 KluitenbergGJ, HamJM. Improved theory for calculating sap flow with the heat pulse method. Agric For Meteorol. 2004; 126: 169–173. 10.1016/j.agrformet.2004.05.008  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref006"><text><SENT sid="564" pm="."><plain>6 MacNishRD, UnkrichCL, SmytheE, GoodrichDC, MaddockT III. Comparison of riparian evapotranspiration estimates based on a water balance approach and sap flow measurements. Agric For Meteorol. 2000; 105: 271–279. 10.1016/S0168-1923(00)00196-9  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref007"><text><SENT sid="565" pm="."><plain>7 NicolasE, TorrecillasA, OrtuñoaMF, DomingoR, AlarcónJJ. Evaluation of transpiration in adult apricot trees from sap measurements. Agr Water Manage. 2005; 72: 131–145. 10.1016/j.agwat.2004.09.008  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref008"><text><SENT sid="566" pm="."><plain>8 WilliamsDG, CableW, HultineK, HoedjesJCB, YepezEA, SimonneauxV, et al Evapotranspiration components determined by stable isotope, sap flow and eddy covariance techniques. Agric For Meteorol. 2004; 125: 241–258. 10.1016/j.agrformet.2004.04.008  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref009"><text><SENT sid="567" pm="."><plain>9 McDowellNG, WhiteS, PockmanWT. Transpiration and stomatal conductance across a steep climate gradient in the southern Rocky Mountains. Ecohydrol. 2008; 1: 193–204. 10.1002/eco.20  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref010"><text><SENT sid="568" pm="."><plain>10 LiuB, ZhaoWZ, JinBW. The response of sap flow in desert shrubs to environmental variables in an arid region of China. Ecohydrol. 2011; 4: 448–457. 10.1002/eco.151  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref011"><text><SENT sid="569" pm="."><plain>11 XiaGM, KangSZ, LiFS, ZhangJH, ZhouQY. Diurnal and seasonal variations of sap flow of Caragana korshinskii in the arid desert region of north-west China. Hydrol Process. 2008; 22: 1197–1205. 10.1002/hyp.6690  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref012"><text><SENT sid="570" pm="."><plain>12 YueGY, ZhaoHL, ZhangTH, ZhaoXY, NiuL, DrakeS. Evaluation of water use of Caragana microphylla with the stem heat-balance method in Horqin Sandy Land, Inner Mongolia, China. Agric For Meteorol. 2008; 148: 1668–1678. 10.1016/j.agrformet.2008.05.019  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref013"><text><SENT sid="571" pm="."><plain>13 AllenR, PereiraLS, RaesD, SmithM. Crop evapotranspiration: guidelines for computing crop water requirements. Rome: FAO. </plain></SENT>
+<SENT sid="572" pm="."><plain>FAO Irrigation and Drainage Paper 56; 1998 pp. 299. </plain></SENT>
+</text></ref><ref id="pone.0131683.ref014"><text><SENT sid="573" pm="."><plain>14 DzikitiS, SteppeK, LemeurR, MilfordJR. Whole-tree level water balance and its implications on stomatal oscillations in orange trees [Citrus sinensis (L.) Osbeck] under natural climatic conditions. J Exp Bot. 2007; 58: 1893–1901. 10.1093/jxb/erm023 <?supplied-pmid 17443016?>17443016 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref015"><text><SENT sid="574" pm="."><plain>15 ChuangYL, OrenR, BertozziAL, PhillipseN, KatulGG. The porousmedia model for the hydraulic system of a conifer tree: linking sap flux data to transpiration rate. Ecol Model. 2006; 191: 447–468. 10.1016/j.ecolmodel.2005.03.027  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref016"><text><SENT sid="575" pm="."><plain>16 NovickKA, OrenR, StoyPC, SiqueiraMBS, KatulGG. Nocturnal evapotranspiration in eddy-covariance records from three co-located ecosystems in the Southeastern U.S.: implications for annual fluxes. Agric For Meteorol. 2009; 149: 1491–1504. 10.1016/j.agrformet.2009.04.005  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref017"><text><SENT sid="576" pm="."><plain>17 DawsonTE, BurgessSSO, TuKP, OliveiraRS, SantiagoLS, FisherJB, et al Nighttime transpiration in woody plants from contrasting ecosystems. Tree Physiol. 2007; 27: 561–575. 10.1093/treephys/27.4.561 <?supplied-pmid 17241998?>17241998 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref018"><text><SENT sid="577" pm="."><plain>18 SteinbergS, van BavelCHM, McFarlandMJ. A gauge to measure mass flow rate of sap in stems and trunks of woody plants. Am Soc Hortic Sci. 1989; 114: 466–472. </plain></SENT>
+</text></ref><ref id="pone.0131683.ref019"><text><SENT sid="578" pm="."><plain>19 KigaluJM. Effects of planting density on the productivity and water use of tea (Camellia sinensis L.) clones I. </plain></SENT>
+<SENT sid="579" pm="."><plain>Measurement of water use in young tea using sap flow meters with a stem heat balance method. Agr Water Manage. 2007; 90: 224–232. 10.1016/j.agwat.2007.03.005  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref020"><text><SENT sid="580" pm="."><plain>20 BergerBW, DavisKJ, YiCX, BakwinPS, ZhaoCL. Long-term carbon dioxide fluxes from a very tall tower in a northern forest: Flux measurement methodology. J Geophys Res. 2001; 18: 529–542. 10.1175/1520-0426(2001)018&lt;0529:LTCDFF&gt;2.0.CO;2  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref021"><text><SENT sid="581" pm="."><plain>21 NaithaniKJ, EwersBE, PendallE. Sap flux-scaled transpiration and stomatal conductance response to soil and atmospheric drought in a semi-arid sagebrush ecosystem. J Hydro. 2012; 464–465: 176–185. 10.1016/j.jhydrol.2012.07.008  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref022"><text><SENT sid="582" pm="."><plain>22 MarksCO, LechowiczMJ. The ecological and functional correlates of nocturnal transpiration. Tree Physiol. 2007; 27: 577–584. 10.1093/treephys/27.4.577 <?supplied-pmid 17241999?>17241999 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref023"><text><SENT sid="583" pm="."><plain>23 MottKA, PeakD. Stomatal responses to humidity and temperature in darkness. Plant Cell Environ. 2010; 33: 1084–1090. 10.1111/j.1365-3040.2010.02129.x <?supplied-pmid 20199627?>20199627 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref024"><text><SENT sid="584" pm="."><plain>24 DaleyMJ, PhillipsNG. Interspecific variation in nighttime transpiration and stomatal conductance in a mixed New England deciduous forest. Tree Physiol. 2006; 26: 411–419. 10.1093/treephys/26.4.411 <?supplied-pmid 16414920?>16414920 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref025"><text><SENT sid="585" pm="."><plain>25 SnyderKA, RichardsJH, DonovanLA. Night-time conductance in C3 and C4 species: do plants lose water at night? J Exp Bot. 2003; 54:861–865. 10.1093/jxb/erg082 <?supplied-pmid 12554729?>12554729 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref026"><text><SENT sid="586" pm="."><plain>26 WangH, ZhaoP, HölscherD, WangQ, LuP, CaiXA, et al Nighttime sap flow of Acacia mangium and its implications for nighttime transpiration and stem water storage. J Plant Ecol. 2011; 5:294–304. 10.1093/jpe/rtr025  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref027"><text><SENT sid="587" pm="."><plain>27 HuangL, ZhangZS, LiXR. Sap flow of Artemisia ordosica and the influence of environmental factors in a revegetated desert area: Tengger Desert, China. Hydrol Process. 2010; 24: 1248–1253. 10.1002/hyp.7584  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref028"><text><SENT sid="588" pm="."><plain>28 QuYP, KangSZ, LiFS, ZhangJH, XiaGM, LiWC. Xylem sap flows of irrigated Tamarix elongata Ledeb and the influence of environmental factors in the desert region of Northwest China. Hydrol Process. 2007; 21: 1363–1369. 10.1002/hyp.6314  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref029"><text><SENT sid="589" pm="."><plain>29 GoldsteinG, AndradeJL, MeinzerFC, HolbrookNM, CavelierJ, JacksonP, et al Stem water storage and diurnal patterns of water use in tropical forest canopy trees. Plant Cell Environ. 1998; 21: 397–406. 10.1046/j.1365-3040.1998.00273.x  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref030"><text><SENT sid="590" pm="."><plain>30 GiorioP, GiorioG. Sap flow of several olive trees estimated with heat-pulse technique by continuous monitoring of a single gauge. Environ Exp Bot. 2003; 49: 9–20. 10.1016/S0098-8472(02)00044-8  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref031"><text><SENT sid="591" pm="."><plain>31 BadalottiA, AnfodilloT, GraceJ. Evidence of osmoregulation in Larix decidua at Alpine treeline and comparative responses to water availability of two co-occurring evergreen species. Ann For Sci. 2000; 57: 623–633. 10.1051/forest:2000146  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref032"><text><SENT sid="592" pm="."><plain>32 PfautschS, BlebyTM, RennenbergH, AdamsMA. Sap flow measurements reveal influence of temperature and stand structure on water use of Eucalyptus regnans forests. For Ecol Manage. 2010; 259: 1190–1199. 10.1016/j.foreco.2010.01.006  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref033"><text><SENT sid="593" pm="."><plain>33 BenyonRG. Nighttime water use in an irrigated Eucalyptus grandis plantation. Tree Physiol. 1999; 19: 853–859. 10.1093/treephys/19.13.853 <?supplied-pmid 10562402?>10562402 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref034"><text><SENT sid="594" pm="."><plain>34 HeilmanJL, HamJM. Measurement of mass flow rate of sap in Ligustrum japonicum . Hortscience. 1990; 25: 465–467. </plain></SENT>
+</text></ref><ref id="pone.0131683.ref035"><text><SENT sid="595" pm="."><plain>35 DaudetFA, Le RouxX, SinoquetH, AdamB. Wind speed and leaf boundary layer conductance variation within tree crown: Consequences on leaf-to-atmosphere coupling and tree functions. Agric For Meteorol. 1999; 97: 171–185. 10.1016/S0168-1923(99)00079-9  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref036"><text><SENT sid="596" pm="."><plain>36 O’BrienJJ, OberbauerSF, ClarkDB. Whole tree xylem sap flow responses to multiple environmental variables in a wet tropical forest. Plant Cell Environ. 2004; 27: 551–567. 10.1111/j.1365-3040.2003.01160.x  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref037"><text><SENT sid="597" pm="."><plain>37 NadezhdinaN. Sap flow index as an indicator of plant water status. Tree Physiol. 1999; 19: 885–891. 10.1093/treephys/19.13.885 <?supplied-pmid 10562406?>10562406 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref038"><text><SENT sid="598" pm="."><plain>38 FisherJB, BaldocchiDD, MissonL, DawsonTE, GoldsteinAH. What the towers don't see at night: nocturnal sap flow in trees and shrubs at two AmeriFlux sites in California. Tree Physiol. 2007; 27: 597–610. 10.1093/treephys/27.4.597 <?supplied-pmid 17242001?>17242001 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref039"><text><SENT sid="599" pm="."><plain>39 HoggEH, HurdlePA. Sap flow in trembling aspen: implications for stomatal responses to vapour pressure deficit. Tree Physiol. 1997; 17: 501–509. 10.1093/treephys/17.8-9.501 <?supplied-pmid 14759823?>14759823 </plain></SENT>
+</text></ref><ref id="pone.0131683.ref040"><text><SENT sid="600" pm="."><plain>40 GreenSR, McNaughtonKG, ClothierBE. Observations of night-time water use in kiwifruit vines and apple trees. Agric For Meteorol. 1989; 48: 251–261. 10.1016/0168-1923(89)90072-5  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref041"><text><SENT sid="601" pm="."><plain>41 IritzZ, LindrothA. Night-time evapouration from a short-rotation willow stand. J Hydro. 1994; 157: 235–245. 10.1016/0022-1694(94)90107-4  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref042"><text><SENT sid="602" pm="."><plain>42 SellinA, LubenetsK. Variation of transpiration within a canopy of silver birch: effect of canopy position and daily versus nightly water loss. Ecohydrol. 2010; 3: 467–477. 10.1002/eco.133  </plain></SENT>
+</text></ref><ref id="pone.0131683.ref043"><text><SENT sid="603" pm="."><plain>43 MooreGW, CleverlyJR, OwensMK. Nocturnal transpiration in riparian Tamarix thickets authenticated by sap flux, eddy covariance and leaf gas exchange measurements. Tree Physiol. 2008; 28: 521–528. 10.1093/treephys/28.4.521 <?supplied-pmid 18244939?>18244939 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,422 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Comput Neurosci</journal-id><journal-id journal-id-type="iso-abbrev">Front Comput Neurosci</journal-id><journal-id journal-id-type="publisher-id">Front. Comput. Neurosci.</journal-id><journal-title-group><journal-title>Frontiers in Computational Neuroscience</journal-title></journal-title-group><issn pub-type="epub">1662-5188</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3800775</article-id><article-id pub-id-type="doi">10.3389/fncom.2013.00146</article-id><article-categories><subj-group subj-group-type="heading"><subject>Neuroscience</subject><subj-group><subject>Original Research Article</subject></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>The role of the harmonic vector average in motion integration </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Johnston</surname><given-names>Alan</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="author-notes" rid="fn001"><sup>*</sup></xref></contrib><contrib contrib-type="author"><name><surname>Scarfe</surname><given-names>Peter</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib></contrib-group><aff id="aff1"><sup>1</sup><institution>Department of Cognitive, Perceptual and Brain Sciences, University College London</institution><country>London, UK</country></aff><aff id="aff2"><sup>2</sup><institution>CoMPLEX, University College London</institution><country>London, UK</country></aff><aff id="aff3"><sup>3</sup><institution>Department of Psychology, School of Psychology and Clinical Language Sciences, University of Reading</institution><country>Reading, UK</country></aff><author-notes><fn fn-type="edited-by"><p><text><SENT sid="1" pm="."><plain>Edited by: Ben Webb, University of Nottingham, UK </plain></SENT>
+</text></p></fn><fn fn-type="edited-by"><p><text><SENT sid="2" pm="."><plain>Reviewed by: Mark Edwards, ANU, Australia; Samuel F. </plain></SENT>
+<SENT sid="3" pm="."><plain>Feng, Princeton University, USA; Daniel H. </plain></SENT>
+<SENT sid="4" pm="."><plain>Baker, University of York, UK </plain></SENT>
+</text></p></fn><corresp id="fn001">*Correspondence: Alan Johnston, Department of Cognitive, Perceptual and Brain Sciences, Division of Psychology and Language Sciences, University College London, Gower Street, London, WC1E 6BT, UK e-mail: <email xlink:type="simple">a.johnston@ucl.ac.uk</email></corresp><fn fn-type="other" id="fn002"><p><text><SENT sid="5" pm="."><plain>This article was submitted to the journal Frontiers in Computational Neuroscience. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>21</day><month>10</month><year>2013</year></pub-date><pub-date pub-type="collection"><year>2013</year></pub-date><volume>7</volume><elocation-id>146</elocation-id><history><date date-type="received"><day>20</day><month>3</month><year>2013</year></date><date date-type="accepted"><day>04</day><month>10</month><year>2013</year></date></history><permissions><copyright-statement>Copyright © 2013 Johnston and Scarfe.</copyright-statement><copyright-year>2013</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>The local speeds of object contours vary systematically with the cosine of the angle between the normal component of the local velocity and the global object motion direction. </plain></SENT>
+<SENT sid="7" pm="."><plain>An array of Gabor elements whose speed changes with local spatial orientation in accordance with this pattern can appear to move as a single surface. </plain></SENT>
+<SENT sid="8" pm="."><plain>The apparent direction of motion of plaids and Gabor arrays has variously been proposed to result from feature tracking, vector addition and vector averaging in addition to the geometrically correct global velocity as indicated by the intersection of constraints (IOC) solution. </plain></SENT>
+<SENT sid="9" pm="."><plain>Here a new combination rule, the harmonic vector average (HVA), is introduced, as well as a new algorithm for computing the IOC solution. </plain></SENT>
+<SENT sid="10" pm="."><plain>The vector sum can be discounted as an integration strategy as it increases with the number of elements. </plain></SENT>
+<SENT sid="11" pm="."><plain>The vector average over local vectors that vary in direction always provides an underestimate of the true global speed. </plain></SENT>
+<SENT sid="12" pm="."><plain>The HVA, however, provides the correct global speed and direction for an unbiased sample of local velocities with respect to the global motion direction, as is the case for a simple closed contour. </plain></SENT>
+<SENT sid="13" pm="."><plain>The HVA over biased samples provides an aggregate velocity estimate that can still be combined through an IOC computation to give an accurate estimate of the global velocity, which is not true of the vector average. </plain></SENT>
+<SENT sid="14" pm="."><plain>Psychophysical results for type II Gabor arrays show perceived direction and speed falls close to the IOC direction for Gabor arrays having a wide range of orientations but the IOC prediction fails as the mean orientation shifts away from the global motion direction and the orientation range narrows. </plain></SENT>
+<SENT sid="15" pm="."><plain>In this case perceived velocity generally defaults to the HVA. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>global motion</kwd><kwd>plaids</kwd><kwd>motion computation</kwd></kwd-group></SecTag><counts><fig-count count="4"/><table-count count="0"/><equation-count count="9"/><ref-count count="46"/><page-count count="9"/><word-count count="7631"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="16" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="17" pm="."><plain>The first stage of motion analysis is not a global estimate of the motion of an object as such, but a dense set of estimates of the motion present at each location in the visual field. </plain></SENT>
+<SENT sid="18" pm="."><plain>These local estimates need to be grouped and combined to determine the motion of the object as a whole. </plain></SENT>
+<SENT sid="19" pm="."><plain>However, this local analysis can be prone to the aperture problem (Wallach, 1935). </plain></SENT>
+<SENT sid="20" pm="."><plain>The aperture problem results from the redundancy inherent in a 1-dimensional pattern, like a line or sine grating, embedded in a 2-dimensional space. </plain></SENT>
+<SENT sid="21" pm="."><plain>The true 2-dimensional velocity of an infinite line cannot be determined. </plain></SENT>
+<SENT sid="22" pm="."><plain>Neurons in the early part of the visual system have small receptive fields. </plain></SENT>
+<SENT sid="23" pm="."><plain>Contours for which the variation in orientation is small relative to the aperture of a receptive field will appear approximately 1-dimensional. </plain></SENT>
+<SENT sid="24" pm="."><plain>In the case of a 1-dimensional pattern viewed through an aperture, human observers typically see motion in the direction orthogonal to the contours (Wallach, 1935; Hildreth, 1984). </plain></SENT>
+</text></p><p><text><SENT sid="25" pm="."><plain>Strategies for combining motion estimates were initially introduced to explain the neural computation of pattern motion in plaids, which are formed from the superposition of two 1-dimensional gratings (Adelson and Movshon, 1982). </plain></SENT>
+<SENT sid="26" pm="."><plain>It was proposed that the grating components are initially processed independently following orientation filtering by the visual system and then the resulting velocities are combined. </plain></SENT>
+<SENT sid="27" pm="."><plain>Each component constrains the possible 2-dimensional pattern motion but a unique velocity could be arrived at as the velocity that satisfies both constraints. </plain></SENT>
+<SENT sid="28" pm="."><plain>This two-stage strategy is generally referred to as the intersection of constraints (IOC) solution (Adelson and Movshon, 1982). </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>However, a number of studies have shown that the ideal IOC solution for plaids does not accurately reflect perceived velocity. </plain></SENT>
+<SENT sid="30" pm="."><plain>The plaid perceived direction is biased toward the high contrast component although the IOC computation depends only upon velocity (Stone et al., 1990; Champion et al., 2007). </plain></SENT>
+<SENT sid="31" pm="."><plain>Manipulations that would have been expected to alter the perceived speed of one of the components, such as reducing its contrast (Stone et al., 1990), altering spatial frequency (Smith and Edgar, 1991) or adapting to motion in one component direction (Derrington and Suero, 1991) shift the apparent direction of the plaid in the direction that is consistent with the application of the IOC principle to the perceived motion of the components. </plain></SENT>
+<SENT sid="32" pm="."><plain>However, changes in perceived speed of components prior to an IOC computation cannot explain all effects of changing component characteristics on the perceived direction of plaids (Champion et al., 2007). </plain></SENT>
+</text></p><p><text><SENT sid="33" pm="."><plain>Ferrera and Wilson (1990) showed that if the grating components were similar in direction and both moved to the right or left of the IOC direction (type II plaids), rather than straddling the IOC direction (type I plaids), then the perceived direction of the plaid was biased by an average of around 7.5 degrees toward the vector sum of the components. </plain></SENT>
+<SENT sid="34" pm="."><plain>At short durations, ≤60 ms, Yo and Wilson (1992) reported that plaids were seen to move in the vector sum direction but shifted toward the IOC direction at longer durations. </plain></SENT>
+<SENT sid="35" pm="."><plain>However, Bowns (1996) showed that whether movement in the vector sum direction was seen or not at short durations depended upon the component combination used in the plaids. </plain></SENT>
+<SENT sid="36" pm="."><plain>Some component combinations led to local motion ambiguities in the plaid, which Bowns observed arose from the motion of edge features in the vector sum direction and blob features in the IOC direction. </plain></SENT>
+<SENT sid="37" pm="."><plain>Bowns and Alais (2006) showed that adaptation to grating motion in the vector average (VA) direction shifted the perceived motion toward the IOC direction and vice versa, indicating the balance between these alternatives could be altered. </plain></SENT>
+</text></p><p><text><SENT sid="38" pm="."><plain>There has been less emphasis on plaid speed perception than direction perception. </plain></SENT>
+<SENT sid="39" pm="."><plain>Ferrera and Wilson (1991) reported that the perceived speed of type I plaids was underestimated when compared to a sine grating that had the same spatial frequency as the components but matched the IOC speed when compared to a sine grating whose period matched the period of the plaid nodes. </plain></SENT>
+<SENT sid="40" pm="."><plain>Castet and Morgan (1996) also showed an underestimate of IOC speed for a plaid with constant component speed whose pattern speed increased as the angle between the components increased. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>Approaches to plaid motion recovery include the analysis of the activity of a population of spatio-temporally tuned filters (Simoncelli and Heeger, 1998), direct computation from spatio-temporal gradients (Weiss et al., 2002; Johnston et al., 2003; Dimova and Denham, 2009) and the encoding of the spatio-temporal pattern of tracked features (Bowns, 2011). </plain></SENT>
+<SENT sid="42" pm="."><plain>However, some of these strategies for recovering the direction are highly contextualized by the characteristics of plaids. </plain></SENT>
+<SENT sid="43" pm="."><plain>The assumption of the independent analysis of components requires unrealistically narrow spatiotemporal filtering, particularly with respect to temporal frequency since there are only two or three temporal mechanisms spanning the temporal domain (Snowden and Hess, 1992; Johnston and Clifford, 1995). </plain></SENT>
+<SENT sid="44" pm="."><plain>Spatiotemporal gradient approaches to computing pattern motion are more generic and do not make any special reference to the content of the image. </plain></SENT>
+</text></p><p><text><SENT sid="45" pm="."><plain>The global Gabor array (Amano et al., 2009; Rider et al., 2009; Scarfe and Johnston, 2010, 2011) provides a simpler paradigm in which to study the integration of local motion signals. </plain></SENT>
+<SENT sid="46" pm="."><plain>In this case, as in the case of windowed line motion (Mingolla et al., 1992), the local spatial pattern is essentially 1-dimensional, and integration necessarily occurs over space rather than potentially at a single point in space. </plain></SENT>
+</text></p><p><text><SENT sid="47" pm="."><plain>A rigidly moving object generates a characteristic distribution of normal velocities. </plain></SENT>
+<SENT sid="48" pm="."><plain>The magnitudes of the local speeds are the global speed times the cosine of the angle between the normal component of contour motion and the global direction of motion of the object (Figure 1A). </plain></SENT>
+<SENT sid="49" pm="."><plain>Taking a cue from this, a pattern of local motion can be generated by an array of Gabor patches, which consist of moving sine gratings windowed by a Gaussian. </plain></SENT>
+<SENT sid="50" pm="."><plain>When the speed of the grating motion is set to conform to the pattern for a rigidly moving contour, i.e., to be some global speed times the cosine of the angle between the normal component of the sine grating motion and the global motion direction, the array of patches typically appear to cohere into a single moving surface (Amano et al., 2009). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="51" pm="."><plain>(A) A velocity space diagram with vectors representing two component normal velocities and constraint lines representing global motion vectors that are consistent with the normal component. </plain></SENT>
+<SENT sid="52" pm="."><plain>The constraint lines for any two vectors lying on the same circle through velocity space will intersect at a single point representing the global motion. (B) Points on a circle through the origin inverted in the unit circle about the origin project to a straight line in velocity space. </plain></SENT>
+<SENT sid="53" pm="."><plain>The inverse of the global motion (ioc) can be found as the vector that minimizes the variation in the magnitude of the components of the projection of the sample vectors onto this as yet undetermined vector. </plain></SENT>
+<SENT sid="54" pm="."><plain>The global motion (IOC) is the inverse of ioc. </plain></SENT>
+<SENT sid="55" pm="."><plain>Note the average of any of the sample vectors (hva) must lie on the line though the samples and the ioc, and its inverse, the harmonic vector average (HVA), must lie on the circle through the origin. </plain></SENT>
+</text></p></caption><graphic xlink:href="fncom-07-00146-g0001"/></fig></SecTag><p><text><SENT sid="56" pm="."><plain>The global percept can break down when the elements can be grouped on the basis of carrier spatial frequency and the carrier frequencies are very different (Maruya et al., 2010). </plain></SENT>
+<SENT sid="57" pm="."><plain>However, in general, Gabor arrays appear to move approximately in the IOC direction with the implied global speed. </plain></SENT>
+<SENT sid="58" pm="."><plain>Arrays of plaid elements with the same pattern of velocities but in which the local velocity is well defined and unambiguous appear to have a direction and speed consistent with the VA rule (Amano et al., 2009). </plain></SENT>
+<SENT sid="59" pm="."><plain>However, this is not the only way of combining vectors and other alternatives should be considered. </plain></SENT>
+<SENT sid="60" pm="."><plain>The natural alternative to the IOC result is not the vector sum or VA but the harmonic vector average (HVA), which provides a way of aggregating local velocities that takes into account the aperture problem. </plain></SENT>
+<SENT sid="61" pm="."><plain>In the HVA the directions of the vectors are unchanged but their magnitudes are inverted. </plain></SENT>
+<SENT sid="62" pm="."><plain>The magnitude of a vector is inverted by dividing it by its squared length. </plain></SENT>
+<SENT sid="63" pm="."><plain>The harmonic average is often used to average rates, particularly when the variable is on the denominator (Ferger, 1931) e.g., averaging speeds over the same distance. </plain></SENT>
+<SENT sid="64" pm="."><plain>In our case the HVA arises naturally from the geometry of the velocity space diagram (Figure 1). </plain></SENT>
+<SENT sid="65" pm="."><plain>The HVA is not to be confused with the inverse-vector-average rule (Verstraten et al., 1994; Alais et al., 2005), which describes how the direction of the transparent motion aftereffect is accounted for by a VA in which component directions are weighted according to the sensitivity (inverse threshold) or duration of the component MAEs. </plain></SENT>
+</text></p><p><text><SENT sid="66" pm="."><plain>We argue below that, if the aim of a vector combination calculation is to tell us something about the global motion of an object, where the individual measures are ambiguous reflecting the aperture problem, then the VA has little or no merit, since it does not provide a useful measure of the speed of the global motion. </plain></SENT>
+<SENT sid="67" pm="."><plain>We will see that the HVA does carry useful information about the global speed. </plain></SENT>
+<SENT sid="68" pm="."><plain>The VA may, however, reflect the operation of the visual system in recovering summary statistics of velocity fields. </plain></SENT>
+</text></p><sec><title><text><SENT sid="69" pm="."><plain>Theory </plain></SENT>
+</text></title><p><text><SENT sid="70" pm="."><plain>Although the underlying geometry of the IOC rule indicates it should be possible to solve for the IOC velocity, given the component velocities in the case of plaids or two normal component velocities in the case of a pair of Gabor elements, there is no consensus on the algorithm the brain might use to compute the IOC. </plain></SENT>
+<SENT sid="71" pm="."><plain>Given a description of the constraint lines the IOC can be calculated by the method described by Bowns (1996). </plain></SENT>
+<SENT sid="72" pm="."><plain>Here we revisit the velocity space geometry to describe a simple means of computing the global velocity (as in the IOC strategy) from the sample velocities, which does not explicitly represent the constraint lines or their intersections (Jasinschi et al., 1992) and which readily accommodates multiple samples. </plain></SENT>
+<SENT sid="73" pm="."><plain>We also introduce the HVA, which provides a viable alternative combination rule for local 1d signals. </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>Figure 1B shows a range of potential normal component velocities for a single global velocity. </plain></SENT>
+<SENT sid="75" pm="."><plain>All these velocities lie on a circle through the origin. </plain></SENT>
+<SENT sid="76" pm="."><plain>The inversion of a point p(r, ϑ) in the unit circle is the point p′(r−1, ϑ). </plain></SENT>
+<SENT sid="77" pm="."><plain>The inversion of a circle passing through the origin is a straight line (Brannan et al., 1999). </plain></SENT>
+<SENT sid="78" pm="."><plain>The IOC solution derives from the vector, which minimizes, in a least squares sense, the variation in the projections of a set of sample vectors onto it. </plain></SENT>
+<SENT sid="79" pm="."><plain>The IOC solution is (1)IOC=(u · u  v · uu · v  v · v)−1(u · nv · n), where u and v are the vectors of the Cartesian components of p′(r−1, ϑ). </plain></SENT>
+<SENT sid="80" pm="."><plain>The HVA is (2)HVA=k|(∑u∑v)|2 (∑u∑v), where k is the number of motion samples. </plain></SENT>
+</text></p><p><text><SENT sid="81" pm="."><plain>Therefore (3)IOC=(u · u  v · uu · v  v · v)−1|(∑u∑v)|2k−1 HVA </plain></SENT>
+</text></p><p><text><SENT sid="82" pm="."><plain>See Appendix for more detail. </plain></SENT>
+</text></p><p><text><SENT sid="83" pm="."><plain>The vector sum and VA of do not provide a useful combination rule for the computation of global speed in multiple component plaids or Gabor arrays. </plain></SENT>
+<SENT sid="84" pm="."><plain>The vector sum increases with the number of elements and the average velocity tends to a value that is half the speed of the object motion as the range of orientations increase (see Figure 1). </plain></SENT>
+<SENT sid="85" pm="."><plain>The HVA of a set of velocity samples on the other hand lies on the circle through the origin in velocity space that describes the range of possible normal components. </plain></SENT>
+<SENT sid="86" pm="."><plain>Because of this property the HVA could be used for iterative spatial averaging since the intermediate means could be the normal components of some contour. </plain></SENT>
+<SENT sid="87" pm="."><plain>The HVA aggregated estimates could therefore be input to a further HVA or IOC computation without loss of fidelity. </plain></SENT>
+<SENT sid="88" pm="."><plain>Note the HVA, as expressed above requires the number of samples, since it is an average, however, the 4 IOC algorithm does not require this information. </plain></SENT>
+</text></p><p><text><SENT sid="89" pm="."><plain>The HVA could provide an excellent proxy for an explicit IOC global motion computation so long as the average orientation of the normal components of the local motion is unbiased relative to the global direction of motion. </plain></SENT>
+<SENT sid="90" pm="."><plain>The IOC calculation will give the correct global velocity for a Gabor array irrespective of whether the samples straddle the correct global velocity (type I arrays) or whether they are constrained to lie on one or other side of the correct global velocity (type II). </plain></SENT>
+<SENT sid="91" pm="."><plain>However, for type II arrays the VA and the HVA calculation will differ from the IOC velocity. </plain></SENT>
+<SENT sid="92" pm="."><plain>Amano et al. (2009) found that for short durations a type II Gabor array with two orientations appeared to move in the VA direction for short durations and appeared to move in the direction of the IOC solution at longer durations. </plain></SENT>
+<SENT sid="93" pm="."><plain>They did not consider the HVA but the directions of the VA and the HVA will be similar. </plain></SENT>
+<SENT sid="94" pm="."><plain>We wanted to determine whether the IOC or HVA best predicted perceived speed and direction of global motion and therefore measured perceived velocity for a range of type I and II Gabor arrays. </plain></SENT>
+<SENT sid="95" pm="."><plain>In the first experiment we measured perceived direction for type I and II arrays with different distributions of Gabor orientations. </plain></SENT>
+<SENT sid="96" pm="."><plain>We then measured perceived speed for these arrays to determine the degree to which perceived global velocity followed the IOC or HVA solution. </plain></SENT>
+<SENT sid="97" pm="."><plain>We found perceived velocity was close to the IOC prediction for arrays with a wide range of orientations. </plain></SENT>
+<SENT sid="98" pm="."><plain>The IOC prediction fails as the mean orientation shifts away from the global motion direction and the orientation range narrows. </plain></SENT>
+<SENT sid="99" pm="."><plain>In this case perceived velocity tends to default to the HVA. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s2"><title><text><SENT sid="100" pm="."><plain>Materials and methods </plain></SENT>
+</text></title><p><text><SENT sid="101" pm="."><plain>Stimuli were displayed on a 20 inch CRT monitor (Mitsubishi Diamond Plus 230B), with a 1024 by 864 pixel resolution and refresh rate of 85 Hz. </plain></SENT>
+<SENT sid="102" pm="."><plain>The monitor was gamma corrected and the pixels were square. </plain></SENT>
+<SENT sid="103" pm="."><plain>Observers were positioned in a head and chin rest. </plain></SENT>
+<SENT sid="104" pm="."><plain>The viewing distance to the screen was 80cm and a normal projected from the midpoint of the monitor screen intersected the cyclopean eye. </plain></SENT>
+<SENT sid="105" pm="."><plain>At this viewing distance the monitor subtended approximately 28 by 21 degrees. </plain></SENT>
+<SENT sid="106" pm="."><plain>The stimuli were rendered online in Matlab using the Psychophysics Toolbox extensions (Brainard, 1997; Kleiner et al., 2007). </plain></SENT>
+</text></p><sec><title><text><SENT sid="107" pm="."><plain>Participants </plain></SENT>
+</text></title><p><text><SENT sid="108" pm="."><plain>In total five participants took part in the experiment. </plain></SENT>
+<SENT sid="109" pm="."><plain>Three were experienced psychophysical observers, including the author PS. </plain></SENT>
+<SENT sid="110" pm="."><plain>All bar PS were completely naïve as to the purposes of the experiment. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="111" pm="."><plain>Stimuli </plain></SENT>
+</text></title><p><text><SENT sid="112" pm="."><plain>An example of the annular dynamic Gabor arrays used in the experiment is shown in Figure 2. </plain></SENT>
+<SENT sid="113" pm="."><plain>The Gabor elements have been expanded in the figure to increase visibility. </plain></SENT>
+<SENT sid="114" pm="."><plain>The annulus was generated by first defining a 27 × 27 grid of Gabor elements. </plain></SENT>
+<SENT sid="115" pm="."><plain>The Gabor elements were constructed as Gaussian windowed sine gratings. </plain></SENT>
+<SENT sid="116" pm="."><plain>Each Gabor subtended 0.5 degrees of visual angle with a spacing of 0.1 degree around all sides. </plain></SENT>
+<SENT sid="117" pm="."><plain>Each Gabor had a 50% contrast carrier with a spatial frequency of 4 cycles per degree, which was windowed through multiplication by a Gaussian with a sigma value of 0.1 degrees. </plain></SENT>
+<SENT sid="118" pm="."><plain>The square grid subtended 16.1 degrees of visual angle and was centered on the screen. </plain></SENT>
+<SENT sid="119" pm="."><plain>To make the annular stimulus any Gabor whose center was outside an outer circle of 9 degrees or within an inner circle of 3.3 degrees was removed from the grid. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="120" pm="."><plain>(A) The experimental time sequence for measurement of perceived direction. (B) The experimental time sequence for the measurement of perceived speed. </plain></SENT>
+</text></p></caption><graphic xlink:href="fncom-07-00146-g0002"/></fig></SecTag></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="s3"><title><text><SENT sid="121" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="122" pm="."><plain>Experiment 1 (direction) </plain></SENT>
+</text></title><p><text><SENT sid="123" pm="."><plain>In Experiment 1, observers judged the direction in which the Gabor array appeared to move. </plain></SENT>
+<SENT sid="124" pm="."><plain>The drift rate of the individual Gabors in the array was set relative to a 2d velocity of 0.75 cycles per second in an upward direction (here referenced as zero degrees). </plain></SENT>
+<SENT sid="125" pm="."><plain>We refer to this as the global motion speed and direction. </plain></SENT>
+<SENT sid="126" pm="."><plain>The drift speeds of each element was the cosine of the difference in angle between the normal velocity component of the Gabor and the global motion direction, SC=SG cos (ϑ−ϑG)a where ϑG is the global direction, SG is the global motion speed, ϑ is the orientation of the local normal to the carrier of an individual Gabor element and SC is the drift speed it needs to be consistent with the global motion drift velocity (Adelson and Movshon, 1982; Amano et al., 2009). </plain></SENT>
+</text></p><p><text><SENT sid="127" pm="."><plain>In Experiment 1 we measured the effect of varying the distribution of Gabor angles in the array on the perceived global motion direction. </plain></SENT>
+<SENT sid="128" pm="."><plain>We varied the mean angle of the Gabors and the degree of variation around this value whilst holding the global motion direction and global motion speed constant. </plain></SENT>
+<SENT sid="129" pm="."><plain>The centers of the range were 0, 11.25, 22.5, 33.75, and 45 degrees (positive values being in a clockwise direction), and the extents of the ranges were 30, 50, 70, and 90 degrees. </plain></SENT>
+<SENT sid="130" pm="."><plain>As an example, for a mean of 45 degrees and a range of 90 degrees the angles for the Gabors were randomly chosen from a uniform distribution between 0 and 90 degrees. </plain></SENT>
+<SENT sid="131" pm="."><plain>A new set of Gabor angles was generated from each distribution on each trial. </plain></SENT>
+<SENT sid="132" pm="."><plain>The phase of each Gabor was also randomized on each trial. </plain></SENT>
+</text></p><p><text><SENT sid="133" pm="."><plain>Overall there were 20 blocks of trials - 5 range centers by 4 ranges. </plain></SENT>
+<SENT sid="134" pm="."><plain>These were completed in a randomized order for each observer. </plain></SENT>
+<SENT sid="135" pm="."><plain>In order to measure the perceived direction of the array we adopted a binary choice design. </plain></SENT>
+<SENT sid="136" pm="."><plain>In the first interval the observers were presented with a clock face with a radius of 9.6 degrees centered on the screen (Figure 2A). </plain></SENT>
+<SENT sid="137" pm="."><plain>The clock face was marked at 15-degree intervals around its edge with internal radial line segments abutting the circle, which were 0.74 degrees in length. </plain></SENT>
+<SENT sid="138" pm="."><plain>An arrow pointing out from the center of the clock indicated a direction against which the observer was asked to compare the direction of movement of the array in the second interval. </plain></SENT>
+<SENT sid="139" pm="."><plain>The clock face and arrow were presented for 2 s. </plain></SENT>
+<SENT sid="140" pm="."><plain>In the second interval the drifting Gabor array was presented for 1 s. </plain></SENT>
+<SENT sid="141" pm="."><plain>The screen was then set to the mean gray value and the observer had to indicate whether the Gabor array appeared to move clockwise or counter-clockwise of the direction indicated by the previously seen arrow. </plain></SENT>
+<SENT sid="142" pm="."><plain>We varied the direction of the arrow on each trial to generate a psychometric function. </plain></SENT>
+<SENT sid="143" pm="."><plain>There were seven arrow directions and each was presented in a randomized order 20 times in a block. </plain></SENT>
+<SENT sid="144" pm="."><plain>The exact values depended on the block type and the observer. </plain></SENT>
+<SENT sid="145" pm="."><plain>We fitted a cumulative Gaussian to the observer's data and determined the point of subjective equality (PSE) and 95% confidence intervals around this value in Matlab using a bootstrapping technique (Wichmann and Hill, 2001a,b). </plain></SENT>
+<SENT sid="146" pm="."><plain>The PSE represents the perceived angular direction of motion of the Gabor array. </plain></SENT>
+</text></p><p><text><SENT sid="147" pm="."><plain>Figure 3A shows perceived direction of motion averaged across our five observers for each type of array. </plain></SENT>
+<SENT sid="148" pm="."><plain>Error bars show one standard error of the mean. </plain></SENT>
+<SENT sid="149" pm="."><plain>The diagonal line shows the prediction for the HVA the prediction for the IOC is 0 degrees, upwards, in each case. </plain></SENT>
+<SENT sid="150" pm="."><plain>It is clear that, as the direction range decreases, the perceived direction shifts from the IOC direction toward the HVA direction. </plain></SENT>
+<SENT sid="151" pm="."><plain>However, the perceived direction is in all cases, other than when the average direction is upwards, biased in the direction of the mean motion direction. </plain></SENT>
+<SENT sid="152" pm="."><plain>Also even for the narrowest range the perceived direction is slightly biased in the IOC direction. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="153" pm="."><plain>(A) The apparent direction of a Gabor array with a particular mean motion direction and range of orientations. (B) The apparent speed of a Gabor array with a particular mean motion direction and orientation range measured using an array of parallel Gabor elements moving in the apparent motion direction (as measured in A). </plain></SENT>
+<SENT sid="154" pm="."><plain>Error bars show ± 1 s.e. </plain></SENT>
+</text></p></caption><graphic xlink:href="fncom-07-00146-g0003"/></fig></SecTag><p><text><SENT sid="155" pm="?"><plain>We can ask, if the perceived direction is not in the IOC direction is the perceived speed consistent with the change in perceived direction of motion? </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="156" pm="."><plain>Experiment 2 (speed) </plain></SENT>
+</text></title><p><text><SENT sid="157" pm="."><plain>In Experiment 2 we measured the perceived speed of each of the global motion Gabor arrays used in Experiment 1 using the method of constants. </plain></SENT>
+<SENT sid="158" pm="."><plain>In order to measure the speed of global motion in the perceived direction of motion we set the direction of the standard array individually to the apparent direction for each subject and condition measured in Experiment 1. </plain></SENT>
+<SENT sid="159" pm="."><plain>The standard array was an array of Gabors all orientated orthogonal to the global motion direction (Figure 2B). </plain></SENT>
+<SENT sid="160" pm="."><plain>We also refer to this as the parallel-orientated array. </plain></SENT>
+<SENT sid="161" pm="."><plain>This array was presented first for 1 s. </plain></SENT>
+</text></p><p><text><SENT sid="162" pm="."><plain>After a half second gray interval with only the fixation point present, a second comparison array was presented for 1 s. </plain></SENT>
+<SENT sid="163" pm="."><plain>The comparison arrays had the same parameters as those in Experiment 1 i.e., Gabors for the arrays were selected from uniform distributions with ranges of 30, 50, 70, and 90 degrees centered on either 0, 11.25, 22.5, 33.75 or 45 degrees. </plain></SENT>
+<SENT sid="164" pm="."><plain>The phase of each Gabor was randomized on each trial. </plain></SENT>
+<SENT sid="165" pm="."><plain>The comparison array was drifted at one of 7 different speeds and each speed was presented 20 times, randomly ordered across trials within a block. </plain></SENT>
+<SENT sid="166" pm="."><plain>Blocks were completed in a randomized order for each observer. </plain></SENT>
+<SENT sid="167" pm="."><plain>The observers' task was to report which array drifted faster. </plain></SENT>
+<SENT sid="168" pm="."><plain>We fitted a cumulative Gaussian to the observers' data and determined the PSE and 95% confidence intervals around this value in Matlab using a bootstrapping technique (Wichmann and Hill, 2001a,b). </plain></SENT>
+<SENT sid="169" pm="."><plain>The PSE provided a measure of the perceived speed of each Gabor array. </plain></SENT>
+<SENT sid="170" pm="."><plain>Examples of the stimuli presented are available as supplementary information. </plain></SENT>
+</text></p><p><text><SENT sid="171" pm="."><plain>Figure 3B shows perceived speed across our five observers for each type of array. </plain></SENT>
+<SENT sid="172" pm="."><plain>Error bars show the standard error of the mean. </plain></SENT>
+<SENT sid="173" pm="."><plain>Perceived speed was close to the IOC speed for the arrays with a greater range of orientations but as the mean local direction shifted away from the global motion direction and the orientation range narrowed the perceived velocity came closer to the HVA. </plain></SENT>
+<SENT sid="174" pm="."><plain>To determine whether perceived speed and perceived direction co-varied systematically, as would be expected from a HVA calculation, we plotted perceived speed and direction in a velocity space plot (Figure 4). </plain></SENT>
+<SENT sid="175" pm="."><plain>It is clear that most of the points lie close to the IOC prediction. </plain></SENT>
+<SENT sid="176" pm="."><plain>When the orientation range is reduced the IOC prediction fails and the data fall close to the HVA prediction shown in black. </plain></SENT>
+<SENT sid="177" pm="."><plain>The perceived speed is overestimated when the directions of motion in the Gabor array are uniformly distributed around the vertical. </plain></SENT>
+<SENT sid="178" pm="."><plain>Perceived speed appears to be underestimated, falling below that of the predicted HVA in two conditions in which the mean orientation is ± 45 degrees from the global motion direction. </plain></SENT>
+<SENT sid="179" pm="."><plain>The colored lines without symbols give the predictions for the VA calculation. </plain></SENT>
+<SENT sid="180" pm="."><plain>For a narrow range of orientations the predictions for the VA and the HVA are similar, however, for a broad range of orientations the data favor the HVA prediction. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="181" pm="."><plain>The perceived speed and direction of the global motion from Figure 3 combined to show perceived velocity. The global motion has a speed of 0.75 degrees/ sec and a direction of 0 degrees in this representation. </plain></SENT>
+<SENT sid="182" pm="."><plain>The curved axes shows degrees of visual angle from the global motion direction. </plain></SENT>
+<SENT sid="183" pm="."><plain>The lines without symbols give the predictions for the vector average for the different direction ranges and mean directions. </plain></SENT>
+<SENT sid="184" pm="."><plain>Error bars show ± 1 s.e. </plain></SENT>
+</text></p></caption><graphic xlink:href="fncom-07-00146-g0004"/></fig></SecTag><p><text><SENT sid="185" pm="."><plain>We can draw a number of conclusions on the basis of this data. </plain></SENT>
+<SENT sid="186" pm="."><plain>The shift in apparent direction away from the HVA direction (Figure 4) toward the global motion direction cannot be explained on the basis of the HVA calculation alone. </plain></SENT>
+<SENT sid="187" pm="."><plain>This shift is consistent with the IOC computation but when the IOC computation fails the perceived speed and direction of motion vary together in a way that is predicted by the HVA not the IOC. </plain></SENT>
+<SENT sid="188" pm="."><plain>The perceived speed only drops below the HVA prediction for the largest difference between the true global motion direction and the mean local motion direction. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion" id="s4"><title><text><SENT sid="189" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="190" pm="."><plain>The global Gabor array simplifies the problem of investigating motion integration since, unlike plaids or more complex spatial patterns, we do not need to assume Fourier components are analyzed separately and there are no features arising from their combination moving in the global motion direction that could be tracked (Mingolla et al., 1992). </plain></SENT>
+<SENT sid="191" pm="."><plain>However, combination rules such as the IOC rule and motion vector combination rules, developed to explain 2d plaid motion might still apply. </plain></SENT>
+<SENT sid="192" pm="."><plain>The IOC solution and the HVA, introduced here, predict the same global motion for type I Gabor arrays in which there is an unbiased distribution of motion directions around the global motion direction. </plain></SENT>
+<SENT sid="193" pm="."><plain>Although the vector sum and the VA can give a good estimate of the direction of global motion, they do not provide a correct measure of the global speed for Gabor arrays containing a range of Gabor orientations, or generalizing from this, object motion. </plain></SENT>
+<SENT sid="194" pm="."><plain>We can discount the vector sum as a way of combining multiple velocity samples, as the value of the sum clearly increases with the number of samples. </plain></SENT>
+<SENT sid="195" pm="."><plain>The VA provides a measure of global motion, which is half the speed of the true motion for a uniform distribution of contour orientations covering the full range of possible contour orientations, although the VA and HVA predictions converge as the orientation range narrows. </plain></SENT>
+</text></p><p><text><SENT sid="196" pm="."><plain>The HVA is to be preferred to the VA for a number of reasons. </plain></SENT>
+<SENT sid="197" pm="."><plain>Firstly it provides the correct global velocity for an unbiased distribution of oriented contours relative to the global motion direction. </plain></SENT>
+<SENT sid="198" pm="."><plain>This, in addition, means the HVA gives the correct global velocity for a moving simple closed contour. </plain></SENT>
+<SENT sid="199" pm="."><plain>It is clear from symmetry that the integrated normal components along a hemi-circular contour joining two points with tangents parallel to the flow will be in the direction of the global motion vector. </plain></SENT>
+<SENT sid="200" pm="."><plain>Now consider a uniform flow field and a more general smooth contour joining points with tangents parallel to the flow. </plain></SENT>
+<SENT sid="201" pm="."><plain>The integral of the projection of the flow on the outer normal to the contour along a simple closed contour gives the flux of the motion vector field through the contour. </plain></SENT>
+<SENT sid="202" pm="."><plain>This scalar value can be interpreted as the amount of material flowing over the contour. </plain></SENT>
+<SENT sid="203" pm="."><plain>This is same as the line integral of the normal component speeds along the leading contour for a contour moving at a constant velocity. </plain></SENT>
+<SENT sid="204" pm="."><plain>Since for a uniform motion field the flux, the amount of material flowing over the contour, does not depend upon the path of the contour (as we have described it), the flux will be the same as for the hemi-circle. </plain></SENT>
+<SENT sid="205" pm="."><plain>Thus, in both cases the normals pointing to either side of the global flow must be balanced and the average motion vector, and hence the average inverse motion vector, will be in the direction of the global motion. </plain></SENT>
+<SENT sid="206" pm="."><plain>The same logic applies to the trailing contour with forward facing normals. </plain></SENT>
+<SENT sid="207" pm="."><plain>This allows us to conclude that for a simple closed contour (or such arising from a level set of the image brightness) there is an unbiased distribution of oriented contours and the HVA over the contour gives the global object speed and direction. </plain></SENT>
+</text></p><p><text><SENT sid="208" pm="."><plain>Secondly, for a limited range of orientations, as might be found in a local region, the HVA provides the best way of aggregating 1d information about global velocity for that region, since it takes into account the aperture problem in combining normal components. </plain></SENT>
+<SENT sid="209" pm="."><plain>Even in the case of a biased distribution, the HVA can serve as a valid intermediate measure, which can subsequently be combined with other local HVAs in a new HVA or be combined through an IOC combination to give the correct global velocity. </plain></SENT>
+<SENT sid="210" pm="."><plain>The VA does not have this property. </plain></SENT>
+<SENT sid="211" pm="."><plain>Once a VA (over different directions) is formed it cannot be combined with other local vector averages or with a local normal component to give the correct global motion. </plain></SENT>
+<SENT sid="212" pm="."><plain>Grouping local motion vectors through the HVA can therefore improve signal to noise by averaging, without corrupting the signal. </plain></SENT>
+<SENT sid="213" pm="."><plain>An additional advantage of a noise-reducing high fidelity intermediate local calculation is that it can serve global motion computations that are more complex than translation such as rotation and expansion (Lee and Lu, 2010). </plain></SENT>
+<SENT sid="214" pm="."><plain>The HVA also gives appropriate weight to small speeds in the global computation, such as those arising from contours oriented away from the global motion direction, which would not contribute much to a VA. </plain></SENT>
+</text></p><p><text><SENT sid="215" pm="."><plain>The principle underlying both the IOC algorithm and the HVA algorithm is that the local velocities reflect the normal components of the motion of an object generated by a single motive cause, namely translation. </plain></SENT>
+<SENT sid="216" pm="."><plain>If the local motion is unambiguous, even if the pattern of velocities is the same, there is no reason to assume a single underlying cause as each local motion vector may correspond to the movement of a single particle. </plain></SENT>
+<SENT sid="217" pm="."><plain>In this case the motion will not appear to cohere and alternative strategies for reporting on the population of local velocities might apply, including the VA as a summary statistic. </plain></SENT>
+<SENT sid="218" pm="."><plain>Amano et al. (2009) compared the perceived speed of Gabor arrays with plaid arrays in which the unambiguous motion and direction of the plaids matched the normal components of motion of the Gabor elements in a Gabor array. </plain></SENT>
+<SENT sid="219" pm="."><plain>They reported the perceived motion of the plaid array was slower than the Gabor array and that it approached the VA speed. </plain></SENT>
+<SENT sid="220" pm="."><plain>Amano et al. conclude that the motion system can group flexibly - grouping ambiguous signals by IOC and averaging unambiguous local signals by VA. </plain></SENT>
+<SENT sid="221" pm="."><plain>Amano et al. report that this plaid array did not cohere, which highlights the distinction between grouping to a single solution and a summary statistic of a space-variant array of velocities. </plain></SENT>
+<SENT sid="222" pm="."><plain>A lack of coherence may also explain why perceived speed did not reach the HVA speed in some of our conditions (see supplementary material). </plain></SENT>
+</text></p><p><text><SENT sid="223" pm="."><plain>The HVA and the IOC approach outlined here might also be applied to the integration of component velocities in plaid patterns. </plain></SENT>
+<SENT sid="224" pm="."><plain>However, the key issue in extending the current approach is whether plaid components are separated and analyzed independently by the visual system. </plain></SENT>
+<SENT sid="225" pm="."><plain>Recent work showing V5/MT cells differ in their response to pseudo plaids in which two non-overlapping Gabor patches are presented to the visual field and plaid patches in which the components overlap (Majaj et al., 2007) suggest that 2d patterns are processed differently to multiple 1d patterns. </plain></SENT>
+<SENT sid="226" pm="."><plain>In addition the component approach has difficulty accounting for the Amano et al. (2009) result, that there is a difference in motion coherence threshold for arrays in which plaids elements indicating a single global velocity are combined with plaid noise elements, as compared to when components from these two types of array elements are mixed to give a variety of local plaid velocities (Amano et al., 2009). </plain></SENT>
+<SENT sid="227" pm="."><plain>This suggests 2d motion is computed locally from the 2d image rather through the combination of 1d components. </plain></SENT>
+</text></p><p><text><SENT sid="228" pm="."><plain>There is a greater tendency to see motion in the VA or equivalently the HVA direction when stimulus presentations are short (Yo and Wilson, 1992). </plain></SENT>
+<SENT sid="229" pm="."><plain>The harmonic vector sum appears in both the HVA and IOC algorithms. </plain></SENT>
+<SENT sid="230" pm="."><plain>One possibility is that the harmonic vector sum is computed first, which would give an indication of the (incorrect) global motion direction, and that the computation of the correct speed and direction follows after a process of refinement. </plain></SENT>
+<SENT sid="231" pm="."><plain>This could occur through local HVA computations feeding into a global IOC calculation. </plain></SENT>
+<SENT sid="232" pm="."><plain>Although the IOC can readily be computed in type II arrays the global motion direction is almost always biased in the HVA direction. </plain></SENT>
+</text></p><p><text><SENT sid="233" pm="."><plain>Weiss et al. (2002) were able to account for a number of psychophysical results, primarily relating to perceived direction. </plain></SENT>
+<SENT sid="234" pm="."><plain>They extended the Lucas and Kanade (1981) method for computing velocity by adding a parameter to the leading diagonal of the matrix of the summed products of derivatives – sometimes referred to as the structure tensor (see their Equation 1). </plain></SENT>
+<SENT sid="235" pm="."><plain>Without this addition to the leading diagonal, the matrix cannot be inverted for 1d moving pattern (lines, gratings etc.), since there is no unique solution – a reflection of the aperture problem. </plain></SENT>
+<SENT sid="236" pm="."><plain>This method of ensuring a solution is referred to as ridge regression in the statistics literature (Hoerl and Kennard, 1970). </plain></SENT>
+<SENT sid="237" pm="."><plain>The addition in Weiss et al. is motivated by a Bayesian argument. </plain></SENT>
+<SENT sid="238" pm="."><plain>The value of the parameter is the ratio of the variance in the likely velocity, which is dependent upon image brightness measurement noise, and the variance of a slowness prior probability. </plain></SENT>
+<SENT sid="239" pm="."><plain>It is assumed that this parameter differs between observers allowing the fitting of different values of this parameter across experiments. </plain></SENT>
+<SENT sid="240" pm="."><plain>The velocity calculation will be most accurate for a close-to-uniform prior, since this minimizes the value to be added. </plain></SENT>
+<SENT sid="241" pm="."><plain>As the prior probability distribution places greater emphasis on slowness, the computed speed will reduce, since probabilities are positive and the determinant of the structure tensor will increase. </plain></SENT>
+<SENT sid="242" pm="."><plain>Solving for the velocity involves inverting the matrix, which entails dividing by the determinant. </plain></SENT>
+<SENT sid="243" pm="."><plain>Weiss et al also applied their approach to velocity aggregation over space. </plain></SENT>
+<SENT sid="244" pm="."><plain>They showed for a moving rhombus the perceived direction could be accounted for by their model, however, they did not investigate perceived speed for this experimental paradigm. </plain></SENT>
+<SENT sid="245" pm="."><plain>In general, since the perceived velocity depends upon the likelihoods (spatially overlapping the constraint lines) summed across space this approach predicts perceived speed and direction would be close to the VA speed and direction, or slower, due to the slowness prior. </plain></SENT>
+</text></p><p><text><SENT sid="246" pm="."><plain>The HVA approach implies that some neurons in the primate visual system may encode inverse speed or slowness. </plain></SENT>
+<SENT sid="247" pm="."><plain>There is in fact considerable evidence for MT/V5 neurons that reduce their firing rate as speed increases (Mikami et al., 1986; Rodman and Albright, 1987; Lagae et al., 1993; Palanca and Deangelis, 2003; Nover et al., 2005). </plain></SENT>
+<SENT sid="248" pm="."><plain>These neurons have not previously been attributed a particular functional role, apart from perhaps signaling slowness as part of a population code, however, they could form part of the substrate of the HVA computation. </plain></SENT>
+<SENT sid="249" pm="."><plain>The benefits of coding inverse speed in a gradient model of motion computation and the methods by which is can be computed has been outlined in some detail elsewhere (Johnston et al., 1999a,b, 2003). </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions" id="s5"><title><text><SENT sid="250" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="251" pm="."><plain>The HVA has not previously been considered as a way of aggregating visual local motion estimates. </plain></SENT>
+<SENT sid="252" pm="."><plain>However, the HVA appropriately combines normal component velocities that are subject to the aperture problem. </plain></SENT>
+<SENT sid="253" pm="."><plain>This can clearly be seen from a consideration of the underlying inversive geometry within velocity space. </plain></SENT>
+<SENT sid="254" pm="."><plain>The correct global motion vector for type II arrays can only be arrived at though an IOC or equivalent calculation. </plain></SENT>
+<SENT sid="255" pm="."><plain>However, the global motion solution is also arrived at more efficiently in the inverse space. </plain></SENT>
+<SENT sid="256" pm="."><plain>Perceptually, when the IOC prediction fails, the global motion percept tends to the HVA. </plain></SENT>
+<SENT sid="257" pm="."><plain>This indicates that shifts in perceived direction and speed are linked. </plain></SENT>
+</text></p><sec><title><text><SENT sid="258" pm="."><plain>Conflict of interest statement </plain></SENT>
+</text></title><p><text><SENT sid="259" pm="."><plain>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. </plain></SENT>
+</text></p></sec></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="260" pm="."><plain>The authors thank the BBSRC for support. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary material" id="s6"><title>Supplementary material</title><p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="http://www.frontiersin.org/journal/10.3389/fncom.2013.00146/abstract">http://www.frontiersin.org/journal/10.3389/fncom.2013.00146/abstract</ext-link></p><p>Illustration of the type of stimuli used in the experiments.</p><supplementary-material content-type="local-data"><media xlink:href="Movie1.MOV"><caption><p><text><SENT sid="261" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><p>1) movieMGA45R15: A movie sequence showing a dynamic Gabor array with a mean angle of 45 degree and Gabor orientation draw from a range ±15 degrees.</p><supplementary-material content-type="local-data"><media xlink:href="Movie2.MOV"><caption><p><text><SENT sid="262" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><p>2) movieMGA45R45: A movie sequence showing a dynamic Gabor array with a mean angle of 45 degree and Gabor orientation draw from a range ±45 degrees.</p></sec></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="B1"><text><SENT sid="263" pm="."><plain>AdelsonE. </plain></SENT>
+<SENT sid="264" pm="."><plain>H.MovshonJ. </plain></SENT>
+<SENT sid="265" pm="."><plain>A. (1982). Phenomenal coherence of moving visual patterns. Nature 300, 523–525 10.1038/300523a0<?supplied-pmid 7144903?>7144903 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="266" pm="."><plain>AlaisD.VerstratenF. </plain></SENT>
+<SENT sid="267" pm="."><plain>A.BurrD. </plain></SENT>
+<SENT sid="268" pm="."><plain>C. (2005). The motion aftereffect of transparent motion: two temporal channels account for perceived direction. Vision Res. 45, 403–412 10.1016/j.visres.2004.09.005<?supplied-pmid 15610746?>15610746 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="269" pm="."><plain>AmanoK.EdwardsM.BadcockD. </plain></SENT>
+<SENT sid="270" pm="."><plain>R.NishidaS. (2009). Adaptive pooling of visual motion signals by the human visual system revealed with a novel multi-element stimulus. J. </plain></SENT>
+<SENT sid="271" pm="."><plain>Vis. 9, 1–25 10.1167/9.3.4<?supplied-pmid 19757943?>19757943 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="272" pm="."><plain>BownsL. (1996). Evidence for a feature tracking explanation of why type II plaids move in the vector sum direction at short durations. Vision Res. 36, 3685–3694 10.1016/0042-6989(96)00082-X<?supplied-pmid 8976998?>8976998 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="273" pm="."><plain>BownsL. (2011). Taking the energy out of spatio-temporal energy models of human motion processing: the component level feature model. Vision Res. 51, 2425–2430 10.1016/j.visres.2011.09.014<?supplied-pmid 22005388?>22005388 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="274" pm="."><plain>BownsL.AlaisD. (2006). Large shifts in perceived motion direction reveal multiple global motion solutions. Vision Res. 46, 1170–1177 10.1016/j.visres.2005.08.029<?supplied-pmid 16289665?>16289665 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="275" pm="."><plain>BrainardD. </plain></SENT>
+<SENT sid="276" pm="."><plain>H. (1997). The psychophysics toolbox. Spat. </plain></SENT>
+<SENT sid="277" pm="."><plain>Vis. 10, 433–436 10.1163/156856897X00357<?supplied-pmid 9176952?>9176952 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="278" pm="."><plain>BrannanD. </plain></SENT>
+<SENT sid="279" pm="."><plain>A.EsplenM. </plain></SENT>
+<SENT sid="280" pm="."><plain>F.GrayJ. </plain></SENT>
+<SENT sid="281" pm="."><plain>J. (1999). Geometry. Cambridge: Cambridge University Press 10.1017/CBO9780511807503 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="282" pm="."><plain>CastetE.MorganM. </plain></SENT>
+<SENT sid="283" pm="."><plain>J. (1996). Apparent speed of type I symmetrical plaids. Vision Res. 36, 223–232 10.1016/0042-6989(95)00092-E<?supplied-pmid 8594820?>8594820 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="284" pm="."><plain>ChampionR. </plain></SENT>
+<SENT sid="285" pm="."><plain>A.HammettS. </plain></SENT>
+<SENT sid="286" pm="."><plain>T.ThompsonP. </plain></SENT>
+<SENT sid="287" pm="."><plain>G. (2007). Perceived direction of plaid motion is not predicted by component speeds. Vision Res. 47, 375–383 10.1016/j.visres.2006.10.017<?supplied-pmid 17187840?>17187840 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="288" pm="."><plain>DerringtonA.SueroM. (1991). Motion of complex patterns is computed from the perceived motions of their components. Vision Res. 31, 139–149 10.1016/0042-6989(91)90081-F<?supplied-pmid 2006547?>2006547 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="289" pm="."><plain>DimovaK.DenhamM. (2009). A neurally plausible model of the dynamics of motion integration in smooth eye pursuit based on recursive Bayesian estimation. Biol. </plain></SENT>
+<SENT sid="290" pm="."><plain>Cybern. 100, 185–201 10.1007/s00422-009-0291-z<?supplied-pmid 19184088?>19184088 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="291" pm="."><plain>FergerW. </plain></SENT>
+<SENT sid="292" pm="."><plain>F. (1931). The nature and use of the harmonic mean. J. </plain></SENT>
+<SENT sid="293" pm="."><plain>Am. </plain></SENT>
+<SENT sid="294" pm="."><plain><z:uniprot sup="inside" fb="30" ids="Q7QDU4,Q24151">Stat</z:uniprot>. </plain></SENT>
+<SENT sid="295" pm="."><plain>Assoc. 26, 36–40 10.1080/01621459.1931.10503148 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="296" pm="."><plain>FerreraV. </plain></SENT>
+<SENT sid="297" pm="."><plain>P.WilsonH. </plain></SENT>
+<SENT sid="298" pm="."><plain>R. (1990). Perceived direction of moving two-dimensional patterns Vision Res. 30, 273–287 10.1016/0042-6989(90)90043-K<?supplied-pmid 2309462?>2309462 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="299" pm="."><plain>FerreraV. </plain></SENT>
+<SENT sid="300" pm="."><plain>P.WilsonH. </plain></SENT>
+<SENT sid="301" pm="."><plain>R. (1991). Perceived speed of moving two-dimensional patterns Vision Res. 31, 877–893 10.1016/0042-6989(91)90154-W<?supplied-pmid 2035271?>2035271 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="302" pm="."><plain>HildrethE. </plain></SENT>
+<SENT sid="303" pm="."><plain>C. (1984). The computation of the velocity field. Proc. </plain></SENT>
+<SENT sid="304" pm="."><plain>R. </plain></SENT>
+<SENT sid="305" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="306" pm="."><plain>Lond. </plain></SENT>
+<SENT sid="307" pm="."><plain>B 221, 189–220 10.1098/rspb.1984.0030<?supplied-pmid 6145160?>6145160 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="308" pm="."><plain>HoerlA. </plain></SENT>
+<SENT sid="309" pm="."><plain>E.KennardR. </plain></SENT>
+<SENT sid="310" pm="."><plain>W. (1970). Ridge regression–biased estimation for nonorthogonal problems. Technometrics 12, 55–67 10.1080/00401706.1970.10488634 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="311" pm="."><plain>JasinschiR.RosenfeldA.SumiK. (1992). Perceptual motion transparency: the role of geometrical information. J. </plain></SENT>
+<SENT sid="312" pm="."><plain>Opt. </plain></SENT>
+<SENT sid="313" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="314" pm="."><plain>Am. 9, 1865–1879 10.1364/JOSAA.9.001865 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="315" pm="."><plain>JohnstonA.BentonC. </plain></SENT>
+<SENT sid="316" pm="."><plain>P.McOwanP. </plain></SENT>
+<SENT sid="317" pm="."><plain>W. (1999a). Induced motion at texture-defined motion boundaries. Proc. </plain></SENT>
+<SENT sid="318" pm="."><plain>R. </plain></SENT>
+<SENT sid="319" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="320" pm="."><plain>Lond. </plain></SENT>
+<SENT sid="321" pm="."><plain>B 266, 2441–2450 10.1098/rspb.1999.0944<?supplied-pmid 10643088?>10643088 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="322" pm="."><plain>JohnstonA.McOwanP. </plain></SENT>
+<SENT sid="323" pm="."><plain>W.BentonC. </plain></SENT>
+<SENT sid="324" pm="."><plain>P. (1999b). Robust velocity computation from a biologically motivated model of motion perception. Proc. </plain></SENT>
+<SENT sid="325" pm="."><plain>R. </plain></SENT>
+<SENT sid="326" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="327" pm="."><plain>Lond. </plain></SENT>
+<SENT sid="328" pm="."><plain>B 266, 509–518 10.1098/rspb.1999.0666 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="329" pm="."><plain>JohnstonA.CliffordC. </plain></SENT>
+<SENT sid="330" pm="."><plain>W. (1995). A unified account of three apparent motion illusions. Vision Res. 35, 1109–1123 10.1016/0042-6989(94)00175-L<?supplied-pmid 7762166?>7762166 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="331" pm="."><plain>JohnstonA.McOwanP. </plain></SENT>
+<SENT sid="332" pm="."><plain>W.BentonC. </plain></SENT>
+<SENT sid="333" pm="."><plain>P. (2003). Biological computation of image motion from flows over boundaries. J. </plain></SENT>
+<SENT sid="334" pm="."><plain>Physiol. </plain></SENT>
+<SENT sid="335" pm="."><plain>Paris 97, 325–334 10.1016/j.jphysparis.2003.09.016<?supplied-pmid 14766148?>14766148 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="336" pm="."><plain>KleinerM.BrainardD.PelliD. (2007). What's new in Psychtoolbox-3. Perception 36, 14 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="337" pm="."><plain>LagaeL.RaiguelS.OrbanG. </plain></SENT>
+<SENT sid="338" pm="."><plain>A. (1993). Speed and direction selectivity of macaque middle temporal neurones. J. </plain></SENT>
+<SENT sid="339" pm="."><plain>Neurophysiol. 69, 19–39 <?supplied-pmid 8433131?>8433131 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="340" pm="."><plain>LeeA. </plain></SENT>
+<SENT sid="341" pm="."><plain>L.LuH. (2010). A comparison of global motion perception using a multiple-aperture stimulus. J. </plain></SENT>
+<SENT sid="342" pm="."><plain>Vis. 10, 1–16 <?supplied-pmid 20465329?>20465329 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="343" pm="."><plain>LucasB. </plain></SENT>
+<SENT sid="344" pm="."><plain>D.KanadeT. (1981). An iterative image registration technique with an application to stereo vision, in Proceedings of the 7th International Joint Conference on Artificial Intelligence, (Vancouver, BC), 674–679 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="345" pm="."><plain>MajajN. </plain></SENT>
+<SENT sid="346" pm="."><plain>J.CarandiniM.MovshonJ. </plain></SENT>
+<SENT sid="347" pm="."><plain>A. (2007). Motion integration by neurons in macaque MT is local, not global. J. </plain></SENT>
+<SENT sid="348" pm="."><plain>Neurosci. 27, 366–370 10.1523/JNEUROSCI.3183-06.2007<?supplied-pmid 17215397?>17215397 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="349" pm="."><plain>MaruyaK.AmanoK.NishidaS. (2010). Conditional spatial-frequency selective pooling of one-dimensional motion signals into global two-dimensional motion. Vision Res. 50, 1054–1064 10.1016/j.visres.2010.03.016<?supplied-pmid 20353800?>20353800 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="350" pm="."><plain>MikamiA.NewsomeW. </plain></SENT>
+<SENT sid="351" pm="."><plain>T.WurtzR. </plain></SENT>
+<SENT sid="352" pm="."><plain>H. (1986). Motion selectivity in Macaque visual cortex I. </plain></SENT>
+<SENT sid="353" pm="."><plain>Mechanisms of direction and speed selectivity in extrastriate area MT. J. </plain></SENT>
+<SENT sid="354" pm="."><plain>Neurophysiol. 55, 1308–1327 <?supplied-pmid 3016210?>3016210 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="355" pm="."><plain>MingollaE.ToddJ. </plain></SENT>
+<SENT sid="356" pm="."><plain>T.NormanJ. </plain></SENT>
+<SENT sid="357" pm="."><plain>F. (1992). The perception of globally coherent motion. Vision Res. 32, 1015–1032 10.1016/0042-6989(92)90003-2<?supplied-pmid 1509693?>1509693 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="358" pm="."><plain>NoverH.AndersonC. </plain></SENT>
+<SENT sid="359" pm="."><plain>H.DeangelisG. </plain></SENT>
+<SENT sid="360" pm="."><plain>C. (2005). A logarithmic, scale-invariant representation of speed in macaque middle temporal area accounts for speed discrimination performance. J. </plain></SENT>
+<SENT sid="361" pm="."><plain>Neurosci. 25, 10049–10060 10.1523/JNEUROSCI.1661-05.2005<?supplied-pmid 16251454?>16251454 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="362" pm="."><plain>PalancaB. </plain></SENT>
+<SENT sid="363" pm="."><plain>J.DeangelisG. </plain></SENT>
+<SENT sid="364" pm="."><plain>C. (2003). Macaque middle temporal neurons signal depth in the absence of motion. J. </plain></SENT>
+<SENT sid="365" pm="."><plain>Neurosci. 23, 7647–7658 <?supplied-pmid 12930804?>12930804 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="366" pm="."><plain>RiderA. </plain></SENT>
+<SENT sid="367" pm="."><plain>T.McOwanP. </plain></SENT>
+<SENT sid="368" pm="."><plain>W.JohnstonA. (2009). Motion-induced position shifts in global dynamic Gabor arrays. J. </plain></SENT>
+<SENT sid="369" pm="."><plain>Vis. 9, 1–8 10.1167/9.13.8<?supplied-pmid 20055541?>20055541 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="370" pm="."><plain>RodmanH. </plain></SENT>
+<SENT sid="371" pm="."><plain>R.AlbrightT. </plain></SENT>
+<SENT sid="372" pm="."><plain>D. (1987). Coding of stimulus velocity in area MT of the macaque. Vision Res. 27, 2035–2048 10.1016/0042-6989(87)90118-0<?supplied-pmid 3447355?>3447355 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="373" pm="."><plain>ScarfeP.JohnstonA. (2010). Motion drag induced by global motion Gabor arrays. J. </plain></SENT>
+<SENT sid="374" pm="."><plain>Vis. 10, 14 10.1167/10.5.14<?supplied-pmid 20616138?>20616138 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="375" pm="."><plain>ScarfeP.JohnstonA. (2011). Global motion coherence can influence the representation of ambiguous local motion. J. </plain></SENT>
+<SENT sid="376" pm="."><plain>Vis. 11, 6 10.1167/11.12.6<?supplied-pmid 21997477?>21997477 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="377" pm="."><plain>SimoncelliE. </plain></SENT>
+<SENT sid="378" pm="."><plain>P.HeegerD. </plain></SENT>
+<SENT sid="379" pm="."><plain>J. (1998). A model of neuronal responses in visual area MT. Vision Res. 38, 743–762 10.1016/S0042-6989(97)00183-1<?supplied-pmid 9604103?>9604103 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="380" pm="."><plain>SmithA. </plain></SENT>
+<SENT sid="381" pm="."><plain>T.EdgarG. </plain></SENT>
+<SENT sid="382" pm="."><plain>K. (1991). Perceived speed and direction of complex gratings and plaids. J. </plain></SENT>
+<SENT sid="383" pm="."><plain>Opt. </plain></SENT>
+<SENT sid="384" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="385" pm="."><plain>Am. </plain></SENT>
+<SENT sid="386" pm="."><plain>A 8, 1161–1171 10.1364/JOSAA.8.001161<?supplied-pmid 1886008?>1886008 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="387" pm="."><plain>SnowdenR. </plain></SENT>
+<SENT sid="388" pm="."><plain>J.HessR. </plain></SENT>
+<SENT sid="389" pm="."><plain>F. (1992). Temporal frequency filters in the human peripheral visual field. Vision Res. 32, 61–72 10.1016/0042-6989(92)90113-W<?supplied-pmid 1502812?>1502812 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="390" pm="."><plain>StoneL. </plain></SENT>
+<SENT sid="391" pm="."><plain>S.WatsonA. </plain></SENT>
+<SENT sid="392" pm="."><plain>B.MulliganJ. </plain></SENT>
+<SENT sid="393" pm="."><plain>B. (1990). Effect of contrast on the perceived direction of a moving plaid. Vision Res. 30, 1049–1067 10.1016/0042-6989(90)90114-Z<?supplied-pmid 2392834?>2392834 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="394" pm="."><plain>VerstratenF. </plain></SENT>
+<SENT sid="395" pm="."><plain>A.FredericksenR. </plain></SENT>
+<SENT sid="396" pm="."><plain>E.Van De GrindW. </plain></SENT>
+<SENT sid="397" pm="."><plain>A. (1994). Movement aftereffect of bi-vectorial transparent motion. Vision Res. 34, 349–358 10.1016/0042-6989(94)90093-0<?supplied-pmid 8160370?>8160370 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="398" pm="."><plain>WallachH. (1935). Ueber visuell wahrgenommene Bewegungrichtung. Psychol. </plain></SENT>
+<SENT sid="399" pm="."><plain>Forsch. 20, 325–380 10.1007/BF02409790 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="400" pm="."><plain>WeissY.SimoncelliE. </plain></SENT>
+<SENT sid="401" pm="."><plain>P.AdelsonE. </plain></SENT>
+<SENT sid="402" pm="."><plain>H. (2002). Motion illusions as optimal percepts. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="403" pm="."><plain>Neurosci. 5, 598–604 10.1038/nn0602-858<?supplied-pmid 12021763?>12021763 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="404" pm="."><plain>WichmannF. </plain></SENT>
+<SENT sid="405" pm="."><plain>A.HillN. </plain></SENT>
+<SENT sid="406" pm="."><plain>J. (2001a). The psychometric function: I. </plain></SENT>
+<SENT sid="407" pm="."><plain>Fitting, sampling, and goodness of fit. Percept. </plain></SENT>
+<SENT sid="408" pm="."><plain>Psychophys. 63, 1293–1313 10.3758/BF03194544<?supplied-pmid 11800458?>11800458 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="409" pm="."><plain>WichmannF. </plain></SENT>
+<SENT sid="410" pm="."><plain>A.HillN. </plain></SENT>
+<SENT sid="411" pm="."><plain>J. (2001b). The psychometric function: II. </plain></SENT>
+<SENT sid="412" pm="."><plain>Bootstrap-based confidence intervals and sampling. Percept. </plain></SENT>
+<SENT sid="413" pm="."><plain>Psychophys. 63, 1314–1329 10.3758/BF03194545<?supplied-pmid 11800459?>11800459 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="414" pm="."><plain>YoC.WilsonH. </plain></SENT>
+<SENT sid="415" pm="."><plain>R. (1992). Perceived direction of moving two-dimensional patterns depends on duration, contrast and eccentricity. Vision Res. 32, 135–147 10.1016/0042-6989(92)90121-X<?supplied-pmid 1502799?>1502799 </plain></SENT>
+</text></ref></ref-list></SecTag><SecTag type="APPENDIX"><app-group><app id="A1"><title>Appendix</title><p>Let us describe, in velocity space, a set of <italic>k</italic> local velocity vectors, <bold>p</bold>, arising from the rigid motion of an object, with Cartesian components (<italic>u</italic><sub>i</sub><sup>−1</sup>, <italic>v</italic><sub>i</sub><sup>−1</sup>), and a global vector, the IOC solution, <bold>IOC</bold>, which we want to find (Figure <xref ref-type="fig" rid="F1">1B</xref>). The vector <bold>p</bold>′ is the set of inversions in the unit circle of the vectors in <bold>p</bold>, with components (<italic>u</italic><sub>i</sub>, <italic>v</italic><sub>i</sub>). We can write an over determined set of equations each of which expresses the relation that the inner product of <bold>ioc</bold> with each of the local velocity vectors in <bold>p</bold>′ is equal to one. The inner product of each <italic>p</italic>′<sub><italic>i</italic></sub> with <bold>ioc</bold> gives the component of the sample vector in the <bold>ioc</bold> direction. The <bold>ioc</bold> vector has the squared magnitude |<bold>ioc</bold>|<sup>2</sup>. Therefore, equating the inner products to one, <italic>n</italic><sub><italic>i</italic></sub> = 1, has the effect of inverting the <bold>ioc</bold> vector (dividing <bold>ioc</bold> by |<bold>ioc</bold>|<sup>2</sup>) to give the <bold>IOC</bold> vector which lies on the circle through the origin.
+<disp-formula id="E5"><label>(1)</label><mml:math id="M5"><mml:mrow><mml:mtable columnalign="left"><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:msup><mml:mi>p</mml:mi><mml:mo>′</mml:mo></mml:msup><mml:mn>1</mml:mn></mml:msub><mml:mo>·</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>I</mml:mi><mml:mi>O</mml:mi><mml:mi>C</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:msup><mml:mi>p</mml:mi><mml:mo>′</mml:mo></mml:msup><mml:mn>2</mml:mn></mml:msub><mml:mo>·</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>I</mml:mi><mml:mi>O</mml:mi><mml:mi>C</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mo>⋮</mml:mo></mml:mtd></mml:mtr><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:msup><mml:mi>p</mml:mi><mml:mo>′</mml:mo></mml:msup><mml:mi>k</mml:mi></mml:msub><mml:mo>·</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>I</mml:mi><mml:mi>O</mml:mi><mml:mi>C</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula>
+solving for <bold>IOC</bold> we have
+<disp-formula id="E6"><label>(2)</label><mml:math id="M6"><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>I</mml:mi><mml:mi>O</mml:mi><mml:mi>C</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle><mml:mtext>  </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle><mml:mtext>  </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>n</mml:mi></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>n</mml:mi></mml:mstyle></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula></p><p>Although we use matrix inversion here for convenience, the <bold>IOC</bold> could be found with other methods, which do not require an explicit matrix inversion, such as the method based on Cramer's rule.</p><p>Note that the vector, <inline-formula><mml:math id="M7"><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>n</mml:mi></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle><mml:mtext> </mml:mtext><mml:mo>·</mml:mo><mml:mtext> </mml:mtext><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>n</mml:mi></mml:mstyle></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>, is the sum of inverted vectors <inline-formula><mml:math id="M8"><mml:mrow><mml:msubsup><mml:mi>p</mml:mi><mml:mi>i</mml:mi><mml:mo>′</mml:mo></mml:msubsup><mml:mo>,</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle></mml:mstyle></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>, and the inversion of its mean (hva) is the harmonic vector average (<bold>HVA</bold>),
+<disp-formula id="E7"><label>(3)</label><mml:math id="M9"><mml:mrow><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>H</mml:mi><mml:mi>V</mml:mi><mml:mi>A</mml:mi></mml:mstyle><mml:mo>=</mml:mo><mml:mfrac><mml:mi>k</mml:mi><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle></mml:mstyle></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mtext> </mml:mtext><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>u</mml:mi></mml:mstyle></mml:mstyle></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mstyle displaystyle="true"><mml:mo>∑</mml:mo><mml:mstyle mathvariant="bold" mathsize="normal"><mml:mi>v</mml:mi></mml:mstyle></mml:mstyle></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:math></disp-formula></p></app></app-group></SecTag></back></article>

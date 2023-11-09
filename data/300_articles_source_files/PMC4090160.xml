@@ -1,0 +1,854 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4090160</article-id><article-id pub-id-type="pmid">25007266</article-id><article-id pub-id-type="publisher-id">PONE-D-13-54193</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0101934</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine and Health Sciences</subject><subj-group><subject>Epidemiology</subject></subj-group><subj-group><subject>Health Care</subject><subj-group><subject>Health Care Policy</subject><subj-group><subject>Drug Policy</subject></subj-group></subj-group></subj-group><subj-group><subject>Public and Occupational Health</subject><subj-group><subject>Behavioral and Social Aspects of Health</subject><subject>Global Health</subject><subject>Tobacco Control</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Research and Analysis Methods</subject><subj-group><subject>Research Design</subject><subj-group><subject>Survey Research</subject><subj-group><subject>Survey Methods</subject></subj-group></subj-group><subj-group><subject>Clinical Research Design</subject><subject>Cohort Studies</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Patterns and Predictors of Smokeless Tobacco Use among Adults in Bangladesh: Findings from the International Tobacco Control (ITC) Bangladesh Survey </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Smokeless Tobacco Use in Bangladeshi Adults</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Abdullah</surname><given-names>Abu S.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Driezen</surname><given-names>Pete</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Ruthbah</surname><given-names>Ummul H.</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Nargis</surname><given-names>Nigar</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Quah</surname><given-names>Anne C. K.</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Fong</surname><given-names>Geoffrey T.</given-names></name><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Boston University School of Medicine, Boston Medical Center, Boston, Massachusetts, United States of America</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>School of Public Health, Guangxi Medical University, Nanning, China</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Propel Centre for Population Health Impact, University of Waterloo, Waterloo, Ontario, Canada</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<addr-line>Department of Economics, University of Dhaka, Dhaka, Bangladesh</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<addr-line>World Health Organization, Geneva, Switzerland</addr-line>
+</aff><aff id="aff6">
+<label>6</label>
+<addr-line>Department of Psychology, University of Waterloo, Waterloo, Ontario, Canada</addr-line>
+</aff><aff id="aff7">
+<label>7</label>
+<addr-line>Ontario Institute for Cancer Research, Toronto, Ontario, Canada</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Bullen</surname><given-names>Chris</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>The University of Auckland, New Zealand</addr-line>
+</aff><author-notes><corresp id="cor1">* E-mail: <email>asm.abdullah@graduate.hku.hk</email></corresp><fn fn-type="COI-statement"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: <z:uniprot sup="inside" fb="126" ids="Q08DD1,P15289,P50428">ASA</z:uniprot> PD NN GTF. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: NN UHR ACKQ. </plain></SENT>
+<SENT sid="4" pm="."><plain>Analyzed the data: PD <z:uniprot sup="inside" fb="126" ids="Q08DD1,P15289,P50428">ASA</z:uniprot>. </plain></SENT>
+<SENT sid="5" pm="."><plain>Wrote the paper: <z:uniprot sup="inside" fb="126" ids="Q08DD1,P15289,P50428">ASA</z:uniprot> PD NN GTF. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2014</year></pub-date><pub-date pub-type="epub"><day>9</day><month>7</month><year>2014</year></pub-date><volume>9</volume><issue>7</issue><elocation-id>e101934</elocation-id><history><date date-type="received"><day>22</day><month>12</month><year>2013</year></date><date date-type="accepted"><day>13</day><month>6</month><year>2014</year></date></history><permissions><copyright-statement>© 2014 Abdullah et al</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>Abdullah et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title><text><SENT sid="6" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Although smokeless tobacco (<z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>) use is prevalent in South Asian countries including Bangladesh, information about the pattern and correlates of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use is scarce. </plain></SENT>
+<SENT sid="8" pm="."><plain>This study described the pattern and predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among Bangladeshi adults. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="9" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="10" pm="."><plain>The data for this study were derived from the International Tobacco Control Policy Evaluation Bangladesh (ITC BD) Survey, a prospective cohort survey of a nationally representative sample of smokers and non-smokers, conducted during November 2011 and May 2012. </plain></SENT>
+<SENT sid="11" pm="."><plain>The study included 5522 adults aged 15 or above. </plain></SENT>
+<SENT sid="12" pm="."><plain>We used multiple logistic regression models to identify predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="13" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="14" pm="."><plain>Of the respondents (N = 5522), 20% were <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users. </plain></SENT>
+<SENT sid="15" pm="."><plain>In general, <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use was significantly higher among women, the illiterate and residents of the Dhaka slums or non-tribal/non-border areas outside Dhaka; <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use increased with age. </plain></SENT>
+<SENT sid="16" pm="."><plain>Several attitudinal factors were also associated with <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="17" pm="."><plain>Multivariable logistic regression analyses revealed several predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use: being female (OR = 1.96, 95% confidence interval, CI: 1.18–3.24), an increasing age, being a resident of a Dhaka slum (OR = 5.86; 95% CI: 3.73–9.21) or non-tribal/non-border areas outside Dhaka (OR = 3.42; 95% CI: 1.94–6.03), being illiterate (OR = 3.37; 95% CI: 1.99–5.71), holding positive opinion towards societal approval of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use (OR = 5.84; 95% CI: 3.38–10.09), holding positive opinion towards <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use by women (OR = 2.63; 95% CI: 1.53–4.54), believing that <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is addictive (OR = 2.96; 95% CI: 1.51–5.81), and believing <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is less harmful than bidi (OR = 2.22; 95% CI: 1.36–3.62). </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="18" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="19" pm="."><plain>The findings suggest that coordinated efforts of governmental and non-governmental organizations, targeting both smoked tobacco and <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use reduction and cessation, could be modified to reach each level of population including those who are marginalized, female, less educated and elderly. </plain></SENT>
+<SENT sid="20" pm="."><plain>As most tobacco control programs in Bangladesh target mainly cigarette or bidi smoking, coordinated programs are needed that will also include <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use within the tobacco control policy and prevention strategies. </plain></SENT>
+</text></SecTag></p></sec></abstract><funding-group><funding-statement>The ITC Bangladesh Project was supported by the International Development Research Centre (IDRC Grant 104831-002), Canadian Institutes for Health Research (Operating Grants 79551 and 115016), the US National Cancer Institute (P01 CA138389). Geoffrey T. Fong was supported by a Senior Investigator Award from Ontario Institute for Cancer Research and by a Prevention Scientist Award from the Canadian Cancer Research Institute. Abu S. Abdullah was supported by a Clinical Innovator Award from the Flight Attendant Medical Research Institute, USA through a grant to the American Academy of Pediatrics (AAP) Julius B. Richmond Center. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="9"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="21" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="22" pm="."><plain>Smokeless tobacco (<z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>), a general term used in the United States for chewing tobacco and oral snuff products [1] refers to those indigenous smokeless tobacco products that are most frequently used in South Asia, including but not limited to paan, paan masala, zarda, betel quid with tobacco, and gutka [2], [3]. </plain></SENT>
+<SENT sid="23" pm="."><plain><z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> can cause oral cancer [4], [5] and nicotine addiction [6] and is associated with several other health conditions including oral pain [7], cardiovascular diseases [8], hypertension [9], diabetes [10], loss in bone density [11], and problems during pregnancy and following childbirth [12]. </plain></SENT>
+<SENT sid="24" pm="."><plain>Of the estimated 300 million <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users globally, 27 million are Bangladeshi adults [13]. </plain></SENT>
+<SENT sid="25" pm="."><plain>The World Health Organization (WHO) estimated that 57,000 people die each year from tobacco-attributable (almost all of it in the form of cigarette smoking) diseases in Bangladesh [14]. </plain></SENT>
+<SENT sid="26" pm="."><plain>In a recent study, Alam et al. reported 25% of all deaths in Bangladeshi men aged 25 to 69 years are attributable to cigarette smoking [15]. </plain></SENT>
+<SENT sid="27" pm="."><plain>These mortality rates underestimate total mortality attributable to tobacco because many Bangladeshi men and women use smokeless tobacco [16]. </plain></SENT>
+<SENT sid="28" pm="."><plain>However, these mortality rates provide an estimate of the bigger public health problem associated with tobacco and smokeless tobacco use in Bangladesh – the world’s seventh most populous nation with a population of 150 million. </plain></SENT>
+<SENT sid="29" pm="."><plain>The total cost of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>-associated diseases in India was US$389 million in 2004 [17], suggesting a high economic burden from <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use in Bangladesh too. </plain></SENT>
+<SENT sid="30" pm="."><plain>These health and economic consequences underscore the need for urgent public health action to avert the tobacco and <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>-attributable morbidity and mortality in Bangladesh. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>Bangladesh has a long history of tobacco use and a variety of ways in which tobacco is smoked and smokeless tobacco is used [18]. </plain></SENT>
+<SENT sid="32" pm="."><plain>The limited data that are available on <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use in Bangladesh indicate an increasing trend in both male and female adults (aged 15 and above). </plain></SENT>
+<SENT sid="33" pm="."><plain><z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use has increased from 19.7% (14.8% male and 24.4% female) in 2004 [19] to 27.2% (26.4% male and 27.9% female) in 2009 [16]. </plain></SENT>
+<SENT sid="34" pm="."><plain>By converting these percentages in numbers, we can estimate that the number of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users increased by 9 million in five years (from 17.3 million to 25.9 million). </plain></SENT>
+<SENT sid="35" pm="."><plain>Historically, prevalence of smokeless tobacco use is greater among women than among men. </plain></SENT>
+<SENT sid="36" pm="."><plain>However, the growth in <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use was greater among men during this period. </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>While these nationally representative prevalence data on <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use illustrate the magnitude of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use in Bangladesh, the socio-demographic, environmental and behavioral level predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use are poorly understood. </plain></SENT>
+<SENT sid="38" pm="."><plain>A case-control study of 704 SLT users examined respondents’ perceptions and experiences of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use and reported associated factors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use: older age, women, widowed, less educated, housewives, and lower socioeconomic status [20]. </plain></SENT>
+<SENT sid="39" pm="."><plain>However, this study was conducted among hospital patients and in an urban setting, limiting it’s representativeness at the national level. </plain></SENT>
+<SENT sid="40" pm="."><plain>There has been no comprehensive study on the pattern of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, the determinants of usage or on the correlation between <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use and smoked tobacco in Bangladesh. </plain></SENT>
+<SENT sid="41" pm="."><plain>Given the paucity of such data on <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use in Bangladesh, this study examined the patterns and predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among Bangladeshi adults by using data from the Wave 3 International Tobacco Control (ITC) Policy Evaluation Bangladesh Project. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods" id="s2"><title><text><SENT sid="42" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="43" pm="."><plain>Data source </plain></SENT>
+</text></title><p><text><SENT sid="44" pm="."><plain>Data analysed in this paper came from the Wave 3 ITC Bangladesh (ITC BD) Survey conducted between November 2011 and May 2012. </plain></SENT>
+<SENT sid="45" pm="."><plain>A detailed description of the ITC BD Survey can be found elsewhere [21]–[23]. </plain></SENT>
+<SENT sid="46" pm="."><plain>Briefly, the ITC BD Survey is a prospective cohort survey of a nationally representative sample of tobacco users and non-users conducted in all six administrative divisions of Bangladesh: Barisal, Chittagong, Dhaka, Khulna, Rajshahi, and Sylhet. </plain></SENT>
+<SENT sid="47" pm="."><plain>The target population of the ITC BD Survey consists of users and non-users of tobacco who are 15 years or older. </plain></SENT>
+<SENT sid="48" pm="."><plain>The Wave 1 survey was conducted in 2009 using a multi-stage probability sampling design. </plain></SENT>
+<SENT sid="49" pm="."><plain>The total sample consisted of two sub-samples: a national sample designed to represent the population of Bangladesh and an urban slum sample, designed to represent the urban poor population of Dhaka. </plain></SENT>
+<SENT sid="50" pm="."><plain>The national sample selected 23 of the 64 districts covering Bangladesh with probability proportional to population size. </plain></SENT>
+<SENT sid="51" pm="."><plain>Another three districts were chosen purposively to include the tribal populations (Garo and Chakma) and a border district between India and Bangladesh. </plain></SENT>
+<SENT sid="52" pm="."><plain>Within randomly selected districts, two upazilas and two villages within upazila were randomly selected, again with probability proportional to population size. </plain></SENT>
+<SENT sid="53" pm="."><plain>A total of 80 villages were selected for the national subsample. </plain></SENT>
+<SENT sid="54" pm="."><plain>Villages contained 300–600 households; a maximum of 450 households per village were enumerated. </plain></SENT>
+<SENT sid="55" pm="."><plain>Households from the enumeration were randomly selected to participate in the Wave 1 survey. </plain></SENT>
+<SENT sid="56" pm="."><plain>The use of a multi-stage probability sampling design guarantees that, in the sense of the theory of probability sampling, the sample is geographically representative of the Bangladesh population. </plain></SENT>
+</text></p><p><text><SENT sid="57" pm="."><plain>Household enumeration was conducted to determine basic sociodemographic information of household members as well as tobacco use status of all household members aged 15 or older. </plain></SENT>
+<SENT sid="58" pm="."><plain>Based on the enumeration survey, households were classified into socioeconomic tertiles using a CASHPOR Housing Index. </plain></SENT>
+<SENT sid="59" pm="."><plain>Within each tertile, 10 households having at least one smoker and three households having all non-smokers were randomly chosen to participate in the survey and approached to be interviewed; households that did not respond were replaced. </plain></SENT>
+<SENT sid="60" pm="."><plain>A total of 31,137 households were enumerated in Wave 1, containing 92,853 adults. </plain></SENT>
+<SENT sid="61" pm="."><plain>Of those enumerated, 2000 households were randomly selected for the main survey. </plain></SENT>
+<SENT sid="62" pm="."><plain>One randomly selected adult was interviewed in non-smoking households. </plain></SENT>
+<SENT sid="63" pm="."><plain>In smoker households, all available smokers were selected along with one randomly selected non-smoker. </plain></SENT>
+</text></p><p><text><SENT sid="64" pm="."><plain>In the urban slum subsample, 552 households were selected from six urban slums within the city of Dhaka and its surrounding areas. </plain></SENT>
+<SENT sid="65" pm="."><plain>Unlike the national sample, the urban slum sample was designed as a cross-sectional survey due to the insecure nature of housing arrangements in urban slums. </plain></SENT>
+<SENT sid="66" pm="."><plain>In each of the slums, a random starting point was identified and all households in a row were interviewed until the designated number of households for that area had been interviewed. </plain></SENT>
+<SENT sid="67" pm="."><plain>One non-smoker was randomly selected to be interviewed in each household along with all smokers. </plain></SENT>
+</text></p><p><text><SENT sid="68" pm="."><plain>Sampling weights were computed for all respondents so that the final sample is broadly representative of the Bangladesh population of adults aged 15 or older. </plain></SENT>
+<SENT sid="69" pm="."><plain>Sampling weights were calibrated to population estimates within predefined geographic and demographic groups (see Wave 1 technical report for more information about the construction of sampling weights). </plain></SENT>
+</text></p><p><text><SENT sid="70" pm="."><plain>In Wave 1, 5,771 respondents were interviewed: 1137 were from the urban slums, 256 were from tribal &amp; border areas, 598 were from the city of Dhaka and 3780 were from areas outside the city of Dhaka. </plain></SENT>
+<SENT sid="71" pm="."><plain>Of the 5,771 respondents, 3111 were smokers and 2660 were non-smokers. </plain></SENT>
+<SENT sid="72" pm="."><plain>In Waves 2 and 3, respondents lost to attrition were replaced with newly randomly selected respondents, using the frame of households enumerated in Wave 1. </plain></SENT>
+<SENT sid="73" pm="."><plain>Retention rates were very high from Wave 1 to Wave 2 and from Wave 2 to Wave 3 in the national and purposive samples. </plain></SENT>
+<SENT sid="74" pm="."><plain>Overall, 94% of Wave 1 respondents (not from the urban slums) were re-contacted in Wave 2 while 90% of Wave 2 respondents were re-contacted in Wave 3. </plain></SENT>
+<SENT sid="75" pm="."><plain>None of the Wave 1 slum subsample was followed to Wave 3 so that in Wave 3, 1055 new respondents were recruited to participate in the Wave 3 survey using the same sampling protocol followed in Wave 1 for the slum subsample. </plain></SENT>
+</text></p><p><text><SENT sid="76" pm="."><plain>Data were collected using face-to-face interviews. </plain></SENT>
+<SENT sid="77" pm="."><plain>Sampling weights were computed so that results are representative of the Bangladeshi adult population (15 and older). </plain></SENT>
+</text></p><p><text><SENT sid="78" pm="."><plain>In all the waves, written consent was obtained from those respondents who can read and write; others gave consent with fingertips. </plain></SENT>
+<SENT sid="79" pm="."><plain>Ethical approval was obtained from the Office of Research Ethics at the University of Waterloo (Waterloo, Canada) (Number. </plain></SENT>
+<SENT sid="80" pm="."><plain>15019, dated October 03, 2008), and the Ethical Review Committee, Bangladesh Medical Research Council (Number: BMRC/ERC/2007–2010/1372; dated February 19, 2009). </plain></SENT>
+</text></p></sec><sec id="s2b"><title><text><SENT sid="81" pm="."><plain>Measures </plain></SENT>
+</text></title><p><text><SENT sid="82" pm="."><plain>A standardized Bengali questionnaire was used for data collection. </plain></SENT>
+<SENT sid="83" pm="."><plain>Details of the questionnaire are described elsewhere [22]. </plain></SENT>
+<SENT sid="84" pm="."><plain>Briefly, the questionnaire obtained information on the subject’s socio-demographic background (sex, age, religion, residence (Dhaka non-slum, Dhaka slums, non-tribal/non-border areas outside Dhaka and tribal/border areas), marital status, educational attainment, personal monthly income), whether there are any children (aged 14 or below) at home, smoking behavior (non-smoker, exclusively cigarette smokers, exclusively bidi smokers, dual users), use of any smokeless tobacco (<z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>), and any other smokers or <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users at home. </plain></SENT>
+<SENT sid="85" pm="."><plain><z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users were those who answered “yes” to the following question: “Do you currently use any smokeless tobacco products at least once a week?” </plain></SENT>
+</text></p><p><text><SENT sid="86" pm="."><plain>Knowledge of the health consequences of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use was also assessed, along with attitudes towards <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="87" pm="."><plain>To measure knowledge of the health consequences of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, respondents were asked: “Based on what you know or believe, does <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> cause…?” Respondents were then read a list of three diseases or conditions (mouth cancer, gum disease, difficulty to open mouth). </plain></SENT>
+<SENT sid="88" pm="."><plain>To measure attitudes towards <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, respondents were asked whether they believe <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is addictive (with response categories of “strongly agree, agree, neutral, disagree, strongly disagree”), whether <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is less harmful than cigarettes or bidi (with response categories of “less harmful, more harmful and no difference”). </plain></SENT>
+<SENT sid="89" pm="."><plain>Respondents were also asked about societal attitudes (with response categories of “approve, neutral, disapprove”), whether <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is acceptable for women (with response categories of “strongly agree, agree, neutral, disagree, strongly disagree”), and their overall opinion about <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use (with response categories of “very good, good, neutral, bad, very bad”). </plain></SENT>
+</text></p></sec><sec id="s2c"><title><text><SENT sid="90" pm="."><plain>Analyses </plain></SENT>
+</text></title><p><text><SENT sid="91" pm="."><plain>The analysis presented here uses descriptive statistics appropriate for complex survey data to estimate the prevalence of current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among Bangladeshi adults. </plain></SENT>
+<SENT sid="92" pm="."><plain>Differences in the prevalence of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use across socio-demographic categories and by attitudes toward <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use were tested using the Rao-Scott chi square test. </plain></SENT>
+<SENT sid="93" pm="."><plain>A logistic regression model then examined predictors of current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="94" pm="."><plain>Initial predictors were selected on the basis of the bivariate associations tested with the Rao-Scott chi square test. </plain></SENT>
+<SENT sid="95" pm="."><plain>A backward elimination procedure was conducted within a logistic regression model to select covariates related to current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, using a p-value for inclusion of 0.05 or below. </plain></SENT>
+<SENT sid="96" pm="."><plain>Variables used in construction of the sampling weights (sex, smoking status, and area of residence) were forced into this model to reduce biases in the other coefficients. </plain></SENT>
+<SENT sid="97" pm="."><plain>The final selected model was refit with a weighted logistic regression model that accounts for the stratified multi-stage survey design. </plain></SENT>
+<SENT sid="98" pm="."><plain>The analysis was conducted using the complex survey routines (PROC SURVEYFREQ and PROC SURVEYLOGISTIC) available in SAS Version 9.3 to account for the stratified multi-stage survey design. </plain></SENT>
+<SENT sid="99" pm="."><plain>The only exception to this was the analysis conducted for the selection of predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, which was run using PROC LOGISTIC. </plain></SENT>
+<SENT sid="100" pm="."><plain>Unless otherwise indicated, all results presented in this paper are weighted. </plain></SENT>
+<SENT sid="101" pm="."><plain>In each case, an unweighted analysis was also conducted; since there were no appreciable differences between the two sets of results, only the weighted results are reported here. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="s3"><title><text><SENT sid="102" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s3a"><title><text><SENT sid="103" pm="."><plain>Sample characteristics </plain></SENT>
+</text></title><p><text><SENT sid="104" pm="."><plain>A total of 5522 respondents were interviewed in the Wave 3 of ITC BD Survey; 72% were recruited in Wave 1 (Table 1). </plain></SENT>
+<SENT sid="105" pm="."><plain>Overall, two-thirds (66.4%) of the sample was from non-tribal, non-border areas outside Dhaka and a greater proportion (59.6%) of the sample was male. </plain></SENT>
+<SENT sid="106" pm="."><plain>Most respondents were married (82.1%), Muslim (83.3%), and had at least one child in their home who was 14 years of age or younger (72.6%). </plain></SENT>
+<SENT sid="107" pm="."><plain>Of the respondents, 36% were non-smokers and 20% were current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users (Table 1). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0101934-t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0101934.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="108" pm="."><plain>Characteristics of the ITC Bangladesh Wave 3 sample (unweighted), Bangladesh 2011 (N = 5522). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0101934-t001-1" xlink:href="pone.0101934.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>Frequency# </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>% </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="111" pm="."><plain>Wave of recruitment </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>Wave 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>3954 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>71.6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>Wave 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>206 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>3.7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>Wave 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>1362 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>24.7 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="121" pm="."><plain>Sampling area </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>Dhaka non-slum sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>557 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>10.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>Dhaka slum sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>1055 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>19.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>Non-tribal, non-border areas outside Dhaka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>3666 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>66.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>Tribal &amp; border areas outside Dhaka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>244 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>4.4 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="134" pm="."><plain>Sex </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>3293 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>59.6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>2229 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>40.4 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="141" pm="."><plain>Age group </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>15–24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>1190 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>21.6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>25–39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>2033 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>36.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>40–54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>1381 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>25.0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>55+ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>918 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>16.6 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="154" pm="."><plain>Marital status </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>Not married </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>984 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>17.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>Married </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>4519 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>82.1 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="161" pm="."><plain>Monthly household income </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>&lt;5000 taka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>497 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>9.0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>5,000 to &lt;10,000 taka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>1995 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>36.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>10,000 taka or more </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>2314 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>41.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>not reported </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>716 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>13.0 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="174" pm="."><plain>Highest level of education </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>Illiterate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>1332 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>24.2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>1 to 8 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>2908 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>52.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>9 years or more </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>1258 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>22.9 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="184" pm="."><plain>Muslim </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>Non-muslim </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>919 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>16.7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>Muslim </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>4570 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>83.3 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="191" pm="."><plain>Any children in home &lt; = 14 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>No children/no children &lt; = 14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>1505 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>27.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>At least one child &lt; = 14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>3987 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>72.6 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="198" pm="."><plain>Any (other) smokers in the home </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>No (other) smokers in the home </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>2175 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>39.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>At least one (other) smoker in the home </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>3347 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>60.6 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="205" pm="."><plain>Anyone (else) uses smokeless tobacco in the home </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>No one (else) uses smokeless tobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>2264 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>41.0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>At least one (other) person uses smokeless tobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>3258 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>59.0 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="212" pm="."><plain>Tobacco use status </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>Exclusively cigarettes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>1723 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>31.2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>Exclusively bidi </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>267 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>4.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>Dual user* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>207 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>3.7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>Mixed user** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>297 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>5.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>Smokeless </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>781 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>14.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>Quitter </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>242 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>4.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>Nonsmoker </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>2005 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>36.3 </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="234" pm="."><plain>Current smokeless user </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>Does not currently use smokeless tobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>4444 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>80.5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>Current smokeless tobacco user </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>1078 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>19.5 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p><text><SENT sid="241" pm="."><plain>*those who use both cigarettes and bidi; **those who use cigarette, bidi and <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>. </plain></SENT>
+</text></p></fn><fn id="nt102"><label>#</label><p><text><SENT sid="242" pm="."><plain>Due to the missing values, the total may not add up to the same in some variables. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s3b"><title><text><SENT sid="243" pm="."><plain>Pattern of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use </plain></SENT>
+</text></title><p><text><SENT sid="244" pm="."><plain>As shown in Table 2, <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use was significantly higher in women (23.1%) than men (16.5%) and among those who were illiterate (31.9%) than having 1–8 years (21.5%) or 9 or more years (8.6%) of education. </plain></SENT>
+<SENT sid="245" pm="."><plain><z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use increased significantly with age: 36% of adults aged 55 and older used smokeless tobacco compared to only 8.5% of adults younger than 25. </plain></SENT>
+<SENT sid="246" pm="."><plain><z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use was also higher among those who lived in a Dhaka slum (29.9%) and among those living in non-tribal/non-border areas outside of Dhaka (20.3%). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0101934-t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0101934.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="247" pm="."><plain>Smokeless tobacco use by demographic characteristics among Bangladeshi residents (weighted), Bangladesh 2011. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0101934-t002-2" xlink:href="pone.0101934.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td colspan="4" align="left" rowspan="1"/><td colspan="3" align="left" rowspan="1"><text><SENT sid="248" pm="."><plain>Rao-Scott ChiSq Test </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q8BNY6,P62168">Freq</z:uniprot>. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>(95% CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>ChiSq </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>df </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>p value </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="255" pm="."><plain>Sampling area </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>Dhaka non-slum sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>38/557 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>10.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>(8.4, 12.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>42.75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>Dhaka slum sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>304/1055 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>29.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>(27.1, 32.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>Non-tribal, non-borderareas outside Dhaka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>701/3666 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>20.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>(16.7, 24.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>Tribal &amp; border areasoutside Dhaka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>35/244 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>9.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>(4.3, 18.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="275" pm="."><plain>Sex </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>483/3293 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>16.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>(13.0, 20.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>8.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>595/2229 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>23.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>(18.7, 28.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="287" pm="."><plain>Age group </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>15–24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>88/1190 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>8.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>(5.5, 13.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>66.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>25–39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>335/2033 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>18.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>(14.0, 23.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>40–54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>366/1381 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>23.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>(17.9, 30.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>55+ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>289/918 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>36.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>(30.3, 42.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="307" pm="."><plain>Marital status </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>Not married </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>164/984 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>18.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>(12.3, 26.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>0.37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>0.543 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>Married </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>907/4519 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>20.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>(17.0, 23.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="319" pm="."><plain>Monthly household income </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>&lt;5000 taka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>95/497 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>19.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>(14.0, 26.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>3.46 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>0.326 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>5,000 to &lt;10,000 taka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>400/1995 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>21.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>(17.2, 25.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>10,000 taka or more </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>441/2314 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>20.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>(15.1, 27.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>not reported </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>142/716 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>13.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>(8.4, 21.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="339" pm="."><plain>Highest level of education </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>Illiterate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>426/1332 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>31.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>(27.2, 37.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>112.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>1 to 8 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>550/2908 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>21.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>(17.4, 26.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>9 years or more </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>99/1258 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>8.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>(6.2, 11.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="355" pm="."><plain>Muslim </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>Non-muslim </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>149/919 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>14.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>(8.6, 22.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>2.28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>0.131 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>Muslim </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>923/4570 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>21.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>(17.2, 25.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="367" pm="."><plain>Any children in home &lt; =  14 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>No children/nochildren &lt; = 14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>307/1505 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>18.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>(14.8, 23.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>0.47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>0.495 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>At least one child &lt; = 14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>764/3987 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>20.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>(16.4, 24.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="379" pm="."><plain>Any (other) smokers in the home </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>No (other) smokersin the home </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>468/2175 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>19.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>(15.1, 25.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>0.02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>0.896 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>At least one (other)smoker in the home </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>610/3347 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>19.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>(16.8, 23.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="391" pm="."><plain>Anyone (else) uses smokeless tobacco in the home </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>No one (else) uses smokeless tobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>344/2264 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>20.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>(15.2, 27.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>0.652 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>At least one (other)person uses smokelesstobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>734/3258 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>19.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>(16.0, 22.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></alternatives></table-wrap></SecTag></sec><sec id="s3c"><title><text><SENT sid="403" pm="."><plain>Attitudes toward <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use </plain></SENT>
+</text></title><p><text><SENT sid="404" pm="."><plain>As shown in Table 3, Bangladeshis held differing opinions and attitudes towards <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="405" pm="."><plain>Bangladeshis who believed smokeless tobacco was less harmful than smoked tobacco (cigarette or bidi) were significantly more likely to be current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users. </plain></SENT>
+<SENT sid="406" pm="."><plain>Likewise, Bangladeshis who believed that society approves of smokeless tobacco use were significantly more likely to use <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> (40%) than those who believed society disapproves of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use (16%). </plain></SENT>
+<SENT sid="407" pm="."><plain>A significantly higher percentage of respondents (43%) who agree that it is acceptable for women to use <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> currently use <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> themselves compared to only 16% of those who do not agree. </plain></SENT>
+<SENT sid="408" pm="."><plain>A significantly higher proportion of those who believed that <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use is addictive were current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> users (20%) than those who did not believe so (9%). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0101934-t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0101934.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="409" pm="."><plain>Smokeless tobacco use by attitudes toward smokeless tobacco among Bangladeshi residents (weighted), 2011. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0101934-t003-3" xlink:href="pone.0101934.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td colspan="4" align="left" rowspan="1"/><td colspan="3" align="left" rowspan="1"><text><SENT sid="410" pm="."><plain>Rao-Scott ChiSq Test </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q8BNY6,P62168">Freq</z:uniprot>. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>(95% CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>ChiSq </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>df </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>p value </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="417" pm="."><plain>Societal attitudes toward smokeless tobacco </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>Society approves </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>203/490 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>40.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>(30.3, 50.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>41.26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>Society disapproves </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>708/4372 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>15.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>(12.3, 20.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>Neither </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>77/437 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>15.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>(11.0, 20.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="433" pm="."><plain>It is acceptable for women to use smokeless tobacco </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>Agree/strongly agree </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>237/535 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>42.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>(33.2, 52.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>46.98 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>793/4858 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>16.0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>(12.9, 19.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="445" pm="."><plain>Smokeless tobacco is Addictive </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>Agree/strongly agree </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>1032/5179 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>19.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>(16.0, 24.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>8.56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>30/239 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>8.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>(5.0, 15.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="457" pm="."><plain>Smokeless tobacco is less harmful than cigarettes </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>Less harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>265/731 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>40.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>(30.2, 50.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>48.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>More harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>128/944 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>15.0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>(9.9, 22.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>No difference </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>549/3322 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>15.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>(12.1, 19.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="473" pm="."><plain>Smokeless tobacco is less harmful than bidi </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>Less harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>316/845 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>39.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>(30.4, 49.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>37.69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>More harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>104/801 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>14.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>(7.9, 24.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>No difference </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>518/3326 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>14.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>(11.4, 19.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="489" pm="."><plain>Opinion of smokeless tobacco use </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>32/129 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>26.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>(18.8, 35.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>3.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>0.074 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>Bad/very bad </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>1001/5242 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>18.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>(15.1, 23.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="501" pm="."><plain>Smokeless tobacco causes mouth cancer </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>171/634 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>26.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>(19.3, 35.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>3.55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>0.060 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>898/4841 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>18.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>(14.5, 23.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="513" pm="."><plain>Smokeless tobacco causes gum disease </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>184/804 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>22.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>(15.7, 30.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>1.32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>0.251 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>879/4665 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>18.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>(15.0, 22.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="7" align="left" rowspan="1"><text><SENT sid="525" pm="."><plain>Smokeless tobacco causes difficulty in opening mouth </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>296/1397 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>22.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>(16.3, 29.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>1.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>0.233 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>775/4078 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>18.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>(14.4, 22.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></alternatives></table-wrap></SecTag></sec><sec id="s3d"><title><text><SENT sid="537" pm="."><plain>Predictors of current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use </plain></SENT>
+</text></title><p><text><SENT sid="538" pm="."><plain>Table 4 presents the results of a multivariable logistic regression model estimating the association between socio-demographic factors, attitudes and opinions toward <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> and current <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="539" pm="."><plain>The multivariable model revealed the following predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use: being female (OR = 1.96, 95% CI: 1.18–3.24), being aged 25–39 (OR = 2.30, 95% CI: 1.49–3.54) or aged 40–54 (OR = 3.67; 95% CI: 1.76–7.65) or aged 55 and above (OR = 4.25; 95% CI: 2.27–7.95), being a resident of a Dhaka slum (OR = 5.86; 95% CI: 3.73–9.21) or non-tribal/non-border areas outside Dhaka (OR = 3.42; 95% CI: 1.94–6.03), being illiterate (OR = 3.37; 95% CI: 1.99–5.71), holding positive opinion towards societal approval of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use (OR = 5.84; 95% CI: 3.38–10.09), holding positive opinion towards <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use by women (OR = 2.63; 95% CI: 1.53–4.54), believing that <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is addictive (OR = 2.96; 95% CI: 1.51–5.81), and believing <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is less harmful than bidi (OR = 2.22; 95% CI: 1.36–3.62). </plain></SENT>
+<SENT sid="540" pm="."><plain>In addition, people who believed that <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> was less harmful had 2.12 times greater odds of using smokeless compared to people who thought smokeless was more harmful than cigarettes (p = 0.014) (omnibus test). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0101934-t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0101934.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="541" pm="."><plain>Odds of being a current smokeless tobacco user (weighted; n = 4702), Bangladesh 2011. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0101934-t004-4" xlink:href="pone.0101934.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td colspan="3" align="left" rowspan="1"><text><SENT sid="542" pm="."><plain>Wald ChiSq Test </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>Odds Ratio </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>(95% CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>ChiSq* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>df </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>p value </plain></SENT>
+</text></td></tr></thead><tbody><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="548" pm="."><plain>Sex </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>6.79 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>0.009 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>1.96 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>(1.18, 3.24) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="558" pm="."><plain>Age </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>15–24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>21.95 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>25–39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>2.30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>(1.49, 3.54) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>40–54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>3.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>(1.76, 7.65) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>55+ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>4.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>(2.27, 7.95) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="574" pm="."><plain>Sampling area </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>Dhaka non-slum sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>66.59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>Dhaka slum sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>5.86 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>(3.73, 9.21) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>Non-tribal, non-border areas outside Dhaka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>3.42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>(1.94, 6.03) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>Tribal &amp; border areas outside Dhaka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>3.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>(0.74, 13.03) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="590" pm="."><plain>Income </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>&lt;5,000 taka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>3.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>0.337 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>5,000 to&lt;10,000 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>0.89 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>(0.57, 1.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>10,000+ taka </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>1.21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>(0.76, 1.95) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>Not stated </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>0.83 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>(0.42, 1.65) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="606" pm="."><plain>Highest level of education </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>9 years or more </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>24.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>1 to 8 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>2.60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>(1.76, 3.84) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>Illiterate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>3.37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>(1.99, 5.71) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="619" pm="."><plain>Societal attitudes toward smokeless tobacco </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>Neither </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>79.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>Society disapproves </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>1.37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>(0.90, 2.07) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>Society approves </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>5.84 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>(3.38, 10.09) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="632" pm="."><plain>Acceptable for women to use smokeless tobacco </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>12.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>Agree/strongly agree </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>2.63 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>(1.53, 4.54) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="642" pm="."><plain>Smokeless tobacco is addictive </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>Otherwise </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>9.99 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>0.002 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>Agree/strongly agree </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>2.96 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>(1.51, 5.81) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="652" pm="."><plain>Smokeless tobacco is less harmful than Cigarettes </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>No difference </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>7.45 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>0.024 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>More harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>0.77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>(0.33, 1.82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>Less harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>1.63 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>(0.82, 3.22) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="665" pm="."><plain>Smokeless tobacco is less harmful than bidi </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>No difference </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>13.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>More harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>1.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>(0.37, 4.13) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>Less harmful </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>2.22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>(1.36, 3.62) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="6" align="left" rowspan="1"><text><SENT sid="678" pm="."><plain>Anyone (else) uses smokeless tobacco in the home </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>No one (else) uses smokeless tobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>– </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>1.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>0.239 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>At least one (other) person uses smokeless tobacco </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>1.63 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>(0.72, 3.66) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt103"><label/><p><text><SENT sid="688" pm="."><plain>*Omnibus test. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s4"><title><text><SENT sid="689" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="690" pm="."><plain>This study examined the socio-demographic and attitudinal factors associated with <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use and found that one in every five Bangladeshi adults use <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>. </plain></SENT>
+<SENT sid="691" pm="."><plain>Our sample is nationally representative as the distribution of respondents by division, age group and sex compares well against census estimates from Bangladesh for 2011 (Table S1) [24]. </plain></SENT>
+<SENT sid="692" pm="."><plain>Our findings have some variations with the two earlier studies [16], [19]. </plain></SENT>
+<SENT sid="693" pm="."><plain>As there are methodological differences across studies, a direct comparison of rates needs to be interpreted cautiously. </plain></SENT>
+</text></p><p><text><SENT sid="694" pm="."><plain>Our findings show that the overall prevalence of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use (20%) is identical to the WHO 2004 study (19.7%) [19]. </plain></SENT>
+<SENT sid="695" pm="."><plain>However, the prevalence of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use in our study is lower than the reported estimates (27.2%) in the <z:uniprot sup="inside" fb="0" ids="Q8NAP1">GATS</z:uniprot> 2009 study [16] and another 2009 estimate (29.6%) [25]. </plain></SENT>
+<SENT sid="696" pm="."><plain>These differences might be due to the methodological differences across the studies and the timing when the survey was conducted. </plain></SENT>
+<SENT sid="697" pm="."><plain>Moreover, wave 3 survey was conducted in 2011; during the period when several tobacco control programs were funded by the Bloomberg Global Initiative. </plain></SENT>
+<SENT sid="698" pm="."><plain>However, in both the <z:uniprot sup="inside" fb="0" ids="Q8NAP1">GATS</z:uniprot> survey and our survey, we observed an apparent rise compared to the rate of 2004. </plain></SENT>
+<SENT sid="699" pm="."><plain>This increasing trend might be due to the increasing taxation on cigarettes, as people from low socioeconomic status smoke more and are responsive to price [23] and the relatively low cost of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> products. </plain></SENT>
+<SENT sid="700" pm="."><plain>This might be also due to the lack of public awareness and inappropriate knowledge about the harmful effects of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="701" pm="."><plain>Also, currently most anti-tobacco campaigns in Bangladesh focuses on cigarette or bidi smoking without any information about <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="702" pm="."><plain>This creates an opportunity for <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> being offered as an alternative tobacco product for smokers to use instead of cigarette or bidi. </plain></SENT>
+<SENT sid="703" pm="."><plain>This alternative product would be appealing to many smokers who are dependent on nicotine or those who wanted to quit smoking. </plain></SENT>
+<SENT sid="704" pm="."><plain>In this study, 9% of all smokers who had made a serious quit attempt reportedly used <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> to support their most recent quit attempt (data not shown). </plain></SENT>
+<SENT sid="705" pm="."><plain>Also, the Tobacco Control Act (TCA) 2005 initially did not specify <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> in defining tobacco products. </plain></SENT>
+<SENT sid="706" pm="."><plain>Thus most of the measures taken since 2005 to control tobacco use in Bangladesh focused on tobacco smoking. </plain></SENT>
+<SENT sid="707" pm="."><plain>The Amendment to the TCA in 2013 has made provision for the reference to <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> specifically. </plain></SENT>
+<SENT sid="708" pm="."><plain>The rules for the Amendment are in the process of drafting and yet to reflect the measures targeted to <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> control. </plain></SENT>
+<SENT sid="709" pm="."><plain>The oversight of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> control in the TCA is one of the many reasons that have contributed to the growth of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> consumption in Bangladesh. </plain></SENT>
+</text></p><p><text><SENT sid="710" pm="."><plain>The increased likelihood of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among the illiterate and less educated Bangladeshis may indicate that similar factors are involved in the initiation of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use and smoked tobacco among Bangladeshis [16], [19], [22]. </plain></SENT>
+<SENT sid="711" pm="."><plain>Similar socioeconomic differences in <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use were also reported in India [26], [27]. </plain></SENT>
+<SENT sid="712" pm="."><plain>In an earlier study, we reported that Bangladeshis with low socioeconomic status were more likely to be exposed to tobacco smoke pollution [22]. </plain></SENT>
+<SENT sid="713" pm="."><plain>It is likely that less educated Bangladeshi adults are less aware of tobacco or <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>-related health hazards and find themselves in conditions which predispose them to use <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>. </plain></SENT>
+<SENT sid="714" pm="."><plain>It is also possible that the limited anti-tobacco educational campaigns available in Bangladesh are not reaching this group of people. </plain></SENT>
+<SENT sid="715" pm="."><plain>Also, the sale of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> products is not monitored cautiously in Bangladesh making it easier for manufacturer and retail stores to promote the products openly to specific populations. </plain></SENT>
+<SENT sid="716" pm="."><plain>Further studies should explore strategies that are used to promote <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> in Bangladesh to guide the development of policy measures. </plain></SENT>
+</text></p><p><text><SENT sid="717" pm="."><plain>In this study, Bangladeshis who believed <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use was less harmful than smoked tobacco (i.e. bidi) used <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>, suggesting that low perception of risk played a key role in encouraging them to use <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot>. </plain></SENT>
+<SENT sid="718" pm="."><plain>In other studies misconceptions about the harmlessness of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use have led to increased social acceptability and uptake of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> products [28], [29]. </plain></SENT>
+<SENT sid="719" pm="."><plain>Future prevention strategies should focus on increasing Bangladeshis’ awareness of the relative harms of all tobacco products including <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+</text></p><p><text><SENT sid="720" pm="."><plain>The observation that <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use increases with age is consistent with previous reports [16], [19], [26]. </plain></SENT>
+<SENT sid="721" pm="."><plain>This increased likelihood of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use is related to the social acceptance of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use by the older people and a greater appeal of cigarette among the younger generations who may be taking up smoking instead of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="722" pm="."><plain>Also, this may be due to increased level of nicotine addiction among the population. </plain></SENT>
+<SENT sid="723" pm="."><plain>Following the addiction theory [30], one might have used <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> in few social occasions hooking him/her to the nicotine to develop dependency; overtime he/she will experience growing craving for nicotine and the need for <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> or other tobacco products. </plain></SENT>
+<SENT sid="724" pm="."><plain>Some of this population might switch to tobacco or other smoked tobacco products and some would continue with <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="725" pm="."><plain>A good proportion of tobacco smokers or quitters may also supplement their tobacco dependency habit by <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use. </plain></SENT>
+<SENT sid="726" pm="."><plain>In this study, a small proportion of cigarette (4.4%) or bidi (9.2%) smokers who made a serious quit attempt used <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> to support their efforts. </plain></SENT>
+<SENT sid="727" pm="."><plain>Use of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> may provide a supplementation or substitution of nicotine intake for cigarette smokers [31] encouraging their continued use; this scenario could be particularly true in situations in which smoking is not socially acceptable, but <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use is. </plain></SENT>
+</text></p><p><text><SENT sid="728" pm="."><plain>This study had several limitations. </plain></SENT>
+<SENT sid="729" pm="."><plain>First, because of the cross-sectional design of the study only associations could be explored without any causal relationship. </plain></SENT>
+<SENT sid="730" pm="."><plain>Second, all data on the use of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> were based on self-reports collected by using an interviewer-administered structured questionnaire. </plain></SENT>
+<SENT sid="731" pm="."><plain>Due to social stigma associated with tobacco and <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, people may under-report <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use [27]. </plain></SENT>
+<SENT sid="732" pm="."><plain>However, self-reported <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among adults is a reliable measure and has high agreement with biochemical assessment [32]. </plain></SENT>
+<SENT sid="733" pm="."><plain>Finally, data were collected by trained interviewers who followed written interviewer guidelines. </plain></SENT>
+<SENT sid="734" pm="."><plain>Any difference between their understanding and explanation of the questions asked could result in bias in information collected. </plain></SENT>
+<SENT sid="735" pm="."><plain>However, such bias was minimized by the periodical observation of interviews by the senior research team members and bi-weekly meetings with the interviewers during which any unusual observation was discussed and resolved. </plain></SENT>
+<SENT sid="736" pm="."><plain>Despite these limitations, our study provides recent information on the use of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> among Bangladeshi adults, which would support evaluation of tobacco control policies in Bangladesh and development of appropriate intervention measures. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec id="s5"><title><text><SENT sid="737" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="738" pm="."><plain>In conclusion, this study identified several important predictors of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use in Bangladesh, including being female, increasing age, being illiterate, residing in the Dhaka slum or non-tribal/non-border areas outside of Dhaka, holding positive opinion towards societal approval of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use or <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use by women, and believing <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> is less harmful than bidi. </plain></SENT>
+<SENT sid="739" pm="."><plain>Findings from this study suggest that coordinated efforts of governmental and non-governmental organizations, targeting both smoked tobacco and <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use reduction and cessation, could be modified to reach each level of population including those who are marginalized, female, less educated and elderly. </plain></SENT>
+<SENT sid="740" pm="."><plain>As most tobacco control programs target mainly cigarette or bidi smoking, coordinated programs are needed that will also include <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use within the tobacco control policy and prevention strategies. </plain></SENT>
+<SENT sid="741" pm="."><plain>Future studies, possibly qualitative in nature, would be useful to understand the environmental, cultural and societal factors associated with <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use, particularly among women and among the residents of a Dhaka slum and non-tribal/non-border areas outside Dhaka. </plain></SENT>
+<SENT sid="742" pm="."><plain>Future research should understand the depth of beliefs about <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among the public and identify potential interventions that would be acceptable to them. </plain></SENT>
+<SENT sid="743" pm="."><plain>Given the wide acceptance of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use by women in Bangladeshi culture, interventions to raise awareness of the harms of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use should target women as a key group. </plain></SENT>
+<SENT sid="744" pm="."><plain>At the same time, national programs should focus on changing social norms by addressing inappropriate attitudes and perceptions of risk towards <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among the Bangladeshis. </plain></SENT>
+<SENT sid="745" pm="."><plain>Similar to the effective policies for smoked tobacco, policies such as increasing excise tax and restricting marketing of <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> to targeted population including minors, should also be initiated. </plain></SENT>
+<SENT sid="746" pm="."><plain>These interventions should complement the existing intervention strategies aimed at reducing <z:uniprot sup="inside" fb="18" ids="Q969V1">SLT</z:uniprot> use among the public in Bangladesh. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s6"><title><text><SENT sid="747" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0101934.s001"><label>Table S1</label><caption><p><text><SENT sid="748" pm="."><plain>Distribution of ITC Bangladesh Wave 3 respondents by division, age group and sex compared to the 2011 Bangladesh Census. </plain></SENT>
+</text></p><p><text><SENT sid="749" pm="."><plain>(DOC) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0101934.s001.doc"><caption><p><text><SENT sid="750" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="AUTH_CONT"><ack><p>The authors would like to acknowledge the team members from University of Waterloo and University of Dhaka for their contributions in the ITC Bangladesh Project.</p><p>
+<bold>Disclaimer:</bold> The authors alone are responsible for the views expressed in this article and they do not necessarily represent the views, decisions or policies of the institutions with which they areaffiliated. The data analyzed in this paper are from the ITC Project (itcproject.org) where the ITC data access policy can be found.</p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0101934-Psoter1"><text><SENT sid="751" pm="."><plain>1 PsoterWJ, MorseDE (2001) Annual per capita apparent consumption of tobacco products in the United States: 1900–1990. Prev Med 32(1), 1–9.11162320 </plain></SENT>
+</text></ref><ref id="pone.0101934-International1"><text><SENT sid="752" pm="."><plain>2International Agency for Research on Cancer (IARC) (2007) Smokeless tobacco and some tobacco-specific N-Nirtosamines, vol 89 of IARC Monographs on the Evaluation of Carcinogenic Risks to Humans. </plain></SENT>
+<SENT sid="753" pm="."><plain>World Health Organization International agency for Research on Cancer, Lyon, France: 89. </plain></SENT>
+</text></ref><ref id="pone.0101934-Gupta1"><text><SENT sid="754" pm="."><plain>3 GuptaPC, RayCS (2003) Smokeless tobacco and health in India and South Asia. Respirology 8, 419–431.14708551 </plain></SENT>
+</text></ref><ref id="pone.0101934-Department1"><text><SENT sid="755" pm="."><plain>4Department of Health and Human Services (DHHS) (1986) The Health Consequences of Using Smokeless Tobacco: A Report ofthe Advisory Committee to the Surgeon General. </plain></SENT>
+<SENT sid="756" pm="."><plain>Washington, DC: Public Health Service. </plain></SENT>
+<SENT sid="757" pm="."><plain>DHHS publication <z:uniprot sup="inside" fb="65" ids="F4IDQ6">NIH</z:uniprot> 86-2874. </plain></SENT>
+</text></ref><ref id="pone.0101934-International2"><text><SENT sid="758" pm="."><plain>5International Agency for Research on Cancer (IARC) (1985) Tobacco Habits Other than Smoking: Betel Quid and Areca Nut Chewing and Some Related Nitrosamines. </plain></SENT>
+<SENT sid="759" pm="."><plain>Lyon, France: International Agency for Research on Cancer. </plain></SENT>
+</text></ref><ref id="pone.0101934-Office1"><text><SENT sid="760" pm="."><plain>6Office on Smoking and Health (OSH) (1988) The Health Consequences of Smoking: Nicotine Addiction. </plain></SENT>
+<SENT sid="761" pm="."><plain>A Report of the Surgeon General. </plain></SENT>
+<SENT sid="762" pm="."><plain>Atlanta, Ga: National Center for Chronic Disease. </plain></SENT>
+<SENT sid="763" pm="."><plain>Prevention and Health Promotion. </plain></SENT>
+<SENT sid="764" pm="."><plain>DHHS publication CDC 88-8406. </plain></SENT>
+</text></ref><ref id="pone.0101934-Pau1"><text><SENT sid="765" pm="."><plain>7 PauAKH, CroucherR, MarcenesW, RahmanR, ShajahanS (2003) Tobacco cessation, oral pain, and psychological distress in Bangladeshi women. Nicotine &amp; Tobacco. </plain></SENT>
+<SENT sid="766" pm="."><plain>Research 5, 419–423.12791538 </plain></SENT>
+</text></ref><ref id="pone.0101934-Bolinder1"><text><SENT sid="767" pm="."><plain>8 BolinderG, AlfredssonL, EnglundA, de FaireU (1994) Smokeless tobacco use and increased cardiovascular mortality among Swedish construction workers. Am J Public Health 84, 399–404.8129055 </plain></SENT>
+</text></ref><ref id="pone.0101934-Hergens1"><text><SENT sid="768" pm="."><plain>9 HergensMP, LambeM, PershagenG, YeW (2008) Risk of hypertension amongst Swedish male snuff users: a prospective study. J Intern Med 264(2), 187–94.18393959 </plain></SENT>
+</text></ref><ref id="pone.0101934-Persson1"><text><SENT sid="769" pm="."><plain>10 PerssonPG, CarlssonS, SvanströmL, OstensonCG, EfendicS, et al (2000) Cigarette smoking, oral moist snuff use and glucose intolerance. J Intern Med 248(2), 103–10.10947888 </plain></SENT>
+</text></ref><ref id="pone.0101934-Quandt1"><text><SENT sid="770" pm="."><plain>11 QuandtSA, SpanglerJG, CaseLD, BellRA, BelflowerAE (2005) Smokeless tobacco use accelerates age-related loss of bone mineral density among older women in a multi-ethnic rural community. Journal of Cross-Cultural Gerontology 20(2), 109–125.16917747 </plain></SENT>
+</text></ref><ref id="pone.0101934-England1"><text><SENT sid="771" pm="."><plain>12 EnglandLJ, KimSY, TomarSL, RayCS, GuptaPC, et al (2010) Non-cigarette tobacco use among women and adverse pregnancy outcomes. Acta Obstetricia et Gynecologica Scandinavica 89(4), 454–464.20225987 </plain></SENT>
+</text></ref><ref id="pone.0101934-World1"><text><SENT sid="772" pm="."><plain>13World Health Organization (WHO) (2011) Who report on the global tobacco epidemic, 2011. </plain></SENT>
+<SENT sid="773" pm="."><plain>Warning about the dangers of tobacco. </plain></SENT>
+<SENT sid="774" pm="."><plain>Geneva, Switzerland: World Health Organization. </plain></SENT>
+<SENT sid="775" pm="."><plain>Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.who.int/tobacco/global_report/2011/en/">http://www.who.int/tobacco/global_report/2011/en/</ext-link>. </plain></SENT>
+</text></ref><ref id="pone.0101934-World2"><text><SENT sid="776" pm="."><plain>14World Health Organization (WHO) (2007) Impact of Tobacco-Related Illnesses in Bangladesh. </plain></SENT>
+<SENT sid="777" pm="."><plain>New Delhi, India: World Health Organization, South East Asia Region. </plain></SENT>
+</text></ref><ref id="pone.0101934-Alam1"><text><SENT sid="778" pm="."><plain>15 AlamDS, JhaP, RamasundarahettigeC, StreatfieldPK, NiessenLW, et al (2013) Smoking-attributable mortality in Bangladesh: proportional mortality study. Bull World Health Organ 91(10), 757–64.24115799 </plain></SENT>
+</text></ref><ref id="pone.0101934-World3"><text><SENT sid="779" pm="."><plain>16World Health Organization (WHO) (2009) Bangladesh. </plain></SENT>
+<SENT sid="780" pm="."><plain>Global Adult Tobacco Survey: Bangladesh Report 2009, Dhaka, Bangladesh: WHO – Bangladesh. </plain></SENT>
+</text></ref><ref id="pone.0101934-John1"><text><SENT sid="781" pm="."><plain>17 JohnRM, SungHY, MaxW (2009) Economic cost of tobacco use in India, 2004. Tobacco control 18, 138–143.19131453 </plain></SENT>
+</text></ref><ref id="pone.0101934-Choudhury1"><text><SENT sid="782" pm="."><plain>18 ChoudhuryK, HaniffSMA, MahmoodSS (2007) Sociodemographic characteristics of tobacco consumers in a rural area of Bangladesh. J Health Popul Nutr 25, 456–464.18402189 </plain></SENT>
+</text></ref><ref id="pone.0101934-Zaman1"><text><SENT sid="783" pm="."><plain>19Zaman MM, Nargis N, Perucic AM, Rahman K (Editors) (2007) Impact of Tobacco Related Illness in Bangladesh. </plain></SENT>
+<SENT sid="784" pm="."><plain>World Health Organization, Regional Office for South East Asia, New Delhi. </plain></SENT>
+<SENT sid="785" pm="."><plain>(<ext-link ext-link-type="uri" xlink:href="http://intranet/LinkFiles/Tobacco_Free_Initiative_Health_Cost_bangladesh.pdf">http://intranet/LinkFiles/Tobacco_Free_Initiative_Health_Cost_bangladesh.pdf</ext-link>). </plain></SENT>
+</text></ref><ref id="pone.0101934-Rahman1"><text><SENT sid="786" pm="."><plain>20 RahmanMA, MahmoodMA, SpurrierN, RahmanM, ChoudhurySR, et al (2012) Why Do Bangladeshi People Use Smokeless Tobacco Products? Asia Pac J Public Health. </plain></SENT>
+<SENT sid="787" pm="."><plain>May, 1–13. </plain></SENT>
+</text></ref><ref id="pone.0101934-Fong1"><text><SENT sid="788" pm="."><plain>21 FongGT, CummingsKM, BorlandR, HastingsG, HylandA, et al (2006) The conceptual framework of the International Tobacco Control (ITC) Policy Evaluation Project. Tobacco Control, 15, i3–11. 10.1136/tc.2005.015438 16723672 </plain></SENT>
+</text></ref><ref id="pone.0101934-Abdullah1"><text><SENT sid="789" pm="."><plain>22 AbdullahAS, HitchmanSC, DriezenP, NargisN, QuahACK, et al (2011) Socioeconomic differences in exposure to tobacco smoke pollution (TSP) in Bangladeshi households with children: Findings from the International Tobacco Control (ITC) Bangladesh Survey. International Journal of Environmental Research and Public Health 8, 842–860.21556182 </plain></SENT>
+</text></ref><ref id="pone.0101934-Nargis1"><text><SENT sid="790" pm="."><plain>23 NargisN, RuthbahUH, HussainAK, FongGT, HuqI, et al (2013) The price sensitivity of cigarette consumption in Bangladesh: evidence from the International Tobacco Control (ITC) Bangladesh Wave 1 (2009) and Wave 2 (2010) surveys. <z:uniprot sup="inside" fb="6" ids="Q61471">Tob</z:uniprot> Control. </plain></SENT>
+<SENT sid="791" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P20264,P31361">Oct 8</z:uniprot>. 10.1136/tobaccocontrol-2012-050835  </plain></SENT>
+</text></ref><ref id="pone.0101934-Bangladesh1"><text><SENT sid="792" pm="."><plain>24Bangladesh Bureau of Statistics (BBS) (2014) Bangladesh Population and Housing Census 2011- a preliminary report. </plain></SENT>
+<SENT sid="793" pm="."><plain>Available: <ext-link ext-link-type="uri" xlink:href="http://www.bbs.gov.bd/Home.aspx">http://www.bbs.gov.bd/Home.aspx</ext-link>. </plain></SENT>
+<SENT sid="794" pm="."><plain>Accessed May 12, 2014. </plain></SENT>
+</text></ref><ref id="pone.0101934-HussainAKM1"><text><SENT sid="795" pm="."><plain>25Hussain AKM G (2012) Prevalence and patterns of tobacco use in Bangladesh from 2005–2209: Findings form a pre- and post-Tobacco Control Act analysis. </plain></SENT>
+<SENT sid="796" pm="."><plain>Presented at the 15th Workd Conference on Tobacco or Health (WCTOH), Singapore. </plain></SENT>
+<SENT sid="797" pm="."><plain>March 20–24, 2012. </plain></SENT>
+</text></ref><ref id="pone.0101934-Rooban1"><text><SENT sid="798" pm="."><plain>26 RoobanT, ElizabethJ, UmadeviKR, RanganathanK (2010) Sociodemographic correlates of male chewable smokeless tobacco users in India: a preliminary report of analysis of National Family Health Survey, 2005–2006. Indian J Cancer. </plain></SENT>
+<SENT sid="799" pm="."><plain>Jul 47 Suppl 1: 91–100. </plain></SENT>
+</text></ref><ref id="pone.0101934-Rani1"><text><SENT sid="800" pm="."><plain>27 RaniM, BonuS, JhaP, NguyenSN, JamjoumL (2003) Tobacco use in India: prevalence and predictors of smoking and chewing in a national cross sectional household survey. <z:uniprot sup="inside" fb="6" ids="Q61471">Tob</z:uniprot> Control. </plain></SENT>
+<SENT sid="801" pm="."><plain>Dec 12(4): e4. </plain></SENT>
+</text></ref><ref id="pone.0101934-Sussman1"><text><SENT sid="802" pm="."><plain>28 SussmanS (1989) Two social influence perspectives of tobacco use development and prevention. Health Educ Res 4(2), 213–23. </plain></SENT>
+</text></ref><ref id="pone.0101934-Gale1"><text><SENT sid="803" pm="."><plain>29 GaleM, BoydIDG (1989) Smokeless tobacco use by youth in the US. Journal of School Health 59: 189–94.2739361 </plain></SENT>
+</text></ref><ref id="pone.0101934-Stolerman1"><text><SENT sid="804" pm="."><plain>30Stolerman IP, Jarvis MJ (1995) The scientific case that nicotine is addictive Psychopharmacology (Berl) 117(1)2–10; discussion 14–20. </plain></SENT>
+</text></ref><ref id="pone.0101934-Tomar1"><text><SENT sid="805" pm="."><plain>31 TomarSL, GiovinoGA (1988) Incidence and predictors of smokeless tobacco use among US youth. Am J Public Health 88: 20–26. </plain></SENT>
+</text></ref><ref id="pone.0101934-Agaku1"><text><SENT sid="806" pm="."><plain>32 AgakuIT, VardavasC, ConnollyG (2013) Proposed cutoff for identifying adult smokeless tobacco users with urinary total 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanonol: an aggregated analysis of NHANES 2007–2010 data. Nicotine <z:uniprot sup="inside" fb="6" ids="Q61471">Tob</z:uniprot> Res. 15(11): 1956–61 10.1093/<z:uniprot sup="inside" fb="6" ids="P38489">ntr</z:uniprot>/ntt083. </plain></SENT>
+<SENT sid="807" pm="."><plain>Epub 2013 Aug 16 23956252 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,713 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Gigascience</journal-id><journal-id journal-id-type="iso-abbrev">Gigascience</journal-id><journal-title-group><journal-title>GigaScience</journal-title></journal-title-group><issn pub-type="epub">2047-217X</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3844564</article-id><article-id pub-id-type="publisher-id">2047-217X-2-11</article-id><article-id pub-id-type="pmid">24001106</article-id><article-id pub-id-type="doi">10.1186/2047-217X-2-11</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Research prioritization through prediction of future impact on biomedical science: a position paper on inference-analytics </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="A1"><name><surname>Ganapathiraju</surname><given-names>Madhavi K</given-names></name><xref ref-type="aff" rid="I1">1</xref><xref ref-type="aff" rid="I2">2</xref><email>madhavi@pitt.edu</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Orii</surname><given-names>Naoki</given-names></name><xref ref-type="aff" rid="I1">1</xref><xref ref-type="aff" rid="I2">2</xref><email>naoki.orii@gmail.com</email></contrib></contrib-group><aff id="I1"><label>1</label>Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA 15206, USA</aff><aff id="I2"><label>2</label>Language Technologies Institute, School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA</aff><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>30</day><month>8</month><year>2013</year></pub-date><volume>2</volume><fpage>11</fpage><lpage>11</lpage><history><date date-type="received"><day>9</day><month>3</month><year>2013</year></date><date date-type="accepted"><day>31</day><month>7</month><year>2013</year></date></history><permissions><copyright-statement>Copyright © 2013 Ganapathiraju and Orii; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Ganapathiraju and Orii; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.gigasciencejournal.com/content/2/1/11"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Advances in biotechnology have created “big-data” situations in molecular and cellular biology. </plain></SENT>
+<SENT sid="3" pm="."><plain>Several sophisticated algorithms have been developed that process big data to generate hundreds of biomedical hypotheses (or predictions). </plain></SENT>
+<SENT sid="4" pm="."><plain>The bottleneck to translating this large number of biological hypotheses is that each of them needs to be studied by experimentation for interpreting its functional significance. </plain></SENT>
+<SENT sid="5" pm="."><plain>Even when the predictions are estimated to be very accurate, from a biologist’s perspective, the choice of which of these predictions is to be studied further is made based on factors like availability of reagents and resources and the possibility of formulating some reasonable hypothesis about its biological relevance. </plain></SENT>
+<SENT sid="6" pm="."><plain>When viewed from a global perspective, say from that of a federal funding agency, ideally the choice of which prediction should be studied would be made based on which of them can make the most translational impact. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="7" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="8" pm="."><plain>We propose that algorithms be developed to identify which of the computationally generated hypotheses have potential for high translational impact; this way, funding agencies and scientific community can invest resources and drive the research based on a global view of biomedical impact without being deterred by local view of feasibility. </plain></SENT>
+<SENT sid="9" pm="."><plain>In short, data-analytic algorithms analyze big-data and generate hypotheses; in contrast, the proposed inference-analytic algorithms analyze these hypotheses and rank them by predicted biological impact. </plain></SENT>
+<SENT sid="10" pm="."><plain>We demonstrate this through the development of an algorithm to predict biomedical impact of protein-protein interactions (PPIs) which is estimated by the number of future publications that cite the paper which originally reported the PPI. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="11" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>This position paper describes a new computational problem that is relevant in the era of big-data and discusses the challenges that exist in studying this problem, highlighting the need for the scientific community to engage in this line of research. </plain></SENT>
+<SENT sid="13" pm="."><plain>The proposed class of algorithms, namely inference-analytic algorithms, is necessary to ensure that resources are invested in translating those computational outcomes that promise maximum biological impact. </plain></SENT>
+<SENT sid="14" pm="."><plain>Application of this concept to predict biomedical impact of PPIs illustrates not only the concept, but also the challenges in designing these algorithms. </plain></SENT>
+</text></SecTag></p></sec></abstract><SecTag type="KEYWORD"><kwd-group><kwd>Impact prediction</kwd><kwd>Data analytics</kwd><kwd>Inference analytics</kwd><kwd>Protein-protein interaction prediction</kwd><kwd>Big-data</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="15" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="16" pm="."><plain>Big data is everywhere today, be it data from publications (newspapers, journals, internet pages or tweets), or be it cosmological, climatic, or ecological data. </plain></SENT>
+<SENT sid="17" pm="."><plain>This trend is facilitated primarily by the exponential increases in the capabilities of computing, storage and communication technologies. </plain></SENT>
+<SENT sid="18" pm="."><plain>In biology, advances in biotechnology have resulted in the creation of big data of many types: genomic, proteomic, trascriptomic, epigenomic and metabolomic characterizations of several species and their populations. </plain></SENT>
+</text></p><p><text><SENT sid="19" pm="."><plain>Large-scale data analytics can aid in discovering patterns in these data to gain new scientific insights; however, the domain of biology is very different from most other domains in this aspect. </plain></SENT>
+<SENT sid="20" pm="."><plain>Validating a computational result is cheap in domains like language translation, and can be carried out by any average individual; when the number of results is in hundreds or thousands, it is possible to crowdsource the validations using Amazon MechanicalTurk [1] or the like. </plain></SENT>
+<SENT sid="21" pm="."><plain>Manual validators can often correct mistakes of the algorithm, and these corrections may in turn be used to improve the algorithm in future. </plain></SENT>
+<SENT sid="22" pm="."><plain>Secondly, the computational results are often ready for direct use or interpretation. </plain></SENT>
+<SENT sid="23" pm="."><plain>For example, outcomes of algorithms for machine translation from one language to another, information retrieval, weather prediction, etc. may be directly deployed for use in real life. </plain></SENT>
+</text></p><p><text><SENT sid="24" pm="."><plain>Compared to these domains, there are four fundamental differences in large-scale data analytics for molecular and cellular biology: </plain></SENT>
+</text></p><p><text><SENT sid="25" pm="."><plain>(i) Conclusions drawn by algorithms cannot be validated manually, and often require carrying out experiments. </plain></SENT>
+</text></p><p><text><SENT sid="26" pm="."><plain>(ii) Even when the computational inferences are accurate and do not require further validation, converting the inferences to meaningful insights requires experimentation. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>(iii) Experimental methods require resources that are expensive (material and financial resources) or even unavailable (suitable antibodies). </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>(iv) Validation and interpretation of inferences requires scientific expertise which may be scarce (for example, there may not be any scientist with expertise in studying some of the proteins). </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>For these reasons validating or interpreting all the hundreds of computational inferences of data-analytic algorithms is expensive and is not amenable to crowdsourcing. </plain></SENT>
+</text></p><p><text><SENT sid="30" pm="."><plain>In this position paper, we introduce the concept called inference-analytics, and a specific inference-analytics problem called impact prediction. </plain></SENT>
+<SENT sid="31" pm="."><plain>We use the terms predictions, computational inferences or hypotheses to refer to the outcomes of data-analytic algorithms. </plain></SENT>
+</text></p><sec><title><text><SENT sid="32" pm="."><plain>Inference analytics for research prioritization </plain></SENT>
+</text></title><p><text><SENT sid="33" pm="."><plain>In domains such as biology where hypothesis verification and interpretation are resource-intensive, the large number of inferences drawn by data-analytic algorithms would have to be reanalyzed by various criteria such as availability of resources (budget, reagents or scientific expertise). </plain></SENT>
+<SENT sid="34" pm="."><plain>We call such algorithms which re-analyze data analytic inferences as inference analytic algorithms (Figure 1); an inference analytic algorithm that is essential in the field of biology is that of predicting the future impact of an inference on biomedicine. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="35" pm="."><plain>Inference analytics. </plain></SENT>
+<SENT sid="36" pm="."><plain>(A) Data analytics typically analyze large datasets to draw inferences; these inferences are usually used directly; the inferences may be evaluated with relatively small investment of resources or through crowdsourcing. (B) In areas such as biology, it is desirable that data analytics is followed by inference analytics; these algorithms would analyze the large number of data analytic inferences and re-ranking them by various criteria to aid the users in selecting which inference to pursue. </plain></SENT>
+<SENT sid="37" pm="."><plain>The work presented here corresponds to inference analytics for “scientific impact prediction” criterion. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-1"/></fig></SecTag><sec><title><text><SENT sid="38" pm="."><plain>Predicting future impact of inferences is necessary in biology and biomedicine </plain></SENT>
+</text></title><p><text><SENT sid="39" pm="."><plain>Just as grant proposals are evaluated for their “difference making capability” to determine priority of funding, the inferences drawn at a large scale may be evaluated by their potential for biomedical impact before investing resources to experimentally study them (Figure 1). </plain></SENT>
+<SENT sid="40" pm="."><plain>Impact prediction, or ranking the computational inferences based on future impact is distinct from other methods of re-ranking computational outcomes, such as ranking by confidence of prediction. </plain></SENT>
+<SENT sid="41" pm="."><plain>Here, we assume that all computational outcomes are equally accurate, and propose to re-rank them by their predicted impact on future science. </plain></SENT>
+<SENT sid="42" pm="."><plain>Impact prediction is also distinct from task prioritization, a well-studied area in computer science. </plain></SENT>
+<SENT sid="43" pm="."><plain>Task prioritization assumes that priorities and costs are known for the tasks, and it optimizes allocation of resources to tasks to achieve maximum yield. </plain></SENT>
+<SENT sid="44" pm="."><plain>Here, our goal is to predict the biomedical impact (a type of priority) so that resource allocation (e.g., by a funding agency) can be carried out based on these priorities. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="45" pm="."><plain>Citation count can be used as a surrogate measure for biomedical impact </plain></SENT>
+</text></title><p><text><SENT sid="46" pm="."><plain>The focus of this work is on estimating the biological importance of a specific PPI (i.e., how central is a PPI towards understanding other biological or disease related factors). </plain></SENT>
+<SENT sid="47" pm="?"><plain>How do we measure this importance? </plain></SENT>
+<SENT sid="48" pm="."><plain>Consider the publications that report each of these PPIs; then consider the publications that cite these original publications. </plain></SENT>
+<SENT sid="49" pm="."><plain>In this narrow domain of publications reporting or citing PPIs, we estimate that each article typically contains one primary result; we measure the importance of a PPI in terms of how many papers cite the original publication reporting that PPI. </plain></SENT>
+<SENT sid="50" pm="."><plain>For example, the PPI of <z:uniprot sup="inside" fb="0" ids="P13387,P00533,P55245">EGFR</z:uniprot> with <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> was central in advancing our knowledge of several other biological concepts discovered based on this PPI. </plain></SENT>
+<SENT sid="51" pm="."><plain>For this reason, the paper reporting this PPI [2] has been cited by 35 articles in PubMed. </plain></SENT>
+<SENT sid="52" pm="."><plain>The impact of <z:uniprot sup="inside" fb="0" ids="P13387,P00533,P55245">EGFR</z:uniprot>-<z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> is therefore estimated to be at 35 “biomedical results”. </plain></SENT>
+<SENT sid="53" pm="."><plain>Thus, we approximate impact prediction with citation count prediction. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="54" pm="."><plain>Citation count prediction for scientific impact is different from citation count prediction based on metadata </plain></SENT>
+</text></title><p><text><SENT sid="55" pm="."><plain>Several researchers have investigated predicting the citation counts for scientific papers [3-5]. </plain></SENT>
+<SENT sid="56" pm="."><plain>However, in these methods only metadata about the publication (number of past articles and past citations of the first author), and content (article title, abstract and MeSH terms) have been used. </plain></SENT>
+<SENT sid="57" pm="."><plain>Our work differs from such work in that we do not consider citation impact based on reputation of the journal or that of the author, but we focus on the biomedical information of the published scientific result that is receiving the citations. </plain></SENT>
+<SENT sid="58" pm="."><plain>Here, citation counts are used as a surrogate measure of the impact of a scientific result. </plain></SENT>
+<SENT sid="59" pm="."><plain>Of course, many factors influence the citing behavior of a given paper: year of its publication, the journal containing the publication, its availability and accessibility, and more [6]. </plain></SENT>
+<SENT sid="60" pm="."><plain>We believe that the original publication would be published in the journal it deserves (e.g., the fact that a paper reporting an interaction was accepted to be published in a high impact journal is in itself an indicator that the interaction may be of high biomedical significance); therefore, the bias introduced by the journal of publication is not an unwanted bias in calculating the biomedical impact. </plain></SENT>
+<SENT sid="61" pm="."><plain>Other factors influencing citation counts, namely the year of publication and years since publication are addressed to some extent in this work. </plain></SENT>
+<SENT sid="62" pm="."><plain>We employ citation counts as indicators of “future impact” of a reported biological result. </plain></SENT>
+</text></p></sec></sec><sec><title><text><SENT sid="63" pm="."><plain>Predicting impact of protein-protein interactions </plain></SENT>
+</text></title><p><text><SENT sid="64" pm="."><plain>We demonstrate the idea of inference analytics by developing an algorithm for impact prediction in the domain of PPIs. </plain></SENT>
+<SENT sid="65" pm="."><plain>We propose to predict the impact of each of the PPIs, so that experiments may be prioritized to study the most impactful PPIs. </plain></SENT>
+</text></p><p><text><SENT sid="66" pm="."><plain>Although PPIs form the basis of many biological phenomena, 90% of the estimated number of PPIs are currently unknown [7-9]. </plain></SENT>
+<SENT sid="67" pm="."><plain>Extensive research is being carried out both with high-throughput biotechnology and computational methods to discover PPIs [10-14]. </plain></SENT>
+<SENT sid="68" pm="."><plain>Both these approaches provide hundreds or thousands of hypothesized PPIs. </plain></SENT>
+<SENT sid="69" pm="."><plain>The PPI network incorporating these thousands of newly discovered PPIs is useful to directly carry out systems biology studies [15-19]. </plain></SENT>
+<SENT sid="70" pm="."><plain>However, to advance the biology surrounding each PPI (i.e., to translate the inference into biomedical knowledge), many detailed experiments need to be performed (similar to the experiments that reported the importance of <z:uniprot sup="inside" fb="0" ids="P13387,P00533,P55245">EGFR</z:uniprot>-<z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">Actin</z:uniprot> interaction). </plain></SENT>
+<SENT sid="71" pm="."><plain>These experiments are expensive and time-consuming and most importantly require valuable time of scientists. </plain></SENT>
+<SENT sid="72" pm="."><plain>Selecting a PPI for experimental study is usually based on the feasibility (availability of budget, reagents, time and technical manpower), possibility of formulating a hypothesis of its functional significance, and most importantly, the perceived impact of its validation on advancement of science based on the domain knowledge of the scientist. </plain></SENT>
+<SENT sid="73" pm="."><plain>With this in mind, it is infeasible to study every hypothesized interaction meticulously with detailed experiments due to the sheer number of the inferred interactions. </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>When viewed from a global perspective, say by a funding agency that has the capacity to drive the science in a direction that is important, the selection of PPIs for experimentation has to be made based on their relative expected impact. </plain></SENT>
+<SENT sid="75" pm="."><plain>There should be a mechanism of identifying what the top 100, say, PPIs are that are most urgent because of their potential impact on biology and biomedicine. </plain></SENT>
+<SENT sid="76" pm="."><plain>Existing algorithms generate thousands of predictions and possibly rank them by confidence, but none currently rank them by the impact that they are predicted to make in the future </plain></SENT>
+</text></p></sec></sec></SecTag><sec><title><text><SENT sid="77" pm="."><plain>Data description </plain></SENT>
+</text></title><p><text><SENT sid="78" pm="."><plain>Binary biophysical PPIs in human were collected from HPRD [20] and BioGRID [21]. </plain></SENT>
+<SENT sid="79" pm="."><plain>HPRD gives PPIs as a list of “binary protein-protein interactions”, and BioGRID gives them marked with the identifier “MI:0407”. </plain></SENT>
+<SENT sid="80" pm="."><plain>These databases present PPIs that are curated from publications, and for each PPI they also give links to the original publication(s) that reported the interaction. </plain></SENT>
+<SENT sid="81" pm="."><plain>The Entrez Programming Utilities [22] was used to retrieve citation information. </plain></SENT>
+<SENT sid="82" pm="."><plain>There were 129,227 references to the 7,581 papers that had one-to-one relationship with interactions. </plain></SENT>
+<SENT sid="83" pm="."><plain>17,985 of them were self-references (13.92%). </plain></SENT>
+<SENT sid="84" pm="."><plain>We built the interactome network from the PPIs, and computed the centrality measures of PPIs (edges) and the participant proteins (nodes). </plain></SENT>
+<SENT sid="85" pm="."><plain>The resulting network consists of 10,492 nodes and 48,419 edges. </plain></SENT>
+<SENT sid="86" pm="."><plain>A subset of PPIs that have a one-to-one relation with PubMed articles (i.e., those PPIs that are reported by only one publication and where that publication does not report any other PPI) is retrieved to be considered as labeled data for training and test sets. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="87" pm="."><plain>Analyses </plain></SENT>
+</text></title><p><text><SENT sid="88" pm="."><plain>We propose a computational approach to find the most promising PPIs, and we measure the impact of a PPI in terms of how many papers cite the publication that originally reported the PPI. </plain></SENT>
+</text></p><p><text><SENT sid="89" pm="."><plain>Our focus is on estimating the biological importance of a PPI; and we therefore base our predictions on the topological features of the PPIs with respect to the entire interactome. </plain></SENT>
+<SENT sid="90" pm="?"><plain>We frame the questions as follows: Is there a detectable trend in the network topology of highly cited interactions or are they placed randomly on the interactome? </plain></SENT>
+<SENT sid="91" pm="?"><plain>Do interactions with high biomedical impact have unique, quantifiable network characteristics that distinguish them from other interactions? </plain></SENT>
+<SENT sid="92" pm="."><plain>If we are able to uncover these latent characteristics, naturally, we have strong reason to believe that we should study interactions in the order of their predicted importance. </plain></SENT>
+<SENT sid="93" pm="."><plain>The results show that even by using only the topological features of PPIs, some of the high-impact PPIs can be identified. </plain></SENT>
+</text></p><p><text><SENT sid="94" pm="."><plain>Identifying the most important nodes in a large complex network has been well-studied in various fields. </plain></SENT>
+<SENT sid="95" pm="."><plain>In the field of sociology, various centrality measures have been proposed to rank the nodes in a complex network [23]. </plain></SENT>
+<SENT sid="96" pm="."><plain>In the field of biology, these centrality measures are believed to determine characteristics of protein function [24], such as the essentiality of the gene for the organism’s survival [25-28]. </plain></SENT>
+<SENT sid="97" pm="."><plain>In this work, instead of identifying the most important nodes in a network, we consider identifying the most impactful edges in a network. </plain></SENT>
+</text></p><p><text><SENT sid="98" pm="."><plain>Figure 2 shows the flow diagram of this work which includes dataset creation, construction of pair-wise features of proteins, development and evaluation of the proposed model, and the application of the model to predict impact of all PPIs in the human interactome. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="99" pm="."><plain>PPI data. From the human interactome, those PPIs (edges) are selected that have 1–1 relation with a publication; that is, the publication reports only one interaction, and that interaction is not reported by any other publication. </plain></SENT>
+<SENT sid="100" pm="."><plain>The classification model is trained and evaluated using this 1–1 dataset. </plain></SENT>
+<SENT sid="101" pm="."><plain>After evaluating the approach thus, all of the 1–1 dataset is used to train a new model which is then used to classify each of all of the edges in the interactome to identify high-impact edges. </plain></SENT>
+<SENT sid="102" pm="."><plain>PPI network diagram was created with Cytoscape [29-31]. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-2"/></fig></SecTag></sec><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="103" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="104" pm="."><plain>Feature representation </plain></SENT>
+</text></title><p><text><SENT sid="105" pm="."><plain>We computed network centrality measures shown in Table 1 as features, and trained a random forest model to predict high-impact PPIs. </plain></SENT>
+<SENT sid="106" pm="."><plain>Calculation of the node centralities was carried out using the Stanford Network Analysis Library [32], and of the edge centrality using the NetworkX library [33]. </plain></SENT>
+<SENT sid="107" pm="."><plain>As there are 8 node centrality features and 1 edge centrality feature, each interaction is represented by a vector of 17 features, with the first 16 corresponding to the node centralities of the two proteins and the 17th corresponding to the edge centrality. </plain></SENT>
+<SENT sid="108" pm="."><plain>Let D = [X1,X2,…,Xn] represent the n training samples and Xi=x1i,x2i,…,x17i,yi represent the i-th sample with features x(i) and class label yi As PPIs are undirected by nature, and node centralities are features that pertain to nodes (proteins), special care must be taken to treat each interaction as an unordered pair. </plain></SENT>
+<SENT sid="109" pm="."><plain>That is, if we represent an interaction between proteins a and b by an ordered pair (a, b), we do not wish to discriminate between (a, b) and (b, a). </plain></SENT>
+<SENT sid="110" pm="."><plain>While constructing features x(i), we let features x1i to x8i be the larger values of the two node centralities, and let features x9i to x16i be the smaller value of the two, in order to symmetrize the feature vectors for (a, b) and (b, a). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T1"><label>Table 1</label><caption><p><text><SENT sid="111" pm="."><plain>Calculated centrality measures </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/></colgroup><thead valign="top"><tr><th align="left" valign="middle"><text><SENT sid="112" pm="."><plain>Feature type </plain></SENT>
+</text></th><th align="left"><text><SENT sid="113" pm="."><plain>Feature </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td rowspan="8" align="left" valign="top"><text><SENT sid="114" pm="."><plain>Node centrality </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="115" pm="."><plain>Degree centrality </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="116" pm="."><plain>Closeness centrality </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="117" pm="."><plain>Betweenness centrality [34] </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="118" pm="."><plain>Eigenvector centrality </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="119" pm="."><plain>Network constraint </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="120" pm="."><plain>Clustering coefficient </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="121" pm="."><plain>PageRank [35] </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="122" pm="."><plain>Hub centrality (authority centrality) </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="123" pm="."><plain>Edge centrality </plain></SENT>
+</text></td><td align="left"><text><SENT sid="124" pm="."><plain>Brandes’ betweeness-centrality [36] </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></sec><sec><title><text><SENT sid="125" pm="."><plain>Models </plain></SENT>
+</text></title><p><text><SENT sid="126" pm="."><plain>Whether an interaction is labeled positive (high-impact) or negative (non high-impact), is defined by a threshold on the number of citations. </plain></SENT>
+<SENT sid="127" pm="."><plain>For a given threshold t, a positive label (yi = 1) means that the paper reporting the i-th PPI received at least t citations within the 5-year window following the publication, while a negative label (yi = 0) denotes that it did not (for details on the choice of the 5-year window, see Results and Discussion). </plain></SENT>
+<SENT sid="128" pm="."><plain>The threshold was set to 5, 10, 30 and 50 in this study. </plain></SENT>
+<SENT sid="129" pm="."><plain>Table 2 lists the number of positive and negative instances under the different threshold settings. </plain></SENT>
+<SENT sid="130" pm="."><plain>Note that we are unable to use interactions reported in papers published less than 5 years prior to this study in the training or test data because we are considering the citation count of a paper within a 5-year window following the publication. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T2"><label>Table 2</label><caption><p><text><SENT sid="131" pm="."><plain>The number of positive/negative instances and their ratio under the different threshold settings in our dataset </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="left"><text><SENT sid="132" pm="."><plain>Threshold </plain></SENT>
+</text></th><th align="center"><text><SENT sid="133" pm="."><plain>Positive </plain></SENT>
+</text></th><th align="center"><text><SENT sid="134" pm="."><plain>Negative </plain></SENT>
+</text></th><th align="center"><text><SENT sid="135" pm="."><plain>npositive / ntotal </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="bottom"><text><SENT sid="136" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="137" pm="."><plain>3,393 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="138" pm="."><plain>3,474 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="139" pm="."><plain>0.494 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="140" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="141" pm="."><plain>1,686 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="142" pm="."><plain>5,181 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="143" pm="."><plain>0.246 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="144" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="145" pm="."><plain>267 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="146" pm="."><plain>6,880 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="147" pm="."><plain>0.039 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="148" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="149" pm="."><plain>93 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="150" pm="."><plain>6,774 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="151" pm="."><plain>0.014 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="152" pm="."><plain>Random Forest from the Scikit-Learn machine learning library was used for classification [37-39]. </plain></SENT>
+<SENT sid="153" pm="."><plain>Random Forest has a high prediction accuracy for many types of data achieved by using bagging on samples, random subsets of features, and a majority voting scheme, and has been successfully applied to various problems in computational biology [40]. </plain></SENT>
+<SENT sid="154" pm="."><plain>Random forest also allows the estimation of feature importance [38]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="155" pm="."><plain>Evaluation </plain></SENT>
+</text></title><p><text><SENT sid="156" pm="."><plain>Prior works in citation prediction have often used the Receiver Operating Characteristic (ROC) [4] or accuracy [5] to evaluate their methods. </plain></SENT>
+<SENT sid="157" pm="."><plain>However, ROC curves can present an overly optimistic view of an algorithm’s performance if there is a large skew in the class distribution [41]. </plain></SENT>
+<SENT sid="158" pm="."><plain>The same holds for accuracy measure. </plain></SENT>
+<SENT sid="159" pm="."><plain>For our task, because there are much more negative instances than positive instances, we use precision and recall, and the area under the precision-recall curve (AUPR) to compare methods. </plain></SENT>
+<SENT sid="160" pm="."><plain>For our prediction task, we are mainly interested in conditions where the false positive rate is low. </plain></SENT>
+<SENT sid="161" pm="."><plain>Thus, we also use R50, a partial AUPR score that measures the area under the precision-recall curve until reaching 50 negative predictions. </plain></SENT>
+<SENT sid="162" pm="."><plain>We perform a 10-fold cross-validation in 20 randomly repeated runs to obtain average values. </plain></SENT>
+<SENT sid="163" pm="."><plain>We repeat cross-validation runs since noise exists in both features and labels; as we shall explain later, our features are calculated from a sampled sub-network and thus inherently contain noise. </plain></SENT>
+<SENT sid="164" pm="."><plain>The averaged performance scores are used for comparison. </plain></SENT>
+<SENT sid="165" pm="."><plain>We compare the random forest model against a random method, in which we assign random probability sampled from a continuous uniform distribution from the interval (0, 1) to each interaction. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="166" pm="."><plain>Application to all PPIs in the human interactome </plain></SENT>
+</text></title><p><text><SENT sid="167" pm="."><plain>After evaluation of the approach, a new model is trained using all the PPIs with one-to-one relation (i.e., combined training and testing datasets previously used for evaluation). </plain></SENT>
+<SENT sid="168" pm="."><plain>This model is employed to each PPI in the human interactome to predict whether it is likely to have high impact (Figure 2). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="169" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="170" pm="."><plain>Figures 3 and 4 show the distribution of how many PPIs are reported in a paper, and the distribution of how many papers report a PPI, respectively. </plain></SENT>
+<SENT sid="171" pm="."><plain>Most papers report a few interactions, but there are some cases where a single paper reports multiple PPIs. </plain></SENT>
+<SENT sid="172" pm="."><plain>This is due to the fact that HPRD and BioGRID capture all interactions in a paper, even if they are not the main focus of an experiment. </plain></SENT>
+<SENT sid="173" pm="."><plain>We excluded the manuscripts that report a large number of PPIs from training and test data as we do not know which PPIs contributed to the citation counts; the publication may even have been cited for the methodology (such as yeast 2-hybrid or an algorithm). </plain></SENT>
+<SENT sid="174" pm="."><plain>Similarly, we excluded PPIs and corresponding manuscripts where a specific PPI has been reported by multiple manuscripts. </plain></SENT>
+<SENT sid="175" pm="."><plain>This leaves 7,581 interactions among 5,182 unique proteins for training and testing the model. </plain></SENT>
+<SENT sid="176" pm="."><plain>Note that the centrality measures are computed by considering the entire set of PPIs and not just this subset. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="177" pm="."><plain>Precision-recall curve. Average precision-recall curves are shown for the two methods at thresholds of 5, 10, 30 and 50. </plain></SENT>
+<SENT sid="178" pm="."><plain>The blue solid line corresponds to the random forest model. </plain></SENT>
+<SENT sid="179" pm="."><plain>The red dashed line corresponds to the random probability assignment. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-3"/></fig></SecTag><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="180" pm="."><plain>Distribution of the number of PPIs reported in a paper. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-4"/></fig></SecTag><p><text><SENT sid="181" pm="."><plain>We studied the trends of citation of the papers that report PPIs and investigated whether there is any inherent pattern that underlies the citation behavior for papers that report interactions. </plain></SENT>
+<SENT sid="182" pm="."><plain>Figure 5 shows the temporal citation pattern for the 7,581 papers, separated by the publication year. </plain></SENT>
+<SENT sid="183" pm="."><plain>Regardless of the publication year, most papers tend to have a citation peak within the first 5 years after its publication. </plain></SENT>
+<SENT sid="184" pm="."><plain>Interestingly, there is a second peak after the 5-year window, which corresponds to citations from 2010 to 2012. </plain></SENT>
+<SENT sid="185" pm="."><plain>It is unclear what the reason for this citation peak is. </plain></SENT>
+<SENT sid="186" pm="."><plain>It may be due to the Open Access policy adopted by many journals, authors and funding agencies which started a couple of years prior to 2010, giving the time for other researchers to access the papers and cite them in their work. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="187" pm="."><plain>Distribution of the number of papers that report a PPI. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-5"/></fig></SecTag><p><text><SENT sid="188" pm="."><plain>Table 3 shows the results of the model in comparison to random baseline. </plain></SENT>
+<SENT sid="189" pm="."><plain>The random forest model with node and edge centrality features consistently outperforms random assignment at all threshold levels with a significance of P &lt; 0.01 by the Wilcoxon signed-rank test. </plain></SENT>
+<SENT sid="190" pm="."><plain>Figure 5 compares the average precision-recall curves of the random forest model and random assignment for the different threshold settings. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T3"><label>Table 3</label><caption><p><text><SENT sid="191" pm="."><plain>Results on the dataset </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th align="left"><text><SENT sid="192" pm="."><plain>Threshold </plain></SENT>
+</text></th><th align="left"><text><SENT sid="193" pm="."><plain>Method </plain></SENT>
+</text></th><th align="center"><text><SENT sid="194" pm="."><plain>AUPR </plain></SENT>
+</text></th><th align="center"><text><SENT sid="195" pm="."><plain>R50 </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td rowspan="2" align="left" valign="top"><text><SENT sid="196" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="197" pm="."><plain>Random forest </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="198" pm="."><plain>0.5718 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="199" pm="."><plain>0.1450 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="200" pm="."><plain>Random </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="201" pm="."><plain>0.4975 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="202" pm="."><plain>0.0661 </plain></SENT>
+</text></td></tr><tr><td rowspan="2" align="left" valign="top"><text><SENT sid="203" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="204" pm="."><plain>Random forest </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="205" pm="."><plain>0.3204 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="206" pm="."><plain>0.0762 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="207" pm="."><plain>Random </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="208" pm="."><plain>0.2510 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="209" pm="."><plain>0.0272 </plain></SENT>
+</text></td></tr><tr><td rowspan="2" align="left" valign="top"><text><SENT sid="210" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="211" pm="."><plain>Random forest </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="212" pm="."><plain>0.0868 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="213" pm="."><plain>0.0426 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="214" pm="."><plain>Random </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="215" pm="."><plain>0.0600 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="216" pm="."><plain>0.0197 </plain></SENT>
+</text></td></tr><tr><td rowspan="2" align="left" valign="top"><text><SENT sid="217" pm="."><plain>50 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="218" pm="."><plain>Random forest </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="219" pm="."><plain>0.1115 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="220" pm="."><plain>0.0792 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="221" pm="."><plain>Random </plain></SENT>
+</text></td><td align="center"><text><SENT sid="222" pm="."><plain>0.0734 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="223" pm="."><plain>0.0283 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="224" pm="."><plain>Table shows area under the precision recall curve (AUPR) and R50 that measures the area under the precision-recall curve until reaching 50 negative predictions. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="225" pm="."><plain>We see that node and edge centrality of an interaction do indeed correlate with how much impact an interaction can make on furthering biomedical science. </plain></SENT>
+<SENT sid="226" pm="."><plain>We assess feature importance based on the Gini index of the random forest classifier. </plain></SENT>
+<SENT sid="227" pm="."><plain>The result is shown in Figures 6 and 7. </plain></SENT>
+<SENT sid="228" pm="."><plain>All of the topology based features are moderately informative, but there are no distinctively dominant features. </plain></SENT>
+<SENT sid="229" pm="."><plain>Prior research has often connected a node’s degree centrality with its essentiality; however, when considering future biomedical impact, we see that degree centrality is the least indicative feature out of all other topology based features. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F6" position="float"><label>Figure 6</label><caption><p><text><SENT sid="230" pm="."><plain>Temporal citation patterns. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-6"/></fig></SecTag><SecTag type="FIG"><fig id="F7" position="float"><label>Figure 7</label><caption><p><text><SENT sid="231" pm="."><plain>Random Forest Gini importance measures for each feature. </plain></SENT>
+</text></p></caption><graphic xlink:href="2047-217X-2-11-7"/></fig></SecTag><sec><title><text><SENT sid="232" pm="."><plain>High-impact edges in the human interactome </plain></SENT>
+</text></title><p><text><SENT sid="233" pm="."><plain>After carrying out the evaluations described earlier, the method was applied to identify high impact edges from amongst all the PPIs in the human interactome. </plain></SENT>
+<SENT sid="234" pm="."><plain>A final model was trained with all available interactions that have a one-to-one relationship with a paper (i.e., including those that were originally left out for evaluation purposes). </plain></SENT>
+<SENT sid="235" pm="."><plain>The model was then applied to identify high-impact PPIs from amongst all the PPIs in the interactome. </plain></SENT>
+<SENT sid="236" pm="."><plain>Note here, that the model was applied on all the PPIs without restricting to those that have one-to-one relationship with publications; such a dataset is required only for training the model accurately and to evaluate the model reliably, whereas, the final prediction of whether a PPI is of high impact is carried out based on its network features alone without dependence on the number of times it has been reported. </plain></SENT>
+<SENT sid="237" pm="."><plain>Table 4 lists the top 10 PPIs that are predicted to be of high impact. </plain></SENT>
+<SENT sid="238" pm="."><plain>As can be seen, most of them indeed resulted in high impact on biomedical science, resulting in up to 413 citations. </plain></SENT>
+<SENT sid="239" pm="."><plain>The top 100 most-impactful edges of human interactome predicted by this model are given in Additional file 1. </plain></SENT>
+<SENT sid="240" pm="."><plain>While these PPIs are predicted to be of high impact, the actual impact achieved by each of these PPIs may be seen on Wiki-Pi web server, which shows up-to-date information on the number of citations received by the publication which reports the PPI [42]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T4"><label>Table 4</label><caption><p><text><SENT sid="241" pm="."><plain>The top 10 interactions that are predicted to be of high impact </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="top"><tr><th colspan="4" align="left" valign="bottom"><text><SENT sid="242" pm="."><plain>PPI information </plain></SENT>
+</text></th><th colspan="3" align="center" valign="bottom"><text><SENT sid="243" pm="."><plain>Publication information </plain></SENT>
+</text></th></tr><tr><th align="left"><text><SENT sid="244" pm="."><plain>Rank by impact </plain></SENT>
+</text></th><th align="left"><text><SENT sid="245" pm="."><plain>Gene symbols </plain></SENT>
+</text></th><th align="left"><text><SENT sid="246" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q86XJ0,Q9DIC5,Q96631,Q992J0,Q66929,Q993M1,Q9IMM4,Q9J7Z2,Q9QAZ8,P03064,P18164">Protein A</z:uniprot> name </plain></SENT>
+</text></th><th align="left"><text><SENT sid="247" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9QAZ7,P08098,Q8IVL6,Q8CG70,P09879">Protein B</z:uniprot> name </plain></SENT>
+</text></th><th align="center"><text><SENT sid="248" pm="."><plain>Pubmed ID </plain></SENT>
+</text></th><th align="center"><text><SENT sid="249" pm="."><plain>Number of citations so far </plain></SENT>
+</text></th><th align="center"><text><SENT sid="250" pm="."><plain>Year of publication </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="bottom"><text><SENT sid="251" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="252" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q3Y5Z3,Q15848">ADIPOQ</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="Q6ETK9,Q86V24">ADIPOR2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="253" pm="."><plain>adiponectin, C1Q and collagen domain containing </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="254" pm="."><plain>adiponectin receptor 2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="255" pm="."><plain>12802337 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="256" pm="."><plain>160 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="257" pm="."><plain>2003 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="258" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="259" pm="."><plain><z:uniprot sup="inside" fb="7" ids="Q14956,Q2T9U8,P08949,P01297">NMB</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="P28336,O54799,P24053">NMBR</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="260" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q2T9U8,P08949,Q9CR53,P01297,P43443">neuromedin B</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="261" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P28336,O54799,P24053">neuromedin B receptor</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="262" pm="."><plain>8392057 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="263" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="264" pm="."><plain>1993 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="265" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="266" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A5PJZ5,Q8N1F7,Q5R822">NUP93</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="Q9BTX1,Q5RBY5">TMEM48</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="267" pm="."><plain>nucleoporin 93 k Da </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="268" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7SZC5,Q9BTX1,Q8VCB1,Q5RBY5,Q6AXN4,Q6AX31">transmembrane protein 48</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="269" pm="."><plain>12928435 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="270" pm="."><plain>37 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="271" pm="."><plain>2006 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="272" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="273" pm="."><plain><z:uniprot sup="inside" fb="18" ids="P19801,Q8JZQ5,Q9TRC7,P36633,P9WP26,P9WP27,Q01IX6,Q7XKU5,A8XJ44,Q95XG9,Q9Z1M5,Q9Z302,P24552,P14920,A2V9Y8,P18894,P00371,P22942,O35078,P80324,Q9Y7N4,Q99042">DAO</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="P59103">DAOA</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="274" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A8XJ44,Q95XG9,Q9Z1M5,Q9Z302,P24552,P14920,A2V9Y8,P18894,P00371,P22942,O35078,P80324,Q9Y7N4,Q99042">D-amino-acid oxidase</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="275" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59103">D-amino acid oxidase activator</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="276" pm="."><plain>12364586 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="277" pm="."><plain>72 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="278" pm="."><plain>2002 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="279" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="280" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8AV28,Q15154,Q9R0L6,Q9PVV4">PCM1</z:uniprot> - TIC8 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="281" pm="."><plain>pericentriolar material 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="282" pm="."><plain>tetratricopeptide repeat domain 8 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="283" pm="."><plain>14520415 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="284" pm="."><plain>99 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="285" pm="."><plain>2003 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="286" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="287" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8AV28,Q15154,Q9R0L6,Q9PVV4">PCM1</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="Q5VYK3,Q5R6J0">KIAA0368</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="288" pm="."><plain>pericentriolar material 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="289" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5VYK3,Q5R6J0">KIAA0368</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="290" pm="."><plain>16189514 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="291" pm="."><plain>413 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="292" pm="."><plain>2005 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="293" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="294" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q1JQ97,A1Z8E9,Q96RK4">BBS4</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="Q8AV28,Q15154,Q9R0L6,Q9PVV4">PCM1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="295" pm="."><plain>Bardet-Biedl syndrome 4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="296" pm="."><plain>pericentriolar material 1 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="297" pm="."><plain>15107855 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="298" pm="."><plain>55 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="299" pm="."><plain>2004 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="300" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="301" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P00523,P12931">SRC</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="P68252,Q5F3W6,P61981,Q5RC20,P68253">YWHAG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="302" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P15054,P00525,P14084,P14085,P25020,P00526,P31693,P00524,P63185">v-src</z:uniprot> sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="303" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O42091,P17289,A8X3V8,P90986,Q76IQ3,P18459,P07101,P24529,A0A060X6Z0,P11982,P04177,O17446">tyrosine 3-monooxygenase</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P90925,Q54XS1,P17276,Q92142">tryptophan 5-monooxygenase</z:uniprot> activation protein, gamma polypeptide </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="304" pm="."><plain>8702721 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="305" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="306" pm="."><plain>1996 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="307" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="308" pm="."><plain><z:uniprot sup="inside" fb="13" ids="Q07883,P62993,Q5R4J7">GRB2</z:uniprot> - <z:uniprot sup="inside" fb="52" ids="P00523,P12931">SRC</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="309" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q07883,P62993,Q60631,Q5R4J7,P62994,Q66II3">growth factor receptor-bound protein 2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="310" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P15054,P00525,P14084,P14085,P25020,P00526,P31693,P00524,P63185">v-src</z:uniprot> sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian) </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="311" pm="."><plain>11964172 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="312" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="bottom"><text><SENT sid="313" pm="."><plain>2002 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="314" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="315" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9UL51">HCN2</z:uniprot> - <z:uniprot sup="inside" fb="0" ids="Q9Y3Q4,Q9TV66">HCN4</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="316" pm="."><plain>hyperpolarization activated cyclic nucleotide-gated potassium channel 2 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="317" pm="."><plain>hyperpolarization activated cyclic nucleotide-gated potassium channel 4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="318" pm="."><plain>12928435 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="319" pm="."><plain>26 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="320" pm="."><plain>2003 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="321" pm="."><plain>Note that for each interaction, we only show the publication that has the highest citation count among those that report the said interaction. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><sec><title><text><SENT sid="322" pm="."><plain>Functional enrichment of high-impact interactions </plain></SENT>
+</text></title><p><text><SENT sid="323" pm="."><plain>We analyzed the statistical enrichment of annotations of the interactions that are predicted to be high-impact. </plain></SENT>
+<SENT sid="324" pm="."><plain>The Gene Ontology term enrichment for proteins involved in the top 50 high-impact interactions has been computed using the BiNGO plugin for Cytoscape [43]. </plain></SENT>
+<SENT sid="325" pm="."><plain>This analysis revealed enrichment in 80 biological processes, 16 molecular functions, and 25 cellular component terms at a statistical significance of P &lt; 0.05 (see Additional files 2, 3 and 4 respectively in text format, and Additional files 5, 6 and 7 respectively in Cytoscape format). </plain></SENT>
+<SENT sid="326" pm="."><plain>For example, cell cycle, negative regulation of biological process, and initiation of DNA-dependent transcription are highly enriched biological process terms, while protein-binding transcription factor activity and transcription-factor binding are the highly represented molecular function terms, and nuclear part, membrane-enclosed lumen, and macromolecular complex are the top most significant cellular components. </plain></SENT>
+</text></p></sec></sec><sec><title><text><SENT sid="327" pm="."><plain>High impact interactions of GWAS genes </plain></SENT>
+</text></title><p><text><SENT sid="328" pm="."><plain>Genome-wide association studies (GWAS) provide a mapping between genetic factors and diseases by drawing comparisons in the genotype of variants between disease cases and controls. </plain></SENT>
+<SENT sid="329" pm="."><plain>These studies are unbiased by current scientific knowledge about individual genes (i.e., they do not have literature-bias), and identify genome regions with previously unknown biological relevance and provide replicable results [44]. </plain></SENT>
+<SENT sid="330" pm="."><plain>They often uncover several genes of unknown functions possibly participating in hitherto unknown biological pathways [44]. </plain></SENT>
+<SENT sid="331" pm="."><plain>We collected the catalog of GWAS studies which is maintained by National Human Genome Research Institute (NHGRI) [45,46]. </plain></SENT>
+<SENT sid="332" pm="."><plain>This catalog contains 1,309 publications reporting GWAS results on 674 traits or diseases. </plain></SENT>
+<SENT sid="333" pm="."><plain>We investigated whether any high-impact interactions belong to those that are associated with diseases (as identified by GWAS; henceforth referred to as GWAS-genes) [46]. </plain></SENT>
+<SENT sid="334" pm="."><plain>Retinal vascular caliber, type 2 diabetes, and glioma are some of the diseases associated with the genes in the top 100 high-impact interactions. </plain></SENT>
+<SENT sid="335" pm="."><plain>Of the top 50 high-impact interactions, those in which one or both proteins are among the GWAS-genes are shown in Table 5 and a larger list is available in Additional file 8. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap position="float" id="T5"><label>Table 5</label><caption><p><text><SENT sid="336" pm="."><plain>GWAS genes in the top 50 high-impact interactions </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="left"/><col align="center"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead valign="top"><tr><th align="left" valign="bottom"><text><SENT sid="337" pm="."><plain>  </plain></SENT>
+</text></th><th colspan="3" align="left" valign="bottom"><text><SENT sid="338" pm="."><plain>Publication information </plain></SENT>
+</text></th><th colspan="6" align="left" valign="bottom"><text><SENT sid="339" pm="."><plain>Information about genes involved in the PPI </plain></SENT>
+</text></th></tr><tr><th align="left"><text><SENT sid="340" pm="."><plain>Rank </plain></SENT>
+</text></th><th align="left"><text><SENT sid="341" pm="."><plain>PMID </plain></SENT>
+</text></th><th align="left"><text><SENT sid="342" pm="."><plain>Cite count </plain></SENT>
+</text></th><th align="left"><text><SENT sid="343" pm="."><plain>Pub year </plain></SENT>
+</text></th><th align="left"><text><SENT sid="344" pm="."><plain>Symbol 1 </plain></SENT>
+</text></th><th align="left"><text><SENT sid="345" pm="."><plain>Symbol 2 </plain></SENT>
+</text></th><th align="left"><text><SENT sid="346" pm="."><plain>Name 1 </plain></SENT>
+</text></th><th align="left"><text><SENT sid="347" pm="."><plain>Name 2 </plain></SENT>
+</text></th><th align="left"><text><SENT sid="348" pm="."><plain>GWAS diseases/traits of 1 </plain></SENT>
+</text></th><th align="left"><text><SENT sid="349" pm="."><plain>GWAS diseases/traits of 2 </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="bottom"><text><SENT sid="350" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="351" pm="."><plain>12802337 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="352" pm="."><plain>160 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="353" pm="."><plain>2003 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="354" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q3Y5Z3,Q15848">ADIPOQ</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="355" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q6ETK9,Q86V24">ADIPOR2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="356" pm="."><plain>adiponectin, C1Q and collagen domain containing </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="357" pm="."><plain>adiponectin receptor 2 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="358" pm="."><plain>adiponectin levels </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="359" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="360" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="361" pm="."><plain>8392057 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="362" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="363" pm="."><plain>1993 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="364" pm="."><plain><z:uniprot sup="inside" fb="7" ids="Q14956,Q2T9U8,P08949,P01297">NMB</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="365" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P28336,O54799,P24053">NMBR</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="366" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q2T9U8,P08949,Q9CR53,P01297,P43443">neuromedin B</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="367" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P28336,O54799,P24053">neuromedin B receptor</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="368" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="369" pm="."><plain>Retinal vascular caliber </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="370" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="371" pm="."><plain>16600873 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="372" pm="."><plain>37 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="373" pm="."><plain>2006 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="374" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A5PJZ5,Q8N1F7,Q5R822">NUP93</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="375" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9BTX1,Q5RBY5">TMEM48</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="376" pm="."><plain>nucleoporin 93 kDa </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="377" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q7SZC5,Q9BTX1,Q8VCB1,Q5RBY5,Q6AXN4,Q6AX31">transmembrane protein 48</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="378" pm="."><plain>HDL cholesterol </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="379" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="380" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="381" pm="."><plain>12364586 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="382" pm="."><plain>72 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="383" pm="."><plain>2002 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="384" pm="."><plain><z:uniprot sup="inside" fb="18" ids="P19801,Q8JZQ5,Q9TRC7,P36633,P9WP26,P9WP27,Q01IX6,Q7XKU5,A8XJ44,Q95XG9,Q9Z1M5,Q9Z302,P24552,P14920,A2V9Y8,P18894,P00371,P22942,O35078,P80324,Q9Y7N4,Q99042">DAO</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="385" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59103">DAOA</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="386" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A8XJ44,Q95XG9,Q9Z1M5,Q9Z302,P24552,P14920,A2V9Y8,P18894,P00371,P22942,O35078,P80324,Q9Y7N4,Q99042">D-amino-acid oxidase</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="387" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P59103">D-amino acid oxidase activator</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="388" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="389" pm="."><plain>Bipolar disorder and schizophrenia </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="390" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="391" pm="."><plain>8702721 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="392" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="393" pm="."><plain>1996 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="394" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P00523,P12931">SRC</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="395" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P68252,Q5F3W6,P61981,Q5RC20,P68253">YWHAG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="396" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P15054,P00525,P14084,P14085,P25020,P00526,P31693,P00524,P63185">v-src</z:uniprot> sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="397" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O42091,P17289,A8X3V8,P90986,Q76IQ3,P18459,P07101,P24529,A0A060X6Z0,P11982,P04177,O17446">tyrosine 3-monooxygenase</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P90925,Q54XS1,P17276,Q92142">tryptophan 5-monooxygenase</z:uniprot> activation protein, gamma polypeptide </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="398" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="399" pm="."><plain>Multiple sclerosis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="400" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="401" pm="."><plain>2996780 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="402" pm="."><plain>64 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="403" pm="."><plain>1985 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="404" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P04409,P17252,P10102">PRKCA</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="405" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P00523,P12931">SRC</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="406" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q25378,P13678">protein kinase C</z:uniprot>, alpha </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="407" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P15054,P00525,P14084,P14085,P25020,P00526,P31693,P00524,P63185">v-src</z:uniprot> sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="408" pm="."><plain>Ventricular conduction,Height </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="409" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="410" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="411" pm="."><plain>10766163 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="412" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="413" pm="."><plain>2000 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="414" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P38111,Q9YHT3,Q9SAD4,Q91424,P49884,P06212,Q53AD2,Q9TV98,P03372,P49886,O24602,Q9QZJ5,Q29040,P49885,Q91250">ESR1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="415" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P67938,P67939,Q29537,Q9WUR6,P10360,P13481,O09185,Q8SPZ3,Q29480,P41685,P79892,P04637,P56423,P61260,P56424,O36006,Q00366,Q64662,Q9TUB2,Q95330,P51664,Q9TTA1">TP53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="416" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9YHT3,Q91424,P49884,P06212,P57717,Q53AD2,Q9TV98,P03372,Q9YHZ7,P49886,Q9QZJ5,P57753,P19785,P16058,P50240,Q9YH33,P50241,O42132,Q29040,P06211,P50242,P49885,Q9PVZ9,Q91250,P81559">estrogen receptor</z:uniprot> 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="417" pm="."><plain>tumor protein <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="418" pm="."><plain>Bone mineral density (hip),Height,Alcohol dependence,Sudden cardiac arrest,Bone mineral density (spine),Chronic myeloid leukemia,Breast cancer </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="419" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="420" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="421" pm="."><plain>15173068 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="422" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="423" pm="."><plain>2004 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="424" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P38111,Q9YHT3,Q9SAD4,Q91424,P49884,P06212,Q53AD2,Q9TV98,P03372,P49886,O24602,Q9QZJ5,Q29040,P49885,Q91250">ESR1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="425" pm="."><plain><z:uniprot sup="inside" fb="13" ids="Q07883,P62993,Q5R4J7">GRB2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="426" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9YHT3,Q91424,P49884,P06212,P57717,Q53AD2,Q9TV98,P03372,Q9YHZ7,P49886,Q9QZJ5,P57753,P19785,P16058,P50240,Q9YH33,P50241,O42132,Q29040,P06211,P50242,P49885,Q9PVZ9,Q91250,P81559">estrogen receptor</z:uniprot> 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="427" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q07883,P62993,Q60631,Q5R4J7,P62994,Q66II3">growth factor receptor-bound protein 2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="428" pm="."><plain>Bone mineral density (hip),Height,Alcohol dependence,Sudden cardiac arrest,Bone mineral density (spine),Chronic myeloid leukemia,Breast cancer </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="429" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="430" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="431" pm="."><plain>9568714 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="432" pm="."><plain>278 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="433" pm="."><plain>1998 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="434" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O49743,Q0Q0E4,P43691,P43694">GATA4</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="435" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q14934">NFATC4</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="436" pm="."><plain>GATA binding protein 4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="437" pm="."><plain>nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="438" pm="."><plain>Retinal vascular caliber </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="439" pm="."><plain>Height </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="440" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="441" pm="."><plain>10433554 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="442" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="443" pm="."><plain>1999 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="444" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P04409,P17252,P10102">PRKCA</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="445" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P68252,Q5F3W6,P61981,Q5RC20,P68253">YWHAG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="446" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q25378,P13678">protein kinase C</z:uniprot>, alpha </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="447" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O42091,P17289,A8X3V8,P90986,Q76IQ3,P18459,P07101,P24529,A0A060X6Z0,P11982,P04177,O17446">tyrosine 3-monooxygenase</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P90925,Q54XS1,P17276,Q92142">tryptophan 5-monooxygenase</z:uniprot> activation protein, gamma polypeptide </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="448" pm="."><plain>Ventricular conduction,Height </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="449" pm="."><plain>Multiple sclerosis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="450" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="451" pm="."><plain>8266076 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="452" pm="."><plain>105 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="453" pm="."><plain>1993 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="454" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q95118,P40321,P31785,P34902">IL2RG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="455" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q6WG24,P24394,Q863Z5">IL4R</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="456" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5PXD0,Q7JFM2,Q7JFM5,Q7JFM3,Q7JFM4,Q4U313,P05016,Q95KP3,Q2PE78,Q2PE47,Q29416,P36835,P46649,P51747,Q1WM29,Q9XT84,Q07885,Q9XT83,P37997,P60568,P60569,Q865X2,Q29615,P68291,P68290,Q08081,O62641,Q5MBA8,P04351,Q08867,O97513,Q865Y1,Q9XS38,P26891,O77620,P17108,Q8MKH2,P19114,Q25BC3">interleukin 2</z:uniprot> receptor, gamma </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="457" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q3S4V6,Q58M18,P30367,Q7YS71,Q2PE74,O77762,P79155,P46652,P51744,P55030,P42202,P05112,Q865X5,P79339,P51492,P47966,Q60440,P07750,Q8HYB1,Q865Y0,Q04745,Q9MZR8,P20096,P30368,Q9XS58">interleukin 4</z:uniprot> receptor </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="458" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="459" pm="."><plain>IgE levels </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="460" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="461" pm="."><plain>12732139 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="462" pm="."><plain>46 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="463" pm="."><plain>2003 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="464" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P84023,P84022,Q8BUN5,P84024,P84025">SMAD3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="465" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P67938,P67939,Q29537,Q9WUR6,P10360,P13481,O09185,Q8SPZ3,Q29480,P41685,P79892,P04637,P56423,P61260,P56424,O36006,Q00366,Q64662,Q9TUB2,Q95330,P51664,Q9TTA1">TP53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="466" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P84023,P84022,Q8BUN5,P84024,P84025">SMAD family member 3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="467" pm="."><plain>tumor protein <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="468" pm="."><plain>Coronary heart disease,Asthma,Crohn's disease </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="469" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="470" pm="."><plain>23 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="471" pm="."><plain>1454855 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="472" pm="."><plain>45 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="473" pm="."><plain>1992 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="474" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P04409,P17252,P10102">PRKCA</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="475" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P67938,P67939,Q29537,Q9WUR6,P10360,P13481,O09185,Q8SPZ3,Q29480,P41685,P79892,P04637,P56423,P61260,P56424,O36006,Q00366,Q64662,Q9TUB2,Q95330,P51664,Q9TTA1">TP53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="476" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q25378,P13678">protein kinase C</z:uniprot>, alpha </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="477" pm="."><plain>tumor protein <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="478" pm="."><plain>Ventricular conduction,Height </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="479" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="480" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="481" pm="."><plain>8266077 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="482" pm="."><plain>115 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="483" pm="."><plain>1993 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="484" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q95118,P40321,P31785,P34902">IL2RG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="485" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A5HJM1,A0MSX9,P16871,Q38IC7">IL7R</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="486" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5PXD0,Q7JFM2,Q7JFM5,Q7JFM3,Q7JFM4,Q4U313,P05016,Q95KP3,Q2PE78,Q2PE47,Q29416,P36835,P46649,P51747,Q1WM29,Q9XT84,Q07885,Q9XT83,P37997,P60568,P60569,Q865X2,Q29615,P68291,P68290,Q08081,O62641,Q5MBA8,P04351,Q08867,O97513,Q865Y1,Q9XS38,P26891,O77620,P17108,Q8MKH2,P19114,Q25BC3">interleukin 2</z:uniprot> receptor, gamma </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="487" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P26895,P13232,P10168,Q9N2G6,P56478,Q28540">interleukin 7</z:uniprot> receptor </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="488" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="489" pm="."><plain>Type 1 diabetes,Ulcerative colitis,Multiple sclerosis,Primary biliary cirrhosis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="490" pm="."><plain>28 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="491" pm="."><plain>15324660 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="492" pm="."><plain>72 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="493" pm="."><plain>2004 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="494" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P67938,P67939,Q29537,Q9WUR6,P10360,P13481,O09185,Q8SPZ3,Q29480,P41685,P79892,P04637,P56423,P61260,P56424,O36006,Q00366,Q64662,Q9TUB2,Q95330,P51664,Q9TTA1">TP53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="495" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P68252,Q5F3W6,P61981,Q5RC20,P68253">YWHAG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="496" pm="."><plain>tumor protein <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="497" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O42091,P17289,A8X3V8,P90986,Q76IQ3,P18459,P07101,P24529,A0A060X6Z0,P11982,P04177,O17446">tyrosine 3-monooxygenase</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="P90925,Q54XS1,P17276,Q92142">tryptophan 5-monooxygenase</z:uniprot> activation protein, gamma polypeptide </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="498" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="499" pm="."><plain>Multiple sclerosis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="500" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="501" pm="."><plain>15140878 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="502" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="503" pm="."><plain>2004 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="504" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P38111,Q9YHT3,Q9SAD4,Q91424,P49884,P06212,Q53AD2,Q9TV98,P03372,P49886,O24602,Q9QZJ5,Q29040,P49885,Q91250">ESR1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="505" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P00523,P12931">SRC</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="506" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9YHT3,Q91424,P49884,P06212,P57717,Q53AD2,Q9TV98,P03372,Q9YHZ7,P49886,Q9QZJ5,P57753,P19785,P16058,P50240,Q9YH33,P50241,O42132,Q29040,P06211,P50242,P49885,Q9PVZ9,Q91250,P81559">estrogen receptor</z:uniprot> 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="507" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P15054,P00525,P14084,P14085,P25020,P00526,P31693,P00524,P63185">v-src</z:uniprot> sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="508" pm="."><plain>Bone mineral density (hip),Height,Alcohol dependence,Sudden cardiac arrest,Bone mineral density (spine),Chronic myeloid leukemia,Breast cancer </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="509" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="510" pm="."><plain>34 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="511" pm="."><plain>12878187 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="512" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="513" pm="."><plain>2003 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="514" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P13387,P00533,P55245">EGFR</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="515" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P04409,P17252,P10102">PRKCA</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="516" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P0CY46,P13387,P04412,P00533,P55245,Q01279">epidermal growth factor receptor</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="517" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q25378,P13678">protein kinase C</z:uniprot>, alpha </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="518" pm="."><plain>Glioma </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="519" pm="."><plain>Ventricular conduction,Height </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="520" pm="."><plain>36 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="521" pm="."><plain>16192271 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="522" pm="."><plain>88 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="523" pm="."><plain>2005 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="524" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q84M24,O95477">ABCA1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="525" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q92796,Q13368">DLG3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="526" pm="."><plain>ATP-binding cassette, sub-family A (<z:uniprot sup="inside" fb="0" ids="O95477,P41233">ABC1</z:uniprot>), member 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="527" pm="."><plain>discs, large homolog 3 (Drosophila) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="528" pm="."><plain>MRI atrophy measures,HDL cholesterol,Lipid metabolism phenotypes,Cholesterol,total,Coronary heart disease </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="529" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="530" pm="."><plain>38 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="531" pm="."><plain>17057718 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="532" pm="."><plain>66 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="533" pm="."><plain>2006 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="534" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P23825">GATA3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="535" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q01826">SATB1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="536" pm="."><plain>GATA binding <z:uniprot sup="inside" fb="0" ids="Q0Q474,Q3LZX0,Q3I5J4,Q8V3T9,Q12988,Q6E0W9,Q98663,Q5GA88,Q6Q1S1,Q6UBL8,P03552,P03553,Q02967,Q00967,P03551,P05398,P09522,Q68Y30,Q9JGT9">protein 3</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="537" pm="."><plain>SATB homeobox 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="538" pm="."><plain>Hodgkin's lymphoma </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="539" pm="."><plain>Platelet counts </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="540" pm="."><plain>39 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="541" pm="."><plain>15466214 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="542" pm="."><plain>27 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="543" pm="."><plain>2004 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="544" pm="."><plain>AR </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="545" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P00523,P12931">SRC</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="546" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9TT90,Q8MIK0,O97776,P10275,Q7T1K4,O97952,Q6QT55,P19091,O97775,O97960,Q9GKL7,P49699,P15207">androgen receptor</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="547" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P15054,P00525,P14084,P14085,P25020,P00526,P31693,P00524,P63185">v-src</z:uniprot> sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian) </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="548" pm="."><plain>Prostate cancer,Male-pattern baldness,LDL cholesterol </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="549" pm="."><plain>  </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="550" pm="."><plain>44 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="551" pm="."><plain>8994038 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="552" pm="."><plain>82 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="553" pm="."><plain>1997 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="554" pm="."><plain><z:uniprot sup="inside" fb="13" ids="Q07883,P62993,Q5R4J7">GRB2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="555" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P46196,P28482,Q5Z9J0">MAPK1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="556" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q07883,P62993,Q60631,Q5R4J7,P62994,Q66II3">growth factor receptor-bound protein 2</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="557" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O94737,P46196,P28482,P63085,P63086,P26696,Q39021,Q84UI5">mitogen-activated protein kinase 1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="558" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="559" pm="."><plain>Multiple sclerosis </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="560" pm="."><plain>46 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="561" pm="."><plain>11782371 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="562" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="563" pm="."><plain>2002 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="564" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q09472">EP300</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="565" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P38111,Q9YHT3,Q9SAD4,Q91424,P49884,P06212,Q53AD2,Q9TV98,P03372,P49886,O24602,Q9QZJ5,Q29040,P49885,Q91250">ESR1</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="566" pm="."><plain>E1A binding protein <z:uniprot sup="inside" fb="7" ids="Q01705">p300</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="567" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9YHT3,Q91424,P49884,P06212,P57717,Q53AD2,Q9TV98,P03372,Q9YHZ7,P49886,Q9QZJ5,P57753,P19785,P16058,P50240,Q9YH33,P50241,O42132,Q29040,P06211,P50242,P49885,Q9PVZ9,Q91250,P81559">estrogen receptor</z:uniprot> 1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="568" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="569" pm="."><plain>Bone mineral density (hip),Height,Alcohol dependence,Sudden cardiac arrest,Bone mineral density (spine),Chronic myeloid leukemia,Breast cancer </plain></SENT>
+</text></td></tr><tr><td align="left" valign="bottom"><text><SENT sid="570" pm="."><plain>47 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="571" pm="."><plain>12200137 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="572" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="573" pm="."><plain>2002 </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="574" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q95118,P40321,P31785,P34902">IL2RG</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="575" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P30019,Q56XZ1,Q15464">SHB</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="576" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5PXD0,Q7JFM2,Q7JFM5,Q7JFM3,Q7JFM4,Q4U313,P05016,Q95KP3,Q2PE78,Q2PE47,Q29416,P36835,P46649,P51747,Q1WM29,Q9XT84,Q07885,Q9XT83,P37997,P60568,P60569,Q865X2,Q29615,P68291,P68290,Q08081,O62641,Q5MBA8,P04351,Q08867,O97513,Q865Y1,Q9XS38,P26891,O77620,P17108,Q8MKH2,P19114,Q25BC3">interleukin 2</z:uniprot> receptor, gamma </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="577" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P05480,Q9WUD9">Src</z:uniprot> homology 2 domain containing adaptor <z:uniprot sup="inside" fb="0" ids="Q9QAZ7,P08098,Q8IVL6,Q8CG70,P09879">protein B</z:uniprot> </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="578" pm="."><plain>  </plain></SENT>
+</text></td><td align="left" valign="bottom"><text><SENT sid="579" pm="."><plain>Brain structure </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="580" pm="."><plain>50 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="581" pm="."><plain>7477400 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="582" pm="."><plain>72 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="583" pm="."><plain>1995 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="584" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P79483">HLA-DRB3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="585" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P87352,P68000,P68001,P01190,P01203,P19402,P01189,Q91082,P11885,P21252,P01201,P01193,P11280,P10000,P22923,P01192,P06297,P01194,P01191,P01197,P01196,Q9YGK2">POMC</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="586" pm="."><plain>major histocompatibility complex, class II, DR beta 3 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="587" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P87352,P68000,P68001,P01190,P19402,P01189,Q91082,P11885,P21252,P01201,P01193,P11280,P10000,P22923,P01192,P06297,P01194,P01191,P01197,P01196,Q9YGK2">proopiomelanocortin</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="588" pm="."><plain>  </plain></SENT>
+</text></td><td align="left"><text><SENT sid="589" pm="."><plain>Type 1 diabetes,Height,Body mass index </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="590" pm="."><plain>Of the top 50 high impact interactions, those in which one or both genes are found to be associated with a disease or trait by genome-wide association studies (GWAS) are shown. </plain></SENT>
+<SENT sid="591" pm="."><plain>GWAS associated genes are shown in bold. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="592" pm="."><plain>Open challenges </plain></SENT>
+</text></title><p><text><SENT sid="593" pm="."><plain>Inferring biological conclusions from topology of a partially-known network will be influenced by the sampling biases that can alter the underlying structure of the network in unpredictable ways [47]. </plain></SENT>
+<SENT sid="594" pm="."><plain>As mentioned earlier, only 10% of the human interactome is currently known. </plain></SENT>
+<SENT sid="595" pm="."><plain>The fact that we are dealing with a sub-network, rather than a complete network presents an inherent challenge to this study. </plain></SENT>
+<SENT sid="596" pm="."><plain>The first issue concerns the accuracy of the centrality measures: under-studied sub-regions of the network may have superficially low centrality measures, while well-studied sub-regions of the network may have seemingly high centrality measures. </plain></SENT>
+<SENT sid="597" pm="."><plain>The second issue involves bias in the citation behavior: well-studied sub-regions, by definition, are more avidly studied. </plain></SENT>
+<SENT sid="598" pm="."><plain>Thus, it may be the case that well-studied sub-regions will contain highly-cited interactions due to study bias. </plain></SENT>
+<SENT sid="599" pm="."><plain>In order to address this inaccuracy in centrality measures and sociological bias in the citation counts, constructing a network from systematic, unbiased high-throughput experiments (biotechnological or computational methods) is one area of future research. </plain></SENT>
+</text></p><p><text><SENT sid="600" pm="."><plain>Impact prediction in any biological domain in general, has unique challenges. </plain></SENT>
+<SENT sid="601" pm="."><plain>Unlike in other computational domains, such as human language translation, it is difficult to estimate the translational impact in biology in a particular study because it is time consuming and requires investment of expensive resources and scientific skills making the design of such algorithms challenging. </plain></SENT>
+<SENT sid="602" pm="."><plain>Despite its difficulties, the proposed direction of research of developing inference-analytic algorithms is necessary to make advances in the most impactful direction. </plain></SENT>
+</text></p></sec></sec></SecTag><sec><title><text><SENT sid="603" pm="."><plain>Potential implications </plain></SENT>
+</text></title><p><text><SENT sid="604" pm="."><plain>High-throughput biotechnology and computational prediction algorithms generate a plethora of hypothesized biological inferences. </plain></SENT>
+<SENT sid="605" pm="."><plain>Meanwhile, high-resolution bench work experiments in biology are often carried out by formulating the hypothesis with a local view of a molecule rather than a systemic view. </plain></SENT>
+<SENT sid="606" pm="."><plain>In this era of scalable data-analytic algorithms which process large data, producing hundreds of inferences, there needs to be a systematic way of determining which of these hundreds of inferences are to be further studied. </plain></SENT>
+<SENT sid="607" pm="."><plain>In this position paper, we propose a new class of algorithms called inference-analytic algorithms that carry out such systematic analysis to prioritize the computational inferences for further study; the concept has been demonstrated in the context of protein-protein interactions (PPIs). </plain></SENT>
+</text></p><p><text><SENT sid="608" pm="."><plain>The algorithm is designed to provide a roadmap for the order in which PPIs should be studied further, in the hope that this will prioritize the investment of small-scale experiments and reap maximum benefit for the field of biomedicine as a whole. </plain></SENT>
+<SENT sid="609" pm="."><plain>It has the potential to identify both existing PPIs with untapped impact and also newly predicted PPIs with potential for impact. </plain></SENT>
+<SENT sid="610" pm="."><plain>Factors such as disease-associations and drug-binding also determine which proteins are to be studied further for biomedical impact. </plain></SENT>
+<SENT sid="611" pm="."><plain>On the other hand, factors such as unavailability of reagents may restrict the study of some of these proteins. </plain></SENT>
+<SENT sid="612" pm="."><plain>Future algorithmic prediction of impactful PPIs needs to incorporate these preferences and constraints. </plain></SENT>
+</text></p><p><text><SENT sid="613" pm="."><plain>Identifying high-impact PPIs brings the focus of the scientific community onto these proteins and fuels the development of necessary skills, reagents, and so forth. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="614" pm="."><plain>Availability of supporting data </plain></SENT>
+</text></title><p><text><SENT sid="615" pm="."><plain>Supporting data are made available on BiomedCentral website as described under Additional files section. </plain></SENT>
+</text></p></sec><SecTag type="ABBR"><sec><title><text><SENT sid="616" pm="."><plain>Abbreviations </plain></SENT>
+</text></title><p><text><SENT sid="617" pm="."><plain>PPI: Protein-protein interaction; MeSH: Medical subject heading; ROC: Receiver operating characteristics; AUPR: Area under the precision-recall curve; GWAS: Genome-wide association studies. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="618" pm="."><plain>Competing interests </plain></SENT>
+</text></title><p><text><SENT sid="619" pm="."><plain>The authors declare that they have no competing interests. </plain></SENT>
+</text></p></sec></SecTag><sec><title><text><SENT sid="620" pm="."><plain>Authors’ contributions </plain></SENT>
+</text></title><p><text><SENT sid="621" pm="."><plain>The concept and the design were developed by MKG. </plain></SENT>
+<SENT sid="622" pm="."><plain>The implementation was carried out by NO. </plain></SENT>
+<SENT sid="623" pm="."><plain>The analyses were carried out by MKG and NO. </plain></SENT>
+<SENT sid="624" pm="."><plain>The manuscript is written by MKG with inputs from NO. </plain></SENT>
+<SENT sid="625" pm="."><plain>Both authors read and approved the final manuscript. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="626" pm="."><plain>Authors’ information </plain></SENT>
+</text></title><p><text><SENT sid="627" pm="."><plain>Madhavi K. </plain></SENT>
+<SENT sid="628" pm="."><plain>Ganapathiraju has Ph.D. from the Language Technologies Institute, Carnegie Mellon University School of Computer Science, and Master’s degree in Electrical Communications Engineering from the Indian Institute Science. </plain></SENT>
+<SENT sid="629" pm="."><plain>She is Faculty in Biomedical Informatics and Intelligent Systems at University of Pittsburgh, where she is applying computational methods to discover hitherto <z:uniprot sup="inside" fb="0" ids="P83440">unknown protein</z:uniprot>-protein interactions in the human interactome. </plain></SENT>
+<SENT sid="630" pm="."><plain>Naoki Orii was graduate student at the Language Technologies Institute, Carnegie Mellon University School of Computer Science when he carried out this work. </plain></SENT>
+<SENT sid="631" pm="."><plain>Subsequent to obtaining his Master’s degree in May 2013, he moved to the data-analytics industry. </plain></SENT>
+</text></p></sec><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="632" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="S1"><caption><title><text><SENT sid="633" pm="."><plain>Additional file 1 </plain></SENT>
+</text></title><p><text><SENT sid="634" pm="."><plain>100 most-impactful interactions as predicted by the model, as well as predicted impact scores for all interactions sorted in descending order by predicted impact. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S1.txt"><caption><p><text><SENT sid="635" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S2"><caption><title><text><SENT sid="636" pm="."><plain>Additional file 2 </plain></SENT>
+</text></title><p><text><SENT sid="637" pm="."><plain>Enriched Gene Ontology terms (biological process) for the top 50 high-impact interactions. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S2.txt"><caption><p><text><SENT sid="638" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S3"><caption><title><text><SENT sid="639" pm="."><plain>Additional file 3 </plain></SENT>
+</text></title><p><text><SENT sid="640" pm="."><plain>Enriched Gene Ontology terms (molecular function) for the top 50 high-impact interactions. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S3.txt"><caption><p><text><SENT sid="641" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S4"><caption><title><text><SENT sid="642" pm="."><plain>Additional file 4 </plain></SENT>
+</text></title><p><text><SENT sid="643" pm="."><plain>Enriched Gene Ontology terms (cellular component) for the top 50 high-impact interactions. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S4.txt"><caption><p><text><SENT sid="644" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S5"><caption><title><text><SENT sid="645" pm="."><plain>Additional file 5 </plain></SENT>
+</text></title><p><text><SENT sid="646" pm="."><plain>Cytoscape session file showing enriched Gene Ontology biological process terms, output by BiNGO. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S5.zip"><caption><p><text><SENT sid="647" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S6"><caption><title><text><SENT sid="648" pm="."><plain>Additional file 6 </plain></SENT>
+</text></title><p><text><SENT sid="649" pm="."><plain>Cytoscape session file showing enriched Gene Ontology molecular function terms, output by BiNGO. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S6.cys"><caption><p><text><SENT sid="650" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S7"><caption><title><text><SENT sid="651" pm="."><plain>Additional file 7 </plain></SENT>
+</text></title><p><text><SENT sid="652" pm="."><plain>Cytoscape session file showing enriched Gene Ontology cellular component terms, output by BiNGO. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S7.cys"><caption><p><text><SENT sid="653" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S8"><caption><title><text><SENT sid="654" pm="."><plain>Additional file 8 </plain></SENT>
+</text></title><p><text><SENT sid="655" pm="."><plain>Of the top 50 high-impact interactions, those in which one or both proteins are among the GWAS-genes are shown. </plain></SENT>
+</text></p></caption><media xlink:href="2047-217X-2-11-S8.xlsx"><caption><p><text><SENT sid="656" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="657" pm="."><plain>This work has been funded by the Biobehavioral Research Awards for Innovative New Scientists (BRAINS) grant R01-MH094564 awarded to MG by the National Institute of Mental Health of National Institutes of Health (NIMH/NIH) of USA. </plain></SENT>
+<SENT sid="658" pm="."><plain>Authors thank Dr. Tanja Bekhuis for providing valuable comments on the manuscript. </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="659" pm="."><plain>Amazon mechanical turk<ext-link ext-link-type="uri" xlink:href="http://www.mturk.com">http://www.mturk.com</ext-link> </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="660" pm="."><plain>Den HartighJCVan Bergen En HenegouwenPMVerkleijAJBoonstraJThe EGF receptor is an <z:uniprot sup="inside" fb="72" ids="Q05214,P53491,P26182,P53455,Q75D00,Q2U7A3,O13419,P90689,Q92192,P14235,Q9UVZ8,P60009,P80709,P53498,P53499,O65315,Q9UVX4,P30161,O17320,Q92193,P48465,P26183,P53500,Q24733,Q8SWN8,P11426,Q8X119,P53502,Q39758,Q6TCF2,P51775,O81221,Q99023,P17128,Q9P4D1,P45520,P91754,O16808,O65316,P78711,O74258,Q39596,P53689,P13363,A5DQP9,P24902,P81085,P45521,P50138,P60011,O65314,P10989,Q11212,O00937,P68555,P10365,P53476,P53477,P20904,Q9UVF3,P60010">actin</z:uniprot>-binding proteinJ Cell Biol199211934935510.1083/jcb.119.2.349<?supplied-pmid 1383230?>1383230 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="661" pm="."><plain>GehrkeJGinspargPKleinbergJOverview of the 2003 KDD CupSIGKDD Explor Newsl2003514915110.1145/980972.980992 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="662" pm="."><plain>FuLDAliferisCModels for predicting and explaining citation count of biomedical articles2008AMIA Annual Symposium proceedings / AMIA Symposium AMIA Symposium222226 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="663" pm="."><plain>IbanezALarranagaPBielzaCPredicting citation count of Bioinformatics papers within four years of publicationBioinformatics2009253303330910.1093/bioinformatics/btp585<?supplied-pmid 19819886?>19819886 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="664" pm="?"><plain>BornmannLDanielHDWhat do citation counts measure? </plain></SENT>
+<SENT sid="665" pm="."><plain>A review of studies on citing behaviorJ Doc200864458010.1108/00220410810844150 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="666" pm="."><plain>StumpfMPThorneTde SilvaEStewartRAnHJLappeMWiufCEstimating the size of the human interactomeProc Natl Acad Sci USA20081056959696410.1073/pnas.0708078105<?supplied-pmid 18474861?>18474861 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="667" pm="."><plain>VenkatesanKRualJFVazquezAStelzlULemmensIHirozane-KishikawaTHaoTZenknerMXinXGohKIAn empirical framework for binary interactome mappingNat Methods20096839010.1038/nmeth.1280<?supplied-pmid 19060904?>19060904 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="668" pm="."><plain>RamírezFSchlickerAAssenovYLengauerTAlbrechtMComputational analysis of human protein interaction networksProteomics200772541255210.1002/pmic.200600924<?supplied-pmid 17647236?>17647236 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="669" pm="."><plain>ShoemakerBAPanchenkoARDeciphering protein-protein interactions. </plain></SENT>
+<SENT sid="670" pm="."><plain>Part I. </plain></SENT>
+<SENT sid="671" pm="."><plain>Experimental techniques and databasesPLoS computational biology20073e4210.1371/journal.pcbi.0030042<?supplied-pmid 17397251?>17397251 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="672" pm="."><plain>ShoemakerBAPanchenkoARDeciphering protein-protein interactions. </plain></SENT>
+<SENT sid="673" pm="."><plain>Part II. </plain></SENT>
+<SENT sid="674" pm="."><plain>Computational methods to predict protein and domain interaction partnersPLoS computational biology20073e4310.1371/journal.pcbi.0030043<?supplied-pmid 17465672?>17465672 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="675" pm="."><plain>QiYDhimanHKBholaNBudyakIKarSManDDuttaATirupulaKCarrBIGrandisJSystematic prediction of human membrane receptor interactionsProteomics200995243525510.1002/pmic.200900259<?supplied-pmid 19798668?>19798668 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="676" pm="."><plain>ScottMSBartonGJProbabilistic prediction and ranking of human protein-protein interactionsBMC Bioinforma2007823910.1186/1471-2105-8-239 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="677" pm="."><plain>AnanthasubramanianSMetriRKhetanAGuptaAHandenAChandraNGanapathirajuMMycobacterium tuberculosis and Clostridium difficille interactomes: demonstration of rapid development of computational system for bacterial interactome predictionMicrobial informatics and experimentation20122410.1186/2042-5783-2-4<?supplied-pmid 22587966?>22587966 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="678" pm="."><plain>MaXGaoLBiological network analysis: insights into structure and functionsBriefings in functional genomics20121143444210.1093/bfgp/els045<?supplied-pmid 23184677?>23184677 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="679" pm="."><plain>BultinckJLievensSTavernierJProtein-protein interactions: network analysis and applications in drug discoveryCurrent pharmaceutical design2012184619462910.2174/138161212802651562<?supplied-pmid 22650261?>22650261 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="680" pm="."><plain>CuiTZhangLWangXHeZGUncovering new signaling proteins and potential drug targets through the interactome analysis of Mycobacterium tuberculosisBMC Genomics20091011810.1186/1471-2164-10-118<?supplied-pmid 19298676?>19298676 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="681" pm="."><plain>AzmiASWangZPhilipPAMohammadRMSarkarFHProof of concept: network and systems biology approaches aid in the discovery of potent anticancer drug combinationsMolecular cancer therapeutics201093137314410.1158/1535-7163.MCT-10-0642<?supplied-pmid 21041384?>21041384 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="682" pm="."><plain>BarabasiALGulbahceNLoscalzoJNetwork medicine: a network-based approach to human diseaseNature reviews Genetics201112566810.1038/nrg2918<?supplied-pmid 21164525?>21164525 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="683" pm="."><plain>PrasadTSKGoelRKandasamyKKeerthikumarSKumarSMathivananSTelikicherlaDRajuRShafreenBVenugopalAHuman protein reference database-2009 updateNucleic acids research200937D767D77210.1093/nar/gkn892<?supplied-pmid 18988627?>18988627 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="684" pm="."><plain>StarkCBreitkreutzBJChatr-AryamontriABoucherLOughtredRLivstoneMSNixonJVan AukenKWangXShiXThe BioGRID interaction database: 2011 updateNucleic acids research201139D698D70410.1093/nar/gkq1116<?supplied-pmid 21071413?>21071413 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="685" pm="."><plain>The Entrez programming utilities<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/books/NBK25501/">http://www.ncbi.nlm.nih.gov/books/NBK25501/</ext-link> </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="686" pm="."><plain>WassermanSFaustKSocial network analysis : methods and applications1994Cambridge, New York: Cambridge University Press </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="687" pm="."><plain>BarabasiALOltvaiZNNetwork biology: understanding the cell’s functional organizationNature reviews Genetics2004510111310.1038/nrg1272<?supplied-pmid 14735121?>14735121 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="688" pm="."><plain>MasonOVerwoerdMGraph theory and networks in biologyIET systems biology200718911910.1049/iet-syb:20060038<?supplied-pmid 17441552?>17441552 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="689" pm="."><plain>YuHGreenbaumDXin LuHZhuXGersteinMGenomic analysis of essentiality within protein networksTrends in genetics : TIG20042022723110.1016/j.<z:uniprot sup="inside" fb="39" ids="A1TM63,Q6FEP9,B7H094,B7I4X8,B2I3C0,B0VKU6,A3M1Y6,B0V4R6,A0LSU9,A5FX03,B9MG13,A1W5B5,A3N2F5,B3GYI8,B0BRA0,A6VME0,A0KJU0,A4SM41,C4ZGF3,Q8UEU0,B9JEI6,B9JWZ2,B2UQZ3,Q0VQ91,Q5E6Q6,B5FBZ7,B6EHK2,Q0A6A6,A6TM60,A8MIS9,Q2IEW0,A7HFW0,Q5PBD1,Q2GJB3,B7GH24,O67358,A8EVH6,Q5P162,A0JXL5,Q2NJE2,Q9X6W7,A8HYF0,A1K784,C1DHE8,C3P9F8,C3L705,A0RJ90,Q81LB8,B7JQ66,Q72ZV3,B7IIY4,C1ETR9,B7HEA5,B7HQN3,A7GTF2,B9IZ48,Q812Q9,Q633X1,Q9K8F3,Q6HD53,Q65GJ3,A9VIU7,A8FFW0,Q5WEN8,P80698,A7Z7B3,A1USB3,Q6G3Y8,Q6FZK6,A9ISC1,Q1LTJ8,Q6MH01,B2IGP4,C5BXG1,B8DTD1,A1A236,B3DSL6,Q8G5Q7,B7GSV7,Q2L258,Q0SMP7,Q660R3,Q7WK84,O51555,B5RMG0,B2S0V7,Q7W8X3,A9IR57,Q7VXI8,B5RPV6,A1R039,Q89KG0,A5EKB0,A4YVM6,C0ZAG1,B2S5D1,Q2YNL3,Q57DK9,Q8YGT8,A5VQ80,Q8G129,B8D9Q1,P57546,Q8K991,B8D803,B1YRZ6,Q1BH86,B1JTV1,A0K848,B4EBM4,Q0BEF5,Q39FE7,A9AJQ9,A3MKJ9,A2SBG2,Q62JK6,A1V4X2,A3NWA7,Q3JRC7,A3NAI6,Q63V42,Q2SWQ8,A4JF06,B9MQ31,Q8RC26,A4XHV9,A7ZB34,A7GW44,A0RRI0,A7HZE7,A8FJZ4,Q46108,A1VXS1,Q5HWX5,B9KDZ7,Q3AF97,P0CAX0,B8GX17,B3PHK7,Q11HE1,Q5L4W8,Q3AU11,B3EGP8,Q9PLL9,B3QQT5,B3ENK5,A1BIQ7,Q9Z758,B0B8T3,B3QXY8,Q3KKY7,B0BAG2,Q8KB57,O84713,Q1QVW0,Q7NUY8,A8AK17,A5CR04,B0RAS0,Q97FT6,A7FYI3,C3KU78,A6LT26,B2UX14,B2TPC0,A5I6W2,C1FLA7,B1IND8,A7GIH3,B1L1D8,Q180E9,B9E686,A5N2K9,A0Q2L2,Q0TQK1,Q8XKK0,Q0ST52,Q891J6,Q47XL7,C3PI36,Q6NFU3,Q8FN35,A4QGE8,Q8NMZ9,Q4JWV5,C4LJV9,B6J8W5,B6J0W1,Q83DJ3,A7MFI9,Q1LM61,Q0KBK5,Q472D4,B3R4W0,Q6A7E7,Q47FB5,Q3Z8J9,A5FRE4,Q3ZX83,C1D0N3,Q1J199,Q9RT21,A9C1U7,C6BVE8,Q30Z77,C0QGS9,B8FA61,B1I4R5,B8IYM1,C4XH04,A8ZXB6,Q6AK58,A4J7M0,Q72CE9,B8DNL3,A1VE86,A5EWF6,A8LQQ9,A7ZIJ4,B7UJQ9,B7MD95,B7L673,P0A851,B5Z3U4,B7NJ58,B7MQF2,B7M3S9,C4ZTJ3,B1XFM4,A7ZX94,A1A8A5,Q0TKK5,Q8FKA7,B1J012,P0A850,B7N8Z0,B6HZP3,B1LJJ3,Q1RFA0,C5BCJ5,Q3YSQ4,Q2GFT7,Q5FFG8,Q5HBX6,A4W7A7,Q837W3,B2VHT7,Q2NDC7,B7LME3,B1YJW1,C4L4J0,B0S2N7,Q0RPH4,Q2JDR0,B0TZA4,A8L1X3,Q14IK0,A7NBR5,Q2A3U2,B2SG17,A0Q6T0,Q0BM93,Q5NH48,A4IYB7,Q8R5Z2,B5EI26,B9M0Y0,Q5KWJ8,B3E1Z5,Q39UH1,Q74C81,C6E2T1,C5D5L5,A4IRH3,A5GF99,Q7NDP0,A9HRV7,Q5FUR2,Q0BSJ5,Q7VN98,Q4QMK6,A5UE12,A5UHJ5,P44837,B8F6T9,Q0I4F2,Q2SK37,A1WUM8,B8CY75,C4K4P3,Q17XD2,Q7VIN8,B6JM26,B5Z7F7,Q1CT75,Q9ZL49,B2UT36,P56420,A9AUT1,A4G5X2,B0UW21,A3DJ09,Q31GF2,Q0C0H6,Q5QXN7,A6SY73,Q28RY2,A6WDU2,B5Y0U3,A6T5H9,B2GGB4,Q1IRD7,C5CGV0,Q5FKR7,Q03QN6,B3WE40,Q1GAP9,Q04B36,B2GBC3,Q042T6,A8YUS3,Q9CI15,A2RIM8,Q031H9,Q039K4,A9KSW9,Q88VE1,A5VJ93,B2G6R3,Q1WU82,Q38WR8,C1D538,Q1MQ80,Q5X450,A5ID18,Q5ZUD8,Q5WVI9,Q6AG00,Q04TR5,Q052U7,B1Y6H4,Q72SG7,Q8F351,B1MXT7,Q03W08,Q92C85,C1L2H5,Q720F5,B8DHN8,Q8Y7L0,A0AI70,B1HVE6,B9E748,A0LDT5,Q2W3H8,Q65RF4,A1U1Q4,Q0AQ08,A6VW19,Q6F159,B7KNS9,A9W5F4,Q1H1G1,B8IN25,B1Z9C6,A2SFB4,B1LV84,B0UD17,B8EIL1,B0JL93,Q2RL32,A0QDF1,B1MMV3,Q7TYJ1,A1KLF8,C1AES9,Q2SRX4,Q7NBA6,P47480,A4T2P3,Q601G9,Q4A8L6,Q4AAI5,B8ZRP5,Q9CBY2,B2HNG6,Q6KIK5,Q6MTF5,Q73XM7,Q8EV76,P75454,Q98R01,A0R199,Q4A5G1,A3Q2I4,A1UJ38,Q1B5Z8,A5U5F8,P9WG54,P9WG55,A0PU35,A1TCB8,Q1DAT1,B2A157,Q5F915,B4RMG6,A9LZP0,Q9JU32,Q9JZ37,A1KUE0,Q0AJI1,Q82Y58,Q1QL75,Q2Y6I9,Q3JAJ7,A6Q1C0,Q3SRD1,Q5Z064,A1SME5,B2IT89,Q8YQX9,Q2G3S9,Q8CXB7,A6X192,Q04D98,Q9RLJ3,B6JGU6,Q6YQC6,B1ZW06,A1R7A5,A1B0F4,A7HY57,B2JGL4,B2T3Z9,Q6MBF0,Q13Z16,P57980,Q6D828,C6DB54,Q03F26,Q3A3X4,B4SFE7,A1AN86,A5D446,Q4FM95,Q7N0L2,Q6LNV9,A4SXD5,A1VRH9,B1XUT0,Q12BY3,B4S4S0,A3PFE3,A2C5C0,A8G7G0,A2C5R7,A9BD99,A2BZ41,Q317Y7,Q7V9L7,B4EU52,Q7V991,Q7UZK8,A2BTN6,Q46ID5,Q48KZ1,Q15R45,A6V720,B7VB77,Q02KU3,Q9I2U2,B8HA36,Q1ICA9,Q4K9J5,C3JYK1,Q3IF53,A8F755,A4XTZ4,A5W636,Q3K9W8,B0KJG5,Q88KJ1,B1J691,Q87YR5,Q4ZVM8,A4VL77,Q4FQC0,Q1Q8J3,A1SUW6,A5WC71,Q8XYP8,A9WUW4,B3PXV9,Q2K952,Q1MHK9,Q98LE8,B5ZMH5,Q92Q12,Q7URG5,O68129,B6ISY8,C1A1N9,Q21Y68,Q0SGY9,C1AVQ6,Q2IWZ5,Q07NN7,Q6N5L2,Q215J3,Q135W6,B3Q7P6,Q2RU46,A3PKL8,Q3J1L8,A4WS82,B9KJP3,C3PLX7,A8GQ54,A8GUQ0,Q1RGS0,A8F062,Q92G20,Q4UJV2,A8F2Y2,Q9ZCB7,C4K233,B0BVJ0,A8GTZ8,Q68VS2,B7JW76,Q164N1,A5UZG3,Q1AVS8,Q5LR43,Q1GHV0,B8I8F4,A1AVN5,Q21KB0,A4F9F6,B5EXI7,A8M1L0,A9MM24,Q57SB6,B5FKV2,B5QTJ5,B5R6U8,B4T9E2,B4SWU0,Q5PFN3,A9MWX9,C0Q7X2,B5BD84,Q2RZ60,B4TMC5,P66933,P66932,A8GAQ8,A1S4X4,B8E5F0,A3D304,A6WLQ0,A9KWH6,Q12LA0,Q07ZX7,B0TLV0,A3QFX7,Q8EG20,A8H615,A4Y5I1,A0KYM0,A8FTH8,Q0HHA0,Q0HTK6,A1RL90,B1KLT8,B2U4P1,Q325G5,Q32JJ2,Q0T7E7,P0A852,Q3Z4W7,C3MBV9,A6U8Q2,Q2NV80,Q026Q4,Q1GUW1,A5V3U6,A7X397,A6U2E3,Q2FG61,Q2FXQ6,A5ITK0,Q2YTB4,Q5HF97,A6QHK9,P66934,P99080,Q6GG30,Q6G8Q0,A8Z2J6,P66935,B9DNC1,Q5HNM8,Q8CNY4,Q4L716,Q49YA7,Q3K3S4,Q8E7Q0,Q8E292,Q82CA7,Q9F314,C0M8K8,B4U4Y3,A8AVB8,B1VXA5,B4SLN0,B2FQR1,Q8CWZ6,P0C0E1,Q04M73,P0DF98,B5E7E2,Q5XA08,C1C5D8,Q8NZF6,Q1JK21,Q1JF14,Q1J4W9,A2RCL1,B1I9J5,B8ZLG8,Q48RE9,Q97SG9,P0DF99,B2ILU5,B5XIG1,Q8DR29,A4VZE3,C0MFQ7,A3CQB4,A4VT57,Q5M1S9,Q5M6C2,Q03MQ9,B9DTJ5,C1CCG7,C1CIQ2,C1CPR1,Q30NX0,A6Q674,Q67SK1,Q2LTK6,Q935Z3,A0LEF2,Q2JV31,Q2JQ33,B1XL18,Q5N1P5,A5GHT2,Q7UA35,A5GQ11,Q0IE18,Q3B0U0,Q3ANI7,Q0AWE9,Q55511,C5BTI9,Q8DLI3,Q47MU1,Q9WZF8,B9KAT4,A5IJ92,B0KBA5,B0K534,B9L1E4,B1L813,Q72L16,Q5SKM9,B5YI37,Q3SI97,B8GNT7,C4LDB2,Q73M39,O83519,B2S3A0,Q118P4,Q3M725,B1AIY6,Q9PQE4,B5ZBF7,C5CJT3,A1WR16,A5CXJ7,A5F6X1,A7MV84,Q9KQS5,C3LNM7,Q87R81,B7VI01,Q8DG25,Q7MMG8,Q73I58,B3CLB0,Q7M7M4,Q5GS82,Q8PNI6,Q3BWQ2,Q4URL3,B0RTF8,Q8PBY7,Q2P6Z1,B2SMI4,Q5H435,A7ILC5,B2I8K2,Q9PE42,B0U5N0,Q87E52,A1JNN4,A7FLC5,Q1C4K7,B2K6V6,Q8ZC64,A9QZQ4,Q1CL66,A4TPE4,Q66DT5,B1JHS2,Q5NNZ0">tig</z:uniprot>.2004.04.008<?supplied-pmid 15145574?>15145574 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="690" pm="."><plain>JeongHMasonSPBarabasiALOltvaiZNLethality and centrality in protein networksNature2001411414210.1038/35075138<?supplied-pmid 11333967?>11333967 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="691" pm="."><plain>GohKICusickMEValleDChildsBVidalMBarabasiALThe human disease networkProc Natl Acad Sci USA20071048685869010.1073/pnas.0701361104<?supplied-pmid 17502601?>17502601 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="692" pm="."><plain>SmootMEOnoKRuscheinskiJWangPLIdekerTCytoscape 2.8: new features for data integration and network visualizationBioinformatics20112743143210.1093/bioinformatics/btq675<?supplied-pmid 21149340?>21149340 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="693" pm="."><plain>ShannonPMarkielAOzierOBaligaNSWangJTRamageDAminNSchwikowskiBIdekerTCytoscape: a software environment for integrated models of biomolecular interaction networksGenome Res2003132498250410.1101/gr.1239303<?supplied-pmid 14597658?>14597658 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="694" pm="."><plain>KohlMWieseSWarscheidBCytoscape: software for visualization and analysis of biological networksMethods Mol Biol201169629130310.1007/978-1-60761-987-1_18<?supplied-pmid 21063955?>21063955 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="695" pm="."><plain>Stanford network analysis library<ext-link ext-link-type="uri" xlink:href="http://snap.stanford.edu/snap/">http://snap.stanford.edu/snap/</ext-link> </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="696" pm="."><plain>HagbergASchultDSwartPExploring network structure, dynamics, and function using NetworkX2008SciPy 2008: Proceedings of the 7th Python in Science Conference1115 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="697" pm="."><plain>FreemanLA Set of measures of centrality based on betweennessSociometry197740354110.2307/3033543 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="698" pm="."><plain>PageLBrinSMotwaniRWinogradTThe PageRank citation ranking: bringing order to the Web1998Stanford InfoLab: Technical Report </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="699" pm="."><plain>BrandesUOn variants of shortest-path betweenness centrality and their generic computationSoc Networks20083013614510.1016/j.socnet.2007.11.001 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="700" pm="."><plain>PedregosaFVaroquauxGGramfortAMichelVThirionBGriselOBlondelMPrettenhoferPWeissRDubourgVScikit-learn: machine learning in pythonJ Mach Learn Res20111228252830 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="701" pm="."><plain>BreimanLRandom forestsMach Learn20014553210.1023/A:1010933404324 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="702" pm="."><plain>KingsfordCSalzbergSLWhat are decision trees?<z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Biotechnol2008261011101310.1038/nbt0908-1011<?supplied-pmid 18779814?>18779814 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="703" pm="."><plain>ChenXWLiuMPrediction of protein-protein interactions using random decision forest frameworkBioinformatics2005214394440010.1093/bioinformatics/bti721<?supplied-pmid 16234318?>16234318 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="704" pm="."><plain>DavisJGoadrichMThe relationship between precision-recall and ROC curves2006Pittsburgh, Pennsylvania: Proceedings of the 23rd international conference on Machine learning2332401143874: ACM </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="705" pm="."><plain>OriiNGanapathirajuMKWiki-pi: a web-server of annotated human protein-protein interactions to aid in discovery of protein functionPloS one20127e4902910.1371/journal.pone.0049029<?supplied-pmid 23209562?>23209562 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="706" pm="."><plain>MaereSHeymansKKuiperMBiNGO: a Cytoscape plugin to assess overrepresentation of gene ontology categories in biological networksBioinformatics2005213448344910.1093/bioinformatics/bti551<?supplied-pmid 15972284?>15972284 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="707" pm="."><plain>HirschhornJNGenomewide association studies–illuminating biologic pathwaysN Engl J Med20093601699170110.1056/NEJMp0808934<?supplied-pmid 19369661?>19369661 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="708" pm="."><plain>A catalog of published genome-wide association studies<ext-link ext-link-type="uri" xlink:href="http://www.genome.gov/gwastudies">http://www.genome.gov/gwastudies</ext-link> July 17th, 2012 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="709" pm="."><plain>HindorffLASethupathyPJunkinsHARamosEMMehtaJPCollinsFSManolioTAPotential etiologic and functional implications of genome-wide association loci for human diseases and traitsProc Natl Acad Sci USA20091069362936710.1073/pnas.0903103106<?supplied-pmid 19474294?>19474294 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="710" pm="."><plain>HakesLPinneyJWRobertsonDLLovellSCProtein-protein interaction networks and biology–what’s the connection?<z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Biotechnol200826697210.1038/nbt0108-69<?supplied-pmid 18183023?>18183023 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

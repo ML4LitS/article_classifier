@@ -1,0 +1,743 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5817132</article-id><article-id pub-id-type="doi">10.1002/ece3.3809</article-id><article-id pub-id-type="publisher-id">ECE33809</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Range contraction and increasing isolation of a polar bear subpopulation in an era of sea‐ice loss </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="left-running-head">LAIDRE et al.</alt-title></title-group><contrib-group><contrib id="ece33809-cr-0001" contrib-type="author" corresp="yes"><name><surname>Laidre</surname><given-names>Kristin L.</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2787-650X</contrib-id><address><email>klaidre@uw.edu</email></address><xref ref-type="aff" rid="ece33809-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece33809-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece33809-cr-0002" contrib-type="author"><name><surname>Born</surname><given-names>Erik W.</given-names></name><xref ref-type="aff" rid="ece33809-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece33809-cr-0003" contrib-type="author"><name><surname>Atkinson</surname><given-names>Stephen N.</given-names></name><xref ref-type="aff" rid="ece33809-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece33809-cr-0004" contrib-type="author"><name><surname>Wiig</surname><given-names>Øystein</given-names></name><xref ref-type="aff" rid="ece33809-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece33809-cr-0005" contrib-type="author"><name><surname>Andersen</surname><given-names>Liselotte W.</given-names></name><xref ref-type="aff" rid="ece33809-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="ece33809-cr-0006" contrib-type="author"><name><surname>Lunn</surname><given-names>Nicholas J.</given-names></name><xref ref-type="aff" rid="ece33809-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="ece33809-cr-0007" contrib-type="author"><name><surname>Dyck</surname><given-names>Markus</given-names></name><xref ref-type="aff" rid="ece33809-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece33809-cr-0008" contrib-type="author"><name><surname>Regehr</surname><given-names>Eric V.</given-names></name><xref ref-type="aff" rid="ece33809-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece33809-cr-0009" contrib-type="author"><name><surname>McGovern</surname><given-names>Richard</given-names></name><xref ref-type="aff" rid="ece33809-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece33809-cr-0010" contrib-type="author"><name><surname>Heagerty</surname><given-names>Patrick</given-names></name><xref ref-type="aff" rid="ece33809-aff-0007">
+<sup>7</sup>
+</xref></contrib></contrib-group><aff id="ece33809-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Polar Science Center</named-content>
+<named-content content-type="organisation-division">Applied Physics Laboratory</named-content>
+<institution>University of Washington</institution>
+<named-content content-type="city">Seattle</named-content>
+<named-content content-type="country-part">WA</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece33809-aff-0002">
+<label><sup>2</sup></label>
+<institution>Greenland Institute of Natural Resources</institution>
+<named-content content-type="city">Nuuk</named-content>
+<country country="GL">Greenland</country>
+</aff><aff id="ece33809-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Wildlife Research Section</named-content>
+<named-content content-type="organisation-division">Department of Environment</named-content>
+<institution>Government of Nunavut</institution>
+<named-content content-type="city">Igloolik</named-content>
+<named-content content-type="country-part">NU</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="ece33809-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Natural History Museum</named-content>
+<institution>University of Oslo</institution>
+<named-content content-type="city">Oslo</named-content>
+<country country="NO">Norway</country>
+</aff><aff id="ece33809-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Department of Bioscience</named-content>
+<institution>Aarhus University</institution>
+<named-content content-type="city">Rønde</named-content>
+<country country="DK">Denmark</country>
+</aff><aff id="ece33809-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Environment and Climate Change Canada</named-content>
+<institution>University of Alberta</institution>
+<named-content content-type="city">Edmonton</named-content>
+<named-content content-type="country-part">AB</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="ece33809-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Department of Biostatistics</named-content>
+<institution>University of Washington</institution>
+<named-content content-type="city">Seattle</named-content>
+<named-content content-type="country-part">WA</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Kristin L. Laidre, Polar Science Center, Applied Physics Laboratory, University of Washington, Seattle, WA, USA.<break/>
+Email: <email>klaidre@uw.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>1</month><year>2018</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2018</year></pub-date><volume>8</volume><issue>4</issue><issue-id pub-id-type="doi">10.1002/ece3.2018.8.issue-4</issue-id><fpage>2062</fpage><lpage>2075</lpage><history><date date-type="received"><day>22</day><month>11</month><year>2017</year></date><date date-type="accepted"><day>26</day><month>11</month><year>2017</year></date></history><permissions><copyright-statement content-type="article-copyright">© 2018 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-8-2062.pdf"/><abstract id="ece33809-abs-0001"><title><text><SENT sid="1" pm="."><plain>Abstract </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Climate change is expected to result in range shifts and habitat fragmentation for many species. </plain></SENT>
+<SENT sid="3" pm="."><plain>In the Arctic, loss of sea ice will reduce barriers to dispersal or eliminate movement corridors, resulting in increased connectivity or geographic isolation with sweeping implications for conservation. </plain></SENT>
+<SENT sid="4" pm="."><plain>We used satellite telemetry, data from individually marked animals (research and harvest), and microsatellite genetic data to examine changes in geographic range, emigration, and interpopulation connectivity of the Baffin Bay (BB) polar bear (Ursus maritimus) subpopulation over a 25‐year period of sea‐ice loss. </plain></SENT>
+<SENT sid="5" pm="."><plain>Satellite telemetry collected from n = 43 (1991–1995) and 38 (2009–2015) adult females revealed a significant contraction in subpopulation range size (95% bivariate normal kernel range) in most months and seasons, with the most marked reduction being a 70% decline in summer from 716,000 km2 (SE 58,000) to 211,000 km2 (SE 23,000) (p &lt; .001). </plain></SENT>
+<SENT sid="6" pm="."><plain>Between the 1990s and 2000s, there was a significant shift northward during the on‐ice seasons (2.6° shift in winter median latitude, 1.1° shift in spring median latitude) and a significant range contraction in the ice‐free summers. </plain></SENT>
+<SENT sid="7" pm="."><plain>Bears in the 2000s were less likely to leave BB, with significant reductions in the numbers of bears moving into Davis Strait (DS) in winter and Lancaster Sound (LS) in summer. </plain></SENT>
+<SENT sid="8" pm="."><plain>Harvest recoveries suggested both short and long‐term fidelity to BB remained high over both periods (83–99% of marked bears remained in BB). </plain></SENT>
+<SENT sid="9" pm="."><plain>Genetic analyses using eight polymorphic microsatellites confirmed a previously documented differentiation between BB, DS, and LS; yet weakly differentiated BB from Kane Basin (KB) for the first time. </plain></SENT>
+<SENT sid="10" pm="."><plain>Our results provide the first multiple lines of evidence for an increasingly geographically and functionally isolated subpopulation of polar bears in the context of long‐term sea‐ice loss. </plain></SENT>
+<SENT sid="11" pm="."><plain>This may be indicative of future patterns for other polar bear subpopulations under climate change. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group kwd-group-type="author-generated"><kwd id="ece33809-kwd-0001">animal movements</kwd><kwd id="ece33809-kwd-0002">Arctic</kwd><kwd id="ece33809-kwd-0003">contraction</kwd><kwd id="ece33809-kwd-0004">isolation</kwd><kwd id="ece33809-kwd-0005">polar bear</kwd><kwd id="ece33809-kwd-0006">range</kwd><kwd id="ece33809-kwd-0007">sea ice</kwd></kwd-group></SecTag><funding-group><award-group><funding-source>Bureau of Mineral and Petroleum (Nuuk)</funding-source></award-group><award-group><funding-source>Environment and Climate Change Canada</funding-source></award-group><award-group><funding-source>Environmental Protection Agency (Ministry of Environment and Food of Denmark) –DANCEA Programme</funding-source></award-group><award-group><funding-source>Government of Nunavut</funding-source></award-group><award-group><funding-source>Greenland Department of Fisheries, Hunting and Agriculture</funding-source></award-group><award-group><funding-source>Greenland Institute of Natural Resources</funding-source></award-group><award-group><funding-source>National Aeronautics and Space Administration (NASA) Development and Testing of Potential Indicators for the National Climate Assessment Program</funding-source><award-id>NNX13AN28G</award-id></award-group><award-group><funding-source>NASA Climate and Biological Response</funding-source><award-id>NNX11A063G</award-id></award-group><award-group><funding-source>Nunavut Wildlife Management Board</funding-source></award-group><award-group><funding-source>Polar Continental Shelf Project</funding-source></award-group><award-group><funding-source>University of Oslo</funding-source></award-group><award-group><funding-source>World Wildlife Fund</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="4"/><page-count count="14"/><word-count count="11322"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece33809</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2018</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:version=5.3.2.2 mode:remove_FC converted:18.02.2018</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece33809-cit-1001">
+<string-name>
+<surname>Laidre</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>Born</surname>
+<given-names>EW</given-names>
+</string-name>, <string-name>
+<surname>Atkinson</surname>
+<given-names>SN</given-names>
+</string-name>, et al. <article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Range contraction and increasing isolation of a polar bear subpopulation in an era of sea‐ice loss </plain></SENT>
+</text></SecTag></article-title>. <source>Ecol Evol</source>. <year>2018</year>;<volume>8</volume>:<fpage>2062</fpage>–<lpage>2075</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.3809">https://doi.org/10.1002/ece3.3809</ext-link>
+</mixed-citation>
+</p></notes></front><body><SecTag type="INTRO"><sec id="ece33809-sec-0001"><label>1</label><title><text><SENT sid="1" pm="."><plain>INTRODUCTION </plain></SENT>
+</text></title><p><text><SENT sid="2" pm="."><plain>Conservation of wildlife populations across dynamic landscapes requires information on population structure and boundaries for establishing a valid ecological and demographic basis for determining population abundance, rates of population change, and the impacts of human activities (Thomas, 2010; Weinbaum, Brashares, Golden, &amp; Getz, 2013). </plain></SENT>
+<SENT sid="3" pm="."><plain>In an era of climate change, barriers to dispersal are quickly being altered, which can facilitate functional or genetic transfer between animals where it was once absent, or lead to increasing isolation because corridors of exchange are no longer available (Ching Chen, Hill, Ohlemuller, Roy, &amp; Thomas, 2011; Rubidge et al., 2012). </plain></SENT>
+<SENT sid="4" pm="."><plain>Concurrently, many species are shifting to higher latitudes and higher elevations in response to a warming earth (Loarie et al., 2009). </plain></SENT>
+<SENT sid="5" pm="."><plain>Shifts or reductions in ranges will likely result in reduced genetic diversity and in extreme cases, genetic impoverishment that may reduce population viability (Yannic et al., 2013). </plain></SENT>
+<SENT sid="6" pm="."><plain>This can have rapid and sweeping impacts on conservation of large mobile species, especially those subject to subsistence harvests (Laidre et al., 2015). </plain></SENT>
+</text></p><p><text><SENT sid="7" pm="."><plain>The Arctic is losing sea ice at a rapid rate (Overland &amp; Wang, 2013). </plain></SENT>
+<SENT sid="8" pm="."><plain>This large‐scale habitat change is predicted to have multiple and significant consequences for ice‐dependent species (Laidre et al., 2015). </plain></SENT>
+<SENT sid="9" pm="."><plain>A key question is whether loss of sea ice will reduce or enhance dispersal, given sea ice serves as both a platform for movement and a physical barrier. </plain></SENT>
+<SENT sid="10" pm="."><plain>In the case of cetaceans, loss of sea ice has opened new habitats and resulted in positive population responses (George, Druckenmiller, Laidre, Suydam, &amp; Person, 2015); however, this has generally not been the case for other species that rely on sea ice for key aspects of their life history, such as polar bears (Ursus maritimus; Amstrup &amp; Gardner, 1994; PBSG 2010; Regehr et al., 2016). </plain></SENT>
+<SENT sid="11" pm="."><plain>Contrasting patterns may emerge depending on a species’ dispersal ability and how changes in sea‐ice extent, formation, or break‐up structure habitat (e.g., Travis et al., 2013). </plain></SENT>
+</text></p><p><text><SENT sid="12" pm="."><plain>Polar bears are found throughout the circumpolar Arctic in 19 subpopulations that differ in productivity, size, and degree of connectedness with adjacent subpopulations (PBSG 2010). </plain></SENT>
+<SENT sid="13" pm="."><plain>In areas with multiyear sea ice, some polar bears may remain on sea ice year‐round, however, in areas where the annual sea ice melts completely in summer most bears spend up to several months on land, largely fasting until freeze‐up (e.g., Stirling, Lunn, &amp; Iacozza, 1999; Stirling &amp; Parkinson, 2006). </plain></SENT>
+</text></p><p><text><SENT sid="14" pm="."><plain>The Baffin Bay (BB) subpopulation of polar bears is located in the seasonal ice ecoregion where sea ice forms and disappears each year (Amstrup, Marcot, &amp; Douglas, 2008; Taylor et al., 2001; Figure 1). </plain></SENT>
+<SENT sid="15" pm="."><plain>In the 1990s, analyses of movements from satellite‐collared bears (Taylor et al., 2001), genetic analyses (Paetkau et al., 1999), and recaptures and harvest recoveries of individually marked bears (Taylor &amp; Lee, 1995; Taylor et al., 2001) indicated limited interchange among BB and adjacent subpopulations including Davis Strait (DS) and Lancaster Sound (LS; Taylor et al., 2001). </plain></SENT>
+<SENT sid="16" pm="."><plain>However, BB bears could not be genetically differentiated from the adjacent Kane Basin (KB) subpopulation to the north (Paetkau et al., 1999). </plain></SENT>
+<SENT sid="17" pm="."><plain>As those studies, the BB subpopulation has been considered a distinct demographic unit with its dynamics largely driven by intrinsic rates of reproduction and mortality rather than exchange between neighboring subpopulations (SWG 2016). </plain></SENT>
+<SENT sid="18" pm="."><plain>The BB subpopulation currently supports a subsistence harvest of approximately 134 bears per year, which provides a nutritional, cultural, and economic resource to Inuit communities (PBSG 2010). </plain></SENT>
+<SENT sid="19" pm="."><plain>Declining sea ice in Baffin Bay has resulted in a lengthening of the ice‐free season by &gt;12 days per decade during the period 1979–2014 (Stern &amp; Laidre, 2016). </plain></SENT>
+<SENT sid="20" pm="."><plain>There is evidence for positive correlation between sea‐ice availability and BB subpopulation reproductive rates (SWG, 2016). </plain></SENT>
+<SENT sid="21" pm="."><plain>Furthermore, recent studies suggest low apparent survival for male polar bears in BB, which may reflect either increased natural mortality or emigration (SWG, 2016). </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="ece33809-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="22" pm="."><plain>Distribution of capture locations of adult female polar bears fitted with satellite collars in Baffin Bay during the 1990s and 2000s </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-8-2062-g001"/></fig><p><text><SENT sid="23" pm="."><plain>We conducted an assessment of the extent to which sea ice trends have affected the distribution and boundaries of the BB subpopulation and discuss results in the context of other polar bear subpopulations facing sea‐ice loss, as well as near‐term management and long‐term conservation planning. </plain></SENT>
+<SENT sid="24" pm="."><plain>We used home range estimators from satellite telemetry to delineate subpopulation range boundaries, movement data from collared adult females and from the recapture or harvest of marked individuals to assess latitudinal shifts or changes in immigration/emigration, and genetic analyses to assess relationships between BB and adjacent subpopulations. </plain></SENT>
+<SENT sid="25" pm="."><plain>Our objective was to explore multiple lines of evidence with respect to the delineation of the BB subpopulation in an era of rapid sea‐ice loss. </plain></SENT>
+<SENT sid="26" pm="."><plain>We discuss the implications of the results for effective conservation and management strategies and identify where additional research and monitoring will be needed in the future. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="ece33809-sec-0002"><label>2</label><title><text><SENT sid="27" pm="."><plain>MATERIALS AND METHODS </plain></SENT>
+</text></title><sec id="ece33809-sec-0003"><label>2.1</label><title><text><SENT sid="28" pm="."><plain>Study area </plain></SENT>
+</text></title><p><text><SENT sid="29" pm="."><plain>The boundaries of the BB subpopulation encompass ~1 million km2, covering approximately 656,000 km2 of ocean as well as portions of Baffin Island, all of Bylot Island in Nunavut/Canada, and parts of West and Northwest Greenland (66°N to 77°N; Taylor et al., 2005) (Figure 1). </plain></SENT>
+<SENT sid="30" pm="."><plain>During late spring and summer break‐up, sea ice recedes from Greenland westward across Baffin Bay; the last remnants of ice typically occur off the coast of Baffin Island. </plain></SENT>
+<SENT sid="31" pm="."><plain>Most polar bears remain on the sea ice as it recedes and then come ashore to spend the ice‐free period on Baffin and Bylot Islands (Taylor et al., 2005). </plain></SENT>
+<SENT sid="32" pm="."><plain>An unknown but probably small number of bears remain on land in Melville Bay, NW Greenland throughout the ice‐free period (Born, 1995; Born, Heilmann, Holm, &amp; Laidre, 2011; SWG, 2016). </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0004"><label>2.2</label><title><text><SENT sid="33" pm="."><plain>Radio telemetry </plain></SENT>
+</text></title><sec id="ece33809-sec-0005"><label>2.2.1</label><title><text><SENT sid="34" pm="."><plain>Handling and collaring </plain></SENT>
+</text></title><p><text><SENT sid="35" pm="."><plain>Adult female polar bears (AF) were captured in NW Greenland on the fast and pack ice between mid‐March and mid‐April 2009–2013 in Baffin Bay. </plain></SENT>
+<SENT sid="36" pm="."><plain>Searches for bears occurred between 70° 22′ N and 76° 20′ N, to a maximum distance of ca. </plain></SENT>
+<SENT sid="37" pm="."><plain>150 km from the coast and included areas at glacier fronts. </plain></SENT>
+<SENT sid="38" pm="."><plain>Bears were located and captured from a helicopter using standard chemical immobilization techniques (Stirling, Spencer, &amp; Andriashek, 1989). </plain></SENT>
+<SENT sid="39" pm="."><plain>Field estimates of age and reproductive status were recorded, with age later estimated by counting cementum growth layers on a premolar tooth extracted during capture (Calvert &amp; Ramsay, 1998). </plain></SENT>
+<SENT sid="40" pm="."><plain>Thirty‐eight AF were fitted with Argos‐linked satellite transmitters (i.e., Platform Transmitter Terminal, or PTT) (Model TAW‐4610H, Telonics, Mesa, Arizona, USA) (Table 1, Figure 1), which provided information on geographic location, internal transmitter temperature, and activity. </plain></SENT>
+<SENT sid="41" pm="."><plain>These data were combined with a historical data set of 43 AF that were collared within the BB subpopulation management boundaries (PBSG, 2010) between 1991 and 1995 (Ferguson, Taylor, &amp; Messier, 1997; Taylor et al., 2001). </plain></SENT>
+<SENT sid="42" pm="."><plain>The majority of the 1990s tags were deployed during the ice‐free season in fall on Baffin Island (with the exception of n = 9 deployed in spring in NW Greenland). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="ece33809-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p><text><SENT sid="43" pm="."><plain>Number of adult female (AF) polar bears collared in Baffin Bay in the 1990s and 2000s in relation to accompanying bears (AM, adult male in breeding pair; COY, dependent cub‐of‐the‐year; YRLG, dependent yearling cub; 2YR, dependent 2‐year‐old cub) </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th valign="top" rowspan="1" colspan="1"><text><SENT sid="44" pm="."><plain>AF alone </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="45" pm="."><plain>AF+AM </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="46" pm="."><plain>AF+COY </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="47" pm="."><plain>AF+YRLG </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="48" pm="."><plain>AF+2YR </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="49" pm="."><plain>Sum </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="50" pm="."><plain>1990s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="51" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="52" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="53" pm="."><plain>19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="54" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="55" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="56" pm="."><plain>43 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="57" pm="."><plain>2000s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="58" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="59" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="60" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="61" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="62" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="63" pm="."><plain>38 </plain></SENT>
+</text></td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></SecTag></sec><sec id="ece33809-sec-0006"><label>2.2.2</label><title><text><SENT sid="64" pm="."><plain>Data filtering and sub‐sampling </plain></SENT>
+</text></title><p><text><SENT sid="65" pm="."><plain>Locations and transmitter status were collected via the Argos Location Service Plus system (Toulouse, France). </plain></SENT>
+<SENT sid="66" pm="."><plain>The quality of each location was assigned by <z:uniprot sup="inside" fb="100" ids="Q6NMD6,C7SFP6,Q7X6L2">ARGOS</z:uniprot> with location qualities of 0–3 estimated to have errors of 1.5 km or less and those categorized as “A,” “B,” or “Z” had no predicted accuracy. </plain></SENT>
+<SENT sid="67" pm="."><plain>Unrealistic and poor quality locations were removed using a speed and angle filter in R version 2.13.2 (R Development Core Team 2012) using the package “argosfilter” (Freitas, Kovacs, Lydersen, &amp; Ims, 2008). </plain></SENT>
+<SENT sid="68" pm="."><plain>Positions exceeding a maximum between‐location travel velocity (10 km/hr based on previous movement studies of polar bears, Laidre et al., 2013) and angle (measured from the track between three successive locations; set to the default) were removed by the filtering algorithm. </plain></SENT>
+<SENT sid="69" pm="."><plain>The resulting locations for each bear were reduced to a single position per day to reduce autocorrelation bias, standardize temporal sampling, and address the effects of variable duty cycling among PTTs. </plain></SENT>
+<SENT sid="70" pm="."><plain>The first, best quality location within the period of peak satellite passage was selected to obtain a daily position for each PTT. </plain></SENT>
+<SENT sid="71" pm="."><plain>Daily positions, after filtering and optimal daily position selection, only consisted of <z:uniprot sup="inside" fb="100" ids="Q6NMD6,C7SFP6,Q7X6L2">ARGOS</z:uniprot> qualities 1–3. </plain></SENT>
+<SENT sid="72" pm="."><plain>Distances between successive daily positions were calculated as the great circle route and used to compute minimum daily displacements. </plain></SENT>
+</text></p><p><text><SENT sid="73" pm="."><plain>As a result of variable experimental objectives in both decades, different duty cycles were used for tags in an effort to extend battery life or gather information from specific time periods. </plain></SENT>
+<SENT sid="74" pm="."><plain>Collars in the 2000s were programmed to transmit during one 6‐hr period each day on 4‐day intervals. </plain></SENT>
+<SENT sid="75" pm="."><plain>The 1990s collars were programmed to transmit on varying and intermittent intervals, ranging from 1 to 6 days. </plain></SENT>
+<SENT sid="76" pm="."><plain>We subsampled the 1990s data and created a strict 4‐, 5‐, or 6‐day interval time series for each individual to best match the 2000s data. </plain></SENT>
+<SENT sid="77" pm="."><plain>This ensured that serial autocorrelation was consistent among decades. </plain></SENT>
+</text></p><p><text><SENT sid="78" pm="."><plain>Telemetry data were divided into seasons: spring (March–July, which included the peak of sea‐ice coverage and initiation of sea‐ice break‐up), summer (August–October, which included the end of break‐up and the on‐land period), and winter (November–February, which included the freeze‐up period and time when bears returned to the sea ice). </plain></SENT>
+<SENT sid="79" pm="."><plain>All periods when collared females were denning (use of maternity and shelter dens) were identified (Escajeda et al., 2018) and removed from analyses. </plain></SENT>
+<SENT sid="80" pm="."><plain>Bears with &lt;3 locations were removed from analyses when transmitter failure occurred immediately after deployment. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0007"><label>2.2.3</label><title><text><SENT sid="81" pm="."><plain>Comparison of 1990s and 2000s BB satellite telemetry data </plain></SENT>
+</text></title><p><text><SENT sid="82" pm="."><plain>Polar bears collared in this study ranged over the entire Baffin Bay region (SWG, 2016). </plain></SENT>
+<SENT sid="83" pm="."><plain>All captures occurred within the bounds of the BB subpopulation management unit (PBSG, 2010) and bears moved back and forth freely between Canada and Greenland during both periods (Figure 1). </plain></SENT>
+<SENT sid="84" pm="."><plain>However, seasonal and geographic differences in capture locations occurred in our study between the two periods of fieldwork. </plain></SENT>
+<SENT sid="85" pm="."><plain>In the 1990s, it was possible to deploy collars on AFs on both the Canadian and Greenlandic sides of Baffin Bay (Figure 1). </plain></SENT>
+<SENT sid="86" pm="."><plain>However, in the 2000s, it was only possible to deploy collars on the Greenlandic side of Baffin Bay due to community reservations in Nunavut about polar bear immobilization and handling (SWG, 2016). </plain></SENT>
+<SENT sid="87" pm="."><plain>This reservation was not shared in Greenland by hunters and management authorities. </plain></SENT>
+</text></p><p><text><SENT sid="88" pm="."><plain>Prior to conducting interdecadal analyses of polar bear movement data, we evaluated the 1990s and 2000s data to identify potential effects of differences in collar deployment location. </plain></SENT>
+<SENT sid="89" pm="."><plain>First, we compared the fall telemetry locations of bears collared on the Greenlandic side in spring in the 2000s, with the dates of the fall capture locations of bears collared on the Canadian side (on Baffin Island) in the 1990s. </plain></SENT>
+<SENT sid="90" pm="."><plain>We then quantified what overall range of latitudes on land on Baffin Island was used by polar bears in both decades. </plain></SENT>
+<SENT sid="91" pm="."><plain>Finally, we subset the 1990s dataset to conduct interdecadal analyses on range size using a subsample of 1990s bears (n = 9) collared in spring on the sea ice in Greenland compared with range size of bears collared in the same area in the 2000s (see Figure 1). </plain></SENT>
+<SENT sid="92" pm="."><plain>This essentially replicated some analyses we present in this manuscript (but with a substantially reduced sample size in the 1990s). </plain></SENT>
+</text></p><p><text><SENT sid="93" pm="."><plain>Overall, excluding permanent residents of Melville Bay, 92% of the AF bears collared in spring in West Greenland in the 2000s moved to Baffin Island by fall and were located inside the same fall collaring area used in the 1990s (defined as a polygon around 1990s collaring sites). </plain></SENT>
+<SENT sid="94" pm="."><plain>Further, AF bears collared in West Greenland in the 2000s were distributed over the same range of on‐land latitudes on Baffin Island in fall as those collared in the 1990s (66°30′ N to 73°50′ N), confirming bears from West Greenland use the same areas as those captured in the 1990s. </plain></SENT>
+<SENT sid="95" pm="."><plain>Finally, our analyses using the subset of 1990s AF bears collared in spring on the sea ice in West Greenland (n = 9) compared to the full sample of 2000s bears reproduced the same results on summer range size reduction and range shift as the full sample comparison (see Results). </plain></SENT>
+<SENT sid="96" pm="."><plain>These analyses support our comparative work between decades on the subpopulation of polar bears tracked in Baffin Bay. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0008"><label>2.2.4</label><title><text><SENT sid="97" pm="."><plain>Monthly and seasonal kernel density estimates </plain></SENT>
+</text></title><p><text><SENT sid="98" pm="."><plain>We estimated the geographic area characterized by a high probability of use by collared AF polar bears in Baffin Bay using a fixed kernel density approach (Worton, 1989). </plain></SENT>
+<SENT sid="99" pm="."><plain>Kernel density estimators provide a nonparametric probability of using a given point in space and are reliably used to define the utilization distribution, or home range, for marine and terrestrial wildlife (Kie et al., 2010). </plain></SENT>
+<SENT sid="100" pm="."><plain>We calculated Gaussian bivariate normal kernel density estimates for each decade (n = 2), month (n = 12), and season (n = 3) for all bears in the sample. </plain></SENT>
+<SENT sid="101" pm="."><plain>Kernel density estimates (KDEs) were calculated using the “bkde2D” function in “KernSmooth” R package (Wand, 1994; Wand &amp; Jones, 1995). </plain></SENT>
+<SENT sid="102" pm="."><plain>As the sample size of collared bears slightly differed between the 1990s and 2000s (Table 1), we generated random samples of equal size (n = 38) from the pool of AF bears in each decade. </plain></SENT>
+<SENT sid="103" pm="."><plain>We sampled bears with replacement 1,000 times for each monthly and seasonal KDE and calculated the area of the 95% contour polygon (bounding 95% of the KDE surface volume). </plain></SENT>
+<SENT sid="104" pm="."><plain>We produced a mean and bootstrapped standard error (SE) for monthly and seasonal home ranges, and used the “intersect” tool in ArcGIS to calculate overlap in home ranges between decades. </plain></SENT>
+<SENT sid="105" pm="."><plain>We also estimated the proportion of home range overlap between the 1990s and the 2000s (Fieberg &amp; Kochanny, 2005) based on the bootstrapped mean. </plain></SENT>
+<SENT sid="106" pm="."><plain>We used a cell size of 6 km and bandwidth of 50 km (approximately 50% of the 4‐day movement step of AFs in this study) to calculated KDEs. </plain></SENT>
+<SENT sid="107" pm="."><plain>We also examined whether there has been a distributional shift by calculating the median seasonal latitude values for AFs in the 1990s and 2000s of the KDE and of the pooled location data. </plain></SENT>
+<SENT sid="108" pm="."><plain>We compared changes in median latitude and longitude across decades with t tests at a significance level of α = 0.05. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0009"><label>2.2.5</label><title><text><SENT sid="109" pm="."><plain>Movements across subpopulation boundaries </plain></SENT>
+</text></title><p><text><SENT sid="110" pm="."><plain>Using each complete individual AF bear trajectory as a single sample, we calculated the number of days each bear spent in BB during the tracking period. </plain></SENT>
+<SENT sid="111" pm="."><plain>We examined the departures from BB using telemetry data by estimating the fraction of bears that crossed BB management boundaries up to 300 days after capture. </plain></SENT>
+<SENT sid="112" pm="."><plain>Specifically, we calculated the number of days since capture until each polar bear left BB or until the end of their observation period for those that were not observed to leave. </plain></SENT>
+<SENT sid="113" pm="."><plain>For each decade, statistical methods for censored event times were used to construct “survival” curves (Kaplan–Meier) to characterize the distribution of first exit times, to estimate departure probabilities from BB, and test for differences among decades (log‐rank test of equality) with α = 0.05. </plain></SENT>
+<SENT sid="114" pm="."><plain>We considered a departure to be at least 30 days long, thus bears that departed BB but returned in &lt;30 days were not included in the estimates. </plain></SENT>
+<SENT sid="115" pm="."><plain>We summarized which subpopulation bears departed to, the departure month, and compared this across decades. </plain></SENT>
+<SENT sid="116" pm="."><plain>We also tested whether 1990s capture season (spring or fall) impacted the time until departure from BB by assessing capture season as a factor. </plain></SENT>
+</text></p></sec></sec><sec id="ece33809-sec-0010"><label>2.3</label><title><text><SENT sid="117" pm="."><plain>Harvest recoveries and recaptures of marked bears </plain></SENT>
+</text></title><p><text><SENT sid="118" pm="."><plain>We evaluated spatial patterns in live recaptures and dead recoveries of marked bears. </plain></SENT>
+<SENT sid="119" pm="."><plain>We included bears that were marked in spring (April–May) or fall (August–October) during two periods when BB subpopulation mark–recapture studies were undertaken; 1991–1997 and 2009–2014. </plain></SENT>
+<SENT sid="120" pm="."><plain>From 1991 to 1997, 881 polar bears were captured, physically marked, and tissue samples were collected (Taylor et al., 2005). </plain></SENT>
+<SENT sid="121" pm="."><plain>Between 2011 and 2013, 1,111 unique individual bears were remotely biopsied (Pagano, Peacock, &amp; McKinney, 2014) in western Baffin Bay, and between 2009 and 2013, 139 bears were physically captured or biopsied in eastern Baffin Bay (SWG, 2016; Table 2). </plain></SENT>
+<SENT sid="122" pm="."><plain>During this second marking period (2009–2013), all sampled bears were genotyped to determine sex and individual identification. </plain></SENT>
+<SENT sid="123" pm="."><plain>Since most bears in the 2000s were remotely biopsied, we also genotyped 635 of the 881 bears physically tagged in the 1990s that had neither been reported in the subsistence harvest in Nunavut or Greenland nor were &gt;35 years old (maximum expected lifetime for polar bears) at the start of the genetic sampling in 2011 and were thus potentially alive. </plain></SENT>
+<SENT sid="124" pm="."><plain>This allowed us to detect the number of bears sampled in the 2000s that had been originally physically marked in the 1990s. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="ece33809-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p><text><SENT sid="125" pm="."><plain>Number of genetic samples used from polar bears from the Baffin Bay (BB), Kane Basin (KB), Lancaster Sound (LS), and Davis Strait (DS) subpopulations for the winter‐spring analyses. </plain></SENT>
+<SENT sid="126" pm="."><plain>For BB, 66 samples came from the subsistence harvest in the Baffin Island region (2011–2014) and 74 from biopsies taken in West Greenland by scientists during tagging operations (2009–2013) </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="top" colspan="1"/><th style="border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>BB (2009–2014) </plain></SENT>
+</text></th><th align="left" style="border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>KB (2012–2014) </plain></SENT>
+</text></th><th style="border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>LS (2011–2013) </plain></SENT>
+</text></th><th align="left" style="border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>DS (2012–2013) </plain></SENT>
+</text></th><th style="border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>N </plain></SENT>
+</text></th></tr><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>Biopsy and Harvest </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>Biopsy </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>Harvest </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>Harvest </plain></SENT>
+</text></th><th valign="top" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>Total </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>Subadults </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>93 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>Adult females </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>134 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>Adult males </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>174 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>Adults combined </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>109 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>84 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>309 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>Total sample </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>140 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>99 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>114 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>402 </plain></SENT>
+</text></td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></SecTag><p><text><SENT sid="167" pm="."><plain>Recapture or harvest recovery of physically or genetically marked individuals was detected by two means. </plain></SENT>
+<SENT sid="168" pm="."><plain>Prior to 2011, when biopsy darting began in BB, marked individuals were identifiable by uniquely numbered ear tags and lip tattoos applied at first capture. </plain></SENT>
+<SENT sid="169" pm="."><plain>Recaptures of these marked individuals were recorded during physical capture sampling in BB and surrounding subpopulations which took place 1991–1997 (BB, KB, and LS) and 2005–2007 (DS). </plain></SENT>
+<SENT sid="170" pm="."><plain>Baffin Bay and adjacent subpopulations (KB, DS, LS) support a subsistence harvest of polar bears, which is characterized by high hunter reporting and management strategies designed to achieve maximum sustainable yield based on demographic data estimated from capture–recapture studies (SWG, 2016). </plain></SENT>
+<SENT sid="171" pm="."><plain>Harvest recoveries of marked bears were detected via hunter returns of ear tags and lip tattoos as part of the continuous harvest monitoring program across all subpopulations in Canada and Greenland (Peacock, Laake, Laidre, Born, &amp; Atkinson, 2012), though over time tag loss leads to lower probability of detection of recapture of physically marked individuals. </plain></SENT>
+<SENT sid="172" pm="."><plain>Genetic identifications of individuals were analogous to the physical tags; however, genetic marks do not suffer from tag loss. </plain></SENT>
+<SENT sid="173" pm="."><plain>The recapture or harvest recovery of marked individuals was detected by the presence of physical marks or by matching genetic ids. </plain></SENT>
+</text></p><p><text><SENT sid="174" pm="."><plain>We summarized the frequencies and proportions of marked bears that were recaptured or recovered inside versus outside BB to provide a crude assessment of the fidelity of marked bears to the BB subpopulation. </plain></SENT>
+<SENT sid="175" pm="."><plain>With respect to short‐term fidelity, the frequencies of harvest recovery of individuals marked between 2011 and 2013 were examined to assess whether bears sampled during the recent BB mark–recapture study (SWG, 2016) remained within the subpopulation during the sampling interval. </plain></SENT>
+<SENT sid="176" pm="."><plain>For this assessment, all recoveries were detected by matching genotypes of harvested bears to genotypes of marked individuals. </plain></SENT>
+<SENT sid="177" pm="."><plain>A few of these individuals were also detected by hunter returns of tags and tattoos. </plain></SENT>
+</text></p><p><text><SENT sid="178" pm="."><plain>We also updated previously reported information on long‐term fidelity and patterns of harvest recovery in BB (Taylor &amp; Lee, 1995; Taylor et al., 2001; Peacock et al., 2012) by examining the frequencies of bears originally marked in the 1990s that were recovered in the harvest between 1991 and 2014. </plain></SENT>
+<SENT sid="179" pm="."><plain>Recoveries were detected via several means during this 14‐year monitoring period. </plain></SENT>
+<SENT sid="180" pm="."><plain>From 1991 to 2010, recoveries were detected solely by hunter returns of tags and lip tattoos from marked bears. </plain></SENT>
+<SENT sid="181" pm="."><plain>From 2011 to 2014, recoveries were detected either by tag and tattoos or by matching the genotype of a harvested bear to the genotype of one of the 635 marked individuals that could theoretically have been alive in 2011. </plain></SENT>
+</text></p><p><text><SENT sid="182" pm="."><plain>Finally, we used mark–recapture data from 1991 to 1997 and 2011 to 2013 in BB together with over 1,500 physical captures of polar bears in the neighboring DS subpopulation between 2005 and 2007 (Peacock, Taylor, Laake, &amp; Stirling, 2013) to summarize recapture frequencies. </plain></SENT>
+<SENT sid="183" pm="."><plain>Given the loss of sea ice that has occurred in both areas (Stern &amp; Laidre, 2016) and the opportunity presented by having three intensive periods of mark–recapture that were relatively close in time, we used these data to assess movement between these two subpopulations. </plain></SENT>
+<SENT sid="184" pm="."><plain>In particular, we examined whether there was evidence that DS bears had moved northward, in concert with sea‐ice loss, across the BB‐DS subpopulation boundary. </plain></SENT>
+<SENT sid="185" pm="."><plain>For this assessment, recaptures were detected by several means. </plain></SENT>
+<SENT sid="186" pm="."><plain>Recaptures of bears originally marked in BB 1991–1997 were detected during sampling in DS (2005–2007) by observations of tags and lip tattoos. </plain></SENT>
+<SENT sid="187" pm="."><plain>Recaptures of bear marked in DS (2005–2007) were detected during sampling in BB (2011–2013) by matching genotypes. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0011"><label>2.4</label><title><text><SENT sid="188" pm="."><plain>Genetic methods </plain></SENT>
+</text></title><p><text><SENT sid="189" pm="."><plain>We used a contemporary subsample of genetic data from 402 biopsied, physically captured, and harvested polar bears sampled during the winter and spring (November–May 2009–2014) representing polar bears from four neighboring subpopulations: BB, KB, LS, and DS (Figure 1, Table 2). </plain></SENT>
+<SENT sid="190" pm="."><plain>We used samples collected only within these two seasons because bears are widely distributed within their purported management boundaries and it excludes displacement of large groups of polar bears during the ice‐free season (see Appendix S1). </plain></SENT>
+<SENT sid="191" pm="."><plain>While these samples were collected and analyzed primarily for a genetic mark–recapture (MR) assessment (SWG, 2016), the eight polymorphic microsatellites selected were used in population genetic analyses with the objective of assessing differentiation between BB and neighboring subpopulations. </plain></SENT>
+<SENT sid="192" pm="."><plain>As the samples were recent and temporally congruent, these analyses provided an update to past population genetic studies (Paetkau et al., 1999; Peacock et al., 2015; Malenfant, Davis, Cullingham, &amp; Coltman, 2016) that used samples from the 1990s. </plain></SENT>
+<SENT sid="193" pm="."><plain>We used standardized population genetic analytical tools and methods to investigate genetic connectivity between subpopulations (ADEGENET package, Jombart, 2008; ARLEQUIN Version 3.5.1, Excoffier &amp; Lischer, 2010; <z:uniprot sup="inside" fb="3" ids="O68008">BA3</z:uniprot>‐3.0.3, Wilson &amp; Rannala, 2003; DAPC, Jombart, Devillard, &amp; Balloux, 2010; FSTAT, Goudet, 1995; GENECLASS2, Piry et al., 2004; GENELAND, Guillot, Mortier, &amp; Estoup, 2005; Guillot, 2008; STRUCTURE, Pritchard, Stephens, &amp; Donnelly, 2000). </plain></SENT>
+<SENT sid="194" pm="."><plain>Genetic differentiation between groups was analyzed using unbiased F ST statistics (Weir &amp; Cockerham, 1984) in ARLEQUIN Version 3.5.1 (Excoffier &amp; Lischer, 2010). </plain></SENT>
+<SENT sid="195" pm="."><plain>The degree of population differentiation was analyzed after 10,000 permutations to estimate the genetic variability between subpopulations (see Appendix S1). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="ece33809-sec-0012"><label>3</label><title><text><SENT sid="196" pm="."><plain>RESULTS </plain></SENT>
+</text></title><sec id="ece33809-sec-0013"><label>3.1</label><title><text><SENT sid="197" pm="."><plain>Radio telemetry </plain></SENT>
+</text></title><p><text><SENT sid="198" pm="."><plain>Adult females in all reproductive states were fitted with collars in the 1990s (n = 43) and 2000s (n = 38) (Table 1). </plain></SENT>
+<SENT sid="199" pm="."><plain>Collars deployed between 1991 and 1995 transmitted for an average of 438 days (SD 98), through 1997. </plain></SENT>
+<SENT sid="200" pm="."><plain>Collars deployed between 2009 and 2013 transmitted for an average of 662 days (SD 346), through April 2015 (Figure 2). </plain></SENT>
+<SENT sid="201" pm="."><plain>In the 1990s, 31 bears (72% of the total sample) were collared in fall on land on Baffin Island, 6% on the sea ice off the Baffin Island coast, and 21% on the sea ice in West Greenland. </plain></SENT>
+<SENT sid="202" pm="."><plain>Due to a shift away from immobilization of wildlife for research studies in Nunavut, Canada after the 1990s, all collaring of adult females in the 2000s occurred on the spring sea ice in West Greenland. </plain></SENT>
+<SENT sid="203" pm="."><plain>Polar bears in both decades ranged over the entire Baffin Bay during the ice‐covered season, freely moving back and forth between Baffin Island and West Greenland, though the disappearance of the sea‐ice platform in the southern extent of the range prevented long‐distance movements into Davis Strait in the 2000s (Figure 1). </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="ece33809-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="204" pm="."><plain>Movements of adult female polar bears collared in Baffin Bay in the 1990s (left) and 2000s (right). </plain></SENT>
+<SENT sid="205" pm="."><plain>Colored symbols show locations where the bears were captured (cf. Figure 1) </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-8-2062-g002"/></fig></sec><sec id="ece33809-sec-0014"><label>3.2</label><title><text><SENT sid="206" pm="."><plain>Subpopulation ranges </plain></SENT>
+</text></title><p><text><SENT sid="207" pm="."><plain>In the 1990s, monthly 95% bivariate kernel range sizes varied between 460,000 and 805,000 km2 (Figure 3) Monthly range sizes in the 2000s varied between 178,000 and 600,000 km2 (Figure 3) and were significantly smaller in all months except January, May, and June. </plain></SENT>
+<SENT sid="208" pm="."><plain>Seasonal range sizes also exhibited significant reductions between the 1990s and 2000s (Figure 4). </plain></SENT>
+<SENT sid="209" pm="."><plain>During the on‐ice seasons, there was a 17% range reduction in winter (1990s = 906,657 km2, 2000s = 593,077 km2, p = .012, Figure 4a) and a 30% range reduction in spring (1990s = 837,036 km2, 2000s = 593,077 km2, p &lt; .001, Figure 4b). </plain></SENT>
+<SENT sid="210" pm="."><plain>During the ice‐free season in summer, we found a 70% reduction in range size (1990s = 716,767 km2, 2000s = 211,476 km2, p &lt; .001, Figure 4c). </plain></SENT>
+<SENT sid="211" pm="."><plain>To evaluate whether the substantial summer range reduction was influenced by capture location, we compared range sizes between a subsample of the 1990s bears collared in Melville Bay, West Greenland on the spring pack ice (n = 9), and the full sample from the 2000s. </plain></SENT>
+<SENT sid="212" pm="."><plain>We found similar patterns; the subsample of bears in the 1990s also used significantly larger ranges in summer (i.e., Figure 4c), and this resulted in a &gt; 35% summer range reduction for the 2000s (p &lt; .001). </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="ece33809-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p><text><SENT sid="213" pm="."><plain>95% mean kernel range sizes (km2) estimated from a bootstrap method for adult female polar bears in Baffin Bay by decade and month (1990s purple; 2000s green). </plain></SENT>
+<SENT sid="214" pm="."><plain>Line represents the mean values and shaded area represents ±2 SE; thus, lack of overlap between shaded areas indicates statistical significance. </plain></SENT>
+<SENT sid="215" pm="."><plain>Graph excludes year‐round residents in Melville Bay, West Greenland </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-8-2062-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="ece33809-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p><text><SENT sid="216" pm="."><plain>95% bivariate kernel ranges for adult female Baffin Bay polar bears captured in the 1990s and 2000s by season (a ‐ winter, b ‐ spring, c ‐ summer) </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-8-2062-g004"/></fig><p><text><SENT sid="217" pm="."><plain>The reduction in range sizes resulted in a reduced habitat area used by bears in the 2000s. </plain></SENT>
+<SENT sid="218" pm="."><plain>There was &lt;50% overlap in ranges for bears in the 1990s and 2000s in all months and seasons. </plain></SENT>
+<SENT sid="219" pm="."><plain>Range overlap across decades was lowest in September and October (~30%) and higher in winter and spring (60–80%). </plain></SENT>
+<SENT sid="220" pm="."><plain>Additionally, there was a significant northward shift in the median subpopulation latitude in both winter (1990s, median 69.4°N; 2000s, median 72.0°N 2000s; p &lt; .001) and spring (1990s, median 71.7°N; 2000s, median 72.7°N; p &lt; .001). </plain></SENT>
+<SENT sid="221" pm="."><plain>There was no northward shift between decades during summer. </plain></SENT>
+<SENT sid="222" pm="."><plain>However, there was a significant contraction around 70.5–71°N between the two decades (Figure 5). </plain></SENT>
+<SENT sid="223" pm="."><plain>These same patterns were demonstrated by the analyses of the subsample using n = 9 bears from the 1990s. </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="ece33809-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p><text><SENT sid="224" pm="."><plain>Box plots and interquartile range (shaded area) of median latitude of adult female polar bears in Baffin Bay by season in the 1990s and 2000s shown for each season. </plain></SENT>
+<SENT sid="225" pm="."><plain>Plots exclude year‐round residents in Melville Bay, West Greenland </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-8-2062-g005"/></fig></sec><sec id="ece33809-sec-0015"><label>3.3</label><title><text><SENT sid="226" pm="."><plain>Movement between subpopulations </plain></SENT>
+</text></title><p><text><SENT sid="227" pm="."><plain>Overall, a significantly lower fraction of collared polar bears left BB in the 2000s than in the 1990s (χ2 = 6.8, df = 1, p = .009). </plain></SENT>
+<SENT sid="228" pm="."><plain>The reductions in numbers of bears departing BB across subpopulation boundaries were due to fewer bears moving south into DS and fewer bears moving west into LS. </plain></SENT>
+<SENT sid="229" pm="."><plain>In the 1990s, 14 of 43 (33%) radio‐collared bears moved south into DS, and 12 of 43 (28%) bears moved west into LS. </plain></SENT>
+<SENT sid="230" pm="."><plain>In the 2000s, movements occurred to these areas but at a significantly lower rate; three of 38 (8%) tagged bears moved to DS, and three of 38 (8%) tagged bears moved to LS. </plain></SENT>
+<SENT sid="231" pm="."><plain>In the 2000s, five of 38 (13%) bears also moved north directly from BB into KB, and an additional two moved to KB after first moving to LS. </plain></SENT>
+<SENT sid="232" pm="."><plain>In the 1990s, n = 2 of 43 bears moved to KB and both initially moved into LS. </plain></SENT>
+</text></p><p><text><SENT sid="233" pm="."><plain>At 100 days after capture, approximately 73% (95% CI: 60%–88%) of collared bears remained in BB in the 1990s, whereas in the 2000s 91% (95% CI: 81%–100%) remained (Z = 2.041, p = .041) (Figure 6). </plain></SENT>
+<SENT sid="234" pm="."><plain>At 300 days after capture, approximately 55% (95% CI: 43%–74%) of collared bears remained in BB in the 1990s, whereas in the 2000s, 84% (95% CI: 72%–98%) remained (Z = 2.732, p = .006; Figure 6). </plain></SENT>
+<SENT sid="235" pm="."><plain>Overall, 56% of the collared bears never left BB during the 1990s tracking period, whereas 79% never left in the 2000s tracking period (Table 3). </plain></SENT>
+<SENT sid="236" pm="."><plain>Individuals departed and returned several times over the course of the tracking period. </plain></SENT>
+<SENT sid="237" pm="."><plain>Formal estimation of rates of return was complicated by highly variable follow‐up times; however, bears generally moved back and forth more frequently between BB and DS in the 1990s. </plain></SENT>
+<SENT sid="238" pm="."><plain>Results indicated that capture season in the 1990s (spring vs. summer) did not influence timing of departure (p = .562). </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="ece33809-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p><text><SENT sid="239" pm="."><plain>Percent of polar bears remaining in Baffin Bay after capture (1990s and 2000s) as a function of time. </plain></SENT>
+<SENT sid="240" pm="."><plain>Departures are for areas outside of the BB subpopulation management boundaries. </plain></SENT>
+<SENT sid="241" pm="."><plain>Only departures &gt;30 days were considered </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-13" xlink:href="ECE3-8-2062-g006"/></fig><SecTag type="TABLE"><table-wrap id="ece33809-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p><text><SENT sid="242" pm="."><plain>Number of subpopulation boundary crossings made by individual radio‐collared adult female bears in Baffin Bay in 1990s (n = 43) and the 2000s (n = 38) for departures of &gt;30 days. </plain></SENT>
+<SENT sid="243" pm="."><plain>Percentages shown as percent of total collared bears </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="top" colspan="1"/><th align="left" colspan="8" style="border-bottom:solid 1px #000000" valign="top" rowspan="1"><text><SENT sid="244" pm="."><plain>Number of subpopulation boundary crossings </plain></SENT>
+</text></th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>0 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>1 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>2 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>3 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>4 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>5 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>6 </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>7 </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>1990s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>24 (56%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>8 (19%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>6 (14%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>1 (2%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>1 (2%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>1 (2%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>1 (2%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>1 (2%) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>2000s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>30 (79%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>3 (8%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>2 (5%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>1 (3%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>1 (3%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>1 (3%) </plain></SENT>
+</text></td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></SecTag><p><text><SENT sid="271" pm="."><plain>The timing of departures over the annual cycle varied with patterns of seasonal ice coverage in BB. </plain></SENT>
+<SENT sid="272" pm="."><plain>Bears were significantly more likely to leave and move south into DS during the winter or early spring (November through April) when DS was covered with pack ice (p &lt; .001, Fisher's exact test). </plain></SENT>
+<SENT sid="273" pm="."><plain>During June through September, bears in the 1990s were more likely to move into LS where summer remnants of sea ice were available in the archipelago (p = .003, Fisher's exact test). </plain></SENT>
+<SENT sid="274" pm="."><plain>This summer movement pattern was only weakly present in the 2000s. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0016"><label>3.4</label><title><text><SENT sid="275" pm="."><plain>Harvest recoveries and recaptures of marked bears </plain></SENT>
+</text></title><p><text><SENT sid="276" pm="."><plain>Of the 1,250 bears marked in BB (2011–2013), 85 individuals were recovered in the reported subsistence harvest in Nunavut and Greenland or detected through genotyping during 2011–2014. </plain></SENT>
+<SENT sid="277" pm="."><plain>Of these individuals, 84 (99%) were recovered in the BB harvest, and one bear was harvested in DS. </plain></SENT>
+<SENT sid="278" pm="."><plain>Also during this period, 11 bears marked in the 1990s in BB were recovered in the harvest (all in BB). </plain></SENT>
+</text></p><p><text><SENT sid="279" pm="."><plain>Of the 881 bears marked in BB from 1991 to 1997, 181 individuals were recovered in the subsistence harvest in Canada and Greenland between 1991 and 2014; 83% of these recoveries occurred within BB. </plain></SENT>
+<SENT sid="280" pm="."><plain>Recoveries of marked BB bears outside the bounds of the BB subpopulation tended to be male‐biased (3.29 males per female) relative to recoveries within BB (1.85 males per female), although this was not statistically significant (p = .483, Fisher's exact test). </plain></SENT>
+</text></p><p><text><SENT sid="281" pm="."><plain>Of the 1,518 unique individuals captured in DS in the mid‐2000s (Peacock et al., 2013), 13 (0.8%) were recaptures from the sample of 881 bears originally marked in BB between 1991 and 1997. </plain></SENT>
+<SENT sid="282" pm="."><plain>Of the bears sampled in BB from 2009 to 2013 (1,250 unique individuals, 1,623 capture events), 16 (1%) were originally marked in DS between 2005 and 2007. </plain></SENT>
+<SENT sid="283" pm="."><plain>In sum, from a total of 2,771 bears marked in either BB or DS during 2005–2013, 29 instances were detected where marked bears moved from one subpopulation to the other. </plain></SENT>
+<SENT sid="284" pm="."><plain>Despite extensive marking of bears throughout the range of both subpopulations, the frequency of recorded interpopulation movements was relatively low and mainly clustered near the boundary. </plain></SENT>
+<SENT sid="285" pm="."><plain>Based on straight line distance between capture location and the BB‐DS subpopulation boundary, the 29 individuals that made interpopulation movements were first captured significantly closer to the boundary than other bears marked in these subpopulations (χ2 = 169.48, df = 11, p &lt; .001). </plain></SENT>
+<SENT sid="286" pm="."><plain>Seventy percent of bears known to have made interpopulation movements were originally captured within 100 km of the boundary, compared to 20% for bears that did not make such movements. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0017"><label>3.5</label><title><text><SENT sid="287" pm="."><plain>Genetic connectivity between Baffin Bay and other subpopulations </plain></SENT>
+</text></title><p><text><SENT sid="288" pm="."><plain>The average expected heterozygosity, based on eight polymorphic microsatellites, for 402 polar bears sampled during winter–spring (November–May) in 2009–2014 ranged from 0.779 ± 0.018 (KB) to 0.804 ± 0.012 (BB and LS). </plain></SENT>
+<SENT sid="289" pm="."><plain>No significant deviation from Hardy–Weinberg Equilibrium was observed in any of the datasets (Table S1) nor was a linkage disequilibrium observed between all pairs of loci within the dataset. </plain></SENT>
+<SENT sid="290" pm="."><plain>Population structure estimated using multilocus F ST statistics was generally low, although tests were statistically significant after sequential Bonferroni correction (Rice, 1989) at α = 5% level (Table 4). </plain></SENT>
+<SENT sid="291" pm="."><plain>Pairwise F ST values showed low but significant differentiation for BB between KB, DS, and LS when comparing the winter and spring samples for bears of all ages and sexes, adults of both sexes, and adult females (Table 4). </plain></SENT>
+<SENT sid="292" pm="."><plain>There were no significant differences for adult males and subadults (both sexes). </plain></SENT>
+<SENT sid="293" pm="."><plain>These results provide the first evidence for a genetic difference between BB and KB, in contrast to previous studies by Paetkau et al. </plain></SENT>
+<SENT sid="294" pm="."><plain>(1999), Peacock et al. </plain></SENT>
+<SENT sid="295" pm="."><plain>(2015), and Malenfant et al. </plain></SENT>
+<SENT sid="296" pm="."><plain>(2016). </plain></SENT>
+<SENT sid="297" pm="."><plain>The discriminant analysis of principal components (DAPC, Jombart et al., 2010), separated BB and KB from LS and DS, supporting the grouping observed using GENELAND (Figures S1–S4, Table 2). </plain></SENT>
+<SENT sid="298" pm="."><plain>Of note, Bayesian clustering method in STRUCTURE did not separate BB and KB, possibly due to low <z:uniprot sup="inside" fb="3" ids="P32026,P50291,A5YT95,Q90844,O62650,P19883,P10669,P31514">FST</z:uniprot> values (see Appendix S1). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="ece33809-tbl-0004" xml:lang="en" orientation="portrait" position="float"><label>Table 4</label><caption><p><text><SENT sid="299" pm="."><plain>Pairwise F ST estimates testing for population structure across Baffin Bay (BB), Kane Basin (KB), Lancaster Sound (LS), and Davis Strait (DS) polar bear subpopulations </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>BB </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>LS </plain></SENT>
+</text></th><th align="left" valign="top" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>DS </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" colspan="4" rowspan="1"><text><SENT sid="303" pm="."><plain>Subadults </plain></SENT>
+</text></td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>LS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>0.003 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>DS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>0.012 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>0.018 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>KB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>0.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>0.008 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>0.024 </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="4" rowspan="1"><text><SENT sid="313" pm="."><plain>Adult females </plain></SENT>
+</text></td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>LS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>0.005 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>DS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>0.007 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>0.012 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>KB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>0.008 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>0.003 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>0.022 </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="4" rowspan="1"><text><SENT sid="323" pm="."><plain>Adult males </plain></SENT>
+</text></td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>LS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>0.013 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>DS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>0.009 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>0.016 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>KB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>0.003 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>0.010 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>0.013 </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="4" rowspan="1"><text><SENT sid="333" pm="."><plain>Adults combined </plain></SENT>
+</text></td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>LS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>0.008 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>DS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>0.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>0.015 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>KB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>0.006 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>0.013 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>0.016 </plain></SENT>
+</text></td></tr><tr><td align="left" colspan="4" rowspan="1"><text><SENT sid="343" pm="."><plain>All Bears </plain></SENT>
+</text></td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>LS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>0.007 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>DS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>0.009 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>0.014 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>KB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>0.005 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>0.012 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>0.015 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="ece33809-note-0001"><p><text><SENT sid="353" pm="."><plain>Bold value is significant at p &lt; .05 after sequential Bonferroni correction (Rice, 1989). </plain></SENT>
+</text></p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="ece33809-sec-0018"><label>4</label><title><text><SENT sid="354" pm="."><plain>DISCUSSION </plain></SENT>
+</text></title><p><text><SENT sid="355" pm="."><plain>Over the past three decades, there has been a significant decline in sea ice in Baffin Bay and surrounding areas (Stern &amp; Laidre, 2016), which has directly translated to loss of habitat available to the BB polar bear subpopulation. </plain></SENT>
+<SENT sid="356" pm="."><plain>We document that BB subpopulation has become increasingly isolated through contraction of seasonal ranges and reductions in emigration across subpopulation boundaries. </plain></SENT>
+<SENT sid="357" pm="."><plain>We suggest that this is a consequence of ongoing loss of sea ice in Baffin Bay and reflects climate impacts that are likely to occur for other subpopulations in the seasonal sea‐ice ecoregion (Amstrup et al., 2008). </plain></SENT>
+</text></p><sec id="ece33809-sec-0019"><label>4.1</label><title><text><SENT sid="358" pm="."><plain>Satellite telemetry </plain></SENT>
+</text></title><p><text><SENT sid="359" pm="."><plain>The reliability of inferences about population structure based on movement data is dependent on the extent to which sampled individuals represent the subpopulation of interest. </plain></SENT>
+<SENT sid="360" pm="."><plain>This is a function of sampling strategy, timing, and sample size. </plain></SENT>
+<SENT sid="361" pm="."><plain>In this study, we investigated the movement of AFs and interpret the data as representative for the subpopulation as a whole. </plain></SENT>
+<SENT sid="362" pm="."><plain>The movements of individual polar bears have been studied using satellite telemetry for decades (e.g., Amstrup, Durner, Stirling, Lunn, &amp; Messier, 2000; Born, Wiig, &amp; Thomassen, 1997; Laidre et al., 2013, 2015; Wiig, Born, &amp; Pedersen, 2003), and inference has almost exclusively been based on adult females because of the challenges of instrumenting adult males (Wiig et al., 2017). </plain></SENT>
+<SENT sid="363" pm="."><plain>Our analyses, which also included harvest recoveries of both sexes, did not indicate vastly different movement between males and females. </plain></SENT>
+<SENT sid="364" pm="."><plain>Previous studies in BB also indicated that both sexes utilize the same habitats in spring (Laidre et al., 2013). </plain></SENT>
+<SENT sid="365" pm="."><plain>We therefore suggest our satellite telemetry data are a representative index of broad population movement patterns. </plain></SENT>
+</text></p><p><text><SENT sid="366" pm="."><plain>Our analyses addressed differences in sampling between decades to ensure that the 1990s and 2000s data, which were collected within the boundaries of BB but different areas and seasons, were comparable. </plain></SENT>
+<SENT sid="367" pm="."><plain>Bears collared in West Greenland in the 2000s used nearly the entire Baffin Island coastline in fall and were distributed over the same capture region and same range of latitudes where females in the 1990s were collared, with the exception of the southern point around Cape Dyer. </plain></SENT>
+<SENT sid="368" pm="."><plain>Further, subsample analyses of a small number of bears collared in spring in a restricted area of West Greenland in the 1990s (n = 9) provided the same significant results on summer range reduction as the larger dataset. </plain></SENT>
+<SENT sid="369" pm="."><plain>Overall, in our study, sample sizes for each decade were roughly equivalent (1990s, n = 43; 2000s, n = 38), sampling durations were similar (6‐ to 7‐year tracking periods in each decade), and collars in both decades transmitted up to 3 years. </plain></SENT>
+<SENT sid="370" pm="."><plain>Finally, in both decades, collar deployments were distributed over multiple years and over broad geographic areas within BB management boundaries (Figure 1). </plain></SENT>
+</text></p><p><text><SENT sid="371" pm="."><plain>We found that seasonal ranges of adult females in BB became significantly smaller, by a third to a half, between the 1990s and 2000s. </plain></SENT>
+<SENT sid="372" pm="."><plain>This range contraction coincided with a northward shift during the on‐ice season. </plain></SENT>
+<SENT sid="373" pm="."><plain>There was no northward shift in summer because bears’ ranges contracted on land around similar latitudes as used in the 1990s. </plain></SENT>
+<SENT sid="374" pm="."><plain>Further there was &lt;50% overlap in habitats used in the 1990s and the 2000s. </plain></SENT>
+<SENT sid="375" pm="."><plain>The same patterns and statistical significance were found when a small fraction of Greenland resident bears (AFs that remain year‐round at Melville Bay glacier fronts, SWG, 2016) were excluded from the analyses. </plain></SENT>
+<SENT sid="376" pm="."><plain>Satellite telemetry also demonstrated significant reduction in emigration from BB since the 1990s. </plain></SENT>
+<SENT sid="377" pm="."><plain>Finally, microsatellite analyses for the first time indicated a weak but significant differentiation between adults in BB and KB. </plain></SENT>
+<SENT sid="378" pm="."><plain>Harvest recoveries suggest fidelity to BB has remained high both across and within decades. </plain></SENT>
+<SENT sid="379" pm="."><plain>Our results indicate the BB subpopulation has become more discrete, with less exchange between other neighboring subpopulations. </plain></SENT>
+<SENT sid="380" pm="."><plain>These changes are likely due to reduced sea‐ice extent in winter, early break‐up in spring (Stern &amp; Laidre, 2016), and complete absence of sea ice in summer (SWG 2016). </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0020"><label>4.2</label><title><text><SENT sid="381" pm="."><plain>Recovery of marks </plain></SENT>
+</text></title><p><text><SENT sid="382" pm="."><plain>Although the use of tag recoveries is a relatively coarse means of assessing subpopulation closure, it can facilitate the inclusion of data from large numbers of individuals and be complementary to telemetry. </plain></SENT>
+<SENT sid="383" pm="."><plain>The probability of detecting interpopulation movements depends on many factors, including the number of initial marks deployed, the persistence and probability of detecting marks, and the intensity of harvest to recover marks. </plain></SENT>
+<SENT sid="384" pm="."><plain>Additionally, the detection of movement amongst subpopulations does not provide a means of quantifying rates of permanent emigration or immigration. </plain></SENT>
+<SENT sid="385" pm="."><plain>Nevertheless, data on harvest recoveries of marked bears provide a supplemental line of evidence to support subpopulation delineations based on more detailed methods such as cluster analysis of movement data (Taylor et al., 2001). </plain></SENT>
+</text></p><p><text><SENT sid="386" pm="."><plain>We documented very low levels of harvest recovery of bears outside their subpopulation of origin based on data collected between 2011 and 2014. </plain></SENT>
+<SENT sid="387" pm="."><plain>Bears marked in the final year of study had a near zero probability of recovery because harvest monitoring was not extended far beyond the last year of marking (in 2013). </plain></SENT>
+<SENT sid="388" pm="."><plain>However, bears marked in the first 2 years were available for recovery in the harvest, subject to rates of natural mortality. </plain></SENT>
+<SENT sid="389" pm="."><plain>The total number of bears marked in 2011 and 2012 was equivalent to ~32% of the point estimate of abundance for the BB subpopulation (SWG, 2016). </plain></SENT>
+<SENT sid="390" pm="."><plain>Despite marking a large proportion of the subpopulation and the continuous monitoring of harvest within BB and surrounding subpopulations, instances of emigration were only approximately 1% of the recoveries of BB marks. </plain></SENT>
+<SENT sid="391" pm="."><plain>Our findings imply that BB bears exhibit a high degree of short‐term fidelity to this geographically defined unit, which is consistent with estimates of site fidelity derived from mark–recapture analyses (SWG, 2016). </plain></SENT>
+<SENT sid="392" pm="."><plain>Examining long‐term harvest recoveries of marked bears over a 14‐year period, we found that 83% of recovered bears marked in BB in the 1990's were recovered within BB. </plain></SENT>
+<SENT sid="393" pm="."><plain>Considering BB and adjacent subpopulations were subject to broadly similar harvest rates and management regimes during this interval, this suggests relatively high long‐term fidelity to BB (PBSG 2010). </plain></SENT>
+<SENT sid="394" pm="."><plain>Of note, prior to 2006 when quotas were introduced in Greenland, there was significant uncertainty in the accuracy of the reported polar bear harvest from BB and KB (SWG, 2016). </plain></SENT>
+<SENT sid="395" pm="."><plain>The extent to which marked bears were under or over reported prior to that date is unknown, however, new monitoring and mandatory reporting laws have substantially improved reporting since then. </plain></SENT>
+</text></p><p><text><SENT sid="396" pm="."><plain>For comparison with our results, recent demographic analyses for BB used live‐recapture–dead‐recovery models to estimate probabilities of natural survival, harvest mortality, and fidelity in a unified modeling framework (SWG, 2016), with estimated time‐constant fidelity rates of 0.97 for males age ≥2 years, and 0.96 for other sex and age classes for the period 1993–2013. </plain></SENT>
+<SENT sid="397" pm="."><plain>Although sample sizes were insufficient to investigate complex patterns and “fidelity” was defined relative to the onshore, summer sampling area (as opposed to the BB management unit, in the current analysis) results from capture–recapture modeling support our finding of relatively high fidelity of polar bears in BB. </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0021"><label>4.3</label><title><text><SENT sid="398" pm="."><plain>Movements between Baffin Bay and Davis Strait </plain></SENT>
+</text></title><p><text><SENT sid="399" pm="."><plain>The boundary between the BB and DS subpopulations is spanned by pack ice in spring that provides a continuous platform for bears to move between subpopulations (Stern &amp; Laidre, 2016). </plain></SENT>
+<SENT sid="400" pm="."><plain>Nevertheless, consistent differences between BB and DS polar bears have been shown through genetics (Paetkau et al., 1999; Peacock et al., 2015; this study), movements (Taylor et al., 2001), and diet (Thiemann, Iverson, &amp; Stirling, 2008), suggesting a functional boundary between them. </plain></SENT>
+<SENT sid="401" pm="."><plain>Here, we investigated if there has been an increased exchange of polar bears across this boundary, which could contribute to exchange between subpopulations. </plain></SENT>
+<SENT sid="402" pm="."><plain>Since 1990, marking effort (i.e., number of unique individuals marked) in BB and DS was equivalent to 41% (BB 1991–1997), 70% (DS 2005–2007), and 44% (BB 2011–2013) of estimated abundance at the time of marking (Peacock et al., 2013; SWG, 2016). </plain></SENT>
+<SENT sid="403" pm="."><plain>The large number of marks released, combined with few interpopulation recaptures or recoveries between BB and DS (1% in each direction), suggest that the boundary between these two subpopulations remains relatively strong. </plain></SENT>
+<SENT sid="404" pm="."><plain>Similarly, the telemetry data of collared BB bears demonstrate a reduced frequency of visitation to DS. </plain></SENT>
+</text></p><p><text><SENT sid="405" pm="."><plain>Bears that moved between BB and DS tended to be initially captured close to the BB‐DS boundary (&lt;100 km). </plain></SENT>
+<SENT sid="406" pm="."><plain>This may reflect the high degree of fidelity shown by BB and DS bears to their seasonal onshore range (e.g., Taylor et al., 2001), similar for other subpopulations (Wiig, 1995; Mauritzen, Derocher, &amp; Wiig, 2001; Stirling, Lunn, Iacozza, Elliott, &amp; Obbard, 2004; Zeyl, Ehrich, <z:uniprot sup="inside" fb="0" ids="Q8CFX8,Q8BGQ7,P50475">Aars</z:uniprot>, Bachmann, &amp; Wiig, 2010). </plain></SENT>
+</text></p></sec><sec id="ece33809-sec-0022"><label>4.4</label><title><text><SENT sid="407" pm="."><plain>Genetic connectivity between subpopulations </plain></SENT>
+</text></title><p><text><SENT sid="408" pm="."><plain>Previous analysis of polar bear population structure using microsatellites showed no significant genetic differences between BB and neighboring KB (Paetkau et al., 1999), though studies have found that bears from BB‐KB differed genetically from the LS and DS subpopulations (Paetkau et al., 1999; Peacock et al., 2015; Malenfant et al., 2016). </plain></SENT>
+<SENT sid="409" pm="."><plain>In contrast, we found low but significant <z:uniprot sup="inside" fb="3" ids="P32026,P50291,A5YT95,Q90844,O62650,P19883,P10669,P31514">FST</z:uniprot> estimates between winter–spring samples from BB and KB. </plain></SENT>
+<SENT sid="410" pm="."><plain>This could be due to groupings of closely related individuals (e.g., siblings or parent‐offspring in the samples). </plain></SENT>
+<SENT sid="411" pm="."><plain>However, another explanation is that the results may be an early indication of increasing differentiation between the two subpopulations. </plain></SENT>
+<SENT sid="412" pm="."><plain>This pattern was not captured by the Bayesian methods due to the low observed F ST estimates as Bayesian STRUCTURE does not always infer the correct number of clusters when F ST &lt; 0.02 (Chen, Durand, Forbes, &amp; François, 2007; Latch, Dharmarajan, Glaubitz, &amp; Rhodes, 2006). </plain></SENT>
+<SENT sid="413" pm="."><plain>Our study provides an updated genetic comparison between BB and KB based on recent data collected after the onset of large‐scale sea‐ice loss in Baffin Bay and Kane Basin. </plain></SENT>
+<SENT sid="414" pm="."><plain>In all prior studies, the KB samples were collected in the early 1990s (Paetkau et al., 1999; Peacock et al., 2015; Malenfant et al., 2016). </plain></SENT>
+</text></p><p><text><SENT sid="415" pm="."><plain>Future sea‐ice loss is expected to fragment polar bear subpopulations, increase isolation, alter gene flow, and disrupt population boundaries (Derocher, Lunn, &amp; Stirling, 2004; Kutschera et al., 2016; Sahanatian &amp; Derocher, 2012). </plain></SENT>
+<SENT sid="416" pm="."><plain>Genetic variation in polar bears is relatively low, and genetics is a relatively insensitive means of identifying, defining, or detecting change in subpopulation structure, especially when compared to individual‐based telemetry and tag recoveries. </plain></SENT>
+<SENT sid="417" pm="."><plain>Time‐lag effects in genetic composition are influenced by the relatively long generation length for polar bears (~11.5 years; Regehr et al., 2016), and several generations may be needed to demonstrate increased genetic isolation as a consequence of climate‐induced range contraction. </plain></SENT>
+</text></p><p><text><SENT sid="418" pm="."><plain>Collectively, our findings from multiple lines of evidence suggest that the current BB subpopulation boundaries continue to be relevant for harvest management and subpopulation monitoring. </plain></SENT>
+<SENT sid="419" pm="."><plain>However, an important consideration is that the subpopulation range is contracting and there appears to be reduced connectivity with subpopulations to the west and south. </plain></SENT>
+<SENT sid="420" pm="."><plain>Our results provide evidence that the BB subpopulation is becoming increasing isolated, with reduced range sizes, shifts northward, and reduced emigration across subpopulation boundaries. </plain></SENT>
+<SENT sid="421" pm="."><plain>These changes are almost certainly driven by loss of sea ice (Stern &amp; Laidre, 2016). </plain></SENT>
+<SENT sid="422" pm="."><plain>In general, telemetry and genetics share major advantages including standardized objective methodologies for delineating demographic structure allowing for broad inferences on movements and for calculating immigration and emigration rates. </plain></SENT>
+<SENT sid="423" pm="."><plain>In our study, both telemetry and tag recovery data provided early signals of range shifts and changes in individual movements between local populations. </plain></SENT>
+<SENT sid="424" pm="."><plain>Although our genetic analyses had relatively coarse resolution, primarily because the markers used were intended for mark–recapture and not dispersal, the results indicated a differentiation between the BB and KB subpopulations. </plain></SENT>
+<SENT sid="425" pm="."><plain>More detailed genetic analyses would be worthwhile to explore this further. </plain></SENT>
+<SENT sid="426" pm="."><plain>Sea‐ice loss is predicted to continue and information from telemetry and marked or recovered bears through long‐term monitoring programs (i.e., Laidre et al., 2015) will be critical to understanding increased fragmentation among polar bear subpopulations. </plain></SENT>
+</text></p><p><text><SENT sid="427" pm="."><plain>One key question unanswered is how loss of sea ice will alter dispersal patterns of apex predators, either by increasing genetic exchange as barriers to dispersal are removed or by increasing isolation as platforms for genetic transfer disappear. </plain></SENT>
+<SENT sid="428" pm="."><plain>In some cases, different patterns may emerge within a species, depending on their dispersal ability and how loss of habitat redistributes subpopulations. </plain></SENT>
+<SENT sid="429" pm="."><plain>For example, in areas around the Arctic Basin where sea ice converges or diverges (Amstrup et al., 2008), polar bears from multiple subpopulations may become aggregated or even mix. </plain></SENT>
+<SENT sid="430" pm="."><plain>However, in the seasonal ice polar bear ecoregion (Amstrup et al., 2008), where annual sea ice exerts strong control on movements and directly influences the amount of time and area bears have to use and interact, the loss of sea ice is likely to make subpopulations more isolated. </plain></SENT>
+<SENT sid="431" pm="."><plain>These findings and methods may prove useful for reassessing polar bear subpopulation boundaries in a future with reduced sea ice. </plain></SENT>
+<SENT sid="432" pm="."><plain>Changes in exchange between subpopulations are expected with climate change and broadly the concept of boundaries may have to be reassessed. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="COMP_INT"><sec id="ece33809-sec-0024"><title><text><SENT sid="433" pm="."><plain>CONFLICT OF INTEREST </plain></SENT>
+</text></title><p><text><SENT sid="434" pm="."><plain>None declared. </plain></SENT>
+</text></p></sec></SecTag><sec id="ece33809-sec-0025"><title><text><SENT sid="435" pm="."><plain>AUTHORS CONTRIBUTION </plain></SENT>
+</text></title><p><text><SENT sid="436" pm="."><plain>EWB, KLL, NJL, SNA, and ØW conceived and designed the study and sampling scheme. </plain></SENT>
+<SENT sid="437" pm="."><plain>EWB, MD, and SNA acquired permits. </plain></SENT>
+<SENT sid="438" pm="."><plain>EWB, KLL, MD, SNA, and ØW conducted the fieldwork. </plain></SENT>
+<SENT sid="439" pm="."><plain>KLL, LWA, PH, RMG, and SNA analyzed the data. </plain></SENT>
+<SENT sid="440" pm="."><plain>All authors contributed to writing of the manuscript and approved the final published version. </plain></SENT>
+</text></p></sec><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="441" pm="."><plain>Supporting information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="ece33809-sup-0001"><caption><p><text><SENT sid="442" pm="."><plain>  </plain></SENT>
+</text></p></caption><media xlink:href="ECE3-8-2062-s001.docx"><caption><p><text><SENT sid="443" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack id="ece33809-sec-0023"><title>ACKNOWLEDGMENTS</title><p><text4fund><text><SENT sid="444" pm="."><plain>Financial, logistical, and in‐kind support was provided by Air Greenland, Applied Physics Laboratory (University of Washington), Avannaa Resources Inc., Bureau of Mineral and Petroleum (Nuuk), Canada Department of National Defense, Environment and Climate Change Canada, Environmental Protection Agency (Ministry of Environment and Food of Denmark) –DANCEA Programme, Government of Nunavut, Greenland Department of Fisheries, Hunting and Agriculture, Greenland Institute of Natural Resources, Greenland Pharmaceutical Authority, the Hospital in Upernavik – Peqqik, KNAPK, Kullorsuaq School, Lasø ApS, Mitteqarfik airports in Qaarsut and Upernavik, the Mittimatalik Hunters and Trappers Organization, the National Aeronautical and Space Agency (NASA) Development and Testing of Potential Indicators for the National Climate Assessment Program grant NNX13AN28G (PI: H. </plain></SENT>
+<SENT sid="445" pm="."><plain>Stern), NASA Climate and Biological Response grant NNX11A063G (PI: K. </plain></SENT>
+<SENT sid="446" pm="."><plain>Laidre), the Namautaq Hunters and Trappers Organization, the Nativak Hunters and Trappers Organization, Nuna Minerals Inc., Nunavut Wildlife Management Board, Parks Canada Agency, Polar Continental Shelf Project, Qaanaap Kommunia, Qikiqtaaluk Corporation, Quantum Murray LP, Royal Canadian Mounted Police, Thule Air Force Base, Universal Helicopters, University of Oslo, Upernavik Seafood, Uummannaq Sundhedscenter – Peqqik, Vetlesen Foundation, and World Wildlife Fund. </plain></SENT>
+<SENT sid="447" pm="."><plain>Numerous hunters provided invaluable assistance in the field. </plain></SENT>
+<SENT sid="448" pm="."><plain>The telemetry and harvest location data supporting this article were obtained under an agreement of specific use and are not freely available. </plain></SENT>
+<SENT sid="449" pm="."><plain>Two anonymous reviewers improved the paper. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list content-type="cited-references" id="ece33809-bibl-0001"><title>REFERENCES</title><ref id="ece33809-bib-0001"><text><SENT sid="450" pm="."><plain>  Amstrup, S. </plain></SENT>
+<SENT sid="451" pm="."><plain>C. ,  Durner, G. </plain></SENT>
+<SENT sid="452" pm="."><plain>M. ,  Stirling, I. ,  Lunn, N. </plain></SENT>
+<SENT sid="453" pm="."><plain>J. , &amp;  Messier, F.  (2000). Movements and distribution of polar bears in the Beaufort Sea. Canadian Journal of Zoology, 78, 948–966. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/z00-016">https://doi.org/10.1139/z00-016</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0002"><text><SENT sid="454" pm="."><plain>  Amstrup, S. </plain></SENT>
+<SENT sid="455" pm="."><plain>C. , &amp;  Gardner, C.  (1994). Polar bear maternity denning in the Beaufort Sea. Journal of Wildlife Management, 58, 1–10. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/3809542">https://doi.org/10.2307/3809542</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0003"><text><SENT sid="456" pm="."><plain>  Amstrup, S. </plain></SENT>
+<SENT sid="457" pm="."><plain>C. ,  Marcot, B. </plain></SENT>
+<SENT sid="458" pm="."><plain>G. , &amp;  Douglas, D. </plain></SENT>
+<SENT sid="459" pm="."><plain>C.  (2008). A Bayesian network modeling approach to forecasting the 21st century worldwide status of polar bears In DeWeaverE. </plain></SENT>
+<SENT sid="460" pm="."><plain>T., BitzC. </plain></SENT>
+<SENT sid="461" pm="."><plain>M. &amp; TremblayL. </plain></SENT>
+<SENT sid="462" pm="."><plain>B. (Eds.), Arctic sea ice decline: Observations, projections, mechanisms and implications (pp. 213–268). </plain></SENT>
+<SENT sid="463" pm="."><plain>Geophysical Monograph Series, 180. Washington, DC: American Geophysical Union. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0004"><text><SENT sid="464" pm="."><plain>  Born, E. </plain></SENT>
+<SENT sid="465" pm="."><plain>W.  (1995). Status of the polar bear in Greenland In WiigØ., BornE. </plain></SENT>
+<SENT sid="466" pm="."><plain>W. &amp; GarnerG. (Eds.), Polar bears: Proceedings of the 11th working meeting of the IUCN/SCC polar bear specialist group (pp. 81–103). Gland, Switzerland and Cambridge, UK: IUCN. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0005"><text><SENT sid="467" pm="."><plain>  Born, E. </plain></SENT>
+<SENT sid="468" pm="."><plain>W. ,  Heilmann, A. ,  Holm, L. </plain></SENT>
+<SENT sid="469" pm="."><plain>K. , &amp;  Laidre, K. </plain></SENT>
+<SENT sid="470" pm="."><plain>L.  (2011). Polar bears in Northwest Greenland: An interview survey about the catch and the climate. </plain></SENT>
+<SENT sid="471" pm="."><plain>Monographs on Greenland, Man and Society Volume, 41 Copenhagen, Denmark: Museum Tusculanum Press, University of Copenhagen. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0006"><text><SENT sid="472" pm="."><plain>  Born, E. </plain></SENT>
+<SENT sid="473" pm="."><plain>W. ,  Wiig, Ø. , &amp;  Thomassen, J.  (1997). Seasonal and annual movements of radio‐collared polar bears (Ursus maritimus) in northeast Greenland. Journal of Marine Systems, 10, 67–77. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0924-7963(96)00072-3">https://doi.org/10.1016/S0924-7963(96)00072-3</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0007"><text><SENT sid="474" pm="."><plain>  Calvert, W. , &amp;  Ramsay, M. </plain></SENT>
+<SENT sid="475" pm="."><plain>A.  (1998). Evaluation of age determination of polar bears by counts of cementum growth layer groups. Ursus, 10, 449–453. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0008"><text><SENT sid="476" pm="."><plain>  Chen, C. ,  Durand, E. ,  Forbes, F. , &amp;  François, O.  (2007). Bayesian clustering algorithms ascertaining spatial population structure: A new computer program and a comparison study. Molecular Ecology Notes, 7, 747–756. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2007.01769.x">https://doi.org/10.1111/j.1471-8286.2007.01769.x</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0009"><text><SENT sid="477" pm="."><plain>  Ching Chen, I. ,  Hill, J. </plain></SENT>
+<SENT sid="478" pm="."><plain>K. ,  Ohlemuller, R. ,  Roy, D. </plain></SENT>
+<SENT sid="479" pm="."><plain>B. , &amp;  Thomas, C. </plain></SENT>
+<SENT sid="480" pm="."><plain>D.  (2011). Rapid range shifts of species associated with high levels of climate warming. Science, 333, 1024–1026. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1206432">https://doi.org/10.1126/science.1206432</ext-link> 21852500 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0010"><text><SENT sid="481" pm="."><plain>  Derocher, A. </plain></SENT>
+<SENT sid="482" pm="."><plain>E. ,  Lunn, N. </plain></SENT>
+<SENT sid="483" pm="."><plain>J. , &amp;  Stirling, I.  (2004). Polar bears in a warming climate. Integrative and Comparative Biology, 44, 163–176. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/icb/44.2.163">https://doi.org/10.1093/icb/44.2.163</ext-link> 21680496 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0012"><text><SENT sid="484" pm="."><plain>  Escajeda, E. </plain></SENT>
+<SENT sid="485" pm="."><plain>D. ,  Laidre, K. </plain></SENT>
+<SENT sid="486" pm="."><plain>L. ,  Born, E. </plain></SENT>
+<SENT sid="487" pm="."><plain>W. ,  Wiig, Ø. ,  Atkinson, S. ,  Dyck, M. , …  Lunn, N. </plain></SENT>
+<SENT sid="488" pm="."><plain>J.  (2018). Identifying shifts in maternity den phenology and habitat characteristics of polar bears (Ursus maritimus) in Baffin Bay and Kane Basin. Polar Biology, 41(1), 87–100. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0013"><text><SENT sid="489" pm="."><plain>  Excoffier, L. , &amp;  Lischer, H. </plain></SENT>
+<SENT sid="490" pm="."><plain>E. </plain></SENT>
+<SENT sid="491" pm="."><plain>L.  (2010). Arlequin suite <z:uniprot sup="inside" fb="0" ids="Q21038">ver 3</z:uniprot>.5: A new series of programs to perform population genetics analyses under Linux and Windows. Molecular Ecology Resources, 10, 564–567. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1755-0998.2010.02847.x">https://doi.org/10.1111/j.1755-0998.2010.02847.x</ext-link> 21565059 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0014"><text><SENT sid="492" pm="."><plain>  Ferguson, S. </plain></SENT>
+<SENT sid="493" pm="."><plain>H. ,  Taylor, M. </plain></SENT>
+<SENT sid="494" pm="."><plain>K. , &amp;  Messier, F.  (1997). Space use by polar bears in and around Auyuittuq National Park, Northwest Territories, during the ice‐free period. Canadian Journal of Zoology, 75, 1585–1594. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/z97-785">https://doi.org/10.1139/z97-785</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0015"><text><SENT sid="495" pm="."><plain>  Fieberg, J. , &amp;  Kochanny, C. </plain></SENT>
+<SENT sid="496" pm="."><plain>O.  (2005). Quantifying home‐range overlap: The importance of the utilization distribution. Journal of Wildlife Management, 69, 1346–1359. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2193/0022-541X(2005)69[1346:QHOTIO]2.0.CO;2">https://doi.org/10.2193/0022-541X(2005)69[1346:QHOTIO]2.0.CO;2</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0016"><text><SENT sid="497" pm="."><plain>  Freitas, C. ,  Kovacs, K. </plain></SENT>
+<SENT sid="498" pm="."><plain>M. ,  Lydersen, C. , &amp;  Ims, R.  (2008). A novel method for quantifying habitat selection and predicting habitat use. Journal of Applied Ecology, 45, 1213–1220. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0017"><text><SENT sid="499" pm="."><plain>  George, J. </plain></SENT>
+<SENT sid="500" pm="."><plain>C. ,  Druckenmiller, M. ,  Laidre, K. </plain></SENT>
+<SENT sid="501" pm="."><plain>L. ,  Suydam, R. , &amp;  Person, B.  (2015). Western Arctic bowhead whale body condition and links to summer sea ice and upwelling in the Beaufort Sea. Progress in Oceanography, 136, 250–262. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pocean.2015.05.001">https://doi.org/10.1016/j.pocean.2015.05.001</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0018"><text><SENT sid="502" pm="."><plain>  Goudet, J.  (1995). FSTAT (Version 1.2): A computer program to calculate F statistics. Journal of Heredity, 86, 485–486. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.jhered.a111627">https://doi.org/10.1093/oxfordjournals.jhered.a111627</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0019"><text><SENT sid="503" pm="."><plain>  Guillot, G.  (2008). Inference of structure in subdivided populations at low levels of genetic differentiation. </plain></SENT>
+<SENT sid="504" pm="."><plain>The correlated allele frequencies model revisited. Bioinformatics, 24, 2222–2228. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btn419">https://doi.org/10.1093/bioinformatics/btn419</ext-link> 18710873 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0020"><text><SENT sid="505" pm="."><plain>  Guillot, G. ,  Mortier, F. , &amp;  Estoup, A.  (2005). Geneland: A computer package for landscape genetics. Molecular Ecology Notes, 5, 712–715. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2005.01031.x">https://doi.org/10.1111/j.1471-8286.2005.01031.x</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0021"><text><SENT sid="506" pm="."><plain>  Jombart, T.  (2008).  adegenet: A R package for the multivariate analysis of genetic markers. Bioinformatics, 24, 1403–1405. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btn129">https://doi.org/10.1093/bioinformatics/btn129</ext-link> 18397895 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0022"><text><SENT sid="507" pm="."><plain>  Jombart, T. ,  Devillard, S. , &amp;  Balloux, F.  (2010). Discriminant analysis of principal components: A new method for the analysis of genetically structured populations. BMC Genetics, 11, 94 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2156-11-94">https://doi.org/10.1186/1471-2156-11-94</ext-link> 20950446 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0023"><text><SENT sid="508" pm="."><plain>  Kie, J. </plain></SENT>
+<SENT sid="509" pm="."><plain>G. ,  Matthiopoulos, J. ,  Fieberg, J. ,  Powell, R. </plain></SENT>
+<SENT sid="510" pm="."><plain>A. ,  Cagnacci, F. ,  Mitchell, M. </plain></SENT>
+<SENT sid="511" pm="."><plain>S. , …  Moorcroft, P. </plain></SENT>
+<SENT sid="512" pm="."><plain>R.  (2010). The home‐range concept: Are traditional estimators still relevant with modern telemetry technology? Philosophical Transactions of the Royal Society of London B: Biological Sciences, 365, 2221–2231. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2010.0093">https://doi.org/10.1098/rstb.2010.0093</ext-link> 20566499 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0024"><text><SENT sid="513" pm="."><plain>  Kutschera, V. </plain></SENT>
+<SENT sid="514" pm="."><plain>E. ,  Frosch, C. ,  Janke, A. ,  Skírnisson, K. ,  Bidon, T. ,  Lecomte, N. , …  Hailer, F.  (2016). High genetic variability of vagrant polar bears illustrates importance of population connectivity in fragmented sea ice habitats. Animal Conservation, 19, 337–349. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/acv.12250">https://doi.org/10.1111/acv.12250</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0025"><text><SENT sid="515" pm="."><plain>  Laidre, K. </plain></SENT>
+<SENT sid="516" pm="."><plain>L. ,  Born, E. </plain></SENT>
+<SENT sid="517" pm="."><plain>W. ,  Gurarie, E. ,  Wiig, Ø. ,  Dietz, R. , &amp;  Stern, H.  (2013). Females roam while males patrol: Divergence in breeding season movements of pack‐ice polar bears (Ursus maritimus). Proceedings of the Royal Society B: Biological Sciences, 280, 20122371 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rspb.2012.2371">https://doi.org/10.1098/rspb.2012.2371</ext-link> 23222446 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0026"><text><SENT sid="518" pm="."><plain>  Laidre, K. </plain></SENT>
+<SENT sid="519" pm="."><plain>L. ,  Stern, H. ,  Kovacs, K. </plain></SENT>
+<SENT sid="520" pm="."><plain>M. ,  Lowry, L. ,  Moore, S. </plain></SENT>
+<SENT sid="521" pm="."><plain>E. ,  Regehr, E. </plain></SENT>
+<SENT sid="522" pm="."><plain>V. , …  Ugarte, F.  (2015). Arctic marine mammal population status, sea ice habitat loss, and conservation recommendations for the 21st century. Conservation Biology, 29, 724–737. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/cobi.12474">https://doi.org/10.1111/cobi.12474</ext-link> 25783745 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0027"><text><SENT sid="523" pm="."><plain>  Latch, E. </plain></SENT>
+<SENT sid="524" pm="."><plain>K. ,  Dharmarajan, G. ,  Glaubitz, J. </plain></SENT>
+<SENT sid="525" pm="."><plain>C. , &amp;  Rhodes, O. </plain></SENT>
+<SENT sid="526" pm="."><plain>E. Jr  (2006). Relative performance of Bayesian clustering software for inferring population substructure and individual assignment at low levels of population differentiation. Conservation Genetics, 7, 295–302. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10592-005-9098-1">https://doi.org/10.1007/s10592-005-9098-1</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0028"><text><SENT sid="527" pm="."><plain>  Loarie, S. </plain></SENT>
+<SENT sid="528" pm="."><plain>R. ,  Duffy, P. </plain></SENT>
+<SENT sid="529" pm="."><plain>B. ,  Hamilton, H. ,  Asner, G. </plain></SENT>
+<SENT sid="530" pm="."><plain>P. ,  Field, C. </plain></SENT>
+<SENT sid="531" pm="."><plain>B. , &amp;  Ackerly, D. </plain></SENT>
+<SENT sid="532" pm="."><plain>D.  (2009). The velocity of climate change. Nature, 462, 1052–1057. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature08649">https://doi.org/10.1038/nature08649</ext-link> 20033047 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0029"><text><SENT sid="533" pm="."><plain>  Malenfant, R. </plain></SENT>
+<SENT sid="534" pm="."><plain>M. ,  Davis, C. </plain></SENT>
+<SENT sid="535" pm="."><plain>S. ,  Cullingham, C. </plain></SENT>
+<SENT sid="536" pm="."><plain>I. , &amp;  Coltman, D. </plain></SENT>
+<SENT sid="537" pm="."><plain>W.  (2016). Circumpolar genetic structure and recent gene flow of polar bears: A reanalysis. PLoS One, 11, e0148967 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0148967">https://doi.org/10.1371/journal.pone.0148967</ext-link> 26974333 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0030"><text><SENT sid="538" pm="."><plain>  Mauritzen, M. ,  Derocher, A. </plain></SENT>
+<SENT sid="539" pm="."><plain>E. , &amp;  Wiig, Ø.  (2001). Space‐use strategies of female polar bears in a dynamic sea ice habitat. Canadian Journal of Zoology, 79, 1704–1713. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/z01-126">https://doi.org/10.1139/z01-126</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0031"><text><SENT sid="540" pm="."><plain>  Overland, J. </plain></SENT>
+<SENT sid="541" pm="."><plain>E. , &amp;  Wang, M.  (2013). When will the summer Arctic be nearly sea ice free? Geophysical Research Letters, 40, 2097–2101. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/grl.50316">https://doi.org/10.1002/<z:uniprot sup="inside" fb="0" ids="P49843,O73673,P49844,Q9I9L0">grl</z:uniprot>.50316</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0032"><text><SENT sid="542" pm="."><plain>  Paetkau, D. ,  Amstrup, S. </plain></SENT>
+<SENT sid="543" pm="."><plain>C. ,  Born, E. </plain></SENT>
+<SENT sid="544" pm="."><plain>W. ,  Calvert, W. ,  Derocher, A. </plain></SENT>
+<SENT sid="545" pm="."><plain>E. ,  Garner, G. </plain></SENT>
+<SENT sid="546" pm="."><plain>W. , …  Strobeck, C.  (1999). Genetic structure of the world's polar bear populations. Molecular Ecology, 8, 1571–1584. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-294x.1999.00733.x">https://doi.org/10.1046/j.1365-294x.1999.00733.x</ext-link> 10583821 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0033"><text><SENT sid="547" pm="."><plain>  Pagano, A. </plain></SENT>
+<SENT sid="548" pm="."><plain>M. ,  Peacock, E. , &amp;  McKinney, M. </plain></SENT>
+<SENT sid="549" pm="."><plain>A.  (2014). Remote biopsy darting and marking of polar bears. Marine Mammal Science, 30, 169–183. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mms.12029">https://doi.org/10.1111/mms.12029</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0034"><text><SENT sid="550" pm="."><plain> PBSG (IUCN/SSC Polar Bear Specialist Group) (2010). 2009 status report on the world's polar bear subpopulations In ObbardM. </plain></SENT>
+<SENT sid="551" pm="."><plain>E., ThiemannG. </plain></SENT>
+<SENT sid="552" pm="."><plain>W., PeacockE. &amp; DeBruynT. </plain></SENT>
+<SENT sid="553" pm="."><plain>D. (Eds.), Polar Bears: Proceedings of the 15th Working Meeting of the IUCN/SCC Polar Bear Specialist Group (pp. 31–80). Switzerland and Cambridge, UK: IUCN, Gland. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0035"><text><SENT sid="554" pm="."><plain>  Peacock, E. ,  Laake, J. ,  Laidre, K. </plain></SENT>
+<SENT sid="555" pm="."><plain>L. ,  Born, E. </plain></SENT>
+<SENT sid="556" pm="."><plain>W. , &amp;  Atkinson, S. </plain></SENT>
+<SENT sid="557" pm="."><plain>N.  (2012). The utility of harvest recoveries of marked individuals to assess polar bear (Ursus maritimus) survival. Arctic, 65, 391–400. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0036"><text><SENT sid="558" pm="."><plain>  Peacock, E. ,  Sonsthagen, S. </plain></SENT>
+<SENT sid="559" pm="."><plain>A. ,  Obbard, M. </plain></SENT>
+<SENT sid="560" pm="."><plain>E. ,  Boltunov, A. ,  Regehr, E. </plain></SENT>
+<SENT sid="561" pm="."><plain>V. ,  Ovsyanikov, N. , …  Talbot, S. </plain></SENT>
+<SENT sid="562" pm="."><plain>L.  (2015). Implications of the circumpolar genetic structure of polar bears for their conservation in a rapidly warming Arctic. PLoS One, 10, e112021 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0112021">https://doi.org/10.1371/journal.pone.0112021</ext-link> 25562525 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0037"><text><SENT sid="563" pm="."><plain>  Peacock, E. ,  Taylor, M. </plain></SENT>
+<SENT sid="564" pm="."><plain>K. ,  Laake, J. , &amp;  Stirling, I.  (2013). Population ecology of polar bears in Davis Strait, Canada and Greenland. Journal of Wildlife Management, 77, 463–476. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jwmg.489">https://doi.org/10.1002/jwmg.489</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0038"><text><SENT sid="565" pm="."><plain>  Piry, S. ,  Alapetite, A. ,  Cornuet, J. </plain></SENT>
+<SENT sid="566" pm="."><plain>M. ,  Paetkau, D. ,  Baudouin, L. , &amp;  Estoup, A.  (2004). GENECLASS2: A software for genetic assignment and first‐generation migrant detection. Journal of Heredity, 95, 536–539. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jhered/esh074">https://doi.org/10.1093/jhered/esh074</ext-link> 15475402 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0039"><text><SENT sid="567" pm="."><plain>  Pritchard, J. </plain></SENT>
+<SENT sid="568" pm="."><plain>K. ,  Stephens, M. , &amp;  Donnelly, P.  (2000). Inference of population structure using multilocus genotype data. Genetics, 155, 945–959.10835412 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0040"><text><SENT sid="569" pm="."><plain> R Development Core Team (2012). R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0041"><text><SENT sid="570" pm="."><plain>  Regehr, E. </plain></SENT>
+<SENT sid="571" pm="."><plain>V. ,  Laidre, K. </plain></SENT>
+<SENT sid="572" pm="."><plain>L. ,  Akçakaya, H. </plain></SENT>
+<SENT sid="573" pm="."><plain>R. ,  Amstrup, S. ,  Atwood, T. ,  Lunn, N. </plain></SENT>
+<SENT sid="574" pm="."><plain>J. , …  Wiig, Ø.  (2016). Conservation status of polar bears (Ursus maritimus) in relation to projected sea‐ice declines. Biology Letters, 12, 20160556 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rsbl.2016.0556">https://doi.org/10.1098/rsbl.2016.0556</ext-link> 27928000 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0042"><text><SENT sid="575" pm="."><plain>  Rice, W. </plain></SENT>
+<SENT sid="576" pm="."><plain>R.  (1989). Analyzing tables of statistical tests. Evolution, 43, 223–225. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1558-5646.1989.tb04220.x">https://doi.org/10.1111/j.1558-5646.1989.tb04220.x</ext-link> 28568501 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0043"><text><SENT sid="577" pm="."><plain>  Rubidge, E. </plain></SENT>
+<SENT sid="578" pm="."><plain>M. ,  Patton, J. </plain></SENT>
+<SENT sid="579" pm="."><plain>L. ,  Lim, M. ,  Burton, A. </plain></SENT>
+<SENT sid="580" pm="."><plain>C. ,  Brashares, J. </plain></SENT>
+<SENT sid="581" pm="."><plain>S. , &amp;  Moritz, C.  (2012). Climate‐induced range contraction drives genetic erosion in an alpine mammal. Nature Climate Change, 2, 285–288. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nclimate1415">https://doi.org/10.1038/nclimate1415</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0044"><text><SENT sid="582" pm="."><plain>  Sahanatian, V. , &amp;  Derocher, A. </plain></SENT>
+<SENT sid="583" pm="."><plain>E.  (2012). Monitoring sea ice habitat fragmentation for polar bear conservation. Animal Conservation, 15, 397–406. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1469-1795.2012.00529.x">https://doi.org/10.1111/j.1469-1795.2012.00529.x</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0045"><text><SENT sid="584" pm="."><plain>  Stern, H. </plain></SENT>
+<SENT sid="585" pm="."><plain>L. , &amp;  Laidre, K. </plain></SENT>
+<SENT sid="586" pm="."><plain>L.  (2016). Sea‐ice indicators of polar bear habitat. The Cryosphere, 10, 2027–2041. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5194/tc-10-2027-2016">https://doi.org/10.5194/tc-10-2027-2016</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0046"><text><SENT sid="587" pm="."><plain>  Stirling, I. ,  Lunn, N. </plain></SENT>
+<SENT sid="588" pm="."><plain>J. , &amp;  Iacozza, J.  (1999). Long‐term trends in the population ecology of polar bears in western Hudson Bay in relation to climatic change. Arctic, 52, 294–306. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0047"><text><SENT sid="589" pm="."><plain>  Stirling, I. ,  Lunn, N. </plain></SENT>
+<SENT sid="590" pm="."><plain>J. ,  Iacozza, J. ,  Elliott, C. , &amp;  Obbard, M.  (2004). Polar bear distribution and abundance on the southwestern Hudson Bay coast during open water season, in relation to population trends and annual ice patterns. Arctic, 57, 15–26. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0048"><text><SENT sid="591" pm="."><plain>  Stirling, I. , &amp;  Parkinson, C. </plain></SENT>
+<SENT sid="592" pm="."><plain>L.  (2006). Possible effects of climate warming on selected populations of polar bears (Ursus maritimus) in the Canadian Arctic. Arctic, 59, 261–275. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0049"><text><SENT sid="593" pm="."><plain>  Stirling, I. ,  Spencer, C. , &amp;  Andriashek, D.  (1989). Immobilization of polar bears (Ursus maritimus) with Telazol® in the Canadian Arctic. Journal of Wildlife Diseases, 25, 159–168. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7589/0090-3558-25.2.159">https://doi.org/10.7589/0090-3558-25.2.159</ext-link> 2716095 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0050"><text><SENT sid="594" pm="."><plain> SWG (Scientific Working Group to the Canada‐Greenland Joint Commission on Polar Bear) (2016). Re‐assessment of the Baffin Bay and Kane Basin polar bear subpopulations: final report to the Canada‐Greenland joint commission on polar bear. Ottawa, ON: Environment and Climate Change Canada, and Nuuk, Greenland: Greenland Institute of Natural Resources. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0051"><text><SENT sid="595" pm="."><plain>  Taylor, M. </plain></SENT>
+<SENT sid="596" pm="."><plain>K. ,  Akeeagok, S. ,  Andriashek, D. ,  Barbour, W. ,  Born, E. </plain></SENT>
+<SENT sid="597" pm="."><plain>W. ,  Calvert, W. , …  Messier, F.  (2001). Delineating Canadian and Greenland polar bear (Ursus maritimus) populations by cluster analysis of movements. Canadian Journal of Zoology, 79, 690–709. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/z01-028">https://doi.org/10.1139/z01-028</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0052"><text><SENT sid="598" pm="."><plain>  Taylor, M. </plain></SENT>
+<SENT sid="599" pm="."><plain>K. ,  Laake, J. ,  McLoughlin, P. </plain></SENT>
+<SENT sid="600" pm="."><plain>D. ,  Born, E. </plain></SENT>
+<SENT sid="601" pm="."><plain>W. ,  Cluff, H. </plain></SENT>
+<SENT sid="602" pm="."><plain>D. ,  Ferguson, S. </plain></SENT>
+<SENT sid="603" pm="."><plain>H. , …  Messier, F.  (2005). Demography and viability of a hunted population of polar bears. Arctic, 58, 203–214. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0053"><text><SENT sid="604" pm="."><plain>  Taylor, M. </plain></SENT>
+<SENT sid="605" pm="."><plain>K. , &amp;  Lee, J.  (1995). Distribution and abundance of Canadian polar bear populations: A management perspective. Arctic, 48, 147–154. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0054"><text><SENT sid="606" pm="."><plain>  Thiemann, G. </plain></SENT>
+<SENT sid="607" pm="."><plain>W. ,  Iverson, S. </plain></SENT>
+<SENT sid="608" pm="."><plain>J. , &amp;  Stirling, I.  (2008). Polar bear diets and arctic marine food webs: Insights from fatty acid analysis. Ecological Monographs, 78, 591–613. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1890/07-1050.1">https://doi.org/10.1890/07-1050.1</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0055"><text><SENT sid="609" pm="."><plain>  Thomas, C. </plain></SENT>
+<SENT sid="610" pm="."><plain>D.  (2010). Climate, climate change and range boundaries. Diversity and Distributions, 16, 488–495. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1472-4642.2010.00642.x">https://doi.org/10.1111/j.1472-4642.2010.00642.x</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0056"><text><SENT sid="611" pm="."><plain>  Travis, J. </plain></SENT>
+<SENT sid="612" pm="."><plain>M. </plain></SENT>
+<SENT sid="613" pm="."><plain>J. ,  Delgado, M. ,  Bocedi, G. ,  Baguette, M. ,  Barton, K. ,  Bonte, D. , …  Bullock, J. </plain></SENT>
+<SENT sid="614" pm="."><plain>M.  (2013). Dispersal and species’ responses to climate change. Oikos, 122, 1532–1540. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1600-0706.2013.00399.x">https://doi.org/10.1111/j.1600-0706.2013.00399.x</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0057"><text><SENT sid="615" pm="."><plain>  Wand, M. </plain></SENT>
+<SENT sid="616" pm="."><plain>P.  (1994). Fast computation of multivariate kernel estimators. Journal of Computational and Graphical Statistics, 3, 433–445. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0058"><text><SENT sid="617" pm="."><plain>  Wand, M. </plain></SENT>
+<SENT sid="618" pm="."><plain>P. , &amp;  Jones, M. </plain></SENT>
+<SENT sid="619" pm="."><plain>C.  (1995). Kernel smoothing. London, UK: Chapman and Hall <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-1-4899-4493-1">https://doi.org/10.1007/978-1-4899-4493-1</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0059"><text><SENT sid="620" pm="."><plain>  Weinbaum, K. </plain></SENT>
+<SENT sid="621" pm="."><plain>Z. ,  Brashares, J. </plain></SENT>
+<SENT sid="622" pm="."><plain>S. ,  Golden, C. </plain></SENT>
+<SENT sid="623" pm="."><plain>D. , &amp;  Getz, W. </plain></SENT>
+<SENT sid="624" pm="."><plain>M.  (2013). Searching for sustainability: Are assessments of wildlife harvests behind the times? Ecology Letters, 16, 99–111. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ele.12008">https://doi.org/10.1111/ele.12008</ext-link> 23062121 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0060"><text><SENT sid="625" pm="."><plain>  Weir, B. </plain></SENT>
+<SENT sid="626" pm="."><plain>S. , &amp;  Cockerham, C. </plain></SENT>
+<SENT sid="627" pm="."><plain>C.  (1984). Estimating F‐statistics for the analysis of population structure. Evolution, 38, 1358–1370.28563791 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0061"><text><SENT sid="628" pm="."><plain>  Wiig, Ø.  (1995). Distribution of polar bears (Ursus maritimus) in the Svalbard area. Journal of Zoology, 237, 515–529. </plain></SENT>
+</text></ref><ref id="ece33809-bib-0062"><text><SENT sid="629" pm="."><plain>  Wiig, Ø. ,  Amstrup, S. ,  Atwood, T. ,  Laidre, K. ,  Lunn, N. </plain></SENT>
+<SENT sid="630" pm="."><plain>J. ,  Obbard, M. , …  Thiemann, G.  (2015). Ursus maritimus. </plain></SENT>
+<SENT sid="631" pm="."><plain>The IUCN Red List of Threatened Species 2015: e.T22823A14871490. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2305/iucn.uk.2015-4.rlts.t22823a14871490.en">https://doi.org/10.2305/iucn.uk.2015-4.rlts.t22823a14871490.en</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0063"><text><SENT sid="632" pm="."><plain>  Wiig, Ø. ,  Born, E. </plain></SENT>
+<SENT sid="633" pm="."><plain>W. ,  Laidre, K. </plain></SENT>
+<SENT sid="634" pm="."><plain>L. ,  Dietz, R. ,  Jensen, M. </plain></SENT>
+<SENT sid="635" pm="."><plain>V. ,  Durner, G. </plain></SENT>
+<SENT sid="636" pm="."><plain>M. , …  Dyck, M.  (2017). Performance and retention of lightweight satellite radio tags applied to the ears of polar bears (Ursus maritimus). Animal Biotelemetry, 5, 9 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s40317-017-0124-0">https://doi.org/10.1186/s40317-017-0124-0</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0065"><text><SENT sid="637" pm="."><plain>  Wilson, G. </plain></SENT>
+<SENT sid="638" pm="."><plain>A. , &amp;  Rannala, B.  (2003). Bayesian inference of recent migration rates using multilocus genotypes. Genetics, 163, 1177–1191.12663554 </plain></SENT>
+</text></ref><ref id="ece33809-bib-0066"><text><SENT sid="639" pm="."><plain>  Worton, B. </plain></SENT>
+<SENT sid="640" pm="."><plain>J.  (1989). Kernel methods for estimating the utilization distribution in home‐range studies. Ecology, 70, 164–168. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1938423">https://doi.org/10.2307/1938423</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0067"><text><SENT sid="641" pm="."><plain>  Yannic, G. </plain></SENT>
+<SENT sid="642" pm="."><plain>L. ,  Pellissier, L. ,  Ortego, J. ,  Lecomte, N. ,  Couturier, S. ,  Cuyler, C. , …  Côté, S. </plain></SENT>
+<SENT sid="643" pm="."><plain>D.  (2013). Genetic diversity in caribou linked to past and future climate change. Nature Climate Change, 4, 132–137. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nclimate2074">https://doi.org/10.1038/nclimate2074</ext-link>  </plain></SENT>
+</text></ref><ref id="ece33809-bib-0068"><text><SENT sid="644" pm="."><plain>  Zeyl, E. ,  Ehrich, D. ,  <z:uniprot sup="inside" fb="0" ids="Q8CFX8,Q8BGQ7,P50475">Aars</z:uniprot>, J. ,  Bachmann, L. , &amp;  Wiig, Ø.  (2010). Denning‐area fidelity and mitochondrial DNA diversity of female polar bears (Ursus maritimus) in the Barents Sea. Canadian Journal of Zoology, 88, 1139–1148. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/Z10-078">https://doi.org/10.1139/Z10-078</ext-link>  </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,1009 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4540425</article-id><article-id pub-id-type="pmid">26284523</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0135484</article-id><article-id pub-id-type="publisher-id">PONE-D-15-09123</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Predictors of Individual Response to Placebo or Tadalafil 5mg among Men with Lower Urinary Tract Symptoms Secondary to Benign Prostatic Hyperplasia: An Integrated Clinical Data Mining Analysis </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Predictors of Response to Tadalafil in LUTS-BPH</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Fusco</surname><given-names>Ferdinando</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>D’Anzeo</surname><given-names>Gianluca</given-names></name><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Henneges</surname><given-names>Carsten</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref><xref rid="cor001" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Rossi</surname><given-names>Andrea</given-names></name><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Büttner</surname><given-names>Hartwig</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Nickel</surname><given-names>J. Curtis</given-names></name><xref ref-type="aff" rid="aff004">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="aff001">
+<label>1</label>
+<addr-line>Urologic Clinic, University Federico II of Naples, Naples, Italy</addr-line>
+</aff><aff id="aff002">
+<label>2</label>
+<addr-line>Eli Lilly Italy S.p.A., Sesto Fiorentino, FI, Italy</addr-line>
+</aff><aff id="aff003">
+<label>3</label>
+<addr-line>Lilly Deutschland GmbH, Bad Homburg, Germany</addr-line>
+</aff><aff id="aff004">
+<label>4</label>
+<addr-line>Department of Urology, Queen’s University, Kingston, Ontario, Canada</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Hurst</surname><given-names>Robert</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>Oklahoma University Health Sciences Center, UNITED STATES</addr-line>
+</aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><text><SENT sid="1" pm="."><plain>Competing Interests: I have read the journal's policy and the authors of this manuscript have the following competing interests: Gianluca D’Anzeo, Carsten Henneges and Andrea Rossi are full-time employees of Eli Lilly and Company. </plain></SENT>
+<SENT sid="2" pm="."><plain>Hartwig Büttner is a full-time employee and minor stockholder of Eli Lilly and Company. </plain></SENT>
+<SENT sid="3" pm="."><plain>F. </plain></SENT>
+<SENT sid="4" pm="."><plain>Fusco and J. </plain></SENT>
+<SENT sid="5" pm="."><plain>Curtis Nickel are both consultants and speakers for Eli Lilly and Company. </plain></SENT>
+</text></p></fn><fn fn-type="con" id="contrib001"><p><text><SENT sid="6" pm="."><plain>Conceived and designed the experiments: FF GD CH AR JCN. </plain></SENT>
+<SENT sid="7" pm="."><plain>Performed the experiments: CH. </plain></SENT>
+<SENT sid="8" pm="."><plain>Analyzed the data: FF HB JCN. </plain></SENT>
+<SENT sid="9" pm="."><plain>Contributed reagents/materials/analysis tools: CH. </plain></SENT>
+<SENT sid="10" pm="."><plain>Wrote the paper: FF GD CH AR JCN. </plain></SENT>
+<SENT sid="11" pm="."><plain>Critical revision of the manuscript for important intellectual content: FF GD CH AR HB JCN. </plain></SENT>
+<SENT sid="12" pm="."><plain>Statistical analysis: CH. </plain></SENT>
+<SENT sid="13" pm="."><plain>Obtained funding: GD AR. </plain></SENT>
+<SENT sid="14" pm="."><plain>Administrative, technical or material support: CH HB. </plain></SENT>
+<SENT sid="15" pm="."><plain>Supervision: FF GD CH AR HB JCN. </plain></SENT>
+</text></p></fn><corresp id="cor001">* E-mail: <email>henneges_carsten@lilly.com</email></corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>8</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>10</volume><issue>8</issue><elocation-id>e0135484</elocation-id><history><date date-type="received"><day>2</day><month>3</month><year>2015</year></date><date date-type="accepted"><day>22</day><month>7</month><year>2015</year></date></history><permissions><copyright-statement>© 2015 Fusco et al</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Fusco et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0135484.pdf"/><abstract><sec id="sec001"><title><text><SENT sid="16" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="17" pm="."><plain>A significant percentage of patients with lower urinary tract symptoms (LUTS) secondary to benign prostatic hyperplasia (BPH) achieve clinically meaningful improvement when receiving placebo or tadalafil 5mg once daily. </plain></SENT>
+<SENT sid="18" pm="."><plain>However, individual patient characteristics associated with treatment response are unknown. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec002"><title><text><SENT sid="19" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="20" pm="."><plain>This integrated clinical data mining analysis was designed to identify factors associated with a clinically meaningful response to placebo or tadalafil 5mg once daily in an individual patient with LUTS-BPH. </plain></SENT>
+<SENT sid="21" pm="."><plain>Analyses were performed on pooled data from four randomized, placebo-controlled, double-blind, clinical studies, including about 1,500 patients, from which 107 baseline characteristics were selected and 8 response criteria. </plain></SENT>
+<SENT sid="22" pm="."><plain>The split set evaluation method (1,000 repeats) was used to estimate prediction accuracy, with the database randomly split into training and test subsets. </plain></SENT>
+<SENT sid="23" pm="."><plain>Logistic Regression (LR), Decision Tree (DT), Support Vector Machine (SVM) and Random Forest (RF) models were then generated on the training subset and used to predict response in the test subset. </plain></SENT>
+<SENT sid="24" pm="."><plain>Prediction models were generated for placebo and tadalafil 5mg once daily Receiver Operating Curve (ROC) analysis was used to select optimal prediction models lying on the ROC surface. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec003"><title><text><SENT sid="25" pm="."><plain>Findings </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="26" pm="."><plain>International Prostate Symptom Score (IPSS) baseline group (mild/moderate vs. severe) for active treatment and placebo achieved the highest combined sensitivity and specificity of 70% and ~50% for all analyses, respectively. </plain></SENT>
+<SENT sid="27" pm="."><plain>This was below the sensitivity and specificity threshold of 80% that would enable reliable allocation of an individual patient to either the responder or non-responder group </plain></SENT>
+</text></SecTag></p></sec><sec id="sec004"><title><text><SENT sid="28" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="29" pm="."><plain>This extensive clinical data mining study in LUTS-BPH did not identify baseline clinical or demographic characteristics that were sufficiently predictive of an individual patient response to placebo or once daily tadalafil 5mg. </plain></SENT>
+<SENT sid="30" pm="."><plain>However, the study reaffirms the efficacy of tadalalfil 5mg once daily in the treatment of LUTS-BPH in the majority of patients and the importance of evaluating individual patient need in selecting the most appropriate treatment. </plain></SENT>
+</text></SecTag></p></sec></abstract><funding-group><funding-statement>This work was funded by Eli Lilly and Company. The funders were involved in the study design, data collection and analysis, decision to publish and preparation of the manuscript.</funding-statement></funding-group><counts><fig-count count="2"/><table-count count="6"/><page-count count="21"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>Due to ethical restrictions and patient confidentiality concerns, qualified researchers can request access to underlying data from Dr. Hartwig Büttner, FECSM, Medical Affairs Lilly Deutschland GmbH Werner-Reimers-Str. 2–4, 61352 Bad Homburg.</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>Due to ethical restrictions and patient confidentiality concerns, qualified researchers can request access to underlying data from Dr. Hartwig Büttner, FECSM, Medical Affairs Lilly Deutschland GmbH Werner-Reimers-Str. 2–4, 61352 Bad Homburg.</p></notes></front><body><SecTag type="INTRO"><sec sec-type="intro" id="sec005"><title><text><SENT sid="31" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="32" pm="."><plain>Lower urinary tract symptoms (LUTS) secondary to benign prostatic hyperplasia (BPH) are a common problem, affecting more than 50% of men aged 50 years and older [1]. </plain></SENT>
+</text></p><p><text><SENT sid="33" pm="."><plain>Medical treatment has focused mainly on the use of α-blocking agents and 5-α reductase inhibitors, either alone or in combination, and aims to alleviate symptoms as well as alter the course of disease progression and prevent complications [2]. </plain></SENT>
+<SENT sid="34" pm="."><plain>Treatment options for LUTS-BPH have since increased with regulatory approval of tadalafil 5mg once daily, a long-acting <z:uniprot sup="inside" fb="7" ids="Q45087,Q1M964">phosphodiesterase</z:uniprot> type 5 (<z:uniprot sup="inside" fb="0" ids="J3SEZ3,J3SBP3,W8E7D1,A0A2D0TC04">PDE</z:uniprot>-5) inhibitor, initially in the US in 2011 and subsequently in the EU and other major territories in 2012 [3]. </plain></SENT>
+<SENT sid="35" pm="."><plain>Treatment of LUTS-BPH, either alone or with coexisting erectile dysfunction (ED), with <z:uniprot sup="inside" fb="0" ids="J3SEZ3,J3SBP3,W8E7D1,A0A2D0TC04">PDE</z:uniprot>-5 inhibitors and notably tadalafil 5mg, has recently been added to EU-wide treatment guidelines for non-neurogenic LUTS [4]. </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain>The efficacy of once daily tadalafil 5mg in LUTS-BPH has been demonstrated in four randomized controlled trials (RCTs) [5; 6; 7; 8]. </plain></SENT>
+<SENT sid="37" pm="."><plain>At a lower dose of 2.5mg per day, tadalafil did not consistently alleviate symptoms of LUTS-BPH while higher doses of 10 and 20mg per day provided only minimal additional improvement over the 5mg once daily dose [5]. </plain></SENT>
+<SENT sid="38" pm="."><plain>Assessment of treatment response (primary endpoint) was based primarily on the International Prostate Symptom Score (IPSS), a validated, self-administered, 1-month recall questionnaire that has good reliability for recall of obstructive and urinary problems and their global impact on quality of life (QoL). </plain></SENT>
+<SENT sid="39" pm="."><plain>The IPSS is the most widely used instrument to assess the severity of BPH-related LUTS-symptoms and gauge response to treatment [9; 10]. </plain></SENT>
+</text></p><p><text><SENT sid="40" pm="."><plain>An integrated analysis of the four RCTs confirmed that tadalafil 5mg achieved significantly greater improvements in total IPSS score, IPSS voiding subscore, IPSS storage subscore and IPSS QoL Index score versus placebo [11]. </plain></SENT>
+<SENT sid="41" pm="."><plain>A separate analysis of IPSS storage and voiding subscores, showed both were significantly improved in the active treatment arms compared with placebo (p&lt;0.001) and that both storage and voiding subscores made a nearly linear contribution to total IPSS in a 4:6 ratio that was maintained from baseline to endpoint [12]. </plain></SENT>
+</text></p><p><text><SENT sid="42" pm="."><plain>In pooled subgroup analyses, significant improvements in IPSS total score were observed regardless of baseline LUTS severity (IPSS &lt;20/≥20), age (≤65/&gt;65 years), recent use of α-blocking agents or <z:uniprot sup="inside" fb="0" ids="J3SEZ3,J3SBP3,W8E7D1,A0A2D0TC04">PDE</z:uniprot>-5 inhibitors, total testosterone level (&lt;300/≥300ng/dl), or <z:uniprot sup="inside" fb="0" ids="P07288,Q6DT45,P33619">prostate-specific antigen</z:uniprot> (PSA) predicted prostate volume (≤40/&gt;40ml), while tadalafil was well tolerated across all subgroups [13]. </plain></SENT>
+</text></p><p><text><SENT sid="43" pm="."><plain>A further post-hoc integrated analysis of the data from the four RCTs showed that approximately two-thirds of tadalafil-treated patients achieved a clinically meaningful improvement (CMI) in LUTS-BPH symptoms, as defined by a total IPSS improvement of ≥3 points or ≥25% from randomization to endpoint at Week 12 [14]. </plain></SENT>
+<SENT sid="44" pm="."><plain>Moreover, tadalafil 5mg once daily, demonstrated increasing benefit over placebo as the efficacy threshold was raised from ≥25% to a demanding ≥50% and ≥75% improvement in IPSS [14]. </plain></SENT>
+</text></p><p><text><SENT sid="45" pm="."><plain>Being able to identify which individual patient is most likely to respond well to treatment with placebo or tadalafil, rather than just knowing its average benefit to a subgroup of patients, would be clinically useful and consistent with the growing trend towards more patient-tailored treatment [15]. </plain></SENT>
+<SENT sid="46" pm="."><plain>Treatment directed at patients most likely to achieve CMI would help address the problem that for too many patients with LUTS-BPH, medical therapy achieves only a fair-to-good improvement in symptoms [16]. </plain></SENT>
+</text></p><p><text><SENT sid="47" pm="."><plain>In this integrated clinical data mining analysis, we set out to identify the factors associated with response to placebo or tadalafil 5mg once daily in an individual patient with LUTS-BPH. </plain></SENT>
+<SENT sid="48" pm="."><plain>Implicit in a study of this nature was the need to carefully estimate the true prediction performance of a factor for unknown patients. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="sec006"><title><text><SENT sid="49" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="sec007"><title><text><SENT sid="50" pm="."><plain>Study design </plain></SENT>
+</text></title><p><text><SENT sid="51" pm="."><plain>This clinical data mining analysis was based on the Knowledge Discovery in Databases (KDD) process and was set up to be consistent with the underlying principles of data mining [17]. </plain></SENT>
+</text></p><p><text><SENT sid="52" pm="."><plain>Applied data mining algorithms were considered suitable only if a graphical presentation could be obtained that could be followed by practicing physicians. </plain></SENT>
+<SENT sid="53" pm="."><plain>We therefore focused on models that were easily visualised or those expected to yield good predictive outcomes. </plain></SENT>
+<SENT sid="54" pm="."><plain>Our aim was to produce an output that could be displayed on paper and used by clinicians and so we decided at the outset to adopt the simplest model first. </plain></SENT>
+<SENT sid="55" pm="."><plain>This can be seen by the inclusion of single decision rules (SDRs). </plain></SENT>
+<SENT sid="56" pm="."><plain>These models consider just one clinical variable at a time to predict one response variable, without any additions, and they perform well. </plain></SENT>
+</text></p><p><text><SENT sid="57" pm="."><plain>Rigorous care was taken to evaluate the prediction error for unknown data. </plain></SENT>
+<SENT sid="58" pm="."><plain>Every effort was made to control for potential data mining biases (i.e. those induced by applying too flexible data mining algorithms or those stemming from the desire to achieve 100% accurate predictions). </plain></SENT>
+<SENT sid="59" pm="."><plain>To this end we adhered to a pre-specified statistical analysis plan (SAP), which did not allow for removal of data points. </plain></SENT>
+<SENT sid="60" pm="."><plain>We set out our experience first, wrote down our approach, and kept to it without deviation. </plain></SENT>
+<SENT sid="61" pm="."><plain>We did not intend to optimize prediction performance further than what had been pre-specified. </plain></SENT>
+<SENT sid="62" pm="."><plain>To do so would only bias results for models that are adapted and optimized for a specific combination for the training algorithm and evaluation method, and which are thereby unlikely to capture the clinical information that is predictive in clinical practice. </plain></SENT>
+</text></p><p><text><SENT sid="63" pm="."><plain>More extensive methodological details not covered here are provided in Supporting Information. </plain></SENT>
+</text></p></sec><sec id="sec008"><title><text><SENT sid="64" pm="."><plain>Data sources and pre-processing </plain></SENT>
+</text></title><p><text><SENT sid="65" pm="."><plain>Data for this clinical data mining analysis were pooled from four, randomized, placebo-controlled clinical studies (NCT00384930, NCT00827242, NCT00855582, NCT00970632), all of which had a broadly similar design and enrolled patients with LUTS-BPH (Fig 1) [6; 7; 8; 16]. </plain></SENT>
+<SENT sid="66" pm="."><plain>Common inclusion criteria for all four studies were age ≥45 years, LUTS-BPH duration of &gt;6 months, total IPSS ≥13, and maximum urinary flow rate (Qmax) ≥4 to ≤15ml/s prior to the placebo lead-in period. </plain></SENT>
+<SENT sid="67" pm="."><plain>Patients were excluded if PSA was &gt;10ng/ml (or for PSA 4–10ng/ml, prostate malignancy had to be excluded), if post-void residual (PVR) urine volume was ≥300ml, or if they had used finasteride or dutasteride within 3 or 6 months (12 months in one study), respectively. </plain></SENT>
+<SENT sid="68" pm="."><plain>Following screening and, if needed, a washout period for LUTS-BPH or ED medications, patients entered a 4 week placebo lead-in period. </plain></SENT>
+<SENT sid="69" pm="."><plain>On completion, patients were randomized to study treatment with tadalafil 5mg once daily for 12 weeks. </plain></SENT>
+<SENT sid="70" pm="."><plain>Minor differences between the studies included the following: one enrolled patients with BPH and concomitant ED [7]; one was a dose-finding study in which tadalafil was administered at doses of 2.5mg, 5mg, 10mg, 20mg once daily [16]; one included a tadalafil 2.5mg treatment arm [7]; and one included an additional tamsulosin 0.4mg treatment arm [8]. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0135484.g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.g001</object-id><label>Fig 1</label><caption><title><text><SENT sid="71" pm="."><plain>Design of the four randomised, placebo-controlled trials of tadalafil 5mg once daily in patients with LUTS-BPH. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0135484.g001"/></fig></SecTag><p><text><SENT sid="72" pm="."><plain>For the purposes of this clinical data mining analysis the study population (N = 1,499) consisted solely of subjects in the intent-to-treat (ITT) population who had been allocated to tadalafil 5mg once daily or placebo irrespective of an IPSS baseline assessment (Table 1). </plain></SENT>
+<SENT sid="73" pm="."><plain>Data from the tadalafil 2.5mg, 10mg and 20mg once daily treatment groups did not form part of the data mining analysis, as these doses are not approved for the treatment of LUTS-BPH. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0135484.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="74" pm="."><plain>Baseline characteristics of the ITT population used for data mining analysis. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0135484.t001g" xlink:href="pone.0135484.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>Characteristics* </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>Placebo (N = 747) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>Tadalafil 5mg (N = 752) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="78" pm="."><plain>Demographics </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>Age group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>    ≥65, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>306 (41.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>308 (41.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>    ≥75, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>74 (9.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>68 (9.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>Ethnicity, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>    White </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>650 (87.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>649 (86.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>    American Indian or Alaska Native </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>49 (6.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>49 (6.5) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>    Black or African American </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>16 (2.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>17 (2.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>BMI ≥30, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>232 (<z:uniprot sup="inside" fb="0" ids="P17309">31.1</z:uniprot>) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>173 (23.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>Mean BMI (SD), kg/m2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>28.4 (4.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>27.8 (4.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>Alcohol intake, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>465 (62.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>457 (60.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>Mean alcohol frequency (drinks per week), (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>6.02 (5.43) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>5.84 (5.64) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>Smoker, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>99 (13.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>90 (12.0) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="111" pm="."><plain>LUTS-BPH history </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>Mean IPSS total score (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>17.39 (5.95) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>17.53 (5.73) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>Mean IPSS voiding obstructive subscore (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>9.95 (4.09) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>10.14 (3.97) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>Mean IPSS storage irritative subscore (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>7.44 (2.96) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>7.39 (2.92) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>Mean IPSS QoL (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>3.66 (1.26) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>3.60 (1.27) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>Mean BII total score (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>5.24 (3.12) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>5.09 (3.02) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>Mean PGISS (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>4.04 (1.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>3.99 (0.97) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>LUTS severity, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>Mild-moderate (IPSS ≤20) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>487 (65.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>488 (64.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>Severe (IPSS &gt;20) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>260 (34.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>264 (35.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>Mean Qmax (SD) ml/s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>10.14 (4.23) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>10.21 (3.63) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>Previous LUTS therapies (within 12 months of screening), n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>    α-blockers </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>205 (27.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>204 (27.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>Therapy for overactive bladder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>7 (1.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>10 (1.9) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="147" pm="."><plain>ED history </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>ED at baseline, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>574 (76.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>585 (77.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>    Mild ED (IIEF score 17–30), n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>147/574 (25.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>148/585 (25.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>    Moderate ED (IIEF score 11–16), n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>340/574 (59.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>339/585 (57.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>    Severe ED (IIEF score 1–10), n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>87/574 (15.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>98/585 (16.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>ED duration </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>    &lt;3 months, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>5 (0.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>5 (0.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>    3–&lt;6 months, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>15 (2.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>16 (2.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>    6–&lt;12 months, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>57 (9.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>61 (10.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>    ≥12 months, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>497 (86.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>503 (86.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>Etiology of ED </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>    Organic </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>206 (27.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>195 (25.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>    Psychogenic </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>26 (3.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>25 (3.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>    Mixed </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>225 (30.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>258 (34.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>    Unknown </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>117 (15.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>107 (14.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>International Index of Erectile Function (IIEF) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>    Mean IIEF-EF (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>17.85 (8.48) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>17.52 (8.51) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>    Mean IIEF-IS (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>7.89 (3.74) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>7.89 (3.79) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>    Mean IIEF-OF (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>7.03 (3.17) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>6.60 (3.26) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>    Mean IIEF-OS (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>5.79 (2.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>5.77 (2.49) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>    Mean IIEF-SD (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>6.55 (1.89) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>6.35 (1.88) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>Previous ED therapies (within 12 months of screening), n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>    <z:uniprot sup="inside" fb="0" ids="J3SEZ3,J3SBP3,W8E7D1,A0A2D0TC04">PDE</z:uniprot>-5 inhibitor, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>167 (22.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>173 (23.0) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="206" pm="."><plain>Laboratory parameters </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>Mean PSA (SD), ng/ml </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>1.74 (1.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>1.87 (1.46) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>Mean total testosterone (SD), ng/dl </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>3.76 (1.36) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>3.66 (1.23) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>Mean free testosterone (SD), ng/dl </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>0.06 (0.02) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>0.06 (0.02) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>Mean bioavailable testosterone (SD), ng/dl </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>1.40 (0.46) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>1.38 (0.42) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>Mean % bioavailable testosterone (SD) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>39.26 (12.07) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>39.70 (11.09) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>Mean albumin (SD), g/dl </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>4.22 (0.33) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>4.21 (0.32) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>Mean <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">sex hormone binding globulin</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot>) (SD) nmol/l </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>40.37 (21.21) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>41.02 (20.82) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="228" pm="."><plain>Comorbidities </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>Diabetes mellitus, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>94 (12.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>98 (13.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>Hypertension, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>288 (38.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>300 (39.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>Hyperlipidaemia, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>152 (20.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>183 (24.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>Vasculitis, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>3 (0.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>Ischaemic heart disease, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>44 (5.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>43 (5.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>Myocardial infarction, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>11 (1.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>11 (1.5) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>Cardiac arrhythmia, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>41 (5.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>32 (4.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>Cardiac failure, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>6 (0.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>5 (0.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>Cardiomyopathy, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>Other cardiac disorders, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>19 (2.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>25 (3.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>Any cardiac disorder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>97 (13.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>91 (12.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>Haemorrhagic cerebrovascular disorders, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>7 (0.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>5 (0.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>Ischaemic cerebrovascular disorders, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>11 (1.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>10 (1.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>Other cerebrovascular disorders, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>0 (0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>Any cerebrovascular disorder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>11 (1.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>10 (1.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>Peripheral vascular thrombosis or embolism, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>18 (2.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>17 (2.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>Miscellaneous vascular disorder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>20 (2.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>13 (1.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>Other vascular disorder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>309 (41.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>311 (41.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>Cardiovascular disorder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>342 (45.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>344 (45.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>Renovascular disorder, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>0 (0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>Renal impairment Glomerular filtration rate (GFR) ml/min/1.73m2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>Renal impairment stage I (GFR ≥90) n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>199 (26.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>228 (30.6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>Renal impairment stage II (GFR 60–89) n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>327 (44.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>368 (49.3) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="296" pm="."><plain>Concomitant medications </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>Testosterone, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>Mean number anti-hypertensive medications* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>0.90 (1.13) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>0.92 (1.07) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>α-blockers, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>202 (27.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>206 (27.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>ß-blockers, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>92 (12.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>114 (15.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>Calcium channel blockers, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>76 (10.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>68 (9.0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P18691,P68515,P01021,P30424,P30426,P31351">Angiotensin converting enzyme inhibitors</z:uniprot>, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>125 (16.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>146 (19.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain><z:uniprot sup="inside" fb="61" ids="Q10757">Angiotensin</z:uniprot> receptor blockers, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>90 (12.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>80 (10.6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>Diuretics, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>76 (10.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>67 (8.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>Centrally-acting sympathomimetics, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>7 (0.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>5 (0.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>Other anti-hypertensive drugs, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>2 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>6 (0.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>Selective serotonin reuptake inhibitors, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>11 (1.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>6 (0.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>Serotonin-norepinephrine reuptake inhibitors, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>3 (0.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>Antidepressants, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>20 (2.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>21 (2.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>Tricyclic antidepressants, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q6NSN2,P49253">Monoamine oxidase</z:uniprot> inhibitors, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>0 (0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>Antipsychotics, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>5 (0.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>3 (0.4) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="345" pm="."><plain>Lipid-lowering therapies </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>Statins, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>126 (16.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>156 (20.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>Other lipid-lowering drugs, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>28 (3.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>32 (4.3) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="352" pm="."><plain>Anti-diabetic medications </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>Sulfonylureas, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>28 (3.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>36 (4.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O33830,O86960,P56526,Q12558,O04931,P29064,Q43763,Q92442,P0CD66,D0KQM8,Q9C0Y4,O04893,P43473,Q08295,P40884,Q17058,Q02751,Q95WY5,Q9P6J3,P0CW40,P53051,P0CW41,P21517,Q9AI65">Alpha-glucosidase</z:uniprot> Inhibitors, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28207,P17716,P12966,P19890,P12967,P10997,Q07333,P23442,P12968,P22889,Q29119,Q07334,P12969,Q28934,Q28605">Amylin</z:uniprot> analogues, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>0 (0) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>Incretin mimetics, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>2 (0.3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain><z:uniprot sup="inside" fb="0" ids="C5FJE3,A0S5V9,Q2UH35,P81425,Q9N2I7,P27487,P28843,P22411,P14740,A7UKV8,Q5J6J3,B6V868,Q95WU5">Dipeptidyl peptidase 4</z:uniprot> inhibitors, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>2 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>6 (0.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>Biguanides, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>58 (7.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>66 (8.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>Meglitinides, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>2 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>1 (0.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>Thiazlidinediones, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>8 (1.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>10 (1.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P08684">CYP3A4</z:uniprot> Inhibitors, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>88 (11.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>101 (13.4) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="left" rowspan="1"><text><SENT sid="380" pm="."><plain>Treatment compliance </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>Hypertension treatment phase, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>285 (38.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>309 (41.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>Oral agent, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>70 (9.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>79 (10.5) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>Oral agent treatment phase, n (%) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>71 (9.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>79 (10.5) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p><text><SENT sid="390" pm="."><plain>*Eight derived variables defined in the SAP (Cluster cardiovascular drugs, cluster cerebrovascular drugs, cluster cardiovascular diseases, cluster cerebrovascular diseases, cluster anti-hypertensive drugs, cluster anti-psychotic drugs, cluster anti-diabetic drugs, cluster lipid-lowering drugs) were included in each assessment, which yields 106 variables. </plain></SENT>
+<SENT sid="391" pm="."><plain>The inclusion of <z:uniprot sup="inside" fb="10" ids="O14746">TRT</z:uniprot> as a variable, which is implicit in our evaluation, gives 107 variables in total. </plain></SENT>
+</text></p></fn><fn id="t001fn002"><p><text><SENT sid="392" pm="."><plain>Percent missing values were as follows: Testosterone (baseline), Free testosterone [18], % free testosterone, Bioavailable testosterone, % bioavailable testosterone = 79%; PSA (baseline) = 70%; Alcohol frequency = 38%; <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot> (baseline) = 33%; PGISS baseline, Previous overactive bladder therapy (Y/N) = 28%; Qmax, ED duration, ED aetiology, ED severity = 23%; IIEF baseline severity, IIEF-EF (baseline), IIEF-OF (baseline), IIEF-OS (baseline), IIEF-SD (baseline), IIEF-IS (baseline) = 14%; Albumin (baseline) = 2%; Renal impairment I, Renal impairment II, Renal impairment I (≥80), Renal impairment II (≥90) = 1%. </plain></SENT>
+</text></p></fn><fn id="t001fn003"><p><text><SENT sid="393" pm="."><plain>* prior α-blocking agents, β-blockers, calcium channels blockers, <z:uniprot sup="inside" fb="0" ids="P18691,P68515,P01021,P30424,P30426,P31351">angiotensin converting enzyme inhibitors</z:uniprot>, <z:uniprot sup="inside" fb="61" ids="Q10757">angiotensin</z:uniprot> receptor blockers and diuretics. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="394" pm="."><plain>IPSS, IPSS QoL, and BPH Impact Index (BII) were assessed in each of the four studies at baseline (after the 4 week placebo lead-in period following randomization) and after 12 weeks treatment (primary endpoint). </plain></SENT>
+<SENT sid="395" pm="."><plain>Patient Global Impression of Improvement (<z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I) was evaluated at baseline and endpoint in three of the four studies so as to assess the impression of change in urinary symptoms [6; 7; 8]. </plain></SENT>
+</text></p><p><text><SENT sid="396" pm="."><plain>Overall, 107 baseline characteristics were included in the clinical data mining analysis (Table 1). </plain></SENT>
+<SENT sid="397" pm="."><plain>Baseline characteristics were categorized as key or supportive and selected on the basis of clinical input from study authors that was derived from knowledge of the published literature and clinical experience. </plain></SENT>
+<SENT sid="398" pm="."><plain>All IPSS, IPSS QoL and BII baseline scores and their subscores were key characteristics, in addition to age (&lt;65 or ≥65 years), previous LUTS therapy and a history of ED (Table 1). </plain></SENT>
+<SENT sid="399" pm="."><plain>Key characteristics were expected to be predictive for a response to treatment. </plain></SENT>
+<SENT sid="400" pm="."><plain>Two primary and 6 secondary definitions of response were used (Table 2). </plain></SENT>
+<SENT sid="401" pm="."><plain>The primary responder definitions were considered of equal importance and both were based on Minimal Clinically Important Differences (‘overall’ or ‘severity MCID’), a concept validated using an anchor-based approach [19]. </plain></SENT>
+<SENT sid="402" pm="."><plain>MCID is a threshold that represents a CMI in patients’ health-related QoL as perceived by the patient [24]. ‘Overall MCID’ was defined as an improvement in IPSS total score of ≥3 for all patients (overall response) and ‘severity MCID’ defined as an improvement in IPSS total score of ≥2 for patients with mild-to-moderate LUTS and of 6 for those with severe LUTS [14; 19]. </plain></SENT>
+<SENT sid="403" pm="."><plain>Secondary definitions of response were ranked in order of decreasing validation, although to the best of our knowledge they have not been subject to formal validation. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0135484.t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="404" pm="."><plain>Definition of treatment response on the IPSS, BII and <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I after 12 weeks treatment with tadalafil or placebo as used in the clinical data mining analysis. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0135484.t002g" xlink:href="pone.0135484.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>Instruments </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>Primary objectives </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>IPSS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>Reduction of ≥3 points in overall IPSS score [19; 20] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>Improvement of ≥2 points in patients with IPSS baseline score &lt;20 and of ≥6 points in patients with baseline score ≥20 [19] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>Secondary Objectives </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>IPSS QoL </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>Reduction of ≥1 point in IPSS QoL [21] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>IPSS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>≥25% improvement in IPSS [22] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>IPSS total score &lt;12 in patients with prior score of ≥12 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>BII </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>Total score of &lt;9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>Reduction of &gt;1 point [19] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>Any improvement from baseline [23] </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t002fn001"><p><text><SENT sid="421" pm="."><plain>BII, BPH Impact Index; IPSS, International Prostate Symptom Score; <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I, Patient Global Impression of Improvement; QoL, quality of life. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="422" pm="."><plain>Consistent with best practice, missing values were documented and data were screened for outliers [17]. </plain></SENT>
+<SENT sid="423" pm="."><plain>Because of minor differences in study design, data were not necessarily available on all baseline variables. </plain></SENT>
+<SENT sid="424" pm="."><plain>Outliers were defined as data points outside the range of [Q1–1.5 x IQR, Q3 + 1.5 x IQR], where Q1 and Q3 were the first and third quartiles and IQR the inter-quartile range, respectively. </plain></SENT>
+<SENT sid="425" pm="."><plain>No imputation was conducted for missing values. </plain></SENT>
+</text></p></sec><sec id="sec009"><title><text><SENT sid="426" pm="."><plain>Implementation </plain></SENT>
+</text></title><p><text><SENT sid="427" pm="."><plain>Bias stemming from the desire to achieve 100% prediction accuracy was controlled by following the pre-specified SAP as described earlier, which was approved by all study authors and peer reviewed by Lilly data mining experts prior to programming. </plain></SENT>
+<SENT sid="428" pm="."><plain>A non-clinical benchmark data mining dataset was used for program development. </plain></SENT>
+<SENT sid="429" pm="."><plain>Results from the clinical dataset were produced after program peer review, which was carried out by an independent statistician. </plain></SENT>
+<SENT sid="430" pm="."><plain>All modifications of the analysis after this run were reported as post-hoc. </plain></SENT>
+</text></p><p><text><SENT sid="431" pm="."><plain>LR and DT models were selected as our data mining models as both can be presented visually and translated into easy decision rules or scores for practical use in medical applications [25; 26; 27] (S1 Technical Appendix). </plain></SENT>
+<SENT sid="432" pm="."><plain>To avoid bias from an overly complex prediction model when a simple one would suffice [17], we compared all models against SDRs. </plain></SENT>
+<SENT sid="433" pm="."><plain>These were implemented using the DT algorithm that was allowed to generate a single decision. </plain></SENT>
+<SENT sid="434" pm="."><plain>In addition, SVM [28] (S2 Technical Appendix) and RF classifiers [29] were applied to obtain estimates for best prediction accuracy (S3 Technical Appendix). </plain></SENT>
+</text></p><p><text><SENT sid="435" pm="."><plain>The split set evaluation method was used to estimate prediction accuracy on unknown data. </plain></SENT>
+<SENT sid="436" pm="."><plain>To this end, the database was randomly split into training (60% of the database) and test (40% of the database) subsets (Fig 2). </plain></SENT>
+<SENT sid="437" pm="."><plain>Then LR, DT, SVM, RF and <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models were generated on the training subset and used to predict the response of patients in the held-out test subset. </plain></SENT>
+<SENT sid="438" pm="."><plain>Prediction models were generated for the tadalafil 5mg once daily and placebo groups. </plain></SENT>
+<SENT sid="439" pm="."><plain>Prediction accuracy was measured by sensitivity (true positives) and specificity (true negatives), for which 95% confidence intervals were calculated. </plain></SENT>
+<SENT sid="440" pm="."><plain>Sensitivity and specificity were calculated as follows: Sensitivity=TPTP+FP;Specificity=TNTN+FN </plain></SENT>
+</text></p><p><text><SENT sid="441" pm="."><plain>In the equation, TP and TN denote the true positive and true negative predictions and FP and FN denote the false positive and false negative predictions on the test split. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone.0135484.g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.g002</object-id><label>Fig 2</label><caption><title><text><SENT sid="442" pm="."><plain>Data Analysis Flow. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0135484.g002"/></fig></SecTag><p><text><SENT sid="443" pm="."><plain>Receiver Operating Curve (ROC) analysis was used to identify optimal prediction models lying on the ROC surface [30] (Fig 2). </plain></SENT>
+<SENT sid="444" pm="."><plain>For ROC curve interpretation we adopted a systematic approach in which models on the ROC surface were first documented by their respective sensitivity and specificity, after which the model on the ROC surface that gave equal weight to false positive and false negative errors was discussed in detail. </plain></SENT>
+<SENT sid="445" pm="."><plain>For the primary objectives, the resulting sensitivity and specificity was then compared to the Q1–Q3 range of 1,000 repeated runs of the 60:40 split set evaluation to ensure consistency (non-random data) (S4 Technical Appendix). </plain></SENT>
+<SENT sid="446" pm="."><plain>Additionally, these results were compared with results obtained from 1,000 repeated runs with a randomly permuted response variable (random data). </plain></SENT>
+<SENT sid="447" pm="."><plain>Finally, sensitivity and specificity findings were compared against an 80% cut-off, representing a performance threshold suitable for routine clinical use. </plain></SENT>
+</text></p><p><text><SENT sid="448" pm="."><plain>All analyses were programmed in R 2.15.1 using packages rpart (3.1–53; for DTs) [31] e1017 (1.6–1; for SVM) [32] and Random Forest (4.6–7; for RFs) [33]. </plain></SENT>
+</text></p><p><text><SENT sid="449" pm="."><plain>Post-hoc sensitivity analyses were conducted to determine whether or not excluding a minimised combination of characteristics affected primarily by missing data would allow the generation of improved models (S5 Technical Appendix). </plain></SENT>
+<SENT sid="450" pm="."><plain>Again, emphasis was placed on those models being optimal when false positive and false negative errors were of equal importance (i.e. a sensitivity and specificity threshold of &gt;80%). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="sec010"><title><text><SENT sid="451" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="sec011"><title><text><SENT sid="452" pm="."><plain>Overall findings </plain></SENT>
+</text></title><p><text><SENT sid="453" pm="."><plain>Analyses were based on pooled data from four randomized, placebo-controlled trials that primarily compared the effect of 12 weeks treatment with tadalafil 5mg once daily with placebo on symptomatic LUTS improvement in men with LUTS-BPH. </plain></SENT>
+<SENT sid="454" pm="."><plain>Baseline characteristics of patients in the two treatment groups were well balanced (Table 1). </plain></SENT>
+<SENT sid="455" pm="."><plain>There was negligible heterogeneity across the four studies. </plain></SENT>
+</text></p><p><text><SENT sid="456" pm="."><plain>The complete ITT population was used in all our models. </plain></SENT>
+<SENT sid="457" pm="."><plain>However, depending on the algorithm, there were exclusions due to missing response or incomplete data from the run. </plain></SENT>
+<SENT sid="458" pm="."><plain>LR, SVM and RF implementation could not be used with incomplete patient records, whereas DTs were able to handle missing predictor, but not missing response variable information, by using ‘surrogate splits’, for which we allowed 5. </plain></SENT>
+<SENT sid="459" pm="."><plain>Post-hoc sensitivity analysis was used to explore the influence of missing data on the primary result. </plain></SENT>
+<SENT sid="460" pm="."><plain>The set of predictors was reduced such that a sufficient number of complete records were available to the logistic regression, SVM and RF training algorithms. </plain></SENT>
+<SENT sid="461" pm="."><plain>In the end, all patients included in the ITT population were available for inclusion in the data mining algorithms and no patient was excluded for reasons other than technical ones. </plain></SENT>
+</text></p><p><text><SENT sid="462" pm="."><plain>Based on these data, the output from our clinical data mining analysis did not find sufficiently good predictors of treatment response to placebo or tadalafil. </plain></SENT>
+<SENT sid="463" pm="."><plain>None of the 107 pre-selected baseline characteristics achieved a combined sensitivity and specificity of &gt;80% that would enable reliable allocation of an individual patient to either the tadalafil responder or non-responder group. </plain></SENT>
+</text></p><p><text><SENT sid="464" pm="."><plain>As the detailed results presented below demonstrate, IPSS baseline (mild/moderate vs. severe group) for both placebo and tadalafil 5mg once daily was found several times on the ROC surface and generated the highest combined sensitivity and specificity of 70% and ~50%, respectively, for all analyses. </plain></SENT>
+</text></p></sec><sec id="sec012"><title><text><SENT sid="465" pm="."><plain>Significance of outliers </plain></SENT>
+</text></title><p><text><SENT sid="466" pm="."><plain>Outliers were assessed in this clinical data mining study but were not removed for the reasons described earlier. </plain></SENT>
+<SENT sid="467" pm="."><plain>The assessment of outliers led to relatively few observations. </plain></SENT>
+<SENT sid="468" pm="."><plain>It is worth noting that 3 baseline characteristics had skewed distributions. </plain></SENT>
+<SENT sid="469" pm="."><plain>These were maximum urinary flow rate (Qmax), body mass index (BMI), and frequency of alcohol intake, all of which had &gt;23 outliers in the upper range of their respective scales. </plain></SENT>
+<SENT sid="470" pm="."><plain>Full outlier results are given in the accompanying Supporting Information (S6 Technical Appendix). </plain></SENT>
+</text></p></sec><sec id="sec013"><title><text><SENT sid="471" pm="."><plain>Primary Objectives </plain></SENT>
+</text></title><p><text><SENT sid="472" pm="."><plain>In our ROC curve analyses, models on the ROC surface represented an optimal trade-off between prediction errors (false positive vs. false negative predictions). </plain></SENT>
+<SENT sid="473" pm="."><plain>Here we describe results from the model in which we observed an equal trade-off between both errors as determined by ROC curve analysis. </plain></SENT>
+<SENT sid="474" pm="."><plain>Only <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models were obtained for the pre-specified analyses predicting ‘severity MCID’ and ‘overall MCID’ response. </plain></SENT>
+<SENT sid="475" pm="."><plain>A reduction of ≥3 points in overall IPSS score, or improvement of ≥2 points in patients with IPSS baseline score &lt;20 and of ≥6 points in patients with baseline score ≥20 were the primary objectives. </plain></SENT>
+</text></p><p><text><SENT sid="476" pm="."><plain>Prediction of ‘severity MCID’ response in the tadalafil 5mg once daily group produced <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models on the ROC surface for IPSS severity group (mild/moderate vs. severe) and IPSS voiding subscore only (Table 3). </plain></SENT>
+<SENT sid="477" pm="."><plain>The model with equal importance for FP and FN error was based on IPSS severity group. </plain></SENT>
+<SENT sid="478" pm="."><plain>These results (using this model) were supported by repeat evaluations, which lay within the Q1–Q3 ranges for sensitivity and specificity of 68–72% and 45–50%, respectively. </plain></SENT>
+<SENT sid="479" pm="."><plain>Q1–Q3 ranges for random data were 34–66% for sensitivity, and as such did not overlap with the runs on non-random data, and 34–66% for specificity. </plain></SENT>
+<SENT sid="480" pm="."><plain>For subjects in the mild/moderate group, this model predicted a positive ‘severity MCID’ response. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0135484.t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="481" pm="."><plain>Primary results for both treatment groups. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0135484.t003g" xlink:href="pone.0135484.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td colspan="3" align="center" rowspan="1"><text><SENT sid="482" pm="."><plain>Severity MCID </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>Treatment group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>Sensitivity % (95% CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>Specificity % (95% CI) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>Tadalafil 5mg </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>IPSS baseline (mild/moderate vs. severe)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>70 (63, 76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>50 (40, 60) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>IPSS voiding/obstructive subscore </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>97 (94, 99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>7 (3, 15) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>Bioavailable testosterone </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>13 (8, 19) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>91 (85, 95) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>ED aetiology </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>49 (41, 57) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>61 (52, 69) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>IPSS baseline (mild/moderate vs. severe)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>74 (66, 80) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>39 (30, 47) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>Cluster lipid-lowering medications </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>88 (82, 93) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>23 (16, 31) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>Antidepressants (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>98 (94, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>5 (2, 10) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>5-α-reductase inhibitors (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>99 (96, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>2 (0, 6) </plain></SENT>
+</text></td></tr><tr><td colspan="3" align="center" rowspan="1"><text><SENT sid="512" pm="."><plain>Overall MCID </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>Tadalafil 5mg </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>Ethnicity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>9 (5,14) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>98 (92, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>IPSS baseline (mild/moderate vs. severe) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>38 (32, 45) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>71 (61, 80) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>IPSS voiding obstructive subscore* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>96 (92, 98) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>20 (12, 29) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>Cluster antidiabetic drugs </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>11 (6, 16) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>95 (89, 98) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>IPSS baseline (mild/moderate vs. severe) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>40 (33, 48) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>73 (65, 81) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>Alcohol use (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>45 (37, 53) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>70 (61, 77) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>IPSS voiding/obstructive subscore* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>94 (89, 97) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>23 (16, 31) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t003fn001"><p><text><SENT sid="536" pm="."><plain>*Model on ROC surface with best performance if false positive and false negative errors are equally important. </plain></SENT>
+</text></p></fn><fn id="t003fn002"><p><text><SENT sid="537" pm="."><plain>CI, confidence interval; ED, erectile dysfunction; IPSS, International Prostate Symptom Score; MCID, Minimal Clinically Important Differences; N, no; PSA, <z:uniprot sup="inside" fb="0" ids="P07288,Q6DT45,P33619">prostate specific antigen</z:uniprot>; ROC, Receiver Operating Curve; Y, yes. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="538" pm="."><plain>‘Severity MCID’ response in the placebo group was predicted by six <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models lying on the ROC surface that included bioavailable testosterone, ED etiology, IPSS severity, cluster of lipid-lowering medications, antidepressants, and use of 5-α-reductase inhibitors (Table 3). </plain></SENT>
+<SENT sid="539" pm="."><plain>Again, IPSS severity achieved the combination of best sensitivity and specificity when positive and negative prediction errors were of equal importance. </plain></SENT>
+<SENT sid="540" pm="."><plain>The Q1–Q3 range for all evaluations was 71–74% for sensitivity and 39–44% for specificity, while random data yielded sensitivities of 32–65% and specificities of 36–68%. </plain></SENT>
+<SENT sid="541" pm="."><plain>Again, there was no overlap with evaluations on non-random data, increasing confidence that the effect was not simply due to random effect. </plain></SENT>
+<SENT sid="542" pm="."><plain>This model also predicted a positive ‘severity MCID’ response for subjects in the mild/moderate group. </plain></SENT>
+</text></p><p><text><SENT sid="543" pm="."><plain><z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models predicting ‘overall MCID’ response in the tadalafil 5mg once daily group were based on ethnicity, IPSS severity, and IPSS voiding subscores (Table 3). </plain></SENT>
+<SENT sid="544" pm="."><plain>Here, the IPSS voiding subscore <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> model achieved optimal predictions when false positive errors were assumed to have the same importance as false negative errors. </plain></SENT>
+<SENT sid="545" pm="."><plain>Q1–Q3 ranges were 77–96% for sensitivity and 13–29% for specificity. </plain></SENT>
+<SENT sid="546" pm="."><plain>For random data these were 8–89% for sensitivity, respectively, and 11–91% for specificity, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="547" pm="."><plain>‘Overall MCID’ for the placebo group was best predicted by <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models that included cluster of anti-diabetic drugs, IPSS severity, alcohol usage, and IPSS voiding subscore (Table 3). </plain></SENT>
+<SENT sid="548" pm="."><plain>Giving equal importance to false positives and to false negatives, IPSS voiding scores obtained the best predictions. </plain></SENT>
+<SENT sid="549" pm="."><plain>Subjects with an IPSS voiding subscore &gt;5.5 were predicted to have a higher likelihood of ‘overall MCID’ response. </plain></SENT>
+<SENT sid="550" pm="."><plain>Q1–Q3 ranges for this model in all evaluations were 93–95% for sensitivities and 19–23% for specificities. </plain></SENT>
+<SENT sid="551" pm="."><plain>The corresponding results for random data were 10–88% for sensitivities and 13–90% for specificities. </plain></SENT>
+</text></p><p><text><SENT sid="552" pm="."><plain>The IPSS severity categories (mild/moderate vs. severe) based on a cut-off of 20 were part of the ROC surface regardless of MCID definition and regardless of treatment group (i.e. tadalafil 5mg once daily or placebo). </plain></SENT>
+<SENT sid="553" pm="."><plain>IPSS voiding subscore was found on the ROC surface for ‘overall MCID’ prediction. </plain></SENT>
+</text></p></sec><sec id="sec014"><title><text><SENT sid="554" pm="."><plain>Secondary Objectives </plain></SENT>
+</text></title><p><text><SENT sid="555" pm="."><plain>Estimates for sensitivities and specificities for each of the secondary objectives for the two treatment groups are presented in Tables 4 and 5. </plain></SENT>
+<SENT sid="556" pm="."><plain>The <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models achieving optimal prediction performance when false positive predictions are given the same importance as false negative predictions are marked with a star (*) and are the results on which we have focused. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0135484.t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="557" pm="."><plain>Secondary Results (Tadalafil 5mg once daily). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0135484.t004g" xlink:href="pone.0135484.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>Variable Description </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>Sensitivity % (95% CI) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>Specificity % (95% CI) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>IPSS QoL improvement </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>Myocardial infarction (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>2 (0, 5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>100 (97, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>Smoking (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>15 (10, 21) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>94 (87, 97) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>Number of anti-hypertensive medications* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>48 (41, 56) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>66 (56, 75) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>Cardiovascular disorders cluster </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>57 (49, 64) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>58 (48, 68) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>Statins (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>79 (73, 85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>33 (25, 43) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>IPSS QoL (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>98 (95, 99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>11 (6, 19) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>Antidepressants (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>99 (96, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>6 (3, 13) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>IPSS 25% change </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>Qmax </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>10 (6,16) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>94 (89, 98) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>IIEF baseline severity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>19 (14, 26) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>89 (82, 94) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>Renal impairment II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>52 (44, 59) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>60 (50, 68) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>Hypertension treatment phase (Y/N)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>66 (59, 74) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>46 (37, 55) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>Hyperlipidemia (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>81 (74, 87) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>29 (22, 38) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>IPSS voiding obstructive subscore (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>95 (91, 98) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>13 (7, 20) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>Cluster antidepressant-antipsychotic </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>99 (96, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>5 (2, 10) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>Renal impairment I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>100 (98, NaN) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>2 (0, 6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>IPSS Score &lt;12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>IPSS total score (baseline)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>60 (52, 68) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>78 (70, 85) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>IPSS baseline group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>80 (73, 86) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>58 (50, 67) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Previous overactive bladder therapy (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>100 (98, NaN) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>2 (0, 6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>BII Score &lt; 9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>Ethnicity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>7 (4,10) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>100 (79, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>IPSS QoL (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>51 (45, 57) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>88 (62, 98) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>BII total score (baseline)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>68 (62, 73) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>75 (48, 93) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>Antidepressants (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>98 (95, 99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>6 (0, 30) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>BII improvement </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>Number of anti-hypertensive medications** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>2 (1, 6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>99 (95, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>BII total score (baseline)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>97 (93, 99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>25 (17, 34) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>% bioavailable testosterone* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>62 (24, 91) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>84 (78, 89) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>Cluster anti-hypertensive drugs </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>88 (47, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>44 (37, 52) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>Albumin (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>100 (63, NaN) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>17 (12, 23) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t004fn001"><p><text><SENT sid="648" pm="."><plain>*Model on ROC surface with best performance if false positive and false negative errors are equally important. </plain></SENT>
+</text></p></fn><fn id="t004fn002"><p><text><SENT sid="649" pm="."><plain>** Alpha-Blockers, beta-blockers, calcium channels blockers, <z:uniprot sup="inside" fb="0" ids="P18691,P68515,P01021,P30424,P30426,P31351">angiotensin converting enzyme inhibitors</z:uniprot>, <z:uniprot sup="inside" fb="61" ids="Q10757">angiotensin</z:uniprot> receptor blockers and diuretics. </plain></SENT>
+</text></p></fn><fn id="t004fn003"><p><text><SENT sid="650" pm="."><plain>BII, BPH Impact Index; CI, confidence interval; IIEF, International Index of Erectile Function; IPSS, International Prostate Symptom Score; N, no; <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>, Patient Global Impression of Improvement; Qmax, maximal flow rate; QoL, quality of life; ROC, Receiver Operating Curve; Y, yes. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pone.0135484.t005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.t005</object-id><label>Table 5</label><caption><title><text><SENT sid="651" pm="."><plain>Secondary Results (Placebo). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0135484.t005g" xlink:href="pone.0135484.t005"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>Variable Description </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>Sensitivity % (95% CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>Specificity % (95% CI) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>IPSS QoL improvement </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>Free testosterone </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>7 (4, 13) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>97 (93, 99) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>ED duration </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>16 (11, 23) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>91 (85, 95) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>ED etiology* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>37 (29, 45) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>76 (69, 83) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>IPSS QoL (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>89 (83, 93) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>22 (16, 30) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>Number of anti-hypertensive medications ** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>99 (96, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>3 (1, 7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>IPSS 25% Change </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>ED duration </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>4 (1, 9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>100 (98, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>Ethnicity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>10 (6, 17) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>96 (92, 98) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>Cluster anti-hypertensive Drugs </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>52 (43, 61) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>63 (55, 70) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-S baseline* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>69 (60, 77) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>48 (41, 56) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>IIEF-IS (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>85 (77, 91) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>29 (22, 36) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>Other lipid lowering drugs (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>99 (96, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>6 (3, 11) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>IPSS Score &lt;12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>Ethnicity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>13 (8, 20) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>95 (91, 98) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>IPSS storage irritative subscore (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>58 (49, 67) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>75 (68, 81) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>IPSS total score (baseline)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>69 (60, 77) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>68 (60, 75) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>IPSS baseline group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>81 (73, 88) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>51 (43, 58) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>Other lipid lowering drugs (Y/N) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>100 (97, NaN) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>4 (2, 8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>BII Score &lt;9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>Ethnicity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>8 (5, 11) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>100 (85, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>IPSS baseline group* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>72 (66, 77) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>91 (71, 99) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>BII total score (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>89 (85, 93) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>64 (41, 83) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>BII Improvement </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>Alcohol frequency </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>3 (1, 7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>98 (95, 100) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>IPSS baseline group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>45 (37, 53) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>73 (64, 80) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="723" pm="."><plain>BII total score (baseline)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="724" pm="."><plain>87 (81, 92) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="725" pm="."><plain>41 (32, 50) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="726" pm="."><plain>IPSS storage irritative subscore (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="727" pm="."><plain>96 (92, 99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="728" pm="."><plain>16 (10, 23) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="729" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="730" pm="."><plain>Testosterone (baseline) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="731" pm="."><plain>18 (2, 52) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="732" pm="."><plain>92 (87, 96) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="733" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot> (baseline)* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="734" pm="."><plain>91 (59, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="735" pm="."><plain>47 (39, 54) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="736" pm="."><plain>Renal impairment I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="737" pm="."><plain>100 (72, NaN) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="738" pm="."><plain>32 (25, 39) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t005fn001"><p><text><SENT sid="739" pm="."><plain>*Model on ROC surface with best performance if false positive and false negative errors are equally important. </plain></SENT>
+</text></p></fn><fn id="t005fn002"><p><text><SENT sid="740" pm="."><plain>** Alpha-Blockers, beta-blockers, calcium channels blockers, <z:uniprot sup="inside" fb="0" ids="P18691,P68515,P01021,P30424,P30426,P31351">angiotensin converting enzyme inhibitors</z:uniprot>, <z:uniprot sup="inside" fb="61" ids="Q10757">angiotensin</z:uniprot> receptor blockers and diuretics. </plain></SENT>
+</text></p></fn><fn id="t005fn003"><p><text><SENT sid="741" pm="."><plain>BII, BPH Impact Index; CI, confidence interval; ED, erectile dysfunction; IIEF, International Index of Erectile Function; IPSS, International Prostate Symptom Score; N, no; <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I, Patient Global Impression of Improvement; PGISS, Patient Global Incontinence Severity Score; QoL, quality of life; ROC, Receiver Operating Curve; <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">sex hormone binding globulin</z:uniprot>; Y, yes. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="742" pm="."><plain>A reduction of ≥1 point on the IPSS QoL question was the first secondary objective. </plain></SENT>
+<SENT sid="743" pm="."><plain><z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models found on the ROC surfaces included number of anti-hypertensive medications for the tadalafil 5mg once daily group, and ED etiology (mixed or psychogenic) for the placebo group to predict improvements. </plain></SENT>
+</text></p><p><text><SENT sid="744" pm="."><plain>A reduction in the IPSS total score of 25% from baseline to 12 weeks was the next secondary objective, and <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models on the ROC surface included presence of hypertension during treatment for the tadalafil group and <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-S (&lt;5) at baseline for the placebo group. </plain></SENT>
+</text></p><p><text><SENT sid="745" pm="."><plain>Achieving an IPSS total score &lt;12 points at 12 weeks was the third secondary objective. </plain></SENT>
+<SENT sid="746" pm="."><plain>An IPSS score &lt;12 was predicted using IPSS total score for the tadalafil 5mg once daily and placebo groups. </plain></SENT>
+<SENT sid="747" pm="."><plain>Cut-off for response was selected as &lt;16 for tadalafil 5mg once daily and placebo by <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models on the ROC surface giving equal importance to false positive and false negative predictions. </plain></SENT>
+</text></p><p><text><SENT sid="748" pm="."><plain>A reduction to &lt;9 points on the BII total score after 12 weeks treatment was the fourth secondary objective. </plain></SENT>
+<SENT sid="749" pm="."><plain>IPSS severity (mild/moderate) was used to predict BII &lt;9 after 12 weeks treatment for the placebo group, while the BII total score (&lt;6.5) was used by the <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> predicting response/improvement in tadalafil-treated patients. </plain></SENT>
+</text></p><p><text><SENT sid="750" pm="."><plain>A reduction of &gt;0.5 point on the BII scale was the fifth secondary objective. </plain></SENT>
+<SENT sid="751" pm="."><plain>BII total score at baseline was used to predict any improvements in BII by the <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models. </plain></SENT>
+<SENT sid="752" pm="."><plain>The cut-offs employed were ≥1.5 and ≥2.5 for response in the tadalafil 5mg once daily and placebo groups, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="753" pm="."><plain>The final secondary objective was any improvement on the <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot> scale. </plain></SENT>
+<SENT sid="754" pm="."><plain><z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models lying on the ROC surface that gave equal importance to false positives and false negatives in predicting improvements were, % bioavailable testosterone (≥35%) for the tadalafil 5mg once daily group and <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">sex hormone binding globulin</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot>) (&lt;42nmol/l) for the placebo group, respectively. </plain></SENT>
+</text></p></sec><sec id="sec015"><title><text><SENT sid="755" pm="."><plain>Post-hoc Sensitivity Analysis </plain></SENT>
+</text></title><p><text><SENT sid="756" pm="."><plain>All pre-specified analyses returned only <z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models. </plain></SENT>
+<SENT sid="757" pm="."><plain>LR, SVM, RF and DT approaches did not yield models because missing values, that included parameters that were either not measured or intended for collection, resulted in an insufficient number of complete patient records. </plain></SENT>
+<SENT sid="758" pm="."><plain>Testosterone measurements were the key driver, responsible for 79% of incomplete records, while missing PSA assessments accounted for 70% of records, followed by frequency of alcohol intake and <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot> assessments (both missing in &gt;30% of cases). </plain></SENT>
+<SENT sid="759" pm="."><plain>Finally, <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot> assessment (<z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I was assessed in only 3 of the 4 studies), previous overactive bladder therapy, ED characteristics and assessment of Qmax were missing for 20% to 30% of patients. </plain></SENT>
+</text></p><p><text><SENT sid="760" pm="."><plain>Table 6 details sensitivities and specificities on held-out test data from non-<z:uniprot sup="inside" fb="71" ids="Q9ZW19">SDR</z:uniprot> models lying on the ROC surface when testosterone, alcohol intake, Qmax, <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot>, albumin, <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-S and PSA were excluded. </plain></SENT>
+<SENT sid="761" pm="."><plain>For 13 of these models, pre-selection via a t-test filter improved prediction performance (S7 Technical Appendix). </plain></SENT>
+<SENT sid="762" pm="."><plain>In these cases the pre-selected variables are given in the last column of the table. </plain></SENT>
+<SENT sid="763" pm="."><plain>Only 4 of the models were RF; not a single SVM was observed. </plain></SENT>
+<SENT sid="764" pm="."><plain>Of the better performing models, sensitivity and specificity were best with respect to BII total score of &lt;9. </plain></SENT>
+<SENT sid="765" pm="."><plain>DTs for the tadalafil 5mg once daily group achieved a sensitivity of 77% (95% CI: 0.72, 0.82) and specificity of 62% (95% CI: 0.35, 0.85). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0135484.t006" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0135484.t006</object-id><label>Table 6</label><caption><title><text><SENT sid="766" pm="."><plain>Exploratory Results. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0135484.t006g" xlink:href="pone.0135484.t006"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="767" pm="."><plain>Groups </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="768" pm="."><plain>Model </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="769" pm="."><plain>Sensitivity % (95% CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="770" pm="."><plain>Specificity % (95% CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="771" pm="."><plain>Variables included, if based on feature selection </plain></SENT>
+</text></th></tr></thead><tbody><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="772" pm="."><plain>Severity MCID </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="773" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="774" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="775" pm="."><plain>58 (50, 66) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="776" pm="."><plain>56 (47, 65) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="777" pm="."><plain>Overall MCID </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="778" pm="."><plain>Tadalafil </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="779" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="780" pm="."><plain>67 (60, 74) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="781" pm="."><plain>51 (40, 61) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="782" pm="."><plain>IPSS total and storage score </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="783" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="784" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="785" pm="."><plain>92 (87, 96) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="786" pm="."><plain>25 (18, 33) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="787" pm="."><plain>IPSS total and voiding score </plain></SENT>
+</text></td></tr><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="788" pm="."><plain>QoL Improvement </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="789" pm="."><plain>Tadalafil </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="790" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="791" pm="."><plain>88 (83, 92) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="792" pm="."><plain>31 (23, 41) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="793" pm="."><plain>IPSS QoL score </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="794" pm="."><plain>Tadalafil </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="795" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="796" pm="."><plain>58 (51, 65) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="797" pm="."><plain>63 (53, 72) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="798" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="799" pm="."><plain>RF </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="800" pm="."><plain>61 (53, 69) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="801" pm="."><plain>55 (46, 63) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="802" pm="."><plain>IPSS QoL score </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="803" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="804" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="805" pm="."><plain>89 (83, 93) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="806" pm="."><plain>22 (16, 30) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="807" pm="."><plain>IPSS QoL score </plain></SENT>
+</text></td></tr><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="808" pm="."><plain>IPSS 25% </plain></SENT>
+</text></td></tr><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="809" pm="."><plain>BII &lt;9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="810" pm="."><plain>Tadalafil </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="811" pm="."><plain>RF </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="812" pm="."><plain>99 (97, 100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="813" pm="."><plain>6 (0, 30) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="814" pm="."><plain>BII total score, IPSS total, voiding and storage, IPSS QoL score </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="815" pm="."><plain>Tadalafil </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="816" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="817" pm="."><plain>77 (72, 82) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="818" pm="."><plain>62 (35, 85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="819" pm="."><plain>BII total score, IPSS total, voiding and storage, IPSS QoL score </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="820" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="821" pm="."><plain>RF </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="822" pm="."><plain>98 (96, 99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="823" pm="."><plain>23 (8, 45) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="824" pm="."><plain>Number of anti-hypertensive treatments, Study treatment compliance, BII total score baseline, IPSS storage,voiding and total score, Cardiovascular disorders cluster, Cluster cardiovascular disorders (CLUSTCARDVDIS), Cluster anti-diabetic drugs </plain></SENT>
+</text></td></tr><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="825" pm="."><plain>BII Improvement </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="826" pm="."><plain>Tadalafil </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="827" pm="."><plain>RF </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="828" pm="."><plain>65 (57, 72) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="829" pm="."><plain>60 (50, 69) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="830" pm="."><plain>BII total score </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="831" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="832" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="833" pm="."><plain>72 (64, 79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="834" pm="."><plain>58 (49, 67) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="835" pm="."><plain>BII and IPSS total score, IPSS voiding score </plain></SENT>
+</text></td></tr><tr><td colspan="5" align="left" rowspan="1"><text><SENT sid="836" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot> Improvement </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="837" pm="."><plain>Placebo </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="838" pm="."><plain>DT </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="839" pm="."><plain>64 (31, 89) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="840" pm="."><plain>69 (61, 75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></alternatives><table-wrap-foot><fn id="t006fn001"><p><text><SENT sid="841" pm="."><plain>Models were generated on dataset excluding testosterone, alcohol frequency, Qmax, <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot>, Albumin, <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>, and PSA </plain></SENT>
+</text></p></fn><fn id="t006fn002"><p><text><SENT sid="842" pm="."><plain>BII, BPH Impact Index; CI, confidence interval; DT, Decision Tree; IPSS, International Prostate Symptom Score; MCID, Minimally Clinically Important Differences; <z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I, Patient Global Impression of Improvement; PSA, <z:uniprot sup="inside" fb="0" ids="P07288,Q6DT45,P33619">prostate specific antigen</z:uniprot>; Qmax, maximal flow rate; QoL, quality of life; RF, Random Forest; <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">SHBG</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="A0EQL2,P04278,P97497,Q62588,P15196,P08689">sex hormone binding globulin</z:uniprot>. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="conclusions" id="sec016"><title><text><SENT sid="843" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="844" pm="."><plain>Identifying predictors of response to drug therapy can be beneficial, especially where significant improvements in patient health-related QoL are sought, such as in LUTS-BPH where symptom relief is the primary goal of treatment for the majority of men. </plain></SENT>
+<SENT sid="845" pm="."><plain>It also has benefits in an era where patients are encouraged to take an active role in treatment decisions alongside their physician. </plain></SENT>
+</text></p><p><text><SENT sid="846" pm="."><plain>The objective of this clinical data mining study was to identify prediction models and associated patient baseline characteristics that could be used in clinical practice to predict treatment response to tadalafil 5mg once daily among patients with a diagnosis of LUTS-BPH. </plain></SENT>
+<SENT sid="847" pm="."><plain>To the best of our knowledge, this is the first clinical data mining analysis to use mathematical modelling in studies of patients with LUTS-BPH. </plain></SENT>
+</text></p><p><text><SENT sid="848" pm="."><plain>To meet this objective, we adopted a rigorous data mining approach involving commonly used models and evaluated their discriminative ability on held-out data using eight different measures of treatment response and 107 possible predictors. </plain></SENT>
+<SENT sid="849" pm="."><plain>These were chosen from a large patient population enrolled in a series of almost identical, placebo-controlled, randomized studies of the same duration of randomized treatment and with similar inclusion/exclusion criteria. </plain></SENT>
+<SENT sid="850" pm="."><plain>Results were backed up by repeated evaluations and comparison to non-informative data to control for bias. </plain></SENT>
+</text></p><p><text><SENT sid="851" pm="."><plain>As our results have demonstrated, we did not to obtain any sensitivities or specificities above an 80% threshold for the specified baseline characteristics. </plain></SENT>
+<SENT sid="852" pm="."><plain>In other words, at this threshold there would be a 20% risk of an incorrect prediction, which we would argue is an acceptable basis on which to predict treatment response in a non-malignant condition in clinical practice. </plain></SENT>
+<SENT sid="853" pm="."><plain>Thus, using our data from four clinical trials and modelling methods, no single predictive rule emerged from which a treatment algorithm could be developed to clinically guide the use of tadalafil 5mg once daily in patients with LUTS-BPH. </plain></SENT>
+<SENT sid="854" pm="."><plain>Similarly, we found no characteristics that determined response to LUTS-BPH treatment when placebo is used. </plain></SENT>
+<SENT sid="855" pm="."><plain>These findings applied to both primary and secondary objectives. </plain></SENT>
+</text></p><p><text><SENT sid="856" pm="."><plain>Across the 107 baseline characteristics, there was evidence that with respect to ‘severity MCID’, LUTS severity at baseline as measured by IPSS score (mild-moderate ≤20 vs. severe &gt;20) had sensitivity and specificity levels that approached 70% and 50%, respectively. </plain></SENT>
+<SENT sid="857" pm="."><plain>While this level of prediction is marginally better than random guessing, it is still too low for clinical use. </plain></SENT>
+<SENT sid="858" pm="."><plain>However, IPSS continues to underpin assessments with respect to baseline symptom severity and monitoring symptom progression in cases of “watchful waiting” [34]. </plain></SENT>
+<SENT sid="859" pm="."><plain>This may be due to the fact that during its validation, care was taken to generate a predictive questionnaire [10; 21]. </plain></SENT>
+</text></p><p><text><SENT sid="860" pm="."><plain>Several analyses of pooled data from the four clinical trials of tadalafil versus placebo that were used in this clinical data mining study have shown that tadalafil significantly improves symptoms of LUTS-BPH, including small but significant improvements in Qmax [35] with concomitant improvements in QoL [11; 36]. </plain></SENT>
+<SENT sid="861" pm="."><plain>Subsequent analyses revealed improvement in both IPSS storage and voiding subscores [12], and that improvements in LUTS occurred irrespective of the presence of co-existing ED [37]. </plain></SENT>
+<SENT sid="862" pm="."><plain>Thus, tadalafil has therapeutic benefit beyond its effects on ED in men with comorbid LUTS-BPH. </plain></SENT>
+<SENT sid="863" pm="."><plain>These findings have been confirmed in a prospective, naturalistic observational study (TadaLutsEd), which closely mirrors routine clinical practice. </plain></SENT>
+<SENT sid="864" pm="."><plain>In this non-selective study, 86% of men aged 50 years and older with LUTS-BPH saw an improvement in urinary symptoms following 6 weeks treatment with tadalafil 5mg once daily [38]. </plain></SENT>
+</text></p><p><text><SENT sid="865" pm="."><plain>A subgroup analysis of the effects of tadalafil in various patient subgroups concluded that tadalafil improves LUTS-BPH symptoms, as measured by the IPSS, across all clinical subgroups that included LUTS severity (IPSS ≤20/&gt;20) and previous use of α-blocking agents [13]. </plain></SENT>
+<SENT sid="866" pm="."><plain>However, while this analysis looked at the various subgroups from a population perspective and, as such, evaluates improvement on average, our work crucially looks at it from the perspective of the physician and the individual patient (i.e. predicting the improvement on an individual basis). </plain></SENT>
+<SENT sid="867" pm="."><plain>Both analyses are consistent in that efficacy occurred across all subgroups in the pooled analysis of data from the four clinical trials, while no reliable predictor of response was found in our analysis of the same trials on an individual patient basis. </plain></SENT>
+</text></p><p><text><SENT sid="868" pm="."><plain>Given that tadalafil provides early symptomatic relief [6] across a wide range of men with LUTS-BPH, including those with ED and other significant comorbidities, it is perhaps not surprising that we were unable to identify individual predictors of response to placebo or tadalafil 5mg once daily despite rigorous data mining. </plain></SENT>
+<SENT sid="869" pm="."><plain>Many examples exist in the literature of predictors of response (or failure to respond) to drug therapy that include the use of drugs for LUTS-BPH. </plain></SENT>
+<SENT sid="870" pm="."><plain>For example, large prostate volume and more severe symptoms at baseline have been identified as predictive factors for failure to respond to first-line medical therapy for LUTS-BPH [39]. </plain></SENT>
+<SENT sid="871" pm="."><plain>Severity of symptoms is a strong influence on the extent to which patients judge treatment to give clinically meaningful improvement [19]–greater severity requires a proportionately greater improvement in symptom relief for patients to perceive the same degree of improvement as those with less severe disease [16]. </plain></SENT>
+<SENT sid="872" pm="."><plain>A systematic review and meta-analysis of the use of <z:uniprot sup="inside" fb="0" ids="J3SEZ3,J3SBP3,W8E7D1,A0A2D0TC04">PDE</z:uniprot>-5 inhibitors in LUTS-BPH suggested that younger men with lower BMI and severe urinary symptoms were the best candidates for <z:uniprot sup="inside" fb="0" ids="J3SEZ3,J3SBP3,W8E7D1,A0A2D0TC04">PDE</z:uniprot>-5 inhibitor therapy [40], a finding we were unable to demonstrate and confirm in our analysis when examining patients treated with tadalafil or using placebo. </plain></SENT>
+</text></p><p><text><SENT sid="873" pm="."><plain>We did, however, identify some potential candidates for predicting treatment response. </plain></SENT>
+<SENT sid="874" pm="."><plain>In addition to IPSS-related characteristics, we found that bioavailable testosterone, ED etiology, cluster of lipid-lowering medications, antidepressants and previous use of 5-α-reductase inhibitors may have potential as predictors for treatment response, especially in relation to ‘severity MCID’ response. </plain></SENT>
+<SENT sid="875" pm="."><plain>Although substantial further work is needed to test these observations, there is some independent evidence to suggest that some, if not all, may be viable candidates. </plain></SENT>
+<SENT sid="876" pm="."><plain>A recent study on the effects of tadalafil 5mg in men with hypogonadism and LUTS-BPH showed that while tadalafil was effective in both men with and without hypogonadism, IPSS storage subscore and IPSS-QoL was appreciably greater in men without hypogonadism than those with low testosterone levels [41]. </plain></SENT>
+<SENT sid="877" pm="."><plain>There is also evidence to suggest that depression, anxiety and somatization may influence the clinical manifestation of LUTS-BPH and that anxious patients respond less well to treatment [42]. </plain></SENT>
+<SENT sid="878" pm="."><plain>Conceivably, treatment with antidepressants could play in role in not only alleviating symptoms of depression and anxiety but also increasing the likelihood of response to specific LUTS-BPH therapy, something for which there is now published evidence [43]. </plain></SENT>
+</text></p><p><text><SENT sid="879" pm="."><plain>In this study we chose to use established models for prediction, such as LRs, DTs, SVMs and RFs, rather than newer and more complex models. </plain></SENT>
+<SENT sid="880" pm="."><plain>Surprisingly, none of them showed robustness with regards to handling missing data. </plain></SENT>
+<SENT sid="881" pm="."><plain>This was unexpected, especially for DTs and RFs. </plain></SENT>
+<SENT sid="882" pm="."><plain>Current data mining research is focused on developing models that achieve ever better prediction methods (on complete datasets), while simultaneously ignoring the problem of missing information that could be informative but could also completely compromise the method. </plain></SENT>
+<SENT sid="883" pm="."><plain>In our modelling study, even DTs that have an integrated mechanism for dealing with missing data via surrogate splits, often failed to achieve better performance over models that made only a single decision. </plain></SENT>
+<SENT sid="884" pm="."><plain>Only nine DTs were found on the ROC surface and of these, six required pre-selection of variables via a t-test filter. </plain></SENT>
+<SENT sid="885" pm="."><plain>This clearly highlights the importance of this issue in clinical data mining research. </plain></SENT>
+</text></p><p><text><SENT sid="886" pm="."><plain>Despite its strengths, which include a pre-specified program of statistical analyses, this study has several limitations. </plain></SENT>
+<SENT sid="887" pm="."><plain>Firstly, there was no subsequent independent study to validate our results. </plain></SENT>
+<SENT sid="888" pm="."><plain>It is also possible that we may not have collected the “true factor” for predicting response, even though we examined 107 baseline characteristics. </plain></SENT>
+<SENT sid="889" pm="."><plain>Better methods could have been employed to fine tune model parameters, especially for the SVM. </plain></SENT>
+<SENT sid="890" pm="."><plain>For example, a triple split set evaluation, consisting of a training split for model generation, a validation split for model selection, and test split for hold-out evaluation could have been used to fine tune the selection of better generalising models. </plain></SENT>
+<SENT sid="891" pm="."><plain>Evaluation of the training-test set bias did not, however, indicate a need for such additional complexity. </plain></SENT>
+<SENT sid="892" pm="."><plain>An alternative pre-filtering step could have been used, adding clustering information as supportive predictor information, adding de-noising (whitening) data pre-processing steps, or using statistical bootstrapping. </plain></SENT>
+<SENT sid="893" pm="."><plain>With respect to SVM, we employed the radial basis kernel but we could have used further kernels, such as random walk kernels, optimal matching kernels, or other kernel types or kernel machines for training this algorithm on our data. </plain></SENT>
+<SENT sid="894" pm="."><plain>There were also limitations inherent in the trial inclusion and exclusion criteria; for example, patients with post-void residual urine volume &gt;300ml were excluded and prostate volume was not directly assessed, although PSA can be used as a surrogate for prostate size. </plain></SENT>
+</text></p><p><text><SENT sid="895" pm="."><plain>In conclusion, none of the approaches presented here led to a prediction model with sufficient accuracy for the development of a tailoring algorithm for tadalafil 5mg once daily or placebo in LUTS-BPH. </plain></SENT>
+<SENT sid="896" pm="."><plain>Thus, the ideal patient profile for which tadalafil should be prescribed with respect to baseline demographics, medical history, IPSS, International Index of Erectile Function (IIEF) score and Qmax remains as yet unknown. </plain></SENT>
+<SENT sid="897" pm="."><plain>Although the response to treatment in an individual patient cannot be reliably predicted from the characteristics and methods we have evaluated so far, this does not mean that patients with LUTS-BPH are not likely to respond on average to treatment with placebo or tadalafil 5mg once daily. </plain></SENT>
+<SENT sid="898" pm="."><plain>Among the approximately two-thirds of men with LUTS-BPH who achieved CMI following treatment with tadalafil 5mg, over half achieved CMI after one week of therapy and over 70% within 4 weeks [44]. </plain></SENT>
+</text></p><p><text><SENT sid="899" pm="."><plain>Although this study did not identify any pre-existing patient characteristics that might predict a treatment-response, tadalafil 5mg once daily has been shown to effectively impact LUTS-BPH across a range of patient subgroups. </plain></SENT>
+<SENT sid="900" pm="."><plain>Therefore, the decision to treat an individual case of LUTS-BPH with tadalafil 5mg once daily continues to rest on medical assessment of the patient, consideration of contra-indications, presence of co-existing conditions, with the patient’s expectations and preferences leading to mutual patient-physician agreement. </plain></SENT>
+<SENT sid="901" pm="."><plain>This approach is entirely compatible with the current concept of shared decision making, in which the patient’s voice should also be heard as an integral part of the treatment decision [45], especially for a condition in which part of the symptomatic improvement is a strong placebo response [16]. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="sec017"><title><text><SENT sid="902" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0135484.s001"><label>S1 Technical Appendix</label><caption><p><text><SENT sid="903" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s001.docx"><caption><p><text><SENT sid="904" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0135484.s002"><label>S2 Technical Appendix</label><caption><p><text><SENT sid="905" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s002.docx"><caption><p><text><SENT sid="906" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0135484.s003"><label>S3 Technical Appendix</label><caption><p><text><SENT sid="907" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s003.docx"><caption><p><text><SENT sid="908" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0135484.s004"><label>S4 Technical Appendix</label><caption><p><text><SENT sid="909" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s004.docx"><caption><p><text><SENT sid="910" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0135484.s005"><label>S5 Technical Appendix</label><caption><p><text><SENT sid="911" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s005.docx"><caption><p><text><SENT sid="912" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0135484.s006"><label>S6 Technical Appendix</label><caption><p><text><SENT sid="913" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s006.docx"><caption><p><text><SENT sid="914" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0135484.s007"><label>S7 Technical Appendix</label><caption><p><text><SENT sid="915" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0135484.s007.docx"><caption><p><text><SENT sid="916" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="917" pm="."><plain>We would like to thank Helmut Petto (Eli Lilly Regional Operations Ges.m.b.H., Austria) for statistical peer review of the programs, and Jonathan Klingingsmith for support in managing the huge computational task on Lilly’s High-Performance Computing architecture. </plain></SENT>
+<SENT sid="918" pm="."><plain>We also would like to thank Dustin Ruff, Xiao Ni and Chakib Battioui for their review and approval of the SAP and their critical support in reviewing data mining creation and outcomes. </plain></SENT>
+<SENT sid="919" pm="."><plain>The authors acknowledge Moira Anderson and David Peters (Rx Communications, Mold, UK) for editorial assistance with the preparation of this manuscript. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0135484.ref001"><text><SENT sid="920" pm="."><plain>1 RosenR, AltweinJ, BoyleP, KirbyRS, LukasB, MeulemanE, et al Lower urinary tract symptoms and male sexual dysfunction: the Multinational Survey of the Aging Male (MSAM-7). Eur Urol. 2003;44: 637–649. <?supplied-pmid 14644114?>14644114 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref002"><text><SENT sid="921" pm="."><plain>2 McVaryKT, RoehrbornCG, AvinsAL, BarryMJ, BruskewitzRC, DonnellRF, et al Update on AUA guideline on benign prostatic hyperplasia. J Urol. 2011;185: 1793–1803. 10.1016/j.juro.2011.01.074 <?supplied-pmid 21420124?>21420124 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref003"><text><SENT sid="922" pm="."><plain>3 GovorovA, KasyanG, PriymakD, PushkarD, SorsabutruS. Tadalafil in the management of lower urinary tract symtpoms: a review of the literature and current practices in Russia. Cent European J Urol. 2014;67: 167–177. 10.5173/ceju.2014.02.art10 <?supplied-pmid 25140232?>25140232 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref004"><text><SENT sid="923" pm="."><plain>4 GravasS, BachmannA, DescazeaudA, DrakeM, GratzkeC, MaderbacherS, et al Guidelines on the management of non-neurogenic male lower urinary tract symptoms (LUTS) including benign prostatic obstruction (PBO) (The Netherlands) European Association of Urology (EAU) 2014 4. </plain></SENT>
+<SENT sid="924" pm="."><plain>Available from the Urology EAU Web site. </plain></SENT>
+<SENT sid="925" pm="."><plain>Accessed January 2015. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref005"><text><SENT sid="926" pm="."><plain>5 RoehrbornCG, McVaryKT, Elion-MboussaA, Elion-MboussaA, ViktrupL. Tadalafil administered once daily for lower urinary tract symptoms secondary to benign prostatic hyperplasia: a dose finding study. J Urol. 2008;180: 1228–1234. 10.1016/j.juro.2008.06.079 <?supplied-pmid 18722631?>18722631 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref006"><text><SENT sid="927" pm="."><plain>6 PorstH, KimED, CasabéAR, MironeV, SecrestRJ, XuL, et al Efficacy and safety of tadalafil once daily in the treatment of men with lower urinary tract symptoms suggestive of benign prostatic hyperplasia: results of an international randomized, double-blind, placebo-controlled trial. Eur Urol. 2011;60: 1105–1113. 10.1016/j.eururo.2011.08.005 <?supplied-pmid 21871706?>21871706 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref007"><text><SENT sid="928" pm="."><plain>7 EgerdieRB, AuerbachS, RoehrbornCG, CostaP, GarzaMS, EslerAL, et al Tadalafil 2.5 or 5mg administered once daily for 12 weeks in men with both erectile dysfunction and signs and symptoms of benign prostatic hyperplasia: results of a randomized, placebo-controlled, double-blind study. J Sex Med. 2012;9: 271–281. 10.1111/j.1743-6109.2011.02504.x <?supplied-pmid 21981682?>21981682 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref008"><text><SENT sid="929" pm="."><plain>8 OelkeM, GiulianoF, MironeV, XuL, CoxD, ViktrupL. Monotherapy with tadalafil or tamsulosin similarly improved lower urinary tract symptoms suggestive of benign prostatic hyperplasia in an international, randomised, parallel, placebo-controlled clinical trial. Eur Urol. 2012;61: 917–925. 10.1016/j.eururo.2012.01.013 <?supplied-pmid 22297243?>22297243 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref009"><text><SENT sid="930" pm="."><plain>9 BarryMJ, FowlerFJJr, O’LearyMP, BruskewitzRC, HoltgreweHL, MebustWK, et al The American Urological Association symptom index for benign prostatic hyperplasia. </plain></SENT>
+<SENT sid="931" pm="."><plain>The Measurement Committee of the American Urological Association. J Urol.1992;148: 1549–1557. <?supplied-pmid 1279218?>1279218 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref010"><text><SENT sid="932" pm="."><plain>10 BarryMJ, FowlerFJJr, O’LearyMP, BruskewitzRC, HoltgreweHL, MebustWK. Measuring disease-specific health status in men with benign prostatic hyperplasia. </plain></SENT>
+<SENT sid="933" pm="."><plain>Measurement Committee of the American Urological Association. Med Care.1995a;33 (4 suppl): AS145–155.7536866 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref011"><text><SENT sid="934" pm="."><plain>11 PorstH, RoehrbornCG, SecrestRJ, EslerA, ViktrupL. Effects of tadalafil on lower urinary tract symptoms secondary to benign prostatic hyperplasia and on erectile dysfunction in sexually active men with both conditions: analysis of pooled data from four randomized, placebo-controlled tadalafil clinical studies. J Sex Med. 2013a;10: 2044–2052.23782459 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref012"><text><SENT sid="935" pm="."><plain>12 ChappleCR, RoehrbornCG, McVaryK, IloD, HennegesC, ViktrupL. Effect of tadalafil on male lower urinary tract symptoms: an integrated analysis of storage and voiding international prostate symptom subscores from four randomised controlled trials. Eur Urol. 2015; 67(1): 114–22. 10.1016/j.eururo.2014.08.072 <?supplied-pmid 25301757?>25301757 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref013"><text><SENT sid="936" pm="."><plain>13 PorstH, OelkeM, GoldfischerER, CoxD, WattsS, DeyD, et al Efficacy and safety of tadalafil 5mg once daily for lower urinary tract symptoms suggestive of benign prostatic hyperplasia: subgroup analyses of pooled data from four multinational randomized controlled clinical studies. Urol. 2013b;82: 667–673.23876588 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref014"><text><SENT sid="937" pm="."><plain>14 NickelC, BrockGB, HerschornS, DicksonR, HennegesC, ViktrupL. Proportion of tadalafil-treated patients with clinically meaningful improvement in lower urinary tract symptoms associated with benign prostatic hyperplasia–integrated data from 1499 study participants. BJU Int. 2014; 10.1111/bju.12926 [Epub ahead of print]. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref015"><text><SENT sid="938" pm="."><plain>15 GodmanB, FinlaysonAE, CheemaPK, Zebedin-BrandlE, Gutierrez-IbarluzeaI, JonesJ, et al Personalizing health care: feasibility and future implications. BMC Med 2013;11: 179 10.1186/1741-7015-11-179 <?supplied-pmid 23941275?>23941275 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref016"><text><SENT sid="939" pm="."><plain>16 RoehrbornCG. Current medical therapies for men with lower urinary tract symptoms and benign prostatic hyperplasia: achievements and limitations. Rev Urol. 2008;10: 14–25. <?supplied-pmid 18470272?>18470272 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref017"><text><SENT sid="940" pm="."><plain>17 LavindrasanaJ, CohenA, DepeursingeH, MullerR, MeyerR, Geissbuhler. Clinical data mining: a review. Yearb Med Inform. 2009:121–131. <?supplied-pmid 19855885?>19855885 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref018"><text><SENT sid="941" pm="."><plain>18 VermeulenA, VerdonckL, KaufmanJM. A critical evaluation of simple methods for the estimation of free testosterone in serum. J Clin Endocrinol Metab. 1999;84: 3666–3672. <?supplied-pmid 10523012?>10523012 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref019"><text><SENT sid="942" pm="."><plain>19 BarryMJ, WillifordWO, ChangY, MachiM, JonesKM, Walker-CorkeryE, et al Benign prostatic hyperplasia specific health status measures in clinical research: how much change in the American Urological Association symptom index and the benign prostatic hyperplasia impact index is perceptible to patients? J Urol. 1995b;154: 1770–1774.7563343 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref020"><text><SENT sid="943" pm="."><plain>20AUA Practice Guidelines Committee. </plain></SENT>
+<SENT sid="944" pm="."><plain>AUA guideline on management of benign prostatic hyperplasia (2010). </plain></SENT>
+<SENT sid="945" pm="."><plain>Available: <ext-link ext-link-type="uri" xlink:href="http://www.auanet.org/education/guidelines/benign-prostatic-hyperplasia.cfm">http://www.auanet.org/education/guidelines/benign-prostatic-hyperplasia.cfm</ext-link>. </plain></SENT>
+<SENT sid="946" pm="."><plain>Accessed 16 December 2014. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref021"><text><SENT sid="947" pm="."><plain>21 BarryMJ, CantorA, RoehrbornCG, CAMUS Study Group. Relationships among participant international prostate symptom score, benign prostatic hyperplasia impact index changes and global ratings of change in a trial of phytotherapy in men with lower urinary tract symptoms. J Urol. 2013;189: 987–992. 10.1016/j.juro.2012.08.257 <?supplied-pmid 23017510?>23017510 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref022"><text><SENT sid="948" pm="."><plain>22 HommaY, KawabeK, TsukamotoT, YamaguchiO, OkadaK, AsoY, et al Estimate criteria for efficacy of treatment in benign prostatic hyperplasia. Int J Urol.1996;3: 267–273. <?supplied-pmid 8844281?>8844281 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref023"><text><SENT sid="949" pm="."><plain>23 ViktrupL, HayesRP, WngP, ShenW. Construct of validation of patient global impression of severity (<z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-S) and improvement (<z:uniprot sup="inside" fb="0" ids="O74213,A1CIV8,B8N8M2,A2QAH3,P26213,Q2UHL4,Q0CMU3">PGI</z:uniprot>-I) questionnaires in the treatment of men with lower urinary tract symptoms secondary to benign prostatic hyperplasia. BMC Urology. 2012;12: 30 10.1186/1471-2490-12-30 <?supplied-pmid 23134716?>23134716 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref024"><text><SENT sid="950" pm="."><plain>24 De VetHC, TerweeCB, OsteloRW, BeckermanH, KnolDL, BouterLM. Minimal changes in health status questionnaires: distinction between minimally detectable change and minimally important change. Health Qual Life Outcomes. 2006;4: 54 <?supplied-pmid 16925807?>16925807 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref025"><text><SENT sid="951" pm="."><plain>25 BreimanL, FriedmanJH, OlshenRA, StoneCJ. Classification and Regression Trees Chapman &amp; Hall, New York, 1993. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref026"><text><SENT sid="952" pm="."><plain>26 BenderR, GrouvenU. Ordinal logistic regression in medical research. J Royal College of Physicians of London.1997;31: 546–551. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref027"><text><SENT sid="953" pm="."><plain>27 PodgorelecV, KokolP, StiglicB, RozmanI. Decision trees: an overview and their use in medicine. J Med Syst. 2002;26: 445–463. <?supplied-pmid 12182209?>12182209 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref028"><text><SENT sid="954" pm="."><plain>28 CortesC, VapnikV. Support-Vector Networks. Machine Learning 1995; 20: 273–297. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref029"><text><SENT sid="955" pm="."><plain>29 BreimanL. Random Forests. Machine Learning. 2001;45(1): 5–32. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref030"><text><SENT sid="956" pm="."><plain>30 FawcettT. An introduction to ROC analysis. Pattern Recognition Letters. 2006 27:861–74. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref031"><text><SENT sid="957" pm="."><plain>31Therneau T, Atkinson B, Ripley B. rpart: Recursive Partitioning. </plain></SENT>
+<SENT sid="958" pm="."><plain>R package version 3.1–5; 2012. </plain></SENT>
+<SENT sid="959" pm="."><plain>URL: <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org/package=rpart">http://cran.r-project.org/package=rpart</ext-link>. </plain></SENT>
+<SENT sid="960" pm="."><plain>Accessed January 2015. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref032"><text><SENT sid="961" pm="."><plain>32Meyer D, Dimitriadou E, Hornik L, Weingessel A, Leisch F, Chang CC, et al. </plain></SENT>
+<SENT sid="962" pm="."><plain>Package e1071: Misc functions of the department of statistics (e1071), TU Wien. </plain></SENT>
+<SENT sid="963" pm="."><plain>R package version 1.6–1. </plain></SENT>
+<SENT sid="964" pm="."><plain>URL: <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org/web/packages/e1071/index.html">http://cran.r-project.org/web/packages/e1071/index.html</ext-link>. </plain></SENT>
+<SENT sid="965" pm="."><plain>Accessed January 2015. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref033"><text><SENT sid="966" pm="."><plain>33 LiawA, WienerM. Classification and regression by randomForext. R News. 2002;2(3): 18–22  </plain></SENT>
+</text></ref><ref id="pone.0135484.ref034"><text><SENT sid="967" pm="."><plain>34 LeporH. Evaluating men with benign prostatic hyperplasia. Rev Urol. 2004;6 (suppl 1): S8–<z:uniprot sup="inside" fb="8" ids="P13425,P13426,P13424,P33192">S15</z:uniprot>. <?supplied-pmid 16985855?>16985855 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref035"><text><SENT sid="968" pm="."><plain>35 RoehrbornCG, ChappleC, OelkeM, CoxD, EslerA, ViktrupL. Effects of tadalafil once daily on maximum urinary flow rate in men with lower urinary tract symptoms suggestive of benign prostatic hyperplasia. J Urol. 2014;191: 1045–1050. 10.1016/j.juro.2013.10.074 <?supplied-pmid 24445278?>24445278 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref036"><text><SENT sid="969" pm="."><plain>36 BrockG, BroderickG, RoehrbornC, XuL, WongD, ViktrupL. Tadalafil once daily in the treatment of lower urinary tract symptoms (LUTS) suggestive of benign prostatic hyperplasia (BPH) in men without erectile dysfunction. BJU Int. 2013;112: 990–997. 10.1111/bju.12251 <?supplied-pmid 23937669?>23937669 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref037"><text><SENT sid="970" pm="."><plain>37 BrockG, McVaryK, RoehrbornC, WattsS, NiX, ViktrupL, et al Direct effects of tadalafil on lower urinary tract symptoms versus indirect effects mediated through erectile dysfunction symptom improvement: integrated data analyses from 4 placebo controlled clinical studies. J Urol. 2014;191: 405–411. 10.1016/j.juro.2013.09.057 <?supplied-pmid 24096120?>24096120 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref038"><text><SENT sid="971" pm="."><plain>38 BecharaA, CasabeA, Rodriguez BaigorriG, CobrerosC. Effectiveness of tadalafil 5mg once daily in the treatment of men with lower urinary tract symptoms suggestive to benign prostatic hyperplasia with or without erectile dysfunction: results from naturalistic observational TadaLutsEd study. J Sex Med. 2014;11: 498–505. 10.1111/jsm.12386 <?supplied-pmid 24224728?>24224728 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref039"><text><SENT sid="972" pm="."><plain>39 KaplanSA. Factors in predicting failure with medical therapy for BPH. Rev Urol. 2005;7(suppl 7): S34–S39. <?supplied-pmid 16986060?>16986060 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref040"><text><SENT sid="973" pm="."><plain>40 GacciM, CoronaG, SalviM, VignozziL, McVaryKT, KaplanSA, et al A systematic review and meta-analysis on the use of <z:uniprot sup="inside" fb="0" ids="Q8MLZ3">phosphodiesterase 5</z:uniprot> inhibitors alone or in combination with alpha-blockers for lower urinary tract symptoms due to benign prostatic hyperplasia. Eur Urol. 2012;61: 994–1003. 10.1016/j.eururo.2012.02.033 <?supplied-pmid 22405510?>22405510 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref041"><text><SENT sid="974" pm="."><plain>41 ParkHJ, ParkNC. The significance of testosterone levels and the efficacy of tadalafil 5mg once daily for lower urinary tract symptoms AUA University 2014; Abstract PD25-08. </plain></SENT>
+<SENT sid="975" pm="."><plain>URL: <ext-link ext-link-type="uri" xlink:href="https://www.auanet.org/university/abstract_detail.cfm?id=PD25-08&amp;meetingID=14ORL">https://www.auanet.org/university/abstract_detail.cfm?id=PD25-08&amp;meetingID=14ORL</ext-link>. </plain></SENT>
+<SENT sid="976" pm="."><plain>Accessed January 2015. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref042"><text><SENT sid="977" pm="."><plain>42 YangYG, KohJS, KoHJ, ChoKJ, KimJC, LeeSJ, et al The influence of depression, anxiety and somatization on the clinical symptoms and treatment response in patients with symptoms of lower urinary tract symptoms suggestive of benign prostatic hyperplasia. J Korean Med Sci. 2014;29(8):1145–51. 10.3346/jkms.2014.29.8.1145 <?supplied-pmid 25120327?>25120327 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref043"><text><SENT sid="978" pm="."><plain>43 UmYH, KohJS, KoHJ, ChoKJ, KimJC, LeeSJ, et al The predictor analysis of response to routine treatment in patients with lower urinary tract symptoms suggestive of benign prostatic hyperplasia. Neuro Endocrinol Lett. 2014;35(2):116–22. <?supplied-pmid 24878980?>24878980 </plain></SENT>
+</text></ref><ref id="pone.0135484.ref044"><text><SENT sid="979" pm="."><plain>44 OelkeM, ShinghalR, SontagA, BayganiSK, DonatucciCF. Time to onset of clinically meaningful improvement with tadalafil 5mg once daily in the treatment of men with lower urinary tract symptoms secondary to benign prostatic hyperplasia: analysis of data pooled from four pivotal, double-blind, placebo-controlled studies. J Urol 2014; pii: S0022-5347(14)05030-7. 10.1016/j.juro.2014.11.094 [Epub ahead of print]. </plain></SENT>
+</text></ref><ref id="pone.0135484.ref045"><text><SENT sid="980" pm="."><plain>45 HofmannTC, MontoriVM, De MarC. The connection between evidence-based medicine and shared decision making. <z:uniprot sup="inside" fb="0" ids="Q9XT56,Q2WGK2,Q9Y624,O88792,Q9JHY1">JAMA</z:uniprot>. 2014;312: 1295–1296. 10.1001/jama.2014.10186 <?supplied-pmid 25268434?>25268434 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

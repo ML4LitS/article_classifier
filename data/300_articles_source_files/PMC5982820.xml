@@ -1,0 +1,710 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">G3 (Bethesda)</journal-id><journal-id journal-id-type="iso-abbrev">Genetics</journal-id><journal-id journal-id-type="hwp">G3: Genes, Genomes, Genetics</journal-id><journal-id journal-id-type="pmc">G3: Genes, Genomes, Genetics</journal-id><journal-id journal-id-type="publisher-id">G3: Genes, Genomes, Genetics</journal-id><journal-title-group><journal-title>G3: Genes|Genomes|Genetics</journal-title></journal-title-group><issn pub-type="epub">2160-1836</issn><publisher><publisher-name>Genetics Society of America</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5982820</article-id><article-id pub-id-type="pmid">29661842</article-id><article-id pub-id-type="publisher-id">GGG_200038</article-id><article-id pub-id-type="doi">10.1534/g3.118.200038</article-id><article-categories><subj-group subj-group-type="heading"><subject>Investigations</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Accounting for Genotype-by-Environment Interactions and Residual Genetic Variation in Genomic Selection for Water-Soluble Carbohydrate Concentration in Wheat </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Ovenden</surname><given-names>Ben</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2015-1650</contrib-id><xref ref-type="aff" rid="aff1">*</xref><xref ref-type="corresp" rid="cor1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Milgate</surname><given-names>Andrew</given-names></name><xref ref-type="aff" rid="aff2"><sup>†</sup></xref></contrib><contrib contrib-type="author"><name><surname>Wade</surname><given-names>Len J.</given-names></name><xref ref-type="aff" rid="aff3"><sup>‡</sup></xref><xref ref-type="author-notes" rid="afn2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name><surname>Rebetzke</surname><given-names>Greg J.</given-names></name><xref ref-type="aff" rid="aff4"><sup>§</sup></xref></contrib><contrib contrib-type="author"><name><surname>Holland</surname><given-names>James B.</given-names></name><xref ref-type="aff" rid="aff5">**</xref></contrib><aff id="aff1"><label>*</label>NSW Department of Primary Industries, Yanco Agricultural Institute, Yanco NSW 2703, Australia</aff><aff id="aff2"><label>†</label>NSW Department of Primary Industries, Wagga Wagga Agricultural Institute, Wagga Wagga NSW 2650, Australia</aff><aff id="aff3"><label>‡</label>Charles Sturt University, Graham Centre, Wagga Wagga NSW 2678, Australia</aff><aff id="aff4"><label>§</label>CSIRO Agriculture and Food, Canberra, ACT 2601, Australia</aff><aff id="aff5"><label>**</label>USDA-ARS Plant Science Research Unit and North Carolina State University Department of Crop and Soil Sciences, Raleigh, NC 27695-7620</aff></contrib-group><author-notes><corresp id="cor1"><label>1</label>Corresponding author: NSW Department of Primary Industries, Yanco Agricultural Institute, Private Mail Bag, Yanco NSW 2703, Australia, E-mail: <email>ben.ovenden@dpi.nsw.gov.au</email></corresp><fn id="afn2" fn-type="present-address"><label>2</label><p><text><SENT sid="1" pm="."><plain>Present address: The University of Queensland, School of Agriculture and Food Sciences, Brisbane QLD 4072, Australia </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>16</day><month>4</month><year>2018</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2018</year></pub-date><volume>8</volume><issue>6</issue><fpage>1909</fpage><lpage>1919</lpage><history><date date-type="received"><day>11</day><month>1</month><year>2018</year></date><date date-type="accepted"><day>29</day><month>3</month><year>2018</year></date></history><permissions><copyright-statement>Copyright © 2018 Ovenden <italic>et al.</italic></copyright-statement><copyright-year>2018</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:title="pdf" xlink:type="simple" xlink:href="1909.pdf"/><abstract><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Abiotic stress tolerance traits are often complex and recalcitrant targets for conventional breeding improvement in many crop species. </plain></SENT>
+<SENT sid="3" pm="."><plain>This study evaluated the potential of genomic selection to predict water-soluble carbohydrate concentration (WSCC), an important drought tolerance trait, in wheat under field conditions. </plain></SENT>
+<SENT sid="4" pm="."><plain>A panel of 358 varieties and breeding lines constrained for maturity was evaluated under rainfed and irrigated treatments across two locations and two years. </plain></SENT>
+<SENT sid="5" pm="."><plain>Whole-genome marker profiles and factor analytic mixed models were used to generate genomic estimated breeding values (GEBVs) for specific environments and environment groups. </plain></SENT>
+<SENT sid="6" pm="."><plain>Additive genetic variance was smaller than residual genetic variance for WSCC, such that genotypic values were dominated by residual genetic effects rather than additive breeding values. </plain></SENT>
+<SENT sid="7" pm="."><plain>As a result, GEBVs were not accurate predictors of genotypic values of the extant lines, but GEBVs should be reliable selection criteria to choose parents for intermating to produce new populations. </plain></SENT>
+<SENT sid="8" pm="."><plain>The accuracy of GEBVs for untested lines was sufficient to increase predicted genetic gain from genomic selection per unit time compared to phenotypic selection if the breeding cycle is reduced by half by the use of GEBVs in off-season generations. </plain></SENT>
+<SENT sid="9" pm="."><plain>Further, genomic prediction accuracy depended on having phenotypic data from environments with strong correlations with target production environments to build prediction models. </plain></SENT>
+<SENT sid="10" pm="."><plain>By combining high-density marker genotypes, stress-managed field evaluations, and mixed models that model simultaneously covariances among genotypes and covariances of complex trait performance between pairs of environments, we were able to train models with good accuracy to facilitate genetic gain from genomic selection. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>Genomic Selection</kwd><kwd>residual genetic variation</kwd><kwd>genotype-by-environment interaction</kwd><kwd>factor analytic model</kwd><kwd>relative accuracy</kwd><kwd>GenPred</kwd><kwd>Shared Data Resources</kwd></kwd-group></SecTag><counts><fig-count count="2"/><table-count count="2"/><equation-count count="11"/><ref-count count="95"/><page-count count="11"/></counts></article-meta></front><body><p><text><SENT sid="11" pm="."><plain>Abiotic stresses such as water deficit during the growing season are a major limitation to crop production worldwide (Fischer et al. 2014; Ray et al. 2015; Foulkes and Reynolds 2015). </plain></SENT>
+<SENT sid="12" pm="."><plain>However, the incidence and severity, as well as the timing of water deficit can differ markedly between sites and years, contributing to the historically low rates of genetic gain for yield in water deficit environments compared to well-watered environments (Richards et al. 2010; Araus et al. 2002). </plain></SENT>
+</text></p><p><text><SENT sid="13" pm="."><plain>An alternative to selection for grain yield directly is to identify useful traits that confer physiological adaptation to water deficit conditions (Rebetzke et al. 2009; Bernier et al. 2008; Reynolds et al. 2016; Lopes et al. 2011). </plain></SENT>
+<SENT sid="14" pm="."><plain>For example, selection for major genes for reduced height and photoperiod insensitivity has been used to alter plant architecture and provide drought escape potential in wheat (Passioura 1996; Bennett et al. 2012; Kamran et al. 2014). </plain></SENT>
+<SENT sid="15" pm="."><plain>Water soluble carbohydrate (WSC) accumulation and remobilization can contribute to performance under water deficit as a source of assimilate for grain filling in many crop species (Slewinski 2012). </plain></SENT>
+<SENT sid="16" pm="."><plain>Carbohydrate accumulation occurs when the crop synthesizes assimilate at a rate greater than needed by the various sinks (for example, developing florets, elongating shoots and roots). </plain></SENT>
+<SENT sid="17" pm="."><plain>For wheat, the excess carbohydrate is stored mainly in the lower parts of stems and culms (Gebbing 2003), where the quantity of WSC can reach as much as 40% of total stem weight (Schnyder 1993). </plain></SENT>
+<SENT sid="18" pm="."><plain>The main sink for remobilization of WSC is the developing grain (Schnyder 1993; Takahashi et al. 2001; van Herwaarden et al. 1998). </plain></SENT>
+<SENT sid="19" pm="."><plain>Remobilized WSC can contribute as much as 30–50% of grain yield under terminal drought conditions, and around 10–20% under well-watered conditions (Bidinger et al. 1977; Schnyder 1993; Pheloung and Siddique 1991; Gebbing and Schnyder 1999). </plain></SENT>
+</text></p><p><text><SENT sid="20" pm="."><plain>Selection for increased WSC in cereal breeding programs has been advocated for some time (Blum 1998), and may be an alternative to direct selection for grain yield under water deficit conditions (Asseng and van Herwaarden 2003). </plain></SENT>
+<SENT sid="21" pm="."><plain>Previous studies indicate higher broad-sense heritability for WSC concentration (WSCC) compared to grain yield, and more stable genotype rankings within a target population of environments (Ruuska et al. 2006; Dreccer et al. 2013; Piaskowski et al. 2016). </plain></SENT>
+<SENT sid="22" pm="."><plain>Indirect selection for WSCC by breeders has already occurred in some environments. </plain></SENT>
+<SENT sid="23" pm="."><plain>For example, Rebetzke et al. (2009) reviewed the trend for increasing WSCC with year of variety release observed for Western Australian and the International Maize and Wheat Improvement Center (CIMMYT) wheat breeding programs. Shearman et al. (2005) also reported that UK wheat cultivars showed increased WSCC with progressive year of release. </plain></SENT>
+<SENT sid="24" pm="."><plain>However, WSCC is not predicted to be a useful indirect selection criterion for yield improvement in some cases (Ovenden et al. 2017); furthermore, phenotyping for abiotic stress characteristics such as WSCC is resource intensive and phenotypic selection may not always be feasible in a breeding program. </plain></SENT>
+<SENT sid="25" pm="."><plain>The practical utility of WSCC for breeding appears to be context-dependent and requires empirical investigation for specific populations and environments. </plain></SENT>
+</text></p><p><text><SENT sid="26" pm="."><plain>New genomic approaches may be more efficient to select for abiotic stress traits than conventional phenotypic selection, as genomic selection can leverage the information obtained from difficult and expensive phenotyping (Lin et al. 2014; Cooper et al. 2014; Leplat et al. 2016), to enable more rapid and inexpensive selection for many loci that may be involved in the inheritance of these complex traits (Vivek et al. 2016; de los Campos et al. 2013). </plain></SENT>
+<SENT sid="27" pm="."><plain>Comprehensive phenotyping is still an important part of the breeding process when genomic selection is applied, as it is essential to build accurate prediction models. </plain></SENT>
+<SENT sid="28" pm="."><plain>However, early generation nursery screens can be replaced with genomic screens (Sallam et al. 2015), and expensive field trials can be augmented by genetic material ‘enriched’ through genomic selection (Heffner et al. 2009). </plain></SENT>
+</text></p><p><text><SENT sid="29" pm="."><plain>Genomic selection methods use marker-based measures of realized relatedness from whole-genome marker profiles to predict genomic estimated breeding values (GEBVs) of progeny (Habier et al. 2013; Meuwissen et al. 2001; de los Campos et al. 2013). </plain></SENT>
+<SENT sid="30" pm="."><plain>For lines that have both genotype and phenotype data, GEBVs can be combined with the residual line effect estimates to produce Genomic Best Linear Unbiased Predictors (G-BLUPs) for the total genotypic value, hereafter referred to as the genotypic value (GV) as described in Oakey et al. (2016). </plain></SENT>
+<SENT sid="31" pm="."><plain>As reviewed by Hill (2012); Nakaya and Isobe (2012) and de los Campos et al. (2013), a key difference between genomic and phenotypic selection is the potential reduction in breeding cycle time. </plain></SENT>
+<SENT sid="32" pm="."><plain>Although genomic predictions of untested individuals are typically less accurate than well-replicated phenotypic evaluations, genomic selection may be more effective over time because of the opportunity to implement selection in additional generations per unit of time. </plain></SENT>
+<SENT sid="33" pm="."><plain>If breeding cycles can be shortened, then relative accuracy can also decrease while still achieving greater genetic gain than phenotypic selection (Desta and Ortiz 2014). </plain></SENT>
+</text></p><p><text><SENT sid="34" pm="."><plain>Developing suitable genomic selection models for abiotic stress tolerance characteristics requires the consideration of complex genotype × environment interactions (hereafter G × E interactions) within and across a target population of environments because expression of these traits is often environmentally-dependent. </plain></SENT>
+<SENT sid="35" pm="."><plain>Complex patterns of G × E interactions can be incorporated into genomic prediction models, and although G × E interactions will necessarily limit gains from selection for wide adaptation, models that incorporate G × E effects can help breeders select sets of lines optimally adapted to different subsets of environments. </plain></SENT>
+<SENT sid="36" pm="."><plain>One such approach is to use parsimonious mixed models, such as factor analytic (FA) models, that attempt to capture most of the G × E signal with a reduced number of parameters compared to a full unstructured covariance model (Guo et al. 2013; Burgueño et al. 2012; Oakey et al. 2016). </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>The objective of this study was to evaluate the ability of genomic selection models to predict a complex physiological trait (WSCC) in both untested lines and in new environments using a mixed-model that accounts for variation in the pairwise correlations of performance in different pairs of environments. </plain></SENT>
+</text></p><SecTag type="METHODS"><sec sec-type="materials|methods" id="s1"><title><text><SENT sid="38" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s2"><title><text><SENT sid="39" pm="."><plain>Genotypes </plain></SENT>
+</text></title><p><text><SENT sid="40" pm="."><plain>The set of 358 lines used in this study was selected from a multi-site, multi-year irrigated winter cereals evaluation trial with a total of 1,314 genotypes. </plain></SENT>
+<SENT sid="41" pm="."><plain>The genetic entries included both elite breeding lines and contemporary commercial varieties from Australian wheat breeding companies and CIMMYT representing a range of maturity types. </plain></SENT>
+</text></p><p><text><SENT sid="42" pm="."><plain>As WSC accumulation varies according to development stage (Ehdaie et al. 2008), this study aimed to assess genotypes as close as practicable to a common anthesis date. </plain></SENT>
+<SENT sid="43" pm="."><plain>At the Yanco irrigated experiment in 2009, a total of 358 breeding lines and varieties out of the 990 grown in the experiment were selected based on common Zadoks’ development score (Zadoks et al. 1974) taken at approximately mid-anthesis. </plain></SENT>
+<SENT sid="44" pm="."><plain>Lines selected were between Z49 (early head emergence) and Z56 (60% heading) which corresponds to a range of approximately 3-5 days difference in anthesis date in south-eastern Australia. </plain></SENT>
+<SENT sid="45" pm="."><plain>For the second year of this study in 2010, the same breeding lines were selected for WSCC measurement except for 11 breeding lines that were excluded from the overall experiment in that year. </plain></SENT>
+</text></p><p><text><SENT sid="46" pm="."><plain>Lines were genotyped using the Illumina 9k Infinium iSelect beadchip array (Cavanagh et al. 2013) resulting in 4,883 polymorphic SNPs across the population (File S1). </plain></SENT>
+<SENT sid="47" pm="."><plain>Missing values were imputed using Beagle (Browning and Browning 2009) implemented in the R package Synbreed (Wimmer et al. 2012). </plain></SENT>
+<SENT sid="48" pm="."><plain>The resulting 4,162 SNP markers (excluding markers that were duplicated, monomorphic, and those with minor allele frequency of less than 5%) were used to compute a scaled identity by descent relationship matrix (K) after Endelman and Jannink (2012) (File S2). </plain></SENT>
+<SENT sid="49" pm="."><plain>There was little evidence of population structure in the set of lines used in this study, with the first two eigenvectors of the K matrix accounting for approximately 15% of the observed variation in genomic relationships. </plain></SENT>
+<SENT sid="50" pm="."><plain>A principal components plot of these eigenvectors showed no obvious clustering of lines (File S3). </plain></SENT>
+</text></p></sec><sec id="s3"><title><text><SENT sid="51" pm="."><plain>Experimental design </plain></SENT>
+</text></title><p><text><SENT sid="52" pm="."><plain>Experiments in this study were grown in south-eastern Australia at Coleambally and Yanco in 2009 and 2010. </plain></SENT>
+<SENT sid="53" pm="."><plain>A split-plot design was used, in which the main-plot factor was irrigation treatment (irrigated or rainfed), and the 990 genotype entries (including the subset of genotypes for WSCC phenotyping) were the sub-plot factor. </plain></SENT>
+<SENT sid="54" pm="."><plain>There were two replicates of each treatment at each site. </plain></SENT>
+<SENT sid="55" pm="."><plain>The placement of genotypes within field experiment layouts was optimized with the spatial design package DiGGer (Coombes 2002). </plain></SENT>
+<SENT sid="56" pm="."><plain>For the laboratory phase measuring WSCC using near-infrared spectroscopy (NIRS), an experimental design structured by day of measurement and NIRS instrument carousel and well was implemented to account for laboratory as well as field sources of experimental error. </plain></SENT>
+<SENT sid="57" pm="."><plain>Samples from both field sites were pooled into one experimental design for each year, and the placement of genotypes within the laboratory experimental phase was also optimized with DiGGer (Coombes 2002), with partial replication of 20% of experiment field plots sampled (i.e., a replication level of 1.20), following the methods in Cullis et al. (2006) and Smith et al. (2006). </plain></SENT>
+</text></p><p><text><SENT sid="58" pm="."><plain>Experiments were sown on a full profile of moisture, achieved by flood irrigating each site four to six weeks before sowing, so that the focus on water deficit conditions would be in the later stages of crop growth. </plain></SENT>
+<SENT sid="59" pm="."><plain>Sowing dates were targeted for the first two weeks of May. </plain></SENT>
+<SENT sid="60" pm="."><plain>Pre-sowing nitrogen was targeted to be approximately 120 kg N ha-1. </plain></SENT>
+<SENT sid="61" pm="."><plain>Irrigated experiments were fertilized further to a total of approximately 300 kg N ha-1, consistent with the estimated nitrogen demand by the crops. </plain></SENT>
+<SENT sid="62" pm="."><plain>Experiments were subject to a strict weed, pest and disease control regime to maximize yield potential. </plain></SENT>
+<SENT sid="63" pm="."><plain>Irrigation scheduling for the irrigated treatments was intended to maintain soil water potentials above -100 kPa during the growing season, with irrigations commencing as soil water potential fell below -75 kPa. </plain></SENT>
+</text></p></sec><sec id="s4"><title><text><SENT sid="64" pm="."><plain>Water-soluble carbohydrate measurement </plain></SENT>
+</text></title><p><text><SENT sid="65" pm="."><plain>Tissue for WSCC analysis was sampled from a 50 cm long section of row (0.09 m2) in each plot when the irrigated treatments at each site were approximately 180° d post-anthesis, following the methods of Rebetzke et al. (2008). </plain></SENT>
+<SENT sid="66" pm="."><plain>Approximately 5-10 stalks (including leaves, leaf sheaths and heads, but not senesced plant material) from each sample were ground to pass through a 2 mm sieve. </plain></SENT>
+<SENT sid="67" pm="."><plain>Ground biomass samples were homogenized and subsampled for scanning by NIRS with a Bruker Multi-purpose Analyzer (Bruker Optik GmbH, Ettlingen, Germany) and OPUS software (version 5.1), and WSCC for the NIRS calibration samples (10% of the full set) was determined using the alkaline ferricyanide method (Piltz and Law 2007). </plain></SENT>
+<SENT sid="68" pm="."><plain>For the 2009 experiment, the coefficient of determination for the calibration linear model was r2 = 0.92 and the root-mean-square error of cross-validation (RMSECV) was 15.4. </plain></SENT>
+<SENT sid="69" pm="."><plain>For the 2010 experiment, the calibration linear model r2 = 0.92 and the RMSECV = 16.0. </plain></SENT>
+<SENT sid="70" pm="."><plain>The WSCC phenotype data are provided in File S4. </plain></SENT>
+</text></p></sec><sec id="s5"><title><text><SENT sid="71" pm="."><plain>Statistical methods </plain></SENT>
+</text></title><p><text><SENT sid="72" pm="."><plain>A single-stage, multiplicative linear mixed model was used to analyze the multi-experiment data with the molecular marker data following the approaches of Beeck et al. (2010) and Oakey et al. (2016). </plain></SENT>
+<SENT sid="73" pm="."><plain>The linear mixed model was:y=Xτ+Zgua+Zgua¯+Zuu+ηwhere y is the n×1 data vector of the response variable across p experiments with Nj plots per experiment j. </plain></SENT>
+<SENT sid="74" pm="."><plain>Each combination of year (2009, 2010), site (YANA, COLE) and irrigation treatment (IRR, RFD) was treated as a separate experiment so that p=8. τ is a t×1 vector of fixed effects for the corresponding n×t design matrix (X), including experiment main and design-based effects. </plain></SENT>
+<SENT sid="75" pm="."><plain>The term u is a random component with associated design matrix Zu and contains experiment-specific terms used to capture extraneous variation (after Gilmour et al. 1997), including the blocking structure of the field (row, range, replicate and irrigation bay), and laboratory (day of measurement, instrument carousel and carousel well) phases of the design. </plain></SENT>
+<SENT sid="76" pm="."><plain>The n×1 residual vector η was modeled within each year of the laboratory phase design. </plain></SENT>
+<SENT sid="77" pm="."><plain>The m×1 vector of genetic line within environment effects g, with corresponding design matrix Zg, is partitioned into a vector of additive line within environment effects ua and residual line within environment effects ua¯ such that g=ua+ua¯, following the approach of Oakey et al. (2006). </plain></SENT>
+<SENT sid="78" pm="."><plain>The difference between the ‘additive’ and ‘residual’ genetic effects is that the additive effects have a covariance structure proportional to the realized additive genetic relationship matrix, whereas the residual genetic effects are independent among lines. </plain></SENT>
+<SENT sid="79" pm="."><plain>When we arrange the vectors of additive and residual genetic-within-environment effects ordered as m genotypes within each of p environments matrices, their covariance structures are:var(ua)= Gea ⊗ Kvar(ua¯)= Gea¯ ⊗ Imwhere K is the m×m realized genomic relationship matrix estimated from the marker data described above and  Im  is an m×m identity matrix. </plain></SENT>
+<SENT sid="80" pm="."><plain>For each variance model above, Gea and Gea¯ are the p×p matrices of variances and covariances of additive and residual genetic effects across environments, respectively. </plain></SENT>
+<SENT sid="81" pm="."><plain>Factor analytic models of different orders (different k) can be used to model the two genetic components (Smith et al. 2001). </plain></SENT>
+<SENT sid="82" pm="."><plain>For a factor analytic model, these matrices are decomposed asGea=(Λeap×kaΛea’ + ψea) Gea¯=(Λea¯p×ka¯Λea¯’ + ψea¯).Here, Λ is a p×k matrix of p environment loadings for k factors retained in the factor analytic model, and ψ is a diagonal matrix of the p environment specific variances. </plain></SENT>
+</text></p><p><text><SENT sid="83" pm="."><plain>A series of mixed models of increasing complexity of the Gea and Gea¯ terms were fitted to the data. </plain></SENT>
+<SENT sid="84" pm="."><plain>First, we fitted diagonal covariance structures, in which the genetic variance was allowed to vary among experiments, but genetic effects were uncorrelated between experiments. </plain></SENT>
+<SENT sid="85" pm="."><plain>Then a sequence of factor analytic models in which the covariances of genotype effects were allowed to vary within and among experiments were fitted to the data. </plain></SENT>
+<SENT sid="86" pm="."><plain>Factor analytic models for each combination of k = 1 or 2 factors for each of the two genetic effects were used (Table 1). </plain></SENT>
+<SENT sid="87" pm="."><plain>Selection of the final model was performed on the basis of Akaike’s Information Criterion (AIC); (Akaike 1974), and log likelihood ratio tests comparing the nested FA models (Stram and Lee 1994). </plain></SENT>
+<SENT sid="88" pm="."><plain>All data were analyzed using the software package ASReml-R (Butler et al. 2009), in the R environment (R Development Core Team 2012). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="t1" position="float"><label>Table 1</label><caption><title><text><SENT sid="89" pm="."><plain>Factor analytic models fitted to the dataset for genomic prediction. </plain></SENT>
+<SENT sid="90" pm="."><plain>Increasing order factor models were assessed using AIC and log likelihood ratio tests comparing nested models. </plain></SENT>
+<SENT sid="91" pm="."><plain>The model with additive: FA2 and residual genetic: FA2 covariance structure shows a significant improvement in fit from both additive: <z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> / residual genetic: <z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> and additive: <z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> / residual genetic: FA2 models and is referred to as the final model. </plain></SENT>
+<SENT sid="92" pm="."><plain>Higher order models were not possible to fit with the computing resources available </plain></SENT>
+</text></title></caption><table frame="border" rules="groups"><col width="9.91%" span="1"/><col width="10.57%" span="1"/><col width="9.04%" span="1"/><col width="11.02%" span="1"/><col width="11%" span="1"/><col width="13.22%" span="1"/><col width="15.43%" span="1"/><col width="7.71%" span="1"/><col width="12.1%" span="1"/><thead><tr><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>Covariance structure - Additive </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>Covariance structure - Residual genetic </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>REML Log Likelihood </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>AIC </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>Parameters </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>Full / reduced model parameters difference </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>Log likelihood ratio test model comparison: </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>Critical value </plain></SENT>
+</text></th><th valign="middle" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>P value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td valign="middle" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>DIAG </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>DIAG </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>4037.480 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>−8042.956 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>16 </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>— </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>— </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>— </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>— </plain></SENT>
+</text></td></tr><tr><td valign="middle" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>4405.638 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>−8747.276 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>32 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>16 </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>to DIAG/DIAG </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>736.32 </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>2.389×10−146 </plain></SENT>
+</text></td></tr><tr><td valign="middle" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>FA2 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>4465.921 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>−8853.842 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>39 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>7 </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>to <z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>120.57 </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>5.840×10−23 </plain></SENT>
+</text></td></tr><tr><td valign="middle" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>FA2 </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>4453.568 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>−8829.136 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>39 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>7 </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>to <z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot>/<z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot> </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>95.86 </plain></SENT>
+</text></td><td valign="middle" align="center" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>7.708×10−18 </plain></SENT>
+</text></td></tr><tr><td valign="middle" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>FA2 </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>FA2 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>4473.418 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>−8854.836 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>46 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>7 </plain></SENT>
+</text></td><td valign="middle" align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>to <z:uniprot sup="inside" fb="0" ids="Q9D0T1">FA1</z:uniprot>/FA2 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>14.99 </plain></SENT>
+</text></td><td valign="middle" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>0.0361 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="147" pm="."><plain>Experiment-specific GVs incorporating both additive and residual genetic effects were obtained from the final model for each line following Beeck et al. (2010). </plain></SENT>
+<SENT sid="148" pm="."><plain>The GV for line i at environment j was estimated from the random effect solutions in the final model as:GVij=u^aij+u^a¯ij(1)These GVs were used later in cross-validation analyses as the best estimates of ‘true’ genotypic values at each experiment. </plain></SENT>
+</text></p><p><text><SENT sid="149" pm="."><plain>Additive genomic estimated breeding values (GEBVs) were also obtained using the same methods but based only on the additive genetic component of the model. </plain></SENT>
+<SENT sid="150" pm="."><plain>The GEBV for line i at environment j was estimated from the random effect solutions in the final model as:GEBVij=u^aij(2)Experiments were clustered based on the matrix of genetic correlations among experiments, using the agglomerative hierarchical clustering method given in Cullis et al. (2010). </plain></SENT>
+</text></p><p><text><SENT sid="151" pm="."><plain>Broad and narrow-sense heritability estimates were calculated from the final FA model (Table 1). </plain></SENT>
+<SENT sid="152" pm="."><plain>Broad-sense heritability (H) for each trait at each experiment j was calculated following the generalized formula for unbalanced data in Cullis et al. (2006):Hj=1−APPEVGVj2σaj2+2σa¯j2where APPEVGTj is the average pairwise prediction error variance of GVs at experiment j (the variance of pairwise GV differences), and σaj2 and σa¯j2 are the additive and residual genetic variance components for experiment j, respectively. </plain></SENT>
+<SENT sid="153" pm="."><plain>Narrow-sense heritability was calculated for each trait at each experiment using:hj2=1−APPEVGEBVj2σaj2where APPEVGEBVj is the average variance of comparisons between GEBVs at experiment j, and σaj2 is the additive genetic variance component at experiment j. </plain></SENT>
+<SENT sid="154" pm="."><plain>The broad-sense heritabilities for total genotypic values of lines across all experiments and for genotypic values across experiments within each of the water deficit and well-watered environment clusters were also calculated using similar formulae. </plain></SENT>
+<SENT sid="155" pm="."><plain>In these cases, however, we estimated the additive and residual genetic variances across experiments from the average of the additive and residual pairwise covariance estimates respectively between experiments for the experiments within each environment cluster (Zila et al. 2013; Isik et al. 2017). </plain></SENT>
+</text></p></sec><sec id="s6"><title><text><SENT sid="156" pm="."><plain>Cross validation of genomic estimated breeding values </plain></SENT>
+</text></title><p><text><SENT sid="157" pm="."><plain>Fivefold cross-validation (Ogut et al. 2015; Crossa et al. 2014; Burgueño et al. 2012; Lorenz et al. 2011) was used to measure accuracy of breeding value predictions across environments. </plain></SENT>
+<SENT sid="158" pm="."><plain>Lines were randomly assigned to five subsets for a ‘fivefold’ cross validation scheme across separate experiments in the model. </plain></SENT>
+<SENT sid="159" pm="."><plain>The final FA model (Table 1) was fitted to four of the five ∼80% subsets (‘training set’) to estimate model parameters and to predict GEBVs for the remaining subset (‘validation set’) (Equation 2). </plain></SENT>
+<SENT sid="160" pm="."><plain>This procedure was repeated, holding out a different subset as the validation set each time. </plain></SENT>
+<SENT sid="161" pm="."><plain>The entire process of allocating lines to folds, estimating model parameters, and predicting GEBVs was replicated ten times. </plain></SENT>
+</text></p><p><text><SENT sid="162" pm="."><plain>The GVs from the full model including all the data (Equation 1) were considered the best estimates of the true values of total genotypic value for each line-experiment combination. </plain></SENT>
+<SENT sid="163" pm="."><plain>The correlation between the GVs within an experiment and the GEBVs for each validation set was estimated. </plain></SENT>
+<SENT sid="164" pm="."><plain>We refer to these as within-experiment prediction accuracies. </plain></SENT>
+<SENT sid="165" pm="."><plain>In addition, the ability of experiment-specific GEBVs to predict genotypic values at other experiments was estimated for each validation set as the correlation between the GEBVs for experiment i and the GVs from the full model at experiment j. </plain></SENT>
+<SENT sid="166" pm="."><plain>We refer to these as across-experiment prediction accuracies. </plain></SENT>
+</text></p><p><text><SENT sid="167" pm="."><plain>Relative accuracy of phenotypic value prediction (RAPV) at experiment j measures the relative accuracy of GEBVs for untested lines compared to the best estimates of their total genetic value within each experiment using both genomic and phenotypic data:RAPVj=corr(GEBVij,GVij)HjIn this case, the correlation value is divided by the square root of the broad-sense heritability estimate to estimate the accuracy of GEBVs relative to total genotypic value estimation with complete phenotypic data (Legarra et al. 2008). </plain></SENT>
+<SENT sid="168" pm="."><plain>We also estimated relative accuracy of breeding value prediction at experiment j (RABV):RABVj=corr(GEBVij,GVij)h2The RABV compares the accuracy of GEBVs for untested lines relative to GEBVs based on complete data. </plain></SENT>
+<SENT sid="169" pm="."><plain>The GEBVs are more informative to predict gain from selection after intermating selected lines to generate a new population of breeding lines. </plain></SENT>
+</text></p></sec><sec id="s7"><title><text><SENT sid="170" pm="."><plain>Data and reagent availability </plain></SENT>
+</text></title><p><text><SENT sid="171" pm="."><plain>The supplementary files contain the data used in this study. </plain></SENT>
+<SENT sid="172" pm="."><plain>File S1 contains the SNP genotype information, File S2 contains the relationship matrix and File S3 contains a PCA plot of the first two eigenvectors of the relationship matrix. </plain></SENT>
+<SENT sid="173" pm="."><plain>File S4 contains the phenotype dataset for WSCC. </plain></SENT>
+<SENT sid="174" pm="."><plain>File S5 is script for the models used for genomic selection and cross-validation and File S6 contains the cross-validation sets. </plain></SENT>
+<SENT sid="175" pm="."><plain>Supplemental material available at Figshare: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.25387/g3.6143243">https://doi.org/10.25387/g3.6143243</ext-link>. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="s8"><title><text><SENT sid="176" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s9"><title><text><SENT sid="177" pm="."><plain>Model selection and genotype × environment interactions </plain></SENT>
+</text></title><p><text><SENT sid="178" pm="."><plain>The 2-factor FA model for both additive and residual variance matrices was selected as the best model using the AIC (Table 1) and used for genomic prediction. </plain></SENT>
+<SENT sid="179" pm="."><plain>The proportion of within-experiment total genotypic variance that was due to additive polygenic variance in this model ranged from 15 to 50% across experiments (Table 2). </plain></SENT>
+<SENT sid="180" pm="."><plain>In the selected model, environments clustered into two distinct environmental groups based on the correlations between total genetic effects (GV) across experiments (Figure 1). </plain></SENT>
+<SENT sid="181" pm="."><plain>The groups consisted of a well-watered environment cluster, including the 2009 irrigated experiments and all 2010 experiments, and a water deficit environment represented by the two 2009 rainfed experiments. </plain></SENT>
+<SENT sid="182" pm="."><plain>This corresponded with environmental conditions encountered in this study. </plain></SENT>
+<SENT sid="183" pm="."><plain>In 2009, both sites experienced below average rainfall, and warmer air temperatures, particularly during the later stages of grain-filling. </plain></SENT>
+<SENT sid="184" pm="."><plain>Weather conditions throughout 2010 were cooler than average, with substantially above average rainfall during late spring (coinciding with the crop grain-filling period). </plain></SENT>
+<SENT sid="185" pm="."><plain>Thus the non-irrigated experiments in 2010 did not suffer water deficit. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="t2" position="float"><label>Table 2</label><caption><title><text><SENT sid="186" pm="."><plain>Genetic variances, heritability, predictive ability and relative accuracy by experiment and environment cluster, with standard deviations given in parentheses. </plain></SENT>
+<SENT sid="187" pm="."><plain>Experiment codes are given as year-site-irrigation treatment. </plain></SENT>
+<SENT sid="188" pm="."><plain>The experiments 09YANA_RFD and 09COLE_RFD constitute the water deficit experiment cluster; all other experiments are included in the well-watered experiment cluster. </plain></SENT>
+<SENT sid="189" pm="."><plain>The predictive ability of the GEBVs model at each experiment and environment cluster was divided by the broad-sense heritability to provide measures of accuracy relative to phenotypic selection (RAPV), and by the narrow-sense heritability to provide relative accuracy to total estimated breeding values (RABV) </plain></SENT>
+</text></title></caption><table frame="border" rules="groups"><col width="14.7%" span="1"/><col width="9.64%" span="1"/><col width="14.54%" span="1"/><col width="10.66%" span="1"/><col width="10.87%" span="1"/><col width="10.87%" span="1"/><col width="10.22%" span="1"/><col width="9.25%" span="1"/><col width="9.25%" span="1"/><thead><tr><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>Experiment or experiment cluster </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>Additive genetic variance </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>Residual geneticvariance </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>Proportion of genetic variance that is additive </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>Broad-sense heritability (H) </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>Narrow-sense heritability (h2) </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>Predictive ability </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>Relative accuracy against H (RAPV) </plain></SENT>
+</text></th><th valign="top" align="center" scope="col" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>Relative accuracy against h2 (RABV) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>All experiments </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>0.00824 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>0.01537 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>34.90% </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>0.778 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>0.363 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>0.480 (0.206) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>0.544 (0.234) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>0.797 (0.343) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>Well-watered </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>0.01297 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>0.02299 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>36.07% </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>0.788 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>0.413 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>0.502 (0.192) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>0.565 (0.220) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>0.781 (0.304) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>Water deficit </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>0.00914 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>0.03028 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>23.19% </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>0.810 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>0.181 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>0.455 (0.177) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>0.506 (0.197) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>1.070 (0.417) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>09COLE_IRR </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>0.012713 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>0.043910 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>22.45% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>0.853 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>0.345 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>0.503 (0.188) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>0.545 (0.203) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>0.857 (0.320) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>09COLE_RFD </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>0.014623 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>0.031643 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>31.61% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>0.760 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>0.242 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>0.471 (0.169) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>0.540 (0.194) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>0.958 (0.344) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>09YANA_IRR </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>0.013688 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>0.023822 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>36.49% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>0.791 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>0.427 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>0.535 (0.182) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>0.602 (0.205) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>0.819 (0.279) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>09YANA_RFD </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>0.006774 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>0.039412 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>14.67% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>0.891 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>0.260 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>0.445 (0.185) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>0.471 (0.196) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>0.873 (0.363) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>10COLE_IRR </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>0.018323 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0.021732 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>45.74% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>0.722 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>0.392 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>0.474 (0.192) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>0.558 (0.226) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>0.757 (0.306) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>10COLE_RFD </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>0.014472 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>0.014562 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>49.84% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>0.777 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>0.552 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>0.466 (0.179) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>0.529 (0.204) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>0.627 (0.241) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>10YANA_IRR </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>0.012508 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.042923 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>22.57% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>0.862 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>0.388 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>0.520 (0.196) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0.560 (0.211) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>0.835 (0.315) </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" scope="row" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>10YANA_RFD </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>0.009967 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>0.020868 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>32.32% </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>0.806 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>0.400 </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>0.481 (0.196) </plain></SENT>
+</text></td><td valign="top" align="char" char="." rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>0.536 (0.218) </plain></SENT>
+</text></td><td valign="bottom" align="center" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>0.760 (0.310) </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="FIG"><fig id="fig1" fig-type="figure" position="float"><label>Figure 1</label><caption><p><text><SENT sid="298" pm="."><plain>Correlations between total additive and residual genetic GV values in different experiments based on the full data set (above the diagonal) and correlations between additive GEBVs in different experiments, based on the full data set (below the diagonal). </plain></SENT>
+<SENT sid="299" pm="."><plain>Experiment codes are given as year-site-irrigation treatment. </plain></SENT>
+</text></p></caption><graphic xlink:href="1909f1"/></fig></SecTag><p><text><SENT sid="300" pm="."><plain>Averaged across experiments in each environment cluster, the proportion of total genetic variance that was additive was 36% for the well-watered environment cluster, and 23% for the water deficit environment cluster (Table 2). </plain></SENT>
+<SENT sid="301" pm="."><plain>Very similar patterns of relationships and clustering among environments were observed based on the correlations of additive-only genetic effects between environments (Figure 1), although the 09YANA_RFD experiment was less distinct from the well-watered cluster in this case than when the total genotypic correlations were considered. </plain></SENT>
+<SENT sid="302" pm="."><plain>Correlations between the residual genetic effects of different environments also revealed a similar pattern, but with a slightly weaker correlation between 09COLE_IRR and the other well-watered environment experiments (Figure 1). </plain></SENT>
+<SENT sid="303" pm="."><plain>The 09COLE_IRR experiment was the only experiment to be grown on raised beds with all other irrigated experiments utilizing a flat field layout. </plain></SENT>
+</text></p></sec><sec id="s10"><title><text><SENT sid="304" pm="."><plain>Cross-validation of genomic estimated breeding values </plain></SENT>
+</text></title><p><text><SENT sid="305" pm="."><plain>The predictive ability (Sallam et al. 2015) of experiment-specific GEBVs was measured as the average correlation between experiment-specific GEBVs in the test sets and experiment-specific GVs estimated for the same lines when all trait data are used. </plain></SENT>
+<SENT sid="306" pm="."><plain>Within-experiment prediction abilities ranged from r = 0.474 to 0.535 for the well-watered experiments and from r = 0.445 to r = 0.481 for the water deficit experiments (Table 2 and diagonal elements in Figure 2). </plain></SENT>
+<SENT sid="307" pm="."><plain>The predictive ability across experiments within the well-watered environment cluster averaged r = 0.502, and across experiments within the water deficit cluster was r = 0.455 (Table 2 and diagonal elements of Figure 2). </plain></SENT>
+<SENT sid="308" pm="."><plain>In contrast, GEBVs specific to an experiment within one cluster had much poorer predictive ability of GVs in the other cluster. </plain></SENT>
+<SENT sid="309" pm="."><plain>We also estimated the ability of test set GEBVs specific to one experiment or cluster to predict GVs based on complete phenotype data in a different experiment or cluster (the off-diagonal elements of Figure 2). </plain></SENT>
+<SENT sid="310" pm="."><plain>GEBVs for water-deficit experiments had only a weak correlation with the GVs in the well-watered environments (average r = 0.196). </plain></SENT>
+<SENT sid="311" pm="."><plain>Similarly, GEBVs for the well-watered environments had an average correlation of r = 0.211 with GVs in the water deficit environments. </plain></SENT>
+<SENT sid="312" pm="."><plain>Average GEBVs across all experiments also had low correlation with GVs within the water deficit environments (r = 0.287). </plain></SENT>
+<SENT sid="313" pm="."><plain>Within each environment cluster, the GEBVs for individual experiments had moderate correlations with GVs at other experiments (r = 0.442 to r = 0.536 for the well-watered experiments, and r = 0.400 to r = 0.447 for the water deficit experiments). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="fig2" fig-type="figure" position="float"><label>Figure 2</label><caption><p><text><SENT sid="314" pm="."><plain>Predictive ability of GEBVs average across all experiments, averaged across experiments within each environment cluster (well-watered or water-deficit), or predicted for each specific experiment. </plain></SENT>
+<SENT sid="315" pm="."><plain>The training set of environments is given by the X axis, and the validation set of environments is given by the Y axis. </plain></SENT>
+<SENT sid="316" pm="."><plain>Experiment codes are given as year-site-irrigation treatment. </plain></SENT>
+<SENT sid="317" pm="."><plain>Diagonal values represent ability of GEBVs within a given environment to predict GVs in the same environment. </plain></SENT>
+<SENT sid="318" pm="."><plain>Off-diagonal values represent the ability of GEBVs in a given environment to predict GVs in a different environment. </plain></SENT>
+</text></p></caption><graphic xlink:href="1909f2"/></fig></SecTag><p><text><SENT sid="319" pm="."><plain>The relative accuracy statistics were computed with both broad-sense and narrow-sense heritabilities as RAPV and RABV, respectively, so that a measure of accuracy relative to phenotypic selection can be compared to the accuracy relative to breeding value prediction (Table 2). </plain></SENT>
+<SENT sid="320" pm="."><plain>As the broad-sense heritability estimates were much higher than narrow-sense, the relative accuracy statistics indicate that the efficiency of genotype value prediction was poor (RAPV ranged from 0.471 to 0.602 at individual experiments, with a mean of 0.544, Table 2), whereas the relative accuracy of breeding value prediction with marker information only compared to complete phenotype data were much higher (RABV ranged from 0.627 to 0.958 at individual experiments, with a mean of 0.797, Table 2). </plain></SENT>
+<SENT sid="321" pm="."><plain>The RABV for the water deficit experiment cluster was 1.07, a surprising but valid result analogous to relative efficiency of selection on a correlated trait, which can be &gt;1 relative to direct selection. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion" id="s11"><title><text><SENT sid="322" pm="."><plain>Discussion </plain></SENT>
+</text></title><sec id="s12"><title><text><SENT sid="323" pm="."><plain>Integration of genomic selection with genotype × environment effects </plain></SENT>
+</text></title><p><text><SENT sid="324" pm="."><plain>Our approach in this study combines the concept of a Target Population of Environments (TPE) in regard to selection (Comstock 1977; Cooper et al. 1997; Basford and Cooper 1998) with genomic prediction methods, and extends the work of Oakey et al. (2016) to a large field-based multi-environment trial. </plain></SENT>
+<SENT sid="325" pm="."><plain>The TPE concept applies equally to genomic selection as phenotypic selection in the face of genotype-by-environment interactions. </plain></SENT>
+<SENT sid="326" pm="."><plain>Our results show that predictive ability depends on the extent and nature of the genetic correlation between the training and the validation populations. Heslot et al. (2013) also demonstrated empirically in wheat that G × E patterns impact genomic selection in the same way that they impact phenotypic selection. Heslot et al. (2013) also observed that the main driver of prediction accuracy between environments were G × E effects and that genomic predictions are specific to the TPE they are predicted for – conclusions also supported by Lado et al. (2013) and Oakey et al. (2016), who also showed that multi-year models could give better prediction accuracy when environmental influence is large. </plain></SENT>
+</text></p><p><text><SENT sid="327" pm="."><plain>Genomic prediction models based on multi-environment trials may involve considerable complexity to allow heterogeneity of genetic correlations and genetic variances among environments, variable sources of extraneous non-genetic variation among environments, in addition to the high dimensionality of marker data. </plain></SENT>
+<SENT sid="328" pm="."><plain>Researchers are faced with making choices about modeling greater complexity in the patterns of genetic correlations among environments vs. greater complexity in the genetic architecture modeled by marker data, based on tradeoffs between capturing more signal vs. overfitting and increasing computational demands as model complexity increases. </plain></SENT>
+<SENT sid="329" pm="."><plain>A variety of modeling approaches have been proposed, reflecting different choices about which aspects of model complexity to emphasize. </plain></SENT>
+<SENT sid="330" pm="."><plain>For example, Sallam et al. (2015) utilized an across-experiments model for TPE identified as having low G × E so the term in the model was minimized, whereas Crossa et al. (2010) modeled genetic effects within each environment separately. Lopez-Cruz et al. (2015) introduced a model with common G × E variance for all sets, but allowed variable marker effects through a Bayesian model. Heslot et al. (2014) and Jarquín et al. (2014) introduced models that accounted for marker interactions with specific climate variables, adding another layer of complexity to the modeling of G × E patterns. </plain></SENT>
+</text></p><p><text><SENT sid="331" pm="."><plain>Our focus in this study was to emphasize the modeling of complex patterns of heterogeneity in the genetic variation expressed within environments and the pairwise genetic correlations between environments, along with extraneous non-genetic effects. </plain></SENT>
+<SENT sid="332" pm="."><plain>We chose a FA model (Cullis et al. 2010; Smith et al. 2001) that can capture such heterogeneity more parsimoniously than fully unstructured models. </plain></SENT>
+<SENT sid="333" pm="."><plain>The patterns of genetic correlations between environments observed in training data sets and patterns of the accuracy of GEBVs for one site to predict genetic values at other sites in test sets from the FA model provide a way of characterizing target environments, still following the ideas on exploiting G × E to make genetic gains outlined by Byth (1981). </plain></SENT>
+<SENT sid="334" pm="."><plain>The environment clusters in this study show that year effects are more important than location for WSCC (Figure 1), and this observation is borne out by other G × E studies with similar findings, particularly for traits where expression is significantly affected by seasonal conditions (Smith et al. 2015; Chenu et al. 2011; Milgate et al. 2015). </plain></SENT>
+</text></p></sec><sec id="s13"><title><text><SENT sid="335" pm="."><plain>Using factor analytic models for genomic predictions </plain></SENT>
+</text></title><p><text><SENT sid="336" pm="."><plain>Heslot et al. (2014) demonstrate a method to predict genotype performance in untested environments based on climatic variables. </plain></SENT>
+<SENT sid="337" pm="."><plain>In contrast, the FA model approach helps breeders to understand the groupings of environments within the TPE based on their genetic correlations, and breeders can predict average performance in subsets of these environments. </plain></SENT>
+<SENT sid="338" pm="."><plain>Both Burgueño et al. (2012) and Rutkoski et al. (2015) utilized similar FA models for genomic prediction, however this study shows that the power of an FA model lies in the ability to identify environment subsets based on the loadings and predict genotype performance more accurately within those TPE rather than the across-experiments average. </plain></SENT>
+<SENT sid="339" pm="."><plain>Since we predicted values for untested lines within tested environments, our estimated prediction abilities are biased upward compared to prediction of untested lines within untested environments. </plain></SENT>
+<SENT sid="340" pm="."><plain>Our results, which reflect upper bounds on prediction abilities across environments, demonstrate that GEBVs have reasonable accuracy only within a clearly defined cluster of environments, and have substantially worse prediction accuracy of performance in environments outside of the group of related environments for which they were predicted. </plain></SENT>
+<SENT sid="341" pm="."><plain>The FA model permits prediction of genetic values for untested lines within each site based on the genomic relationships between the untested and tested lines and also based on the genetic correlations observed among the tested set of environments. </plain></SENT>
+<SENT sid="342" pm="."><plain>The FA model can improve prediction accuracy within a single site over what is possible from a single-environment analysis by information sharing among environments with high genetic correlations (Guo et al. 2013; Cullis et al. 2010; Kelly et al. 2007). </plain></SENT>
+<SENT sid="343" pm="."><plain>In this study, GEBVs averaged across all environments were less accurate for environment-specific prediction than GEBVs averaged across subsets of sites within the same environmental cluster (Figure 2). </plain></SENT>
+</text></p><p><text><SENT sid="344" pm="."><plain>A drawback to the FA model is that the emphasis on including more complexity in the modeling of extraneous genetic variation and the heterogeneity of genetic covariation among environments may limit the complexity of genetic architecture models that can be tested. </plain></SENT>
+<SENT sid="345" pm="."><plain>The total genotypic value of each line was modeled as the sum of a polygenic additive effect and a residual genetic effect (after Oakey et al. 2016). </plain></SENT>
+<SENT sid="346" pm="."><plain>Our results demonstrated that the residual genetic effects were more important than the additive effects in this case, which greatly limits the effectiveness of prediction of untested varieties, as those predictions depend only on the additive effects. </plain></SENT>
+<SENT sid="347" pm="."><plain>The residual genetic effects were modeled as independent among varieties, such that they cannot contribute to prediction of untested varieties. </plain></SENT>
+<SENT sid="348" pm="."><plain>Alternative strategies include explicitly modeling epistatic genomic relationships; we attempted this but could not achieve model convergence. Oakey et al. (2016) discuss the implications of including additional relationship matrices to account for a proportion of non-additive genetic effects, however they also note the difficulty of fitting several relationship matrices to a MET. </plain></SENT>
+<SENT sid="349" pm="."><plain>Bayesian models could be fitted to the genomic relationships, to capture residual genetic relationships and variation among marker effects, but this approach would be even more computationally difficult; future research could focus on integrating heterogeneity of genetic covariances among sites into such models. </plain></SENT>
+</text></p></sec><sec id="s14"><title><text><SENT sid="350" pm="."><plain>Practical application of genomic selection for water soluble carbohydrate improvement </plain></SENT>
+</text></title><p><text><SENT sid="351" pm="."><plain>Breeders focusing on varietal development for target populations of environments that may experience abiotic stresses often seek to incorporate resistance to abiotic stresses, sometimes to contribute to grain yield per se, but also to select for stable grain yield performance in the presence of variable levels of abiotic stress. </plain></SENT>
+<SENT sid="352" pm="."><plain>Thus, abiotic stress resistance traits can be a selection target in their own right, especially in situations where G × E variation is driven by abiotic stresses and resistance to these stresses can ensure grain yield stability across years. </plain></SENT>
+<SENT sid="353" pm="."><plain>Genomic selection may be a good way to select for abiotic stress traits such as WSCC, especially as a substitute for resource-intensive phenotypic selection. </plain></SENT>
+<SENT sid="354" pm="."><plain>Levels of WSCC increase and decrease with crop development and growing conditions, meaning that full expression of the phenotype is not easily captured, and both wet chemistry and NIRS methods for measuring water soluble carbohydrates are time consuming and expensive (Gebbing and Schnyder 1999; Ruuska et al. 2006). </plain></SENT>
+</text></p><p><text><SENT sid="355" pm="."><plain>We estimated that most of the genotypic variance for WSCC did not fit a polygenic additive polygenic model, a surprising result considering numerous results showing that wheat grain yield is often adequately described with an additive genetic model (Heslot et al. 2012; Pérez-Rodríguez et al. 2012; Burgueño et al. 2012). </plain></SENT>
+<SENT sid="356" pm="."><plain>However, other studies of wheat yield across diverse environments indicate that residual genetic variation may explain substantial fraction of the total genetic variation (Cuevas et al. 2017). </plain></SENT>
+<SENT sid="357" pm="."><plain>Because of the prevalence of residual genetic variance, the GEBVs for WSCC were not very accurate estimates of total genotypic value, regardless of the information used to compute them (markers, phenotype records, or both). </plain></SENT>
+<SENT sid="358" pm="."><plain>In this study, residual genetic effects were modeled by fitting a separate independent random term for residual genetic effects in addition to the additive effects whose covariance is proportional to the additive realized relationship matrix (after Oakey et al. 2016). </plain></SENT>
+<SENT sid="359" pm="."><plain>Total genotypic prediction, which includes additive and residual genetic effects, is optimal for identifying the best available lines in a population, but this requires phenotypic records on each line to be predicted. </plain></SENT>
+<SENT sid="360" pm="."><plain>Potentially, predictions can be improved by explicit modeling of non-additive as well as additive genetic relationships, with either parametric models including dominance and epistasis (Muñoz et al. 2014; Su et al. 2012; Da et al. 2014) or non-linear kernel methods (Gianola and van Kaam 2008). </plain></SENT>
+<SENT sid="361" pm="."><plain>These models would allow total genotypic values to be predicted on lines in the absence of any phenotypic records. </plain></SENT>
+</text></p><p><text><SENT sid="362" pm="."><plain>If the total genotypic values are not closely correlated with the true breeding values, they will not be the best predictions to use for parental selection to generate a new population from intermating, as dominance, epistatic, and most other non-additive effects that may contribute to the residual genetic effects do not contribute to long-term genetic gain over meiotic outcrossing generations (Hill et al. 2008; Holland 2001; Oakey et al. 2016; Cockerham 1983; Cockerham and Matzinger 1985). </plain></SENT>
+<SENT sid="363" pm="."><plain>GEBVs, on the other hand, while they may not be optimal for predicting the best existing lines, should be better estimators of the utility of lines as parents of new breeding populations. </plain></SENT>
+<SENT sid="364" pm="."><plain>To distinguish the different uses of GEBVs in a breeding program, we computed two relative accuracy statistics that refer to the use of GEBVs to identify optimal extant lines or to identify lines with better breeding values for use as parents for intermating to create a new breeding population. </plain></SENT>
+<SENT sid="365" pm="."><plain>Compared to phenotypic selection the RAPV for the well-watered environment cluster was 57%, and 51% for the water deficit environment cluster, indicating our GEBVs are marginal at predicting phenotypic performance in these environments for new genotypes (Table 2), and that genomic selection is unlikely to be a substitute for phenotypic selection of the best performing lines. </plain></SENT>
+<SENT sid="366" pm="."><plain>In contrast, when compared with true breeding values for the purpose of selecting new parents and maximizing genetic gain over time, the relative accuracy (RABV) was higher. </plain></SENT>
+<SENT sid="367" pm="."><plain>The RABV measures can be coupled with the assumptions of Desta and Ortiz (2014); Heffner et al. (2010); and Lorenz et al. (2011) suggesting genomic selection is predicted to facilitate a reduction in the breeding cycle time of the average wheat breeding program of at least half due to the ability to select at earlier generations and also in off-season generations. </plain></SENT>
+<SENT sid="368" pm="."><plain>Therefore, relative to selection using the true breeding values, and making the assumption of a decrease in the breeding cycle time of 50%, genetic gain per unit of time from genomic selection in this study is estimated to be 2×78%=158% for the well-watered environment cluster and 2×107%=214% for the water deficit environment cluster. </plain></SENT>
+<SENT sid="369" pm="."><plain>This indicates that genomic selection methods can increase the rate of genetic gain for WSCC. </plain></SENT>
+<SENT sid="370" pm="."><plain>The challenge in practical terms, as noted by Cooper et al. (2014), may be in implementing the enabling technologies needed to make genomic selection work and readily integrated into a commercial breeding program. </plain></SENT>
+<SENT sid="371" pm="."><plain>Finally, if the ultimate goal of selection is to improve yield performance within or across abiotic stress environments, the genotypic and additive genetic correlations of WSCC with yield and other agronomic traits must be considered. Ovenden et al. (2017) previously demonstrated significant but relatively low genotypic correlations between WSCC and yield in this germplasm sample, suggesting that its utility as an indirect selection criterion needs to be assessed on a case by case basis. </plain></SENT>
+</text></p></sec><sec id="s15"><title><text><SENT sid="372" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="373" pm="."><plain>This study provides empirical evidence that genomic selection methods could improve the rate of genetic gain for carbohydrate accumulation, provided that the TPE are carefully characterized and understood, and predictions are restricted to environment subsets of interest. </plain></SENT>
+</text></p><p><text><SENT sid="374" pm="."><plain>With additive variance being low in the models under study, the importance of relative accuracy for different genomic selection strategies becomes apparent. </plain></SENT>
+<SENT sid="375" pm="."><plain>Compared to phenotypic selection, the relative accuracy of the GEBVs modeled here is low, however the GEBVs more accurately model the true breeding values. </plain></SENT>
+<SENT sid="376" pm="."><plain>Therefore, genomic selection could well result in higher genetic gain per unit of time through the ability to better select parents for intermating, and genomic selection may be a useful tool for making genetic gains in complex abiotic stress characteristics. </plain></SENT>
+</text></p></sec></sec></SecTag></body><back><SecTag type="AUTH_CONT"><ack><title>Acknowledgments</title><p>The authors gratefully acknowledge the Grains Research and Development Corporation (GRDC) of Australia funding for this project (ICF00007) and a Grains Industry Research Scholarship for Ben Ovenden. The American Australian Association is gratefully acknowledged for the ConocoPhillips Education Fellowship awarded to Ben Ovenden. The authors thank Kerry Schirmer and Aaron Hutchison for their expert technical contributions and data collection. The authors also thank the reviewers for their comments which improved the manuscript. The breeding lines used in this study were kindly provided by Australian Grains Technologies, InterGrain, HRZ Wheats (now Dow Seeds), Sydney University, LongReach Plant Breeders and CIMMYT.</p></ack></SecTag><fn-group><fn id="fn1"><p><text><SENT sid="377" pm="."><plain>Supplemental material available at Figshare: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.25387/g3.6143243">https://doi.org/10.25387/g3.6143243</ext-link>. </plain></SENT>
+</text></p></fn><fn id="fn2"><p><text><SENT sid="378" pm="."><plain>Communicating editor: E. </plain></SENT>
+<SENT sid="379" pm="."><plain>Akhunov </plain></SENT>
+</text></p></fn></fn-group><SecTag type="REF"><ref-list><title>Literature Cited</title><ref id="bib1"><text><SENT sid="380" pm="."><plain>AkaikeH., 1974 A new look at the statistical model identification. IEEE Trans. </plain></SENT>
+<SENT sid="381" pm="."><plain>Automat. </plain></SENT>
+<SENT sid="382" pm="."><plain>Contr. 19: 716–723. 10.1109/<z:uniprot sup="inside" fb="57" ids="O64328,P03734,O64312,O64313">TAC</z:uniprot>.1974.1100705 </plain></SENT>
+</text></ref><ref id="bib2"><text><SENT sid="383" pm="."><plain>ArausJ.SlaferG.ReynoldsM.RoyoC., 2002 Plant breeding and drought in C3 cereals: what should we breed for? Ann. </plain></SENT>
+<SENT sid="384" pm="."><plain>Bot. </plain></SENT>
+<SENT sid="385" pm="."><plain>(Lond.) 89: 925–940. 10.1093/aob/mcf049 </plain></SENT>
+</text></ref><ref id="bib3"><text><SENT sid="386" pm="."><plain>AssengS.van HerwaardenA. </plain></SENT>
+<SENT sid="387" pm="."><plain>F., 2003 Analysis of the benefits to wheat yield from assimilates stored prior to grain filling in a range of environments. Plant Soil 256: 217–229. 10.1023/A:1026231904221 </plain></SENT>
+</text></ref><ref id="bib4"><text><SENT sid="388" pm="."><plain>BasfordK. </plain></SENT>
+<SENT sid="389" pm="."><plain>E.CooperM., 1998 Genotype×environment interactions and some considerations of their implications for wheat breeding in Australia. Aust. </plain></SENT>
+<SENT sid="390" pm="."><plain>J. </plain></SENT>
+<SENT sid="391" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="392" pm="."><plain>Res. 49: 153–174. 10.1071/A97035 </plain></SENT>
+</text></ref><ref id="bib5"><text><SENT sid="393" pm="."><plain>BeeckC. </plain></SENT>
+<SENT sid="394" pm="."><plain>P.CowlingW. </plain></SENT>
+<SENT sid="395" pm="."><plain>A.SmithA. </plain></SENT>
+<SENT sid="396" pm="."><plain>B.CullisB. </plain></SENT>
+<SENT sid="397" pm="."><plain>R., 2010 Analysis of yield and oil from a series of canola breeding trials. </plain></SENT>
+<SENT sid="398" pm="."><plain>Part I. </plain></SENT>
+<SENT sid="399" pm="."><plain>Fitting factor analytic mixed models with pedigree information. Genome 53: 992–1001. 10.1139/<z:uniprot sup="inside" fb="11" ids="O70454,Q9Y330">G10</z:uniprot>-05121076515 </plain></SENT>
+</text></ref><ref id="bib6"><text><SENT sid="400" pm="."><plain>BennettD.IzanlooA.ReynoldsM.KuchelH.LangridgeP., 2012 Genetic dissection of grain yield and physical grain quality in bread wheat (Triticum aestivum L.) under water-limited environments. Theor. </plain></SENT>
+<SENT sid="401" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="402" pm="."><plain>Genet. 125: 255–271. 10.1007/s00122-012-1831-922374139 </plain></SENT>
+</text></ref><ref id="bib7"><text><SENT sid="403" pm="."><plain>BernierJ.AtlinG. </plain></SENT>
+<SENT sid="404" pm="."><plain>N.SerrajR.KumarA.SpanerD., 2008 Breeding upland rice for drought resistance. J. </plain></SENT>
+<SENT sid="405" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="406" pm="."><plain>Food Agric. 88: 927–939. 10.1002/jsfa.3153 </plain></SENT>
+</text></ref><ref id="bib8"><text><SENT sid="407" pm="."><plain>BidingerF.MusgraveR. </plain></SENT>
+<SENT sid="408" pm="."><plain>B.FischerR. </plain></SENT>
+<SENT sid="409" pm="."><plain>A., 1977 Contribution of stored pre-anthesis assimilate to grain yield in wheat and barley. Nature 270: 431–433. 10.1038/270431a0 </plain></SENT>
+</text></ref><ref id="bib9"><text><SENT sid="410" pm="."><plain>BlumA., 1998 Improving wheat grain filling under stress by stem reserve mobilisation. Euphytica 100: 77–83. 10.1023/A:1018303922482 </plain></SENT>
+</text></ref><ref id="bib10"><text><SENT sid="411" pm="."><plain>BrowningB. </plain></SENT>
+<SENT sid="412" pm="."><plain>L.BrowningS. </plain></SENT>
+<SENT sid="413" pm="."><plain>R., 2009 A unified approach to genotype imputation and haplotype-phase inference for large data sets of trios and unrelated individuals. Am. </plain></SENT>
+<SENT sid="414" pm="."><plain>J. </plain></SENT>
+<SENT sid="415" pm="."><plain>Hum. </plain></SENT>
+<SENT sid="416" pm="."><plain>Genet. 84: 210–223. 10.1016/j.ajhg.2009.01.00519200528 </plain></SENT>
+</text></ref><ref id="bib11"><text><SENT sid="417" pm="."><plain>BurgueñoJ.de los CamposG.WeigelK.CrossaJ., 2012 Genomic prediction of breeding values when modeling genotype × environment interaction using pedigree and dense molecular markers. Crop Sci. 52: 707–719. 10.2135/cropsci2011.06.0299 </plain></SENT>
+</text></ref><ref id="bib12"><text><SENT sid="418" pm="."><plain>ButlerD.CullisB. </plain></SENT>
+<SENT sid="419" pm="."><plain>R.GilmourA. </plain></SENT>
+<SENT sid="420" pm="."><plain>R.GogelB. </plain></SENT>
+<SENT sid="421" pm="."><plain>J., 2009 ASReml-R reference manual, Queensland Department of Primary Industries and Fisheries, Brisbane. </plain></SENT>
+</text></ref><ref id="bib13"><text><SENT sid="422" pm="."><plain>BythD. </plain></SENT>
+<SENT sid="423" pm="."><plain>E., 1981 A conceptual basis of genotypic × environment interactions for plant improvement, Refresher training course notes on interpretation of plant response and adaptation to agricultural environments, edited by BythD. </plain></SENT>
+<SENT sid="424" pm="."><plain>E.MungomeryV. </plain></SENT>
+<SENT sid="425" pm="."><plain>E. University of Queensland, University of Queensland, Brisbane, Queensland. </plain></SENT>
+</text></ref><ref id="bib14"><text><SENT sid="426" pm="."><plain>CavanaghC. </plain></SENT>
+<SENT sid="427" pm="."><plain>R.ChaoS.WangS.HuangB. </plain></SENT>
+<SENT sid="428" pm="."><plain>E.StephenS., 2013 Genome-wide comparative diversity uncovers multiple targets of selection for improvement in hexaploid wheat landraces and cultivars. Proc. </plain></SENT>
+<SENT sid="429" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="430" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="431" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="432" pm="."><plain>USA 110: 8057–8062. 10.1073/pnas.121713311023630259 </plain></SENT>
+</text></ref><ref id="bib15"><text><SENT sid="433" pm="."><plain>ChenuK.CooperM.HammerG. </plain></SENT>
+<SENT sid="434" pm="."><plain>L.MathewsK. </plain></SENT>
+<SENT sid="435" pm="."><plain>L.DreccerM. </plain></SENT>
+<SENT sid="436" pm="."><plain>F., 2011 Environment characterization as an aid to wheat improvement: interpreting genotype–environment interactions by modelling water-deficit patterns in North-Eastern Australia. J. </plain></SENT>
+<SENT sid="437" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="438" pm="."><plain>Bot. 62: 1743–1755. 10.1093/jxb/erq45921421705 </plain></SENT>
+</text></ref><ref id="bib16"><text><SENT sid="439" pm="."><plain>CockerhamC. </plain></SENT>
+<SENT sid="440" pm="."><plain>C., 1983 Covariances of Relatives from Self-Fertilization. Crop Sci. 23: 1177–1180. 10.2135/cropsci1983.0011183X002300060035x </plain></SENT>
+</text></ref><ref id="bib17"><text><SENT sid="441" pm="."><plain>CockerhamC. </plain></SENT>
+<SENT sid="442" pm="."><plain>C.MatzingerD. </plain></SENT>
+<SENT sid="443" pm="."><plain>F., 1985 Selection Response Based on Selfed Progenies. Crop Sci. 25: 483–488. 10.2135/cropsci1985.0011183X002500030012x </plain></SENT>
+</text></ref><ref id="bib18"><text><SENT sid="444" pm="."><plain>ComstockR. </plain></SENT>
+<SENT sid="445" pm="."><plain>E., 1977 Quantitative genetics and the design of breeding programs in Proceedings of the International Conference on Quantitative Genetics, edited by PollakE.KempthorneO.BaileyT.B. Iowa State University Press, Ames, Iowa. </plain></SENT>
+</text></ref><ref id="bib19"><text><SENT sid="446" pm="."><plain>CoombesN. </plain></SENT>
+<SENT sid="447" pm="."><plain>E., 2002 The reactive tabu search for efficient correlated experimental designs, Liverpool John Moores University, Liverpool, UK. </plain></SENT>
+</text></ref><ref id="bib20"><text><SENT sid="448" pm="."><plain>CooperM.MessinaC. </plain></SENT>
+<SENT sid="449" pm="."><plain>D.PodlichD.TotirL. </plain></SENT>
+<SENT sid="450" pm="."><plain>R.BaumgartenA., 2014 Predicting the future of plant breeding: complementing empirical evaluation with genetic prediction. Crop Pasture Sci. 65: 311–336. 10.1071/CP14007 </plain></SENT>
+</text></ref><ref id="bib21"><text><SENT sid="451" pm="."><plain>CooperM.StuckerR. </plain></SENT>
+<SENT sid="452" pm="."><plain>E.DeLacyI. </plain></SENT>
+<SENT sid="453" pm="."><plain>H.HarchB. </plain></SENT>
+<SENT sid="454" pm="."><plain>D., 1997 Wheat Breeding nurseries, target environments, and indirect selection for grain yield. Crop Sci. 37: 1168–1176. 10.2135/cropsci1997.0011183X003700040024x </plain></SENT>
+</text></ref><ref id="bib22"><text><SENT sid="455" pm="."><plain>CrossaJ.de los CamposG.PérezP.GianolaD.BurgueñoJ., 2010 Prediction of genetic values of quantitative traits in plant breeding using pedigree and molecular markers. Genetics 186: 713–724. 10.1534/genetics.110.11852120813882 </plain></SENT>
+</text></ref><ref id="bib23"><text><SENT sid="456" pm="."><plain>CrossaJ.PerezP.HickeyJ.BurguenoJ.OrnellaL., 2014 Genomic prediction in CIMMYT maize and wheat breeding programs. Heredity 112: 48–60. 10.1038/hdy.2013.1623572121 </plain></SENT>
+</text></ref><ref id="bib24"><text><SENT sid="457" pm="."><plain>CuevasJ.CrossaJ.Montesinos-LópezO.A.BurgueñoJ.Pérez-RodríguezP., 2017 Bayesian Genomic Prediction with Genotype × Environment Interaction Kernel Models. G3: Genes|Genomes|Genetics 7(1): 41–53 10.1534/g3.116.035584 </plain></SENT>
+</text></ref><ref id="bib25"><text><SENT sid="458" pm="."><plain>CullisB. </plain></SENT>
+<SENT sid="459" pm="."><plain>R.SmithA. </plain></SENT>
+<SENT sid="460" pm="."><plain>B.BeeckC. </plain></SENT>
+<SENT sid="461" pm="."><plain>P.CowlingW. </plain></SENT>
+<SENT sid="462" pm="."><plain>A., 2010 Analysis of yield and oil from a series of canola breeding trials. </plain></SENT>
+<SENT sid="463" pm="."><plain>Part II. </plain></SENT>
+<SENT sid="464" pm="."><plain>Exploring variety by environment interaction using factor analysis. Genome 53: 1002–1016. 10.1139/<z:uniprot sup="inside" fb="11" ids="O70454,Q9Y330">G10</z:uniprot>-08021076516 </plain></SENT>
+</text></ref><ref id="bib26"><text><SENT sid="465" pm="."><plain>CullisB. </plain></SENT>
+<SENT sid="466" pm="."><plain>R.SmithA. </plain></SENT>
+<SENT sid="467" pm="."><plain>B.CoombesN. </plain></SENT>
+<SENT sid="468" pm="."><plain>E., 2006 On the design of early generation variety trials with correlated data. J. </plain></SENT>
+<SENT sid="469" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="470" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="471" pm="."><plain>Environ. </plain></SENT>
+<SENT sid="472" pm="."><plain><z:uniprot sup="inside" fb="30" ids="Q7QDU4,Q24151">Stat</z:uniprot>. 11: 381–393. 10.1198/108571106X154443 </plain></SENT>
+</text></ref><ref id="bib27"><text><SENT sid="473" pm="."><plain>DaY.WangC.WangS.HuG., 2014 Mixed Model Methods for Genomic Prediction and Variance Component Estimation of Additive and Dominance Effects Using SNP Markers. PLoS One 9: e87666 10.1371/journal.pone.008766624498162 </plain></SENT>
+</text></ref><ref id="bib28"><text><SENT sid="474" pm="."><plain>de los CamposG.HickeyJ. </plain></SENT>
+<SENT sid="475" pm="."><plain>M.Pong-WongR.DaetwylerH. </plain></SENT>
+<SENT sid="476" pm="."><plain>D.CalusM. </plain></SENT>
+<SENT sid="477" pm="."><plain>P. </plain></SENT>
+<SENT sid="478" pm="."><plain>L., 2013 Whole-genome regression and prediction methods applied to plant and animal breeding. Genetics 193: 327–345. 10.1534/genetics.112.14331322745228 </plain></SENT>
+</text></ref><ref id="bib29"><text><SENT sid="479" pm="."><plain>DestaZ. </plain></SENT>
+<SENT sid="480" pm="."><plain>A.OrtizR., 2014 Genomic selection: genome-wide prediction in plant improvement. Trends Plant Sci. 19: 592–601. 10.1016/j.tplants.2014.05.00624970707 </plain></SENT>
+</text></ref><ref id="bib30"><text><SENT sid="481" pm="."><plain>DreccerM. </plain></SENT>
+<SENT sid="482" pm="."><plain>F.ChapmanS. </plain></SENT>
+<SENT sid="483" pm="."><plain>C.RatteyA. </plain></SENT>
+<SENT sid="484" pm="."><plain>R.NealJ.SongY., 2013 Developmental and growth controls of tillering and water-soluble carbohydrate accumulation in contrasting wheat (Triticum aestivum L.) genotypes: can we dissect them? J. </plain></SENT>
+<SENT sid="485" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="486" pm="."><plain>Bot. 64: 143–160. 10.1093/jxb/ers31723213136 </plain></SENT>
+</text></ref><ref id="bib31"><text><SENT sid="487" pm="."><plain>EhdaieB.AlloushG. </plain></SENT>
+<SENT sid="488" pm="."><plain>A.WainesJ. </plain></SENT>
+<SENT sid="489" pm="."><plain>G., 2008 Genotypic variation in linear rate of grain growth and contribution of stem reserves to grain yield in wheat. Field Crops Res. 106: 34–43. 10.1016/j.fcr.2007.10.012 </plain></SENT>
+</text></ref><ref id="bib32"><text><SENT sid="490" pm="."><plain>EndelmanJ.B.JanninkJ.-L., 2012 Shrinkage estimation of the realized relationship matrix. G3: Genes| Genomes| Genetics 2(11): 1405–1413 10.1534/g3.112.004259 </plain></SENT>
+</text></ref><ref id="bib33"><text><SENT sid="491" pm="."><plain>FischerR. </plain></SENT>
+<SENT sid="492" pm="."><plain>A.ByerleeD. </plain></SENT>
+<SENT sid="493" pm="."><plain>R.EdmeadesG. </plain></SENT>
+<SENT sid="494" pm="."><plain>O., 2014 ACIAR Monograph No. 158, Crop yields and global food security, Australian Centre for International Agricultural Research, Canberra, ACT. </plain></SENT>
+</text></ref><ref id="bib34"><text><SENT sid="495" pm="."><plain>Foulkes, M. </plain></SENT>
+<SENT sid="496" pm="."><plain>J., and M. </plain></SENT>
+<SENT sid="497" pm="."><plain>P. </plain></SENT>
+<SENT sid="498" pm="."><plain>Reynolds, 2015 Breeding challenge: improving yield potential, pp. </plain></SENT>
+<SENT sid="499" pm="."><plain>397–421 in Crop Physiology, Ed. </plain></SENT>
+<SENT sid="500" pm="."><plain>2nd. chap 16., edited by V. </plain></SENT>
+<SENT sid="501" pm="."><plain>O. </plain></SENT>
+<SENT sid="502" pm="."><plain>Calderini, V. </plain></SENT>
+<SENT sid="503" pm="."><plain>O. </plain></SENT>
+<SENT sid="504" pm="."><plain>S. </plain></SENT>
+<SENT sid="505" pm="."><plain>F. </plain></SENT>
+<SENT sid="506" pm="."><plain>Academic Press, San Diego 10.1016/B978-0-12-417104-6.00016-9 </plain></SENT>
+</text></ref><ref id="bib35"><text><SENT sid="507" pm="."><plain>GebbingT., 2003 The enclosed and exposed part of the peduncle of wheat (Triticum aestivum): spatial separation of fructan storage. New Phytol. 159: 245–252. 10.1046/j.1469-8137.2003.00799.x </plain></SENT>
+</text></ref><ref id="bib36"><text><SENT sid="508" pm="."><plain>GebbingT.SchnyderH., 1999 Pre-anthesis reserve utilization for protein and carbohydrate synthesis in grains of wheat. Plant Physiol. 121: 871–878. 10.1104/pp.121.3.87110557235 </plain></SENT>
+</text></ref><ref id="bib37"><text><SENT sid="509" pm="."><plain>GianolaD.van KaamJ. </plain></SENT>
+<SENT sid="510" pm="."><plain>B. </plain></SENT>
+<SENT sid="511" pm="."><plain>C. </plain></SENT>
+<SENT sid="512" pm="."><plain>H. </plain></SENT>
+<SENT sid="513" pm="."><plain>M., 2008 Reproducing kernel Hilbert spaces regression methods for genomic assisted prediction of quantitative traits. Genetics 178: 2289–2303. 10.1534/genetics.107.08428518430950 </plain></SENT>
+</text></ref><ref id="bib38"><text><SENT sid="514" pm="."><plain>GilmourA. </plain></SENT>
+<SENT sid="515" pm="."><plain>R.CullisB. </plain></SENT>
+<SENT sid="516" pm="."><plain>R.VerbylaA. </plain></SENT>
+<SENT sid="517" pm="."><plain>P., 1997 Accounting for natural and extraneous variation in the analysis of field experiments. J. </plain></SENT>
+<SENT sid="518" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="519" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="520" pm="."><plain>Environ. </plain></SENT>
+<SENT sid="521" pm="."><plain><z:uniprot sup="inside" fb="30" ids="Q7QDU4,Q24151">Stat</z:uniprot>. 2: 269–293. 10.2307/1400446 </plain></SENT>
+</text></ref><ref id="bib39"><text><SENT sid="522" pm="."><plain>GuoZ.TuckerD.M.WangD.BastenC.J.ErsozE., 2013 Accuracy of across-environment genome-wide prediction in maize nested association mapping populations. G3: Genes|Genomes|Genetics 3(2): 263–272 10.1534/g3.112.005066 </plain></SENT>
+</text></ref><ref id="bib40"><text><SENT sid="523" pm="."><plain>HabierD.FernandoR. </plain></SENT>
+<SENT sid="524" pm="."><plain>L.GarrickD. </plain></SENT>
+<SENT sid="525" pm="."><plain>J., 2013 Genomic BLUP decoded: A look into the black box of genomic prediction. Genetics 194: 597–607. 10.1534/genetics.113.15220723640517 </plain></SENT>
+</text></ref><ref id="bib41"><text><SENT sid="526" pm="."><plain>HeffnerE. </plain></SENT>
+<SENT sid="527" pm="."><plain>L.LorenzA. </plain></SENT>
+<SENT sid="528" pm="."><plain>J.JanninkJ.-L.SorrellsM. </plain></SENT>
+<SENT sid="529" pm="."><plain>E., 2010 Plant breeding with genomic selection: Gain per unit time and cost. Crop Sci. 50: 1681–1690. 10.2135/cropsci2009.11.0662 </plain></SENT>
+</text></ref><ref id="bib42"><text><SENT sid="530" pm="."><plain>HeffnerE. </plain></SENT>
+<SENT sid="531" pm="."><plain>L.SorrellsM. </plain></SENT>
+<SENT sid="532" pm="."><plain>E.JanninkJ.-L., 2009 Genomic selection for crop improvement. Crop Sci. 49: 1–12. 10.2135/cropsci2008.08.0512 </plain></SENT>
+</text></ref><ref id="bib43"><text><SENT sid="533" pm="."><plain>HeslotN.AkdemirD.SorrellsM.JanninkJ.-L., 2014 Integrating environmental covariates and crop modeling into the genomic selection framework to predict genotype by environment interactions. Theor. </plain></SENT>
+<SENT sid="534" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="535" pm="."><plain>Genet. 127: 463–480. 10.1007/s00122-013-2231-524264761 </plain></SENT>
+</text></ref><ref id="bib44"><text><SENT sid="536" pm="."><plain>HeslotN.JanninkJ.-L.SorrellsM. </plain></SENT>
+<SENT sid="537" pm="."><plain>E., 2013 Using genomic prediction to characterize environments and optimize prediction accuracy in applied breeding data. Crop Sci. 53: 921–933. 10.2135/cropsci2012.07.0420 </plain></SENT>
+</text></ref><ref id="bib45"><text><SENT sid="538" pm="."><plain>HeslotN.YangH.-P.SorrellsM. </plain></SENT>
+<SENT sid="539" pm="."><plain>E.JanninkJ.-L., 2012 Genomic selection in plant breeding: a comparison of models. Crop Sci. 52: 146–160. 10.2135/cropsci2011.06.0297 </plain></SENT>
+</text></ref><ref id="bib46"><text><SENT sid="540" pm="."><plain>HillW. </plain></SENT>
+<SENT sid="541" pm="."><plain>G., 2012 Quantitative genetics in the genomics era. Curr. </plain></SENT>
+<SENT sid="542" pm="."><plain>Genomics 13: 196–206. 10.2174/13892021280054311023115521 </plain></SENT>
+</text></ref><ref id="bib47"><text><SENT sid="543" pm="."><plain>HillW. </plain></SENT>
+<SENT sid="544" pm="."><plain>G.GoddardM. </plain></SENT>
+<SENT sid="545" pm="."><plain>E.VisscherP. </plain></SENT>
+<SENT sid="546" pm="."><plain>M., 2008 Data and theory point to mainly additive genetic variance for complex traits. PLoS Genet. 4: e1000008 10.1371/journal.pgen.100000818454194 </plain></SENT>
+</text></ref><ref id="bib48"><text><SENT sid="547" pm="."><plain>Holland, J. </plain></SENT>
+<SENT sid="548" pm="."><plain>B., 2001 Epistasis and plant breeding, pp. </plain></SENT>
+<SENT sid="549" pm="."><plain>27–92 in Plant breeding reviews, edited by J. </plain></SENT>
+<SENT sid="550" pm="."><plain>Janick, John Wiley Son, New York. </plain></SENT>
+</text></ref><ref id="bib49"><text><SENT sid="551" pm="."><plain>IsikF.HollandJ.MalteccaC., 2017 Genetic Data Analysis for Plant and Animal Breeding, Springer International, Berlin 10.1007/978-3-319-55177-7 </plain></SENT>
+</text></ref><ref id="bib50"><text><SENT sid="552" pm="."><plain>JarquínD.CrossaJ.LacazeX.Du CheyronP.DaucourtJ., 2014 A reaction norm model for genomic selection using high-dimensional genomic and environmental data. Theor. </plain></SENT>
+<SENT sid="553" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="554" pm="."><plain>Genet. 127: 595–607. 10.1007/s00122-013-2243-124337101 </plain></SENT>
+</text></ref><ref id="bib51"><text><SENT sid="555" pm="."><plain>KamranA.IqbalM.SpanerD., 2014 Flowering time in wheat (Triticum aestivum L.): a key factor for global adaptability. Euphytica 197: 1–26. 10.1007/s10681-014-1075-7 </plain></SENT>
+</text></ref><ref id="bib52"><text><SENT sid="556" pm="."><plain>KellyA. </plain></SENT>
+<SENT sid="557" pm="."><plain>M.SmithA. </plain></SENT>
+<SENT sid="558" pm="."><plain>B.EcclestonJ. </plain></SENT>
+<SENT sid="559" pm="."><plain>A.CullisB. </plain></SENT>
+<SENT sid="560" pm="."><plain>R., 2007 The accuracy of varietal selection using factor analytic models for multi-environment plant breeding trials. Crop Sci. 47: 1063–1070. 10.2135/cropsci2006.08.0540 </plain></SENT>
+</text></ref><ref id="bib53"><text><SENT sid="561" pm="."><plain>LadoB.MatusI.RodríguezA.InostrozaL.PolandJ., 2013 Increased Genomic Prediction Accuracy in Wheat Breeding Through Spatial Adjustment of Field Trial Data. G3: Genes|Genomes|Genetics 3(12): 2105–2114 10.1534/g3.113.007807 </plain></SENT>
+</text></ref><ref id="bib54"><text><SENT sid="562" pm="."><plain>LegarraA.Robert-GraniéC.ManfrediE.ElsenJ.-M., 2008 Performance of genomic selection in mice. Genetics 180: 611–618. 10.1534/genetics.108.08857518757934 </plain></SENT>
+</text></ref><ref id="bib55"><text><SENT sid="563" pm="."><plain>LeplatF.JensenJ.MadsenP., 2016 Genomic Prediction of Manganese Efficiency in Winter Barley. Plant Genome 9(1): 1–13. 10.3835/plantgenome2015.09.0085 </plain></SENT>
+</text></ref><ref id="bib56"><text><SENT sid="564" pm="."><plain>LinZ.HayesB. </plain></SENT>
+<SENT sid="565" pm="."><plain>J.DaetwylerH. </plain></SENT>
+<SENT sid="566" pm="."><plain>D., 2014 Genomic selection in crops, trees and forages: a review. Crop Pasture Sci. 65: 1177–1191. 10.1071/CP13363 </plain></SENT>
+</text></ref><ref id="bib57"><text><SENT sid="567" pm="."><plain>LopesM. </plain></SENT>
+<SENT sid="568" pm="."><plain>S.ArausJ. </plain></SENT>
+<SENT sid="569" pm="."><plain>L.van HeerdenP. </plain></SENT>
+<SENT sid="570" pm="."><plain>D. </plain></SENT>
+<SENT sid="571" pm="."><plain>R.FoyerC. </plain></SENT>
+<SENT sid="572" pm="."><plain>H., 2011 Enhancing drought tolerance in C4 crops. J. </plain></SENT>
+<SENT sid="573" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="574" pm="."><plain>Bot. 62: 3135–3153. 10.1093/jxb/err10521511912 </plain></SENT>
+</text></ref><ref id="bib58"><text><SENT sid="575" pm="."><plain>Lopez-CruzM.CrossaJ.BonnettD.DreisigackerS.PolandJ., 2015 Increased prediction accuracy in wheat breeding trials using a marker × environment interaction genomic selection model. G3: Genes|Genomes|Genetics 5(4): 569–582 10.1534/g3.114.016097 </plain></SENT>
+</text></ref><ref id="bib59"><text><SENT sid="576" pm="."><plain>LorenzA. </plain></SENT>
+<SENT sid="577" pm="."><plain>J.ChaoS.AsoroF. </plain></SENT>
+<SENT sid="578" pm="."><plain>G.HeffnerE. </plain></SENT>
+<SENT sid="579" pm="."><plain>L.HayashiT., 2011 Genomic selection in plant breeding: Knowledge and prospects, pp. 77–123 in Advances in agronomy, edited by SparksD. </plain></SENT>
+<SENT sid="580" pm="."><plain>L., Academic Press, Waltham, Massachusetts 10.1016/B978-0-12-385531-2.00002-5 </plain></SENT>
+</text></ref><ref id="bib60"><text><SENT sid="581" pm="."><plain>MeuwissenT. </plain></SENT>
+<SENT sid="582" pm="."><plain>H. </plain></SENT>
+<SENT sid="583" pm="."><plain>E.HayesB. </plain></SENT>
+<SENT sid="584" pm="."><plain>J.GoddardM. </plain></SENT>
+<SENT sid="585" pm="."><plain>E., 2001 Prediction of total genetic value using genome-wide dense marker maps. Genetics 157: 1819–1829.11290733 </plain></SENT>
+</text></ref><ref id="bib61"><text><SENT sid="586" pm="."><plain>MilgateA.OvendenB.AdoradaD.LisleC.LacyJ., 2015 Genetic improvement of triticale for irrigated systems in south-eastern Australia: a study of genotype and genotype × environment interactions. Crop Pasture Sci. 66: 782–792. 10.1071/CP14357 </plain></SENT>
+</text></ref><ref id="bib62"><text><SENT sid="587" pm="."><plain>MuñozP. </plain></SENT>
+<SENT sid="588" pm="."><plain>R.ResendeM. </plain></SENT>
+<SENT sid="589" pm="."><plain>F. </plain></SENT>
+<SENT sid="590" pm="."><plain>R.GezanS. </plain></SENT>
+<SENT sid="591" pm="."><plain>A.ResendeM. </plain></SENT>
+<SENT sid="592" pm="."><plain>D. </plain></SENT>
+<SENT sid="593" pm="."><plain>V.de los CamposG., 2014 Unraveling additive from nonadditive effects using genomic relationship matrices. Genetics 198: 1759–1768. 10.1534/genetics.114.17132225324160 </plain></SENT>
+</text></ref><ref id="bib63"><text><SENT sid="594" pm="."><plain>NakayaA.IsobeS. </plain></SENT>
+<SENT sid="595" pm="."><plain>N., 2012 Will genomic selection be a practical method for plant breeding? Ann. </plain></SENT>
+<SENT sid="596" pm="."><plain>Bot. </plain></SENT>
+<SENT sid="597" pm="."><plain>(Lond.) 110: 1303–1316. 10.1093/aob/mcs109 </plain></SENT>
+</text></ref><ref id="bib64"><text><SENT sid="598" pm="."><plain>OakeyH.CullisB.ThompsonR.ComadranJ.HalpinC., 2016 Genomic Selection in Multi-environment Crop Trials. G3: Genes|Genomes|Genetics 6(5): 1313–1326 10.1534/g3.116.027524 </plain></SENT>
+</text></ref><ref id="bib65"><text><SENT sid="599" pm="."><plain>OakeyH.VerbylaA.PitchfordW.CullisB.KuchelH., 2006 Joint modeling of additive and non-additive genetic line effects in single field trials. Theor. </plain></SENT>
+<SENT sid="600" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="601" pm="."><plain>Genet. 113: 809–819. 10.1007/s00122-006-0333-z16896718 </plain></SENT>
+</text></ref><ref id="bib66"><text><SENT sid="602" pm="."><plain>OgutF.BianY.BradburyP. </plain></SENT>
+<SENT sid="603" pm="."><plain>J.HollandJ. </plain></SENT>
+<SENT sid="604" pm="."><plain>B., 2015 Joint-multiple family linkage analysis predicts within-family variation better than single-family analysis of the maize nested association mapping population. Heredity 114: 552–563. 10.1038/hdy.2014.12325585918 </plain></SENT>
+</text></ref><ref id="bib67"><text><SENT sid="605" pm="."><plain>OvendenB.MilgateA.LisleC.WadeL. </plain></SENT>
+<SENT sid="606" pm="."><plain>J.RebetzkeG. </plain></SENT>
+<SENT sid="607" pm="."><plain>J., 2017 Selection for water-soluble carbohydrate accumulation and investigation of genetic × environment interactions in an elite wheat breeding population. Theor. </plain></SENT>
+<SENT sid="608" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="609" pm="."><plain>Genet. 130: 2445–2461. 10.1007/s00122-017-2969-228852799 </plain></SENT>
+</text></ref><ref id="bib68"><text><SENT sid="610" pm="."><plain>PassiouraJ. </plain></SENT>
+<SENT sid="611" pm="."><plain>B., 1996 Drought and drought tolerance. Plant Growth Regul. 20: 79–83. 10.1007/BF00024003 </plain></SENT>
+</text></ref><ref id="bib69"><text><SENT sid="612" pm="."><plain>Pérez-RodríguezP.GianolaD.González-CamachoJ.M.CrossaJ.ManèsY., 2012 Comparison Between Linear and Non-parametric Regression Models for Genome-Enabled Prediction in Wheat. G3: Genes|Genomes|Genetics 2 (12):1595–1605 10.1534/g3.112.003665 </plain></SENT>
+</text></ref><ref id="bib70"><text><SENT sid="613" pm="."><plain>PheloungP.SiddiqueK., 1991 Contribution of stem dry matter to grain yield in wheat cultivars. Funct. </plain></SENT>
+<SENT sid="614" pm="."><plain>Plant Biol. 18: 53–64. </plain></SENT>
+</text></ref><ref id="bib71"><text><SENT sid="615" pm="."><plain>PiaskowskiJ. </plain></SENT>
+<SENT sid="616" pm="."><plain>L.BrownD.Garland CampbellK., 2016 Near-infrared calibration of soluble stem carbohydrates for predicting drought tolerance in spring wheat. Agron. </plain></SENT>
+<SENT sid="617" pm="."><plain>J. 108: 285–293. 10.2134/agronj2015.0173 </plain></SENT>
+</text></ref><ref id="bib72"><text><SENT sid="618" pm="."><plain>PiltzJ.LawD., 2007 AFIA-Laboratory Methods Manual, Australian Fodder Industry Association Inc., Balwyn, Victoria. </plain></SENT>
+</text></ref><ref id="bib73"><text><SENT sid="619" pm="."><plain>R Development Core Team, 2012 R: A language and environment for statistical computing, R Foundation for Statistical Computing, Vienna, Austria. </plain></SENT>
+</text></ref><ref id="bib74"><text><SENT sid="620" pm="."><plain>RayD. </plain></SENT>
+<SENT sid="621" pm="."><plain>K.GerberJ. </plain></SENT>
+<SENT sid="622" pm="."><plain>S.MacDonaldG. </plain></SENT>
+<SENT sid="623" pm="."><plain>K.WestP. </plain></SENT>
+<SENT sid="624" pm="."><plain>C., 2015 Climate variation explains a third of global crop yield variability. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="625" pm="."><plain>Commun. 6: 5989 10.1038/ncomms698925609225 </plain></SENT>
+</text></ref><ref id="bib75"><text><SENT sid="626" pm="."><plain>RebetzkeG. </plain></SENT>
+<SENT sid="627" pm="."><plain>J.ChapmanS. </plain></SENT>
+<SENT sid="628" pm="."><plain>C.McIntyreC. </plain></SENT>
+<SENT sid="629" pm="."><plain>L.RichardsR. </plain></SENT>
+<SENT sid="630" pm="."><plain>A.CondonA. </plain></SENT>
+<SENT sid="631" pm="."><plain>G., 2009 Grain Yield Improvement in Water-Limited Environments, pp. 215–249 in Wheat: Science and Trade, edited by CarverB. </plain></SENT>
+<SENT sid="632" pm="."><plain>F., Wiley-Blackwell, Ames, Iowa 10.1002/9780813818832.ch11 </plain></SENT>
+</text></ref><ref id="bib76"><text><SENT sid="633" pm="."><plain>RebetzkeG. </plain></SENT>
+<SENT sid="634" pm="."><plain>J.van HerwaardenA. </plain></SENT>
+<SENT sid="635" pm="."><plain>F.JenkinsC.WeissM.LewisD., 2008 Quantitative trait loci for water-soluble carbohydrates and associations with agronomic traits in wheat. Aust. </plain></SENT>
+<SENT sid="636" pm="."><plain>J. </plain></SENT>
+<SENT sid="637" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="638" pm="."><plain>Res. 59: 891–905. 10.1071/AR08067 </plain></SENT>
+</text></ref><ref id="bib77"><text><SENT sid="639" pm="."><plain>ReynoldsM. </plain></SENT>
+<SENT sid="640" pm="."><plain>P.QuilliganE.AggarwalP. </plain></SENT>
+<SENT sid="641" pm="."><plain>K.BansalK. </plain></SENT>
+<SENT sid="642" pm="."><plain>C.CavalieriA. </plain></SENT>
+<SENT sid="643" pm="."><plain>J., 2016 An integrated approach to maintaining cereal productivity under climate change. Glob. </plain></SENT>
+<SENT sid="644" pm="."><plain>Food Secur. 8: 9–18. 10.1016/j.gfs.2016.02.002 </plain></SENT>
+</text></ref><ref id="bib78"><text><SENT sid="645" pm="."><plain>RichardsR. </plain></SENT>
+<SENT sid="646" pm="."><plain>A.RebetzkeG. </plain></SENT>
+<SENT sid="647" pm="."><plain>J.WattM.CondonA. </plain></SENT>
+<SENT sid="648" pm="."><plain>G.SpielmeyerW., 2010 Breeding for improved water productivity in temperate cereals: phenotyping, quantitative trait loci, markers and the selection environment. Funct. </plain></SENT>
+<SENT sid="649" pm="."><plain>Plant Biol. 37: 85–97. 10.1071/FP09219 </plain></SENT>
+</text></ref><ref id="bib79"><text><SENT sid="650" pm="."><plain>RutkoskiJ.SinghR. </plain></SENT>
+<SENT sid="651" pm="."><plain>P.Huerta-EspinoJ.BhavaniS.PolandJ., 2015 Efficient use of historical data for genomic selection: A case study of stem rust resistance in wheat. Plant Genome 8(1): 1–10. 10.3835/plantgenome2014.09.0046 </plain></SENT>
+</text></ref><ref id="bib80"><text><SENT sid="652" pm="."><plain>RuuskaS. </plain></SENT>
+<SENT sid="653" pm="."><plain>A.RebetzkeG. </plain></SENT>
+<SENT sid="654" pm="."><plain>J.van HerwaardenA. </plain></SENT>
+<SENT sid="655" pm="."><plain>F.RichardsR. </plain></SENT>
+<SENT sid="656" pm="."><plain>A.FettellN. </plain></SENT>
+<SENT sid="657" pm="."><plain>A., 2006 Genotypic variation in water-soluble carbohydrate accumulation in wheat. Funct. </plain></SENT>
+<SENT sid="658" pm="."><plain>Plant Biol. 33: 799–809. 10.1071/FP06062 </plain></SENT>
+</text></ref><ref id="bib81"><text><SENT sid="659" pm="."><plain>SallamA. </plain></SENT>
+<SENT sid="660" pm="."><plain>H.EndelmanJ. </plain></SENT>
+<SENT sid="661" pm="."><plain>B.JanninkJ.-L.SmithK. </plain></SENT>
+<SENT sid="662" pm="."><plain>P., 2015 Assessing genomic selection prediction accuracy in a dynamic barley breeding population. Plant Genome 8: 1–15. 10.3835/plantgenome2014.05.0020 </plain></SENT>
+</text></ref><ref id="bib82"><text><SENT sid="663" pm="."><plain>SchnyderH., 1993 The role of carbohydrate storage and redistribution in the source-sink relations of wheat and barley during grain filling - a review. New Phytol. 123: 233–245. 10.1111/j.1469-8137.1993.tb03731.x </plain></SENT>
+</text></ref><ref id="bib83"><text><SENT sid="664" pm="."><plain>ShearmanV. </plain></SENT>
+<SENT sid="665" pm="."><plain>J.Sylvester-BradleyR.ScottR. </plain></SENT>
+<SENT sid="666" pm="."><plain>K.FoulkesM. </plain></SENT>
+<SENT sid="667" pm="."><plain>J., 2005 Physiological processes associated with wheat yield progress in the UK. Crop Sci. 45: 175–185. </plain></SENT>
+</text></ref><ref id="bib84"><text><SENT sid="668" pm="."><plain>SlewinskiT. </plain></SENT>
+<SENT sid="669" pm="."><plain>L., 2012 Non-structural carbohydrate partitioning in grass stems: a target to increase yield stability, stress tolerance, and biofuel production. J. </plain></SENT>
+<SENT sid="670" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="671" pm="."><plain>Bot. 63: 4647–4670. 10.1093/jxb/ers12422732107 </plain></SENT>
+</text></ref><ref id="bib85"><text><SENT sid="672" pm="."><plain>SmithA.CullisB.ThompsonR., 2001 Analyzing variety by environment data using multiplicative mixed models and adjustments for spatial field trend. Biometrics 57: 1138–1147. 10.1111/j.0006-341X.2001.01138.x11764254 </plain></SENT>
+</text></ref><ref id="bib86"><text><SENT sid="673" pm="."><plain>SmithA.GanesalingamA.KuchelH.CullisB., 2015 Factor analytic mixed models for the provision of grower information from national crop variety testing programs. Theor. </plain></SENT>
+<SENT sid="674" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="675" pm="."><plain>Genet. 128: 55–72. 10.1007/s00122-014-2412-x25326722 </plain></SENT>
+</text></ref><ref id="bib87"><text><SENT sid="676" pm="."><plain>SmithA.LimP.CullisB. </plain></SENT>
+<SENT sid="677" pm="."><plain>R., 2006 The design and analysis of multi-phase plant breeding experiments. J. </plain></SENT>
+<SENT sid="678" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="679" pm="."><plain>Sci. 144: 393 10.1017/S0021859606006319 </plain></SENT>
+</text></ref><ref id="bib88"><text><SENT sid="680" pm="."><plain>StramD. </plain></SENT>
+<SENT sid="681" pm="."><plain>O.LeeJ. </plain></SENT>
+<SENT sid="682" pm="."><plain>W., 1994 Variance components testing in the longitudinal mixed effects model. Biometrics 50: 1171–1177. 10.2307/25334557786999 </plain></SENT>
+</text></ref><ref id="bib89"><text><SENT sid="683" pm="."><plain>SuG.ChristensenO. </plain></SENT>
+<SENT sid="684" pm="."><plain>F.OstersenT.HenryonM.LundM. </plain></SENT>
+<SENT sid="685" pm="."><plain>S., 2012 Estimating additive and non-additive genetic variances and predicting genetic merits using genome-wide dense single nucleotide polymorphism markers. PLoS One 7: e45293 10.1371/journal.pone.004529323028912 </plain></SENT>
+</text></ref><ref id="bib90"><text><SENT sid="686" pm="."><plain>TakahashiT.ChevalierP. </plain></SENT>
+<SENT sid="687" pm="."><plain>M.RuppR. </plain></SENT>
+<SENT sid="688" pm="."><plain>A., 2001 Storage and remobilization of soluble carbohydrates after heading in different plant parts of a winter wheat cultivar. Plant Prod. </plain></SENT>
+<SENT sid="689" pm="."><plain>Sci. 4: 160–165. 10.1626/<z:uniprot sup="inside" fb="40" ids="P23538,O34309">pps</z:uniprot>.4.160 </plain></SENT>
+</text></ref><ref id="bib91"><text><SENT sid="690" pm="."><plain>van HerwaardenA. </plain></SENT>
+<SENT sid="691" pm="."><plain>F.AngusJ. </plain></SENT>
+<SENT sid="692" pm="."><plain>F.RichardsR. </plain></SENT>
+<SENT sid="693" pm="."><plain>A.FarquharG. </plain></SENT>
+<SENT sid="694" pm="."><plain>D., 1998 ‘Haying-off’, the negative grain yield response of dryland wheat to nitrogen fertiliser II.Carbohydrate and protein dynamics. Aust. </plain></SENT>
+<SENT sid="695" pm="."><plain>J. </plain></SENT>
+<SENT sid="696" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="697" pm="."><plain>Res. 49: 1083–1094. 10.1071/A97040 </plain></SENT>
+</text></ref><ref id="bib92"><text><SENT sid="698" pm="."><plain>VivekB. </plain></SENT>
+<SENT sid="699" pm="."><plain>S.KrishnaG. </plain></SENT>
+<SENT sid="700" pm="."><plain>K.VengadessanV.BabuR.ZaidiP. </plain></SENT>
+<SENT sid="701" pm="."><plain>H., 2016 Use of Genomic Estimated Breeding Values Results in Rapid Genetic Gains for Drought Tolerance in Maize. Plant Genome 10: 1–10. 10.3835/plantgenome2016.07.0070 </plain></SENT>
+</text></ref><ref id="bib93"><text><SENT sid="702" pm="."><plain>WimmerV.AlbrechtT.AuingerH.-J.SchönC.-C., 2012 Synbreed: a framework for the analysis of genomic prediction data using R. Bioinformatics 28: 2086–2087. 10.1093/bioinformatics/bts33522689388 </plain></SENT>
+</text></ref><ref id="bib94"><text><SENT sid="703" pm="."><plain>ZadoksJ. </plain></SENT>
+<SENT sid="704" pm="."><plain>C.ChangT. </plain></SENT>
+<SENT sid="705" pm="."><plain>T.KonzakC. </plain></SENT>
+<SENT sid="706" pm="."><plain>F., 1974 A decimal code for the growth stages of cereals. Weed Res. 14: 415–421. 10.1111/j.1365-3180.1974.tb01084.x </plain></SENT>
+</text></ref><ref id="bib95"><text><SENT sid="707" pm="."><plain>ZilaC.T.SamayoaL.F.SantiagoR.ButrónA.HollandJ.B., 2013 A genome-wide association study reveals genes associated with fusarium ear rot resistance in a maize core diversity panel. G3: Genes| Genomes| Genetics 3(11): 2095–2104 10.1534/g3.113.007328 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

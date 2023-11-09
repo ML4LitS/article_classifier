@@ -1,0 +1,675 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Anal Chem</journal-id><journal-id journal-id-type="iso-abbrev">Int J Anal Chem</journal-id><journal-id journal-id-type="publisher-id">IJAC</journal-id><journal-title-group><journal-title>International Journal of Analytical Chemistry</journal-title></journal-title-group><issn pub-type="ppub">1687-8760</issn><issn pub-type="epub">1687-8779</issn><publisher><publisher-name>Hindawi Publishing Corporation</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4789058</article-id><article-id pub-id-type="doi">10.1155/2016/7583684</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Production of Palmitoleic and Linoleic Acid in Oleaginous and Nonoleaginous Yeast Biomass </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kolouchová</surname><given-names>Irena</given-names></name><xref ref-type="aff" rid="I1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Maťátková</surname><given-names>Olga</given-names></name><xref ref-type="aff" rid="I1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sigler</surname><given-names>Karel</given-names></name><xref ref-type="aff" rid="I2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Masák</surname><given-names>Jan</given-names></name><xref ref-type="aff" rid="I1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Řezanka</surname><given-names>Tomáš</given-names></name><xref ref-type="aff" rid="I1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="I2">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="I1"><sup>1</sup>Department of Biotechnology, University of Chemistry and Technology Prague, Technická 5, 166 28 Prague, Czech Republic</aff><aff id="I2"><sup>2</sup>Institute of Microbiology, CAS, Vídeňská 1083, 142 20 Prague, Czech Republic</aff><author-notes><corresp id="cor1">*Irena Kolouchová: <email>irena.kolouchova@vscht.cz</email></corresp><fn fn-type="other"><p><text><SENT sid="1" pm="."><plain>Academic Editor: Dimitrios P. </plain></SENT>
+<SENT sid="2" pm="."><plain>Nikolelis </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="ppub"><year>2016</year></pub-date><pub-date pub-type="epub"><day>28</day><month>2</month><year>2016</year></pub-date><volume>2016</volume><elocation-id>7583684</elocation-id><history><date date-type="received"><day>20</day><month>12</month><year>2015</year></date><date date-type="rev-recd"><day>25</day><month>1</month><year>2016</year></date><date date-type="accepted"><day>1</day><month>2</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016 Irena Kolouchová et al.</copyright-statement><copyright-year>2016</copyright-year><license xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="3" pm="."><plain>We investigated the possibility of utilizing both oleaginous yeast species accumulating large amounts of lipids (Yarrowia lipolytica, Rhodotorula glutinis, Trichosporon cutaneum, and Candida sp.) and traditional biotechnological nonoleaginous ones (Kluyveromyces polysporus, Torulaspora delbrueckii, and Saccharomyces cerevisiae) as potential producers of dietetically important major fatty acids. </plain></SENT>
+<SENT sid="4" pm="."><plain>The main objective was to examine the cultivation conditions that would induce a high ratio of dietary fatty acids and biomass. </plain></SENT>
+<SENT sid="5" pm="."><plain>Though genus-dependent, the type of nitrogen source had a higher influence on biomass yield than the C/N ratio. </plain></SENT>
+<SENT sid="6" pm="."><plain>The nitrogen source leading to the highest lipid accumulation was potassium nitrate, followed by ammonium sulfate, which is an ideal nitrogen source supporting, in both oleaginous and nonoleaginous species, sufficient biomass growth with concomitantly increased lipid accumulation. </plain></SENT>
+<SENT sid="7" pm="."><plain>All yeast strains displayed high (70–90%) content of unsaturated fatty acids in total cell lipids. </plain></SENT>
+<SENT sid="8" pm="."><plain>The content of dietary fatty acids of interest, namely, palmitoleic acid and linoleic acid, reached in Kluyveromyces and Trichosporon strains over 50% of total fatty acids and the highest yield, over 280 mg per g of dry cell weight of these fatty acids, was observed in Trichosporon with ammonium sulfate as nitrogen source at C/N ratio 70. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><SecTag type="INTRO"><sec id="sec1"><title><text><SENT sid="9" pm="."><plain>1. </plain></SENT>
+<SENT sid="10" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="11" pm="."><plain>Microorganisms produce lipids in standard quality; the waste biomass and byproducts are biodegradable and nontoxic [1–5]. </plain></SENT>
+<SENT sid="12" pm="."><plain>All types of microorganisms produce lipids but they can be differentiated by the amount produced: nonoleaginous strains (the majority of microorganisms, many technologically employed strains, e.g., Saccharomyces sp.) do not accumulate lipids in high quantity while oleaginous strains accumulate more than 20% lipids in dry cell weight and can be exploited for production of fatty acid methyl esters, that is, biodiesel [6]. </plain></SENT>
+<SENT sid="13" pm="."><plain>Oleaginicity is not clade specific: oleaginous and nonoleaginous species are known in the same genus [7, 8]. </plain></SENT>
+</text></p><p><text><SENT sid="14" pm="."><plain>Yeasts appear to be the most easily exploitable microorganism due to their fast lipid accumulation, relatively high biomass yield, and unicellular character [9, 10]. </plain></SENT>
+<SENT sid="15" pm="."><plain>These properties might be advantageous for subsequent lipid isolation and processing and following biodiesel production. </plain></SENT>
+<SENT sid="16" pm="."><plain>At the present costs of fossil fuels, the production of microbial-derived biofuels is not yet a promising alternative. </plain></SENT>
+<SENT sid="17" pm="."><plain>However, the possibility is intensely investigated and publications on the many aspects of this scientific topic are available [1, 7, 11]. </plain></SENT>
+<SENT sid="18" pm="."><plain>The technoeconomical evaluation of the process has been published [12] and it has been demonstrated that the overall cost of the process is principally due to the cost of the fermentation (e.g., aeration and agitation) in large scale and the starting material does not play a material role. </plain></SENT>
+</text></p><p><text><SENT sid="19" pm="."><plain>Numerous studies have reported oil content and/or fatty acid composition of yeasts [10, 13, 14], but these studies are often describing only a few yeast species. </plain></SENT>
+<SENT sid="20" pm="."><plain>Yeast lipids are mostly present in the cells in the form of triacylglycerols; some of these lipids are constituted by monounsaturated and polyunsaturated fatty acids (PUFA) [15], whose production might be exploitable due to the ability of these microorganisms to synthesize in high quantities lipids rarely found in the plant or animal kingdom (i.e., lipids presenting composition similarities with the cocoa butter or other exotic fats). </plain></SENT>
+<SENT sid="21" pm="."><plain>Essential fatty acids, (n-3 and n-6 series) are not usually produced by yeast strains [16], but other unsaturated fatty acids of interest, such as palmitoleic and linoleic acid, can form a substantial part of microbial lipids [17]. </plain></SENT>
+<SENT sid="22" pm="."><plain>The lipid amount and composition are highly dependent on substrate (glucose, volatile fatty acid (VFA), and derivative animal fat) [18–21], nutrient availability (N, P, and S), temperature, pH, cultivation time, and setup (batch, fed batch) [2, 22, 23]. </plain></SENT>
+<SENT sid="23" pm="."><plain>For industrial-scale production and application, it is necessary to find a balance between the maximum lipid production (as influenced by the above factors) and type and price of substrate and economical balance of the production, including the financial demands of subsequent lipid isolation [24–27]. </plain></SENT>
+<SENT sid="24" pm="."><plain>Optimization of lipid production may involve genetic manipulation and targeted microbial alteration aiming at, for example, increasing the content of omega-3 and omega-6 unsaturated fatty acids [19, 20]. </plain></SENT>
+<SENT sid="25" pm="."><plain>PUFA are essential fatty acids and, as humans cannot synthetize them, they must be ingested. </plain></SENT>
+<SENT sid="26" pm="."><plain>Their deficiency leads to, for example, impaired arachidonic acid biosynthesis and subsequent synthesis of prostaglandins and results in imperfect growth of skeletal muscle tissue and hair loss [28, 29]. </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>Palmitoleic acid is a monounsaturated fatty acid that belongs among beneficial fatty acids. </plain></SENT>
+<SENT sid="28" pm="."><plain>It has been shown to have many important health benefits and therefore has broad applications in medicine and cosmetics [17, 30]. </plain></SENT>
+<SENT sid="29" pm="."><plain>Its limited availability makes it a target of studies focused on health supplements production. </plain></SENT>
+<SENT sid="30" pm="."><plain>Linoleic acid (18 : 2) is a polyunsaturated n-6 fatty acid that participates in the fat metabolism and also has been also proven to have positive effects in the treatment of many diseases. </plain></SENT>
+<SENT sid="31" pm="."><plain>Both fatty acids are therefore the object of this study as to the possibility of their production by microorganisms. </plain></SENT>
+</text></p><p><text><SENT sid="32" pm="."><plain>The main factor in lipid accumulation is the C/N ratio of the nutrient medium. </plain></SENT>
+<SENT sid="33" pm="."><plain>High C/N ratio leads to high cellular lipid content, but at ratios higher than 100, the amount of produced lipids decreases, when glucose was used as carbon source [23, 31, 32]. </plain></SENT>
+<SENT sid="34" pm="."><plain>Higher lipid content in the cells is often associated with lower biomass yield. </plain></SENT>
+<SENT sid="35" pm="."><plain>This phenomenon is highly dependent on the type of nitrogen source; however, besides the maximum lipid production, one must in this context consider also the economic perspective, as the prices of inorganic nitrogen sources such as ammonium chloride are much lower than those of complex sources such as yeast extract and peptone [33]. </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain>We employed seven yeast strains, both oleaginous and nonoleaginous ones that are often used in biotechnological applications and can be obtained in high quantities as waste biomass and/or are able to produce high biomass yields. </plain></SENT>
+<SENT sid="37" pm="."><plain>This work is focused on the influence of nitrogen source on the growth, total lipid accumulation, and unsaturated fatty acids (namely, linoleic and palmitoleic acid) of seven yeast strains, both commonly and less commonly employed for microbial lipid production (Yarrowia lipolytica, Rhodotorula glutinis, Trichosporon cutaneum, Candida sp., Torulaspora delbrueckii, Kluyveromyces polysporus, and Saccharomyces cerevisiae). </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="sec2"><title><text><SENT sid="38" pm="."><plain>2. </plain></SENT>
+<SENT sid="39" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="sec2.1"><title><text><SENT sid="40" pm="."><plain>2.1. </plain></SENT>
+<SENT sid="41" pm="."><plain>Microorganisms </plain></SENT>
+</text></title><p><text><SENT sid="42" pm="."><plain>The yeast strains used in the present study were Candida sp. </plain></SENT>
+<SENT sid="43" pm="."><plain>DBM 2163; Kluyveromyces polysporus DBM 2171; Rhodotorula glutinis CCY 20-2-20; Saccharomyces cerevisiae DBM 2115; Torulaspora delbrueckii DBM 39; Trichosporon cutaneum CCY 30-5-10; Yarrowia lipolytica CCY 29-26-36 supplied by Culture Collection of Yeast, Institute of Chemistry, Slovak Academy of Sciences, Bratislava, and by Collection of Yeasts and Industrial Microorganisms of University of Chemistry and Technology, Prague. </plain></SENT>
+<SENT sid="44" pm="."><plain>For long term storage, the stock cultures were maintained in 20% glycerol at −60°C. </plain></SENT>
+<SENT sid="45" pm="."><plain>Malt extract agar (23 g/L, pH 7) was employed for short term storage. </plain></SENT>
+</text></p></sec><sec id="sec2.2"><title><text><SENT sid="46" pm="."><plain>2.2. </plain></SENT>
+<SENT sid="47" pm="."><plain>Cultivation Conditions </plain></SENT>
+</text></title><p><text><SENT sid="48" pm="."><plain>The precultures of yeast strains were cultivated in 200 mL of YPD medium (20 g/L peptone, 10 g/L yeast extract, and 20 g/L glucose, initial pH 6.0) in Erlenmeyer flasks on a rotary shaker at 150 rpm at 28°C to the late exponential growth phase. </plain></SENT>
+</text></p><p><text><SENT sid="49" pm="."><plain>For lipid production, 200 mL of mineral medium in 500 mL Erlenmeyer flasks was inoculated with 10 mL of preculture to a final concentration of OD600 0.2 and incubated on a rotary shaker at 150 rpm and 28°C. </plain></SENT>
+<SENT sid="50" pm="."><plain>Mineral medium composition was (g/L) Na2HPO4·12H2O, 5; KH2PO4, 7; trace element solution 1 mL (MnCl2·4H2O, 20; FeSO4·7H2O, 1; Na2MoO4·2H2O, 1; CaCl2·2H2O, 20), pH 6.5. </plain></SENT>
+<SENT sid="51" pm="."><plain>Glucose was added as carbon source to the concentration 30 g/L and nitrogen source was supplemented so as to achieve different C/N ratios. </plain></SENT>
+</text></p><p><text><SENT sid="52" pm="."><plain>Growth characteristics were determined in the above yeast strains cultivated on different C/N ratios and with different N sources ((<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4, KNO3, urea, and (<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)NO3) in the Bioscreen C (Labsystems, Finland) device in microtiter plates. </plain></SENT>
+<SENT sid="53" pm="."><plain>Cultivation temperature was 30°C, and optical density was determined every 2 h. </plain></SENT>
+<SENT sid="54" pm="."><plain>All experiments were performed five times. </plain></SENT>
+<SENT sid="55" pm="."><plain>For lipid content and biomass yield determination, the yeasts were cultivated in 100 mL mineral medium in Erlenmeyer flasks (3 mL inoculum) on orbital rotary shaker (150 rpm) at 30°C in triplicate parallels. </plain></SENT>
+<SENT sid="56" pm="."><plain>For fatty acid composition analysis, cultivation with C/N ratio 70 as carried out in 200 mL mineral medium with one of the following N sources: (<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4, KNO3, urea, and (<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)NO3 with 6 mL inoculum, at 30°C on an orbital shaker (150 rpm). </plain></SENT>
+<SENT sid="57" pm="."><plain>The cultivation was carried out for 96 h (until early stationary phase). </plain></SENT>
+<SENT sid="58" pm="."><plain>After cultivation, the cells were centrifuged (9000 g, 10 min) and washed two times. </plain></SENT>
+<SENT sid="59" pm="."><plain>Biomass yield was determined as dry cell weight. </plain></SENT>
+<SENT sid="60" pm="."><plain>Biomass was frozen at −75°C and lyophilized. </plain></SENT>
+</text></p></sec><sec id="sec2.3"><title><text><SENT sid="61" pm="."><plain>2.3. </plain></SENT>
+<SENT sid="62" pm="."><plain>Lipid Extraction </plain></SENT>
+</text></title><p><text><SENT sid="63" pm="."><plain>Lyophilized yeast was mixed with 2 mL of 0.1 mol/L Na2CO3 and the mixture was briefly ground with Ballotini glass beads (diameter 0.2 mm) in a mortar, overlaid with liquid nitrogen, and ground again. </plain></SENT>
+<SENT sid="64" pm="."><plain>This process was repeated 3 times and 50 mL of 0.1 mol/L Na2CO3 was finally added. </plain></SENT>
+<SENT sid="65" pm="."><plain>The crushed yeast was extracted with a chloroform-methanol mixture according to Bligh and Dyer [34]. </plain></SENT>
+<SENT sid="66" pm="."><plain>The sample was centrifuged and the lower phase was evaporated to dryness and the lipid dry weight was determined. </plain></SENT>
+</text></p></sec><sec id="sec2.4"><title><text><SENT sid="67" pm="."><plain>2.4. </plain></SENT>
+<SENT sid="68" pm="."><plain>Analysis of Fatty Acid Methylesters </plain></SENT>
+</text></title><p><text><SENT sid="69" pm="."><plain>The total lipids (~5 mg) were saponified overnight in 10% KOH-MeOH at room temperature. </plain></SENT>
+<SENT sid="70" pm="."><plain>A fatty acid fraction obtained from the saponification was partitioned between alkali solution (pH 9) and diethylether to remove basic and neutral components. </plain></SENT>
+<SENT sid="71" pm="."><plain>The aqueous phase containing fatty acids was acidified to pH 2 and extracted with hexane. </plain></SENT>
+<SENT sid="72" pm="."><plain>The fatty acid fraction was methylated using <z:uniprot sup="inside" fb="0" ids="Q61850,Q63246">BF3</z:uniprot>/MeOH (14% solution of <z:uniprot sup="inside" fb="0" ids="Q61850,Q63246">BF3</z:uniprot> from Sigma-Aldrich). </plain></SENT>
+</text></p><p><text><SENT sid="73" pm="."><plain>Gas chromatography-mass spectrometry of FAME was done on a GC-MS system consisting of Varian 450-GC (Varian BV, Middelburg, Netherlands), Varian 240-MS ion trap detector with electron ionization (EI), and CombiPal autosampler (CTC, USA) equipped with split/splitless injector. </plain></SENT>
+<SENT sid="74" pm="."><plain>SP-2380 column (Supelco) (100 m, 0.25 mm ID, 0.20 μm film thickness) was used for separation. </plain></SENT>
+<SENT sid="75" pm="."><plain>The temperature program started at 60°C and was held for 1 min in splitless mode. </plain></SENT>
+<SENT sid="76" pm="."><plain>Then, the splitter was opened and the oven was heated to 160°C at a rate of 25°C min−1. </plain></SENT>
+<SENT sid="77" pm="."><plain>The second temperature ramp was up to 220°C at a rate of 1.0°C min−1, this temperature being maintained for 10 min. </plain></SENT>
+<SENT sid="78" pm="."><plain>The solvent delay time was set to 8 min. </plain></SENT>
+<SENT sid="79" pm="."><plain>The transfer line temperature was set to 280°C. </plain></SENT>
+<SENT sid="80" pm="."><plain>Mass spectra were recorded at 3 scans s−1 under electron ionization at 70 eV, mass range m/z 50–600. </plain></SENT>
+<SENT sid="81" pm="."><plain>FAMEs (fatty acid methyl esters) were identified according to their mass spectra and using a mixture of chemical standards obtained from Sigma-Aldrich. </plain></SENT>
+</text></p><p><text><SENT sid="82" pm="."><plain>Statistical analysis was performed with SigmaStat 3.5 (USA). </plain></SENT>
+<SENT sid="83" pm="."><plain>The statistical significance of differences in mean values of the different measured parameters was calculated by one-way ANOVAs and compared with Tukey's test at the 5% level of probability. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="sec3"><title><text><SENT sid="84" pm="."><plain>3. </plain></SENT>
+<SENT sid="85" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="sec3.1"><title><text><SENT sid="86" pm="."><plain>3.1. </plain></SENT>
+<SENT sid="87" pm="."><plain>Lipid Production and Growth at Different C/N Ratios </plain></SENT>
+</text></title><p><text><SENT sid="88" pm="."><plain>We compared the production of total lipid production by the seven oleaginous and nonoleaginous yeast species. </plain></SENT>
+<SENT sid="89" pm="."><plain>The selected nonoleaginous strains are often employed in biotechnological processes and either their biomass is accessible as a byproduct of food industry or their growth requirements are well understood, allowing for easy scale-up for production in high quantities. </plain></SENT>
+<SENT sid="90" pm="."><plain>As the microbial growth and lipid content are significantly influenced by the C/N ratio of the nutrients, we studied the yeast growth in Bioscreen C microplates at a C/N ratio of 30–90, that is, under nitrogen limitation. </plain></SENT>
+<SENT sid="91" pm="."><plain>Glucose was used as carbon source, because although it is an expensive substrate as a pure compound, it is often used as a model substrate for the estimation of yeast production abilities. </plain></SENT>
+<SENT sid="92" pm="."><plain>Different organic or inorganic substances can also be used as the N source: in this work, (<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4, KNO3, urea, and (<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)NO3. </plain></SENT>
+<SENT sid="93" pm="."><plain>Both oleaginous and nonoleaginous yeasts showed similar growth characteristics under the same conditions of C/N ratio; that is, their lag-phase duration and biomass yield were comparable (data not shown). </plain></SENT>
+<SENT sid="94" pm="."><plain>For all other strains, the growth in the complex YPD medium was substantially higher than in a mineral medium, whatever the C/N ratio. </plain></SENT>
+<SENT sid="95" pm="."><plain>A C/N ratio of 70, which ensured the highest lipid content, was chosen, for comparing the lipid content of both oleaginous and nonoleaginous yeasts and detailing the fatty acid composition. </plain></SENT>
+<SENT sid="96" pm="."><plain>Lower C/N ratios suppressed lipid accumulation and higher ratio (C/N 90) did not lead to higher lipid accumulation also. </plain></SENT>
+<SENT sid="97" pm="."><plain>Lipid yield, expressed as the lipid content obtained from cells in a unit volume of the original medium, is dependent both on the biomass yield and on lipid content. </plain></SENT>
+<SENT sid="98" pm="."><plain>The influence of four nitrogen sources on lipid content was studied. </plain></SENT>
+<SENT sid="99" pm="."><plain>In cultivation with C/N ratio 70, the lipid content was in the range of 3.5–55% of dry cell weight (Figure 1), with oleaginous strains showing lipid content between 14 and 55%, decreasing in the sequence T. cutaneum &gt; Candida sp. ≥ R. glutinis &gt; Y. lipolytica. </plain></SENT>
+<SENT sid="100" pm="."><plain>In all four oleaginous strains, potassium nitrate supported the highest lipid content. </plain></SENT>
+<SENT sid="101" pm="."><plain>The lipid content of nonoleaginous strains did not vary significantly in dependence on N source. </plain></SENT>
+<SENT sid="102" pm="."><plain>The proportion of lipids in nonoleaginous strains (S. cerevisiae, T. delbrueckii, and K. polysporus) was low (3.5–6%). </plain></SENT>
+</text></p><p><text><SENT sid="103" pm="."><plain>When biomass yield (dry cell weight in mg/L) of individual strains was compared (Figure 1), no substantial collective preference for nitrogen source was observed among the yeasts strains. </plain></SENT>
+<SENT sid="104" pm="."><plain>The highest overall biomass yield (~2300 mg/L) was observed in Y. lipolytica. </plain></SENT>
+<SENT sid="105" pm="."><plain>Ammonium sulfate led to the highest biomass yield of Candida sp. and R. glutinis, and urea as an organic N source increased the biomass content in cultivation of T. cutaneum and Y. lipolytica. </plain></SENT>
+<SENT sid="106" pm="."><plain>Under studied conditions, nonoleaginous strains did not produce lipids or biomass in high amount. </plain></SENT>
+</text></p><p><text><SENT sid="107" pm="."><plain>When both biomass yield and lipid content were compared, Candida sp. and R. glutinis displayed a high ratio of lipid/biomass production, 30 and 40%, respectively, whereas the lipid/biomass ratio in Y. lipolytica was a mere 15–25% depending on N source. </plain></SENT>
+<SENT sid="108" pm="."><plain>The lipid content in cells was found to be dependent on the type of microorganism and its genus. </plain></SENT>
+<SENT sid="109" pm="."><plain>For instance, the lipid content of T. cutaneum was three times higher than the lipid content of Y. lipolytica (20%) under the same cultivation conditions, although both strains are oleaginous. T. cutaneum that produced a high amount of lipids (55%), but biomass yield was low (approx. </plain></SENT>
+<SENT sid="110" pm="."><plain>1 g/L). </plain></SENT>
+<SENT sid="111" pm="."><plain>On the other hand, Candida sp. produced 40% lipids in biomass, but the biomass yield was twice as high compared to T. cutaneum. </plain></SENT>
+</text></p></sec><sec id="sec3.2"><title><text><SENT sid="112" pm="."><plain>3.2. </plain></SENT>
+<SENT sid="113" pm="."><plain>Fatty Acid Composition and Profile </plain></SENT>
+</text></title><p><text><SENT sid="114" pm="."><plain>Table 1 shows the total lipid content and saturated, monounsaturated, and polyunsaturated fatty acid profile of all studied strains in dependence on the N source used (C/N ratio 70). </plain></SENT>
+<SENT sid="115" pm="."><plain>Major fatty acids were oleic (18 : 1), palmitic (16 : 0), and linoleic (18 : 2) acids, while stearic (18 : 0), arachidic (20 : 0), and palmitoleic (16 : 1) acids were present in lesser amounts. </plain></SENT>
+<SENT sid="116" pm="."><plain>The fatty acid composition in all seven strains is similar to the fatty acid composition found in plant oils and might be therefore utilized in biodiesel production. S. cerevisiae biomass is produced in high amounts in biotechnological applications, with very low lipid content (less than 10%) of which palmitoleic acid (16 : 1) comprises 40%. K. polysporus produced up to 60% of palmitoleic acid, but the total lipid and biomass yield was low in comparison with other strains (Figure 1). </plain></SENT>
+</text></p><p><text><SENT sid="117" pm="."><plain>The strains that showed a very high content of unsaturated fatty acids were Y. lipolytica (84%), Candida sp. </plain></SENT>
+<SENT sid="118" pm="."><plain>(80%), R. glutinis (79%), T. cutaneum (79%), K. polysporus (89%), S. cerevisiae (81%), and T. delbrueckii (67%) (relative to total FA content). </plain></SENT>
+<SENT sid="119" pm="."><plain>The highest proportions of unsaturated fatty acids were obtained in cultivation on ammonium sulfate. </plain></SENT>
+<SENT sid="120" pm="."><plain>If the biomass yield of the strains cultivated on different N sources was compared, urea will be seen to lead to the highest biomass content in T. cutaneum, Y. lipolytica, and K. polysporus while ammonium sulfate supported the highest biomass production in S. cerevisiae, Candida sp., and R. glutinis. </plain></SENT>
+<SENT sid="121" pm="."><plain>Potassium nitrate was found to be the most appropriate nitrogen source for biomass production in T. delbrueckii. </plain></SENT>
+</text></p><p><text><SENT sid="122" pm="."><plain>Very different results were found when considering lipid content (%) in dependence on nitrogen source. </plain></SENT>
+<SENT sid="123" pm="."><plain>Here cultivation on potassium nitrate leads to the highest lipid contents in all studied strains. </plain></SENT>
+<SENT sid="124" pm="."><plain>The second most suitable N source is ammonium sulfate (for 6 strains, safe for Candida sp.). </plain></SENT>
+<SENT sid="125" pm="."><plain>When considering the lipid content relative to unit medium volume and biomass, ammonium sulfate appears to be the most suitable N source for 3 strains (Candida sp., R. glutinis, and S. cerevisiae), urea for T. cutaneum and K. polysporus, and potassium nitrate for T. delbrueckii and Y. lipolytica. </plain></SENT>
+</text></p></sec><sec id="sec3.3"><title><text><SENT sid="126" pm="."><plain>3.3. </plain></SENT>
+<SENT sid="127" pm="."><plain>Palmitoleic and Linoleic Acid Content </plain></SENT>
+</text></title><p><text><SENT sid="128" pm="."><plain>Figure 2 depicts the combined content of the two unsaturated dietary fatty acids of interest, palmitoleic and linoleic acid, as a ratio of total fatty acids (%) and in mg per dry cell weight in all seven studied strains cultivated with four different nitrogen sources. </plain></SENT>
+<SENT sid="129" pm="."><plain>The figure shows that the content and yield of the studied fatty acids are dependent on the yeast strain and cultivation conditions. </plain></SENT>
+<SENT sid="130" pm="."><plain>The nonoleaginous strains showed higher average proportion of both unsaturated fatty acids, in K. polysporus in all studied conditions over 50%, S. cerevisiae and T. delbrueckii over 40% with minor preference for the ammonium sulfate nitrogen source. </plain></SENT>
+<SENT sid="131" pm="."><plain>However, in oleaginous yeast, T. cutaneum has been found to have the highest yield—the sum of palmitoleic and linoleic acid per dry cell weight—up to 285 mg/g (dry cell weight) when ammonium sulfate was used as the nitrogen source. </plain></SENT>
+<SENT sid="132" pm="."><plain>That is more than 30% increase in comparison with the second highest yield per dry cell weight (T. cutaneum with potassium nitrate) and twice as high as the next third highest yield per dry cell weight (Candida sp. with ammonium sulfate and T. cutaneum with urea). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="sec4"><title><text><SENT sid="133" pm="."><plain>4. </plain></SENT>
+<SENT sid="134" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="135" pm="."><plain>At present, microbial oils are studied as an alternative to many traditional raw materials and human food and health produce [1]. </plain></SENT>
+<SENT sid="136" pm="."><plain>Either for biofuel utilization or for health supplements, yeasts, especially oleaginous ones like Y. lipolytica, Cryptococcus curvatus, R. glutinis, and Trichosporon species, are intensively investigated [10]. </plain></SENT>
+</text></p><p><text><SENT sid="137" pm="."><plain>The ability of oleaginous yeast to accumulate lipids or produce lipids of specific composition is dependent on many factors such as carbon source, nutrient availability, cultivation temperature, pH, inoculum size, trace element content, and cultivation time. </plain></SENT>
+<SENT sid="138" pm="."><plain>In this work, glucose was chosen as a substrate; however, many other starting materials are studied, besides saccharides, such as lactose or sucrose [35] that can be also exploited as volatile fatty acids [21] or industrial fat derivatives composed of saturated free fatty acids [18]. </plain></SENT>
+<SENT sid="139" pm="."><plain>The utilization of VFA or industrial fat influences the lipid mechanism synthesis, which is then different than that on glucose [19, 20]. </plain></SENT>
+</text></p><p><text><SENT sid="140" pm="."><plain>Nitrogen source shortage has a significant effect upon the FA composition of microbial lipids. </plain></SENT>
+<SENT sid="141" pm="."><plain>Recent investigations on yeast and algae pointed out a close relationship between nitrogen starvation, autophagy, and production of storage lipid, especially triacylglycerols. </plain></SENT>
+<SENT sid="142" pm="."><plain>In yeasts, nutrient starvation induces a high level of autophagy [36–38]. </plain></SENT>
+<SENT sid="143" pm="."><plain>Li et al. [39] showed that nitrogen starvation is indeed a universal stimulus of autophagy in yeast. </plain></SENT>
+<SENT sid="144" pm="."><plain>Under nitrogen starvation, yeast cells continue to consume glucose, downregulate fermentation, and produce increased amounts of storage lipid, largely in the form of lipid droplets. </plain></SENT>
+<SENT sid="145" pm="."><plain>A crucial factor for autophagosome biogenesis was found to be triacylglycerol synthesis. </plain></SENT>
+<SENT sid="146" pm="."><plain>Boyle et al. [40] investigated the factors that trigger the production of triacylglycerols in algae and discovered the genes responsible for triacylglycerol (TAG) production in Chlamydomonas and for the regulatory components that activate the pathway. </plain></SENT>
+<SENT sid="147" pm="."><plain>Several genes encoding <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferases</z:uniprot> (diacylglycerol <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferase</z:uniprot> and/or phospholipid-diacylglycerol <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferase</z:uniprot>) were found to be induced by nitrogen starvation and are likely to have a role in TAG accumulation conditions. </plain></SENT>
+</text></p><p><text><SENT sid="148" pm="."><plain>The key factors used in our work were based on previous laboratory results and the information acquired from the literature: temperature 28°C, pH 6.0, cultivation time 96 h, and 3% inoculum [31, 41–44]. </plain></SENT>
+<SENT sid="149" pm="."><plain>Among the most important factors in lipid accumulation is low availability of nutrients, most commonly nitrogen source [19]. </plain></SENT>
+</text></p><p><text><SENT sid="150" pm="."><plain>Under such conditions, it can be proved that higher C/N ratio in the medium leads to higher lipid accumulation. </plain></SENT>
+<SENT sid="151" pm="."><plain>This fact is dependent on the studied yeast species and the cultivation conditions (substrate type, concentration, and cultivation setup); all of these factors define the existence and value of the optimum C/N ratio for lipid accumulation and are usually determined experimentally [35]. </plain></SENT>
+<SENT sid="152" pm="."><plain>Our findings led to the conclusion that, for the studied yeast strains and selected cultivation conditions, the lipid content at C/N ratio 70 was higher than at C/<z:uniprot sup="inside" fb="0" ids="Q41121">N 30</z:uniprot> [17]. </plain></SENT>
+<SENT sid="153" pm="."><plain>Some authors give a C/N ratio of approximately 100 as the best for lipid production but the difference in cultivation conditions is the determining factor [2, 5, 45]. </plain></SENT>
+<SENT sid="154" pm="."><plain>When lipidic substrates are used, high C/N ratios for lipid synthesis are preferred by many yeasts [18]. </plain></SENT>
+<SENT sid="155" pm="."><plain>For continuous cultivation, a mathematical model was created and the effect of C/N ratio and dilution rates on lipid production by oleaginous yeasts has been evaluated by this model. </plain></SENT>
+<SENT sid="156" pm="."><plain>For these conditions, authors state that lipid yield increased gradually with increasing C/N ratios. </plain></SENT>
+<SENT sid="157" pm="."><plain>For continuous cultivation, lipid yield and lipid production rate can be calculated at any C/N ratio of the growth medium and optimum operation conditions can be predicted for the production of microbial lipids by using this modelling [46]. </plain></SENT>
+<SENT sid="158" pm="."><plain>In our work, C/N ratio 70 was found to lead to the highest lipid accumulation, and C/N ratio 90 led to a decrease in lipid content. </plain></SENT>
+<SENT sid="159" pm="."><plain>Braunwald et al. [47] reported that higher initial glucose concentration does not lead to further lipid accumulation. </plain></SENT>
+<SENT sid="160" pm="."><plain>Similar results were reported in other studies [18, 48], and our study therefore focused on increasing the lipid content by using different types of nitrogen sources and yeast strains rather than employing higher initial glucose concentration, which was used as a model carbon source intended for the establishment of the potential of studied yeasts for lipid accumulation and unsaturated fatty acid production. </plain></SENT>
+<SENT sid="161" pm="."><plain>For industrial-scale production, scale-up would have to be performed and selection of carbon source from the wide array of saccharide waste products would be convenient for better economical balance of the process and mathematical modelling might be exploited [46]. </plain></SENT>
+</text></p><p><text><SENT sid="162" pm="."><plain>The aim of this work was to interconnect the nitrogen source influence on the total lipid accumulation and the production of dietary unsaturated fatty acids (palmitoleic and linoleic), rather than for biodiesel production. </plain></SENT>
+<SENT sid="163" pm="."><plain>Feasibility studies state that the cultivation of yeasts for microbial biomass and subsequent biodiesel production are substantially limited by the cost required by the cultivation process [12]. </plain></SENT>
+</text></p><p><text><SENT sid="164" pm="."><plain>There are only a few studies comparing the influence of C/N ratio and the nitrogen source type on biomass yield. </plain></SENT>
+<SENT sid="165" pm="."><plain>Our study is unique in evaluating the influence of these two parameters on both oleaginous and nonoleaginous yeasts. </plain></SENT>
+<SENT sid="166" pm="."><plain>The results suggest that the biomass yield is determined by the nitrogen source type while a change in C/N ratio (with the same nitrogen source) does not influence growth. </plain></SENT>
+<SENT sid="167" pm="."><plain>Negligible changes in biomass amount caused by changing C/N ratio were also reported by Wiebe et al. [11], Braunwald et al. [47], and Galafassi et al. [49]. </plain></SENT>
+<SENT sid="168" pm="."><plain>A study by Jadhav et al. [50] on Y. lipolytica and Lipomyces slipover reported an influence of nitrogen type, but without specifying the influence of C/N ratio, as did Liu et al. [42]. </plain></SENT>
+</text></p><p><text><SENT sid="169" pm="."><plain>Similarly, as reported by Turcotte and Kosaric [51] on Rhodosporidium toruloides, we found no preferential nitrogen source for biomass yield alone. </plain></SENT>
+</text></p><p><text><SENT sid="170" pm="."><plain>Our data show that the ability to accumulate lipids is genus-dependent (see also the study by Sitepu et al. [8]). </plain></SENT>
+<SENT sid="171" pm="."><plain>In all seven strains, maximum lipid production (%) was observed on potassium nitrate; similar results were reported by Jadhav et al. [50] who studied Y. lipolytica. The maximum lipid content per produced cell biomass (Figure 1) of our yeast strains was as follows: T. cutaneum 55.2%, R. glutinis 36.2%, Candida sp. </plain></SENT>
+<SENT sid="172" pm="."><plain>35.9%, Y. lipolytica 26.4%, K. polysporus 6.1%, T. delbrueckii 5.7%, and S. cerevisiae 4.9%. </plain></SENT>
+<SENT sid="173" pm="."><plain>The results observed for Candida sp. and R. glutinis are consistent with the data reported in the literature [52]. </plain></SENT>
+</text></p><p><text><SENT sid="174" pm="."><plain>Lipid yield on different nitrogen substrates is also genus-dependent [7]. </plain></SENT>
+<SENT sid="175" pm="."><plain>In our study, lipid production after 96-hour cultivation reached 0.30–0.96 g/L medium. </plain></SENT>
+<SENT sid="176" pm="."><plain>The highest values were displayed by Candida sp. </plain></SENT>
+<SENT sid="177" pm="."><plain>Nonoleaginous species produced lipids in lesser amounts: 0.01 (S. cerevisiae) and 0.13 g/L (T. delbrueckii). </plain></SENT>
+<SENT sid="178" pm="."><plain>Low values of lipid accumulation might be the result of insufficient aeration [53] or a rapid pH drop, caused by acidifying effect of ammonium uptake by the cell at early stages of cultivation, reported to be detrimental to lipid production [54]. </plain></SENT>
+<SENT sid="179" pm="."><plain>To our knowledge, there are no studies comparing a series of different yeast strains as to the suitability of nitrogen sources for lipid yield. </plain></SENT>
+<SENT sid="180" pm="."><plain>In our study, urea was found to be the most suitable nitrogen source for lipid yield in the nonoleaginous K. polysporus and the oleaginous T. cutaneum. </plain></SENT>
+<SENT sid="181" pm="."><plain>The same result was observed by Zhu et al. [31] for T. fermentans and Evans et al. [55] for R. toruloides. </plain></SENT>
+<SENT sid="182" pm="."><plain>We found ammonium sulfate as the most suitable nitrogen source for lipid yield in oleaginous Candida sp., R. glutinis, and S. cerevisiae. </plain></SENT>
+<SENT sid="183" pm="."><plain>It was also found to ensure the highest lipid yield in Lipomyces starkeyi [42] whereas da Rosa et al. [56] mentioned ammonium sulfate as the least appropriate nitrogen source for lipid yield in C. zeylanoides. </plain></SENT>
+</text></p><p><text><SENT sid="184" pm="."><plain>On comparing the results, ammonium sulfate is seen to be the most appropriate nitrogen source for the highest biomass production, lipid content in biomass dry cell weight, and lipid yield (see also [57, 58]). </plain></SENT>
+</text></p><p><text><SENT sid="185" pm="."><plain>Ammonium is the main nitrogen source in AFEX-pretreated corn stover hydrolysate [59] which might be therefore suitable for cultivating our strains when scale-up is considered. </plain></SENT>
+</text></p><p><text><SENT sid="186" pm="."><plain>The fatty acid profile determined in this study displayed preferential synthesis of unsaturated fatty acids (palmitoleic acid (16 : 1), oleic acid (18 : 1), and linoleic acid (18 : 2)) in both oleaginous and nonoleaginous species. </plain></SENT>
+<SENT sid="187" pm="."><plain>The content of these fatty acids comprised up to 60–90% of total FA. </plain></SENT>
+<SENT sid="188" pm="."><plain>These data are consistent with published results [41, 53]. </plain></SENT>
+<SENT sid="189" pm="."><plain>The unsaturated fatty acid content increases with cultivation duration and under nitrogen starvation. </plain></SENT>
+</text></p><p><text><SENT sid="190" pm="."><plain>Yeasts that are able to produce dietary fatty acids (palmitoleic and linoleic) in high amount might be utilized for biotechnological production for nutritional use [7]. </plain></SENT>
+</text></p><p><text><SENT sid="191" pm="."><plain>The content of linoleic acid (18 : 2), an essential omega-6 fatty acid, is also influenced by the composition of cultivation medium and cultivation time. </plain></SENT>
+<SENT sid="192" pm="."><plain>In our study, its production in all studied strains significantly increased when ammonium sulfate was used as N source. </plain></SENT>
+<SENT sid="193" pm="."><plain>The oleaginous yeast T. cutaneum has been found as the most promising for its high yield of palmitoleic and linoleic acid per dry cell weight, up to 285 mg/g per dry cell weight when ammonium sulfate was used as the nitrogen source. </plain></SENT>
+<SENT sid="194" pm="."><plain>Also, the highest content of linoleic acid (18 : 2) was observed in T. cutaneum (53.4%). </plain></SENT>
+</text></p><p><text><SENT sid="195" pm="."><plain>The nonoleaginous yeasts showed preferential production of palmitoleic and linoleic acid, which might be advantageously utilized in biomass byproduct utilization. </plain></SENT>
+<SENT sid="196" pm="."><plain>Although these yeasts did not show under studied conditions high biomass yield, their production of unsaturated fatty acids did not vary significantly under different cultivation conditions. </plain></SENT>
+<SENT sid="197" pm="."><plain>This might be taken advantage of in the processing of biomass waste product of the brewing or wine industry. </plain></SENT>
+<SENT sid="198" pm="."><plain>Such biomass is easily obtainable with low cost and the unsaturated fatty acid might be extracted from this material with positive economical balance. </plain></SENT>
+</text></p><p><text><SENT sid="199" pm="."><plain>For oleaginous species, optimization of lipid production and higher biomass and lipid yield in terms of total expenses might be achieved by modifying cultivation configuration (batch or fed-batch cultivation) in a bioreactor or utilization of waste materials [31, 44]. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec id="sec5"><title><text><SENT sid="200" pm="."><plain>5. </plain></SENT>
+<SENT sid="201" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="202" pm="."><plain>All studied oleaginous and nonoleaginous yeast species (Yarrowia lipolytica, Rhodotorula glutinis, Candida sp., Trichosporon cutaneum, Torulaspora delbrueckii, Kluyveromyces polysporus, and Saccharomyces cerevisiae) have been observed to ascertain their ability to produce specific unsaturated fatty acids. </plain></SENT>
+<SENT sid="203" pm="."><plain>Oleaginous strains with high lipid content and high unsaturated fatty acids yield might be utilized for specific production, with T. cutaneum as the most promising candidate. </plain></SENT>
+<SENT sid="204" pm="."><plain>Although the nonoleaginous species lipid content is lower, their advantageous property is their high content of monounsaturated fatty acids under wide array of cultivation conditions and the possibility of their acquisition as food industry waste products. </plain></SENT>
+<SENT sid="205" pm="."><plain>The best nitrogen source for lipid accumulation was potassium nitrate, followed by ammonium sulfate, which is an ideal nitrogen source supporting sufficient biomass growth with concomitantly increased lipid accumulation in both oleaginous and nonoleaginous species. </plain></SENT>
+<SENT sid="206" pm="."><plain>Using this optimum N source has a higher importance for the proper biomass-lipids ratio than the change of the C/N ratio in the range under study. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><title>Acknowledgment</title><p><text4fund><text><SENT sid="207" pm="."><plain>The research was supported by GACR Project P503 14-00227S. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="COMP_INT"><sec sec-type="conflict"><title>Conflict of Interests</title><p>The authors declare that there is no conflict of interests regarding the publication of this paper.</p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="208" pm="."><plain>1AtabaniA. </plain></SENT>
+<SENT sid="209" pm="."><plain>E.SilitongaA. </plain></SENT>
+<SENT sid="210" pm="."><plain>S.BadruddinI. </plain></SENT>
+<SENT sid="211" pm="."><plain>A.MahliaT. </plain></SENT>
+<SENT sid="212" pm="."><plain>M. </plain></SENT>
+<SENT sid="213" pm="."><plain>I.MasjukiH. </plain></SENT>
+<SENT sid="214" pm="."><plain>H.MekhilefS.A comprehensive review on biodiesel as an alternative energy resource and its characteristicsRenewable and Sustainable Energy Reviews20121642070209310.1016/j.rser.2012.01.0032-s2.0-84858257900 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="215" pm="."><plain>2AgeitosJ. </plain></SENT>
+<SENT sid="216" pm="."><plain>M.VallejoJ. </plain></SENT>
+<SENT sid="217" pm="."><plain>A.Veiga-CrespoP.VillaT. </plain></SENT>
+<SENT sid="218" pm="."><plain>G.Oily yeasts as oleaginous cell factoriesApplied Microbiology and Biotechnology20119041219122710.1007/s00253-011-3200-z2-s2.0-7995555303821465305 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="219" pm="."><plain>3RupčićJ.BlagovićB.MarićV.Cell lipids of the Candida lipolytica yeast grown on methanolJournal of Chromatography A19967551758010.1016/s0021-9673(96)00579-12-s2.0-00306061238997745 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="220" pm="."><plain>4XueF. </plain></SENT>
+<SENT sid="221" pm="."><plain>Y.ZhangX.LuoH.TanT. </plain></SENT>
+<SENT sid="222" pm="."><plain>W.A new method for preparing raw material for biodiesel productionProcess Biochemistry20064171699170210.1016/j.procbio.2006.03.0022-s2.0-33646554158 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="223" pm="."><plain>5AngerbauerC.SiebenhoferM.MittelbachM.GuebitzG. </plain></SENT>
+<SENT sid="224" pm="."><plain>M.Conversion of sewage sludge into lipids by Lipomyces starkeyi for biodiesel productionBioresource Technology20089983051305610.1016/j.biortech.2007.06.0452-s2.0-3884911339917719773 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="225" pm="."><plain>6RatledgeC.Resources conservation by novel biological processes I. </plain></SENT>
+<SENT sid="226" pm="."><plain>Grow fats from wastesChemical Society Reviews19798283296 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="227" pm="."><plain>7SitepuI. </plain></SENT>
+<SENT sid="228" pm="."><plain>R.SestricR.IgnatiaL.Manipulation of culture conditions alters lipid content and fatty acid profiles of a wide variety of known and new oleaginous yeast speciesBioresource Technology201314436036910.1016/j.biortech.2013.06.0472-s2.0-8488098889323891835 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="229" pm="."><plain>8SitepuI. </plain></SENT>
+<SENT sid="230" pm="."><plain>R.IgnatiaL.FranzA. </plain></SENT>
+<SENT sid="231" pm="."><plain>K.An improved high-throughput Nile red fluorescence assay for estimating intracellular lipids in a variety of yeast speciesJournal of Microbiological Methods201291232132810.1016/j.mimet.2012.09.0012-s2.0-8486723690422985718 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="232" pm="."><plain>9SubramaniamR.DufrecheS.ZappiM.BajpaiR.Microbial lipids from renewable resources: production and characterizationJournal of Industrial Microbiology &amp; Biotechnology201037121271128710.1007/s10295-010-0884-52-s2.0-7865131094121086103 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="233" pm="."><plain>10MengX.YangJ. </plain></SENT>
+<SENT sid="234" pm="."><plain>M.XuX.ZhangL.NieQ.XianM.Biodiesel production from oleaginous microorganismsRenewable Energy20093411510.1016/j.renene.2008.04.0142-s2.0-51649092075 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="235" pm="."><plain>11WiebeM. </plain></SENT>
+<SENT sid="236" pm="."><plain>G.KoivurantaK.PenttiläM.RuohonenL.Lipid production in batch and fed-batch cultures of Rhodosporidium toruloides from 5 and 6 carbon carbohydratesBMC Biotechnology201212, article 2610.1186/1472-6750-12-262-s2.0-84861567451 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="237" pm="."><plain>12KoutinasA. </plain></SENT>
+<SENT sid="238" pm="."><plain>A.ChatzifragkouA.KopsahelisN.PapanikolaouS.KookosI. </plain></SENT>
+<SENT sid="239" pm="."><plain>K.Design and techno-economic evaluation of microbial oil production as a renewable resource for biodiesel and oleochemical productionFuel201411656657710.1016/j.fuel.2013.08.0452-s2.0-84884323183 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="240" pm="."><plain>13BeopoulosA.DesfougéresT.SabirovaJ.NicaudJ.-M. Yarrowia lipolytica as a cell factory for oleochemical biotechnologyHandbook of Hydrocarbon and Lipid Microbiology2010Berlin, GermanySpringer3003301010.1007/978-3-540-77587-4_223 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="241" pm="."><plain>14KanekoH.HosoharaM.TanakaM.ItohT.Lipid composition of 30 species of yeastLipids1976111283784410.1007/BF025329892-s2.0-00170358731011938 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="242" pm="."><plain>15CertikM.MegovaJ.HorenitzkyR.Effect of nitrogen sources on the activities of lipogenic enzymes in oleaginous fungus Cunninghamella echinulata Journal of General and Applied Microbiology199945628929310.2323/jgam.45.2892-s2.0-003349288712501358 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="243" pm="."><plain>16RatledgeC.Single cell oils—have they a biotechnological future?Trends in Biotechnology199311727828410.1016/0167-7799(93)90015-22-s2.0-00276242767763950 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="244" pm="."><plain>17KolouchováI.SiglerK.SchreiberováO.MasákJ.ŘezankaT.New yeast-based approaches in production of palmitoleic acidBioresource Technology201519272673410.1016/j.biortech.2015.06.04826101962 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="245" pm="."><plain>18PapanikolaouS.ChevalotI.KomaitisM.MarcI.AggelisG.Single cell oil production by Yarrowia lipolytica growing on an industrial derivative of animal fat in batch culturesApplied Microbiology and Biotechnology200258330831210.1007/s00253-001-0897-02-s2.0-003619200611935181 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="246" pm="."><plain>19PapanikolaouS.AggelisG.Lipids of oleaginous yeasts. </plain></SENT>
+<SENT sid="247" pm="."><plain>Part I: biochemistry of single cell oil productionEuropean Journal of Lipid Science and Technology201111381031105110.1002/ejlt.2011000142-s2.0-80051682084 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="248" pm="."><plain>20PapanikolaouS.AggelisG.Lipids of oleaginous yeasts. </plain></SENT>
+<SENT sid="249" pm="."><plain>Part II: technology and potential applicationsEuropean Journal of Lipid Science and Technology201111381052107310.1002/ejlt.2011000152-s2.0-80051681001 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="250" pm="."><plain>21KolouchovaI.SchreiberovaO.SiglerK.MasakJ.RezankaT.Biotransformation of volatile fatty acids by oleaginous and non-oleaginous yeast speciesFems Yeast Research201515710.1093/femsyr/fov076 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="251" pm="."><plain>22PapanikolaouS.Galiotou-PanayotouM.FakasS.KomaitisM.AggelisG.Lipid production by oleaginous Mucorales cultivated on renewable carbon sourcesEuropean Journal of Lipid Science and Technology2007109111060107010.1002/ejlt.2007001692-s2.0-36348942932 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="252" pm="."><plain>23FakasS.Galiotou-PanayotouM.PapanikolaouS.KomaitisM.AggelisG.Compositional shifts in lipid fractions during lipid turnover in Cunninghamella echinulata Enzyme and Microbial Technology20074051321132710.1016/j.enzmictec.2006.10.0052-s2.0-33847679683 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="253" pm="."><plain>24HuangC.ChenX.-F.XiongL.ChenX.-D.MaL.-L.ChenY.Single cell oil production from low-cost substrates: the possibility and potential of its industrializationBiotechnology Advances201331212913910.1016/j.biotechadv.2012.08.0102-s2.0-8487372245122960618 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="254" pm="."><plain>25WangQ.GuoF.-J.RongY.-J.ChiZ.-M.Lipid production from hydrolysate of cassava starch by Rhodosporidium toruloides 21167 for biodiesel makingRenewable Energy20124616416810.1016/j.renene.2012.03.0022-s2.0-84860883756 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="255" pm="."><plain>26YuX. </plain></SENT>
+<SENT sid="256" pm="."><plain>C.ZhengY. </plain></SENT>
+<SENT sid="257" pm="."><plain>B.DorganK. </plain></SENT>
+<SENT sid="258" pm="."><plain>M.ChenS. </plain></SENT>
+<SENT sid="259" pm="."><plain>L.Oil production by oleaginous yeasts using the hydrolysate from pretreatment of wheat straw with dilute sulfuric acidBioresource Technology2011102106134614010.1016/j.biortech.2011.02.0812-s2.0-7995504926421463940 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="260" pm="."><plain>27ZhanJ. </plain></SENT>
+<SENT sid="261" pm="."><plain>M.LinH.ShenQ.ZhouQ. </plain></SENT>
+<SENT sid="262" pm="."><plain>F.ZhaoY. </plain></SENT>
+<SENT sid="263" pm="."><plain>H.Potential utilization of waste sweetpotato vines hydrolysate as a new source for single cell oils production by Trichosporon fermentans Bioresource Technology201313562262910.1016/j.biortech.2012.08.0682-s2.0-8487671931622985824 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="264" pm="."><plain>28TrappeT. </plain></SENT>
+<SENT sid="265" pm="."><plain>A.WhiteF.LambertC. </plain></SENT>
+<SENT sid="266" pm="."><plain>P.HellersteinM.EvansW. </plain></SENT>
+<SENT sid="267" pm="."><plain>J.Influence of ibuprofen and acetaminophen on skeletal muscle protein synthesis following eccentric exerciseThe FASEB Journal200115p. </plain></SENT>
+<SENT sid="268" pm="."><plain>A791 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="269" pm="."><plain>29CunnaneS. </plain></SENT>
+<SENT sid="270" pm="."><plain>C.AndersonM. </plain></SENT>
+<SENT sid="271" pm="."><plain>J.Pure linoleate deficiency in the rat: influence on growth, accumulation of n-6 polyunsaturates, and [1-14C]linoleate oxidationJournal of Lipid Research19973848058129144095 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="272" pm="."><plain>30ŘezankaT.MatoulkováD.KolouchováI.MasákJ.SiglerK.Brewer's yeast as a new source of palmitoleic acid—analysis of triacylglycerols by LC-MSJournal of the American Oil Chemists' Society20139091327134210.1007/s11746-013-2271-72-s2.0-84883234543 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="273" pm="."><plain>31ZhuL. </plain></SENT>
+<SENT sid="274" pm="."><plain>Y.ZongM. </plain></SENT>
+<SENT sid="275" pm="."><plain>H.WuH.Efficient lipid production with Trichosporon fermentans and its use for biodiesel preparationBioresource Technology200899167881788510.1016/j.biortech.2008.02.0332-s2.0-4544908343318394882 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="276" pm="."><plain>32PapanikolaouS.AggelisG.Selective uptake of fatty acids by the yeast Yarrowia lipolytica European Journal of Lipid Science and Technology20031051165165510.1002/ejlt.2003008582-s2.0-0346219288 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="277" pm="."><plain>33ZhangJ.FangX.ZhuX.-L.Microbial lipid production by the oleaginous yeast Cryptococcus curvatus O3 grown in fed-batch cultureBiomass and Bioenergy20113551906191110.1016/j.biombioe.2011.01.0242-s2.0-79953272554 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="278" pm="."><plain>34BlighE. </plain></SENT>
+<SENT sid="279" pm="."><plain>G.DyerW. </plain></SENT>
+<SENT sid="280" pm="."><plain>J.A rapid method of total lipid extraction and purificationCanadian Journal of Biochemistry and Physiology195937891191710.1139/o59-0992-s2.0-3384526149313671378 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="281" pm="."><plain>35TchakouteuS. </plain></SENT>
+<SENT sid="282" pm="."><plain>S.ChatzifragkouA.KalantziO.KoutinasA. </plain></SENT>
+<SENT sid="283" pm="."><plain>A.AggelisG.PapanikolaouS.Oleaginous yeast Cryptococcus curvatus exhibits interplay between biosynthesis of intracellular sugars and lipidsEuropean Journal of Lipid Science and Technology2015117565767210.1002/ejlt.2014003472-s2.0-84920263281 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="284" pm="."><plain>36ReggioriF.KlionskyD. </plain></SENT>
+<SENT sid="285" pm="."><plain>J.Autophagy in the eukaryotic cellEukaryotic Cell200211112110.1128/EC.01.1.11-21.20022-s2.0-003646373612455967 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="286" pm="."><plain>37KlionskyD. </plain></SENT>
+<SENT sid="287" pm="."><plain>J.EmrS. </plain></SENT>
+<SENT sid="288" pm="."><plain>D.Autophagy as a regulated pathway of cellular degradationScience200029054971717172110.1126/science.290.5497.17172-s2.0-003453729011099404 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="289" pm="."><plain>38LevineB.KlionskyD. </plain></SENT>
+<SENT sid="290" pm="."><plain>J.Development by self-digestion: molecular mechanisms and biological functions of autophagyDevelopmental Cell20046446347710.1016/s1534-5807(04)00099-12-s2.0-184258378915068787 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="291" pm="."><plain>39LiD.SongJ.-Z.LiH.Storage lipid synthesis is necessary for autophagy induced by nitrogen starvationFEBS Letters2015589226927610.1016/j.febslet.2014.11.0502-s2.0-8492072496425500271 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="292" pm="."><plain>40BoyleN. </plain></SENT>
+<SENT sid="293" pm="."><plain>R.PageM. </plain></SENT>
+<SENT sid="294" pm="."><plain>D.LiuB. </plain></SENT>
+<SENT sid="295" pm="."><plain>S.Three <z:uniprot sup="inside" fb="0" ids="P21309,P19197,Q06878,P23148,Q5DZ04,B5EV70,Q9S3Z2,Q7N576,P41302,Q9AJA7,B1KD61,A7N6K1,P05521">acyltransferases</z:uniprot> and nitrogen-responsive regulator are implicated in nitrogen starvation-induced triacylglycerol accumulation in Chlamydomonas The Journal of Biological Chemistry201228719158111582510.1074/jbc.m111.3340522-s2.0-8486086400622403401 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="296" pm="."><plain>41ChenX.-F.HuangC.YangX.-Y.XiongL.ChenX.-D.MaL.-L.Evaluating the effect of medium composition and fermentation condition on the microbial oil production by Trichosporon cutaneum on corncob acid hydrolysateBioresource Technology2013143182410.1016/j.biortech.2013.05.1022-s2.0-8487928345323774292 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="297" pm="."><plain>42LiuJ.-X.YueQ.-Y.GaoB.-Y.WangY.LiQ.ZhangP.-D.Research on microbial lipid production from potato starch wastewater as culture medium by Lipomyces starkeyi Water Science and Technology20136781802180810.2166/wst.2013.0592-s2.0-8487771947323579836 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="298" pm="."><plain>43RazaviS. </plain></SENT>
+<SENT sid="299" pm="."><plain>H.MousaviS. </plain></SENT>
+<SENT sid="300" pm="."><plain>M.YeganehH. </plain></SENT>
+<SENT sid="301" pm="."><plain>M.MarcI.Fatty acid and carotenoid production by Sporobolomyces ruberrimus when using technical glycerol and ammonium sulfateJournal of Microbiology and Biotechnology20071710159115972-s2.0-3614895106018156773 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="302" pm="."><plain>44DeyP.MaitiM. </plain></SENT>
+<SENT sid="303" pm="."><plain>K.Molecular characterization of a novel isolate of Candida tropicalis for enhanced lipid productionJournal of Applied Microbiology201311451357136810.1111/jam.121332-s2.0-8487641746823311514 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="304" pm="."><plain>45YousufA.Biodiesel from lignocellulosic biomass—prospects and challengesWaste Management201232112061206710.1016/j.wasman.2012.03.0082-s2.0-8486762940822475852 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="305" pm="."><plain>46YkemaA.VerbreeE. </plain></SENT>
+<SENT sid="306" pm="."><plain>C.van VerseveldH. </plain></SENT>
+<SENT sid="307" pm="."><plain>W.SmitH.Mathematical modelling of lipid production by oleaginous yeasts in continuous culturesJournal of Microbiology198652649150610.1007/BF00423410 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="308" pm="."><plain>47BraunwaldT.SchwemmleinL.Graeff-HonningerS.Effect of different C/N ratios on carotenoid and lipid production by Rhodotorula glutinis Applied Microbiology and Biotechnology201397146581658810.1007/s00253-013-5005-82-s2.0-8487984169223728238 </plain></SENT>
+</text></ref><ref id="B48"><text><SENT sid="309" pm="."><plain>48KaranthN. </plain></SENT>
+<SENT sid="310" pm="."><plain>G.SatturA. </plain></SENT>
+<SENT sid="311" pm="."><plain>P.Mathematical modeling of production of microbial lipids. </plain></SENT>
+<SENT sid="312" pm="."><plain>Part II. </plain></SENT>
+<SENT sid="313" pm="."><plain>Kinetics of lipid accumulationBioprocess Engineering19916624124810.1007/bf003695532-s2.0-0025784615 </plain></SENT>
+</text></ref><ref id="B49"><text><SENT sid="314" pm="."><plain>49GalafassiS.CucchettiD.PizzaF.FranzosiG.BianchiD.CompagnoC.Lipid production for second generation biodiesel by the oleaginous yeast Rhodotorula graminis Bioresource Technology201211139840310.1016/j.biortech.2012.02.0042-s2.0-8485875189322366600 </plain></SENT>
+</text></ref><ref id="B50"><text><SENT sid="315" pm="."><plain>50JadhavV. </plain></SENT>
+<SENT sid="316" pm="."><plain>V.SalunkheD. </plain></SENT>
+<SENT sid="317" pm="."><plain>S.BhadekarR. </plain></SENT>
+<SENT sid="318" pm="."><plain>K.Effect of alterations in conventional medium on lipid accumulation and fatty acid content in oleaginous yeastsInternational Journal of Pharma and Bio Sciences2012347577692-s2.0-84873815281 </plain></SENT>
+</text></ref><ref id="B51"><text><SENT sid="319" pm="."><plain>51TurcotteG.KosaricN.The effect of C/N ratio on lipid production by Rhodosporidium toruloides ATCC 10788Biotechnology Letters198911963764210.1007/bf010252732-s2.0-1842338517 </plain></SENT>
+</text></ref><ref id="B52"><text><SENT sid="320" pm="."><plain>52GrangerL.-M.PerlotP.GomaG.PareilleuxA.Effect of various nutrient limitations on fatty acid production by Rhodotorula glutinis Applied Microbiology and Biotechnology199338678478910.1007/bf001671452-s2.0-0027403776 </plain></SENT>
+</text></ref><ref id="B53"><text><SENT sid="321" pm="."><plain>53SaengeC.CheirsilpB.SuksarogeT. </plain></SENT>
+<SENT sid="322" pm="."><plain>T.BourtoomT.Efficient concomitant production of lipids and carotenoids by oleaginous red yeast Rhodotorula glutinis cultured in palm oil mill effluent and application of lipids for biodiesel productionBiotechnology and Bioprocess Engineering2011161233310.1007/s12257-010-0083-22-s2.0-84856258445 </plain></SENT>
+</text></ref><ref id="B54"><text><SENT sid="323" pm="."><plain>54JohnsonV.SinghM.SainiV. </plain></SENT>
+<SENT sid="324" pm="."><plain>S.SistaV. </plain></SENT>
+<SENT sid="325" pm="."><plain>R.YadavN. </plain></SENT>
+<SENT sid="326" pm="."><plain>K.Effect of pH on lipid accumulation by an oleaginous yeast: Rhodotorula glutinis IIP-30World Journal of Microbiology &amp; Biotechnology19928438238410.1007/bf011987492-s2.0-054243733824425507 </plain></SENT>
+</text></ref><ref id="B55"><text><SENT sid="327" pm="."><plain>55EvansC. </plain></SENT>
+<SENT sid="328" pm="."><plain>T.RatledgeC.Influence of nitrogen metabolism on lipid accumulation by Rhodosporidium toruloides CBS-14Journal of General Microbiology19841307170517102-s2.0-0021164237 </plain></SENT>
+</text></ref><ref id="B56"><text><SENT sid="329" pm="."><plain>56da RosaP. </plain></SENT>
+<SENT sid="330" pm="."><plain>D.MattannaP.CarboniD.AmorimL.RichardsN.ValenteP. Candida zeylanoides as a new yeast model for lipid metabolism studies: effect of nitrogen sources on fatty acid accumulationFolia Microbiologica201459647748410.1007/s12223-014-0325-32-s2.0-8490157637024879093 </plain></SENT>
+</text></ref><ref id="B57"><text><SENT sid="331" pm="."><plain>57PapanikolaouS.AggelisG.Lipid production by Yarrowia lipolytica growing on industrial glycerol in a single-stage continuous cultureBioresource Technology2002821434910.1016/S0960-8524(01)00149-32-s2.0-003613856611848376 </plain></SENT>
+</text></ref><ref id="B58"><text><SENT sid="332" pm="."><plain>58LiQ.DuW.LiuD. </plain></SENT>
+<SENT sid="333" pm="."><plain>H.Perspectives of microbial oils for biodiesel productionApplied Microbiology and Biotechnology200880574975610.1007/s00253-008-1625-92-s2.0-5184910503418690426 </plain></SENT>
+</text></ref><ref id="B59"><text><SENT sid="334" pm="."><plain>59SchwalbachM. </plain></SENT>
+<SENT sid="335" pm="."><plain>S.KeatingD. </plain></SENT>
+<SENT sid="336" pm="."><plain>H.TremaineM.Complex physiology and compound stress responses during fermentation of alkali-pretreated corn stover hydrolysate by an Escherichia coli ethanologenApplied and Environmental Microbiology20127893442345710.1128/aem.07329-112-s2.0-8486111417222389370 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="fig1" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="337" pm="."><plain>Biomass yield (black bars, dry cell weight) and lipid content in dry cell weight (white bars) of the 7 yeast strains cultured on 4 nitrogen sources at C/N ratio 70. </plain></SENT>
+</text></p></caption><graphic xlink:href="IJAC2016-7583684.001"/></fig></SecTag><SecTag type="FIG"><fig id="fig2" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="338" pm="."><plain>Content of palmitoleic and linoleic acid in total lipids (%, black bars) and the yield of the acids per dry cell weight (mg/g dw, white bars) of the 7 yeast strains cultured on 4 nitrogen sources at C/N ratio 70. </plain></SENT>
+</text></p></caption><graphic xlink:href="IJAC2016-7583684.002"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="tab1" orientation="portrait" position="float"><label>Table 1</label><caption><p><text><SENT sid="339" pm="."><plain>Proportion (%) of fatty acids and total mono- and polyunsaturated fatty acids in the 7 yeast strains cultivated with 4 nitrogen sources. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>Strain </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>N source C/N = 70 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>16 : 0 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>16 : 1 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>18 : 0 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>18 : 1 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>18 : 2 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>20 : 0 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>Σ Sat </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>Σ Mono </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>Σ Poly </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>Candida sp. </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>13.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>7.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>3.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>36.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>36.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>2.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>19.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>43.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>36.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>17.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>9.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>4.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>43.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>21.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>3.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>25.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>52.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>21.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>18.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>10.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>4.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>46.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>13.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>6.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>29.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>57.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>13.2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>16.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>12.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>4.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>45.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>16.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>4.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>25.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>57.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>16.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>Rhodotorula glutinis </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>13.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>1.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>6.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>61.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>15.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>1.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>21.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>63.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>15.6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>17.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>1.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>7.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>65.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>6.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>1.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>26.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>67.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>6.3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>16.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>1.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>8.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>65.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>5.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>27.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>66.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>5.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>16.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>9.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>64.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>7.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>26.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>65.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>7.5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>Trichosporum cutaneum </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>16.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>1.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>3.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>23.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>53.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>1.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>20.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>25.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>53.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>19.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>2.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>4.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>38.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>31.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>3.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>27.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>41.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>31.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>20.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>2.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>5.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>38.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>26.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>6.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>32.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>40.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>26.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>20.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>2.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>5.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>38.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>27.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>5.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>31.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>41.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>27.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>Yarrowia lipolytica </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>10.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>9.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>2.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>38.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>35.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>3.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>16.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>48.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>35.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>14.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>10.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>4.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>45.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>19.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>5.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>23.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>56.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>19.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>15.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>11.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>3.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>46.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>14.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>9.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>28.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>57.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>14.7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>14.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>11.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>4.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>47.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>16.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>5.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>24.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>59.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>16.8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>Kluyveromyces polysporus </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>8.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>57.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>1.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>27.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>4.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>1.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>10.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>84.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>4.3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>9.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>58.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>28.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>1.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>12.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>86.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>9.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>55.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>1.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>28.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>1.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>3.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>14.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>84.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>1.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>9.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>58.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>28.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>1.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>1.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>11.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>86.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>1.5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>Saccharomyces cerevisiae </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>11.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>38.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>3.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>35.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>7.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>18.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>74.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>7.4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>14.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>38.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>4.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>39.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>1.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>3.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>21.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>77.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>1.0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>12.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>35.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>5.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>38.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>0.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>6.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>24.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>74.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>0.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>13.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>37.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>3.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>41.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>1.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>20.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>78.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>1.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Torulaspora delbrueckii </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>(<z:uniprot sup="inside" fb="0" ids="A2CIR7">NH4</z:uniprot>)2SO4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>21.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>18.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>3.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>21.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>27.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>8.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>32.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>40.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>27.2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>KNO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>26.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>22.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>4.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>26.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>15.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>5.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>35.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>48.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>15.6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>Urea </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>24.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>21.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>4.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>27.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>13.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>9.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>38.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>48.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>13.2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>  </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>NH4NO3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>26.6 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>21.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>4.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>28.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>14.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>5.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>36.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>49.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>14.1 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></floats-group></article>

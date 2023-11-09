@@ -1,0 +1,938 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Negl Trop Dis</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Negl Trop Dis</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosntds</journal-id><journal-title-group><journal-title>PLoS Neglected Tropical Diseases</journal-title></journal-title-group><issn pub-type="ppub">1935-2727</issn><issn pub-type="epub">1935-2735</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4697806</article-id><article-id pub-id-type="pmid">26720002</article-id><article-id pub-id-type="doi">10.1371/journal.pntd.0004195</article-id><article-id pub-id-type="publisher-id">PNTD-D-15-01309</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Plasmodium malariae Infection Associated with a High Burden of Anemia: A Hospital-Based Surveillance Study </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head"><italic>Plasmodium malariae</italic> Infection and Severe Anemia</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Langford</surname><given-names>Siobhan</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Douglas</surname><given-names>Nicholas M.</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff002">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lampah</surname><given-names>Daniel A.</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Simpson</surname><given-names>Julie A.</given-names></name><xref ref-type="aff" rid="aff004">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kenangalem</surname><given-names>Enny</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff005">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sugiarto</surname><given-names>Paulus</given-names></name><xref ref-type="aff" rid="aff006">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Anstey</surname><given-names>Nicholas M.</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff007">
+<sup>7</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Poespoprodjo</surname><given-names>Jeanne Rini</given-names></name><xref ref-type="aff" rid="aff003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff005">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff008">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Price</surname><given-names>Ric N.</given-names></name><xref ref-type="aff" rid="aff001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff009">
+<sup>9</sup>
+</xref><xref rid="cor001" ref-type="corresp">*</xref></contrib></contrib-group><aff id="aff001">
+<label>1</label>
+<addr-line>Global and Tropical Health Division, Menzies School of Health Research and Charles Darwin University, Casuarina, Darwin, Northern Territory, Australia</addr-line>
+</aff><aff id="aff002">
+<label>2</label>
+<addr-line>Division of Medicine, Christchurch Hospital, Christchurch, New Zealand</addr-line>
+</aff><aff id="aff003">
+<label>3</label>
+<addr-line>Timika Malaria Research Program, Papuan Health and Community Development Foundation, Timika, Papua, Indonesia</addr-line>
+</aff><aff id="aff004">
+<label>4</label>
+<addr-line>Centre for Epidemiology and Biostatistics, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, Australia</addr-line>
+</aff><aff id="aff005">
+<label>5</label>
+<addr-line>Mimika District Health Authority, Timika, Papua, Indonesia</addr-line>
+</aff><aff id="aff006">
+<label>6</label>
+<addr-line>Rumah Sakit Mitra Masyarakat, Timika, Papua, Indonesia</addr-line>
+</aff><aff id="aff007">
+<label>7</label>
+<addr-line>Division of Medicine, Royal Darwin Hospital, Darwin, Australia</addr-line>
+</aff><aff id="aff008">
+<label>8</label>
+<addr-line>Department of Child Health, Faculty of Medicine, University Gadjah Mada, Yogyakarta, Indonesia</addr-line>
+</aff><aff id="aff009">
+<label>9</label>
+<addr-line>Centre for Tropical Medicine and Global Health, Nuffield Department of Clinical Medicine, University of Oxford, Oxford, United Kingdom</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Sinnis</surname><given-names>Photini</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>Johns Hopkins Bloomberg School of Public Health, UNITED STATES</addr-line>
+</aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><text><SENT sid="1" pm="."><plain>The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con" id="contrib001"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: SL <z:uniprot sup="inside" fb="0" ids="Q53H76">NMD</z:uniprot> <z:uniprot sup="inside" fb="13" ids="Q13145">NMA</z:uniprot> <z:uniprot sup="inside" fb="0" ids="Q9R237">JRP</z:uniprot> <z:uniprot sup="inside" fb="0" ids="Q96LT9">RNP</z:uniprot>. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: DAL EK PS <z:uniprot sup="inside" fb="0" ids="Q9R237">JRP</z:uniprot>. </plain></SENT>
+<SENT sid="4" pm="."><plain>Analyzed the data: SL <z:uniprot sup="inside" fb="0" ids="Q53H76">NMD</z:uniprot> JAS <z:uniprot sup="inside" fb="0" ids="Q96LT9">RNP</z:uniprot>. </plain></SENT>
+<SENT sid="5" pm="."><plain>Wrote the paper: SL <z:uniprot sup="inside" fb="0" ids="Q53H76">NMD</z:uniprot> JAS <z:uniprot sup="inside" fb="13" ids="Q13145">NMA</z:uniprot> <z:uniprot sup="inside" fb="0" ids="Q9R237">JRP</z:uniprot> <z:uniprot sup="inside" fb="0" ids="Q96LT9">RNP</z:uniprot>. </plain></SENT>
+</text></p></fn><corresp id="cor001">* E-mail: <email>rprice@menzies.edu.au</email></corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2015</year></pub-date><volume>9</volume><issue>12</issue><elocation-id>e0004195</elocation-id><history><date date-type="received"><day>24</day><month>7</month><year>2015</year></date><date date-type="accepted"><day>5</day><month>10</month><year>2015</year></date></history><permissions><copyright-statement>© 2015 Langford et al</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Langford et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="pntd.0004195.pdf"/><abstract><sec id="sec001"><title><text><SENT sid="6" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Plasmodium malariae is a slow-growing parasite with a wide geographic distribution. </plain></SENT>
+<SENT sid="8" pm="."><plain>Although generally regarded as a benign cause of malaria, it has been associated with nephrotic syndrome, particularly in young children, and can persist in the host for years. </plain></SENT>
+<SENT sid="9" pm="."><plain>Morbidity associated with P. malariae infection has received relatively little attention, and the risk of P. malariae-associated nephrotic syndrome is unknown. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec002"><title><text><SENT sid="10" pm="."><plain>Methodology/Principal Findings </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="11" pm="."><plain>We used data from a very large hospital-based surveillance system incorporating information on clinical diagnoses, blood cell parameters and treatment to describe the demographic distribution, morbidity and mortality associated with P. malariae infection in southern Papua, Indonesia. </plain></SENT>
+<SENT sid="12" pm="."><plain>Between April 2004 and December 2013 there were 1,054,674 patient presentations to Mitra Masyarakat Hospital of which 196,380 (18.6%) were associated with malaria and 5,097 were with P. malariae infection (constituting 2.6% of all malaria cases). </plain></SENT>
+<SENT sid="13" pm="."><plain>The proportion of malaria cases attributable to P. malariae increased with age from 0.9% for patients under one year old to 3.1% for patients older than 15 years. </plain></SENT>
+<SENT sid="14" pm="."><plain>Overall, 8.5% of patients with P. malariae infection required admission to hospital and the median length of stay for these patients was 2.5 days (Interquartile Range: 2.0–4.0 days). </plain></SENT>
+<SENT sid="15" pm="."><plain>Patients with P. malariae infection had a lower mean <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentration (9.0g/dL) than patients with P. falciparum (9.5g/dL), P. vivax (9.6g/dL) and mixed species infections (9.3g/dL). </plain></SENT>
+<SENT sid="16" pm="."><plain>There were four cases of nephrotic syndrome recorded in patients with P. malariae infection, three of which were in children younger than 5 years old, giving a risk in this age group of 0.47% (95% Confidence Interval; 0.10% to 1.4%). </plain></SENT>
+<SENT sid="17" pm="."><plain>Overall, 2.4% (n = 16) of patients hospitalized with P. malariae infection subsequently died in hospital, similar to the proportions for the other endemic Plasmodium species (range: 0% for P. ovale to 1.6% for P. falciparum). </plain></SENT>
+</text></SecTag></p></sec><sec id="sec003"><title><text><SENT sid="18" pm="."><plain>Conclusions/Significance </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="19" pm="."><plain>Plasmodium malariae infection is relatively uncommon in Papua, Indonesia but is associated with significant morbidity from anemia and a similar risk of mortality to patients hospitalized with P. falciparum and P. vivax infection. </plain></SENT>
+<SENT sid="20" pm="."><plain>In our large hospital database, one in 200 children under the age of 5 years with P. malariae infection were recorded as having nephrotic syndrome. </plain></SENT>
+</text></SecTag></p></sec></abstract><abstract abstract-type="summary"><title><text><SENT sid="21" pm="."><plain>Author Summary </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="22" pm="."><plain>Plasmodium malariae is a relatively rare, but widely distributed, cause of malaria. </plain></SENT>
+<SENT sid="23" pm="."><plain>It can persist in the human host for years, often without causing significant symptoms. </plain></SENT>
+<SENT sid="24" pm="."><plain>As a result, P. malariae will be a very difficult species to eradicate. </plain></SENT>
+<SENT sid="25" pm="."><plain>Our study used data from a routine hospital-based surveillance system in southern Papua, Indonesia to describe the clinical epidemiology of P. malariae infections. </plain></SENT>
+<SENT sid="26" pm="."><plain>Over a 10-year period there were 5,097 patient presentations to Mitra Masyarakat Hospital associated with P. malariae infection constituting 2.6% of all malaria cases. </plain></SENT>
+<SENT sid="27" pm="."><plain>Patients with P. malariae malaria had a significantly older age distribution than those with P. vivax infections. </plain></SENT>
+<SENT sid="28" pm="."><plain>They also had lower mean <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentrations than patients infected with P. falciparum, P. vivax or mixed Plasmodium species. </plain></SENT>
+<SENT sid="29" pm="."><plain>We speculate that this may be due to chronic hemolysis of parasitized and non-parasitized red cells as a result of persistent infection. </plain></SENT>
+<SENT sid="30" pm="."><plain>One in 200 children under the age of 5 years with P. malariae infection were recorded as having nephrotic syndrome, a well-known but to date unquantified complication. </plain></SENT>
+<SENT sid="31" pm="."><plain>Overall, 0.3% of patients with P. malariae malaria died. </plain></SENT>
+<SENT sid="32" pm="."><plain>These findings emphasize the need to consider this parasite when designing comprehensive malaria elimination strategies. </plain></SENT>
+</text></SecTag></p></abstract><funding-group><funding-statement>The Timika Research Facility and Papuan Community Health Foundation were supported by AusAID (Australian Agency for International Development, Department of Foreign Affairs and Trade - <ext-link ext-link-type="uri" xlink:href="http://dfat.gov.au/aid/Pages/australias-aid-program.aspx">http://dfat.gov.au/aid/Pages/australias-aid-program.aspx</ext-link>). NMD was funded by the Rhodes Trust (<ext-link ext-link-type="uri" xlink:href="http://www.rhodeshouse.ox.ac.uk/">http://www.rhodeshouse.ox.ac.uk/</ext-link>). The study was funded by the Wellcome Trust (Senior Fellowship in Clinical Science to RNP 091625 - <ext-link ext-link-type="uri" xlink:href="http://www.wellcome.ac.uk/">http://www.wellcome.ac.uk/</ext-link>) and the NHMRC (National Health and Medical Research Council, Program Grant 1037304 to RNP and NMA - <ext-link ext-link-type="uri" xlink:href="https://www.nhmrc.gov.au/">https://www.nhmrc.gov.au/</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><fig-count count="2"/><table-count count="5"/><page-count count="16"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>All relevant data are within the manuscript and its Supporting Information files.</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>All relevant data are within the manuscript and its Supporting Information files.</p></notes></front><body><SecTag type="INTRO"><sec sec-type="intro" id="sec004"><title><text><SENT sid="33" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="34" pm="."><plain>Plasmodium malariae is one of the five Plasmodium species that commonly infect humans. </plain></SENT>
+<SENT sid="35" pm="."><plain>The global incidence of infection by this species is unknown but is thought to be significantly lower than for P. falciparum [1]. Plasmodium malariae is endemic in parts of Africa [2–4], South America [5, 6], Asia [7–10] and the Western Pacific [11]. </plain></SENT>
+<SENT sid="36" pm="."><plain>Infection is often asymptomatic [12] and severe disease is thought to be rare. </plain></SENT>
+<SENT sid="37" pm="."><plain>However, untreated infection has been reported to lead to nephrotic syndrome [13–15] and albuminuria was commonly noted in patients treated with P. malariae for neurosyphilis in the 1930s [16]. </plain></SENT>
+<SENT sid="38" pm="."><plain>Given the parasite’s ability to survive in the human host at low parasitemias for decades [17], chronic morbidity related to P. malariae infection is likely to occur. </plain></SENT>
+</text></p><p><text><SENT sid="39" pm="."><plain>Global malaria elimination strategies justifiably target P. falciparum, which is associated with the greatest risk of acute morbidity and mortality. </plain></SENT>
+<SENT sid="40" pm="."><plain>When such malaria control strategies are successful, the fall in P. falciparum endemicity is often associated with a relative rise in the burden of malarial disease caused by the non-falciparum malarias [18, 19]. </plain></SENT>
+<SENT sid="41" pm="."><plain>This study was conducted to investigate the demographic distribution, morbidity and mortality associated with P. malariae infection in southern Papua, Indonesia, a malarious region coendemic for four Plasmodium species–P. falciparum, P. vivax, P. malariae and P. ovale. </plain></SENT>
+<SENT sid="42" pm="."><plain>Understanding the features of P. malariae infection will be important for guiding clinical management and eventual eradication of this species. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="sec005"><title><text><SENT sid="43" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="sec006"><title><text><SENT sid="44" pm="."><plain>Study site </plain></SENT>
+</text></title><p><text><SENT sid="45" pm="."><plain>This study was conducted at Rumah Sakit Mitra Masyarakat (RSMM), the major referral hospital in Timika, southcentral Papua, Indonesia. </plain></SENT>
+<SENT sid="46" pm="."><plain>The characteristics of this hospital and the surrounding region have been described in detail elsewhere [20, 21]. </plain></SENT>
+<SENT sid="47" pm="."><plain>In brief, Timika, has a population of approximately 200,000 people and is situated in the lowlands, about 50km south of a large copper and gold mine. </plain></SENT>
+<SENT sid="48" pm="."><plain>It has a tropical climate with rainfall occurring year-round with minimal seasonal variation. </plain></SENT>
+<SENT sid="49" pm="."><plain>Timika has a diverse ethnic population comprised of Highland Papuans, Lowland Papuans (both of Melanesian descent) and non-Papuans (mostly of Indonesian descent). </plain></SENT>
+<SENT sid="50" pm="."><plain>Rumah Sakit Mitra Masyarakat has 110 beds, a 24h emergency department, a high dependency unit with facilities for intravenous infusions, peritoneal dialysis and monitoring but not mechanical ventilation, and an outpatient department that sees approximately 300 patients per day, 6 days per week. </plain></SENT>
+</text></p><p><text><SENT sid="51" pm="."><plain>Papua has the highest burden of malaria in Indonesia with an estimated incidence in Timika of 876 episodes per 1,000 per year (range: 711–906) [20]. </plain></SENT>
+<SENT sid="52" pm="."><plain>High frequencies of drug resistant P. falciparum and P. vivax strains have been reported [22] although P. malariae remains sensitive to chloroquine [23]. </plain></SENT>
+<SENT sid="53" pm="."><plain>Malaria transmission is perennial and most intense in the lowland regions. </plain></SENT>
+<SENT sid="54" pm="."><plain>In view of the high levels of antimalarial drug resistance exhibited by both P. falciparum and P. vivax, antimalarial policy for uncomplicated malaria due to any Plasmodium species was changed in March 2006 from oral quinine to dihydroartemisinin-piperaquine, an artemisinin combination therapy (ACT). </plain></SENT>
+<SENT sid="55" pm="."><plain>In order to monitor the impact of ACT on malaria morbidity and mortality, a hospital surveillance system was established in 2004 and maintained until 2013. </plain></SENT>
+</text></p></sec><sec id="sec007"><title><text><SENT sid="56" pm="."><plain>Data collection procedures </plain></SENT>
+</text></title><p><text><SENT sid="57" pm="."><plain>Data from all patient presentations to RSMM between April 2004 and December 2013 were eligible for inclusion in this study. </plain></SENT>
+<SENT sid="58" pm="."><plain>Hospital administrators entered demographic and diagnostic data into an electronic database (Q-Pro software, Jakarta, Indonesia) for all patients presenting to the hospital, regardless of department. </plain></SENT>
+<SENT sid="59" pm="."><plain>Data collected included age, gender, ethnicity, pregnancy status and diagnoses classified according to the International Classification of Diseases, version 10. </plain></SENT>
+<SENT sid="60" pm="."><plain>The latter was based on the opinion of the treating physician after clinical investigation. </plain></SENT>
+<SENT sid="61" pm="."><plain>The results of full blood counts from the hospital’s Coulter Counter were entered automatically into a separate database and prescription data from the hospital pharmacy were entered manually into a further database by the pharmacist filling the prescription. </plain></SENT>
+<SENT sid="62" pm="."><plain>Records from all three databases were identified using the patient’s unique hospital identification number. </plain></SENT>
+<SENT sid="63" pm="."><plain>Previous published analyses have included data from patients presenting to RSMM between 2004 and the end of 2012 [24, 25]. </plain></SENT>
+</text></p><p><text><SENT sid="64" pm="."><plain>Hospital guidelines dictated that all febrile patients seen in the outpatients department and all inpatients regardless of clinical diagnosis had a blood film for malaria. </plain></SENT>
+<SENT sid="65" pm="."><plain>Giemsa-stained thick and thin films were considered negative after microscopic assessment of 100 high power fields. </plain></SENT>
+<SENT sid="66" pm="."><plain>Hospital microscopists underwent regular training and quality assurance procedures to ensure a high standard of microscopy [21]. </plain></SENT>
+</text></p><p><text><SENT sid="67" pm="."><plain>Clinical, hematological and prescription data were merged sequentially by creating all possible pairwise combinations for a given unique hospital identification number. </plain></SENT>
+<SENT sid="68" pm="."><plain>Sets where the date of the laboratory record or prescription fell between the date of admission and discharge were retained. </plain></SENT>
+<SENT sid="69" pm="."><plain>In cases where there was more than one <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> or platelet count during a single presentation, only the lowest value was kept. </plain></SENT>
+<SENT sid="70" pm="."><plain>Both the minimum and the maximum white cell count were kept. </plain></SENT>
+<SENT sid="71" pm="."><plain>Severe anemia was defined as a <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> less than 5g/dL but in accordance with 2014 World Health Organization severe malarial anemia definitions, we also conducted subanalyses in which severe anemia was defined as a <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> &lt;5g/dL in children under 12 years of age and &lt;7g/dL in adults ≥12 years of age [26]. </plain></SENT>
+<SENT sid="72" pm="."><plain>Severe thrombocytopenia was defined as a platelet count less than 50x103/μL. </plain></SENT>
+<SENT sid="73" pm="."><plain>White cell counts were categorized as normal or abnormal according to age-specific normal ranges [27]. </plain></SENT>
+</text></p></sec><sec id="sec008"><title><text><SENT sid="74" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="75" pm="."><plain>Analyses were performed using STATA version 13.1 (College Station, Texas, USA). </plain></SENT>
+<SENT sid="76" pm="."><plain>Anemia, thrombocytopenia, admission to hospital and length of stay were used to explore the morbidity associated with P. malariae infection and were compared between patients infected with P. falciparum, P. vivax, P. ovale (where numbers allowed) and mixed Plasmodium species infections. </plain></SENT>
+<SENT sid="77" pm="."><plain>We also examined the frequency of abnormal white cell counts and selected comorbidities to help establish whether P. malariae infection was likely to have been the sole reason for presentation. </plain></SENT>
+<SENT sid="78" pm="."><plain>Univariable and multivariable logistic regression models (the latter adjusting for age group (&lt;1 year, 1 to &lt;5 years, 5 to &lt;15 years, ≥15 years), sex, ethnicity (non-Papuan, Highland Papuan, Lowland Papuan), pregnancy status and white cell count (normal, abnormal) were used to compare the odds for severe anemia and severe thrombocytopenia between patients with P. malariae infection and those with infection by the other Plasmodium species listed above. </plain></SENT>
+<SENT sid="79" pm="."><plain>As individuals in the hospital database could appear more than once, robust standard errors (Huber-White sandwich estimator) were calculated, accounting for within-patient correlation. </plain></SENT>
+<SENT sid="80" pm="."><plain>Given the very large numbers of patients in the database, formal tests of statistical significance were only done in the context of univariable and multivariable logistic regression models. </plain></SENT>
+</text></p></sec><sec id="sec009"><title><text><SENT sid="81" pm="."><plain>Ethical clearance </plain></SENT>
+</text></title><p><text><SENT sid="82" pm="."><plain>This study was approved by the Ethics committees of the University of Gajah Mada (Yogyakarta, Indonesia) and Menzies School of Health Research (Darwin, Australia). </plain></SENT>
+<SENT sid="83" pm="."><plain>All data were anonymized. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="sec010"><title><text><SENT sid="84" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="85" pm="."><plain>Between April 2004 and December 2013 there were 1,054,674 presentations to RSMM of which 196,380 (18.6%) were associated with malaria. Plasmodium malariae monoinfection accounted for 2.6% of all malaria cases (5,097 presentations made by 4,456 individuals) (Table 1). </plain></SENT>
+<SENT sid="86" pm="."><plain>Other Plasmodium species present included P. falciparum (100,078 presentations, 51.0%), P. vivax (65,306 presentations, 33.3%), P. ovale (120 presentations, 0.1%) and mixed Plasmodium species (25,779 presentations, 13.1%). </plain></SENT>
+<SENT sid="87" pm="."><plain>Two hundred and forty one (0.9%) of the mixed species infections included P. malariae, of which 148 (0.6%) were in combination with P. falciparum and 93 (0.4%) were with P. vivax. </plain></SENT>
+<SENT sid="88" pm="."><plain>Overall, 4.4% (225/5,097) of presentations with P. malariae monoinfection were followed by a further presentation with P. malariae infection within one year. </plain></SENT>
+<SENT sid="89" pm="."><plain>The median day of representation was 171 (Interquartile Range [IQR] 86–266) with no significant difference in the crude risk between those treated with oral quinine and those treated with dihydroartemisinin-piperaquine (5.9% versus 4.4%). </plain></SENT>
+<SENT sid="90" pm="."><plain>Only 1.3% (10,886/858,294) of patients without malaria, 1.9% (1,892/100,078) of patients with falciparum malaria and 1.3% (868/65,306) of patients with vivax malaria represented with P. malariae infection within a year. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pntd.0004195.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="91" pm="."><plain>Demographic distribution of all 1,054,674 patient presentations. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pntd.0004195.t001g" xlink:href="pntd.0004195.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th colspan="7" align="center" rowspan="1"><text><SENT sid="92" pm="."><plain>Species </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>Negative </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>P. falciparum </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>P. vivax </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>P. ovale </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>P. malariae </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>Mixed species </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>Total </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>n (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>Age group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>0 to &lt;1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>71,789 (8.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>2,321 (2.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>5,274 (8.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>2 (1.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>80 (1.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>992 (3.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>80,458 (7.6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>1 to &lt;5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>116,487 (13.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>16,132 (16.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>19,859 (30.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>11 (9.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>554 (10.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>6,152 (23.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>159,195 (15.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>5 to &lt;15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>86,366 (10.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>19,913 (19.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>11,340 (17.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>22 (18.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>1,096 (21.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>5,559 (21.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>124,296 (11.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>≥15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>583,607 (68.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>61,707 (61.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>28,832 (44.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>85 (70.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>3,367 (66.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>13,075 (50.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>690,673 (65.5) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>Sex </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>378,074 (44.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>49,592 (49.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>32,970 (50.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>68 (56.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>2,575 (50.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>13,068 (50.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>476,347 (45.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>480,220 (56.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>50,486 (50.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>32,336 (49.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>52 (43.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>2,522 (49.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>12,711 (49.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>578,327 (54.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>Pregnant </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>399,336 (83.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>47,808 (94.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>31,215 (96.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>49 (94.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>2,395 (95.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>12,264 (96.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>493,067 (85.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>80,884 (16.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>2,678 (5.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>1,121 (3.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>3 (5.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>127 (5.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>447 (3.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>85,260 (14.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>Ethnic group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>Non-Papuan </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>152,502 (17.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>8,305 (8.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>7,539 (11.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>9 (7.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>164 (3.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>1,324 (5.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>169,843 (16.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>Highland Papuan </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>576,524 (67.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>81,706 (81.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>52,905 (81.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>106 (88.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>4,452 (87.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>22,434 (87.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>738,127 (70.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>Lowland Papuan </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>128,027 (14.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>9,982 (10) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>4,820 (7.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>5 (4.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>481 (9.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>2,015 (7.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>145,330 (13.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>Total </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>858,294 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>100,078 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>65,306 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>120 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>5,097 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>25,779 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>1,054,674 (100) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p><text><SENT sid="207" pm="."><plain>Abbreviations: n, number </plain></SENT>
+</text></p></fn><fn id="t001fn002"><p><text><SENT sid="208" pm="."><plain>Age data were missing in 52 cases, and ethnicity data were missing in 1,374 cases </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="209" pm="."><plain>The age distribution of all patients presenting with P. malariae monoinfection was similar to P. falciparum (median 21.7 and 20.1 years respectively), but substantially older than for P. vivax (median 10.0 years) and mixed infections (15.1 years). </plain></SENT>
+<SENT sid="210" pm="."><plain>For all species, there was a bimodal distribution of age at presentation with a peak in children under 5 years of age and another in early adulthood. </plain></SENT>
+<SENT sid="211" pm="."><plain>The childhood peak for P. malariae was less pronounced than for the other species (P. ovale excepted) (see Fig 1). </plain></SENT>
+<SENT sid="212" pm="."><plain>The proportion of malaria presentations attributable to P. malariae increased from 0.9% (80/8,669) for patients less than one year of age to 3.1% (3,367/107,066) for patients older than 15 years (Fig 2). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pntd.0004195.g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.g001</object-id><label>Fig 1</label><caption><title><text><SENT sid="213" pm="."><plain>Age distributions of patients presenting to RSMM by Plasmodium species. </plain></SENT>
+</text></title><p><text><SENT sid="214" pm="."><plain>Vertical lines represent median age. </plain></SENT>
+</text></p></caption><graphic xlink:href="pntd.0004195.g001"/></fig></SecTag><SecTag type="FIG"><fig id="pntd.0004195.g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.g002</object-id><label>Fig 2</label><caption><title><text><SENT sid="215" pm="."><plain>Percent of malaria cases due to Plasmodium malariae by age, with polynomial fit line. </plain></SENT>
+</text></title><p><text><SENT sid="216" pm="."><plain>Age truncated at 70 years to maintain stability of fit line. </plain></SENT>
+</text></p></caption><graphic xlink:href="pntd.0004195.g002"/></fig></SecTag><p><text><SENT sid="217" pm="."><plain>The majority of presentations with P. malariae were in Highland Papuans (4,452, 87.3%), but this predominance was also apparent for the other Plasmodium species (range 81.0–88.3%) and patients without malaria (67.2%). </plain></SENT>
+</text></p><sec id="sec011"><title><text><SENT sid="218" pm="."><plain>Hospitalization, treatment and comorbidity </plain></SENT>
+</text></title><p><text><SENT sid="219" pm="."><plain>In total, 8.5% (432/5,097) of the patients with P. malariae monoinfection required admission to hospital, less than the proportion for patients with P. falciparum (17.4%) and mixed infections (15.3%), but similar to those with P. vivax (9.4%) and P. ovale (8.3%) infections. </plain></SENT>
+<SENT sid="220" pm="."><plain>The median length of stay for those admitted with P. malariae infection was 2.5 days (IQR 2.0–4.0 days); shorter than for those without malaria 3.0 days (IQR 2.0–5.0 days) but longer than for patients with other Plasmodium species infections (P. falciparum, 2.0 days (2.0–4.0), P. vivax, 2.0 days (2.0–4.0), P. ovale, 2.0 days (1.0–3.0) and mixed species, 2.0 days (2.0–4.0). </plain></SENT>
+<SENT sid="221" pm="."><plain>Admission for greater than 5 days was required for 17.4% (75/432) of patients with P. malariae infection, 19.4% (13,130/67,365) of those without malaria, 11.2% (1,942/17,387) with P. falciparum, 13.0% (795/6,116) with P. vivax, 10.0% (1/10) with P. ovale and 12.0% (473/3,945) with mixed species infections. </plain></SENT>
+<SENT sid="222" pm="."><plain>Assuming 100% bed occupancy over the study period, patients with P. malariae infection accounted for 0.4% (1,733/391,710) of total hospital bed occupancy. </plain></SENT>
+<SENT sid="223" pm="."><plain>The corresponding figures for the other Plasmodium species were 14.6% (57,037 bed days) for P. falciparum, 5.4% (21,298 bed days) for P. vivax, 0.006% (24 bed days) for P. ovale and 3.4% (13,241 bed days) for mixed species infections. </plain></SENT>
+</text></p><p><text><SENT sid="224" pm="."><plain>Overall, 4,691 (92.0%) patient presentations with P. malariae infection were matched with corresponding pharmacy data. </plain></SENT>
+<SENT sid="225" pm="."><plain>In 4,459 of these cases (95.1%), treatment was with oral therapy alone. </plain></SENT>
+<SENT sid="226" pm="."><plain>Prior to March 2006 (401 cases), the majority of patients received either oral quinine (n = 212; 52.9%), chloroquine (n = 76; 19.0%) or doxycycline (n = 71, 17.7%) with small numbers receiving sulphadoxine-pyrimethamine (n = 21, 5.2%). </plain></SENT>
+<SENT sid="227" pm="."><plain>After the change of malaria treatment protocols to ACT in March 2006 (4,290 cases), 4,157 (96.9%) were treated with ACT (3,898 (90.9%) with dihydroartemisinin-piperaquine and 261 (6.1%) with artesunate-amodiaquine (two patients received both combinations)). </plain></SENT>
+<SENT sid="228" pm="."><plain>In 232 cases (4.9%), patients with P. malariae were treated with parenteral therapy; intravenous quinine prior to April 2006 (23 cases, 9.9%) and intravenous artesunate after this date (209 cases, 90.1%). </plain></SENT>
+</text></p><p><text><SENT sid="229" pm="."><plain>Of the 5,097 presentations with P. malariae monoinfection, 1,516 (29.7%) were associated with at least one additional clinical diagnosis and this figure rose to 96.5% (417 presentations) in those admitted to hospital. </plain></SENT>
+<SENT sid="230" pm="."><plain>The overall proportions with comorbidity for those with P. falciparum, P. vivax and mixed infections were slightly higher: 32.7%, 30.5% and 31.0% respectively. </plain></SENT>
+<SENT sid="231" pm="."><plain>Thirty (0.6%) patients with P. malariae infection presented following trauma and therefore presumably had incidental parasitemias (Table 2). </plain></SENT>
+<SENT sid="232" pm="."><plain>Overall, 16 (0.3%) of the patients with P. malariae infection had documented renal disease, of whom 4 (0.1%) were recorded as having nephrotic syndrome. </plain></SENT>
+<SENT sid="233" pm="."><plain>Although numbers were small, this proportion was approximately 10-fold higher than for the other Plasmodium species (Table 2). </plain></SENT>
+<SENT sid="234" pm="."><plain>All four of the patients with P. malariae infection and nephrotic syndrome were under the age of 15 years and three were under the age of 5 years giving a risk of nephrotic syndrome of 0.23% (95% Confidence Interval [95%CI]; 0.06% to 0.59%) in children under 15 years and 0.47% (95%CI; 0.10% to 1.4%) in children aged under 5 years old. </plain></SENT>
+<SENT sid="235" pm="."><plain>None of the 4 patients with nephrotic syndrome died at the hospital prior to the end of the study. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pntd.0004195.t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="236" pm="."><plain>Comorbidities in patients presenting to Rumah Sakit Mitra Masyarakat by Plasmodium species. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pntd.0004195.t002g" xlink:href="pntd.0004195.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th colspan="7" align="center" rowspan="1"><text><SENT sid="237" pm="."><plain>Species </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>Negative </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>P. falciparum </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>P. vivax </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>P. ovale </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>P. malariae </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>Mixed species </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>Total </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>n (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>Pneumonia </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>834,991 (97.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>98,983 (98.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>64,368 (98.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>119 (99.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>5,053 (99.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>25,436 (98.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>1,028,950 (97.6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>23,303 (2.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>1,095 (1.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>938 (1.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>1 (0.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>44 (0.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>343 (1.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>25,724 (2.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>Renal Disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>855,722 (99.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>99,663 (99.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>65,225 (99.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>120 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>5,081 (99.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>25,695 (99.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>1,051,506 (99.7) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>2,572 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>415 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>81 (0.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>16 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>84 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>3,168 (0.3) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>Nephrotic syndrome </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>858,117 (99.98) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>100,072 (99.99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>65,302 (99.99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>120 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>5,093 (99.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>25,776 (99.99) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>1,054,480 (99.98) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>177 (0.02) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>6 (0.01) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>4 (0.01) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>4 (0.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>3 (0.01) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>194 (0.02) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>HIV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>840,095 (97.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>99,498 (99.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>65,029 (99.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>119 (99.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>5,072 (99.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>25,661 (99.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>1,035,474 (98.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>18,199 (2.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>580 (0.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>277 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>1 (0.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>25 (0.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>118 (0.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>19,200 (1.8) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>Trauma </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>No </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>800,208 (93.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>99,664 (99.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>65,046 (99.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>120 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>5,067 (99.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>25,708 (99.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>995,813 (94.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>Yes </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>58,086 (6.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>414 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>260 (0.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>30 (0.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>71 (0.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>58,861 (5.6) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t002fn001"><p><text><SENT sid="337" pm="."><plain>Abbreviations: n; number, HIV; human immunodeficiency virus </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="sec012"><title><text><SENT sid="338" pm="."><plain>Hematological morbidity </plain></SENT>
+</text></title><p><text><SENT sid="339" pm="."><plain><z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">Hemoglobin</z:uniprot> concentrations, platelet counts and white cell counts were available in 22.9% (241,594), 22.4% (236,536) and 22.7% (239,444) of all patient presentations with the corresponding figures for P. malariae cases being 34.3% (1,750), 33.6% (1,713) and 34.1% (1,739) respectively. </plain></SENT>
+<SENT sid="340" pm="."><plain>The mean <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentration was 9.0 g/dL in patients with P. malariae infection, the lowest of all the Plasmodium species (10.6g/dL for those without malaria, 9.5g/dL for P. falciparum, 9.6g/dL for P. vivax, and 9.3g/dL for mixed species infections). </plain></SENT>
+<SENT sid="341" pm="."><plain>Overall, 5.7% (n = 100) of patients presenting with P. malariae infections had a <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> &lt;5g/dL (32/577 [5.5%] of those &lt;12 years and 68/1,173 [5.8%] of those ≥12 years). </plain></SENT>
+<SENT sid="342" pm="."><plain>This was similar to the crude proportions for P. falciparum and P. vivax (Table 3). </plain></SENT>
+<SENT sid="343" pm="."><plain>Three hundred and sixty nine (21.1%) patients with P. malariae malaria had <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentrations under 7g/dL (151/577 [26.2%] of those &lt;12 years and 218/1,173 (18.6%) of those ≥12 years) and 1,128 (64.5%) had a <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> under 10g/dL. </plain></SENT>
+<SENT sid="344" pm="."><plain>After controlling for confounding factors, those with P. malariae infection were at significantly greater risk of severe anemia compared to those without Plasmodium infection both when defined as a <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> of less than 5g/dL (Adjusted Odds Ratio [AOR]; 2.29, 95%CI; 1.85–2.84, P&lt;0.001, Table 4) and as per 2014 WHO criteria (AOR; 2.02, 95%CI; 1.75–2.33, P&lt;0.001) [26]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pntd.0004195.t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="345" pm="."><plain>Proportions with severe anemia (<z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> &lt;5g/dL), severe thrombocytopenia (platelet count &lt;50 x103/μL) and abnormal white cell count by Plasmodium species. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pntd.0004195.t003g" xlink:href="pntd.0004195.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"/><th colspan="3" align="center" rowspan="1"><text><SENT sid="346" pm="."><plain>Severe anemia </plain></SENT>
+</text></th><th colspan="2" align="center" rowspan="1"><text><SENT sid="347" pm="."><plain>Severe thrombocytopenia </plain></SENT>
+</text></th><th colspan="2" align="center" rowspan="1"><text><SENT sid="348" pm="."><plain>White cell count </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>Species </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>Hb ≥5g/dL, n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>Hb &lt;5g/dL, n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>WHO criteria*, n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>Plt ≥50x103/μL, n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>Plt &lt;50 x103/μL, n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>Normal, n (%) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>Abnormal, n (%) </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>Negative </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>163,650 (97.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>4,136 (2.5) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>12,051 (7.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>159,755 (97.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>4,417 (2.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>94,929 (57.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>71,224 (42.9) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>P. malariae </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>1,650 (94.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>100 (5.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>250 (14.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>1,590 (92.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>123 (7.2) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>1,141 (65.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>598 (34.4) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>P. falciparum </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>37,585 (93.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>2,521 (6.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>4,851 (12.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>33,353 (85.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>5,905 (15.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>26,956 (67.8) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>12,812 (32.2) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>P. vivax </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>21,085 (95.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>1,099 (5.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>1,805 (8.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>20,044 (92.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>1,743 (8.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>15,422 (69.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>6,644 (30.1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>P. ovale </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>31 (100) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>0 (0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>3 (9.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>28 (93.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>2 (6.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>21 (72.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>8 (27.6) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>Mixed species </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>8,955 (92.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>782 (8.0) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>1,239 (12.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>8,345 (87.1) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>1,231 (12.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>6,674 (68.9) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>3,015 (<z:uniprot sup="inside" fb="0" ids="P17309">31.1</z:uniprot>) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>Total </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>232,956 (96.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>8,638 (3.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>20,199 (8.4) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>223,115 (94.3) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>13,421 (5.7) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>145,143 (60.6) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>94,301 (39.4) </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t003fn001"><p><text><SENT sid="413" pm="."><plain>Abbreviations: n; number, WHO; World Health Organization, Hb; <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot>, Plt; platelet </plain></SENT>
+</text></p></fn><fn id="t003fn002"><p><text><SENT sid="414" pm="."><plain>* <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">Hemoglobin</z:uniprot> &lt; 5g/dL in children under 12 years old and &lt;7g/dL in adults ≥12 years old </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pntd.0004195.t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="415" pm="."><plain>Univariable and multivariable logistic regression models of the risk factors for severe anemia (<z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> &lt;5g/dL) and severe thrombocytopenia (platelet count &lt;50 x103/μL). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pntd.0004195.t004g" xlink:href="pntd.0004195.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th colspan="5" align="center" rowspan="1"><text><SENT sid="416" pm="."><plain>Severe anemia (Hb&lt;5g/dL) </plain></SENT>
+</text></th><th colspan="4" align="center" rowspan="1"><text><SENT sid="417" pm="."><plain>Severe thrombocytopenia (Plt&lt;50x103/μL) </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>Risk factor </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>Crude OR (95%CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>P </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>AOR a  (95%CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>P </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>Crude OR (95%CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>P </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>AOR a  (95%CI) </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>P </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>Species </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>Negative </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>P. malariae </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>2.40 (1.94–2.96) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>2.29 (1.85–2.84) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>2.80 (2.32–3.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>2.34 (1.93–2.83) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>P. falciparum </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>2.65 (2.51–2.81) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>2.24 (2.11–2.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>6.40 (6.07–6.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>6.20 (5.86–6.55) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>P. vivax </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>2.06 (1.92–2.22) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>2.03 (1.89–2.19) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>3.15 (2.94–3.37) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>3.88 (3.62–4.15) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>Mixed species </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>3.46 (3.18–3.76) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>3.58 (3.28–3.91) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>5.34 (4.95–5.75) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>5.86 (5.42–6.34) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>Age group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>&lt;1 year </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>0.98 (0.89–1.08) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>0.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>1.02 (0.92–1.12) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>0.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>0.44 (0.41–0.48) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>0.47 (0.43–0.52) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>1 to &lt;5 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>1.58 (1.48–1.69) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>1.25 (1.16–1.34) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>0.46 (0.43–0.49) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>0.31 (0.28–0.33) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>5 to &lt;15 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>1.49 (1.37–1.61) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>1.15 (1.06–1.25) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>0.80 (0.75–0.85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>0.48 (0.45–0.51) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>≥15 years </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>Gender </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>1.05 (0.99–1.11) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>0.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>- b  </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>0.76 (0.72–0.79) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>-  b  </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>Pregnancy status </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>Not pregnant </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>1.17 (1.10–1.24)  b  </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>0.75 (0.71–0.79) b  </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>Pregnant </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>0.62 (0.57–0.68) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>0.99 (0.89–1.10)  b  </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>0.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>0.65 (0.60–0.71) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>0.61 (0.55–0.66) b  </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>Ethnic Group </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>Non-Papuan </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>Highland Papuan </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>4.22 (3.75–4.74) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>3.89 (3.45–4.38) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>3.06 (2.83–3.30) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>2.89 (2.66–3.14) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>Lowland Papuan </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>2.64 (2.30–3.04) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>2.52 (2.18–2.91) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>0.87 (0.78–0.97) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>0.02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>0.99 (0.89–1.12) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>0.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>White cell count </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>Normal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>ref </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>Abnormal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>1.85 (1.77–1.94) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>2.07 (1.97–2.18) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>1.34 (1.29–1.39) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>1.77 (1.70–1.85) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t004fn001"><p><text><SENT sid="595" pm="."><plain>Abbreviations: OR; odds ratio, AOR; adjusted odds ratio, Hb; <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot>, Plt; platelet </plain></SENT>
+</text></p></fn><fn id="t004fn002"><p><text><SENT sid="596" pm="."><plain>a Multivariable models also include year of presentation </plain></SENT>
+</text></p></fn><fn id="t004fn003"><p><text><SENT sid="597" pm="."><plain>b In the multivariable model, a non-ordered, 3-category variable incorporating sex and pregnancy status was used. </plain></SENT>
+<SENT sid="598" pm="."><plain>Male sex is the reference category. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="599" pm="."><plain>The mean platelet count in patients with P. malariae infection was 142.7x103/μL, compared to 130.4x103/μL for P. falciparum, 166.8x103/μL for P. vivax and 131.6x103/μL for mixed species infection. </plain></SENT>
+<SENT sid="600" pm="."><plain>Severe thrombocytopenia (platelet count &lt;50x103/μL) was present in 123 (7.2%) patients with P. malariae (Table 3) and very severe thrombocytopenia (platelet count &lt;20x103/μL) in 16 (0.9%) cases. </plain></SENT>
+<SENT sid="601" pm="."><plain>None of the patients with platelet counts &lt;50x103/μL) were recorded as having clinical evidence of bleeding. </plain></SENT>
+<SENT sid="602" pm="."><plain>After controlling for confounding factors, P. malariae infection was associated with a two-fold higher odds of severe thrombocytopenia compared to those with no malaria (AOR; 2.34, 95%CI; 1.93–2.83, P&lt;0.001) (Table 4). </plain></SENT>
+</text></p><p><text><SENT sid="603" pm="."><plain>Overall 34.4% (n = 598) of patients with P. malariae infection had an abnormal age-adjusted white cell count; a similar proportion to patients infected with the other Plasmodium species, but lower than that in patients without malaria (42.9%, P&lt;0.001). </plain></SENT>
+<SENT sid="604" pm="."><plain>In 36.8% of cases the abnormal white cell count was above the age-adjusted normal range and in the remaining 63.2% it was below the normal range. </plain></SENT>
+</text></p></sec><sec id="sec013"><title><text><SENT sid="605" pm="."><plain>Mortality </plain></SENT>
+</text></title><p><text><SENT sid="606" pm="."><plain>In total, 0.3% (16/5,097) of patients with P. malariae infection died compared to 0.5% (4,254/858,294) of those without malaria, 0.4% (376/100,078) with P. falciparum, 0.2% (130/65,306) with P. vivax, none with P. ovale and 0.3% (73/25,779) with mixed infections. </plain></SENT>
+<SENT sid="607" pm="."><plain>The corresponding risk of mortality for patients who were admitted to hospital or seen in the emergency department was 2.4% (16/663) for P. malariae, 3.4% (4,244/125,375) for those without Plasmodium infection, 1.6% (375/23,304) for P. falciparum, 1.4% (129/8,937) for P. vivax and 1.6% (73/4,608) for mixed infections. </plain></SENT>
+<SENT sid="608" pm="."><plain>The median age of the 16 patients who died with P. malariae parasitemia was 23.4 years (Range; 5.6 to 50 years, IQR; 17.0–41.9 years), with a risk of mortality of 1/1,481 (0.07%) in children &lt;12 years and 15/3,616 (0.4%) in adults ≥12 years. </plain></SENT>
+<SENT sid="609" pm="."><plain>Nine (56.3%) of the patients who died were male, 4 (26.7%) had a <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> &lt;5g/dL and 6 (40%) had severe anemia according to 2014 WHO criteria (Table 5). </plain></SENT>
+<SENT sid="610" pm="."><plain>Two patients (14.3%) had severe thrombocytopenia and 10 (71.4%) had an abnormal white cell count (9 patients (90%) had a value that was above the normal range during their admission and three (30%) had a value that was below the normal range). </plain></SENT>
+<SENT sid="611" pm="."><plain>Five (31%) patients were recorded as having concomitant tuberculosis. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pntd.0004195.t005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pntd.0004195.t005</object-id><label>Table 5</label><caption><title><text><SENT sid="612" pm="."><plain>Hematological parameters and recorded comorbidities in the 16 patients who died with Plasmodium malariae parasitemia. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pntd.0004195.t005g" xlink:href="pntd.0004195.t005"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>Patient Number </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>Sex </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Age (years) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>Length of stay (days) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>Minimum <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentration (g/dL) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>Platelet count (x103/μL) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>Most abnormal white cell count (cells/μL) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>Other recorded diagnoses </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>1. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>33.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>2.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>146 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>6,100 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>Ischaemic cardiomyopathy </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>Congestive heart failure </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>Non-inflammatory pericardial effusion </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>Pneumonia </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>2. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>22.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>9.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>182 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>2,600 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>HIV </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>Tuberculous meningitis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>Gastroenteritis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>3. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>37.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>11.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>343 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>16,800 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>Pulmonary tuberculosis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>4. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>21.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>3.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>53 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>13,100 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>Acute renal failure </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>5. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>12.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>7.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>199 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>29,000 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>Malnutrition </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>Helminthiasis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>Pulmonary tuberculosis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>6. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>7. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>18.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>11.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>93 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>10,500 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>Pulmonary tuberculosis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>Gastroenteritis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>Urinary tract infection </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>8. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>3.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>15,600 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>9. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>49.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>0.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>6.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>14,700 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>Pneumonia </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>Non-infective gastroenteritis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>Chronic renal failure </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>10. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>46.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>4,100 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>Pulmonary tuberculosis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>Gastroenteritis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>11. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>4.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>339 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>13,200 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>Chronic renal failure </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>12. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="723" pm="."><plain>24.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="724" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="725" pm="."><plain>7.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="726" pm="."><plain>140 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="727" pm="."><plain>6,000 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="728" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="729" pm="."><plain>Pneumonia </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="730" pm="."><plain>Adult Respiratory Distress Syndrome </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="731" pm="."><plain>14. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="732" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="733" pm="."><plain>50 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="734" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="735" pm="."><plain>6.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="736" pm="."><plain>128 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="737" pm="."><plain>8,300 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="738" pm="."><plain>Pneumonia </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="739" pm="."><plain>Chronic renal failure </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="740" pm="."><plain>Suspected tuberculosis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="741" pm="."><plain>Inguinal hernia </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="742" pm="."><plain>Ascites </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="743" pm="."><plain>15. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="744" pm="."><plain>M </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="745" pm="."><plain>5.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="746" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="747" pm="."><plain>11.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="748" pm="."><plain>56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="749" pm="."><plain>3,500 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="750" pm="."><plain>Encephalomyelitis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="751" pm="."><plain>16. </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="752" pm="."><plain>F </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="753" pm="."><plain>48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="754" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="755" pm="."><plain>10.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="756" pm="."><plain>156 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="757" pm="."><plain>- </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="758" pm="."><plain>- </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t005fn001"><p><text><SENT sid="759" pm="."><plain>Abbreviations: F = female, M = male </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="conclusions" id="sec014"><title><text><SENT sid="760" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="761" pm="."><plain>This large case series from southern Papua shows that P. malariae is responsible for a minority (2.6%) of clinical malaria cases but has potential to cause significant morbidity. </plain></SENT>
+<SENT sid="762" pm="."><plain>Compared to patients infected with other Plasmodium species, those with P. malariae infection had a lower mean <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentration and a similar risk of being admitted to hospital (8.5%) or dying (0.3%). </plain></SENT>
+<SENT sid="763" pm="."><plain>Overall P. malariae malaria accounted for almost 0.5% of hospital bed occupancy. </plain></SENT>
+</text></p><p><text><SENT sid="764" pm="."><plain>Patients with P. malariae infections tended to be older than those with non P. malariae malaria, particularly compared to those with P. vivax mono- or mixed infections. </plain></SENT>
+<SENT sid="765" pm="."><plain>This probably reflects the low transmission intensity in this area. </plain></SENT>
+<SENT sid="766" pm="."><plain>Whereas the majority of children in Timika are likely to have been infected with P. vivax by the age of 5 years (and therefore have started to acquire immunity early in life), fewer than one in ten children could be expected to have been infected with P. malariae by the same age (based on an estimated annual incidence of 15.7 cases per 1,000 persons in 2005) [20]. Plasmodium malariae has a predilection for senescent red blood cells whereas P. vivax preferentially infects young red cells, in particular reticulocytes [28, 29]. </plain></SENT>
+<SENT sid="767" pm="."><plain>It is therefore possible that during the very early stages of infancy there is a biological predisposition to vivax malaria and a relative protection against P. malariae infection. </plain></SENT>
+</text></p><p><text><SENT sid="768" pm="."><plain>A major finding of our study (and one that was also noted in an earlier published analysis from this region [24]) is the association between P. malariae parasitemia and substantial hematological morbidity. </plain></SENT>
+<SENT sid="769" pm="."><plain>The mean <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> in patients with P. malariae infection was 0.3–0.6g/dL lower than the other locally prevalent Plasmodium species with an associated 2.3-fold greater odds of severe anemia compared to individuals without malaria. </plain></SENT>
+<SENT sid="770" pm="."><plain>There are several potential explanations for this finding. Plasmodium malariae replicates slowly and does not typically reach high parasitemias [29]. </plain></SENT>
+<SENT sid="771" pm="."><plain>Prolonged infection is therefore more likely to have been present in patients presenting with this disease compared to those with P. falciparum or P. vivax infections. </plain></SENT>
+<SENT sid="772" pm="."><plain>A chronic, low-level parasitemia resulting in ongoing destruction of both parasitized but, more importantly, non-parasitized red cells as well as marrow dyserythropoiesis may have a cumulative effect on lowering <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentrations. </plain></SENT>
+<SENT sid="773" pm="."><plain>Previous observation of malariatherapy patients treated with P. malariae infection demonstrated that those with naturally-induced infections typically had a nadir in <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentration between day 30 and 90 of infection with only a slight improvement in concentrations thereafter [16]. </plain></SENT>
+<SENT sid="774" pm="."><plain>Recent data suggest that the low circulating parasitemias found in P. vivax infection significantly underestimate total parasite biomass [30]. </plain></SENT>
+<SENT sid="775" pm="."><plain>While speculative, it is possible that a hidden, non-circulating parasite biomass may also be present in P. malariae, capable of contributing to a degree of anemia out of proportion to circulating parasitemia. </plain></SENT>
+</text></p><p><text><SENT sid="776" pm="."><plain>It is also possible that the significant anemia seen with P. malariae infection is partially a result of comorbid conditions as opposed to the infection itself. </plain></SENT>
+<SENT sid="777" pm="."><plain>However, given the similar frequency of major comorbidities such as pneumonia, renal disease and HIV compared with the other species, a major bias from differential rates of comorbidities seems unlikely. </plain></SENT>
+<SENT sid="778" pm="."><plain>Finally, Highland Papuans are the ethnic group with the highest risk of severe anemia in Timika–possibly due to nutritional factors, red cell and <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> abnormalities or gastrointestinal helminth infection. </plain></SENT>
+<SENT sid="779" pm="."><plain>Whether for geographical or biological reasons, a particularly high proportion of P. malariae patients were highlanders, potentially contributing to the lower mean <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> seen in these patients. </plain></SENT>
+<SENT sid="780" pm="."><plain>After adjusting for various risk factors, including ethnicity, in the multivariable model, the risk of severe anemia in P. malariae infections was similar to that for P. falciparum and P. vivax monoinfections. </plain></SENT>
+</text></p><p><text><SENT sid="781" pm="."><plain>The low incidence of P. malariae infection and relatively high burden of falciparum and vivax malaria means that the latter species are more common causes of severe anemia and therefore more important targets for public health intervention. </plain></SENT>
+<SENT sid="782" pm="."><plain>Nevertheless, on an individual basis, those with P. malariae parasitemia need to be investigated for anemia and treated aggressively if present. </plain></SENT>
+<SENT sid="783" pm="."><plain>In this context, the relatively high rates of representation with P. malariae over the subsequent year (~4%), raises the possibility of partial response to ACT treatment coupled with prolonged subclinical carriage. </plain></SENT>
+<SENT sid="784" pm="."><plain>There have been few studies of ACT drug efficacy in P. malariae and most have had only 28 days of follow-up [31]. </plain></SENT>
+<SENT sid="785" pm="."><plain>Further efficacy studies with longer follow-up are warranted. </plain></SENT>
+</text></p><p><text><SENT sid="786" pm="."><plain>Nephrotic syndrome, a well-recognized complication of P. malariae infection, is mostly described in children living in endemic areas [32] with few cases reported since the mid-1970s [32–34]. </plain></SENT>
+<SENT sid="787" pm="."><plain>Renal biopsies in two recent cases have shown chronic membranous glomerulopathy [34] and mesangioproliferative glomerulonephritis respectively [33]. </plain></SENT>
+<SENT sid="788" pm="."><plain>The syndrome has been reported as being hard to treat and often unresponsive to corticosteroids, immunosuppressive agents and antimalarial drugs [35]. </plain></SENT>
+<SENT sid="789" pm="."><plain>Given the lack of access to advanced diagnostic techniques in Timika, the diagnoses of nephrotic syndrome must be treated with caution. </plain></SENT>
+<SENT sid="790" pm="."><plain>Moreover, we cannot infer that there was necessarily a causal relationship between the P. malariae infections and nephrotic syndrome. </plain></SENT>
+<SENT sid="791" pm="."><plain>Nevertheless, we have, for the first time been able to estimate the risk of this condition at 1 in 200 presentations to hospital for children with P. malariae infection under the age of 5 years. </plain></SENT>
+<SENT sid="792" pm="."><plain>None of the 4 patients with nephrotic syndrome and P. malariae infection were reported to have died during the follow-up period however 3 of the 16 patients who died were recorded as having chronic renal failure (not further specified) and one had acute renal failure. </plain></SENT>
+<SENT sid="793" pm="."><plain>Unfortunately we did not have access to information on the presence or absence of albuminuria (a common finding in malariatherapy patients treated with P. malariae infections in the 1930s [16]). </plain></SENT>
+</text></p><p><text><SENT sid="794" pm="."><plain>A similar proportion of all patients presenting to hospital with P. malariae infection died as compared to patients with infection by the other Plasmodium species–a surprising finding given the supposedly low virulence of this species. </plain></SENT>
+<SENT sid="795" pm="."><plain>The same was true of the subset of patients with P. malariae who were admitted to hospital. </plain></SENT>
+<SENT sid="796" pm="."><plain>Based on the data at hand, we cannot make inferences on whether there was a causal link between the P. malariae infections and death. </plain></SENT>
+<SENT sid="797" pm="."><plain>Fourteen of the deceased patients had a white cell count measurement during their final admission and in 9 cases, this was above the age-appropriate normal range. </plain></SENT>
+<SENT sid="798" pm="."><plain>We were unable to find data on the typical impact of P. malariae infection on white cell counts. </plain></SENT>
+<SENT sid="799" pm="."><plain>The high proportion of the deceased patients with leucocytosis could reflect the greater inflammatory response seen in severe malaria from all species [30, 36] and/or concomitant bacterial sepsis. </plain></SENT>
+<SENT sid="800" pm="."><plain>Bacterial coinfection was certainly recorded in several cases. </plain></SENT>
+<SENT sid="801" pm="."><plain>Severe anemia was only present in a quarter of the patients with P. malariae who died (40% if WHO criteria were used) and thus was not the sole attributable cause of death. </plain></SENT>
+</text></p><p><text><SENT sid="802" pm="."><plain>Plasmodium malariae’s tendency to cause prolonged asymptomatic and/or subpatent infections will confound elimination strategies that are based on active case detection or mass screening and treatment. </plain></SENT>
+<SENT sid="803" pm="."><plain>Chronically infected patients with low-level parasitemia probably have substantial transmission potential and therefore mass drug administration campaigns could potentially have a significant impact on this species. </plain></SENT>
+<SENT sid="804" pm="."><plain>Given the older age distribution of patients infected with P. malariae, it would be important to deliver the antimalarial drug to all age groups rather than just children. </plain></SENT>
+</text></p><p><text><SENT sid="805" pm="."><plain>Some important limitations of our study should be considered. </plain></SENT>
+<SENT sid="806" pm="."><plain>Malaria diagnosis and species identification was based on microscopy alone (except for a small number of P. falciparum cases confirmed using rapid diagnostic tests), and parasitemia quantitation was not available. </plain></SENT>
+<SENT sid="807" pm="."><plain>Previous studies have clearly demonstrated that microscopic diagnosis of P. malariae significantly underestimates the true prevalence of parasitemia when compared with PCR-based diagnosis and that correctly differentiating between P. malariae and P. falciparum based on morphology alone is fraught with error [37, 38]. </plain></SENT>
+<SENT sid="808" pm="."><plain>A previous comparison between hospital and research laboratory microscopy results at RSMM showed 68.4% concordance in the diagnosis of P. malariae monoinfection with 5.3% of P. malariae cases actually deemed to be mixed P. malariae/P. falciparum infections and 26.3% of cases originally diagnosed as mixed P. malariae infections reclassified as P. malariae monoinfections [21]. Plasmodium malariae infection is often asymptomatic or minimally symptomatic, it is therefore likely that a smaller proportion of individuals infected with this species in the community presented to hospital for assessment and treatment when compared to infections by the other Plasmodium species. </plain></SENT>
+<SENT sid="809" pm="."><plain>A potentially large ascertainment bias will therefore have occurred leading to an underestimation of the true prevalence and burden of P. malariae parasitemia in this region. </plain></SENT>
+<SENT sid="810" pm="."><plain>Previous studies have shown that subpatent infection with Plasmodium species is associated with under-recognised morbidity (as well as ongoing risk of transmission), mostly in the form of chronic anemia [39–42]. </plain></SENT>
+</text></p><p><text><SENT sid="811" pm="."><plain>The small fee charged to non-Papuans for care may have discouraged them from accessing the hospital services resulting in a degree of selection bias in our study. </plain></SENT>
+<SENT sid="812" pm="."><plain>Consequently those of Papuan ethnicity were undoubtedly over-represented. </plain></SENT>
+<SENT sid="813" pm="."><plain>Selection bias is also likely to have occurred in our analysis of hematological parameters as <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> measurements were done according to the orders of the treating clinician rather than routinely in all patients. </plain></SENT>
+<SENT sid="814" pm="."><plain>Patients without malaria were less likely to have had a full blood count. </plain></SENT>
+<SENT sid="815" pm="."><plain>Since those who did not have a full blood count were presumably less likely to have been severely anaemic, our analyses will have underestimated the relative impact of malaria on <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentrations in the study population. </plain></SENT>
+<SENT sid="816" pm="."><plain>In exploring the anemia associated with Plasmodium infection we were unable to control for some potentially important confounders. </plain></SENT>
+<SENT sid="817" pm="."><plain>We had no information on parasite quantitation/parasite biomass, the prevalence of hemoglobinopathies and red cell disorders such as <z:uniprot sup="inside" fb="3" ids="D8I5S8,C5C430,D0L658,E6SFR5,A6WD69,D2PT98,E8NCH3,A0QLV0,B1MIT2,Q9XC11,A4T163,B8ZU74,A0QQJ4,P9WNE0,P9WNE1,C8XBB4,Q5YNN4,C0ZUD4,E4W8Y2,D6ZA79,D5UYN8,Q00612,P97324,O59812,O14137,Q43839,O24357,Q43793,P77809,P48826,P54547,O51581,Q7YS37,P57405,Q8K9M2,Q89AI7,Q27464,P41571,Q9PKK8,Q9Z8U6,O84188,O55044,Q23711,P11410,P37986,Q557D2,P15588,P12646,Q24625,Q27638,Q8XCJ6,P0AC54,P0AC53,P41764,Q8SR89,Q5FUK8,P44311,Q9ZKB2,P56110,P11413,Q25019,P48828,P11411,Q29492,P80619,Q42919,A0QP90,P48848,P48992,O68282,P05370,Q9Z3S2,Q25537,O00091,P37830,O54537,P29686,P73411,P54996,Q9X0N9,O83491,P11412,P21907">G6PD</z:uniprot> deficiency or thalassemia and we were unable to control for factors such as malnutrition, iron deficiency and worm infestation, all of which are known to contribute significantly to anemia [43, 44]. </plain></SENT>
+<SENT sid="818" pm="."><plain>It is highly probable that some of the anemia detected in those with P. malariae parasitemia was contributed to by these factors leading to an over-estimation of the species’ impact on <z:uniprot sup="inside" fb="1" ids="P15160,P73925,P17724,Q03459">hemoglobin</z:uniprot> concentrations. </plain></SENT>
+<SENT sid="819" pm="."><plain>Any variations in the prevalence of these comorbid conditions in different regions will also limit the generalizability of our findings. </plain></SENT>
+</text></p><p><text><SENT sid="820" pm="."><plain>In conclusion, we have shown that although P. malariae is responsible for a small proportion of malaria infections in Papua, it is associated with appreciable morbidity and also mortality. </plain></SENT>
+<SENT sid="821" pm="."><plain>This verifies the clinical relevance of infection with non-falciparum Plasmodium species and emphasizes the importance of attempting to eradicate all species infecting humans. </plain></SENT>
+<SENT sid="822" pm="."><plain>The low parasite densities, high incidence of asymptomatic disease and the longevity of P. malariae infections are likely to present significant barriers to elimination of this species. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="sec015"><title><text><SENT sid="823" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pntd.0004195.s001"><label>S1 Checklist</label><caption><title><text><SENT sid="824" pm="."><plain>STROBE checklist. </plain></SENT>
+</text></title><p><text><SENT sid="825" pm="."><plain>(PDF) </plain></SENT>
+</text></p></caption><media xlink:href="pntd.0004195.s001.pdf"><caption><p><text><SENT sid="826" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pntd.0004195.s002"><label>S1 Data</label><caption><title><text><SENT sid="827" pm="."><plain>Database in tab delimited format. </plain></SENT>
+</text></title><p><text><SENT sid="828" pm="."><plain>(TXT) </plain></SENT>
+</text></p></caption><media xlink:href="pntd.0004195.s002.txt"><caption><p><text><SENT sid="829" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="830" pm="."><plain>We are grateful to Lembaga Pengembangan Masyarakat Amungme Kamoro (LPMAK), the staff of Rumah Sakit Mitra Masyarakat and Ella Curry for their support and technical assistance. </plain></SENT>
+<SENT sid="831" pm="."><plain>We also thank Professor Yati Soenarto from the Department of Child Health, Faculty of Medicine Gadjah Mada University for her continuing advice and support to Timika research work. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pntd.0004195.ref001"><text><SENT sid="832" pm="."><plain>1 BarnadasC, RatsimbasoaA, RanaivosoaH, RalaizandryD, RaveloarisehenoD, RabekotonorinaV, et al Short report: prevalence and chloroquine sensitivity of Plasmodium malariae in Madagascar. Am J Trop Med Hyg. 2007;77(6):1039–42. <?supplied-pmid 18165518?>18165518 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref002"><text><SENT sid="833" pm="."><plain>2 MolineauxL, StoreyJ, CohenJE, ThomasA. A longitudinal study of human malaria in the West African Savanna in the absence of control measures: Relationships between different Plasmodium species, in particular P. falciparum and P. malariae. Am J Trop Med Hyg. 1980;29(5). </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref003"><text><SENT sid="834" pm="."><plain>3 BoudinC, RobertV, VerhaveJP, CarnevaleP, Ambroise-ThomasP. Plasmodium falciparum and P. malariae epidemiology in a West African village. B World Health Organ. 1991;69(2):199–205. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref004"><text><SENT sid="835" pm="."><plain>4 Doderer-LangC, AtchadePS, MeckertL, HaarE, PerroteyS, FilisettiD, et al The ears of the African elephant: unexpected high seroprevalence of Plasmodium ovale and Plasmodium malariae in healthy populations in Western Africa. Malar J. 2014;13:240 10.1186/1475-2875-13-240 <?supplied-pmid 24946685?>24946685 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref005"><text><SENT sid="836" pm="."><plain>5 ScopelKKG, FontesCJF, NunesÁC, HortaMF, BragaÉM. High prevalence of Plamodium malariae infections in a Brazilian Amazon endemic area (Apiacás—Mato Grosso State) as detected by polymerase chain reaction. Acta Trop. 2004;90(1):61–4. <?supplied-pmid 14739024?>14739024 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref006"><text><SENT sid="837" pm="."><plain>6 CavasiniMT, RibeiroWL, KawamotoF, FerreiraMU. How prevalent is Plasmodium malariae in Rondônia, western Brazilian Amazon? Rev Soc Bras Med Tro. 2000;33(5):489–92. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref007"><text><SENT sid="838" pm="."><plain>7 ZhouM, LiuQ, WongsrichanalaiC, SuwonkerdW, PanartK, PrajakwongS, et al High prevalence of Plasmodium malariae and Plasmodium ovale in malaria patients along the Thai-Myanmar border, as revealed by acridine orange staining and PCR-based diagnoses. Trop Med Int Health. 1998;3(4):304–12. <?supplied-pmid 9623932?>9623932 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref008"><text><SENT sid="839" pm="."><plain>8 MuellerI, TullochJ, MarfurtJ, HideR, ReederJC. Malaria control in Papua New Guinea results in complex epidemiological changes. Papua New Guinea Med. 2005;48(3–4):151–7. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref009"><text><SENT sid="840" pm="."><plain>9 KawamotoF, KawamotoH, LiuQ, FerreiraMU, TantularIS. How prevalant are Plasmodium ovale and P. malariae in East Asia? Parasitol Today. 1999;15(10):422–6. <?supplied-pmid 10481157?>10481157 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref010"><text><SENT sid="841" pm="."><plain>10 MohapatraPK, PrakashA, BhattacharyyaDR, GoswamiBK, AhmedA, SarmahB, et al Detection &amp; molecular confirmation of a focus of Plasmodium malariae in Arunachal Pradesh, India. Indian J Med Res. 2008;128(1):52–6. <?supplied-pmid 18820359?>18820359 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref011"><text><SENT sid="842" pm="."><plain>11 KanekoA, TaleoG, KalkoaM, YaviongJ, ReevePA, GanczakowskiM, et al Malaria epidemiology, glucose 6-phosphate <z:uniprot sup="inside" fb="45" ids="A0A5C1RDA6">dehydrogenase</z:uniprot> deficiency and human settlement in the Vanuatu Archipelago. Acta Trop. 1998;70(3):285–302. <?supplied-pmid 9777715?>9777715 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref012"><text><SENT sid="843" pm="."><plain>12 RoucherC, RogierC, SokhnaC, TallA, TrapeJF. A 20-year longitudinal study of Plasmodium ovale and Plasmodium malariae prevalence and morbidity in a West African population. PLoS One. 2014;9(2):e87169 10.1371/journal.pone.0087169 <?supplied-pmid 24520325?>24520325 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref013"><text><SENT sid="844" pm="."><plain>13 HendrickseRG, AdeniyiA. Quartan malarial nephrotic syndrome in children. Kidney Int. 1979;16(1):64–74. <?supplied-pmid 393890?>393890 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref014"><text><SENT sid="845" pm="."><plain>14 GillesHM, HendrickseRG. Nephrosis in Nigerian children. </plain></SENT>
+<SENT sid="846" pm="."><plain>Role of Plasmodium malariae, and effect of antimalarial treatment. Brit Med J. 1963;2(5348):27–31. <?supplied-pmid 13947894?>13947894 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref015"><text><SENT sid="847" pm="."><plain>15 EhrichJHH, EkeFU. Malaria-induced renal damage: Facts and myths. Pediatr Nephrol. 2007;22(5):626–37. <?supplied-pmid 17205283?>17205283 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref016"><text><SENT sid="848" pm="."><plain>16 BoydMF. Observations on naturally and artificially induced quartan malaria. Am J Trop Med Hyg. 1940;s1-20(6):749–97. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref017"><text><SENT sid="849" pm="."><plain>17 MorovicM, PoljakI, MileticB, Troselj-VukicB, Seili-BekafigoI, MiloticI. Late Symptomatic Plasmodium malariae Relapse in the Territory of the Former Yugoslavia. J Travel Med. 2003;10(5):301–2. <?supplied-pmid 14531987?>14531987 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref018"><text><SENT sid="850" pm="."><plain>18 AbeyasingheRR, GalappaththyGN, SmithGueye C, KahnJG, FeachemRG. Malaria control and elimination in Sri Lanka: documenting progress and success factors in a conflict setting. PLoS One. 2012;7(8):e43162 10.1371/journal.pone.0043162 <?supplied-pmid 22952642?>22952642 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref019"><text><SENT sid="851" pm="."><plain>19 Oliveira-FerreiraJ, LacerdaMV, BrasilP, LadislauJL, TauilPL, Daniel-RibeiroCT. Malaria in Brazil: an overview. Malar J. 2010;9(1):115.20433744 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref020"><text><SENT sid="852" pm="."><plain>20 KaryanaM, BurdarmL, YeungS, KenangalemE, WarikerN, Rilia, et al Epidemiology of multidrug resistant P. vivax and P. falciparum infection in Southern Papua, Indonesia. Malar J. 2008;7:148 <?supplied-pmid 18673572?>18673572 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref021"><text><SENT sid="853" pm="."><plain>21 TjitraE, AnsteyNM, SugiartoP, WarikarN, KenangalemE, KaryanaM, et al Multidrug-resistant Plasmodium vivax associated with severe and fatal malaria: a prospective study in Papua, Indonesia. PLoS Med. 2008;5(6):e128 10.1371/journal.pmed.0050128 <?supplied-pmid 18563962?>18563962 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref022"><text><SENT sid="854" pm="."><plain>22 RatcliffA, SiswantoroH, KenangalemE, WuwungM, BrockmanA, EdsteinMD, et al Therapeutic response of multidrug-resistant Plasmodium falciparum and P. vivax to chloroquine and sulfadoxine-pyrimethamine in Southern Papua, Indonesia. Trans R Soc Trop Med Hyg. 2007;101:351–9. <?supplied-pmid 17028048?>17028048 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref023"><text><SENT sid="855" pm="."><plain>23 SiswantoroH, RussellB, RatcliffA, PrasetyoriniB, ChalfeinF, MarfurtJ, et al In vivo and in vitro efficacy of chloroquine for Plasmodium malariae and P. ovale in Papua, Indonesia. Antimicrob Agents Chemother. 2010. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref024"><text><SENT sid="856" pm="."><plain>24 DouglasNM, LampahDA, KenangalemE, SimpsonJA, PoespoprodjoJR, SugiartoP, et al Major burden of severe anemia from non-falciparum malaria species in Southern Papua: a hospital-based surveillance study. PLoS Med. 2013;10(12):e1001575 10.1371/journal.pmed.1001575 <?supplied-pmid 24358031?>24358031 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref025"><text><SENT sid="857" pm="."><plain>25 LampahDA, YeoTW, MalloyM, KenangalemE, DouglasNM, RonaldoD, et al Severe malarial thrombocytopenia: a risk factor for mortality in Papua, Indonesia. J Infect Dis. 2014. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref026"><text><SENT sid="858" pm="."><plain>26 World Health Organization. Severe malaria. Trop Med Int Health. 2014;19 Suppl 1:7–131. 10.1111/tmi.12313_2 <?supplied-pmid 25214480?>25214480 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref027"><text><SENT sid="859" pm="."><plain>27 DipchandAI, editor. The HSC Handbook of Pediatrics. 9th ed. St Louis: Mosby; 1997. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref028"><text><SENT sid="860" pm="."><plain>28 KitchenSF. The infection of reticulocytes by Plasmodium vivax . Am J Trop Med Hyg. 1938;s1-18(4):347–59. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref029"><text><SENT sid="861" pm="."><plain>29 CollinsWE, JefferyGM.  Plasmodium malariae: parasite and disease. Clin Microbiol Rev. 2007;20(4):579–92. <?supplied-pmid 17934075?>17934075 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref030"><text><SENT sid="862" pm="."><plain>30 BarberBE, WilliamT, GriggMJ, ParameswaranU, PieraKA, PriceRN, et al Parasite biomass-related inflammation, endothelial activation, microvascular dysfunction and disease severity in vivax malaria. PLoS Pathog. 2015;11(1):e1004558 10.1371/journal.ppat.1004558 <?supplied-pmid 25569250?>25569250 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref031"><text><SENT sid="863" pm="."><plain>31 Mombo-NgomaG, KleineC, BasraA, WurbelH, DiopDA, CapanM, et al Prospective evaluation of artemether-lumefantrine for the treatment of non-falciparum and mixed-species malaria in Gabon. Malar J. 2012;11:120 10.1186/1475-2875-11-120 <?supplied-pmid 22515681?>22515681 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref032"><text><SENT sid="864" pm="."><plain>32 EhrichJH, EkeFU. Malaria-induced renal damage: facts and myths. Pediatric nephrology (Berlin, Germany). 2007;22(5):626–37. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref033"><text><SENT sid="865" pm="."><plain>33 HalleuxD, MoermanF, GavageP, CarpentierM, Van EsbroeckM, CraenenS, et al A nephrotic syndrome of tropical origin: case report and short review of the aetiology. Acta clinica Belgica. 2014;69(5):379–81. 10.1179/2295333714Y.0000000057 <?supplied-pmid 25103593?>25103593 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref034"><text><SENT sid="866" pm="."><plain>34 HedeliusR, FletcherJJ, GlassWF2nd, SusantiAI, MaguireJD. Nephrotic syndrome and unrecognized Plasmodium malariae infection in a US Navy sailor 14 years after departing Nigeria. J Travel Med. 2011;18(4):288–91. 10.1111/j.1708-8305.2011.00526.x <?supplied-pmid 21722243?>21722243 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref035"><text><SENT sid="867" pm="."><plain>35 Eiam-OngS. Malarial nephropathy. Seminars in nephrology. 2003;23(1):21–33. <?supplied-pmid 12563598?>12563598 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref036"><text><SENT sid="868" pm="."><plain>36 HansonJ, PhuNH, HasanMU, CharunwatthanaP, PlewesK, MaudeRJ, et al The clinical implications of thrombocytopenia in adults with severe falciparum malaria: a retrospective analysis. BMC Med. 2015;13(1):97.25907925 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref037"><text><SENT sid="869" pm="."><plain>37 Rosanas-UrgellA, MuellerD, BetuelaI, BarnadasC, IgaJ, ZimmermanPA, et al Comparison of diagnostic methods for the detection and quantification of the four sympatric Plasmodium species in field samples from Papua New Guinea. Malar J. 2010;9:361 10.1186/1475-2875-9-361 <?supplied-pmid 21156052?>21156052 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref038"><text><SENT sid="870" pm="."><plain>38 BaumE, SattabongkotJ, SirichaisinthopJ, KiattibutrK, DaviesDH, JainA, et al Submicroscopic and asymptomatic Plasmodium falciparum and Plasmodium vivax infections are common in western Thailand—molecular and serological evidence. Malar J. 2015;14(1):95.25849211 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref039"><text><SENT sid="871" pm="."><plain>39 HellebergM, GokaBQ, AkanmoriBD, Obeng-AdjeiG, RodriquesO, KurtzhalsJA. Bone marrow suppression and severe anaemia associated with persistent Plasmodium falciparum infection in African children with microscopically undetectable parasitaemia. Malar J. 2005;4:56 <?supplied-pmid 16321150?>16321150 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref040"><text><SENT sid="872" pm="."><plain>40 MayJ, FalusiAG, MockenhauptFP, AdemowoOG, OlumesePE, BienzleU, et al Impact of subpatent multi-species and multi-clonal plasmodial infections on anaemia in children from Nigeria. Trans R Soc Trop Med Hyg. 2000;94(4):399–403. <?supplied-pmid 11127243?>11127243 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref041"><text><SENT sid="873" pm="."><plain>41 CottrellG, MoussiliouA, LutyAJ, CotM, FievetN, MassougbodjiA, et al Submicroscopic Plasmodium falciparum infections are associated with maternal anemia, premature births, and low birth weight. Clin Infect Dis. 2015. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref042"><text><SENT sid="874" pm="."><plain>42 BousemaT, OkellL, FelgerI, DrakeleyC. Asymptomatic malaria infections: detectability, transmissibility and public health relevance. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Rev Microbiol. 2014;12(12):833–40. 10.1038/nrmicro3364 <?supplied-pmid 25329408?>25329408 </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref043"><text><SENT sid="875" pm="."><plain>43 BalarajanY, RamakrishnanU, ÖzaltinE, ShankarAH, SubramanianSV. Anaemia in low-income and middle-income countries. Lancet. 2011. </plain></SENT>
+</text></ref><ref id="pntd.0004195.ref044"><text><SENT sid="876" pm="."><plain>44 BrookerS, AkhwaleW, PullanR, EstambaleB, ClarkeSE, SnowRW, et al Epidemiology of Plasmodium-helminth co-infection in Africa: populations at risk, potential impact on anemia, and prospects for combining control. Am J Trop Med Hyg. 2007;77(6 Suppl):88–98. <?supplied-pmid 18165479?>18165479 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

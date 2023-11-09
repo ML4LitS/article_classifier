@@ -1,0 +1,779 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4753424</article-id><article-id pub-id-type="pii">srep20717</article-id><article-id pub-id-type="doi">10.1038/srep20717</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Coral community response to bleaching on a highly disturbed reef </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Guest</surname><given-names>J. R.</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Low</surname><given-names>J.</given-names></name><xref ref-type="aff" rid="a4">4</xref></contrib><contrib contrib-type="author"><name><surname>Tun</surname><given-names>K.</given-names></name><xref ref-type="aff" rid="a4">4</xref></contrib><contrib contrib-type="author"><name><surname>Wilson</surname><given-names>B.</given-names></name><xref ref-type="aff" rid="a5">5</xref></contrib><contrib contrib-type="author"><name><surname>Ng</surname><given-names>C.</given-names></name><xref ref-type="aff" rid="a6">6</xref></contrib><contrib contrib-type="author"><name><surname>Raingeard</surname><given-names>D.</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Ulstrup</surname><given-names>K. E.</given-names></name><xref ref-type="aff" rid="a7">7</xref></contrib><contrib contrib-type="author"><name><surname>Tanzil</surname><given-names>J. T. I.</given-names></name><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a8">8</xref></contrib><contrib contrib-type="author"><name><surname>Todd</surname><given-names>P. A.</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Toh</surname><given-names>T. C.</given-names></name><xref ref-type="aff" rid="a3">3</xref><xref ref-type="aff" rid="a9">9</xref></contrib><contrib contrib-type="author"><name><surname>McDougald</surname><given-names>D.</given-names></name><xref ref-type="aff" rid="a10">10</xref><xref ref-type="aff" rid="a11">11</xref></contrib><contrib contrib-type="author"><name><surname>Chou</surname><given-names>L. M.</given-names></name><xref ref-type="aff" rid="a9">9</xref></contrib><contrib contrib-type="author"><name><surname>Steinberg</surname><given-names>P. D.</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a12">12</xref></contrib><aff id="a1"><label>1</label><institution>SECORE International, 40 Jalan Anjung 5, Horizon Hills</institution>, Nusajaya 79100, Johor, <country>Malaysia</country></aff><aff id="a2"><label>2</label><institution>Centre for Marine Bio-Innovation, School of Biological, Earth and Environmental Sciences, University of New South Wales</institution>, Sydney, NSW 2052, <country>Australia</country></aff><aff id="a3"><label>3</label><institution>Department of Biological Sciences, National University of Singapore</institution>, Singapore 117543</aff><aff id="a4"><label>4</label><institution>National Biodiversity Centre, National Parks Board, Singapore Botanic Gardens</institution>, Singapore 259569</aff><aff id="a5"><label>5</label><institution>Department of Biology, University of Bergen</institution>, Thormøhlensgate 53B, 5020 Bergen, <country>Norway</country></aff><aff id="a6"><label>6</label><institution>National University of Singapore Environmental Institute, National University of Singapore</institution>, Singapore</aff><aff id="a7"><label>7</label><institution>Cooper Marine</institution>, PO Box 60, Mosman Park WA 6912, <country>Australia</country></aff><aff id="a8"><label>8</label><institution>Earth Observatory of Singapore, Nanyang Technological University</institution>, Singapore 639798</aff><aff id="a9"><label>9</label><institution>Tropical Marine Science Institute, National University of Singapore</institution>, Singapore 119227</aff><aff id="a10"><label>10</label><institution>iThree Institute, University of Technology</institution> Sydney, <country>Australia</country></aff><aff id="a11"><label>11</label><institution>Singapore Centre on Environmental Life Sciences Engineering, Nanyang Technological University</institution>, Singapore</aff><aff id="a12"><label>12</label><institution>Sydney Institute of Marine Science</institution>, Mosman, NSW 2088, <country>Australia</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>jrguest@gmail.com</email></corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>02</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>6</volume><elocation-id>20717</elocation-id><history><date date-type="received"><day>11</day><month>10</month><year>2015</year></date><date date-type="accepted"><day>06</day><month>01</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016, Macmillan Publishers Limited</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>Macmillan Publishers Limited</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>While many studies of coral bleaching report on broad, regional scale responses, fewer examine variation in susceptibility among coral taxa and changes in community structure, before, during and after bleaching on individual reefs. </plain></SENT>
+<SENT sid="2" pm="."><plain>Here we report in detail on the response to bleaching by a coral community on a highly disturbed reef site south of mainland Singapore before, during and after a major thermal anomaly in 2010. </plain></SENT>
+<SENT sid="3" pm="."><plain>To estimate the capacity for resistance to thermal stress, we report on: a) overall bleaching severity during and after the event, b) differences in bleaching susceptibility among taxa during the event, and c) changes in coral community structure one year before and after bleaching. </plain></SENT>
+<SENT sid="4" pm="."><plain>Approximately two thirds of colonies bleached, however, post-bleaching recovery was quite rapid and, importantly, coral taxa that are usually highly susceptible were relatively unaffected. </plain></SENT>
+<SENT sid="5" pm="."><plain>Although total coral cover declined, there was no significant change in coral taxonomic community structure before and after bleaching. </plain></SENT>
+<SENT sid="6" pm="."><plain>Several factors may have contributed to the overall high resistance of corals at this site including Symbiodinium affiliation, turbidity and heterotrophy. </plain></SENT>
+<SENT sid="7" pm="."><plain>Our results suggest that, despite experiencing chronic anthropogenic disturbances, turbid shallow reef communities may be remarkably resilient to acute thermal stress. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="8" pm="."><plain>Coral bleaching refers to the paling or whitening of shallow water reef corals that results from the loss of symbiotic dinoflagellate algae (known as zooxanthellae) or their algal pigments1. </plain></SENT>
+<SENT sid="9" pm="."><plain>Bleaching is a stress response, leading to sub-lethal damage and/or partial or whole colony mortality for the coral host, and can be induced by several factors1. </plain></SENT>
+<SENT sid="10" pm="."><plain>Large-scale bleaching episodes, however, are strongly correlated with elevated sea temperatures and may be exacerbated by high irradiance2. </plain></SENT>
+<SENT sid="11" pm="."><plain>Major bleaching events driven by thermal anomalies have caused widespread and catastrophic mortality of corals and are considered one of the main drivers of global reef degradation3. </plain></SENT>
+<SENT sid="12" pm="."><plain>Bleaching severity, at the level of the coral assemblage, varies substantially as a consequence of the severity of thermal stress4, the thermal history of the site e.g.5, local environmental factors that affect irradiance (such as cloud cover and turbidity)67,the type and diversity of symbiotic algae present in the coral host tissue89 and the taxonomic community structure of the coral assemblage10. </plain></SENT>
+</text></p><p><text><SENT sid="13" pm="."><plain>Of these factors, the role of the symbiont is probably one of the most intensively researched areas in climate change studies of corals, because certain zooxanthellae types are associated with greater thermal tolerance9. </plain></SENT>
+<SENT sid="14" pm="."><plain>The taxonomic composition of the coral assemblage is another strong driver of variation in bleaching at a reef scale10. </plain></SENT>
+<SENT sid="15" pm="."><plain>This is because consistent differences have been documented in the susceptibility of coral taxa to bleaching101112; but see Guest et al. (2012)13. </plain></SENT>
+<SENT sid="16" pm="."><plain>For example, in most studies to date, branching colonies of the genera Acropora and Pocillopora have been reported to bleach much more severely relative to other growth forms and coral genera, particularly slow growing massive species101112. </plain></SENT>
+<SENT sid="17" pm="."><plain>This observation has led to the widespread classification of fast growing branching species as “losers” in the face of global warming11, at least in the short term14. </plain></SENT>
+<SENT sid="18" pm="."><plain>The classification of corals as winners or losers does not, however, take into consideration the capacity for normally susceptible species to adapt and/or acclimatise to thermal stress151617. </plain></SENT>
+<SENT sid="19" pm="."><plain>Not only do different coral taxa vary in their bleaching responses, but they also differ in their ability to recover from bleaching. </plain></SENT>
+<SENT sid="20" pm="."><plain>For example, in a study of individually tagged colonies of four species on the Great Barrier Reef (GBR) following bleaching, 88% of Acropora hyacinthus and 32% of A. millepora colonies (both fast growing branching species) died, compared to whole colony mortality in only 13% of Platygyra daedalea and 0% of Porites lobata (both slow growing massive species)18. </plain></SENT>
+<SENT sid="21" pm="."><plain>Most surviving P. daedalea and P. lobata colonies lost some tissue through partial colony mortality but this was rare in the Acropora; colonies either survived intact or died completely18. </plain></SENT>
+<SENT sid="22" pm="."><plain>The physiological mechanisms that lead to greater susceptibility among certain coral taxa and growth forms are not fully understood19, but may be associated with differences in the type of symbiont hosted9, metabolic rates20, tissue thickness11, mass transfer rates21 and heterotrophic feeding capacity22. </plain></SENT>
+</text></p><p><text><SENT sid="23" pm="."><plain>Differential bleaching severity among taxa has important ecological implications because it influences the potential of species to adapt to future thermal stress by natural selection17. </plain></SENT>
+<SENT sid="24" pm="."><plain>Susceptible taxa, such as Acropora and Pocillopora, have relatively fast growth rates23 and become sexually mature within two to three years2425, life history traits which predispose these genera to adapt more rapidly17. </plain></SENT>
+<SENT sid="25" pm="."><plain>Thus, one might expect a more rapid adaptive response on reefs dominated by fast growing susceptible species (providing that at least some of the coral population recovers following bleaching)16. </plain></SENT>
+<SENT sid="26" pm="."><plain>The incidence of partial versus full colony mortality within a coral community following bleaching also has implications for the rate at which a reef recovers following a disturbance. </plain></SENT>
+<SENT sid="27" pm="."><plain>Reefs dominated by species with “generalist” life history traits (i.e., stress tolerance and rapid growth rates)26 may recover coral cover rapidly via regrowth of remnant colonies, rather than relying on recruitment of new colonies from larvae2728. </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>Understanding the potential of reef assemblages to recover from disturbances (such as bleaching events) is becoming increasingly important as the frequency and magnitude of anthropogenic impacts affecting reefs increase29. </plain></SENT>
+<SENT sid="29" pm="."><plain>Temperature-induced mass coral bleaching events are predicted to become more frequent30 and reef coral assemblages will undoubtedly change in terms of their taxonomic composition over the next few decades29. </plain></SENT>
+<SENT sid="30" pm="."><plain>While many studies report on broad, regional scale responses to thermal stress during bleaching events (e.g., proportion of corals bleached)31, fewer examine variation in susceptibility among taxa and change in coral community structure before, during and after bleaching on individual reefs111415323334. </plain></SENT>
+<SENT sid="31" pm="."><plain>Such detailed studies are needed if we are to understand the effect that repeated thermal anomalies will have on community structure and reef resilience. </plain></SENT>
+<SENT sid="32" pm="."><plain>Furthermore, less is known about the capacity for resistance and recovery on reefs that experience severe chronic disturbances such as elevated sedimentation and turbidity32. </plain></SENT>
+<SENT sid="33" pm="."><plain>It is often assumed, however, that these reefs will be less resilient to additional disturbances compared to reefs that are managed effectively or reefs far from anthropogenic influences2735. </plain></SENT>
+</text></p><p><text><SENT sid="34" pm="."><plain>In 2010, corals throughout the Indian Ocean and Southeast Asia experienced higher than normal water temperatures leading to extensive coral bleaching at many reef sites (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://coralreefwatch.noaa.gov/satellite/bleachingoutlook/index.html">http://coralreefwatch.noaa.gov/satellite/bleachingoutlook/index.html</ext-link>). </plain></SENT>
+<SENT sid="35" pm="."><plain>Severe bleaching was reported in Singapore and Malaysia1336, Thailand373839, Indonesia404142, Brunei, Cambodia, Philippines and Vietnam43. </plain></SENT>
+<SENT sid="36" pm="."><plain>In an earlier publication, Guest et al. (2012)13, reported an unusual reversal in bleaching susceptibility among coral taxa and contrasting bleaching responses among sites in Singapore, Malaysia and Sumatra during 2010. </plain></SENT>
+<SENT sid="37" pm="."><plain>To further examine the capacity for resistance of Singaporean reefs, here we report on the bleaching responses of corals at a reef site south of mainland Singapore during (June, July) and immediately after (October) the 2010 bleaching event. </plain></SENT>
+<SENT sid="38" pm="."><plain>The aims of this study were to: a) estimate the capacity for resistance to thermal stress by quantifying overall bleaching severity during and after the event, b) compare relative bleaching susceptibility among taxa during and after the event, and c) examine the effect of the bleaching event on coral cover and coral taxonomic community structure. </plain></SENT>
+<SENT sid="39" pm="."><plain>We also carry out preliminary analysis of Symbiodinium clade affiliation for two common coral species to assess the possible role of different symbiont clades in thermal tolerance. </plain></SENT>
+</text></p><SecTag type="RESULTS"><sec disp-level="1"><title><text><SENT sid="40" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="41" pm="."><plain>A total of 597, 542 and 491 colonies were surveyed in June, July and October 2010 respectively at a fringing reef on the western side of Pulau Satumu (Raffles Lighthouse, 1°09′35.09″N, 103°44ʹ24.09″E). </plain></SENT>
+<SENT sid="42" pm="."><plain>Surveys of taxa susceptibility of all genera revealed that an estimated 66% in June and 58% in July of colonies were bleached (Fig. 1). </plain></SENT>
+<SENT sid="43" pm="."><plain>In June an estimated 36% of colonies were moderately bleached and 30% were severely bleached, whereas in July there was already some evidence of recovery with 33% moderately and 25% severely bleached (Fig. 1). </plain></SENT>
+<SENT sid="44" pm="."><plain>In contrast, in October only 18% of colonies surveyed were bleached, with only 4% severely bleached and 14% moderately bleached (Fig. 1). </plain></SENT>
+<SENT sid="45" pm="."><plain>A total of 30 taxa were surveyed during all three sampling occasions in 2010. </plain></SENT>
+<SENT sid="46" pm="."><plain>Bleaching severity varied greatly among populations within each sampling occasion and within populations between sampling occasions. </plain></SENT>
+<SENT sid="47" pm="."><plain>The proportion of colonies bleached varied from 0–100% among genera in all survey months, however, for most taxa, bleaching severity declined markedly between June and October (Table 1). </plain></SENT>
+<SENT sid="48" pm="."><plain>For example, in June and July, 22 of 30 taxa surveyed had ≥50% of colonies bleached, whereas in October only 4 taxa had ≥50% of colonies bleached (Table 1). </plain></SENT>
+</text></p><p><text><SENT sid="49" pm="."><plain>We estimated a bleaching index (BI)12 for each taxa to compare bleaching responses among taxa (see methods). </plain></SENT>
+<SENT sid="50" pm="."><plain>Considering only taxa for which at least 5 colonies were sampled on all 3 occasions, 4 coral genera had consistently low susceptibility to bleaching (i.e., BI &lt; 30) throughout the study period (Supplementary Table S1 online, Fig. 2). </plain></SENT>
+<SENT sid="51" pm="."><plain>These included Acropora, Galaxea, Pavona and Merulina (Supplementary Table S1 online, Fig. 2). </plain></SENT>
+<SENT sid="52" pm="."><plain>The genus Acropora was the least affected among all genera, with 82% of colonies surveyed in July (at least 13 species surveyed) unaffected by bleaching with the remainder either pale or partially bleached and none severely bleached (Table 2, Figs 2 and 3a–c). </plain></SENT>
+<SENT sid="53" pm="."><plain>A further 7 genera had relatively moderate susceptibility to bleaching (i.e., BI from 30–59) in both June and July, but of these, all but one (Porites) had low severity (BI &lt; 30) by October (Supplementary Table S1 online, Fig. 2). </plain></SENT>
+<SENT sid="54" pm="."><plain>All colonies of Porites surveyed in June and July were massive (primarily P. lutea and P. lobata) or submassive (P. rus). </plain></SENT>
+<SENT sid="55" pm="."><plain>Only one colony of branching Porites (possibly P. cylindrica) was surveyed in October and it had suffered severe partial mortality (80% of colony), suggesting it had experienced bleaching-related mortality. </plain></SENT>
+<SENT sid="56" pm="."><plain>A further 8 genera had relatively high bleaching susceptibility (i.e., BI ≥ 60) in June and/or July, but again, all had low severity (i.e., BI &lt; 30) by October (Supplementary Table S1 online, Fig. 2). </plain></SENT>
+<SENT sid="57" pm="."><plain>For example, all Pocillopora colonies (predominantly P. damicornis) were bleached, with 80% moderately and 20% severely bleached in July, but by October only 15% remained moderately bleached (Supplementary Table S1 online, Figs 2 and 3d). </plain></SENT>
+<SENT sid="58" pm="."><plain>The massive taxa Porites, on the other hand recovered less quickly with 43% of colonies moderately or severely bleached in October, compared to 53% in July (Supplementary Table S1 online, Figs 2 and 3e). </plain></SENT>
+</text></p><p><text><SENT sid="59" pm="."><plain>In October 2010, 15 out of 25 genera surveyed had colonies exhibiting partial mortality. </plain></SENT>
+<SENT sid="60" pm="."><plain>The most severely affected genera (i.e., genera with &gt;50% of colonies exhibiting partial mortality) were Oulophyllia, Lobophyllia, Goniastrea and Merulina with 100, 80, 67 and 60% of colonies respectively having some partial mortality (Table 2). </plain></SENT>
+<SENT sid="61" pm="."><plain>The extent of partial mortality was also high for some colonies of the genus Dipsastraea (formerly Favia), with 25% of colonies having between 51 and 75% partial colony mortality (Table 2). </plain></SENT>
+<SENT sid="62" pm="."><plain>No colonies of either Acropora or Pocillopora were recorded to have partial colony mortality, whereas 23% of Porites colonies surveyed had low levels (i.e., ≤25%) of partial colony mortality. </plain></SENT>
+</text></p><p><text><SENT sid="63" pm="."><plain>Average coral cover declined from 72.2 ± 11.1% (mean ± SD) in 2009 to 50.7 ± 8.4% in 2010, but had partly recovered to 56.0 ± 9.1% by 2012. </plain></SENT>
+<SENT sid="64" pm="."><plain>A total of 36 coral genera were surveyed before, during and after the bleaching event in 2009, 2010 and 2012 (Supplementary Table S2 online). </plain></SENT>
+<SENT sid="65" pm="."><plain>While there were changes in relative cover of certain taxa before and after bleaching, there was no significant shift in coral taxonomic community structure among years (One-way ANOSIM, Global R −0.08) suggesting that most differences in relative cover of taxa among years were a result of natural temporal variation. </plain></SENT>
+<SENT sid="66" pm="."><plain>It is worth noting, however, that of the 8 taxa that had high susceptibility to bleaching in June/July, five showed decreases in relative abundance after bleaching (Pachyseris, Fungia, Pectinia, Hydnophora and Montipora) (Supplementary Table S1 online). </plain></SENT>
+<SENT sid="67" pm="."><plain>In contrast, only one of the four taxa (Pavona) that showed low bleaching susceptibility had declined in relative abundance between 2009 and 2012 (Supplementary Table S2 online). </plain></SENT>
+<SENT sid="68" pm="."><plain>The taxa that had the highest bleaching index in October (Porites) also had the greatest decrease in relative abundance between 2009 and 2012 (Supplementary Table S2 online). </plain></SENT>
+<SENT sid="69" pm="."><plain>Relative cover of Acropora remained unchanged before and after bleaching, while relative cover of Pocillopora increased nine-fold (Supplementary Table S2 online). </plain></SENT>
+</text></p><p><text><SENT sid="70" pm="."><plain>An investigation of coral symbiont diversity using internal transcribed spacer region 2 (ITS2) tag pyrosequencing (Supplementary Table S3 online) from two coral species revealed that whilst sequences related to Symbiodinium clades C and D were both found, clade D predominated in the tissues of both Pocillopora damicornis and Platygyra sinensis. </plain></SENT>
+<SENT sid="71" pm="."><plain>In five of the six corals sampled, clade D was the only symbiont type present, whilst clade C was only found in one sample of P. sinensis. </plain></SENT>
+<SENT sid="72" pm="."><plain>Of the 20 distinct operational taxonomic units (OTU) identified, ten were assigned to subclade D1 and two to subclade C3 (both found in one colony of P. sinensis) based on the top BLAST+ hits44 to the GeoSymbio database45. </plain></SENT>
+<SENT sid="73" pm="."><plain>It was not possible to assign the remaining seven OTUs to subclade level but they all belonged to clade D. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="DISCUSS"><sec disp-level="1"><title><text><SENT sid="74" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="75" pm="."><plain>Between May and August 2010 Singapore’s reefs underwent a major bleaching event (i.e., &gt;50% of colonies bleached) as a result of a thermal anomaly43. </plain></SENT>
+<SENT sid="76" pm="."><plain>Despite severe bleaching at one Singaporean site (Pulau Satumu) in 2010, post-bleaching recovery appeared to be rapid and coral taxa that are usually highly susceptible (e.g., Acropora and Pocillopora) were relatively unaffected13. </plain></SENT>
+<SENT sid="77" pm="."><plain>Surveys of four other sites around Singapore’s Southern Islands found similar reef-scale bleaching responses, suggesting that Pulau Satumu was representative of the broader coral community43. </plain></SENT>
+<SENT sid="78" pm="."><plain>Surveys to estimate bleaching-associated coral mortality carried out in October 2010 at Pulau Satumu revealed that an estimated 4% of colonies had died recently13. </plain></SENT>
+<SENT sid="79" pm="."><plain>The majority of the change seen in the proportion of bleached and healthy colonies between June and October was, therefore, due to colonies recovering from bleaching and not as a result of colonies bleaching and subsequently dying. </plain></SENT>
+<SENT sid="80" pm="."><plain>Bleaching-associated mortality on other Singaporean reefs (reported to be &lt;10% of colonies) was much lower than reported at other locations in Southeast Asia, particularly at sites in the Andaman Sea and Gulf of Thailand where close to half of the colonies surveyed died following bleaching38394243, but similar to reports from sites in Peninsular Malaysia (Tioman Island), Indonesia (e.g., Wakatobi, Bali), Brunei, Sabah and Sarawak43. </plain></SENT>
+</text></p><p><text><SENT sid="81" pm="."><plain>In addition to relatively high overall resistance of corals at Pulau Satumu to bleaching, the taxonomic hierarchy of susceptibility among coral genera was unprecedented. </plain></SENT>
+<SENT sid="82" pm="."><plain>In all studies prior to 2010 there has been a consistent pattern of susceptibility among coral taxa, with branching Acropora and Pocillopora being more susceptible to thermal stress than massive growth forms10111218. </plain></SENT>
+<SENT sid="83" pm="."><plain>In contrast, in the present study, Acropora were the least affected of all taxa, with 5, 18 and 4% of colonies moderately bleached in June, July and October, respectively. </plain></SENT>
+<SENT sid="84" pm="."><plain>In contrast, most surveyed colonies of P. damicornis were bleached in June and July (83 and 100% respectively), however, only 15% of colonies remained moderately bleached in October. </plain></SENT>
+<SENT sid="85" pm="."><plain>No recently dead colonies of Pocillopora and only one recently dead colony of Acropora were recorded during surveys in October 2010 (data from Guest et al. 2012)13 therefore we can conclude that these, normally susceptible, genera were largely resistant to bleaching-associated mortality at this reef during the 2010 thermal anomaly. </plain></SENT>
+<SENT sid="86" pm="."><plain>In contrast, massive species and other growth forms and taxa behaved normally, i.e., they tended to bleach moderately and recover relatively slowly18. </plain></SENT>
+<SENT sid="87" pm="."><plain>For example a high proportion of surveyed Porites colonies (43%) were still moderately or severely bleached in October. </plain></SENT>
+</text></p><p><text><SENT sid="88" pm="."><plain>Surveys of coral benthic structure showed decreases in overall coral cover after the bleaching event; however, taxonomic community structure did not change significantly. </plain></SENT>
+<SENT sid="89" pm="."><plain>There were no decreases in relative abundance of Acropora, but there were increases in relative abundance of Pocillopora and decreases in relative abundance of Porites. </plain></SENT>
+<SENT sid="90" pm="."><plain>For Porites, this was not as a result of species with branching morphologies bleaching and dying, as the majority of Porites surveyed at Pulau Satumu were either massive or submassive morphologies (e.g., P. lutea, P. rus). </plain></SENT>
+<SENT sid="91" pm="."><plain>A similar pattern, i.e., relatively low susceptibility to bleaching of Acropora corals, was also reported for sites in Indonesia (e.g., Wakatobi)40 and Malaysia (e.g., Tioman Island)13, indicating this unusual taxonomic reversal in susceptibility was not restricted to the reef at Pulau Satumu. </plain></SENT>
+<SENT sid="92" pm="."><plain>To the best of our knowledge, the event in 2010 is the first time such a response has been reported for these usually highly susceptible taxa during a major thermal bleaching event. </plain></SENT>
+<SENT sid="93" pm="."><plain>In light of these results, there is a clear need to re-evaluate the current paradigm regarding winners and losers among corals in the face of climate change. </plain></SENT>
+</text></p><p><text><SENT sid="94" pm="."><plain>Several possible explanations exist for the overall high resistance to bleaching at Pulau Satumu in 2010. </plain></SENT>
+<SENT sid="95" pm="."><plain>Firstly, Singapore’s corals may host relatively thermally tolerant symbiont types. </plain></SENT>
+<SENT sid="96" pm="."><plain>Currently published accounts of symbiont association from Singaporean reefs only exist for five species of zoantharian which host C1/C3, C15/C91 and clade D derived Symbiodinium46. </plain></SENT>
+<SENT sid="97" pm="."><plain>For hard corals in Singapore there are currently no published accounts of symbiont diversity for a wide range of species. </plain></SENT>
+<SENT sid="98" pm="."><plain>However, limited sampling from two species that were relatively tolerant to thermal stress in 2010 (P. damicornis and P. sinensis) using ITS2 tag pyrosequencing, reveal that whilst sequences related to Symbiodinium clades C and D were present, clade D predominated (see Supplementary Table S3 online for details). </plain></SENT>
+<SENT sid="99" pm="."><plain>Taxonomic assignment to subclade level was possible for just over half of the OTUs found and these most closely matched (≥98% sequence identity) subclades C3 or D1. </plain></SENT>
+<SENT sid="100" pm="."><plain>The inability to classify the remaining OTUs to subcladal level based on current Symbiodinium ITS2 sequence databases suggests that they may represent novel subclades within clade D. </plain></SENT>
+<SENT sid="101" pm="."><plain>Whilst the diversity of coral symbiont clades has historically involved the analysis of interspecific variations in ITS2 data, the recent discovery of extensive intra-specific sequence variation among ITS regions in free-living dinoflagellates47 means that further studies involving additional marker genes, such as <z:uniprot sup="inside" fb="0" ids="Q3V554,Q85C23,A4QJ96,A4QJI0,A1E9Y8,Q9TM69,P02956,Q70Y17,Q9BBC1,Q7HP56,B0YPN1,A2T309,Q85BH5,P24625,A4QJZ9,P83755,Q7FNT3,A4QK85,Q06J41,P18290,P48265,A6MM16,Q7YJY8,A4QKH2,B1A915,A8SE40,Q8M9W3,Q1ACM1,Q19VC4,P35860,P09752,P07753,A6MMA2,P56318,Q09MJ8,A0A315,Q9T351,Q9TNF8,A4QKR1,B1VKF9,Q2QDA8,A8W3A5,A7M8Y6,A8W3H2,P32036,O19895,Q85G59,P12719,A6H5E4,Q0G9Y2,A6MMI8,A4QL00,Q06H17,Q9TNF7,P24726,Q4G3F2,Q49L18,P06631,P24725,A6BM28,A0ZZ15,P69564,Q6B929,O78446,Q1KXX9,Q32389,Q9MSC0,Q9MSC1,Q9MSC2,Q9XQV1,P05337,Q5SCW8,A6MMS4,A7Y395,Q06RF1,Q9TJ82,P69557,P27201,A9L976,A4QL86,Q0G9N9,A4QLH5,A8Y9F0,Q9BBU3,O98736,P48183,B1NWD0,P06402,Q9S3W5,P04998,Q9MUW0,P51764,P07063,Q09X37,Q09FY1,A4QLR3,Q9TL35,P69561,P69562,Q3C1G3,Q33C59,Q6EW68,B0Z4K6,B0Z4U0,P83756,B0Z524,B0Z5A8,A4QJR4,Q20ET2,Q6ENJ7,P0C432,P0C433,P0C434,P69565,O98733,Q68S26,P06585,Q06FY1,P04999,Q3BAR4,A0T0G9,Q01366,P50155,Q85WS3,P69551,Q06GT0,Q09G66,A6YGB8,Q14FH6,P36491,A4GYN9,P51212,A3PAU3,A8G5N5,P46895,Q9TM72,Q7V365,Q8WI36,Q1XDS5,A6MVT2,Q6L3B5,P0C157,P10510,Q2WGI0,P11848,Q2MIK7,Q2MIC0,P69563,Q2VEJ6,A1E9Q4,P02957,P69560,Q32RX1,Q06SD2,P14660,Q1KVU8,A0T0W2,P51765,P69556,P29270,P49460,Q3ZJ60,P13910,Q33282,Q0ZJ40,P12463,Q32RM3">psbA</z:uniprot> mini circles4849 might offer improved subcladal resolution, in lieu of full chloroplast genome sequences50. </plain></SENT>
+<SENT sid="102" pm="."><plain>Hosting some Symbiodinium clade D types can confer a limited thermal tolerance on coral hosts951, but prevalence of Symbiodinium type D is also closely associated with reduced water clarity (as is the case for Singapore)52. </plain></SENT>
+<SENT sid="103" pm="."><plain>Previous work suggested that C3 type zooxanthellae were relatively thermally sensitive53, although more recent work found this Symbiodinium type to be prevalent even in regions with extreme temperature variations54. </plain></SENT>
+<SENT sid="104" pm="."><plain>The current, limited availability of samples from Singapore make it difficult to conclude definitively that symbiont clade affiliation is responsible for the high thermal tolerance of Singapore’s corals, however a detailed study of clade types from a wider range of coral species is currently underway. </plain></SENT>
+</text></p><p><text><SENT sid="105" pm="."><plain>Secondly, high turbidity, which currently characterises Singapore’s coastal waters may provide a degree of protection from light stress during thermal anomalies. </plain></SENT>
+<SENT sid="106" pm="."><plain>In combination with high temperatures, elevated levels of irradiance can lead to coral bleaching27 and when irradiance is lowered during thermal anomalies (e.g., by cloud cover) corals bleach less severely6. </plain></SENT>
+<SENT sid="107" pm="."><plain>Thirdly, it is conceivable that high concentrations of suspended particulate matter (SPM) present in Singapore’s coastal waters, e.g., ranging from 9–16 mg l−1 55, may have provided an opportunity for corals to obtain a higher proportion of their energy requirements from heterotrophy during periods of thermal stress22. </plain></SENT>
+</text></p><p><text><SENT sid="108" pm="."><plain>A final possible explanation for the level of bleaching resistance at Pulau Satumu is that corals at this site possess greater tolerance to acute temperature fluctuations due to prior acclimatisation, i.e., phenotypic changes by an individual organism in response to fluctuations in natural conditions56. </plain></SENT>
+<SENT sid="109" pm="."><plain>It is well established that bleaching is induced when temperature increases significantly above the long-term mean annual maximum57 (and references within) and that corals living at higher average ambient temperatures have higher thermal tolerances than those living at lower temperatures58. </plain></SENT>
+<SENT sid="110" pm="."><plain>On reefs with similar mean temperatures but differences in overall temperature fluctuations (i.e., differences in standard deviation around the mean), corals that experience the larger fluctuations may also have greater thermal tolerance56. </plain></SENT>
+<SENT sid="111" pm="."><plain>Support is provided for this explanation by the fact that annual SST variability (i.e., standard deviation of the mean) is ~40–52% higher at sites in the South China Sea where overall bleaching severity was lower in 2010 compared to sites in the Andaman Sea (this is despite similar levels of thermal stress in 2010 and similar long term average SSTs)13. </plain></SENT>
+</text></p><p><text><SENT sid="112" pm="."><plain>While the above may explain the overall resistance of corals at Pulau Satumu to bleaching, they do not explain the unprecedented hierarchy of taxonomic susceptibility (e.g. low susceptibility for Acropora and Pocillopora) seen at this and other sites in Southeast Asia1340. </plain></SENT>
+<SENT sid="113" pm="."><plain>A parsimonious explanation for the reversal in the normal hierarchy of susceptibility at certain sites in 2010 is that removal of susceptible individuals from populations that bleached during previous episodes (e.g., 1997–1998)31, followed by reproduction and successful recruitment of the remaining, more thermally tolerant individuals, has led to adaptation through natural selection13. </plain></SENT>
+<SENT sid="114" pm="."><plain>High variability within populations in response to thermal stress provides a very strong selective pressure. </plain></SENT>
+<SENT sid="115" pm="."><plain>Due to the life history traits of Acropora and Pocillopora–i.e., fast growth rates23, onset of sexual maturity within 2–3 years2425 and high rates of whole colony mortality following thermal stress18–these taxa are the most likely to adapt in a rapidly changing environment17. </plain></SENT>
+<SENT sid="116" pm="."><plain>This hypothesis is supported by the observation that these genera were generally less susceptible to bleaching at certain sites in Southeast Asia that bleached during the last major episode in 1998, whereas they suffered high levels of bleaching-associated mortality in 2010 at sites that did not bleach in 199813. </plain></SENT>
+<SENT sid="117" pm="."><plain>Furthermore, other studies carried out on reefs over successive bleaching events that have documented increasing thermal tolerance and declining rates of bleaching-induced mortality in usually susceptible taxa over successive bleaching events153459. </plain></SENT>
+<SENT sid="118" pm="."><plain>Although, mass bleaching was reported for Singapore in June and July 199831, nothing is known about differences in taxa susceptibility for the reef at Pulau Satumu during that event. </plain></SENT>
+<SENT sid="119" pm="."><plain>At Indonesian sites close to Singapore (e.g., Riau Islands ~200 km south of Singapore)60, Acropora was reported to be “particularly susceptible to bleaching when compared to massive coral species” in 199860. </plain></SENT>
+<SENT sid="120" pm="."><plain>Another major bleaching event was documented at sites in the Java Sea in 1983 6162 that resulted in catastrophic mortality of branching corals including Acropora. </plain></SENT>
+<SENT sid="121" pm="."><plain>Intriguingly, Suharsono60 also noted an increase in tolerance of reef flat Acropora corals at one site (Pari Island) between bleaching events in 1983 and 1998 and suggested this was evidence of an adaptive response. </plain></SENT>
+</text></p><p><text><SENT sid="122" pm="."><plain>The response of corals at Pulau Satumu to thermal stress has important implications for resilience. </plain></SENT>
+<SENT sid="123" pm="."><plain>Surveys of benthic community structure carried out in 2009 and 2010 showed a reduction in overall cover of corals from ~73–51% at this site, however, there was no significant change in coral taxonomic community structure before and after the bleaching event in 2010. </plain></SENT>
+<SENT sid="124" pm="."><plain>In the present study, decreases in relative cover (%) at Pulau Satumu were greatest for the coral taxa Porites, Pavona, Pachyseris, Montipora and Echinopora between 2009 and 2012. </plain></SENT>
+<SENT sid="125" pm="."><plain>With the exception of Porites, which predominantly has massive growth forms in Singapore, these taxa have foliose or encrusting growth forms. </plain></SENT>
+<SENT sid="126" pm="."><plain>Considering that there was little evidence of whole colony mortality following the 2010 bleaching (i.e., ~4% of colonies surveyed)13, but 15 coral genera experienced partial colony mortality, it is likely that the observed loss of coral cover in 2010 was primarily due to colonies shrinking in size. </plain></SENT>
+<SENT sid="127" pm="."><plain>Indeed, during surveys in October we regularly noted partial mortality due to disease on bleached colonies (e.g., Montipora, Fig. 3f). </plain></SENT>
+<SENT sid="128" pm="."><plain>Singapore does not experience typhoons and major coral predators (e.g., Acanthaster planci) have not been documented locally, thus the 2010 bleaching event was the only major natural disturbance affecting Singaporean reefs during the study period. </plain></SENT>
+<SENT sid="129" pm="."><plain>We cannot, however, rule out the possibility that other anthropogenic disturbances (e.g., boat groundings and anchor damage from recreational vessels) also contributed to changes in coral cover between 2009 and 2012 at Pulau Satumu. </plain></SENT>
+<SENT sid="130" pm="."><plain>The processes of regrowth of remnant colonies and recruitment of larvae both contribute to the time taken for coral cover to recover to pre-disturbance levels on reefs, but recovery rates vary among habitats and are highly dependent on the composition of surviving coral communities27. </plain></SENT>
+<SENT sid="131" pm="."><plain>Measured linear extension rates for foliose and massive species (e.g., Merulina ampliata ~25 mm yr−1, Porites lutea ~18 mm yr−1)6364 at Pulau Satumu are within the normal range for scleractinians2365. </plain></SENT>
+<SENT sid="132" pm="."><plain>In contrast, estimated rates of settlement of new coral spat at this site are low relative to other <z:uniprot sup="inside" fb="18" ids="P28776,Q9ERD9">Indo</z:uniprot>-Pacific reefs6667. </plain></SENT>
+<SENT sid="133" pm="."><plain>While recovery of coral cover from recruitment of new individuals via sexual reproduction can be a relatively slow process on reefs (i.e., decades), recovery via regrowth of remnants can happen within a period of a few years2728, suggesting potential for rapid recovery at this site. </plain></SENT>
+<SENT sid="134" pm="."><plain>Indeed, the reef at Palau Satumu appeared to be on a rapid recovery trajectory, with coral cover increasing from ~50% in 2010 to ~56% in 2012. </plain></SENT>
+</text></p><p><text><SENT sid="135" pm="."><plain>In this study we show a remarkable level of resistance to, and recovery from, a major thermal coral bleaching event at a chronically impacted <z:uniprot sup="inside" fb="18" ids="P28776,Q9ERD9">Indo</z:uniprot>-Pacific reef site. </plain></SENT>
+<SENT sid="136" pm="."><plain>Furthermore, we document a reversed pattern of bleaching susceptibility where usually highly susceptible taxa were relatively unaffected by bleaching. </plain></SENT>
+<SENT sid="137" pm="."><plain>These results suggest an underappreciated resilience in disturbed impacted reef systems and that corals that have been classified as losers in the face of climate change may have a greater capacity for adaptation and/or acclimatization than previously supposed. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec disp-level="1"><title><text><SENT sid="138" pm="."><plain>Methods </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="139" pm="."><plain>Study site </plain></SENT>
+</text></title><p><text><SENT sid="140" pm="."><plain>Pulau Satumu is situated approx. </plain></SENT>
+<SENT sid="141" pm="."><plain>13 km from mainland Singapore and is the southernmost reef within Singapore’s territorial waters. </plain></SENT>
+<SENT sid="142" pm="."><plain>The western fringing reef at Pulau Satumu is approx. </plain></SENT>
+<SENT sid="143" pm="."><plain>250 m long and 20–30 m wide (i.e., from shore to the base of the reef slope). </plain></SENT>
+<SENT sid="144" pm="."><plain>Singapore’s marine environment is characterised by high levels of sedimentation, turbidity and eutrophication as a result of extensive historical coastal development and ongoing dredging of shipping channels68. </plain></SENT>
+<SENT sid="145" pm="."><plain>Although heavily impacted, most of Singapore’s islands have fringing reefs with relatively diverse coral communities, home to over 250 documented scleractinian species69. </plain></SENT>
+<SENT sid="146" pm="."><plain>Due to its distance from the mainland, Pulau Satumu has the lowest rates of sedimentation and suspended solids of studied Singaporean reefs70. </plain></SENT>
+<SENT sid="147" pm="."><plain>This site also has the highest hard coral cover (&gt;50% total cover) and greatest coral species richness among Singaporean reefs6970. </plain></SENT>
+<SENT sid="148" pm="."><plain>While it is one of the least impacted sites in Singapore, levels of sedimentation (~15 mg cm2 d−1) and suspended solids (~10 mg l−1) still exceed values considered normal for coral reefs55. </plain></SENT>
+<SENT sid="149" pm="."><plain>The coral community at Pulau Satumu is dominated by coral genera with foliose, encrusting, massive and sub-massive growth forms including Montipora, Merulina, Platygyra, Echinopora and Pachyseris66. </plain></SENT>
+<SENT sid="150" pm="."><plain>This site also has one of the only accessible reefs within Singapore’s territorial waters possessing an assemblage of Acropora and Pocillopora (primarily P. damicornis) corals suitable for meaningful ecological studies69. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="151" pm="."><plain>Surveys of bleaching susceptibility </plain></SENT>
+</text></title><p><text><SENT sid="152" pm="."><plain>Extensive bleaching of corals and other zooxanthellate taxa (e.g., anemones, zoantharians) at multiple sites south of Singapore was recorded in May 2010 43. </plain></SENT>
+<SENT sid="153" pm="."><plain>Coral bleaching is triggered when sea surface temperatures (SST) exceed a climatological maximum monthly mean (MMM) for extended periods. </plain></SENT>
+<SENT sid="154" pm="."><plain>The extent of thermal stress is typically expressed in terms of degree heating weeks (DHW)71. </plain></SENT>
+<SENT sid="155" pm="."><plain>In Singapore, remotely sensed data derived from the Pathfinder dataset of the US National Oceanic and Atmospheric Administration indicated that SSTs rose above the climatological MMM of 29.86 °C in mid-April 2010 and remained elevated until at least mid-August 201013. </plain></SENT>
+<SENT sid="156" pm="."><plain>During this period, maximum DHW of 12.02 °C weeks (i.e., accumulation of thermal anomalies at temperatures &gt;29.86 °C) occurred in mid-July13, although this was based on a slightly modified version of the most commonly used DHW method (i.e., when thermal anomalies begin to accumulate at ≥1 °C above MMM). </plain></SENT>
+<SENT sid="157" pm="."><plain>The level of thermal stress reported for Singapore was similar to that of other sites in Southeast Asia, including Malaysia and Sumatra13. </plain></SENT>
+<SENT sid="158" pm="."><plain>For the present study, surveys of bleaching susceptibility were carried out on June 15, July 5 and October 4 2010, i.e., +8, +12 and + 25 weeks after sea temperatures exceeded MMM in Singapore. </plain></SENT>
+</text></p><p><text><SENT sid="159" pm="."><plain>On survey occasions in June and July, coral colonies within four haphazardly placed 30 m × 1 m belt-transects were surveyed at depths between ~2 and 5 m along the reef flat and upper reef slope on the western side of Pulau Satumu. </plain></SENT>
+<SENT sid="160" pm="."><plain>Survey data in October were collected using methods described in Guest et al. (2012)13. </plain></SENT>
+<SENT sid="161" pm="."><plain>Ten replicate 2-metre radius survey plots were selected haphazardly and all colonies within each plot were surveyed. </plain></SENT>
+<SENT sid="162" pm="."><plain>Although the survey methods in June/July and October differed, the total area surveyed was similar (120 m2 in June/July and 126 m2 in October). </plain></SENT>
+<SENT sid="163" pm="."><plain>In addition to the transects and survey plots, in July and October a wider survey of the genus Acropora was carried out during a 40-minute random swim, in which all Acropora colonies encountered were surveyed. </plain></SENT>
+<SENT sid="164" pm="."><plain>All colonies within each transect or survey plot were identified to genus level and bleaching status was recorded as follows: 1) healthy = no bleaching; 2) moderately bleached = colony pale or less than 50% of surface area bleached and; 3) severely bleached = colony greater than 50% bleached10. </plain></SENT>
+<SENT sid="165" pm="."><plain>A bleaching index (BI)12 was estimated as follows: </plain></SENT>
+</text></p><p><text><SENT sid="166" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="167" pm="."><plain>where c1 to c3 are the three coral status categories expressed as the proportion of colonies (%) surveyed arranged in order from not bleached to severely bleached. </plain></SENT>
+<SENT sid="168" pm="."><plain>This differs from the bleaching and mortality index (BMI)12 as it does not include recently dead colonies. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="169" pm="."><plain>Coral cover, community structure and partial colony mortality </plain></SENT>
+</text></title><p><text><SENT sid="170" pm="."><plain>Coral cover and taxonomic community structure were characterized by SCUBA divers using the line intercept method in September 2009, 2010 and 2012 (i.e., one year before bleaching, during bleaching and two years after bleaching). </plain></SENT>
+<SENT sid="171" pm="."><plain>During each survey, five replicate 20 m transects were laid parallel to the reef crest at a depth of ~3–4 m and each transect was separated by a distance of approximately 5 m. </plain></SENT>
+<SENT sid="172" pm="."><plain>The genera and growth forms of all hard coral colonies encountered along each transect were recorded. </plain></SENT>
+<SENT sid="173" pm="."><plain>Non-metric multidimensional scaling (nMDS) ordinations and one-way ANOSIM based on Bray-Curtis similarities of square-root transformed data were produced in PRIMER v6 to examine changes in coral community structure among years. </plain></SENT>
+<SENT sid="174" pm="."><plain>Surveys to estimate the proportion of colonies with recent partial colony mortality were carried out in October 2010 along the same 5 transects described above. </plain></SENT>
+<SENT sid="175" pm="."><plain>Any coral colonies beneath the transect line were counted and identified to genus. </plain></SENT>
+<SENT sid="176" pm="."><plain>Partial colony mortality was also noted, if present, and the proportion (%) of the colony surface area that was dead was estimated by eye and recorded in one of six categories as follows: 1 = no partial mortality, 2 = 1–10% of colony, 3 = 11–25%, 4 = 26–50%, 5 = 51–75%, and 6 = 76–100% of colony. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="177" pm="."><plain>Analysis of Symbiodinium types in two coral species </plain></SENT>
+</text></title><p><text><SENT sid="178" pm="."><plain>Opportunistic sampling of corals carried out in 2012 from reef sites in Singapore allowed us to assess the dominant clades of Symbiodinium found in two species of coral: Platygyra sinensis and Pocillopora damicornis. </plain></SENT>
+<SENT sid="179" pm="."><plain>Three independent tissue samples of P. sinensis and one sample of P. damicornis were collected from Pulau Satumu (the study site used for the bleaching surveys), while the other two samples of P. damicornis were collected from Kusu Island (a reef site approx. </plain></SENT>
+<SENT sid="180" pm="."><plain>15 km east of P. </plain></SENT>
+<SENT sid="181" pm="."><plain>Satumu) in December 2011 (18 months after the first bleaching survey) (For a full description of methods see Supplementary Material). </plain></SENT>
+</text></p></sec></sec></SecTag><sec disp-level="1"><title><text><SENT sid="182" pm="."><plain>Additional Information </plain></SENT>
+</text></title><p><text><SENT sid="183" pm="."><plain>How to cite this article: Guest, J. </plain></SENT>
+<SENT sid="184" pm="."><plain>R. et al. Coral community response to bleaching on a highly disturbed reef. Sci. </plain></SENT>
+<SENT sid="185" pm="."><plain>Rep. 6, 20717; doi: 10.1038/srep20717 (2016). </plain></SENT>
+</text></p></sec><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="S1"><title><text><SENT sid="186" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material id="d33e23" content-type="local-data"><caption><title><text><SENT sid="187" pm="."><plain>Supplementary Information </plain></SENT>
+</text></title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep20717-s1.pdf"/></supplementary-material></sec></SecTag></body><back><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="188" pm="."><plain>DouglasA. </plain></SENT>
+<SENT sid="189" pm="."><plain>E. Coral bleaching–how and why? Mar. </plain></SENT>
+<SENT sid="190" pm="."><plain>Poll. </plain></SENT>
+<SENT sid="191" pm="."><plain>Bull. 46, 385–392 (2003). </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="192" pm="."><plain>BrownB. Coral bleaching: causes and consequences. Coral Reefs 16, S129–S138 (1997). </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="193" pm="."><plain>Hoegh-GuldbergO. et al. Coral reefs under rapid climate change and ocean acidification. Science 318, 1737–1742 (2007).18079392 </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="194" pm="."><plain>KleypasJ. </plain></SENT>
+<SENT sid="195" pm="."><plain>A., DanabasogluG. &amp; LoughJ. </plain></SENT>
+<SENT sid="196" pm="."><plain>M. Potential role of the ocean thermostat in determining regional differences in coral reef bleaching events. Geophys. </plain></SENT>
+<SENT sid="197" pm="."><plain>Res. </plain></SENT>
+<SENT sid="198" pm="."><plain>Lett. 35 (2008). </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="199" pm="."><plain>ThompsonD. &amp; Van WoesikR. Corals escape bleaching in regions that recently and historically experienced frequent thermal stress. Proc. </plain></SENT>
+<SENT sid="200" pm="."><plain>R. </plain></SENT>
+<SENT sid="201" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="202" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="203" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="204" pm="."><plain>Ser. </plain></SENT>
+<SENT sid="205" pm="."><plain>B 276, 2893–2901 (2009). </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="206" pm="."><plain>MumbyP. </plain></SENT>
+<SENT sid="207" pm="."><plain>J., ChisholmJ. </plain></SENT>
+<SENT sid="208" pm="."><plain>R. </plain></SENT>
+<SENT sid="209" pm="."><plain>M., EdwardsA. </plain></SENT>
+<SENT sid="210" pm="."><plain>J., AndrefouetS. &amp; JaubertJ. Cloudy weather may have saved Society Island reef corals during the 1998 ENSO event. Mar. </plain></SENT>
+<SENT sid="211" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="212" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="213" pm="."><plain>Ser. 222, 209–216 (2001). </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="214" pm="."><plain>DunneR. &amp; BrownB. The influence of solar radiation on bleaching of shallow water reef corals in the Andaman Sea, 1993–1998. Coral Reefs 20, 201–210 (2001). </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="215" pm="."><plain>BakerA. </plain></SENT>
+<SENT sid="216" pm="."><plain>C., StargerC. </plain></SENT>
+<SENT sid="217" pm="."><plain>J., McClanahanT. </plain></SENT>
+<SENT sid="218" pm="."><plain>R. &amp; GlynnP. </plain></SENT>
+<SENT sid="219" pm="."><plain>W. Coral reefs: corals’ adaptive response to climate change. Nature 430, 741–741 (2004).15306799 </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="220" pm="."><plain>BerkelmansR. &amp; Van OppenM. </plain></SENT>
+<SENT sid="221" pm="."><plain>J. The role of zooxanthellae in the thermal tolerance of corals: a ‘nugget of hope’ for hope’ for coral reefs in an era of climate change. Proc. </plain></SENT>
+<SENT sid="222" pm="."><plain>R. </plain></SENT>
+<SENT sid="223" pm="."><plain>Soc. </plain></SENT>
+<SENT sid="224" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="225" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="226" pm="."><plain>Ser. 273, 2305–2312 (2006). </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="227" pm="."><plain>MarshallP. &amp; BairdA. Bleaching of corals on the Great Barrier Reef: differential susceptibilities among taxa. Coral Reefs 19, 155–163 (2000). </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="228" pm="."><plain>LoyaY. et al. Coral bleaching: the winners and the losers. Ecol. </plain></SENT>
+<SENT sid="229" pm="."><plain>Lett. 4, 122–131 (2001). </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="230" pm="."><plain>McClanahanT., BairdA., MarshallP. &amp; ToscanoM. Comparing bleaching and mortality responses of hard corals between southern Kenya and the Great Barrier Reef, Australia. Mar. </plain></SENT>
+<SENT sid="231" pm="."><plain>Poll. </plain></SENT>
+<SENT sid="232" pm="."><plain>Bull. 48, 327–335 (2004). </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="233" pm="."><plain>GuestJ. </plain></SENT>
+<SENT sid="234" pm="."><plain>R. et al. Contrasting patterns of coral bleaching susceptibility in 2010 suggest an adaptive response to thermal stress. PLoS ONE. 7, e33353 (2012).22428027 </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="235" pm="."><plain>Van WoesikR., SakaiK., GanaseA. &amp; LoyaY. Revisiting the winners and the losers a decade after coral bleaching. Mar. </plain></SENT>
+<SENT sid="236" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="237" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="238" pm="."><plain>Ser. 434, 67–76 (2011). </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="239" pm="."><plain>MaynardJ., AnthonyK., MarshallP. &amp; MasiriI. Major bleaching events can lead to increased thermal tolerance in corals. Mar. </plain></SENT>
+<SENT sid="240" pm="."><plain>Biol. 155, 173–182 (2008). </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="241" pm="."><plain>MaynardJ. </plain></SENT>
+<SENT sid="242" pm="."><plain>A., BairdA. </plain></SENT>
+<SENT sid="243" pm="."><plain>H. &amp; PratchettM. </plain></SENT>
+<SENT sid="244" pm="."><plain>S. Revisiting the Cassandra syndrome; the changing climate of coral reef research. Coral Reefs 27, 745–749 (2008). </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="245" pm="."><plain>BairdA. &amp; MaynardJ. </plain></SENT>
+<SENT sid="246" pm="."><plain>A. Coral adaptation in the face of climate change. Science. 320, 315–316 (2008).18420915 </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="247" pm="."><plain>BairdA. </plain></SENT>
+<SENT sid="248" pm="."><plain>H. &amp; MarshallP. </plain></SENT>
+<SENT sid="249" pm="."><plain>A. Mortality, growth and reproduction in scleractinian corals following bleaching on the Great Barrier Reef. Mar. </plain></SENT>
+<SENT sid="250" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="251" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="252" pm="."><plain>Ser. 237, 133–141 (2002). </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="253" pm="."><plain>WooldridgeS. </plain></SENT>
+<SENT sid="254" pm="."><plain>A. Differential thermal bleaching susceptibilities amongst coral taxa: re-posing the role of the host. Coral reefs 33, 15–27 (2014). </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="255" pm="."><plain>GatesR. </plain></SENT>
+<SENT sid="256" pm="."><plain>D. &amp; EdmundsP. </plain></SENT>
+<SENT sid="257" pm="."><plain>J. The physiological mechanisms of acclimatization in tropical reef corals. Am. </plain></SENT>
+<SENT sid="258" pm="."><plain>Zool. 39, 30–43 (1999). </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="259" pm="."><plain>NakamuraT. &amp; van WoesikR. Water-flow rates and passive diffusion partially explain differential survival of corals during the 1998 bleaching event. Mar. </plain></SENT>
+<SENT sid="260" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="261" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="262" pm="."><plain>Ser. 212, 301–304 (2001). </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="263" pm="."><plain>GrottoliA. </plain></SENT>
+<SENT sid="264" pm="."><plain>G., RodriguesL. </plain></SENT>
+<SENT sid="265" pm="."><plain>J. &amp; PalardyJ. </plain></SENT>
+<SENT sid="266" pm="."><plain>E. Heterotrophic plasticity and resilience in bleached corals. Nature. 440, 1186–1189 (2006).16641995 </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="267" pm="."><plain>HarriottV. Coral growth in subtropical eastern Australia. Coral Reefs 18, 281–291 (1999). </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="268" pm="."><plain>BariaM. </plain></SENT>
+<SENT sid="269" pm="."><plain>V. </plain></SENT>
+<SENT sid="270" pm="."><plain>B., VillanuevaR. </plain></SENT>
+<SENT sid="271" pm="."><plain>D. &amp; GuestJ. </plain></SENT>
+<SENT sid="272" pm="."><plain>R. Spawning of three-year-old Acropora millepora corals reared from larvae in northwestern Philippines. Bull. </plain></SENT>
+<SENT sid="273" pm="."><plain>Mar. </plain></SENT>
+<SENT sid="274" pm="."><plain>Sci. 88, 61–62 (2012). </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="275" pm="."><plain>StimsonJ. </plain></SENT>
+<SENT sid="276" pm="."><plain>S. Mode and timing of reproduction in some common hermatypic corals from Hawaii and Enewetak. Mar. </plain></SENT>
+<SENT sid="277" pm="."><plain>Biol. 48, 173–184 (1978). </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="278" pm="."><plain>DarlingE. </plain></SENT>
+<SENT sid="279" pm="."><plain>S., McClanahanT. </plain></SENT>
+<SENT sid="280" pm="."><plain>R. &amp; CôtéI. </plain></SENT>
+<SENT sid="281" pm="."><plain>M. Life histories predict coral community disassembly under multiple stressors. Global. </plain></SENT>
+<SENT sid="282" pm="."><plain>Change. </plain></SENT>
+<SENT sid="283" pm="."><plain>Biol. 19, 1930–1940 (2013). </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="284" pm="."><plain>GolbuuY. et al. Palau’s coral reefs show differential habitat recovery following the 1998-bleaching event. Coral Reefs 26, 319–332 (2007). </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="285" pm="."><plain>Diaz-PulidoG. et al. Doom and boom on a resilient reef: climate change, algal overgrowth and coral recovery. PLoS One 4, e5239 (2009).19384423 </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="286" pm="."><plain>PandolfiJ. </plain></SENT>
+<SENT sid="287" pm="."><plain>M. et al. Global trajectories of the long-term decline of coral reef ecosytems. Science 301, 955–958 (2003).12920296 </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="288" pm="."><plain>EakinC., LoughJ. &amp; HeronS. In Coral bleaching 41–67 (Springer, 2009). </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="289" pm="."><plain>WilkinsonC. The 1997–1998 mass bleaching event around the world (Australian Institute of Marine Science, 1998). </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="290" pm="."><plain>BrownB., ClarkeK. &amp; WarwickR. Serial patterns of biodiversity change in corals across shallow reef flats in Ko Phuket, Thailand, due to the effects of local (sedimentation) and regional (climatic) perturbations. Mar. </plain></SENT>
+<SENT sid="291" pm="."><plain>Biol. 141, 21–29 (2002). </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="292" pm="."><plain>McClanahanT. Decadal coral community reassembly on an African fringing reef. Coral Reefs 33, 939–950 (2014). </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="293" pm="."><plain>PratchettM. </plain></SENT>
+<SENT sid="294" pm="."><plain>S., McCowanD., MaynardJ. </plain></SENT>
+<SENT sid="295" pm="."><plain>A. &amp; HeronS. </plain></SENT>
+<SENT sid="296" pm="."><plain>F. Changes in bleaching susceptibility among corals subject to ocean warming and recurrent bleaching in Moorea, French Polynesia. PLoS one 8, e70443 (2013).23922992 </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="297" pm="."><plain>WestJ. </plain></SENT>
+<SENT sid="298" pm="."><plain>M. &amp; SalmR. </plain></SENT>
+<SENT sid="299" pm="."><plain>V. Resistance and resilience to coral bleaching: implications for coral reef conservation and management. Conserv. </plain></SENT>
+<SENT sid="300" pm="."><plain>Biol. 17, 956–967 (2003). </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="301" pm="."><plain>ThomasC. &amp; HeronS. &amp; South-East Asia coral bleaching rapid response: final report. </plain></SENT>
+<SENT sid="302" pm="."><plain>Townsville, Queensland: CSIRO, 20 (2011). </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="303" pm="."><plain>HoeksemaB. &amp; MatthewsJ. Contrasting bleaching patterns in mushroom coral assemblages at Koh <z:uniprot sup="inside" fb="71" ids="Q0KHQ5">Tao</z:uniprot>, Gulf of Thailand. Coral Reefs 30, 95–95 (2011). </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="304" pm="."><plain>PhongsuwanN. &amp; ChansangH. Repeated coral bleaching in the Andaman Sea, Thailand, during the last two decades. Phuket Marine Biological Center Research Bulletin 71, 19–41 (2012). </plain></SENT>
+</text></ref><ref id="b39"><text><SENT sid="305" pm="."><plain>SutthacheepM. et al. Impacts of the 1998 and 2010 mass coral bleaching events on the Western Gulf of Thailand. Deep Sea Research Part II: Topical Studies in Oceanography 96, 25–31 (2013). </plain></SENT>
+</text></ref><ref id="b40"><text><SENT sid="306" pm="."><plain>WilsonJ. </plain></SENT>
+<SENT sid="307" pm="."><plain>R., ArdiwijayaR. </plain></SENT>
+<SENT sid="308" pm="."><plain>L. &amp; PrasetiaR. pp 29 (The Nature Conservancy, 2012). </plain></SENT>
+</text></ref><ref id="b41"><text><SENT sid="309" pm="."><plain>MaynardJ. et al. Assessing coral resilience and bleaching impacts in the Indonesian archipelago. </plain></SENT>
+<SENT sid="310" pm="."><plain>(Technical Report to The Nature Conservancy with contributions from Wildlife Conservation Society and Reef Check Foundation Indonesia, 2012). </plain></SENT>
+</text></ref><ref id="b42"><text><SENT sid="311" pm="."><plain>TunK. et al. In Status of coral reefs in Southeast Asia 2010 pp 9–14 (Japan Ministry of the Environment, 2010). </plain></SENT>
+</text></ref><ref id="b43"><text><SENT sid="312" pm="."><plain>BridgeT. </plain></SENT>
+<SENT sid="313" pm="."><plain>C. et al. Depth-dependent mortality of reef corals following a severe bleaching event: implications for thermal refuges and population recovery. F1000Research 2, 10.12688/f1000research.2-187.v3 (2013). </plain></SENT>
+</text></ref><ref id="b44"><text><SENT sid="314" pm="."><plain>CamachoC., CoulourisG., AvagyanV., MaN., PapadopoulosJ., BealerK. &amp; MaddenT. </plain></SENT>
+<SENT sid="315" pm="."><plain>L. BLAST+: architecture and applications. BMC Bioinformatics 10, 421 (2009).20003500 </plain></SENT>
+</text></ref><ref id="b45"><text><SENT sid="316" pm="."><plain>FranklinE. </plain></SENT>
+<SENT sid="317" pm="."><plain>C., StatM., PochonX., PutnamH. </plain></SENT>
+<SENT sid="318" pm="."><plain>M. &amp; GatesR. </plain></SENT>
+<SENT sid="319" pm="."><plain>D. (2012) GeoSymbio: a hybrid, cloud-based web application of global geospatial bioinformatics and ecoinformatics for Symbiodinium–host symbioses. Mol. </plain></SENT>
+<SENT sid="320" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="321" pm="."><plain>Resour. 12, 369–373 (2012).22018222 </plain></SENT>
+</text></ref><ref id="b46"><text><SENT sid="322" pm="."><plain>ReimerJ. </plain></SENT>
+<SENT sid="323" pm="."><plain>D. &amp; ToddP. </plain></SENT>
+<SENT sid="324" pm="."><plain>A. Preliminary molecular examination of zooxanthellate zoanthid (Hexacorallia, Zoantharia) and associated zooxanthellae (Symbiodinium <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>.) diversity in Singapore. Raffles Bulletin Zoology 22, 103–120 (2009). </plain></SENT>
+</text></ref><ref id="b47"><text><SENT sid="325" pm="."><plain>LitakerR. </plain></SENT>
+<SENT sid="326" pm="."><plain>W. et al. Recognizing dinoflagellates species using ITS rDNA sequences. J. </plain></SENT>
+<SENT sid="327" pm="."><plain>Phycol. 43, 344–355 (2007). </plain></SENT>
+</text></ref><ref id="b48"><text><SENT sid="328" pm="."><plain>BarbrookA. </plain></SENT>
+<SENT sid="329" pm="."><plain>C., VisramS., DouglasA. </plain></SENT>
+<SENT sid="330" pm="."><plain>E. &amp; HoweC. </plain></SENT>
+<SENT sid="331" pm="."><plain>J. Molecular Diversity of Dinoflagellate Symbionts of Cnidaria: The <z:uniprot sup="inside" fb="0" ids="Q3V554,Q85C23,A4QJ96,A4QJI0,A1E9Y8,Q9TM69,P02956,Q70Y17,Q9BBC1,Q7HP56,B0YPN1,A2T309,Q85BH5,P24625,A4QJZ9,P83755,Q7FNT3,A4QK85,Q06J41,P18290,P48265,A6MM16,Q7YJY8,A4QKH2,B1A915,A8SE40,Q8M9W3,Q1ACM1,Q19VC4,P35860,P09752,P07753,A6MMA2,P56318,Q09MJ8,A0A315,Q9T351,Q9TNF8,A4QKR1,B1VKF9,Q2QDA8,A8W3A5,A7M8Y6,A8W3H2,P32036,O19895,Q85G59,P12719,A6H5E4,Q0G9Y2,A6MMI8,A4QL00,Q06H17,Q9TNF7,P24726,Q4G3F2,Q49L18,P06631,P24725,A6BM28,A0ZZ15,P69564,Q6B929,O78446,Q1KXX9,Q32389,Q9MSC0,Q9MSC1,Q9MSC2,Q9XQV1,P05337,Q5SCW8,A6MMS4,A7Y395,Q06RF1,Q9TJ82,P69557,P27201,A9L976,A4QL86,Q0G9N9,A4QLH5,A8Y9F0,Q9BBU3,O98736,P48183,B1NWD0,P06402,Q9S3W5,P04998,Q9MUW0,P51764,P07063,Q09X37,Q09FY1,A4QLR3,Q9TL35,P69561,P69562,Q3C1G3,Q33C59,Q6EW68,B0Z4K6,B0Z4U0,P83756,B0Z524,B0Z5A8,A4QJR4,Q20ET2,Q6ENJ7,P0C432,P0C433,P0C434,P69565,O98733,Q68S26,P06585,Q06FY1,P04999,Q3BAR4,A0T0G9,Q01366,P50155,Q85WS3,P69551,Q06GT0,Q09G66,A6YGB8,Q14FH6,P36491,A4GYN9,P51212,A3PAU3,A8G5N5,P46895,Q9TM72,Q7V365,Q8WI36,Q1XDS5,A6MVT2,Q6L3B5,P0C157,P10510,Q2WGI0,P11848,Q2MIK7,Q2MIC0,P69563,Q2VEJ6,A1E9Q4,P02957,P69560,Q32RX1,Q06SD2,P14660,Q1KVU8,A0T0W2,P51765,P69556,P29270,P49460,Q3ZJ60,P13910,Q33282,Q0ZJ40,P12463,Q32RM3">psbA</z:uniprot> Minicircle of Symbiodinium. Protist 157, 159–171 (2006).16618551 </plain></SENT>
+</text></ref><ref id="b49"><text><SENT sid="332" pm="."><plain>LaJeunesseT. </plain></SENT>
+<SENT sid="333" pm="."><plain>C. &amp; ThornhillD. </plain></SENT>
+<SENT sid="334" pm="."><plain>J. Improved Resolution of Reef-Coral Endosymbiont (Symbiodinium) Species Diversity, Ecology, and Evolution through <z:uniprot sup="inside" fb="0" ids="Q3V554,Q85C23,A4QJ96,A4QJI0,A1E9Y8,Q9TM69,P02956,Q70Y17,Q9BBC1,Q7HP56,B0YPN1,A2T309,Q85BH5,P24625,A4QJZ9,P83755,Q7FNT3,A4QK85,Q06J41,P18290,P48265,A6MM16,Q7YJY8,A4QKH2,B1A915,A8SE40,Q8M9W3,Q1ACM1,Q19VC4,P35860,P09752,P07753,A6MMA2,P56318,Q09MJ8,A0A315,Q9T351,Q9TNF8,A4QKR1,B1VKF9,Q2QDA8,A8W3A5,A7M8Y6,A8W3H2,P32036,O19895,Q85G59,P12719,A6H5E4,Q0G9Y2,A6MMI8,A4QL00,Q06H17,Q9TNF7,P24726,Q4G3F2,Q49L18,P06631,P24725,A6BM28,A0ZZ15,P69564,Q6B929,O78446,Q1KXX9,Q32389,Q9MSC0,Q9MSC1,Q9MSC2,Q9XQV1,P05337,Q5SCW8,A6MMS4,A7Y395,Q06RF1,Q9TJ82,P69557,P27201,A9L976,A4QL86,Q0G9N9,A4QLH5,A8Y9F0,Q9BBU3,O98736,P48183,B1NWD0,P06402,Q9S3W5,P04998,Q9MUW0,P51764,P07063,Q09X37,Q09FY1,A4QLR3,Q9TL35,P69561,P69562,Q3C1G3,Q33C59,Q6EW68,B0Z4K6,B0Z4U0,P83756,B0Z524,B0Z5A8,A4QJR4,Q20ET2,Q6ENJ7,P0C432,P0C433,P0C434,P69565,O98733,Q68S26,P06585,Q06FY1,P04999,Q3BAR4,A0T0G9,Q01366,P50155,Q85WS3,P69551,Q06GT0,Q09G66,A6YGB8,Q14FH6,P36491,A4GYN9,P51212,A3PAU3,A8G5N5,P46895,Q9TM72,Q7V365,Q8WI36,Q1XDS5,A6MVT2,Q6L3B5,P0C157,P10510,Q2WGI0,P11848,Q2MIK7,Q2MIC0,P69563,Q2VEJ6,A1E9Q4,P02957,P69560,Q32RX1,Q06SD2,P14660,Q1KVU8,A0T0W2,P51765,P69556,P29270,P49460,Q3ZJ60,P13910,Q33282,Q0ZJ40,P12463,Q32RM3">psbA</z:uniprot> Non-Coding Region Genotyping. PLoS ONE 6(12), e29013 (2011).22216157 </plain></SENT>
+</text></ref><ref id="b50"><text><SENT sid="335" pm="."><plain>BarbrookA. </plain></SENT>
+<SENT sid="336" pm="."><plain>C., VoolstraC. </plain></SENT>
+<SENT sid="337" pm="."><plain>R. &amp; HoweC. </plain></SENT>
+<SENT sid="338" pm="."><plain>J. The Chloroplast Genome of a Symbiodinium sp. </plain></SENT>
+<SENT sid="339" pm="."><plain>Clade C3 Isolate. Protist. 165, 1–13 (2014).24316380 </plain></SENT>
+</text></ref><ref id="b51"><text><SENT sid="340" pm="."><plain>UlstrupK. </plain></SENT>
+<SENT sid="341" pm="."><plain>E., BerkelmansR., RalphP. </plain></SENT>
+<SENT sid="342" pm="."><plain>J. &amp; Van OppenM. </plain></SENT>
+<SENT sid="343" pm="."><plain>J. Variation in bleaching sensitivity of two coral species across a latitudinal gradient on the Great Barrier Reef: the role of zooxanthellae. Mar. </plain></SENT>
+<SENT sid="344" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="345" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="346" pm="."><plain>Ser. 314, 135–148 (2006). </plain></SENT>
+</text></ref><ref id="b52"><text><SENT sid="347" pm="."><plain>CooperT. </plain></SENT>
+<SENT sid="348" pm="."><plain>F. et al. Environmental factors controlling the distribution of Symbiodinium harboured by the coral Acropora millepora on the Great Barrier Reef. PloS ONE 6(10), e25536 (2011).22065989 </plain></SENT>
+</text></ref><ref id="b53"><text><SENT sid="349" pm="."><plain>LaJeunesseT. </plain></SENT>
+<SENT sid="350" pm="."><plain>C. “Species” radiations of symbiotic dinoflagellates in the Atlantic and <z:uniprot sup="inside" fb="18" ids="P28776,Q9ERD9">Indo</z:uniprot>-Pacific since the Miocene-Pliocene transition. Mol. </plain></SENT>
+<SENT sid="351" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="352" pm="."><plain>Evol. 22, 570–81 (2005).15537807 </plain></SENT>
+</text></ref><ref id="b54"><text><SENT sid="353" pm="."><plain>HumeB. </plain></SENT>
+<SENT sid="354" pm="."><plain>C. </plain></SENT>
+<SENT sid="355" pm="."><plain>C., et al. “Symbiodinium thermophilum sp. nov., a thermotolerant symbiotic alga prevalent in corals of the world’s hottest sea, the Persian/Arabian Gulf.” Scientific Reports 5 (2015). </plain></SENT>
+</text></ref><ref id="b55"><text><SENT sid="356" pm="."><plain>ToddP. </plain></SENT>
+<SENT sid="357" pm="."><plain>A., LadleR. </plain></SENT>
+<SENT sid="358" pm="."><plain>J., Lewin-KohN. </plain></SENT>
+<SENT sid="359" pm="."><plain>J. </plain></SENT>
+<SENT sid="360" pm="."><plain>I. &amp; ChouL. </plain></SENT>
+<SENT sid="361" pm="."><plain>M. Genotype x environment interactions in transplanted clones of the massive corals Favia speciosa and Diploastrea heliopora. Mar. </plain></SENT>
+<SENT sid="362" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="363" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="364" pm="."><plain>Ser. 271, 167–182 (2004). </plain></SENT>
+</text></ref><ref id="b56"><text><SENT sid="365" pm="."><plain>ColesS. &amp; BrownB. </plain></SENT>
+<SENT sid="366" pm="."><plain>E. Coral bleaching—capacity for acclimatization and adaptation. Adv. </plain></SENT>
+<SENT sid="367" pm="."><plain>Mar. </plain></SENT>
+<SENT sid="368" pm="."><plain>Biol. 46, 183–223 (2003).14601413 </plain></SENT>
+</text></ref><ref id="b57"><text><SENT sid="369" pm="."><plain>ColesS. </plain></SENT>
+<SENT sid="370" pm="."><plain>L., JokielP. </plain></SENT>
+<SENT sid="371" pm="."><plain>L. &amp; LewisC. Thermal tolerance in tropical versus subtropical Pacific reef corals. Pac. </plain></SENT>
+<SENT sid="372" pm="."><plain>Sci. 30, 159–166 (1976). </plain></SENT>
+</text></ref><ref id="b58"><text><SENT sid="373" pm="."><plain>OliverT. &amp; PalumbiS. Do fluctuating temperature environments elevate coral thermal tolerance? Coral Reefs 30, 429–440 (2011). </plain></SENT>
+</text></ref><ref id="b59"><text><SENT sid="374" pm="."><plain>GlynnP. </plain></SENT>
+<SENT sid="375" pm="."><plain>W., MatéJ. </plain></SENT>
+<SENT sid="376" pm="."><plain>L., BakerA. </plain></SENT>
+<SENT sid="377" pm="."><plain>C. &amp; CalderónM. </plain></SENT>
+<SENT sid="378" pm="."><plain>O. Coral bleaching and mortality in Panama and Ecuador during the 1997–1998 El Niño–Southern Oscillation event: spatial/temporal patterns and comparisons with the 1982–1983 event. Bull. </plain></SENT>
+<SENT sid="379" pm="."><plain>Mar. </plain></SENT>
+<SENT sid="380" pm="."><plain>Sci. 69, 79–109 (2001). </plain></SENT>
+</text></ref><ref id="b60"><text><SENT sid="381" pm="."><plain>Suharsono. </plain></SENT>
+<SENT sid="382" pm="."><plain>In Proceedings 9th JSPS Joint Seminar Marine &amp; Fisheries Science (eds RomimohtartoK., SoemodihardjoS. &amp; PrasenoD. </plain></SENT>
+<SENT sid="383" pm="."><plain>P.) 179–187 (Indonesian Institute of Sciences, Jakarta, 1999). </plain></SENT>
+</text></ref><ref id="b61"><text><SENT sid="384" pm="."><plain>BrownB. </plain></SENT>
+<SENT sid="385" pm="."><plain>E. &amp; Suharsono. Damage and recovery of coral reefs affected by El Niño related seawater warming in the Thousand Islands, Indonesia. Coral Reefs 8, 163–170 (1990). </plain></SENT>
+</text></ref><ref id="b62"><text><SENT sid="386" pm="."><plain>HoeksemaB. </plain></SENT>
+<SENT sid="387" pm="."><plain>W. Control of bleaching in mushroom coral populations (Scleractinia: Fungiidae) in the Java Sea: stress tolerance and interference by life history strategy. Mar. </plain></SENT>
+<SENT sid="388" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="389" pm="."><plain>Prog. </plain></SENT>
+<SENT sid="390" pm="."><plain>Ser. 70, 225–237. </plain></SENT>
+</text></ref><ref id="b63"><text><SENT sid="391" pm="."><plain>DikouA. Skeletal linear extension rates of the foliose scleractinian coral Merulina ampliata (Ellis &amp; Solander, 1786) in a turbid environment. Mar. </plain></SENT>
+<SENT sid="392" pm="."><plain>Ecol. 30, 405–415 (2009). </plain></SENT>
+</text></ref><ref id="b64"><text><SENT sid="393" pm="."><plain>TanzilJ. </plain></SENT>
+<SENT sid="394" pm="."><plain>T. et al. Regional decline in growth rates of massive Porites corals in Southeast Asia. Global Change Biol. 19, 3011–3023 (2013). </plain></SENT>
+</text></ref><ref id="b65"><text><SENT sid="395" pm="."><plain>LoughJ. &amp; BarnesD. Environmental controls on growth of the massive coral Porites. J. </plain></SENT>
+<SENT sid="396" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="397" pm="."><plain>Mar. </plain></SENT>
+<SENT sid="398" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="399" pm="."><plain>Ecol. 245, 225–243 (2000).10699212 </plain></SENT>
+</text></ref><ref id="b66"><text><SENT sid="400" pm="."><plain>BaumanA. </plain></SENT>
+<SENT sid="401" pm="."><plain>G. et al. Coral settlement on a highly disturbed equatorial reef system. PLoS ONE 10, e0127874 (2015).25992562 </plain></SENT>
+</text></ref><ref id="b67"><text><SENT sid="402" pm="."><plain>GlassomD., ZakaiD. &amp; Chadwick-FurmanN. Coral recruitment: a spatio-temporal analysis along the coastline of Eilat, northern Red Sea. Mar. </plain></SENT>
+<SENT sid="403" pm="."><plain>Biol. 144, 641–651 (2004). </plain></SENT>
+</text></ref><ref id="b68"><text><SENT sid="404" pm="."><plain>GinK. </plain></SENT>
+<SENT sid="405" pm="."><plain>Y. </plain></SENT>
+<SENT sid="406" pm="."><plain>H., LinX. </plain></SENT>
+<SENT sid="407" pm="."><plain>H. &amp; ZhangS. Dynamics and size structure of phytoplankton in the coastal waters of Singapore. J. </plain></SENT>
+<SENT sid="408" pm="."><plain>Plank. </plain></SENT>
+<SENT sid="409" pm="."><plain>Res. 22, 1465–1484 (2000). </plain></SENT>
+</text></ref><ref id="b69"><text><SENT sid="410" pm="."><plain>HuangD. </plain></SENT>
+<SENT sid="411" pm="."><plain>W., TunK. </plain></SENT>
+<SENT sid="412" pm="."><plain>P. </plain></SENT>
+<SENT sid="413" pm="."><plain>P., ChouL. </plain></SENT>
+<SENT sid="414" pm="."><plain>M. &amp; ToddP. </plain></SENT>
+<SENT sid="415" pm="."><plain>A. An inventory of zooxanthellate scleractinian corals in Singapore including 33 new records. The Raffles Bulletin of Zoology. Supp 22, 69–80 (2009). </plain></SENT>
+</text></ref><ref id="b70"><text><SENT sid="416" pm="."><plain>DikouA. &amp; van WoesikR. Survival under chronic stress from sediment load: Spatial patterns of hard coral communities in the southern islands of Singapore. Mar. </plain></SENT>
+<SENT sid="417" pm="."><plain>Poll. </plain></SENT>
+<SENT sid="418" pm="."><plain>Bull. 52, 7–21 (2006). </plain></SENT>
+</text></ref><ref id="b71"><text><SENT sid="419" pm="."><plain>LiuG., SkirvingW. &amp; StrongA. </plain></SENT>
+<SENT sid="420" pm="."><plain>E. Remote sensing of sea surface temperatures during 2002 Barrier Reef coral bleaching. EOS Trans. </plain></SENT>
+<SENT sid="421" pm="."><plain>Am. </plain></SENT>
+<SENT sid="422" pm="."><plain>Geophys. </plain></SENT>
+<SENT sid="423" pm="."><plain>Union. 84, 137–141 (2003). </plain></SENT>
+</text></ref></ref-list></SecTag><fn-group><fn><p><text><SENT sid="424" pm="."><plain>Author Contributions J.R.G. and J.T.I.T. conceived study; J.R.G., J.L., K.T., C.M.N., D.R., K.E.C. and T.C.T. collected data; J.R.G., B.W., C.M.N. and D.R. carried out analysis; J.R.G., P.T., D.M., L.M.C. and P.D.S. wrote the manuscript. </plain></SENT>
+</text></p></fn></fn-group></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><title>Overall coral bleaching severity in June, July and October in terms of proportion (%) of colonies not bleached, moderately bleached and severely bleached (corresponding to categories 1, 2 and 3 respectively, see methods).</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep20717-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>Proportion (%) of colonies not bleached (black bars), moderately bleached (gray bars) and severely bleached (white bars) for all genera that had at least 5 colonies surveyed on all three survey occasions.</title><p><text><SENT sid="425" pm="."><plain>*This genus was formerly Favia. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep20717-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><title>Bleaching at Pulau Satumu in July 2010.</title><p><text><SENT sid="426" pm="."><plain>(a) healthy colony of Acropora tenuis next to severely bleached colony of Montipora, (b) healthy colony of A. tenuis next to severely bleached colony of Platygyra sp., (c) healthy colony of A. hyacinthus with severely and partially bleached massive and encrusting corals, (d) severely (left) and partially (right) bleached colonies of Pocillopora damicornis, (e) severly bleached colony of Porites (massive) and (f) partial mortality and disease in bleached colony of Montipora sp. </plain></SENT>
+<SENT sid="427" pm="."><plain>Photos: JR Guest. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep20717-f3"/></fig></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t1"><label>Table 1</label><caption><title>Proportion of colonies bleached in all taxa that were surveyed in June, July and October.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th rowspan="2" align="left" valign="top" charoff="50"><text><SENT sid="428" pm="."><plain>Genus </plain></SENT>
+</text></th><th colspan="2" align="center" valign="top" charoff="50"><text><SENT sid="429" pm="."><plain>June </plain></SENT>
+</text></th><th colspan="2" align="center" valign="top" charoff="50"><text><SENT sid="430" pm="."><plain>July </plain></SENT>
+</text></th><th colspan="2" align="center" valign="top" charoff="50"><text><SENT sid="431" pm="."><plain>October </plain></SENT>
+</text></th></tr><tr><th align="center" valign="top" charoff="50"><text><SENT sid="432" pm="."><plain>Bleached (%) </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="433" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="434" pm="."><plain>Bleached (%) </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="435" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="436" pm="."><plain>Bleached (%) </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="437" pm="."><plain>n </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50"><text><SENT sid="438" pm="."><plain>Diploastrea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="439" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="440" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="441" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="442" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="443" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="444" pm="."><plain>3 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="445" pm="."><plain>Psammocora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="446" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="447" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="448" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="449" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="450" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="451" pm="."><plain>5 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="452" pm="."><plain>Caulastrea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="453" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="454" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="455" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="456" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="457" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="458" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="459" pm="."><plain>Acropora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="460" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="461" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="462" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="463" pm="."><plain>62* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="464" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="465" pm="."><plain>83* </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="466" pm="."><plain>Galaxea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="467" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="468" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="469" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="470" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="471" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="472" pm="."><plain>14 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="473" pm="."><plain>Pavona </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="474" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="475" pm="."><plain>24 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="476" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="477" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="478" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="479" pm="."><plain>14 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="480" pm="."><plain>Goniopora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="481" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="482" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="483" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="484" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="485" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="486" pm="."><plain>4 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="487" pm="."><plain>Cyphastrea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="488" pm="."><plain>40 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="489" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="490" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="491" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="492" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="493" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="494" pm="."><plain>Merulina </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="495" pm="."><plain>46 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="496" pm="."><plain>54 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="497" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="498" pm="."><plain>43 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="499" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="500" pm="."><plain>25 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="501" pm="."><plain>Astreopora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="502" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="503" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="504" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="505" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="506" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="507" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="508" pm="."><plain>Porites </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="509" pm="."><plain>53 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="510" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="511" pm="."><plain>53 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="512" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="513" pm="."><plain>43 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="514" pm="."><plain>23 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="515" pm="."><plain>Platygyra </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="516" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="517" pm="."><plain>38 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="518" pm="."><plain>61 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="519" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="520" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="521" pm="."><plain>24 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="522" pm="."><plain>Echinopora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="523" pm="."><plain>59 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="524" pm="."><plain>22 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="525" pm="."><plain>71 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="526" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="527" pm="."><plain>36 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="528" pm="."><plain>11 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="529" pm="."><plain>Favites </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="530" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="531" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="532" pm="."><plain>62 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="533" pm="."><plain>26 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="534" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="535" pm="."><plain>25 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="536" pm="."><plain>Euphyllia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="537" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="538" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="539" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="540" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="541" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="542" pm="."><plain>1 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="543" pm="."><plain>Goniastrea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="544" pm="."><plain>66 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="545" pm="."><plain>41 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="546" pm="."><plain>54 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="547" pm="."><plain>54 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="548" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="549" pm="."><plain>35 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="550" pm="."><plain>Montipora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="551" pm="."><plain>75 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="552" pm="."><plain>146 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="553" pm="."><plain>64 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="554" pm="."><plain>105 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="555" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="556" pm="."><plain>64 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="557" pm="."><plain>Symphyllia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="558" pm="."><plain>75 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="559" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="560" pm="."><plain>83 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="561" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="562" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="563" pm="."><plain>12 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="564" pm="."><plain>Dipsastraea† </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="565" pm="."><plain>78 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="566" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="567" pm="."><plain>75 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="568" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="569" pm="."><plain>22 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="570" pm="."><plain>9 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="571" pm="."><plain>Podabacia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="572" pm="."><plain>80 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="573" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="574" pm="."><plain>86 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="575" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="576" pm="."><plain>44 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="577" pm="."><plain>9 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="578" pm="."><plain>Pocillopora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="579" pm="."><plain>83 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="580" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="581" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="582" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="583" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="584" pm="."><plain>40 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="585" pm="."><plain>Ctenactis </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="586" pm="."><plain>83 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="587" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="588" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="589" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="590" pm="."><plain>29 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="591" pm="."><plain>7 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="592" pm="."><plain>Fungia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="593" pm="."><plain>84 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="594" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="595" pm="."><plain>81 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="596" pm="."><plain>27 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="597" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="598" pm="."><plain>25 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="599" pm="."><plain>Hydnophora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="600" pm="."><plain>88 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="601" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="602" pm="."><plain>90 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="603" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="604" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="605" pm="."><plain>8 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="606" pm="."><plain>Pachyseris </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="607" pm="."><plain>89 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="608" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="609" pm="."><plain>93 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="610" pm="."><plain>27 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="611" pm="."><plain>44 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="612" pm="."><plain>9 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="613" pm="."><plain>Pectinia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="614" pm="."><plain>89 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="615" pm="."><plain>54 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="616" pm="."><plain>76 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="617" pm="."><plain>41 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="618" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="619" pm="."><plain>27 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="620" pm="."><plain>Oxypora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="621" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="622" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="623" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="624" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="625" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="626" pm="."><plain>2 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="627" pm="."><plain>Turbinaria </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="628" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="629" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="630" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="631" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="632" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="633" pm="."><plain>3 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="634" pm="."><plain>Plerogyra </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="635" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="636" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="637" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="638" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="639" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="640" pm="."><plain>3 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="641" pm="."><plain>Lobophyllia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="642" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="643" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="644" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="645" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="646" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="647" pm="."><plain>2 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="t1-fn1"><p><sup>*</sup>Additional surveys of <italic>Acropora</italic> in July and October were carried out by random swims to increase number of colonies surveyed.</p></fn><fn id="t1-fn2"><p><sup>†</sup>This genus was formerly <italic>Favia</italic>.</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t2"><label>Table 2</label><caption><title>Proportion of colonies of different genera exhibiting partial colony mortality.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th colspan="8" align="center" valign="top" charoff="50"><text><SENT sid="648" pm="."><plain>Partial mortality category </plain></SENT>
+</text></th></tr><tr><th align="left" valign="top" charoff="50"><text><SENT sid="649" pm="."><plain>Genus </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="650" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="651" pm="."><plain>None </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="652" pm="."><plain>1–10% </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="653" pm="."><plain>11–25% </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="654" pm="."><plain>26–50% </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="655" pm="."><plain>51–75% </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="656" pm="."><plain>76–100% </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50"><text><SENT sid="657" pm="."><plain>Oulophyllia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="658" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="659" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="660" pm="."><plain>100 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="661" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="662" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="663" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="664" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="665" pm="."><plain>Goniastrea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="666" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="667" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="668" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="669" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="670" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="671" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="672" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="673" pm="."><plain>Lobophyllia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="674" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="675" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="676" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="677" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="678" pm="."><plain>67 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="679" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="680" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="681" pm="."><plain>Merulina </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="682" pm="."><plain>67 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="683" pm="."><plain>40 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="684" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="685" pm="."><plain>39 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="686" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="687" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="688" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="689" pm="."><plain>Diploastrea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="690" pm="."><plain>13 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="691" pm="."><plain>54 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="692" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="693" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="694" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="695" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="696" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="697" pm="."><plain>Montipora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="698" pm="."><plain>80 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="699" pm="."><plain>64 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="700" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="701" pm="."><plain>13 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="702" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="703" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="704" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="705" pm="."><plain>Platygyra </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="706" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="707" pm="."><plain>65 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="708" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="709" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="710" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="711" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="712" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="713" pm="."><plain>Echinopora </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="714" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="715" pm="."><plain>65 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="716" pm="."><plain>29 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="717" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="718" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="719" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="720" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="721" pm="."><plain>Favites </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="722" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="723" pm="."><plain>67 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="724" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="725" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="726" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="727" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="728" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="729" pm="."><plain>Dipsastraea* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="730" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="731" pm="."><plain>75 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="732" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="733" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="734" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="735" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="736" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="737" pm="."><plain>Porites </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="738" pm="."><plain>22 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="739" pm="."><plain>77 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="740" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="741" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="742" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="743" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="744" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="745" pm="."><plain>Pavona </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="746" pm="."><plain>26 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="747" pm="."><plain>81 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="748" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="749" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="750" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="751" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="752" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="753" pm="."><plain>Pectinia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="754" pm="."><plain>24 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="755" pm="."><plain>83 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="756" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="757" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="758" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="759" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="760" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="761" pm="."><plain>Podabacia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="762" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="763" pm="."><plain>89 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="764" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="765" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="766" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="767" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="768" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="769" pm="."><plain>Pachyseris </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="770" pm="."><plain>28 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="771" pm="."><plain>96 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="772" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="773" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="774" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="775" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="776" pm="."><plain>0 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="t2-fn1"><p><sup>*</sup>This genus was formerly <italic>Favia</italic>.</p></fn></table-wrap-foot></table-wrap></SecTag></floats-group></article>

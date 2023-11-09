@@ -1,0 +1,556 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Genet</journal-id><journal-id journal-id-type="iso-abbrev">Front Genet</journal-id><journal-id journal-id-type="publisher-id">Front. Gene.</journal-id><journal-title-group><journal-title>Frontiers in Genetics</journal-title></journal-title-group><issn pub-type="epub">1664-8021</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3494018</article-id><article-id pub-id-type="doi">10.3389/fgene.2012.00243</article-id><article-categories><subj-group subj-group-type="heading"><subject>Genetics</subject><subj-group><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Using Blood Informative Transcripts in Geographical Genomics: Impact of Lifestyle on Gene Expression in Fijians </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Nath</surname><given-names>Artika Praveeta</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name><surname>Arafat</surname><given-names>Dalia</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Gibson</surname><given-names>Greg</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="author-notes" rid="fn001">*</xref></contrib></contrib-group><aff id="aff1"><sup>1</sup><institution>Center for Integrative Genomics, School of Biology, Georgia Institute of Technology</institution><country>Atlanta, GA, USA</country></aff><aff id="aff2"><sup>2</sup><institution>College of Medicine, Nursing and Health Sciences, Fiji National University</institution><country>Suva, Fiji</country></aff><author-notes><fn fn-type="edited-by"><p><text><SENT sid="1" pm="."><plain>Edited by: M. </plain></SENT>
+<SENT sid="2" pm="."><plain>J. </plain></SENT>
+<SENT sid="3" pm="."><plain>Mosher, Western Washington University, USA </plain></SENT>
+</text></p></fn><fn fn-type="edited-by"><p><text><SENT sid="4" pm="."><plain>Reviewed by: Andrew Johnson, National Heart, Lung and Blood Institute, USA; Mehmet Somel, University of California Berkeley, USA </plain></SENT>
+</text></p></fn><corresp id="fn001">*Correspondence: Greg Gibson, Center for Integrative Genomics, School of Biology, Georgia Institute of Technology, Atlanta, GA 30332, USA. e-mail: <email xlink:type="simple">greg.gibson@biology.gatech.edu</email></corresp><fn fn-type="other" id="fn002"><p><text><SENT sid="5" pm="."><plain>This article was submitted to Frontiers in Applied Genetic Epidemiology, a specialty of Frontiers in Genetics. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>09</day><month>11</month><year>2012</year></pub-date><pub-date pub-type="collection"><year>2012</year></pub-date><volume>3</volume><elocation-id>243</elocation-id><history><date date-type="received"><day>10</day><month>7</month><year>2012</year></date><date date-type="accepted"><day>22</day><month>10</month><year>2012</year></date></history><permissions><copyright-statement>Copyright © 2012 Nath, Arafat and Gibson.</copyright-statement><copyright-year>2012</copyright-year><license license-type="open-access" xlink:href="http://www.frontiersin.org/licenseagreement"><license-p>This is an open-access article distributed under the terms of the <uri xlink:type="simple" xlink:href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</uri>, which permits use, distribution and reproduction in other forums, provided the original authors and source are credited and subject to any copyright notices concerning any third-party graphics etc.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>In previous geographical genomics studies of the impact of lifestyle on gene expression inferred from microarray analysis of peripheral blood samples, we described the complex influences of culture, ethnicity, and gender in Morocco, and of pregnancy in Brisbane. </plain></SENT>
+<SENT sid="7" pm="."><plain>Here we describe the use of nanofluidic Fluidigm quantitative RT-PCR arrays targeted at a set of 96 transcripts that are broadly informative of the major axes of immune gene expression, to explore the population structure of transcription in Fiji. </plain></SENT>
+<SENT sid="8" pm="."><plain>As in Morocco, major differences are seen between the peripheral blood transcriptomes of rural villagers and residents of the capital city, Suva. </plain></SENT>
+<SENT sid="9" pm="."><plain>The effect is much greater in Indian villages than in Melanesian highlanders and appears to be similar with respect to the nature of at least two axes of variation. </plain></SENT>
+<SENT sid="10" pm="."><plain>Gender differences are much smaller than ethnicity or lifestyle effects. </plain></SENT>
+<SENT sid="11" pm="."><plain>Body mass index is shown to associate with one of the axes as it does in Atlanta and Brisbane, establishing a link between the epidemiological transition of human metabolic disease, and gene expression profiles. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>epidemiological transition</kwd><kwd>gene expression profiling</kwd><kwd>body mass index</kwd><kwd>TLR signaling</kwd><kwd>axes of variation</kwd></kwd-group></SecTag><counts><fig-count count="8"/><table-count count="2"/><equation-count count="0"/><ref-count count="45"/><page-count count="0"/><word-count count="8805"/></counts></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="12" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="13" pm="."><plain>Globally, a major shift in public health burden known as the epidemiological transition has seen a shift from infectious disease to a Western profile of chronic metabolic diseases in most developing countries over the past three decades (Jamison and Mosley, 1991; Murray and Lopez, 1997). </plain></SENT>
+<SENT sid="14" pm="."><plain>Globalization and urbanization have for example had a major influence on nutrition, eating habits, and lifestyle in the South Pacific (Hughes and Marks, 2009; Siefkenm et al., 2012). </plain></SENT>
+<SENT sid="15" pm="."><plain>There have been significant changes in food production, processing, storage, and distribution, possibly also contributing to the epidemic of metabolic disease. </plain></SENT>
+<SENT sid="16" pm="."><plain>In Fiji there has been a radical dietary shift from consumption of traditional food such as root crops, vegetables, and seafood, to western diets that are high in refined sugars and fats (Thaman, 1988; Lako, 2001; Mavoa and McCabe, 2008), and this is reflected in a 62% increase in fat intake since 1963 (Ulijaszek, 2009). </plain></SENT>
+<SENT sid="17" pm="."><plain>In addition, physical activity has decreased and it is estimated that as few as 3.3% of people engage in regular strenuous activity (Schultz et al., 2007). </plain></SENT>
+<SENT sid="18" pm="."><plain>Obesity and overweight in adults rose from 23 to 32% and 10 to 24% respectively between 1993 and 2004, increasing in both ethnicities and genders, and particularly in the urban populations (Saito, 1995; Schultz et al., 2007). </plain></SENT>
+<SENT sid="19" pm="."><plain>Concomitantly, diabetes prevalence in adults 40 years and above has risen to 41% (Brian et al., 2010), and a Fiji National Food and Nutrition Center report (Schultz et al., 2007) has also showed that hypertension rates almost doubled from 10% in 1993 to 17% in 2004, again in both ethnicities and genders. </plain></SENT>
+</text></p><p><text><SENT sid="20" pm="."><plain>We have begun to investigate this transition at the molecular level by profiling variation in gene expression within and between population groups where two or more lifestyles and ethnicities are present in the same country (Idaghdour et al., 2008). </plain></SENT>
+<SENT sid="21" pm="."><plain>Substantial heritability for gene expression is observed in whole blood (Powell et al., 2012), lymphoblast cell lines (Monks et al., 2004; Cheung et al., 2005), and tissue biopsies (Myers et al., 2007; Emilsson et al., 2008; Schadt et al., 2008), but it is also clear that environmental and cultural factors are just as important influences on individual profiles (Gibson, 2008). </plain></SENT>
+<SENT sid="22" pm="."><plain>Studies have documented influences on immune profiles of such diverse environmental agents as exposure to pollution (Peretz et al., 2007), chemicals (Fry et al., 2007; Dakeshita et al., 2009), viral, and bacterial infection (Fink et al., 2007), pregnancy (Mason et al., 2010), and even the stress of taking exams (Kawai et al., 2007). </plain></SENT>
+<SENT sid="23" pm="."><plain>Geographical genomic analysis of gene expression (Idaghdour et al., 2010) combines genome-wide expression profiling (<z:uniprot sup="inside" fb="18" ids="Q8VZF3,Q10MJ1">GEP</z:uniprot>) with the mapping resolution of genome-wide association studies (GWAS; Gilad et al., 2009; Skelly et al., 2009; Kim and Gibson, 2010) where including geographic factors as a covariate makes possible the investigation of quantitative variation at the molecular level in human populations. </plain></SENT>
+</text></p><p><text><SENT sid="24" pm="."><plain>Our first study to directly contrast ethnic and environmental influences on the regulation of gene expression was through sampling peripheral blood leukocytes in genetically similar nomadic, rural, and dense urban Moroccan Amazigh populations (Idaghdour et al., 2008). </plain></SENT>
+<SENT sid="25" pm="."><plain>More than one-third of the transcriptome was differently expressed in the three different regions suggesting an effect of environmental geography on gene expression. </plain></SENT>
+<SENT sid="26" pm="."><plain>Several genes which are part of the immune response network varied in their mRNA abundance (Idaghdour et al., 2008). </plain></SENT>
+<SENT sid="27" pm="."><plain>We followed up by including people of Arab decent in order to test whether geography or population structure affects expression levels through expression SNPs (eSNPs; Idaghdour et al., 2010). </plain></SENT>
+<SENT sid="28" pm="."><plain>Again, over a third of all genes were differently expressed between rural and urban settings, but differences between Arabs and Berbers were only seen in the rural villages, not in the city of Agadir. </plain></SENT>
+<SENT sid="29" pm="."><plain>Furthermore, there was no evidence for genotype-by-environment interactions at the level of cis-regulation of transcript abundance (Idaghdour et al., 2010). </plain></SENT>
+<SENT sid="30" pm="."><plain>Here we evaluate how general this phenomenon is by surveying gene expression in another developing country, Fiji, where the local population is undergoing rapid transition as people are moving into larger cities and towns. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>We utilize nanoscale quantitative RT-PCR (Spurgeon et al., 2008) for cost-effective targeted gene expression profiling, in place of expensive microarray analyses. </plain></SENT>
+<SENT sid="32" pm="."><plain>Analyses of multiple large peripheral blood transcription studies of healthy adults in Morocco (Idaghdour et al., 2010), Brisbane (Mason et al., 2010), Atlanta (Preininger et al., submitted), and elsewhere (Berry et al., 2010; Inouye et al., 2010; Powell et al., 2012), allowed us to identify nine common axes of variation that collectively account for at least one-half of all blood transcriptional variance (Preininger et al., submitted). </plain></SENT>
+<SENT sid="33" pm="."><plain>Just the first seven were known at the time the experiments reported here were performed, and each of these is represented by approximately 10 PCR primer pairs that amplify representative Blood Informative Transcripts (BIT). </plain></SENT>
+<SENT sid="34" pm="."><plain>The axes themselves appear to reflect gene activity related to specific immune functions, from B and T cell signaling to metabolism, inflammation, and anti-viral response (Preininger et al., submitted). </plain></SENT>
+<SENT sid="35" pm="."><plain>Profiling these representative BIT thus gives an impression of the overall transcriptional state of each person’s blood and immune system. </plain></SENT>
+<SENT sid="36" pm="."><plain>Only specific axes differentiate lifestyle groups in Morocco or disease states in diverse studies, and we were interested to ask whether the same is true of Fijians. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods"><title><text><SENT sid="37" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="38" pm="."><plain>Samples </plain></SENT>
+</text></title><p><text><SENT sid="39" pm="."><plain>The Fiji Islands lie in the Melanesian region of the South Pacific Ocean (18.1667′South, 178.4500′East: Figure 1). </plain></SENT>
+<SENT sid="40" pm="."><plain>They comprise approximately 300 islands, the two largest of which are Viti Levu and Vanua Levu, where 87% of the population of nearly 860,000 reside. </plain></SENT>
+<SENT sid="41" pm="."><plain>The two main ethnic groups are native Melanesian Fijians (57%) and Indian Fijians (38%) who mostly descend from settlers who arrived under the indenture system from southern and northern parts of India around 130 years ago (Lal, 1986). </plain></SENT>
+<SENT sid="42" pm="."><plain>It has been estimated that 52% of the total population live in urban settings, and this proportion is projected to increase to 53.5% by 2030 (Fiji Bureau of Statistics; http://www.statsfiji.gov.fj). </plain></SENT>
+<SENT sid="43" pm="."><plain>The remainder live in rural villages around the coastal plains, in the mountainous central regions, or on small islands. </plain></SENT>
+<SENT sid="44" pm="."><plain>We have not included genotypic profiling in this study, but note that here is no reason to expect genetic divergence between urban and rural populations of either ethnicity, since the former are drawn essentially at random from the large pool of diversity present in Melanesians or the Indian settlers. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="45" pm="."><plain>Map of Fiji islands showing the sampling locations. </plain></SENT>
+<SENT sid="46" pm="."><plain>A total of 179 samples were collected from four rural Melanesian Fijian villages in two Western regions of the main island of Fiji (Viti Levu):Nadarivatu (villages of <z:uniprot sup="inside" fb="32" ids="Q9QWR8,Q66H12">Naga</z:uniprot> and Koro) and Rakiraki (Nasavu and Nauria) highlighted in yellow, from rural Indian settlements in Northern regions of the second large island of Fiji (Vanua Levu): Bua region (Vatubogi and Luvuluvu) in blue, and from Melanesian and Indian Fijians living in the capital city of Fiji, Suva from which all of the urban samples were obtained, indicated in green. </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-g001"/></fig></SecTag><p><text><SENT sid="47" pm="."><plain>The study was approved by the institutional review boards of the Georgia Institute of Technology and the Fijian Ministry of Health (Fiji National Research Ethics and Review Committee). </plain></SENT>
+<SENT sid="48" pm="."><plain>Under informed consent, approximately 10 ml peripheral blood samples were collected into LeukoLOCK filters, which size fractionate red blood cells and platelets, and retain leukocytes that are then immediately preserved in RNAlater solution (Feezor et al., 2004).The samples were obtained from 179 healthy adults from remote rural villages and from the capital city of Suva, with an approximately equal representation of both ethnicities and of men and women. </plain></SENT>
+<SENT sid="49" pm="."><plain>All samples were collected and processed in the same manner as far as possible. </plain></SENT>
+<SENT sid="50" pm="."><plain>The Rural Fijian and Indian samples were collected over the course of 5 days in September, 2010 and 2 days in April 2011 respectively. </plain></SENT>
+<SENT sid="51" pm="."><plain>The urban samples were collected over 3 months from July to September, 2010. </plain></SENT>
+<SENT sid="52" pm="."><plain>All the samples were collected in the day time between 10 a.m. and 4 p.m. </plain></SENT>
+<SENT sid="53" pm="."><plain>They were shipped to Atlanta for RNA extraction at which point an unexpected RNA degradation issue was encountered, that required statistical adjustments during the analysis as described below. </plain></SENT>
+</text></p><p><text><SENT sid="54" pm="."><plain>An initial Illumina-HT12 whole transcriptome profiling experiment was performed with 41 samples of remote Melanesian villagers and urban residents. </plain></SENT>
+<SENT sid="55" pm="."><plain>Subsequently, after removal of samples with very poor quality RNA, 124 samples were retained for Fluidigm qRT-PCR profiling. </plain></SENT>
+</text></p><p><text><SENT sid="56" pm="."><plain>Seventy-three samples were obtained from the rural Fijian villages of <z:uniprot sup="inside" fb="32" ids="Q9QWR8,Q66H12">Naga</z:uniprot>, Koro, Nasavu, and Nauria which are are located in the highland district on the north side of Viti Levu Island. </plain></SENT>
+<SENT sid="57" pm="."><plain><z:uniprot sup="inside" fb="32" ids="Q9QWR8,Q66H12">Naga</z:uniprot> and Koro, in the Nadarivatu region, are respectively 92 and 100 km from Tavua township and have total populations of 150 and 143 adults and children. </plain></SENT>
+<SENT sid="58" pm="."><plain>Nasavu and Nauria are 65 and 80 km from the township of Rakiraki and have populations of 98 and 150 respectively. </plain></SENT>
+<SENT sid="59" pm="."><plain>All four villages are mainly self sustaining with home grown fruits, vegetables, and root crops. </plain></SENT>
+<SENT sid="60" pm="."><plain>The men are farmers who plant root crops and “kava” (Piper methysticum) which is the traditional Fijian drink grown by these villagers. </plain></SENT>
+<SENT sid="61" pm="."><plain>The main source of water is tanks and springs, and Koro, Nasavu, and Nauria lack electricity with a few houses in each village having diesel generators for night use. </plain></SENT>
+</text></p><p><text><SENT sid="62" pm="."><plain>Fifty-two samples were obtained from rural Indians residents of the LuvuLuvu and Vatubogi settlements in the interior Bua district of Vanua Levu, approximately 130 km from the township of Labasa. </plain></SENT>
+<SENT sid="63" pm="."><plain>They have total populations of 71 and 67 people respectively. </plain></SENT>
+<SENT sid="64" pm="."><plain>The villagers are farmers and rely on home grown vegetables, lentils, and rice as their daily food. </plain></SENT>
+<SENT sid="65" pm="."><plain>They also keep livestock such as chicken and goats as a source of income. </plain></SENT>
+<SENT sid="66" pm="."><plain>These Indian villagers used coconut oil exclusively for cooking, whereas the Melanesian villagers and urban residents involved in this study have come to rely on processed, imported vegetable oil for cooking. </plain></SENT>
+<SENT sid="67" pm="."><plain>The villagers used spring water and their source of night time electricity is diesel generators. </plain></SENT>
+<SENT sid="68" pm="."><plain>There is no ethnic mixture between the Indian and Fijian rural localities. </plain></SENT>
+<SENT sid="69" pm="."><plain>All the men from the two rural populations have been living in their respective localities since birth. </plain></SENT>
+<SENT sid="70" pm="."><plain>The women typically had moved to the stated localities after marriage from other rural villages. </plain></SENT>
+</text></p><p><text><SENT sid="71" pm="."><plain>Fifty-four urban samples were a mixture of Melanesian (n = 28) and Indian (n = 26) Fijians residing in the capital city of Suva. </plain></SENT>
+<SENT sid="72" pm="."><plain>All men and the majority of the women work in industries in the main city. </plain></SENT>
+<SENT sid="73" pm="."><plain>The urban population generally consumes processed foods and purchase their fruit and vegetables from city markets. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="74" pm="."><plain>RNA extraction, RNA quantification and RNA quality analysis </plain></SENT>
+</text></title><p><text><SENT sid="75" pm="."><plain>RNA from the leukocytes was extracted using the LeukoLOCK™ Total RNA Isolation system (Ambion, now Applied Biosystems/LifeTechnologies, Carlsbad CA, USA). </plain></SENT>
+<SENT sid="76" pm="."><plain>RNA quantity was checked using a GE NanoVue Spectrophotometer. </plain></SENT>
+<SENT sid="77" pm="."><plain>The quality of the total RNA was determined using an RNA 6000 Nano LabChip kit in conjunction with an Agilent 2100 Bioanalyzer which contrasts the ratios of the mRNA and the 18S and 28S ribosomal RNA peaks as a measure of RNA degradation or DNA contamination. </plain></SENT>
+<SENT sid="78" pm="."><plain>Samples that had RIN (RNA Integrity Number) greater than three were retained for potential expression profiling, though many of these were subsequently removed. </plain></SENT>
+<SENT sid="79" pm="."><plain>Since repeated measures of RIN are often off by as much as two “points,” we classified the samples into RIN categories – BAD samples (RIN &lt; 3 or aberrant overall profile, see Figure A1 in Appendix), POOR (3 &lt; RIN &lt; 6), OK (6 &lt; RIN &lt; 8), or GOOD (RIN &gt; 8) – to adjust for RNA quality, as this avoids over-fitting. </plain></SENT>
+<SENT sid="80" pm="."><plain>An additional filter based on overall distribution of Ct values led to removal of all of the very low RIN samples and a handful of the other samples that may have other issues not indicated by the Bioanalyzer analysis. </plain></SENT>
+<SENT sid="81" pm="."><plain>This also allowed us to include some samples that would normally be discarded, while still adjusting for RIN effects by linear modeling. </plain></SENT>
+<SENT sid="82" pm="."><plain>All analyses were also performed only on the higher quality samples. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="83" pm="."><plain>Gene expression profiling </plain></SENT>
+</text></title><p><text><SENT sid="84" pm="."><plain>Whole transcriptome profiling was performed using Illumina-HT12 bead arrays (San Diego, CA, USA) at Expression Analysis (Durham, NC, USA) using RNA extracted from the LeukoLock filters according to manufacturer’s recommendations. </plain></SENT>
+<SENT sid="85" pm="."><plain>Raw probe-level data, namely average bead intensity for each probe from the Illumina Bead Studio, was log2 transformed, and 14,343 probes that we routinely find expressed in peripheral blood (Preininger et al., submitted) were retained for analysis, with expression of other transcripts deemed statistically indistinguishable from background. </plain></SENT>
+</text></p><p><text><SENT sid="86" pm="."><plain>Quantitative RT-PCR was performed using Fluidigm 96 × 96 nanofluidic arrays (Peretz et al., 2007), targeting 96 genes that we had selected to represent the seven major axes of gene expression variation in peripheral blood (Preininger et al., submitted), as well as 24 genes representing inflammatory signaling and pattern recognition receptors. </plain></SENT>
+<SENT sid="87" pm="."><plain>Two overlapping sets of transcripts (Table S1 in Supplementary Material) were profiled in two experiments, each using two Fluidigm plates, performed 4 months apart, so as to generate partially independent representations of the axes of variation. </plain></SENT>
+<SENT sid="88" pm="."><plain>All 41 samples were also included in the RT-PCR analyses. </plain></SENT>
+<SENT sid="89" pm="."><plain>For the first experiment, 106 samples derived from two parallel Fluidigm arrays were analyzed after removing outlier profiles, while 109 samples were included in the analysis of the second experiment, with 86 samples included in both analyses (see Flowchart Figure A2 in Appendix). </plain></SENT>
+<SENT sid="90" pm="."><plain>Briefly, nanoscale qRT-PCR is performed in three steps: purified total RNA is converted to single stranded cDNA using polyT priming, then all of the targeted genes are pre-amplified in a single 14-cycle PCR reaction for each sample by combining 100 ng cDNA with the pooled primers and TaqMan Pre-Amp Mastermix (Fluidigm BioMark™) following conditions outlined in the manufacturer’s protocol, and finally 9,216 parallel qRT-PCR reactions are performed for each primer pair on each sample on a 96 × 96 array. </plain></SENT>
+<SENT sid="91" pm="."><plain>Primers were synthesized by Invitrogen, and we used the EvaGreen detection assay on a Biomark I machine following standard Fluidigm protocols. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="92" pm="."><plain>Statistical analysis of transcript abundance </plain></SENT>
+</text></title><p><text><SENT sid="93" pm="."><plain>All statistical data analysis was carried out using SAS JMP Genomics (Cary, NC; Idaghdour et al., 2010), using the standard gene expression workflow on mean-centered standardized gene expression measures after fitting a categorical measure of RNA quality to each probe. </plain></SENT>
+<SENT sid="94" pm="."><plain>The array data was first normalized using median centering across samples. </plain></SENT>
+<SENT sid="95" pm="."><plain>In order to ensure that RNA quality does not influence the results, RIN was categorized into three levels as stipulated above, and these were regressed against the median-centered Ct values. </plain></SENT>
+<SENT sid="96" pm="."><plain>The residuals were converted to standardized z-scores and these were once more mean-centered. </plain></SENT>
+<SENT sid="97" pm="."><plain>The resultant 96-transcript profiles are no longer affected by RIN. </plain></SENT>
+<SENT sid="98" pm="."><plain>The positive impact of similar supervised normalization strategies are described in (Mason et al., 2010; Qin et al., 2012). </plain></SENT>
+</text></p><p><text><SENT sid="99" pm="."><plain>For the Illumina arrays, the standard normalized gene expression values are proportional to transcript abundance, whereas the Fluidigm values derive from Ct values and are inversely proportional to abundance (since more strongly expressed transcripts appear at an earlier cycle). </plain></SENT>
+<SENT sid="100" pm="."><plain>Variance component analysis was performed on the first five principal components to evaluate the contributions of gender, lifestyle, and ethnicity on transcript abundance. </plain></SENT>
+<SENT sid="101" pm="."><plain>Analysis of variance was performed at the probe-level, testing for influences of Lifestyle (Rural versus Urban), Ethnicity (Melanesian versus Indian), or the combined Type (Rural Melanesian, Rural Indian, Urban Melanesian, Urban Indian). </plain></SENT>
+<SENT sid="102" pm="."><plain>Standard linear regression on age and BMI was also performed. </plain></SENT>
+</text></p><p><text><SENT sid="103" pm="."><plain>Axes of variation (Preininger et al., submitted) were extracted in clusters of up to 12 transcripts representing each of seven axes, by generating the first principal component of the correlation of the standardized probe abundance (or Ct count) for each axis, with imputation of these <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> scores if any of the transcript measures were missing data in the Fluidigm experiments. </plain></SENT>
+<SENT sid="104" pm="."><plain>The derivation of blood informative axes of variation is described in detail in (Preininger et al., submitted). </plain></SENT>
+<SENT sid="105" pm="."><plain>Briefly, Chaussabel et al. (2008) identified 28 modules of conserved gene expression in peripheral blood across multiple disease classes, but we have observed that these modules reduce to seven common axes in each of more than a half dozen population-based healthy adult peripheral blood gene expression studies. </plain></SENT>
+<SENT sid="106" pm="."><plain>Further manipulations have since revealed two additional axes. </plain></SENT>
+<SENT sid="107" pm="."><plain>Each axis is enriched for specific gene ontologies such a T cell signaling, anti-viral response, or innate immunity. </plain></SENT>
+<SENT sid="108" pm="."><plain>The axes are sufficiently highly conserved that it is possible to use the abundance of just 10 very strongly correlated transcripts as a proxy for the axis, and the first principal component of these “BIT” can then be used to profile the major axes of gene expression. </plain></SENT>
+</text></p><p><text><SENT sid="109" pm="."><plain>Analysis of variance was then used to contrast the distribution of the axes scores according to Lifestyle and Ethnicity, or linear regression was performed to test the association with anthropomorphic measures (height, BMI, age, gender). </plain></SENT>
+<SENT sid="110" pm="."><plain>Raw and transformed data for all experiments can be obtained from the authors’ website as Table S1 in Supplementary Material, and experimental design files are in Table S2 in Supplementary Material. </plain></SENT>
+<SENT sid="111" pm="."><plain>Axes comparison for BMI was done with the axes derived from transcriptome data of peripheral blood samples from our CHDWB (Center for Health Discovery and Well-Being) study in Atlanta (Preininger et al., submitted; Qin et al., 2012), which includes expression profiling of peripheral blood samples from 189 individual participants aged between 25 and 75 years, broadly representing the diversity of ethnic (Caucasian, Asian, and African American) and socioeconomic groups in the city. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec><title><text><SENT sid="112" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="113" pm="."><plain>Microarray profile comparison of urban residents and rural melanesians </plain></SENT>
+</text></title><p><text><SENT sid="114" pm="."><plain>Expression profiles generated on Ilumina-HT12 bead arrays for 41 individuals (14 urban Melanesians, 10 rural Melanesians, and 17 urban Indians) were analyzed for 14,343 probes. </plain></SENT>
+<SENT sid="115" pm="."><plain>The correlation heat map (Figure 2A) seems to show some separation of urban Melanesians (brown samples) from rural Melanesian and urban Indians (blue and yellow samples respectively), but this differentiation is not significant since none of the first five principal components is associated with either Lifestyle or Ethnicity. </plain></SENT>
+<SENT sid="116" pm="."><plain>Similarly, neither Age nor Gender associate with the major principal components and each factor explains less than 5% of the total variance (Figure 2B shows the contribution of the three categorical variables lifestyle, ethnicity and gender to all of the PC, weighted by the contribution of each PC to the total variance). </plain></SENT>
+<SENT sid="117" pm="."><plain>Although the sample sizes are small, a comparison of rural villagers and urban residents in southern Morocco with similar numbers of samples did indicate differentiation of over one-quarter of the transcriptome (Idaghdour et al., 2008). </plain></SENT>
+<SENT sid="118" pm="."><plain>This suggests that there has been relatively little modification of peripheral blood gene expression as Melanesians have adopted the urban lifestyle. </plain></SENT>
+<SENT sid="119" pm="."><plain>Alternatively, while the highland villages are remote, there may be sufficient similarity of diet and other aspects of lifestyle to homogenize the gene expression profiles of all modern Melanesian Fijians. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="120" pm="."><plain>Variance components of the illumina transcriptome. </plain></SENT>
+<SENT sid="121" pm="."><plain>The heat map (A) shows overall similarity of the expression profile across 14,343 probes by comparing each of 41 individuals to one. </plain></SENT>
+<SENT sid="122" pm="."><plain>The brown, blue, and yellow color coding in the column to the left of the heat map indicates urban Melanesians, rural Melanesians, and urban Indians respectively. </plain></SENT>
+<SENT sid="123" pm="."><plain>Red squares indicate strong positive correlation, blue squares indicate strong negative correlation, and lighter shades of red and blue indicates weak correlations. (B) Shows the weighted average of the variance captured by the first five principal components that is explained by Lifestyle, Ethnicity, and Gender. </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-g002"/></fig></SecTag></sec><sec><title><text><SENT sid="124" pm="."><plain>Fluidigm profile comparison of melanesians and indians from rural and urban settings </plain></SENT>
+</text></title><p><text><SENT sid="125" pm="."><plain>In order to extend this analysis to a larger sample including rural Indians, we next performed targeted gene expression profiling of 96 transcripts. </plain></SENT>
+<SENT sid="126" pm="."><plain>Recent work in our lab contrasting multiple cohorts indicates that at least nine major axes of gene expression variation account for in excess of half the variance of all peripheral blood transcripts measured on microarrays. </plain></SENT>
+<SENT sid="127" pm="."><plain>These axes are thought to reflect particular aspects of blood function from innate immune activation to inflammation and anti-viral response, and can be captured as the first principal component of just 10 transcripts that are most strongly associated with the axes (Preininger et al., submitted). </plain></SENT>
+<SENT sid="128" pm="."><plain>We reasoned that coregulation of these BITs might also be detectable with qRT-PCR arrays, and here tested the first seven axes using two overlapping sets of BITs listed in Table S3 in Supplementary Material. </plain></SENT>
+<SENT sid="129" pm="."><plain>Additional probes were included representing cell surface markers and intracellular inflammatory signaling pathways. </plain></SENT>
+</text></p><p><text><SENT sid="130" pm="."><plain>Before describing the Axis associations, we first present the variance components analysis of the first five principal components of gene expression measured on the Fluidigm arrays. </plain></SENT>
+<SENT sid="131" pm="."><plain>In experiment 1, there were 106 individuals with high quality profiles, and 94 probes with signal above background in most individuals. </plain></SENT>
+<SENT sid="132" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> through <z:uniprot sup="inside" fb="0" ids="Q92824,Q04592,P41413">PC5</z:uniprot> explain 61.7% of the variance in Ct counts, and Lifestyle (Urban versus Rural) explained 16.8% of this variation while Ethnicity (Melanesian versus Indian) just 9.3% (with non-significant Gender contributions; Figure 3A). </plain></SENT>
+<SENT sid="133" pm="."><plain>Most of these effects are due to differentiation of rural Indians from the Melanesians and urban residents for <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot>, 2, and 4 as shown in Figures 3C,D and Table 1. </plain></SENT>
+<SENT sid="134" pm="."><plain>Qualitatively similar results were obtained for experiment 2 in which 109 individuals had high quality profiles and 90 probes were included in the analysis. </plain></SENT>
+<SENT sid="135" pm="."><plain>In this case, <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> through <z:uniprot sup="inside" fb="0" ids="Q92824,Q04592,P41413">PC5</z:uniprot> explain 60.2% of the variance in Ct counts, of which 7.2% was explained by Lifestyle and 5.1% by Ethnicity (Figure 3B). </plain></SENT>
+<SENT sid="136" pm="."><plain>Each of these contributions is significant at p &lt; 0.05, as random permutation of labels with respect to expression profiles established that no more than 3% of the variation is explained by chance at this level. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="137" pm="."><plain>Variance and principal component analysis of the Fluidigm experiments. (A,B) The weighted average amount of variance captured by Lifestyle, Ethnicity, and Gender in each of the two Fluidigm experiments (the Gender effect is not significant by permutation). (C,D) Each plot shows the <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> (A) or <z:uniprot sup="inside" fb="2" ids="Q9GLR0,G5ECN9,P16519,P21661,Q03333,Q5REC2,P28841,Q13563">PC2</z:uniprot> (B) score for each individual in Fluidigm experiment I, clustered by lifestyle and ethnicity for the four localities: rural Melanesian (RUR_MEL), rural Indians (RUR_IND), urban Melanesians (<z:uniprot sup="inside" fb="0" ids="Q76M96">URB</z:uniprot>_MEL), and urban Indians (<z:uniprot sup="inside" fb="0" ids="Q76M96">URB</z:uniprot>_IND). (C) <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> appears to be divergent in Rural Indians (rural Indians lower, p &lt; 10−9). (D) <z:uniprot sup="inside" fb="2" ids="Q9GLR0,G5ECN9,P16519,P21661,Q03333,Q5REC2,P28841,Q13563">PC2</z:uniprot> also appears to be divergent in urban Melanesians, but in experiment 2 it is only the rural Indians who have low scores, and the median urban Melanesian score here is elevated. </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-g003"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="138" pm="."><plain>Principal components of fluidigm gene expression measures. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>Principal Component </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>PVE I 1 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>PVE ii 1 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>LIFE <z:uniprot sup="inside" fb="0" ids="Q9LTK0">I 2</z:uniprot> </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>LIFE ii 2 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>ETHN <z:uniprot sup="inside" fb="0" ids="Q9LTK0">I 2</z:uniprot> </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>ETHN ii 2 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>L × E i2 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>L × E ii 2 </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>24.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>13.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>1.1 × 10−9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>1.1 × 10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>9.4 × 10−4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>0.098 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>0.17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>0.064 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain><z:uniprot sup="inside" fb="2" ids="Q9GLR0,G5ECN9,P16519,P21661,Q03333,Q5REC2,P28841,Q13563">PC2</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>16.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>19.0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>0.68 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>0.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>0.0040 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>5.2 × 10−4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>0.0051 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P78543,Q9HC52,P63239,P63240">PC3</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>9.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>12.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0.47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>0.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>0.97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>0.24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>0.64 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q6UW60,Q78EH2,P53999,P11031,Q63396">PC4</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>5.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>8.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>2.1 × 10−4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>1.1 × 10−7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>0.063 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>0.31 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q92824,Q04592,P41413">PC5</z:uniprot> </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>4.9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>6.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>0.55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>0.0047 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>0.27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>0.22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>0.15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>0.92 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn1"><p><text><SENT sid="193" pm="."><plain>1Percent of overall variance in standardized Ct measures explained by the PC. </plain></SENT>
+</text></p></fn><fn id="tfn2"><p><text><SENT sid="194" pm="."><plain>2Significance of the regression on Lifestyle, Ethnicity, or of the Interaction term, in Experiments I and II. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="195" pm="."><plain>One way ANOVA was performed to identify individual transcripts that differentiate the four combinations of lifestyle and ethnicity. </plain></SENT>
+<SENT sid="196" pm="."><plain>The volcano plots in Figure 4 confirm that the rural Indians diverge significantly from the other three population groups. </plain></SENT>
+<SENT sid="197" pm="."><plain>Each plot shows the fold difference in expression on the x-axis with significance on the y-axis represented as the negative logarithm of the p-value. </plain></SENT>
+<SENT sid="198" pm="."><plain>Since only one gene is expected at <z:uniprot sup="inside" fb="63" ids="Q9Y2I6">NLP</z:uniprot> &gt; 2 in each pair-wise comparison, we adopt this threshold as an approximate false discovery rate cut-off. </plain></SENT>
+<SENT sid="199" pm="."><plain>Genes more highly expressed in rural Indians than rural Melanesians are colored red in Figure 4A, and those down-regulated in this comparison are in green. </plain></SENT>
+<SENT sid="200" pm="."><plain>This contrast carries through in the comparisons of rural Indians with urban Melanesians (Figure 4B) and urban Indians (Figure 4C). </plain></SENT>
+<SENT sid="201" pm="."><plain>Most of the down-regulated genes in the rural Indians (that is, high Ct counts and hence lower expression) are annotated to anti-viral response (<z:uniprot sup="inside" fb="0" ids="P05155,Q9TRG2">SERPING1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9GZR7,Q5RDL2">DDX24</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9Y6K5">OAS3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P79135,Q9N0Y3,Q4ADG8,Q28379,P20591,A1E2I4,Q4ADG7,Q4ADG6,P27594,Q5R5G3,P33237">MX1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q15646">OASL</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q3SZP0,Q90876,P10914,P15314,A0FIN4,P23570">IRF1</z:uniprot>) or inflammation/neutrophil signaling (<z:uniprot sup="inside" fb="0" ids="Q95KV0,O14920">IKBKB</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q2LGB3,P51617,Q62406">IRAK1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="O93800,Q38998,Q01314,P31749,P0C550,Q0JKV1">AKT1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9NUE0">ZDHHC18</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="F4I1T7,P35658">NUP214</z:uniprot>), implying a generally lower immune response. </plain></SENT>
+<SENT sid="202" pm="."><plain>The comparisons involving rural Fijians and the urban population groups (Figures 4D–F) do not reveal any significant differences. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="203" pm="."><plain>Volcano plots of statistical significance of transcript abundance changes between the different locations and ethnicities. </plain></SENT>
+<SENT sid="204" pm="."><plain>For each gene, significance is indicated by negative log10 p-value is on the y-axis, and the standardized difference in log2 Ct scores on x-axis (positive values imply higher Ct values and hence lower expression). </plain></SENT>
+<SENT sid="205" pm="."><plain>Pair-wise comparisons are made between the rural Fijian (RUR_FIJ), rural Indians (RUR_IND), urban Fijians (<z:uniprot sup="inside" fb="0" ids="Q76M96">URB</z:uniprot>_FIJ), and urban Indians (<z:uniprot sup="inside" fb="0" ids="Q76M96">URB</z:uniprot>_IND). </plain></SENT>
+<SENT sid="206" pm="."><plain>Rural Indians are the most diverse of the groups as seen in (A–C). </plain></SENT>
+<SENT sid="207" pm="."><plain>No significant divergence was seen between the rural Fijian, urban Indians, and urban Fijians (D–F). </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-g004"/></fig></SecTag><p><text><SENT sid="208" pm="."><plain>These results imply that for a targeted subset of loci that are thought to capture major axes of blood and immune function, there is clear differentiation of the rural Indians from the other individuals. </plain></SENT>
+<SENT sid="209" pm="."><plain>To explore whether this is restricted to particular Axes, we generated <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> for each of the seven axes in the two experiments that utilized partially overlapping probe sets. </plain></SENT>
+<SENT sid="210" pm="."><plain>The correlation between scores for the 120 individuals in common in the two experiments are uniformly high as shown in Figure 5A and the last column of Table 2, indicating that the Axes scores replicate, and hence do capture common Axes of coregulation. </plain></SENT>
+<SENT sid="211" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NJP6">Axes 1</z:uniprot> and 6 are positively correlated, as are Axes 4 and 5 to some extent, as previously observed in other datasets, and here we also observe some similary with Axis 2. </plain></SENT>
+<SENT sid="212" pm="."><plain>Axis 7 is enriched for anti-viral responses and is typically distinct, though it is mildly correlated with Axis 5 here (it was not represented in the experiment 1 array). </plain></SENT>
+<SENT sid="213" pm="."><plain>To confirm that these correspond to Axes identified using Illumina microarrays, we also generated the scores for the 41 individuals included on both platforms, and consistently observed a negative correlation (results not shown), as expected since lower Ct counts correspond to higher gene expression and higher bead fluorescence. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F5" position="float"><label>Figure 5</label><caption><p><text><SENT sid="214" pm="."><plain>Axes of variation. (A) Correlation structure of the seven axes for Fluidigm experiments I and II. </plain></SENT>
+<SENT sid="215" pm="."><plain>The level of correlation between axis scores is indicated by the color code (red positive, blue negative, as in Figure 2) and shows that each Axis is closely correlated with the same Axis in the other experiment. </plain></SENT>
+<SENT sid="216" pm="."><plain>The remaining plots show the relationship between Axis scores and population sample as in Figure 3, highlighting <z:uniprot sup="inside" fb="0" ids="O59893">Axes 2</z:uniprot> (B) and 6 (C), contrasted with a non-significant trend for divergence of Axis 7 in rural Melanesians (D). </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-g005"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="217" pm="."><plain>Blood informative transcript axes. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>Axis </plain></SENT>
+</text></th><th colspan="3" align="center" rowspan="1"><text><SENT sid="219" pm="."><plain>Experiment I </plain></SENT>
+</text></th><th colspan="3" align="center" rowspan="1"><text><SENT sid="220" pm="."><plain>Experiment II </plain></SENT>
+</text></th><th colspan="2" align="center" rowspan="1"><text><SENT sid="221" pm="."><plain>Correspondence4 </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>N genes1 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>PC12 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>PLifeEthn3 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>N genes1 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>PC12 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>PLifeEthn3 </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>Adj RSq </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>Pcorr </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>Axis 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>36.0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>38.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>0.18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>0.27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>1.6 × 10−7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>Axis 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>41.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>2.0 × 10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>33.6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>0.014 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>1.1 × 10−12 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>Axis 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>27.4* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>0.0012 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>32.4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>0.028 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>0.32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>1.0 × 10−8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>Axis 4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>42.7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>0.012 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>38.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>0.0019 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>1.1 × 10−4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>Axis 5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>37.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>0.0028 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>35.8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>0.0039 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>0.11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>2.9 × 10−3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>Axis 6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>37.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>6.6 × 10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>39.5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>0.0010 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>2.6 × 10−29 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>Axis 7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>48.1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>N/A </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="tfn3"><p><text><SENT sid="289" pm="."><plain>1The number of transcripts contributing to the Axis in each experiment. </plain></SENT>
+</text></p></fn><fn id="tfn4"><p><text><SENT sid="290" pm="."><plain>2The percent of variants for the contributing transcripts that is explained by <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> in all samples. </plain></SENT>
+</text></p></fn><fn id="tfn5"><p><text><SENT sid="291" pm="."><plain>3The p-value from an ANOVA of the effect of lifestyle and ethnicity with 85 individuals measured in both experiments (the four-way contrast is of Rural Melanesian or Indian, Urban Melanesian or Indian). </plain></SENT>
+</text></p></fn><fn id="tfn6"><p><text><SENT sid="292" pm="."><plain>4The correspondence between Axis scores for all 85 individuals measures in both experiments, along with the significance of the regression. </plain></SENT>
+<SENT sid="293" pm="."><plain>Note that Axis 5 shows reduced correlation because new probes were designed to distinguish it from Axis 4. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="294" pm="."><plain>Association of gene expression with lifestyle and body mass index </plain></SENT>
+</text></title><p><text><SENT sid="295" pm="."><plain>Next we asked how the Axes correlate with Lifestyle, Ethnicity, and BMI. </plain></SENT>
+<SENT sid="296" pm="."><plain>In both Fluidigm experiments, significant divergence between rural Indians and the other three groups was seen for <z:uniprot sup="inside" fb="0" ids="O59893">Axes 2</z:uniprot>, and 6, while rural Melanesians show a non-significant trend toward lower expression of Axis 7 (Figure 5). </plain></SENT>
+<SENT sid="297" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NJP6">Axes 1</z:uniprot>, 4, and 5 showed much weaker influences of Lifestyle that did not replicate in both experiments (Table 2) these influences can also be attributed to covariance between these axis scores and the more significant axes. </plain></SENT>
+<SENT sid="298" pm="."><plain>In multiple large Illumina peripheral blood gene expression profiling experiments conducted in Atlanta (Preininger et al., submitted), Brisbane (Mason et al., 2010), and Finland (Inouye et al., 2010), Axis 2 also associates with BMI. </plain></SENT>
+<SENT sid="299" pm="."><plain>Overall, this is also true in Fiji (Figure 6A), but not when broken down by population group. </plain></SENT>
+<SENT sid="300" pm="."><plain>Since rural Indians tend to have lower BMI than rural Melanesians, and in turn urban residents of both ethnicities, the Axis 2 association with Lifestyle may be in part due to the effect of obesity on this axis of gene expression. </plain></SENT>
+<SENT sid="301" pm="."><plain>A similar phenomenon is observed in our Atlanta study, where there is very strong association between Axis 2 and BMI in Caucasians, but no relationship in African Americans (Figure 6C). </plain></SENT>
+<SENT sid="302" pm="."><plain>This may reflect a true differentiation between ethnic groups, or be an artefact of the distribution of BMI scores. </plain></SENT>
+<SENT sid="303" pm="."><plain>Splitting the Atlanta dataset into two halves, individuals considered normal weight, with a BMI less than 25, and overweight or obese individuals with BMI greater than 25, favors the latter interpretation since there is no association with BMI in either half of the data (Figure 6D). </plain></SENT>
+<SENT sid="304" pm="."><plain>Most of the African Americans in this study have BMI greater than 25, explaining their high Axis 2 score (note that the Axes are inverted between microarrays and qRT-PCR arrays due to the nature of the expression measures). </plain></SENT>
+<SENT sid="305" pm="."><plain>The Asians in the sample are almost all low BMI and also do not show a trend of association between Axis 2 and BMI. </plain></SENT>
+<SENT sid="306" pm="."><plain>This may suggest a transition in Axis 2 expression as individuals move into the overweight class, and implies that the effect is more likely environmental than having a direct genetic basis. </plain></SENT>
+<SENT sid="307" pm="."><plain>However, the divergence in rural Indians cannot be solely explained by their difference in body mass since jointly fitting BMI and location to the Indian sample absorbs the BMI effect while only slightly reducing the significance of the urban – rural comparison. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F6" position="float"><label>Figure 6</label><caption><p><text><SENT sid="308" pm="."><plain>BMI and axis 2. </plain></SENT>
+<SENT sid="309" pm="."><plain>Although there is an overall significant correlation between BMI and Axis 2 (p = 0.03), it appears to be driven largely by the low BMI in most of the rural Indians (A), as the correlation is not observed in each population considered alone. </plain></SENT>
+<SENT sid="310" pm="."><plain>In our Atlanta Center for Health Discovery and Well-being study (Gibson, 2008), African Americans have significantly elevated Axis 2 scores relative to Asians and Caucasians (B), but the significant regression of BMI on Axis 2 is only seen for Caucasians (C). </plain></SENT>
+<SENT sid="311" pm="."><plain>Considering just the high BMI samples (D) the correlation is not observed (similarly for low BMI, not shown), suggests a transition to high Axis 2 as BMI moves into the overweight category. </plain></SENT>
+<SENT sid="312" pm="."><plain>Note the inversion between Axis scores for Fluidigm and Illumina data due to the expression profiling measures (hybridization intensity is directly proportional to transcript abundance, whereas Ct is inversely proportional to it. </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-g006"/></fig></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="313" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="314" pm="."><plain>We have shown that Fluidigm nanoscale quantitative RT-PCR arrays can be used to probe the geographical genomics of lifestyle transitions. </plain></SENT>
+<SENT sid="315" pm="."><plain>These arrays facilitate parallel profiling of the abundance of 96 transcripts in 96 samples. </plain></SENT>
+<SENT sid="316" pm="."><plain>By appropriately targeting genes that are representative of variation throughout the genome, it is possible to obtain a profile of each person relatively inexpensively (currently of the order of just $20). </plain></SENT>
+<SENT sid="317" pm="."><plain>Based on recent analyses of several large microarray datasets, we chose two sets of approximately 70 PCR amplicons that represent seven major axes of variation in the form of BIT, and document how these BIT repeatedly capture differences among population groups on the islands of Fiji. </plain></SENT>
+</text></p><p><text><SENT sid="318" pm="."><plain>The correlation between measures of gene expression using the targeted Fluidigm arrays and whole transcriptome microarrays in this study was somewhat less than that observed in pilot analyses of our Atlanta cohort. </plain></SENT>
+<SENT sid="319" pm="."><plain>Three reasons are likely to have contributed: the small sample size of just 41 individuals leads to imprecise estimates with both technologies; the Fiji data was affected by relatively low RNA quality (RIN &lt; 7) for half of the samples (though qualitatively similar results were obtained when just the high quality samples were considered; all expression measures were conditioned on RNA quality statistically); and the BIT probes have not been optimized for capturing the same information as the bead arrays, so some may perform less well or capture different splice forms. </plain></SENT>
+</text></p><p><text><SENT sid="320" pm="."><plain>In fact, the correspondence of alternate probes for the same gene on microarrays is often as divergent as the difference between the less strongly correlated Fluidigm and Illumina probes reported here (unpublished observations). </plain></SENT>
+<SENT sid="321" pm="."><plain>For this reason, we repeated the analyses with a second set of probes that resulted from refinement of the definition of the Axes after completing the first experiment, and found both the results to be in agreement with each other. </plain></SENT>
+</text></p><p><text><SENT sid="322" pm="."><plain>The major biological finding of this study is that there is a highly significant impact of lifestyle and ethnicity on gene expression in the peripheral blood of Fijians. </plain></SENT>
+<SENT sid="323" pm="."><plain>Specifically, rural Indian villagers on the island of Vanua Levu are markedly distinct from their urban counterparts in Suva. </plain></SENT>
+<SENT sid="324" pm="."><plain>The rural highland Melanesians only showed modest differentiation from their urban counterparts, who are not distinguishable from the urban Indians with regards their gene expression. </plain></SENT>
+<SENT sid="325" pm="."><plain>These results recapitulate our findings in southern Morocco (Idaghdour et al., 2008, 2010), where remote rural Berber villagers tend to have a quite different profile from those of Arab villagers and both Arab and Berber urban residents. </plain></SENT>
+<SENT sid="326" pm="."><plain>Since we do not have genotype data on the study participants, we cannot rule out the possibility that genetic divergence contributes to the urban-rural comparisons. </plain></SENT>
+<SENT sid="327" pm="."><plain>Comparisons of the two rural Indian villages did not show any transcriptional divergence between them, and though one of the Melanesian villages differed significantly for <z:uniprot sup="inside" fb="2" ids="Q9GLR1,P29120,P63239,P63240,P28840,P98161">PC1</z:uniprot> (result not shown), this could have either an environmental or a genetic basis. </plain></SENT>
+<SENT sid="328" pm="."><plain>Relatedness is certainly high within villages, but marriages tend to be between villages so it is highly unlikely that there is sufficient genetic divergence to explain the gene expression patterns. </plain></SENT>
+</text></p><p><text><SENT sid="329" pm="."><plain>Another possible source of differentiation is regulatory polymorphisms that could differ in frequency between the ethnicities. </plain></SENT>
+<SENT sid="330" pm="."><plain>One of the largest eQTL studies of peripheral blood samples was recently performed on Dutch and UK populations and controlled for probe biases. </plain></SENT>
+<SENT sid="331" pm="."><plain>They, identified eQTL in six of the genes that were that were differentially expressed in our study (<z:uniprot sup="inside" fb="0" ids="P05155,Q9TRG2">SERPING1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9GZR7,Q5RDL2">DDX24</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9Y6K5">OAS3</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="P79135,Q9N0Y3,Q4ADG8,Q28379,P20591,A1E2I4,Q4ADG7,Q4ADG6,P27594,Q5R5G3,P33237">MX1</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q9NUE0">ZDHHC18</z:uniprot>, and <z:uniprot sup="inside" fb="0" ids="F4I1T7,P35658">NUP214</z:uniprot>; Fehrmann et al., 2011), but of these only <z:uniprot sup="inside" fb="0" ids="P05155,Q9TRG2">SERPING1</z:uniprot> shows a significant eQTL in our Atlanta study. </plain></SENT>
+<SENT sid="332" pm="."><plain>While we cannot rule out cis-eQTL contributing to divergence between the ethnic groups, they are not pervasive in the studied genes, and could not account for the covariance among genes. </plain></SENT>
+<SENT sid="333" pm="."><plain>Individual trans-eQTL effects are not large or pleiotropic enough to cause the observed divergence between Melanesians and Indians, though in aggregate undetected trans-effects presumably account for the ethnic differences. </plain></SENT>
+</text></p><p><text><SENT sid="334" pm="."><plain>In both Morocco and Fiji, age and gender also have only a minor influence on the blood transcriptome. </plain></SENT>
+<SENT sid="335" pm="."><plain>Several studies have previously (Eady et al., 2005; Karlovich et al., 2009; Xu et al., 2011; Kent et al., 2012) reported minor age-related differential expression of inflammatory genes in large population samples, and age does not appear to be a major factor in our analyses of the targeted 96 transcripts either. </plain></SENT>
+<SENT sid="336" pm="."><plain>In our experience (Idaghdour et al., 2010, unpublished data) the variance explained is considerably smaller than lifestyle and ethic differences, and may in any case be due to correlation with metabolic parameters that differ between age classes. </plain></SENT>
+<SENT sid="337" pm="."><plain>Our study also has a relatively small variance in age with a median of 36 years (range 21–65), so differential expression associated with immunosenescence would not be detected. </plain></SENT>
+</text></p><p><text><SENT sid="338" pm="."><plain>The absence of differentiation of rural and urban Melanesian Fijians is surprising given the differences in their lifestyles, the former continuing to be quite traditional with minimal influence of modern conveniences and for the most part a diet that is not based on processed and convenient foods. </plain></SENT>
+<SENT sid="339" pm="."><plain>On the other hand, doctors working with the villagers verbally reported increasing incidence of hypertension and diabetes, metabolic diseases that were absent from the population two generations ago. </plain></SENT>
+<SENT sid="340" pm="."><plain>This suggests that modernity is starting to impact disease profiles and this may be reflected in the Suva-like gene expression profiles. </plain></SENT>
+<SENT sid="341" pm="."><plain>By contrast, the Indian villagers have retained their mostly vegetarian diet, use coconut oil instead of vegetable oil in their cooking, and do not show the epidemiological transition to Western disease (Jamison and Mosley, 1991; Murray and Lopez, 1997). </plain></SENT>
+</text></p><p><text><SENT sid="342" pm="."><plain>The rural Indians have significantly lower body mass indexes, and this likely contributes to the significant association of Axis 2 with the rural Indian versus urban contrast. </plain></SENT>
+<SENT sid="343" pm="."><plain>It is not yet clear what molecular or cellular function Axis 2 represents. </plain></SENT>
+<SENT sid="344" pm="."><plain>A small number of defining genes are annotated to red blood cell function and heme binding, suggesting that it represents erythrocyte function. </plain></SENT>
+<SENT sid="345" pm="."><plain>Our previous studies (Preininger et al., submitted) have not detected any correlation between Axis 2 score and erythrocyte (or platelet) numbers, and genes that are known to be enriched in these cell types do not predict the Axis 2 score, so it is not simply a molecular reporter of red blood cell number. </plain></SENT>
+<SENT sid="346" pm="."><plain>It seems less likely that genetic variation producing this Axis causes variation in BMI, than that elevated body fat influences gene expression in the axis. </plain></SENT>
+<SENT sid="347" pm="."><plain>Nevertheless, people with similar body weights also differ with respect to their position along the axis, as can be seen in Figure 6, and future studies will investigate whether and how this influences the onset of metabolic syndrome diseases. </plain></SENT>
+<SENT sid="348" pm="."><plain>An alternative possibility is that Melanesians may have evolved genetic divergence with respect to regulation of Axis 2 as a result of historical body weight patterns related to fertility-associated fattening rituals (Pollock, 1995), though this is unlikely since the high levels of obesity present on the islands are thought to be a post-World War II phenomenon (Hodge et al., 1992). </plain></SENT>
+</text></p><p><text><SENT sid="349" pm="."><plain>The other axes that distinguish rural Indians, Axes 5 and 6, appear to be related to inflammation/innate immune responsiveness and development of immunity respectively. </plain></SENT>
+<SENT sid="350" pm="."><plain>Axis 5 is for example heavily enriched for genes annotated to <z:uniprot sup="inside" fb="0" ids="P23799">TLR</z:uniprot> signaling. </plain></SENT>
+<SENT sid="351" pm="."><plain>A similar study (Freedman et al., 2010) using Fluidigm to measure transcript abundance in 1,846 Framingham study participants showed inflammatory transcripts, notably <z:uniprot sup="inside" fb="0" ids="P23799">TLR</z:uniprot> receptors and the NFκB pathway, to be associated with obesity and BMI, particularly when derived from platelets rather than leukocytes. </plain></SENT>
+<SENT sid="352" pm="."><plain>Our studies seem to separate the BMI and inflammation components into different axes, and we note that platelets are mostly excluded by LeukoLOCK filters, so BMI and inflammation may subject to different lifestyle influences that are nevertheless not entirely independent owing to the multivariate nature of gene regulation. </plain></SENT>
+<SENT sid="353" pm="."><plain>Although there is no clear gene ontology enrichment for Axis 6, re-examination of a vaccine response study (Nakaya et al., 2011) showed a strong association with production of high or low titers of influenza antibodies (M. </plain></SENT>
+<SENT sid="354" pm="."><plain>Preininger, Artika Praveeta Nath, and Greg Gibson, in prep). </plain></SENT>
+<SENT sid="355" pm="."><plain>Axis 6 was also observed to differentiate the rural Berbers from urban Moroccans (Idaghdour et al., 2010; Preininger et al., submitted), and notably the sign of the divergence of the rural samples is the same in both countries: in (Preininger et al., submitted) rural life was mildly positively correlated with Axis 2 and here it is negatively correlated with it, as expected given the inversion of the Axes due to the array platforms. </plain></SENT>
+<SENT sid="356" pm="."><plain>This difference raises the possibility that there may be something of a global signature of rural versus urban living, though it seems likely that local factors are also impinging. </plain></SENT>
+<SENT sid="357" pm="."><plain>Axis 7 is heavily enriched for <z:uniprot sup="inside" fb="139" ids="P51527,P51526">interferon</z:uniprot> and anti-viral response genes, and interestingly it shows some evidence for being more strongly induced in the rural Melanesians (lower Ct values implies higher expression). </plain></SENT>
+<SENT sid="358" pm="."><plain>This is counter-intuitive to the naïve expectation that they may be relatively unexposed to the menagerie of infections that would be expected in an urban population. </plain></SENT>
+<SENT sid="359" pm="."><plain>In studies of infectious disease cohorts (Chaussabel et al., 2008), including Tuberculosis, Staphylococcus, and HIV, Axes 5, 6, and 7 are typically associated with active infection (in preparation). </plain></SENT>
+<SENT sid="360" pm="."><plain>In conclusion, as in Morocco, we find a strong association between lifestyle and gene expression in peripheral blood where differences between ethnicities are only apparent in the rural populations. </plain></SENT>
+<SENT sid="361" pm="."><plain>This conclusion should be tempered by concerns over the small sample size and RNA quality, but it is consistent with the notion that urban living pushes gene expression along common axes of variation toward a distinctive state that may represent an environmental response to modernity. </plain></SENT>
+<SENT sid="362" pm="."><plain>Much of this likely reflects altered immune function, but the replicated association of at least one axis with a major indicator of chronic metabolic disease, hints that there is a coordinated cellular response to high body fat that may influence people’s long-term wellness and contribute to the rising morbidity known as metabolic syndrome. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="363" pm="."><plain>Conflict of Interest Statement </plain></SENT>
+</text></title><p><text><SENT sid="364" pm="."><plain>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="365" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><p><text><SENT sid="366" pm="."><plain>The Supplementary Material for this article can be found online at http://www.frontiersin.org/Applied_Genetic_Epidemiology/10.3389/fgene.2012.00243/abstract </plain></SENT>
+</text></p><supplementary-material content-type="local-data" id="SM1"><label>Supplementary Table S1</label><caption><p><text><SENT sid="367" pm="."><plain>Raw and transformed illumina and fluidigm data. </plain></SENT>
+</text></p></caption><media xlink:href="32691_Gibson_DataSheet1.XLSX" mimetype="application" mime-subtype="vnd.ms-excel"><caption><p><text><SENT sid="368" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM2"><label>Supplementary Table S2</label><caption><p><text><SENT sid="369" pm="."><plain>Experimental design files. </plain></SENT>
+</text></p></caption><media xlink:href="32691_Gibson_DataSheet2.XLSX" mimetype="application" mime-subtype="vnd.ms-excel"><caption><p><text><SENT sid="370" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM3"><label>Supplementary Table S3</label><caption><p><text><SENT sid="371" pm="."><plain>List of probes used to measure axes of variation. </plain></SENT>
+</text></p></caption><media xlink:href="32691_Gibson_DataSheet3.XLSX" mimetype="application" mime-subtype="vnd.ms-excel"><caption><p><text><SENT sid="372" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="373" pm="."><plain>We thank all the study participants and the individuals who assisted in sample collection in particular the zone nurses and health workers and Jyotishna Mudaliar. </plain></SENT>
+<SENT sid="374" pm="."><plain>We also like to thank the College of Medicine Nursing and Health Sciences (CMNHS)-Fiji National University, Colonial War memorial Hospital, Suva, Fiji for giving access to blood donors and the Ministry of Health, Fiji. </plain></SENT>
+<SENT sid="375" pm="."><plain>Artika Praveeta Nath is supported by Fulbright Fellowship at Georgia Institute of Technology. </plain></SENT>
+<SENT sid="376" pm="."><plain>This study was funded by Start-Up funds to Greg Gibson from the Georgia Tech Research Foundation, and partially by AUSAID strategic research fund CMNHS. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="APPENDIX"><app-group><app id="A1"><title>Appendix</title><SecTag type="FIG"><fig id="FA1" position="anchor"><label>Figure A1</label><caption><p><text><SENT sid="377" pm="."><plain>Distribution plots of sample by RIN quality. </plain></SENT>
+<SENT sid="378" pm="."><plain>Distribution plots of Fluidigm Experiments I (A,C) and II (B,D) highlighting the samples that were excluded (A,B) or included (C,D) for downstream analysis on the basis of RIN quality. </plain></SENT>
+<SENT sid="379" pm="."><plain>The X axis represents the range of transcript abundance and the Y axis represents the density for each profile. </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-a001"/></fig></SecTag><SecTag type="FIG"><fig id="FA2" position="anchor"><label>Figure A2</label><caption><p><text><SENT sid="380" pm="."><plain>Flow diagram of sampling strategy. </plain></SENT>
+</text></p></caption><graphic xlink:href="fgene-03-00243-a002"/></fig></SecTag></app></app-group></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="B1"><text><SENT sid="381" pm="."><plain>BerryM. </plain></SENT>
+<SENT sid="382" pm="."><plain>P.GrahamC. </plain></SENT>
+<SENT sid="383" pm="."><plain>M.McNabF. </plain></SENT>
+<SENT sid="384" pm="."><plain>W.XuZ.BlochS. </plain></SENT>
+<SENT sid="385" pm="."><plain>A.OniT. (2010). An <z:uniprot sup="inside" fb="139" ids="P51527,P51526">interferon</z:uniprot>-inducible neutrophil-driven blood transcriptional signature in human tuberculosis. Nature466, 973–97710.1038/nature0924720725040 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="386" pm="."><plain>BrianG.RamkeJ.MaherL.PageA.SzetuJ. (2010). The prevalence of diabetes among adults aged 40 years and over in Fiji. N. </plain></SENT>
+<SENT sid="387" pm="."><plain>Z. </plain></SENT>
+<SENT sid="388" pm="."><plain>Med. </plain></SENT>
+<SENT sid="389" pm="."><plain>J. 17, 68–7521358785 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="390" pm="."><plain>ChaussabelD.QuinnC.ShenJ.PatelP.GlaserC.BaldwinN. (2008). A modular analysis framework for blood genomics studies: application to systemic lupus erythematosus. Immunity 29, 150–16410.1016/j.immuni.2008.05.01218631455 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="391" pm="."><plain>CheungV. </plain></SENT>
+<SENT sid="392" pm="."><plain>G.SpielmanR. </plain></SENT>
+<SENT sid="393" pm="."><plain>S.EwensK. </plain></SENT>
+<SENT sid="394" pm="."><plain>G.WeberT. </plain></SENT>
+<SENT sid="395" pm="."><plain>M.MorleyM. (2005). Mapping determinants of human gene expression by regional and genome-wide association. Nature 437, 1365–136910.1038/nature0424416251966 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="396" pm="."><plain>DakeshitaS.KawaiT.UemuraH.HiyoshiM.OgumaE.HoriguchiH. (2009). Gene expression signatures in peripheral blood cells from Japanese women exposed to environmental cadmium. Toxicology 257, 25–3210.1016/j.tox.2008.12.00419118595 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="397" pm="."><plain>EadyJ. </plain></SENT>
+<SENT sid="398" pm="."><plain>J.WortleyG. </plain></SENT>
+<SENT sid="399" pm="."><plain>M.WormstoneY. </plain></SENT>
+<SENT sid="400" pm="."><plain>M.HughesJ. </plain></SENT>
+<SENT sid="401" pm="."><plain>C.AstleyS. </plain></SENT>
+<SENT sid="402" pm="."><plain>B.FoxallR. </plain></SENT>
+<SENT sid="403" pm="."><plain>J. (2005). Variation in gene expression profiles of peripheral blood mononuclear cells from healthy volunteers. Physiol. </plain></SENT>
+<SENT sid="404" pm="."><plain>Genomics 11, 402–41116014386 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="405" pm="."><plain>EmilssonV.ThorleifssonG.ZhangB.LeonardsonA. </plain></SENT>
+<SENT sid="406" pm="."><plain>S.ZinkF.ZhuJ. (2008). Genetics of gene expression and its effect on disease. Nature 452, 423–42810.1038/nature0675818344981 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="407" pm="."><plain>FeezorR. </plain></SENT>
+<SENT sid="408" pm="."><plain>J.BakerH. </plain></SENT>
+<SENT sid="409" pm="."><plain>V.MindrinosM.HaydenD.TannahillC. </plain></SENT>
+<SENT sid="410" pm="."><plain>L.BrownsteinB. </plain></SENT>
+<SENT sid="411" pm="."><plain>H. (2004). Whole blood and leukocyte RNA isolation for gene expression analyses. Physiol. </plain></SENT>
+<SENT sid="412" pm="."><plain>Genomics 19, 247–25410.1152/physiolgenomics.00020.200415548831 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="413" pm="."><plain>FehrmannR. </plain></SENT>
+<SENT sid="414" pm="."><plain>S. </plain></SENT>
+<SENT sid="415" pm="."><plain>N.JansenR. </plain></SENT>
+<SENT sid="416" pm="."><plain>C.VeldinkJ. </plain></SENT>
+<SENT sid="417" pm="."><plain>H.WestraH.-J.ArendsD.BonderM. </plain></SENT>
+<SENT sid="418" pm="."><plain>J. (2011). Trans-eQTLs reveal that independent genetic variants associated with a complex phenotype converge on intermediate genes, with a major role for the <z:uniprot sup="inside" fb="88" ids="P32411">HLA</z:uniprot>. PLoS Genet. 7, e100219710.1371/journal.pgen.100219721829388 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="419" pm="."><plain>FinkJ.GuF.LingL.TolfvenstamT.OlfatF.ChinK. </plain></SENT>
+<SENT sid="420" pm="."><plain>C. (2007). Host gene expression profiling of dengue virus infection in cell lines and patients. PLoS Negl. </plain></SENT>
+<SENT sid="421" pm="."><plain>Trop. </plain></SENT>
+<SENT sid="422" pm="."><plain>Dis. 1, e8610.1371/journal.pntd.000008618060089 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="423" pm="."><plain>FreedmanJ. </plain></SENT>
+<SENT sid="424" pm="."><plain>E.LarsonM. </plain></SENT>
+<SENT sid="425" pm="."><plain>G.TanriverdiK.O’DonnellC. </plain></SENT>
+<SENT sid="426" pm="."><plain>J.MorinK.HakansonA. </plain></SENT>
+<SENT sid="427" pm="."><plain>S. (2010). Relation of platelet and leukocyteinflammatorytranscripts to body mass index in the Framingham heart study. Circulation 13, 119–12920606121 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="428" pm="."><plain>FryR. </plain></SENT>
+<SENT sid="429" pm="."><plain>C.NavasumritP.ValiathanC.SvenssonJ. </plain></SENT>
+<SENT sid="430" pm="."><plain>P.HoganB. </plain></SENT>
+<SENT sid="431" pm="."><plain>J.LuoM. (2007). Activation of inflammation/NF-kappaB signaling in infants born to arsenic-exposed mothers. PLoS Genet. 3, e20710.1371/journal.pgen.003020718039032 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="432" pm="."><plain>GibsonG. (2008). The environmental contribution to gene expression profiles. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="433" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="434" pm="."><plain>Genet. 9, 575–58110.1038/ni0608-57518574472 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="435" pm="."><plain>GiladY.PritchardJ. </plain></SENT>
+<SENT sid="436" pm="."><plain>K.ThorntonK. (2009). Characterizing natural variation using next-generation sequencing technologies. Trends Genet. 25, 463–47110.1016/j.<z:uniprot sup="inside" fb="39" ids="A1TM63,Q6FEP9,B7H094,B7I4X8,B2I3C0,B0VKU6,A3M1Y6,B0V4R6,A0LSU9,A5FX03,B9MG13,A1W5B5,A3N2F5,B3GYI8,B0BRA0,A6VME0,A0KJU0,A4SM41,C4ZGF3,Q8UEU0,B9JEI6,B9JWZ2,B2UQZ3,Q0VQ91,Q5E6Q6,B5FBZ7,B6EHK2,Q0A6A6,A6TM60,A8MIS9,Q2IEW0,A7HFW0,Q5PBD1,Q2GJB3,B7GH24,O67358,A8EVH6,Q5P162,A0JXL5,Q2NJE2,Q9X6W7,A8HYF0,A1K784,C1DHE8,C3P9F8,C3L705,A0RJ90,Q81LB8,B7JQ66,Q72ZV3,B7IIY4,C1ETR9,B7HEA5,B7HQN3,A7GTF2,B9IZ48,Q812Q9,Q633X1,Q9K8F3,Q6HD53,Q65GJ3,A9VIU7,A8FFW0,Q5WEN8,P80698,A7Z7B3,A1USB3,Q6G3Y8,Q6FZK6,A9ISC1,Q1LTJ8,Q6MH01,B2IGP4,C5BXG1,B8DTD1,A1A236,B3DSL6,Q8G5Q7,B7GSV7,Q2L258,Q0SMP7,Q660R3,Q7WK84,O51555,B5RMG0,B2S0V7,Q7W8X3,A9IR57,Q7VXI8,B5RPV6,A1R039,Q89KG0,A5EKB0,A4YVM6,C0ZAG1,B2S5D1,Q2YNL3,Q57DK9,Q8YGT8,A5VQ80,Q8G129,B8D9Q1,P57546,Q8K991,B8D803,B1YRZ6,Q1BH86,B1JTV1,A0K848,B4EBM4,Q0BEF5,Q39FE7,A9AJQ9,A3MKJ9,A2SBG2,Q62JK6,A1V4X2,A3NWA7,Q3JRC7,A3NAI6,Q63V42,Q2SWQ8,A4JF06,B9MQ31,Q8RC26,A4XHV9,A7ZB34,A7GW44,A0RRI0,A7HZE7,A8FJZ4,Q46108,A1VXS1,Q5HWX5,B9KDZ7,Q3AF97,P0CAX0,B8GX17,B3PHK7,Q11HE1,Q5L4W8,Q3AU11,B3EGP8,Q9PLL9,B3QQT5,B3ENK5,A1BIQ7,Q9Z758,B0B8T3,B3QXY8,Q3KKY7,B0BAG2,Q8KB57,O84713,Q1QVW0,Q7NUY8,A8AK17,A5CR04,B0RAS0,Q97FT6,A7FYI3,C3KU78,A6LT26,B2UX14,B2TPC0,A5I6W2,C1FLA7,B1IND8,A7GIH3,B1L1D8,Q180E9,B9E686,A5N2K9,A0Q2L2,Q0TQK1,Q8XKK0,Q0ST52,Q891J6,Q47XL7,C3PI36,Q6NFU3,Q8FN35,A4QGE8,Q8NMZ9,Q4JWV5,C4LJV9,B6J8W5,B6J0W1,Q83DJ3,A7MFI9,Q1LM61,Q0KBK5,Q472D4,B3R4W0,Q6A7E7,Q47FB5,Q3Z8J9,A5FRE4,Q3ZX83,C1D0N3,Q1J199,Q9RT21,A9C1U7,C6BVE8,Q30Z77,C0QGS9,B8FA61,B1I4R5,B8IYM1,C4XH04,A8ZXB6,Q6AK58,A4J7M0,Q72CE9,B8DNL3,A1VE86,A5EWF6,A8LQQ9,A7ZIJ4,B7UJQ9,B7MD95,B7L673,P0A851,B5Z3U4,B7NJ58,B7MQF2,B7M3S9,C4ZTJ3,B1XFM4,A7ZX94,A1A8A5,Q0TKK5,Q8FKA7,B1J012,P0A850,B7N8Z0,B6HZP3,B1LJJ3,Q1RFA0,C5BCJ5,Q3YSQ4,Q2GFT7,Q5FFG8,Q5HBX6,A4W7A7,Q837W3,B2VHT7,Q2NDC7,B7LME3,B1YJW1,C4L4J0,B0S2N7,Q0RPH4,Q2JDR0,B0TZA4,A8L1X3,Q14IK0,A7NBR5,Q2A3U2,B2SG17,A0Q6T0,Q0BM93,Q5NH48,A4IYB7,Q8R5Z2,B5EI26,B9M0Y0,Q5KWJ8,B3E1Z5,Q39UH1,Q74C81,C6E2T1,C5D5L5,A4IRH3,A5GF99,Q7NDP0,A9HRV7,Q5FUR2,Q0BSJ5,Q7VN98,Q4QMK6,A5UE12,A5UHJ5,P44837,B8F6T9,Q0I4F2,Q2SK37,A1WUM8,B8CY75,C4K4P3,Q17XD2,Q7VIN8,B6JM26,B5Z7F7,Q1CT75,Q9ZL49,B2UT36,P56420,A9AUT1,A4G5X2,B0UW21,A3DJ09,Q31GF2,Q0C0H6,Q5QXN7,A6SY73,Q28RY2,A6WDU2,B5Y0U3,A6T5H9,B2GGB4,Q1IRD7,C5CGV0,Q5FKR7,Q03QN6,B3WE40,Q1GAP9,Q04B36,B2GBC3,Q042T6,A8YUS3,Q9CI15,A2RIM8,Q031H9,Q039K4,A9KSW9,Q88VE1,A5VJ93,B2G6R3,Q1WU82,Q38WR8,C1D538,Q1MQ80,Q5X450,A5ID18,Q5ZUD8,Q5WVI9,Q6AG00,Q04TR5,Q052U7,B1Y6H4,Q72SG7,Q8F351,B1MXT7,Q03W08,Q92C85,C1L2H5,Q720F5,B8DHN8,Q8Y7L0,A0AI70,B1HVE6,B9E748,A0LDT5,Q2W3H8,Q65RF4,A1U1Q4,Q0AQ08,A6VW19,Q6F159,B7KNS9,A9W5F4,Q1H1G1,B8IN25,B1Z9C6,A2SFB4,B1LV84,B0UD17,B8EIL1,B0JL93,Q2RL32,A0QDF1,B1MMV3,Q7TYJ1,A1KLF8,C1AES9,Q2SRX4,Q7NBA6,P47480,A4T2P3,Q601G9,Q4A8L6,Q4AAI5,B8ZRP5,Q9CBY2,B2HNG6,Q6KIK5,Q6MTF5,Q73XM7,Q8EV76,P75454,Q98R01,A0R199,Q4A5G1,A3Q2I4,A1UJ38,Q1B5Z8,A5U5F8,P9WG54,P9WG55,A0PU35,A1TCB8,Q1DAT1,B2A157,Q5F915,B4RMG6,A9LZP0,Q9JU32,Q9JZ37,A1KUE0,Q0AJI1,Q82Y58,Q1QL75,Q2Y6I9,Q3JAJ7,A6Q1C0,Q3SRD1,Q5Z064,A1SME5,B2IT89,Q8YQX9,Q2G3S9,Q8CXB7,A6X192,Q04D98,Q9RLJ3,B6JGU6,Q6YQC6,B1ZW06,A1R7A5,A1B0F4,A7HY57,B2JGL4,B2T3Z9,Q6MBF0,Q13Z16,P57980,Q6D828,C6DB54,Q03F26,Q3A3X4,B4SFE7,A1AN86,A5D446,Q4FM95,Q7N0L2,Q6LNV9,A4SXD5,A1VRH9,B1XUT0,Q12BY3,B4S4S0,A3PFE3,A2C5C0,A8G7G0,A2C5R7,A9BD99,A2BZ41,Q317Y7,Q7V9L7,B4EU52,Q7V991,Q7UZK8,A2BTN6,Q46ID5,Q48KZ1,Q15R45,A6V720,B7VB77,Q02KU3,Q9I2U2,B8HA36,Q1ICA9,Q4K9J5,C3JYK1,Q3IF53,A8F755,A4XTZ4,A5W636,Q3K9W8,B0KJG5,Q88KJ1,B1J691,Q87YR5,Q4ZVM8,A4VL77,Q4FQC0,Q1Q8J3,A1SUW6,A5WC71,Q8XYP8,A9WUW4,B3PXV9,Q2K952,Q1MHK9,Q98LE8,B5ZMH5,Q92Q12,Q7URG5,O68129,B6ISY8,C1A1N9,Q21Y68,Q0SGY9,C1AVQ6,Q2IWZ5,Q07NN7,Q6N5L2,Q215J3,Q135W6,B3Q7P6,Q2RU46,A3PKL8,Q3J1L8,A4WS82,B9KJP3,C3PLX7,A8GQ54,A8GUQ0,Q1RGS0,A8F062,Q92G20,Q4UJV2,A8F2Y2,Q9ZCB7,C4K233,B0BVJ0,A8GTZ8,Q68VS2,B7JW76,Q164N1,A5UZG3,Q1AVS8,Q5LR43,Q1GHV0,B8I8F4,A1AVN5,Q21KB0,A4F9F6,B5EXI7,A8M1L0,A9MM24,Q57SB6,B5FKV2,B5QTJ5,B5R6U8,B4T9E2,B4SWU0,Q5PFN3,A9MWX9,C0Q7X2,B5BD84,Q2RZ60,B4TMC5,P66933,P66932,A8GAQ8,A1S4X4,B8E5F0,A3D304,A6WLQ0,A9KWH6,Q12LA0,Q07ZX7,B0TLV0,A3QFX7,Q8EG20,A8H615,A4Y5I1,A0KYM0,A8FTH8,Q0HHA0,Q0HTK6,A1RL90,B1KLT8,B2U4P1,Q325G5,Q32JJ2,Q0T7E7,P0A852,Q3Z4W7,C3MBV9,A6U8Q2,Q2NV80,Q026Q4,Q1GUW1,A5V3U6,A7X397,A6U2E3,Q2FG61,Q2FXQ6,A5ITK0,Q2YTB4,Q5HF97,A6QHK9,P66934,P99080,Q6GG30,Q6G8Q0,A8Z2J6,P66935,B9DNC1,Q5HNM8,Q8CNY4,Q4L716,Q49YA7,Q3K3S4,Q8E7Q0,Q8E292,Q82CA7,Q9F314,C0M8K8,B4U4Y3,A8AVB8,B1VXA5,B4SLN0,B2FQR1,Q8CWZ6,P0C0E1,Q04M73,P0DF98,B5E7E2,Q5XA08,C1C5D8,Q8NZF6,Q1JK21,Q1JF14,Q1J4W9,A2RCL1,B1I9J5,B8ZLG8,Q48RE9,Q97SG9,P0DF99,B2ILU5,B5XIG1,Q8DR29,A4VZE3,C0MFQ7,A3CQB4,A4VT57,Q5M1S9,Q5M6C2,Q03MQ9,B9DTJ5,C1CCG7,C1CIQ2,C1CPR1,Q30NX0,A6Q674,Q67SK1,Q2LTK6,Q935Z3,A0LEF2,Q2JV31,Q2JQ33,B1XL18,Q5N1P5,A5GHT2,Q7UA35,A5GQ11,Q0IE18,Q3B0U0,Q3ANI7,Q0AWE9,Q55511,C5BTI9,Q8DLI3,Q47MU1,Q9WZF8,B9KAT4,A5IJ92,B0KBA5,B0K534,B9L1E4,B1L813,Q72L16,Q5SKM9,B5YI37,Q3SI97,B8GNT7,C4LDB2,Q73M39,O83519,B2S3A0,Q118P4,Q3M725,B1AIY6,Q9PQE4,B5ZBF7,C5CJT3,A1WR16,A5CXJ7,A5F6X1,A7MV84,Q9KQS5,C3LNM7,Q87R81,B7VI01,Q8DG25,Q7MMG8,Q73I58,B3CLB0,Q7M7M4,Q5GS82,Q8PNI6,Q3BWQ2,Q4URL3,B0RTF8,Q8PBY7,Q2P6Z1,B2SMI4,Q5H435,A7ILC5,B2I8K2,Q9PE42,B0U5N0,Q87E52,A1JNN4,A7FLC5,Q1C4K7,B2K6V6,Q8ZC64,A9QZQ4,Q1CL66,A4TPE4,Q66DT5,B1JHS2,Q5NNZ0">tig</z:uniprot>.2009.09.00319801172 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="437" pm="."><plain>HodgeA. </plain></SENT>
+<SENT sid="438" pm="."><plain>M.DowseG. </plain></SENT>
+<SENT sid="439" pm="."><plain>K.ZimmetP. </plain></SENT>
+<SENT sid="440" pm="."><plain>Z. (1992). Obesity in Pacific populations. Pac. </plain></SENT>
+<SENT sid="441" pm="."><plain>Health Dialog. 3, 77–86 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="442" pm="."><plain>HughesR. </plain></SENT>
+<SENT sid="443" pm="."><plain>G.MarksG. </plain></SENT>
+<SENT sid="444" pm="."><plain>C. (2009). Against the tide of change: diet and health in the Pacific islands. J. </plain></SENT>
+<SENT sid="445" pm="."><plain>Am. </plain></SENT>
+<SENT sid="446" pm="."><plain>Diet. </plain></SENT>
+<SENT sid="447" pm="."><plain>Assoc. 109, 1700–170310.1016/j.jada.2009.07.01519782168 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="448" pm="."><plain>IdaghdourY.CzikaW.ShiannaK. </plain></SENT>
+<SENT sid="449" pm="."><plain>V.LeeS. </plain></SENT>
+<SENT sid="450" pm="."><plain>H.VisscherP. </plain></SENT>
+<SENT sid="451" pm="."><plain>M.MartinH. </plain></SENT>
+<SENT sid="452" pm="."><plain>C. (2010). Geographical genomics of human leukocyte gene expression variation in southern Morocco. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="453" pm="."><plain>Genet. 42, 62–6710.1038/ng.49519966804 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="454" pm="."><plain>IdaghdourY.StoreyJ. </plain></SENT>
+<SENT sid="455" pm="."><plain>D.JadallahS. </plain></SENT>
+<SENT sid="456" pm="."><plain>J.GibsonG. (2008). A genome-wide gene expression signature of environmental geography in leukocytes of Moroccan Amazighs. PLoS Genet. 4, e100005210.1371/journal.pgen.10000518404217 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="457" pm="."><plain>InouyeM.SilanderK.HamalainenE.SalomaaV.HaraldK.JousilahtiP. (2010). An immune response network associated with blood lipid levels. PLoS Genet. 6, e100111310.1371/journal.pgen.100111320844574 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="458" pm="."><plain>JamisonD. </plain></SENT>
+<SENT sid="459" pm="."><plain>T.MosleyW. </plain></SENT>
+<SENT sid="460" pm="."><plain>H. (1991). Disease control priorities in developing countries: health policy responses to epidemiological change. Am. </plain></SENT>
+<SENT sid="461" pm="."><plain>J. </plain></SENT>
+<SENT sid="462" pm="."><plain>Public Health 81, 15–2210.2105/AJPH.81.1.151983911 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="463" pm="."><plain>KarlovichC.Duchateau-NguyenG.JohnsonA.McLoughlinP.NavarroM.FleurbaeyC. (2009). A longitudinal study of gene expression in healthy individuals. BMC Med. </plain></SENT>
+<SENT sid="464" pm="."><plain>Genomics 2, 3310.1186/1755-8794-2-3319500411 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="465" pm="."><plain>KawaiT.MoritaK.MasudaK.NishidaK.ShikishimaM.OhtaM. (2007). Gene expression signature in peripheral blood cells from medical students exposed to chronic psychological stress. Biol. </plain></SENT>
+<SENT sid="466" pm="."><plain>Psychol. 76, 147–15510.1016/j.biopsycho.2007.07.00817766027 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="467" pm="."><plain>KentJ. </plain></SENT>
+<SENT sid="468" pm="."><plain>W.Jr.GöringH. </plain></SENT>
+<SENT sid="469" pm="."><plain>H.CharlesworthJ. </plain></SENT>
+<SENT sid="470" pm="."><plain>C.DrigalenkoE.DiegoV. </plain></SENT>
+<SENT sid="471" pm="."><plain>P.CurranJ. </plain></SENT>
+<SENT sid="472" pm="."><plain>E. (2012). Genotype × age interaction in human transcriptional ageing. Mech. </plain></SENT>
+<SENT sid="473" pm="."><plain>Ageing Dev. 133, 581–59010.1016/j.mad.2012.07.00522871458 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="474" pm="."><plain>KimJ.GibsonG. (2010). Insights from GWAS into the quantitative genetics of transcription in humans. Genet. </plain></SENT>
+<SENT sid="475" pm="."><plain>Res. 92, 361–36910.1017/S001667231000056X </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="476" pm="."><plain>LakoV. (2001). Dietary trend and diabetes: its association among indigenous Fijians 1952 to 1994. Asia. </plain></SENT>
+<SENT sid="477" pm="."><plain>Pac. </plain></SENT>
+<SENT sid="478" pm="."><plain>J. </plain></SENT>
+<SENT sid="479" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="480" pm="."><plain>Nutr. 10, 183–18710.1046/j.1440-6047.2001.00255.x11708305 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="481" pm="."><plain>LalB. </plain></SENT>
+<SENT sid="482" pm="."><plain>V. (1986). Murmurs of dissent: Non-resistance on Fiji plantations. Hawaiian J. </plain></SENT>
+<SENT sid="483" pm="."><plain>Hist. 20, 188–214 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="484" pm="."><plain>MasonE.TroncG.NonesK.MatigianN.KimJ.AranowB. </plain></SENT>
+<SENT sid="485" pm="."><plain>J. (2010). Transmission of leukocyte gene expression profiles in population samples from Brisbane, Australia. PLoS ONE 5, e1447910.1371/journal.pone.001447921217831 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="486" pm="."><plain>MavoaH. </plain></SENT>
+<SENT sid="487" pm="."><plain>M.McCabeM. (2008). Sociocultural factors relating to Tongan’s and Indigenous Fijians’ pattern of eating, physical activity and body size. Asia Pac. </plain></SENT>
+<SENT sid="488" pm="."><plain>J. </plain></SENT>
+<SENT sid="489" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="490" pm="."><plain>Nutr. 17, 375–38418818156 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="491" pm="."><plain>MonksS. </plain></SENT>
+<SENT sid="492" pm="."><plain>A.LeonardsonA.ZhuH.CundiffP.PietrusiakP.EdwardsS. (2004). Genetic inheritance of gene expression in human cell lines. Am. </plain></SENT>
+<SENT sid="493" pm="."><plain>J. </plain></SENT>
+<SENT sid="494" pm="."><plain>Hum. </plain></SENT>
+<SENT sid="495" pm="."><plain>Genet. 75, 1094–110510.1086/42646115514893 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="496" pm="."><plain>MurrayC. </plain></SENT>
+<SENT sid="497" pm="."><plain>J.LopezA. </plain></SENT>
+<SENT sid="498" pm="."><plain>D. (1997). Mortality by cause for eight regions of the world: global burden of disease study. Lancet 349, 1269–127610.1016/S0140-6736(05)62208-89142060 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="499" pm="."><plain>MyersA. </plain></SENT>
+<SENT sid="500" pm="."><plain>J.GibbsJ. </plain></SENT>
+<SENT sid="501" pm="."><plain>R.WebsterJ. </plain></SENT>
+<SENT sid="502" pm="."><plain>A.RohrerK.ZhaoA.MarloweL. (2007). A survey of genetic human cortical gene expression. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="503" pm="."><plain>Genet. 39, 1494–149910.1038/ng.2007.1617982457 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="504" pm="."><plain>NakayaH. </plain></SENT>
+<SENT sid="505" pm="."><plain>I.WrammertJ.LeeE. </plain></SENT>
+<SENT sid="506" pm="."><plain>K.RacioppiL.Marie-KunzeS.HainingW. </plain></SENT>
+<SENT sid="507" pm="."><plain>N. (2011). Systems biology of vaccination for seasonal influenza in humans. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="508" pm="."><plain>Immunol. 12, 786–79510.1038/ni.206721743478 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="509" pm="."><plain>PeretzA.PeckE. </plain></SENT>
+<SENT sid="510" pm="."><plain>C.BammlerT. </plain></SENT>
+<SENT sid="511" pm="."><plain>K.BeyerR. </plain></SENT>
+<SENT sid="512" pm="."><plain>P.SullivanJ. </plain></SENT>
+<SENT sid="513" pm="."><plain>H.TrengaC. </plain></SENT>
+<SENT sid="514" pm="."><plain>A. (2007). Diesel exhaust inhalation and assessment of peripheral blood mononuclear cell gene transcription effects: an exploratory study of healthy human volunteers. Inhal. </plain></SENT>
+<SENT sid="515" pm="."><plain>Toxicol. 19, 1107–111910.1080/0895837070166538417987463 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="516" pm="."><plain>PollockN. </plain></SENT>
+<SENT sid="517" pm="."><plain>J. (1995). Cultural elaborations of obesity – fattening practices in Pacific societies. Asia Pac. </plain></SENT>
+<SENT sid="518" pm="."><plain>J. </plain></SENT>
+<SENT sid="519" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="520" pm="."><plain>Nutr. 4, 357–360 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="521" pm="."><plain>PowellJ. </plain></SENT>
+<SENT sid="522" pm="."><plain>E.HendersA. </plain></SENT>
+<SENT sid="523" pm="."><plain>K.McRaeA. </plain></SENT>
+<SENT sid="524" pm="."><plain>F.WrightM. </plain></SENT>
+<SENT sid="525" pm="."><plain>J.MartinN. </plain></SENT>
+<SENT sid="526" pm="."><plain>G.DermitzakisE. </plain></SENT>
+<SENT sid="527" pm="."><plain>T. (2012). Genetic control of gene expression in whole blood and lymphoblastoid cell lines is largely independent. Genome Res. 22, 456–46610.1101/gr.126540.11122183966 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="528" pm="."><plain>QinS. </plain></SENT>
+<SENT sid="529" pm="."><plain>P.KimJ.ArafatD.GibsonG. (2012). Effect of normalization on statistical and biological interpretation of gene expression profiles. Front. </plain></SENT>
+<SENT sid="530" pm="."><plain>Genet. 3, 16010.3389/fgene.2012.00160 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="531" pm="."><plain>SaitoS. (1995). 1993 National Nutrition Survey. Suva: National Food and Nutrition Centre </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="532" pm="."><plain>SchadtE. </plain></SENT>
+<SENT sid="533" pm="."><plain>E.MolonyC.ChudinE.HaoK.YangX.LumP. </plain></SENT>
+<SENT sid="534" pm="."><plain>Y. (2008). Mapping the genetic architecture of gene expression in human liver. PLoS Biol. 6, e10710.1371/journal.pbio.006010718462017 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="535" pm="."><plain>SchultzJ. </plain></SENT>
+<SENT sid="536" pm="."><plain>T.VatucawaqaP.TuivagaJ. (2007). 2004 Fiji National Nutrition Survey. Suva: National Food and Nutrition Centre </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="537" pm="."><plain>SiefkenmK.MacnivenR.SchofieldG.BaumanA.WaqanivaluT. (2012). Stocktake of physical activity programs in the Pacific Islands. Health Promot. </plain></SENT>
+<SENT sid="538" pm="."><plain>Int. 27, 197–20710.1093/heapro/dar02621561985 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="539" pm="."><plain>SkellyD. </plain></SENT>
+<SENT sid="540" pm="."><plain>A.RonaldJ.AkeyJ. </plain></SENT>
+<SENT sid="541" pm="."><plain>M. (2009). Inherited variation in gene expression. Annu. </plain></SENT>
+<SENT sid="542" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="543" pm="."><plain>Genomics Hum. </plain></SENT>
+<SENT sid="544" pm="."><plain>Genet. 10, 313–33210.1146/annurev-genom-082908-15012119630563 </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="545" pm="."><plain>SpurgeonS. </plain></SENT>
+<SENT sid="546" pm="."><plain>L.JonesR. </plain></SENT>
+<SENT sid="547" pm="."><plain>C.RamakrishnanR. (2008). High throughput gene expression measurement with real time PCR in a microfluidic dynamic array. PLoS ONE 3, e166210.1371/journal.pone.000166218301740 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="548" pm="."><plain>ThamanR. </plain></SENT>
+<SENT sid="549" pm="."><plain>R. (1988). Consumerism, the media and malnutrition in the Pacific Islands. J. </plain></SENT>
+<SENT sid="550" pm="."><plain>Pacific Stud. 14, 68–90 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="551" pm="."><plain>UlijaszekS. (2009). Modernization, migration and nutritional health of Pacific Island populations. Environ. </plain></SENT>
+<SENT sid="552" pm="."><plain>Sci. 12, 167–17616077468 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="553" pm="."><plain>XuQ.NiS.WuF.LiuF.YeX.MouginB. (2011). Investigation of variation in gene expression profiling of human blood by extended principle component analysis. PLoS ONE 6, e2690510.1371/journal. pone.002690522046403 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,511 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5004205</article-id><article-id pub-id-type="pii">srep32213</article-id><article-id pub-id-type="doi">10.1038/srep32213</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Spiro[pyrrolidine-3, 3´-oxindole] as potent anti-breast cancer compounds: Their design, synthesis, biological evaluation and cellular target identification </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Hati</surname><given-names>Santanu</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Tripathy</surname><given-names>Sayantan</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Dutta</surname><given-names>Pratip Kumar</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Agarwal</surname><given-names>Rahul</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Srinivasan</surname><given-names>Ramprasad</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Singh</surname><given-names>Ashutosh</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Singh</surname><given-names>Shailja</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Sen</surname><given-names>Subhabrata</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref></contrib><aff id="a1"><label>1</label><institution>Department of Chemistry, School of Natural Sciences, Shiv Nadar University, Dadri, Chithera</institution>, Gautam Buddha Nagar, 201314, Uttar Pradesh, <country>India</country></aff><aff id="a2"><label>2</label><institution>Department of Life Sciences, School of Natural Sciences, Shiv Nadar University, Dadri, Chithera</institution>, Gautam Buddha Nagar, 201314, Uttar Pradesh, <country>India</country></aff><aff id="a3"><label>3</label><institution>Shantani Proteome Analytics Pvt. Ltd. 100 NCL Innovation Park</institution>, Dr. HomiBhabha Road, Pune - 411 008, <country>India</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>subhabrata.sen@snu.edu.in</email></corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>08</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>6</volume><elocation-id>32213</elocation-id><history><date date-type="received"><day>28</day><month>04</month><year>2016</year></date><date date-type="accepted"><day>03</day><month>08</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016, The Author(s)</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>The Author(s)</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>The spiro[pyrrolidine-3, 3´-oxindole] moiety is present as a core in number of alkaloids with substantial biological activities. </plain></SENT>
+<SENT sid="2" pm="."><plain>Here in we report design and synthesis of a library of compounds bearing spiro[pyrrolidine-3, 3´-oxindole] motifs that demonstrated exceptional inhibitory activity against the proliferation of MCF-7 breast cancer cells. </plain></SENT>
+<SENT sid="3" pm="."><plain>The synthesis involved a one pot Pictet Spengler-Oxidative ring contraction of tryptamine to the desired scaffolds and occurred in 1:1 THF and water with catalytic trifluoroacetic acid and stoichiometric N-bromosuccinimide as an oxidant. </plain></SENT>
+<SENT sid="4" pm="."><plain>Phenotypic profiling indicated that these molecules induce apoptotic cell death in MCF-7 cells. </plain></SENT>
+<SENT sid="5" pm="."><plain>Target deconvolution with most potent compound 5l from the library, using chemical proteomics indicated <z:uniprot sup="inside" fb="0" ids="Q944K3,P56519,Q92769,P70288,Q6YV04">histone deacetylase 2</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot>) and <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">prohibitin 2</z:uniprot> as the potential cellular binding partners. </plain></SENT>
+<SENT sid="6" pm="."><plain>Molecular docking of 5l with <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> provided insights pertinent to putative binding interactions. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="7" pm="."><plain>Globally, breast cancer is one of the most common cause of fatalities in women. </plain></SENT>
+<SENT sid="8" pm="."><plain>Nearly 12% of the world wide women population is affected by this debilitating disease. </plain></SENT>
+<SENT sid="9" pm="."><plain>In 2012, 25% of cancer diagnosed women suffered from breast cancer. </plain></SENT>
+<SENT sid="10" pm="."><plain>In 2008, it inflicted fatalities to nearly 0.5 million people all over the world1. </plain></SENT>
+<SENT sid="11" pm="."><plain>Treatments for breast cancer involved mono and combination drug therapies, surgical and radiation techniques, novel targeted therapies and cancer vaccines234. </plain></SENT>
+<SENT sid="12" pm="."><plain>Variety of breast cancer drugs such as Tamoxifen™, Letrozole™, Docetaxyl™ and etc. are being prescribed to the patients as preventive and curative treatments567. </plain></SENT>
+<SENT sid="13" pm="."><plain>However undue toxicity and side effects in these medicines spoil their efficacy8910. </plain></SENT>
+<SENT sid="14" pm="."><plain>Consequently discovering novel,puissant small molecules as potential anti breast cancer drugs and with better safety profile is the need of the hour. </plain></SENT>
+<SENT sid="15" pm="."><plain>Interestingly natural products provide a healthy source for such compounds. </plain></SENT>
+<SENT sid="16" pm="."><plain>Among variety of natural product scaffolds the spiro[pyrrolidine-3, 3´-oxindole] scaffold forms the basic architectural motif in a plethora of natural as well as non-natural compounds that demonstrates pronounced anticancer activities. </plain></SENT>
+<SENT sid="17" pm="."><plain>It belonged to a family of natural products that were first isolated from plants Apocynaceae and Rubiacae family11. </plain></SENT>
+<SENT sid="18" pm="."><plain>The essential elements of these class of compounds is a pyrrolidine ring spiro fused at the 3rd position of the oxindole moiety with diverse substitution on both the pyrrolidine and oxindole rings. </plain></SENT>
+<SENT sid="19" pm="."><plain>For example Spirotryptostatin A and B,1 and 2 inhibits tubulin polymerization and induces cell cycle inhibition of cancer cells at G2/M phase and spirooxindole MI-5, 3, demonstrated novel type of inhibition of <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-<z:uniprot sup="inside" fb="0" ids="P56950,Q7YRZ8,P56951,Q00987,Q60524">MDM2</z:uniprot> protein-protein interaction that is critical for modulating tumor suppressing ability of the <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-proteins (Fig. 1)121314. </plain></SENT>
+<SENT sid="20" pm="."><plain>These interesting therapeutic attributes of spiro[pyrrolidine-3, 3´-oxindole] scaffolds, make them attractive synthetic targets. </plain></SENT>
+<SENT sid="21" pm="."><plain>There has been quite a few elegant chiral and achiral synthesis for this class of compound15. </plain></SENT>
+<SENT sid="22" pm="."><plain>For example intramolecular Mannich reaction of tryptamine or a tryptophan-derived oxindole and an aldehyde, oxidative ring contraction of tetrahydro-β-carbolines, dipolar cycloaddition reactions of azomethineylides with oxindolylidene 3-ylidene acetate and intramolecular Heck reaction followed by trapping of an η3-allylpalladium species by a tethered nitrogen nucleophile16171819. </plain></SENT>
+<SENT sid="23" pm="."><plain>There are also few one-pot synthesis to access this class of compounds, involving cycloaddition strategies2021. </plain></SENT>
+</text></p><p><text><SENT sid="24" pm="."><plain>Here we report design of a library of spiro[pyrrolidine-3, 3´-oxindole] as potential anti breast cancer molecule that are synthesized via one pot Pictet Spengler-Oxidative ring contraction strategy of tryptamines mediated by N-bromosuccinimide (NBS) (Fig. 2). </plain></SENT>
+<SENT sid="25" pm="."><plain>The compounds exhibited substantial inhibition in MCF-7 breast cancer cells where we could identify quite a few analogs with low micromolar EC50 values. </plain></SENT>
+<SENT sid="26" pm="."><plain>Phenotypic profiling indicated that these compounds induce cell death through apoptosis (Fig. 2). </plain></SENT>
+<SENT sid="27" pm="."><plain>A unique polymer technology based proteomics strategy divulged <z:uniprot sup="inside" fb="0" ids="Q944K3,P56519,Q92769,P70288,Q6YV04">histone deacetylase 2</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot>) and <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">prohibitin 2</z:uniprot> as the potential cellular binding partners (Fig. 2). </plain></SENT>
+<SENT sid="28" pm="."><plain>Molecular docking of the most active compound in the library with <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> revealed putative binding interaction that could be harnessed to achieve more potent molecules through target based approach. </plain></SENT>
+</text></p><SecTag type="RESULTS,DISCUSS"><sec disp-level="1"><title><text><SENT sid="29" pm="."><plain>Results and Discussion </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="30" pm="."><plain>Design </plain></SENT>
+</text></title><p><text><SENT sid="31" pm="."><plain>In the recent past, we had reported diversity oriented synthesis and phenotypic screening of spiropyrrolindole based potent antibreast cancer compounds 4, which exhibited inhibition of proliferation of MCF-7 cells with an IC50 of ~24–500 nM (Fig. 3)22. </plain></SENT>
+<SENT sid="32" pm="."><plain>Preliminary structure activity relationship (SAR) studies indicated that the aromatic or heteroaromatic functionality on the pyrrole moiety played a crucial role in imparting the inhibitory activity. </plain></SENT>
+<SENT sid="33" pm="."><plain>Next we scanned the literature and could identify several indole derivatives such as Chaetochosins G, Vinorelbine (NVB), Vincristine and Vinblastine to name a few that have exhibited potential activity against breast cancer (Fig. 3)23242526. </plain></SENT>
+<SENT sid="34" pm="."><plain>These findings highlighted the importance of spiropyrroloindole framework in breast cancer. </plain></SENT>
+<SENT sid="35" pm="."><plain>Subsequently we conceived a library of spiro[pyrrolidine-3, 3´-oxindole] 5. </plain></SENT>
+<SENT sid="36" pm="."><plain>Taking a cue from the preliminary SAR of 4, the design focused on diversifying the aromatic functionality of the pyrrole domain of 5 (Fig. 3). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="37" pm="."><plain>Chemistry </plain></SENT>
+</text></title><p><text><SENT sid="38" pm="."><plain>After close scrutiny of the existing strategies we realized that the oxidative ring contraction would be most amenable for our purpose as with modification it can provide the compounds in a combinatorial fashion. </plain></SENT>
+<SENT sid="39" pm="."><plain>The original sequence involved Pictet Spengler reaction of tryptamine with appropriate aldehydes to afford tetrahydro-β-carboline, which subsequently undergo oxidative ring contraction in presence of water, appropriate acid and an oxidant to generate the spiro[pyrrolidine-3, 3´-oxindole]27282930. </plain></SENT>
+<SENT sid="40" pm="."><plain>We envisioned a telescoping synthesis and subsequently remolded the sequence to make it a one pot procedure, where the intermediate tetrahydro-β-carboline need not be isolated. </plain></SENT>
+<SENT sid="41" pm="."><plain>Tryptamine and p-tolualdehyde were used as model substrates. </plain></SENT>
+<SENT sid="42" pm="."><plain>Variety of solvents such as tetrahydrofuran (THF), acetonitrile (ACN), 1, 4-dioxane, toluene, dichloromethane (DCM), ethylene glycol were used (Table 1, entry 1–7). </plain></SENT>
+<SENT sid="43" pm="."><plain>All the reactions were started at 0 °C and were warmed to various temperatures ranging from rt → 100 °C. </plain></SENT>
+<SENT sid="44" pm="."><plain>In most of the reactions the tetrahydro-β-carboline intermediate 4a was isolated along with the desired compound 5a. </plain></SENT>
+<SENT sid="45" pm="."><plain>Finally the optimized protocolthat included one equivalent of tryptamine, one equivalent of p-tolualdehyde and 1.1 equivalent of N-bromosuccinimide in 1:1 THF and water with catalytic trifluoroacetic acid at 0 °C → rt afforded the desired compound 5a exclusively in 81% yield (Table 1). </plain></SENT>
+</text></p><p><text><SENT sid="46" pm="."><plain>With the optimized procedure in hand, next we explored the scope of the reaction with variety of aromatic aldehydes and tryptamine. </plain></SENT>
+<SENT sid="47" pm="."><plain>The reactions were conducted in parallel in a custom made 20 mL, glass carousal and the compounds were purified using Flash Master Parallel (10 channel) Automated Flash Chromatography. </plain></SENT>
+<SENT sid="48" pm="."><plain>The reaction condition was amenable to both electron rich and electron poor aromatic aldehydes, affording the desired compounds 5b-5m in 45–94% yield (Fig. 4). </plain></SENT>
+<SENT sid="49" pm="."><plain>The electron poor aldehydes afforded the desired compounds 5b, d-e and 5m in relatively lower yields (45–60%) compared to the electron rich variant 5a/c and 5f-l (73–94%). </plain></SENT>
+<SENT sid="50" pm="."><plain>Interestingly, during the reaction of 2, 5-trifluoromethyl benzaldehyde, the final product 5m was obtained along with the corresponding tetrahydro-β-carboline intermediate in ~1:1 ratio. </plain></SENT>
+<SENT sid="51" pm="."><plain>This, indicated that during oxidative ring contraction of the corresponding tetrahydro-β-carboline intermediate, the C2-C7 bond migration depended on the nature of the substituent on the aromatic ring adjacent to the migrated bond and that electron withdrawing functionalities deter the migration (Fig. 4). </plain></SENT>
+<SENT sid="52" pm="."><plain>Finally the versatility of the protocol was further emphasized by the synthesis of the heteroaromatic analogs 5n and o in 59 and 64% yield respectively. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="53" pm="."><plain>In vitro screening and phenotypic profiling </plain></SENT>
+</text></title><p><text><SENT sid="54" pm="."><plain>To assess anti breast cancer potential of our library of compounds we screened them at 50 μM concentration against MCF-7 breast cancer cells using MTT colorimetric cell viability assay (Table 2). </plain></SENT>
+<SENT sid="55" pm="."><plain>Etoposide, the standard breast cancer drug was used as a positive control31. </plain></SENT>
+<SENT sid="56" pm="."><plain>From the compounds screened several displayed significant inhibition of the proliferation of MCF-7 cells, with EC50 values in low micromolar range (Table 2). </plain></SENT>
+<SENT sid="57" pm="."><plain>Preliminary structure-activity relationships demonstrate that electron withdrawing groups are tolerated at meta and electron donating groups at ortho and para positions. </plain></SENT>
+<SENT sid="58" pm="."><plain>The monosubstituted analogs are more potent than multiple substituted aromatic ring. </plain></SENT>
+<SENT sid="59" pm="."><plain>The 2, 5-bistrifluoromethyl- and 3, 4-bismethoxy-aryl analogs retained very weak activity (25–32% inhibition) whilst the unsubstituted analog 5l exhibited best potency with an EC50 of 3.5 μM. </plain></SENT>
+<SENT sid="60" pm="."><plain>It was interesting to observe that three of the most potent compounds 5e, i and l from our library did not inhibit the proliferation of healthy mammalian COS-7 and MCF10A cell lines. </plain></SENT>
+</text></p><p><text><SENT sid="61" pm="."><plain>Epithelial cell migration is an important characteristic of cancer cells. </plain></SENT>
+<SENT sid="62" pm="."><plain>In a bid to evaluate if compound 5i and l, inhibit cells migration, MCF-7 cells were treated with it. </plain></SENT>
+<SENT sid="63" pm="."><plain>The cells were photographed after 24 hours and the migration distance was measured. </plain></SENT>
+<SENT sid="64" pm="."><plain>The data indicated that both the compounds, indeed inhibit cell migration of MCF-7 cells compared to the untreated cells. </plain></SENT>
+<SENT sid="65" pm="."><plain>Again etoposide was used as positive control (refer supplementary information-page 75). </plain></SENT>
+<SENT sid="66" pm="."><plain>Further, to determine whether apoptosis (or programmed cell death) was the mechanism of cell death, DNA-ladder assay was used. </plain></SENT>
+<SENT sid="67" pm="."><plain>During apoptosis, fragmentation of nuclear proteins and DNA molecule result in chromatin condensation and formation of apoptotic bodies which is manifested as typical ladder fragmentation pattern when analyzed by gel electrophoresis32. </plain></SENT>
+<SENT sid="68" pm="."><plain>However, at times during this experiment instead of ladder fragmentation pattern, smearing is also observed, which indicates necrosis or killing of cells by autolysis33. </plain></SENT>
+<SENT sid="69" pm="."><plain>Experiments with 5i and 5l resulted in smearing of DNA fragments thereby indicating that both the compounds induce necrosis to MCF-7 cells. </plain></SENT>
+<SENT sid="70" pm="."><plain>No DNA internucleosomal fragmentation was observed in cells treated with 0.2% DMSO (vehicle control) (Figure 1, supplementary information). </plain></SENT>
+<SENT sid="71" pm="."><plain>Additionally necrosis was also confirmed by Annexin-PI <z:uniprot sup="inside" fb="5" ids="P9WQ36,P9WQ37">FACS</z:uniprot> based assay (Figure 2–11, supplementary information). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="72" pm="."><plain>Target deconvolution </plain></SENT>
+</text></title><p><text><SENT sid="73" pm="."><plain>Identifying cellular binding partners from a phenotypic screening is an onerous yet essential task. </plain></SENT>
+<SENT sid="74" pm="."><plain>Recently proteomic tools are harnessed to achieve this. </plain></SENT>
+<SENT sid="75" pm="."><plain>Herein we have identified cellular binding partners of 5l (the most active compound in our library against MCF-7) by employing a chemical proteomics method that involved our unique polymer technology34. </plain></SENT>
+<SENT sid="76" pm="."><plain>During the process 5l was immobilized on a polymer (based on nitrocellulose) in aqueous buffer condition and was washed several times with 1X TBS, phosphate buffer. </plain></SENT>
+<SENT sid="77" pm="."><plain>HPLC-UV based quantification of each buffer wash(refer supplementary information) indicated that 43% of 5l got retained in the matrix (Fig. 5). </plain></SENT>
+</text></p><p><text><SENT sid="78" pm="."><plain>Next, polymer immobilized 5l was incubated with MCF-7 cell lysate to facilitate drug-target interaction. </plain></SENT>
+<SENT sid="79" pm="."><plain>After washing with 1X TBS, the 5l-polymer complex bound proteins were recovered by acetone precipitation, dissolved in 1X sample buffer, separated on a 4–12% gradient gel and the bands were digested by standard “in-gel” <z:uniprot sup="inside" fb="60" ids="Q59149,P23916,P19799,P70059,P83348,P81071,P35049,P35050,O97399,P00761,P35034,P35051,P24664,P51588,P35048,P00764,P00775">trypsin</z:uniprot> digestion method35. </plain></SENT>
+<SENT sid="80" pm="."><plain>The target capture experiments involved mass spectrometry analysis of the gel slices in an Agilent 1260 infinity HPLC-Chip/MS system and ran in triplicates where a total of 1838 protein in control and 2184 proteins in 5l group were identified. </plain></SENT>
+<SENT sid="81" pm="."><plain>The differential proteins (that are present in 5l but not in control group) which were common in all the three experiments were identified as the putative targets and are enlisted in the table below (Table 3). </plain></SENT>
+</text></p><p><text><SENT sid="82" pm="."><plain>Of these seven proteins, <z:uniprot sup="inside" fb="0" ids="Q944K3,P56519,Q92769,P70288,Q6YV04">Histone deacetylase 2</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot>) and <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">prohibitin2</z:uniprot> (Table 3, entry 1 and 2) have been well demonstrated in scientific literature on their role in cancer. </plain></SENT>
+<SENT sid="83" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> is a histone deacetylase enzyme that is over-expressed in various types of cancer including breast cancer36. </plain></SENT>
+<SENT sid="84" pm="."><plain>Vorinostat, an HDAC inhibitor is an US-FDA approved drug for the treatment of lymphomas37. </plain></SENT>
+<SENT sid="85" pm="."><plain>It is possible that 5l exerts its anti-cancer activity by inhibiting <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot>. </plain></SENT>
+<SENT sid="86" pm="."><plain>Recent studies highlight that <z:uniprot sup="inside" fb="0" ids="Q3T165,P84173,P35232,P86220,P67778,P67779">prohibitin</z:uniprot> is involved in estrogen dependent breast cancer38. </plain></SENT>
+<SENT sid="87" pm="."><plain>It is a mitochondrial protein and is considered essential for structural integrity of mitochondrial membrane and is also involved in pro-survival mechanisms. </plain></SENT>
+<SENT sid="88" pm="."><plain>Compounds that bind to <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">Prohibitin-2</z:uniprot> has been shown to induce apoptosis39. </plain></SENT>
+<SENT sid="89" pm="."><plain>Several other mitochondrial proteins such as NAD(P) transhydrogenase and <z:uniprot sup="inside" fb="0" ids="B0CFX4,A9NGN9,A1TRL4,Q6FCT2,B2HWK7,A3M3W2,B0VAI3,A0LUJ2,A5FXC2,Q56273,A1W7D0,A3N018,B3H177,B0BNS8,A6VKD6,A0KPG1,Q9Y9X3,A4SS99,Q8UE87,B2UKT4,Q0VNK2,Q5E7G5,Q0A8K7,A6TQZ4,A8MGI3,Q2IG40,A7HH87,Q5PBJ0,Q2GJ36,O67323,Q9XDM3,P36428,A8EWI6,O28029,Q5P7Q3,A0JX88,Q2NJ60,A8ICW8,A1K991,A0RJ00,Q81LK0,P61697,A7GT67,Q817Z0,Q634F6,Q5LHE6,Q64YB4,Q9KDE6,Q6HDD7,Q65GS5,A9VI09,A8FFM9,Q5WHM8,O34526,Q8A0M6,A6L1L8,A7Z735,P70865,A1USS4,Q6G2Z4,Q6FZF1,A9IVY8,Q1LTQ4,P61698,B2IHX3,A1A198,Q8G5W9,Q7VQG3,Q493M6,Q2KY72,Q0SNU2,Q662E4,Q7WHL6,O51238,B2RZT0,Q7W6N4,A9IK31,Q7VXE1,Q89I89,A5EML9,A4YXQ6,Q2YRU8,Q57CU0,A9M5L7,P67008,A5VQX4,B0CGZ9,P67009,P57483,Q8K9E7,P59420,Q057H8,B1YNJ6,Q1BX19,B1K026,A0K6N4,Q0BG79,Q39HB7,A9AC16,A3MJ36,A2S3D4,Q62KZ3,A1V3F2,A3NUB0,Q3JT87,A3N8K7,Q63TF9,Q2SV73,A4JDM9,A8MBI2,Q8RAH4,A4XKP4,A7ZE62,A7GZA4,A0RPR0,A7I206,A8FKT2,A7H4N3,Q9PI05,A1VYL8,Q5HVQ7,Q5A8K2,Q3AEN8,B0SZN4,Q9A5C1,A0RX10,Q11IW3,A9WCR2,Q5L512,Q3ATN3,Q821R2,Q255X6,Q9PLH5,A1BD33,A4SGJ6,Q9Z714,B0B8X5,Q3KKU4,B0BAK4,Q8KG04,O84754,Q1QZX1,Q7NXM2,A8ANQ1,A5CRZ5,B0REK2,Q97IG3,A7FWJ5,A6LSF6,B2V3W2,B2THN0,A5I4Z5,B1IJG7,A7GGF1,B1KXB7,Q18BE7,A5N7T5,A0Q151,Q0TPH4,Q8XJH6,Q0SS42,Q896F2,Q487H5,P61699,Q8FT23,A4QEK7,Q8NQ22,Q4JVF5,B1VDL4,A9KG28,A9NCN7,Q83CQ6,B1WYQ5,A7MJ41,Q1LQ59,Q0K823,Q474F4,Q6A8I8,Q11V49,Q47AU8,Q3ZAE4,A5FSU1,Q3ZWC3,Q1IW89,Q9RS27,A9C0B9,Q30YS5,B1I370,Q24UT2,A8ZY67,Q6AQ16,A4J2K4,P61700,A1VEQ6,A5EW88,A8LL20,A7ZQC5,Q8X3W8,B1XCM5,A8A3H4,A1AEN7,Q0TEI3,B1IUY2,P00957,B1LQ15,Q1R804,Q3YSV8,Q2GFL5,Q5FH56,Q5HC27,B2KAQ0,Q5AQL1,A4WDQ6,Q835J8,Q2N9K5,B1YJE5,A7HN59,B0S104,A5FIP9,A6H0Y3,Q0RF65,Q2J821,B0TZY8,A8LCW4,Q14HB9,A7NCD9,Q2A3A9,B2SH99,A0Q604,Q0BLS9,Q5NFW7,A4IZ01,Q8RFJ8,Q5KWU5,Q39Z77,P61701,A4IR80,A5GD98,Q7NI36,Q5FQ21,Q0BSD5,A0LXX3,Q7VLK0,Q4QM86,A5UDR0,A5UHW6,P43815,Q0I426,Q2SBT9,A1WXK5,B9LUG4,Q5UZE6,B0R7I0,Q9HN24,Q18E76,Q17ZF3,Q7VHV4,B0TFY7,Q1CS22,Q9ZJY5,B2UV04,P56452,A9B660,A4G2S9,B0UTE1,A3DKB6,Q31F91,A2BN65,Q0BYM3,Q5QUV7,A8A8X8,A6SVH6,Q28QV8,A6WCF7,A6TCV9,B2GIA1,B1L762,Q1IJG7,Q5FLW6,Q03R43,Q1G947,Q048Z3,Q045P6,A8YTJ0,P61702,Q9CEW0,A2RME6,Q02XE9,Q03B02,Q88V10,Q1WT32,Q38YN9,Q1MP42,Q5X4B7,A5ICV6,Q5ZUJ9,Q5WVQ2,Q6AFA1,B0SGD3,Q04QG6,Q054G6,B0SPT4,B1Y1G9,P61703,Q8F0T4,B1MXP8,Q03YQ2,Q92BK9,Q71ZG6,Q8Y722,A0AIV3,B1HUK4,A0L3J9,Q2W1D9,Q65VQ5,A1TZ92,Q0AQY6,A6W1F1,Q6F0K3,A6UUN3,Q8TU79,Q0W5Q9,A7I7S4,Q46CS0,Q12U25,Q60BS6,A9W5Y4,Q1H3U9,Q2FQD6,B3E044,Q57984,Q8TWY1,A2ST90,A4FZA5,A9A6Q2,A6VJ32,Q8PWU0,A3CVP2,P61710,B1ZC90,A2SI90,B1M0N0,A5UKU6,B0UGC4,A4YH91,Q2NEW4,O27718,A0B6X3,A6US09,B0JI84,Q2RHZ3,A0QI75,A5IYK5,Q7TYB1,A1KLQ3,Q2SSW4,Q7NBY8,P47534,A4TBW4,Q601M2,Q4A8G4,Q4AAD3,Q9CCT0,B2HNC1,Q6KHK5,P61704,P61705,Q8EUR6,P75368,Q98Q12,A0QWQ4,Q4A633,A3PZ44,A1UFI3,Q1B9I0,A5U5Q5,P9WFW6,P9WFW7,A0PPG6,A1T8E8,Q1D084,Q3ITT7,B2A5J7,Q5F7C4,A9M198,Q9JTG4,Q9JYG6,A1KV20,Q2GEP2,Q0AHX2,Q82TF8,Q1QMV7,A9A565,Q2YD40,Q3JCK8,A6Q576,Q3ST43,Q5YTJ9,A1SJC7,B2J876,Q8YUD4,Q2G8V0,Q8EPS9,A6X0E9,Q04EQ9,Q6YQR8,B1ZZ40,A5CD03,B3CST3,A1R709,A6LEZ8,A1AZL6,A7HWA5,B2JK72,B2SZN0,Q6MB06,Q13W97,P57933,Q6D1T0,Q03ER8,Q3A1W0,Q3B1I7,A1ATU9,A5D3F4,Q4FMX6,A9BJE0,Q7N7A5,Q6LMU3,Q6L1Z4,A4SZL8,A1VQK2,Q129G8,Q7MV54,A3PA95,A2BZG2,A8G242,A2CDK7,A9B9E5,A2BTZ9,Q31DD9,Q7VEG5,Q7V419,Q7V3N0,A2BNH2,Q46I13,Q48G25,Q15RG5,A6VA71,Q02I63,Q9I553,Q1I6Z8,Q4K843,Q3ILF3,A8F866,A4XWE2,A5W0D9,Q3K892,B0KR43,Q88EI8,B1JCG9,Q885J0,Q4ZQI4,A4VJB3,Q4FRQ0,Q1QA88,A1T001,A5WFW1,Q9UY36,Q8ZSV6,A4WN07,A3MXP1,Q8U425,O58035,A1RT13,B1YDH4,Q8Y193,A9WSC4,Q2K7T4,Q1MFZ9,Q98NQ5,P24075,P27866,Q7UFH9,Q221G2,Q0S0N7,Q2ITM9,Q07R87,P61706,Q218Q3,Q13AB9,Q2RQI0,A3PLJ1,Q3J0R1,A4WV47,A8GQ73,Q1RKG2,A8F078,Q92G00,Q4UJT5,A8F323,Q9ZCA4,B0BVK9,A8GU16,Q68VQ7,A7NQA5,Q165U5,A5UY81,Q1AWA6,Q5LRU1,Q1GHA1,A1AXE0,Q21L68,A4FBD3,P96041,A8LXY8,A9MFZ1,Q57KU6,Q5PF17,A9N0C1,Q2S2B6,Q8Z4D5,A4X5Z0,Q8ZMK6,O13914,A8GA09,A1S4E9,A3D783,A6WR16,A9KYF8,Q12PX7,Q085Z9,B0TK15,A3QC89,Q8EBS1,A8H1T6,A4Y931,A0KU94,A8FSV6,Q0HL60,Q0HXF8,A1RHG5,B1KPS5,B2U049,Q31X62,Q32CN1,Q0T1C3,Q7UBU3,Q3YYG6,A6U9N4,Q2NVL2,Q01XA0,A9FRF5,Q1GSD9,A5V3L0,A7X328,A6U287,Q2FGA8,Q2FXV9,A5ITE3,Q2YT60,Q5HFE4,A6QHF9,P67010,P67011,Q6GG85,Q6G8V1,A8Z4F6,Q8NW87,Q5HNT2,Q8CSA7,Q4L6W5,A3DNI3,Q49Y56,Q3K1P7,Q8E600,Q8E0C4,Q827S4,Q9KXP9,A8AYI8,B1W3I1,B2FL33,Q8CWY0,Q99Z57,Q04JW5,P0DG24,Q5XBH1,Q8P0E6,Q1JB08,Q1JL53,Q1JG77,Q1J5Z4,A2RDY3,B1ICI3,Q48SS4,Q97Q48,P0DG25,B2IQK0,Q8DPC7,A4W221,A3CLY3,A4VVR3,Q5M126,Q5M5L5,Q03LZ8,P35029,Q30PA9,C3MZC2,C4KIK1,C3MR87,C3MXH6,C3NG91,C3N7E3,A6Q747,B2V709,Q971J4,Q67MV8,Q2LPL7,Q31PW3,A0LLA3,Q2JTG8,Q2JLC4,B1XP68,Q5N4B5,A5GPF9,Q7U3R9,A5GWM4,Q0I6G6,Q3AVV3,Q3AGN4,Q0AZQ1,P74423,Q9HJW4,Q8DH56,Q47N66,Q5JIL7,A6LMH9,Q9X1B6,A5IMH8,B0K994,A1RWQ1,B0K0Q1,B1LBS9,P61707,P74941,Q97AH7,Q3SLA9,P61708,O83980,Q10VG8,Q3MGN4,Q83HV0,Q83GD1,B1GZ43,B1AJ08,Q9PQC2,A1WIG8,A5CVU0,A5F9B7,A7MYT5,Q56648,Q87LR3,Q8DC49,Q7MHR6,Q8D2W8,P61709,Q7MAD3,Q5GSS5,Q8PLQ0,Q3BUQ7,Q4UTR6,B0RTY1,Q8P9X0,Q2P1N1,B2SUD0,Q5GYM8,A7IMR0,B2I6K2,Q9PH22,B0U1K9,Q87F43,A1JK09,A7FLR7,Q1C420,B2K5X9,Q8ZBT8,A9R0V7,Q1CLK9,A4TQ52,Q66E68,B1JJA0,Q9RNN8">Alanine-tRNA ligase</z:uniprot> (Table 3, entry 5 and 6) could have possibly co-eluted along with <z:uniprot sup="inside" fb="0" ids="Q3T165,P84173,P35232,P86220,P67778,P67779">Prohibitin</z:uniprot>. </plain></SENT>
+<SENT sid="90" pm="."><plain>However, this needs careful interpretation of not losing sight that these proteins have been observed in every experiment as a differential protein and thus could be 5l target on its own. </plain></SENT>
+<SENT sid="91" pm="."><plain>Targets such as <z:uniprot sup="inside" fb="0" ids="Q9NQC3,Q99P72,Q9JK11">reticulon-4</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q28298,Q9P2E9,Q99PL5">Ribosome-binding protein 1</z:uniprot>, t-RNA (cytosine(34)-C(5))-methyltransferase (Table 3, entry 3, 4 and 7) needs further analysis as there is only a limited literature available on their role in any form of cancer or cellular toxicity. </plain></SENT>
+<SENT sid="92" pm="."><plain>Hence <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">Prohibitin 2</z:uniprot> are considered top priority targets for 5l (Table 3). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="93" pm="."><plain>Molecular docking </plain></SENT>
+</text></title><p><text><SENT sid="94" pm="."><plain>Next, we conducted molecular docking of 5l with <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> (Protein Data Bank [PDB] ID of 4LY1, this crystal structure is chosen as it has the best resolution (1.57 Å) among all <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> crystal structures in PDB) to understand their putative binding interaction. </plain></SENT>
+<SENT sid="95" pm="."><plain>Interestingly, it revealed several bonding and non-bonding interactions that could rationalize <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> as the deconvoluted target for 5l in MCF-7. </plain></SENT>
+<SENT sid="96" pm="."><plain>There is a hydrogen bond between HIS183 residue and 5l at a distance of 2.23Å. </plain></SENT>
+<SENT sid="97" pm="."><plain>Several hydrophobic interactions were observed between 5l and amino acids PHE155, PHE210 and LEU276. </plain></SENT>
+<SENT sid="98" pm="."><plain>Finally two pi-stacking between 5l and <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> further strengthens their binding. </plain></SENT>
+<SENT sid="99" pm="."><plain>The overall binding energy of 5l-<z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> complex is -6.35 kcal/mol (Fig. 6). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec disp-level="1"><title><text><SENT sid="100" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="101" pm="."><plain>Herein we discussed design of a library of spiro[pyrrolidine-3, 3´-oxindole] inspired from natural and non-natural products which are efficacious against breast cancer. </plain></SENT>
+<SENT sid="102" pm="."><plain>The library synthesis involved a one pot Pictet Spengler-oxidative ring contraction strategy. </plain></SENT>
+<SENT sid="103" pm="."><plain>In general it is a two-step procedure involving Pictet Spengler reaction between tryptamine and appropriate aldehydes to afford β-carbolines followed by NBS-mediated oxidative ring contraction. </plain></SENT>
+<SENT sid="104" pm="."><plain>After a thorough exploration of reaction conditions we were enabled to telescope these two steps into one, which provided access to these compounds in moderate to excellent yields. </plain></SENT>
+<SENT sid="105" pm="."><plain>Interestingly no aromatic ring brominated product was isolated as the byproduct during the reaction. </plain></SENT>
+<SENT sid="106" pm="."><plain>This further highlights the efficiency of this process. </plain></SENT>
+<SENT sid="107" pm="."><plain>Phenotypic screening against MCF-7 revealed several active compounds with EC50 in low μmolar range (5e, i and l). </plain></SENT>
+<SENT sid="108" pm="."><plain>Etoposide was used as the +ve control and the activity of the most potent compounds, were comparable to it. </plain></SENT>
+<SENT sid="109" pm="."><plain>Further phenotypic profiling indicated that these compounds induce necrotic cell death to MCF-7. </plain></SENT>
+<SENT sid="110" pm="."><plain>Identifying cellular targets from phenotypes is an essential yet extremely tedious effort. </plain></SENT>
+<SENT sid="111" pm="."><plain>Various strategies such as affinity chromatography, activity based protein profiling, label-free techniques, expression cloning techniques and in silico approaches have been harnessed to achieve this4041424344. </plain></SENT>
+<SENT sid="112" pm="."><plain>Our target deconvolution strategy with the most active compound 5l included a unique polymer technology via nitrocellulose based polymer that deciphered <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">Prohibitin 2</z:uniprot> as the potential cellular binding targets in MCF-7. </plain></SENT>
+<SENT sid="113" pm="."><plain>Molecular modelling with <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> and 5l divulged putative binding interaction. </plain></SENT>
+<SENT sid="114" pm="."><plain>This effort exhibited an efficient early drug discovery process involving phenotypic screening. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec disp-level="1"><title><text><SENT sid="115" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="116" pm="."><plain>In summary a novel compound 5l has been discovered via a facile one pot Pictet Spengler-oxidative ring contraction strategy that exhibited substantial inhibition against MCF-7 cells with low μmolar EC50. </plain></SENT>
+<SENT sid="117" pm="."><plain>It belonged to a library of compounds based on spiro[pyrrolidine-3, 3´-oxindole] motif. </plain></SENT>
+<SENT sid="118" pm="."><plain>The library design was inspired from natural and synthetic products with similar architecture that displayed efficacy against breast cancer cells. </plain></SENT>
+<SENT sid="119" pm="."><plain>Phenotypic profiling indicated that it induces cell death by necrosis pathway. </plain></SENT>
+<SENT sid="120" pm="."><plain>A novel proteomics based target deconvolution strategy divulged <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> and prohibit 2 as putative targets. </plain></SENT>
+<SENT sid="121" pm="."><plain>Interestingly compounds 5e, i and l selectively presented deleterious effects on MCF-7 and presented little or no effect on the corresponding primary cell line MCF10A. </plain></SENT>
+<SENT sid="122" pm="."><plain>This is not surprising as these two cells are genetically different. </plain></SENT>
+<SENT sid="123" pm="."><plain>Additionally it can also be hypothesized that <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> which is the potential target for 5l, is over expressed in MCF-7 and not in MCF10A. </plain></SENT>
+<SENT sid="124" pm="."><plain>Presently SAR studies involving 5l and related analogs, with <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> as drug target (for breast cancer) is ongoing in our lab. </plain></SENT>
+<SENT sid="125" pm="."><plain>The results will be reported in due course. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec disp-level="1"><title><text><SENT sid="126" pm="."><plain>Methods </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="127" pm="."><plain>Chemical synthesis </plain></SENT>
+</text></title><p><text><SENT sid="128" pm="."><plain>All reactions were carried out in flame-dried tubes with magnetic stirring. </plain></SENT>
+<SENT sid="129" pm="."><plain>Unless otherwise noted, all experiments were performed under argon atmosphere. </plain></SENT>
+<SENT sid="130" pm="."><plain>All reagents were purchased from Sigma Aldrich, Acros or Alfa Aesar. </plain></SENT>
+<SENT sid="131" pm="."><plain>Solvents were treated with 4 Å molecular sieves or sodium and distilled prior to use. 1H NMR and 13C NMR spectra were recorded with tetramethylsilane (TMS) as internal standard at ambient temperature unless otherwise indicated Bruker 500 MHz for 1 H NMR and 125 MHz for 13C NMR. </plain></SENT>
+<SENT sid="132" pm="."><plain>Chemical shifts are reported in parts per million (ppm) and coupling constants are reported as Hertz (Hz). </plain></SENT>
+<SENT sid="133" pm="."><plain>Splitting patterns are designated as singlet (s), broad singlet (bs), doublet (d), triplet (t). </plain></SENT>
+<SENT sid="134" pm="."><plain>Splitting patterns that could not be interpreted or easily visualized are designated as multiple (m). </plain></SENT>
+<SENT sid="135" pm="."><plain>The Mass Spectrometry analysis was done on the 6540 UHD Accurate-Mass Q-TOF LC/MS system (Agilent Technologies) equipped with Agilent 1290 LC system obtained by the Dept. of Chemistry, School of Natural Sciences, Shiv Nadar University, Uttar Pradesh 201314, India. </plain></SENT>
+</text></p><p><text><SENT sid="136" pm="."><plain>MCF10A was obtained from American Tissue Type Culture Collection (ATCC, Bethesda, MD). </plain></SENT>
+<SENT sid="137" pm="."><plain>All cells were grown in a humidified atmosphere at 37 °C, with 5% CO2 in air. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="138" pm="."><plain>Cell culture conditions </plain></SENT>
+</text></title><p><text><SENT sid="139" pm="."><plain>MCF-7 cells were maintained as monolayer in 25 cm2 culture flasks (T-25) at 37 °C in DMEM medium (GIBCO, St. Louis, USA) supplemented with high glucose, L-glutamine, pyridoxine hydrochloride, 110 mg/L sodium pyruvate, 3.7 g/L NaHCO3 and antibiotics (Penicillin-10,000 units/mL, Streptomycin −10,000 μg/mL, GIBCO, USA). </plain></SENT>
+<SENT sid="140" pm="."><plain>Growth medium (pH 7.4) was prepared by adding 5% heat inactivated FBS (Fetal Bovine Serum, GIBCO, USA) and stored at 4 °C. </plain></SENT>
+<SENT sid="141" pm="."><plain>The medium was changed 10–18 hrs prior to experiment, and cells were confluent at the time of experimentation. </plain></SENT>
+<SENT sid="142" pm="."><plain>Cells were dislodged from flasks by gentle trypsinization containing 0.25% <z:uniprot sup="inside" fb="60" ids="Q59149,P23916,P19799,P70059,P83348,P81071,P35049,P35050,O97399,P00761,P35034,P35051,P24664,P51588,P35048,P00764,P00775">Trypsin</z:uniprot>. </plain></SENT>
+<SENT sid="143" pm="."><plain>MCF-7 cells were regularly sub-cultured thrice a week in a seeding density of 40,000–50,000 cells/cm2area. </plain></SENT>
+<SENT sid="144" pm="."><plain>Cell confluency = 70% </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="145" pm="."><plain>Cell Viability Assay (MTT Assay) </plain></SENT>
+</text></title><p><text><SENT sid="146" pm="."><plain>The MTT colorimetric viability assay was performed to evaluate the anticancer effect of compounds. </plain></SENT>
+<SENT sid="147" pm="."><plain>30,000 cells/100 μl of media were seeded per well and allowed to stretch and adhere overnight at 37 °C. </plain></SENT>
+<SENT sid="148" pm="."><plain>Following day media was removed and 100 μl fresh media was added to the grown cells. </plain></SENT>
+<SENT sid="149" pm="."><plain>Adhered cells were then treated with the compounds 5a-m dissolved in DMSO in triplicates at a standard concentration of 50 μM for 48 hours. </plain></SENT>
+<SENT sid="150" pm="."><plain>There was one positive and one negative control along with 13 compounds. </plain></SENT>
+<SENT sid="151" pm="."><plain>The results were measured all in triplicate in 45 wells of 96 well plate at each time point. </plain></SENT>
+<SENT sid="152" pm="."><plain>Cytotoxic effect was evaluated using ability of live cells to cleave MTT ((3-[4, 5- dimethylthiazol-2-yl]-2, 5-diphenyl tetrazolium bromide)) (Sigma-Aldrich, St Louis, MO, USA), into formazan crystals. </plain></SENT>
+<SENT sid="153" pm="."><plain>Post 48 hours of treatment, 10 μl of MTT (5 mg/ml in PBS) was added to the cells and incubated for 4 hours in dark at 37 °C. </plain></SENT>
+<SENT sid="154" pm="."><plain>The violet colored crystals formed were then dissolved in 100 μl DMSO solvent (Dimethyl Sulfoxide, Sigma-Aldrich, St. Louis, MO, USA). </plain></SENT>
+<SENT sid="155" pm="."><plain>The colorimetric assay was read by a MultiMode Plate Reader (Bio-Rad) at 595 nm. </plain></SENT>
+<SENT sid="156" pm="."><plain>Percentage of Inhibition of drug was calculated by following formula: </plain></SENT>
+</text></p><p><text><SENT sid="157" pm="."><plain> </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="158" pm="."><plain>Cell Migration assays </plain></SENT>
+</text></title><p><text><SENT sid="159" pm="."><plain>MCF-7 cells were grown to confluence in six-well tissue culture plastic dishes to a density of ∼0.2 million cells/well. </plain></SENT>
+<SENT sid="160" pm="."><plain>After 24 hrs of seeding, cells were treated with chemical compounds. </plain></SENT>
+<SENT sid="161" pm="."><plain>The medium was removed and the cells were scratched by 200 μL pipette micro tip through the center of the plate. </plain></SENT>
+<SENT sid="162" pm="."><plain>The cultures were washed to remove debris and re-cultured with DMEM containing 10% FBS for cell migration. </plain></SENT>
+<SENT sid="163" pm="."><plain>The cells were imaged at 24 hrs and the migrated distance was measured. </plain></SENT>
+<SENT sid="164" pm="."><plain>Migration rate was calculated by counting five to seven fields per image and the results presented as the average of three independent experiments performed over multiple days. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="165" pm="."><plain>DNA fragmentation assay </plain></SENT>
+</text></title><p><text><SENT sid="166" pm="."><plain>The DMSO (dimethyl sulphoxide)–SDS (sodium dodecyl sulphate)–TE (Tris-EDTA) method: 2 million MCF-7cells were taken as starting material for DNA isolation. </plain></SENT>
+<SENT sid="167" pm="."><plain>Cells were dislodged with <z:uniprot sup="inside" fb="60" ids="Q59149,P23916,P19799,P70059,P83348,P81071,P35049,P35050,O97399,P00761,P35034,P35051,P24664,P51588,P35048,P00764,P00775">Trypsin</z:uniprot>-EDTA and washed with 1 X PBS. </plain></SENT>
+<SENT sid="168" pm="."><plain>DMSO was added directly to the cell pellet (100 μl) and mixed well by pipetting. </plain></SENT>
+<SENT sid="169" pm="."><plain>TE buffer (pH 7.4) with 2% SDS was added into the mixture with same volume, followed by pipetting. </plain></SENT>
+<SENT sid="170" pm="."><plain>The solution was centrifuged at 3000 rpm at 4 °C and 30 μL of the supernatant was loaded on agarose gel to check the effect of drugs on DNA molecule. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="171" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P81287,P17153,P70075,P08758,Q4R4H7,P48036,Q5R1W0,P14668">Annexin V</z:uniprot>/propidium iodide staining </plain></SENT>
+</text></title><p><text><SENT sid="172" pm="."><plain>The assay is based on the ability of the protein <z:uniprot sup="inside" fb="0" ids="P81287,P17153,P70075,P08758,Q4R4H7,P48036,Q5R1W0,P14668">annexin V</z:uniprot> to bind to phosphatidylserine (PS) exposed on the outer membrane leaflet in apoptotic cells (PS also appears on the necrotic cell surface). </plain></SENT>
+<SENT sid="173" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="P81287,P17153,P70075,P08758,Q4R4H7,P48036,Q5R1W0,P14668">annexin V</z:uniprot> assay was performed following the manufacturer’s instructions (<z:uniprot sup="inside" fb="0" ids="P81287,P17153,P70075,P08758,Q4R4H7,P48036,Q5R1W0,P14668">Annexin V</z:uniprot>-FITC kit,Alexa Fluor). </plain></SENT>
+<SENT sid="174" pm="."><plain>Briefly, the cells were washed with PBS and suspended in pre-diluted binding buffer. </plain></SENT>
+<SENT sid="175" pm="."><plain>The cell density was adjusted to 2 million and 195 μl of cell suspension were mixed with 5 μl <z:uniprot sup="inside" fb="0" ids="P81287,P17153,P70075,P08758,Q4R4H7,P48036,Q5R1W0,P14668">Annexin V</z:uniprot>-FITC and incubated for 10 min in the dark at room temperature. </plain></SENT>
+<SENT sid="176" pm="."><plain>The cells were washed with binding buffer, re-suspended in 195 μl binding buffer, counterstained with 10 μl of the 20 μg/ml propidium iodide stock (final concentration 1 μg/ml) and the data were acquired by BD <z:uniprot sup="inside" fb="5" ids="P9WQ36,P9WQ37">FACS</z:uniprot> diva 7.0 at 6 h, 12 h and 24 h. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="177" pm="."><plain>Protein Deconvolution </plain></SENT>
+</text></title><sec disp-level="3"><title><text><SENT sid="178" pm="."><plain>Immobilization of 5l </plain></SENT>
+</text></title><p><text><SENT sid="179" pm="."><plain>5l was provided as a lyophilized powder. </plain></SENT>
+<SENT sid="180" pm="."><plain>A 100 mM stock of 5l was made in DMSO. </plain></SENT>
+<SENT sid="181" pm="."><plain>The stock solution was diluted to 215 μM in 1 mM of phosphate buffer in pH 6.0 and incubated with the matrix for 16 hrs at room temperature. </plain></SENT>
+<SENT sid="182" pm="."><plain>After incubation, the matrix was washed five times with Phosphate buffer. </plain></SENT>
+<SENT sid="183" pm="."><plain>The amount of molecule in the phosphate buffer wash was quantified by HPLC-UV based method and amount of molecule retained on the matrix was calculated. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="184" pm="."><plain>Affinity enrichment of target proteins on 5l immobilized matrix </plain></SENT>
+</text></title><p><text><SENT sid="185" pm="."><plain>Cell lysates were prepared in <z:uniprot sup="inside" fb="58" ids="Q6NI56,Q8FQS2,Q8NRR3">RIPA</z:uniprot> buffer and protein concentration was determined by Bradford method. </plain></SENT>
+<SENT sid="186" pm="."><plain>Cell lysate was diluted with 1X TBS to a concentration of 1 mg/ml. </plain></SENT>
+<SENT sid="187" pm="."><plain>The 5l immobilized matrix was incubated with 2 ml of cell lysate for 2 min with mild shaking. </plain></SENT>
+<SENT sid="188" pm="."><plain>The matrix was washed with 1X TBS to remove unbound proteins and to reduce non-specific interactions. </plain></SENT>
+<SENT sid="189" pm="."><plain>The molecule bound proteins were then recovered by acetone precipitation and was dissolved in 1X sample buffer. </plain></SENT>
+<SENT sid="190" pm="."><plain>Proteins were separated on a 4–12% gradient gel and bands were digested by standard “in-gel” <z:uniprot sup="inside" fb="60" ids="Q59149,P23916,P19799,P70059,P83348,P81071,P35049,P35050,O97399,P00761,P35034,P35051,P24664,P51588,P35048,P00764,P00775">trypsin</z:uniprot> digestion methods. </plain></SENT>
+</text></p></sec></sec><sec disp-level="2"><title><text><SENT sid="191" pm="."><plain>Mass spectrometry analysis of proteins </plain></SENT>
+</text></title><sec disp-level="3"><title><text><SENT sid="192" pm="."><plain>Protein Reduction, Alkylation and Digestion </plain></SENT>
+</text></title><p><text><SENT sid="193" pm="."><plain>Clearly identified gel-bands were cut in typical size of 1 mm band from the gel and placed in 1.5 ml tubes. </plain></SENT>
+<SENT sid="194" pm="."><plain>Gel slices were washed once with distil water and then twice, with 100 μL of 100 mM ABC/50% acetonitrile (ACN) solution by placing the bands in each respective solution at room-temperature for 30 minutes. </plain></SENT>
+<SENT sid="195" pm="."><plain>After discarding the last wash gel-slices were incubated with 50 μL of 10 mM DTT at 56 °C for 10 minutes in a dry bath. </plain></SENT>
+<SENT sid="196" pm="."><plain>Tubes were then cooled and then gel-slices were incubated with 50 μL of 100 mM IAA at 37 °C for 30 minutes. </plain></SENT>
+<SENT sid="197" pm="."><plain>IAA solution was removed and gel slices were rinsed by incubating it with 100 mM ABC/50% ACN at 37 °C for 15 minutes. </plain></SENT>
+<SENT sid="198" pm="."><plain>Rinse solution was removed and gel-slices were dehydrated by incubating them with 100 μl of 100% ACN for 10 minutes. </plain></SENT>
+<SENT sid="199" pm="."><plain>ACN was removed and gel-slices were dried using a Speed Vac for 45–60 minutes at room temperature. </plain></SENT>
+<SENT sid="200" pm="."><plain>Gel-slices were then incubated with 20–30 μl of 20 μg/ml <z:uniprot sup="inside" fb="60" ids="Q59149,P23916,P19799,P70059,P83348,P81071,P35049,P35050,O97399,P00761,P35034,P35051,P24664,P51588,P35048,P00764,P00775">trypsin</z:uniprot> solution for an hour at room temperature. </plain></SENT>
+<SENT sid="201" pm="."><plain>50 μl of 50 mM ABC was added to the gel-slices and completely covered tubes were placed at 37 °C for 12 hours for maximum <z:uniprot sup="inside" fb="60" ids="Q59149,P23916,P19799,P70059,P83348,P81071,P35049,P35050,O97399,P00761,P35034,P35051,P24664,P51588,P35048,P00764,P00775">trypsin</z:uniprot> digestion of the protein. </plain></SENT>
+<SENT sid="202" pm="."><plain>Gel-slices were then incubated with 150 μl of HPLC water for 10 minutes. </plain></SENT>
+<SENT sid="203" pm="."><plain>Solution was frequently mixed using vortex mixer. </plain></SENT>
+<SENT sid="204" pm="."><plain>Supernatant was removed and saved after appropriate labelling. </plain></SENT>
+<SENT sid="205" pm="."><plain>Gel-slices were then incubated with 100 μl of 50%ACN/5% <z:uniprot sup="inside" fb="2" ids="Q27203">TFA</z:uniprot> at 37 °C for 60 minutes to extract the peptides from gel-slices. </plain></SENT>
+<SENT sid="206" pm="."><plain>Supernatant was collected and pooled with earlier collected supernatant. </plain></SENT>
+<SENT sid="207" pm="."><plain>Supernatant was then concentrated at room temperature until moderate dryness. </plain></SENT>
+<SENT sid="208" pm="."><plain>Dried peptides were dissolved in 5 μl of 0.1%<z:uniprot sup="inside" fb="2" ids="Q27203">TFA</z:uniprot>/HPLC Water solution and set-aside for mass-spectrometry analysis. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="209" pm="."><plain>HPLC-CHIP-MS </plain></SENT>
+</text></title><p><text><SENT sid="210" pm="."><plain>Refer supplementary information. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="211" pm="."><plain>Spectra Analysis and Protein Database Searches </plain></SENT>
+</text></title><p><text><SENT sid="212" pm="."><plain>Agilent Mass Hunter software was used for data acquisition and analysis of Total ion chromatograms. </plain></SENT>
+<SENT sid="213" pm="."><plain>Protein searches were carried out using Morpheus software tools using the Human proteome database. </plain></SENT>
+<SENT sid="214" pm="."><plain>Auto-validation protocol having &lt;1% False Detection Rate was used in confirming the identity of protein. </plain></SENT>
+<SENT sid="215" pm="."><plain>The peptide sequence was also analysed for variable modifications such as methionine oxidation, acetylation, cysteine sulfoxide, deamidation and pyro glutamic acid modification. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="216" pm="."><plain>Molecular docking </plain></SENT>
+</text></title><p><text><SENT sid="217" pm="."><plain>Molecular docking was performed using Molecular Operating Environment (MOE) version 2014.0901, Chemical Computing Group Inc., Montreal, Canada45. </plain></SENT>
+<SENT sid="218" pm="."><plain>The X-ray crystal structure of the <z:uniprot sup="inside" fb="0" ids="Q944K3,P56519,Q92769,P70288,Q6YV04">Histone deacetylase 2</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot>) was obtained from Protein Data bank (PDB). </plain></SENT>
+<SENT sid="219" pm="."><plain>The PDB ID of the protein is 4LY1, this crystal structure is chosen as this is having the best resolution (1.57 Å) among all <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> crystal structures. </plain></SENT>
+<SENT sid="220" pm="."><plain>The structure was prepared using LigX module of the MOE. </plain></SENT>
+<SENT sid="221" pm="."><plain>This preparation involved addition of hydrogen atoms and addition of any missing residues or atoms. </plain></SENT>
+<SENT sid="222" pm="."><plain>Energy minimization is done using AMBER 10: <z:uniprot sup="inside" fb="0" ids="O43439">EHT</z:uniprot> force fields. </plain></SENT>
+<SENT sid="223" pm="."><plain>The 3D structure of the compound was constructed using the builder interface of the MOE program. </plain></SENT>
+<SENT sid="224" pm="."><plain>Docking of the compound was done using MOE-DOCK module in MOE. </plain></SENT>
+<SENT sid="225" pm="."><plain>The active site of the target protein is defined by the inhibitor present in the crystal structure. </plain></SENT>
+<SENT sid="226" pm="."><plain>Triangle matcher is used as the placement methodology and London dG is used as a scoring methodology. </plain></SENT>
+<SENT sid="227" pm="."><plain>The best pose was selected on the basis of the best score. </plain></SENT>
+</text></p></sec></sec></sec></SecTag><sec disp-level="1"><title><text><SENT sid="228" pm="."><plain>Additional Information </plain></SENT>
+</text></title><p><text><SENT sid="229" pm="."><plain>How to cite this article: Hati, S. et al. Spiro[pyrrolidine-3, 3´-oxindole] as potent anti-breast cancer compounds: Their design, synthesis, biological evaluation and cellular target identification. Sci. </plain></SENT>
+<SENT sid="230" pm="."><plain>Rep. 6, 32213; doi: 10.1038/srep32213 (2016). </plain></SENT>
+</text></p></sec><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="S1"><title><text><SENT sid="231" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material id="d33e27" content-type="local-data"><caption><title><text><SENT sid="232" pm="."><plain>Supplementary Information </plain></SENT>
+</text></title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-s1.pdf"/></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="233" pm="."><plain>This work was supported by the Department of Biotechnology, India through pilot grant BT/Med/Pilot Project Cancer/2014. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="234" pm="."><plain>IrvinV. </plain></SENT>
+<SENT sid="235" pm="."><plain>L. &amp; KaplanR. </plain></SENT>
+<SENT sid="236" pm="."><plain>M. Screening Mammography &amp; Breast Cancer Mortality: Meta-Analysis of Quasi-Experimental Studies. Plos One 9, 1–11 (2014). </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="237" pm="."><plain>HolmesM. </plain></SENT>
+<SENT sid="238" pm="."><plain>D. et al. Intake and Survival after Breast Cancer. Journal of Clinical Oncology 28, 1467–1472 (2010).20159825 </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="239" pm="."><plain>TingB. &amp; MichelleA. </plain></SENT>
+<SENT sid="240" pm="."><plain>R. The Clinical Pharmacology of Anastrozole. European Oncology &amp; Hematology 7, 106–108 (2011). </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="241" pm="."><plain>BursteinH. </plain></SENT>
+<SENT sid="242" pm="."><plain>J. et al. Adjuvant Endocrine Therapy for Women with Hormone Receptor-Positive Breast Cancer: American Society of Clinical Oncology Clinical Practice Guideline Focused Update. Journal of clinical oncology: official journal of the American Society of Clinical Oncology 32, 2255–2269 (2014).24868023 </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="243" pm="."><plain>JordanV. </plain></SENT>
+<SENT sid="244" pm="."><plain>C. Fourteenth Gaddum Memorial Lecture. </plain></SENT>
+<SENT sid="245" pm="."><plain>A current view of tamoxifen for the treatment and prevention of breast cancer. British Journal of Pharmacology 110, 507–517 (1993).8242225 </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="246" pm="."><plain>IngleJ. </plain></SENT>
+<SENT sid="247" pm="."><plain>N. et al. A randomized phase II trial of two dosage levels of letrozole as third-line hormonal therapy for women with metastatic breast carcinoma. Cancer 80, 218–224 (1997).9217033 </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="248" pm="."><plain>Araque ArroyoP., UbagoP. &amp; CancelaD. Controversies in the management of adjuvant breast cancer with taxanes: Review of the current literature. Cancer Treatment Reviews 37, 105–110 (2011).20655664 </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="249" pm="."><plain>YangG., NowsheenS., KhaledA. &amp; GeorgakilasA. Toxicity and adverse effects of Tamoxifen and other anti-estrogen drugs. Pharmacology &amp; Therapeutics. 139, 392–404 (2013).23711794 </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="250" pm="."><plain>MonnierA. Long term efficacy and safety of letrozole for the adjuvant treatment of early breast cancer in postmenopausal women: a review. Ther. </plain></SENT>
+<SENT sid="251" pm="."><plain>Clin. </plain></SENT>
+<SENT sid="252" pm="."><plain>Risk Manag. 5, 725–738 (2009).19774214 </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="253" pm="."><plain>Lyseng-WilliamsonK. </plain></SENT>
+<SENT sid="254" pm="."><plain>A. &amp; FentonC. Docetaxel: a review of its use in metastatic breast cancer. Drugs 65 2513–2531 (2011).16296875 </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="255" pm="."><plain>BindraJ. </plain></SENT>
+<SENT sid="256" pm="."><plain>S. The Alkaloids Vol. </plain></SENT>
+<SENT sid="257" pm="."><plain>14, (ed. ManskeR. </plain></SENT>
+<SENT sid="258" pm="."><plain>H. </plain></SENT>
+<SENT sid="259" pm="."><plain>F.) 84–121(Academic Press, New York, 1973). </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="260" pm="."><plain>CuiC.-B., KakeyaH. &amp; OsadaH. Novel mammalian cell cycle inhibitors, spirotryprostatins A and B, produced by Aspergillus fumigatus, which inhibit mammalian cell cycle at G2/M phase. Tetrahedron. 52, 12651–12666 (1996). </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="261" pm="."><plain>CuiC. </plain></SENT>
+<SENT sid="262" pm="."><plain>B. &amp; SpirotryprostatinB. A novel mammalian cell cycle inhibitor produced by Aspergillus fumigatus”. J. </plain></SENT>
+<SENT sid="263" pm="."><plain>Antibiot. 49, 832–835 (1996).8823522 </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="264" pm="."><plain>WangS., ZhaoY., BernardD., AguilarA. &amp; KumarS. Targeting the <z:uniprot sup="inside" fb="0" ids="P56950,Q7YRZ8,P56951,Q00987,Q60524">MDM2</z:uniprot> Protein-Protein Interaction for New Cancer Therapeutics. Top. </plain></SENT>
+<SENT sid="265" pm="."><plain>Med. </plain></SENT>
+<SENT sid="266" pm="."><plain>Chem. 8, 57–80 (2012). </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="267" pm="."><plain>MartiC. &amp; CarreiraE. </plain></SENT>
+<SENT sid="268" pm="."><plain>M. Construction of Spiro[pyrrolidine-3, 3´-oxindoles]-Recent Applications to the Synthesis of Oxindole Alkaloids. Eur. </plain></SENT>
+<SENT sid="269" pm="."><plain>J. </plain></SENT>
+<SENT sid="270" pm="."><plain>Org. </plain></SENT>
+<SENT sid="271" pm="."><plain>Chem. 12, 2209–2219 (2003). </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="272" pm="."><plain>BanY. &amp; OishiT. The Synthesis of 3-Spirooxindole Derivatives. </plain></SENT>
+<SENT sid="273" pm="."><plain>III. </plain></SENT>
+<SENT sid="274" pm="."><plain>Stereospecific Syntheses of rac-N-Methylrhynchophyllane for Stereochemistry of Rhynchophylline and Isorhynchophylline. Chem. </plain></SENT>
+<SENT sid="275" pm="."><plain>Pharm. </plain></SENT>
+<SENT sid="276" pm="."><plain>Bull. 11, 451–460 (1963).13966279 </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="277" pm="."><plain>EdmondsonS. </plain></SENT>
+<SENT sid="278" pm="."><plain>D. &amp; DanishefskyS. </plain></SENT>
+<SENT sid="279" pm="."><plain>J. Total Synthesis of Spirotryprostatin A. Angew. </plain></SENT>
+<SENT sid="280" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="281" pm="."><plain>Int. </plain></SENT>
+<SENT sid="282" pm="."><plain>Ed. 37, 1138–1140 (1998). </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="283" pm="."><plain>GriggR., SridharanV. &amp; ThianpatanagulS. X=Y–ZH systems as potential 1,3-dipoles. </plain></SENT>
+<SENT sid="284" pm="."><plain>Part 6. </plain></SENT>
+<SENT sid="285" pm="."><plain>Metallo-1,3-dipoles. </plain></SENT>
+<SENT sid="286" pm="."><plain>Cycloadditions of divalent metal complexes of glycine and alanine imines to electronegative olefins. J. </plain></SENT>
+<SENT sid="287" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="288" pm="."><plain>Soc., Perkin Trans. 1, 1669–1675 (1986). </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="289" pm="."><plain>AbelmanM. </plain></SENT>
+<SENT sid="290" pm="."><plain>M., OhT. &amp; OvermanL. </plain></SENT>
+<SENT sid="291" pm="."><plain>E. Intramolecular alkene arylations for rapid assembly of polycyclic systems containing quarternary centers. </plain></SENT>
+<SENT sid="292" pm="."><plain>A new synthesis of spirooxindoles and other fused and bridged ring systems. J. </plain></SENT>
+<SENT sid="293" pm="."><plain>Org. </plain></SENT>
+<SENT sid="294" pm="."><plain>Chem. 52, 4130–4133 (1987). </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="295" pm="."><plain>AntonchickA. </plain></SENT>
+<SENT sid="296" pm="."><plain>P. et al. Highly enantioselective synthesis and cellular evaluation of spirooxindoles inspired by natural products. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="297" pm="."><plain>Chem. 2, 735–740 (2010).20729892 </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="298" pm="."><plain>SebaharP. </plain></SENT>
+<SENT sid="299" pm="."><plain>R. &amp; WilliamsR. </plain></SENT>
+<SENT sid="300" pm="."><plain>M. The Asymmetric Total Synthesis of (+)- and (−)-Spirotryprostatin B. J. </plain></SENT>
+<SENT sid="301" pm="."><plain>Am. </plain></SENT>
+<SENT sid="302" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="303" pm="."><plain>Soc. 122, 5666–5667 (2000). </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="304" pm="."><plain>Surakanti.R. et al. Synthesis of Privileged Scaffolds by Using Diversity-Oriented Synthesis. Chem. </plain></SENT>
+<SENT sid="305" pm="."><plain>Asian J. 8, 1168–1176 (2013).23512685 </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="306" pm="."><plain>WangF. et al. Indole diketopiperazines from endophytic Chaetomiumsp 88194 induce breast cancer cell apoptotic death. Sci. </plain></SENT>
+<SENT sid="307" pm="."><plain>Rep. 5, 1–9 (2015). </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="308" pm="."><plain>MartyM. et al. Oral vinorelbine pharmacokinetics and absolute bioavailability study in patients with solid tumors.Ann. </plain></SENT>
+<SENT sid="309" pm="."><plain>Oncol. 12, 143–1649 (2001). </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="310" pm="."><plain>JordanM. </plain></SENT>
+<SENT sid="311" pm="."><plain>A. Mechanism of action of antitumor drugs that interact with microtubules and tubulin. Current medicinal chemistry. </plain></SENT>
+<SENT sid="312" pm="."><plain>Anti-cancer agents 2, 1–17 (2002).12678749 </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="313" pm="."><plain>GoppiP. </plain></SENT>
+<SENT sid="314" pm="."><plain>G. et al. Vinblastine, Bleomycin, and Methotrexate Chemotherapy plus Irradiation for Patients with Early-Stage, Favorable Hodgkin Lymphoma. Cancer 98, 2393–2401 (2011). </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="315" pm="."><plain>PellegriniC., SträsslerC., WeberM. &amp; BorschbergH. </plain></SENT>
+<SENT sid="316" pm="."><plain>J. Synthesis of the oxindole alkaloid (−)-horsfiline. Tetrahedron: Asymmetry 5, 1979–1992 (1994). </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="317" pm="."><plain>PetersonA. </plain></SENT>
+<SENT sid="318" pm="."><plain>C. &amp; CookJ. </plain></SENT>
+<SENT sid="319" pm="."><plain>M. Studies on enantiospecific synthesis of oxindole alkaloids. Tetrahedron Lett. 35, 2651–2654 (1994). </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="320" pm="."><plain>EdmondsonS. </plain></SENT>
+<SENT sid="321" pm="."><plain>D., DanishefskyS. </plain></SENT>
+<SENT sid="322" pm="."><plain>J., Sepp-LorenzinoL. &amp; RosenN. Total Synthesis of Spirotryprostatin A, Leading to the Discovery of Some Biologically Promising Analogues. J. </plain></SENT>
+<SENT sid="323" pm="."><plain>Am. </plain></SENT>
+<SENT sid="324" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="325" pm="."><plain>Soc. 121, 2147–2155 (1999). </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="326" pm="."><plain>Yu.P. &amp; CookJ. </plain></SENT>
+<SENT sid="327" pm="."><plain>M. Diastereospecific synthesis of ketooxindoles. </plain></SENT>
+<SENT sid="328" pm="."><plain>Potential intermediates for the synthesis of alstonisine as well as for Voachalotinerelated oxindole alkaloids. Tetlett. 38, 8799–8802 (1997). </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="329" pm="."><plain>PommierY., LeoE., ZhangH. &amp; MarchandC. DNA topoisomerases and their poisoning by anticancer and antibacterial drugs. Chem. </plain></SENT>
+<SENT sid="330" pm="."><plain>Biol. 17, 421–433 (2010).20534341 </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="331" pm="."><plain>YeungM. </plain></SENT>
+<SENT sid="332" pm="."><plain>C. Accelerated apoptotic DNA laddering protocol. BioTechniques 33(4), 734–736 (2002).12398177 </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="333" pm="."><plain>KennedyC. </plain></SENT>
+<SENT sid="334" pm="."><plain>L. et al. Programmed Cellular Necrosis Mediated by the Pore-Forming a-Toxin from Clostridium septicum. PlosPathog 5, 1–11 (2009) </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="335" pm="."><plain>SaxenaC. Inventor; Shantani Proteome Analytics Pvt. </plain></SENT>
+<SENT sid="336" pm="."><plain>Ltd., assignee. </plain></SENT>
+<SENT sid="337" pm="."><plain>Methods for Determining Protein Targets of A Ligand Without Ligand Derivatization. </plain></SENT>
+<SENT sid="338" pm="."><plain>Provisional Patent Application Number 201621000681, Reference Number E-2/66/2-16-MUM. </plain></SENT>
+<SENT sid="339" pm="."><plain>2016 January 8. </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="340" pm="."><plain>ShevchenkoA., TomasH., HavliJ., OlsenJ. </plain></SENT>
+<SENT sid="341" pm="."><plain>V. &amp; MannM. In-gel digestion for mass spectrometric characterization of proteins and proteomes. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="342" pm="."><plain>Prot. 1, 2856–2860 (2007). </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="343" pm="."><plain>KruscheC. </plain></SENT>
+<SENT sid="344" pm="."><plain>A. et al. <z:uniprot sup="inside" fb="0" ids="O17695,Q32PJ8,P56517,Q13547,O09106,Q7Y0Y8,Q5RAG0,Q4QQW4,P56518">Histone deacetylase-1</z:uniprot> and -3 protein expression in human breast cancer: a tissue microarray analysis. Breast Cancer Research and Treatment 90, 15–23 (2005).15770522 </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="345" pm="."><plain>Duvic.M. et al. Phase 2 trial of oral vorinostat (suberoylanilidehydroxamic acid, SAHA) for refractory cutaneous T-cell lymphoma (CTCL). Blood 1, 31–39 (2006).16960145 </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="346" pm="."><plain>KoushyarS., JiangW. </plain></SENT>
+<SENT sid="347" pm="."><plain>G. &amp; DartD. </plain></SENT>
+<SENT sid="348" pm="."><plain>A. Unveiling the potential of <z:uniprot sup="inside" fb="0" ids="Q3T165,P84173,P35232,P86220,P67778,P67779">prohibitin</z:uniprot> in cancer. Cancer Lett. 28, 316–322 (2015).26450374 </plain></SENT>
+</text></ref><ref id="b39"><text><SENT sid="349" pm="."><plain>Moncunill-MassaguerC. et al. A novel <z:uniprot sup="inside" fb="0" ids="Q3T165,P84173,P35232,P86220,P67778,P67779">prohibitin</z:uniprot>-binding compound induces the mitochondrial apoptotic pathway through <z:uniprot sup="inside" fb="0" ids="Q1PCT2,Q13794">NOXA</z:uniprot> and <z:uniprot sup="inside" fb="16" ids="O43521">BIM</z:uniprot> upregulation. Oncotarget 6, 41750–41765 (2015).26497683 </plain></SENT>
+</text></ref><ref id="b40"><text><SENT sid="350" pm="."><plain>SatoS., MurataA., ShirakawaT. &amp; UesugiM. Biochemical target isolation for novices: affinity-based strategies. Chem. </plain></SENT>
+<SENT sid="351" pm="."><plain>Biol. 17, 616–623 (2010).20609411 </plain></SENT>
+</text></ref><ref id="b41"><text><SENT sid="352" pm="."><plain>NomuraD. </plain></SENT>
+<SENT sid="353" pm="."><plain>K., DixM. </plain></SENT>
+<SENT sid="354" pm="."><plain>M. &amp; CravattB. </plain></SENT>
+<SENT sid="355" pm="."><plain>F. Activity-based protein profiling for biochemical pathway discovery in cancer. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="356" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="357" pm="."><plain>Cancer 10, 630–638 (2010).20703252 </plain></SENT>
+</text></ref><ref id="b42"><text><SENT sid="358" pm="."><plain>LomenickB. et al. Target identification using drug affinity responsive target stability (DARTS). Proc. </plain></SENT>
+<SENT sid="359" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="360" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="361" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="362" pm="."><plain>USA 106, 21984–21989 (2009).19995983 </plain></SENT>
+</text></ref><ref id="b43"><text><SENT sid="363" pm="."><plain>Van DorstB. et al. cDNA phage display as a novel tool to screen for cellular targets of chemical compounds. Toxicol. </plain></SENT>
+<SENT sid="364" pm="."><plain>In Vitro. 24, 1435–1440 (2010).20403423 </plain></SENT>
+</text></ref><ref id="b44"><text><SENT sid="365" pm="."><plain>LounkineE. et al. Large-scale prediction and testing of drug activity on side-effect targets. Nature 486, 361–367 (2012).22722194 </plain></SENT>
+</text></ref><ref id="b45"><text><SENT sid="366" pm="."><plain>Molecular Operating Environment (MOE). </plain></SENT>
+<SENT sid="367" pm="."><plain>A package for high throughput discovery, bioinformatics, and computer aided molecular design. </plain></SENT>
+<SENT sid="368" pm="."><plain>Chemical Computing Group Inc., Montreal, QC, Canada. </plain></SENT>
+<SENT sid="369" pm="."><plain>URL <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.chemcomp.com/">https://www. chemcomp.com/</ext-link> (2013). </plain></SENT>
+</text></ref></ref-list></SecTag><fn-group><fn><p><text><SENT sid="370" pm="."><plain>Author Contributions S.H. and P.K.D. conducted the chemical synthesis and S.T. conducted the biological screening. </plain></SENT>
+<SENT sid="371" pm="."><plain>R.A. conducted the molecular docking. </plain></SENT>
+<SENT sid="372" pm="."><plain>S.S. and A.S. planned the biological and docking experiments respectively. </plain></SENT>
+<SENT sid="373" pm="."><plain>R.S. conducted the protein deconvolution experiment. </plain></SENT>
+<SENT sid="374" pm="."><plain>S. </plain></SENT>
+<SENT sid="375" pm="."><plain>Sen. conceived and planned the project and wrote the manuscript. </plain></SENT>
+</text></p></fn></fn-group></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><p><text><SENT sid="376" pm="."><plain>Representative spiro[pyrrolidine-3, 3´-oxindole] natural and non-natural bioactive compounds, Spirotryptostatin A (1) (inhibits tubulin polymerization), Spirotryptostatin B (2) (inhibits cancer cells at G2/M phase of the cell cycle) and MI-5 (3) (inhibits <z:uniprot sup="inside" fb="117" ids="Q9W678,O93379,P25035,P79820,O12946,Q9W679,O57538,Q92143">p53</z:uniprot>-<z:uniprot sup="inside" fb="0" ids="P56950,Q7YRZ8,P56951,Q00987,Q60524">MDM2</z:uniprot> protein-protein interaction). </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>It depicts a comparison of our one pot strategy against step wise linear sequence of Pictet-Spengler and oxidative ring contraction reaction of tryptamine with appropriate aldehydes.</title><p><text><SENT sid="377" pm="."><plain>One of the resulting compounds 5, inhibits proliferation of MCF-7 cells and the putative binding targets are <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">prohibitin 2</z:uniprot>. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><p><text><SENT sid="378" pm="."><plain>The new spiro[pyrrolidine-3, 3´-oxindole] scaffold based compounds, 5a–o and other analogs were designed by drawing inspiration from natural products such as Chaetocochins G, compound 4 and Vinorelbine. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4"><label>Figure 4</label><caption><p><text><SENT sid="379" pm="."><plain>Synthesis of a library of spiro[pyrrolidine-3, 3´-oxindole] compounds 5b–o via one pot Pictet Spengler-oxidative ring contraction of tryptamine at room temperature with variety of aromatic aldehydes were executed. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-f4"/></fig></SecTag><SecTag type="FIG"><fig id="f5"><label>Figure 5</label><caption><p><text><SENT sid="380" pm="."><plain>The retention characteristics of 5l on the nitrocellulose matrix is shown above. </plain></SENT>
+<SENT sid="381" pm="."><plain>HPLC-UV based method indicated 43% of 5l got immobilized on the matrix. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-f5"/></fig></SecTag><SecTag type="FIG"><fig id="f6"><label>Figure 6</label><caption><p><text><SENT sid="382" pm="."><plain>(A) 3D surface representation of <z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot> is depicted, green color represents the active site residues with which our compound is binding. </plain></SENT>
+<SENT sid="383" pm="."><plain>(B) Stick model represents the binding of 5l with active site residues. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-f6"/></fig></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t1"><label>Table 1</label><caption><title>Reaction optimization of one pot Pictet Spengler-Oxidative ring contraction of tryptamine to furnish spiro[pyrrolidine-3, 3´-oxindole].</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32213-t1"/><table-wrap-foot><fn id="t1-fn1"><p><sup>a</sup>Isolated yield.</p></fn><fn id="t1-fn2"><p><sup>b</sup>n. r.: no reaction.</p></fn><fn id="t1-fn3"><p><sup>c</sup>Tetrabutyl ammonium bromide (TBAB).</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t2"><label>Table 2</label><caption><title>
+<italic>In vitro</italic> phenotypic activity of the library of spiro[pyrrolidine-3, 3´-oxindole] against MCF-7 and COS-7 cells.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th rowspan="2" align="left" valign="top" charoff="50"><text><SENT sid="384" pm="."><plain>Entry </plain></SENT>
+</text></th><th rowspan="2" align="center" valign="top" charoff="50"><text><SENT sid="385" pm="."><plain>Compound </plain></SENT>
+</text></th><th colspan="3" align="center" valign="top" charoff="50"><text><SENT sid="386" pm="."><plain>Percentage inhibitiona </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="387" pm="."><plain>EC50(μM)b </plain></SENT>
+</text></th></tr><tr><th align="center" valign="top" charoff="50"><text><SENT sid="388" pm="."><plain>MCF-7 </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="389" pm="."><plain>COS-7 </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="390" pm="."><plain>MCF10A </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="391" pm="."><plain>MCF-7 </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50"><text><SENT sid="392" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="393" pm="."><plain>5a </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="394" pm="."><plain>35.06 ± 0.09 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="395" pm="."><plain>11.73 ± 0.09 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="396" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="397" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="398" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="399" pm="."><plain>5b </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="400" pm="."><plain>33.10 ± 0.12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="401" pm="."><plain>20.73 ± 0.11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="402" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="403" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="404" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="405" pm="."><plain>5c </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="406" pm="."><plain>34.46 ± 0.11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="407" pm="."><plain>28.80 ± 0.13 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="408" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="409" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="410" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="411" pm="."><plain>5d </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="412" pm="."><plain>44.25 ± 0.17 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="413" pm="."><plain>9.22 ± 0.12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="414" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="415" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="416" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="417" pm="."><plain>5e </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="418" pm="."><plain>54.67 ± 0.08* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="419" pm="."><plain>3.56 ± 0.19* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="420" pm="."><plain>4.48 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="421" pm="."><plain>6.00* </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="422" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="423" pm="."><plain>5f </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="424" pm="."><plain>38.48 ± 0.18 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="425" pm="."><plain>34.87 ± 0.17 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="426" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="427" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="428" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="429" pm="."><plain>5g </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="430" pm="."><plain>25.29 ± 0.24 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="431" pm="."><plain>2.39 ± 0.23 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="432" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="433" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="434" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="435" pm="."><plain>5h </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="436" pm="."><plain>50.62 ± 0.24 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="437" pm="."><plain>25.20 ± 0.06 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="438" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="439" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="440" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="441" pm="."><plain>5i </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="442" pm="."><plain>53.66 ± 0.06* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="443" pm="."><plain>15.60 ± 0.09* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="444" pm="."><plain>0.8 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="445" pm="."><plain>4.01* </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="446" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="447" pm="."><plain>5j </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="448" pm="."><plain>38.72 ± 0.15 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="449" pm="."><plain>7.52 ± 0.15 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="450" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="451" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="452" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="453" pm="."><plain>5k </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="454" pm="."><plain>44.40 ± 0.09 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="455" pm="."><plain>7.14 ± 0.19 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="456" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="457" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="458" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="459" pm="."><plain>5l </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="460" pm="."><plain>60.96 ± 0.09* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="461" pm="."><plain>15.42 ± 0.18* </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="462" pm="."><plain>0.08 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="463" pm="."><plain>3.53* </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="464" pm="."><plain>13 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="465" pm="."><plain>5m </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="466" pm="."><plain>31.81 ± 0.11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="467" pm="."><plain>−0.51 ± 0.29 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="468" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="469" pm="."><plain>− </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="470" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="471" pm="."><plain>Etoposide </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="472" pm="."><plain>71.95 ± 0.11 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="473" pm="."><plain>77.65 ± 0.10 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="474" pm="."><plain>− </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="475" pm="."><plain>− </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="t2-fn1"><p><sup>a</sup>All data is the mean of one experiment conducted in triplicates.</p></fn><fn id="t2-fn2"><p><sup>b</sup>EC<sub>50</sub> of <bold>5e</bold>, <bold>5i</bold> and <bold>5l</bold> is the mean ± SD of three experiments.</p></fn><fn id="t2-fn3"><p><sup>*</sup>Unless otherwise indicated, the differences were considered to be statistically significant at P &lt; 0.05. The analyses were performed using GraphPad Prism Software version 5.02 (GraphPad Inc., La Jolla, CA, USA).</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t3"><label>Table 3</label><caption><title>List of putative targets after target deconvolution.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50"><text><SENT sid="476" pm="."><plain>Entry </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="477" pm="."><plain>UniProt ID </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="478" pm="."><plain>Protein Description </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="479" pm="."><plain>Protein Class </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50"><text><SENT sid="480" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="481" pm="."><plain>Q92769 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="482" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q944K3,P56519,Q92769,P70288,Q6YV04">Histone deacetylase 2</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="P56519,Q92769,Q6YV04">HDAC2</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="483" pm="."><plain>Nuclear Protein/Enzyme </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="484" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="485" pm="."><plain>Q99623 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="486" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q2HJ97,P50093,Q5ZMN3,Q54Q31,Q99623,O35129,Q5RB19,Q5XIH7,O94550,A9UMS3,P50085">Prohibitin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="487" pm="."><plain>Structural </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="488" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="489" pm="."><plain>Q9P2E9 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="490" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q28298,Q9P2E9,Q99PL5">Ribosome-binding protein 1</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="491" pm="."><plain>Receptor </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="492" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="493" pm="."><plain>Q08J23 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="494" pm="."><plain>tRNA (cytosine (34)-C(5))-methyltransferase </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="495" pm="."><plain>Enzyme </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="496" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="497" pm="."><plain>Q5JTZ9 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="498" pm="."><plain>Alanine—<z:uniprot sup="inside" fb="0" ids="P43075,P09880">tRNA ligase</z:uniprot>, mitochondrial </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="499" pm="."><plain>Enzyme </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="500" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="501" pm="."><plain>Q13423 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="502" pm="."><plain><z:uniprot sup="inside" fb="0" ids="P11024,Q13423,Q61941,W5PFI3">NAD(P) transhydrogenase, mitochondrial</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="503" pm="."><plain>Enzyme </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="504" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="505" pm="."><plain>Q9NQC3 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="506" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9NQC3,Q99P72,Q9JK11">Reticulon-4</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="507" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8V307,Q776B5,P08072,Q6RZT5,P08441">Growth Factor</z:uniprot> </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></floats-group></article>

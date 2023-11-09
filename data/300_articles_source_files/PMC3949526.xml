@@ -1,0 +1,540 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Acta Crystallogr D Biol Crystallogr</journal-id><journal-id journal-id-type="iso-abbrev">Acta Crystallogr. D Biol. Crystallogr</journal-id><journal-id journal-id-type="publisher-id">Acta Cryst. D</journal-id><journal-title-group><journal-title>Acta Crystallographica Section D: Biological Crystallography</journal-title></journal-title-group><issn pub-type="ppub">0907-4449</issn><issn pub-type="epub">1399-0047</issn><publisher><publisher-name>International Union of Crystallography</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3949526</article-id><article-id pub-id-type="pmid">24598744</article-id><article-id pub-id-type="publisher-id">cb5043</article-id><article-id pub-id-type="doi">10.1107/S1399004713032987</article-id><article-id pub-id-type="coden">ABCRE6</article-id><article-id pub-id-type="pii">S1399004713032987</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Papers</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>The structure of an authentic spore photoproduct lesion in DNA suggests a basis for recognition </plain></SENT>
+</text></SecTag></article-title><alt-title>Spore photoproduct lesion</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Singh</surname><given-names>Isha</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Lian</surname><given-names>Yajun</given-names></name><xref ref-type="aff" rid="b">b</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Lei</given-names></name><xref ref-type="aff" rid="a">a</xref><xref ref-type="aff" rid="b">b</xref></contrib><contrib contrib-type="author"><name><surname>Georgiadis</surname><given-names>Millie M.</given-names></name><xref ref-type="aff" rid="a">a</xref><xref ref-type="aff" rid="b">b</xref><xref ref-type="corresp" rid="cor">*</xref></contrib><aff id="a"><label>a</label>Department of Biochemistry and Molecular Biology, <institution>Indiana University School of Medicine</institution>, Indianapolis, IN 46202, <country>USA</country></aff><aff id="b"><label>b</label>Department of Chemistry and Chemical Biology, <institution>Indiana University–Purdue University at Indianapolis</institution>, Indianapolis, IN 46202, <country>USA</country></aff></contrib-group><author-notes><corresp id="cor">Correspondence e-mail: <email>mgeorgia@iu.edu</email></corresp></author-notes><pub-date pub-type="collection"><day>01</day><month>3</month><year>2014</year></pub-date><pub-date pub-type="epub"><day>15</day><month>2</month><year>2014</year></pub-date><pub-date pub-type="pmc-release"><day>15</day><month>2</month><year>2014</year></pub-date><volume>70</volume><issue>Pt 3</issue><issue-id pub-id-type="publisher-id">d140300</issue-id><fpage>752</fpage><lpage>759</lpage><history><date date-type="received"><day>12</day><month>9</month><year>2013</year></date><date date-type="accepted"><day>05</day><month>12</month><year>2013</year></date></history><permissions><copyright-statement>© Singh et al. 2014</copyright-statement><copyright-year>2014</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/uk/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution Licence, which permits
+unrestricted use, distribution, and reproduction in any medium, provided the original authors and source are cited.</license-p></license></permissions><self-uri xlink:type="simple" xlink:href="http://dx.doi.org/10.1107/S1399004713032987">A full version of this article is available from Crystallography Journals Online.</self-uri><abstract abstract-type="toc"><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>The structure of a spore photoproduct lesion in duplex DNA is described. </plain></SENT>
+</text></SecTag></p></abstract><abstract><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>The spore photoproduct lesion (SP; 5-thymine-5,6-dihydro­thymine) is the dominant photoproduct found in UV-irradiated spores of some bacteria such as Bacillus subtilis. </plain></SENT>
+<SENT sid="3" pm="."><plain>Upon spore germination, this lesion is repaired in a light-independent manner by a specific repair enzyme: the <z:uniprot sup="inside" fb="0" ids="Q97L63,P37956,C9RZ55">spore photoproduct lyase</z:uniprot> (<z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot>). </plain></SENT>
+<SENT sid="4" pm="."><plain>In this work, a host–guest approach in which the N-terminal fragment of Moloney murine leukemia virus <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot> (MMLV RT) serves as the host and DNA as the guest was used to determine the crystal structures of complexes including 16 bp oligo­nucleotides with and without the SP lesion at 2.14 and 1.72 Å resolution, respectively. </plain></SENT>
+<SENT sid="5" pm="."><plain>In contrast to other types of thymine–thymine lesions, the SP lesion retains normal Watson–Crick hydrogen bonding to the adenine bases of the complementary strand, with shorter hydrogen bonds than found in the structure of the undamaged DNA. </plain></SENT>
+<SENT sid="6" pm="."><plain>However, the lesion induces structural changes in the local conformation of what is otherwise B-form DNA. </plain></SENT>
+<SENT sid="7" pm="."><plain>The region surrounding the lesion differs significantly in helical form from B-DNA, and the minor groove is widened by almost 3 Å compared with that of the undamaged DNA. </plain></SENT>
+<SENT sid="8" pm="."><plain>Thus, these unusual structural features associated with SP lesions may provide a basis for recognition by the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot>. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>spore photoproduct</kwd><kwd>DNA</kwd><kwd>host–guest approach</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec id="sec1"><label>1.</label><title><text><SENT sid="9" pm="."><plain>Introduction   </plain></SENT>
+</text></title><p><text><SENT sid="10" pm="."><plain>Exposure to UV light can lead to a number of modifications in an organism’s DNA. </plain></SENT>
+<SENT sid="11" pm="."><plain>Some of these modifications involve the formation of pyrimidine dimers such as cyclobutane pyrimidine dimers (CPDs), pyrimidine (6–4) pyrimidone photoproduct [(6–4) PD] and Dewar isomer lesions, which arise from a UV-A/B-induced 4π sigmatropic rearrangement of (6–­4) PD lesions (Yang, 2011 ▶; Douki &amp; Cadet, 2003 ▶; Glas et al., 2010 ▶). </plain></SENT>
+<SENT sid="12" pm="."><plain>A unique thymine dimer, 5-thyminyl-5,6-dihydro­thymine or spore photoproduct (SP) lesion (Donnellan &amp; Setlow, 1965 ▶; Douki &amp; Cadet, 2003 ▶; Moeller et al., 2007 ▶), is formed in spores of bacteria such as Bacillus subtilis in response to UV irradiation. </plain></SENT>
+<SENT sid="13" pm="."><plain>The spore DNA is protected by the low cell-hydration level as well as the presence of high levels of Ca2+ dipicolinic acid and small acid-soluble spore proteins (Setlow, 1992 ▶, 2006 ▶). </plain></SENT>
+<SENT sid="14" pm="."><plain>This unique photoproduct is formed preferentially in the 5R-SP configuration in dehydrated DNA (A-form) found in spores (Douki et al., 2003 ▶; Chandra et al., 2009 ▶; Mantel et al., 2008 ▶; Lin et al., 2011 ▶). </plain></SENT>
+<SENT sid="15" pm="."><plain>Moreover, spores contain a unique repair enzyme called <z:uniprot sup="inside" fb="0" ids="Q97L63,P37956,C9RZ55">spore photoproduct lyase</z:uniprot> that repairs these spore photoproduct lesions on germination following hydration of the spore. </plain></SENT>
+<SENT sid="16" pm="."><plain>This unique spore photoproduct lesion along with the direct repair enzyme <z:uniprot sup="inside" fb="0" ids="Q97L63,P37956,C9RZ55">spore photoproduct lyase</z:uniprot> offers an evolutionary advantage to spore resistance and survival (Buis et al., 2006 ▶; Chandor et al., 2006 ▶; Slieman et al., 2000 ▶). </plain></SENT>
+<SENT sid="17" pm="."><plain>In general, lesions caused by exposure to UV light hinder the ability of DNA to replicate and, if unrepaired, hold mutagenic potential (Gentil et al., 1996 ▶). </plain></SENT>
+</text></p><p><text><SENT sid="18" pm="."><plain>Many organisms have evolved the ability to repair these lesions. </plain></SENT>
+<SENT sid="19" pm="."><plain>Light-dependent enzymes called <z:uniprot sup="inside" fb="0" ids="A9CJC9">CPD photolyase</z:uniprot> and (6–4) photolyase repair CPDs and (6–4) PDs, respectively (Todo, 1999 ▶). </plain></SENT>
+<SENT sid="20" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A9CJC9">CPD photolyases</z:uniprot> are found in organisms ranging from bacteria, fungi, plants and invertebrates to many vertebrates, while (6–4) photolyases occur in Drosophila, silkworms, frogs and rattlesnakes (Sancar, 1996 ▶; Yasui et al., 1994 ▶). </plain></SENT>
+<SENT sid="21" pm="."><plain>No photolyases are present in humans; however, mismatch DNA-repair and nucleotide-excision repair pathways are present in humans to repair pyrimidine dimers (Thoma, 1999 ▶). </plain></SENT>
+<SENT sid="22" pm="."><plain>Both (6–4) photolyases and <z:uniprot sup="inside" fb="0" ids="A9CJC9">CPD photolyases</z:uniprot> have the same overall fold, with an α/β domain and FAD-binding helical domain (Maul et al., 2008 ▶; Park et al., 2002 ▶), and use the photon energy from near-UV or blue light to catalyze the repair of their respective photoproducts. </plain></SENT>
+<SENT sid="23" pm="."><plain>The Dewar isomer lesions are repaired by (6–4) photolyases through a photoinduced electron-transfer mechanism (Mees et al., 2004 ▶; Park et al., 2002 ▶; Benjdia, 2012 ▶; Glas et al., 2009 ▶). </plain></SENT>
+<SENT sid="24" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot>, on the other hand, repairs the spore photoproduct through a radical-based mechanism in a light-independent manner involving its [4Fe–4S] cluster and an S-adenosyl-l-­methionine (SAM) cofactor (Heil et al., 2011 ▶). </plain></SENT>
+<SENT sid="25" pm="."><plain>The crystal structures of photolyases and the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot> suggest a common mechanism for the repair of these photoproducts. </plain></SENT>
+<SENT sid="26" pm="."><plain>Based on the crystal structure of the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot> with a dinucleoside SP lesion mimic and SAM bound to the active site, it has been proposed that, like photolyases, the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot> fully opens the DNA at the site of the lesion followed by flipping out of the dimer by almost 180° into the active site of the enzyme (Benjdia, 2012 ▶). </plain></SENT>
+</text></p><p><text><SENT sid="27" pm="."><plain>Structural changes resulting from the formation of these lesions in duplex DNA lead to their recognition and repair by their respective lyases (Maul et al., 2008 ▶; Benjdia et al., 2012 ▶). </plain></SENT>
+<SENT sid="28" pm="."><plain>The crystal structure of duplex DNA containing the CPD lesion suggests that the dimer bends the DNA by 30° and also widens the minor groove (Park et al., 2002 ▶). </plain></SENT>
+<SENT sid="29" pm="."><plain>The (6–4) PD, on the other hand, induces the loss of base-stacking interactions and distorts the double helix significantly more than the CPD lesion (Glas et al., 2009 ▶). </plain></SENT>
+<SENT sid="30" pm="."><plain>However, the structural changes in double-stranded DNA induced by the intrastrand spore photoproduct lesion are not well understood. </plain></SENT>
+<SENT sid="31" pm="."><plain>In the structure of DNA containing an SP mimic in complex with B. stearo­thermophilus <z:uniprot sup="inside" fb="0" ids="O67779,Q04957,O34996,O51498,Q59156,O08307,P52027,P00582,P52026,P43741,Q9ZJE9,P56105,Q9CDS1,O32801,P0A551,P46835,P9WNU4,P9WNU5,Q9HT80,Q9S1G2,Q1RH76,Q92GB7,Q9RAA9,Q9RLB6,O05949,Q9RLA0,Q9F173,P59199,P59200,Q55971,P74933,P28040,O93745,P26811,P95690,O50607">DNA polymerase I</z:uniprot>, the 5R-SP lesion was found to form normal Watson–Crick hydrogen bonds (Heil et al., 2011 ▶). </plain></SENT>
+<SENT sid="32" pm="."><plain>However, the extensive contacts between the DNA and polymerase in this structure preclude analysis of the structural changes induced by the lesion within duplex DNA. </plain></SENT>
+<SENT sid="33" pm="."><plain>Thus, prior to this work there was no basis for understanding the structural features of duplex DNA containing an authentic SP that might be recognized by <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="34" pm="."><plain>Here, we present crystal structures of the spore photoproduct within the context of a normal phosphodiester backbone and of the same DNA sequence lacking the SP lesion determined at 2.14 and 1.72 Å, respectively, by using the host–guest approach developed in the Georgiadis laboratory (Coté et al., 2000 ▶). </plain></SENT>
+<SENT sid="35" pm="."><plain>Comparative analysis of the two structures provides insights into the structural features associated with the spore photoproduct within B-form DNA and suggests a basis for understanding how the <z:uniprot sup="inside" fb="0" ids="Q97L63,P37956,C9RZ55">spore photoproduct lyase</z:uniprot> recognizes the lesion. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="sec2"><label>2.</label><title><text><SENT sid="36" pm="."><plain>Materials and methods   </plain></SENT>
+</text></title><sec id="sec2.1"><label>2.1.</label><title><text><SENT sid="37" pm="."><plain>Preparation of an SP-containing oligonucleotide   </plain></SENT>
+</text></title><p><text><SENT sid="38" pm="."><plain>The 16-mer deoxyribooligonucleotide (5′-ATCCGttAT­AACGGAT-3′) containing the spore photoproduct thymine dimers, represented by ‘tt’ in the sequence (SP DNA), was synthesized using the SP phosphoramidite developed by the Li laboratory and solid-phase DNA synthesis using an ABI394 DNA/RNA synthesizer as described previously (Jian &amp; Li, 2013 ▶). </plain></SENT>
+<SENT sid="39" pm="."><plain>The resulting 16-mer oligonucleotide was purified by HPLC using a Waters (Milford, Massachusetts, USA) Breeze HPLC system with a 2489 UV–visible detector at 260 nm. </plain></SENT>
+<SENT sid="40" pm="."><plain>An XBridge <z:uniprot sup="inside" fb="18" ids="O29918,Q8U4D2,O74088,O30195,Q8U3P6,O58981,O29867,D4GYH4,Q58920,Q2EMT4,O15068,P19217">OST</z:uniprot> C18 column (2.5 µm, 4.6 × 50 mm) was equilibrated with 5% acetonitrile in 0.1 M TEAA buffer at pH 7.0 (buffer A), and compounds were eluted with an ascending gradient (0–35%) of buffer B composed of 70% buffer A and 30% acetonitrile at a flow rate of 1 ml min−1 in 15 min. </plain></SENT>
+<SENT sid="41" pm="."><plain>The purified oligonucleotide was further desalted by HPLC using H2O (buffer A) and acetonitrile (buffer B) as the elution solvents. </plain></SENT>
+<SENT sid="42" pm="."><plain>The product was then dried by lyophilization and saved for X-ray crystallographic studies. </plain></SENT>
+</text></p></sec><sec id="sec2.2"><label>2.2.</label><title><text><SENT sid="43" pm="."><plain>Crystallization and data collection   </plain></SENT>
+</text></title><p><text><SENT sid="44" pm="."><plain>The N-terminal fragment (amino-acid residues 24–278) of Moloney murine leukemia virus <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot> (MMLV RT) was purified as described previously (Sun et al., 1998 ▶). </plain></SENT>
+<SENT sid="45" pm="."><plain>In brief, the protein eluted from an Ni–NTA affinity column was loaded onto an S Sepharose column. </plain></SENT>
+<SENT sid="46" pm="."><plain>This was followed by cleavage of the 6×histidine tag with <z:uniprot sup="inside" fb="36" ids="P84122">thrombin</z:uniprot> and again subjecting the protein to S Sepharose ion-exchange chromatography to remove the tag. </plain></SENT>
+<SENT sid="47" pm="."><plain>Finally, the protein was concentrated to 2 mM in 50 mM MES pH 6.0, 0.3 M NaCl, 1 mM DTT for further experiments. </plain></SENT>
+<SENT sid="48" pm="."><plain>The 16-mer DNA oligonucleotide with the same sequence but without the thymine dimer (5′-ATCCGTTATAACGGAT-3′) was synthesized and desalted using gel-filtration chromatography by Midland Certified Reagent Company (Midland, Texas, USA). </plain></SENT>
+<SENT sid="49" pm="."><plain>The oligonucleotides were resuspended in buffer consisting of 10 mM HEPES pH 7.0, 10 mM MgCl2 to give a final concentration of 2.5 mM duplex. </plain></SENT>
+<SENT sid="50" pm="."><plain>Prior to crystallization studies, the DNA oligonucleotides at 5 mM were incubated at 70°C for 10 min and allowed to cool gradually at room temperature to allow the annealing of complementary strands to form the 16-mer duplex. </plain></SENT>
+</text></p><p><text><SENT sid="51" pm="."><plain>Protein–DNA crystals were obtained using 1 µl each of microseeds and a 1:1.5 ratio of protein (0.46 mM):DNA (0.71 mM) solution in vapor-diffusion hanging drops with a reservoir solution consisting of 7% PEG 4000, 5 mM <z:uniprot sup="inside" fb="120" ids="Q8NU33">mag</z:uniprot>­nesium acetate, 50 mM N-(2-acetamido)iminodiacetic acid (ADA) pH 6.5 in the case of SP-DNA, while 9% PEG 4000, 5 mM magnesium acetate, 50 mM ADA pH 6.5 was used for the non-SP-containing DNA sequence. </plain></SENT>
+<SENT sid="52" pm="."><plain>The protein–SP DNA crystals were stabilized in 9% PEG 4000, 5 mM magnesium acetate, 100 mM HEPES pH 7.5, 20% ethylene glycol. </plain></SENT>
+<SENT sid="53" pm="."><plain>The cryosoaking solution for the non-SP DNA crystals consisted of 11% PEG 4000, 5 mM magnesium acetate, 100 mM HEPES pH 7.5, 20% ethylene glycol. </plain></SENT>
+<SENT sid="54" pm="."><plain>Data for the protein–SP DNA crystal were collected to Bragg spacings of 2.14 Å on a Bruker X8 Prospector (Bruker Corporation, Billerica, Massachusetts) with Cu Kα radiation at 100 K using an Oxford Cryosystem. </plain></SENT>
+<SENT sid="55" pm="."><plain>Data were integrated using SAINT and scaled with SADABS. </plain></SENT>
+<SENT sid="56" pm="."><plain>The space-group determination and data statistics were calculated using the XPREP package. </plain></SENT>
+<SENT sid="57" pm="."><plain>For the protein–DNA (non-SP) complex, data were collected to 1.72 Å resolution on SBC beamline 19-ID of the Advanced Photon Source (APS), Argonne, Illinois, USA (λ = 0.97903 Å) and were processed using the HKL-2000 package. </plain></SENT>
+<SENT sid="58" pm="."><plain>Both crystals are orthorhombic, belonging to space group P21212 (see Table 1 ▶ for data-processing statistics and unit-cell parameters). </plain></SENT>
+</text></p></sec><sec id="sec2.3"><label>2.3.</label><title><text><SENT sid="59" pm="."><plain>Structure determination and refinement   </plain></SENT>
+</text></title><p><text><SENT sid="60" pm="."><plain>Initial molecular-replacement phases were obtained for the protein–SP DNA structure using the N-terminal fragment of MMLV RT (PDB entry <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=1ztw">1ztw</ext-link>; Goodwin et al., 2005 ▶) as the search model in Phaser (McCoy et al., 2007 ▶). </plain></SENT>
+<SENT sid="61" pm="."><plain>The model was subjected to rigid-body and then restrained least-squares refinement in REFMAC (Murshudov et al., 2011 ▶), and was subsequently refined in PHENIX (Adams et al., 2010 ▶) using restrained least-squares refinement to obtain unbiased electron density for the DNA. </plain></SENT>
+<SENT sid="62" pm="."><plain>Following placement and refinement of the first shell of waters, the first three base pairs of the DNA were modelled using Coot (Emsley et al., 2010 ▶) and then refined with PHENIX (Adams et al., 2010 ▶). </plain></SENT>
+<SENT sid="63" pm="."><plain>The remainder of the DNA model was completed in iterative cycles of model adjustment in Coot and crystallographic refinement in PHENIX. </plain></SENT>
+<SENT sid="64" pm="."><plain>The final R work and R free for the refined protein–SP DNA model were 20.1 and 23.9%, respectively (Table 1 ▶). </plain></SENT>
+</text></p><p><text><SENT sid="65" pm="."><plain>For data collected from protein–DNA crystals lacking the TT lesion, initial phases were obtained by molecular replace­ment with MOLREP (Vagin &amp; Teplyakov, 2010 ▶), with the refined protein model from the protein–SP DNA complex serving as the search model. </plain></SENT>
+<SENT sid="66" pm="."><plain>The DNA model was built using Coot (Emsley et al., 2010 ▶), and crystallographic refinement was performed using restrained least-squares refinement in REFMAC (Murshudov et al., 2011 ▶) and PHENIX (Adams et al., 2010 ▶) as described above for the protein–SP DNA complex. </plain></SENT>
+<SENT sid="67" pm="."><plain>Subsequent refinement of the protein–non SP DNA model yielded R work and R free values of 21.12 and 23.40%, respectively (Table 1 ▶). </plain></SENT>
+<SENT sid="68" pm="."><plain>As one asymmetric unit of the crystals contains only eight base pairs of duplex DNA, the intact 16-­mer duplexes were generated by symmetry in Coot (Emsley et al., 2010 ▶). </plain></SENT>
+<SENT sid="69" pm="."><plain>Coordinates have been deposited with the PDB as entries <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=4m94">4m94</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=4m95">4m95</ext-link> for the SP and non-SP structures, respectively. </plain></SENT>
+</text></p></sec><sec id="sec2.4"><label>2.4.</label><title><text><SENT sid="70" pm="."><plain>Structural analysis   </plain></SENT>
+</text></title><p><text><SENT sid="71" pm="."><plain>The DNA structures of the 16-mer duplexes were analyzed using 3DNA (Colasanti et al., 2013 ▶; Lu &amp; Olson, 2003 ▶, 2008 ▶). </plain></SENT>
+<SENT sid="72" pm="."><plain>3DNA uses El Hassan and Calladine’s algorithm to calculate the major-groove and minor-groove widths, where each di­nucleotide step is assigned a groove width based on simple cross-strand P–P distances (El Hassan &amp; Calladine, 1998 ▶). </plain></SENT>
+<SENT sid="73" pm="."><plain>The refined groove-width values, which also take into account the directions of the sugar phosphate backbone, were used to plot graphs of the differences in major-groove and minor-groove widths. </plain></SENT>
+<SENT sid="74" pm="."><plain>Contact areas between bases within the SP lesion and the corresponding thymine bases in the non-SP structure were calculated using NACCESS (Hubbard &amp; Thornton, 1993 ▶). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="sec3"><label>3.</label><title><text><SENT sid="75" pm="."><plain>Results   </plain></SENT>
+</text></title><sec id="sec3.1"><label>3.1.</label><title><text><SENT sid="76" pm="."><plain>Overall structure   </plain></SENT>
+</text></title><p><text><SENT sid="77" pm="."><plain>The host–guest system used in this study employs the co-crystallization of a 16-base-pair DNA oligonucleotide duplex (guest) with the protein (host), the N-terminal fragment of the Moloney murine leukemia virus <z:uniprot sup="inside" fb="0" ids="P23072,P23071,P23070,Q95SX7,P21329,P21328,Q9NBX4">reverse transcriptase</z:uniprot> (MMLV RT), which includes the fingers and palm domains (Coté et al., 2000 ▶). </plain></SENT>
+<SENT sid="78" pm="."><plain>The fingers domain of MMLV RT interacts with the 3′-­OH end of one strand as well as the minor-groove base and sugar atoms of the terminal three base pairs, resulting in several hydrogen bonds and van der Waals contacts (Coté &amp; Georgiadis, 2001 ▶; Coté et al., 2000 ▶, 2003 ▶; Najmudin et al., 2000 ▶). </plain></SENT>
+<SENT sid="79" pm="."><plain>The host–guest system has several important features, two of which are relevant to this work. </plain></SENT>
+<SENT sid="80" pm="."><plain>Firstly, different DNA oligonucleotides are all analyzed within the same crystal lattice and are therefore subject to the same crystalline environment (see Table 1 ▶ for unit-cell parameters). </plain></SENT>
+<SENT sid="81" pm="."><plain>Secondly, the central 10 bp of the 16 bp duplex DNA are free of interactions with the protein or other DNA molecules, allowing the nucleic acid to adopt a structure dictated by its sequence. </plain></SENT>
+<SENT sid="82" pm="."><plain>In previous work, we used this host–guest system to analyze the properties of the 5′-CA dinucleotide step that is recognized and processed by <z:uniprot sup="inside" fb="5" ids="P22877,P15435,P62904,P62905,P22886,P06723,P27078,P21442,P16407,P20709,Q38361,P25426,P22884,P36932,P27077,P04890,P08320,P06155,P37317,P03700,P20214">integrase</z:uniprot> (PDB entries <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=2fvp">2fvp</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=2fvq">2fvq</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=2fvr">2fvr</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://scripts.iucr.org/cgi-bin/cr.cgi?rm=pdb&amp;pdbId=2fvs">2fvs</ext-link>) and found that independent of its position within the central 10 bp, the CA dinucleotide step in these structures had similar structural properties, including a positive roll angle and a negative slide value (Montaño et al., 2006 ▶). </plain></SENT>
+</text></p><p><text><SENT sid="83" pm="."><plain>The host–guest system is best suited to the analysis of symmetric DNA sequences, as 8 bp of the total 16 bp duplex are contained within the asymmetric unit, the unique repeating unit within the crystal (Goodwin et al., 2005 ▶; Sun et al., 1998 ▶). </plain></SENT>
+<SENT sid="84" pm="."><plain>Thus, we analyzed the structures of two symmetric 16-base-pair duplexes, one with two SP lesions, one in each strand separated by two base pairs, and the other with the normal DNA of the same length and sequence (Figs. </plain></SENT>
+<SENT sid="85" pm="."><plain>1 ▶ a, 1 ▶ b and 1 ▶ c). </plain></SENT>
+<SENT sid="86" pm="."><plain>Moreover, since the MMLV RT fragment alone was used as the search model to obtain molecular-replacement phasing, the initial electron density obtained for the guest DNA molecules was unbiased. </plain></SENT>
+<SENT sid="87" pm="."><plain>Well defined electron density was observed for the SP lesion in initial electron-density maps (Fig. 2 ▶ a). </plain></SENT>
+<SENT sid="88" pm="."><plain>Overall, the structures of the SP-containing and non-SP-containing DNA duplexes have clear structural differences, as shown in Fig. 2 ▶(b) and described in detail below. </plain></SENT>
+</text></p></sec><sec id="sec3.2"><label>3.2.</label><title><text><SENT sid="89" pm="."><plain>Helical parameters   </plain></SENT>
+</text></title><p><text><SENT sid="90" pm="."><plain>The helical parameters and local base-pair geometries of the 16-base-pair SP-containing and non-SP-containing DNA sequences were computed using 3DNA (Colasanti et al., 2013 ▶; Lu &amp; Olson, 2003 ▶, 2008 ▶). </plain></SENT>
+<SENT sid="91" pm="."><plain>The structural parameters associated with the SP structure may be influenced by the proximity of the two SP lesions, which are located within two base pairs of one another. </plain></SENT>
+<SENT sid="92" pm="."><plain>However, the base pairs immediately adjacent to the SP lesions are very similar in structure to those found in the structure reported for a single SP lesion-containing structure in a complex with B. stearothermophilus <z:uniprot sup="inside" fb="0" ids="O67779,Q04957,O34996,O51498,Q59156,O08307,P52027,P00582,P52026,P43741,Q9ZJE9,P56105,Q9CDS1,O32801,P0A551,P46835,P9WNU4,P9WNU5,Q9HT80,Q9S1G2,Q1RH76,Q92GB7,Q9RAA9,Q9RLB6,O05949,Q9RLA0,Q9F173,P59199,P59200,Q55971,P74933,P28040,O93745,P26811,P95690,O50607">DNA polymerase I</z:uniprot> (Fig. 2 ▶ c). </plain></SENT>
+<SENT sid="93" pm="."><plain>In particular, the base pair immediately adjacent to the lesion, where both structures contain a purine in the position equivalent to A8, is nearly identical in the two structures. </plain></SENT>
+<SENT sid="94" pm="."><plain>In the next base pair, the single SP lesion structure has a purine in the position equivalent to T9 but is still structurally quite similar. </plain></SENT>
+<SENT sid="95" pm="."><plain>Thus, the proximity of the two lesions in our structure does not appear to cause structural changes that differ significantly from those induced by a single lesion. </plain></SENT>
+</text></p><p><text><SENT sid="96" pm="."><plain>Both structures maintain a right-handed DNA conformation with continuous base stacking and have average helical twists of 34.56° and 33.98°, corresponding to 10.4 and 10.6 bp per turn, respectively. </plain></SENT>
+<SENT sid="97" pm="."><plain>However, the helical twist as a function of base pairs differs in the two structures, as shown in Fig. 3 ▶(a). </plain></SENT>
+<SENT sid="98" pm="."><plain>A pronounced unwinding is observed at the t6t7 dinucleotide step (refer to Fig. 1 ▶ for the numbering scheme) in the region of the spore photoproduct lesion, where the DNA unwinds by an angle of −4.4° compared with the non-SP structure. </plain></SENT>
+<SENT sid="99" pm="."><plain>However, the three dinucleotide steps following t6t7 show overwinding of the DNA, with values ranging from 0.68° to 7.6°. </plain></SENT>
+<SENT sid="100" pm="."><plain>Collectively, these changes account for the accommodation of the spore photoproduct lesion in the double-helical DNA while maintaining Watson–Crick base pairing. </plain></SENT>
+<SENT sid="101" pm="."><plain>Global helical twist values for the non-SP structure deviate significantly from those of the SP structure for dinucleotide steps C3C4 and C4G5, with values of 24.63° and 39.66° compared with 35.10° and 34.64°, respectively. </plain></SENT>
+<SENT sid="102" pm="."><plain>Thus, these two steps are effectively underwound and overwound, respectively, in the non-SP structure compared with the SP structure. </plain></SENT>
+</text></p><p><text><SENT sid="103" pm="."><plain>The structure of the non-SP DNA is B-­form throughout, while that of the spore photoproduct shows three distinct regions in the DNA structure: the upper and the lower thirds adopt a B-form structure, while the central dinucleotide steps including the two spore photoproducts and intervening base pairs form some type of intermediate structure that deviates significantly from B-­form. </plain></SENT>
+<SENT sid="104" pm="."><plain>The central region includes the dinucleotide steps tt/AA, tA/TA, AT/AT, TA/tA and AA/tt (B6–B11/G6–<z:uniprot sup="inside" fb="1" ids="Q54WC0">G11</z:uniprot>). </plain></SENT>
+<SENT sid="105" pm="."><plain>The values of Zp for these dinucleotide steps along with helical inclination and x displacement, dimer step, roll and slide deviate substantially from those found in standard DNA conformations. </plain></SENT>
+<SENT sid="106" pm="."><plain>The Zp and local base-pair parameters of the SP-containing and non-SP-containing DNA are listed in Table 2 ▶. </plain></SENT>
+<SENT sid="107" pm="."><plain>A significant effect of the spore photoproduct lesion is also observed on the minor-groove width of the DNA. </plain></SENT>
+<SENT sid="108" pm="."><plain>On comparing the minor-groove width of the SP-containing DNA with the non-SP form, it is clear that there is a significant widening of the minor groove (Fig. 3 ▶ b): the minor-groove width increases from 9.7 Å in the non-SP DNA to 12.5 Å in the SP-containing DNA. </plain></SENT>
+<SENT sid="109" pm="."><plain>The widened groove is a result of changes in local base-pair parameters owing to the presence of the spore photoproduct, in which the two thymines are covalently linked to each other. </plain></SENT>
+<SENT sid="110" pm="."><plain>The major-groove widths in the SP and non-SP structures are similar, with differences of less than 1 Å. </plain></SENT>
+</text></p><p><text><SENT sid="111" pm="."><plain>The most notable feature of the non-SP structure is that it has a very narrow minor groove ranging from 9.7 to 10.4 Å associated with its central TTATAA sequence. </plain></SENT>
+<SENT sid="112" pm="."><plain>In this regard it differs from other AT-rich sequences that we have crystallized and analysed, in which the AATT sites were separated by a central GC pair (Glass et al., 2009 ▶; Goodwin et al., 2005 ▶, 2006 ▶). </plain></SENT>
+<SENT sid="113" pm="."><plain>In these structures, the groove width was very narrow at the 5′-end of the AATT sequence and widened significantly towards the central GC pair. </plain></SENT>
+</text></p></sec><sec id="sec3.3"><label>3.3.</label><title><text><SENT sid="114" pm="."><plain>Base-pair parameters   </plain></SENT>
+</text></title><p><text><SENT sid="115" pm="."><plain>The variations in the helical parameters and the groove widths of the SP-containing DNA from those of the non-SP form are a result of the effect of variations in the local base-pair step parameters as well as individual bases in response to the presence of the spore photoproduct. </plain></SENT>
+<SENT sid="116" pm="."><plain>The SP-containing DNA suggests significant changes in the local base-pair step parameters of the t6t7 dinucleotide step of the spore photoproduct lesion. </plain></SENT>
+<SENT sid="117" pm="."><plain>The tilt and twist for t6t7 reduce from 1.84° to −6.96° and from 35.79° to 25.49°, respectively. </plain></SENT>
+<SENT sid="118" pm="."><plain>There is a significant increase in the value of roll from −3.60° in the non-SP-containing DNA to 17.52° in the SP-containing DNA (Table 2 ▶). </plain></SENT>
+<SENT sid="119" pm="."><plain>A significant reduction is also observed in the case of x displacement (−0.58° to −5.49°) and global helical twist (36.01° to 31.61°) at t6t7. </plain></SENT>
+<SENT sid="120" pm="."><plain>The decrease in tilt and twist and the reduced x displacement compared with the two adjacent base steps results in a widening of the minor groove. </plain></SENT>
+<SENT sid="121" pm="."><plain>The reduced tilt of the bases to the helix axis also results in a propeller-like twist of the base pair, changing its value from −14.27° in the non-SP-containing DNA to −24.76° in the SP-containing DNA. </plain></SENT>
+</text></p><p><text><SENT sid="122" pm="."><plain>Significant changes are also observed in the hydrogen-bonding distances of the base pairs involved in the formation of the SP lesion. </plain></SENT>
+<SENT sid="123" pm="."><plain>t6 and t7 in the non-SP DNA have O4–N6 hydrogen-bond distances of 3.31 and 3.15 Å, respectively, compared with 2.76 and 2.84 Å in the SP DNA (Fig. 4 ▶ a). </plain></SENT>
+<SENT sid="124" pm="."><plain>This suggests that the non-SP DNA has one long hydrogen bond within the A–T pair, while the corresponding A–t pair has more conventional hydrogen-bonding distances. </plain></SENT>
+<SENT sid="125" pm="."><plain>Thus, the structure suggests that the hydrogen bonds among bases are predicted to be somewhat stronger in the SP-containing region. </plain></SENT>
+<SENT sid="126" pm="."><plain>This is further supported by the decreased tilt, resulting in a significant twist in the SP lesion region. </plain></SENT>
+<SENT sid="127" pm="."><plain>The normalized B factors for the SP-containing region or the equivalent region of the non-SP structure were within 15% of the average B factor and were similar in pattern to one another. </plain></SENT>
+<SENT sid="128" pm="."><plain>Thus, the presence of the SP lesion does not appear to directly influence the dynamics of the structure as assessed by the B factors. </plain></SENT>
+</text></p><p><text><SENT sid="129" pm="."><plain>To determine whether the loss of aromaticity influences the stability of base stacking for t6, we analysed the contact area between t6 and G5 or t7 and compared this area with that in the non-SP-containing structure between T6 and G6 or T7 using NACCESS (Hubbard &amp; Thornton, 1993 ▶). </plain></SENT>
+<SENT sid="130" pm="."><plain>The contact areas between t6 and G5 or T6 and G5 were very similar in the two structures. </plain></SENT>
+<SENT sid="131" pm="."><plain>However, the contact area calculated for t6 and t7 was actually slightly larger than for T6 and T7 (76 versus 67 Å2), suggesting that loss of aromaticity does not negatively impact base stacking in the SP lesion. </plain></SENT>
+</text></p></sec><sec id="sec3.4"><label>3.4.</label><title><text><SENT sid="132" pm="."><plain>Main-chain and χ torsion angles   </plain></SENT>
+</text></title><p><text><SENT sid="133" pm="."><plain>The standard B-form DNA has glycosidic torsion angles (χ) in the anti conformation. </plain></SENT>
+<SENT sid="134" pm="."><plain>Both the non-SP-containing and the SP-containing DNA have χ angles in the anti conformation except for <z:uniprot sup="inside" fb="1" ids="Q99941">G13</z:uniprot> (− 86.1°, syn) in the SP-DNA. </plain></SENT>
+<SENT sid="135" pm="."><plain>The change in the χ angle from −114.9° to −96.8° at t6 and from −104.9° to −121.9° at t7 in the SP-DNA reflects the structural change required to accommodate the spore photoproduct lesion. </plain></SENT>
+<SENT sid="136" pm="."><plain>The backbone torsion angle β experiences the greatest deviation in the region of the spore photoproduct lesion, decreasing from 173.1° to −151.5° at t6 while increasing slightly from −175.6° to 174.5° at t7. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="sec4"><label>4.</label><title><text><SENT sid="137" pm="."><plain>Discussion   </plain></SENT>
+</text></title><p><text><SENT sid="138" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyases</z:uniprot> are light-independent repair enzymes that specifically repair spore photoproduct lesions found in the spores of some bacteria such as Bacillus sp. </plain></SENT>
+<SENT sid="139" pm="."><plain>(Friedel et al., 2006 ▶). </plain></SENT>
+<SENT sid="140" pm="."><plain>The important step in this repair mechanism is the recognition of the chemical structure of the lesion by the enzyme. </plain></SENT>
+<SENT sid="141" pm="."><plain>Our crystal structures clearly show distortions induced by the lesion in the DNA double helix compared with the same sequence without the SP lesion, including loss of the B-conformation of the DNA in the region of the SP lesion, widening of the minor groove by approximately 3 Å and unwinding induced at the 5′-­T of the lesion followed by overwinding in the di­nucleotide steps following the lesion. </plain></SENT>
+<SENT sid="142" pm="."><plain>An interesting and somewhat unexpected finding was that the hydrogen bonds from the T–T lesion to the corresponding As are not only maintained but are somewhat shorter, indicative of stronger bonds. </plain></SENT>
+<SENT sid="143" pm="."><plain>The significant differences observed in DNA containing the SP lesion compared with other UV-induced lesions suggest a basis by which the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot> might recognize the lesion. </plain></SENT>
+</text></p><p><text><SENT sid="144" pm="."><plain>The 5R-SP lesion previously reported in the context of duplex DNA but lacking the central phosphate linkage (Heil et al., 2011 ▶) is quite similar in structure to our SP lesion, as shown in Fig. 4 ▶(b). </plain></SENT>
+<SENT sid="145" pm="."><plain>However, comparison of the SP-containing and non-SP-containing DNA duplexes crystallized in a complex with B. stearothermophilus <z:uniprot sup="inside" fb="0" ids="O67779,Q04957,O34996,O51498,Q59156,O08307,P52027,P00582,P52026,P43741,Q9ZJE9,P56105,Q9CDS1,O32801,P0A551,P46835,P9WNU4,P9WNU5,Q9HT80,Q9S1G2,Q1RH76,Q92GB7,Q9RAA9,Q9RLB6,O05949,Q9RLA0,Q9F173,P59199,P59200,Q55971,P74933,P28040,O93745,P26811,P95690,O50607">DNA polymerase I</z:uniprot> reveals that the minor-groove widths for the two oligo­nucleotides are quite similar and are unusually wide: 13.6 and 14.1 Å, respectively, as analyzed in 3DNA (Colasanti et al., 2013 ▶; Lu &amp; Olson, 2003 ▶, 2008 ▶). </plain></SENT>
+<SENT sid="146" pm="."><plain>The two DNA duplexes exhibit the A-form near the active site of the <z:uniprot sup="inside" fb="0" ids="P09804,P05468,A4ZU91,P03261,P87503,P04495,P05664,P06538,P48311,O72539,O72540,Q65946,P87553,Q64751,Q8QNT0,Q88469,O29753,Q37882,Q37989,P19894,O64235,Q05254,B7SSM2,P03680,P06950,P30314,P06225,P19822,P30319,A7U6F1,Q7SIG7,P21402,Q69025,Q25BI3,A4KX57,P28859,Q58295,P52025,Q5UQR0,P18131,P41712,Q90162,P30318,Q83948,Q84173,Q6R7C9,P30321,P30320,A7U6F2,A7U6F3,P61875,Q9HH06,O59610,Q51334,P61876,O70736,Q779J8,O33845,P74918,Q9HH84,P56689,Q9HH05,P77933,P30317,Q56366,Q4U3V0,O57191,P20509,P06856,P0DOO5,P0DOO6,P10582">DNA polymerase</z:uniprot>, while the undamaged sequence is largely B-form and the SP-containing duplex is unclassified within the region of the SP. </plain></SENT>
+<SENT sid="147" pm="."><plain>The unusual groove widths and helical forms exhibited by these DNA duplexes are undoubtedly influenced by inter­actions with the enzyme and thus differ significantly from our findings despite the structural similarity of the SP lesions themselves and the adjacent base pairs. </plain></SENT>
+</text></p><p><text><SENT sid="148" pm="."><plain>Compared with the SP lesion, which only shows widening of the minor groove, the cyclobutane pyrimide dimer (CPD) lesion shows widening of both the major and the minor grooves and an overall unwinding of 9.3°. </plain></SENT>
+<SENT sid="149" pm="."><plain>Hydrogen bonding is lost between the 5′-thymine and its complementary adenine in CPD, while no such change is observed in the case of the SP lesion (Mees et al., 2004 ▶; Park et al., 2002 ▶). </plain></SENT>
+<SENT sid="150" pm="."><plain>The other UV-induced lesions, which include (6–4) PD and Dewar lesions, show a greater distortion of the double helix compared with the CPD and SP lesions (Kim &amp; Choi, 1995 ▶; Lee et al., 1999 ▶). </plain></SENT>
+<SENT sid="151" pm="."><plain>Nonetheless, the SP-containing DNA presents a unique surface and chemical structure compared with B-DNA that could facilitate recognition by the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot> repair enzyme. </plain></SENT>
+</text></p><p><text><SENT sid="152" pm="."><plain>Both the overwinding and underwinding in the region of the SP lesion and the significant widening of the minor groove observed in the crystal structure are in agreement with a number of proposed models for the recognition of UV-induced photoproduct lesions by lyases involving significant distortion of the DNA conformation caused by the lesions (Benjdia, 2012 ▶). </plain></SENT>
+<SENT sid="153" pm="."><plain>Recently, the crystal structure of the <z:uniprot sup="inside" fb="0" ids="Q9C509,Q9Y194,Q54RV9,Q9V7Y2,Q5X3A8,Q5ZTI6,Q5WUR6,Q52RG7,Q05567">SP lyase</z:uniprot> complexed with SAM and a spore photoproduct dinucleoside was reported (Benjdia et al., 2012 ▶). </plain></SENT>
+<SENT sid="154" pm="."><plain>Based on modeling of a substrate with the SP contained within a DNA duplex, it has been proposed that the lesion must be flipped out of the duplex in order to bind to the active site of the enzyme (Benjdia et al., 2012 ▶), which would necessitate local melting of the DNA structure. </plain></SENT>
+<SENT sid="155" pm="."><plain>This proposal is consistent with previous studies in which base flipping has been proposed for the repair of UV-induced photolesions (Yang et al., 2013 ▶; Yang, 2011 ▶). </plain></SENT>
+<SENT sid="156" pm="."><plain>Both CPD and (6–4) PD crystal structures with their respective lyases suggest weakening of the hydrogen bonds in the region of the lesion (Kim &amp; Choi, 1995 ▶; Park et al., 2002 ▶). </plain></SENT>
+<SENT sid="157" pm="."><plain>As shown in thermal denaturation studies conducted by the Li laboratory, the presence of SP destabilizes the duplex oligonucleotide by 10−20 kJ mol−1 (Jian &amp; Li, 2013 ▶). </plain></SENT>
+<SENT sid="158" pm="."><plain>In assessing a structural basis for destabilization of the oligonucleotide induced by the presence of the SP lesion, we considered the following. </plain></SENT>
+<SENT sid="159" pm="."><plain>Hydrogen-bonding distances between t–A base pairs are somewhat shorter, which is consistent with stronger hydrogen bonds. </plain></SENT>
+<SENT sid="160" pm="."><plain>Loss of aromaticity of one thymine within the lesion does not appear to impact the stacking of the two bases as assessed by contact areas. </plain></SENT>
+<SENT sid="161" pm="."><plain>Also, the overall dynamics within the lesion-containing region of the structure do not appear to differ significantly in the SP and non-SP structures as assessed by normalized B factors. </plain></SENT>
+<SENT sid="162" pm="."><plain>Thus, these independent structural features within the SP structure do not provide an obvious explanation for the loss of stability. </plain></SENT>
+<SENT sid="163" pm="."><plain>However, the global helical properties of the central region of the duplex containing the SP lesions differ significantly from those of the very stable B-form DNA, suggesting that collectively deviations from B-form DNA may be destabilizing. </plain></SENT>
+<SENT sid="164" pm="."><plain>Moreover, the overall weakening effect of the lesion is likely to be the structural basis for the base-flipping mechanism during the SP repair process. </plain></SENT>
+<SENT sid="165" pm="."><plain>Further experimental data are needed to clarify the mechanism by which the SP lesion might be flipped out of the duplex DNA and into the enzyme active site. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="166" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data"><p><text><SENT sid="167" pm="."><plain>PDB reference: <ext-link ext-link-type="pdb" xlink:href="4m94">N-terminal fragment of MMLV RT, SP DNA complex, 4m94</ext-link> </plain></SENT>
+</text></p></supplementary-material><supplementary-material content-type="local-data"><p><text><SENT sid="168" pm="."><plain>PDB reference: <ext-link ext-link-type="pdb" xlink:href="4m95">non-SP DNA complex, 4m95</ext-link> </plain></SENT>
+</text></p></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="169" pm="."><plain>This work was supported by a grant from the National Institutes of Health, ES017177 to LL, Research Support Funds Grant from Indiana University Purdue University Indianapolis to LL and MMG, and Collaborative Research Grant from Indiana University to MMG and LL. </plain></SENT>
+<SENT sid="170" pm="."><plain>The results shown in this report are derived from work performed at Argonne National Laboratory Structural Biology Center at the Advanced Photon Source. </plain></SENT>
+<SENT sid="171" pm="."><plain>Argonne is operated by UChicago Argonne LLC for the US Department of Energy, Office of Biological and Environmental Research under contract DE-AC02-06CH11357. </plain></SENT>
+<SENT sid="172" pm="."><plain>We thank Marianne Cuff at the SBC beamline and our colleague at IU School of Medicine, Tom Hurley, for assistance with data collection. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="bb1"><text><SENT sid="173" pm="."><plain>Adams, P. </plain></SENT>
+<SENT sid="174" pm="."><plain>D. et al. (2010). Acta Cryst. D66, 213–221. </plain></SENT>
+</text></ref><ref id="bb2"><text><SENT sid="175" pm="."><plain>Benjdia, A. </plain></SENT>
+<SENT sid="176" pm="."><plain>(2012). Curr. </plain></SENT>
+<SENT sid="177" pm="."><plain>Opin. </plain></SENT>
+<SENT sid="178" pm="."><plain>Struct. </plain></SENT>
+<SENT sid="179" pm="."><plain>Biol. 22, 711–720. </plain></SENT>
+</text></ref><ref id="bb3"><text><SENT sid="180" pm="."><plain>Benjdia, A., Heil, K., Barends, T. </plain></SENT>
+<SENT sid="181" pm="."><plain>R., Carell, T. &amp; Schlichting, I. </plain></SENT>
+<SENT sid="182" pm="."><plain>(2012). Nucleic Acids Res. 40, 9308–9318. </plain></SENT>
+</text></ref><ref id="bb4"><text><SENT sid="183" pm="."><plain>Buis, J. </plain></SENT>
+<SENT sid="184" pm="."><plain>M., Cheek, J., Kalliri, E. &amp; Broderick, J. </plain></SENT>
+<SENT sid="185" pm="."><plain>B. </plain></SENT>
+<SENT sid="186" pm="."><plain>(2006). J. </plain></SENT>
+<SENT sid="187" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="188" pm="."><plain>Chem. 281, 25994–26003. </plain></SENT>
+</text></ref><ref id="bb5"><text><SENT sid="189" pm="."><plain>Chandor, A., Berteau, O., Douki, T., Gasparutto, D., Sanakis, Y., Ollagnier-de-Choudens, S., Atta, M. &amp; Fontecave, M. </plain></SENT>
+<SENT sid="190" pm="."><plain>(2006). J. </plain></SENT>
+<SENT sid="191" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="192" pm="."><plain>Chem. 281, 26922–26931. </plain></SENT>
+</text></ref><ref id="bb6"><text><SENT sid="193" pm="."><plain>Chandra, T., Silver, S. </plain></SENT>
+<SENT sid="194" pm="."><plain>C., Zilinskas, E., Shepard, E. </plain></SENT>
+<SENT sid="195" pm="."><plain>M., Broderick, W. </plain></SENT>
+<SENT sid="196" pm="."><plain>E. &amp; Broderick, J. </plain></SENT>
+<SENT sid="197" pm="."><plain>B. </plain></SENT>
+<SENT sid="198" pm="."><plain>(2009). J. </plain></SENT>
+<SENT sid="199" pm="."><plain>Am. </plain></SENT>
+<SENT sid="200" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="201" pm="."><plain>Soc. 131, 2420–2421. </plain></SENT>
+</text></ref><ref id="bb7"><text><SENT sid="202" pm="."><plain>Colasanti, A. </plain></SENT>
+<SENT sid="203" pm="."><plain>V., Lu, X.-J. &amp; Olson, W. </plain></SENT>
+<SENT sid="204" pm="."><plain>K. </plain></SENT>
+<SENT sid="205" pm="."><plain>(2013). J. </plain></SENT>
+<SENT sid="206" pm="."><plain>Vis. </plain></SENT>
+<SENT sid="207" pm="."><plain>Exp. 26, e4401. </plain></SENT>
+</text></ref><ref id="bb8"><text><SENT sid="208" pm="."><plain>Coté, M. </plain></SENT>
+<SENT sid="209" pm="."><plain>L. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="210" pm="."><plain>M. </plain></SENT>
+<SENT sid="211" pm="."><plain>(2001). Acta Cryst. D57, 1238–1250. </plain></SENT>
+</text></ref><ref id="bb9"><text><SENT sid="212" pm="."><plain>Coté, M. </plain></SENT>
+<SENT sid="213" pm="."><plain>L., Pflomm, M. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="214" pm="."><plain>M. </plain></SENT>
+<SENT sid="215" pm="."><plain>(2003). J. </plain></SENT>
+<SENT sid="216" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="217" pm="."><plain>Biol. 330, 57–74. </plain></SENT>
+</text></ref><ref id="bb10"><text><SENT sid="218" pm="."><plain>Coté, M. </plain></SENT>
+<SENT sid="219" pm="."><plain>L., Yohannan, S. </plain></SENT>
+<SENT sid="220" pm="."><plain>J. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="221" pm="."><plain>M. </plain></SENT>
+<SENT sid="222" pm="."><plain>(2000). Acta Cryst. D56, 1120–1131. </plain></SENT>
+</text></ref><ref id="bb11"><text><SENT sid="223" pm="."><plain>Donnellan, J. </plain></SENT>
+<SENT sid="224" pm="."><plain>E. </plain></SENT>
+<SENT sid="225" pm="."><plain>Jr &amp; Setlow, R. </plain></SENT>
+<SENT sid="226" pm="."><plain>B. </plain></SENT>
+<SENT sid="227" pm="."><plain>(1965). Science, 149, 308–310. </plain></SENT>
+</text></ref><ref id="bb12"><text><SENT sid="228" pm="."><plain>Douki, T. &amp; Cadet, J. </plain></SENT>
+<SENT sid="229" pm="."><plain>(2003). Photochem. </plain></SENT>
+<SENT sid="230" pm="."><plain>Photobiol. </plain></SENT>
+<SENT sid="231" pm="."><plain>Sci. 2, 433–436. </plain></SENT>
+</text></ref><ref id="bb13"><text><SENT sid="232" pm="."><plain>Douki, T., Laporte, G. &amp; Cadet, J. </plain></SENT>
+<SENT sid="233" pm="."><plain>(2003). Nucleic Acids Res. 31, 3134–3142. </plain></SENT>
+</text></ref><ref id="bb14"><text><SENT sid="234" pm="."><plain>El Hassan, M. </plain></SENT>
+<SENT sid="235" pm="."><plain>A. &amp; Calladine, C. </plain></SENT>
+<SENT sid="236" pm="."><plain>R. </plain></SENT>
+<SENT sid="237" pm="."><plain>(1998). J. </plain></SENT>
+<SENT sid="238" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="239" pm="."><plain>Biol. 282, 331–343. </plain></SENT>
+</text></ref><ref id="bb15"><text><SENT sid="240" pm="."><plain>Emsley, P., Lohkamp, B., Scott, W. </plain></SENT>
+<SENT sid="241" pm="."><plain>G. &amp; Cowtan, K. </plain></SENT>
+<SENT sid="242" pm="."><plain>(2010). Acta Cryst. D66, 486–501. </plain></SENT>
+</text></ref><ref id="bb16"><text><SENT sid="243" pm="."><plain>Friedel, M. </plain></SENT>
+<SENT sid="244" pm="."><plain>G., Berteau, O., Pieck, J. </plain></SENT>
+<SENT sid="245" pm="."><plain>C., Atta, M., Ollagnier-de-Choudens, S., Fontecave, M. &amp; Carell, T. </plain></SENT>
+<SENT sid="246" pm="."><plain>(2006). Chem. </plain></SENT>
+<SENT sid="247" pm="."><plain>Commun., pp. </plain></SENT>
+<SENT sid="248" pm="."><plain>445–447. </plain></SENT>
+</text></ref><ref id="bb17"><text><SENT sid="249" pm="."><plain>Gentil, A., Le Page, F., Margot, A., Lawrence, C. </plain></SENT>
+<SENT sid="250" pm="."><plain>W., Borden, A. &amp; Sarasin, A. </plain></SENT>
+<SENT sid="251" pm="."><plain>(1996). Nucleic Acids Res. 24, 1837–1840. </plain></SENT>
+</text></ref><ref id="bb18"><text><SENT sid="252" pm="."><plain>Glas, A. </plain></SENT>
+<SENT sid="253" pm="."><plain>F., Kaya, E., Schneider, S., Heil, K., Fazio, D., Maul, M. </plain></SENT>
+<SENT sid="254" pm="."><plain>J. &amp; Carell, T. </plain></SENT>
+<SENT sid="255" pm="."><plain>(2010). J. </plain></SENT>
+<SENT sid="256" pm="."><plain>Am. </plain></SENT>
+<SENT sid="257" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="258" pm="."><plain>Soc. 132, 3254–3255. </plain></SENT>
+</text></ref><ref id="bb19"><text><SENT sid="259" pm="."><plain>Glas, A. </plain></SENT>
+<SENT sid="260" pm="."><plain>F., Schneider, S., Maul, M. </plain></SENT>
+<SENT sid="261" pm="."><plain>J., Hennecke, U. &amp; Carell, T. </plain></SENT>
+<SENT sid="262" pm="."><plain>(2009). Chemistry, 15, 10387–10396. </plain></SENT>
+</text></ref><ref id="bb20"><text><SENT sid="263" pm="."><plain>Glass, L. </plain></SENT>
+<SENT sid="264" pm="."><plain>S., Nguyen, B., Goodwin, K. </plain></SENT>
+<SENT sid="265" pm="."><plain>D., Dardonville, C., Wilson, W. </plain></SENT>
+<SENT sid="266" pm="."><plain>D., Long, E. </plain></SENT>
+<SENT sid="267" pm="."><plain>C. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="268" pm="."><plain>M. </plain></SENT>
+<SENT sid="269" pm="."><plain>(2009). Biochemistry, 48, 5943–5952. </plain></SENT>
+</text></ref><ref id="bb21"><text><SENT sid="270" pm="."><plain>Goodwin, K. </plain></SENT>
+<SENT sid="271" pm="."><plain>D., Lewis, M. </plain></SENT>
+<SENT sid="272" pm="."><plain>A., Tanious, F. </plain></SENT>
+<SENT sid="273" pm="."><plain>A., Tidwell, R. </plain></SENT>
+<SENT sid="274" pm="."><plain>R., Wilson, W. </plain></SENT>
+<SENT sid="275" pm="."><plain>D., Georgiadis, M. </plain></SENT>
+<SENT sid="276" pm="."><plain>M. &amp; Long, E. </plain></SENT>
+<SENT sid="277" pm="."><plain>C. </plain></SENT>
+<SENT sid="278" pm="."><plain>(2006). J. </plain></SENT>
+<SENT sid="279" pm="."><plain>Am. </plain></SENT>
+<SENT sid="280" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="281" pm="."><plain>Soc. 128, 7846–7854. </plain></SENT>
+</text></ref><ref id="bb22"><text><SENT sid="282" pm="."><plain>Goodwin, K. </plain></SENT>
+<SENT sid="283" pm="."><plain>D., Long, E. </plain></SENT>
+<SENT sid="284" pm="."><plain>C. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="285" pm="."><plain>M. </plain></SENT>
+<SENT sid="286" pm="."><plain>(2005). Nucleic Acids Res. 33, 4106–4116. </plain></SENT>
+</text></ref><ref id="bb23"><text><SENT sid="287" pm="."><plain>Heil, K., Kneuttinger, A. </plain></SENT>
+<SENT sid="288" pm="."><plain>C., Schneider, S., Lischke, U. &amp; Carell, T. </plain></SENT>
+<SENT sid="289" pm="."><plain>(2011). Chemistry, 17, 9651–9657. </plain></SENT>
+</text></ref><ref id="bb24"><text><SENT sid="290" pm="."><plain>Hubbard, S. </plain></SENT>
+<SENT sid="291" pm="."><plain>J. &amp; Thornton, J. </plain></SENT>
+<SENT sid="292" pm="."><plain>M. </plain></SENT>
+<SENT sid="293" pm="."><plain>(1993). NACCESS Department of Biochemistry and Molecular Biology, University College London. </plain></SENT>
+</text></ref><ref id="bb25"><text><SENT sid="294" pm="."><plain>Jian, Y. &amp; Li, L. </plain></SENT>
+<SENT sid="295" pm="."><plain>(2013). J. </plain></SENT>
+<SENT sid="296" pm="."><plain>Org. </plain></SENT>
+<SENT sid="297" pm="."><plain>Chem. 78, 3021–3029. </plain></SENT>
+</text></ref><ref id="bb26"><text><SENT sid="298" pm="."><plain>Kim, J.-K. &amp; Choi, B.-S. </plain></SENT>
+<SENT sid="299" pm="."><plain>(1995). Eur. </plain></SENT>
+<SENT sid="300" pm="."><plain>J. </plain></SENT>
+<SENT sid="301" pm="."><plain>Biochem. 228, 849–854. </plain></SENT>
+</text></ref><ref id="bb27"><text><SENT sid="302" pm="."><plain>Lee, J.-H., Hwang, G.-S. &amp; Choi, B.-S. </plain></SENT>
+<SENT sid="303" pm="."><plain>(1999). Proc. </plain></SENT>
+<SENT sid="304" pm="."><plain>Natl Acad. </plain></SENT>
+<SENT sid="305" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="306" pm="."><plain>USA, 96, 6632–6636. </plain></SENT>
+</text></ref><ref id="bb28"><text><SENT sid="307" pm="."><plain>Lin, G., Chen, C.-H., Pink, M., Pu, J. &amp; Li, L. </plain></SENT>
+<SENT sid="308" pm="."><plain>(2011). Chem. </plain></SENT>
+<SENT sid="309" pm="."><plain>Eur. </plain></SENT>
+<SENT sid="310" pm="."><plain>J. 17, 9658–9668. </plain></SENT>
+</text></ref><ref id="bb29"><text><SENT sid="311" pm="."><plain>Lu, X.-J. &amp; Olson, W. </plain></SENT>
+<SENT sid="312" pm="."><plain>K. </plain></SENT>
+<SENT sid="313" pm="."><plain>(2003). Nucleic Acids Res. 31, 5108–5121. </plain></SENT>
+</text></ref><ref id="bb30"><text><SENT sid="314" pm="."><plain>Lu, X.-J. &amp; Olson, W. </plain></SENT>
+<SENT sid="315" pm="."><plain>K. </plain></SENT>
+<SENT sid="316" pm="."><plain>(2008). Nature Protoc. 3, 1213–1227. </plain></SENT>
+</text></ref><ref id="bb31"><text><SENT sid="317" pm="."><plain>Mantel, C., Chandor, A., Gasparutto, D., Douki, T., Atta, M., Fontecave, M., Bayle, P.-A., Mouesca, J.-M. &amp; Bardet, M. </plain></SENT>
+<SENT sid="318" pm="."><plain>(2008). J. </plain></SENT>
+<SENT sid="319" pm="."><plain>Am. </plain></SENT>
+<SENT sid="320" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="321" pm="."><plain>Soc. 130, 16978–16984. </plain></SENT>
+</text></ref><ref id="bb32"><text><SENT sid="322" pm="."><plain>Maul, M. </plain></SENT>
+<SENT sid="323" pm="."><plain>J., Barends, T. </plain></SENT>
+<SENT sid="324" pm="."><plain>R., Glas, A. </plain></SENT>
+<SENT sid="325" pm="."><plain>F., Cryle, M. </plain></SENT>
+<SENT sid="326" pm="."><plain>J., Domratcheva, T., Schneider, S., Schlichting, I. &amp; Carell, T. </plain></SENT>
+<SENT sid="327" pm="."><plain>(2008). Angew. </plain></SENT>
+<SENT sid="328" pm="."><plain>Chem. </plain></SENT>
+<SENT sid="329" pm="."><plain>Int. </plain></SENT>
+<SENT sid="330" pm="."><plain>Ed. </plain></SENT>
+<SENT sid="331" pm="."><plain>Engl. 47, 10076–10080. </plain></SENT>
+</text></ref><ref id="bb33"><text><SENT sid="332" pm="."><plain>McCoy, A. </plain></SENT>
+<SENT sid="333" pm="."><plain>J., Grosse-Kunstleve, R. </plain></SENT>
+<SENT sid="334" pm="."><plain>W., Adams, P. </plain></SENT>
+<SENT sid="335" pm="."><plain>D., Winn, M. </plain></SENT>
+<SENT sid="336" pm="."><plain>D., Storoni, L. </plain></SENT>
+<SENT sid="337" pm="."><plain>C. &amp; Read, R. </plain></SENT>
+<SENT sid="338" pm="."><plain>J. </plain></SENT>
+<SENT sid="339" pm="."><plain>(2007). J. </plain></SENT>
+<SENT sid="340" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="341" pm="."><plain>Cryst. 40, 658–674. </plain></SENT>
+</text></ref><ref id="bb34"><text><SENT sid="342" pm="."><plain>Mees, A., Klar, T., Gnau, P., Hennecke, U., Eker, A. </plain></SENT>
+<SENT sid="343" pm="."><plain>P., Carell, T. &amp; Essen, L.-O. </plain></SENT>
+<SENT sid="344" pm="."><plain>(2004). Science, 306, 1789–1793. </plain></SENT>
+</text></ref><ref id="bb35"><text><SENT sid="345" pm="."><plain>Moeller, R., Douki, T., Cadet, J., Stackebrandt, E., Nicholson, W. </plain></SENT>
+<SENT sid="346" pm="."><plain>L., Rettberg, P., Reitz, G. &amp; Horneck, G. </plain></SENT>
+<SENT sid="347" pm="."><plain>(2007). Int. </plain></SENT>
+<SENT sid="348" pm="."><plain>Microbiol. 10, 39–46. </plain></SENT>
+</text></ref><ref id="bb36"><text><SENT sid="349" pm="."><plain>Montaño, S. </plain></SENT>
+<SENT sid="350" pm="."><plain>P., Coté, M. </plain></SENT>
+<SENT sid="351" pm="."><plain>L., Roth, M. </plain></SENT>
+<SENT sid="352" pm="."><plain>J. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="353" pm="."><plain>M. </plain></SENT>
+<SENT sid="354" pm="."><plain>(2006). Nucleic Acids Res. 34, 5353–5360. </plain></SENT>
+</text></ref><ref id="bb37"><text><SENT sid="355" pm="."><plain>Murshudov, G. </plain></SENT>
+<SENT sid="356" pm="."><plain>N., Skubák, P., Lebedev, A. </plain></SENT>
+<SENT sid="357" pm="."><plain>A., Pannu, N. </plain></SENT>
+<SENT sid="358" pm="."><plain>S., Steiner, R. </plain></SENT>
+<SENT sid="359" pm="."><plain>A., Nicholls, R. </plain></SENT>
+<SENT sid="360" pm="."><plain>A., Winn, M. </plain></SENT>
+<SENT sid="361" pm="."><plain>D., Long, F. &amp; Vagin, A. </plain></SENT>
+<SENT sid="362" pm="."><plain>A. </plain></SENT>
+<SENT sid="363" pm="."><plain>(2011). Acta Cryst. D67, 355–367. </plain></SENT>
+</text></ref><ref id="bb38"><text><SENT sid="364" pm="."><plain>Najmudin, S., Coté, M. </plain></SENT>
+<SENT sid="365" pm="."><plain>L., Sun, D., Yohannan, S., Montano, S. </plain></SENT>
+<SENT sid="366" pm="."><plain>P., Gu, J. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="367" pm="."><plain>M. </plain></SENT>
+<SENT sid="368" pm="."><plain>(2000). J. </plain></SENT>
+<SENT sid="369" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="370" pm="."><plain>Biol. 296, 613–632. </plain></SENT>
+</text></ref><ref id="bb39"><text><SENT sid="371" pm="."><plain>Park, H., Zhang, K., <z:uniprot sup="inside" fb="16" ids="Q8K485,P06281,P08424">Ren</z:uniprot>, Y., Nadji, S., Sinha, N., Taylor, J. </plain></SENT>
+<SENT sid="372" pm="."><plain>S. &amp; Kang, C. </plain></SENT>
+<SENT sid="373" pm="."><plain>(2002). Proc. </plain></SENT>
+<SENT sid="374" pm="."><plain>Natl Acad. </plain></SENT>
+<SENT sid="375" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="376" pm="."><plain>USA, 99, 15965–15970. </plain></SENT>
+</text></ref><ref id="bb40"><text><SENT sid="377" pm="."><plain>Sancar, A. </plain></SENT>
+<SENT sid="378" pm="."><plain>(1996). Science, 272, 48–49. </plain></SENT>
+</text></ref><ref id="bb41"><text><SENT sid="379" pm="."><plain>Setlow, P. </plain></SENT>
+<SENT sid="380" pm="."><plain>(1992). Mol. </plain></SENT>
+<SENT sid="381" pm="."><plain>Microbiol. 6, 563–567. </plain></SENT>
+</text></ref><ref id="bb42"><text><SENT sid="382" pm="."><plain>Setlow, P. </plain></SENT>
+<SENT sid="383" pm="."><plain>(2006). J. </plain></SENT>
+<SENT sid="384" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="385" pm="."><plain>Microbiol. 101, 514–525. </plain></SENT>
+</text></ref><ref id="bb43"><text><SENT sid="386" pm="."><plain>Slieman, T. </plain></SENT>
+<SENT sid="387" pm="."><plain>A., Rebeil, R. &amp; Nicholson, W. </plain></SENT>
+<SENT sid="388" pm="."><plain>L. </plain></SENT>
+<SENT sid="389" pm="."><plain>(2000). J. </plain></SENT>
+<SENT sid="390" pm="."><plain>Bacteriol. 182, 6412–6417. </plain></SENT>
+</text></ref><ref id="bb44"><text><SENT sid="391" pm="."><plain>Sun, D., Jessen, S., Liu, C., Liu, X., Najmudin, S. &amp; Georgiadis, M. </plain></SENT>
+<SENT sid="392" pm="."><plain>M. </plain></SENT>
+<SENT sid="393" pm="."><plain>(1998). Protein Sci. 7, 1575–1582. </plain></SENT>
+</text></ref><ref id="bb45"><text><SENT sid="394" pm="."><plain>Thoma, F. </plain></SENT>
+<SENT sid="395" pm="."><plain>(1999). EMBO J. 18, 6585–6598. </plain></SENT>
+</text></ref><ref id="bb46"><text><SENT sid="396" pm="."><plain>Todo, T. </plain></SENT>
+<SENT sid="397" pm="."><plain>(1999). Mutat. </plain></SENT>
+<SENT sid="398" pm="."><plain>Res. 434, 89–97. </plain></SENT>
+</text></ref><ref id="bb47"><text><SENT sid="399" pm="."><plain>Vagin, A. &amp; Teplyakov, A. </plain></SENT>
+<SENT sid="400" pm="."><plain>(2010). Acta Cryst. D66, 22–25. </plain></SENT>
+</text></ref><ref id="bb48"><text><SENT sid="401" pm="."><plain>Yang, W. </plain></SENT>
+<SENT sid="402" pm="."><plain>(2011). Protein Sci. 20, 1781–1789. </plain></SENT>
+</text></ref><ref id="bb49"><text><SENT sid="403" pm="."><plain>Yang, L., Nelson, R. </plain></SENT>
+<SENT sid="404" pm="."><plain>S., Benjdia, A., Lin, G., Telser, J., Stoll, S., Schlichting, I. &amp; Li, L. </plain></SENT>
+<SENT sid="405" pm="."><plain>(2013). Biochemistry, 52, 3041–3050. </plain></SENT>
+</text></ref><ref id="bb50"><text><SENT sid="406" pm="."><plain>Yasui, A., Eker, A. </plain></SENT>
+<SENT sid="407" pm="."><plain>P., Yasuhira, S., Yajima, H., Kobayashi, T., Takao, M. &amp; Oikawa, A. </plain></SENT>
+<SENT sid="408" pm="."><plain>(1994). EMBO J. 13, 6143–6151. </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="fig1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="409" pm="."><plain>Crystal structure of the SP-containing duplex 16-mer oligonucleotide in a host–guest complex. </plain></SENT>
+<SENT sid="410" pm="."><plain>(a) The chemical structure of the spore photoproduct is shown. </plain></SENT>
+<SENT sid="411" pm="."><plain>(b) The host–guest complex includes two protein molecules, shown in a cartoon rendering with one molecule in green and the other in blue, and one 16-base-pair duplex, shown in a stick rendering with one strand coloured with C atoms in green, N atoms in blue, O atoms in red and P atoms in orange and the other with C atoms in cyan, N atoms in blue, O atoms in red and P atoms in orange. </plain></SENT>
+<SENT sid="412" pm="."><plain>The asymmetric unit of the crystal includes one protein molecule and eight base pairs of duplex DNA. </plain></SENT>
+<SENT sid="413" pm="."><plain>The SP lesions are shown in magenta and are indicated by arrows. </plain></SENT>
+<SENT sid="414" pm="."><plain>(c) The sequence of the SP-containing DNA used for this study is shown with its numbering scheme. </plain></SENT>
+<SENT sid="415" pm="."><plain>The thymines involved in the SP lesion are indicated as ‘t’. </plain></SENT>
+<SENT sid="416" pm="."><plain>The same sequence lacking the SP lesion was also crystallized and analyzed. </plain></SENT>
+</text></p></caption><graphic xlink:href="d-70-00752-fig1"/></fig></SecTag><SecTag type="FIG"><fig id="fig2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="417" pm="."><plain>The SP lesion induces structural changes within the DNA. </plain></SENT>
+<SENT sid="418" pm="."><plain>(a) The F o − F c electron-density map (green mesh) is shown prior to inclusion of the SP and complementary adenines in the structural model contoured at 2.5σ, with the final refined model for the lesion shown as a stick model. </plain></SENT>
+<SENT sid="419" pm="."><plain>The electron density for the covalent bonding between the thymines is clearly evident. </plain></SENT>
+<SENT sid="420" pm="."><plain>(b) Stick renderings of nine base pairs are shown in stereo for the SP-containing duplex DNA in green, the SP lesion in blue and the non-SP-containing DNA duplex in magenta. </plain></SENT>
+<SENT sid="421" pm="."><plain>The first three base pairs within each structure superimpose well. </plain></SENT>
+<SENT sid="422" pm="."><plain>Deviations in the two structures are then apparent beyond these first base pairs. </plain></SENT>
+<SENT sid="423" pm="."><plain>The rough positioning of a spline through the phosphodiester backbone is indicated by red lines for the SP-containing duplex and by an orange line for the non-SP-containing duplex. </plain></SENT>
+<SENT sid="424" pm="."><plain>In this view, the significant widening of the minor groove of the SP-containing DNA is apparent. </plain></SENT>
+<SENT sid="425" pm="."><plain>(c). </plain></SENT>
+<SENT sid="426" pm="."><plain>Stick renderings are shown in stereo for the base pairs (green) between the two SP lesions (blue) within our 16 bp oligonucleotide superimposed on the equivalent region of the structure of a single SP lesion (orange) found within an oligonucleotide complexed with B. stearothermophilus <z:uniprot sup="inside" fb="0" ids="O67779,Q04957,O34996,O51498,Q59156,O08307,P52027,P00582,P52026,P43741,Q9ZJE9,P56105,Q9CDS1,O32801,P0A551,P46835,P9WNU4,P9WNU5,Q9HT80,Q9S1G2,Q1RH76,Q92GB7,Q9RAA9,Q9RLB6,O05949,Q9RLA0,Q9F173,P59199,P59200,Q55971,P74933,P28040,O93745,P26811,P95690,O50607">DNA polymerase I</z:uniprot>. </plain></SENT>
+<SENT sid="427" pm="."><plain>The second SP lesion in our structure (not shown) would be on the strand complementary to that including A8 and T9. </plain></SENT>
+</text></p></caption><graphic xlink:href="d-70-00752-fig2"/></fig></SecTag><SecTag type="FIG"><fig id="fig3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="428" pm="."><plain>Comparative analysis of helical twist and minor-groove width in SP-containing and non-SP-containing DNA structures. </plain></SENT>
+<SENT sid="429" pm="."><plain>(a) The change in helical twist for non-SP-containing (black triangles) and SP-containing DNA (black squares) are plotted with respect to base pairs. </plain></SENT>
+<SENT sid="430" pm="."><plain>(b) Minor-groove widths are shown in the absence (black triangles) and presence (black squares) of the spore photoproduct lesion plotted for dinucleotide steps (bases 5–12). </plain></SENT>
+</text></p></caption><graphic xlink:href="d-70-00752-fig3"/></fig></SecTag><SecTag type="FIG"><fig id="fig4" position="float"><label>Figure 4</label><caption><p><text><SENT sid="431" pm="."><plain>Comparison of TT–AA base pairs in SP-containing and non-SP-containing structures. </plain></SENT>
+<SENT sid="432" pm="."><plain>(a) Stick renderings of superimposed non-SP TT–AA (purple) and SP tt–AA dinucleotide steps are shown. </plain></SENT>
+<SENT sid="433" pm="."><plain>The hydrogen-bonding distances are shown for N6 of A11 and O4 of T6 for both base pairs in the dinucleotide step. </plain></SENT>
+<SENT sid="434" pm="."><plain>For the non-SP-containing structure this hydrogen bond is very long at 3.31 Å, while in the SP-containing structure it is 2.76 Å. </plain></SENT>
+<SENT sid="435" pm="."><plain>The hydrogen bonds between the same atoms in <z:uniprot sup="inside" fb="10" ids="Q61753,O36424">A10</z:uniprot> and T7 are very similar. </plain></SENT>
+<SENT sid="436" pm="."><plain>(b) Stick renderings of the SP-containing dinucleotide step in this work (C, green; N, blue; O, red; P, orange) and a mimic lacking the linking phosphate complexed with B. stearothermophilus <z:uniprot sup="inside" fb="0" ids="O67779,Q04957,O34996,O51498,Q59156,O08307,P52027,P00582,P52026,P43741,Q9ZJE9,P56105,Q9CDS1,O32801,P0A551,P46835,P9WNU4,P9WNU5,Q9HT80,Q9S1G2,Q1RH76,Q92GB7,Q9RAA9,Q9RLB6,O05949,Q9RLA0,Q9F173,P59199,P59200,Q55971,P74933,P28040,O93745,P26811,P95690,O50607">DNA polymerase I</z:uniprot> (Heil et al., 2011 ▶; pink) are shown superimposed. </plain></SENT>
+<SENT sid="437" pm="."><plain>The structures are very similar despite the fact that the mimic lacks the linking phosphate. </plain></SENT>
+<SENT sid="438" pm="."><plain>Hydrogen-bonding distances are shown for both base pairs of the SP structure and indicate strong hydrogen bonding of the SP lesion to complementary adenines. </plain></SENT>
+</text></p></caption><graphic xlink:href="d-70-00752-fig4"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="table1" position="float"><label>Table 1</label><caption><title>Summary of crystallographic data and refinement statistics</title><p><text><SENT sid="439" pm="."><plain>Values in parentheses are for the highest resolution shell. </plain></SENT>
+<SENT sid="440" pm="."><plain>The refinement statistics were calculated using PHENIX. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead valign="bottom"><tr><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="441" pm="."><plain>Data set </plain></SENT>
+</text></th><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="442" pm="."><plain>SP† </plain></SENT>
+</text></th><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="443" pm="."><plain>Non-SP† </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td style="" rowspan="1" colspan="3" align="left" valign="top"><text><SENT sid="444" pm="."><plain>Data-collection statistics </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="3" align="left" valign="top"><text><SENT sid="445" pm="."><plain>Unit-cell parameters () </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="446" pm="."><plain>a </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="447" pm="."><plain>53.96 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="448" pm="."><plain>54.33 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="449" pm="."><plain>b </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="450" pm="."><plain>145.72 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="451" pm="."><plain>146.10 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="452" pm="."><plain>c </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="453" pm="."><plain>46.88 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="454" pm="."><plain>46.97 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="455" pm="."><plain>Space group </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="456" pm="."><plain>P21212 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="457" pm="."><plain>P21212 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="458" pm="."><plain>Resolution range </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="459" pm="."><plain>33.732.14 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="460" pm="."><plain>26.701.72 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="461" pm="."><plain>Completeness (%) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="462" pm="."><plain>93.70 (74.50) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="463" pm="."><plain>98.20 (82.60) </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="464" pm="."><plain>R merge (%) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="465" pm="."><plain>4.74 (15.47) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="466" pm="."><plain>4.90 (35.55) </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="467" pm="."><plain>I/(I)‡ </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="468" pm="."><plain>21.70 (3.81) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="469" pm="."><plain>24.36 (3.20) </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="3" align="left" valign="top"><text><SENT sid="470" pm="."><plain>Refinement statistics </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="471" pm="."><plain>R value (%) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="472" pm="."><plain>20.18 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="473" pm="."><plain>21.12 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="474" pm="."><plain>R free (%) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="475" pm="."><plain>23.95 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="476" pm="."><plain>23.40 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="477" pm="."><plain>R.m.s.d., bonds () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="478" pm="."><plain>0.006 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="479" pm="."><plain>0.004 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="480" pm="."><plain>R.m.s.d., angles () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="481" pm="."><plain>0.994 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="482" pm="."><plain>0.954 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="483" pm="."><plain>Average B factor (2) </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="484" pm="."><plain>29.53 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="485" pm="."><plain>34.98 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="3" align="left" valign="top"><text><SENT sid="486" pm="."><plain>Ramachandran plot statistics (%) </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="487" pm="."><plain>Most favored </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="488" pm="."><plain>98 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="489" pm="."><plain>98.4 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="490" pm="."><plain>Additionally favored </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="491" pm="."><plain>2 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="492" pm="."><plain>1.6 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="493" pm="."><plain>Generously allowed </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="494" pm="."><plain>0 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="495" pm="."><plain>0 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn1"><label>†</label><p>SP, DNA containing the spore photoproduct lesion; non-SP, DNA lacking the spore photoproduct lesion.</p></fn><fn id="tfn2"><label>‡</label><p>The average <italic>I</italic>/(<italic>I</italic>) values for the highest resolution shells are greater than 3.0, suggesting that the data extend to higher resolution. The data were cut at this resolution owing to incompleteness in the higher resolution shells.</p></fn></table-wrap-foot></table-wrap></SecTag><table-wrap-group id="table2" position="float"><label>Table 2</label><caption><title>Base-pair step and helical parameters for crystal structures of DNA with and without the spore photoproduct lesion</title></caption><SecTag type="TABLE"><table-wrap id="d35e1312" position="anchor"><label>(a)</label><caption><p><text><SENT sid="496" pm="."><plain>Base-pair step Zp (). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead valign="top"><tr><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="497" pm="."><plain>  </plain></SENT>
+</text></th><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="498" pm="."><plain>SP† </plain></SENT>
+</text></th><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="499" pm="."><plain>Non-SP† </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="500" pm="."><plain>ttAA </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="501" pm="."><plain>0.20 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="502" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="503" pm="."><plain>tATA </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="504" pm="."><plain>0.58 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="505" pm="."><plain>0.30 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="506" pm="."><plain>ATAT </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="507" pm="."><plain>0.15 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="508" pm="."><plain>0.25 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="509" pm="."><plain>TAtA </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="510" pm="."><plain>0.58 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="511" pm="."><plain>0.30 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="512" pm="."><plain>AAtt </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="513" pm="."><plain>0.20 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="514" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="d35e1369" position="anchor"><label>(b)</label><caption><p><text><SENT sid="515" pm="."><plain>Local base-pair parameters. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead valign="top"><tr><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="516" pm="."><plain>  </plain></SENT>
+</text></th><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="517" pm="."><plain>ttAA, SP </plain></SENT>
+</text></th><th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom"><text><SENT sid="518" pm="."><plain>TTAA, non-SP </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="519" pm="."><plain>Twist () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="520" pm="."><plain>25.49 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="521" pm="."><plain>35.79 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="522" pm="."><plain>Roll () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="523" pm="."><plain>17.52 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="524" pm="."><plain>3.60 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="525" pm="."><plain>Tilt () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="526" pm="."><plain>6.96 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="527" pm="."><plain>1.84 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="528" pm="."><plain>Shift () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="529" pm="."><plain>0.37 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="530" pm="."><plain>0.02 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="531" pm="."><plain>Slide () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="532" pm="."><plain>1.26 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="533" pm="."><plain>0.66 </plain></SENT>
+</text></td></tr><tr><td style="" rowspan="1" colspan="1" align="left" valign="top"><text><SENT sid="534" pm="."><plain>Rise () </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="535" pm="."><plain>3.59 </plain></SENT>
+</text></td><td style="" rowspan="1" colspan="1" align="char" char="." charoff="50" valign="top"><text><SENT sid="536" pm="."><plain>3.10 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn id="tfn3"><label>†</label><p>SP, DNA containing the spore photoproduct lesion; non-SP, DNA lacking the spore photoproduct lesion.</p></fn></table-wrap-foot></table-wrap></SecTag></table-wrap-group></floats-group></article>

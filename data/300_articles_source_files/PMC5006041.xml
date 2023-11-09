@@ -1,0 +1,415 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5006041</article-id><article-id pub-id-type="pii">srep32191</article-id><article-id pub-id-type="doi">10.1038/srep32191</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Gut microbiome and dietary patterns in different Saudi populations and monkeys </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Angelakis</surname><given-names>Emmanouil</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Yasir</surname><given-names>Muhammad</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Bachar</surname><given-names>Dipankar</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Azhar</surname><given-names>Esam I.</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Lagier</surname><given-names>Jean-Christophe</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Bibi</surname><given-names>Fehmida</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Jiman-Fatani</surname><given-names>Asif A.</given-names></name><xref ref-type="aff" rid="a4">4</xref></contrib><contrib contrib-type="author"><name><surname>Alawi</surname><given-names>Maha</given-names></name><xref ref-type="aff" rid="a4">4</xref><xref ref-type="aff" rid="a5">5</xref></contrib><contrib contrib-type="author"><name><surname>Bakarman</surname><given-names>Marwan A.</given-names></name><xref ref-type="aff" rid="a6">6</xref></contrib><contrib contrib-type="author"><name><surname>Robert</surname><given-names>Catherine</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Raoult</surname><given-names>Didier</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib><aff id="a1"><label>1</label><institution>Unité de Recherche sur les Maladies Infectieuses et Tropicales Emergentes: URMITE CNRS-IRD 198 UMR 6236, Aix Marseille Université, Faculté de Médecine</institution>, 27 Bd Jean Moulin, 13385 Marseille, <country>France</country></aff><aff id="a2"><label>2</label><institution>Special Infectious Agents Unit, King Fahd Medical Research Center, King Abdulaziz University</institution>, Jeddah, <country>Saudi Arabia</country></aff><aff id="a3"><label>3</label><institution>Department of Medical Laboratory Technology, Faculty of Applied Medical Sciences, King Abdulaziz University</institution>, Jeddah, <country>Saudi Arabia</country></aff><aff id="a4"><label>4</label><institution>Department of Medical Microbiology and Parasitology, Faculty of Medicine, King Abdulaziz University</institution>, Jeddah, <country>Saudi Arabia</country></aff><aff id="a5"><label>5</label><institution>Infection Control Unit, King Abdulaziz University Hospital, King Abdulaziz University</institution>, Jeddah, <country>Saudi Arabia</country></aff><aff id="a6"><label>6</label><institution>Family and Community Medicine Department, Faculty of Medicine, King Abdulaziz University</institution> Rabigh, <country>Saudi Arabia</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>Didier.raoult@gmail.com</email></corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>08</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>6</volume><elocation-id>32191</elocation-id><history><date date-type="received"><day>05</day><month>02</month><year>2016</year></date><date date-type="accepted"><day>07</day><month>07</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016, The Author(s)</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>The Author(s)</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>Host genetics, environment, lifestyle and proximity between hosts strongly influence the composition of the gut microbiome. </plain></SENT>
+<SENT sid="2" pm="."><plain>To investigate the association of dietary variables with the gut microbiota, we used 16S rDNA sequencing to test the fecal microbiome of Bedouins and urban Saudis and we compared it to the gut microbiome of baboons living in close contact with Bedouins and eating their leftovers. </plain></SENT>
+<SENT sid="3" pm="."><plain>We also analyzed fermented dairy products commonly consumed by Bedouins in order to investigate their impact on the gut microbiome of this population. </plain></SENT>
+<SENT sid="4" pm="."><plain>We found that the gut microbiomes of westernized urban Saudis had significantly lower richness and biodiversity than the traditional Bedouin population. </plain></SENT>
+<SENT sid="5" pm="."><plain>The gut microbiomes of baboons were more similar to that of Bedouins compared to urban Saudis, probably due the dietary overlap between baboons and Bedouins. </plain></SENT>
+<SENT sid="6" pm="."><plain>Moreover, we found clusters that were compositionally similar to clusters identified in humans and baboons, characterized by differences in Acinetobacter, Turicibacter and Collinsella. The fermented food presented significantly more bacteria genera common to the gut microbiome of Bedouins compared to urban Saudis. </plain></SENT>
+<SENT sid="7" pm="."><plain>These results support the hypothesis that dietary habits influence the composition of the gut microbiome. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="8" pm="."><plain>Recent advances in high-throughput technologies have revolutionized our knowledge of the gut microbiota and revealed a substantial diversity of the gut microbiota among individuals from different countries12. </plain></SENT>
+<SENT sid="9" pm="."><plain>The existence of three enterotypes in the human gut microbiome that vary in species and functional composition was recently demonstrated using data that span several nations and continents3. </plain></SENT>
+<SENT sid="10" pm="."><plain>Moreover, the characterization of the gut microbial communities in populations of great apes has provided insights into the origins of the human enterotypes4. </plain></SENT>
+<SENT sid="11" pm="."><plain>We do not yet completely understand how the different environments and diets around the world have affected the microbial ecology of the human gut microbiota, and few studies have focused on the gut microbiomes of individuals exclusively eating locally567. </plain></SENT>
+<SENT sid="12" pm="."><plain>Indeed, extant people living traditional lifestyles are especially under-studied, limited to hunter-gatherers from Tanzania6, rural communities in Burkina Faso5, in Malawi and Venezuela8 and recently in hunter-gatherer from Peru7. </plain></SENT>
+<SENT sid="13" pm="."><plain>Comparative studies between non-industrialized rural communities and industrialized western communities have revealed gut microbiota adaptations to their respective lifestyles9. </plain></SENT>
+<SENT sid="14" pm="."><plain>Unindustrialized rural societies are targets for understanding trends in human gut microbiota interactions as they rely less on antibiotics and often consume a greater breadth of unrefined seasonally available foods10. </plain></SENT>
+<SENT sid="15" pm="."><plain>However, despite recent focus on rural societies, there remains an important gap in our knowledge of how local food influences their gut microbiome. </plain></SENT>
+<SENT sid="16" pm="."><plain>Indeed diet plays a critical role in the gut microbiome and dietary habits can influence bacterial diversity1112. </plain></SENT>
+</text></p><p><text><SENT sid="17" pm="."><plain>Saudi Arabia is considered one of the most rapidly growing economies in the world, where eating habits have completely changed in recent years. </plain></SENT>
+<SENT sid="18" pm="."><plain>As a result, urban Saudis have drastically changed their lifestyle and food habits, with a very limited variety of foods and an absence of fruit and vegetables13. </plain></SENT>
+<SENT sid="19" pm="."><plain>In contrast, rural Bedouins regularly consume vegetables, fruit and homemade fermented dairy products. </plain></SENT>
+<SENT sid="20" pm="."><plain>As a result, because of the cultural, behavioral and ecological environment, we hypothesized that rural Bedouins harbor different microbiome profiles than those previously described in urban Saudis14. </plain></SENT>
+<SENT sid="21" pm="."><plain>To test this hypothesis, we used high-throughput 16S ribosomal RNA (rRNA) gene amplicon sequencing to characterize their gut microbiota, and we compared it to those of urban Saudis. </plain></SENT>
+<SENT sid="22" pm="."><plain>Moreover, to test the impact of specific dietary sources on the gut microbiome, we tested homemade fermented dairy products commonly consumed by Bedouins. </plain></SENT>
+<SENT sid="23" pm="."><plain>In addition, the impact of proximity on the gut microbiome for several mammals has been previously reported, including chimpanzees4 wild apes15, dogs16, and gorillas17. </plain></SENT>
+<SENT sid="24" pm="."><plain>This may be explained by a dietary overlap between the animal populations. </plain></SENT>
+<SENT sid="25" pm="."><plain>Bedouins live in close contact with baboons, and there is a dietary overlap between human and primates. </plain></SENT>
+<SENT sid="26" pm="."><plain>Specifically, primates commonly consume the leftover food of Bedouins (Supplementary Figure 1). </plain></SENT>
+<SENT sid="27" pm="."><plain>To reinforce our hypothesis about the impact of food on the gut microbiome, we also tested the fecal microbiome of baboons living in sympatry with Bedouins. </plain></SENT>
+</text></p><SecTag type="RESULTS"><sec disp-level="1"><title><text><SENT sid="28" pm="."><plain>Results </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="29" pm="."><plain>Composition of the gut microbiota of humans </plain></SENT>
+</text></title><p><text><SENT sid="30" pm="."><plain>We sequenced the V3-V4 region of 16S rDNA in fecal samples from 18 individuals from Jeddah living urban lifestyles and 10 Bedouins living rural lifestyles. </plain></SENT>
+<SENT sid="31" pm="."><plain>The analysis of the high quality trimmed reads revealed that the gut microbiota of urban Saudis contained sequences from 8 different bacterial divisions/phyla, and most of the sequences belonged to Firmicutes and Proteobacteria (Fig. 1, Supplementary Table 1). </plain></SENT>
+<SENT sid="32" pm="."><plain>The gut microbiota of Bedouins contained sequences from 10 different bacterial divisions/phyla, and most of the sequences belonged to Firmicutes and Actinobacteria. </plain></SENT>
+<SENT sid="33" pm="."><plain>The relative abundance Bacteroidetes were significantly more common in the stools of urban Saudis compared to Bedouins (p = 0.01). </plain></SENT>
+<SENT sid="34" pm="."><plain>Indeed, the relative abundance of Bacteroides has been associated positively in the past with diets rich in animal fat and protein18. </plain></SENT>
+<SENT sid="35" pm="."><plain>The relative abundance of Verrucomicrobia were significantly more common in Bedouins compared to urban Saudis (p = 0.05). </plain></SENT>
+<SENT sid="36" pm="."><plain>Finally, sequences of Spirochaetae and particulary Treponema berlinense and Treponema succinifaciens were only present in the gut microbiome of Bedouins. </plain></SENT>
+<SENT sid="37" pm="."><plain>In the gut microbiome of urban Saudis, we detected 129 different genera whereas Bedouins had 157 different genera. </plain></SENT>
+<SENT sid="38" pm="."><plain>All humans shared a core set of bacterial genera that was recovered from a majority of individuals from every sampled population. </plain></SENT>
+<SENT sid="39" pm="."><plain>Indeed, we detected 74 genera in &gt;50% of urban Saudis and 66 genera in &gt;50% of Bedouins (Supplementary Figure 2). </plain></SENT>
+<SENT sid="40" pm="."><plain>We then investigated the distribution of aerobic and facultative anaerobic genera residing in the gut microbiome of these groups using the taxonomic classification provided by 16S amplicon analysis. </plain></SENT>
+<SENT sid="41" pm="."><plain>The difference in anaerobic genus counts revealed that urban Saudis had 78 different genera and Bedouins 76 different genera. </plain></SENT>
+<SENT sid="42" pm="."><plain>As a result, significantly more different anaerobic genera existed in the gut microbiome of urban Saudis compared to Bedouins (Chi-square test; p = 0.04) but urban Saudis presented significantly more relative abundance of anaerobic genera compared to Bedouins (p &lt; 0.001) (Supplementary Figure 3). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="43" pm="."><plain>Impact of Fermented food on gut microbiome of humans </plain></SENT>
+</text></title><p><text><SENT sid="44" pm="."><plain>Diet plays a critical role in the gut microbiota1419, and we analyzed 6 fermented foods, called Lohoh in the local language, commonly consumed by Bedouins, in order to determine their impact on the gut microbiome of Bedouins. </plain></SENT>
+<SENT sid="45" pm="."><plain>For their preparation, pearl millet flour is mixed with water in the ratio of 1:2 to make a dough (ajeen) and is incubated at 30 °C for 24 hours. </plain></SENT>
+<SENT sid="46" pm="."><plain>Usually by this time the dough has a good consistency and sour taste. </plain></SENT>
+<SENT sid="47" pm="."><plain>The dough was fermented by adding 5% inoculate (starter) from previously fermented dough to start each subsequent batch. </plain></SENT>
+</text></p><p><text><SENT sid="48" pm="."><plain>We found that the food contained approximately 3 million 16S rRNA gene sequence reads, contained sequences from 11 different bacterial divisions/phyla, and most of the sequences belonged to Firmicutes and Proteobacteria (Fig. 1, Supplementary Table 1). </plain></SENT>
+<SENT sid="49" pm="."><plain>We found 110 different genera, and most of the sequences belonged to Halomonas, Lactobacillus and Shewanella. </plain></SENT>
+<SENT sid="50" pm="."><plain>In humans, 64 genera present in food also existed in the gut microbiome of both Bedouins and urban Saudis, whereas 3 genera present in food only existed in urban Saudis and 33 genera present in food only existed in the gut microbiome of Bedouins (Fig. 2, Supplementary Table 2). </plain></SENT>
+<SENT sid="51" pm="."><plain>As a result, Bedouins presented significantly more bacteria genera present in fermented food compared to urban Saudis (p &gt; 0.001). </plain></SENT>
+<SENT sid="52" pm="."><plain>The genera Acetobacter and Mycoplasma present in food existed only in the gut microbiome of Bedouins. </plain></SENT>
+<SENT sid="53" pm="."><plain>Finally, sequences of Treponema berlinense and Treponema succinifaciens were both presented in the food and the gut microbiome of Bedouins. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="54" pm="."><plain>Composition of the gut microbiota of baboons </plain></SENT>
+</text></title><p><text><SENT sid="55" pm="."><plain>We also sequenced 34 stools from baboons living in contact with Bedouins. </plain></SENT>
+<SENT sid="56" pm="."><plain>The analysis of the high quality trimmed reads revealed that the gut microbiota of baboons contained sequences from 18 different bacterial divisions/phyla, and most of the sequences belonged to Actinobacteria, followed by Firmicutes (Fig. 1, Supplementary Table 1). Fusobacteria were only present in the stools of Bedouins and baboons. </plain></SENT>
+<SENT sid="57" pm="."><plain>The relative abundance of Bacteroidetes were significantly more common in the stools of baboons compared to Bedouins (p = 0.02). </plain></SENT>
+<SENT sid="58" pm="."><plain>Baboons presented significantly less relative abundance of Actinobacteria compared to Bedouins and urban Saudis (p = 0.002 and p &gt; 0.001 respectively) and significantly less relative abundance of Verrucomicrobia compared to Bedouins (p = 0.008). </plain></SENT>
+</text></p><p><text><SENT sid="59" pm="."><plain>In the gut microbiome of baboons we detected 237 different genera (75 anaerobic) and 72 genera were presented in the gut microbiome of &gt;50% baboons. </plain></SENT>
+<SENT sid="60" pm="."><plain>Moreover we detected 32 genera that existed in the gut microbiome of &gt;50% of both humans and baboons (Supplementary Figure 2). </plain></SENT>
+<SENT sid="61" pm="."><plain>In animals, 12 genera present in food existed only in the gut microbiome of baboons, whereas 93 genera existed in the gut microbiome of both Bedouins and baboons. </plain></SENT>
+<SENT sid="62" pm="."><plain>Significantly less different anaerobic genera existed in the gut microbiome of baboons compared to urban Saudis (Chi-square test; p = 0.0001), whereas Bedouins presented significantly more different anaerobic genera compared to baboons (Chi-square test; p = 0.001). </plain></SENT>
+<SENT sid="63" pm="."><plain>Finally, baboons presented significantly less relative abundance of anaerobic genera compared to urban Saudi and Bedouin groups (p &lt; 0.001 and p &lt; 0.001 respectively) (Supplementary Figure 3). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="64" pm="."><plain>Gut microbiota proximity among humans and baboons </plain></SENT>
+</text></title><p><text><SENT sid="65" pm="."><plain>Overall, 147 different genera from all sequence reads were identified, and based on genus-level Bray–Curtis dissimilarity (BCD), the microbiomes of baboons were more different than human microbiomes (p &lt; 0.001) (Fig. 3). </plain></SENT>
+<SENT sid="66" pm="."><plain>Moreover, Principle Coordinate Analysis (PCoA) of the overall composition of the genera communities between the groups revealed that the microbiome of baboons is closer to that of Bedouins than that of urban Saudis (Supplementary Figure 4). </plain></SENT>
+<SENT sid="67" pm="."><plain>Comparing baboon and human microbiomes allowed us to infer the compositional changes that are most parsimoniously explained by the present-day variation among the microbiomes of human populations. </plain></SENT>
+<SENT sid="68" pm="."><plain>The differences between microbiomes of urban Saudis and baboons was particularly evident in the first two principal coordinate axes of the pairwise beta diversities among samples at both the genus and 97% operational taxonomic unit (OTU). </plain></SENT>
+</text></p><p><text><SENT sid="69" pm="."><plain>The rarefaction with the measure chao1 shows that the samples from the baboon community are richer and more diverse than the other 3 groups (Supplementary Figure 5). </plain></SENT>
+<SENT sid="70" pm="."><plain>Moreover, the microbial richness, estimated by the Chao1 index, and biodiversity, assessed by a nonparametric Shannon index for comparison among the groups, revealed that the gut microbiomes of baboons had significantly higher richness and biodiversity than both urban Saudis and Bedouins (Supplementary Figure 6). </plain></SENT>
+<SENT sid="71" pm="."><plain>Moreover, we found that the gut microbiomes of westernized urban Saudis had significantly lower richness and biodiversity than the traditional Bedouin population. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="72" pm="."><plain>Enterotype-Like Clusters among humans and baboons </plain></SENT>
+</text></title><p><text><SENT sid="73" pm="."><plain>To test for the presence of enterotypes in baboons, we performed a multidimensional cluster analysis and Principal Component Analysis (PCA) by employing the same clustering and cluster validation methods that Arumugam et al.3 used to identify the human enterotypes (Supplementary Figures 7 and 8). </plain></SENT>
+<SENT sid="74" pm="."><plain>As in chimpanzees4, our analyses revealed that the gut microbiome of baboons based on their genus-level compositions into three distinct clusters (i.e., enterotypes) that do not significantly correlate with host age, genealogy or gender (Fig. 4A). </plain></SENT>
+<SENT sid="75" pm="."><plain>The bacterial taxa identified by class analysis as contributing most significantly to each cluster were Acinetobacter in enterotype 3 baboons, Turicibacter in enterotype 2 baboons, and Collinsella in enterotype 1 baboons (Fig. 4B). </plain></SENT>
+<SENT sid="76" pm="."><plain>For humans, the bacterial taxa Shewanella and Vibrio are significantly overrepresented in enterotype 3, Bifidobacterium in enterotype 2 and Collinsella in enterotype 1. </plain></SENT>
+<SENT sid="77" pm="."><plain>Bacterial taxa Collinsella contributes significantly in both human and baboon enterotype 1. </plain></SENT>
+<SENT sid="78" pm="."><plain>Despite the overall congruence between the human and baboon enterotypes, we found differences in the prevalence of several bacterial genera (Table 1). </plain></SENT>
+<SENT sid="79" pm="."><plain>We found a broad correspondence between the baboon and human enterotypes, although several bacterial genera that were overrepresented in a baboon enterotype were not overrepresented in any of the human enterotypes. </plain></SENT>
+<SENT sid="80" pm="."><plain>As a result, Coprococcus and Marvinbryantia were represented in baboon enterotype 1, Turicibacter, Pedobacter and Vasilyevaea were represented in baboon enterotype 2, and Acinetobacter, Paenibacillus, Arthrobacter, Pectobacterium, Desemzia and Pseudomonas were represented in baboon enterotype 3, but these genera did not contribute significantly to the human enterotypes (Tables 1.2 and Supplementary Table 2). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec disp-level="1"><title><text><SENT sid="81" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="82" pm="."><plain>In this study, the comparison of the gut microbiomes of populations of humans and baboons, as well as dairy products commonly consumed by Bedouins, provides us with important information about the impact of dietary habits on gut microbiomes. </plain></SENT>
+<SENT sid="83" pm="."><plain>In particular, we have demonstrated that the similarity in the microbiota of cohabiting individuals extends beyond human-to-human relationships and to animal-to-human relationships. </plain></SENT>
+<SENT sid="84" pm="."><plain>We also provide evidence that baboons possess enterotypes that are compositionally similar to those observed within human populations, and that food has an important impact on the composition of the gut microbiome. </plain></SENT>
+<SENT sid="85" pm="."><plain>All our samples were collected under similar conditions and they were kept frozen under sterile conditions at −80 °C, eliminating the possibility of contamination. </plain></SENT>
+<SENT sid="86" pm="."><plain>In addition, before analyses, we verified that all of our samples had a good DNA load, and 16S rRNA sequencing-based studies targeting the V3-V4 region have been commonly used for the determination of the gut microbiome. </plain></SENT>
+<SENT sid="87" pm="."><plain>Finally, our analysis for the presence of enterotypes was previously validated in humans3 and in animals4. </plain></SENT>
+</text></p><p><text><SENT sid="88" pm="."><plain>Previous reports have indicated that Western populations have less microbial richness than non-Western populations5. </plain></SENT>
+<SENT sid="89" pm="."><plain>Our analyses of microbial richness yielded similar results, as Bedouins regularly consumed vegetables, fruit, chicken, dairy products, fermented food and rice. </plain></SENT>
+<SENT sid="90" pm="."><plain>Vegetables and fruit were part of the daily diet in Bedouin populations compared to urban Saudis, who reported vegetable and fruit consumption only 1–2 times per week. </plain></SENT>
+<SENT sid="91" pm="."><plain>Indeed, the urban population in Saudi Arabia has shifted away from traditional food to Western diets13. </plain></SENT>
+<SENT sid="92" pm="."><plain>Most of the participants reported that they consumed a lot of snacks and fast foods, such as shawarma, hamburger, pizza and fried chicken. </plain></SENT>
+<SENT sid="93" pm="."><plain>Regular consumption of junk-food snacks, eating away from home and abundant use of carbonated beverages in the Saudi population has already been reported13. </plain></SENT>
+<SENT sid="94" pm="."><plain>A high-fiber diet has been associated with an enrichment of the microbiome5, and differences associated with diet were found in the gut microbiota of different populations689. </plain></SENT>
+<SENT sid="95" pm="."><plain>Moreover, the gut microbiota can rapidly respond to an altered diet, potentially facilitating the diversity of human dietary lifestyles2021. </plain></SENT>
+<SENT sid="96" pm="."><plain>It was previously proposed that microbial diversity in the human microbiomes has decreased during human evolution4, and that recent lifestyle changes in humans have depleted the human microbiome of microbial diversity that was present in ancestors living in the wild22. </plain></SENT>
+</text></p><p><text><SENT sid="97" pm="."><plain>In this work, we found that the gut microbiome of Bedouins was closer to that of baboons than that of urban Saudis. </plain></SENT>
+<SENT sid="98" pm="."><plain>This may possibly be explained by a dietary overlap with Bedouins. </plain></SENT>
+<SENT sid="99" pm="."><plain>In fact, baboons rely on the leftover food from the local population dumped by the municipality or the food shared by people with them. </plain></SENT>
+<SENT sid="100" pm="."><plain>People bring food like khubus (a type of local bread) and fruit for baboons. </plain></SENT>
+<SENT sid="101" pm="."><plain>Moreover, baboons raid local farms and crops for their food. </plain></SENT>
+<SENT sid="102" pm="."><plain>This is reinforced by the fact that we found that food affects the gut microbiome, because we found significantly more bacteria genera present in fermented food in the microbiome of Bedouins than in urban Saudis who do not consume these products. </plain></SENT>
+<SENT sid="103" pm="."><plain>Indeed, the average consumption of fermented food and dairy products per week is much higher in the Bedouins compared to urban Saudis, and it is estimated that Bedouins consume these fermented foods on average 5–8 times per week. </plain></SENT>
+<SENT sid="104" pm="."><plain>Moreover, the types of dietary pattern are almost the same in Bedouin populations. </plain></SENT>
+<SENT sid="105" pm="."><plain>However, a limitation of our study was that we did not measure the amount of each food consumed among the populations. </plain></SENT>
+<SENT sid="106" pm="."><plain>Moreover the use of bread to avoid baboon’s aggression did not modify their gut microbiota as stools were collected the same time. </plain></SENT>
+<SENT sid="107" pm="."><plain>Baboons and Bedouins presented almost the same bacteria genera present in fermented food in their gut microbiome, indicating that the effect of dietary choices is a very important factor affecting the gut microbiome. </plain></SENT>
+</text></p><p><text><SENT sid="108" pm="."><plain>As previously reported for humans318 and animals423, we have demonstrated the existence of three enterotypes in the human and baboon gut microbiome. </plain></SENT>
+<SENT sid="109" pm="."><plain>Long-term diets were previously correlated with enterotype status, where individuals with greater animal fat and protein intake were more likely to present the Bacteroides-dominated enterotype compared with those with more carbohydrate intake, associated with a Prevotella-dominated enterotype1823. </plain></SENT>
+<SENT sid="110" pm="."><plain>Moeller et al.4 found that chimpanzees similarly presented three enterotypes, contributed by Faecalibacterium, Lachnospiraceae and Bulleidia respectively. </plain></SENT>
+<SENT sid="111" pm="."><plain>In contrast, the enterotypes of baboons were contributed by Acinetobacter, Turicibacter and Collinsella. Despite marked differences among the microbiomes of humans and baboons, we found that there is a set of bacterial taxa shared across host populations. </plain></SENT>
+<SENT sid="112" pm="."><plain>Gender has been previously correlated with modifications of the gut microbiota24, but a limitation of our study was that, due to ethical reasons, we tested only male individuals from Jeddah living urban lifestyles. </plain></SENT>
+<SENT sid="113" pm="."><plain>Although the ecological/cultural divergence between humans can explain the differences among their microbiomes, the relative roles of genetic divergence between host species in generating the differences between their microbiomes remain unclear. </plain></SENT>
+</text></p><p><text><SENT sid="114" pm="."><plain>In conclusion, we have shown that baboons possess enterotypes that are compositionally similar to those observed in human populations, and we confirmed that Western diet populations have less microbial richness than traditional populations. </plain></SENT>
+<SENT sid="115" pm="."><plain>The dietary overlap between baboons and Bedouins probably explains why these populations present similarities in their gut microbiome compared to urban individuals. </plain></SENT>
+<SENT sid="116" pm="."><plain>Moreover, the fact that the fermented food presented significantly more bacteria genera common to the gut microbiome of Bedouins compared to urban Saudis shows the impact of diet on the gut microbiome. </plain></SENT>
+<SENT sid="117" pm="."><plain>We point out the importance of more intensive research in the future to understand the impact of diet-microbiome interactions. </plain></SENT>
+</text></p><sec disp-level="2"><title><text><SENT sid="118" pm="."><plain>Online Materials </plain></SENT>
+</text></title><sec disp-level="3"><title><text><SENT sid="119" pm="."><plain>Subject selection criteria </plain></SENT>
+</text></title><p><text><SENT sid="120" pm="."><plain>This study protocol was approved by the Ethics Committee of King Abdul Aziz University under agreement No. </plain></SENT>
+<SENT sid="121" pm="."><plain>(014-CEGMR-2-ETH-P), and methods were carried out in accordance with the approved guidelines. </plain></SENT>
+<SENT sid="122" pm="."><plain>We tested only male volunteers from Jeddah living urban lifestyles and 8 male and 2 female Bedouins living rural lifestyles. </plain></SENT>
+<SENT sid="123" pm="."><plain>The data (date of birth, weight, height, antibiotic use, dietary pattern and significant changes in diet) were recorded using a standardized questionnaire. </plain></SENT>
+<SENT sid="124" pm="."><plain>Exclusion criteria included individuals under 18 years of age, a past history of colon cancer, inflammatory bowel disease, acute or chronic diarrhea in the previous 8 weeks and treatment with an antibiotic in the 3 months before fecal sampling. </plain></SENT>
+<SENT sid="125" pm="."><plain>All patients gave written informed consent. </plain></SENT>
+<SENT sid="126" pm="."><plain>We also collected baboon stool samples from the Taif region (21°26′N 40°21′E) located in the western province of Makkah. </plain></SENT>
+<SENT sid="127" pm="."><plain>It is estimated that approximately 2,000 baboons live in this area and feed on garbage. </plain></SENT>
+<SENT sid="128" pm="."><plain>Indeed, the baboons have become dependent on humans for food. </plain></SENT>
+<SENT sid="129" pm="."><plain>No experimentation was conducted on baboons, as fecal samples were collected from the soil. </plain></SENT>
+<SENT sid="130" pm="."><plain>No other permit was required, as this research was non-invasive work, and the collection of the samples did not disrupt the wild fauna. </plain></SENT>
+<SENT sid="131" pm="."><plain>We fed baboons with bread to avoid their aggression and followed the herd of adult baboons for sample collection. </plain></SENT>
+<SENT sid="132" pm="."><plain>Only little bread was used per herd of the baboon while stool samples were collected at the same time. </plain></SENT>
+<SENT sid="133" pm="."><plain>We followed a different herd at seven different locations in that area to maximize samples from different baboons. </plain></SENT>
+<SENT sid="134" pm="."><plain>We collected fresh stool samples with sterile spoons, avoiding the soil particles. </plain></SENT>
+<SENT sid="135" pm="."><plain>Troops of baboons consisted of both male and female baboons; however, gender information was not possible to be collected for the sampled baboon. </plain></SENT>
+<SENT sid="136" pm="."><plain>All stool samples were stored at −80 °C. </plain></SENT>
+</text></p><p><text><SENT sid="137" pm="."><plain>In addition, we collected different types of millet-fermented food called Lohoh that is commonly consumed by Bedouins. </plain></SENT>
+<SENT sid="138" pm="."><plain>This food is prepared from different types of millet flour, such as Pearl millet flour, Injera millet flour and whole grain flour. </plain></SENT>
+<SENT sid="139" pm="."><plain>These samples were collected in a sterile container from the Bedouin people at the time of stool sample collection and were stored at −80 °C. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="140" pm="."><plain>Extraction of DNA from stool samples and 16S rRNA sequencing using MiSeQ technology </plain></SENT>
+</text></title><p><text><SENT sid="141" pm="."><plain>Fecal DNA was extracted from samples using the NucleoSpin® Tissue Mini Kit (Macherey Nagel, Hoerdt, France) according to a previously described protocol25. </plain></SENT>
+<SENT sid="142" pm="."><plain>Samples were sequenced for 16S rRNA sequencing using MiSeq technology as described by the manufacturer’s Guide 15044223- B from the MiSeq procedure. </plain></SENT>
+<SENT sid="143" pm="."><plain>Briefly, PCR amplified templates from genomic DNA using the surrounding conserved region V3-V4 primers with overhang adapters (FwOvAd_341F TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG;ReOvAd_785RGTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC). </plain></SENT>
+<SENT sid="144" pm="."><plain>Samples were amplified individually for the 16S “V3-V4” regions by Taq Phusion and visualized on the Caliper LabchipII device by a DNA 1K LabChip. </plain></SENT>
+<SENT sid="145" pm="."><plain>After purification on AMPure beads, the concentrations were measured using high sensitivity Qubit technology. </plain></SENT>
+<SENT sid="146" pm="."><plain>Using a subsequent limited cycle PCR on 1 ng of each PCR product, Illumina sequencing adapters and dual-index barcodes were added to each amplicon. </plain></SENT>
+<SENT sid="147" pm="."><plain>After purification on AMPure beads, the libraries were then normalized according to the Nextera XT protocol. </plain></SENT>
+<SENT sid="148" pm="."><plain>The 96 multiplexed samples were pooled into a single library for sequencing on the MiSeq. </plain></SENT>
+<SENT sid="149" pm="."><plain>The pooled library containing indexed amplicons was loaded onto the reagent cartridge and then onto the instrument along with the flow cell. </plain></SENT>
+<SENT sid="150" pm="."><plain>Automated cluster generation and paired-end sequencing with dual index reads was performed in a single 39-hour run in a 2 × 250 bp. </plain></SENT>
+<SENT sid="151" pm="."><plain>On the instrument, the global cluster density and the global passed filter per flowcell were generated. </plain></SENT>
+<SENT sid="152" pm="."><plain>MiSeq Reporter software determined the percentage of indexing and cluster passed filter (PF) for each amplicon or library. </plain></SENT>
+<SENT sid="153" pm="."><plain>The raw data were configured in fastq files for R1 and R2 reads. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="154" pm="."><plain>Data processing: Filtering the reads, dereplication and clustering </plain></SENT>
+</text></title><p><text><SENT sid="155" pm="."><plain>The paired end reads of corresponding raw fastq files were assembled into contigs by using FLASH26, which gave a total of 14,428,091 assembled sequences. </plain></SENT>
+<SENT sid="156" pm="."><plain>The high quality sequences were then selected for the next steps of analysis by considering only those sequences which contain both the primers (forward and reverse). </plain></SENT>
+<SENT sid="157" pm="."><plain>In the following filtering steps the sequences containing N were removed. </plain></SENT>
+<SENT sid="158" pm="."><plain>Sequences with a length shorter than 200 nts were removed and the sequences longer than 500 nts were trimmed. </plain></SENT>
+<SENT sid="159" pm="."><plain>Both the forward and reverse primers were also removed from each of the sequences. </plain></SENT>
+<SENT sid="160" pm="."><plain>An additional filtering step was applied to remove the chimeric sequences by using chimera slayer from QIIME27. </plain></SENT>
+<SENT sid="161" pm="."><plain>After these filtering steps, a total of 13,085,792 sequences remained. </plain></SENT>
+<SENT sid="162" pm="."><plain>Strict dereplication (clustering of duplicate sequences) was performed on these filtered sequences, and they were then sorted by decreasing abundance28. </plain></SENT>
+<SENT sid="163" pm="."><plain>Next, clustering was performed with 97% identity and the OTUs (representative sequence of each cluster) were extracted28. </plain></SENT>
+<SENT sid="164" pm="."><plain>These OTUs represented a total of 11,989,797 sequences. </plain></SENT>
+<SENT sid="165" pm="."><plain>The above filtering steps and OTU extractions were performed in QIIME27. </plain></SENT>
+<SENT sid="166" pm="."><plain>All the raw sequences of fastq files have been submitted to EMBL-EBI29 with the accession number PRJEB9815. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="167" pm="."><plain>Building the reference database </plain></SENT>
+</text></title><p><text><SENT sid="168" pm="."><plain>We downloaded the Silva SSU and LSU database30 of release 119 from the Silva website and a local database of predicted amplicon sequences was built from it, after extracting the <z:uniprot sup="inside" fb="24" ids="O54926,P59692">Siva</z:uniprot> reference sequences containing both the forward and reverse primers and by allowing 3 differences between each primer and the sequence31. </plain></SENT>
+<SENT sid="169" pm="."><plain>Lastly, we had our local reference database containing a total of 456,714 well-annotated sequences. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="170" pm="."><plain>Taxonomic Assignments </plain></SENT>
+</text></title><p><text><SENT sid="171" pm="."><plain>The OTUs were then searched against our reference database Silva 199 by using blast32. </plain></SENT>
+<SENT sid="172" pm="."><plain>The 100 best matches above 80% identity (similarity) with each of the OTUs were extracted from the reference database and were sorted with respect to their decreasing percentage of similarity. </plain></SENT>
+<SENT sid="173" pm="."><plain>Thus, the best hits with the highest percentage of similarity (by also considering all the hits within 0.5% similarity of the best hits) with the OTUs were then considered for taxonomic assignments, and taxonomy to the lowest rank was obtained by applying majority voting28. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="174" pm="."><plain>Database of obligate anaerobes </plain></SENT>
+</text></title><p><text><SENT sid="175" pm="."><plain>We conducted a bacterial oxygen tolerance database based on the literature (available online at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.mediterranee-infection.com/article.php?laref=374">http://www.mediterranee-infection.com/article.<z:uniprot sup="inside" fb="0" ids="P39769">php</z:uniprot>?laref=374</ext-link>). </plain></SENT>
+<SENT sid="176" pm="."><plain>Each phylotype was assigned as ‘obligate anaerobe’, ‘aerotolerant’ or ‘unknown’ according to oxygen tolerance. </plain></SENT>
+</text></p></sec><sec disp-level="3"><title><text><SENT sid="177" pm="."><plain>Statistical Analysis </plain></SENT>
+</text></title><p><text><SENT sid="178" pm="."><plain>We calculated the richness and biodiversity index of the OTUs by using the QIIME software package33. </plain></SENT>
+<SENT sid="179" pm="."><plain>We estimated richness using the Chao1 index and diversity by the non-parametric Shannon formula34. </plain></SENT>
+<SENT sid="180" pm="."><plain>Non-parametric Kruskal-Wallis along with Mann-Whitney analyses were performed to identify significantly different bacterial taxa in the study participants. </plain></SENT>
+<SENT sid="181" pm="."><plain>Linear discriminant analysis was performed using Lefse35 with normalized option. </plain></SENT>
+<SENT sid="182" pm="."><plain>We used QIIME for rarefaction and Principal Coordinate Analysis27. </plain></SENT>
+<SENT sid="183" pm="."><plain>For PCoA, first we normalized the data at 20,000 sequences for each sample and calculated the weighted-unifrac distance27. </plain></SENT>
+<SENT sid="184" pm="."><plain>We performed the Adonis36 test using this weighted-unifrac distance. </plain></SENT>
+<SENT sid="185" pm="."><plain>PCoA was plotted using the weighted-unifrac distance27. </plain></SENT>
+<SENT sid="186" pm="."><plain>We performed enterotype analyses (Supplementary Figures 7 and 8) by employing the PAM clustering and silhouette cluster validation technique, as described in the paper of Arumugam et al.3 using the R statistical software package. </plain></SENT>
+<SENT sid="187" pm="."><plain>For enterotype analysis, the Jensen-Shannon Distance (JSD) distance of genus abundance was used for clustering3, the Calinski-Harabasz (CH) Index37 was used to assess the optimal number of clusters and the Silhouette coefficient38 was used for cluster validation. </plain></SENT>
+<SENT sid="188" pm="."><plain>At the final step of enterotype analysis, the Principal Component Analysis (PCA) and Between Class Analysis (BCA) were performed and the results were plotted3. </plain></SENT>
+<SENT sid="189" pm="."><plain>Other statistical analyses were performed using SPSS (IBM Corp. </plain></SENT>
+<SENT sid="190" pm="."><plain>Released 2011. </plain></SENT>
+<SENT sid="191" pm="."><plain>IBM SPSS Statistics for Windows, Version 20.0. </plain></SENT>
+<SENT sid="192" pm="."><plain>Armonk, NY: IBM Corp.). </plain></SENT>
+</text></p></sec></sec></sec></SecTag><sec disp-level="1"><title><text><SENT sid="193" pm="."><plain>Additional Information </plain></SENT>
+</text></title><p><text><SENT sid="194" pm="."><plain>How to cite this article: Angelakis, E. et al. </plain></SENT>
+<SENT sid="195" pm="."><plain>Gut microbiome and dietary patterns in different Saudi populations and monkeys. Sci. </plain></SENT>
+<SENT sid="196" pm="."><plain>Rep. 6, 32191; doi: 10.1038/srep32191 (2016). </plain></SENT>
+</text></p></sec><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="S1"><title><text><SENT sid="197" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material id="d33e23" content-type="local-data"><caption><title><text><SENT sid="198" pm="."><plain>Supplementary Information </plain></SENT>
+</text></title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32191-s1.pdf"/></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="199" pm="."><plain>This project was funded by the Deanship of Scientific Research (DSR), King Abdulaziz University, Jeddah, under grant No. </plain></SENT>
+<SENT sid="200" pm="."><plain>(3-140-1434-HiCi). </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="201" pm="."><plain>LozuponeC. </plain></SENT>
+<SENT sid="202" pm="."><plain>A. . Meta-analyses of studies of the human microbiota. Genome Res. 23, 1704–1714 (2013).23861384 </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="203" pm="."><plain>AngelakisE. . Glycans affect DNA extraction and induce substantial differences in gut metagenomic studies. Sci. </plain></SENT>
+<SENT sid="204" pm="."><plain>Rep. 6, 26276 (2016).27188959 </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="205" pm="."><plain>ArumugamM. . Enterotypes of the human gut microbiome. Nature 473, 174–180 (2011).21508958 </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="206" pm="."><plain>MoellerA. </plain></SENT>
+<SENT sid="207" pm="."><plain>H. . Chimpanzees and humans harbour compositionally similar gut enterotypes. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="208" pm="."><plain>Commun. 3, 1179 (2012).23149725 </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="209" pm="."><plain>De FilippoC. . Impact of diet in shaping gut microbiota revealed by a comparative study in children from Europe and rural Africa. Proc. </plain></SENT>
+<SENT sid="210" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="211" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="212" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="213" pm="."><plain>USA 107, 14691–14696 (2010).20679230 </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="214" pm="."><plain>SchnorrS. </plain></SENT>
+<SENT sid="215" pm="."><plain>L. . Gut microbiome of the Hadza hunter-gatherers. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="216" pm="."><plain>Commun. 5, 3654 (2014).24736369 </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="217" pm="."><plain>Obregon-TitoA. </plain></SENT>
+<SENT sid="218" pm="."><plain>J. . Subsistence strategies in traditional societies distinguish gut microbiomes. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="219" pm="."><plain>Commun. 6, 6505 (2015).25807110 </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="220" pm="."><plain>YatsunenkoT. . Human gut microbiome viewed across age and geography. Nature 486, 222–227 (2012).22699611 </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="221" pm="."><plain>EscobarJ. </plain></SENT>
+<SENT sid="222" pm="."><plain>S., KlotzB., ValdesB. </plain></SENT>
+<SENT sid="223" pm="."><plain>E. &amp; AgudeloG. </plain></SENT>
+<SENT sid="224" pm="."><plain>M. The gut microbiota of Colombians differs from that of Americans, Europeans and Asians. BMC. </plain></SENT>
+<SENT sid="225" pm="."><plain>Microbiol 14, 311 (2014).25495462 </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="226" pm="."><plain>EhlersS. &amp; KaufmannS. </plain></SENT>
+<SENT sid="227" pm="."><plain>H. Infection, inflammation, and chronic diseases: consequences of a modern lifestyle. Trends Immunol. 31, 184–190 (2010).20399709 </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="228" pm="."><plain>LeyR. </plain></SENT>
+<SENT sid="229" pm="."><plain>E. . Evolution of mammals and their gut microbes. Science 320, 1647–1651 (2008).18497261 </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="230" pm="."><plain>AngelakisE. . A Metagenomic Investigation of the Duodenal Microbiota Reveals Links with Obesity. PLoS. </plain></SENT>
+<SENT sid="231" pm="."><plain>One. 10, e0137784 (2015).26356733 </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="232" pm="."><plain>WashiS. </plain></SENT>
+<SENT sid="233" pm="."><plain>A. &amp; AgeibM. </plain></SENT>
+<SENT sid="234" pm="."><plain>B. Poor diet quality and food habits are related to impaired nutritional status in 13- to 18-year-old adolescents in Jeddah. Nutr. </plain></SENT>
+<SENT sid="235" pm="."><plain>Res. 30, 527–534 (2010).20851306 </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="236" pm="."><plain>YasirM. . Comparison of the gut microbiota of people in France and Saudi Arabia. Nutr. </plain></SENT>
+<SENT sid="237" pm="."><plain>Diabetes 5, e153 (2015).25915742 </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="238" pm="."><plain>MoellerA. </plain></SENT>
+<SENT sid="239" pm="."><plain>H. . Rapid changes in the gut microbiome during human evolution. Proc. </plain></SENT>
+<SENT sid="240" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="241" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="242" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="243" pm="."><plain>USA 111, 16431–16435 (2014).25368157 </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="244" pm="."><plain>SongS. </plain></SENT>
+<SENT sid="245" pm="."><plain>J. . Cohabiting family members share microbiota with one another and with their dogs. Elife. 2, e00458 (2013).23599893 </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="246" pm="."><plain>MoellerA. </plain></SENT>
+<SENT sid="247" pm="."><plain>H. . Sympatric chimpanzees and gorillas harbor convergent gut microbial communities. Genome Res. 23, 1715–1720 (2013).23804402 </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="248" pm="."><plain>WuG. </plain></SENT>
+<SENT sid="249" pm="."><plain>D. . Linking long-term dietary patterns with gut microbial enterotypes. Science 334, 105–108 (2011).21885731 </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="250" pm="."><plain>AngelakisE., ArmougomF., MillionM. &amp; RaoultD. The relationship between gut microbiota and weight gain in humans. Future. </plain></SENT>
+<SENT sid="251" pm="."><plain>Microbiol 7, 91–109 (2012).22191449 </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="252" pm="."><plain>DavidL. </plain></SENT>
+<SENT sid="253" pm="."><plain>A. . Diet rapidly and reproducibly alters the human gut microbiome. Nature 505, 559–563 (2014).24336217 </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="254" pm="."><plain>CotillardA. . Dietary intervention impact on gut microbial gene richness. Nature 500, 585–588 (2013).23985875 </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="255" pm="."><plain>BlaserM. </plain></SENT>
+<SENT sid="256" pm="."><plain>J. &amp; FalkowS. What are the consequences of the disappearing human microbiota? <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="257" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="258" pm="."><plain>Microbiol 7, 887–894 (2009).19898491 </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="259" pm="."><plain>WangJ. . Dietary history contributes to enterotype-like clustering and functional metagenomic content in the intestinal microbiome of wild mice. Proc. </plain></SENT>
+<SENT sid="260" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="261" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="262" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="263" pm="."><plain>USA 111, E2703–E2710 (2014).24912178 </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="264" pm="."><plain>ChenJ. . Impact of demographics on human gut microbial diversity in a US Midwest population. PeerJ. 4, e1514 (2016).26839739 </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="265" pm="."><plain>ZoetendalE. </plain></SENT>
+<SENT sid="266" pm="."><plain>G. . Isolation of RNA from bacterial samples of the human gastrointestinal tract. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="267" pm="."><plain>Protoc. 1, 954–959 (2006).17406329 </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="268" pm="."><plain>MagocT. &amp; SalzbergS. </plain></SENT>
+<SENT sid="269" pm="."><plain>L. FLASH: fast length adjustment of short reads to improve genome assemblies. Bioinformatics. 27, 2957–2963 (2011).21903629 </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="270" pm="."><plain>CaporasoJ. </plain></SENT>
+<SENT sid="271" pm="."><plain>G. . QIIME allows analysis of high-throughput community sequencing data. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="272" pm="."><plain>Methods 7, 335–336 (2010).20383131 </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="273" pm="."><plain>GuillouL. . The Protist Ribosomal Reference database (<z:uniprot sup="inside" fb="0" ids="P33157,P51525">PR2</z:uniprot>): a catalog of unicellular eukaryote small sub-unit rRNA sequences with curated taxonomy. Nucleic Acids Res. 41, D597–D604 (2013).23193267 </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="274" pm="."><plain>CochraneG. . EMBL Nucleotide Sequence Database: developments in 2005. Nucleic Acids Res. 34, D10–D15 (2006).16381823 </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="275" pm="."><plain>QuastC. . The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucleic Acids Res. 41, D590–D596 (2013).23193283 </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="276" pm="."><plain>TerratS. . Molecular biomass and MetaTaxogenomic assessment of soil microbial communities as influenced by soil DNA extraction procedure. Microb. </plain></SENT>
+<SENT sid="277" pm="."><plain>Biotechnol. 5, 135–141 (2012).21989224 </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="278" pm="."><plain>AltschulS. </plain></SENT>
+<SENT sid="279" pm="."><plain>F., GishW., MillerW., MyersE. </plain></SENT>
+<SENT sid="280" pm="."><plain>W. &amp; LipmanD. </plain></SENT>
+<SENT sid="281" pm="."><plain>J. Basic local alignment search tool. J. </plain></SENT>
+<SENT sid="282" pm="."><plain>Mol. </plain></SENT>
+<SENT sid="283" pm="."><plain>Biol. 215, 403–410 (1990).2231712 </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="284" pm="."><plain>SchlossP. </plain></SENT>
+<SENT sid="285" pm="."><plain>D. . Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities. <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="286" pm="."><plain>Environ. </plain></SENT>
+<SENT sid="287" pm="."><plain>Microbiol 75, 7537–7541 (2009).19801464 </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="288" pm="."><plain>ChaoA. &amp; ShenT. </plain></SENT>
+<SENT sid="289" pm="."><plain>J. Nonparametric estimation of Shannon’s index of diversity when there are unseen species in sample. Environmental and Ecological Statistics 429–443 (2003). </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="290" pm="."><plain>SegataN. . Metagenomic biomarker discovery and explanation. Genome Biol. 12, R60 (2011).21702898 </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="291" pm="."><plain>AndersonM. </plain></SENT>
+<SENT sid="292" pm="."><plain>J. A new method for non-parametric multivariate analysis of variance. Austral Ecology 26, 32–46 (2001). </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="293" pm="."><plain>CalinskiT. &amp; HarabaszJ. A dendrite method for cluster analysis. Communications in Statistics 3, 1–27 (1972). </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="294" pm="."><plain>RousseeuwP. </plain></SENT>
+<SENT sid="295" pm="."><plain>J. Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. Journal of Computational and Applied Mathematics 20, 53–65 (1987). </plain></SENT>
+</text></ref></ref-list></SecTag><fn-group><fn><p><text><SENT sid="296" pm="."><plain>Author Contributions E.A. analyzed the data, organized the study and wrote the manuscript, M.Y. collected samples in Saudi Arabia, D.B. analyzed the sequencing data, E.I.A. organized the study in Saudi Arabia, J.C.L. analyzed the data, F.B. collected samples in Saudi Arabia, A.A.J.-F. collected samples, M.A. organized the study in Saudi Arabia, M.A.B. analyzed the data in Saudi Arabia, C.R. realized the Illumina MiSeq deep sequencing, D.R. organized the study and wrote the manuscript. </plain></SENT>
+</text></p></fn></fn-group></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><title>The relative abundance of the gut microbiota phyla among the groups tested.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32191-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>Network of bacterial genera present in fermented food and in the gut microbiome of urban Saudis and Bedouins.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32191-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><title>Diminished diversity in human and baboon gut microbiomes across populations.</title><p><text><SENT sid="297" pm="."><plain>Mean numbers of observed bacterial genera per individual in baboons and in human populations at a sequencing depth of 20,000 reads. </plain></SENT>
+<SENT sid="298" pm="."><plain>Error bars correspond to 95% CIs, and asterisks denote significant differences at p &lt; 0.001. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32191-f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4"><label>Figure 4</label><caption><title>Identification of baboon enterotypes.</title><p><text><SENT sid="299" pm="."><plain>(A) Assortment of gut microbial communities into enterotypes in baboons and humans. </plain></SENT>
+<SENT sid="300" pm="."><plain>Shown are BCA visualizations of enterotypes (colored ellipses), as identified by PAM clustering, with black dots representing abundance distributions of bacterial genera from an individual host and numbered white rectangles marking the center of each enterotype. </plain></SENT>
+<SENT sid="301" pm="."><plain>Panel (right) showing human gut enterotypes modified from Arumugam et al.3. </plain></SENT>
+<SENT sid="302" pm="."><plain>Bacterial taxa uniquely overrepresented in the corresponding baboon and human enterotypes are listed. </plain></SENT>
+<SENT sid="303" pm="."><plain>(B) Relative abundance of the three bacterial taxa that are principally responsible for the separation of baboon enterotypes. </plain></SENT>
+<SENT sid="304" pm="."><plain>Shown are means, ranges and first and third quartiles. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep32191-f4"/></fig></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t1"><label>Table 1</label><caption><title>Frequencies of bacterial taxa overrepresented within each baboon enterotype.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th rowspan="2" align="left" valign="bottom" charoff="50"><text><SENT sid="305" pm="."><plain>Taxa in Baboons </plain></SENT>
+</text></th><th colspan="3" align="center" valign="top" charoff="50"><text><SENT sid="306" pm="."><plain>Frequency in </plain></SENT>
+</text></th></tr><tr><th align="center" valign="top" charoff="50"><text><SENT sid="307" pm="."><plain>Enterotype1 </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="308" pm="."><plain>Enterotype2 </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="309" pm="."><plain>Enterotype3 </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="310" pm="."><plain>Enterotype 1 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="311" pm="."><plain>Collinsella </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="312" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="313" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="314" pm="."><plain>0.02 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="315" pm="."><plain>Coprococcus </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="316" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="317" pm="."><plain>0.0005 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="318" pm="."><plain>0.01 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="319" pm="."><plain>Blautia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="320" pm="."><plain>0.0006 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="321" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="322" pm="."><plain>0.08 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="323" pm="."><plain>Marvinbryantia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="324" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="325" pm="."><plain>0.0002 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="326" pm="."><plain>0.01 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="327" pm="."><plain>Enterotype 2 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="328" pm="."><plain>Turicibacter </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="329" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="330" pm="."><plain>0.005 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="331" pm="."><plain>0.0003 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="332" pm="."><plain>Pedobacter </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="333" pm="."><plain>0.0004 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="334" pm="."><plain>0.02 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="335" pm="."><plain>0.0002 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="336" pm="."><plain>Vasilyevaea </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="337" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="338" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="339" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="340" pm="."><plain>Enterotype 3 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="341" pm="."><plain>Acinetobacter </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="342" pm="."><plain>0.2 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="343" pm="."><plain>0.03 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="344" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="345" pm="."><plain>Paenibacillus </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="346" pm="."><plain>0.008 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="347" pm="."><plain>0.0007 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="348" pm="."><plain>0.0002 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="349" pm="."><plain>Arthrobacter </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="350" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="351" pm="."><plain>0.07 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="352" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="353" pm="."><plain>Pectobacterium </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="354" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="355" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="356" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="357" pm="."><plain>Desemzia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="358" pm="."><plain>0.002 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="359" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="360" pm="."><plain>0.0001 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="361" pm="."><plain>Pseudomonas </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="362" pm="."><plain>0.02 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="363" pm="."><plain>0.001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="364" pm="."><plain>0.001 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap position="float" id="t2"><label>Table 2</label><caption><title>Frequencies of bacterial taxa overrepresented within each human enterotype.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="center"/><col align="center"/><col align="center"/></colgroup><thead valign="bottom"><tr><th rowspan="2" align="left" valign="bottom" charoff="50"><text><SENT sid="365" pm="."><plain>Taxa in Humans </plain></SENT>
+</text></th><th colspan="3" align="center" valign="top" charoff="50"><text><SENT sid="366" pm="."><plain>Frequency in </plain></SENT>
+</text></th></tr><tr><th align="center" valign="top" charoff="50"><text><SENT sid="367" pm="."><plain>Enterotype1 </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="368" pm="."><plain>Enterotype2 </plain></SENT>
+</text></th><th align="center" valign="top" charoff="50"><text><SENT sid="369" pm="."><plain>Enterotype3 </plain></SENT>
+</text></th></tr></thead><tbody valign="top"><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="370" pm="."><plain>Enterotype 1 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="371" pm="."><plain>Pseudobutyrivibrio </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="372" pm="."><plain>0.06 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="373" pm="."><plain>0.003 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="374" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="375" pm="."><plain>Collinsella </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="376" pm="."><plain>0.05 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="377" pm="."><plain>0.01 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="378" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="379" pm="."><plain>Papillibacter </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="380" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="381" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="382" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="383" pm="."><plain>Geobacillus </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="384" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="385" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="386" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="387" pm="."><plain>Enterotype 2 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="388" pm="."><plain>Bifidobacterium </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="389" pm="."><plain>0.06 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="390" pm="."><plain>0,1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="391" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="392" pm="."><plain>Blautia </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="393" pm="."><plain>0.05 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="394" pm="."><plain>0.1 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="395" pm="."><plain>0.02 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="396" pm="."><plain>Streptococcus </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="397" pm="."><plain>0.005 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="398" pm="."><plain>0.07 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="399" pm="."><plain>0.02 </plain></SENT>
+</text></td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><text><SENT sid="400" pm="."><plain>Enterotype 3 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="401" pm="."><plain>Shewanella </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="402" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="403" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="404" pm="."><plain>0.003 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="405" pm="."><plain>Vibrio </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="406" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="407" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="408" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td></tr><tr><td align="left" valign="top" charoff="50"><text><SENT sid="409" pm="."><plain>Brochothrix </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="410" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="411" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="top" charoff="50"><text><SENT sid="412" pm="."><plain>&gt;0.0001 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag></floats-group></article>

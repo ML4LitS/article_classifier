@@ -1,0 +1,865 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Evol Biol</journal-id><journal-id journal-id-type="iso-abbrev">BMC Evol. Biol</journal-id><journal-title-group><journal-title>BMC Evolutionary Biology</journal-title></journal-title-group><issn pub-type="epub">1471-2148</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">2292144</article-id><article-id pub-id-type="publisher-id">1471-2148-8-72</article-id><article-id pub-id-type="pmid">18307799</article-id><article-id pub-id-type="doi">10.1186/1471-2148-8-72</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Molecular evolution and functional divergence of the bestrophin protein family </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author" id="A1"><name><surname>Milenkovic</surname><given-names>Vladimir M</given-names></name><xref ref-type="aff" rid="I1">1</xref><xref ref-type="aff" rid="I2">2</xref><email>milenkovic@eye-regensburg.de</email></contrib><contrib contrib-type="author" id="A2"><name><surname>Langmann</surname><given-names>Thomas</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>thomas.langmann@klinik.uni-regensburg.de</email></contrib><contrib contrib-type="author" id="A3"><name><surname>Schreiber</surname><given-names>Rainer</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>rainer.schreiber@vkl.uni-regensburg.de</email></contrib><contrib contrib-type="author" id="A4"><name><surname>Kunzelmann</surname><given-names>Karl</given-names></name><xref ref-type="aff" rid="I2">2</xref><email>karl.kunzelmann@vkl.uni-regensburg.de</email></contrib><contrib contrib-type="author" corresp="yes" id="A5"><name><surname>Weber</surname><given-names>Bernhard HF</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>bweb@klinik.uni-regensburg.de</email></contrib></contrib-group><aff id="I1"><label>1</label>Institute of Human Genetics, University of Regensburg, Regensburg, Germany</aff><aff id="I2"><label>2</label>Institute of Physiology, University of Regensburg, Regensburg, Germany</aff><pub-date pub-type="collection"><year>2008</year></pub-date><pub-date pub-type="epub"><day>28</day><month>2</month><year>2008</year></pub-date><volume>8</volume><fpage>72</fpage><lpage>72</lpage><history><date date-type="received"><day>18</day><month>9</month><year>2007</year></date><date date-type="accepted"><day>28</day><month>2</month><year>2008</year></date></history><permissions><copyright-statement>Copyright ©2008 Milenkovic et al; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2008</copyright-year><copyright-holder>Milenkovic et al; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.biomedcentral.com/1471-2148/8/72"/><abstract><sec><title><text><SENT sid="1" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="2" pm="."><plain>Mutations in human <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> are associated with at least three autosomal-dominant macular dystrophies including Best disease, adult onset vitelliform macular dystrophy and autosomal dominant vitreo-retinochoroidopathy. </plain></SENT>
+<SENT sid="3" pm="."><plain>The protein is integral to the membrane and is likely involved in Ca2+-dependent transport of chloride ions across cellular membranes. </plain></SENT>
+<SENT sid="4" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> together with its three homologues forms a phylogenetically highly conserved family of proteins. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="5" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="6" pm="."><plain>A bioinformatics study was performed to investigate the phylogenetic relationship among the bestrophin family members and to statistically evaluate sequence conservation and functional divergence. </plain></SENT>
+<SENT sid="7" pm="."><plain>Phylogenetic tree assembly with all available eukaryotic bestrophin sequences suggests gene duplication events in the lineage leading to the vertebrates. </plain></SENT>
+<SENT sid="8" pm="."><plain>A common N-terminal topology which includes four highly conserved transmembrane domains is shared by the members of the four paralogous groups of vertebrate bestrophins and has been constrained by purifying selection. </plain></SENT>
+<SENT sid="9" pm="."><plain>Pairwise comparison shows that altered functional constraints have occurred at specific amino acid positions after phylogenetic diversification of the paralogues. </plain></SENT>
+<SENT sid="10" pm="."><plain>Most notably, significant functional divergence was found between <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> and the other family members, as well as between <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">bestrophin 3</z:uniprot>. </plain></SENT>
+<SENT sid="11" pm="."><plain>Site-specific profiles were established by posterior probability analysis revealing significantly divergent clusters mainly in two hydrophilic loops and a region immediately adjacent to the last predicted transmembrane domain. </plain></SENT>
+<SENT sid="12" pm="."><plain>Strikingly, codons 279 and 347 of human <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> reveal high divergence when compared to the paralogous positions strongly indicating the functional importance of these residues for the <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> protein. </plain></SENT>
+<SENT sid="13" pm="."><plain>None of the functionally divergent amino acids were found to reside within obvious sequences patterns or motifs. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="14" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="15" pm="."><plain>Our study highlights the molecular evolution of the bestrophin family of transmembrane proteins and indicates amino acid residues likely relevant for distinct functional properties of the paralogues. </plain></SENT>
+<SENT sid="16" pm="."><plain>These findings may provide a starting point for further experimental verifications. </plain></SENT>
+</text></SecTag></p></sec></abstract></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="17" pm="."><plain>Background </plain></SENT>
+</text></title><p><text><SENT sid="18" pm="."><plain>The bestrophins are a phylogenetically conserved family of integral <z:uniprot sup="inside" fb="0" ids="P24266,P16629,Q07252,P28991,Q04565,A0MD35,Q0Q4E7,Q0Q472,Q0Q463,Q3LZX9,A3EXA0,A3EXD6,A3EXG9,Q3I5J2,P27904,O90305,Q91A23,P69703,P69599,Q8V433,Q9QAR9,P69704,P69600,P69705,P36299,Q7T6S9,K9N7A1,P15422,Q5MQC7,Q14EA7,Q0ZME4,Q6Q1R9,Q01455,P59596,Q9JEB4,P03415,P08549,Q8BB24,P09175,Q8JSP5,P04135,P33464,P24412,Q9WCD1,Q9IKC7,P26021,P25878,P69605,P05136,P69601,P11222,P69602,Q91QS9,P69603,Q9J3N8,Q910E2,P69604,P69607,P12649,P69606,P59771,P59770,Q008X3">membrane proteins</z:uniprot> initially identified in Caenorhabditis elegans [1]. </plain></SENT>
+<SENT sid="19" pm="."><plain>Homologous sequences are found in animals, fungi, and prokaryotes, but not in protozoans or plants [2]. </plain></SENT>
+<SENT sid="20" pm="."><plain>Conservation is mainly restricted to the N-terminal 350–400 amino acids with an invariant motif arginine-phenylalanine-proline (<z:uniprot sup="inside" fb="6" ids="P25090,P14373">RFP</z:uniprot>) of unknown functional properties. </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>The first human bestrophin cloned, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>, is encoded by the vitelliforme macular dystrophy type 2 (<z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,Q8WMR7">VMD2</z:uniprot>) gene on chromosome 11q13 and was shown to be associated with Best macular dystrophy (BMD, OMIM #153700) also known as Best disease [3,4]. </plain></SENT>
+<SENT sid="22" pm="."><plain>Subsequently, mutations in this gene were also found to cause adult onset vitelliform macular dystrophy (AVMD, OMIM #608161) and autosomal dominant vitreo-retinochoroidopathy (ADVIRC, OMIM #193220). </plain></SENT>
+<SENT sid="23" pm="."><plain>The currently known 106 disease-causing mutations [5] are associated with a dominant pattern of inheritance with the majority being missense mutations located in four clusters near the <z:uniprot sup="inside" fb="6" ids="P25090,P14373">RFP</z:uniprot> motif and the predicted transmembrane domains (TMDs) [6]. </plain></SENT>
+</text></p><p><text><SENT sid="24" pm="."><plain>Based on immunocytochemical studies in macaque, porcine and human eyes, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> was shown to localize to the basolateral plasma membrane of the retinal pigment epithelium (<z:uniprot sup="inside" fb="2" ids="Q9SAU2,Q755M2,Q6FL81,Q8SRP6,Q96AT9,Q9ZTP5,Q5R5Y2,O14105,Q43843,Q43157,P46969">RPE</z:uniprot>) [7,8]. </plain></SENT>
+<SENT sid="25" pm="."><plain>In addition, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> is broadly expressed in other epithelia including the intestine and the lung [9], whereas <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> expression appears confined to the olfactory epithelium [10]. </plain></SENT>
+<SENT sid="26" pm="."><plain>On the functional level, whole cell patch clamp experiments suggest that the bestrophins act as Ca2+-dependent transporters of chloride ions across epithelial borders [11-16]. </plain></SENT>
+<SENT sid="27" pm="."><plain>Functional proteins likely exist as multimeric complexes eventually by forming homo- or heteromeric associations between bestrophin family members. </plain></SENT>
+</text></p><p><text><SENT sid="28" pm="."><plain>Uncertainty exists as to the specific function of <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>. </plain></SENT>
+<SENT sid="29" pm="."><plain>As an alternative to its activity as a chloride channel, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> may act as an accessory protein in the regulation of voltage-gated calcium channels [17]. </plain></SENT>
+<SENT sid="30" pm="."><plain>In addition, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> could be involved in the volume sensitivity of <z:uniprot sup="inside" fb="2" ids="Q9SAU2,Q755M2,Q6FL81,Q8SRP6,Q96AT9,Q9ZTP5,Q5R5Y2,O14105,Q43843,Q43157,P46969">RPE</z:uniprot> cells during phagocytosis of photoreceptor outer segments [11]. </plain></SENT>
+<SENT sid="31" pm="."><plain>Consequently, distinct functional aspects of <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> may contribute to <z:uniprot sup="inside" fb="2" ids="Q9SAU2,Q755M2,Q6FL81,Q8SRP6,Q96AT9,Q9ZTP5,Q5R5Y2,O14105,Q43843,Q43157,P46969">RPE</z:uniprot> dysfunction and thus may explain the variable phenotypes associated with a mutant protein. </plain></SENT>
+</text></p><p><text><SENT sid="32" pm="."><plain>Phylogenetic studies of protein families can be a valuable tool to determine conserved but also divergent regions, potentially leading to functional predictions [18]. </plain></SENT>
+<SENT sid="33" pm="."><plain>In this study we elucidated the evolutionary history of the bestrophins and identified structural and putative functional motifs of the bestrophin protein family by a comprehensive bioinformatics/phylogenetic approach. </plain></SENT>
+<SENT sid="34" pm="."><plain>This has led us to predict distinct amino acid residues that may be of importance in the functional divergence of the bestrophin paralogues. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results"><title><text><SENT sid="35" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="36" pm="."><plain>Phylogenetic analysis of the bestrophin family </plain></SENT>
+</text></title><p><text><SENT sid="37" pm="."><plain>We first retrieved the available bestrophin sequences from the currently sequenced genomes. </plain></SENT>
+<SENT sid="38" pm="."><plain>Querying major databases and unfinished genomes with the full-length amino acid sequences from the four human bestrophin paralogues identified 173 homologous proteins in vertebrates (mammals, birds, amphibians and fishes), urochordates (sea squirt), and invertebrates (insects, nematodes) (see Additional file 1). </plain></SENT>
+<SENT sid="39" pm="."><plain>While C. elegans reveals a large number of bestrophins (n = 26), most other organisms harbour three or four family members. </plain></SENT>
+<SENT sid="40" pm="."><plain>In each of the recently sequenced genomes of the urochordata Ciona inestinalis and Ciona savigny, the closest relatives of the craniates, we identified only a single bestrophin sequence strongly suggesting that gene duplication events may have occurred in the lineage leading to the vertebrates. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>Our further study focused on vertebrate bestrophins. </plain></SENT>
+<SENT sid="42" pm="."><plain>After exclusion of unfinished and partial protein sequences, a phylogenetic tree with 53 selected bestrophins (Table 1) was constructed by the neighbour-joining (NJ) method based on a gamma corrected Jones-Taylor-Thornton (JTT) distance matrix [19,20] (Figure 1). </plain></SENT>
+<SENT sid="43" pm="."><plain>Accordingly, the vertebrate bestrophins can unambiguously be separated into distinct clusters. </plain></SENT>
+<SENT sid="44" pm="."><plain>With the urochordata as outgroup, the vertebrate bestrophins form four separate monophyletic groups, all with high bootstrap support indicating that the formation of the paralogous subfamilies occurred before the divergence of individual species (Figure 1). </plain></SENT>
+<SENT sid="45" pm="."><plain>The phylogenetic branches of <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophins 1</z:uniprot> and 3 separated considerably earlier in evolution than bestrophin subgroups 2 and 4, partially explaining the level of sequence conservation between each of the two subfamilies. </plain></SENT>
+<SENT sid="46" pm="."><plain>The high level of sequence identity within a subfamily suggests evolutionarily conserved functions. </plain></SENT>
+<SENT sid="47" pm="."><plain>Overall, the data indicate that the bestrophin subfamilies have evolved by gene duplication events, in good agreement with previous findings demonstrating that large-scale gene duplications have occurred during chordate evolution [21,22]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="48" pm="."><plain>Vertebrate bestrophin homologues (n = 53) used for phylogenetic analysis </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="49" pm="."><plain>No. </plain></SENT>
+</text></th><th align="center"><text><SENT sid="50" pm="."><plain>Protein Name </plain></SENT>
+</text></th><th align="center"><text><SENT sid="51" pm="."><plain>Short name </plain></SENT>
+</text></th><th align="center"><text><SENT sid="52" pm="."><plain>Organism </plain></SENT>
+</text></th><th align="center"><text><SENT sid="53" pm="."><plain>Taxonomy </plain></SENT>
+</text></th><th align="center"><text><SENT sid="54" pm="."><plain>Amino acids </plain></SENT>
+</text></th><th align="center"><text><SENT sid="55" pm="."><plain>Gene bank identifier </plain></SENT>
+</text></th><th align="center"><text><SENT sid="56" pm="."><plain>cDNA Acc. </plain></SENT>
+<SENT sid="57" pm="."><plain>No. </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center"><text><SENT sid="58" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="59" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="60" pm="."><plain>HsB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="61" pm="."><plain>Homo sapiens </plain></SENT>
+</text></td><td align="center"><text><SENT sid="62" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="63" pm="."><plain>585 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="64" pm="."><plain><ext-link ext-link-type="gen" xlink:href="NP_004174">NP_004174</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="65" pm="."><plain>AF073501 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="66" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="67" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="68" pm="."><plain>HsB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="69" pm="."><plain>509 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="70" pm="."><plain><ext-link ext-link-type="gen" xlink:href="AAR99655">AAR99655</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="71" pm="."><plain>AY515705 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="72" pm="."><plain>3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="73" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="74" pm="."><plain>HsB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="75" pm="."><plain>668 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="76" pm="."><plain><ext-link ext-link-type="gen" xlink:href="NP_116124">NP_116124</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="77" pm="."><plain>NM_032735 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="78" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="79" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="80" pm="."><plain>HsB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="81" pm="."><plain>473 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="82" pm="."><plain><ext-link ext-link-type="gen" xlink:href="NP_695006">NP_695006</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="83" pm="."><plain>NM_153274 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="84" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="85" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="86" pm="."><plain>PtB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="87" pm="."><plain>Pan troglodytes </plain></SENT>
+</text></td><td align="center"><text><SENT sid="88" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="89" pm="."><plain>585 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="90" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001151529">XP_001151529</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="91" pm="."><plain>XM_001151529 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="92" pm="."><plain>6 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="93" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="94" pm="."><plain>PtB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="95" pm="."><plain>509 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="96" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_512414">XP_512414</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="97" pm="."><plain>XM_512414 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="98" pm="."><plain>7 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="99" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="100" pm="."><plain>PtB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="101" pm="."><plain>668 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="102" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_522466">XP_522466</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="103" pm="."><plain>XM_522466 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="104" pm="."><plain>8 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="105" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="106" pm="."><plain>PtB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="107" pm="."><plain>473 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="108" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_524571">XP_524571</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="109" pm="."><plain>XM_524571 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="110" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="111" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="112" pm="."><plain>MmB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="113" pm="."><plain>Macaca mulatta </plain></SENT>
+</text></td><td align="center"><text><SENT sid="114" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="115" pm="."><plain>585 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="116" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001116583">XP_001116583</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="117" pm="."><plain>XM_001116583 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="118" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="119" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="120" pm="."><plain>MmB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="121" pm="."><plain>509 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="122" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001108800">XP_001108800</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="123" pm="."><plain>XM_001108800 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="124" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="125" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="126" pm="."><plain>MmB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="127" pm="."><plain>669 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="128" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001117392">XP_001117392</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="129" pm="."><plain>XM_001117392 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="130" pm="."><plain>12 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="131" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="132" pm="."><plain>MmB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="133" pm="."><plain>473 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="134" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001098771">XP_001098771</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="135" pm="."><plain>XM_001098771 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="136" pm="."><plain>13 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="137" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="138" pm="."><plain>MfB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="139" pm="."><plain>Macaca fascicularis </plain></SENT>
+</text></td><td align="center"><text><SENT sid="140" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="141" pm="."><plain>585 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="142" pm="."><plain><ext-link ext-link-type="gen" xlink:href="AAQ56049">AAQ56049</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="143" pm="."><plain>AY357925 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="144" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="145" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="146" pm="."><plain>BtB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="147" pm="."><plain>Bos taurus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="148" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="149" pm="."><plain>589 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="150" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_585778">XP_585778</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="151" pm="."><plain>XM_585778 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="152" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="153" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="154" pm="."><plain>BtB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="155" pm="."><plain>528 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="156" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_607911">XP_607911</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="157" pm="."><plain>XM_607911 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="158" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="159" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="160" pm="."><plain>BtB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="161" pm="."><plain>369 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="162" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_613863">XP_613863</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="163" pm="."><plain>XM_613863 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="164" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="165" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="166" pm="."><plain>BtB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="167" pm="."><plain>467 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="168" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_587691">XP_587691</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="169" pm="."><plain>XM_587691 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="170" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="171" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="172" pm="."><plain>LaB3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="173" pm="."><plain>Loxodonta africana </plain></SENT>
+</text></td><td align="center"><text><SENT sid="174" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="175" pm="."><plain>674 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="176" pm="."><plain>ENSLAFP00000000778 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="177" pm="."><plain>ENSLAFT00000000928 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="178" pm="."><plain>19 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="179" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="180" pm="."><plain>FcB2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="181" pm="."><plain>Felis catus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="182" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="183" pm="."><plain>488 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="184" pm="."><plain>ENSFCAP00000000436 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="185" pm="."><plain>ENSFCAT00000000470 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="186" pm="."><plain>20 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="187" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="188" pm="."><plain>CfB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="189" pm="."><plain>Canis familiaris </plain></SENT>
+</text></td><td align="center"><text><SENT sid="190" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="191" pm="."><plain>693 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="192" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_540912">XP_540912</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="193" pm="."><plain>XM_540912 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="194" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="195" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="196" pm="."><plain>CfB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="197" pm="."><plain>509 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="198" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_542045">XP_542045</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="199" pm="."><plain>XM_542045 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="200" pm="."><plain>22 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="201" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="202" pm="."><plain>CfB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="203" pm="."><plain>437 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="204" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_539638">XP_539638</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="205" pm="."><plain>XM_539638 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="206" pm="."><plain>23 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="207" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="208" pm="."><plain>MsB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="209" pm="."><plain>Mus musculus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="210" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="211" pm="."><plain>551 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="212" pm="."><plain><ext-link ext-link-type="gen" xlink:href="NP_036043">NP_036043</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="213" pm="."><plain>NM_011913 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="214" pm="."><plain>24 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="215" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="216" pm="."><plain>MsB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="217" pm="."><plain>508 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="218" pm="."><plain><ext-link ext-link-type="gen" xlink:href="AAS09923">AAS09923</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="219" pm="."><plain>AY450428 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="220" pm="."><plain>25 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="221" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="222" pm="."><plain>MsB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="223" pm="."><plain>669 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="224" pm="."><plain><ext-link ext-link-type="gen" xlink:href="NP_001007584">NP_001007584</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="225" pm="."><plain>NM_001007583 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="226" pm="."><plain>26 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="227" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="228" pm="."><plain>RnB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="229" pm="."><plain>Rattus norvegicus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="230" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="231" pm="."><plain>550 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="232" pm="."><plain>NP_001011940 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="233" pm="."><plain>NM_001011940 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="234" pm="."><plain>27 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="235" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="236" pm="."><plain>RnB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="237" pm="."><plain>508 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="238" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001070841">XP_001070841</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="239" pm="."><plain>XM_001070841 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="240" pm="."><plain>28 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="241" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="242" pm="."><plain>RnB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="243" pm="."><plain>672 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="244" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_235161">XP_235161</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="245" pm="."><plain>XM_235161 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="246" pm="."><plain>29 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="247" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="248" pm="."><plain>RnB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="249" pm="."><plain>454 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="250" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001066317">XP_001066317</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="251" pm="."><plain>XM_001066317 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="252" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="253" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="254" pm="."><plain>MdB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="255" pm="."><plain>Monodelphis domestica </plain></SENT>
+</text></td><td align="center"><text><SENT sid="256" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="257" pm="."><plain>467 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="258" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001363751">XP_001363751</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="259" pm="."><plain>XM_001363714 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="260" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="261" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="262" pm="."><plain>MdB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="263" pm="."><plain>676 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="264" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001369557">XP_001369557</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="265" pm="."><plain>XM_001369520 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="266" pm="."><plain>32 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="267" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="268" pm="."><plain>MdB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="269" pm="."><plain>487 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="270" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001376079">XP_001376079</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="271" pm="."><plain>XM_001376042 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="272" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="273" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="274" pm="."><plain>OgB4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="275" pm="."><plain>Otolemur garnettii </plain></SENT>
+</text></td><td align="center"><text><SENT sid="276" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="277" pm="."><plain>471 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="278" pm="."><plain>ENSOGAP00000006199 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="279" pm="."><plain>ENSOGAT00000006927 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="280" pm="."><plain>34 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="281" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="282" pm="."><plain>MlB4 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="283" pm="."><plain>Myotis lucifugus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="284" pm="."><plain>Mammalia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="285" pm="."><plain>473 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="286" pm="."><plain>ENSMLUP00000001435 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="287" pm="."><plain>ENSMLUT00000001564 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="288" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="289" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="290" pm="."><plain>OaB3 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="291" pm="."><plain>Ornithorhynchus anatinus </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="292" pm="."><plain>675 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="293" pm="."><plain>ENSOANP00000009484 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="294" pm="."><plain>ENSOANT00000009486 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="295" pm="."><plain>36 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="296" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="297" pm="."><plain>GgB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="298" pm="."><plain>Gallus gallus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="299" pm="."><plain>Aves </plain></SENT>
+</text></td><td align="center"><text><SENT sid="300" pm="."><plain>762 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="301" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_421055">XP_421055</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="302" pm="."><plain>XM_421055 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="303" pm="."><plain>37 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="304" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="305" pm="."><plain>GgB3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="306" pm="."><plain>669 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="307" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_416091">XP_416091</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="308" pm="."><plain>XM_416091 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="309" pm="."><plain>38 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="310" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="311" pm="."><plain>GgB4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="312" pm="."><plain>488 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="313" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_001234941">XP_001234941</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="314" pm="."><plain>XM_001234940 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="315" pm="."><plain>39 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="316" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="317" pm="."><plain>Xt-1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="318" pm="."><plain>Xenopus tropicalis </plain></SENT>
+</text></td><td align="center"><text><SENT sid="319" pm="."><plain>Amphibia </plain></SENT>
+</text></td><td align="center"><text><SENT sid="320" pm="."><plain>419 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="321" pm="."><plain>ENSXETP00000014724 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="322" pm="."><plain>ENSXETT00000014724 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="323" pm="."><plain>40 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="324" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="325" pm="."><plain>Xt-2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="326" pm="."><plain>510 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="327" pm="."><plain><ext-link ext-link-type="gen" xlink:href="NP_988974">NP_988974</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="328" pm="."><plain>NM_203643 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="329" pm="."><plain>41 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="330" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="331" pm="."><plain>Xt-3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="332" pm="."><plain>366 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="333" pm="."><plain>ENSXETP00000002984 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="334" pm="."><plain>ENSXETT00000002984 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="335" pm="."><plain>42 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="336" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="337" pm="."><plain>Xt-4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="338" pm="."><plain>367 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="339" pm="."><plain>ENSXETP00000029791 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="340" pm="."><plain>ENSXETT00000029791 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="341" pm="."><plain>43 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="342" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="343" pm="."><plain>Tr-1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="344" pm="."><plain>Takifugu rubripes </plain></SENT>
+</text></td><td align="center"><text><SENT sid="345" pm="."><plain>Actinopterygii </plain></SENT>
+</text></td><td align="center"><text><SENT sid="346" pm="."><plain>369 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="347" pm="."><plain>SINFRUP00000141703 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="348" pm="."><plain>SINFRUT00000141703 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="349" pm="."><plain>44 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="350" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="351" pm="."><plain>Tr-2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="352" pm="."><plain>431 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="353" pm="."><plain>SINFRUP00000151123 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="354" pm="."><plain>SINFRUT00000151123 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="355" pm="."><plain>45 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="356" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="357" pm="."><plain>Tr-3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="358" pm="."><plain>407 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="359" pm="."><plain>SINFRUP00000181928 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="360" pm="."><plain>SINFRUT00000182495 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="361" pm="."><plain>46 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="362" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU0">Bestrophin 4</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="363" pm="."><plain>Tr-4 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="364" pm="."><plain>370 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="365" pm="."><plain>SINFRUP00000134584 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="366" pm="."><plain>SINFRUT00000134584 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="367" pm="."><plain>47 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="368" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="369" pm="."><plain>DrB1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="370" pm="."><plain>Danio rerio </plain></SENT>
+</text></td><td align="center"><text><SENT sid="371" pm="."><plain>Actinopterygii </plain></SENT>
+</text></td><td align="center"><text><SENT sid="372" pm="."><plain>367 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="373" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_689098">XP_689098</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="374" pm="."><plain>XM_684006 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="375" pm="."><plain>48 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="376" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="377" pm="."><plain>DrB2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="378" pm="."><plain>589 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="379" pm="."><plain><ext-link ext-link-type="gen" xlink:href="XP_695597">XP_695597</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="380" pm="."><plain>XM_690505 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="381" pm="."><plain>49 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="382" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="383" pm="."><plain>Tn-1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="384" pm="."><plain>Tetraodon igrovoridis </plain></SENT>
+</text></td><td align="center"><text><SENT sid="385" pm="."><plain>Actinopterygii </plain></SENT>
+</text></td><td align="center"><text><SENT sid="386" pm="."><plain>572 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="387" pm="."><plain><ext-link ext-link-type="gen" xlink:href="CAG08784">CAG08784</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="388" pm="."><plain>CAAE01015000 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="389" pm="."><plain>50 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="390" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="391" pm="."><plain>Tn-2 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="392" pm="."><plain>431 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="393" pm="."><plain><ext-link ext-link-type="gen" xlink:href="CAG03298">CAG03298</ext-link> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="394" pm="."><plain>CAAE01014712 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="395" pm="."><plain>51 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="396" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">Bestrophin 2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="397" pm="."><plain>Ga-2 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="398" pm="."><plain>Gasterosteus culeatus </plain></SENT>
+</text></td><td align="center"><text><SENT sid="399" pm="."><plain>Actinopterygii </plain></SENT>
+</text></td><td align="center"><text><SENT sid="400" pm="."><plain>368 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="401" pm="."><plain>ENSGACP00000025248 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="402" pm="."><plain>ENSGACT00000025297 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="403" pm="."><plain>52 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="404" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">Bestrophin 3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="405" pm="."><plain>Ga-3 </plain></SENT>
+</text></td><td/><td/><td align="center"><text><SENT sid="406" pm="."><plain>367 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="407" pm="."><plain>ENSGACP00000019354 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="408" pm="."><plain>ENSGACT00000019392 </plain></SENT>
+</text></td></tr><tr><td align="center"><text><SENT sid="409" pm="."><plain>53 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="410" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">Bestrophin 1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="411" pm="."><plain>Ol-1 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="412" pm="."><plain>Oryzias latipes </plain></SENT>
+</text></td><td align="center"><text><SENT sid="413" pm="."><plain>Actinopterygii </plain></SENT>
+</text></td><td align="center"><text><SENT sid="414" pm="."><plain>454 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="415" pm="."><plain>ENSORLP00000007714 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="416" pm="."><plain>ENSORLT00000007715 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="FIG"><fig id="F1" position="float"><label>Figure 1</label><caption><p><text><SENT sid="417" pm="."><plain>Phylogenetic tree of 53 homologues of vertebrate bestrophins. </plain></SENT>
+<SENT sid="418" pm="."><plain>The phylogenetic tree of the bestrophin protein family was inferred by the neighbor-joining method (NJ) method applying gamma corrected distances. </plain></SENT>
+<SENT sid="419" pm="."><plain>Urochordata (Ciona intestinalis [Ci] and Ciona savigny [Cs]) were used as out-group. </plain></SENT>
+<SENT sid="420" pm="."><plain>The support for each phylogenetic group was tested with 1000 bootstrap pseudoreplicates. </plain></SENT>
+<SENT sid="421" pm="."><plain>Protein sequences are given in Table 1. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-72-1"/></fig></SecTag></sec><sec><title><text><SENT sid="422" pm="."><plain>N-terminal topology of the vertebrate bestrophins </plain></SENT>
+</text></title><p><text><SENT sid="423" pm="."><plain>We next analyzed whether the strong sequence conservation between the N-terminal regions of the vertebrate bestrophins also predicts a common topology. </plain></SENT>
+<SENT sid="424" pm="."><plain>Putative transmembrane domains and hydrophobic regions were modelled in silico (Figure 2). </plain></SENT>
+<SENT sid="425" pm="."><plain>Hydropathy plotting of 53 bestrophins (orthologues and paralogues, Table 1) revealed six hydrophobic regions including four putative transmembrane domains with hydropathy values reaching or above the threshold of 1.6 (Figure 2). </plain></SENT>
+<SENT sid="426" pm="."><plain>These four hydrophobic peaks are strongly conserved in the vertebrate bestrophins suggesting membrane insertion of all bestrophin family members similar to <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> [23]. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>Figure 2</label><caption><p><text><SENT sid="427" pm="."><plain>Average hydropathy plot of 53 homologues of vertebrate bestrophins. </plain></SENT>
+<SENT sid="428" pm="."><plain>Hydropathy plot was generated from 53 protein sequences as given in Table 1. </plain></SENT>
+<SENT sid="429" pm="."><plain>A threshold value of 1.6 is marked by the dotted line. </plain></SENT>
+<SENT sid="430" pm="."><plain>Positive values indicate hydrophobic regions. </plain></SENT>
+<SENT sid="431" pm="."><plain>Putative transmembrane domains were determined by the TOPPRED II algorithm and are depicted as gray and white boxes on the top. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-72-2"/></fig></SecTag></sec><sec><title><text><SENT sid="432" pm="."><plain>Variable selective pressures among amino acid sites </plain></SENT>
+</text></title><p><text><SENT sid="433" pm="."><plain>To analyze positive or negative selection of specific amino acid regions within the full-length protein sequences of mammalian bestrophins, substitution rate ratios of non-synonymous (dN) versus synonymous (dS) mutations (dN/dS or ω) were calculated for vertebrate bestrophins as given in Table 1. </plain></SENT>
+<SENT sid="434" pm="."><plain>A dN/dS value &lt;1 is indicative of purifying selection acting against amino acid changes, whereas dN/dS values &gt;1 indicate an excess of amino acid changes suggesting adaptive evolution [24,25]. </plain></SENT>
+<SENT sid="435" pm="."><plain>Amino acids in a protein sequence are expected to be under different selective pressure and to have different underlying dN/dS ratios. </plain></SENT>
+<SENT sid="436" pm="."><plain>Table 2 shows that the ratio values for the vertebrate bestrophins are substantially lower than 1 suggesting that the N-termini of mammalian bestrophins within each subgroup were under strong purifying selection pressure. </plain></SENT>
+<SENT sid="437" pm="."><plain>In order to test for positive selection at individual amino acid codons, the site-specific models implemented in codeml were used. </plain></SENT>
+<SENT sid="438" pm="."><plain>Likelihood rate tests (LRTs) were performed between model M0 (one ratio) and M3 (discrete), M1a (nearly neutral) and M2a (positive selection), and M7 (beta) and M8 (beta and ω) (Table 2). </plain></SENT>
+<SENT sid="439" pm="."><plain>The selection model (M2a) does not suggest presence of positively selected sites (P = 1). </plain></SENT>
+<SENT sid="440" pm="."><plain>M0 was rejected when compared to M3 (P &lt; 0.001), although no positively selected sites were detected. </plain></SENT>
+<SENT sid="441" pm="."><plain>This could be explained by the fact that the majority of the protein is subjected to constant purifying selection, while a few sites undergo positive selection [26]. </plain></SENT>
+<SENT sid="442" pm="."><plain>From the three models which allow for selection to be tested (M2a, M3 and M8), only M8 was significantly favoured over M7 (P &lt; 0.001) and detected 44 sites at the 95% level (Table 2). </plain></SENT>
+<SENT sid="443" pm="."><plain>This provides evidence for the Darwinian selection in vertebrate bestrophins. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="444" pm="."><plain>Likelihood values and parameter estimates for the vertebrate bestrophin genes </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="445" pm="."><plain>Model </plain></SENT>
+</text></th><th align="left"><text><SENT sid="446" pm="."><plain>dN/dSa </plain></SENT>
+</text></th><th align="left"><text><SENT sid="447" pm="."><plain>Estimates of parametersb </plain></SENT>
+</text></th><th align="left"><text><SENT sid="448" pm="."><plain>l </plain></SENT>
+</text></th><th align="left"><text><SENT sid="449" pm="."><plain>Positively Selected Sitesc </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="450" pm="."><plain>M0 (one-ratio) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="451" pm="."><plain>0.053 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="452" pm="."><plain>ω = 0.053 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="453" pm="."><plain>-22547.97 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="454" pm="."><plain>not allowed </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="455" pm="."><plain>M1a (nearly neutral) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="456" pm="."><plain>0.084 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="457" pm="."><plain>p0 = 0.964, (p1 = 0.036)(ω0 = 0.050), (ω1 = 1) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="458" pm="."><plain>-22443.90 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="459" pm="."><plain>not allowed </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="460" pm="."><plain>M2a (positive selection) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="461" pm="."><plain>0.084 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="462" pm="."><plain>p0 = 0.964, p1 = 0.002, (p2 = 0.033)(ω0 = 0.050), (ω1 = 1), ω2 = 1 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="463" pm="."><plain>-22443.90 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="464" pm="."><plain>not found </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="465" pm="."><plain>M3 (discrete) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="466" pm="."><plain>0.058 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="467" pm="."><plain>p0= 0.529, p1= 0.355, (p2 = 0.115)ω0 = 0.011, ω1 = 0.073, ω2 = 0.230 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="468" pm="."><plain>-22016.13 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="469" pm="."><plain>not found </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="470" pm="."><plain>M7 (beta) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="471" pm="."><plain>0.063 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="472" pm="."><plain>p = 0.598, q = 8.411 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="473" pm="."><plain>-22007.24 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="474" pm="."><plain>not allowed </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="475" pm="."><plain>M8 (beta&amp;ω) </plain></SENT>
+</text></td><td align="left"><text><SENT sid="476" pm="."><plain>0.220 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="477" pm="."><plain>p0= 1, (p1 = 0)p = 0.685, q = 1.988, ω = 4.997 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="478" pm="."><plain>-19662.03 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="479" pm="."><plain>8, 25, 40, 41, 42, 44, 45*, 48, 49, 52*, 53, 55, 56, 57, 60*, 61*, 67, 71, 95, 108, 113, 117, 120, 154, 159, 165*, 170, 173, 175, 193, 197, 207*, 209*, 216, 219, 261, 263*, 265*, 331*, 340, 341, 342, 344, 354* </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="480" pm="."><plain>a The dN/dS ratio is an average over all sites of bestrophin gene alignments. </plain></SENT>
+</text></p><p><text><SENT sid="481" pm="."><plain>b Parameters in parentheses are not free parameters. </plain></SENT>
+</text></p><p><text><SENT sid="482" pm="."><plain>c Numbering of amino acid residues corresponds to human <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>. </plain></SENT>
+<SENT sid="483" pm="."><plain>Positive selection sites with posterior probabilities &gt; 95% are shown in bold. </plain></SENT>
+</text></p><p><text><SENT sid="484" pm="."><plain>* The amino acid residues depicted with an asterisk were also found to be implicated in the functional divergence between bestrophin paralogues (see Table 4). </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="485" pm="."><plain>Analysis of functional divergence </plain></SENT>
+</text></title><p><text><SENT sid="486" pm="."><plain>To further investigate whether amino acid substitutions in the highly conserved N-termini of the bestrophins could have caused adaptive functional diversification, amino acid residues 1–367 from 53 vertebrate bestrophins (Table 1) were used for posterior analysis by the DIVERGE program algorithms [27,28]. </plain></SENT>
+<SENT sid="487" pm="."><plain>Pairwise comparisons of paralogous bestrophins from subfamilies 1 to 4 were carried out and the rate of amino acid evolution at each sequence position was estimated. </plain></SENT>
+<SENT sid="488" pm="."><plain>This identified residues potentially responsible for functional divergence. </plain></SENT>
+<SENT sid="489" pm="."><plain>The results are given as a coefficient of functional divergence (θ) with standard errors and significance levels (Table 3). </plain></SENT>
+<SENT sid="490" pm="."><plain>Significant functional divergence was detected between <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> and 3 (Pcorr = 6.3 × 10-9) as well as between <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> and the other bestrophin subgroups (Pcorr ≤ 8.9 × 10-8). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T3" position="float"><label>Table 3</label><caption><p><text><SENT sid="491" pm="."><plain>Functional divergence estimated in 53 vertebrate bestrophin paralogues </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><text><SENT sid="492" pm="."><plain>Comparison </plain></SENT>
+</text></th><th align="left"><text><SENT sid="493" pm="."><plain>θa </plain></SENT>
+</text></th><th align="left"><text><SENT sid="494" pm="."><plain>SEb(θ) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="495" pm="."><plain>LRTc (θ) </plain></SENT>
+</text></th><th align="left"><text><SENT sid="496" pm="."><plain>Pd </plain></SENT>
+</text></th><th align="left"><text><SENT sid="497" pm="."><plain>Probability cutoffe </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="498" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O88870">Best1</z:uniprot> vs <z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="499" pm="."><plain>0.097 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="500" pm="."><plain>0.076 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="501" pm="."><plain>1.640 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="502" pm="."><plain>0.024541 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="503" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="504" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O88870">Best1</z:uniprot> vs <z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="505" pm="."><plain>0.142 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="506" pm="."><plain>0.043 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="507" pm="."><plain>10.762 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="508" pm="."><plain>0.000488 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="509" pm="."><plain>- </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="510" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O88870">Best1</z:uniprot> vs Best4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="511" pm="."><plain>0.217 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="512" pm="."><plain>0.039 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="513" pm="."><plain>30.099 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="514" pm="."><plain>8.88557e-8 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="515" pm="."><plain>0.70 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="516" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> vs <z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> </plain></SENT>
+</text></td><td align="left"><text><SENT sid="517" pm="."><plain>0.380 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="518" pm="."><plain>0.073 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="519" pm="."><plain>27.152 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="520" pm="."><plain>6.32074e-9 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="521" pm="."><plain>0.80 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="522" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> vs Best4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="523" pm="."><plain>0.320 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="524" pm="."><plain>0.075 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="525" pm="."><plain>18.120 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="526" pm="."><plain>9.855e-10 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="527" pm="."><plain>0.64 </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="528" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> vs Best4 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="529" pm="."><plain>0.260 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="530" pm="."><plain>0.059 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="531" pm="."><plain>19.338 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="532" pm="."><plain>9.477e-10 </plain></SENT>
+</text></td><td align="left"><text><SENT sid="533" pm="."><plain>0.70 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><p><text><SENT sid="534" pm="."><plain>a θ is the coefficient of functional divergence. </plain></SENT>
+</text></p><p><text><SENT sid="535" pm="."><plain>b SE, standard error. </plain></SENT>
+</text></p><p><text><SENT sid="536" pm="."><plain>c LRT (θ) is a likelihood ratio test. </plain></SENT>
+</text></p><p><text><SENT sid="537" pm="."><plain>d significance level (Pc) calculated by the method of Fisher's transformation and corrected by Bonferroni. </plain></SENT>
+</text></p><p><text><SENT sid="538" pm="."><plain>e Probability cut-off is the minimal posterior probaility for amino acids causing functional divergence. </plain></SENT>
+</text></p></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="539" pm="."><plain>Next, single amino acid residues responsible for the functional divergence were predicted based on site-specific profiles (Figure 3A) in combination with suitable cut-off-values derived from the posterior probability of each comparison (Table 3). </plain></SENT>
+<SENT sid="540" pm="."><plain>Residues predicted to be functionally divergent in bestrophin, were mapped onto topology models of human <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophins 2</z:uniprot> and 4, respectively (Figure 3b). </plain></SENT>
+<SENT sid="541" pm="."><plain>The predicted functional sites are not equally distributed throughout the respective bestrophin, but instead are clustered in the hydrophilic loops between predicted transmembrane domains 1 and 2 as well as 5 and 6 and immediately C-terminal to transmembrane domain 6 (Figure 3B, see Additional file 2, and Table 4). </plain></SENT>
+<SENT sid="542" pm="."><plain>Despite the high global sequence identity of mammalian <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophins 2</z:uniprot> and 3, functionally divergent amino acids were also identified between these bestrophins. </plain></SENT>
+<SENT sid="543" pm="."><plain>For example, at position 264 (numbered according to <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>) the tyrosine residue is completely conserved within <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>, 2 and 3 paralogues but highly divergent in <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> paralogues. </plain></SENT>
+<SENT sid="544" pm="."><plain>Similarly, residue 331 (numbered according to <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>) is highly divergent in <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>, 2 and 3 paralogues but strictly conserved in <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophins 4</z:uniprot> (Figure 3B, see Additional file 2, and Table 4). </plain></SENT>
+<SENT sid="545" pm="."><plain>We thus speculate that these two sites may be of functional importance for the respective bestrophin subfamilies. </plain></SENT>
+<SENT sid="546" pm="."><plain>In addition, 11 out of 44 positively selected sites detected by LRT in codeml were also found to be functionally divergent between bestrophin paralogues (marked by asterisk in Table 4). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F3" position="float"><label>Figure 3</label><caption><p><text><SENT sid="547" pm="."><plain>Site specific profiles for evolutionary rate changes in the vertebrate bestrophin protein family. A, The posterior probabilities of functional divergence for vertebrate <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophins 1</z:uniprot> to 4 were obtained with Diverge [27]. </plain></SENT>
+<SENT sid="548" pm="."><plain>Individual cut-off values for each comparison are marked with red horizontal lines. B, Residues with predicted functional divergence between bestrophin subfamilies are mapped onto the membrane topology models of <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> (top) and <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> (bottom). </plain></SENT>
+<SENT sid="549" pm="."><plain>Divergent amino acids are shown and listed in Table 4. </plain></SENT>
+<SENT sid="550" pm="."><plain>In the model drawing, residues excluded from the analysis are depicted in gray. </plain></SENT>
+</text></p></caption><graphic xlink:href="1471-2148-8-72-3"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="T4" position="float"><label>Table 4</label><caption><p><text><SENT sid="551" pm="."><plain>Amino acid changes associated with the divergence of human bestrophins </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center"><text><SENT sid="552" pm="."><plain>Comparison </plain></SENT>
+</text></th><th align="center"><text><SENT sid="553" pm="."><plain>Codon position in human Best1a </plain></SENT>
+</text></th><th align="center"><text><SENT sid="554" pm="."><plain>Codon position and amino acid residueb </plain></SENT>
+</text></th><th align="center"><text><SENT sid="555" pm="."><plain>Codon position and amino acid residueb </plain></SENT>
+</text></th><th align="center"><text><SENT sid="556" pm="."><plain>Protein domainc </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left"><text><SENT sid="557" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O88870">Best1</z:uniprot> vs. Best4 </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="558" pm="."><plain>in vertebrate <z:uniprot sup="inside" fb="0" ids="O88870">Best1</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="559" pm="."><plain>in vertebrate Best4 </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="560" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="561" pm="."><plain>264 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="562" pm="."><plain>264: Y, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="563" pm="."><plain>279: P, Q, S, L, E, G or Y </plain></SENT>
+</text></td><td align="center"><text><SENT sid="564" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="565" pm="."><plain>265* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="566" pm="."><plain>265: P, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="567" pm="."><plain>280: A, T, Q, E or K </plain></SENT>
+</text></td><td align="center"><text><SENT sid="568" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="569" pm="."><plain>266 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="570" pm="."><plain>266: G, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="571" pm="."><plain>281: L, A, V, P, K, E or D </plain></SENT>
+</text></td><td align="center"><text><SENT sid="572" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="573" pm="."><plain>267 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="574" pm="."><plain>267: H, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="575" pm="."><plain>282: G, W, P or H </plain></SENT>
+</text></td><td align="center"><text><SENT sid="576" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="577" pm="."><plain>331* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="578" pm="."><plain>331: R, P, V, I, L or M </plain></SENT>
+</text></td><td align="center"><text><SENT sid="579" pm="."><plain>346: P, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="580" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="581" pm="."><plain>343 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="582" pm="."><plain>343: P, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="583" pm="."><plain>358: P, A, F or V </plain></SENT>
+</text></td><td align="center"><text><SENT sid="584" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="585" pm="."><plain>349 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="586" pm="."><plain>349: A, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="587" pm="."><plain>364: V, I, L, P, Q or A </plain></SENT>
+</text></td><td align="center"><text><SENT sid="588" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="589" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="590" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> vs Best4 </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="591" pm="."><plain>in vertebrate <z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="592" pm="."><plain>in vertebrate Best4 </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="593" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="594" pm="."><plain>45* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="595" pm="."><plain>45: A, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="596" pm="."><plain>45: V, L, M, F or T </plain></SENT>
+</text></td><td align="center"><text><SENT sid="597" pm="."><plain>TMD2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="598" pm="."><plain>52* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="599" pm="."><plain>52: F, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="600" pm="."><plain>52: L, K, R, C or F </plain></SENT>
+</text></td><td align="center"><text><SENT sid="601" pm="."><plain>Loop 1 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="602" pm="."><plain>59 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="603" pm="."><plain>59: K, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="604" pm="."><plain>59: R, K or Q </plain></SENT>
+</text></td><td align="center"><text><SENT sid="605" pm="."><plain>Loop 1 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="606" pm="."><plain>61* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="607" pm="."><plain>61: Y, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="608" pm="."><plain>61: V, I, L, M or E </plain></SENT>
+</text></td><td align="center"><text><SENT sid="609" pm="."><plain>Loop 1 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="610" pm="."><plain>66 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="611" pm="."><plain>66: V, A or S </plain></SENT>
+</text></td><td align="center"><text><SENT sid="612" pm="."><plain>66: A, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="613" pm="."><plain>Loop 1 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="614" pm="."><plain>91 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="615" pm="."><plain>91: N or H </plain></SENT>
+</text></td><td align="center"><text><SENT sid="616" pm="."><plain>91: N, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="617" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="618" pm="."><plain>106 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="619" pm="."><plain>106: L or V </plain></SENT>
+</text></td><td align="center"><text><SENT sid="620" pm="."><plain>106: L, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="621" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="622" pm="."><plain>132 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="623" pm="."><plain>132: A, S or C </plain></SENT>
+</text></td><td align="center"><text><SENT sid="624" pm="."><plain>132: A, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="625" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="626" pm="."><plain>206 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="627" pm="."><plain>206: A, T or S </plain></SENT>
+</text></td><td align="center"><text><SENT sid="628" pm="."><plain>206: A, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="629" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="630" pm="."><plain>207* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="631" pm="."><plain>207: L, F or Y </plain></SENT>
+</text></td><td align="center"><text><SENT sid="632" pm="."><plain>207: L, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="633" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="634" pm="."><plain>263* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="635" pm="."><plain>263: G, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="636" pm="."><plain>263: G, E, A or P </plain></SENT>
+</text></td><td align="center"><text><SENT sid="637" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="638" pm="."><plain>264 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="639" pm="."><plain>264: Y, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="640" pm="."><plain>279: P, E, Q, G, S or Y </plain></SENT>
+</text></td><td align="center"><text><SENT sid="641" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="642" pm="."><plain>331 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="643" pm="."><plain>331: V, M or P </plain></SENT>
+</text></td><td align="center"><text><SENT sid="644" pm="."><plain>346: P, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="645" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="646" pm="."><plain>349 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="647" pm="."><plain>349: A, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="648" pm="."><plain>364: V, P, Q, L or A </plain></SENT>
+</text></td><td align="center"><text><SENT sid="649" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="650" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="651" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> vs Best4 </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="652" pm="."><plain>in vertebrate <z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="653" pm="."><plain>in vertebrate Best4 </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="654" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="655" pm="."><plain>60* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="656" pm="."><plain>60: R, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="657" pm="."><plain>60: Y, H, R, S or D </plain></SENT>
+</text></td><td align="center"><text><SENT sid="658" pm="."><plain>Loop 1 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="659" pm="."><plain>115 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="660" pm="."><plain>115: H, Q, R or L </plain></SENT>
+</text></td><td align="center"><text><SENT sid="661" pm="."><plain>115: H, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="662" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="663" pm="."><plain>209* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="664" pm="."><plain>209: S, T, M or N </plain></SENT>
+</text></td><td align="center"><text><SENT sid="665" pm="."><plain>209: L, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="666" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="667" pm="."><plain>264 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="668" pm="."><plain>264: Y, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="669" pm="."><plain>279: P, Q, S, L, E, G or Y </plain></SENT>
+</text></td><td align="center"><text><SENT sid="670" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="671" pm="."><plain>266 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="672" pm="."><plain>266: G, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="673" pm="."><plain>281: L, V, E, P, K, D or A </plain></SENT>
+</text></td><td align="center"><text><SENT sid="674" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="675" pm="."><plain>331 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="676" pm="."><plain>331: K or R </plain></SENT>
+</text></td><td align="center"><text><SENT sid="677" pm="."><plain>346: P, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="678" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td colspan="5"><text><SENT sid="679" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td align="left"><text><SENT sid="680" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> vs <z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> </plain></SENT>
+</text></td><td/><td align="center"><text><SENT sid="681" pm="."><plain>in vertebrate <z:uniprot sup="inside" fb="0" ids="Q17529">Best2</z:uniprot> </plain></SENT>
+</text></td><td align="center"><text><SENT sid="682" pm="."><plain>in vertebrate <z:uniprot sup="inside" fb="0" ids="Q6H1V1">Best3</z:uniprot> </plain></SENT>
+</text></td><td/></tr><tr><td colspan="5"><text><SENT sid="683" pm="."><plain> </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="684" pm="."><plain>165* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="685" pm="."><plain>165: R, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="686" pm="."><plain>165: T, A, P, S or R </plain></SENT>
+</text></td><td align="center"><text><SENT sid="687" pm="."><plain>Loop 2 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="688" pm="."><plain>268 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="689" pm="."><plain>268: D, T, S or N </plain></SENT>
+</text></td><td align="center"><text><SENT sid="690" pm="."><plain>268: D, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="691" pm="."><plain>Loop 3 </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="692" pm="."><plain>333 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="693" pm="."><plain>333: E, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="694" pm="."><plain>333: K, R, E, A, N or T </plain></SENT>
+</text></td><td align="center"><text><SENT sid="695" pm="."><plain>C-terminus </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="696" pm="."><plain>354* </plain></SENT>
+</text></td><td align="center"><text><SENT sid="697" pm="."><plain>354: Q, L, D or V </plain></SENT>
+</text></td><td align="center"><text><SENT sid="698" pm="."><plain>354: Y, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="699" pm="."><plain>C-terminus, AI domain </plain></SENT>
+</text></td></tr><tr><td/><td align="center"><text><SENT sid="700" pm="."><plain>365 </plain></SENT>
+</text></td><td align="center"><text><SENT sid="701" pm="."><plain>366: D, conserved </plain></SENT>
+</text></td><td align="center"><text><SENT sid="702" pm="."><plain>365: Q, D, E or H </plain></SENT>
+</text></td><td align="center"><text><SENT sid="703" pm="."><plain>C-terminus, AI domain </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="704" pm="."><plain>We finally scanned the predicted divergent amino acids and surrounding sequences in <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophins 2</z:uniprot> and 4 for the presence of domains and functional sequence patterns with MotifScan and InterProScan. </plain></SENT>
+<SENT sid="705" pm="."><plain>Identity to known protein motifs, except for several short sequence tags including putative phosphorylation sites, could not be detected. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="discussion"><title><text><SENT sid="706" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="707" pm="."><plain>Our phylogenetic analysis suggests that the bestrophins originated by duplication and divergence of a common protein at the base of the eukaryotic tree, some 700 Myr ago. </plain></SENT>
+<SENT sid="708" pm="."><plain>Analysis of the bestrophins from a phylogenetic perspective may provide the basis for understanding the functional diversity within this conserved protein family. </plain></SENT>
+<SENT sid="709" pm="."><plain>Both small-scale and large-scale gene duplications are known to contribute to the complexity of eukaryotic organisms [29,30]. </plain></SENT>
+<SENT sid="710" pm="."><plain>The presence of bestrophins in prokaryotes [2] and their occurrence in phylogenetically distant eukaryotic species such as insects and mammals highlight their general functional importance. </plain></SENT>
+</text></p><p><text><SENT sid="711" pm="."><plain>High levels of sequence homology were generally found between the N-terminal regions of the bestrophins, while the C-termini differ substantially particularly between paralogues. </plain></SENT>
+<SENT sid="712" pm="."><plain>At the N-terminal sequences, vertebrate bestrophins show nearly identical hydrophobicity plots with four major and two minor hydrophobic peaks, indicating that they share a highly similar membrane topology [16,23]. </plain></SENT>
+<SENT sid="713" pm="."><plain>The hydrophobic regions with high sequence conservation also seem to contribute to oligomerization [15,31] and the second putative transmembrane domain is thought to be especially important for channel function [13,14,32]. </plain></SENT>
+</text></p><p><text><SENT sid="714" pm="."><plain>Our data and the study by Hagen et al. [2] demonstrate that the vertebrate bestrophins cluster in organismal groups, i.e. the homologues are more related to each other from different species than to their species-specific paralogues. </plain></SENT>
+<SENT sid="715" pm="."><plain>Whenever high quality genome sequences are available (e.g. human, <z:uniprot sup="inside" fb="64" ids="Q9CR50">chimp</z:uniprot>, dog, rat, and fugu), four bestrophin paralogues can be identified. </plain></SENT>
+<SENT sid="716" pm="."><plain>This strongly argues for a high phylogenetic conservation of the bestrophin subfamilies. </plain></SENT>
+<SENT sid="717" pm="."><plain>Missing paralogues in some species may be due to currently incomplete genomic sequences. </plain></SENT>
+<SENT sid="718" pm="."><plain>One exception may be X. laevis, for which a high quality genome sequence has already been released but still this species reveals only three copies of bestrophins, interestingly all highly similar to <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot>. </plain></SENT>
+<SENT sid="719" pm="."><plain>However, as a tetraploid species, X. laevis appears to have undergone unique evolutionary changes. </plain></SENT>
+<SENT sid="720" pm="."><plain>Another exception may be the murine <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> (gene name: <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,Q8WMR7">VMD2</z:uniprot>-L2) which our group has previously shown to represent a functionless pseudogene [33]. </plain></SENT>
+</text></p><p><text><SENT sid="721" pm="."><plain>In the vertebrate phylogeny, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophins 1</z:uniprot> and 3 have separated and diverged at a higher rate than <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophins 2</z:uniprot> and 4. </plain></SENT>
+<SENT sid="722" pm="."><plain>To estimate the selection forces behind this we calculated the substitution rate ratios for the four subgroups. </plain></SENT>
+<SENT sid="723" pm="."><plain>Calculating dN/dS ratios across the entire length of the N-terminal amino acid sequences (aa1-367), we could not, however, find an indication for positive selection. </plain></SENT>
+<SENT sid="724" pm="."><plain>In contrast, the low dN/dS values imply that a strong purifying selection may lead to the high sequence conservation observed. </plain></SENT>
+<SENT sid="725" pm="."><plain>Examples such as the chaperonins [24] show that positive selection reaches dN/dS values well above 1 for a high selective pressure to fix amino acid substitutions in evolution. </plain></SENT>
+<SENT sid="726" pm="."><plain>Nevertheless, we detected positive selection at several amino acid sites located predominantly in the hydrophilic regions of bestrophin. </plain></SENT>
+<SENT sid="727" pm="."><plain>Testing several models only one (M7vsM8) suggested positively selected sites with high posterior probabilities. </plain></SENT>
+<SENT sid="728" pm="."><plain>Another comparison (M0 vs M3), although significant failed to identify positively selected residues with high posterior probability. </plain></SENT>
+<SENT sid="729" pm="."><plain>This points to insufficient information from the alignments or, alternatively, may be explained by the fact that purifying selection in conserved regions could have masked single diversification signals. </plain></SENT>
+</text></p><p><text><SENT sid="730" pm="."><plain>Posterior probability analysis for pairwise comparisons of bestrophin paralogues identified significant functional divergence between <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">bestrophin 3</z:uniprot> as well as between <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> and its remaining paralogues. </plain></SENT>
+<SENT sid="731" pm="."><plain>Generally, the specific amino acid substitutions in the bestrophin paralogues suggest an optimization of protein function, and/or subfunctionalization of the gene duplicates. </plain></SENT>
+<SENT sid="732" pm="."><plain>Eleven out of the 44 positively selected sites were also found to be functionally divergent between bestrophins. </plain></SENT>
+<SENT sid="733" pm="."><plain>The most prominent finding of the posterior probability analysis is that <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> diverged significantly during evolution in a number of amino acids from its paralogues. </plain></SENT>
+<SENT sid="734" pm="."><plain>As shown previously [34], <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> can be activated by free Ca2+ on the cytoplasmic side although the kinetics of the activation/deactivation is much slower than for typical Ca2+-activated chloride currents [35]. </plain></SENT>
+<SENT sid="735" pm="."><plain>Furthermore, heterologously expressed human <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> shows very slow voltage-dependant current relaxations, in contrast to the lack of voltage-dependent current relaxations by human <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> and 2. </plain></SENT>
+<SENT sid="736" pm="."><plain>These distinctive properties of <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> could be attributable to the additional 15 unique amino acids within the extracellular loop between putative transmembrane domain 5 and 6. </plain></SENT>
+<SENT sid="737" pm="."><plain>This loop contains three positively charged lysine residues (K266, K269 and K272) within a proline rich region (P267, P273, P277 and P279). </plain></SENT>
+<SENT sid="738" pm="."><plain>It can be speculated that the function of the divergent P279 residue could be to maintain structural or conformational stability of the loop region. </plain></SENT>
+</text></p><p><text><SENT sid="739" pm="."><plain>Human <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot> and 3 have considerably longer amino acid sequences compared to <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> and 4 (585 and 668 vs 509 and 473 aa). </plain></SENT>
+<SENT sid="740" pm="."><plain>Human and mouse <z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">bestrophin 3</z:uniprot>, heterologously expressed in <z:uniprot sup="inside" fb="0" ids="P29320">HEK</z:uniprot>-293 cells, produce no chloride currents in a physiological range [16,36], in contrast for example to mouse <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> [13,14]. </plain></SENT>
+<SENT sid="741" pm="."><plain>Such a functional divergence has been explained to be mediated by an auto-inhibitory (AI) domain composed of seven critical residues 356IPSFLGS362 present in mouse <z:uniprot sup="inside" fb="0" ids="Q8N1M1,Q6H1V1">bestrophin 3</z:uniprot> [36]. </plain></SENT>
+<SENT sid="742" pm="."><plain>Interestingly 2 out of 5 amino acid residues implicated in the functional divergence between <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> and 3 are located in close proximity to this highly conserved region (Q354 and D366 in <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot>, respectively). </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec sec-type="conclusions"><title><text><SENT sid="743" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="744" pm="."><plain>This study addresses the evolutionary history of the bestrophin protein family. </plain></SENT>
+<SENT sid="745" pm="."><plain>The precise functional properties of the four family members are still unclear but may comprise activities as Ca2+-activated chloride channels or aspects of Ca2+ channel regulation. </plain></SENT>
+<SENT sid="746" pm="."><plain>Functional divergence between the paralogous bestrophins suggests that the bestrophin family members have evolved different functional properties after gene duplication events which have occurred early in the vertebrate lineage. </plain></SENT>
+<SENT sid="747" pm="."><plain>This is most evident for <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> where a number of experimental studies provide further support for the in silico data. </plain></SENT>
+<SENT sid="748" pm="."><plain>Our study also demonstrates that amino acids critical for functional divergence are located in regions of the proteins that are likely accessible to soluble ligands, supporting the biochemical and physiological significance of this prediction. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods"><title><text><SENT sid="749" pm="."><plain>Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="750" pm="."><plain>Data collection </plain></SENT>
+</text></title><p><text><SENT sid="751" pm="."><plain>PSI-BLAST and TBLASTN searches with protein sequences of the four human bestrophins were performed in protein databases or unfinished genome sequencing projects at NCBI [37], ENSEMBL [38], the Sanger Institute [39], UCSC Genome Bioinformatics Group [40], and the Joint Genome Institute [41]. </plain></SENT>
+<SENT sid="752" pm="."><plain>Proteins identified by the BLAST search algorithms were considered as potential homologues when amino acid identity was above 25% over a stretch of = 200 amino acids. </plain></SENT>
+<SENT sid="753" pm="."><plain>After removal of expressed sequence tags, splice variants and redundant sequences, the initial data set included 173 distinct sequences from 43 species (see Additional file 1). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="754" pm="."><plain>Sequence alignment and phylogenetic tree reconstruction </plain></SENT>
+</text></title><p><text><SENT sid="755" pm="."><plain>Amino acid sequences were aligned with CLUSTAL W (version 1.82) [42] and alignments were refined manually in Genedoc [43]. </plain></SENT>
+<SENT sid="756" pm="."><plain>Incomplete sequences, and highly divergent regions or gaps resulting in uncertain alignments were excluded from the analysis. </plain></SENT>
+<SENT sid="757" pm="."><plain>The final data set includes a total of 53 sequences from 21 vertebrate species (Table 1). </plain></SENT>
+<SENT sid="758" pm="."><plain>A total of 367 N-terminal amino acids were aligned for further studies. </plain></SENT>
+<SENT sid="759" pm="."><plain>Accurate nucleotide alignments were obtained with PAL2NAL [44], a program which constructs multiple codon alignments from matching protein sequences. </plain></SENT>
+<SENT sid="760" pm="."><plain>ProtTest v1.4 [45], implementing the Akaike Information criterion (AIC) was used to estimate the most appropriate model of amino acid substitution for tree building analyses. </plain></SENT>
+<SENT sid="761" pm="."><plain>The best fit model of protein evolution for the bestrophin protein family according to ProtTest corresponds to a JTT+I+G+F model [19]. </plain></SENT>
+</text></p><p><text><SENT sid="762" pm="."><plain>Tree reconstructions were done by the Neighbor-joining method (NJ) [20] from the protein alignment done in the MEGA v3.1 software package, with the gamma distribution model implemented to account for heterogeneity among sites [46], and rooted with the bestrophins from Urohordata. </plain></SENT>
+<SENT sid="763" pm="."><plain>The shape parameter of the gamma distribution (α) was estimated using baseml from the PAMLv4.0 [47] to be α = 0.51. </plain></SENT>
+<SENT sid="764" pm="."><plain>Support for each phylogenetic group was tested using 1,000 bootstrap pseudoreplicates. </plain></SENT>
+<SENT sid="765" pm="."><plain>Tree topology assessed by maximum parsimony (using Mega v3.1), was substantial similar with the NJ tree. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="766" pm="."><plain>Topological structure prediction </plain></SENT>
+</text></title><p><text><SENT sid="767" pm="."><plain>Topological structure prediction was done with the TOPPRED II software [48], which is based on the Kyte and Doolittle algorithm [49]. </plain></SENT>
+<SENT sid="768" pm="."><plain>The average hydrophobicity values of putative transmembrane domains of 20–23 amino acid residues were calculated according the Eisenberg scale [50]. </plain></SENT>
+<SENT sid="769" pm="."><plain>An average hydropathy plot of 53 bestrophin-related protein sequences was generated by the PEPWINDOWALL program with a window of 19 amino acids [49]. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="770" pm="."><plain>Positive selection assessment </plain></SENT>
+</text></title><p><text><SENT sid="771" pm="."><plain>DNA sequences and related multiple protein sequence alignments were submitted to the PAL2NAL web server [51] which converts a multiple sequence alignment of proteins and the corresponding DNA sequences into a codon alignment. </plain></SENT>
+<SENT sid="772" pm="."><plain>The resulting codon alignments and NJ tree were used in the program codeml from the PAMLv4.0 software package [47] to calculate the dN/dS (or ω) ratio for each site and to test different evolutionary models. </plain></SENT>
+<SENT sid="773" pm="."><plain>The site specific models recommended by Anisimova et al. [26] were tested: Model M0 (one ratio), M1a (nearly neutral), M2a (positive selection), M3 (discrete), M7 (beta) and M8 (beta+ ω). </plain></SENT>
+<SENT sid="774" pm="."><plain>Model M0 assumed a constant ω-ratio, while in models M1a and M2a ω-ratio is estimated from the date (0 &lt; ω0 &lt; 1) while ω1 = 1 is fixed. </plain></SENT>
+<SENT sid="775" pm="."><plain>M7 and M8 assume a β-distribution for the ω-value between 0 and 1. </plain></SENT>
+<SENT sid="776" pm="."><plain>Models M2a, M3, and M8 allow the occurrence of positively selected sites (ω &gt;1). </plain></SENT>
+<SENT sid="777" pm="."><plain>Subsequent likelihood rate comparisons of M0 with M3, M1a with M2a, and M7 with M8, respectively, were performed to test which model fits the data significantly better. </plain></SENT>
+<SENT sid="778" pm="."><plain>Twice the difference in log likelihood between the models is compared with a chi-square distribution with n degrees of freedom, n being the difference between the numbers of parameters of the two models. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="779" pm="."><plain>Functional divergence and detection of amino acids critical for altered functional constraints </plain></SENT>
+</text></title><p><text><SENT sid="780" pm="."><plain>Bestrophin sequence duplication events were tested for type I functional divergence [52] based on the method by Gu et al [27]. </plain></SENT>
+<SENT sid="781" pm="."><plain>The analysis was carried out with Diverge (version 2.0) [28]. </plain></SENT>
+<SENT sid="782" pm="."><plain>This method is based on maximum likelihood procedures to estimate significant changes in the rate of evolution after the emergence of two paralogous sequences. </plain></SENT>
+<SENT sid="783" pm="."><plain>Type I sites represent amino acid residues conserved in one subfamily but highly variable in another, implying that these residues have been subjected to different functional constraints. </plain></SENT>
+<SENT sid="784" pm="."><plain>A set of 53 protein sequences was included in the study (Table 1, see Additional file 2). </plain></SENT>
+<SENT sid="785" pm="."><plain>Due to gaps and a shorter length of <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> and 4, a total of 15 residues from human <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin 4</z:uniprot> (codons 264–278) and one (codon 356) from human <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin 2</z:uniprot> were excluded from the analysis. </plain></SENT>
+<SENT sid="786" pm="."><plain>Consequently, each bestrophin paralogue was restricted to 367 amino acid residues. </plain></SENT>
+<SENT sid="787" pm="."><plain>A new NJ tree was constructed within Diverge with Poisson distance and re-rooted. </plain></SENT>
+<SENT sid="788" pm="."><plain>The coefficient of functional divergence (θ) and the posterior probability for the functional divergence were calculated for each position in the alignment. </plain></SENT>
+<SENT sid="789" pm="."><plain>To detect amino acid residues reflecting functional divergence, bestrophin subfamilies were pair-wise compared to each other. </plain></SENT>
+<SENT sid="790" pm="."><plain>The cut-off value for the posterior probability was determined by consecutively eliminating the highest scoring residues from the alignment until the coefficient of functional divergence dropped to zero. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="AUTH_CONT"><sec><title><text><SENT sid="791" pm="."><plain>Authors' contributions </plain></SENT>
+</text></title><p><text><SENT sid="792" pm="."><plain>VMM performed the bioinformatics analyses including all sequence alignments and statistical evaluations. </plain></SENT>
+<SENT sid="793" pm="."><plain>He drafted the manuscript. </plain></SENT>
+<SENT sid="794" pm="."><plain>TL was involved in conceptual discussions for the entire study and made major revisions to the manuscript. </plain></SENT>
+<SENT sid="795" pm="."><plain>RS and KK contributed to the study concept and corrected the manuscript. </plain></SENT>
+<SENT sid="796" pm="."><plain>BHFW participated in conception and design of the study and revised and finalized the manuscript critically. </plain></SENT>
+<SENT sid="797" pm="."><plain>All authors read and approved the final manuscript. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material"><title><text><SENT sid="798" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="S1"><caption><title><text><SENT sid="799" pm="."><plain>Additional file 1 </plain></SENT>
+</text></title><p><text><SENT sid="800" pm="."><plain>List of 173 bestrophin homologues identified in public databases. </plain></SENT>
+<SENT sid="801" pm="."><plain>This table lists the molecular features of all 173 bestrophin homologues identified in public databases. </plain></SENT>
+</text></p></caption><media xlink:href="1471-2148-8-72-S1.doc" mimetype="application" mime-subtype="msword"><caption><p><text><SENT sid="802" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S2"><caption><title><text><SENT sid="803" pm="."><plain>Additional file 2 </plain></SENT>
+</text></title><p><text><SENT sid="804" pm="."><plain>Multiple sequence alignment of vertebrate bestrophins used for calculations of functional divergence. </plain></SENT>
+<SENT sid="805" pm="."><plain>Protein sequences of 53 homologues of vertebrate bestrophins were aligned using the ClustalW algorithm. </plain></SENT>
+<SENT sid="806" pm="."><plain>Shown is the amino acid sequence alignment after removal of gaps and highly divergent regions. </plain></SENT>
+<SENT sid="807" pm="."><plain>Numbering is given according to human <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin 1</z:uniprot>. </plain></SENT>
+<SENT sid="808" pm="."><plain>Sites with predicted functional divergence between bestrophin subfamilies are highlighted by vertical yellow boxes. </plain></SENT>
+</text></p></caption><media xlink:href="1471-2148-8-72-S2.pdf" mimetype="application" mime-subtype="pdf"><caption><p><text><SENT sid="809" pm="."><plain>Click here for file </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><sec><title>Acknowledgements</title><p><text4fund><text><SENT sid="810" pm="."><plain>This study was supported by grants from the Deutsche Forschungsgemeinschaft to BHFW (WE1259/13-2 and WE1259/16-2) and to RS (SFB699 Project A7). </plain></SENT>
+</text></text4fund></p></sec></SecTag><SecTag type="REF"><ref-list><ref id="B1"><text><SENT sid="811" pm="."><plain>SonnhammerELDurbinRAnalysis of protein domain families in Caenorhabditis elegansGenomics19974620021610.1006/geno.1997.49899417907 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="812" pm="."><plain>HagenARBaraboteRDSaierMHThe bestrophin family of anion channels: identification of prokaryotic homologuesMol Membr Biol20052229130210.1080/0968786050012971116154901 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="813" pm="."><plain>MarquardtAStohrHPassmoreLAKramerFRiveraAWeberBHMutations in a novel gene, <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,Q8WMR7">VMD2</z:uniprot>, encoding a protein of unknown properties cause juvenile-onset vitelliform macular dystrophy (Best's disease)Hum Mol Genet199871517152510.1093/<z:uniprot sup="inside" fb="46" ids="Q59468">hmg</z:uniprot>/7.9.15179700209 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="814" pm="."><plain>PetrukhinKKoistiMJBakallBLiWXieGMarknellTSandgrenOForsmanKHolmgrenGAndreassonSVujicMBergenAAGarty-DuganVFigueroaDAustinCPMetzkerMLCaskeyCTWadeliusCIdentification of the gene responsible for Best macular dystrophyNat Genet19981924124710.1038/9159662395 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="815" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,Q8WMR7">VMD2</z:uniprot> database<ext-link ext-link-type="uri" xlink:href="http://www-huge.uni-regensburg.de/VMD2_database/">http://www-huge.uni-regensburg.de/<z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,Q8WMR7">VMD2</z:uniprot>_database/</ext-link> </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="816" pm="."><plain>WhiteKMarquardtAWeberBHVMD2 mutations in vitelliform macular dystrophy (Best disease) and other maculopathiesHum Mutat20001530130810.1002/(SICI)1098-1004(200004)15:4&lt;301::AID-HUMU1&gt;3.0.CO;2-N10737974 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="817" pm="."><plain>MarmorsteinADMarmorsteinLYRaybornMWangXHollyfieldJGPetrukhinKBestrophin, the product of the Best vitelliform macular dystrophy gene (<z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,Q8WMR7">VMD2</z:uniprot>), localizes to the basolateral plasma membrane of the retinal pigment epitheliumProc Natl Acad Sci U S A200097127581276310.1073/pnas.22040209711050159 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="818" pm="."><plain>MullinsRFKuehnMHFaidleyEASyedNAStoneEMDifferential macular and peripheral expression of bestrophin in human eyes and its implication for best diseaseInvest Ophthalmol Vis Sci2007483372338010.1167/iovs.06-086817591911 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="819" pm="."><plain>BarroSRSpitznerMSchreiberRKunzelmannKBestrophin 1 enables Ca2+ activated Cl- conductance in epitheliaJ Biol Chem2006 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="820" pm="."><plain>PifferiSPascarellaGBoccaccioAMazzatentaAGustincichSMeniniAZucchelliSBestrophin-2 is a candidate <z:uniprot sup="inside" fb="0" ids="P54281">calcium-activated chloride channel</z:uniprot> involved in olfactory transductionProc Natl Acad Sci U S A2006103129291293410.1073/pnas.060450510316912113 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="821" pm="."><plain>FischmeisterRHartzellHCVolume sensitivity of the bestrophin family of chloride channelsJ Physiol200556247749110.1113/jphysiol.2004.07562215564283 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="822" pm="."><plain>QuZWeiRWMannWHartzellHCTwo bestrophins cloned from Xenopus laevis oocytes express Ca(2+)-activated Cl(-) currentsJ Biol Chem2003278495634957210.1074/jbc.M30841420012939260 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="823" pm="."><plain>QuZHartzellCDeterminants of anion permeation in the second transmembrane domain of the mouse <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin-2</z:uniprot> chloride channelJ Gen Physiol200412437138210.1085/jgp.20040910815452198 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="824" pm="."><plain>QuZFischmeisterRHartzellCMouse <z:uniprot sup="inside" fb="0" ids="Q8NFU1,Q8BGM5">bestrophin-2</z:uniprot> is a bona fide Cl(-) channel: identification of a residue important in anion binding and conductionJ Gen Physiol200412332734010.1085/jgp.20040903115051805 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="825" pm="."><plain>SunHTsunenariTYauKWNathansJThe vitelliform macular dystrophy protein defines a new family of chloride channelsProc Natl Acad Sci U S A2002994008401310.1073/pnas.05269299911904445 </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="826" pm="."><plain>TsunenariTSunHWilliamsJCahillHSmallwoodPYauKWNathansJStructure-function analysis of the bestrophin family of anion channelsJ Biol Chem2003278411144112510.1074/jbc.M30615020012907679 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="827" pm="."><plain>MarmorsteinLYWuJMcLaughlinPYocomJKarlMONeussertRWimmersSStantonJBGreggRGStraussOPeacheyNSMarmorsteinADThe light peak of the electroretinogram is dependent on voltage-gated calcium channels and antagonized by bestrophin (<z:uniprot sup="inside" fb="0" ids="Q17528">best-1</z:uniprot>)J Gen Physiol200612757758910.1085/jgp.20050947316636205 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="828" pm="."><plain>EisenJAPhylogenomics: improving functional predictions for uncharacterized genes by evolutionary analysisGenome Res199881631679521918 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="829" pm="."><plain>JonesDTTaylorWRThorntonJMThe rapid generation of mutation data matrices from protein sequencesComput <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Biosci199282752821633570 </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="830" pm="."><plain>SaitouNNeiMThe neighbor-joining method: a new method for reconstructing phylogenetic treesMol Biol Evol198744064253447015 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="831" pm="."><plain>DehalPBooreJLTwo rounds of whole genome duplication in the ancestral vertebratePLoS Biol20053e31410.1371/journal.pbio.003031416128622 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="832" pm="."><plain>Van dePYComputational approaches to unveiling ancient genome duplicationsNat Rev Genet2004575276315510166 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="833" pm="."><plain>MilenkovicVMRiveraAHorlingFWeberBHInsertion and topology of normal and mutant <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin-1</z:uniprot> in the endoplasmic reticulum membraneJ Biol Chem20072821313132110.1074/jbc.M60738320017110374 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="834" pm="."><plain>FaresMAWolfeKHPositive selection and subfunctionalization of duplicated CCT chaperonin subunitsMol Biol Evol2003201588159710.1093/molbev/msg16012832642 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="835" pm="."><plain>YangZLikelihood ratio tests for detecting positive selection and application to primate <z:uniprot sup="inside" fb="66" ids="Q9CIT4,P0C2T5,A2RHZ5,P68920,Q9T1T5,Q37896,Q9ZXB7,P51728,Q7Y2C0,P62692,O64203,Q05285,Q9T1X2,O64362,Q37875,P51771,P27359,P09963,P10439,P11187,P62693,P13559,O80292,O80288,P07540,Q6XQ98,P00720,Q6QGP7,P68921,P03706,P10773,P85152,Q27650,Q7SID7,P37715,P48816,P15057,P19385,P19386,P33486,Q6L6Q6,P82175,P82174,P05105,P50717,P86383,Q6L6Q5,P50718,P39046">lysozyme</z:uniprot> evolutionMol Biol Evol1998155685739580986 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="836" pm="."><plain>AnisimovaMBielawskiJPYangZAccuracy and power of the likelihood ratio test in detecting adaptive molecular evolutionMol Biol Evol2001181585159211470850 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="837" pm="."><plain>GuXStatistical methods for testing functional divergence after gene duplicationMol Biol Evol1999161664167410605109 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="838" pm="."><plain>GuXMaximum-likelihood approach for gene family evolution under functional divergenceMol Biol Evol20011845346411264396 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="839" pm="."><plain>GuXWangYGuJAge distribution of human gene families shows significant roles of both large- and small-scale duplications in vertebrate evolutionNat Genet20023120520910.1038/ng90212032571 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="840" pm="."><plain>LiWHGuZWangHNekrutenkoAEvolutionary analyses of the human genomeNature200140984784910.1038/3505703911237007 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="841" pm="."><plain>StantonJBGoldbergAFHoppeGMarmorsteinLYMarmorsteinADHydrodynamic properties of porcine <z:uniprot sup="inside" fb="0" ids="O76090,Q6UY87,O88870,Q8WMR7,Q21973">bestrophin-1</z:uniprot> in Triton X-100Biochim Biophys Acta2006175824124710.1016/j.bbamem.2006.01.02416600174 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="842" pm="."><plain>QuZChienLTCuiYHartzellHCThe anion-selective pore of the bestrophins, a family of chloride channels associated with retinal degenerationJ Neurosci2006265411541910.1523/JNEUROSCI.5500-05.200616707793 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="843" pm="."><plain>KramerFStohrHWeberBHCloning and characterization of the murine <z:uniprot sup="inside" fb="0" ids="O88870">Vmd2</z:uniprot> <z:uniprot sup="inside" fb="6" ids="P25090,P14373">RFP</z:uniprot>-TM gene familyCytogenet Genome Res200410510711410.1159/00007801615218265 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="844" pm="."><plain>TsunenariTNathansJYauKWCa2+-activated Cl- current from human <z:uniprot sup="inside" fb="0" ids="Q8NFU0">bestrophin-4</z:uniprot> in excised membrane patchesJ Gen Physiol200612774975410.1085/jgp.20060952716702355 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="845" pm="."><plain>ReisertJBauerPJYauKWFringsSThe Ca-activated Cl channel and its control in rat olfactory receptor neuronsJ Gen Physiol200312234936310.1085/jgp.20030888812939394 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="846" pm="."><plain>QuZQYuKCuiYYYingCHartzellCActivation of bestrophin Cl- channels is regulated by C-terminal domainsJ Biol Chem2007282174601746710.1074/jbc.M70104320017442670 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="847" pm="."><plain>The NCBI BLAST database<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/BLAST">http://www.ncbi.nlm.nih.gov/BLAST</ext-link> </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="848" pm="."><plain>The ENSEMBL database<ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org/index.html">http://www.ensembl.org/index.html</ext-link> </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="849" pm="."><plain>The Sanger Institute Sequencing Projects Blast Search Services<ext-link ext-link-type="uri" xlink:href="http://www.sanger.ac.uk/DataSearch/blast.shtml">http://www.sanger.ac.uk/DataSearch/blast.shtml</ext-link> </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="850" pm="."><plain>The UCSC Genome browser<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/">http://genome.ucsc.edu/</ext-link> </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="851" pm="."><plain>The Joint Genome Institute<ext-link ext-link-type="uri" xlink:href="http://genome.jgi-psf.org/Cioin2/Cioin2.home.html">http://genome.jgi-psf.org/Cioin2/Cioin2.home.html</ext-link> </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="852" pm="."><plain>ThompsonJDHigginsDGGibsonTJCLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choiceNucleic Acids Res1994224673468010.1093/nar/22.22.46737984417 </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="853" pm="."><plain>The National Resource for Biomedical Supercomputing<ext-link ext-link-type="uri" xlink:href="http://www.psc.edu/biomed/genedoc">http://www.psc.edu/biomed/genedoc</ext-link> </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="854" pm="."><plain>SuyamaMTorrentsDBorkPPAL2NAL: robust conversion of protein sequence alignments into the corresponding codon alignmentsNucleic Acids Res200634W609W61210.1093/nar/gkl31516845082 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="855" pm="."><plain>AbascalFZardoyaRPosadaDProtTest: selection of best-fit models of protein evolutionBioinformatics2005212104210510.1093/bioinformatics/bti26315647292 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="856" pm="."><plain>KumarSTamuraKNeiMMEGA3: Integrated software for Molecular Evolutionary Genetics Analysis and sequence alignmentBrief Bioinform2004515016310.1093/<z:uniprot sup="inside" fb="47" ids="P23645">bib</z:uniprot>/5.2.15015260895 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="857" pm="."><plain>YangZPAML: a program package for phylogenetic analysis by maximum likelihoodComput <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Biosci1997135555569367129 </plain></SENT>
+</text></ref><ref id="B48"><text><SENT sid="858" pm="."><plain>ClarosMGvonHGTopPred II: an improved software for <z:uniprot sup="inside" fb="0" ids="P24266,P16629,Q07252,P28991,Q04565,A0MD35,Q0Q4E7,Q0Q472,Q0Q463,Q3LZX9,A3EXA0,A3EXD6,A3EXG9,Q3I5J2,P27904,O90305,Q91A23,P69703,P69599,Q8V433,Q9QAR9,P69704,P69600,P69705,P36299,Q7T6S9,K9N7A1,P15422,Q5MQC7,Q14EA7,Q0ZME4,Q6Q1R9,Q01455,P59596,Q9JEB4,P03415,P08549,Q8BB24,P09175,Q8JSP5,P04135,P33464,P24412,Q9WCD1,Q9IKC7,P26021,P25878,P69605,P05136,P69601,P11222,P69602,Q91QS9,P69603,Q9J3N8,Q910E2,P69604,P69607,P12649,P69606,P59771,P59770,Q008X3">membrane protein</z:uniprot> structure predictionsComput <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Biosci1994106856867704669 </plain></SENT>
+</text></ref><ref id="B49"><text><SENT sid="859" pm="."><plain>KyteJDoolittleRFA simple method for displaying the hydropathic character of a proteinJ Mol Biol198215710513210.1016/0022-2836(82)90515-07108955 </plain></SENT>
+</text></ref><ref id="B50"><text><SENT sid="860" pm="."><plain>EisenbergDSchwarzEKomaromyMWallRAnalysis of membrane and <z:uniprot sup="inside" fb="0" ids="P80544">surface protein</z:uniprot> sequences with the hydrophobic moment plotJ Mol Biol198417912514210.1016/0022-2836(84)90309-76502707 </plain></SENT>
+</text></ref><ref id="B51"><text><SENT sid="861" pm="."><plain>The PAL2NAL webserver<ext-link ext-link-type="uri" xlink:href="http://coot.embl.de/pal2nal">http://coot.embl.de/pal2nal</ext-link> </plain></SENT>
+</text></ref><ref id="B52"><text><SENT sid="862" pm="."><plain>WangYGuXFunctional divergence in the <z:uniprot sup="inside" fb="0" ids="O01382">caspase</z:uniprot> gene family and altered functional constraints: statistical analysis and predictionGenetics20011581311132011454777 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

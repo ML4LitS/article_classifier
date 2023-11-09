@@ -1,0 +1,784 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archivearticle1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4128749</article-id><article-id pub-id-type="pmid">25111785</article-id><article-id pub-id-type="publisher-id">PONE-D-13-31285</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0104326</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology and Life Sciences</subject><subj-group><subject>Computational Biology</subject><subj-group><subject>Genome Analysis</subject><subj-group><subject>Genome-Wide Association Studies</subject></subj-group></subj-group></subj-group><subj-group><subject>Genetics</subject><subj-group><subject>Human Genetics</subject><subj-group><subject>Genetic Association Studies</subject></subj-group></subj-group><subj-group><subject>Genetics of Disease</subject><subject>Genomics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine and Health Sciences</subject><subj-group><subject>Clinical Genetics</subject><subj-group><subject>Chromosomal Disorders</subject></subj-group></subj-group><subj-group><subject>Mental Health and Psychiatry</subject><subj-group><subject>Mood Disorders</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Common and Rare Variant Analysis in Early-Onset Bipolar Disorder Vulnerability </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Genetics of Early-Onset Bipolar Disorder</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Jamain</surname><given-names>Stéphane</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cichon</surname><given-names>Sven</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Etain</surname><given-names>Bruno</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Mühleisen</surname><given-names>Thomas W.</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Georgi</surname><given-names>Alexander</given-names></name><xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref><xref ref-type="aff" rid="aff10">
+<sup>10</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zidane</surname><given-names>Nora</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Chevallier</surname><given-names>Lucie</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Deshommes</surname><given-names>Jasmine</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff11">
+<sup>11</sup>
+</xref><xref ref-type="aff" rid="aff12">
+<sup>12</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Nicolas</surname><given-names>Aude</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Henrion</surname><given-names>Annabelle</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Degenhardt</surname><given-names>Franziska</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Mattheisen</surname><given-names>Manuel</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="aff13">
+<sup>13</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Priebe</surname><given-names>Lutz</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Mathieu</surname><given-names>Flavie</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kahn</surname><given-names>Jean-Pierre</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff14">
+<sup>14</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Henry</surname><given-names>Chantal</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Boland</surname><given-names>Anne</given-names></name><xref ref-type="aff" rid="aff15">
+<sup>15</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zelenika</surname><given-names>Diana</given-names></name><xref ref-type="aff" rid="aff15">
+<sup>15</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gut</surname><given-names>Ivo</given-names></name><xref ref-type="aff" rid="aff15">
+<sup>15</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Heath</surname><given-names>Simon</given-names></name><xref ref-type="aff" rid="aff15">
+<sup>15</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lathrop</surname><given-names>Mark</given-names></name><xref ref-type="aff" rid="aff15">
+<sup>15</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Maier</surname><given-names>Wolfgang</given-names></name><xref ref-type="aff" rid="aff10">
+<sup>10</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Albus</surname><given-names>Margot</given-names></name><xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Rietschel</surname><given-names>Marcella</given-names></name><xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref><xref ref-type="aff" rid="aff10">
+<sup>10</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Schulze</surname><given-names>Thomas G.</given-names></name><xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref><xref ref-type="aff" rid="aff16">
+<sup>16</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>McMahon</surname><given-names>Francis J.</given-names></name><xref ref-type="aff" rid="aff17">
+<sup>17</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kelsoe</surname><given-names>John R.</given-names></name><xref ref-type="aff" rid="aff18">
+<sup>18</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hamshere</surname><given-names>Marian</given-names></name><xref ref-type="aff" rid="aff19">
+<sup>19</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Craddock</surname><given-names>Nicholas</given-names></name><xref ref-type="aff" rid="aff19">
+<sup>19</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Nöthen</surname><given-names>Markus M.</given-names></name><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Bellivier</surname><given-names>Frank</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff20">
+<sup>20</sup>
+</xref><xref ref-type="aff" rid="aff21">
+<sup>21</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Leboyer</surname><given-names>Marion</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Institut National de la Santé et de la Recherche Médicale U955, Psychiatrie Génétique, Créteil, France</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Université Paris-Est, Faculté de Médecine, Créteil, France</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Fondation FondaMental, Créteil, France</addr-line>
+</aff><aff id="aff4">
+<label>4</label>
+<addr-line>Institute of Neuroscience and Medicine (INM-1), Research Center Juelich, Juelich, Germany</addr-line>
+</aff><aff id="aff5">
+<label>5</label>
+<addr-line>Institute of Human Genetics, University of Bonn, Bonn, Germany</addr-line>
+</aff><aff id="aff6">
+<label>6</label>
+<addr-line>Department of Genomics, Life and Brain Center, University of Bonn, Bonn, Germany</addr-line>
+</aff><aff id="aff7">
+<label>7</label>
+<addr-line>Division of Medical Genetics, University Hospital and Department of Biomedicine, University of Basel, Basel, Switzerland</addr-line>
+</aff><aff id="aff8">
+<label>8</label>
+<addr-line>Assistance Publique - Hôpitaux de Paris, Hôpital Henri Mondor-Albert Chenevier, Pôle de Psychiatry, Créteil, France</addr-line>
+</aff><aff id="aff9">
+<label>9</label>
+<addr-line>Department of Genetic Epidemiology in Psychiatry, Central Institute of Mental Health, Mannheim, Germany</addr-line>
+</aff><aff id="aff10">
+<label>10</label>
+<addr-line>Department of Psychiatry, University of Bonn, Bonn, Germany</addr-line>
+</aff><aff id="aff11">
+<label>11</label>
+<addr-line>Assistance Publique - Hôpitaux de Paris, Hôpital Henri Mondor-Albert Chenevier, Plate-forme de Resources Biologiques, Créteil, France</addr-line>
+</aff><aff id="aff12">
+<label>12</label>
+<addr-line>Institut National de la Santé et de la Recherche Médicale Centre d'Investigation Clinique 006, Hôpital Henri Mondor-Albert Chenevier, Pôle Recherche Clinique Santé Publique, Créteil, France</addr-line>
+</aff><aff id="aff13">
+<label>13</label>
+<addr-line>Department of Biomedicine and the Centre for Integrative Sequencing, Aarhus University, Aarhus, Denmark</addr-line>
+</aff><aff id="aff14">
+<label>14</label>
+<addr-line>Département de Psychiatrie et de Psychologie Clinique, Centre Hospitalier Universitaire de Nancy, Hôpital Jeanne-d'Arc, Toul, France</addr-line>
+</aff><aff id="aff15">
+<label>15</label>
+<addr-line>Commissariat à l'Energie Atomique, Institut Génomique, Centre National de Génotypage, Evry, France</addr-line>
+</aff><aff id="aff16">
+<label>16</label>
+<addr-line>Department of Psychiatry and Psychotherapy, University Medical Center, Georg-August-Universität, Göttingen, Germany</addr-line>
+</aff><aff id="aff17">
+<label>17</label>
+<addr-line>Unit on the Genetic Basis of Mood and Anxiety Disorders, National Institute of Mental Health, National Institutes of Health, US Department of Health and Human Services, Bethesda, MD, United States of America</addr-line>
+</aff><aff id="aff18">
+<label>18</label>
+<addr-line>Department of Psychiatry, University of California San Diego, La Jolla, CA, United States of America</addr-line>
+</aff><aff id="aff19">
+<label>19</label>
+<addr-line>MRC Centre for Neuropsychiatric Genetics and Genomics, School of Medicine, Cardiff University, Heath Park, Cardiff, United Kingdom</addr-line>
+</aff><aff id="aff20">
+<label>20</label>
+<addr-line>Assistance Publique - Hôpitaux de Paris, Groupe Hospitalier Lariboisière-F. Widal, Pôle de Psychiatrie, Paris, France</addr-line>
+</aff><aff id="aff21">
+<label>21</label>
+<addr-line>Université Paris Diderot, Paris, France</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Liu</surname><given-names>Chunyu</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">
+<addr-line>University of Illinois at Chicago, United States of America</addr-line>
+</aff><author-notes><corresp id="cor1">* E-mail: <email>stephane.jamain@inserm.fr</email></corresp><fn fn-type="COI-statement"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><fn fn-type="con"><p><text><SENT sid="2" pm="."><plain>Conceived and designed the experiments: SJ M. </plain></SENT>
+<SENT sid="3" pm="."><plain>Leboyer FB BE M. </plain></SENT>
+<SENT sid="4" pm="."><plain>Lathrop. </plain></SENT>
+<SENT sid="5" pm="."><plain>Performed the experiments: SJ LC JD AN AH FD LP AB. </plain></SENT>
+<SENT sid="6" pm="."><plain>Analyzed the data: SJ SC BE TWM NZ LC FD MM LP FM DZ IG SH <z:uniprot sup="inside" fb="1" ids="Q5TKA1">TGS</z:uniprot> MH. </plain></SENT>
+<SENT sid="7" pm="."><plain>Contributed reagents/materials/analysis tools: BE AG JPK CH IG SH M. </plain></SENT>
+<SENT sid="8" pm="."><plain>Lathrop WM MA MR <z:uniprot sup="inside" fb="1" ids="Q5TKA1">TGS</z:uniprot> FJM <z:uniprot sup="inside" fb="0" ids="O75564">JRK</z:uniprot> NC MMN FB M. </plain></SENT>
+<SENT sid="9" pm="."><plain>Leboyer. </plain></SENT>
+<SENT sid="10" pm="."><plain>Wrote the paper: SJ SC BE TWM <z:uniprot sup="inside" fb="1" ids="Q5TKA1">TGS</z:uniprot> MH NC FB M. </plain></SENT>
+<SENT sid="11" pm="."><plain>Leboyer. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2014</year></pub-date><pub-date pub-type="epub"><day>11</day><month>8</month><year>2014</year></pub-date><volume>9</volume><issue>8</issue><elocation-id>e104326</elocation-id><history><date date-type="received"><day>29</day><month>7</month><year>2013</year></date><date date-type="accepted"><day>11</day><month>7</month><year>2014</year></date></history><permissions><copyright-statement>© 2014 Jamain et al</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>Jamain et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>Bipolar disorder is one of the most common and devastating psychiatric disorders whose mechanisms remain largely unknown. </plain></SENT>
+<SENT sid="13" pm="."><plain>Despite a strong genetic contribution demonstrated by twin and adoption studies, a polygenic background influences this multifactorial and heterogeneous psychiatric disorder. </plain></SENT>
+<SENT sid="14" pm="."><plain>To identify susceptibility genes on a severe and more familial sub-form of the disease, we conducted a genome-wide association study focused on 211 patients of French origin with an early age at onset and 1,719 controls, and then replicated our data on a German sample of 159 patients with early-onset bipolar disorder and 998 controls. </plain></SENT>
+<SENT sid="15" pm="."><plain>Replication study and subsequent meta-analysis revealed two genes encoding proteins involved in phosphoinositide signalling pathway (<z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot>). </plain></SENT>
+<SENT sid="16" pm="."><plain>We performed additional replication studies in two datasets from the WTCCC (764 patients and 2,938 controls) and the GAIN-TGen cohorts (1,524 patients and 1,436 controls) and found nominal P-values both in the <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> loci with the WTCCC sample. </plain></SENT>
+<SENT sid="17" pm="."><plain>In addition, we identified in the French cohort one affected individual with a deletion at the <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> locus and another one carrying a missense variation in <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> (p.R93H), both supporting a role of the phosphatidylinositol pathway in early-onset bipolar disorder vulnerability. </plain></SENT>
+<SENT sid="18" pm="."><plain>Although the current nominally significant findings should be interpreted with caution and need replication in independent cohorts, this study supports the strategy to combine genetic approaches to determine the molecular mechanisms underlying bipolar disorder. </plain></SENT>
+</text></SecTag></p></abstract><funding-group><funding-statement>This work was supported by INSERM (Poste d'Accueil INSERM to B.E.), Assistance Publique des Hôpitaux de Paris, the Agence Nationale pour la Recherche (ANR NEURO2006 – Project MANAGE_BPAD), the Centre National de Génotypage (Centre d'Energie Atomique, Evry, France) and the Réseau Thématique de Recherche et de Soins en Santé Mentale (Fondation FondaMental). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="8"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="19" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="20" pm="."><plain>Numerous genome-wide association (GWA) studies have recently been performed on bipolar disorder (BD), but few signals were replicated and meta-analyses identified only a couple of associated genes, such as <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q6N022">ODZ4</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O14594,Q5IS41">NCAN</z:uniprot>, with a small effect size [1]–[4]. </plain></SENT>
+<SENT sid="21" pm="."><plain>Although convergent evidences argue in favour of a role for these genes in vulnerability to BD [5]–[9], more extensive studies suggest it might be involved in other psychiatric disorders [3], [10], [11]. </plain></SENT>
+<SENT sid="22" pm="."><plain>The difficulty to identify susceptibility genes specific to BD could be due to the ethnic heterogeneity, as a consequence of the huge number of patients and controls required to get genome-wide significant signals, or to the clinical and a genetic heterogeneity of the DSM-IV “bipolar disorder” entity. </plain></SENT>
+</text></p><p><text><SENT sid="23" pm="."><plain>In the current study, we focused on patients with BD selected with an early age at onset, a clinical characteristic known to identify a subgroup of patients with a higher morbid risk for BD in relatives [12]–[17]. </plain></SENT>
+<SENT sid="24" pm="."><plain>We then compared these data to those observed in two previously published GWA studies of BD, conducted by the Wellcome Trust Case Control Consortium (WTCCC) [18] and the Genetic Association Information Network Bipolar Sample (GAIN-BP) [19]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Finally, we screened our regions of interest for rare variants, suspected to have a larger effect size, and suggested the importance of combined approaches in the identification of vulnerability genes to BD. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s2"><title><text><SENT sid="26" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="27" pm="."><plain>Ethics Statement </plain></SENT>
+</text></title><p><text><SENT sid="28" pm="."><plain>Protocols and procedures were approved by the research ethics board of the Pitié-<z:uniprot sup="inside" fb="0" ids="Q9R226">Salp</z:uniprot>ê<z:uniprot sup="inside" fb="12" ids="P95871,P96086,Q97A95">tri</z:uniprot>ère Hospital in Paris for the French sample and the ethics committees of the Faculties of Medicine at the Universities of Bonn and Mannheim/Heidelberg for the German sample. </plain></SENT>
+<SENT sid="29" pm="."><plain>Written informed consent was obtained from all subjects prior to study participation. </plain></SENT>
+</text></p></sec><sec id="s2b"><title><text><SENT sid="30" pm="."><plain>Sample </plain></SENT>
+</text></title><sec id="s2b1"><title><text><SENT sid="31" pm="."><plain>French sample </plain></SENT>
+</text></title><p><text><SENT sid="32" pm="."><plain>Two hundred and twenty patients of French descent with at least three grandparents from mainland France were collected through a French national network for mental health (Fondation FondaMental) in three university-affiliated psychiatry departments (Paris-Créteil, Bordeaux and Nancy) as previously described [12]. </plain></SENT>
+<SENT sid="33" pm="."><plain>All patients met DSM-IV criteria [20] for BD type I (N = 172), type II (N = 46) or BD not otherwise specified (N = 2) before the age of 22. </plain></SENT>
+<SENT sid="34" pm="."><plain>The age at onset was defined by the first mood episode (depressive, manic or hypomanic) and was retrospectively assessed using medical case notes and information obtained with the Diagnostic Interview for Genetic Studies (DIGS) [21]. </plain></SENT>
+<SENT sid="35" pm="."><plain>The threshold of 22 was chosen on the basis of previous admixture analyses [16], [22]–[25]. </plain></SENT>
+</text></p></sec><sec id="s2b2"><title><text><SENT sid="36" pm="."><plain>German sample </plain></SENT>
+</text></title><p><text><SENT sid="37" pm="."><plain>One hundred and sixty-seven German patients were recruited from consecutive admissions to the psychiatric inpatient units of the Central Institute of Mental Health in Mannheim and the Department of Psychiatry and Psychotherapy of the University of Bonn (BOMA bipolar study). </plain></SENT>
+<SENT sid="38" pm="."><plain>These patients received a lifetime diagnosis of BD type I based on DSM-IV criteria and had an age at onset lower than 22. </plain></SENT>
+</text></p></sec><sec id="s2b3"><title><text><SENT sid="39" pm="."><plain>Control population </plain></SENT>
+</text></title><p><text><SENT sid="40" pm="."><plain>Genotyping data from 1,823 French controls and 629 German controls were provided by the Centre National de Génotypage (CNG, Evry, France). </plain></SENT>
+<SENT sid="41" pm="."><plain>These samples were previously collected and were not screened for psychiatric disorders. </plain></SENT>
+<SENT sid="42" pm="."><plain>They have been genotyped for association and population studies as described elsewhere [26] and permission to use them were obtained from the original investigators. </plain></SENT>
+<SENT sid="43" pm="."><plain>DNA from 380 additional German controls were collected in the above mentioned German hospitals. </plain></SENT>
+<SENT sid="44" pm="."><plain>An additional sample of 293 unaffected French controls screened for personal history of psychiatric disorders using the DIGS has been screened for mutation in the <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> exon 2, in order to determine the specificity of the p.R93H mutation. </plain></SENT>
+</text></p></sec></sec><sec id="s2c"><title><text><SENT sid="45" pm="."><plain>DNA extraction and genotyping </plain></SENT>
+</text></title><p><text><SENT sid="46" pm="."><plain>DNA was isolated from lymphocytes either directly from venous blood sample or after transformation by Epstein Barr virus. </plain></SENT>
+<SENT sid="47" pm="."><plain>Isolation was performed by salting-out with saturated sodium chloride solution [27]. </plain></SENT>
+<SENT sid="48" pm="."><plain>French and German cases were genotyped at the CNG, using HumanHap550 or Human 610-Quad BeadArrays and the Infinium II assay (Illumina, San Diego, CA, USA). </plain></SENT>
+<SENT sid="49" pm="."><plain>Control samples were genotyped on HumanHap300 (N = 2,503) or on HumanHap550 BeadArrays (N = 380). </plain></SENT>
+<SENT sid="50" pm="."><plain>In order to determine whether the use of multiple arrays might result in a population stratification, we performed a multidimensional scaling analysis based on pairwise identity-by-state distance between pairs of individuals. </plain></SENT>
+<SENT sid="51" pm="."><plain>The good clustering of all individuals showed that there was no stratification due to the use of multiple arrays (Figure S1 in File S1). </plain></SENT>
+</text></p></sec><sec id="s2d"><title><text><SENT sid="52" pm="."><plain>Quality control criteria </plain></SENT>
+</text></title><p><text><SENT sid="53" pm="."><plain>All samples were passed through the standard quality-control procedures followed at the CNG for GWA studies, as described elsewhere [26]. </plain></SENT>
+<SENT sid="54" pm="."><plain>For the French population, the quality control was performed using the PLINK toolset [28] on a total of 317,131 commons SNPs genotyped in 2,043 DNA samples (Table S1 in File S1). </plain></SENT>
+<SENT sid="55" pm="."><plain>We removed monomorphic SNPs, as those with a minor allele frequency (MAF) lower than 0.01 and SNPs with a call rate lower than 0.97. </plain></SENT>
+<SENT sid="56" pm="."><plain>We performed a missing chi-square test that compares, for each SNP, missingness between cases and controls and excluded SNPs with P&lt;10−3. </plain></SENT>
+<SENT sid="57" pm="."><plain>Then, we removed SNPs that did not show Hardy-Weinberg proportions in controls, using a significant threshold at P&lt;10−3. </plain></SENT>
+<SENT sid="58" pm="."><plain>In parallel, we removed male samples with more than 0.5% or female samples with less than 20% heterozygous markers on the X chromosome and individuals with a call rate lower than 0.97. </plain></SENT>
+<SENT sid="59" pm="."><plain>We estimated the average genome-wide identity-by-state (IBS) sharing between individuals and analysed the clustering using a multidimensional scaling (MDS) plot. </plain></SENT>
+<SENT sid="60" pm="."><plain>Hence, we excluded 15 individuals (3 cases and 12 controls) with a low level of identity. </plain></SENT>
+<SENT sid="61" pm="."><plain>After pruning, the final data set consisted in 261,525 SNPs genotyped in 1,930 individuals (211 cases and 1,719 controls) that were used for association study. </plain></SENT>
+<SENT sid="62" pm="."><plain>Identical quality control criteria were used for the replication sample from Germany (Table S1 in File S1) and MDS plot showed 6 controls to be removed. </plain></SENT>
+<SENT sid="63" pm="."><plain>This led to a final data set of 288,167 SNPs and 1,157 individuals (159 patients and 998 controls). </plain></SENT>
+</text></p></sec><sec id="s2e"><title><text><SENT sid="64" pm="."><plain>Association analysis </plain></SENT>
+</text></title><p><text><SENT sid="65" pm="."><plain>Basic case/control association analyses were performed using the PLINK software v1.07 [28]. </plain></SENT>
+<SENT sid="66" pm="."><plain>A haplotype analysis was performed on the two most associated regions using sliding windows of two to five SNPs shifting by one SNP at a time. </plain></SENT>
+<SENT sid="67" pm="."><plain>We tested for case/control haplotype-based association using a chi-square test with one degree of freedom. </plain></SENT>
+<SENT sid="68" pm="."><plain>Only window with best P-values are reported for each region. </plain></SENT>
+<SENT sid="69" pm="."><plain>Imputation data were based on the 3,967,651 SNPs genotyped in 90 subjects of the CEU population of the HapMap project (<ext-link ext-link-type="uri" xlink:href="http://www.hapmap.org">http://www.hapmap.org</ext-link>). </plain></SENT>
+<SENT sid="70" pm="."><plain>Imputation was performed using PLINK and consisted in estimating the allele frequencies of an ungenotyped SNP based on its surrounding haplotypic background. </plain></SENT>
+</text></p><p><text><SENT sid="71" pm="."><plain>Genotyping data from the WTCCC [18] and the GAIN-TGen collection [19] were provided for BD patients with an age at onset lower than 22 and for controls. </plain></SENT>
+<SENT sid="72" pm="."><plain>In the WTCCC, BD was defined according to Research Diagnostic Criteria [29] and included BD type I, type II, schizoaffective disorders and manic disorders. </plain></SENT>
+<SENT sid="73" pm="."><plain>The WTCCC sample was genotyped on Affymetrix 500K array, containing only few SNPs in common with the Illumina arrays used in other samples. </plain></SENT>
+<SENT sid="74" pm="."><plain>Thus, the genotype correlation data were obtained for SNPs within a 1 Mbp window, based on individuals and SNPs in the CEU HapMap filtered set (<ext-link ext-link-type="uri" xlink:href="http://www.hapmap.org">http://www.hapmap.org</ext-link>) and the 2,938 WTCCC control sample combined [18]. </plain></SENT>
+<SENT sid="75" pm="."><plain>An association test between 764 early-onset patients and 2,938 controls was performed, using SNPs with a genotyped correlation higher than 0.2 with associated SNPs at P&lt;5×10−5 identified through the meta-analysis. </plain></SENT>
+</text></p><p><text><SENT sid="76" pm="."><plain>All patients from the GAIN-TGen cohort met DSM-IV criteria for BD type I. </plain></SENT>
+<SENT sid="77" pm="."><plain>Imputed data from the GAIN-TGen bipolar case-control sample [30] were obtained, using the MACH software with phased haplotypes from the 60 HapMap-CEU founders (release 22). </plain></SENT>
+<SENT sid="78" pm="."><plain>Allele frequencies of 15 SNPs out of the 16 associated SNPs at P&lt;5×10−5, were compared between 1,524 patients with an early age at onset and 1,436 controls. </plain></SENT>
+</text></p><p><text><SENT sid="79" pm="."><plain>A flow chart summarizing all steps of the genetic analysis is shown on the Figure S2 in File S1. </plain></SENT>
+</text></p></sec><sec id="s2f"><title><text><SENT sid="80" pm="."><plain>Detection of copy number variations </plain></SENT>
+</text></title><p><text><SENT sid="81" pm="."><plain>Copy number variations were detected by fluorescence level comparison through the chromosome, using the SnipPeep software (R. </plain></SENT>
+<SENT sid="82" pm="."><plain>Toro, Pasteur Institute, France). </plain></SENT>
+<SENT sid="83" pm="."><plain>The deletion in <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> was confirmed by quantitative PCR analysis using one internal and two external couples of primers and Mesa Green qPCR master mix plus (Eurogentec, Liege, Belgium). </plain></SENT>
+<SENT sid="84" pm="."><plain>PCR were performed and run in a Mastercycler ep realplex2S (Eppendorf, Hamburg, Germany) for the deleted patient and two unaffected controls, known to have no deletion in the regions under study. </plain></SENT>
+<SENT sid="85" pm="."><plain>Each real-time PCR was performed in triplicate and assessed by comparing Ct at a determined threshold between the three amplicons and the three individuals. </plain></SENT>
+</text></p></sec><sec id="s2g"><title><text><SENT sid="86" pm="."><plain>Mutation screening in <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> </plain></SENT>
+</text></title><p><text><SENT sid="87" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> coding regions were amplified for 334 French subjects with BD, sequenced by the Sanger's method using the BigDye terminator v3.1 cycle sequencing kit (Life Technologies, Carlsbad, CA, U.S.A.) and run on a 16-Capillary ABI PRISM 3130xl genetic analyzer. </plain></SENT>
+<SENT sid="88" pm="."><plain>The <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> exon 2 was sequenced for 293 unaffected French controls. </plain></SENT>
+<SENT sid="89" pm="."><plain>All primers used for PCR amplifications and sequence analyses are available on request. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="s3"><title><text><SENT sid="90" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s3a"><title><text><SENT sid="91" pm="."><plain>Analysis of a French cohort </plain></SENT>
+</text></title><p><text><SENT sid="92" pm="."><plain>We carried out an association study on 211 patients with early-onset BD of French origin and 1,719 matched controls, who have been genotyped on an Illumina platform with 261,525 single nucleotide polymorphisms (SNPs) passing quality control. </plain></SENT>
+<SENT sid="93" pm="."><plain>The estimation of an inflation factor [31] showed a good genetic homogeneity in our sample (λ = 1.03), suggesting that no correction for genomic control was needed. </plain></SENT>
+<SENT sid="94" pm="."><plain>According to the genome-wide significance threshold of P = 5×10−8, no significant difference in allele frequencies was observed in our sample, but 17 SNPs showed a nominal P&lt;5×10−5 (Table S2 in File S1), suggesting these loci may be associated with vulnerability to early-onset forms of BD. </plain></SENT>
+<SENT sid="95" pm="."><plain>Interestingly, the lowest P-value (rs10096683, P = 4.11×10−6, OR = 2.26), was observed for a SNP located on chromosome 8p22, a region that has previously been associated with schizophrenia [32]–[35] and suicide behaviour in patients with recurrent major depression [36]. </plain></SENT>
+</text></p></sec><sec id="s3b"><title><text><SENT sid="96" pm="."><plain>Replication on a German cohort </plain></SENT>
+</text></title><p><text><SENT sid="97" pm="."><plain>Next, we selected 14,037 SNPs with a P&lt;0.05 to perform a replication study on an independent sample of 159 German subjects with an early-onset BD and 998 matched controls (Table S1 in File S1). </plain></SENT>
+<SENT sid="98" pm="."><plain>Again, a good genetic homogeneity (λ = 1.04) was observed after quality control for this sample. </plain></SENT>
+<SENT sid="99" pm="."><plain>Out of the 14,037 SNPs previously selected, 13,734 were genotyped in the German sample, and 739 showed a P&lt;0.05, showing a significant over-representation (P&lt;0.03) of nominally significant P-values. </plain></SENT>
+<SENT sid="100" pm="."><plain>The most associated SNP in the German sample was located on chromosome 12 upstream to the <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> gene (rs2970836, P = 5.3×10−6, OR = 1.76). </plain></SENT>
+</text></p></sec><sec id="s3c"><title><text><SENT sid="101" pm="."><plain>Meta-analysis on the French and the German cohorts </plain></SENT>
+</text></title><p><text><SENT sid="102" pm="."><plain>We subsequently performed a meta-analysis, combining data from the French and the German cohorts, yielding a sample of 370 patients with early-onset BD and 2,717 controls. </plain></SENT>
+<SENT sid="103" pm="."><plain>Again, no locus reaches the genome-wide significant threshold. </plain></SENT>
+<SENT sid="104" pm="."><plain>The largest difference in allele frequencies between cases and controls was observed for chromosome 12 (rs2961365, P meta = 1.6×10−6, ORmeta = 1.57) with no evidence of heterogeneity between the two cohorts (Q = 0.94, 1 degree of freedom, I2 = 0). </plain></SENT>
+<SENT sid="105" pm="."><plain>In this region, 5 SNPs showed a difference in allele frequencies at P&lt;5×10−5 in 355 Kbp (Figure 1, Table 1). </plain></SENT>
+<SENT sid="106" pm="."><plain>These SNPs span two genes, <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="A4FV57,Q6ZN18">AEBP2</z:uniprot>. </plain></SENT>
+<SENT sid="107" pm="."><plain>The second strongest association with no heterogeneity (Q = 0.59, 1 degree of freedom, I2 = 0) was observed for chromosome 5p13 (rs10512793, P meta = 2.7×10−6, ORmeta = 1.61), in which two SNPs, spaced by 196 Kbp, showed a difference in allele frequencies at P&lt;5×10−5 (Figure 1, Table 1). </plain></SENT>
+<SENT sid="108" pm="."><plain>These two SNPs were located in the <z:uniprot sup="inside" fb="0" ids="P55809,Q29551">OXCT1</z:uniprot> gene, and upstream to <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot>. </plain></SENT>
+<SENT sid="109" pm="."><plain>In order to further explore the associated peak in these two regions, we used a three-SNP sliding window and performed a haplotype analysis. </plain></SENT>
+<SENT sid="110" pm="."><plain>Whereas no further significant difference, as compared to single SNP analysis, was observed on chromosome 12p12, a more significant difference between patients and controls was observed on chromosome 5p13 for the combination of rs624097-rs316762-rs10512793, for which an overall P meta = 2.6×10−7 was observed (Figure 1). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0104326-g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0104326.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="111" pm="."><plain>Genome-wide association results and detailed peak association regions. </plain></SENT>
+</text></title><p><text><SENT sid="112" pm="."><plain>(A) Manhattan plot of the meta-analysis performed on early-onset bipolar patients and controls from France and Germany. </plain></SENT>
+<SENT sid="113" pm="."><plain>Physical position is shown along the x axis and –log10(P-value) is shown along the y axis. </plain></SENT>
+<SENT sid="114" pm="."><plain>(B) Detail of the two most associated regions on chromosomes 5p13 and 12p12. </plain></SENT>
+<SENT sid="115" pm="."><plain>Allele frequency differences are represented by –log10(P-values) for the French (open grey circles), the German (open grey squares) and the meta- (open red diamonds) analyses. </plain></SENT>
+<SENT sid="116" pm="."><plain>Grey crosses represent –log10(P-value) for imputed ungenotyped SNPs. </plain></SENT>
+<SENT sid="117" pm="."><plain>The most associated SNP for each region is shown with orange circle. </plain></SENT>
+<SENT sid="118" pm="."><plain>On chromosome 12p12, the lowest P-value (P = 2.1×10−7) was observed for an imputed SNP (rs10743315). </plain></SENT>
+<SENT sid="119" pm="."><plain>On chromosome 5p13, the lowest P-value (P = 2.6×10−7) was observed for a three-SNPs window haplotype (light blue line) located downstream to <z:uniprot sup="inside" fb="0" ids="P55809,Q29551">OXCT1</z:uniprot> and upstream to <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> (rs624097-rs316762-rs10512793). </plain></SENT>
+<SENT sid="120" pm="."><plain>The genome-wide significant threshold (P = 5×10−8) is indicated by the blue dash line and the dot black line shows a threshold at P = 5×10−5. </plain></SENT>
+<SENT sid="121" pm="."><plain>The largest differences in allele frequencies are represented with filled diamonds. </plain></SENT>
+<SENT sid="122" pm="."><plain>Gene position and annotation (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/">http://genome.ucsc.edu/</ext-link>) are symbolised by green arrows. </plain></SENT>
+<SENT sid="123" pm="."><plain>Linkage disequilibrium (r2) estimated according to HapMap CEU population SNPs (release 3) is symbolised in the bottom part of each figure. </plain></SENT>
+<SENT sid="124" pm="."><plain>Darker red indicates higher values. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0104326.g001"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone-0104326-t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0104326.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="125" pm="."><plain>Regions associated at P&lt;5×10−5 with early-onset BD in meta-analysis. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0104326-t001-1" xlink:href="pone.0104326.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td colspan="4" align="left" rowspan="1"><text><SENT sid="126" pm="."><plain>French sample </plain></SENT>
+</text></td><td colspan="4" align="left" rowspan="1"><text><SENT sid="127" pm="."><plain>German sample </plain></SENT>
+</text></td><td colspan="4" align="left" rowspan="1"><text><SENT sid="128" pm="."><plain>Meta-analysis </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>CHR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>SNP </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>Positiona (bp) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>Allele </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>Allele frequency in early-onset BD patients </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>Allele frequency in controls </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>P </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>OR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>Allele frequency in early-onset BD patients </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>Allele frequency in controls </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>P </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>OR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>P meta </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>ORmeta </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>Q </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>I2 </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>rs2961365 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>19,469,374 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>T </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>0,23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>0,16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>1,88×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>1,58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>0.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>2.12×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>1.56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>1.58×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>1.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>0.94 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>rs3752823 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>19,419,905 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>A </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>0,15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>0,10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>2,03×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>1,58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>0.09 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>1.70×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>1.89 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>2.09×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>1.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>0.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>rs10512793 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>41,787,459 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>C </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>0,19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>0,13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>1,24×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>1,54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>0.13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>4.64×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>1.72 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>2.68×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>1.61 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>0.59 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>rs2900433 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>19,588,898 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>T </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>0,23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>0,16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>4,13×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>1,55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>0.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>2.01×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>1.57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>3.13×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>1.56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>0.96 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>rs7305762 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>19,535,793 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>G </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>0,23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>0,16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>2,46×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>1,57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>0.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>3.53×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>1.53 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>3.26×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>1.55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>0.89 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>rs12500759 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>7,760,780 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>T </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>0,21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>0,29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>7,54×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>0,66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>0.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>0.32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>2.76×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>7.40×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>X </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>rs952076 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>13,856,877 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>T </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>0,20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>0,28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>2,61×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>0,65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>0.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>0.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>5.94×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>7.48×10−6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>0.61 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>0.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>rs822135 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>41,590,915 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>A </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>0,25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>0,33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>8,12×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0,68 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>0.26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>0.34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>5.54×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>1.50×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>0.68 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>0.94 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>rs4764470 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>19,233,420 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>A </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>0,27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>0,20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>2,55×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>1,53 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>0.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>1.84×10−02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>1.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>1.73×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>1.47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>rs7608161 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>9,668,060 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>G </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>0,34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>0,27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>2,90×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>1,38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>0.33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>0.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>1.68×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>1.50 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>1.82×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>1.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>0.64 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>rs7185187 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>69,315,056 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>T </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>0,11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>0,06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>5,99×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>1,80 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>0.07 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>9.63×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>1.65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>2.24×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>1.73 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>0.74 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>rs6857347 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>139,528,195 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>G </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>0,43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>0,50 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>6,80×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>0,75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>0.41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>0.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>7.62×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>2.40×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>0.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>0.41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>rs13091545 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>52,352,334 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>G </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>0,25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>0,18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>1,73×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>1,57 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>0.20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>4.64×10−02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>1.35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>3.24×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>1.48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>rs4716990 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>155,616,697 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>G </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>0,37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>0,29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>6,12×10−04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>1,45 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>0.36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>0.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>1.99×10−02 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>1.34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>4.04×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>1.40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>rs12505439 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>139,521,194 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>A </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>0,35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>0,29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>9,91×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>1,32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>0.30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>1.05×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>1.50 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>4.48×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>1.40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>0 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>rs3739657 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>85,177,755 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>C </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>0,28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>0,36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>2,21×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>0,71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>0.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>0.39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>6.87×10−03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>0.70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>4.74×10−5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>0.71 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>0.98 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>0 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p><text><SENT sid="401" pm="."><plain>OR, odds ratio; Q, P-value for Cochrane's Q statistic; I2, heterogeneity index. </plain></SENT>
+</text></p></fn><fn id="nt102"><label>a</label><p><text><SENT sid="402" pm="."><plain>position from the short arm telomere based on Hg18. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s3d"><title><text><SENT sid="403" pm="."><plain>Imputation data </plain></SENT>
+</text></title><p><text><SENT sid="404" pm="."><plain>In order to refine the association signal in these two regions, we imputed data for ungenotyped SNPs in the French and the German cohorts based on the 3.9 million SNPs genotyped in the CEU population of the HapMap project. </plain></SENT>
+<SENT sid="405" pm="."><plain>The results of the two populations were then combined to perform an association study. </plain></SENT>
+<SENT sid="406" pm="."><plain>After imputation, we observed an increased signal for chromosome 12 with the lowest estimated P-value for rs10743315 (P = 2.1×10−7, OR = 1.61) located in <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> (Figure 1). </plain></SENT>
+<SENT sid="407" pm="."><plain>On the contrary for chromosome 5, the lowest P-value was observed for the genotyped SNP, rs10512793. </plain></SENT>
+</text></p></sec><sec id="s3e"><title><text><SENT sid="408" pm="."><plain>Replication studies on the WTCCC and the GAIN-TGen cohorts </plain></SENT>
+</text></title><p><text><SENT sid="409" pm="."><plain>We analysed the top-16 SNPs (P&lt;5×10−5) out of the meta-analysis in two additional samples of early-onset bipolar patients, already genotyped on different platforms through the WTCCC and the GAIN and performed a mega-analysis including the four samples (Table S3 in File S2). </plain></SENT>
+<SENT sid="410" pm="."><plain>Only 4 SNPs, genotyped in a subsample of 764 early-onset bipolar patients and 2,938 matched controls from the United Kingdom out of the WTCCC, were either directly or in strong linkage disequilibrium (r2&gt;0.99) with SNPs genotyped in the WTCCC sample. </plain></SENT>
+<SENT sid="411" pm="."><plain>None of them showed a nominal P-value (P&lt;0.05). </plain></SENT>
+<SENT sid="412" pm="."><plain>However, two SNPs on chromosome 5p13 in lower linkage disequilibrium (r2 = 0.65) with rs822135 showed a nominal P-value (rs625487, P = 0.02, OR = 1.15 and rs633407, P = 0.02, OR = 1.15) (data not shown). </plain></SENT>
+<SENT sid="413" pm="."><plain>Both were located approximately 55 Kbp upstream to <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> and 165 Kbp downstream to <z:uniprot sup="inside" fb="0" ids="P55809,Q29551">OXCT1</z:uniprot>. </plain></SENT>
+<SENT sid="414" pm="."><plain>In addition, one SNP (rs2565666), located on chromosome 12p12, 21 Kbp downstream to <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> and 42 Kbp upstream to <z:uniprot sup="inside" fb="0" ids="A4FV57,Q6ZN18">AEBP2</z:uniprot>, also showed a nominal P-value (rs2565666, P = 0.03, OR = 1.22) (data not shown). </plain></SENT>
+<SENT sid="415" pm="."><plain>We also compared a sample of 1,524 early-onset bipolar patients with 1,436 controls out of the combined GAIN-TGen cohorts. </plain></SENT>
+<SENT sid="416" pm="."><plain>None out of the 15 tested SNPs showed a nominal P-value (Table S3 in File S2). </plain></SENT>
+<SENT sid="417" pm="."><plain>The mega-analysis showed a high heterogeneity between the samples from France and Germany and the two samples from U.K. and U.S.A. </plain></SENT>
+<SENT sid="418" pm="."><plain>This analysis resulted in a low signal on chromosomes 5p13 and 12p12 (rs10512793, Pmega = 5.05×10−2, ORmega = 1.38 and rs3752823, Pmega = 5.79×10−2, ORmega = 1.43, respectively). </plain></SENT>
+<SENT sid="419" pm="."><plain>The strongest association observed in the mega-analysis for SNPs tested in at least three of the four populations was observed on chromosome 7q36.3 in a gene desert (rs4716990, Pmega = 3.78×10−2, ORmega = 1.25). </plain></SENT>
+</text></p></sec><sec id="s3f"><title><text><SENT sid="420" pm="."><plain>Structural abnormalities in region of interest </plain></SENT>
+</text></title><p><text><SENT sid="421" pm="."><plain>Fluorescence level of genotyped SNPs was only available for a subsample of early-onset patients of French and German origin (N = 321). </plain></SENT>
+<SENT sid="422" pm="."><plain>We analysed this fluorescence level in the two 1.5 Mbp regions of interest on chromosome 5p13 and 12p12. </plain></SENT>
+<SENT sid="423" pm="."><plain>On chromosome 5p13, we identified, in a French patient who manifested a first mood episode by the age of 17, a 90-<z:uniprot sup="inside" fb="14" ids="Q4G074">Kbp</z:uniprot> deletion removing the <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> promoter region as well as the first coding exon of the gene (Figure 2), whereas no copy number variation has been previously reported in this region in the database of genomic variations (<ext-link ext-link-type="uri" xlink:href="http://projects.tcag.ca/variation/">http://projects.tcag.ca/variation/</ext-link>). </plain></SENT>
+<SENT sid="424" pm="."><plain>Although DNA was not available for first-degree relatives of this patient, the deletion was confirmed using quantitative PCR analysis (data not shown). </plain></SENT>
+<SENT sid="425" pm="."><plain>In order to determine whether independent family specific mutations might be frequently found in bipolar patients, we screened all coding exons of <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> in 334 French subjects (204 patients with early-onset BD and 130 patients with late-onset BD). </plain></SENT>
+<SENT sid="426" pm="."><plain>Three synonymous variations (p.V58, p.A130 and p.P251) were found in these patients, and one amino acid change (p.R93H) was identified in one subject with early-onset BD type I and obsessive compulsive disorder. </plain></SENT>
+<SENT sid="427" pm="."><plain>This variation was not found in 293 unaffected matched controls. </plain></SENT>
+<SENT sid="428" pm="."><plain>This amino acid is highly conserved through evolution and, according to PolyPhen-2 [37], this variation is predicted to strongly affect the function of the protein. </plain></SENT>
+<SENT sid="429" pm="."><plain>Further analysis of the available DNA sample in this family showed that this variation was transmitted from the father (Figure S3 in File S1). </plain></SENT>
+<SENT sid="430" pm="."><plain>The patient manifested first mood symptoms by the age of 19. </plain></SENT>
+<SENT sid="431" pm="."><plain>Although his father did not meet criteria for mood disorder according to DSM-IV, his first cousin manifested major depressive disorder by the age of 65. </plain></SENT>
+<SENT sid="432" pm="."><plain>Unfortunately, no DNA was available for this subject. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0104326-g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0104326.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="433" pm="."><plain>Copy number variation identified on chromosome 5p13. </plain></SENT>
+</text></title><p><text><SENT sid="434" pm="."><plain>(A) Fluorescence level of SNPs of the region for the deleted patient visualized using SnipPeep. </plain></SENT>
+<SENT sid="435" pm="."><plain>Red dots represent fluorescence level of SNPs and green dots correspond to the SNP heterozygocity. </plain></SENT>
+<SENT sid="436" pm="."><plain>(B) Chromosomal position of the deletion. </plain></SENT>
+<SENT sid="437" pm="."><plain>Gene position and annotation (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/">http://genome.ucsc.edu/</ext-link>) are symbolised by green arrows. </plain></SENT>
+<SENT sid="438" pm="."><plain>Deletions reported in the Database of Genomic Variants (<ext-link ext-link-type="uri" xlink:href="http://projects.tcag.ca/variation/">http://projects.tcag.ca/variation/</ext-link>) are represented with blue bars. </plain></SENT>
+<SENT sid="439" pm="."><plain>No duplication has been reported in this region. </plain></SENT>
+<SENT sid="440" pm="."><plain>A red bar represents the deletion identified in the patient with early-onset BD. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0104326.g002"/></fig></SecTag></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s4"><title><text><SENT sid="441" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="442" pm="."><plain>The important clinical heterogeneity of BD has probably hampered the identification of vulnerability genes so far. </plain></SENT>
+<SENT sid="443" pm="."><plain>After tumultuous starts, GWA studies have enabled the identification of robust and replicable genetic findings of weak effect, in regions of <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot>, <z:uniprot sup="inside" fb="0" ids="Q6N022">ODZ4</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O14594,Q5IS41">NCAN</z:uniprot>, but without disease specificity [4]. </plain></SENT>
+<SENT sid="444" pm="."><plain>In this study, we conducted a genome-wide approach on a highly heritable phenotype, focusing on patients with an early age at onset. </plain></SENT>
+<SENT sid="445" pm="."><plain>Based on the genotyping data of 261,525 SNPs, we did not identify SNPs that reached the genome-wide significant threshold in our patients and controls of French origin. </plain></SENT>
+<SENT sid="446" pm="."><plain>This was most likely due to the small sample size of our cohort. </plain></SENT>
+<SENT sid="447" pm="."><plain>We calculated the statistical power of our study, using the CaTS software [38] and estimated that we had 80% chance to detect only SNPs with a genetic risk factor higher than 1.7 (Figure S4 in File S1). </plain></SENT>
+<SENT sid="448" pm="."><plain>However, recent data from larger cohort studies showed a polygenic component in BD [3], [39], consistent with a combine vulnerability resulting from many variants of weak effect. </plain></SENT>
+<SENT sid="449" pm="."><plain>We thus conducted a replication study on a German cohort of patients with early-onset BD and performed a subsequent meta-analysis. </plain></SENT>
+<SENT sid="450" pm="."><plain>Although it did not reach the genome-wide significant threshold, the most associated region in our meta-analysis was located on chromosome 12p12. </plain></SENT>
+<SENT sid="451" pm="."><plain>This region has been previously associated with bipolar disorder [40]–[42] and more specifically when patients had an early age at onset of mania [40]. </plain></SENT>
+<SENT sid="452" pm="."><plain>Five SNPs in this region showed a difference in allele frequencies between patients and controls, spanning two genes, <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="A4FV57,Q6ZN18">AEBP2</z:uniprot>. </plain></SENT>
+<SENT sid="453" pm="."><plain>The genetic refinement using imputed data showed the lowest P-value for a SNP located in <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> (rs10743315, P = 2.1×10−7). <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> encodes a protein containing a <z:uniprot sup="inside" fb="0" ids="Q6Q308,P08567,Q9JHK5,Q4KM33">pleckstrin</z:uniprot> homology domain, which interacts with phosphatidylinositol 3-phosphate [43]. </plain></SENT>
+<SENT sid="454" pm="."><plain>Few elements are known about this gene except its ubiquitous pattern of expression, including foetal and adult brains. </plain></SENT>
+<SENT sid="455" pm="."><plain>Nevertheless, there is compelling evidence for the implication of the phosphatidylinositol signalling pathway in the etiopathogeny of BD and the two most effective mood stabilisers for BD (lithium and valproate) directly inhibit this pathway [44]. </plain></SENT>
+<SENT sid="456" pm="."><plain>Further exploration of response to mood stabilizer in regards to the <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> genotypes might help in understanding the difference observed according to the patients' age at onset [15]. </plain></SENT>
+</text></p><p><text><SENT sid="457" pm="."><plain>The second most associated region in our meta-analysis was located on chromosome 5p13. </plain></SENT>
+<SENT sid="458" pm="."><plain>In this region, the highest difference in allele frequencies between patients with early-onset BD and controls was observed for rs10512793. </plain></SENT>
+<SENT sid="459" pm="."><plain>This SNP was located in <z:uniprot sup="inside" fb="0" ids="P55809,Q29551">OXCT1</z:uniprot>, which encodes a <z:uniprot sup="inside" fb="0" ids="P55809,Q9D0K2,Q29551,B2GV06">3-oxoacid CoA transferase 1</z:uniprot>. </plain></SENT>
+<SENT sid="460" pm="."><plain>This enzyme catalyzes the reversible transfer of CoA from succinyl-CoA to acetoacetate and is thus the first step of ketone body utilization, the main source of lipid-derived energy for the brain [45]. </plain></SENT>
+<SENT sid="461" pm="."><plain>Mutations in this gene are associated with <z:uniprot sup="inside" fb="0" ids="P42315,Q9ZLE3,P56006,P63649,P9WPW4,P9WPW5,B0RVK4,P0C7I7,P42316,Q9ZLE4,P56007,P63651,P9WPW2,P9WPW3,B0RVK3,P0C7I8">succinyl CoA:3-oxoacid CoA transferase</z:uniprot> (SCOT) deficiency, characterised by episodes of severe ketoacidosis [46], [47], which can also emerge during treatment with some atypical antipsychotics [48]. </plain></SENT>
+<SENT sid="462" pm="."><plain>However, the haplotype analysis of this region suggested that the associated peak might be located more likely downstream to <z:uniprot sup="inside" fb="0" ids="P55809,Q29551">OXCT1</z:uniprot> and upstream to <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot>. </plain></SENT>
+<SENT sid="463" pm="."><plain>This result is consistent with the 90 Kbp-deletion reported in one of the French patients and that removed the promoter region and the first coding exon of <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot>. </plain></SENT>
+<SENT sid="464" pm="."><plain>Further exploration of this gene revealed a mutation predicting to change the amino acid sequence of the protein (p.R93H) and transmitted from his father, who had a first cousin with major depressive disorder. </plain></SENT>
+<SENT sid="465" pm="."><plain>Interestingly, this gene encodes a <z:uniprot sup="inside" fb="0" ids="P14262,P08954,P34024,Q2G1Q2,P45723">phosphatidylinositol-specific phospholipase C</z:uniprot>, strengthening the involvement of the phosphoinositide-signalling pathway in vulnerability to BD. </plain></SENT>
+<SENT sid="466" pm="."><plain>Note that tricyclic antidepressants (e.g. desipramine), which are known to induce rapid cycling or induce manic or hypomanic episodes in some patients with BD [49], stimulate <z:uniprot sup="inside" fb="0" ids="P0C216,P09598,P59026,Q46150,Q0TV31,Q9RF12,P33378,Q8VUZ6,P20419,Q2FWP1,Q5HEI1,P09978,P33376">phospholipase C</z:uniprot> activity and the production of the second messenger inositol 1,4,5-trisphosphate [50]. </plain></SENT>
+<SENT sid="467" pm="."><plain>In addition, experiments performed using rat cultured hippocampal neurons revealed that desipramine rapidly enhanced the spontaneous <z:uniprot sup="inside" fb="0" ids="Q17QQ3,P60878,P60880,P60877,Q5R1X1,Q5NVG5,P55820">SNAP25</z:uniprot>-dependent vesicular release of glutamate [51]. </plain></SENT>
+<SENT sid="468" pm="."><plain>This Ca2+ dependent mechanism is consistent with our previously reported association between <z:uniprot sup="inside" fb="0" ids="Q17QQ3,P60878,P60880,P60877,Q5R1X1,Q5NVG5,P55820">SNAP25</z:uniprot> and early-onset BD [12] and with the strong associations observed between SNPs located in <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot> and BD [1], [3]. </plain></SENT>
+</text></p><p><text><SENT sid="469" pm="."><plain>The main limitation of our study is not to reach the stringent genome-wide threshold. </plain></SENT>
+<SENT sid="470" pm="."><plain>Although this might translate an absence of common genetic variations for a clinical subgroup based on an early age at onset, this is also a direct consequence of the small sample size and the loss of power inherent to the subphenotype analysis. </plain></SENT>
+<SENT sid="471" pm="."><plain>Similar study on larger sample should be performed to confirm our data and valid the relevance of such approach. </plain></SENT>
+<SENT sid="472" pm="."><plain>Nevertheless, results observed in our French subsample with an early age at onset have been replicated in a German sample and supported by the data from the WTCCC with similar phenotype criteria. </plain></SENT>
+</text></p><p><text><SENT sid="473" pm="."><plain>Another possible cause of the loss of power in our analysis is the categorical exploration of the age at onset. </plain></SENT>
+<SENT sid="474" pm="."><plain>Despite a widely valid threshold for the age at onset [16], [17], [22]–[25], a continuous exploration of this variable would allow to determine whether specific loci might lead to various age at onset, which would result, under multiplicative or additive models, in an overall early age-at-onset in patients. </plain></SENT>
+<SENT sid="475" pm="."><plain>Such hypothesis is supported by the recent observation of the International Schizophrenia Consortium, which showed the molecular genetic evidence for a substantial polygenic component to the risk of BD involving thousands of common alleles of very small effect [39]. </plain></SENT>
+<SENT sid="476" pm="."><plain>Similar analysis should thus be performed according to the patients' age at onset, but this should require larger samples for the study and the replication analysis. </plain></SENT>
+</text></p><p><text><SENT sid="477" pm="."><plain>In conclusion, although we did not reach the genome-wide significant threshold in our association study, we report here convergent data between our GWA study on early onset BD, the structural abnormality observed in one patient and a missense mutation reported in one family with early-onset BD. </plain></SENT>
+<SENT sid="478" pm="."><plain>The difficulties to reach the stringent genome-wide significant threshold suggest that larger samples should be included, which will also help in better defining the most convenient strategy to take into account the age at onset of patients. </plain></SENT>
+<SENT sid="479" pm="."><plain>Although the current nominally significant findings should be interpreted with caution and need replication in independent cohorts, our results displayed that the combined exploration of common and rare variants in BD can reveal identical pathways suggesting both approaches should be systematically used in further genetic exploration of this disorder. </plain></SENT>
+<SENT sid="480" pm="."><plain>Using these approaches, we provided evidence that variations in phosphoinositide secondary messenger signalling pathway, and for the first time, that the <z:uniprot sup="inside" fb="0" ids="Q9HAU0">PLEKHA5</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="A6QNU9,Q63HM9">PLCXD3</z:uniprot> genes, might confer vulnerability to early-onset BD. </plain></SENT>
+<SENT sid="481" pm="."><plain>Further exploration of these mechanisms might be used to better identify markers of prognosis and help the development of innovative treatment for these severe forms of the disease. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s5"><title><text><SENT sid="482" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0104326.s001"><label>File S1</label><caption><p><text><SENT sid="483" pm="."><plain>Contains Tables S1-S2 and Figures S1-S4. </plain></SENT>
+</text></p><p><text><SENT sid="484" pm="."><plain>(PDF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0104326.s001.pdf"><caption><p><text><SENT sid="485" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0104326.s002"><label>File S2</label><caption><p><text><SENT sid="486" pm="."><plain>Contains Table S3. </plain></SENT>
+</text></p><p><text><SENT sid="487" pm="."><plain>(XLSX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0104326.s002.xlsx"><caption><p><text><SENT sid="488" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="489" pm="."><plain>We thank bipolar patients and controls for their participation. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="490" pm="."><plain>We acknowledge the Wellcome Trust Case Control Consortium (<ext-link ext-link-type="uri" xlink:href="http://www.WTCCC.org.uk">www.WTCCC.org.uk</ext-link>), the Genetic Association Information Network (<ext-link ext-link-type="uri" xlink:href="http://www.fnih.org">www.fnih.org</ext-link>) and the Translational Genomics Research Institute (<ext-link ext-link-type="uri" xlink:href="http://www.tgen.org">www.tgen.org</ext-link>), their memberships and funders, for generating and publishing data used for replication. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="491" pm="."><plain>We thank E. </plain></SENT>
+<SENT sid="492" pm="."><plain>Abadie, the Cochin Hospital cell library (Prof. </plain></SENT>
+<SENT sid="493" pm="."><plain>J. </plain></SENT>
+<SENT sid="494" pm="."><plain>Chelly), the Clinical Investigation Centre (Dr. O. </plain></SENT>
+<SENT sid="495" pm="."><plain>Montagne) and the Biological Resources Centre (Prof. </plain></SENT>
+<SENT sid="496" pm="."><plain>B. </plain></SENT>
+<SENT sid="497" pm="."><plain>Ghaleh) of Mondor Hospital, and blood donor centre (<z:uniprot sup="inside" fb="84" ids="P41964,Q63769">Drs</z:uniprot>. </plain></SENT>
+<SENT sid="498" pm="."><plain>J.L. </plain></SENT>
+<SENT sid="499" pm="."><plain>Beaumont and B. </plain></SENT>
+<SENT sid="500" pm="."><plain>Mignen, <z:uniprot sup="inside" fb="5" ids="Q2LAE1,O43281">EFS</z:uniprot>, Créteil) for technical assistance. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="501" pm="."><plain>We thank B. </plain></SENT>
+<SENT sid="502" pm="."><plain>Cochet, R. </plain></SENT>
+<SENT sid="503" pm="."><plain>Cohen, O. </plain></SENT>
+<SENT sid="504" pm="."><plain>Elgrabli, A. </plain></SENT>
+<SENT sid="505" pm="."><plain>Raust and L. </plain></SENT>
+<SENT sid="506" pm="."><plain>Zanouy for their participation in the clinical evaluation of patients. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="507" pm="."><plain>We thank Dr. R. </plain></SENT>
+<SENT sid="508" pm="."><plain>Toro for the SnipPeep software and Prof. </plain></SENT>
+<SENT sid="509" pm="."><plain>T. </plain></SENT>
+<SENT sid="510" pm="."><plain>Bourgeron for helpful discussion and comments on the manuscript. </plain></SENT>
+</text></text4fund></p><p><text4fund><text><SENT sid="511" pm="."><plain>The team of M. </plain></SENT>
+<SENT sid="512" pm="."><plain>Leboyer is part of the École des Neurosciences de Paris Ile-de-France network, member of the Bio-Psy Labex and member of the European Network of Bipolar Research Expert Centres (ENBREC). </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0104326-Ferreira1"><text><SENT sid="513" pm="."><plain>1 FerreiraMA, O'DonovanMC, MengYA, JonesIR, RuderferDM, et al (2008) Collaborative genome-wide association analysis supports a role for <z:uniprot sup="inside" fb="0" ids="Q12955,G5E8K5,O70511">ANK3</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot> in bipolar disorder. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 40: 1056–1058.18711365 </plain></SENT>
+</text></ref><ref id="pone.0104326-Cichon1"><text><SENT sid="514" pm="."><plain>2 CichonS, MuhleisenTW, DegenhardtFA, MattheisenM, MiroX, et al (2011) Genome-wide association study identifies genetic variation in neurocan as a susceptibility factor for bipolar disorder. Am J Hum Genet 88: 372–381.21353194 </plain></SENT>
+</text></ref><ref id="pone.0104326-Psychiatric1"><text><SENT sid="515" pm="."><plain>3 Psychiatric GWAS Consortium Bipolar Disorder Working Group (2011) Large-scale genome-wide association analysis of bipolar disorder identifies a new susceptibility locus near <z:uniprot sup="inside" fb="0" ids="Q6N022">ODZ4</z:uniprot>. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 43: 977–983.21926972 </plain></SENT>
+</text></ref><ref id="pone.0104326-Craddock1"><text><SENT sid="516" pm="."><plain>4 CraddockN, SklarP (2013) Genetics of bipolar disorder. Lancet 381: 1654–1662.23663951 </plain></SENT>
+</text></ref><ref id="pone.0104326-Kempton1"><text><SENT sid="517" pm="."><plain>5 KemptonMJ, RubertoG, VassosE, TatarelliR, GirardiP, et al (2009) Effects of the <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot> risk allele for bipolar disorder on cerebral gray matter volume in healthy individuals. Am J Psychiatry 166: 1413–1414.19952088 </plain></SENT>
+</text></ref><ref id="pone.0104326-Wessa1"><text><SENT sid="518" pm="."><plain>6 WessaM, LinkeJ, WittSH, NieratschkerV, EsslingerC, et al (2010) The <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot> risk variant for bipolar disorder influences limbic activity. Mol Psychiatry 15: 1126–1127.20351721 </plain></SENT>
+</text></ref><ref id="pone.0104326-Roussos1"><text><SENT sid="519" pm="."><plain>7 RoussosP, GiakoumakiSG, GeorgakopoulosA, RobakisNK, BitsiosP (2011) The <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot> and <z:uniprot sup="inside" fb="0" ids="Q12955,G5E8K5,O70511">ANK3</z:uniprot> risk alleles impact on affective personality traits and startle reactivity but not on cognition or gating in healthy males. Bipolar Disord 13: 250–259.21676128 </plain></SENT>
+</text></ref><ref id="pone.0104326-Green1"><text><SENT sid="520" pm="."><plain>8 GreenEK, HamshereM, FortyL, Gordon-SmithK, FraserC, et al (2013) Replication of bipolar disorder susceptibility alleles and identification of two novel genome-wide significant associations in a new bipolar disorder case-control sample. Mol Psychiatry 18: 1302–1307.23070075 </plain></SENT>
+</text></ref><ref id="pone.0104326-Heinrich1"><text><SENT sid="521" pm="."><plain>9 HeinrichA, LourdusamyA, TzschoppeJ, Vollstadt-KleinS, BuhlerM, et al (2013) The risk variant in <z:uniprot sup="inside" fb="0" ids="Q6N022">ODZ4</z:uniprot> for bipolar disorder impacts on amygdala activation during reward processing. Bipolar Disord 15: 440–445.23611537 </plain></SENT>
+</text></ref><ref id="pone.0104326-Green2"><text><SENT sid="522" pm="."><plain>10 GreenEK, GrozevaD, JonesI, JonesL, KirovG, et al (2010) The bipolar disorder risk allele at <z:uniprot sup="inside" fb="0" ids="O35505,O73707,Q13936,P15381">CACNA1C</z:uniprot> also confers risk of recurrent major depression and of schizophrenia. Mol Psychiatry 15: 1016–1022.19621016 </plain></SENT>
+</text></ref><ref id="pone.0104326-Moskvina1"><text><SENT sid="523" pm="."><plain>11 MoskvinaV, CraddockN, HolmansP, NikolovI, PahwaJS, et al (2009) Gene-wide analyses of genome-wide association data sets: evidence for multiple common risk alleles for schizophrenia and bipolar disorder and for overlap in genetic risk. Mol Psychiatry 14: 252–260.19065143 </plain></SENT>
+</text></ref><ref id="pone.0104326-Etain1"><text><SENT sid="524" pm="."><plain>12 EtainB, DumaineA, MathieuF, ChevalierF, HenryC, et al (2010) A <z:uniprot sup="inside" fb="0" ids="Q17QQ3,P60878,P60880,P60877,Q5R1X1,Q5NVG5,P55820">SNAP25</z:uniprot> promoter variant is associated with early-onset bipolar disorder and a high expression level in brain. Mol Psychiatry 15: 748–755.19125158 </plain></SENT>
+</text></ref><ref id="pone.0104326-Etain2"><text><SENT sid="525" pm="."><plain>13 EtainB, MathieuF, RietschelM, MaierW, AlbusM, et al (2006) Genome-wide scan for genes involved in bipolar affective disorder in 70 European families ascertained through a bipolar type I early-onset proband: supportive evidence for linkage at 3p14. Mol Psychiatry 11: 685–694.16534504 </plain></SENT>
+</text></ref><ref id="pone.0104326-GrigoroiuSerbanescu1"><text><SENT sid="526" pm="."><plain>14 Grigoroiu-SerbanescuM, MartinezM, NothenMM, GrinbergM, SimaD, et al (2001) Different familial transmission patterns in bipolar I disorder with onset before and after age 25. Am J Med Genet 105: 765–773.11803528 </plain></SENT>
+</text></ref><ref id="pone.0104326-Leboyer1"><text><SENT sid="527" pm="."><plain>15 LeboyerM, HenryC, Paillere-MartinotML, BellivierF (2005) Age at onset in bipolar affective disorders: a review. Bipolar Disord 7: 111–118.15762851 </plain></SENT>
+</text></ref><ref id="pone.0104326-Bellivier1"><text><SENT sid="528" pm="."><plain>16 BellivierF, EtainB, MalafosseA, HenryC, KahnJP, et al (2014) Age at onset in bipolar I affective disorder in the USA and Europe. World J Biol Psychiatry 15: 369–376.22188366 </plain></SENT>
+</text></ref><ref id="pone.0104326-Geoffroy1"><text><SENT sid="529" pm="."><plain>17 GeoffroyPA, EtainB, ScottJ, HenryC, JamainS, et al (2013) Reconsideration of bipolar disorder as a developmental disorder: importance of the time of onset. J Physiol Paris 107: 278–285.23542544 </plain></SENT>
+</text></ref><ref id="pone.0104326-The1"><text><SENT sid="530" pm="."><plain>18 The Wellcome Trust Case Control Consortium (2007) Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls. Nature 447: 661–678.17554300 </plain></SENT>
+</text></ref><ref id="pone.0104326-Smith1"><text><SENT sid="531" pm="."><plain>19 SmithEN, BlossCS, BadnerJA, BarrettT, BelmontePL, et al (2009) Genome-wide association study of bipolar disorder in European American and African American individuals. Mol Psychiatry 14: 755–763.19488044 </plain></SENT>
+</text></ref><ref id="pone.0104326-American1"><text><SENT sid="532" pm="."><plain>20American Psychiatric Association (1994) Diagnostic and Statistical Manual of Mental Disorders. </plain></SENT>
+<SENT sid="533" pm="."><plain>Washington, DC: American Psychiatric Press. </plain></SENT>
+</text></ref><ref id="pone.0104326-Nurnberger1"><text><SENT sid="534" pm="."><plain>21 NurnbergerJIJr, BleharMC, KaufmannCA, York-CoolerC, SimpsonSG, et al (1994) Diagnostic interview for genetic studies. </plain></SENT>
+<SENT sid="535" pm="."><plain>Rationale, unique features, and training. </plain></SENT>
+<SENT sid="536" pm="."><plain>NIMH Genetics Initiative. Arch Gen Psychiatry 51: 844–863 discussion – </plain></SENT>
+</text></ref><ref id="pone.0104326-Bellivier2"><text><SENT sid="537" pm="."><plain>22 BellivierF, GolmardJL, HenryC, LeboyerM, SchurhoffF (2001) Admixture analysis of age at onset in bipolar I affective disorder. Arch Gen Psychiatry 58: 510–512.11343533 </plain></SENT>
+</text></ref><ref id="pone.0104326-Bellivier3"><text><SENT sid="538" pm="."><plain>23 BellivierF, GolmardJL, RietschelM, SchulzeTG, MalafosseA, et al (2003) Age at onset in bipolar I affective disorder: further evidence for three subgroups. Am J Psychiatry 160: 999–1001.12727708 </plain></SENT>
+</text></ref><ref id="pone.0104326-Lin1"><text><SENT sid="539" pm="."><plain>24 LinPI, McInnisMG, PotashJB, WillourV, MacKinnonDF, et al (2006) Clinical correlates and familial aggregation of age at onset in bipolar disorder. Am J Psychiatry 163: 240–246.16449477 </plain></SENT>
+</text></ref><ref id="pone.0104326-Manchia1"><text><SENT sid="540" pm="."><plain>25 ManchiaM, LampusS, ChillottiC, SarduC, ArdauR, et al (2008) Age at onset in Sardinian bipolar I patients: evidence for three subgroups. Bipolar Disord 10: 443–446.18402633 </plain></SENT>
+</text></ref><ref id="pone.0104326-Heath1"><text><SENT sid="541" pm="."><plain>26 HeathSC, GutIG, BrennanP, McKayJD, BenckoV, et al (2008) Investigation of the fine structure of European populations with applications to disease association studies. Eur J Hum Genet 16: 1413–1429.19020537 </plain></SENT>
+</text></ref><ref id="pone.0104326-Miller1"><text><SENT sid="542" pm="."><plain>27 MillerSA, DykesDD, PoleskyHF (1988) A simple salting out procedure for extracting DNA from human nucleated cells. Nucleic Acids Res 16: 1215.3344216 </plain></SENT>
+</text></ref><ref id="pone.0104326-Purcell1"><text><SENT sid="543" pm="."><plain>28 PurcellS, NealeB, Todd-BrownK, ThomasL, FerreiraMA, et al (2007) PLINK: a tool set for whole-genome association and population-based linkage analyses. Am J Hum Genet 81: 559–575.17701901 </plain></SENT>
+</text></ref><ref id="pone.0104326-Spitzer1"><text><SENT sid="544" pm="."><plain>29 SpitzerRL, EndicottJ, RobinsE (1978) Research diagnostic criteria: rationale and reliability. Arch Gen Psychiatry 35: 773–782.655775 </plain></SENT>
+</text></ref><ref id="pone.0104326-Manolio1"><text><SENT sid="545" pm="."><plain>30 ManolioTA, RodriguezLL, BrooksL, AbecasisG, BallingerD, et al (2007) New models of collaboration in genome-wide association studies: the Genetic Association Information Network. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 39: 1045–1051.17728769 </plain></SENT>
+</text></ref><ref id="pone.0104326-Devlin1"><text><SENT sid="546" pm="."><plain>31 DevlinB, RoederK (1999) Genomic control for association studies. Biometrics 55: 997–1004.11315092 </plain></SENT>
+</text></ref><ref id="pone.0104326-Pulver1"><text><SENT sid="547" pm="."><plain>32 PulverAE, LasseterVK, KaschL, WolyniecP, NestadtG, et al (1995) Schizophrenia: a genome scan targets chromosomes 3p and 8p as potential sites of susceptibility genes. Am J Med Genet 60: 252–260.7573181 </plain></SENT>
+</text></ref><ref id="pone.0104326-Kendler1"><text><SENT sid="548" pm="."><plain>33 KendlerKS, MyersJM, O'NeillFA, MartinR, MurphyB, et al (2000) Clinical features of schizophrenia and linkage to chromosomes 5q, 6p, 8p, and 10p in the Irish Study of High-Density Schizophrenia Families. Am J Psychiatry 157: 402–408.10698816 </plain></SENT>
+</text></ref><ref id="pone.0104326-Gurling1"><text><SENT sid="549" pm="."><plain>34 GurlingHM, KalsiG, BrynjolfsonJ, SigmundssonT, SherringtonR, et al (2001) Genomewide genetic linkage analysis confirms the presence of susceptibility loci for schizophrenia, on chromosomes 1q32.2, 5q33.2, and 8p21–22 and provides support for linkage to schizophrenia, on chromosomes 11q23.3–24 and 20q12.1–11.23. Am J Hum Genet 68: 661–673.11179014 </plain></SENT>
+</text></ref><ref id="pone.0104326-Cheng1"><text><SENT sid="550" pm="."><plain>35 ChengR, JuoSH, LothJE, NeeJ, IossifovI, et al (2006) Genome-wide linkage scan in a large bipolar disorder sample from the National Institute of Mental Health genetics initiative suggests putative loci for bipolar disorder, psychosis, suicide, and panic disorder. Mol Psychiatry 11: 252–260.16402137 </plain></SENT>
+</text></ref><ref id="pone.0104326-Zubenko1"><text><SENT sid="551" pm="."><plain>36 ZubenkoGS, MaherBS, HughesHB3rd, ZubenkoWN, Scott StifflerJ, et al (2004) Genome-wide linkage survey for genetic loci that affect the risk of suicide attempts in families with recurrent, early-onset, major depression. Am J Med Genet B Neuropsychiatr Genet 129B: 47–54.15274040 </plain></SENT>
+</text></ref><ref id="pone.0104326-Adzhubei1"><text><SENT sid="552" pm="."><plain>37 AdzhubeiIA, SchmidtS, PeshkinL, RamenskyVE, GerasimovaA, et al (2010) A method and server for predicting damaging missense mutations. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Methods 7: 248–249.20354512 </plain></SENT>
+</text></ref><ref id="pone.0104326-Skol1"><text><SENT sid="553" pm="."><plain>38 SkolAD, ScottLJ, AbecasisGR, BoehnkeM (2006) Joint analysis is more efficient than replication-based analysis for two-stage genome-wide association studies. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot> Genet 38: 209–213.16415888 </plain></SENT>
+</text></ref><ref id="pone.0104326-Purcell2"><text><SENT sid="554" pm="."><plain>39 PurcellSM, WrayNR, StoneJL, VisscherPM, O'DonovanMC, et al (2009) Common polygenic variation contributes to risk of schizophrenia and bipolar disorder. Nature 460: 748–752.19571811 </plain></SENT>
+</text></ref><ref id="pone.0104326-Faraone1"><text><SENT sid="555" pm="."><plain>40 FaraoneSV, GlattSJ, SuJ, TsuangMT (2004) Three potential susceptibility loci shown by a genome-wide scan for regions influencing the age at onset of mania. Am J Psychiatry 161: 625–630.15056507 </plain></SENT>
+</text></ref><ref id="pone.0104326-Avramopoulos1"><text><SENT sid="556" pm="."><plain>41 AvramopoulosD, LasseterVK, FallinMD, WolyniecPS, McGrathJA, et al (2007) Stage II follow-up on a linkage scan for bipolar disorder in the Ashkenazim provides suggestive evidence for chromosome 12p and the <z:uniprot sup="inside" fb="0" ids="Q5R1P3,Q13224">GRIN2B</z:uniprot> gene. Genet Med 9: 745–751.18007143 </plain></SENT>
+</text></ref><ref id="pone.0104326-Lorenzi1"><text><SENT sid="557" pm="."><plain>42 LorenziC, DelmonteD, PirovanoA, MarinoE, BongiornoF, et al (2010) Searching susceptibility loci for bipolar disorder: a sib pair study on chromosome 12. Neuropsychobiology 61: 10–18.19923861 </plain></SENT>
+</text></ref><ref id="pone.0104326-Dowler1"><text><SENT sid="558" pm="."><plain>43 DowlerS, CurrieRA, CampbellDG, DeakM, KularG, et al (2000) Identification of <z:uniprot sup="inside" fb="0" ids="Q1ZXQ0">pleckstrin-homology-domain-containing proteins</z:uniprot> with novel phosphoinositide-binding specificities. Biochem J 351: 19–31.11001876 </plain></SENT>
+</text></ref><ref id="pone.0104326-Schloesser1"><text><SENT sid="559" pm="."><plain>44 SchloesserRJ, HuangJ, KleinPS, ManjiHK (2008) Cellular plasticity cascades in the pathophysiology and treatment of bipolar disorder. Neuropsychopharmacology 33: 110–133.17912251 </plain></SENT>
+</text></ref><ref id="pone.0104326-Mitchell1"><text><SENT sid="560" pm="."><plain>45 MitchellGA, Kassovska-BratinovaS, BoukaftaneY, RobertMF, WangSP, et al (1995) Medical aspects of ketone body metabolism. Clin Invest Med 18: 193–216.7554586 </plain></SENT>
+</text></ref><ref id="pone.0104326-KassovskaBratinova1"><text><SENT sid="561" pm="."><plain>46 Kassovska-BratinovaS, FukaoT, SongXQ, DuncanAM, ChenHS, et al (1996) Succinyl CoA: <z:uniprot sup="inside" fb="0" ids="Q09450,Q54JD9,Q9W058">3-oxoacid CoA transferase</z:uniprot> (SCOT): human cDNA cloning, human chromosomal mapping to 5p13, and mutation detection in a SCOT-deficient patient. Am J Hum Genet 59: 519–528.8751852 </plain></SENT>
+</text></ref><ref id="pone.0104326-Fukao1"><text><SENT sid="562" pm="."><plain>47 FukaoT, MitchellGA, SongXQ, NakamuraH, Kassovska-BratinovaS, et al (2000) Succinyl-CoA:3-ketoacid CoA transferase (SCOT): cloning of the human SCOT gene, tertiary structural modeling of the human SCOT monomer, and characterization of three pathogenic mutations. Genomics 68: 144–151.10964512 </plain></SENT>
+</text></ref><ref id="pone.0104326-Torrey1"><text><SENT sid="563" pm="."><plain>48 TorreyEF, SwalwellCI (2003) Fatal olanzapine-induced ketoacidosis. Am J Psychiatry 160: 2241. </plain></SENT>
+</text></ref><ref id="pone.0104326-Goodwin1"><text><SENT sid="564" pm="."><plain>49 GoodwinGM, AndersonI, ArangoC, BowdenCL, HenryC, et al (2008) ECNP consensus meeting. </plain></SENT>
+<SENT sid="565" pm="."><plain>Bipolar depression. </plain></SENT>
+<SENT sid="566" pm="."><plain>Nice, March 2007. Eur Neuropsychopharmacol 18: 535–549.18501566 </plain></SENT>
+</text></ref><ref id="pone.0104326-Fukuda1"><text><SENT sid="567" pm="."><plain>50 FukudaH, NishidaA, SaitoH, ShimizuM, YamawakiS (1994) Imipramine stimulates <z:uniprot sup="inside" fb="0" ids="P0C216,P09598,P59026,Q46150,Q0TV31,Q9RF12,P33378,Q8VUZ6,P20419,Q2FWP1,Q5HEI1,P09978,P33376">phospholipase C</z:uniprot> activity in rat brain. Neurochem Int 25: 567–571.7894333 </plain></SENT>
+</text></ref><ref id="pone.0104326-Bouron1"><text><SENT sid="568" pm="."><plain>51 BouronA, ChattonJY (1999) Acute application of the tricyclic antidepressant desipramine presynaptically stimulates the exocytosis of glutamate in the hippocampus. Neuroscience 90: 729–736.10218774 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

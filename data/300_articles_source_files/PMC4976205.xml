@@ -1,0 +1,467 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Commun</journal-id><journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id><journal-title-group><journal-title>Nature Communications</journal-title></journal-title-group><issn pub-type="epub">2041-1723</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4976205</article-id><article-id pub-id-type="pii">ncomms12396</article-id><article-id pub-id-type="doi">10.1038/ncomms12396</article-id><article-id pub-id-type="pmid">27484751</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Quantum electromechanics on silicon nitride nanomembranes </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Fink</surname><given-names>J. M.</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n1">*</xref></contrib><contrib contrib-type="author"><name><surname>Kalaee</surname><given-names>M.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Pitanti</surname><given-names>A.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n2">†</xref></contrib><contrib contrib-type="author"><name><surname>Norte</surname><given-names>R.</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="author-notes" rid="n3">‡</xref></contrib><contrib contrib-type="author"><name><surname>Heinzle</surname><given-names>L.</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Davanço</surname><given-names>M.</given-names></name><xref ref-type="aff" rid="a4">4</xref></contrib><contrib contrib-type="author"><name><surname>Srinivasan</surname><given-names>K.</given-names></name><xref ref-type="aff" rid="a4">4</xref></contrib><contrib contrib-type="author"><name><surname>Painter</surname><given-names>O.</given-names></name><xref ref-type="corresp" rid="c2">b</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib><aff id="a1"><label>1</label><institution>Kavli Nanoscience Institute and Thomas J. Watson, Sr., Laboratory of Applied Physics, California Institute of Technology</institution>, Pasadena, California 91125, <country>USA</country></aff><aff id="a2"><label>2</label><institution>Institute for Quantum Information and Matter, California Institute of Technology</institution>, Pasadena, California 91125, <country>USA</country></aff><aff id="a3"><label>3</label><institution>Department of Physics, ETH Zürich</institution>, CH-8093 Zürich, <country>Switzerland</country></aff><aff id="a4"><label>4</label><institution>Center for Nanoscale Science and Technology, National Institute of Standards and Technology</institution>, Gaithersburg, Maryland 20899, <country>USA</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email>jfink@ist.ac.at</email></corresp><corresp id="c2"><label>b</label><email>opainter@caltech.edu</email></corresp><fn id="n1"><label>*</label><p><text><SENT sid="1" pm="."><plain>Present address: Institute of Science and Technology Austria (IST Austria), 3400 Klosterneuburg, Austria </plain></SENT>
+</text></p></fn><fn id="n2"><label>†</label><p><text><SENT sid="2" pm="."><plain>Present address: NEST, Istituto Nanoscienze-<z:uniprot sup="inside" fb="11" ids="P21554">CNR</z:uniprot> and Scuola Normale Superiore, I-56126 Pisa, Italy </plain></SENT>
+</text></p></fn><fn id="n3"><label>‡</label><p><text><SENT sid="3" pm="."><plain>Present address: Kavli Institute of Nanoscience, Delft University of Technology, 2600 GA, Delft, The Netherlands </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>03</day><month>08</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>7</volume><elocation-id>12396</elocation-id><history><date date-type="received"><day>22</day><month>01</month><year>2016</year></date><date date-type="accepted"><day>28</day><month>06</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016, The Author(s)</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>The Author(s)</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="4" pm="."><plain>Radiation pressure has recently been used to effectively couple the quantum motion of mechanical elements to the fields of optical or microwave light. </plain></SENT>
+<SENT sid="5" pm="."><plain>Integration of all three degrees of freedom—mechanical, optical and microwave—would enable a quantum interconnect between microwave and optical quantum systems. </plain></SENT>
+<SENT sid="6" pm="."><plain>We present a platform based on silicon nitride nanomembranes for integrating superconducting microwave circuits with planar acoustic and optical devices such as phononic and photonic crystals. </plain></SENT>
+<SENT sid="7" pm="."><plain>Using planar capacitors with vacuum gaps of 60 nm and spiral inductor coils of micron pitch we realize microwave resonant circuits with large electromechanical coupling to planar acoustic structures of nanoscale dimensions and femtoFarad motional capacitance. </plain></SENT>
+<SENT sid="8" pm="."><plain>Using this enhanced coupling, we demonstrate microwave backaction cooling of the 4.48 MHz mechanical resonance of a nanobeam to an occupancy as low as 0.32. </plain></SENT>
+<SENT sid="9" pm="."><plain>These results indicate the viability of silicon nitride nanomembranes as an all-in-one substrate for quantum electro-opto-mechanical experiments. </plain></SENT>
+</text></SecTag></p></abstract><abstract abstract-type="web-summary"><p><SecTag type="ABS"><text><SENT sid="10" pm="."><plain>Preparation and detection of mechanical objects at the quantum zero-point level has been achieved in both the optical and microwave regimes. </plain></SENT>
+<SENT sid="11" pm="."><plain>Here, the authors develop silicon nitride nanomembranes that are suitable for integrating nanophotonic, nanomechanical and superconducting microwave circuits together. </plain></SENT>
+</text></SecTag></p></abstract></article-meta></front><body><p><text><SENT sid="12" pm="."><plain>Thin films of silicon nitride (Si3N4), when grown stoichiometrically via low-pressure chemical vapour deposition (LPCVD) on silicon substrates, can be used to form membranes with large tensile stress (≈1 GPa), thickness down to tens of nanometres and planar dimensions as large as centimetres1. </plain></SENT>
+<SENT sid="13" pm="."><plain>The large tensile stress of these films allows one to pattern membranes into extreme aspect ratio nanostructures, which maintain precise planarity and alignment23. </plain></SENT>
+<SENT sid="14" pm="."><plain>The high tension also results in a significant reduction in mechanical damping4567, with Q-frequency products as large as 2 × 1013 and 3 × 1015 Hz having been observed at room temperature8 and milliKelvin temperatures9, respectively. </plain></SENT>
+<SENT sid="15" pm="."><plain>As an optical material, Si3N4 thin films have been used to support low loss guided modes for microphotonic applications, with a measured loss tangent in the near-infrared of &lt;3 × 10−7 (ref. 10). </plain></SENT>
+</text></p><p><text><SENT sid="16" pm="."><plain>Owing to their unique elastic and dielectric properties, Si3N4 nanomembranes have recently been used in a variety of cavity-optomechanical and cavity-electromechanical experiments11 involving the interaction of membrane motion and radiation pressure of either optical or microwave light. </plain></SENT>
+<SENT sid="17" pm="."><plain>These experiments include optical back-action cooling of a millimetre-scale membrane close to its quantum ground state of motion8121314, measurement of radiation pressure shot noise15 and optical squeezing16, and parametric conversion between optical and microwave photons17. </plain></SENT>
+<SENT sid="18" pm="."><plain>Thin-film Si3N4 has also been patterned into various other optomechanical geometries, such as deformable photonic crystals18, nanobeams coupled to microdisk resonators19 and optomechanical crystal cavities, which can be used to co-localize (near-infrared) photons and (GHz) phonons into wavelength-scale modal volumes2021. </plain></SENT>
+</text></p><p><text><SENT sid="19" pm="."><plain>Here we explore Si3N4 nanomembranes as a low-loss substrate for integrating superconducting microwave circuits and planar nanomechanical structures. </plain></SENT>
+<SENT sid="20" pm="."><plain>In particular, we exploit the thinness of the nanomembrane to reduce parasitic capacitance and greatly increase the attainable impedance of the microwave circuit. </plain></SENT>
+<SENT sid="21" pm="."><plain>We also use the in-plane stress to engineer the post-release geometry of a patterned membrane2122, resulting in planar capacitors with vacuum gaps down to tens of nanometres. </plain></SENT>
+<SENT sid="22" pm="."><plain>Combining the large capacitance of planar vacuum gap capacitors and the low stray capacitance of compact spiral inductor coils formed on a Si3N4 nanomembrane, we show theoretically that it is possible to realize large electromechanical coupling to both in-plane flexural modes and localized phononic bandgap modes of a patterned beam structure. </plain></SENT>
+<SENT sid="23" pm="."><plain>Two-tone microwave measurements of an 8 GHz LC circuit at milliKelvin temperatures in a dilution refrigerator confirm the predictions of strong electromechanical coupling to the low-frequency flexural mode of such a beam and microwave backaction damping is used to cool the mechanical resonance to an average phonon occupancy of nm=0.32. </plain></SENT>
+<SENT sid="24" pm="."><plain>These results, along with recent theoretical and experimental efforts to realize Si3N4 optomechanical crystals2123, indicate the viability of Si3N4 nanomembranes as an all-in-one substrate for quantum electro-opto-mechanical experiments. </plain></SENT>
+<SENT sid="25" pm="."><plain>Such membrane systems could be used, for instance, to realize a chip-scale quantum optical interface to superconducting quantum circuits172425262728. </plain></SENT>
+</text></p><SecTag type="RESULTS"><sec disp-level="1"><title><text><SENT sid="26" pm="."><plain>Results </plain></SENT>
+</text></title><sec disp-level="2"><title><text><SENT sid="27" pm="."><plain>Device design and fabrication </plain></SENT>
+</text></title><p><text><SENT sid="28" pm="."><plain>The key elements of the membrane microwave circuits studied in this work are shown schematically in Fig. 1a. </plain></SENT>
+<SENT sid="29" pm="."><plain>The circuits are created through a series of patterning steps of an aluminum-coated 300 nm-thick Si3N4 nanomembrane and consist of a mechanical beam resonator, a planar vacuum gap capacitor, a spiral inductor (L) and a 50 Ω coplanar waveguide feedline. </plain></SENT>
+<SENT sid="30" pm="."><plain>The vacuum gap capacitor, formed across the nanoscale cuts in the membrane defining the beam resonator, is connected in parallel with the coil inductor to create an LC resonator in the microwave C band. </plain></SENT>
+<SENT sid="31" pm="."><plain>Each LC resonator sits within a 777 μm × 777 μm square membrane and is surrounded on all sides by a ground plane. </plain></SENT>
+<SENT sid="32" pm="."><plain>The coplanar waveguide feedline is terminated by extending the centre conductor from one side of the membrane to the other, where it is shorted to the ground plane. </plain></SENT>
+<SENT sid="33" pm="."><plain>Electrical excitation and readout of the LC resonator is provided by inductive coupling between the centre conductor and the spiral inductor. </plain></SENT>
+<SENT sid="34" pm="."><plain>It s noteworthy that although thinner membranes could have been used, our choice of a 300 nm-thick membrane allows for compatibility with single-mode near-infrared photonic devices and is guided by an ultimate goal of integrating planar optical components with electromechanical ones as per ref. 23. </plain></SENT>
+</text></p><p><text><SENT sid="35" pm="."><plain>The electromechanical coupling between the beam resonator and the LC circuit in general depends on the particular resonant mode of the beam and is given in terms of the linear dispersion (gEM) of the microwave circuit resonance frequency (ωr) with respect to modal amplitude coordinate u, </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="37" pm="."><plain>Here, Cm is the vacuum gap capacitance across the beam, Ctot is the total capacitance of the circuit and η≡Cm/Ctot is the motional participation ratio. </plain></SENT>
+<SENT sid="38" pm="."><plain>In the case of uniform in-plane beam motion and assuming Cm behaves approximately as a parallel plate capacitor, the cavity dispersion simplifies to gEM=η(ωr/2s0), where s0 is the nominal capacitor gap size. </plain></SENT>
+<SENT sid="39" pm="."><plain>The vacuum coupling rate, describing the interaction between light and mechanics at the quantum level, is given by g0≡gEMxzpf, where xzpf=(ℏ/2meffωm)1/2 is the zero-point amplitude, meff is the motional mass and ωm is the mechanical resonance frequency of a given mechanical mode of the beam. </plain></SENT>
+</text></p><p><text><SENT sid="40" pm="."><plain>In this work we consider a patterned beam resonator of width W=2.23 μm and length lb=71.4 μm, which supports two in-plane resonant modes, which can be coupled efficiently to microwave or optical cavities23. </plain></SENT>
+<SENT sid="41" pm="."><plain>The beam unit cell, shown in Fig. 1b, has a lattice constant a and contains a central hole of width Wx and height Wy. </plain></SENT>
+<SENT sid="42" pm="."><plain>A pair of upper and lower aluminum wires of thickness 65 nm and width 170 nm at the edges of the beam form one half of the vacuum gap capacitor electrodes. </plain></SENT>
+<SENT sid="43" pm="."><plain>Simulations of the mechanical modes of the beam are performed using a finite-element method solver29 and include the internal stress of the nitride film (σ≈1 GPa). </plain></SENT>
+</text></p><p><text><SENT sid="44" pm="."><plain>The simulated fundamental in-plane flexural mode of the patterned and wired beam, a displacement plot of which is inserted into the microwave circuit of Fig. 1e, occurs at a frequency of ωm/2π=4.18 MHz. </plain></SENT>
+<SENT sid="45" pm="."><plain>As shown in Fig. 1c,d, a higher frequency mode also results from Bragg diffraction of acoustic waves due to the patterning of holes along the beam's length. </plain></SENT>
+<SENT sid="46" pm="."><plain>In the structure studied here, the nominal hole parameters are chosen to be a=2.23 μm and Wx=Wy=1.52 μm, which results in a 100 MHz phononic bandgap around a centre frequency of 450 MHz. </plain></SENT>
+<SENT sid="47" pm="."><plain>A defect is formed in the phononic lattice by increasing the hole width (Wx) over the central 12 holes of the beam, resulting in a localized ‘breathing' mode of frequency ωm/2π=458 MHz that is trapped on either end by the phononic bandgap. </plain></SENT>
+<SENT sid="48" pm="."><plain>From the simulated motional mass of both mechanical resonances, the zero-point amplitude is estimated to be xzpf=8.1 and 4.2 fm for the flexural and breathing modes, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="49" pm="."><plain>As motional capacitance scales roughly with mechanical resonator size, realizing large electromechanical coupling to nanomechanical resonators depends crucially on minimizing parasitic capacitance of the microwave circuit as per equation (1). </plain></SENT>
+<SENT sid="50" pm="."><plain>Using a planar spiral inductor coil of multiple turns greatly increases the coil inductance per unit length through mutual inductance between coil turns and, consequently, reduces coil capacitance. </plain></SENT>
+<SENT sid="51" pm="."><plain>One can determine the capacitance (Cl) and inductance (L) of a given coil geometry by numerically simulating its self resonance frequency with and without a known small shunting capacitance. Figure 1f displays a method of moments numerical simulation30 of the self resonance frequency (ωcoil) of a series of square planar coil designs with constant area (Acoil=87 μm × 87 μm) but varying wire-to-wire pitch p, or equivalently, coil turns n. </plain></SENT>
+<SENT sid="52" pm="."><plain>Here we assume a coil wire width and thickness of 500 and 120 nm, respectively, deposited on top of the 300 nm nitride membrane. </plain></SENT>
+<SENT sid="53" pm="."><plain>Although the coil capacitance is roughly constant at Cl=2.1 fF, the coil inductance varies over three orders of magnitude, in good agreement with an analytical model for planar inductors31. </plain></SENT>
+<SENT sid="54" pm="."><plain>An additional stray capacitance of Cs=2.2 fF is estimated for the full integrated microwave circuit (see Supplementary Note 1 and Supplementary Fig. 2 for details). </plain></SENT>
+<SENT sid="55" pm="."><plain>Comparing similar geometry coils with the same self-resonance frequency, we can attribute a factor of 3.8 increase in impedance due to fabrication on a membrane and another factor of 2 due to a reduction of the coil pitch from 4 μm (ref. 32) to 1 μm. </plain></SENT>
+</text></p><p><text><SENT sid="56" pm="."><plain>Figure 1g displays the simulated motional capacitance and vacuum coupling rate versus capacitor slot size s for both the flexural and breathing modes of the beam resonator assuming a coil of pitch P=1 μm (n=42, L=68 nH, Cl=2.1 fF, ωcoil/2π=13.68 GHz). </plain></SENT>
+<SENT sid="57" pm="."><plain>Here, ∂Cm/∂u is calculated for each specific mechanical mode using a perturbation theory depending on the integral of the electric field strength at the dielectric and metallic boundaries of the vacuum gap capacitor33. </plain></SENT>
+<SENT sid="58" pm="."><plain>For a gap size of s=60 nm, the vacuum coupling rate is estimated to be g0/2π=43 Hz (156 Hz for η=1) for the flexural mode and g0/2π=6 Hz (43 Hz for η=1) for the breathing mode. </plain></SENT>
+<SENT sid="59" pm="."><plain>It is noteworthy that here we assume the outer electrode of the vacuum gap capacitor extends along the entire length of beam in the case of the flexural mode, whereas for the breathing mode we limit the outer capacitor electrode to the central six lattice constants of the beam where the breathing mode has significant amplitude. </plain></SENT>
+<SENT sid="60" pm="."><plain>In addition, for the breathing mode simulations the two vacuum gap capacitors are assumed to be connected in parallel, which doubles the vacuum coupling rate due to the mode symmetry. </plain></SENT>
+</text></p><p><text><SENT sid="61" pm="."><plain>Fabrication of the membrane microwave circuits begins with the LPCVD growth of 300 nm-thick stoichiometric Si3N4 layers on the top and bottom surfaces of 200 μm-thick silicon wafer and involves a series of electron beam lithography, dry etching, aluminum evaporation and chemical wet etching steps. </plain></SENT>
+<SENT sid="62" pm="."><plain>An optical image of the fully fabricated and wirebonded chip is shown in Fig. 2a. </plain></SENT>
+<SENT sid="63" pm="."><plain>Zoom-in scanning electron microscope images of the inductor coil and nanobeam regions of the device are shown in Fig. 2b–e. </plain></SENT>
+<SENT sid="64" pm="."><plain>The main fabrication steps are depicted in Fig. 2f and discussed in more detail in Supplementary Note 2. </plain></SENT>
+<SENT sid="65" pm="."><plain>One important feature of our fabrication method is the use of the tensile membrane stress (σ=1 GPa) to fabricate capacitive slot gaps that shrink on release of the membrane, providing a controllable way to create ultra-small gaps. </plain></SENT>
+<SENT sid="66" pm="."><plain>As can be seen in the device figures of Fig. 2b,c, stress release cuts are used above and below the nanobeam region so as to allow the membrane to relax on either side of the beam. </plain></SENT>
+<SENT sid="67" pm="."><plain>A simulated plot of the membrane relaxation is shown in Fig. 2g. </plain></SENT>
+<SENT sid="68" pm="."><plain>Comparison of the simulated slot gap change (δy) and measured slot gap change for a series of fabricated devices with different cut angles α is shown in Fig. 2h, indicating that slot gap adjustments up to 100 nm can be reliably predicted and produced. </plain></SENT>
+<SENT sid="69" pm="."><plain>In the measured device of this work we use this feature to controllably close the capacitor slot s from an initial slot size of s=150 nm right after dry etching, down to a final slot size of s≈80 nm after membrane release. </plain></SENT>
+</text></p><p><text><SENT sid="70" pm="."><plain>As shown in Fig. 2b, in the device studied here each nanobeam is coupled on one side to one coil and on the other side to another coil. </plain></SENT>
+<SENT sid="71" pm="."><plain>The capacitor electrodes also extend across the whole length of the device, to maximize coupling to the low-frequency flexural mode of the beam. </plain></SENT>
+<SENT sid="72" pm="."><plain>The two coils have different lengths, resulting in different LC resonant frequencies. </plain></SENT>
+<SENT sid="73" pm="."><plain>As will be presented elsewhere, such a double-coil geometry can be used to perform coherent microwave frequency translation using the intermediate nanomechanical resonator as a parametric converter3435. </plain></SENT>
+<SENT sid="74" pm="."><plain>In the following, however, we will focus on the lower frequency circuit (larger coil) only. </plain></SENT>
+<SENT sid="75" pm="."><plain>The device is cooled to a fridge temperature of Tf=11 mK using a cryogen-free dilution refrigerator and connected to a microwave test set-up consisting of low noise control and readout electronics for electromechanical characterization (see Supplementary Note 3 and Supplementary Fig. 1 for details). </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="76" pm="."><plain>Coherent electromechanical response </plain></SENT>
+</text></title><p><text><SENT sid="77" pm="."><plain>Sweeping a narrowband microwave source across the 6–12 GHz frequency range and measuring in reflection, we find a high-Q, strongly coupled microwave resonance at ωr/2π=7.965 GHz corresponding to the larger coil of 42 turns. </plain></SENT>
+<SENT sid="78" pm="."><plain>This is very close to the expected LC resonance frequency based on the above simulations, indicating that the stray and motional capacitance of the circuit are close to the expected values. </plain></SENT>
+<SENT sid="79" pm="."><plain>Using a two-tone pump and probe scheme we are able to study the coherent interaction between the microwave electrical circuit and the coupled nanobeam mechanical resonator. </plain></SENT>
+<SENT sid="80" pm="."><plain>In the driven linearized limit11, the circuit electromechanical system is approximately described by an interaction Hamiltonian , where  () is the microwave photon annihilation (creation) operator for the LC resonator mode of the circuit and  () are the phonon annihilation (creation) operators of the mechanical resonance.  is the parametrically enhanced electromechanical coupling strength, with nd corresponding to the number of intra-cavity microwave drive photons inside the resonator. </plain></SENT>
+<SENT sid="81" pm="."><plain>As schematically indicated in Fig. 3, pumping with a strong drive at a detuning Δr,d≡ωr−ωd≈ωm from the LC resonance of the circuit produces a two-photon resonance condition with a second (weaker) probe tone as it is swept across the microwave resonance. </plain></SENT>
+<SENT sid="82" pm="."><plain>Interference in the reflected probe signal occurs between that part of the probe field that enters the microwave resonator and is directly re-emitted, and that part of the probe field that enters the cavity, interacts with the mechanical resonator and is then re-emitted from the cavity. </plain></SENT>
+<SENT sid="83" pm="."><plain>Probing this interference as a function of the probe detuning δ yields the optomechanical analogue of electromagnetically induced transparency363738. </plain></SENT>
+</text></p><p><text><SENT sid="84" pm="."><plain>For red-sideband pumping (Δr,d≈ωm), the expected probe reflection spectrum is given by (see Supplementary Note 5), </plain></SENT>
+</text></p><p><text><SENT sid="85" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="86" pm="."><plain>where δ≡ωp−ωr is the detuning of the probe frequency (ωp) from the cavity resonance (ωr), κe is the external microwave cavity damping rate due to coupling to the coplanar waveguide port, κi the intrinsic cavity damping rate and κ=κi+κe is the total loaded cavity damping rate. </plain></SENT>
+<SENT sid="87" pm="."><plain>Here we have made approximations assuming the system is sideband resolved (ωm/κ≫1) and that the probe signal is weak enough so as to not saturate the drive tone. </plain></SENT>
+<SENT sid="88" pm="."><plain>The cooperativity associated with the coupling of the microwave cavity field to the mechanical resonator is given by C≡4G2/κγm,i, where γEM=4G2/κ is the back-action-induced damping of the mechanical resonator by the microwave drive field. </plain></SENT>
+</text></p><p><text><SENT sid="89" pm="."><plain>In this work we focus on the fundamental in-plane flexural mode of the beam. </plain></SENT>
+<SENT sid="90" pm="."><plain>The phononic crystal breathing mode at a frequency of 450 MHz is not accessible in our current single microwave resonator circuit given the high drive power required to excite the circuit at the large cavity detuning required for two-photon resonance. </plain></SENT>
+<SENT sid="91" pm="."><plain>In future work, a double resonant system39 may be employed to overcome this limitation and allow for efficient excitation and detection of high-frequency mechanical resonators such as the breathing mode. </plain></SENT>
+<SENT sid="92" pm="."><plain>By stepping the pump detuning frequency (Δr,d) and sweeping the probe signal across the cavity resonance, an electromagnetically induced transparency-like transparency window in the microwave cavity response is found at a drive detuning of 4.4815 MHz, close to the theoretically simulated resonance frequency (4.18 MHz) of the fundamental in-plane flexural mode. Figure 3b shows a series of measured probe spectra (blue points) at different applied drive powers for a drive detuning fixed close to the two-photon resonant condition of Δr,d/2π=ωm=4.48 MHz. </plain></SENT>
+<SENT sid="93" pm="."><plain>Fits to the measured spectra are performed using equation (2) and plotted as solid red curves in Fig. 3b. </plain></SENT>
+</text></p><p><text><SENT sid="94" pm="."><plain>From each fit we extract the loaded microwave resonator properties (κ, κe, ωr), the parametric coupling rate (G), the mechanical frequency (ωm) and the intrinsic mechanical damping rate (γm,i). </plain></SENT>
+<SENT sid="95" pm="."><plain>A plot of the fit values for the device studied here are plotted versus drive power in Fig. 3c. </plain></SENT>
+<SENT sid="96" pm="."><plain>The microwave cavity parameters (κ/2π=1.28 MHz, κe/2π=0.896 MHz) are found to be approximately constant over five orders of magnitude in drive power, up to an intra-cavity photon number of nd=2 × 106. </plain></SENT>
+<SENT sid="97" pm="."><plain>It should be noted that significant variation in the internal Q-factor (Qr,i=5,000–50,000) of the nitride membrane circuit was observed over different fabrication runs and is believed to be related to variability in the tetramethylammonium hydroxide-based wet etch process4041 used to release the membrane from the silicon substrate. </plain></SENT>
+<SENT sid="98" pm="."><plain>It is hypothesized that the tetramethylammonium hydroxide silicon etch, which is extremely sensitive to solution parameters, may both slightly etch the aluminum circuit and grow lossy oxides and silicates on the surfaces of the circuit and membrane. </plain></SENT>
+<SENT sid="99" pm="."><plain>Further investigations will seek to reduce the fabrication variability and the presence of lossy surface residues of the membrane release step. </plain></SENT>
+</text></p><p><text><SENT sid="100" pm="."><plain>For <z:uniprot sup="inside" fb="1" ids="Q8HEC1,P24889,Q9MIY9,P03894">nd2</z:uniprot> × 106 the intrinsic damping of the cavity begins to rise and above nd≈4 × 107 the LC circuit exceeds its critical current. </plain></SENT>
+<SENT sid="101" pm="."><plain>Conversion from drive power to intra-cavity photon number nd is performed using the thermometry calibrations described in the next section. </plain></SENT>
+<SENT sid="102" pm="."><plain>At low drive power (C100) the fits yield high confidence estimates of both C and γm,i, with the intrinsic mechanical damping of the resonator estimated to be γm,i/2π=8 Hz at the lowest drive powers (see inset to Fig. 3b). </plain></SENT>
+<SENT sid="103" pm="."><plain>At high drive powers (C100), the transparency window saturates and becomes too broad to accurately determine either C or γm,i. </plain></SENT>
+<SENT sid="104" pm="."><plain>As such, we only provide fit estimates for C and γm,i below a cooperativity of 100. </plain></SENT>
+</text></p><p><text><SENT sid="105" pm="."><plain>Figure 3d shows a plot of the measured mechanical frequency shift (δωm) and damping (γm≡γm,i+γEM) versus drive detuning Δr,d. </plain></SENT>
+<SENT sid="106" pm="."><plain>Here we adjust the drive power as a function of drive detuning so as to maintain a constant intra-cavity drive photon number and fit the transparency window using a Fano lineshape (see Supplementary Note 4). </plain></SENT>
+<SENT sid="107" pm="."><plain>Data were taken at Tf=11 mK as well as at an elevated fridge temperature of Tf=114 mK. </plain></SENT>
+<SENT sid="108" pm="."><plain>The intra-cavity drive photon number in both cases was chosen to yield a peak cooperativity of order unity. </plain></SENT>
+<SENT sid="109" pm="."><plain>We observe broadening of the mechanical linewidth that peaks at a detuning Δr,d equal to the mechanical resonance frequency and stiffening (softening) of the mechanical mode for drive detuning above (below) the mechanical resonance frequency. </plain></SENT>
+<SENT sid="110" pm="."><plain>Plots of the theoretical damping and frequency shift due to radiation pressure backaction42 are shown as solid back curves in Fig. 3d. </plain></SENT>
+<SENT sid="111" pm="."><plain>We find a parametric coupling rate G/2π=1.80 kHz (2.98 kHz) and intrinsic mechanical damping rate γm,i/2π=7.7 Hz (14 Hz) that fit both the damping and spring shift curves at Tf=11 mK (114 mK), in close agreement with the estimated values from the fixed detuning data in Fig. 3b. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="112" pm="."><plain>Mode thermometry and backaction cooling </plain></SENT>
+</text></title><p><text><SENT sid="113" pm="."><plain>Measurement of the mechanical resonator noise is used to calibrate the delivered microwave power to the circuit and to study the backaction cooling of the mechanical resonator. </plain></SENT>
+<SENT sid="114" pm="."><plain>In the resolved sideband limit (ωm/κ≫1), efficient scattering of drive photons by mechanical motion occurs for Δr,d=±ωm, in which either anti-Stokes (Δr,d=ωm) or Stokes (Δr,d=−ωm) scattering is resonant with the cavity. </plain></SENT>
+<SENT sid="115" pm="."><plain>Blue detuned pumping at Δr,d=−ωm results in Stokes scattering of the drive field, down-converting a photon to the cavity resonance and emitting a phonon into the mechanical resonator in the process. </plain></SENT>
+<SENT sid="116" pm="."><plain>Red detuned pumping at Δr,d=ωm, as illustrated in Fig. 4a, leads to predominantly anti-Stokes scattering in which a drive photon is up-converted to the cavity resonance and a phonon is absorbed from the mechanical resonator. </plain></SENT>
+<SENT sid="117" pm="."><plain>The per-phonon anti-Stokes scattering rate for this pumping geometry is ΓAS≈4G2/κ, to a good approximation equal to the backaction damping rate γEM, which leads to cooling of the mechanical resonator43. </plain></SENT>
+</text></p><p><text><SENT sid="118" pm="."><plain>Figure 4b shows a plot of the measured area underneath the Lorentzian noise peak of the fundamental in-plane mechanical resonance versus fridge temperature. </plain></SENT>
+<SENT sid="119" pm="."><plain>Here, data for blue detuned (Δr,d=−ωm) driving have been averaged over several different temperature sweeps, with the area at each temperature normalized to units of phonon occupancy (nb,m) using the high-temperature measurement (Tf=235 mK) as a reference point. </plain></SENT>
+<SENT sid="120" pm="."><plain>In these measurements, the drive power was kept at a low enough value to ensure C&lt;&lt;1 and negligible backaction damping or amplification. </plain></SENT>
+<SENT sid="121" pm="."><plain>The mechanical flexural mode is seen to thermalize with the fridge temperature all the way down to Tf≈25 mK, at which point the mechanical mode temperature saturates. </plain></SENT>
+<SENT sid="122" pm="."><plain>The source of this temperature saturation in the mechanics is not fully understood, but is thought to be due to coupling to microwave two-level systems (TLS) in the amorphous Si3N4 membrane44. </plain></SENT>
+<SENT sid="123" pm="."><plain>These TLS can be driven by the microwave input signal into an elevated temperature state and, as presented below, can also strongly couple with the high impedance microwave cavity resonance. </plain></SENT>
+</text></p><p><text><SENT sid="124" pm="."><plain>For a known temperature of the mechanical resonator, one may also employ the above low-cooperativity thermometry measurement to calibrate the vacuum coupling rate g0 between the mechanics and the microwave circuit (see Supplementary Note 8). </plain></SENT>
+<SENT sid="125" pm="."><plain>As the reflected drive signal and the scattered photons by the mechanical mode experience the same amount of gain, normalizing the measured reflected noise spectrum (S(ω)) by the measured reflected drive tone amplitude (Pref) yields a Lorentzian of the following form for a drive detuning of Δr,d=ωm, </plain></SENT>
+</text></p><p><text><SENT sid="126" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="127" pm="."><plain>The background offset  yields the added noise of the measurement amplifier chain; nadd≈30 for our current set-up. </plain></SENT>
+<SENT sid="128" pm="."><plain>Integrating the normalized spectral density for the reference fridge temperature of Tf=235 mK (nf,m=1,100) and assuming nb,m=nf,m, yields a vacuum coupling rate of g0/(2π)=41.5 Hz±1.0 Hz, comparable to that estimated from numerical simulation for a slot gap of s0=62 nm, which indicates a further pull-in due to the expected increase in tensile stress at cryogenic temperatures. </plain></SENT>
+<SENT sid="129" pm="."><plain>The uncertainty quoted in the inferred value of g0 is due to the estimated 5% accuracy of nb,m entering via equation 3. </plain></SENT>
+<SENT sid="130" pm="."><plain>With g0 calibrated, the conversion factor between drive power and intra-cavity drive photon number can now be determined from the coherent two-tone spectroscopy measurements of , as displayed in Fig. 3c. </plain></SENT>
+</text></p><p><text><SENT sid="131" pm="."><plain>Increasing the drive power to large cooperativity levels results in backaction cooling of the mechanical resonator for detuning Δr,d=ωm. Figure 4c plots the measured occupancy of the mechanical resonator versus drive power for three different fridge temperatures, Tf=235, 114 and 26 mK. </plain></SENT>
+<SENT sid="132" pm="."><plain>For the lowest of these temperatures (Tf=26 mK), the measured noise power spectral density from low to high drive power are shown in Fig. 4d. </plain></SENT>
+<SENT sid="133" pm="."><plain>At low drive powers we find excellent agreement between the inferred nm and the bath occupancy corresponding to the fridge temperature, nf,m, for all three temperatures. </plain></SENT>
+<SENT sid="134" pm="."><plain>At intermediate drive powers the mechanical mode is both damped and cooled according to nm=nf,m/(C+1). </plain></SENT>
+<SENT sid="135" pm="."><plain>At the highest drive powers we measure Lorentzian microwave cavity noise, which leads to noise squashing in the measured output spectrum and heating of the mechanical resonator38454647. </plain></SENT>
+<SENT sid="136" pm="."><plain>We also observe a small increase in broadband added noise, which we attribute to a degradation of the amplifier noise figure, confirmed in separate measurements. </plain></SENT>
+<SENT sid="137" pm="."><plain>Using a model that includes the microwave cavity noise bath (nb,r) (see Supplementary Note 6 and Supplementary Fig. 3 for details), we fit the measured spectra at higher drive power for the mechanical mode occupancy nm (blue symbols) and the microwave cavity noise occupancy nr (orange symbols). </plain></SENT>
+<SENT sid="138" pm="."><plain>The lowest mechanical occupancy is found to be  for a drive photon number of nd=106 and a fridge temperature of Tf=26 mK. </plain></SENT>
+<SENT sid="139" pm="."><plain>The uncertainty in nm is estimated based on an estimated ±2.5 mK accuracy of the bath temperature measurement and the imperfect knowledge of the residual black body radiation entering the system through the chip waveguide nb,wg≤0.01. </plain></SENT>
+<SENT sid="140" pm="."><plain>These results are comparable to the lowest occupancies realized to date for metalic backaction cooled electromechanical resonators324849. </plain></SENT>
+<SENT sid="141" pm="."><plain>Measurements at the lowest fridge temperature of Tf=11 mK resulted in inconsistent and fluctuating cooling curves, attributable we believe to drive-power-dependent coupling of individual TLS to the microwave cavity as outlined below. </plain></SENT>
+</text></p></sec><sec disp-level="2"><title><text><SENT sid="142" pm="."><plain>Vacuum Rabi splitting and ac-Stark tuning of a nanoscopic TLS </plain></SENT>
+</text></title><p><text><SENT sid="143" pm="."><plain>The demonstrated resolved-sideband cooling of the nanomechanical resonator is facilitated by the small capacitor gap size, high impedance and small stray capacitance of the electrical circuit. </plain></SENT>
+<SENT sid="144" pm="."><plain>These are also very desirable properties in the context of quantum electrodynamics for coupling to atomic-like systems. </plain></SENT>
+<SENT sid="145" pm="."><plain>The vacuum fluctuations of the microwave resonator studied in this work give rise to a large root mean square voltage of . </plain></SENT>
+<SENT sid="146" pm="."><plain>With a gap size of only s≈62 nm, the electric field across the capacitor Cm is as large as Evac≈340 V m−1, about 103 times larger than in typical coplanar waveguide resonators and &gt;105 times that of typical small three-dimensional microwave cavities of similar frequency. </plain></SENT>
+<SENT sid="147" pm="."><plain>Large vacuum fields enable efficient dipole coupling g0,tls=Evac·d to micro- and nanoscopic systems with small dipole moments d, such as molecular TLS44, single atoms, or charge quantum dots. </plain></SENT>
+<SENT sid="148" pm="."><plain>We demonstrate this by observing coherent coupling between the resonator vacuum field and a nanoscopic TLS. </plain></SENT>
+</text></p><p><text><SENT sid="149" pm="."><plain>Figure 5 shows the observed microwave spectrum near the resonance of the coil resonator for a fridge temperature lowered to Tf=11 mK. </plain></SENT>
+<SENT sid="150" pm="."><plain>Here we have lowered the near-resonant microwave probe power such that the estimated bare cavity probe photon number is np&lt;&lt;1. </plain></SENT>
+<SENT sid="151" pm="."><plain>We have also added a second off-resonant drive tone at frequency ωd. </plain></SENT>
+<SENT sid="152" pm="."><plain>What is clearly apparent at this low fridge temperature and for these weak probe powers is that there is an additional resonance, which can be tuned into and out of resonance with the coil resonator through application of the strong off-resonant drive tone. </plain></SENT>
+<SENT sid="153" pm="."><plain>We found the presence of additional resonances similar to the one shown in Fig. 5, to come and go in both time and as a function of temperature cycling of the device. </plain></SENT>
+<SENT sid="154" pm="."><plain>We attribute these resonances to nanoscopic TLS of either the underlying amorphous Si3N4 membrane near the capacitor electrodes or to the surface of the aluminum electrodoes themselves. </plain></SENT>
+<SENT sid="155" pm="."><plain>To more quantitatively study the interaction of the TLS resonance with the coil resonator mode, we fit the measured spectra using a model in which for sufficient detuning Δtls,d≡ωtls−ωd, one can adiabatically eliminate direct transitions of the TLS50 and define the new Stark-shifted TLS frequency as </plain></SENT>
+</text></p><p><text><SENT sid="156" pm="."><plain> </plain></SENT>
+</text></p><p><text><SENT sid="157" pm="."><plain>where ωtls is the bare TLS frequency,  is the Rabi frequency due to the off-resonant drive tone and g0,tls is the vacuum coupling rate between the coil resonator mode and the TLS. </plain></SENT>
+<SENT sid="158" pm="."><plain>As shown by the white and black dashed curves in Fig. 1a, using this linearized model we find very good agreement with the measured spectra for different drive detunings Δr,d≡ωr−ωd and drive strength in the range |ΩR/(2Δtls,d)|&lt;1 for which the linearization is valid. </plain></SENT>
+<SENT sid="159" pm="."><plain>The attenuation  dB, entering via the drive photon number nd, is the only fit parameter and agrees with our previous calibration to within 0.5 dB. </plain></SENT>
+</text></p><p><text><SENT sid="160" pm="."><plain>The vacuum coupling rate g0,tls is not a fit parameter in the Stark-shift tuning of the TLS, as it is independently determined from the resonant interaction of the TLS with the coil resonator. </plain></SENT>
+<SENT sid="161" pm="."><plain>The measured anti-crossing and vacuum Rabi splitting of the TLS and resonator is shown in the left plot of Fig. 5a for Δtls,d/2π=−6.5 MHz and in the line cuts at specific drive powers shown in Fig. 5b. </plain></SENT>
+<SENT sid="162" pm="."><plain>At the centre of the anti-crossing curve where , the resonance linewidths are approximately given by an equal mixture of bare resonator and TLS linewidth, which we use to estimate γtls/(2π)=1.3 MHz. </plain></SENT>
+<SENT sid="163" pm="."><plain>We also extract a TLS resonator vacuum coupling of g0,tls/(2π)=0.9 MHz from the minimum separation of the measured spectroscopic lines (see Fig. 5b). </plain></SENT>
+<SENT sid="164" pm="."><plain>This puts our system very close to the strong coupling limit g0,tls≥(κ,γtls). </plain></SENT>
+<SENT sid="165" pm="."><plain>We can also put a lower bound on the electric dipole moment of this TLS |d|≥0.55 Debye, depending on the TLS orientation and the exact position of the TLS relative to the peak electric field in the capacitor. </plain></SENT>
+<SENT sid="166" pm="."><plain>This value is comparable to many atomic, nano- and microscopic systems, where strong coupling is not readily observed. </plain></SENT>
+</text></p><p><text><SENT sid="167" pm="."><plain>The demonstrated ac-Stark control of a TLS resonance complements previous strain-based control techniques51 and opens up new possibilities to realize hybrid systems. </plain></SENT>
+<SENT sid="168" pm="."><plain>The quantum nonlinearity of the TLS furthermore represents a unique calibration tool, which is generally missing in electro- and opto-mechanical systems. </plain></SENT>
+<SENT sid="169" pm="."><plain>Similar Stark-shift calibrations are quite common in superconducting qubit experiments52 and, in our case, confirm the previously calibrated drive photon numbers and the electromechanical coupling g0. </plain></SENT>
+<SENT sid="170" pm="."><plain>These measurements also show that the presence of a coupled TLS can strongly modify the resonator lineshape. </plain></SENT>
+<SENT sid="171" pm="."><plain>This could explain why at certain drive powers and at low fridge temperatures, where the TLS happens to be close to the resonator frequency and not thermally saturated or decohered, the electromechanical transduction efficiency is reduced and correspondingly the inferred mechanical mode occupancy is lower than expected from a simple Lorentzian distribution of the resonator density of states. </plain></SENT>
+<SENT sid="172" pm="."><plain>Although the particular TLS observed in Fig. 5 should be far detuned in the relevant drive power range for the sideband-resolved cooling experiments, there may be other TLS with weaker resonator coupling and larger decay rate, which are harder to observe through spectroscopy of the resonator but yet still absorb and scatter intracavity photons at a high enough rate to interfere with the thermometry and back-action cooling of the mechanical resonator. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec disp-level="1"><title><text><SENT sid="173" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="174" pm="."><plain>Using Si3N4 nanomembranes as a substrate for superconducting microwave circuits enables the formation of high-impedance circuit elements with large per photon electric field strengths. </plain></SENT>
+<SENT sid="175" pm="."><plain>In the current work, the reduced thickness and low dielectric constant of the nanomembrane helps realize a microwave resonator with an estimated vacuum field strength as large as Evac≈340 V m−1. </plain></SENT>
+<SENT sid="176" pm="."><plain>This feature gives rise to the large electromechanical coupling that we observe to the fundamental flexural mode of an integrated phononic crystal nanobeam. </plain></SENT>
+<SENT sid="177" pm="."><plain>Dynamical backaction cooling via a strong microwave drive tone results in an occupancy of nm=0.32 for the 4.48 MHz flexural mode of the beam, limited here by heating of the circuit due to absorption of the microwave drive at the highest powers. </plain></SENT>
+<SENT sid="178" pm="."><plain>Substantial further reduction in the coil and stray capacitance should be possible through tighter coil wiring and optimized layout of the capacitor wiring, respectively, greatly reducing the required drive power (and corresponding heating) for backaction cooling to the quantum ground state. </plain></SENT>
+</text></p><p><text><SENT sid="179" pm="."><plain>Our results also indicate that capacitive coupling to smaller, much higher frequency nanomechanical resonant modes is possible using the Si3N4 platform. </plain></SENT>
+<SENT sid="180" pm="."><plain>In particular, the planar nature of the membrane circuit allows for integration with slab phononic crystals, which can be used to guide and localize mechanical excitations over a broad (100 MHz–10 GHz) frequency range53. </plain></SENT>
+<SENT sid="181" pm="."><plain>Numerical simulations show that the electromechanical coupling strength to the localized ‘breathing' mode at 458 MHz of the phononic crystal nanobeam of our device is large enough for efficient photon–phonon parametric coupling; however, a doubly resonant microwave cavity is needed to drive the system in such a deeply sideband resolved limit39. </plain></SENT>
+<SENT sid="182" pm="."><plain>Coupling phononic crystal structures to superconducting microwave circuits would allow not only for exquisite studies of phonon dynamics using the toolbox of circuit-quantum electrodynamics54, but could also be used to realize a quantum network involving superconducting qubits, phonons and optical photons24252655. </plain></SENT>
+</text></p><sec disp-level="2"><title><text><SENT sid="183" pm="."><plain>Data availability </plain></SENT>
+</text></title><p><text><SENT sid="184" pm="."><plain>The authors declare that the data supporting the findings of this study are available within the article and its Supplementary Information files. </plain></SENT>
+</text></p></sec></sec></SecTag><sec disp-level="1"><title><text><SENT sid="185" pm="."><plain>Additional information </plain></SENT>
+</text></title><p><text><SENT sid="186" pm="."><plain>How to cite this article: Fink, J.M. et al. Quantum electromechanics on silicon nitride nanomembranes. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="187" pm="."><plain>Commun. 7:12396 doi: 10.1038/ncomms12396 (2016). </plain></SENT>
+</text></p></sec><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="S1"><title><text><SENT sid="188" pm="."><plain>Supplementary Material </plain></SENT>
+</text></title><supplementary-material id="d33e18" content-type="local-data"><caption><title><text><SENT sid="189" pm="."><plain>Supplementary Information </plain></SENT>
+</text></title><p><text><SENT sid="190" pm="."><plain>Supplementary Figures 1-3, Supplementary Notes 1-8 and Supplementary References </plain></SENT>
+</text></p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-s1.pdf"/></supplementary-material><supplementary-material id="d33e24" content-type="local-data"><caption><title><text><SENT sid="191" pm="."><plain>Peer review file </plain></SENT>
+</text></title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-s2.pdf"/></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="192" pm="."><plain>We thank Joe Redford, Lev Krayzman, Matt Shaw and Matt Matheny for help in the early parts of this work. </plain></SENT>
+<SENT sid="193" pm="."><plain>L.H. thanks Andreas Wallraff for his support during his Master's thesis stay at Caltech. </plain></SENT>
+<SENT sid="194" pm="."><plain>This work was supported by the DARPA MESO programme, the Institute for Quantum Information and Matter, an NSF Physics Frontiers Center with support of the Gordon and Betty Moore Foundation, and the Kavli Nanoscience Institute at Caltech. </plain></SENT>
+<SENT sid="195" pm="."><plain>A.P. was supported by a Marie Curie International Outgoing Fellowship within the 7th European Community Framework Programme, <z:uniprot sup="inside" fb="42" ids="Q95KU9,Q9Y6K9,O88522,A9QT41,Q6TMG5">NEMO</z:uniprot> (GA 298861). </plain></SENT>
+<SENT sid="196" pm="."><plain>Certain commercial equipment and software are identified in this documentation to describe the subject adequately. </plain></SENT>
+<SENT sid="197" pm="."><plain>Such identification does not imply recommendation or endorsement by the NIST, nor does it imply that the equipment identified is necessarily the best available for the purpose. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><ref id="b1"><text><SENT sid="198" pm="."><plain>Norcada Inc.. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.norcada.com/">http://www.norcada.com/</ext-link>. </plain></SENT>
+</text></ref><ref id="b2"><text><SENT sid="199" pm="."><plain>CohenJ. </plain></SENT>
+<SENT sid="200" pm="."><plain>D., MeenehanS. </plain></SENT>
+<SENT sid="201" pm="."><plain>M. &amp; PainterO. Optical coupling to nanoscale optomechanical cavities for near quantum-limited motion transduction. Opt. </plain></SENT>
+<SENT sid="202" pm="."><plain>Express 21, 11227–11236 (2013).23669980 </plain></SENT>
+</text></ref><ref id="b3"><text><SENT sid="203" pm="."><plain>YuS. </plain></SENT>
+<SENT sid="204" pm="."><plain>-P. et al. Nanowire photonic crystal waveguides for single-atom trapping and strong light-matter interactions. <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="205" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="206" pm="."><plain>Lett. 104, 111103 (2014). </plain></SENT>
+</text></ref><ref id="b4"><text><SENT sid="207" pm="."><plain>LiuX. et al. Amorphous solid without low energy excitations. Phys. </plain></SENT>
+<SENT sid="208" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="209" pm="."><plain>Lett. 78, 4418–4421 (2009). </plain></SENT>
+</text></ref><ref id="b5"><text><SENT sid="210" pm="."><plain>UnterreithmeierQ. </plain></SENT>
+<SENT sid="211" pm="."><plain>P., FaustT. &amp; KotthausJ. </plain></SENT>
+<SENT sid="212" pm="."><plain>P. Damping of nanomechanical resonators. Phys. </plain></SENT>
+<SENT sid="213" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="214" pm="."><plain>Lett. 105, 027205 (2010).20867737 </plain></SENT>
+</text></ref><ref id="b6"><text><SENT sid="215" pm="."><plain>YuP. </plain></SENT>
+<SENT sid="216" pm="."><plain>-L., PurdyT. </plain></SENT>
+<SENT sid="217" pm="."><plain>P. &amp; RegalC. </plain></SENT>
+<SENT sid="218" pm="."><plain>A. Control of material damping in high-q membrane microresonators. Phys. </plain></SENT>
+<SENT sid="219" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="220" pm="."><plain>Lett. 108, 083603 (2012).22463530 </plain></SENT>
+</text></ref><ref id="b7"><text><SENT sid="221" pm="."><plain>YuanM., SinghV., BlanterY. </plain></SENT>
+<SENT sid="222" pm="."><plain>M. &amp; SteeleG. </plain></SENT>
+<SENT sid="223" pm="."><plain>A. Large cooperativity and microkelvin cooling with a three-dimensional optomechanical cavity. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="224" pm="."><plain>Commun. 6, 8491 (2015).26450772 </plain></SENT>
+</text></ref><ref id="b8"><text><SENT sid="225" pm="."><plain>WilsonD. </plain></SENT>
+<SENT sid="226" pm="."><plain>J., RegalC. </plain></SENT>
+<SENT sid="227" pm="."><plain>A., PappS. </plain></SENT>
+<SENT sid="228" pm="."><plain>B. &amp; KimbleH. </plain></SENT>
+<SENT sid="229" pm="."><plain>J. Cavity optomechanics with stoichiometric SiN Films. Phys. </plain></SENT>
+<SENT sid="230" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="231" pm="."><plain>Lett. 103, 207204 (2009).20366008 </plain></SENT>
+</text></ref><ref id="b9"><text><SENT sid="232" pm="."><plain>YuanM., CohenM. </plain></SENT>
+<SENT sid="233" pm="."><plain>A. &amp; SteeleG. </plain></SENT>
+<SENT sid="234" pm="."><plain>A. Silicon nitride membrane resonators at millikelvin temperatures with quality factors exceeding 108. </plain></SENT>
+<SENT sid="235" pm="."><plain>arXiv:1510.07468 (2015). </plain></SENT>
+</text></ref><ref id="b10"><text><SENT sid="236" pm="."><plain>BarclayP. </plain></SENT>
+<SENT sid="237" pm="."><plain>E., SrinivasanK., PainterO., LevB. &amp; MabuchiH. Integration of fiber-coupled high-q sinx microdisks with atom chips. App. </plain></SENT>
+<SENT sid="238" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="239" pm="."><plain>Lett. 89, 131108 (2006). </plain></SENT>
+</text></ref><ref id="b11"><text><SENT sid="240" pm="."><plain>AspelmeyerM., KippenbergT. </plain></SENT>
+<SENT sid="241" pm="."><plain>J. &amp; MarquardtF. Cavity optomechanics. Rev. </plain></SENT>
+<SENT sid="242" pm="."><plain>Mod. </plain></SENT>
+<SENT sid="243" pm="."><plain>Phys. 86, 1391–1452 (2014). </plain></SENT>
+</text></ref><ref id="b12"><text><SENT sid="244" pm="."><plain>ThompsonJ. </plain></SENT>
+<SENT sid="245" pm="."><plain>D. et al. Strong dispersive coupling of a high-finesse cavity to a micromechanical membrane. Nature 452, 72–75 (2008).18322530 </plain></SENT>
+</text></ref><ref id="b13"><text><SENT sid="246" pm="."><plain>PetersonR. </plain></SENT>
+<SENT sid="247" pm="."><plain>W. et al. Laser cooling of a micromechanical membrane to the quantum backaction limit. Phys. </plain></SENT>
+<SENT sid="248" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="249" pm="."><plain>Lett. 116, 063601 (2016).26918990 </plain></SENT>
+</text></ref><ref id="b14"><text><SENT sid="250" pm="."><plain>UnderwoodM. et al. Measurement of the motional sidebands of a nanogram-scale oscillator in the quantum regime. Phys. </plain></SENT>
+<SENT sid="251" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="252" pm="."><plain>A 92, 061801 (R) (2015). </plain></SENT>
+</text></ref><ref id="b15"><text><SENT sid="253" pm="."><plain>PurdyT. </plain></SENT>
+<SENT sid="254" pm="."><plain>P., PetersonR. </plain></SENT>
+<SENT sid="255" pm="."><plain>W. &amp; RegalC. </plain></SENT>
+<SENT sid="256" pm="."><plain>A. Observation of radiation pressure shot noise on a macroscopic object. Science 339, 801–804 (2013).23413350 </plain></SENT>
+</text></ref><ref id="b16"><text><SENT sid="257" pm="."><plain>PurdyT. </plain></SENT>
+<SENT sid="258" pm="."><plain>P., YuP. </plain></SENT>
+<SENT sid="259" pm="."><plain>-L., PetersonR. </plain></SENT>
+<SENT sid="260" pm="."><plain>W., KampelN. </plain></SENT>
+<SENT sid="261" pm="."><plain>S. &amp; RegalC. </plain></SENT>
+<SENT sid="262" pm="."><plain>A. Strong optomechanical squeezing of light. Phys. </plain></SENT>
+<SENT sid="263" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="264" pm="."><plain>X 3, 031012 (2013). </plain></SENT>
+</text></ref><ref id="b17"><text><SENT sid="265" pm="."><plain>AndrewsR. </plain></SENT>
+<SENT sid="266" pm="."><plain>W. et al. Bidirectional and efficient conversion between microwave and optical light. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="267" pm="."><plain>Phys. 10, 321–326 (2014). </plain></SENT>
+</text></ref><ref id="b18"><text><SENT sid="268" pm="."><plain>EichenfieldM., CamachoR., ChanJ., VahalaK. </plain></SENT>
+<SENT sid="269" pm="."><plain>J. &amp; PainterO. A picogram- and nanometre-scale photonic-crystal optomechanical cavity. Nature 459, 550–555 (2009).19489118 </plain></SENT>
+</text></ref><ref id="b19"><text><SENT sid="270" pm="."><plain>AnetsbergerG. et al. Near-field cavity optomechanics with nanomechanical oscillators. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="271" pm="."><plain>Phys. 5, 909–914 (2009). </plain></SENT>
+</text></ref><ref id="b20"><text><SENT sid="272" pm="."><plain>EichenfieldM., ChanJ., CamachoR. </plain></SENT>
+<SENT sid="273" pm="."><plain>M., VahalaK. </plain></SENT>
+<SENT sid="274" pm="."><plain>J. &amp; PainterO. Optomechanical crystals. Nature 462, 78–82 (2009).19838165 </plain></SENT>
+</text></ref><ref id="b21"><text><SENT sid="275" pm="."><plain>GrutterK. </plain></SENT>
+<SENT sid="276" pm="."><plain>E., DavancoM. </plain></SENT>
+<SENT sid="277" pm="."><plain>I. &amp; SrinivasanK. Slot-mode optomechanical crystals: a versatile platform for multimode optomechanics. Optica 2, 994–1001 (2015).26807432 </plain></SENT>
+</text></ref><ref id="b22"><text><SENT sid="278" pm="."><plain>CamachoR. </plain></SENT>
+<SENT sid="279" pm="."><plain>M., ChanJ., EichenfieldM. &amp; PainterO. Characterization of radiation pressure and thermal effects in a nanoscale optomechanical cavity. Opt. </plain></SENT>
+<SENT sid="280" pm="."><plain>Express 17, 15726–15735 (2009).19724572 </plain></SENT>
+</text></ref><ref id="b23"><text><SENT sid="281" pm="."><plain>DavançoM., ChanJ., Safavi-NaeiniA. </plain></SENT>
+<SENT sid="282" pm="."><plain>H., PainterO. &amp; SrinivasanK. Slot-mode-coupled optomechanical crystals. Opt. </plain></SENT>
+<SENT sid="283" pm="."><plain>Express 20, 24394–24410 (2012).23187203 </plain></SENT>
+</text></ref><ref id="b24"><text><SENT sid="284" pm="."><plain>RegalC. </plain></SENT>
+<SENT sid="285" pm="."><plain>A. &amp; LehnertK. </plain></SENT>
+<SENT sid="286" pm="."><plain>W. From cavity electromechanics to cavity optomechanics. J. </plain></SENT>
+<SENT sid="287" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="288" pm="."><plain>Conf. </plain></SENT>
+<SENT sid="289" pm="."><plain>Ser. 264, 012025 (2011). </plain></SENT>
+</text></ref><ref id="b25"><text><SENT sid="290" pm="."><plain>Safavi-NaeiniA. </plain></SENT>
+<SENT sid="291" pm="."><plain>H. &amp; PainterO. Proposal for an optomechanical traveling wave phononphoton translator. New J. </plain></SENT>
+<SENT sid="292" pm="."><plain>Phys. 13, 013017 (2011). </plain></SENT>
+</text></ref><ref id="b26"><text><SENT sid="293" pm="."><plain>BarzanjehS., AbdiM., MilburnG. </plain></SENT>
+<SENT sid="294" pm="."><plain>J., TombesiP. &amp; VitaliD. Reversible optical-to-microwave quantum interface. Phys. </plain></SENT>
+<SENT sid="295" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="296" pm="."><plain>Lett. 109, 130503 (2012).23030075 </plain></SENT>
+</text></ref><ref id="b27"><text><SENT sid="297" pm="."><plain>BochmannJ., VainsencherA., AwschalomD. </plain></SENT>
+<SENT sid="298" pm="."><plain>D. &amp; ClelandA. </plain></SENT>
+<SENT sid="299" pm="."><plain>N. Nanomechanical coupling between microwave and optical photons. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="300" pm="."><plain>Phys. 9, 712–716 (2013). </plain></SENT>
+</text></ref><ref id="b28"><text><SENT sid="301" pm="."><plain>BagciT. et al. Optical detection of radio waves through a nanomechanical transducer. Nature 507, 81–85 (2014).24598636 </plain></SENT>
+</text></ref><ref id="b29"><text><SENT sid="302" pm="."><plain> COMSOL Multiphysics 3.5 <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.comsol.com/">http://www.comsol.com/</ext-link>. </plain></SENT>
+</text></ref><ref id="b30"><text><SENT sid="303" pm="."><plain>Sonnet Software Inc.. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.sonnetsoftware.com/">http://www.sonnetsoftware.com/</ext-link>. </plain></SENT>
+</text></ref><ref id="b31"><text><SENT sid="304" pm="."><plain>MohanS., del Mar HershensonM., BoydS. &amp; LeeT. Simple accurate expressions for planar spiral inductances. Solid-State Circ. </plain></SENT>
+<SENT sid="305" pm="."><plain>IEEE J. 34, 1419–1424 (1999). </plain></SENT>
+</text></ref><ref id="b32"><text><SENT sid="306" pm="."><plain>TeufelJ. </plain></SENT>
+<SENT sid="307" pm="."><plain>D. et al. Sideband cooling of micromechanical motion to the quantum ground state. Nature 475, 359–363 (2011).21734657 </plain></SENT>
+</text></ref><ref id="b33"><text><SENT sid="308" pm="."><plain>PitantiA. et al. Strong opto-electro-mechanical coupling in a silicon photonic crystal cavity. Opt. </plain></SENT>
+<SENT sid="309" pm="."><plain>Express 23, 3196–3208 (2015).25836178 </plain></SENT>
+</text></ref><ref id="b34"><text><SENT sid="310" pm="."><plain>HillJ. </plain></SENT>
+<SENT sid="311" pm="."><plain>T., Safavi-NaeiniA. </plain></SENT>
+<SENT sid="312" pm="."><plain>H., ChanJ. &amp; PainterO. Coherent optical wavelength conversion via cavity optomechanics. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="313" pm="."><plain>Commun. 3, 1196 (2012).23149741 </plain></SENT>
+</text></ref><ref id="b35"><text><SENT sid="314" pm="."><plain>LecocqF., ClarkJ. </plain></SENT>
+<SENT sid="315" pm="."><plain>B., SimmondsR. </plain></SENT>
+<SENT sid="316" pm="."><plain>W., AumentadoJ. &amp; TeufelJ. </plain></SENT>
+<SENT sid="317" pm="."><plain>D. Mechanically mediated microwave frequency conversion in the quantum regime. Phys. </plain></SENT>
+<SENT sid="318" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="319" pm="."><plain>Lett. 116, 043601 (2016).26871329 </plain></SENT>
+</text></ref><ref id="b36"><text><SENT sid="320" pm="."><plain>WeisS. et al. Optomechanically Induced Transparency. Science 330, 1520–1523 (2010).21071628 </plain></SENT>
+</text></ref><ref id="b37"><text><SENT sid="321" pm="."><plain>Safavi-NaeiniA. </plain></SENT>
+<SENT sid="322" pm="."><plain>H. et al. Electromagnetically induced transparency and slow light with optomechanics. Nature 472, 69–73 (2011).21412237 </plain></SENT>
+</text></ref><ref id="b38"><text><SENT sid="323" pm="."><plain>TeufelJ. </plain></SENT>
+<SENT sid="324" pm="."><plain>D. et al. Circuit cavity electromechanics in the strong-coupling regime. Nature 471, 204–208 (2011).21390127 </plain></SENT>
+</text></ref><ref id="b39"><text><SENT sid="325" pm="."><plain>DobrindtJ. </plain></SENT>
+<SENT sid="326" pm="."><plain>M. &amp; KippenbergT. </plain></SENT>
+<SENT sid="327" pm="."><plain>J. Theoretical analysis of mechanical displacement measurement using a multiple cavity mode transducer. Phys. </plain></SENT>
+<SENT sid="328" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="329" pm="."><plain>Lett. 104, 033901 (2010).20366641 </plain></SENT>
+</text></ref><ref id="b40"><text><SENT sid="330" pm="."><plain>YanG. </plain></SENT>
+<SENT sid="331" pm="."><plain>-Z., ChanP. </plain></SENT>
+<SENT sid="332" pm="."><plain>C., Hsing&amp;I.-M., SharmaR. </plain></SENT>
+<SENT sid="333" pm="."><plain>K. &amp; SinJ. in Proceedings IEEE Thirteenth Annual International Conference on Micro Electro Mechanical Systems 562–567Miyazaki, Japan (2000). </plain></SENT>
+</text></ref><ref id="b41"><text><SENT sid="334" pm="."><plain>FujitsukaN., HamaguchiK., FunabashiH., KawasakiE. &amp; FukadaT. Aluminum protected silicon anisotropic etching technique using tmah with an oxidizing agent and dissolved Si. R&amp;D. </plain></SENT>
+<SENT sid="335" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="336" pm="."><plain>Toyota CRDL 39, 34–42 (2004). </plain></SENT>
+</text></ref><ref id="b42"><text><SENT sid="337" pm="."><plain>TeufelJ. </plain></SENT>
+<SENT sid="338" pm="."><plain>D., HarlowJ. </plain></SENT>
+<SENT sid="339" pm="."><plain>W., RegalC. </plain></SENT>
+<SENT sid="340" pm="."><plain>A. &amp; LehnertK. </plain></SENT>
+<SENT sid="341" pm="."><plain>W. Dynamical backaction of microwave fields on a nanomechanical oscillator. Phys. </plain></SENT>
+<SENT sid="342" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="343" pm="."><plain>Lett. 101, 197203 (2008).19113301 </plain></SENT>
+</text></ref><ref id="b43"><text><SENT sid="344" pm="."><plain>MarquardtF., ChenJ. </plain></SENT>
+<SENT sid="345" pm="."><plain>P., ClerkA. </plain></SENT>
+<SENT sid="346" pm="."><plain>A. &amp; GirvinS. </plain></SENT>
+<SENT sid="347" pm="."><plain>M. Quantum theory of cavity-assisted sideband cooling of mechanical motion. Phys. </plain></SENT>
+<SENT sid="348" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="349" pm="."><plain>Lett. 99, 093902 (2007).17931006 </plain></SENT>
+</text></ref><ref id="b44"><text><SENT sid="350" pm="."><plain>SarabiB., RamanayakaA. </plain></SENT>
+<SENT sid="351" pm="."><plain>N., BurinA. </plain></SENT>
+<SENT sid="352" pm="."><plain>L., WellstoodF. </plain></SENT>
+<SENT sid="353" pm="."><plain>C. &amp; OsbornK. </plain></SENT>
+<SENT sid="354" pm="."><plain>D. Spectroscopy of random two-level systems in insulating films. </plain></SENT>
+<SENT sid="355" pm="."><plain>arXiv:1501.05865 (2015). </plain></SENT>
+</text></ref><ref id="b45"><text><SENT sid="356" pm="."><plain>DobrindtJ. </plain></SENT>
+<SENT sid="357" pm="."><plain>M., Wilson-RaeI. &amp; KippenbergT. </plain></SENT>
+<SENT sid="358" pm="."><plain>J. Parametric normal-mode splitting in cavity optomechanics. Phys. </plain></SENT>
+<SENT sid="359" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="360" pm="."><plain>Lett. 101, 263602 (2008).19113771 </plain></SENT>
+</text></ref><ref id="b46"><text><SENT sid="361" pm="."><plain>RocheleauT. et al. Preparation and detection of a mechanical resonator near the ground state of motion. Nature 463, 72–75 (2010).20010604 </plain></SENT>
+</text></ref><ref id="b47"><text><SENT sid="362" pm="."><plain>Safavi-NaeiniA. </plain></SENT>
+<SENT sid="363" pm="."><plain>H. et al. Laser noise in cavity-optomechanical cooling and thermometry. New J. </plain></SENT>
+<SENT sid="364" pm="."><plain>Phys. 15, 035007 (2013). </plain></SENT>
+</text></ref><ref id="b48"><text><SENT sid="365" pm="."><plain>WollmanE. </plain></SENT>
+<SENT sid="366" pm="."><plain>E. et al. Quantum squeezing of motion in a mechanical resonator. Science 349, 952–955 (2015).26315431 </plain></SENT>
+</text></ref><ref id="b49"><text><SENT sid="367" pm="."><plain>PirkkalainenJ. </plain></SENT>
+<SENT sid="368" pm="."><plain>M., Dams DamskäggE., BrandtM., MasselF. &amp; SillanpääM. </plain></SENT>
+<SENT sid="369" pm="."><plain>A. Squeezing of quantum noise of motion in a micromechanical resonator. Phys. </plain></SENT>
+<SENT sid="370" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="371" pm="."><plain>Lett. 115, 243601 (2015).26705631 </plain></SENT>
+</text></ref><ref id="b50"><text><SENT sid="372" pm="."><plain>BlaisA. et al. Quantum-information processing with circuit quantum electrodynamics. Phys. </plain></SENT>
+<SENT sid="373" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="374" pm="."><plain>A 75, 032329 (2007). </plain></SENT>
+</text></ref><ref id="b51"><text><SENT sid="375" pm="."><plain>GrabovskijG. </plain></SENT>
+<SENT sid="376" pm="."><plain>J., PeichlT., LisenfeldJ., WeissG. &amp; UstinovA. </plain></SENT>
+<SENT sid="377" pm="."><plain>V. Strain tuning of individual atomic tunneling systems detected by a superconducting qubit. Science 338, 232–234 (2012).23066075 </plain></SENT>
+</text></ref><ref id="b52"><text><SENT sid="378" pm="."><plain>SchusterD. </plain></SENT>
+<SENT sid="379" pm="."><plain>I. et al. AC Stark shift and dephasing of a superconducting qubit strongly coupled to a cavity field. Phys. </plain></SENT>
+<SENT sid="380" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="381" pm="."><plain>Lett. 94, 123602 (2005).15903919 </plain></SENT>
+</text></ref><ref id="b53"><text><SENT sid="382" pm="."><plain>Safavi-NaeiniA. </plain></SENT>
+<SENT sid="383" pm="."><plain>H. &amp; PainterO. Design of optomechanical cavities and waveguides on a simultaneous bandgap phononic-photonic crystal slab. Opt. </plain></SENT>
+<SENT sid="384" pm="."><plain>Express 18, 14926–14943 (2010).20639979 </plain></SENT>
+</text></ref><ref id="b54"><text><SENT sid="385" pm="."><plain>GustafssonM. </plain></SENT>
+<SENT sid="386" pm="."><plain>V. et al. Propagating phonons coupled to an artificial atom. Science 346, 207–211 (2014).25213379 </plain></SENT>
+</text></ref><ref id="b55"><text><SENT sid="387" pm="."><plain>HabrakenS. </plain></SENT>
+<SENT sid="388" pm="."><plain>J. </plain></SENT>
+<SENT sid="389" pm="."><plain>M., StannigelK., LukinM. </plain></SENT>
+<SENT sid="390" pm="."><plain>D., ZollerP. &amp; RablP. Continuous mode cooling and phonon routers for phononic quantum networks. New J. </plain></SENT>
+<SENT sid="391" pm="."><plain>Phys. 14, 115004 (2012). </plain></SENT>
+</text></ref></ref-list></SecTag><fn-group><fn><p><text><SENT sid="392" pm="."><plain>Author contributions O.P., J.M.F., M.K., A.P., R.N. and K.S. planned the experiment. </plain></SENT>
+<SENT sid="393" pm="."><plain>J.M.F., M.K., A.P., R.N. and M.D. performed the device design and fabrication. </plain></SENT>
+<SENT sid="394" pm="."><plain>J.M.F., A.P., L.H. and M.K. installed the experimental setup. </plain></SENT>
+<SENT sid="395" pm="."><plain>M.D. and K.S. provided the substrates. </plain></SENT>
+<SENT sid="396" pm="."><plain>J.M.F., M.K. and O.P. performed the measurements, analysed the data and wrote the manuscript. </plain></SENT>
+</text></p></fn></fn-group></back><floats-group><SecTag type="FIG"><fig id="f1"><label>Figure 1</label><caption><title>Device design.</title><p><text><SENT sid="397" pm="."><plain>(a) Schematic of the membrane electromechanical circuit. </plain></SENT>
+<SENT sid="398" pm="."><plain>(b) Unit cell of the phononic crystal nanobeam. </plain></SENT>
+<SENT sid="399" pm="."><plain>(c) Acoustic band diagram of the phononic crystal nanobeam with a=W=2.23 μm, Wx=Wy=1.52 μm and WAl=170 nm. </plain></SENT>
+<SENT sid="400" pm="."><plain>The nitride membrane thickness and aluminum wire thickness are tmem=300 nm and tAl=65 nm, respectively. </plain></SENT>
+<SENT sid="401" pm="."><plain>The acoustic bandgap is shaded in blue, with the localized breathing mode frequency indicated as a dashed line. </plain></SENT>
+<SENT sid="402" pm="."><plain>(d) Plot of the finite-element method (FEM)-simulated breathing mode profile. </plain></SENT>
+<SENT sid="403" pm="."><plain>Mechanical motion is indicated by an exaggerated displacement of the beam structure and by colour, with red (blue) colour indicating regions of large (small) amplitude of the motion. </plain></SENT>
+<SENT sid="404" pm="."><plain>(e) Electrical circuit diagram, where Ic is the current through the reflective coupler, L is the coil inductance, Cl is the coil capacitance, Cs is additional stray capacitance and Cm is the motional capacitance. </plain></SENT>
+<SENT sid="405" pm="."><plain>The simulated displacement of the in-plane fundamental flexural mode of the beam is shown. </plain></SENT>
+<SENT sid="406" pm="."><plain>(f) Inductance (L) and capacitance (Cl) of a planar square coil inductor of constant area Acoil=87 μm × 87 μm and variable wire-to-wire pitch p. </plain></SENT>
+<SENT sid="407" pm="."><plain>Wire width and thickness are 500 and 120 nm, respectively. </plain></SENT>
+<SENT sid="408" pm="."><plain>Method of moments30 numerically simulated values are shown as open circles (inductance) and open squares (capacitance). </plain></SENT>
+<SENT sid="409" pm="."><plain>Calculations using an analytical model of the planar coil inductor31 are shown as a solid line. </plain></SENT>
+<SENT sid="410" pm="."><plain>Vertical lines are shown for coils with a characteristic impedance of Z0=1, 5 and 20 kΩ, with the coil self-resonance frequency indicated in brackets. </plain></SENT>
+<SENT sid="411" pm="."><plain>(g) FEM simulations of the modulated capacitance Cm (blue symbols) and the electromechanical coupling g0/2π (red symbols) of the in-plane fundamental flexural mode (circles) and the phononic crystal breathing mode (squares) as a function of the capacitor gap size s. </plain></SENT>
+<SENT sid="412" pm="."><plain>Solid curves indicate a 1/s fit for Cm and 1/sd with d≈1.4 for g0. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-f1"/></fig></SecTag><SecTag type="FIG"><fig id="f2"><label>Figure 2</label><caption><title>Sample fabrication.</title><p><text><SENT sid="413" pm="."><plain>(a) Optical image of the membrane microchip, which is mounted, bonded and clamped to a low loss printed circuit board (scale bar, 1 mm). </plain></SENT>
+<SENT sid="414" pm="."><plain>The microchip contains four sets of four membranes. </plain></SENT>
+<SENT sid="415" pm="."><plain>In this image the Si3N4 membranes of thickness 300 nm are semi-transparent purple, the aluminum coated regions are grey and the uncoated silicon substrate is green. </plain></SENT>
+<SENT sid="416" pm="."><plain>The two bright regions in the middle of each membrane correspond to the two coil resonators coupled to each nanobeam resonator. </plain></SENT>
+<SENT sid="417" pm="."><plain>(b) False colour scanning electron microscope (SEM) image of the centre part of the membrane depicting two aluminum planar coils (white) coupled to two sides of a single patterned phononic crystal nanobeam with stress pull-in cuts (black). </plain></SENT>
+<SENT sid="418" pm="."><plain>Scale bar, 100 μm. </plain></SENT>
+<SENT sid="419" pm="."><plain>(c) SEM image zoom-in of the spiral inductor (p=1 μm, n=42), showing the cross-overs needed to connect the inductor coil to the vacuum gap capacitor across the nanobeam resonator. </plain></SENT>
+<SENT sid="420" pm="."><plain>Scale bar, 50 μm. </plain></SENT>
+<SENT sid="421" pm="."><plain>(d) SEM image zoom-in of the released centre region of the nanobeam mechanical resonator and vacuum gap capacitors with gap size of s≈80 nm. </plain></SENT>
+<SENT sid="422" pm="."><plain>Scale bar, 5 μm. </plain></SENT>
+<SENT sid="423" pm="."><plain>(e) Tilted SEM image of the capacitor gap showing the etch profile of the nanobeam and the aluminum electrode thickness (≈65 nm). </plain></SENT>
+<SENT sid="424" pm="."><plain>Scale bar, 200 nm. </plain></SENT>
+<SENT sid="425" pm="."><plain>(f) Schematic of the main circuit fabrication steps: (i) LPCVD of stoichiometric Si3N4 on both sides of a 200 μm-thick silicon substrate, (ii) C4F8:SF6 plasma etch through the nitride membrane defining the mechanical beam resonator and pull-in cuts on the top side and membrane windows on the bottom side, (iii) electron beam lithography, aluminum deposition and lift-off steps to pattern the microwave circuit and (iv) final release of the nitride membrane using a silicon-enriched tetramethylammonium hydroxide (TMAH) solution. </plain></SENT>
+<SENT sid="426" pm="."><plain>(g) Simulation of the membrane relaxation during release. </plain></SENT>
+<SENT sid="427" pm="."><plain>The image shows the regions of positive (red) and negative (blue) displacement, δy, of the membrane. </plain></SENT>
+<SENT sid="428" pm="."><plain>The stress release cuts (white) are shaped at an angle α to controllably narrow the capacitor gaps s during release. </plain></SENT>
+<SENT sid="429" pm="."><plain>The rounded shape of the pull-in cut end section has been optimized to minimize the maximal stress points to avoid membrane fracturing. </plain></SENT>
+<SENT sid="430" pm="."><plain>(h) Plot of the simulated (solid red curve) and SEM-measured (blue solid circles) change in the slot gap (δy) versus slot-cut angle α. </plain></SENT>
+<SENT sid="431" pm="."><plain>Error bars indicate the single s.d. uncertainty in SEM measurements of the gap size. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-f2"/></fig></SecTag><SecTag type="FIG"><fig id="f3"><label>Figure 3</label><caption><title>Coherent response.</title><p><text><SENT sid="432" pm="."><plain>(a) Schematic of the two-tone electromagnetically induced transparency (EIT) spectroscopy measurement. </plain></SENT>
+<SENT sid="433" pm="."><plain>(b) Measured (blue points) probe spectra for different drive powers (P0=1 mW), all with a fixed drive detuning of Δr,d=ωm=4.815 MHz. </plain></SENT>
+<SENT sid="434" pm="."><plain>Each spectrum is offset by −16.5 dB for better visibility. </plain></SENT>
+<SENT sid="435" pm="."><plain>Fits to measured spectra using equation (2) are shown as solid red curves. </plain></SENT>
+<SENT sid="436" pm="."><plain>Inset shows a zoomed-in view of the lowest power measurement with a mechanical linewidth of γm/2π=8 Hz. </plain></SENT>
+<SENT sid="437" pm="."><plain>(c) Extracted system parameters (symbols) as a function of drive power using equation (2) to fit the measured spectra (P0=1 mW). </plain></SENT>
+<SENT sid="438" pm="."><plain>Error bars correspond to a 95% confidence interval in the fit to the measured spectra. </plain></SENT>
+<SENT sid="439" pm="."><plain>(d) Mechanical linewidth γm (top) and the mechanical frequency shift δωm due to the optical spring effect (bottom) versus drive detuning Δr,d at a fixed intra-cavity drive photon number. </plain></SENT>
+<SENT sid="440" pm="."><plain>Shown are the fit values from the measured probe spectra for two different fridge temperatures, Tf=11 mK (blue circles) and Tf=114 mK (red circles). </plain></SENT>
+<SENT sid="441" pm="."><plain>The drive photon number at Tf=11 mK (Tf=114 mK) is equal to nd=2,350 (5,980). </plain></SENT>
+<SENT sid="442" pm="."><plain>The solid line curves are a fit to the damping and spring shift using a radiation pressure back-action model as per ref. 42. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-f3"/></fig></SecTag><SecTag type="FIG"><fig id="f4"><label>Figure 4</label><caption><title>Mechanical displacement noise.</title><p><text><SENT sid="443" pm="."><plain>(a) Schematic showing the pump detuning and scattered microwave signals used to measure the mechanical resonator's displacement noise. </plain></SENT>
+<SENT sid="444" pm="."><plain>(b) Plot of the measured mechanical resonator bath phonon occupation (nb,m) and effective temperature (Tm) as a function of the fridge temperature (Tf). </plain></SENT>
+<SENT sid="445" pm="."><plain>Each data point corresponds to the average inferred occupancy for blue detuned driving (Δr,d=−ωm) at low cooperativity (C&lt;&lt;1). </plain></SENT>
+<SENT sid="446" pm="."><plain>Error bars corresponding to the s.d. in the inferred occupancy over several temperature sweeps. </plain></SENT>
+<SENT sid="447" pm="."><plain>Calibration in units of occupancy is performed using a fit to equation (3) as described in the main text and Supplementary Notes 6–8. </plain></SENT>
+<SENT sid="448" pm="."><plain>The grey dashed lines show the expected Bose–Einstein distribution  assuming perfect thermalization to the fridge. </plain></SENT>
+<SENT sid="449" pm="."><plain>(c) Plot of the dynamic backaction cooling of the mechanical resonator versus drive power (P0=1 mW) at three different fridge temperatures: Tf=235 mK (nf,m=1100; open circles), Tf=114 mK (nf,m=530; open squares) and Tf=26 mK (nf,m=120; open triangles). </plain></SENT>
+<SENT sid="450" pm="."><plain>Data points showing the estimated average phonon occupancy of the fundamental in-plane flexural mode at ωm/2π≈4.48 MHz (nm) are shown as blue symbols, whereas data points for the estimated microwave cavity photon occupancy at ωr/2π=7.498 GHz (nr) are shown as orange symbols. </plain></SENT>
+<SENT sid="451" pm="."><plain>The corresponding effective mode temperature, Tm, of the flexural mechanical mode is also shown on the right vertical axis. </plain></SENT>
+<SENT sid="452" pm="."><plain>The solid line blue curves correspond to a model for the expected mechanical mode occupancy using a fit to the measured drive power relation for G and the microwave cavity parameters from coherent two-tone spectroscopy, the intrinsic mechanical damping from low power thermometry measurements and a fit to the power dependence of the microwave resonator occupancy. </plain></SENT>
+<SENT sid="453" pm="."><plain>(d) Measured anti-Stokes noise displacement spectrum for several different drive powers at Tf=26 mK (blue data points). </plain></SENT>
+<SENT sid="454" pm="."><plain>Fits to the measured spectra are shown as red solid lines (see Supplementary Note 6 for fit model). </plain></SENT>
+<SENT sid="455" pm="."><plain>Extracted values for nm and nr are indicated and correspond to the results presented in c. </plain></SENT>
+<SENT sid="456" pm="."><plain>Zoom-<z:uniprot sup="inside" fb="123" ids="P81423,P29335,P41522,P42633,P09476,P13190,P68991,P01335,O73727,P01336,P68992,P01340,P68988,P69045,P69046,P07453,P01342,P68989,P04667,P68990,P81025,Q98TA8,P68987,P81881,P09477,C0HJU0,P0C236,C0HJT9,P12704,P01339,P12705,Q9W7R2">ins</z:uniprot> of the cavity noise and measured noise peaks are shown as insets. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-f4"/></fig></SecTag><SecTag type="FIG"><fig id="f5"><label>Figure 5</label><caption><title>Two-level system vacuum Rabi mode splitting.</title><p><text><SENT sid="457" pm="."><plain>(a) Colour plot of the measured reflection <z:uniprot sup="inside" fb="0" ids="P98175">S11</z:uniprot> of a weak coherent probe tone ωp as a function of the drive power Pd (P0=1 mW) for drive detunings Δr,d/2π=−6.5 MHz (left) and Δr,d/2π=5.6 MHz (right). </plain></SENT>
+<SENT sid="458" pm="."><plain>In these plots, blue (yellow) colour corresponds to high (low) reflectivity. </plain></SENT>
+<SENT sid="459" pm="."><plain>Measurements were taken for a fridge temperature Tf=11 mK. </plain></SENT>
+<SENT sid="460" pm="."><plain>The black dashed curve shows the theoretically TLS-resonator frequency tuning for a theoretical model with coherent TLS-resonator coupling g0,tls/2π=0.9 MHz and input attenuation . </plain></SENT>
+<SENT sid="461" pm="."><plain>The white dashed curve is a plot of the same theoretical model including the AC Stark tuning of the TLS but with the resonator and TLS otherwise decoupled. </plain></SENT>
+<SENT sid="462" pm="."><plain>(b) Measured spectrum (blue curve) and double Lorentzian fit (red curve) for Δr,d/2π=−6.5 MHz and three different drive powers corresponding to the vertical green dashed lines in a. </plain></SENT>
+<SENT sid="463" pm="."><plain>From top to bottom the drive powers are Pd/P0=−59.5, −46 and −43 dB. </plain></SENT>
+<SENT sid="464" pm="."><plain>As indicated, the estimated bare TLS-resonator detuning for each of these drive powers from the fit model is from top to bottom δtls,r/2π=−1.5, −0.5 and 0.6 MHz. </plain></SENT>
+</text></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ncomms12396-f5"/></fig></SecTag></floats-group></article>

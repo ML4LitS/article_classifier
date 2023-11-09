@@ -1,0 +1,792 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sensors (Basel)</journal-id><journal-id journal-id-type="iso-abbrev">Sensors (Basel)</journal-id><journal-id journal-id-type="publisher-id">sensors</journal-id><journal-title-group><journal-title>Sensors (Basel, Switzerland)</journal-title></journal-title-group><issn pub-type="epub">1424-8220</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6069223</article-id><article-id pub-id-type="doi">10.3390/s18072216</article-id><article-id pub-id-type="publisher-id">sensors-18-02216</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>3D Analysis of Upper Limbs Motion during Rehabilitation Exercises Using the KinectTM Sensor: Development, Laboratory Validation and Clinical Application </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7729-4700</contrib-id><name><surname>Bonnechère</surname><given-names>Bruno</given-names></name><xref ref-type="aff" rid="af1-sensors-18-02216">1</xref><xref ref-type="aff" rid="af2-sensors-18-02216">2</xref><xref ref-type="aff" rid="af3-sensors-18-02216">3</xref><xref rid="c1-sensors-18-02216" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Sholukha</surname><given-names>Victor</given-names></name><xref ref-type="aff" rid="af1-sensors-18-02216">1</xref><xref ref-type="aff" rid="af4-sensors-18-02216">4</xref></contrib><contrib contrib-type="author"><name><surname>Omelina</surname><given-names>Lubos</given-names></name><xref ref-type="aff" rid="af2-sensors-18-02216">2</xref><xref ref-type="aff" rid="af3-sensors-18-02216">3</xref><xref ref-type="aff" rid="af5-sensors-18-02216">5</xref></contrib><contrib contrib-type="author"><name><surname>Van Sint Jan</surname><given-names>Serge</given-names></name><xref ref-type="aff" rid="af1-sensors-18-02216">1</xref></contrib><contrib contrib-type="author"><name><surname>Jansen</surname><given-names>Bart</given-names></name><xref ref-type="aff" rid="af2-sensors-18-02216">2</xref><xref ref-type="aff" rid="af3-sensors-18-02216">3</xref></contrib></contrib-group><aff id="af1-sensors-18-02216"><label>1</label>Laboratory of Anatomy, Biomechanics and Organogenesis (LABO), Université Libre de Bruxelles, 1050 Brussels, Belgium; <email>vcholouk@ulb.ac.be</email> (V.S.); <email>sintjans@ulb.ac.be</email> (S.V.S.J.)</aff><aff id="af2-sensors-18-02216"><label>2</label>Department of Electronics and Informatics—ETRO, Vrije Universiteit Brussel, 1050 Brussels, Belgium; <email>lomelina@etrovub.be</email> (L.O.); <email>bjansen@etrovub.be</email> (B.J.)</aff><aff id="af3-sensors-18-02216"><label>3</label>International Medical Equipment Collaborative (IMEC), Kapeldreef 75, B-3001 Leuven, Belgium</aff><aff id="af4-sensors-18-02216"><label>4</label>Department of Applied Mathematics, Peter the Great St. Petersburg Polytechnic University (SPbPU), 195251 Sankt-Peterburg, Russia</aff><aff id="af5-sensors-18-02216"><label>5</label>Institute of Computer Science and Mathematics, Slovak University of Technology, 81237 Bratislava, Slovakia</aff><author-notes><corresp id="c1-sensors-18-02216"><label>*</label>Correspondence: <email>bbonnech@ulb.ac.be</email>; Tel.: +32-2-555-6262</corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>7</month><year>2018</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2018</year></pub-date><volume>18</volume><issue>7</issue><elocation-id>2216</elocation-id><history><date date-type="received"><day>29</day><month>5</month><year>2018</year></date><date date-type="accepted"><day>06</day><month>7</month><year>2018</year></date></history><permissions><copyright-statement>© 2018 by the authors.</copyright-statement><copyright-year>2018</copyright-year><license license-type="open-access"><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>Optoelectronic devices are the gold standard for 3D evaluation in clinics, but due to the complexity of this kind of hardware and the lack of access for patients, affordable, transportable, and easy-to-use systems must be developed to be largely used in daily clinics. </plain></SENT>
+<SENT sid="2" pm="."><plain>The KinectTM sensor has various advantages compared to optoelectronic devices, such as its price and transportability. </plain></SENT>
+<SENT sid="3" pm="."><plain>However, it also has some limitations: (in)accuracy of the skeleton detection and tracking as well as the limited amount of available points, which makes 3D evaluation impossible. </plain></SENT>
+<SENT sid="4" pm="."><plain>To overcome these limitations, a novel method has been developed to perform 3D evaluation of the upper limbs. </plain></SENT>
+<SENT sid="5" pm="."><plain>This system is coupled to rehabilitation exercises, allowing functional evaluation while performing physical rehabilitation. </plain></SENT>
+<SENT sid="6" pm="."><plain>To validate this new approach, a two-step method was used. </plain></SENT>
+<SENT sid="7" pm="."><plain>The first step was a laboratory validation where the results obtained with the KinectTM were compared with the results obtained with an optoelectronic device; 40 healthy young adults participated in this first part. </plain></SENT>
+<SENT sid="8" pm="."><plain>The second step was to determine the clinical relevance of this kind of measurement. </plain></SENT>
+<SENT sid="9" pm="."><plain>Results of the healthy subjects were compared with a group of 22 elderly adults and a group of 10 chronic stroke patients to determine if different patterns could be observed. </plain></SENT>
+<SENT sid="10" pm="."><plain>The new methodology and the different steps of the validations are presented in this paper. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>Kinect</kwd><kwd>validation</kwd><kwd>assessment</kwd><kwd>functional evaluation</kwd><kwd>shoulder</kwd><kwd>markerless system</kwd></kwd-group></SecTag></article-meta></front><body><SecTag type="INTRO"><sec id="sec1-sensors-18-02216"><title><text><SENT sid="11" pm="."><plain>1. </plain></SENT>
+<SENT sid="12" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="13" pm="."><plain>Since the release of the first version of the KinectTM sensor for the Xbox 360 (Kinect) at the end of 2010, researchers and clinicians have directly felt the possible potential of this device. </plain></SENT>
+<SENT sid="14" pm="."><plain>Many studies have been done in order to validate this device as a markerless system (MLS) for various uses (e.g., motion analysis, posture analysis, feedback during rehabilitation exercises, etc.) [1,2,3,4,5,6,7]. </plain></SENT>
+</text></p><p><text><SENT sid="15" pm="."><plain>Interesting results have been found in terms of accuracy (compared to gold standard marker-based systems (MBSs)) and especially in terms of precision (reproducibility has been found higher for Kinect compared to MBS using a Plug-in Gait (PiG) model like the ViconTM protocol) [3]. </plain></SENT>
+</text></p><p><text><SENT sid="16" pm="."><plain>3D motion analysis using MBS is considered to be the gold standard for clinical motion analysis, even if several issues have been previously raised and discussed in the literature. </plain></SENT>
+<SENT sid="17" pm="."><plain>The accessibility of MBS is an issue due to the costs of such systems, and therefore only specialized centers can afford them. </plain></SENT>
+<SENT sid="18" pm="."><plain>Furthermore, marker placement, which is time-consuming and is a potential source of error [8], and skin displacement during motion are two recognized problems within the MBS field [9]. </plain></SENT>
+</text></p><p><text><SENT sid="19" pm="."><plain>Several studies have previously studied the use of the Kinect as an MLS for upper limb evaluation to assess reachable workspace on healthy subjects [10], on patients suffering from fascioscapulohumeral muscular dystrophy [11], and patients with Duchenne muscular dystrophy [12]. </plain></SENT>
+<SENT sid="20" pm="."><plain>Another study compared simple planar motions (shoulder abduction and elbow flexion) and found good correlations with MBS results [4]. </plain></SENT>
+<SENT sid="21" pm="."><plain>Since movement speed control is important in various neurological conditions, others have investigated the ability of the Kinect to detect arm movement speed in healthy subjects, and obtained good results after applying some filtering algorithms [13]. </plain></SENT>
+</text></p><p><text><SENT sid="22" pm="."><plain>A new generation of Kinect, Kinect for Xbox One (Kinect One), was released in 2014. </plain></SENT>
+<SENT sid="23" pm="."><plain>Research has been done to compare the two generations of Kinect for object detection. </plain></SENT>
+<SENT sid="24" pm="."><plain>The results were better for the second generation of Kinect, especially when the distance between the object and the camera was increased [14]. </plain></SENT>
+<SENT sid="25" pm="."><plain>The use of Kinect One to assess upper limb mobility or function has also been extensively studied. </plain></SENT>
+<SENT sid="26" pm="."><plain>Authors found that 3D evaluation of shoulder ranges of motion were significantly more precise and with narrow limits of agreement than the measurements of trained observers (clinicians), based on the analysis of 1670 measurements [15]. </plain></SENT>
+<SENT sid="27" pm="."><plain>Another study compared the results of the Kinect One, an MBS, and goniometry for range of motion (ROM) and motion smoothness. </plain></SENT>
+<SENT sid="28" pm="."><plain>Kinect One had very good agreement of ROM measurement (r &gt; 0.9) with the 3D motion analysis compared with goniometry. </plain></SENT>
+<SENT sid="29" pm="."><plain>Kinect One also showed a good correlation and agreement of measurement of motion quality parameters compared with the 3D motion analysis [16]. </plain></SENT>
+</text></p><p><text><SENT sid="30" pm="."><plain>The measurements performed in these studies were not taken at the same time, making comparisons of upper limb evaluation difficult. </plain></SENT>
+<SENT sid="31" pm="."><plain>Other studies compared 3D full body kinematics analysis, mainly during gait–balance and adaptive postural control. </plain></SENT>
+<SENT sid="32" pm="."><plain>Authors found that the accuracy of Kinect One landmark movements was moderate to excellent and depended on movement dimension, landmark location, and the task performed [17]. </plain></SENT>
+<SENT sid="33" pm="."><plain>Another study showed that gait analysis using multiple Kinect One sensors can provide an accurate analysis of human gait compared to MBS [18]. </plain></SENT>
+<SENT sid="34" pm="."><plain>During those two studies, authors successfully recorded motion simultaneously, showing that the infrared signals from the MBS do not provide too much noise and do not influence the results of the Kinect. </plain></SENT>
+</text></p><p><text><SENT sid="35" pm="."><plain>Despite these promising results, some issues still need to be solved in order to fully use this MLS in daily clinical practice and for unsupervised remote data collection by patients at home. </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain>Due to the information provided by the Kinect SDK (i.e., a simple skeleton model composed by 20 points for the old Kinect and 25 points for the Kinect One), it is not possible to directly obtain three-dimensional joint orientation poses. </plain></SENT>
+<SENT sid="37" pm="."><plain>Another issue related to motion analysis is the different conventions used (e.g., Euler’s sequences, orientation vector position), making comparison and interpretation of the results difficult [19]. </plain></SENT>
+</text></p><p><text><SENT sid="38" pm="."><plain>Some solutions have been proposed to increase the quality of the results, such as fusing the data from the Kinect and accelerometers [20], modifying the placement of the sensor according to the type of measurements [21,22], fusing the data from multiple Kinect sensors [18,23], or developing new algorithms for skeleton detection based on raw data [24]. </plain></SENT>
+</text></p><p><text><SENT sid="39" pm="."><plain>The aim of this study was to present an advanced (PiG, as in the ViconTM system ) MLS model [25] and a new method for motion analysis based on joint trajectories complementary to joint angles during rehabilitation exercises using a single Kinect camera. </plain></SENT>
+<SENT sid="40" pm="."><plain>Previous studies have shown that the Kinect sensor could be used to follow patients’ evolution during rehabilitation exercises [26,27]. </plain></SENT>
+<SENT sid="41" pm="."><plain>This kind of evaluation, done during the rehabilitation, has many advantages: (i) it is done in the natural environment of the patient (it is known that patients are not exhibiting the same performance when they are wearing underwear in a gait laboratory); (ii) when patients are immersed in the games they are less focused on the motion and on pain and can reach larger amplitudes than when they are asked to perform one particular motion; (iii) it provides time savings; and (iv) it is financially beneficial (the devices are affordable, and since the evaluation is done within the therapy session there is no dual pricing) [28]. </plain></SENT>
+</text></p><p><text><SENT sid="42" pm="."><plain>The different steps of the development of this method, the laboratory validation (i.e., comparison with a gold-standard optoelectronic device) and clinical validation are presented in this paper. </plain></SENT>
+<SENT sid="43" pm="."><plain>Results of this new method are easier to interpret and could therefore be used in clinics and at home to assess patient status and monitor follow-up. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="sec2-sensors-18-02216"><title><text><SENT sid="44" pm="."><plain>2. </plain></SENT>
+<SENT sid="45" pm="."><plain>Methods </plain></SENT>
+</text></title><p><text><SENT sid="46" pm="."><plain>Each frame of the MLS motion data was collected from the original hardware and was available as 3D coordinates of crude approximation of the main human joints (Microsoft Kinect SDK). </plain></SENT>
+<SENT sid="47" pm="."><plain>By piecewise linear connection of those joints, one can develop a stick-based model (i.e., adjacent points are linked together by a line representing human segments) for visualization and motion analysis. </plain></SENT>
+<SENT sid="48" pm="."><plain>The major drawback of this approach is the inability to allow anatomically correct descriptions of the joint angular motion according to current clinical conventions [19]. </plain></SENT>
+<SENT sid="49" pm="."><plain>An algorithm developed to extend the crude model provided by the Kinect containing several steps was previously developed and validated [25]. </plain></SENT>
+</text></p><p><text><SENT sid="50" pm="."><plain>Each link size can be corrected based on the assumption that the raw stick-based model supplies proper line orientation. </plain></SENT>
+<SENT sid="51" pm="."><plain>Starting from the native thorax stick model, one can substitute the spatial location of extremity joints, and therefore segment size, by processing each link sequentially from the root (e.g., thoracic segment) to the end joint (shoulder, then elbow, and finally wrist joint). </plain></SENT>
+</text></p><p><text><SENT sid="52" pm="."><plain>In total, 19 local coordinate systems (LCSs), following International Society of Biomechanics (ISB) recommendations [29] for axis orientation, were located in the origins indicated by numbers 1–19 in Figure 1. </plain></SENT>
+<SENT sid="53" pm="."><plain>Then, 33 LCSs origin motions relative to parent LCSs (Table 1) were created. </plain></SENT>
+</text></p><p><text><SENT sid="54" pm="."><plain>Each of the 33 trajectory plots were processed to assess different properties of the shape created by hodograph. </plain></SENT>
+<SENT sid="55" pm="."><plain>Similar to Duarte et al., nine parameters (1–9 in Table 2) were estimated directly from the point trajectories [30]. </plain></SENT>
+<SENT sid="56" pm="."><plain>This method was previously developed for balance analysis. </plain></SENT>
+<SENT sid="57" pm="."><plain>Those parameters have been validated to assess dynamic balance during SG rehabilitation exercises [31]. </plain></SENT>
+<SENT sid="58" pm="."><plain>We then extended this 2D analysis system into 3D analysis to get more information about the reaching area of the participants. </plain></SENT>
+</text></p><p><text><SENT sid="59" pm="."><plain>All trajectory points were also processed as a point cloud to assess principal and supplementary axes origin and orientation in the parent LCS. </plain></SENT>
+<SENT sid="60" pm="."><plain>The main principal axis corresponded to the maximum eigenvalue. </plain></SENT>
+<SENT sid="61" pm="."><plain>Then, the second axis was defined as perpendicular to the plane of the first axis and the radius vector of the principal axes origin. </plain></SENT>
+<SENT sid="62" pm="."><plain>The last axis direction was the right hand perpendicular to the first two. </plain></SENT>
+<SENT sid="63" pm="."><plain>The size of each axis was defined by min/max points distance estimated from projection on axis the trajectory cloud. </plain></SENT>
+</text></p><p><text><SENT sid="64" pm="."><plain>Then, 32 (numbered from 10 to 41) additional trajectory shape definition parameters were evaluated (Table 2). </plain></SENT>
+<SENT sid="65" pm="."><plain>Those 41 parameters were computed using the following equations. </plain></SENT>
+</text></p><p><text><SENT sid="66" pm="."><plain>Trajectories data were defined in LCS by a sequence of N points with frequency f (e.g., f=30 s−1) by (1)pi=[pix,piy,piz],i=1,…,N. </plain></SENT>
+</text></p><p><text><SENT sid="67" pm="."><plain>The point instantaneous absolute velocity value (||…|| is the Euclidean norm) and the total velocity (1×N) matrix are given by (2)vi=||[vix,viy,viz]||, (3)V=[v1,…,vN]. </plain></SENT>
+</text></p><p><text><SENT sid="68" pm="."><plain>The current length of the trajectory (travel) corresponds to LN:(4)Li=∑k=1i−1||pk+1−pk||,i=2,…,N. </plain></SENT>
+</text></p><p><text><SENT sid="69" pm="."><plain>The scalar motion parameters for the hodograph velocity are obtained with (5)VMean=1N∑k=1Nvk, (6)Vstd=(1N−1∑k=1N(vk−VMN)2)12, (7)VMax=max(V). </plain></SENT>
+</text></p><p><text><SENT sid="70" pm="."><plain>The total area of the trajectory reached by each joint is given by Equation (8), where Si,i=1,…,N−1 is the area of the triangle defined by three points [o,pi,pi+1]:(8)ΔN=∑i=1N−1Si. </plain></SENT>
+</text></p><p><text><SENT sid="71" pm="."><plain>The angle between two rays [pi,pi+1] is obtained by Equation (9), where hi=2Si/||pi||:(9)αi=arcsin(hi||pi+1||). </plain></SENT>
+</text></p><p><text><SENT sid="72" pm="."><plain>From there, the total angular travel (in degrees) is obtained with (10)ΦN=180π∑i=1N−1αi. </plain></SENT>
+</text></p><p><text><SENT sid="73" pm="."><plain>The angular velocity instant value and the total angular velocity (1×N−1) matrix are given by Equations (11) and (12), respectively (11)ωi=180πfαi (12)Ω=[ω1,…,ωN−1] </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>From Equation (12), the mean, standard deviation, and maximum angular velocity are easily obtained (ΩMean,Ωstd,ΩMax). </plain></SENT>
+</text></p><p><text><SENT sid="75" pm="."><plain>The mean (central) point of the cloud is given by (13)pMean=1N∑k=1Npk, and the centered point coordinate is (14)qi=pi−pMean. </plain></SENT>
+</text></p><p><text><SENT sid="76" pm="."><plain>The instantaneous inertia matrix is obtained with Equation (15), and the total cloud inertia matrix by Equation (16):(15)Ii=EqiqiT−qiTqi,E=diag(1), (16)I=∑i=1NIi. </plain></SENT>
+</text></p><p><text><SENT sid="77" pm="."><plain>Then, using singular value decomposition, a main first principal axis is obtained (17)G1=[G1x,G1y,G1z]T,||G1||=1. </plain></SENT>
+</text></p><p><text><SENT sid="78" pm="."><plain>Two additional orthogonal axes can be obtained using Equations (18) and (19), where c is a normalized (unit) vector with Cx,Cy,Cz projections:(18)c=c||c||,c˜=0−czcycz0−cx−cycx0, (19)G2=p˜MeanG1/||p˜MeanG1||, (20)G3=G˜<z:uniprot sup="inside" fb="0" ids="P04158">1G2</z:uniprot>. </plain></SENT>
+</text></p><p><text><SENT sid="79" pm="."><plain>c˜,p˜, and G˜ are skew-symmetric matrix representation for using in matrix shape of vector cross product. </plain></SENT>
+</text></p><p><text><SENT sid="80" pm="."><plain>A (3×3) orientation matrix is obtained with Equation (20), and a (N×3) projection matrix of q1 on its axis with Equation (21):(21)G=[G1,G2,G3], (22)QG=[q1,…,qN]TG. </plain></SENT>
+</text></p><p><text><SENT sid="81" pm="."><plain>The minimal and maximal points on orthogonal axis (size (1×3)):(23)QMin=min(QGij)i=1,…,N,j=1,2,3(X,Y,Z), (24)QMax=max(QGij)i=1,…,N,j=1,2,3(X,Y,Z). </plain></SENT>
+</text></p><p><text><SENT sid="82" pm="."><plain>For each axis number i=1,2,3, the two end point positions (parameters 19–30 for i=1,2):(25)B1i=pMean+QMiniGiT, (26)B2i=pMean+QMaxiiGiT. </plain></SENT>
+</text></p><p><text><SENT sid="83" pm="."><plain>The angle of view (parameters 12 and 13 for i=1,2):(27)ΦBi=(180/π)arccos(B1iB2i/(||B1i||||B2i||)). </plain></SENT>
+</text></p><p><text><SENT sid="84" pm="."><plain>The size of the axis (parameters 14 and 15 for i=1,2):(28)LBi=||B1i−B2i||. </plain></SENT>
+</text></p><p><text><SENT sid="85" pm="."><plain>The surface area of the rhomboid defined by the end points of the first and second axes (parameter 10) is given by Equation (29):(29)Smid=LB1LB2/2. </plain></SENT>
+</text></p><p><text><SENT sid="86" pm="."><plain>The volume of the diamond defined by six end points is finally obtained (parameter 11):(30)Vol=SmidLB3/3. </plain></SENT>
+</text></p><p><text><SENT sid="87" pm="."><plain>Parameters 31–37 (Table 2) are obtained using point fitting by sphere. </plain></SENT>
+<SENT sid="88" pm="."><plain>Parameters 38–41 are obtained using Delaunay triangulation and convex hull functions in Matlab. </plain></SENT>
+</text></p><p><text><SENT sid="89" pm="."><plain>Example of the different scores related to the reaching area are presented in Figure 2. </plain></SENT>
+</text></p><p><text><SENT sid="90" pm="."><plain>Using this method, up to 697 variables can be processed (41 parameters × 17 joints). </plain></SENT>
+<SENT sid="91" pm="."><plain>An intuitive and easy-to-interpret visualization tool must be developed to present the results and allow comparison between patients and control or to perform longitudinal patient follow-up. </plain></SENT>
+</text></p><p><text><SENT sid="92" pm="."><plain>This score can be based on single or multiple joints analysis. </plain></SENT>
+</text></p><p><text><SENT sid="93" pm="."><plain>For single joints, the total amount of analyzed joints is Nϕ. </plain></SENT>
+<SENT sid="94" pm="."><plain>For each single joint i, the angular values are ϕik=[ϕixk,ϕiyk,ϕizk],i=1,…,Nϕ,k=c,pt, where the k index corresponds to control (c) or patient (pt) data. </plain></SENT>
+<SENT sid="95" pm="."><plain>The joint angle dimensionless score values can be defined as sijϕ=ϕijc/ϕijpt,i=1,…,Nϕ,j=x,y,z, and the joint mean weighted score as Sϕi=(wixϕsixϕ+wiyϕsiyϕ+wizϕ<z:uniprot sup="inside" fb="0" ids="P54309">siz</z:uniprot>ϕ)/(wixϕ+wiyϕ+wizϕ),i=1,…,Nϕ, where wijϕ are weight factors. </plain></SENT>
+<SENT sid="96" pm="."><plain>Total body joint mean weighted (Wiϕ) score, from selected joints i∈iϕ, can finally be derived as Cϕ=∑i∈iϕWiϕSϕi/∑i∈iϕWiϕ . </plain></SENT>
+</text></p><p><text><SENT sid="97" pm="."><plain>This approach can be extended in the case of multiple joints data analysis based on trajectories analysis. </plain></SENT>
+<SENT sid="98" pm="."><plain>In the presented model for upper limb assessment, the total number of trajectories (Nj) is 17, and the total number of parameters for each trajectory (Npj) is 41. </plain></SENT>
+<SENT sid="99" pm="."><plain>Parameter values can be obtained with pijk,i=1,…,Npj,j=1,…,Nj,k=c,pt for a selected parent joint j, parameter number i, and control (c) or patient (pt) parameter values. </plain></SENT>
+<SENT sid="100" pm="."><plain>Then, a dimensionless parameter score can be defined as sijp=pijc/pijp,i=1,…,Npj,j=1,…,NJ, and a trajectory j mean weighted (Wijp) score, from a selected joint i∈Ip, can be defined as Spj=∑i∈IpWijpSijp/∑i∈IpWijp,j=1,…,NJ. </plain></SENT>
+<SENT sid="101" pm="."><plain>The total body trajectory-based analysis mean weighted score (Wjp), from selected trajectories j∈Jp, can be finally derived as Cp=∑j∈JpWjpSpj/∑j∈JpWjp. </plain></SENT>
+</text></p><p><text><SENT sid="102" pm="."><plain>An example of this visualization tool is presented in Figure 3. </plain></SENT>
+</text></p></sec></SecTag><sec id="sec3-sensors-18-02216"><title><text><SENT sid="103" pm="."><plain>3. </plain></SENT>
+<SENT sid="104" pm="."><plain>Laboratory Setting Validation </plain></SENT>
+</text></title><sec sec-type="subjects" id="sec3dot1-sensors-18-02216"><title><text><SENT sid="105" pm="."><plain>3.1. </plain></SENT>
+<SENT sid="106" pm="."><plain>Participants </plain></SENT>
+</text></title><p><text><SENT sid="107" pm="."><plain>Forty healthy adults (24 ± 6 years old, 172 ± 8 cm height, 68 ± 10 kg weight, 23 ± 3 kg/m2 BMI, 18 women) were recruited to participate in this study. </plain></SENT>
+<SENT sid="108" pm="."><plain>This study was approved by the Ethical Committee of the Erasme Hospital (EudraCT/CCB : B406201215142), and written informed consent was obtained from all subjects prior to their participation. </plain></SENT>
+</text></p></sec><sec id="sec3dot2-sensors-18-02216"><title><text><SENT sid="109" pm="."><plain>3.2. </plain></SENT>
+<SENT sid="110" pm="."><plain>Material </plain></SENT>
+</text></title><p><text><SENT sid="111" pm="."><plain>The MLS sensor (Kinect) was placed on a tripod 1.5 m above the floor. </plain></SENT>
+<SENT sid="112" pm="."><plain>Subjects stood 2.5 m from the camera; this distance was found to provide optimal results in a previous study [3]. </plain></SENT>
+<SENT sid="113" pm="."><plain>Subjects were in underwear to allow reliable placement of the markers for the MBS analysis taking place simultaneously. </plain></SENT>
+<SENT sid="114" pm="."><plain>Experiments took place in a motion analysis laboratory. </plain></SENT>
+</text></p><p><text><SENT sid="115" pm="."><plain>Prior to motion analysis, the subjects were asked to stand still in anatomical position facing the MLS camera. </plain></SENT>
+<SENT sid="116" pm="."><plain>Subjects were then asked to maintain three different poses (3 s for each of the poses; see Figure 4) before recording the motion in order to calibrate the MLS data processing pipeline. </plain></SENT>
+</text></p><p><text><SENT sid="117" pm="."><plain>MBS data were simultaneously collected from a state-of-the-art stereophotogrammetric system (Vicon, 8 MXT40s cameras, Vicon Nexus software, frequency: 90 Hz) that tracks the spatial trajectories of the reflective markers set on the subjects. </plain></SENT>
+<SENT sid="118" pm="."><plain>A modified Plug-in Gait (PiG) model was adopted. </plain></SENT>
+<SENT sid="119" pm="."><plain>In addition tothe usual PiG markers, markers were set on the medial epicondyle of the humeral and femoral bones. </plain></SENT>
+<SENT sid="120" pm="."><plain>Thirty-four markers were positioned by the same observer during the entire study. </plain></SENT>
+<SENT sid="121" pm="."><plain>The image frame rate used was equal to 30 fps for the MLS. </plain></SENT>
+<SENT sid="122" pm="."><plain>MLS data were collected with a laptop (Sony Vaio SVF15323CXB, 1.6 GHz Intel Core i5-4200U, 6 GB DDR3L SDRAM, 750 GB (5400 rpm) <z:uniprot sup="inside" fb="4" ids="Q39218">SATA</z:uniprot> Hard Drive). </plain></SENT>
+</text></p></sec><sec id="sec3dot3-sensors-18-02216"><title><text><SENT sid="123" pm="."><plain>3.3. </plain></SENT>
+<SENT sid="124" pm="."><plain>The Serious Games </plain></SENT>
+</text></title><p><text><SENT sid="125" pm="."><plain>Participants played one mini-game that was especially developed for physical rehabilitation: the Wipe Out [32] (Figure 5). </plain></SENT>
+<SENT sid="126" pm="."><plain>The player has to clean the screen covered with mud using a tissue controlled by mediolateral and inferior–superior displacements of the wrist relative to the trunk. </plain></SENT>
+<SENT sid="127" pm="."><plain>Participants were asked to play three repetitions of the games. </plain></SENT>
+<SENT sid="128" pm="."><plain>Motions were simultaneously recorded with the MBS and the MLS. </plain></SENT>
+</text></p></sec><sec id="sec3dot4-sensors-18-02216"><title><text><SENT sid="129" pm="."><plain>3.4. </plain></SENT>
+<SENT sid="130" pm="."><plain>Data Processing and Statistics </plain></SENT>
+</text></title><p><text><SENT sid="131" pm="."><plain>The different scores and parameters described above were computed for the two devices. </plain></SENT>
+<SENT sid="132" pm="."><plain>The mean of the results of three repetitions of the games were computed for statistical analysis. </plain></SENT>
+<SENT sid="133" pm="."><plain>Normality of the data was checked graphically (histogram, boxplot, and qplot) and Shapiro–Wilk test. </plain></SENT>
+<SENT sid="134" pm="."><plain>Mean values and standard deviations were calculated. </plain></SENT>
+<SENT sid="135" pm="."><plain>Discrepancies between the MBS and the different versions of MLS were tested using Pearson’s correlation coefficient (R). </plain></SENT>
+<SENT sid="136" pm="."><plain>The reproducibility coefficient (<z:uniprot sup="inside" fb="27" ids="Q9BGI7,O18914,Q95170,O18913,O18912,P04000,Q6WKZ4">RCP</z:uniprot>=1.96 × STD) and the coefficient of variation (CV=STD/Mean) were expressed as percentages. </plain></SENT>
+<SENT sid="137" pm="."><plain>Statistics and data processing were done with MATLAB and Statistics Toolbox Release 2016a (The Mathworks, Inc., Natick, Massachusetts, United States). </plain></SENT>
+</text></p></sec><sec sec-type="results" id="sec3dot5-sensors-18-02216"><title><text><SENT sid="138" pm="."><plain>3.5. </plain></SENT>
+<SENT sid="139" pm="."><plain>Results of the Laboratory Validation </plain></SENT>
+</text></title><p><text><SENT sid="140" pm="."><plain>Due to space restriction only some results are presented and will be discussed. </plain></SENT>
+</text></p><p><text><SENT sid="141" pm="."><plain>For upper limb analysis, up to 328 parameters can be obtained (4 joints × 2 sides × 41 parameters) </plain></SENT>
+</text></p><p><text><SENT sid="142" pm="."><plain>Results of the seven selected parameters for the relative displacements of elbow relative to shoulder (“shoulder”, points 4 and 5 in Figure 1) and wrist relative to shoulder (“wrist”, points 16 and 17 in Figure 1) for right and left sides are presented in Table 3. </plain></SENT>
+</text></p><p><text><SENT sid="143" pm="."><plain>All the parameters, except the angular velocity (mean R = 0.51 for the four joints), presented good correlation between results of the MLS and the MBS. </plain></SENT>
+<SENT sid="144" pm="."><plain>On the other hand, the best results in terms of correlation, <z:uniprot sup="inside" fb="27" ids="Q9BGI7,O18914,Q95170,O18913,O18912,P04000,Q6WKZ4">RCP</z:uniprot>, and CV were obtained for the velocity (expressed in m/s). </plain></SENT>
+</text></p><p><text><SENT sid="145" pm="."><plain>For both shoulders and wrists, better results were obtained for the total length of the trajectory, the total angle, and the mean velocity. </plain></SENT>
+</text></p><p><text><SENT sid="146" pm="."><plain>Although good correlations were found for parameters related to the reaching area (i.e., volume, sphere, and surface), lower <z:uniprot sup="inside" fb="27" ids="Q9BGI7,O18914,Q95170,O18913,O18912,P04000,Q6WKZ4">RCP</z:uniprot> and CV were found for them. </plain></SENT>
+</text></p><p><text><SENT sid="147" pm="."><plain>The next step of the study was to determine if those parameters are sensitive enough to discriminate healthy subjects from patients. </plain></SENT>
+</text></p></sec></sec><sec id="sec4-sensors-18-02216"><title><text><SENT sid="148" pm="."><plain>4. </plain></SENT>
+<SENT sid="149" pm="."><plain>Validation in Clinical Environment </plain></SENT>
+</text></title><sec sec-type="subjects" id="sec4dot1-sensors-18-02216"><title><text><SENT sid="150" pm="."><plain>4.1. </plain></SENT>
+<SENT sid="151" pm="."><plain>Participants </plain></SENT>
+</text></title><p><text><SENT sid="152" pm="."><plain>Three groups of subjects and patients were tested in order to evaluate the clinical relevance of the newly developed evaluation method and scores:Adults: Sixteen healthy young adults (results of the laboratory validation were used)Elderly: Seventeen patients (79±5 years old) hospitalized in a geriatric department were included in the study. </plain></SENT>
+<SENT sid="153" pm="."><plain>This study was approved by the local ethical committee of Erasme Hospital (Eudract: B406201628246), and informed consent was obtained from the patients prior to their participation.Stroke: 10 patients with chronic stroke (73±8 years old) participated in this study. </plain></SENT>
+<SENT sid="154" pm="."><plain>This study was approved by the ethical committee of Erasme Hospital (EudraCT: B406201526116), and informed consent was obtained from the patients prior to their participation. </plain></SENT>
+</text></p></sec><sec id="sec4dot2-sensors-18-02216"><title><text><SENT sid="155" pm="."><plain>4.2. </plain></SENT>
+<SENT sid="156" pm="."><plain>Material </plain></SENT>
+</text></title><p><text><SENT sid="157" pm="."><plain>The same methodology as for the laboratory setting validation was used. </plain></SENT>
+<SENT sid="158" pm="."><plain>Patients were in underwear so that clothing did not interfere with skeletal detection. </plain></SENT>
+<SENT sid="159" pm="."><plain>Experiments were done in the hospital rooms, in contrast to the other protocol, the patients were not equipped with reflective markers. </plain></SENT>
+<SENT sid="160" pm="."><plain>This situation is more natural than the evaluation performed in the gait lab and close to the daily clinics and rehabilitation. </plain></SENT>
+</text></p></sec><sec id="sec4dot3-sensors-18-02216"><title><text><SENT sid="161" pm="."><plain>4.3. </plain></SENT>
+<SENT sid="162" pm="."><plain>Data Processing and Statistics </plain></SENT>
+</text></title><p><text><SENT sid="163" pm="."><plain>Each participant played three repetitions of the games. </plain></SENT>
+<SENT sid="164" pm="."><plain>The different scores and parameters described above were computed for the three groups. </plain></SENT>
+<SENT sid="165" pm="."><plain>The mean of the results of three repetitions of the games were computed for statistical analysis. </plain></SENT>
+<SENT sid="166" pm="."><plain>Normality of the data was checked using the Shapiro—Wilk test. </plain></SENT>
+<SENT sid="167" pm="."><plain>Mean values and standard deviations were calculated. </plain></SENT>
+<SENT sid="168" pm="."><plain>One-way analysis of variance (ANOVA) was used to compared the groups, and post-hoc analysis was done using the Bonferroni procedure. </plain></SENT>
+</text></p></sec><sec sec-type="results" id="sec4dot4-sensors-18-02216"><title><text><SENT sid="169" pm="."><plain>4.4. </plain></SENT>
+<SENT sid="170" pm="."><plain>Results of the Validation in the Clinical Environment </plain></SENT>
+</text></title><p><text><SENT sid="171" pm="."><plain>Mean results of the three groups and statistics are presented in Table 4. </plain></SENT>
+<SENT sid="172" pm="."><plain>The same parameters as during the clinical validation are presented. </plain></SENT>
+</text></p><p><text><SENT sid="173" pm="."><plain>Concerning the shoulders, no statistically significant difference was found for the length, but highly significant differences were found for both the total angle, the velocity for young adults and elderly individuals, and stroke patients. </plain></SENT>
+<SENT sid="174" pm="."><plain>The only parameters that could differentiate the three groups, based on relative motion of the elbow relative to the shoulder, was the volume of the sphere. </plain></SENT>
+</text></p><p><text><SENT sid="175" pm="."><plain>Concerning the wrists, statistically significant differences were found for the length and the velocity between young adults, elderly, and stroke patients. </plain></SENT>
+<SENT sid="176" pm="."><plain>For the volume, significant differences were found only between young adults and elderly individuals. </plain></SENT>
+<SENT sid="177" pm="."><plain>The surface and the total angles presented statistically significant differences between the three groups. </plain></SENT>
+</text></p></sec></sec><SecTag type="DISCUSS"><sec id="sec5-sensors-18-02216"><title><text><SENT sid="178" pm="."><plain>5. </plain></SENT>
+<SENT sid="179" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="180" pm="."><plain>3D evaluation of the upper limbs is still a complex task in clinics, due to non-cyclic motions, various degrees of freedom, different conventions for presenting the results or processing methods [19,29], etc. </plain></SENT>
+</text></p><p><text><SENT sid="181" pm="."><plain>The availability of the Kinect sensors coupled to the development and use of serious games in physical rehabilitation [33] offers a new perspective for long-term evaluation and follow-up during rehabilitation. </plain></SENT>
+<SENT sid="182" pm="."><plain>Microsoft stopped manufacturing the Kinect in 2015 and the Kinect One in 2017. </plain></SENT>
+<SENT sid="183" pm="."><plain>Therefore, other 3D cameras (e.g., Orbbec Astra ProTM, Asus Xtion sensorsTM) or other affordable devices (e.g., multiple RGBD cameras [34]) could be used instead of the Kinect. </plain></SENT>
+</text></p><p><text><SENT sid="184" pm="."><plain>It is indeed possible to track and analyze motions performed by patients during serious games exercises [35]. </plain></SENT>
+<SENT sid="185" pm="."><plain>However, there are still some problems to solve in order to get relevant information to provide feedback for both patients and clinicians. </plain></SENT>
+<SENT sid="186" pm="."><plain>Compared to the most-used motion analysis in clinics (the gait analysis), the data collected during serious games rehabilitation exercises are usually longer (mini-games are approximately one minute, gait analysis is only focusing on a few steps), non-cyclic (gait cycles are normalized by step), and involve free motions (patients need to perform a task but they can use different strategies (e.g., shoulder or elbow)). </plain></SENT>
+<SENT sid="187" pm="."><plain>Therefore, it is not possible to average and normalize the motions performed by the patients, and analyzing only the ranges of motion is too restrictive to summarize one-to-two minute exercises. </plain></SENT>
+</text></p><p><text><SENT sid="188" pm="."><plain>Two solutions are possible to obtain relevant information from the rehabilitation exercises: </plain></SENT>
+</text></p><p><text><SENT sid="189" pm="."><plain>The first is to analyze the performance of the patients within the games [36]: time required to finish, number of successes, failures, precision, etc. </plain></SENT>
+<SENT sid="190" pm="."><plain>Although those parameters are relevant in clinics, they are only an indirect indicator of the status of the patients. </plain></SENT>
+<SENT sid="191" pm="."><plain>Direct indicators (i.e., biomechanic and functional analysis) should be obtained by analyzing the motions performed by the patients and extracting clinically relevant information. </plain></SENT>
+</text></p><p><text><SENT sid="192" pm="."><plain>The second solution, presented in this paper, is to analyze the trajectories performed by the patients and extract relevant information about speed, total displacement, and reaching area. </plain></SENT>
+</text></p><p><text><SENT sid="193" pm="."><plain>First, the results obtained with the MLS were compared with gold-standard MBS. </plain></SENT>
+<SENT sid="194" pm="."><plain>Good agreements were found between the MLS and MBS for the different studied parameters, especially for the speed-related parameters (m/s) and the reaching area (Table 3). </plain></SENT>
+<SENT sid="195" pm="."><plain>Gross and fine motor controls are complex tasks involving many different components of the central and peripheral nervous systems [37]. </plain></SENT>
+<SENT sid="196" pm="."><plain>Important natural alterations occur during a lifetime: a slow maturation of all the components during childhood to acquire gross and later fine motor control [38]; then, physiological declines of motor functions are observed starting around 60 years old [39]. </plain></SENT>
+<SENT sid="197" pm="."><plain>Speed of motion is among the most clinically relevant information in aging [40] and in various neurological diseases (e.g., stroke [41]). </plain></SENT>
+<SENT sid="198" pm="."><plain>However, not only the speed of motion is important in clinics [42]—without gross and fine motor control, patients cannot independently perform activities of daily living [43]. </plain></SENT>
+<SENT sid="199" pm="."><plain>Therefore, this analysis must be coupled with an accuracy assessment [36]. </plain></SENT>
+</text></p><p><text><SENT sid="200" pm="."><plain>Reaching area and other related parameters informing about the autonomy of patients are popular in rehabilitation and occupational therapy, since this is a good indicator of the independence of the patients [44]. </plain></SENT>
+<SENT sid="201" pm="."><plain>The variables about the volume reached or the area swept in the average plane of motion were highly correlated between both devices (Table 3). </plain></SENT>
+</text></p><p><text><SENT sid="202" pm="."><plain>During the second part of this study, we tested the system with elderly and stroke patients to determine if the scores could differentiate the three groups. </plain></SENT>
+<SENT sid="203" pm="."><plain>Concerning aging, we observed a decrease of velocity and of the reaching area, which is coherent with the physiology of aging [39]. </plain></SENT>
+<SENT sid="204" pm="."><plain>Concerning the comparison between elderly and stroke patients, the results must be interpreted carefully because of the small sample size. </plain></SENT>
+<SENT sid="205" pm="."><plain>This part of the study was a proof of concept to evaluate the possibility of such kind of techniques. </plain></SENT>
+<SENT sid="206" pm="."><plain>Larger studies are needed to determine if different motor patterns can be found depending on various pathologies. </plain></SENT>
+</text></p><p><text><SENT sid="207" pm="."><plain>One of the possible issues related to this method is that up to 328 parameters can be obtained for upper limbs analysis. </plain></SENT>
+<SENT sid="208" pm="."><plain>It is thus not possible for clinicians or patients to analyze all those parameters. </plain></SENT>
+<SENT sid="209" pm="."><plain>Two problems must be solved before the system can be used in clinics: data reduction/selection and data visualization. </plain></SENT>
+</text></p><p><text><SENT sid="210" pm="."><plain>Two methods can be used to determine the more relevant parameters. </plain></SENT>
+</text></p><p><text><SENT sid="211" pm="."><plain>The first is based on expert’s (i.e., clinician’s) opinion and expertise. </plain></SENT>
+<SENT sid="212" pm="."><plain>According to the pathology, they select what they think is the most appropriate and relevant [45]. </plain></SENT>
+</text></p><p><text><SENT sid="213" pm="."><plain>The second approach is to use statistical methods. </plain></SENT>
+<SENT sid="214" pm="."><plain>Principal component analysis can be used to select the most discriminant parameters for each population (if the sample size is large enough). </plain></SENT>
+<SENT sid="215" pm="."><plain>Clustering or other machine learning methods can be used to determine the most relevant parameters to detect differences between healthy subjects and patients [46]. </plain></SENT>
+</text></p><p><text><SENT sid="216" pm="."><plain>Both methods have advantages and disadvantages. </plain></SENT>
+<SENT sid="217" pm="."><plain>The advantage of expert-based selection (supervised) is that the clinicians (the final users of this solution) are choosing parameters that they understand and are meaningful. </plain></SENT>
+<SENT sid="218" pm="."><plain>The weak point of this method is that they are probably missing plenty of relevant information because of the number of new parameters that they are unaware of. </plain></SENT>
+<SENT sid="219" pm="."><plain>Concerning the unsupervised method, it is the opposite situation: all of the data is analyzed without prior clinical assumptions and therefore parameters will be selected that are relevant from a statistical point of view but which may be difficult to interpret and/or understand for the clinicians. </plain></SENT>
+<SENT sid="220" pm="."><plain>This gap between the clinic and the development of new methods and technology is becoming increasingly important, and special attention must be paid to it in order to continue developing useful technologies [47]. </plain></SENT>
+<SENT sid="221" pm="."><plain>A mixed approach between clinically oriented selection of the data (experts’ opinion) and machine learning methods must be encouraged in order to have solutions that can be used in daily clinics. </plain></SENT>
+</text></p><p><text><SENT sid="222" pm="."><plain>Due to financial constraints and the lack of access to clinicians, the time in front of the patient during consultation is continuously decreasing [48]. </plain></SENT>
+<SENT sid="223" pm="."><plain>In this particular context, rapid and easy-to-interpret visualization tools must be developed. </plain></SENT>
+<SENT sid="224" pm="."><plain>An alternative visualization of the scoring (compared to Table 3 and Table 4) is presented in Figure 3. </plain></SENT>
+</text></p><p><text><SENT sid="225" pm="."><plain>Selected parameters (n = 17) for visualization are grouped per angular (Ang, n = 6), volumetric (Vol, n = 5), and length (Len, n = 6) characteristics. </plain></SENT>
+<SENT sid="226" pm="."><plain>The reference value of the score is 100%, and is indicated by the yellow circle. </plain></SENT>
+<SENT sid="227" pm="."><plain>Score values of the parameters in the range [±100%] are presented inside each sector, and the radius of the sector is proportional to the score value. </plain></SENT>
+<SENT sid="228" pm="."><plain>Mean scores are presented for each group, and the total score from the 17 parameters is depicted in the yellow circle in the center. </plain></SENT>
+<SENT sid="229" pm="."><plain>The main representative results for parameters from angle, length, and volume are plotted in a star diagram (Figure 3). </plain></SENT>
+</text></p><p><text><SENT sid="230" pm="."><plain>In this example, results for both limbs are compared with reference values of healthy subjects and expressed in percentage. </plain></SENT>
+</text></p><p><text><SENT sid="231" pm="."><plain>In the case of asymmetric pathologies (e.g., hemiplegia), results of the affected limb can be compared with the healthy one [49]. </plain></SENT>
+</text></p><p><text><SENT sid="232" pm="."><plain>Future work will focus on the selection of the best parameters and including other relevant parameters such as the smoothness of the motion using normalized jerk in order to assess the quality of the exercises [50]. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="CONCL"><sec id="sec6-sensors-18-02216"><title><text><SENT sid="233" pm="."><plain>6. </plain></SENT>
+<SENT sid="234" pm="."><plain>Conclusions </plain></SENT>
+</text></title><p><text><SENT sid="235" pm="."><plain>Quantified 3D functional evaluation of the upper limb is still a challenge for clinicians. </plain></SENT>
+<SENT sid="236" pm="."><plain>This evaluation is particularly important in order to best guide treatment and revalidation in order to guarantee optimal results and thus improve patient autonomy. </plain></SENT>
+</text></p><p><text><SENT sid="237" pm="."><plain>From a technological point of view, the major advantage of this new method is the frame-by-frame straightforward calculation of its 34 additional points from the crude skeleton captured by MLS in order to evaluate and visualize full 3D data in real time. </plain></SENT>
+<SENT sid="238" pm="."><plain>Point trajectory analysis is usually used for converting marker tracks to six degrees of freedom (DoFs) link motion if at least three link related markers are available [51]. </plain></SENT>
+<SENT sid="239" pm="."><plain>This is a well-defined way of representing motion kinematics, but it requires some specific knowledge about orientation and translation representation in global or/and local coordinate systems. </plain></SENT>
+<SENT sid="240" pm="."><plain>This knowledge (ISB conventions, biomechanical background) has been incorporated in the model to enrich MLS data. </plain></SENT>
+</text></p><p><text><SENT sid="241" pm="."><plain>In addition to the optimization algorithm, several parameters were processed based on the trajectories performed by the patients. </plain></SENT>
+<SENT sid="242" pm="."><plain>Further studies are needed to select which parameters are the most relevant to perform functional evaluation and long-term follow-up during the rehabilitation. </plain></SENT>
+<SENT sid="243" pm="."><plain>Results of the analysis are presented for intuitive and easy-to-understand interpretation for both patients and clinicians thanks to the user-friendly visualization interface. </plain></SENT>
+</text></p><p><text><SENT sid="244" pm="."><plain>From the rehabilitation point of view, the innovative approach presented in this paper of combining revalidation exercises with functional evaluation offers many advantages: saving time and money, patients are immersed in the game and can therefore perform more repetitions but also more natural movements because they do not have the impression of being evaluated, evaluation is automatic and objective, it does not require the presence of a clinician, measurements can be made in the patient’s ecological environment on a frequent basis, patients can directly visualize the evolution of their results from session-to-session, etc. </plain></SENT>
+</text></p><p><text><SENT sid="245" pm="."><plain>The proposed new scoring system to perform functional assessment coupled to rehabilitation exercises has been validated. </plain></SENT>
+<SENT sid="246" pm="."><plain>Therefore, results of this kind of evaluation could be used to monitor patients and to perform long-term follow-up during rehabilitation thanks to the visualization interface. </plain></SENT>
+<SENT sid="247" pm="."><plain>These tools can be useful for both patients and clinicians. </plain></SENT>
+</text></p></sec></SecTag></body><back><notes><title>Author Contributions</title><p>Conceptualization, B.B.; Data curation, B.B.; Formal analysis, B.B. and V.S.; Investigation, B.B.; Project administration, S.V.S.J. and B.J.; Resources, S.V.S.J.; Software, V.S. and L.O.; Supervision, S.V.S.J. and B.J.; Visualization, V.S.; Writing—original draft, B.B.; Writing—review &amp; editing, S.V.S.J. and B.J.</p></notes><notes><title>Funding</title><p>This study is a part of the ICT4Rehab and RehabGoesHome projects (<uri xlink:href="www.ict4rehab.org">www.ict4rehab.org</uri>). Those projects were funded by Innoviris (Brussels Capital Region).</p></notes><notes notes-type="COI-statement"><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><SecTag type="ABBR"><glossary><title>Abbreviations</title><p>The following abbreviations are used in this manuscript:</p><array orientation="portrait"><tbody><tr><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>MLS: </plain></SENT>
+</text></td><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>Markerless system </plain></SENT>
+</text></td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>MBS: </plain></SENT>
+</text></td><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>Marker-based system </plain></SENT>
+</text></td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>LCS: </plain></SENT>
+</text></td><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>Local coordinate system </plain></SENT>
+</text></td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain><z:uniprot sup="inside" fb="27" ids="Q9BGI7,O18914,Q95170,O18913,O18912,P04000,Q6WKZ4">RCP</z:uniprot>: </plain></SENT>
+</text></td><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>Reproducibility coefficient </plain></SENT>
+</text></td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>CV: </plain></SENT>
+</text></td><td align="left" valign="middle" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>Coefficient of variation </plain></SENT>
+</text></td></tr></tbody></array></glossary></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="B1-sensors-18-02216"><text><SENT sid="258" pm="."><plain>1.ClarkR.PuaY.FortinK.RitchieC.WebsterK.DenehyL.BryantA.Validity of the Microsoft Kinect for assessment of postural controlGait Posture20123637237710.1016/j.gaitpost.2012.03.033<?supplied-pmid 22633015?>22633015 </plain></SENT>
+</text></ref><ref id="B2-sensors-18-02216"><text><SENT sid="259" pm="."><plain>2.ClarkR.PuaY.BryantA.HuntM.Validity of the Microsoft Kinect for providing lateral trunk lean feedback during gait retrainingGait Posture2013381064106610.1016/j.gaitpost.2013.03.029<?supplied-pmid 23643880?>23643880 </plain></SENT>
+</text></ref><ref id="B3-sensors-18-02216"><text><SENT sid="260" pm="."><plain>3.BonnechèreB.JansenB.SalviaP.BouzahoueneH.OmelinaL.SholukhaV.CornelisJ.RoozeM.Van Sint JanS.Determination of the precision and accuracy of morphological measurements using the Kinect™ sensor: Comparison with standard stereophotogrammetryErgonomics20145762263110.1080/00140139.2014.884246<?supplied-pmid 24646374?>24646374 </plain></SENT>
+</text></ref><ref id="B4-sensors-18-02216"><text><SENT sid="261" pm="."><plain>4.BonnechèreB.JansenB.SalviaP.BouzahoueneH.OmelinaL.MoiseevF.SholukhaV.CornelisJ.RoozeM.Van Sint JanS.Validity and reliability of the Kinect within functional assessment activities: Comparison with standard stereophotogrammetryGait Posture20143959359810.1016/j.gaitpost.2013.09.018<?supplied-pmid 24269523?>24269523 </plain></SENT>
+</text></ref><ref id="B5-sensors-18-02216"><text><SENT sid="262" pm="."><plain>5.PfisterA.WestA.BronnerS.NoahJ.Comparative abilities of Microsoft Kinect and Vicon 3D motion capture for gait analysisJ. </plain></SENT>
+<SENT sid="263" pm="."><plain>Med. </plain></SENT>
+<SENT sid="264" pm="."><plain>Eng. </plain></SENT>
+<SENT sid="265" pm="."><plain>Technol.20143827428010.3109/03091902.2014.909540<?supplied-pmid 24878252?>24878252 </plain></SENT>
+</text></ref><ref id="B6-sensors-18-02216"><text><SENT sid="266" pm="."><plain>6.GrayA.WillisB.SkubicM.HuoZ.RazuS.ShermanS.<z:uniprot sup="inside" fb="1" ids="Q9X2F4">TMG</z:uniprot>.JahandarA.GulbrandsenT.MillerS.SiesenerN.Development and Validation of a Portable and Inexpensive Tool to Measure the Drop Vertical Jump Using the Microsoft Kinect V2Sport Health2017953754410.1177/1941738117726323<?supplied-pmid 28846505?>28846505 </plain></SENT>
+</text></ref><ref id="B7-sensors-18-02216"><text><SENT sid="267" pm="."><plain>7.KimD.KimD.KwakK.Classification of K-Pop Dance Movements Based on Skeleton Information Obtained by a Kinect SensorSensors201717126110.3390/s17061261<?supplied-pmid 28587177?>28587177 </plain></SENT>
+</text></ref><ref id="B8-sensors-18-02216"><text><SENT sid="268" pm="."><plain>8.Della CroceU.LeardiniA.ChiariL.CappozzoA.Human movement analysis using stereophotogrammetry. </plain></SENT>
+<SENT sid="269" pm="."><plain>Part 4: Assessment of anatomical landmark misplacement and its effects on joint kinematicsGait Posture20052122623710.1016/j.gaitpost.2004.05.003<?supplied-pmid 15639401?>15639401 </plain></SENT>
+</text></ref><ref id="B9-sensors-18-02216"><text><SENT sid="270" pm="."><plain>9.LeardiniA.ChiariL.Della CroceU.CappozzoA.Human movement analysis using stereophotogrammetry. </plain></SENT>
+<SENT sid="271" pm="."><plain>Part 3. </plain></SENT>
+<SENT sid="272" pm="."><plain>Soft tissue artifact assessment and compensationGait Posture20052121222510.1016/j.gaitpost.2004.05.002<?supplied-pmid 15639400?>15639400 </plain></SENT>
+</text></ref><ref id="B10-sensors-18-02216"><text><SENT sid="273" pm="."><plain>10.KurilloG.ChenA.BajcsyR.HanJ.Evaluation of upper extremity reachable workspace using Kinect cameraTechnol. </plain></SENT>
+<SENT sid="274" pm="."><plain>Health Care201321641656<?supplied-pmid 24284552?>24284552 </plain></SENT>
+</text></ref><ref id="B11-sensors-18-02216"><text><SENT sid="275" pm="."><plain>11.HanJ.KurilloG.AbreashR.de BieE.NicoriciA.BajcsyR.Reachable Workspace in Facioscapulohumeral muscular dystrophy (FSHD) by KinectTechnol. </plain></SENT>
+<SENT sid="276" pm="."><plain>Health Care20155116817510.1002/mus.24287<?supplied-pmid 24828906?>24828906 </plain></SENT>
+</text></ref><ref id="B12-sensors-18-02216"><text><SENT sid="277" pm="."><plain>12.HanJ.de BieE.NicoriciA.AbreashR.AnthonisenC.BajcsyR.KurilloG.McdonaldC.Reachable workspace and performance of upper limb (PUL) in duchenne muscular dystrophyMuscle Nerve20165354555410.1002/mus.24894<?supplied-pmid 26342193?>26342193 </plain></SENT>
+</text></ref><ref id="B13-sensors-18-02216"><text><SENT sid="278" pm="."><plain>13.ElgendiM.PiconF.Magnenat-ThalmannN.AbbottD.Arm movement speed assessment via a Kinect camera: A preliminary study in healthy subjectsBiomed. </plain></SENT>
+<SENT sid="279" pm="."><plain>Eng. </plain></SENT>
+<SENT sid="280" pm="."><plain>Online2014138810.1186/1475-925X-13-88<?supplied-pmid 24968711?>24968711 </plain></SENT>
+</text></ref><ref id="B14-sensors-18-02216"><text><SENT sid="281" pm="."><plain>14.PagliariD.PintoL.Calibration of Kinect for Xbox One and Comparison between the Two Generations of Microsoft SensorsSensors201515275692758910.3390/s151127569<?supplied-pmid 26528979?>26528979 </plain></SENT>
+</text></ref><ref id="B15-sensors-18-02216"><text><SENT sid="282" pm="."><plain>15.WilsonJ.Khan-PerezJ.MarleyD.ButtressS.WaltonM.LiB.RoyB.Can shoulder range of movement be measured accurately using the Micorsoft Kinect sensor plus Medical Interactive Recovery Assistant (MIRA) software?J. </plain></SENT>
+<SENT sid="283" pm="."><plain>Shoulder Elb. </plain></SENT>
+<SENT sid="284" pm="."><plain>Surg.201726e382e38910.1016/j.jse.2017.06.004<?supplied-pmid 28865963?>28865963 </plain></SENT>
+</text></ref><ref id="B16-sensors-18-02216"><text><SENT sid="285" pm="."><plain>16.ZulkarnainR.KimG.AdikrishnaA.HongH.KimY.JeanI.Digital data acquisition of shoulder range of motion and arm motion smoothness using Kinect v2J. </plain></SENT>
+<SENT sid="286" pm="."><plain>Shoulder Elb. </plain></SENT>
+<SENT sid="287" pm="."><plain>Surg.20172689590110.1016/j.jse.2016.10.026<?supplied-pmid 28131678?>28131678 </plain></SENT>
+</text></ref><ref id="B17-sensors-18-02216"><text><SENT sid="288" pm="."><plain>17.OtteK.KayserB.Mansow-ModelS.VerrelJ.PaulF.BrandtA.Schmitz-HübschT.Accuracy and Reliability of the Kinect Version 2 for Clinical Measurement of Motor FunctionPLoS ONE201611e016653210.1371/journal.pone.0166532<?supplied-pmid 27861541?>27861541 </plain></SENT>
+</text></ref><ref id="B18-sensors-18-02216"><text><SENT sid="289" pm="."><plain>18.MüllerB.IlgW.GieseM.LudolphN.Validation of enhanced kinect sensor based motion capturing for gait assessmentPLoS ONE201712e017581310.1371/journal.pone.0175813<?supplied-pmid 28410413?>28410413 </plain></SENT>
+</text></ref><ref id="B19-sensors-18-02216"><text><SENT sid="290" pm="."><plain>19.MacWilliamsB.DavisR.Addressing some misperceptions of the joint coordinate systemJ. </plain></SENT>
+<SENT sid="291" pm="."><plain>Biomech. </plain></SENT>
+<SENT sid="292" pm="."><plain>Eng.20131355450610.1115/1.4024142<?supplied-pmid 24231967?>24231967 </plain></SENT>
+</text></ref><ref id="B20-sensors-18-02216"><text><SENT sid="293" pm="."><plain>20.AtrsaeiA.SalariehH.AlastyA.Human Arm Motion Tracking by Orientation-Based Fusion of Inertial Sensors and Kinect Using Unscented Kalman FilterJ. </plain></SENT>
+<SENT sid="294" pm="."><plain>Biomech. </plain></SENT>
+<SENT sid="295" pm="."><plain>Eng.201613809100510.1115/1.4034170<?supplied-pmid 27428461?>27428461 </plain></SENT>
+</text></ref><ref id="B21-sensors-18-02216"><text><SENT sid="296" pm="."><plain>21.SeoN.FathiM.HurP.CrocherV.Modifying Kinect placement to improve upper limb joint angle measurement accuracyJ. </plain></SENT>
+<SENT sid="297" pm="."><plain>Hand Ther.20162946547310.1016/j.jht.2016.06.010<?supplied-pmid 27769844?>27769844 </plain></SENT>
+</text></ref><ref id="B22-sensors-18-02216"><text><SENT sid="298" pm="."><plain>22.XuX.RobertsonM.CehnK.LinJ.McGorryR.Using the Microsoft Kinect™ to assess 3-D shoulder kinematics during computer useAppl. </plain></SENT>
+<SENT sid="299" pm="."><plain>Ergon.20176541842310.1016/j.apergo.2017.04.004<?supplied-pmid 28395854?>28395854 </plain></SENT>
+</text></ref><ref id="B23-sensors-18-02216"><text><SENT sid="300" pm="."><plain>23.LiaoY.SunY.LiG.KongJ.JiangG.CaiH.JuZ.YuH.LiuH.Simultaneous Calibration: A Joint Optimization Approach for Multiple Kinect and External CamerasSensors201717149110.3390/s17071491<?supplied-pmid 28672823?>28672823 </plain></SENT>
+</text></ref><ref id="B24-sensors-18-02216"><text><SENT sid="301" pm="."><plain>24.ShenW.DengK.BaiX.LeyvandT.GuoB.TuZ.Exemplar-based human action pose correctionIEEE Trans. </plain></SENT>
+<SENT sid="302" pm="."><plain>Cybern.2014441053106610.1109/TCYB.2013.2279071<?supplied-pmid 24058046?>24058046 </plain></SENT>
+</text></ref><ref id="B25-sensors-18-02216"><text><SENT sid="303" pm="."><plain>25.SholukhaV.BonnechèreB.SalviaP.MoiseevF.RoozeM.Van Sint JanS.Model-based approach for human kinematics reconstruction from markerless and marker-based motion analysis systemsJ. </plain></SENT>
+<SENT sid="304" pm="."><plain>Biomech.2013462363237110.1016/j.jbiomech.2013.07.037<?supplied-pmid 23972432?>23972432 </plain></SENT>
+</text></ref><ref id="B26-sensors-18-02216"><text><SENT sid="305" pm="."><plain>26.BrandaoA.DiasD.CastellanoG.ParizottoN.TrevelinL.RehabGesture: An Alternative Tool for Measuring Human MovementTelemed. </plain></SENT>
+<SENT sid="306" pm="."><plain>J. </plain></SENT>
+<SENT sid="307" pm="."><plain>E Health20162258458910.1089/tmj.2015.0139<?supplied-pmid 27172389?>27172389 </plain></SENT>
+</text></ref><ref id="B27-sensors-18-02216"><text><SENT sid="308" pm="."><plain>27.DingW.ZhengY.SuY.LiX.Kinect-based virtual rehabilitation and evaluation system for upper limb disorders: A case studyJ. </plain></SENT>
+<SENT sid="309" pm="."><plain>Back Musculoskelet. </plain></SENT>
+<SENT sid="310" pm="."><plain>Rehabil.201811110.3233/<z:uniprot sup="inside" fb="19" ids="P28873">BMR</z:uniprot>-140203<?supplied-pmid 29578471?>29278872 </plain></SENT>
+</text></ref><ref id="B28-sensors-18-02216"><text><SENT sid="311" pm="."><plain>28.BonnechèreB.JansenB.OmelinaL.SholukhaV.Van Sint JanS.Patients’ follow-up using biomechanical analysis of rehabilitation exercisesInt. </plain></SENT>
+<SENT sid="312" pm="."><plain>J. </plain></SENT>
+<SENT sid="313" pm="."><plain>Serious Games2017431310.17083/ijsg.v4i1.121 </plain></SENT>
+</text></ref><ref id="B29-sensors-18-02216"><text><SENT sid="314" pm="."><plain>29.WuG.van der HelmF.VeegerH.MakhsousM.RoyP.V.AnglinC.NagelsJ.KardunaA.McQuadeK.WangX.International Society of BiomechanicsISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion—Part II: Shoulder, elbow, wrist and handJ. </plain></SENT>
+<SENT sid="315" pm="."><plain>Biomech.20053898199210.1016/j.jbiomech.2004.05.042<?supplied-pmid 15844264?>15844264 </plain></SENT>
+</text></ref><ref id="B30-sensors-18-02216"><text><SENT sid="316" pm="."><plain>30.DuarteM.FreitasS.Revision of posturography based on force plate for balance evaluationRev. </plain></SENT>
+<SENT sid="317" pm="."><plain>Bras. </plain></SENT>
+<SENT sid="318" pm="."><plain>Fisioter.20101418319210.1590/S1413-35552010000300003<?supplied-pmid 20730361?>20730361 </plain></SENT>
+</text></ref><ref id="B31-sensors-18-02216"><text><SENT sid="319" pm="."><plain>31.BonnechèreB.JansenB.OmelinaL.SholukhaV.Van Sint JanS.Validation of the Balance Board for Clinical Evaluation of Balance During Serious Gaming Rehabilitation ExercisesInt. </plain></SENT>
+<SENT sid="320" pm="."><plain>J. </plain></SENT>
+<SENT sid="321" pm="."><plain>Rehabil. </plain></SENT>
+<SENT sid="322" pm="."><plain>Res.20162270971710.1089/tmj.2015.0230<?supplied-pmid 26982171?>26982171 </plain></SENT>
+</text></ref><ref id="B32-sensors-18-02216"><text><SENT sid="323" pm="."><plain>32.OmelinaL.JansenB.BonnechèreB.Van Sint JanS.CornelisJ.Serious games for physical rehabilitation: Designing highly configurable and adaptable gamesProceedings of the 9th International Conference on Disability, Virtual Reality &amp; Associated Technologies (ICDVRAT)Laval, France10–12 September 2012 </plain></SENT>
+</text></ref><ref id="B33-sensors-18-02216"><text><SENT sid="324" pm="."><plain>33.BonnechèreB.JansenB.OmelinaL.Van Sint JanS.The use of commercial video games in rehabilitation: A systematic reviewInt. </plain></SENT>
+<SENT sid="325" pm="."><plain>J. </plain></SENT>
+<SENT sid="326" pm="."><plain>Rehabil. </plain></SENT>
+<SENT sid="327" pm="."><plain>Res.20163927729010.1097/MRR.0000000000000190<?supplied-pmid 27508968?>27508968 </plain></SENT>
+</text></ref><ref id="B34-sensors-18-02216"><text><SENT sid="328" pm="."><plain>34.LiuZ.HuangJ.HanJ.BuS.LVJ.Human Motion Tracking by Multiple RGBD CamerasIEEE Trans. </plain></SENT>
+<SENT sid="329" pm="."><plain>Circuits Syst. </plain></SENT>
+<SENT sid="330" pm="."><plain>Video Technol.2017272014202710.1109/TCSVT.2016.2564878 </plain></SENT>
+</text></ref><ref id="B35-sensors-18-02216"><text><SENT sid="331" pm="."><plain>35.Van DiestM.StegengaJ.WörtcheH.PostemaK.VerkerkeG.LamothC.Suitability of Kinect for measuring whole body movement patterns during exergamingJ. </plain></SENT>
+<SENT sid="332" pm="."><plain>Biomech.2014472925293210.1016/j.jbiomech.2014.07.017<?supplied-pmid 25173920?>25173920 </plain></SENT>
+</text></ref><ref id="B36-sensors-18-02216"><text><SENT sid="333" pm="."><plain>36.BonnechèreB.SholukhaV.OmelinaL.VoorenM.V.JansenB.Van Sint JanS.Suitability of functional evaluation embedded in serious game rehabilitation exercises to assess motor development across lifespanGait Posture201757353910.1016/j.gaitpost.2017.05.025<?supplied-pmid 28564622?>28564622 </plain></SENT>
+</text></ref><ref id="B37-sensors-18-02216"><text><SENT sid="334" pm="."><plain>37.RosenbaumD.Human Motor ControlElsevierNew York, NY, USA2009 </plain></SENT>
+</text></ref><ref id="B38-sensors-18-02216"><text><SENT sid="335" pm="."><plain>38.TeulierC.LeeD.UlrichB.Early gait development in human infants: Plasticity and clinical applicationsDev. </plain></SENT>
+<SENT sid="336" pm="."><plain>Psychobiol.20155744745810.1002/dev.21291<?supplied-pmid 25782975?>25782975 </plain></SENT>
+</text></ref><ref id="B39-sensors-18-02216"><text><SENT sid="337" pm="."><plain>39.TrewarthaK.M.GarciaA.WolpertD.FlanaganJ.Fast but fleeting: Adaptive motor learning processes associated with aging and cognitive declineJ. </plain></SENT>
+<SENT sid="338" pm="."><plain>Neurosci.201434134111342110.1523/JNEUROSCI.1489-14.2014<?supplied-pmid 25274819?>25274819 </plain></SENT>
+</text></ref><ref id="B40-sensors-18-02216"><text><SENT sid="339" pm="."><plain>40.BhererL.KramerA.PetersonM.ColcombeS.EricksonK.BecicE.Transfer effects in task-set cost and dual-task cost after dual-task training in older and younger adults: Further evidence for cognitive plasticity in attentional control in late adulthoodExp. </plain></SENT>
+<SENT sid="340" pm="."><plain>Aging Res.20083418821910.1080/03610730802070068<?supplied-pmid 18568979?>18568979 </plain></SENT>
+</text></ref><ref id="B41-sensors-18-02216"><text><SENT sid="341" pm="."><plain>41.MoroneG.PaolucciS.IosaM.In What Daily Activities Do Patients Achieve Independence after Stroke?J. </plain></SENT>
+<SENT sid="342" pm="."><plain>Stroke Cerebrovasc. </plain></SENT>
+<SENT sid="343" pm="."><plain>Dis.2015241931193710.1016/j.jstrokecerebrovasdis.2015.05.006<?supplied-pmid 26051663?>26051663 </plain></SENT>
+</text></ref><ref id="B42-sensors-18-02216"><text><SENT sid="344" pm="."><plain>42.MichelE.MolitorS.SchneiderW.Differential changes in the development of motor coordination and executive functions in children with motor coordination impairmentsChild Neuropsychol.201824204510.1080/09297049.2016.1223282<?supplied-pmid 27623087?>27623087 </plain></SENT>
+</text></ref><ref id="B43-sensors-18-02216"><text><SENT sid="345" pm="."><plain>43.Lipskaya-VelikovskyL.ZeiligG.WeingardenH.Rozental-IluzC.RandD.Executive functioning and daily living of individuals with chronic stroke: Measurement and implicationsInt. </plain></SENT>
+<SENT sid="346" pm="."><plain>J. </plain></SENT>
+<SENT sid="347" pm="."><plain>Rehabil. </plain></SENT>
+<SENT sid="348" pm="."><plain>Res.20184112212710.1097/MRR.0000000000000272<?supplied-pmid 29438112?>29438112 </plain></SENT>
+</text></ref><ref id="B44-sensors-18-02216"><text><SENT sid="349" pm="."><plain>44.MaitraK.PhilipsK.RiceM.Grasping naturally versus grasping with a reacher in people without disability: Motor control and muscle activation differencesAm. </plain></SENT>
+<SENT sid="350" pm="."><plain>J. </plain></SENT>
+<SENT sid="351" pm="."><plain>Occup. </plain></SENT>
+<SENT sid="352" pm="."><plain>Ther.2010649510410.5014/ajot.64.1.95<?supplied-pmid 20131569?>20131569 </plain></SENT>
+</text></ref><ref id="B45-sensors-18-02216"><text><SENT sid="353" pm="."><plain>45.WarrenJ.MwanzaJ.TannaA.BudenzD.A Statistical Model to Analyze Clinician Expert Consensus on Glaucoma Progression using Spatially Correlated Visual Field DataTransl. </plain></SENT>
+<SENT sid="354" pm="."><plain>Vis. </plain></SENT>
+<SENT sid="355" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="356" pm="."><plain>Technol.201651410.1167/tvst.5.4.14<?supplied-pmid 27622079?>27622079 </plain></SENT>
+</text></ref><ref id="B46-sensors-18-02216"><text><SENT sid="357" pm="."><plain>46.YatesE.HarveyL.Y.H.Machine learning “red dot”: Open-source, cloud, deep convolutional neural networks in chest radiograph binary normality classificationClin. </plain></SENT>
+<SENT sid="358" pm="."><plain>Radiol.201810.1016/j.<z:uniprot sup="inside" fb="0" ids="Q5RG44">crad</z:uniprot>.2018.05.015<?supplied-pmid 29898829?>29898829 </plain></SENT>
+</text></ref><ref id="B47-sensors-18-02216"><text><SENT sid="359" pm="."><plain>47.GoldmanM.Education in Medicine: Moving the Boundaries to Foster InterdisciplinarityFront. </plain></SENT>
+<SENT sid="360" pm="."><plain>Med.20163151610.3389/fmed.2016.00015<?supplied-pmid 27092302?>27092302 </plain></SENT>
+</text></ref><ref id="B48-sensors-18-02216"><text><SENT sid="361" pm="."><plain>48.LemonT.SmithR.Consultation content not consultation lenght improves patient satisfactionJ. </plain></SENT>
+<SENT sid="362" pm="."><plain>Fam. </plain></SENT>
+<SENT sid="363" pm="."><plain>Med. </plain></SENT>
+<SENT sid="364" pm="."><plain>Prim. </plain></SENT>
+<SENT sid="365" pm="."><plain>Care20143333339 </plain></SENT>
+</text></ref><ref id="B49-sensors-18-02216"><text><SENT sid="366" pm="."><plain>49.SchlenstedtC.ArnoldM.ManciniM.DeuschlG.WeisserB.The effect of unilateral balance training on postural control of the contralateral limbJ. </plain></SENT>
+<SENT sid="367" pm="."><plain>Sports Sci.2017352265227110.1080/02640414.2016.1265660<?supplied-pmid 27935423?>27935423 </plain></SENT>
+</text></ref><ref id="B50-sensors-18-02216"><text><SENT sid="368" pm="."><plain>50.BumaF.van KordelaarJ.RaemaekersM.van WegenE.RamseyN.KwakkelG.Brain activation is related to smoothness of upper limb movements after strokeExp. </plain></SENT>
+<SENT sid="369" pm="."><plain>Brain Res.20162342077208910.1007/s00221-015-4538-8<?supplied-pmid 26979435?>26979435 </plain></SENT>
+</text></ref><ref id="B51-sensors-18-02216"><text><SENT sid="370" pm="."><plain>51.CappozzoA.Della CroceU.LeardiniA.ChiariL.Human movement analysis using stereophotogrammetry. </plain></SENT>
+<SENT sid="371" pm="."><plain>Part 1: theoretical backgroundGait Posture200521186196<?supplied-pmid 15639398?>15639398 </plain></SENT>
+</text></ref></ref-list></SecTag></back><floats-group><SecTag type="FIG"><fig id="sensors-18-02216-f001" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="372" pm="."><plain>Joint center estimation from the Kinect (red circle), reconstructed Plug-in Gait (PiG)-like data (transparent 34 circles), and 19 local coordinate system origins (indicated by numbers). </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02216-g001"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02216-f002" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="373" pm="."><plain>Example of the visualization of results obtained from the rehabilitation game. </plain></SENT>
+<SENT sid="374" pm="."><plain>Visualization is performed here using LHPFusionBox for a limited set of parameters (i.e., volumetric parameters for wrist and elbow by point trajectory triangulation). </plain></SENT>
+<SENT sid="375" pm="."><plain>The reachable volume is clearly visible, but no direct quantification (i.e., score) is available. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02216-g002"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02216-f003" orientation="portrait" position="float"><label>Figure 3</label><caption><p><text><SENT sid="376" pm="."><plain>Example of scoring visualization for Right and Left upper limbs from selected motion scoring for one trial of a stroke patient. </plain></SENT>
+<SENT sid="377" pm="."><plain>The scoring was obtained from the 17 parameters defined above. </plain></SENT>
+<SENT sid="378" pm="."><plain>Parameters are grouped by angular (Ang, in red), length (Len, in blue), and volumetric (Vol, in green) properties. </plain></SENT>
+<SENT sid="379" pm="."><plain>Yellow contour corresponds to 100% (healthy group comparison). </plain></SENT>
+<SENT sid="380" pm="."><plain>Parameter sign values are explained in Table 2. </plain></SENT>
+<SENT sid="381" pm="."><plain>Scores for each group and total scores are depicted near the sector of the group and in the center, respectively. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02216-g003"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02216-f004" orientation="portrait" position="float"><label>Figure 4</label><caption><p><text><SENT sid="382" pm="."><plain>The three calibration poses: (A) “T-pose”; (B) “Wide pose”; (C) “Upright pose”. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02216-g004"/></fig></SecTag><SecTag type="FIG"><fig id="sensors-18-02216-f005" orientation="portrait" position="float"><label>Figure 5</label><caption><p><text><SENT sid="383" pm="."><plain>(A) Screenshot of the especially developed serious games used in the study; (B) Illustration of the motion required to control the game. </plain></SENT>
+</text></p></caption><graphic xlink:href="sensors-18-02216-g005"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02216-t001" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02216-t001_Table 1</object-id><label>Table 1</label><caption><p><text><SENT sid="384" pm="."><plain>Relative coordinate systems topology for upper limbs assessment, origin segments (child local coordinate systems) are expressed relative to parent local coordinate systems. </plain></SENT>
+<SENT sid="385" pm="."><plain>0 corresponds to a global coordinate system. </plain></SENT>
+<SENT sid="386" pm="."><plain>Point numbers are presented in Figure 1. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>Motion </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>1 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>4 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>5 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>14 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>15 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>16 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>17 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>18 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>19 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>20 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>21 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>22 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>23 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>24 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>25 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>26 </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>27 </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>Child </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>19 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>17 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>19 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>18 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>19 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>Parent </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>0 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>14 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>15 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>4 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>5 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>17 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02216-t002" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02216-t002_Table 2</object-id><label>Table 2</label><caption><p><text><SENT sid="441" pm="."><plain>List of parameters evaluated for trajectory analysis. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>Parameter </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>Unit </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>Value </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>Equation </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>1 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>m </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>Total length of the trajectory </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>4 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>2 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>Total angle of the trajectory (hodograph) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>10 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>3–5 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>m/s </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>Mean, std, and max of the hodograph velocity </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>5–7 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>6–8 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>Mean, std, and max of hodograph angular velocity </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>12 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>9 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>Mean hodograph angular velocity from parameter 3 and mean radius </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>From 5 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>10 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>cm2 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>Square of cross-sectional rhomboid, defined by first and second axes </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>29 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>11 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>cm3 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>Volume of two pyramids (diamond) constructed from three axes end points </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>30 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>12, 13 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>Angles of view of two main axes from parent local coordinate system (LCS) origin </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>27 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>14, 15 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>mm </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>Size of the two main axes </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>28 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>16–18 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>mm </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>Position of principal axes origin in the parent LCS </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>19–30 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>mm </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>Position of the end points of the first two axes in parent LCS </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>25, 26 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain><z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot> </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>Radius of the cloud fitting by sphere </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>Point fitting by sphere </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>32 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>mm </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>Distance between LCS origin and sphere centre </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>Point fitting by sphere </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>mm </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>Mean residual of sphere fitting </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>Point fitting by sphere </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>34 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>mm </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>std residual of sphere fitting </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>Point fitting by sphere </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>35–37 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>Position in LCS of the fitted sphere centre </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>Point fitting by sphere </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>38, 39 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>mm2, mm3 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>Triangulated surface area and conic volume (with vertex in the LCS origin) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>Delaunay triangulation and convex hull functions </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>40, 41 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>sr </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>Solid angle (steradians (sr)) of the sphere and triangulated surface </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>Delaunay triangulation and convex hull functions </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02216-t003" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02216-t003_Table 3</object-id><label>Table 3</label><caption><p><text><SENT sid="516" pm="."><plain>Comparison between the optoelectronic (marker-based system, MBS) and the Kinect (markerless system, MLS) systems. </plain></SENT>
+<SENT sid="517" pm="."><plain>R is the Pearson coefficient of correlation, <z:uniprot sup="inside" fb="27" ids="Q9BGI7,O18914,Q95170,O18913,O18912,P04000,Q6WKZ4">RCP</z:uniprot> is the reproducibility coefficient expressed in percent, and CV is the coefficient of variation. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>Joint </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>Variables </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>R </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain><z:uniprot sup="inside" fb="27" ids="Q9BGI7,O18914,Q95170,O18913,O18912,P04000,Q6WKZ4">RCP</z:uniprot> (%) </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>CV </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>Right Shoulder </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>0.71 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>45 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>32 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>0.56 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>32 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>41 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>0.96 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>18 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>0.50 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>71 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>47 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>0.73 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>65 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>45 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>0.98 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>63 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>40 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>0.83 * </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>52 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>53 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>Left Shoulder </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>0.72 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>38 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>0.58 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>46 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>41 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>0.94 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>31 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>19 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>67 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>44 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>0.64 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>54 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>55 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>0.96 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>55 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>38 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>0.98 * </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>60 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>51 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>Right Wrist </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>0.71 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>35 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>38 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>0.88 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>21 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>26 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>0.95 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>33 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>16 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>0.51 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>58 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>75 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>0.79 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>57 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>40 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>0.97 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>66 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>56 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>0.98 * </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>53 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>48 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>Left Wrist </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>0.68 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>39 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>34 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>0.92 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>16 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>24 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>0.89 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>28 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>15 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>0.47 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>57 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>46 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>0.72 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>41 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>49 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>0.88 * </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>55 </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>45 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>0.95 * </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>47 </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>43 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn><p>* Statistically significant correlation (<italic>p</italic> &lt; 0.05).</p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="sensors-18-02216-t004" orientation="portrait" position="float"><object-id pub-id-type="pii">sensors-18-02216-t004_Table 4</object-id><label>Table 4</label><caption><p><text><SENT sid="639" pm="."><plain>Mean (std) results of the studied variables for the three groups, p-Values are the results of the  ANOVA. </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>Joint </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>Variables </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>Adults </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>Elderly </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>Stroke </plain></SENT>
+</text></th><th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>p-Value </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>Right shoulder </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>3.81 × 107 (3.7 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>3.64 × 107 (9.1 × 106) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>5.71 × 107 (1.89 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>0.21 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>2.95 × 104 (1.3 × 103) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>1.12 × 104 (7.2 × 103) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>1.11 (5.2 × 103) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>0.21 (0.09) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>0.12 (0.06) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>0.10 (0.4) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>315 (283) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>403 (775) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>329 (221) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>0.71 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>6.21 × 1011 (2.1 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>8.12 × 1011(1.6 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>6.94 × 1011 (1.53 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>0.12 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>3.52 × 1011 (2.1 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>7.68 × 1011 (2.4 × 1011) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>4.85 × 1011 (1.4 × 1011) β,γ </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>6.25 × 1011 (2.5 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>2.31 × 1012 (8.9 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>3.62 × 1011 (3.1 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>0.07 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>Left Shoulder </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>3.88 × 107 (1.6 × 106) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>2.96 × 107 (3.4 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>4.38 × 107 (1.0 × 108) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>0.64 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>2.72 × 104 (1.2 × 103) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>1.23 × 104 (7.2 × 103) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>1.2 × 104 (5.1 × 103) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>0.19 (0.06) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>0.13 (0.06) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>0.10 (0.04) β,γ </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>271 (251) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>344 (230) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>345 (317) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>0.61 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>6.13 × 1011 (4.6 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>1.17 × 1012 (1.1 × 1012) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>7.71 × 1011 (1.3 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>0.13 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>3.81 × 1011 (8.4 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>1.18 × 1012 (2.3 × 1012) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>4.18 × 1011 (1.30 × 1011) β,γ </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>6.27 × 1011 (1.4 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>9.8 × 1011 (1.9 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>3.36 × 1011 (5.8 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>0.06 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>Right Wrist </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>3.77 × 107 (3.1 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>5.58 × 107 (5.2 × 107) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>5.9 × 107 (7.5 × 107) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="723" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="724" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="725" pm="."><plain>3.13 × 107 (3.2 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="726" pm="."><plain>3.89 × 107 (8.43 × 106) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="727" pm="."><plain>7.91 × 107 (1.2 × 107) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="728" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="729" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="730" pm="."><plain>0.23 (0.09) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="731" pm="."><plain>0.13 (0.07) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="732" pm="."><plain>0.10 (0.04) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="733" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="734" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="735" pm="."><plain>280 (226) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="736" pm="."><plain>351 (242) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="737" pm="."><plain>323 (311) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="738" pm="."><plain>0.58 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="739" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="740" pm="."><plain>7.01 × 1011 (1.2 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="741" pm="."><plain>1.12 × 1012 (1.5 × 1011) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="742" pm="."><plain>5.67 × 1011 (8.44 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="743" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="744" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="745" pm="."><plain>5.81 × 1011 (7.1 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="746" pm="."><plain>8.41 × 1011 (9.0 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="747" pm="."><plain>6.11 × 1011 (5.5 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="748" pm="."><plain>0.21 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="749" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="750" pm="."><plain>5.92 × 1011 (1.2 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="751" pm="."><plain>1.33 × 1012 (2.8 × 1011) α </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="752" pm="."><plain>2.71 × 1011 (6.4 × 1011) β,γ </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="753" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="754" pm="."><plain>Left Wrist </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="755" pm="."><plain>Length (mm) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="756" pm="."><plain>3.69 × 107 (3 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="757" pm="."><plain>5.57 × 107 (4.2 × 107) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="758" pm="."><plain>5.29 × 107 (4.3 × 107) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="759" pm="."><plain>0.04 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="760" pm="."><plain>Angle (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="761" pm="."><plain>3.11 × 107 (3.3 × 107) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="762" pm="."><plain>3.64 × 107 (6.1 × 107) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="763" pm="."><plain>6.33 × 107 (7.6 × 107) β,γ </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="764" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="765" pm="."><plain>Velocity (m/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="766" pm="."><plain>0.31 (0.14) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="767" pm="."><plain>0.12 (0.07) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="768" pm="."><plain>0.11 (0.05) β </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="769" pm="."><plain>&lt;0.001 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="770" pm="."><plain>Angular velocity (<z:uniprot sup="inside" fb="52" ids="P0A9M0">deg</z:uniprot>/s) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="771" pm="."><plain>281 (246) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="772" pm="."><plain>384 (314) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="773" pm="."><plain>294 (245) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="774" pm="."><plain>0.22 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="775" pm="."><plain>Volume (mm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="776" pm="."><plain>6.84 × 1011 (1.1 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="777" pm="."><plain>1.52 × 1012 (2.65 × 1011) α </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="778" pm="."><plain>5.91 × 1011 (9.1 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="779" pm="."><plain>0.03 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="780" pm="."><plain>Sphere (cm3) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="781" pm="."><plain>5.89 × 1011 (6.4 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="782" pm="."><plain>5.44 × 1011 (6.1 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="783" pm="."><plain>4.12 × 1011 (5.4 × 1011) </plain></SENT>
+</text></td><td align="center" valign="middle" rowspan="1" colspan="1"><text><SENT sid="784" pm="."><plain>0.42 </plain></SENT>
+</text></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text></text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="785" pm="."><plain>Surface (mm2) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="786" pm="."><plain>4.61 × 1011 (9.8 × 1010) </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="787" pm="."><plain>1.41 × 1012 (2.6 × 1011) α </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="788" pm="."><plain>3.42 × 1011 (2.6 × 1011) β,γ </plain></SENT>
+</text></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><text><SENT sid="789" pm="."><plain>0.02 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><fn><p><inline-formula><mml:math id="mm255"><mml:mrow><mml:msup><mml:mrow/><mml:mi>α</mml:mi></mml:msup></mml:mrow></mml:math></inline-formula> Statistically significant difference between Adults and Elderly after Bonferroni correction. <inline-formula><mml:math id="mm256"><mml:mrow><mml:msup><mml:mrow/><mml:mi>β</mml:mi></mml:msup></mml:mrow></mml:math></inline-formula> Statistically significant difference between Adults and Stroke after Bonferroni correction. <inline-formula><mml:math id="mm257"><mml:mrow><mml:msup><mml:mrow/><mml:mi>γ</mml:mi></mml:msup></mml:mrow></mml:math></inline-formula> Statistically significant difference between Elderly and Stroke after Bonferroni correction.</p></fn></table-wrap-foot></table-wrap></SecTag></floats-group></article>

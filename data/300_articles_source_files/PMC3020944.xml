@@ -1,0 +1,647 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3020944</article-id><article-id pub-id-type="pmid">21249192</article-id><article-id pub-id-type="publisher-id">PONE-D-10-03856</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0016084</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Microbiology</subject><subj-group><subject>Bacterial Pathogens</subject><subject>Microbial Control</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Infectious Diseases</subject><subj-group><subject>Bacterial Diseases</subject><subject>Infectious Disease Control</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Structure-Activity Relationship of Cinnamaldehyde Analogs as Inhibitors of AI-2 Based Quorum Sensing and Their Effect on Virulence of Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot> </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Effect of Cinnamaldehyde Analogs on AI-2 QS</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Brackman</surname><given-names>Gilles</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Celen</surname><given-names>Shari</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hillaert</surname><given-names>Ulrik</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Van Calenbergh</surname><given-names>Serge</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cos</surname><given-names>Paul</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Maes</surname><given-names>Louis</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Nelis</surname><given-names>Hans J.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Coenye</surname><given-names>Tom</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Laboratory of Pharmaceutical Microbiology, Ghent University, Ghent, Belgium</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Laboratory of Medicinal Chemistry, Ghent University, Ghent, Belgium</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Laboratory for Microbiology, Parasitology and Hygiene, University of Antwerp, Antwerp, Belgium</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Chakravortty</surname><given-names>Dipshikha</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Indian Institute of Science, India</aff><author-notes><corresp id="cor1">* E-mail: <email>tom.coenye@UGent.be</email></corresp><fn fn-type="con"><p><text><SENT sid="1" pm="."><plain>Conceived and designed the experiments: GB TC HJN SVC. </plain></SENT>
+<SENT sid="2" pm="."><plain>Performed the experiments: GB UH SC PC. </plain></SENT>
+<SENT sid="3" pm="."><plain>Analyzed the data: GB TC HJN SVC PC LM. </plain></SENT>
+<SENT sid="4" pm="."><plain>Contributed reagents/materials/analysis tools: UH SC SVC PC LM. </plain></SENT>
+<SENT sid="5" pm="."><plain>Wrote the paper: GB TC HJN. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2011</year></pub-date><pub-date pub-type="epub"><day>13</day><month>1</month><year>2011</year></pub-date><volume>6</volume><issue>1</issue><elocation-id>e16084</elocation-id><history><date date-type="received"><day>25</day><month>10</month><year>2010</year></date><date date-type="accepted"><day>9</day><month>12</month><year>2010</year></date></history><permissions><copyright-statement>Brackman et al.</copyright-statement><copyright-year>2011</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title><text><SENT sid="6" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Many bacteria, including Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>., regulate virulence gene expression in a cell-density dependent way through a communication process termed quorum sensing (QS). </plain></SENT>
+<SENT sid="8" pm="."><plain>Hence, interfering with QS could be a valuable novel antipathogenic strategy. </plain></SENT>
+<SENT sid="9" pm="."><plain>Cinnamaldehyde has previously been shown to inhibit QS-regulated virulence by decreasing the DNA-binding ability of the QS response regulator LuxR. </plain></SENT>
+<SENT sid="10" pm="."><plain>However, little is known about the structure-activity relationship of cinnamaldehyde analogs. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="11" pm="."><plain>Methodology/Principal Findings </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>By evaluating the QS inhibitory activity of a series of cinnamaldehyde analogs, structural elements critical for autoinducer-2 QS inhibition were identified. </plain></SENT>
+<SENT sid="13" pm="."><plain>These include an α,β unsaturated acyl group capable of reacting as Michael acceptor connected to a hydrophobic moiety and a partially negative charge. </plain></SENT>
+<SENT sid="14" pm="."><plain>The most active cinnamaldehyde analogs were found to affect the starvation response, biofilm formation, pigment production and protease production in Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot> in vitro, while exhibiting low cytotoxicity. </plain></SENT>
+<SENT sid="15" pm="."><plain>In addition, these compounds significantly increased the survival of the nematode Caenorhabditis elegans infected with Vibrio anguillarum, Vibrio harveyi and Vibrio vulnificus. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="16" pm="."><plain>Conclusions/Significance </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="17" pm="."><plain>Several new and more active cinnamaldehyde analogs were discovered and they were shown to affect Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. virulence factor production in vitro and in vivo. </plain></SENT>
+<SENT sid="18" pm="."><plain>Although ligands for LuxR have not been identified so far, the nature of different cinnamaldehyde analogs and their effect on the DNA binding ability of LuxR suggest that these compounds act as LuxR-ligands. </plain></SENT>
+</text></SecTag></p></sec></abstract><counts><page-count count="10"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="19" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="20" pm="."><plain>Many bacteria, including Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>., regulate gene expression in a cell-density dependent way through a communication process termed quorum sensing (QS). </plain></SENT>
+<SENT sid="21" pm="."><plain>In Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. </plain></SENT>
+<SENT sid="22" pm="."><plain>QS is mediated by three types of synergistically acting signalling molecules: acyl-homoserine lactones (AHL), cholera-autoinducer-1 (CAI-1) and a mixture of interconvertible molecules collectively called autoinducer-2 (AI-2) [1]–[4]. </plain></SENT>
+<SENT sid="23" pm="."><plain>The key enzymes in the production of these molecules are LuxN, LuxS and CqsA for AHL, AI-2 and CAI-1, respectively [4]. </plain></SENT>
+<SENT sid="24" pm="."><plain>In response to binding of the signalling molecules to their cognate receptor, a phosphorelay cascade is induced. </plain></SENT>
+<SENT sid="25" pm="."><plain>At low population density only basal amounts of diffusible signal molecules are produced, and in this situation the receptor will act as a kinase, resulting in the phosphorylation of the downstream response regulator LuxO through a cascade involving LuxU [5]. </plain></SENT>
+<SENT sid="26" pm="."><plain>Phosphorylation activates LuxO, resulting in the production of small regulatory RNAs [6]–[7]. </plain></SENT>
+<SENT sid="27" pm="."><plain>These small RNAs, together with the chaperone protein Hfq, destabilize mRNA encoding the response regulator LuxR. </plain></SENT>
+<SENT sid="28" pm="."><plain>However, when population density is sufficiently high, signalling molecules will bind to their cognate receptor and the latter will act as <z:uniprot sup="inside" fb="121" ids="Q9NJE9">phosphatase</z:uniprot>, leading to a dephosphorylation of LuxO [7]. </plain></SENT>
+<SENT sid="29" pm="."><plain>Since unphosphorylated LuxO is inactive, no small regulatory RNAs will be formed and the LuxR mRNA remains stable, resulting in the production of LuxR and ultimately an altered gene expression pattern. </plain></SENT>
+<SENT sid="30" pm="."><plain>The virulence of several Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. was previously found to be controlled by multiple QS systems making QS inhibition an interesting antipathogenic strategy [8]–[10]. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>Cinnamaldehyde is known to affect AI-2 QS [10], [11] and we have previously shown that cinnamaldehyde disrupts QS-regulated virulence in Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. by decreasing the DNA-binding activity of the response regulator LuxR [10]. </plain></SENT>
+<SENT sid="32" pm="."><plain>However, the exact structural elements required for QS inhibitory activity remain unclear. </plain></SENT>
+<SENT sid="33" pm="."><plain>The development of new antipathogenic agents based on cinnamaldehyde requires the understanding of the structural reason for LuxR inhibition. </plain></SENT>
+<SENT sid="34" pm="."><plain>To address this, a small library of cinnamaldehyde analogs was screened for their inhibitory effect on QS in Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. </plain></SENT>
+<SENT sid="35" pm="."><plain>The structural elements required for QS inhibition were identified and a mechanism of action is proposed. </plain></SENT>
+<SENT sid="36" pm="."><plain>The effect of selected cinnamaldehyde analogs on Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. virulence was evaluated in vitro and in vivo in a Caenorhabditis elegans assay. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="RESULTS,DISCUSS"><sec id="s2"><title><text><SENT sid="37" pm="."><plain>Results and Discussion </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="38" pm="."><plain>Cinnamaldehyde and cinnamaldehyde analogs do not affect bacterial growth or bioluminescence </plain></SENT>
+</text></title><p><text><SENT sid="39" pm="."><plain>When used in concentrations up to 250 µM, cinnamaldehyde and most analogs (Fig. 1) did not affect the growth of the different Vibrio strains used in this study, the exception being 3,4-dichloro-cinnamaldehyde and 4-nitro-cinnamaldehyde (<z:uniprot sup="inside" fb="58" ids="P10569">MIC</z:uniprot> ≥100 µM and <z:uniprot sup="inside" fb="58" ids="P10569">MIC</z:uniprot> ≥50 µM, respectively) (data not shown). </plain></SENT>
+<SENT sid="40" pm="."><plain>In all experiments, compounds were used in concentrations below the minimal inhibitory concentration. </plain></SENT>
+<SENT sid="41" pm="."><plain>To rule out direct interference with bioluminescence, all compounds were assessed for their effect on the bioluminescence of an E. coli DH5α pBluelux strain containing the luxCDABE genes, but none of the compounds directly affected bioluminescence. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0016084-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="42" pm="."><plain>Cinnamaldehyde and cinnamaldehyde analogs used in the present study. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0016084.g001"/></fig></SecTag></sec><sec id="s2b"><title><text><SENT sid="43" pm="."><plain>Several cinnamaldehyde analogs affect AI-2-regulated bioluminescence </plain></SENT>
+</text></title><p><text><SENT sid="44" pm="."><plain>To screen for AI-2 inhibition, the effect of all compounds on bioluminescence of V. harveyi BB170 was assessed (Table 1). </plain></SENT>
+<SENT sid="45" pm="."><plain>Five cinnamaldehyde analogs were previously shown to affect AI-2 QS. </plain></SENT>
+<SENT sid="46" pm="."><plain>Two of these non-halogen substituted cinnamaldehyde analogs, i.e. 2-nitro-cinnamaldehyde (2) and 4-nitro-cinnamaldehyde (3), were at least as active in blocking AI-2 QS as the unsubstituted cinnamaldehyde (1) [10]. </plain></SENT>
+<SENT sid="47" pm="."><plain>In the present study, several halogenated compounds were found to be more active than the unsubstituted cinnamaldehyde. </plain></SENT>
+<SENT sid="48" pm="."><plain>These include 3,4-dichloro-cinnamaldehyde (9), 2,3,4,5,6-pentafluoro-cinnamaldehyde (12) and 4-chloro-3-trifluoromethyl-cinnamaldehyde (14). </plain></SENT>
+<SENT sid="49" pm="."><plain>3,4-Dichloro-cinnamaldehyde (9) reduced the QS-regulated bioluminescence by 99±1% without interfering with the bacterial growth of V. harveyi BB170. </plain></SENT>
+<SENT sid="50" pm="."><plain>None of the halogenated cinnamic acid analogs resulted in an increased QS inhibition compared to the corresponding cinnamaldehyde analog or to the unsubstituted cinnamaldehyde. </plain></SENT>
+<SENT sid="51" pm="."><plain>Methyl-styryl sulfone (15), cinnamamide (18) and (E)-4-phenyl-3-buten-2-one (22) (50 µM) resulted in a 30±11%, 28±9% and 35±16% inhibition. </plain></SENT>
+<SENT sid="52" pm="."><plain>In addition, (E)-4-phenyl-2-butanone (23) and 1-acetyl-1-cyclohexene (24) were only active at higher concentrations (100 µM) while no QS inhibitory activity was observed for 3-phenylpropionaldehyde (16), 3-phenylpropionic acid (17), cinnamyl alcohol (20) and methyl cinnamate (21). </plain></SENT>
+<SENT sid="53" pm="."><plain>Cinnamaldehyde analogs in which the aromatic ring was replaced by an alkyl moiety, but which still contain the acrolein group, proved also to be active AI-2 QS inhibitors. (E)-2-Pentenal (25), (E)-2-tridecenal (27), methyl-(E)-2-nonenoate (28) and (E)-2-heptenal (35) were at least as active in inhibiting AI-2 QS as cinnamaldehyde. (E)-2-Nonenal (26), (E)-3-decen-2-one (30), (E)-3-nonen-2-one (31), (E)-3-octen-2-one (36), (E)-2-octenal (37), (E)-2-decenal (39), (E)-2-undecenal (40) and (E)-2-dodecenal (41) led to a more pronounced inhibition of bioluminescence compared to cinnamaldehyde (1). </plain></SENT>
+<SENT sid="54" pm="."><plain>When assayed at a higher concentration (100 µM), (E)-2-nonenal (26), (E)-3-decen-2-one (30) and (E)-3-nonen-2-one (31) almost completely inhibited bioluminescence. (E)-2-nonen-1-ol (33), (E)-2-hexen-1-al (34) and 2-octenoic acid (38) were less active inhibitors of AI-2 regulated bioluminescence, while 2-pentenoic acid (29) and 5-methyl-2-hepten-4-one (32) had no effect. </plain></SENT>
+<SENT sid="55" pm="."><plain>Based on these results, cinnamaldehyde (1), 2-nitro-cinnamaldehyde (2), 3,4-dichloro-cinnamaldehyde (9), (E)-4-phenyl-3-buten-2-one (22), (E)-3-decen-2-one (30), (E)-2-pentenal (25) and (E)-2-nonenal (26) were selected for further experiments. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0016084-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="56" pm="."><plain>Inhibition of QS-regulated bioluminescence in V. harveyi BB170 (activity is expressed as the % inhibition of the bioluminescence signal of the untreated control ± standard deviation; n≥48). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0016084-t001-1" xlink:href="pone.0016084.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="57" pm="."><plain>Code* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="58" pm="."><plain>Compound </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="59" pm="."><plain>Reduction in bioluminescence (% inhibition compared to the untreated control ± SD) when used in the following concentrations: </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="60" pm="."><plain>50 µM </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="61" pm="."><plain>100 µM </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="62" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="63" pm="."><plain>Cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="64" pm="."><plain>22±4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="65" pm="."><plain>65±13 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="66" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="67" pm="."><plain>2-Nitro-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="68" pm="."><plain>25±5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="69" pm="."><plain>62±7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="70" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="71" pm="."><plain>4-Nitro-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>33±7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>ND </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="74" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>2-Methoxy-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="77" pm="."><plain>14±6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>4-Methoxy-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>16±4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>34±9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>4-Dimethylamino-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="84" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>17±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>4-Trifluoromethyl-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>19±8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>21±7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>4-Trifluoromethyl cinnamic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>8±1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>11±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>3,4-Dichloro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>47±7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>99±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>4-Chloro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>27±2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>78±5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="103" pm="."><plain>4-Chloro-cinnamic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>14±16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>20±14 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>2,3,4,5,6-Pentafluoro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>44±14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>95±3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>2,3,4,5,6-Pentafluoro-cinnamic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>33±6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>41±8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>4-Chloro-3-trifluoromethyl-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>45±21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>97±2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>Methyl-styryl sulfone </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>30±11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>73±6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>3-Phenylpropionaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>3-Phenylpropionic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>18 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>Cinnamamide </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>28±9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>61±20 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>Cinnamic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>25±20 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>Cinnamyl alcohol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>Methyl cinnamate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>(E)-4-Phenyl-3-buten-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>35±16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>78±9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>4-Phenyl-2-butanone </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>13±4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>1-Acetyl-1-cyclohexene </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>16±6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>(E)-2-Pentenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>34±12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>58±22 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>(E)-2-Nonenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>63±3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>98±2 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>(E)-2-Tridecenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>36±19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>56±21 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>Methyl-(E)-2-nonenoate </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>32±5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>59±8 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>2-Pentenoic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>(E)-3-Decen-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>80±11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>99±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>(E)-3-Nonen-2one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>43±5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>99±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>5-Methyl-2-hepten-4-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>33 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>(E)-2-Nonen-1-ol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>17±9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>(E)-2-Hexen-1-al </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>18±8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>35±3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>(E)-2-Heptenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>28±6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>55±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>(E)-3-Octen-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>48±1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>80±3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>37 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>(E)-2-Octenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>41±6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>71±4 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>2-Octenoic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>27±8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>36±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>(E)-2-Decenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>57±6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>90±6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>(E)-2-Undecenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>75±9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>94±6 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>(E)-2-Dodecenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>71±3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>87±11 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label>*</label><p><text><SENT sid="226" pm="."><plain>;Code refers to structures in Figure 1. </plain></SENT>
+</text></p></fn><fn id="nt102"><label>**</label><p><text><SENT sid="227" pm="."><plain>; previously assessed for their effect on AI-2 quorum sensing [10]. </plain></SENT>
+</text></p></fn><fn id="nt103"><label/><p><text><SENT sid="228" pm="."><plain>ND: not determined due to growth inhibition when used at this concentration. </plain></SENT>
+</text></p></fn><fn id="nt104"><label/><p><text><SENT sid="229" pm="."><plain>NS: compound did not result in a significant inhibition of the bioluminescence signal (p&gt;0.05; independent sample t-test). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s2c"><title><text><SENT sid="230" pm="."><plain>Cinnamaldehyde and cinnamaldehyde analogs decrease the DNA-binding ability of LuxR </plain></SENT>
+</text></title><p><text><SENT sid="231" pm="."><plain>It was previously shown that cinnamaldehyde inhibits AI-2 QS by decreasing the DNA-binding ability of LuxR to its promoter DNA [10]. </plain></SENT>
+<SENT sid="232" pm="."><plain>To assess whether the analogs also target LuxR and have the same mechanism of action, the effect of the selected compounds on bioluminescence was determined in various V. harveyi QS mutants (Table 2). </plain></SENT>
+<SENT sid="233" pm="."><plain>The selected compounds were found to inhibit bioluminescence in all mutants tested, indicating that the target of these compounds is the downstream <z:uniprot sup="inside" fb="0" ids="A0A0H3MDW1">transcriptional regulatory protein</z:uniprot> LuxR (data not shown). </plain></SENT>
+<SENT sid="234" pm="."><plain>To further investigate their effect on the DNA binding ability of LuxR, a fluorescently labelled fragment of a V. harveyi consensus LuxR binding sequence [12] was incubated together with purified LuxR protein in the presence and absence of cinnamaldehyde analogs. </plain></SENT>
+<SENT sid="235" pm="."><plain>Incubation of LuxR with this DNA fragment in the absence of QS inhibitors resulted in a significant increase in anisotropy (Fig. 2). </plain></SENT>
+<SENT sid="236" pm="."><plain>When LuxR was incubated with this DNA fragment in the presence of cinnamaldehyde, 2-nitro-cinnamaldehyde, (E)-4-phenyl-3-buten-2-one, (E)-2-pentenal, (E)-3-decen-2-one, (E)-2-nonenal or 3,4-dichloro-cinnamaldehyde, binding to DNA was strongly inhibited (Fig. 2), indicating that these compounds inhibit AI-2 mediated QS by decreasing the DNA-binding ability of LuxR. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0016084-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="237" pm="."><plain>LuxR DNA binding and dissociation constants. </plain></SENT>
+</text></title><p><text><SENT sid="238" pm="."><plain>A. </plain></SENT>
+<SENT sid="239" pm="."><plain>DNA binding of LuxR in the absence and presence of cinnamaldehyde or a cinnamaldehyde analog (50 µM). </plain></SENT>
+<SENT sid="240" pm="."><plain>The fractional change in anisotropy, ΔF/Fo, is plotted against the concentration of LuxR (nM). </plain></SENT>
+<SENT sid="241" pm="."><plain>B. Kd values are calculated as the half-maximal fractional change in fluorescence anisotropy in the absence and presence of cinnamaldehyde or cinnamaldehyde analogs. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0016084.g002"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone-0016084-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="242" pm="."><plain>Vibrio strains used in this study. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0016084-t002-2" xlink:href="pone.0016084.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>Strain </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>Characteristics </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>Reference/source </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>V. harveyi BB 120 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>Wild-type </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>[2] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>V. harveyi BB152 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A7MRY3">luxLM</z:uniprot>::Tn5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>[6] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>V. harveyi BB 170 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A7MRY4,P0C5S6">luxN</z:uniprot>::Tn5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>[1] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>V. harveyi MM 30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A3N1L8,B3H1Y9,B0BQF0,A6VM61,A0KG57,A4SIY8,B5FAE1,B6EGB5,A8ER22,C3PCE7,C3LB27,A0RK18,Q81KF3,B7JT57,Q72YS4,B7ILV4,C1EW66,B7H9G6,B7HTQ2,A7GU63,B9J289,Q816N5,Q632P8,Q9K7K8,Q6HC89,Q65FU5,A9VLF6,A8FGJ6,Q5WDW1,O34667,A6KYS6,A7Z800,A1A0P1,B3DT87,Q8G568,B7GUC1,Q0SND6,Q661P2,O50164,B7J1U9,A7ZGE2,A7GWQ0,A0RM88,A7I0U3,A8FMQ4,A7H2H9,Q9PN97,Q3I354,Q5HTR6,Q1QVV8,A8ANP5,Q97F13,A6LST9,B2UWX8,Q181K1,Q0TUQ5,Q9XDU6,Q0SWJ6,A7MJ28,Q6AAL4,C1CYB4,Q1IW42,Q9RRU8,C6BU86,Q6AQW6,A5EVY3,A7ZQC0,B7UHB0,B7MKG1,B7LEA1,Q8X902,B5Z2A2,B7NSH2,B7MYZ0,B7M9C9,C4ZYT7,B1XCM0,A8A3G9,A1AEN2,Q0TEI8,Q8FEP8,B1IUY7,P45578,B7N6S2,B6I678,B1LPG2,Q1R809,C5BGG6,A4WDQ1,Q836D3,B7LVZ2,B1YKZ3,B0S194,Q5KVY8,C5D6T8,A4IS03,Q7VNV8,Q4QN52,A5U9Z9,A5UH01,P44007,B8F365,Q0I202,I0JJR3,Q17VY9,Q7VJR7,B6JPK6,B5Z9N6,Q1CV50,Q9ZMW8,B2URT5,O24931,B0UVD9,Q31DQ6,B5XVC4,Q5FK48,Q03TG6,B3WC53,Q1GC51,B2GE54,Q041B8,A8YXQ1,Q74HV0,Q9CIU0,A2RHY8,Q032J0,Q03B21,Q88YI6,A5VLV3,Q5QHW1,B2G970,Q1WT73,B1MVP6,Q03V83,Q92C64,C1L2J6,Q720D3,B8DG43,Q8Y7I9,A0AI91,B9E8I0,Q65VI4,A6VUX4,Q5F534,B4RRB0,A9M0P7,Q9JWB0,Q9JXL8,A1KW60,Q8CUK0,Q04DQ5,P57901,Q6D1T5,C6DCQ4,Q03DR3,Q8KM01,Q6LMV3,B2RKU8,Q7MWT9,B4EUW0,Q93LC7,A1SZZ2,B5F345,A9MFZ6,Q57KV4,B5FSX3,B5QV71,B5RDE7,B4TF05,B4T393,Q5PF11,C0PWL6,B5BEN0,B4TSZ9,Q8Z4D7,Q9L4T0,Q684Q1,A8GA14,A1S8N7,B8EC51,A3D134,A6WRX8,A9L0U6,Q12QK7,Q086L5,B0TR04,A3QH00,Q8EHW1,A8H783,A4Y3Y4,B8CKC3,A0KTQ2,A8FYW3,Q0HLQ3,Q0HY34,A1RN08,B1KD47,B2U054,Q31X57,Q32CN6,Q0T1B8,Q83JZ4,Q3YYH1,Q2NVK8,A7X4Y8,A6U3L9,Q2FEZ4,Q2FWC3,A5IUS9,Q2YUL9,Q5HE66,A6QIX8,P65329,P65330,Q6GEU1,Q6G7H6,A8YYA0,P65331,B9DMC0,Q5HM88,Q8CNI0,Q4L815,Q49Z80,Q3K375,P65332,P65333,C0M785,Q8KQK6,Q8DVK8,P0C0C8,Q04MC2,P0DC26,B5E784,Q5XAN3,C1CBB9,P0A3P9,Q1JAI5,Q1JKN7,Q1JFM8,Q1J5H8,A2RD59,B1I959,B8ZL57,Q48S10,P65334,P0DC27,B2ISQ8,P0C0C7,B5XMJ4,P65335,A4VZM6,C0MH25,A3CPX9,A4VTE8,Q5M173,Q5M5R0,Q03M44,B9DV56,C1CCB3,C1CIK5,C1CPL5,Q30P69,A6Q6Q3,Q72IE6,Q5SI29,C4LCK3,Q6TP45,A5F9A3,Q9Z5X1,Q9KUG4,C3LS47,Q87LS4,B7VK33,Q9AHK1,Q7MHS7,Q7MQP3,A1JK16,A7FLR2,Q1C416,B2K5Y4,Q8ZBU3,A9R0V3,Q1CLK4,A4TQ57,Q66E63,B1JJ95">luxS</z:uniprot>::Tn5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>[30] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>V. harveyi BB886 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>luxPQ::Tn5 KanR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>[6] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>V. harveyi JAF 375 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A7MRY4,P0C5S6">luxN</z:uniprot>::CmR <z:uniprot sup="inside" fb="0" ids="Q9KLK7,P54302,Q87GU5,Q8D5Z6,Q7MD16">luxQ</z:uniprot>::KanR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>[7] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>V. harveyi JMH 597 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A7MRY4,P0C5S6">luxN</z:uniprot>::Tn5 <z:uniprot sup="inside" fb="0" ids="A7N6S2,Q9KM66">cqsS</z:uniprot>::CmR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>[9] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>V. harveyi JAF 553 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A7MVC1,Q9KT83,P0C5S4,Q87MX8,Q8D892,Q7MM77">luxU</z:uniprot> H58A linked to KanR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>[5] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>V. harveyi JAF 483 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain><z:uniprot sup="inside" fb="0" ids="O87455,A7MVC2,Q9KT84,P0C5S5,Q87MX7,Q8CWJ5,Q7MM78">luxO</z:uniprot> D47A linked to KanR </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>[7] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>V. harveyi BNL 258 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain><z:uniprot sup="inside" fb="0" ids="A1TM32,C1F408,B9MFY1,A1W582,A3N3P9,B3H331,B0BTY6,A6VN08,A0KGS1,A4SR25,Q8UFE8,B9JF08,Q0VME7,Q5E2C8,B5FBR4,B6EMQ7,Q0AB60,A6TR76,A8MFD1,B7GIA1,O66512,Q5P7B8,Q43971,A1K3Z4,C1DLQ2,C3P4Y3,C3L887,A0RH87,Q81WX1,B7JIE0,Q733C0,B7ISQ8,C1ENE6,B7HCI2,B7HKR8,A7GR70,B9IUM6,Q81A74,Q636W3,Q9KAC4,Q6HF98,Q65JA8,A9VR02,A8FDJ0,Q5WFY7,O31796,A7Z501,A1USH6,Q6G3L8,Q6G014,A9IVD2,Q1LSQ5,B2IB74,Q493V9,Q2KYA0,Q7WHN6,Q7W6Q2,A9IK70,Q7VWL6,Q89LQ2,A5EIZ5,A4YUP3,C0ZEY6,B2S5W3,Q2YPW9,P0C107,A9M5C4,C0RJ83,P0A3G7,A5VQN6,B0CGR3,P0A3G8,B1YR39,Q1BGW9,B1JT87,A0K7T1,B4EAW4,Q0BEX2,Q39FR4,A9AH01,A3MK69,A2S2A7,Q62JW9,A1V4J5,A3NVW5,A3NA48,Q63US8,Q2SWD9,A4JEN5,B9MJT7,Q8RA69,A4XL44,Q3ACA9,B0SXF2,Q9A7H8,B8GW92,B3PDC1,Q11HW7,Q1QY26,Q7NS93,A8AMM9,P58243,A7FUK7,C3KX32,A6LWI9,B2V268,B2TIB6,A5I2R9,C1FNT6,B1IM65,A7GE42,B1KSA0,Q187T2,B9E1Z3,A5N8I8,A0Q0M9,Q0TRD3,Q8XL84,Q0STR1,Q48A22,A7MM89,Q1LLJ6,Q0K967,Q46ZI8,B3R1J7,Q47BS1,A9BMU8,B1I296,B8FWE3,Q24X67,A4J5Q0,A5EVF4,A7ZV41,B7UQI1,B7MKX6,B7LC31,P0A6X5,B5Z2H8,B7NTM8,B7MSJ0,B7M8T2,C4ZR49,B1XDS3,A8A7R6,A1AJ78,Q0T9M1,P0A6X4,B1IT34,P0A6X3,B7NGA6,B6I276,B1LQJ2,Q1R388,A4W5R3,B2VCX3,B7LLV4,B1YMH1,C4L1C0,A7HJA5,B0TZB1,Q14IJ3,A7NBS2,Q2A3T5,B2SG24,A0Q6S3,Q0BM86,Q5NH41,A4IYB0,Q5L0D8,C5D9J0,A9HLS1,Q0BT31,Q7VN44,Q4QND2,A5UA77,A5UGS5,P44437,B8F663,Q0I441,Q2SBC2,A1WUT6,C4K3V5,A4G4K7,B0UTF5,Q31GP2,Q0C0N8,Q5QW99,A6SZW5,Q28Q51,B5Y332,A6TH87,C1DD48,Q5X982,A5I9G0,Q5ZZK1,Q5X0L0,B0SBH9,Q04S67,Q04ZZ4,B0SJ28,B1XXK8,Q72Q67,Q8F5Z7,Q2W4P9,Q65SD5,A1U4C5,Q0APP7,A6VYL6,B7KRF3,Q606N3,A9W6K8,Q1H0Y0,B8IDE7,B1ZEN4,B1M597,B0UIY3,B8ELB8,Q2RJF9,B2A3Y0,Q5F9R5,P64344,P64345,A1KT11,Q0AHG1,Q82V23,Q1QM92,Q2YBW6,Q3J803,Q3SSN1,Q8EQQ9,A6X120,B6JDZ0,A1B9J4,A7HXU8,B2JIU6,B2SXS5,Q13X33,Q9CMC6,Q6D067,Q9ZI76,C6DFJ7,A5D2K8,Q7MYU0,Q9EYZ5,Q12AC3,B4F266,Q48P02,Q15NR0,A6VD57,B7V207,Q02F74,Q9HUM0,B3EWP0,Q1I449,Q4KJ73,C3KDW3,Q3IDT7,A8F5B4,A4XPY7,A5W9T0,Q3KIY9,B0KKZ5,Q88DD3,B1JAD4,Q87VJ4,Q4ZYY0,A4VQP0,A1SZL0,B2U9V4,Q8Y025,B3PYU7,Q2K8U6,Q1MGZ1,Q98MX2,B5ZND2,Q92Q84,Q21W33,Q2IW30,Q07MY5,Q6N6L8,Q214Q4,Q137B6,B3QIM2,Q2RTR1,A3PJP5,Q3J2L7,A4WSM3,Q165Q6,Q5LRP4,Q1GGX7,B8I2Q2,Q21HA2,B5F387,A9MFP0,Q57GL9,B5FRM8,B5R0N9,B5R9B9,B4TFA6,B4T2R7,Q5PL47,A9N4Y6,C0Q6C9,B5BKI1,B4TSF2,P0A1R1,P0A1R0,A8G8U9,A1SA21,B8ECA3,A3D024,A6WSV2,A9L3V9,Q12J95,Q07XW7,B0TU64,A3QAE0,Q8EJ69,A8H8G6,A4YAK9,B8CIX6,A0KSR7,A8FRD5,Q0HMN9,Q0HR42,A1RFR7,B1KHU8,B2TY47,Q31TA2,Q328F1,Q0SXB0,P0A6X6,Q3YUH1,C3MBM0,A6U8G6,Q2NW63,B4SRA5,B2FL26,Q67NL2,Q0AYA9,C5BRH7,B7IEU8,A6LNU8,Q9WYZ6,A5IJP8,B0K9L8,B0K1A5,B1L8W9,Q3SIN9,B8GNC7,C4L9M9,C5CXH1,A1WE11,A5F3L7,A7MX76,Q9KV11,C3LR79,Q87L07,B7VI55,Q8DCU9,Q7MH02,Q8D317,Q8PLQ4,Q3BUR4,Q4UTQ8,B0RTY9,Q8P9X7,Q2P1M4,Q5GYM1,B2I691,Q9PH57,B0U1E7,Q87F71,A1JIR5,Q56928,A7FMX9,Q1C100,B2K204,Q8ZIW2,A9QYN1,Q1CEF5,A4TRN9,Q66FB5,B1JMN9">hfq</z:uniprot>::Tn5lacZ </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>[31] </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>V. anguillarum LMG 4411 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>Isolated from young sea trout (Salmo trutta) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>BCCM/LMG </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>V. cholerae NCTC 8457 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>Isolated from human, biotype El Tor </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>HPACC </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>V. cholerae <z:uniprot sup="inside" fb="31" ids="P58020,Q5VWP3,Q5FW52,A0A096MK47">CIP</z:uniprot> 106855 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>Isolated from human, biotype El Tor, HapR frameshift </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain><z:uniprot sup="inside" fb="31" ids="P58020,Q5VWP3,Q5FW52,A0A096MK47">CIP</z:uniprot> </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>V. vulnificus LMG 16867 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>Isolated from tank water on eel farm </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>BCCM/LMG </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt105"><label/><p><text><SENT sid="288" pm="."><plain>BCCM/LMG, Belgian Co-ordinated Collections/Laboratory of Microbiology collection (Ghent University, Belgium); HPACC, Health Protection Agency Culture Collection (Salisbury, UK); <z:uniprot sup="inside" fb="31" ids="P58020,Q5VWP3,Q5FW52,A0A096MK47">CIP</z:uniprot>, Collection of Institute Pasteur (Paris, France). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s2d"><title><text><SENT sid="289" pm="."><plain>Cinnamaldehyde and cinnamaldehyde analogs affect the in vitro production of QS-regulated virulence factors </plain></SENT>
+</text></title><p><text><SENT sid="290" pm="."><plain>Subsequently we evaluated the effect of the selected compounds on the in vitro production of putative virulence factors. </plain></SENT>
+<SENT sid="291" pm="."><plain>All compounds investigated were found to decrease protease activity in Vibrio anguillarum LMG 4411 and Vibrio cholerae NCTC 8457 with 25–74% (Table 3). </plain></SENT>
+<SENT sid="292" pm="."><plain>No effects were observed on protease production in V. cholerae <z:uniprot sup="inside" fb="31" ids="P58020,Q5VWP3,Q5FW52,A0A096MK47">CIP</z:uniprot> 106855, a strain containing a non-functional HapR (LuxR homolog). </plain></SENT>
+<SENT sid="293" pm="."><plain>All compounds were found to decrease the pigment production in V. anguillarum LMG 4411 with 15% to 65% (Table 3). </plain></SENT>
+<SENT sid="294" pm="."><plain>This is in agreement with the previous finding that pigment production in V. anguillarum and protease production in V. anguillarum and V. cholerae are at least partially controlled by the AI-2 QS system [8], [10], [13]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0016084-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="295" pm="."><plain>Effect of the cinnamaldehyde analogs (100 µM) on different QS-regulated phenotypes. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0016084-t003-3" xlink:href="pone.0016084.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>Code* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>Compound </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="298" pm="."><plain>Protease activity </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>Pigment production </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>V. anguillarum </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>V. cholerae </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>V. anguillarum </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>LMG 4411 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>NCTC 8457 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>LMG 4411 </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>Cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>27±3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>28±10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>26±3 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>2-Nitro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>39±13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>27±8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>36±1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>3,4-Dichloro-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>47±17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>62±12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>28±5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>(E)-4-Phenyl-3-buten-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>43±12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>32±6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>25±5 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>(E)-3-Decen-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>74±15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>43±8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>64±20 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>(E)-2-Pentenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>46±6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>25±9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>15±7 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>(E)-2-Nonenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>74±17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>41±7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>48±8 </plain></SENT>
+</text></td></tr></tbody></table><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td colspan="3" align="left" rowspan="1"><text><SENT sid="341" pm="."><plain>Biofilm biomass </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>V. anguillarum </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>V. cholerae </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>V. anguillarum </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>LMG 4411 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>NCTC 8457 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>LMG 4411 </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>Cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>24±11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>17±14*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>21±12 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>2-Nitro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>31±12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>16 ±12*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>3,4-Dichloro-cinnamaldehyde** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>16±4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>27±12*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>50±27 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>(E)-4-Phenyl-3-buten-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>34±9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>18±11*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>14±9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>(E)-3-Decen-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>19±12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>31±18*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>24±14 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>(E)-2-Pentenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>19±11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>(E)-2-Nonenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>23±5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>29±17*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>38±8 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt106"><label>*</label><p><text><SENT sid="383" pm="."><plain>;Code refers to structures in Figure 1. </plain></SENT>
+</text></p></fn><fn id="nt107"><label/><p><text><SENT sid="384" pm="."><plain>Results are expressed as the percentage inhibition compared to the untreated control (± SD). </plain></SENT>
+</text></p></fn><fn id="nt108"><label/><p><text><SENT sid="385" pm="."><plain>NS: no significant inhibition compared to an untreated control (p&gt;0.05; Mann-Whitney U). </plain></SENT>
+</text></p></fn><fn id="nt109"><label>**</label><p><text><SENT sid="386" pm="."><plain>; compound was used in 50 µM concentration. </plain></SENT>
+</text></p></fn><fn id="nt110"><label>***</label><p><text><SENT sid="387" pm="."><plain>; for V. cholerae NCTC 8457 results are expressed as the percentage increase (instead of decrease) in biofilm biomass compared to the untreated control. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="388" pm="."><plain>No effect was observed on V. cholerae <z:uniprot sup="inside" fb="31" ids="P58020,Q5VWP3,Q5FW52,A0A096MK47">CIP</z:uniprot> 106855 and V. harveyi BB120 biomass (data not shown), but several compounds decreased biofilm formation in V. anguillarum LMG 4411 and V. vulnificus LMG 16867 (Table 3). </plain></SENT>
+<SENT sid="389" pm="."><plain>However, when using a resazurin-based viability assay no differences in the number of metabolically active cells in the V. harveyi BB120, V. anguillarum LMG 4411, V. vulnificus LMG 16867 and V. cholerae <z:uniprot sup="inside" fb="31" ids="P58020,Q5VWP3,Q5FW52,A0A096MK47">CIP</z:uniprot> 106855 biofilm were observed (data not shown). </plain></SENT>
+<SENT sid="390" pm="."><plain>Mutations in the LuxR homologues of V. anguillarum (VanT) and V. vulnificus (SmcR) have been shown to reduce biofilm formation, suggesting that in these species AI-2 QS promotes biofilm formation [8], [14]. </plain></SENT>
+<SENT sid="391" pm="."><plain>Our data support the hypothesis that cinnamaldehyde and selected cinnamaldehyde analogs affect biofilm formation by inhibiting matrix production and/or accumulation since a decrease in biomass could not be attributed to a decrease in the number of viable cells [10]. </plain></SENT>
+<SENT sid="392" pm="."><plain>In contrast, a higher biomass was found for V. cholerae NCTC 8457 when treated with cinnamaldehyde or cinnamaldehyde analogs (Table 3). </plain></SENT>
+<SENT sid="393" pm="."><plain>In addition, a significantly higher number of metabolically active cells was found in this biofilm when treated with (E)-2-nonenal and (E)-3-decen-2-one (127±14% and 114±9%, respectively). V. cholerae HapR has been shown to repress the expression of vps genes (involved in the production of exopolysaccharides) and biofilm formation, indicating that AI-2 QS negatively influences biofilm formation in this species [15], [16]. </plain></SENT>
+<SENT sid="394" pm="."><plain>This is consistent with the observed positive effects in this study of AI-2 QS inhibitors on biofilm formation of V. cholerae NCTC 8457, while no effect was observed for a strain lacking a functional HapR. </plain></SENT>
+</text></p><p><text><SENT sid="395" pm="."><plain>The effect of the selected compounds on the starvation response of the different Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. was also investigated. </plain></SENT>
+<SENT sid="396" pm="."><plain>In the control experiments no decrease in the number of culturable cells was observed after 48 h of incubation (data not shown). </plain></SENT>
+<SENT sid="397" pm="."><plain>However when cells were starved in the presence of one of the seven compounds tested, significantly less cells were recovered (Table 4). </plain></SENT>
+<SENT sid="398" pm="."><plain>The highest reductions in the number of recovered cells was observed with the most active QS inhibitors, (E)-3-decen-2-one, 3,4-dichloro-cinnamaldehyde and (E)-2-nonenal (Table 4). </plain></SENT>
+<SENT sid="399" pm="."><plain>Our data indicate that inhibition of AI-2 based QS suppresses the starvation response and renders cells more susceptible to starvation-associated stress conditions. </plain></SENT>
+<SENT sid="400" pm="."><plain>A correlation was observed between the AI-2 QS inhibitory effect of the compounds and their effects on in vitro production of virulence factors. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0016084-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="401" pm="."><plain>Effect of the QS inhibitors on the QS regulated starvation response (data are presented as average log reduction in CFU/ml after 48 h compared to an untreated control). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0016084-t004-4" xlink:href="pone.0016084.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>Code* </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>Compounds </plain></SENT>
+</text></td><td colspan="4" align="left" rowspan="1"><text><SENT sid="404" pm="."><plain>Average log reduction CFU/ml (± SD) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>V. anguillarum </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>V. cholerae </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>V. harveyi </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>V. vulnificus </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>LMG 4411 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="410" pm="."><plain>NCTC 8457 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="411" pm="."><plain>BB120 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="412" pm="."><plain>LMG 16867 </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="413" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="414" pm="."><plain>Cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="415" pm="."><plain>1.15±0.56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="416" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="417" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="418" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="419" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="420" pm="."><plain>2-Nitro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="421" pm="."><plain>1.14±0.32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="422" pm="."><plain>1.33±0.22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="423" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>3,4-Dichloro-cinnamaldehyde </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>&gt;6.60*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>&gt;6.83*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>5.99±0.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>3.88±0.40 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>(E)-4-Phenyl-3-buten-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>0.81±0.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>NS </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>(E)-3-Decen-2-one </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>2.76±0.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>3.29±0.27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>5.34±0.41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>1.48±0.17 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>(E)-2-Pentenal </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>1.08±0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>1.35±0.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>2.40±0.78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>NS </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>(E)-2-Nonenal** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>&gt;6.60*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>2.64±0.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>&gt;6.94*** </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>2.46±0.48 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt111"><label>*</label><p><text><SENT sid="455" pm="."><plain>;Code refers to structures in Figure 1. </plain></SENT>
+</text></p></fn><fn id="nt112"><label/><p><text><SENT sid="456" pm="."><plain>Compounds were used at 100 µM concentrations, except 3,4-dichloro-cinnamaldehyde (50 µM). </plain></SENT>
+</text></p></fn><fn id="nt113"><label/><p><text><SENT sid="457" pm="."><plain>NS: not significantly different from an untreated control (p&gt;0.05; Mann-Whitney U). </plain></SENT>
+</text></p></fn><fn id="nt114"><label>**</label><p><text><SENT sid="458" pm="."><plain>; 50 µM was used for V. cholerae NCTC 8457. </plain></SENT>
+</text></p></fn><fn id="nt115"><label>***</label><p><text><SENT sid="459" pm="."><plain>; No recovery of cells after 48 h (i.e. &lt;20 cells/ml survived starvation). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="s2e"><title><text><SENT sid="460" pm="."><plain>Cinnamaldehyde and cinnamaldehyde analogs affect virulence of Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. in C. elegans </plain></SENT>
+</text></title><p><text><SENT sid="461" pm="."><plain>To investigate the effect of the different compounds on virulence in vivo, C. elegans nematodes were infected with various Vibrio strains in the presence and absence of selected cinnamaldehyde analogs. </plain></SENT>
+<SENT sid="462" pm="."><plain>Five selected compounds were found to be non-toxic towards C. elegans when used at 100 µM. </plain></SENT>
+<SENT sid="463" pm="."><plain>3,4-Di-chloro-cinnamaldehyde and 2-nitro-cinnamaldehyde were toxic in concentrations above 25 µM and, hence were used in concentrations below this threshold. </plain></SENT>
+<SENT sid="464" pm="."><plain>In the absence of QS inhibitors, only 71±4%, 49±13% and 15±13% of the nematodes infected with V. anguillarum LMG 4411, V. harveyi BB120 and V. vulnificus LMG 16867 respectively, survived 48 h post infection. </plain></SENT>
+<SENT sid="465" pm="."><plain>All QS inhibitors significantly increased survival after infection, with the most pronounced effect observed for 3,4-dichloro-cinnamaldehyde (Fig. 3). </plain></SENT>
+<SENT sid="466" pm="."><plain>No differences in survival were observed when C. elegans was treated with the different compounds after infection with V. cholerae NCTC 8457 (data not shown). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0016084-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0016084.g003</object-id><label>Figure 3</label><caption><title><text><SENT sid="467" pm="."><plain>Survival curves after infection of C. elegans with V. anguillarum LMG 4411, V. harveyi BB120 or V. vulnificus LMG 16867 in the presence or absence of QS inhibitors. </plain></SENT>
+</text></title></caption><graphic xlink:href="pone.0016084.g003"/></fig></SecTag></sec><sec id="s2f"><title><text><SENT sid="468" pm="."><plain>Structure-activity relationship of cinnamaldehyde and cinnamaldehyde analogs suggest that a Michael-type addition to LuxR residues is important for activity </plain></SENT>
+</text></title><p><text><SENT sid="469" pm="."><plain>Based on our observations, we hypothesized that cinnamaldehyde binds as a ligand to LuxR, thereby changing the latters conformation and consequently decreasing its ability to bind to DNA. α,β unsaturated carbonyl compounds can react with nucleophiles, in a Michael-type addition reaction. </plain></SENT>
+<SENT sid="470" pm="."><plain>In this way, nucleophilic amino acid side chains (e.g. the thiol groups of cysteine residues) in LuxR possibly react with the electrophilic β-position to form irreversible cinnamaldehyde-receptor conjugates. </plain></SENT>
+<SENT sid="471" pm="."><plain>This would yield a modified protein, likely resulting in a reduced ability to bind to DNA. </plain></SENT>
+<SENT sid="472" pm="."><plain>Compounds capable of participating in a Michael-type addition reaction were found to be active, while replacement of the aldehyde group by a carboxylic acid moiety resulted in less active compounds. </plain></SENT>
+<SENT sid="473" pm="."><plain>Compounds lacking the double bond were found to be inactive (e.g. 3-phenylpropionaldehyde and 4-phenyl-2-butanone) (Fig. 1; Table 1). </plain></SENT>
+<SENT sid="474" pm="."><plain>Vinyl sulfone (e.g. methyl-styryl sulfone) polarizes the double bond more than the corresponding vinyl aldehyde, and thus it is no surprise that replacement of the vinyl aldehyde function by a vinyl sulfone leads to a more active compound. </plain></SENT>
+<SENT sid="475" pm="."><plain>These data strongly suggest the involvement of a Michael-type addition reaction. </plain></SENT>
+<SENT sid="476" pm="."><plain>The QS inhibitory effect of cinnamaldehyde analogs was also highly dependent on the nature and degree of substitution of the aromatic ring. </plain></SENT>
+<SENT sid="477" pm="."><plain>In general, substituents with electron withdrawing properties increased activity. </plain></SENT>
+<SENT sid="478" pm="."><plain>Examination of the physiochemical properties including electronic (Hammett sigma constant, σ) and lipophilic properties (the Hansch constant, π) further indicated that substitutions yielding higher π+σ values resulted in increased inhibition. </plain></SENT>
+<SENT sid="479" pm="."><plain>The inhibitory activity decreased in the order 3,4-dichloro-cinnamaldehyde (9)/4-chloro-3-trifluoromethyl-cinnamaldehyde (14) &gt;4-chloro-cinnamaldehyde (10) &gt; cinnamaldehyde (1). </plain></SENT>
+<SENT sid="480" pm="."><plain>Although 4-trifluoromethyl-cinnamaldehyde (7) has the same σ value as 3,4-dichloro-cinnamaldehyde (9), its lower inhibitory activity is likely due to its lower hydrophobicity and the lack of a meta-sterical effect [17]-[18]. </plain></SENT>
+<SENT sid="481" pm="."><plain>In addition, 4-nitro-cinnamaldehyde (3) has a lower activity than 3,4-dichloro-cinnamaldehyde (9) indicating that a favourable σ value can be neutralised by an unfavourable π effect. </plain></SENT>
+</text></p><p><text><SENT sid="482" pm="."><plain>Recently, the crystal structure of two LuxR homologues, SmcR in V. vulnificus and HapR in V. cholerae, was described [19]–[20]. </plain></SENT>
+<SENT sid="483" pm="."><plain>Both proteins show conserved putative ligand-binding sites which are surrounded by polar amino acids side chains on one side of the pocket and by hydrophobic residues on the other side [19]. </plain></SENT>
+<SENT sid="484" pm="."><plain>Further analysis revealed a positive charge in the pocket [20]. </plain></SENT>
+<SENT sid="485" pm="."><plain>These results indicate that for optimal binding affinity a ligand should contain a hydrophobic side chain as well as a (partially) negative charge. </plain></SENT>
+<SENT sid="486" pm="."><plain>Although no small molecule ligands which fit these pockets have been identified so far, the amphipatic nature of cinnamaldehyde suggests that it might act as a LuxR-ligand, thereby changing the DNA-binding ability of LuxR. </plain></SENT>
+<SENT sid="487" pm="."><plain>However, in order to gather additional support for this proposed mechanism and in order to identify the site(s) of modification in LuxR by cinnamaldehyde or cinnamaldehyde analogs, the protein-inhibitor complex should be investigated. </plain></SENT>
+<SENT sid="488" pm="."><plain>Unfortunately, the currently available overexpression construct (GST-LuxR) [12] does not allow to purify LuxR in sufficient quantities to permit analyzing the protein-inhibitor complex by X-ray crystallography or by MALDI-MS (data not shown). </plain></SENT>
+</text></p></sec><sec id="s2g"><title><text><SENT sid="489" pm="."><plain>The active AI-2 inhibiting cinnamaldehyde analogs have drug-like properties </plain></SENT>
+</text></title><p><text><SENT sid="490" pm="."><plain>In order to be potentially useful as therapeutic agents, active molecules need to satisfy several criteria. </plain></SENT>
+<SENT sid="491" pm="."><plain>The topological polar surface area (TPSA) is, together with the molecular volume, lipophilicity and solubility, widely acknowledged as an important factor determining transport of drugs across membranes. </plain></SENT>
+<SENT sid="492" pm="."><plain>It has been suggested that passively absorbed compounds should have a maximum TPSA of 120 Å2. </plain></SENT>
+<SENT sid="493" pm="."><plain>In addition, there is reasonable probability that compounds are well absorbed when they have logP (octanol/water partition coefficient) values below 5.0. </plain></SENT>
+<SENT sid="494" pm="."><plain>All compounds used have a TPSA below 120 Å2 (Supplementary Table S1). </plain></SENT>
+<SENT sid="495" pm="."><plain>In addition, the most active AI-2 QS inhibitors all have a logP value above 2 and a molecular volume of 130–150 Å3 (Supplementary Table S1). </plain></SENT>
+<SENT sid="496" pm="."><plain>All compounds were further evaluated for compliance with Lipinski's ‘rule-of-five’ [21]. </plain></SENT>
+<SENT sid="497" pm="."><plain>This rule summarizes important molecular pharmacokinetic properties of a compound that make it potentially applicable as an oral drug. </plain></SENT>
+<SENT sid="498" pm="."><plain>Most drug-like molecules have logP &lt;5, molecular weight &lt;500 and should contain not more than 10 hydrogen bond acceptors and less than 5 hydrogen bond donors. </plain></SENT>
+<SENT sid="499" pm="."><plain>None of the most active QS inhibiting compounds violated this ‘rule-of-five’. </plain></SENT>
+<SENT sid="500" pm="."><plain>However, these compounds are likely to react irreversibly with different proteins, a property that is preferably avoided in drug development. </plain></SENT>
+</text></p><p><text><SENT sid="501" pm="."><plain>The cytotoxicity of the most promising compounds, 3,4-dichloro-cinnamaldehyde (9), (E)-2-nonenal (26) and (E)-3-decen-2-one (30) was evaluated against MRC-5 cells. </plain></SENT>
+<SENT sid="502" pm="."><plain>An IC50 value of 22±1 µM was found for 3,4-dichloro-cinnamaldehyde (9). </plain></SENT>
+<SENT sid="503" pm="."><plain>This result is in agreement with the observed toxicity of this compound towards C. elegans. </plain></SENT>
+<SENT sid="504" pm="."><plain>In contrast, IC50 values for cinnamaldehyde (1), (E)-3-decen-2-one (30) and (E)-2-nonenal (26) were much higher (77±22 µM, &gt;640 µM and 192±97 µM, respectively). </plain></SENT>
+<SENT sid="505" pm="."><plain>In addition, (E)-2-nonenal (26) and (E)-3-decen-2-one (30) proved active blockers of in vivo virulence at low micromolar concentrations (even sub-micromolar for 3,4-dichloro-cinnamaldehyde), which suggests that the therapeutic window of these compounds is high enough for therapeutic applications in humans and animals. </plain></SENT>
+</text></p></sec><sec id="s2h"><title><text><SENT sid="506" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="507" pm="."><plain>By evaluating the effect of several cinnamaldehyde analogs on AI-2 QS, structural elements important for AI-2 QS inhibitors could be identified. </plain></SENT>
+<SENT sid="508" pm="."><plain>These structural elements consist of an α,β unsaturated side chain capable of reacting through Michael addition, a hydrophobic moiety as well as a (partially) negative charge. </plain></SENT>
+<SENT sid="509" pm="."><plain>Although no small molecule ligands for LuxR have been identified so far, the chemical structure of cinnamaldehyde analogs and their effect on the DNA binding ability of LuxR led us to the hypothesis that cinnamaldehyde analogs can act as LuxR-ligands, thereby changing the DNA-binding ability of LuxR. </plain></SENT>
+<SENT sid="510" pm="."><plain>In addition, the most active cinnamaldehyde analogs were found to reduce the Vibrio species starvation response, to affect biofilm formation in V. anguillarum, V. vulnificus and V. cholerae, to reduce pigment production in V. anguillarum and protease production in V. anguillarum and V. cholerae, and to increase the survival of C. elegans nematodes infected with V. anguillarum, V. harveyi and V. vulnificus. Finally, the most promising compounds have drug-like properties and exhibited only low cytotoxicity towards a MRC-5 cell line. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s3"><title><text><SENT sid="511" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec id="s3a"><title><text><SENT sid="512" pm="."><plain>Cinnamaldehyde and analogs </plain></SENT>
+</text></title><p><text><SENT sid="513" pm="."><plain>Cinnamaldehyde (1), methyl-styryl sulfone (15), 3-phenylpropionaldehyde (16), 3-phenylpropionic acid (17), cinnamamide (18), cinnamic acid (19), cinnamyl alcohol (20), methyl cinnamate (21), (E)-4-phenyl-3-buten-2-one (22), 4-phenyl-2-butanone (23), 1-acetyl-1-cyclohexene (24), (E)-2-pentenal (25), (E)-2-nonenal (26), (E)-2-tridecenal (27), methyl-(E)-2-nonenoate (28), 2-pentenoic acid (29), (E)-3-decen-2-one (30), (E)-3-nonen-2-one (31), 5-methyl-2-hepten-4-one (32), (E)-2-nonen-1-ol (33), (E)-2-hexen-1-al (34), (E)-2-heptenal (35), (E)-3-octen-2-one (36), (E)-2-octenal (37), 2-octenoic acid (38), (E)-2-decenal (39), (E)-2-undecenal (40) and (E)-2-dodecenal (41) were obtained from Sigma-Aldrich (Bornem, Belgium). </plain></SENT>
+<SENT sid="514" pm="."><plain>2-Methoxy-cinnamaldehyde (4) was obtained from Wako Pure Chemical Industries (Osaka, Japan). </plain></SENT>
+<SENT sid="515" pm="."><plain>4-Methoxy-cinnamaldehyde (5) was obtained from VWR International (West Chester, PA, USA) and 2-nitro-cinnamaldehyde (2), 4-nitro-cinnamaldehyde (3), 4-dimethylamino-cinnamaldehyde (6), 4-trifluoromethyl-cinnamic acid (8), 4-chloro-cinnamic acid (11) and 2,3,4,5,6-pentafluoro-cinnamic acid (13) were obtained from Acros Organics (Geel, Belgium). </plain></SENT>
+<SENT sid="516" pm="."><plain>4-Chloro-cinnamaldehyde (10) and 4-chloro-3-trifluoromethyl-cinnamaldehyde (14) were synthesized via a Wittig reaction as previously described [22]. </plain></SENT>
+<SENT sid="517" pm="."><plain>The halogenated cinnamaldehyde analog 3,4-dichloro-cinnamaldehyde (9) was synthesized as previously described [23]. </plain></SENT>
+<SENT sid="518" pm="."><plain>The halogenated cinnamaldehyde analogs 4-trifluoromethyl-cinnamaldehyde (7) and 2,3,4,5,6-pentafluoro-cinnamaldehyde (12) were synthesized by conversion of the corresponding cinnamic acid analogs into acid chlorides and subsequent reduction with lithium <z:uniprot sup="inside" fb="12" ids="P95871,P96086,Q97A95">tri</z:uniprot>-<z:uniprot sup="inside" fb="2" ids="Q1PS67,Q4KTA7">tert</z:uniprot>-butoxyaluminiumhydride [24]. </plain></SENT>
+<SENT sid="519" pm="."><plain>Stock solutions of all compounds were stored at −20°C. </plain></SENT>
+</text></p></sec><sec id="s3b"><title><text><SENT sid="520" pm="."><plain>Bacterial strains, nematodes and growth media </plain></SENT>
+</text></title><p><text><SENT sid="521" pm="."><plain>All Vibrio strains (Table 2) were routinely cultured overnight in Marine Broth (MB) (BD, Sparks, MD, USA) at 30°C on a rotary shaker. E. coli <z:uniprot sup="inside" fb="6" ids="P20277,P07843">BL21</z:uniprot> pGET-1 (containing the <z:uniprot sup="inside" fb="48" ids="P0A9D3,P0A9D2,P67804,P67805,P44521,P81065,P45875">gst</z:uniprot>-<z:uniprot sup="inside" fb="0" ids="P12746,P21308,P35327">luxR</z:uniprot> overexpression construct) and E. coli DH5α pBlueLux (containing pBluelux polylinker and luxCDABE genes) were grown in Luria-Bertani broth with aeration at 37°C in the presence of ampicillin (100 µg/ml). E. coli OP50 was routinely cultured in <z:uniprot sup="inside" fb="0" ids="P54081">TSB</z:uniprot> at 37°C. </plain></SENT>
+</text></p><p><text><SENT sid="522" pm="."><plain>C. elegans N2 (<z:uniprot sup="inside" fb="0" ids="Q9U1Q4">glp-4</z:uniprot>; <z:uniprot sup="inside" fb="0" ids="G5EDF7">sek-1</z:uniprot>) was propagated on nematode growth agar (0.25% peptone, 0.3% NaCl, 1.7% agar, 5 mg cholesterol, 1 mM CaCl2, 1 mM MgSO4, 25 mM phosphate buffer) containing 100 µg/ml kanamycin and with E. coli OP50 as a food source. C. elegans adults were harvested as previously described [25]. </plain></SENT>
+</text></p></sec><sec id="s3c"><title><text><SENT sid="523" pm="."><plain>Determination of the minimal inhibitory concentration (<z:uniprot sup="inside" fb="58" ids="P10569">MIC</z:uniprot>) </plain></SENT>
+</text></title><p><text><SENT sid="524" pm="."><plain>MICs were determined for each compound and strain as described previously [26]. </plain></SENT>
+<SENT sid="525" pm="."><plain>In brief, a microdilution assay in flat bottomed 96-well microtiter plates (TPP, Trasadingen, Switzerland), using MB as a medium was used. </plain></SENT>
+<SENT sid="526" pm="."><plain>The plates were incubated for 24 h at 30°C and the absorption at 590 nm was measured using a Victor Wallac2 multilabel counter (Perkin Elmer Life and Analytical Sciences, Boston, MA, USA). </plain></SENT>
+<SENT sid="527" pm="."><plain>In addition, <z:uniprot sup="inside" fb="58" ids="P10569">MIC</z:uniprot> values were also determined for pathogens employing an AI-2 mediated QS system. </plain></SENT>
+<SENT sid="528" pm="."><plain>These pathogens are Escherichia coli BW 25113, E. coli <z:uniprot sup="inside" fb="3" ids="Q77Q38,Q99456,Q64291,Q28706,Q6IFW5,Q9JL59,Q8WVN6">K12</z:uniprot>, E. coli LMG 25922; Salmonella enterica serovar Typhimurium ATCC 700720, Staphylococcus aureus LMG 10147 and S. aureus Mu50. </plain></SENT>
+<SENT sid="529" pm="."><plain>When used in concentrations up to 1000 µM, cinnamaldehyde and most cinnamaldehyde analogs did not affect the growth of the different strains (with the exception of 3,4-dichloro-cinnamaldehyde, <z:uniprot sup="inside" fb="58" ids="P10569">MIC</z:uniprot> ≥250 µM). </plain></SENT>
+</text></p></sec><sec id="s3d"><title><text><SENT sid="530" pm="."><plain>Bioluminescence assays </plain></SENT>
+</text></title><p><text><SENT sid="531" pm="."><plain>The assay for the effect on constitutively expressed bioluminescence (using E. coli DH5α pBlueLux containing the luxCDABE genes) and the bioassay to determine the molecular target of the compounds tested (using V. harveyi BB120, BB152, BB170, BB886, BNL258, JAF375, JAF553, JAF483, JMH597 and MM30) were conducted as described previously [27]. </plain></SENT>
+<SENT sid="532" pm="."><plain>Each compound was tested at least six times in triplicate (n≥18). </plain></SENT>
+<SENT sid="533" pm="."><plain>Inhibitory effects on AI-2 QS were assessed using a V. harveyi BB170 assay [10]. </plain></SENT>
+<SENT sid="534" pm="."><plain>Each compound was tested twelve times in each assay and each assay was repeated at least four times (n≥48). </plain></SENT>
+</text></p></sec><sec id="s3e"><title><text><SENT sid="535" pm="."><plain>LuxR-DNA binding assay </plain></SENT>
+</text></title><p><text><SENT sid="536" pm="."><plain>Induction of GST-LuxR overexpression and protein purification were conducted as previously described [12]. </plain></SENT>
+<SENT sid="537" pm="."><plain>GST-LuxR was purified using Glutathione Uniflow resins (Clontech, Mountain view, CA, USA) and fractions containing GST-LuxR were identified by both SDS-PAGE and capillary electrophoresis (Experion PRO260 chip; Bio-rad laboratories, Nazareth Eke, Belgium). </plain></SENT>
+<SENT sid="538" pm="."><plain>5′fluorescein-labelled DNA oligonucleotide (TATTGATAAATTTATCAATAA) and its unlabelled complement were obtained from Sigma-Aldrich. </plain></SENT>
+<SENT sid="539" pm="."><plain>Annealing of the complementary oligonucleotides was achieved by heating equimolar concentrations in NaCl-Tris-EDTA buffer at 94°C for 2 min, after which the reaction mixtures were allowed to slowly cool to room temperature. </plain></SENT>
+<SENT sid="540" pm="."><plain>Fluorescence polarisation measurements in the presence and absence of QS inhibitors were conducted as described previously [12]. </plain></SENT>
+<SENT sid="541" pm="."><plain>Samples were excited at 480 nm and emission was measured at 535 nm on a Perkin Elmer EnVision plate reader at 30°C. K d values were calculated as the concentration of LuxR at the half-maximal fractional change in fluorescence anisotropy and curves were fit by non-linear regression using the Graphpad software (Graphpad software Inc., La Jolla, CA, USA). </plain></SENT>
+</text></p></sec><sec id="s3f"><title><text><SENT sid="542" pm="."><plain>Effect of cinnamaldehyde analogs on QS-regulated phenotypes in vitro </plain></SENT>
+</text></title><p><text><SENT sid="543" pm="."><plain>The effect on protease production in V. anguillarum LMG 4411 and V. cholerae NCTC 8457 was conducted using an azocasein assay. </plain></SENT>
+<SENT sid="544" pm="."><plain>In brief, strains were grown overnight in LB at 30°C in the presence and absence of QS inhibitors and the OD at 605 nm was determined. </plain></SENT>
+<SENT sid="545" pm="."><plain>Five-hundred microliter of cell-free supernatant was combined with 500 µl azocasein (5 mg/ml in 100 mM Tris, pH 8) and incubated for 1 h at 37°C. </plain></SENT>
+<SENT sid="546" pm="."><plain>After incubation, 100 µl 10% trichloroacetic acid was added and the mixture was centrifuged. </plain></SENT>
+<SENT sid="547" pm="."><plain>The supernatant was then transferred to 700 µl NaOH (525 mM) and the optical density at 420 nm was measured. </plain></SENT>
+</text></p><p><text><SENT sid="548" pm="."><plain>The effect on pigment production in V. anguillarum LMG 4411 was evaluated as described previously [8]. </plain></SENT>
+<SENT sid="549" pm="."><plain>Each compound was tested twice in each assay and each assay was repeated at least four times (n≥8). </plain></SENT>
+</text></p><p><text><SENT sid="550" pm="."><plain>Biofilms were grown and biofilm biomass was quantified by crystal violet (CV) staining using a Perkin Elmer EnVision plate reader, as described previously [10], [28]. </plain></SENT>
+<SENT sid="551" pm="."><plain>For quantification of the number of metabolically active cells in the biofilm, a resazurin assay was used [28]. </plain></SENT>
+<SENT sid="552" pm="."><plain>Each compound was tested six times in each assay and each assay was repeated at least three times (n≥18). </plain></SENT>
+</text></p><p><text><SENT sid="553" pm="."><plain>The effect of the QS inhibitors on starvation response of several Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. was performed as described previously [27]. </plain></SENT>
+<SENT sid="554" pm="."><plain>Each assay was repeated at least three times. </plain></SENT>
+</text></p></sec><sec id="s3g"><title><text><SENT sid="555" pm="."><plain>C. elegans challenge test </plain></SENT>
+</text></title><p><text><SENT sid="556" pm="."><plain>Synchronized adult nematode populations were obtained as described previously [29]. </plain></SENT>
+<SENT sid="557" pm="."><plain>For the survival assay, synchronized L4 worms were suspended in a medium containing 95% M9 buffer, 5% BHI and 10 µg/ml cholesterol (Sigma-Aldrich). </plain></SENT>
+<SENT sid="558" pm="."><plain>0.5 ml of this suspension was transferred to the well of a 24-well plate. </plain></SENT>
+<SENT sid="559" pm="."><plain>An overnight bacterial culture was centrifuged and resuspended in the assay medium and standardized to 108 CFU/ml. </plain></SENT>
+<SENT sid="560" pm="."><plain>250 µl aliquots of the standardized bacterial population were added to each well, while 250 µl sterile medium was added to the positive control. </plain></SENT>
+<SENT sid="561" pm="."><plain>QS inhibitors were added to the test-wells. </plain></SENT>
+<SENT sid="562" pm="."><plain>The assay plates were incubated at 25°C for up to two days. </plain></SENT>
+<SENT sid="563" pm="."><plain>The fraction of death worms was determined by counting the number of dead worms and total number of worms in each well using a dissecting microscope. </plain></SENT>
+<SENT sid="564" pm="."><plain>Each compound was tested three times in each assay and each assay was repeated at least three times (n≥9). </plain></SENT>
+</text></p></sec><sec id="s3h"><title><text><SENT sid="565" pm="."><plain>Investigation of pharmacokinetic properties and cytotoxicity </plain></SENT>
+</text></title><p><text><SENT sid="566" pm="."><plain>The molecular properties of all QS inhibiting compounds were predicted using a commercial software package (Molinspiration Cheminformatics, Slovensky Grob, Slovak Republic). </plain></SENT>
+<SENT sid="567" pm="."><plain>Cytotoxicity was tested on human simian virus 40-immortalized lung fibroblasts (MRC-5 SV2 cells; European Collection of Cell Cultures, United Kingdom). </plain></SENT>
+<SENT sid="568" pm="."><plain>MRC-5 cells were cultured in Earl's MEM (Gibco, UK) +5% FCSi. </plain></SENT>
+<SENT sid="569" pm="."><plain>Assays were performed in 96-well microtiter plates, each well containing about 104 cells. </plain></SENT>
+<SENT sid="570" pm="."><plain>After 3 days incubation at 37°C with 5% CO2, cell viability was assessed fluorimetrically after addition of resazurin (excitation and emission wavelength of 550 nm and 590 nm, respectively). </plain></SENT>
+<SENT sid="571" pm="."><plain>The results are expressed as % reduction in cell growth/viability compared to untreated control wells and an IC50 is determined. </plain></SENT>
+</text></p></sec><sec id="s3i"><title><text><SENT sid="572" pm="."><plain>Statistics </plain></SENT>
+</text></title><p><text><SENT sid="573" pm="."><plain>The normal distribution of the data was checked using the Shapiro–Wilk test. </plain></SENT>
+<SENT sid="574" pm="."><plain>Normally and non-normally distributed data were analyzed using an independent sample t-test and the Mann–Whitney U test, respectively. </plain></SENT>
+<SENT sid="575" pm="."><plain>Statistical analyses were carried out using SPSS software, version 17.0 (SPSS, Chicago, IL, USA). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="s4"><title><text><SENT sid="576" pm="."><plain>Supporting Information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0016084.s001"><label>Table S1</label><caption><p><text><SENT sid="577" pm="."><plain>The molecular properties of the different compounds. </plain></SENT>
+</text></p><p><text><SENT sid="578" pm="."><plain>(DOC) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0016084.s001.doc"><caption><p><text><SENT sid="579" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="580" pm="."><plain>The authors like to thank Dr. S. </plain></SENT>
+<SENT sid="581" pm="."><plain>Atkinson for providing the pBlueLux plasmid and Dr. B. </plain></SENT>
+<SENT sid="582" pm="."><plain>Bassler for providing the E. coli <z:uniprot sup="inside" fb="6" ids="P20277,P07843">BL21</z:uniprot> pGET-1 strain. </plain></SENT>
+</text></text4fund></p></ack></SecTag><fn-group><fn fn-type="COI-statement"><p><text><SENT sid="583" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><SecTag type="ACK_FUND"><fn fn-type="financial-disclosure"><p><text4fund><text><SENT sid="584" pm="."><plain>Funding: This work was supported by the Institute for the Promotion of Innovation through Science and Technology in Flanders (IWT-Vlaanderen, <ext-link ext-link-type="uri" xlink:href="http://www.iwt.be">www.iwt.be</ext-link>), Fund for Scientific research - Flanders (FWO-Vlaanderen, <ext-link ext-link-type="uri" xlink:href="http://www.fwo.be">www.fwo.be</ext-link>) and by the Special Research Fund (BOF) of Ghent University (<ext-link ext-link-type="uri" xlink:href="http://www.ugent.be">www.ugent.be</ext-link>). </plain></SENT>
+<SENT sid="585" pm="."><plain>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. </plain></SENT>
+</text></text4fund></p></fn></SecTag></fn-group><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0016084-Bassler1"><text><SENT sid="586" pm="."><plain>1 BasslerBLWrightMShowalterRESilvermanMR 1993 Intercellular signalling in Vibrio harveyi: sequence and function of genes regulating expression of luminescence. Mol Microbiol 9 773 786 8231809 </plain></SENT>
+</text></ref><ref id="pone.0016084-Bassler2"><text><SENT sid="587" pm="."><plain>2 BasslerBLGreenbergEPStevensAM 1997 Cross-species induction of luminescence in the quorum-sensing bacterium Vibrio harveyi. J Bacteriol 179 4043 4045 9190823 </plain></SENT>
+</text></ref><ref id="pone.0016084-Higgins1"><text><SENT sid="588" pm="."><plain>3 HigginsDAPomianekMEKramlCMTaylorRKSemmelhackMF 2007 The major Vibrio cholerae autoinducer and its role in virulence factor production. Nature 450 883 886 18004304 </plain></SENT>
+</text></ref><ref id="pone.0016084-Milton1"><text><SENT sid="589" pm="."><plain>4 MiltonDL 2006 Quorum sensing in Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>.: complexity for diversification. Int J Med Microbiol 296 61 71 16487746 </plain></SENT>
+</text></ref><ref id="pone.0016084-Freeman1"><text><SENT sid="590" pm="."><plain>5 FreemanJABasslerBL 1999 Sequence and function of LuxU: a two component phosphorelay protein that regulates quorum sensing in Vibrio harveyi. J Bacteriol 181 899 906 9922254 </plain></SENT>
+</text></ref><ref id="pone.0016084-Bassler3"><text><SENT sid="591" pm="."><plain>6 BasslerBLWrightMSilvermanMR 1994 Multiple signalling systems controlling expression of luminescence in Vibrio harveyi: sequence and function of genes encoding a second sensory pathway. Mol Microbiol 13 273 286 7984107 </plain></SENT>
+</text></ref><ref id="pone.0016084-Freeman2"><text><SENT sid="592" pm="."><plain>7 FreemanJABasslerBL 1999 A genetic analysis of the function of LuxO, a two component response regulator involved in quorum sensing in Vibrio harveyi. Mol Microbiol 31 665 667 10027982 </plain></SENT>
+</text></ref><ref id="pone.0016084-Croxatto1"><text><SENT sid="593" pm="."><plain>8 CroxattoAChalkerVJLauritzJJassJHardmanA 2002 VanT, a homologue of Vibrio harveyi LuxR, regulates serine, metalloprotease, pigment and biofilm production in Vibrio anguillarum. J Bacteriol 184 1617 1629 11872713 </plain></SENT>
+</text></ref><ref id="pone.0016084-Defoirdt1"><text><SENT sid="594" pm="."><plain>9 DefoirdtTCrabRWoodTKSorgeloosPVerstraeteW 2006 Quorum sensing-disrupting brominated furanones protect the gnotobiotic brine shrimp Artemia fransciscana from pathogenic Vibrio harveyi, Vibrio campbellii and Vibrio parahaemolyticus isolates. <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Environ Microbiol 72 6419 6423 16957276 </plain></SENT>
+</text></ref><ref id="pone.0016084-Brackman1"><text><SENT sid="595" pm="."><plain>10 BrackmanGDefoirdtTMiyamotoCBossierPVan CalenberghS 2008 Cinnamaldehyde and cinnamaldehyde analogs reduce virulence in Vibrio <z:uniprot sup="inside" fb="61" ids="D9TT09">spp</z:uniprot>. by decreasing the DNA-binding activity of the quorum sensing response regulator LuxR. BMC Microbiol 8 149 18793453 </plain></SENT>
+</text></ref><ref id="pone.0016084-Niu1"><text><SENT sid="596" pm="."><plain>11 NiuCAfreSGilbertES 2006 Subinhibitory concentrations of cinnamaldehyde interfere with quorum sensing. Lett <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Microbiol 43 489 94 17032221 </plain></SENT>
+</text></ref><ref id="pone.0016084-Pompeani1"><text><SENT sid="597" pm="."><plain>12 PompeaniAJIrgonJJBergerMFBulykMLWingreenNS 2008 The Vibrio harveyi master quorum-sensing regulator, LuxR, a TetR-type protein is both an activator and a repressor: DNA recognition and binding specificity at target promoters. Mol Microbiol 70 76 88 18681939 </plain></SENT>
+</text></ref><ref id="pone.0016084-Joelsson1"><text><SENT sid="598" pm="."><plain>13 JoelssonAKanBZhuJ 2007 Quorum sensing enhances the stress response in Vibrio cholerae. <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Environ Microbiol 73 3742 3746 17434996 </plain></SENT>
+</text></ref><ref id="pone.0016084-Lee1"><text><SENT sid="599" pm="."><plain>14 LeeJHRheeJEParkUJuHMLeeBC 2007 Identification and functional analysis of Vibrio vulnificus SmcR, a novel global regulator. J Microbiol Biotechnol 17 325 334 18051765 </plain></SENT>
+</text></ref><ref id="pone.0016084-Zhu1"><text><SENT sid="600" pm="."><plain>15 ZhuJMillerMBVanceREDziejmanMBasslerBL 2002 Quorum-sensing regulators control virulence gene expression in Vibrio cholerae. Proc Natl Acad Sci USA 99 3129 3134 11854465 </plain></SENT>
+</text></ref><ref id="pone.0016084-Hammer1"><text><SENT sid="601" pm="."><plain>16 HammerBKBasslerBL 2003 Quorum sensing controls biofilm formation in Vibrio cholerae. Mol Microbiol 50 101 104 14507367 </plain></SENT>
+</text></ref><ref id="pone.0016084-Topliss1"><text><SENT sid="602" pm="."><plain>17 ToplissJG 1972 Utilization of operational schemes for analog synthesis in drug design. J Med Chem 15 1006 1011 5069767 </plain></SENT>
+</text></ref><ref id="pone.0016084-Topliss2"><text><SENT sid="603" pm="."><plain>18 ToplissJG 1977 A manual for applying the Hansch approach to drug design. J Med Chem 20 463 469 321782 </plain></SENT>
+</text></ref><ref id="pone.0016084-Kim1"><text><SENT sid="604" pm="."><plain>19 KimYKimBSParkYJChoiWCHwangJ 2010 Crystal structure of SmcR, a quorum-sensing master regulator of Vibrio vulnificus, provides insight into its regulation of transcription. J Biol Chem 285 14020 14030 20178981 </plain></SENT>
+</text></ref><ref id="pone.0016084-DeSilva1"><text><SENT sid="605" pm="."><plain>20 De SilvaRSKovacikovaGLinWTaylorRKSkorupskiK 2007 Crystal structure of the Vibrio cholerae quorum-sensing regulatory protein HapR. J Bacteriol 189 5683 5691 17526705 </plain></SENT>
+</text></ref><ref id="pone.0016084-Lipinski1"><text><SENT sid="606" pm="."><plain>21 LipinskiCA 2004 Lead- and drug-like compounds: the rule-of-five revolution. Drug Discov Today Tech 1 337 341  </plain></SENT>
+</text></ref><ref id="pone.0016084-Lautens1"><text><SENT sid="607" pm="."><plain>22 LautensMMancusoJ 2004 Addition of bifunctional organoboron reagents to straines alkenes. </plain></SENT>
+<SENT sid="608" pm="."><plain>Carbon-carbon bond formation with Rh(I) catalysis in aqueous media. J Org Chem 69 3478 3487 15132559 </plain></SENT>
+</text></ref><ref id="pone.0016084-Battistuzzi1"><text><SENT sid="609" pm="."><plain>23 BattistuzziGCacchiSFabriziG 2003 An efficient palladium-catalyzed synthesis of cinnamaldehydes from acrolein diethyl acetal and aryl iodides and bromides. Org Lett 5 777 80 12605513 </plain></SENT>
+</text></ref><ref id="pone.0016084-Wu1"><text><SENT sid="610" pm="."><plain>24 WuZMinhasGSWenDJiangHChenK 2004 Design, synthesis, and structure-activity relationships of haloenol lactones; site-directed and isozyme-selective <z:uniprot sup="inside" fb="0" ids="O18598,P80894,Q08392,Q08393,P82999,P83000,P83001,P82998,P82996,P82997,P48438,P46423,Q04522,P46419,P30116,M1RIR6,P46426,O04437,Q6R4B4,P46428,P83246,P44521,C0HLL7,P46437,P46088,P81065,Q8ILQ7,Q8MU52,Q0ZS46,Q7REH6,O73888,O60760,Q9JHF7,O35543">glutathione S-transferase</z:uniprot> inhibitors. J Med Chem 47 3282 3294 15163208 </plain></SENT>
+</text></ref><ref id="pone.0016084-Cooper1"><text><SENT sid="611" pm="."><plain>25 CooperVSCarlsonWALiPumaJJ 2009 Susceptibility of Caenorhabditis elegans to Burkholderia infection depends on prior diet and secreted bacterial attractants. PLoS ONE 4 e7961 19956737 </plain></SENT>
+</text></ref><ref id="pone.0016084-Brackman2"><text><SENT sid="612" pm="."><plain>26 BrackmanGHillaertUVan CalenberghSNelisHJCoenyeT 2009 Use of quorum sensing inhibitors to interfere with biofilm formation and development in Burkholderia multivorans and Burkholderia cenocepacia. Res Microbiol 160 144 151 19146953 </plain></SENT>
+</text></ref><ref id="pone.0016084-Brackman3"><text><SENT sid="613" pm="."><plain>27 BrackmanGCelenSBaruahKBossierPVan CalenberghS 2009 AI-2 quorum-sensing inhibitors affect the starvation response and reduce virulence in several Vibrio species, most likely by interfering with LuxPQ. Microbiology 155 4114 4122 19778962 </plain></SENT>
+</text></ref><ref id="pone.0016084-Peeters1"><text><SENT sid="614" pm="."><plain>28 PeetersENelisHJCoenyeT 2008 Comparison of multiple methods for quantification of microbial biofilms grown in microtiter plates. J Microbiol Methods 72 157 165 18155789 </plain></SENT>
+</text></ref><ref id="pone.0016084-Stiernagle1"><text><SENT sid="615" pm="."><plain>29 StiernagleT 2006 Maintenance of C. elegans. Wormbook 11 1 11  </plain></SENT>
+</text></ref><ref id="pone.0016084-Surette1"><text><SENT sid="616" pm="."><plain>30 SuretteMGMillerMBBasslerBL 1999 Quorum sensing in Escherichia coli, Salmonella typhimurium, and Vibrio harveyi: a new family of genes responsible for autoinducer production. Proc Natl Acad Sci USA 96 1639 1644 9990077 </plain></SENT>
+</text></ref><ref id="pone.0016084-Lenz1"><text><SENT sid="617" pm="."><plain>31 LenzDHMokKCLilleyBNKulkamiRVWingreenNS 2004 The small RNA chaperone Hfq and multiple small RNAs control quorum sensing in Vibrio harveyi and Vibrio cholerae. Cell 118 69 82 15242645 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

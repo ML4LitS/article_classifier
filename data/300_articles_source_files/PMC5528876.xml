@@ -1,0 +1,1084 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 39.96?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5528876</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0181908</article-id><article-id pub-id-type="publisher-id">PONE-D-16-31420</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Psychometrics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social Sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Psychometrics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and Analysis Methods</subject><subj-group><subject>Mathematical and Statistical Techniques</subject><subj-group><subject>Statistical Methods</subject><subj-group><subject>Factor Analysis</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical Sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Statistics (Mathematics)</subject><subj-group><subject>Statistical Methods</subject><subj-group><subject>Factor Analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and Analysis Methods</subject><subj-group><subject>Research Design</subject><subj-group><subject>Survey Research</subject><subj-group><subject>Questionnaires</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>People and Places</subject><subj-group><subject>Population Groupings</subject><subj-group><subject>Age Groups</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Diagnostic Medicine</subject><subj-group><subject>Signs and Symptoms</subject><subj-group><subject>Fatigue</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Pathology and Laboratory Medicine</subject><subj-group><subject>Signs and Symptoms</subject><subj-group><subject>Fatigue</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Social Sciences</subject><subj-group><subject>Sociology</subject><subj-group><subject>Sexual and Gender Issues</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Physical Sciences</subject><subj-group><subject>Mathematics</subject><subj-group><subject>Probability Theory</subject><subj-group><subject>Random Variables</subject><subj-group><subject>Covariance</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Health Care</subject><subj-group><subject>Psychological and Psychosocial Issues</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Psychometric properties of the Dresden Body Image Questionnaire: A multiple-group confirmatory factor analysis across sex and age in a Dutch non-clinical sample </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Psychometric properties of the Dresden Body Image Questionnaire</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Scheffers</surname><given-names>Mia</given-names></name><role content-type="http://credit.casrai.org/">Conceptualization</role><role content-type="http://credit.casrai.org/">Data curation</role><role content-type="http://credit.casrai.org/">Formal analysis</role><role content-type="http://credit.casrai.org/">Investigation</role><role content-type="http://credit.casrai.org/">Methodology</role><role content-type="http://credit.casrai.org/">Project administration</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role><xref ref-type="aff" rid="aff001"><sup>1</sup></xref><xref ref-type="corresp" rid="cor001">*</xref></contrib><contrib contrib-type="author"><name><surname>van Duijn</surname><given-names>Marijtje A. J.</given-names></name><role content-type="http://credit.casrai.org/">Conceptualization</role><role content-type="http://credit.casrai.org/">Data curation</role><role content-type="http://credit.casrai.org/">Formal analysis</role><role content-type="http://credit.casrai.org/">Methodology</role><role content-type="http://credit.casrai.org/">Software</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Validation</role><role content-type="http://credit.casrai.org/">Visualization</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role><xref ref-type="aff" rid="aff002"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name><surname>Bosscher</surname><given-names>Ruud J.</given-names></name><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role><xref ref-type="aff" rid="aff001"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Wiersma</surname><given-names>Durk</given-names></name><role content-type="http://credit.casrai.org/">Conceptualization</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role><xref ref-type="aff" rid="aff003"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Schoevers</surname><given-names>Robert A.</given-names></name><role content-type="http://credit.casrai.org/">Conceptualization</role><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role><xref ref-type="aff" rid="aff004"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name><surname>van Busschbach</surname><given-names>Jooske T.</given-names></name><role content-type="http://credit.casrai.org/">Conceptualization</role><role content-type="http://credit.casrai.org/">Formal analysis</role><role content-type="http://credit.casrai.org/">Methodology</role><role content-type="http://credit.casrai.org/">Resources</role><role content-type="http://credit.casrai.org/">Supervision</role><role content-type="http://credit.casrai.org/">Writing – original draft</role><role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role><xref ref-type="aff" rid="aff001"><sup>1</sup></xref><xref ref-type="aff" rid="aff003"><sup>3</sup></xref></contrib></contrib-group><aff id="aff001"><label>1</label>
+<addr-line>Windesheim University of Applied Sciences, School of Human Movement and Education, Zwolle, The Netherlands</addr-line></aff><aff id="aff002"><label>2</label>
+<addr-line>University of Groningen, Department of Sociology, Groningen, The Netherlands</addr-line></aff><aff id="aff003"><label>3</label>
+<addr-line>University of Groningen, University Medical Center, Rob Giel Research Centre, Groningen, The Netherlands</addr-line></aff><aff id="aff004"><label>4</label>
+<addr-line>University of Groningen, University Medical Center, Department of Psychiatry, Research School of Behavioural and Cognitive Neurosciences (BCN), Interdisciplinary Center for Psychopathology and Emotion regulation (ICPE), Groningen, The Netherlands</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Tractenberg</surname><given-names>Rochelle E.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1"><addr-line>Georgetown University Medical Center, UNITED STATES</addr-line></aff><author-notes><fn fn-type="COI-statement" id="coi001"><p><text><SENT sid="1" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist </plain></SENT>
+</text></p></fn><corresp id="cor001">* E-mail: <email>wj.scheffers@windesheim.nl</email></corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>7</month><year>2017</year></pub-date><pub-date pub-type="collection"><year>2017</year></pub-date><volume>12</volume><issue>7</issue><elocation-id>e0181908</elocation-id><history><date date-type="received"><day>21</day><month>9</month><year>2016</year></date><date date-type="accepted"><day>10</day><month>7</month><year>2017</year></date></history><permissions><copyright-statement>© 2017 Scheffers et al</copyright-statement><copyright-year>2017</copyright-year><copyright-holder>Scheffers et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="pone.0181908.pdf"/><abstract><sec id="sec001"><title><text><SENT sid="2" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="3" pm="."><plain>Body image has implications for psychosocial functioning and quality of life and its disturbance is reported in a broad range of psychiatric disorders. </plain></SENT>
+<SENT sid="4" pm="."><plain>In view of the lack of instruments in Dutch measuring body image as a broad concept, we set out to make an instrument available that reflects the multidimensional character of this construct by including more dimensions than physical appearance. </plain></SENT>
+<SENT sid="5" pm="."><plain>The Dresden Körperbildfragebogen (DBIQ, Dresden Body Image Questionnaire) particularly served this purpose. </plain></SENT>
+<SENT sid="6" pm="."><plain>The DBIQ consists of 35 items and five subscales: body acceptance, sexual fulfillment, physical contact, vitality, and self-aggrandizement. </plain></SENT>
+<SENT sid="7" pm="."><plain>The main objective of the present study was to evaluate the psychometric properties of the Dutch translation of the Dresden Body Image Questionnaire (DBIQ-NL) in a non-clinical sample. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec002"><title><text><SENT sid="8" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="9" pm="."><plain>The psychometric properties of the DBIQ-NL were examined in a non-clinical sample of 988 respondents aged between 18 and 65. </plain></SENT>
+<SENT sid="10" pm="."><plain>We investigated the subscales' internal consistency and test-retest reliability. </plain></SENT>
+<SENT sid="11" pm="."><plain>In order to establish construct validity we evaluated the association with a related construct, body cathexis, and with indices of self-esteem and psychological wellbeing. </plain></SENT>
+<SENT sid="12" pm="."><plain>The factor structure of the DBIQ-NL was examined via confirmatory factor analysis (<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>). </plain></SENT>
+<SENT sid="13" pm="."><plain>The equivalence of the measurement model across sex and age was evaluated by multiplegroup confirmatory factor analyses. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec003"><title><text><SENT sid="14" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="15" pm="."><plain>Confirmatory factor analyses showed a structure in accordance with the original scale, where model fit was improved significantly by moving one item to another subscale. </plain></SENT>
+<SENT sid="16" pm="."><plain>Multiple group confirmatory factor analysis across sex and age demonstrated partial strong invariance. </plain></SENT>
+<SENT sid="17" pm="."><plain>Internal consistency was good with little overlap between the subscales. </plain></SENT>
+<SENT sid="18" pm="."><plain>Temporal reliability and construct validity were satisfactory. </plain></SENT>
+</text></SecTag></p></sec><sec id="sec004"><title><text><SENT sid="19" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="20" pm="."><plain>Results indicate that the DBIQ-NL is a reliable and valid instrument for non-clinical subjects. </plain></SENT>
+<SENT sid="21" pm="."><plain>This provides a sound basis for further investigation of the DBIQ-NL in a clinical sample. </plain></SENT>
+</text></SecTag></p></sec></abstract><funding-group><funding-statement>The authors received no specific funding for this work</funding-statement></funding-group><counts><fig-count count="0"/><table-count count="5"/><page-count count="18"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>All relevant data are within the paper and its Supporting Information files</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>All relevant data are within the paper and its Supporting Information files</p></notes></front><body><SecTag type="INTRO"><sec sec-type="intro" id="sec005"><title><text><SENT sid="22" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="23" pm="."><plain>The term ‘body image’ has been used to describe a variety of body-related phenomena, including perceptions, cognitions, affects, and awareness with regard to the body [1,2]. </plain></SENT>
+<SENT sid="24" pm="."><plain>Unlike the term seems to suggest, not only the way we evaluate our appearance is part of our body image, but also our attitude towards bodily experiences in interaction with others, sense of body ownership [3] and our evaluation of our body in terms of functionality and vitality [4]. </plain></SENT>
+<SENT sid="25" pm="."><plain>Aspects of body image have impact on psychosocial functioning [5, 6] and its disturbances are associated with poorer psychological adjustment in non-clinical samples [7–10]. </plain></SENT>
+<SENT sid="26" pm="."><plain>Negative or disturbed body image has also been reported in a broad range of psychiatric disorders [11, 12]. </plain></SENT>
+<SENT sid="27" pm="."><plain>Disturbed body image in eating disordered female patients has been extensively researched and documented [13–15]. </plain></SENT>
+<SENT sid="28" pm="."><plain>There is emerging evidence that mood disorders [16], anxiety disorders [17], trauma-related disorders [18–20], sexual disorders [21, 22] and schizophrenia [23] are also associated with negative or disturbed body image. </plain></SENT>
+<SENT sid="29" pm="."><plain>The overall impression is that body image is affected in a diverse range of mental health problems. </plain></SENT>
+<SENT sid="30" pm="."><plain>However, despite the increasing awareness and recognition in clinical practice of body image problems in other than appearance-related psychopathologies, sound measurement of body image providing evidence of this phenomenon is still scarce in most psychiatric disorders. </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>To date, the Body Attitude Test is the sole well-researched self-report instrument measuring body image available in Dutch [24, 25]. </plain></SENT>
+<SENT sid="32" pm="."><plain>However, this instrument is specifically developed for measuring body attitude in anorexic women. </plain></SENT>
+<SENT sid="33" pm="."><plain>In view of the lack of multi-purpose instruments in Dutch, we set out to make an instrument available that reflects the multidimensional character of this construct by including more dimensions than physical appearance. </plain></SENT>
+<SENT sid="34" pm="."><plain>As our aim was to gain insight in the way psychopathology and body image are associated, this instrument needed to be suitable for both a broad-ranged clinical population as well as for a non-clinical population so as to facilitate comparisons. </plain></SENT>
+<SENT sid="35" pm="."><plain>The Dresdner Körperbildfragebogen (DBIQ, Dresden Body Image Questionnaire) [26, 27] particularly serves this purpose. </plain></SENT>
+<SENT sid="36" pm="."><plain>The DBIQ, consisting of 35 items, does not cover all aspects that form part of the umbrella term body image, but focuses on thoughts, beliefs, and conceptual aspects of patient’s body experiences in five different domains: body acceptance, sexual fulfillment, the evaluation of physical contact, experienced vitality, and self-aggrandizement, a measure of how the body is actively used in social interactions to enhance self-esteem. </plain></SENT>
+<SENT sid="37" pm="."><plain>The importance of the dimensions physical contact and sexuality is largely unknown, although they are often mentioned by patients as problematic [28, 29]. </plain></SENT>
+<SENT sid="38" pm="."><plain>Furthermore, in a factor analytic evaluation of a preliminary version of the DBIQ, body contact as well as sexuality emerged as separate factors [26]. </plain></SENT>
+<SENT sid="39" pm="."><plain>Clinical relevance together with the psychometric indication of the importance of these aspects, make its inclusion worthwhile. </plain></SENT>
+<SENT sid="40" pm="."><plain>The first evaluation of the psychometric qualities of the original DBIQ in a clinical sample was promising [26]. </plain></SENT>
+</text></p><p><text><SENT sid="41" pm="."><plain>The main objective of the present study was to evaluate the psychometric properties of the Dutch translation of the DBIQ (DBIQ-NL) in a non-clinical sample. </plain></SENT>
+<SENT sid="42" pm="."><plain>First, we investigated the subscales’ internal consistency and test-retest reliability. </plain></SENT>
+<SENT sid="43" pm="."><plain>In order to establish construct validity of the DBIQ-NL we evaluated the association with specific related constructs, namely body satisfaction, comfort with touch and fatigue, expecting high correlations for the DBIQ-NL with these measures. </plain></SENT>
+<SENT sid="44" pm="."><plain>Furthermore, we evaluated associations with general indices of psychosocial wellbeing and self-esteem, expecting moderate to high correlations with these measures. </plain></SENT>
+<SENT sid="45" pm="."><plain>The factor structure of the DBIQ-NL was examined via confirmatory factor analysis (<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>).Exploration of differences regarding gender and age formed the second objective of our study, since both factors are known to affect body image. </plain></SENT>
+<SENT sid="46" pm="."><plain>Gender differences in body image have received considerable attention [30–32]. </plain></SENT>
+<SENT sid="47" pm="."><plain>Research shows that women are generally more preoccupied and dissatisfied with their bodies than men [33]. </plain></SENT>
+<SENT sid="48" pm="."><plain>Gender differences with respect to specific issues such as physical contact and sexual fulfillment, represented by separate subscales in the DBIQ, also were deemed worth investigating. </plain></SENT>
+<SENT sid="49" pm="."><plain>Based on results from a Flemish version of the DBIQ in a students’ sample [34], it might be hypothesized that no gender differences exist with regard to physical contact. </plain></SENT>
+<SENT sid="50" pm="."><plain>With regard to gender differences in reported sexual fulfillment it might be hypothesized, based on results from Dutch population surveys [35], that sexual fulfillment is higher in men than in women. </plain></SENT>
+<SENT sid="51" pm="."><plain>Contrary to gender differences, age effects on body image are still poorly researched [31, 36]. </plain></SENT>
+<SENT sid="52" pm="."><plain>Since younger aged samples are overrepresented in body image research, comparisons of different age groups are scarce. </plain></SENT>
+<SENT sid="53" pm="."><plain>Krauss et al. [37] have noted a clear need for research on body image in middle-aged and older adults. </plain></SENT>
+<SENT sid="54" pm="."><plain>The non-clinical sample enables further investigation of specific aspects of body image in middle-aged adults and comparison with a younger group. </plain></SENT>
+</text></p><p><text><SENT sid="55" pm="."><plain>Group comparisons of scale scores are only meaningful in case of measurement invariance across groups. </plain></SENT>
+<SENT sid="56" pm="."><plain>Therefore, the equivalence of the measurement model across sex and age using Multiple-Group Confirmatory Factor Analyses (MG-<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>) was evaluated in this study as well, extending the work by Pöhlmann et al. [26, 27]. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="sec006"><title><text><SENT sid="57" pm="."><plain>Method </plain></SENT>
+</text></title><sec id="sec007"><title><text><SENT sid="58" pm="."><plain>Participants </plain></SENT>
+</text></title><p><text><SENT sid="59" pm="."><plain>Data were obtained from two samples with a total of 988 (sample 1, n = 761; sample 2, n = 227) respondents between 18 and 65 years old, consisting of 583 (433; 150) women and 403 (326; 77) men (sex was unknown for two respondents). </plain></SENT>
+<SENT sid="60" pm="."><plain>In both samples age showed a bimodal distribution and was therefore divided in two categories, younger than 38 years, and 38 years and older, based on visual inspection (sample 1: &lt; 38, n = 540; ≥ 38: n = 221; sample 2: &lt; 38, n = 151; ≥ 38: n = 76; see S1 Fig. for more information on distribution of age in the two samples). </plain></SENT>
+<SENT sid="61" pm="."><plain>Women and men were equally distributed across the two categories. Mage of sample 1 was 30.90 (SDage = 13.62), of sample 2 33.28 (SDage = 13.22). </plain></SENT>
+<SENT sid="62" pm="."><plain>The distinction between the two samples was made based on the moment of recruitment (see procedure). </plain></SENT>
+<SENT sid="63" pm="."><plain>Sample 2 was offered a partly different set of extra instruments compared to sample 1. </plain></SENT>
+</text></p></sec><sec id="sec008"><title><text><SENT sid="64" pm="."><plain>Measures </plain></SENT>
+</text></title><sec id="sec009"><title><text><SENT sid="65" pm="."><plain>Dresden Body Image Questionnaire </plain></SENT>
+</text></title><p><text><SENT sid="66" pm="."><plain>The Dresden Body Image Questionnaire (DBIQ) [26, 27] is a 35-item scale (see Table 1) with positively and negatively worded items (reversely coded) that consists of five subscales: body acceptance (e.g., “I wish I had a different body”), vitality (e.g., “I am physically fit”), physical contact (e.g., “I do not like people touching me”), sexual fulfillment (e.g., “I am very satisfied with my sexual experiences“), and self-aggrandizement (e.g., “I use my body to attract attention”). </plain></SENT>
+<SENT sid="67" pm="."><plain>Level of agreement is scored on a 5-point Likert scale ranging from 1 = not at all to 5 = fully. </plain></SENT>
+<SENT sid="68" pm="."><plain>Higher scores indicate a more positive body image. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0181908.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0181908.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="69" pm="."><plain>Dresden Body Image Questionnaire (DBIQ), English versiona. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0181908.t001g" xlink:href="pone.0181908.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="70" pm="."><plain>1.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="71" pm="."><plain>I move gracefully. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="72" pm="."><plain>2.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="73" pm="."><plain>I often feel physically run down. </plain></SENT>
+<SENT sid="74" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="75" pm="."><plain>3.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="76" pm="."><plain>I lack energy and motivation. </plain></SENT>
+<SENT sid="77" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="78" pm="."><plain>4.s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="79" pm="."><plain>I experience intense and pleasurable feelings during sex. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="80" pm="."><plain>5.p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="81" pm="."><plain>Physical contact is important for me to express closeness. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="82" pm="."><plain>6.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="83" pm="."><plain>I often feel physically exhausted. </plain></SENT>
+<SENT sid="84" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="85" pm="."><plain>7.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="86" pm="."><plain>There are lots of situations in which I feel happy about my body. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="87" pm="."><plain>8.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="88" pm="."><plain>I am physically fit. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="89" pm="."><plain>9.s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="90" pm="."><plain>I am very satisfied with my sexual experiences. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="91" pm="."><plain>10.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="92" pm="."><plain>Other people find me attractive. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="93" pm="."><plain>11.p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="94" pm="."><plain>I look for physical intimacy and affection </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="95" pm="."><plain>12.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="96" pm="."><plain>I like my body. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="97" pm="."><plain>13.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="98" pm="."><plain>I find it pleasant and exhilarating when someone looks at me attentively. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="99" pm="."><plain>14.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="100" pm="."><plain>I have lots of energy. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="101" pm="."><plain>15.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="102" pm="."><plain>I choose clothing that hides the shape of my body. </plain></SENT>
+<SENT sid="103" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="104" pm="."><plain>16.s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="105" pm="."><plain>I think sex is an important part of life. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>17.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>I am in good physical condition. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>18.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>I often feel uncomfortable about my body. </plain></SENT>
+<SENT sid="110" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>19.p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>I do not like people touching me. </plain></SENT>
+<SENT sid="113" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>20.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>I feel more valued when someone pays attention to my body. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>21.s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>I am able to lay aside my inhibitions in sexual situations. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>22.p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>I like it when people put their arms around me. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>23.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>I wish I had a different body. </plain></SENT>
+<SENT sid="122" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>24.p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>I consciously avoid touching other people. </plain></SENT>
+<SENT sid="125" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>25.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>I am satisfied with my appearance. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>26.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>I quickly reach my physical limits. </plain></SENT>
+<SENT sid="130" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>27.s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>I am able to enjoy my sexuality. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>28.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>If I could change something about my body, I would do it. </plain></SENT>
+<SENT sid="135" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>29.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>My body is expressive. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>30.p </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>I only allow a few people to touch me. </plain></SENT>
+<SENT sid="140" pm="."><plain>(R) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>31.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>I use my body to attract attention. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>32.v </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>I am physically strong and resilient. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>33.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>I like showing my body. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>34.a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>I like to be the centre of attention. </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>35.s </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>My sexual experiences are satisfying. </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t001fn001"><p><text><SENT sid="151" pm="."><plain>Note: R = scored in the reversed direction. a = subscale self-aggrandizement; b = subscale body acceptance; p = subscale physical contact; s = subscale sexual fulfillment; v = subscale vitality. </plain></SENT>
+</text></p></fn><fn id="t001fn002"><p><text><SENT sid="152" pm="."><plain>a. </plain></SENT>
+<SENT sid="153" pm="."><plain>Dresdner Körperbildfragebogen (DKB-35), original version in German; for Dutch version, see S1 Table. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="154" pm="."><plain>The development of the DBIQ was based on factor analytic evaluation of three German questionnaires measuring body image [38], namely the “Fragebogen zum Körperbild” (FKB-20) [39], the “Fragebogen <z:uniprot sup="inside" fb="23" ids="P54479,P0AC51,P9WN84,P9WN85,P0AC52">zur</z:uniprot> Bewertung des eigenen Körpers” (FBeK) [40, 41] and the “Frankfurter Körper Konzept Skalen” (FKKS) [42]. </plain></SENT>
+</text></p><p><text><SENT sid="155" pm="."><plain>In a German non-clinical sample [27] (n = 418), Cronbach’s α for the subscales were: body acceptance .93, vitality .94, physical contact .83, sexual fulfillment .91, and self-aggrandizement .81. </plain></SENT>
+<SENT sid="156" pm="."><plain>Correlations between the subscales varied between r = .37 (sexual fulfillment and self-aggrandizement) and r = .65 (body acceptance and vitality), indicating the overlap between the subscales to be small to medium. </plain></SENT>
+<SENT sid="157" pm="."><plain>A confirmatory factor analysis was conducted [26] in a sample of 560 German patients with psychosomatic disorders (CFI = .90; RMSEA = .06, other fit indices not available). </plain></SENT>
+<SENT sid="158" pm="."><plain>A study on 505 students (M = 21.64, SD = 2.14) using a Flemish Dutch translation [34], somewhat different from the translation presently used, reported Cronbach’s α for the subscales between .77 and .90. </plain></SENT>
+<SENT sid="159" pm="."><plain>Correlations between the subscales varied between r = .13 and r = .59. </plain></SENT>
+<SENT sid="160" pm="."><plain>In the present Dutch sample Cronbach’s α for the subscales varied from α = .83 for self-aggrandizement to α = .92 for sexual fulfillment. </plain></SENT>
+<SENT sid="161" pm="."><plain>Correlations between the subscales varied between r = .31 (vitality and physical contact) to r = .65 (physical contact and sexual fulfillment). </plain></SENT>
+</text></p><p><text><SENT sid="162" pm="."><plain>The Dutch translation of the DBIQ (DBIQ-NL, see S1 Table) was performed by using the parallel blind technique [43]. </plain></SENT>
+<SENT sid="163" pm="."><plain>First, three bilingual translators separately performed a translation. </plain></SENT>
+<SENT sid="164" pm="."><plain>The translations were then compared and differences were discussed until agreement was reached. </plain></SENT>
+</text></p></sec><sec id="sec010"><title><text><SENT sid="165" pm="."><plain>Body Cathexis Scale </plain></SENT>
+</text></title><p><text><SENT sid="166" pm="."><plain>The Body Cathexis Scale (BCS), here used to establish the association between the total score of the DBIQ with body satisfaction, was originally developed by Secord and Jourard [44] to assess the degree of satisfaction with parts and processes of the body. </plain></SENT>
+<SENT sid="167" pm="."><plain>The original scale has 46 items, but most recent studies utilize a 40-item version [45]. </plain></SENT>
+<SENT sid="168" pm="."><plain>Subjects evaluate body characteristics according to a 5-point Likert scale, ranging from strongly negative to strongly positive, with higher scores reflecting greater body satisfaction. </plain></SENT>
+<SENT sid="169" pm="."><plain>Although some authors [46] objected to the use of anatomical as well as physiological aspects in the BCS, we follow Orlandi et al. [47], who state that the BCS is a useful instrument to address satisfaction with the body and judge the emphasis on bodily functions next to body parts to be an advantage. </plain></SENT>
+<SENT sid="170" pm="."><plain>This is in line with recent studies [48, 49] stressing the importance of describing the body in functional terms. </plain></SENT>
+<SENT sid="171" pm="."><plain>The validity and reliability of the Dutch version [50] are satisfactory. </plain></SENT>
+<SENT sid="172" pm="."><plain>Cronbach’s α for the present sample was .95. </plain></SENT>
+</text></p></sec><sec id="sec011"><title><text><SENT sid="173" pm="."><plain>Comfort in touch (subscale of the Body Investment Scale) </plain></SENT>
+</text></title><p><text><SENT sid="174" pm="."><plain>Since no reference is made in the BCS to physical contact, a subscale of the Body Investment Scale (BIS) [51] was used to establish the association with the subscale ‘physical contact’ of the DBIQ. </plain></SENT>
+<SENT sid="175" pm="."><plain>The BIS was developed to assess emotional investment in the body and consists of 24 items scored on a 5-point Likert scale ranging from strongly disagree to strongly agree with higher scores for more emotional investment. </plain></SENT>
+<SENT sid="176" pm="."><plain>The subscale physical contact of the BIS comprises of six items with statements like “I enjoy physical contact with other people”. </plain></SENT>
+<SENT sid="177" pm="."><plain>The BIS has adequate psychometric characteristics [51, 52]. </plain></SENT>
+<SENT sid="178" pm="."><plain>In the present study a Cronbach’s α of .78 was found for the subscale ‘comfort in touch’. </plain></SENT>
+</text></p></sec><sec id="sec012"><title><text><SENT sid="179" pm="."><plain>Checklist Individual Strength </plain></SENT>
+</text></title><p><text><SENT sid="180" pm="."><plain>As the BCS does not include items on vitality the Checklist Individual Strength (CIS) [53] was used to establish the construct validity of this subscale of the DBIQ. </plain></SENT>
+<SENT sid="181" pm="."><plain>The CIS is an originally Dutch language 20-item self-report questionnaire capturing fatigue in four dimensions: subjective experience of fatigue (“I feel tired”), reduction in motivation (“I feel no desire to do anything”), reduction in activity (“I don’t do much during the day”) and reduction in concentration (“My thoughts easily wander”) and has been used in a broad range of groups: healthy subjects, diverse groups of working adults, people with chronic fatigue as well as people with multiple sclerosis [54]. </plain></SENT>
+<SENT sid="182" pm="."><plain>By adding the four dimensions a CIS total score can be calculated. </plain></SENT>
+<SENT sid="183" pm="."><plain>Respondents rate the extent to which each statement is true for them on a 7-point Likert scale ranging from Yes, that is true to No,that is not true. </plain></SENT>
+<SENT sid="184" pm="."><plain>A higher score indicates more fatigue. </plain></SENT>
+<SENT sid="185" pm="."><plain>Fatigue as measured with the CIS may be regarded as the opposite of vitality. </plain></SENT>
+<SENT sid="186" pm="."><plain>In their description and evaluation of measures of fatigue, Hewlett et al. [55] evaluated the CIS as a useful generic scale and research tool, with no significant respondent or administrative burden. </plain></SENT>
+<SENT sid="187" pm="."><plain>The CIS has demonstrated satisfactory psychometric properties [54, 56]. </plain></SENT>
+<SENT sid="188" pm="."><plain>For the present study, Cronbach’s α was .94. </plain></SENT>
+</text></p></sec><sec id="sec013"><title><text><SENT sid="189" pm="."><plain>Rosenberg Self-esteem Scale </plain></SENT>
+</text></title><p><text><SENT sid="190" pm="."><plain>The Rosenberg Self-Esteem Scale (RSES) [57], Dutch version [58], is a brief 10-item measure of global self-esteem that evaluates one’s overall feelings of self-worth using a 4-point scale (1 = strongly disagree, 4 = strongly agree). </plain></SENT>
+<SENT sid="191" pm="."><plain>Scores range from 10 to 40, with higher scores reflecting higher self-esteem. </plain></SENT>
+<SENT sid="192" pm="."><plain>The validity and reliability of the Dutch version are satisfactory [59]. </plain></SENT>
+<SENT sid="193" pm="."><plain>The internal consistency in the present study was .87. </plain></SENT>
+</text></p></sec><sec id="sec014"><title><text><SENT sid="194" pm="."><plain>Outcome Questionnaire </plain></SENT>
+</text></title><p><text><SENT sid="195" pm="."><plain>The Outcome Questionnaire (OQ-45) [60] is a 45-item scale measuring three domains of psychological well-being: subjective discomfort (“I feel no interest in things”), interpersonal relations (“I am satisfied with my relationships with others”), and social role performance (“I feel that I am doing well at work/school”). </plain></SENT>
+<SENT sid="196" pm="."><plain>The OQ-45 is rated on a 5-point Likert scale ranging from never to almost always with higher scores for more distress. </plain></SENT>
+<SENT sid="197" pm="."><plain>In a non-clinical group, Cronbach’s α was .93 for the original total scale [60] and .92 in the Dutch version [61]. </plain></SENT>
+<SENT sid="198" pm="."><plain>Cronbach’s α in the present study was .90. </plain></SENT>
+</text></p></sec></sec><sec id="sec015"><title><text><SENT sid="199" pm="."><plain>Procedure </plain></SENT>
+</text></title><p><text><SENT sid="200" pm="."><plain>The research was conducted in agreement with the VU University Amsterdam guideline for research for educational purposes, allowing students to collect data with the use of questionnaires in healthy groups of respondents when participation is voluntary and data are analysed anonymously. </plain></SENT>
+<SENT sid="201" pm="."><plain>We consulted the Medical Ethics Review Committee of VU University about the study, and the committee waived the requirement for ethical approval. </plain></SENT>
+</text></p><p><text><SENT sid="202" pm="."><plain>Data collection was done during an undergraduate course in measurement and statistics at the Faculty of Human Movement Sciences, VU University Amsterdam, resulting in a convenience sample. </plain></SENT>
+<SENT sid="203" pm="."><plain>Students in two successive courses were encouraged to forward an e-mail with a link to the questionnaires to individuals in their personal network. </plain></SENT>
+<SENT sid="204" pm="."><plain>No participatory incentives were offered. </plain></SENT>
+<SENT sid="205" pm="."><plain>Participants completed all questionnaires without personal details through a secured online system and with all materials removed from this system after completing the data collection; data analysis was done anonymously. </plain></SENT>
+<SENT sid="206" pm="."><plain>Information about the aim of the study and the voluntary and anonymous nature of participation was given before participants entered the study. </plain></SENT>
+<SENT sid="207" pm="."><plain>In this way consent was secured when participants completed the questionnaire and no formal informed consent was necessary. </plain></SENT>
+</text></p><p><text><SENT sid="208" pm="."><plain>Of the respondents all were given the DBIQ-NL to fill out. </plain></SENT>
+<SENT sid="209" pm="."><plain>Of the respondents included via students in the first course (sample 1 in Table 2) 361 (sample 1a) were asked to also complete the Body Cathexis Scale (BCS) [44], and 356 others (sample 1b) to complete the Rosenberg Self-Esteem Scale (RSES) [57], the Checklist Individual Strength (CIS) [53] and the subscale ‘comfort in touch’ of the Body Investment Scale (BIS) [51]. </plain></SENT>
+<SENT sid="210" pm="."><plain>Respondents (n = 227) recruited by the students in the second course (sample 2) also completed the Outcome Questionnaire (OQ-45) [60] and the Rosenberg Self-esteem Scale. </plain></SENT>
+<SENT sid="211" pm="."><plain>To assess temporal reliability, 56 respondents of sample 2 completed the DBIQ-NL a second time after 14 days. </plain></SENT>
+<SENT sid="212" pm="."><plain>44 respondents only completed the DBIQ-NL and did not fill in any additional questionnaires. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0181908.t002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0181908.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="213" pm="."><plain>Mean scores and mean differences sex and age DBIQ-NL samples and validation measures. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0181908.t002g" xlink:href="pone.0181908.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"/><th align="center" colspan="3" rowspan="1"><text><SENT sid="214" pm="."><plain>full sample </plain></SENT>
+</text></th><th align="center" colspan="3" rowspan="1"><text><SENT sid="215" pm="."><plain>women </plain></SENT>
+</text></th><th align="center" colspan="3" rowspan="1"><text><SENT sid="216" pm="."><plain>men </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/><th align="center" colspan="3" rowspan="1"><text><SENT sid="217" pm="."><plain>age &lt; 38 </plain></SENT>
+</text></th><th align="center" colspan="3" rowspan="1"><text><SENT sid="218" pm="."><plain>age ≥ 38 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"/></tr><tr><th align="center" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>Sample </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>(sub)scale </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>d </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>n </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>d </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>DBIQ-NL </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>755* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>3.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>430 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>3.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>323 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>3.79 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>0.43 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>0.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>537 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>3.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>218 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>3.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>0.40 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>1a </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>BCS </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>361 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>3.68 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>216 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>3.61 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>145 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>3.79 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>0.34 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>228 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>3.70 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>0.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>133 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>3.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>0.11 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>1b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>RSES </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>356 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>3.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>0.47 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>191 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>3.15 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>163 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>3.39 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>272 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>3.25 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>0.47 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>84 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>3.28 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>0.07 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>1b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>BIS-touch </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>356 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>3.77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>0.61 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>191 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>3.73 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>163 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>3.81 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>0.13 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>272 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>3.80 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>0.63 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>84 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>3.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>0.54 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>0.24 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>1b </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>CIS </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>356 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>2.97 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>1.02 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>191 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>3.11 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>1.02 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>163 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>2.81 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>0.99 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>0.30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>272 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>2.98 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>1.00 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>84 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>2.96 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>1.09 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>0.02 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>DBIQ-NL </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>227 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>3.57 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>0.39 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>150 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>3.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>0.39 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>3.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>0.28 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>151 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>3.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>3.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>0.38 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>0.15 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>OQ-45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>227 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>1.96 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>0.38 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>150 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>1.98 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>0.31 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>1.93 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>0.13 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>151 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>1.96 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>1.94 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>0.36 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>0.05 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>RSES </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>225 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>3.32 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>149 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>3.26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>3.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>0.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>149 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>3.31 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>0.48 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>3.34 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>0.41 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>0.07 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t002fn001"><p><text><SENT sid="388" pm="."><plain>Note: d = Cohen’s d; DBIQ-NL = Dresden Body Image Questionnaire, Dutch translation; OQ-45 = Outcome Questionnaire; RSES = Rosenberg Self-esteem Scale </plain></SENT>
+</text></p></fn><fn id="t002fn002"><p><text><SENT sid="389" pm="."><plain>BCS = Body Cathexis Scale; BIS-touch = subscale comfort with physical touch Body Investment Scale; CIS = Checklist Individual Strength. </plain></SENT>
+</text></p></fn><fn id="t002fn003"><p><text><SENT sid="390" pm="."><plain>* For six participants, no total scores were available. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="sec016"><title><text><SENT sid="391" pm="."><plain>Data analysis </plain></SENT>
+</text></title><p><text><SENT sid="392" pm="."><plain>SPSS 17.00 for Windows was used for general statistical analyses. </plain></SENT>
+<SENT sid="393" pm="."><plain>Mean differences between subgroups are expressed in Cohen’s d and considered large if &gt; .80, moderate between .50 and .79 and small between .20 and .49 [62]. </plain></SENT>
+<SENT sid="394" pm="."><plain>In calculating means we limited missing values to one for all subscales and two for total mean scores. </plain></SENT>
+<SENT sid="395" pm="."><plain>Test-retest reliability was established by intraclass correlation (ICC). </plain></SENT>
+<SENT sid="396" pm="."><plain>ICC &gt; .75 was considered as excellent and between .40 and .75 as acceptable [63]. </plain></SENT>
+<SENT sid="397" pm="."><plain>Construct validity was investigated by correlations. </plain></SENT>
+<SENT sid="398" pm="."><plain>We expected a moderate correlation of body image total score with body satisfaction, because the DBIQ is aimed to measure a broader concept of body image. </plain></SENT>
+<SENT sid="399" pm="."><plain>We also expected moderate correlations of body image total score with self-esteem and psychological well-being. </plain></SENT>
+<SENT sid="400" pm="."><plain>Furthermore, high correlations are expected between the subscale ‘vitality’ of the DBIQ-NL and fatigue as measured with the CIS and between the ‘physical contact’ subscale of the DBIQ-NL and the comfort in touch subscale of the BIS. </plain></SENT>
+</text></p><p><text><SENT sid="401" pm="."><plain>The factorial structure of the translated version was tested by confirmatory factor analysis (<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>). </plain></SENT>
+<SENT sid="402" pm="."><plain>Analyses were conducted with Mplus Version 5.1 [64], using the robust full-information maximum likelihood (MLR) estimator to correct for the skew distribution of several items and missing item responses [65]. </plain></SENT>
+<SENT sid="403" pm="."><plain>In view of the sufficiently large sample size and focus on model selection and fit, the 5-point Likert items were treated as continuous measures [66]. </plain></SENT>
+<SENT sid="404" pm="."><plain>Complete descriptives for all items used for the <z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot> are provided in S2 Table. </plain></SENT>
+</text></p><p><text><SENT sid="405" pm="."><plain>Because a five factor model was shown to be adequate for the German questionnaire, we investigated the fit of this model to the Dutch samples, aiming to obtain fit measures close to those of the German model. </plain></SENT>
+<SENT sid="406" pm="."><plain>We could not reasonably expect equivalent fit measures as the study is not an exact replication study. </plain></SENT>
+<SENT sid="407" pm="."><plain>The three essential changes with respect to Pöhlmann et al.’s [26] study, (1) translation of the items, (2) non-clinical samples, and (3) using a <z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot> model without correlated errors, were expected to lead to a decrease in model fit [67, 68]. </plain></SENT>
+</text></p><p><text><SENT sid="408" pm="."><plain>Because each type of index provides different information about model fit [69], we chose to report a broad range of indices and also included standardized root mean square residual (SRMR) and Tucker Lewis index (TLI), in addition to the CFI and RMSEA reported in the <z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot> on the German items [26]. </plain></SENT>
+<SENT sid="409" pm="."><plain>The RMSEA (Root Mean Square Error of Approximation) represents the fit of the estimated covariance matrix to the populations covariance matrix [70]. </plain></SENT>
+<SENT sid="410" pm="."><plain>It is regarded as one of the most informative fit indices due to its sensitivity to the number of estimated parameters in the model and therefore favouring parsimonious models. </plain></SENT>
+<SENT sid="411" pm="."><plain>As a rule of thumb, RMSEA values less than .08 suggest adequate model fit and RMSEA values less than .05 suggest good model fit [71]. </plain></SENT>
+<SENT sid="412" pm="."><plain>The SRMR (Standardised Root Mean square Residual) is the standardized square root of the difference between the residuals of the sample covariance matrix and the hypothesised covariance model. </plain></SENT>
+<SENT sid="413" pm="."><plain>An SRMR between .05 and .10 indicates an acceptable fit and values less than .05 indicate good fit [72]. </plain></SENT>
+<SENT sid="414" pm="."><plain>The CFI (Comparitive Fit Index) [73] compares the sample covariance matrix with a null model of uncorrelated latent variables. </plain></SENT>
+<SENT sid="415" pm="."><plain>The CFI is one of the most commonly reported fit indices due to being one of the measures least effected by sample size and is often reported together with the TLI (Tucker Lewis Index), a comparative fit index slightly differing from the CFI in its approach to sample size and handling of the effect of model complexity [69]. </plain></SENT>
+<SENT sid="416" pm="."><plain>CFI and TLI values in the range between .90 and .95 may be regarded as indicative of acceptable model fit [69]. </plain></SENT>
+<SENT sid="417" pm="."><plain>Although there is discussion on which fit-indices are the most relevant, it is now common practice to test the fit of the <z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot> with at least the ones used here. </plain></SENT>
+<SENT sid="418" pm="."><plain>Thus, conclusions about the fit of the model can be based on the consistency between fit-indices. </plain></SENT>
+<SENT sid="419" pm="."><plain>When fit-indices fall in marginal ranges, it is especially important to consider the consistency of the model fit as expressed by the various types of fit indices in tandem with the particular aspects of the analytic situation [69]. </plain></SENT>
+<SENT sid="420" pm="."><plain>Inadequate fit measures are an indication of model misspecification. </plain></SENT>
+<SENT sid="421" pm="."><plain>Modification indices can be used to adjust the model specification in order to improve model fit. </plain></SENT>
+</text></p><p><text><SENT sid="422" pm="."><plain>First, the five-factor model (without correlated errors) was estimated, using sample 1. </plain></SENT>
+<SENT sid="423" pm="."><plain>Modification indices were inspected to detect possible improvements with respect to dimensionality. </plain></SENT>
+<SENT sid="424" pm="."><plain>We refrained from including correlated errors in view of the multiple group confirmatory factor analysis (MG-<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>), which does not allow correlated errors. </plain></SENT>
+<SENT sid="425" pm="."><plain>We performed multiple-group analyses with respect to gender and age after investigating the overall five-factor structure of the DBIQ-NL, because MG-<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot> provides the opportunity to identify items that are non-invariant across groups. </plain></SENT>
+<SENT sid="426" pm="."><plain>Invariance is a prerequisite for individual and group comparisons to reflect true differences [69, 74], not due to systematic differences in interpretation of items due to respondents’ group membership. </plain></SENT>
+</text></p><p><text><SENT sid="427" pm="."><plain>The extent of measurement invariance was evaluated in a series of three models. </plain></SENT>
+<SENT sid="428" pm="."><plain>In model A, specifying ‘configural invariance’, the same factor structure is imposed on the two groups (formed by either sex or age)In the next model (B), specifying ‘weak invariance’, the factor loadings are constrained to be equal across groups. </plain></SENT>
+<SENT sid="429" pm="."><plain>In Model C, ‘strong invariance’, the factor loadings and intercepts are constrained to be equal across groups. </plain></SENT>
+<SENT sid="430" pm="."><plain>The model selection was performed by testing invariance by the Scaled Difference in Chi-Squares (SDCS) test [75] for nested models estimated with MLR. </plain></SENT>
+<SENT sid="431" pm="."><plain>Inspection of size and consistency of factor loadings were performed to further evaluate model fit [69]. </plain></SENT>
+</text></p><p><text><SENT sid="432" pm="."><plain>This sequential model estimation procedure to study measurement invariance is used since lack of strong factorial invariance will contaminate estimates of group mean differences [74]. </plain></SENT>
+<SENT sid="433" pm="."><plain>It is widely acknowledged however, that the requirement of strong factorial invariance may be too strict and unrealistic a goal for group comparisons. </plain></SENT>
+<SENT sid="434" pm="."><plain>Consequently, Byrne et al. [76] introduced the concept of partial invariance in which only a subset of parameters in each subscale must be invariant whereas others are allowed to vary between the groups. </plain></SENT>
+<SENT sid="435" pm="."><plain>In this procedure, fit diagnostics (e.g., modification indices) can assist the researcher to identify specific items that are non-invariant across groups [69]. </plain></SENT>
+<SENT sid="436" pm="."><plain>In our analysis partial invariance was investigated by inspecting modification indices to determine which cross-group equality constraint most significantly contributed to lack of fit; the model was re-estimated after freeing that constraint and this process was reiterated as needed [77]. </plain></SENT>
+<SENT sid="437" pm="."><plain>Partial invariance of certain items signals qualitative group differences that render exact between-group comparisons with respect to subscales including these items possibly less meaningful. </plain></SENT>
+<SENT sid="438" pm="."><plain>The importance of any violation of factorial invariance should be judged in relation to the intended use of the measure in practice [78] and may also be dependent on the number of affected items. </plain></SENT>
+</text></p><p><text><SENT sid="439" pm="."><plain>The implications of the findings with respect to measurement invariance are further investigated by comparing the original (sub-)scale scores to the adjusted (sub-)scale scores. </plain></SENT>
+<SENT sid="440" pm="."><plain>Moreover, the correlations between the full and reduced scale and subscales were investigated, as well as the change in standardized factor loadings. </plain></SENT>
+<SENT sid="441" pm="."><plain>Note that all (sub-)scale scores are calculated as average scores, which are unweighted and therefore not affected by (changes in) factor loadings. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec sec-type="results" id="sec017"><title><text><SENT sid="442" pm="."><plain>Results </plain></SENT>
+</text></title><p><text><SENT sid="443" pm="."><plain>Table 2 presents total mean scores and standard deviations in both DBIQ-NL samples as well as means and standard deviations for the questionnaires used for validation. </plain></SENT>
+<SENT sid="444" pm="."><plain>Mean group differences between women and men and between younger and older participants are also included. </plain></SENT>
+</text></p><sec id="sec018"><title><text><SENT sid="445" pm="."><plain>Test-retest reliability </plain></SENT>
+</text></title><p><text><SENT sid="446" pm="."><plain>The intraclass correlation coefficients (ICC) between test and retest scores on the DBIQ-NL scale were .88 and on the DBIQ-NL subscales .82 for vitality, .80 for body acceptance, .78 for self-aggrandizement, .79 for sexual fulfillment, and .64 for physical contact. </plain></SENT>
+<SENT sid="447" pm="."><plain>Test and retest scores were calculated using the original composition of the German version (Model 1). </plain></SENT>
+</text></p></sec><sec id="sec019"><title><text><SENT sid="448" pm="."><plain>Construct validity </plain></SENT>
+</text></title><p><text><SENT sid="449" pm="."><plain>Pearson’s r between the DBIQ-NL and Body Cathexis Scale (BCS) correlated r = .60 (see Table 3). </plain></SENT>
+<SENT sid="450" pm="."><plain>The subscale vitality of the DBIQ-NL correlated r = -.70 with the Checklist Individual Strength (CIS) and the subscale physical contact of the DBIQ-NL correlated r = .72 with the subscale comfort with physical touch of the Body Investment Scale (BIS). </plain></SENT>
+<SENT sid="451" pm="."><plain>Correlation between DBIQ-NL and the Outcome Questionnaire (OQ-45) was -.51. </plain></SENT>
+<SENT sid="452" pm="."><plain>DBIQ-NL and Rosenberg Self-esteem Scale (RSES) showed a correlation of r = .44. </plain></SENT>
+<SENT sid="453" pm="."><plain>All correlations were in the expected direction and of medium to large size. </plain></SENT>
+<SENT sid="454" pm="."><plain>Correlations between DBIQ-NL and BCS were notably higher for men than for women. </plain></SENT>
+<SENT sid="455" pm="."><plain>Correlations between DBIQ-NL and OQ-45 and between DBIQ-NL and RSES were higher for age &lt; 38 than for age ≥ 38. </plain></SENT>
+<SENT sid="456" pm="."><plain>The subscale vitality correlated notably lower with the CIS in the younger group than in the older group. </plain></SENT>
+<SENT sid="457" pm="."><plain>Correlations were calculated using the five-factor model identical to the original German version (Model 1). </plain></SENT>
+<SENT sid="458" pm="."><plain>The correlations between the measures that were used for construct validation and the DBIQ-NL were recalculated (see Table 3) after the DBIQ-NL was revised on the basis of the <z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>, as reported in the following section. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0181908.t003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0181908.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="459" pm="."><plain>Correlations in Pearson’s r of original and revised DBIQ scale and original and revised subscale ‘physical contact’ with validation instruments (Model 1 and Model 2). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0181908.t003g" xlink:href="pone.0181908.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" colspan="5" rowspan="1"><text><SENT sid="460" pm="."><plain>DBIQ-NL (35 items; model 1) </plain></SENT>
+</text></th><th align="left" colspan="5" rowspan="1"><text><SENT sid="461" pm="."><plain>DBIQ-NL (31 items; model 2) </plain></SENT>
+</text></th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>Total sample </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>female </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>male </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>young </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>old </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>Total sample </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>female </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>male </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>young </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>old </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>BCSa </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>.60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>.53 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>.70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>.58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>.64 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>OQ-45b </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>-.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="485" pm="."><plain>-.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="486" pm="."><plain>-.52 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="487" pm="."><plain>-.54 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="488" pm="."><plain>-.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="489" pm="."><plain>-.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="490" pm="."><plain>-.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="491" pm="."><plain>-.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="492" pm="."><plain>-.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="493" pm="."><plain>-.43 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="494" pm="."><plain>RSESc </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="495" pm="."><plain>.44 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="496" pm="."><plain>.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="497" pm="."><plain>.42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="498" pm="."><plain>.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>.35 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>.40 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>.43 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>.50 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>.37 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" colspan="5" rowspan="1"><text><SENT sid="505" pm="."><plain>subscale physical contact (6 items) </plain></SENT>
+</text></td><td align="left" colspan="5" rowspan="1"><text><SENT sid="506" pm="."><plain>subscale physical contact (4 items) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>BIS-touchd </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>.72 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>.77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>.77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>.61 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>.72 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" colspan="5" rowspan="1"><text><SENT sid="518" pm="."><plain>subscale vitality </plain></SENT>
+</text></td><td align="left" colspan="5" rowspan="1"><text><SENT sid="519" pm="."><plain>subscale vitality (as in Model 1) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>CISd </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>-.70 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>-.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>-.73 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>-.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>-.83 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>-.70 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>-.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>-.73 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>-.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>-.83 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t003fn001"><p><text><SENT sid="531" pm="."><plain>Note: DBIQ-NL = Dresden Body Image Questionnaire, Dutch translation; OQ-45 = Outcome Questionnaire; RSES = Rosenberg Self-esteem Scale; BCS = Body Cathexis Scale; BIS-touch = subscale comfort with physical touch Body Investment Scale; CIS = Checklist Individual Strength. </plain></SENT>
+</text></p></fn><fn id="t003fn002"><p><text><SENT sid="532" pm="."><plain>For description of the samples 1a, 1b, and 2, see procedure and Table 2. </plain></SENT>
+</text></p></fn><fn id="t003fn003"><p><text><SENT sid="533" pm="."><plain>a sample 1a </plain></SENT>
+</text></p></fn><fn id="t003fn004"><p><text><SENT sid="534" pm="."><plain>b sample 2 </plain></SENT>
+</text></p></fn><fn id="t003fn005"><p><text><SENT sid="535" pm="."><plain>c samples 1b and 2 </plain></SENT>
+</text></p></fn><fn id="t003fn006"><p><text><SENT sid="536" pm="."><plain>d sample 1b </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag></sec><sec id="sec020"><title><text><SENT sid="537" pm="."><plain>Confirmatory factor analysis and measurement invariance on sample 1 </plain></SENT>
+</text></title><p><text><SENT sid="538" pm="."><plain>First, a five-factor model identical to the original German version was specified (Model 1). </plain></SENT>
+<SENT sid="539" pm="."><plain>Next, based on inspection of the modification indices of this model a five-factor model (Model 2) with item 33 (“I like showing my body”) loading on self-aggrandizement instead of body acceptance was evaluated. </plain></SENT>
+<SENT sid="540" pm="."><plain>Goodness of fit indices of both models are shown in Table 4. </plain></SENT>
+<SENT sid="541" pm="."><plain>The modification indices for correlated errors suggested partly the same (between reversed items 23 “I wish I had a different body” and 28 “If I could change something about my body, I would do it”), and partly different correlated errors (between reversed items 24 “I consciously avoid touching other people” and 19 “I do not like people touching me”), as reported by Pöhlmann et al. [26]. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0181908.t004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0181908.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="542" pm="."><plain>DBIQ-NL: Confirmatory factor analysis, goodness of fit indices of Model 1, 2, and 3 and measurement invariance across sex and age of Model 2. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0181908.t004g" xlink:href="pone.0181908.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" colspan="2" rowspan="1"><text><SENT sid="543" pm="."><plain>Model </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>χ2 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>df </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain><z:uniprot sup="inside" fb="7" ids="Q90YI8">scl</z:uniprot> </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>Δ χ2 </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>Δ df </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>Ts </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>RMSEA (90% CI) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>SRMR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>CFI </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>TLI </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>Model 1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>Original 35 Item Scale </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>2169 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>550 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>1.265 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>.062 (.059-.065) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>.070 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>.828 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>.814 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>Model 2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>Adapted 35 Item Scale a </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>1965 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>550 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>1.268 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>.058 (.055-.061) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>.067 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>.850 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>.838 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>Measurement Invariance Sex </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>Model 2sA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>configural invariance </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>2692 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>1100 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>1.268 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>.062 (.059-.065) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>.074 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>.832 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>.818 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>Model 2sB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>weak invariance </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>2721 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>1130 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>1.276 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>29 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>18.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>.061 (.058-.064) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>.077 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>.832 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>.823 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>Model 2sC </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>strong invariance </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>2905 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>1160 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>1.322 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>184 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>60.2** </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>.063 (.060-.066) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>.081 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>.816 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>.811 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>Model 2sC-1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>partial strong item 19 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>2869 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>1158 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>1.317 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>148 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>28 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>49.8* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>.062 (.060-.065) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>.080 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>.819 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>.814 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>Model 2sC-2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>partial strong items 19, 30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>2827 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>1156 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>1.315 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>106 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>35.2* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>.062 (.059-.065) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>.079 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>.823 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>.818 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>Model 2sC-3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>partial strong items 19, 30, 15 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>2804 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>1154 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="634" pm="."><plain>1.313 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="635" pm="."><plain>83 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="636" pm="."><plain>24 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="637" pm="."><plain>27.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="638" pm="."><plain>.061 (.059-.064) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="639" pm="."><plain>.078 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>.826 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>.820 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>Measurement Invariance Age </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>Model 2aA </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>configural invariance </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>2623 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>1100 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>1.253 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>.060 (.057-.063) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>.073 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>.842 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>.829 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>Model 2aB </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>weak invariance </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>2645 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>1130 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>1.247 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>22 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>21.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>.059 (.056-.062) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>.075 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>.843 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>.835 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>Model 2aC </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>strong invariance </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>2796 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>1160 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>1.291 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>151 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>30 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>51.2** </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>.061 (.058-.064) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>.078 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>.831 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>.826 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>Model 2aC-1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>partial strong item 15 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>2771 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>1158 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>1.289 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>126 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>28 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>42.2* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>.061 (.058-.063) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>.078 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>.833 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>.828 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>Model 2aC-2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>partial strong items 15, 28 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>2754 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>1156 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>1.286 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>109 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>26 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>36.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>.060 (.058-.064) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>.077 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>.835 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>.830 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>Model 3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>Reduced 31 Item Scale </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>1459 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>424 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>1.271 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>506 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>126 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>402.2** </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>.057 (.053-.060) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>.063 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>.877 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>.865 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t004fn001"><p><text><SENT sid="712" pm="."><plain>Note: DBIQ-NL = Dresden Body Image Questionnaire, Dutch translation; χ2 = chi square; df = degrees of freedom; <z:uniprot sup="inside" fb="7" ids="Q90YI8">scl</z:uniprot> = scaling correction factor; Ts = Scaled. </plain></SENT>
+</text></p></fn><fn id="t004fn002"><p><text><SENT sid="713" pm="."><plain>Difference in Chi-Squares (SDCS) test statistic; RMSEA = root mean square error of approximation; 90% CI = 90% confidence interval of the RMSEA; SRMR = standardized root mean square residual; CFI = comparative fit index; TLI = Tucker Lewis index. </plain></SENT>
+</text></p></fn><fn id="t004fn003"><p><text><SENT sid="714" pm="."><plain>a Adapted model with item 33 not loading on the factor acceptance but on self-aggrandizement (modification index item 33 = 184.979). </plain></SENT>
+</text></p></fn><fn id="t004fn004"><p><text><SENT sid="715" pm="."><plain>*p &lt; .01. </plain></SENT>
+</text></p></fn><fn id="t004fn005"><p><text><SENT sid="716" pm="."><plain>** p &lt; .001. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="717" pm="."><plain>The best fitting model (Model 2) was further evaluated for measurement invariance in a multiple group confirmatory factor analysis (MG-<z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot>) with sex and age as grouping variables. </plain></SENT>
+<SENT sid="718" pm="."><plain>Models 2A-2C show measurement invariance tests for sex (2sA-2sC) and age (2aA-2aC) respectively. </plain></SENT>
+<SENT sid="719" pm="."><plain>As can be seen with respect to sex as grouping variable, constraining the factor loadings to be equal across groups (2sB) is accompanied by only a slight decrease in CFI and a non-significant increase in chi square. </plain></SENT>
+<SENT sid="720" pm="."><plain>Therefore, factor loadings can be considered as invariant across sex. </plain></SENT>
+<SENT sid="721" pm="."><plain>In model 2sC factor loadings as well as intercepts are constrained to be equal across men and women. </plain></SENT>
+<SENT sid="722" pm="."><plain>This restriction leads to a considerable loss of model fit, which may indicate that men and women interpret questionnaire items in different ways. </plain></SENT>
+</text></p><p><text><SENT sid="723" pm="."><plain>The same holds true for the model fits constraining factor loadings and intercepts to be equal across the two age groups: a model fit with only factor loadings constrained (2aB) leads to a non-significant increase in chi square. </plain></SENT>
+<SENT sid="724" pm="."><plain>However, when both factor loadings and intercepts are constrained (2aC) a considerable loss of model fit is found. </plain></SENT>
+</text></p><p><text><SENT sid="725" pm="."><plain>Based on inspection of the modification indices, the following items were identified as contributing to lack of strong invariance across sex: item 19 (“I do not like people touching me”), item 30 (“I only allow a few people to touch me”), and item 15 (“I choose clothing that hides the shape of my body”). </plain></SENT>
+<SENT sid="726" pm="."><plain>In model 2sC-3 the intercepts of these three items were freely estimated for men and women providing the best model fit for partial strong invariance across sex. </plain></SENT>
+<SENT sid="727" pm="."><plain>On average, men score higher on these items than women (Table 2). </plain></SENT>
+<SENT sid="728" pm="."><plain>With regard to age, items 15 (“I choose clothing that hides the shape of my body”) and 28 (“If I could change something about my body, I would do it”) were identified as contributing to lack of strong invariance. </plain></SENT>
+<SENT sid="729" pm="."><plain>For item 15, the younger age group scores higher on average, whereas for item 28, the older age group scores higher. </plain></SENT>
+<SENT sid="730" pm="."><plain>The partial strong invariance model represented in model 2aC-2 with the intercepts of these two items estimated freely represents the best fit. </plain></SENT>
+</text></p></sec><sec id="sec021"><title><text><SENT sid="731" pm="."><plain>Fit of the revised model </plain></SENT>
+</text></title><p><text><SENT sid="732" pm="."><plain>A revised 31-item model, from which the 4 items (items 15, 19, 28, 30) primarily responsible for lack of invariance across sex and age were deleted, was evaluated. </plain></SENT>
+<SENT sid="733" pm="."><plain>This model was fit to Sample 1 and reported as Model 3 in Table 4. </plain></SENT>
+<SENT sid="734" pm="."><plain>Compared to the fit of the full 35-item model (Model 2), the revised 31-item model showed a better fit in all fit measures. </plain></SENT>
+</text></p></sec><sec id="sec022"><title><text><SENT sid="735" pm="."><plain>Means of the revised subscales </plain></SENT>
+</text></title><p><text><SENT sid="736" pm="."><plain>Table 5 presents scores of the DBIQ-NL total scale and subscales for Model 2 as well as for the revised 31-item model, in which the four items contributing most to lack of invariance across sex and age were deleted. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone.0181908.t005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0181908.t005</object-id><label>Table 5</label><caption><title><text><SENT sid="737" pm="."><plain>Scores on total scale DBIQ-NL and subscales based on Model 2, with and without items 15, 28 (subscale body acceptance), 19, and 30 (subscale physical contact). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone.0181908.t005g" xlink:href="pone.0181908.t005"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="2" colspan="1"/><th align="center" rowspan="2" colspan="1"/><th align="center" colspan="2" rowspan="1"><text><SENT sid="738" pm="."><plain>Full sample </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="739" pm="."><plain>Women </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="740" pm="."><plain>Men </plain></SENT>
+</text></th><th align="center" rowspan="2" colspan="1"/><th align="center" colspan="2" rowspan="1"><text><SENT sid="741" pm="."><plain>age &lt; 38 </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="742" pm="."><plain>age ≥ 38 </plain></SENT>
+</text></th><th align="center" rowspan="2" colspan="1"/></tr><tr><th align="center" colspan="2" rowspan="1"><text><SENT sid="743" pm="."><plain>n = 761 </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="744" pm="."><plain>n = 433 </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="745" pm="."><plain>n = 326 </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="746" pm="."><plain>n = 540 </plain></SENT>
+</text></th><th align="center" colspan="2" rowspan="1"><text><SENT sid="747" pm="."><plain>n = 221 </plain></SENT>
+</text></th></tr><tr><th align="center" rowspan="1" colspan="1"><text><SENT sid="748" pm="."><plain>n items </plain></SENT>
+</text></th><th align="left" rowspan="1" colspan="1"><text><SENT sid="749" pm="."><plain>(sub)scale (items) </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="750" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="751" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="752" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="753" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="754" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="755" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="756" pm="."><plain>d </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="757" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="758" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="759" pm="."><plain>Mean </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="760" pm="."><plain>SD </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="761" pm="."><plain>d </plain></SENT>
+</text></th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="762" pm="."><plain>35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="763" pm="."><plain>DBIQ-NL </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="764" pm="."><plain>3.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="765" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="766" pm="."><plain>3.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="767" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="768" pm="."><plain>3.79 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="769" pm="."><plain>0.43 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="770" pm="."><plain>0.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="771" pm="."><plain>3.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="772" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="773" pm="."><plain>3.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="774" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="775" pm="."><plain>0.40 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="776" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="777" pm="."><plain>DBIQ-NL </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="778" pm="."><plain>3.65 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="779" pm="."><plain>0.45 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="780" pm="."><plain>3.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="781" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="782" pm="."><plain>3.77 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="783" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="784" pm="."><plain>0.48 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="785" pm="."><plain>3.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="786" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="787" pm="."><plain>3.51 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="788" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="789" pm="."><plain>0.44 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="790" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="791" pm="."><plain>Vitality (2,3,6,8,14,17,26,32) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="792" pm="."><plain>3.87 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="793" pm="."><plain>0.58 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="794" pm="."><plain>3.76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="795" pm="."><plain>0.58 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="796" pm="."><plain>4.02 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="797" pm="."><plain>0.55 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="798" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="799" pm="."><plain>3.91 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="800" pm="."><plain>0.55 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="801" pm="."><plain>3.78 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="802" pm="."><plain>0.66 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="803" pm="."><plain>0.21 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="804" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="805" pm="."><plain>Body Acc. </plain></SENT>
+<SENT sid="806" pm="."><plain>(7,12,15,18,23,25,28) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="807" pm="."><plain>3.83 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="808" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="809" pm="."><plain>3.70 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="810" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="811" pm="."><plain>4.00 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="812" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="813" pm="."><plain>0.46 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="814" pm="."><plain>3.85 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="815" pm="."><plain>0.67 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="816" pm="."><plain>3.79 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="817" pm="."><plain>0.68 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="818" pm="."><plain>0.09 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="819" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="820" pm="."><plain>Body Acc. </plain></SENT>
+<SENT sid="821" pm="."><plain>(7,12,18,23,25)* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="822" pm="."><plain>3.87 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="823" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="824" pm="."><plain>3.74 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="825" pm="."><plain>0.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="826" pm="."><plain>4.03 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="827" pm="."><plain>0.62 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="828" pm="."><plain>0.44 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="829" pm="."><plain>3.89 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="830" pm="."><plain>0.68 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="831" pm="."><plain>3.82 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="832" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="833" pm="."><plain>0.10 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="834" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="835" pm="."><plain>Self-aggr. </plain></SENT>
+<SENT sid="836" pm="."><plain>(1,10,13,20,29,31,33,34) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="837" pm="."><plain>3.12 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="838" pm="."><plain>0.55 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="839" pm="."><plain>3.06 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="840" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="841" pm="."><plain>3.19 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="842" pm="."><plain>0.56 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="843" pm="."><plain>0.23 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="844" pm="."><plain>3.23 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="845" pm="."><plain>0.53 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="846" pm="."><plain>2.86 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="847" pm="."><plain>0.52 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="848" pm="."><plain>0.70 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="849" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="850" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="851" pm="."><plain>Contact (5, 11, 19, 22, 24, 30) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="852" pm="."><plain>3.80 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="853" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="854" pm="."><plain>3.76 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="855" pm="."><plain>0.61 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="856" pm="."><plain>3.86 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="857" pm="."><plain>0.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="858" pm="."><plain>0.17 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="859" pm="."><plain>3.84 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="860" pm="."><plain>0.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="861" pm="."><plain>3.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="862" pm="."><plain>0.62 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="863" pm="."><plain>0.21 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="864" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="865" pm="."><plain>Phys. </plain></SENT>
+<SENT sid="866" pm="."><plain>Contact (5, 11, 22, 24)* </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="867" pm="."><plain>3.85 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="868" pm="."><plain>0.61 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="869" pm="."><plain>3.87 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="870" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="871" pm="."><plain>3.81 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="872" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="873" pm="."><plain>-0.10 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="874" pm="."><plain>3.89 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="875" pm="."><plain>0.59 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="876" pm="."><plain>3.75 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="877" pm="."><plain>0.63 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="878" pm="."><plain>0.23 </plain></SENT>
+</text></td></tr><tr><td align="center" rowspan="1" colspan="1"><text><SENT sid="879" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="880" pm="."><plain>Sexual Fulfillment (4,9,16,21,27,35) </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="881" pm="."><plain>3.78 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="882" pm="."><plain>0.71 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="883" pm="."><plain>3.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="884" pm="."><plain>0.72 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="885" pm="."><plain>4.01 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="886" pm="."><plain>0.64 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="887" pm="."><plain>0.60 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="888" pm="."><plain>3.83 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="889" pm="."><plain>0.69 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="890" pm="."><plain>3.65 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="891" pm="."><plain>0.74 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="892" pm="."><plain>0.25 </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="t005fn001"><p><text><SENT sid="893" pm="."><plain>Note: DBIQ-NL = Dresden Body Image Questionnaire, Dutch translation; Self-aggr. = Self-aggrandizement; Body Acc. = Body Acceptance; Phys. </plain></SENT>
+<SENT sid="894" pm="."><plain>Contact = Physical Contact </plain></SENT>
+</text></p></fn><fn id="t005fn002"><p><text><SENT sid="895" pm="."><plain>* Adapted scale with items removed based upon MGCFA outcomes. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="896" pm="."><plain>Total mean scores were hardly influenced by deleting items 15, 19, 28, and 30 with changes of less than 0.02 in size. </plain></SENT>
+<SENT sid="897" pm="."><plain>The correlation between the full and reduced scale was .99. </plain></SENT>
+<SENT sid="898" pm="."><plain>Scores on the subscale body acceptance (with items 15 and 28 deleted) changed at most 0.04 points. </plain></SENT>
+<SENT sid="899" pm="."><plain>The correlation between the full and reduced sub-scale was .96. </plain></SENT>
+<SENT sid="900" pm="."><plain>Mean scores for the subscale physical contact increased slightly (.05) for the whole group when items 19 and 30 were deleted; the correlation between the original and adapted sub-scale was .92; Mean scores were .11 higher for women and showed a decrease of .05 for men. </plain></SENT>
+<SENT sid="901" pm="."><plain>Mean differences on the subscales between age groups and between women and men were small to medium (Cohen’s d &lt;. </plain></SENT>
+<SENT sid="902" pm="."><plain>0.50), with the exception of medium differences between women and men on the subscale sexual fulfillment (d = 0.60) and between the younger and older age group on the subscale self-aggrandizement (d = 0.70). </plain></SENT>
+<SENT sid="903" pm="."><plain>Differences were in the same direction, with men scoring higher than women and the younger age group scoring higher than the older age group. </plain></SENT>
+<SENT sid="904" pm="."><plain>The only exception were men scoring slightly lower than women on the reduced physical contact subscale (d = 0.10). </plain></SENT>
+<SENT sid="905" pm="."><plain>For standardized factor loadings of the full and reduced item sub-scales see S3 Table. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec sec-type="conclusions" id="sec023"><title><text><SENT sid="906" pm="."><plain>Discussion </plain></SENT>
+</text></title><sec id="sec024"><title><text><SENT sid="907" pm="."><plain>Structure of the (sub)scales </plain></SENT>
+</text></title><p><text><SENT sid="908" pm="."><plain>The aim of this study was to assess psychometric properties of the DBIQ in a non-clinical Dutch sample. </plain></SENT>
+<SENT sid="909" pm="."><plain>Moreover, the work done by the developers of the original scale [26, 27] was extended by evaluating the equivalence of the measurement model across sex and age. </plain></SENT>
+<SENT sid="910" pm="."><plain>For our evaluation of the psychometric properties we used a large convenience sample with a gender and age distribution deviating from the Dutch general population. </plain></SENT>
+<SENT sid="911" pm="."><plain>Whereas the investigation of age invariance of the DBIQ was in fact facilitated by the bimodal age distribution, the sample does not provide information on the distribution of DBIQ scores across the general population (e.g. with the purpose of computing norm scores). </plain></SENT>
+</text></p><p><text><SENT sid="912" pm="."><plain>Confirmatory Factor Analysis based on the five-factor structure of the original German questionnaire, showed adequate fit in the translated version for RMSEA and SRMR, but mediocre fit for CFI and TLI [69]. </plain></SENT>
+<SENT sid="913" pm="."><plain>Adaptation of the model based on inspection of the modification indices led to improvement of model fit. </plain></SENT>
+<SENT sid="914" pm="."><plain>In this adaptation, the item “I like showing my body” was moved from the subscale body acceptance to the subscale self-aggrandizement. </plain></SENT>
+<SENT sid="915" pm="."><plain>This is in line with the results of the principal component analysis by Probst et al. [34], which revealed higher loadings on the subscale self-aggrandizement for the item “I like showing my body” than on the original subscale. </plain></SENT>
+<SENT sid="916" pm="."><plain>Even though German and Dutch are closely related languages, a slight semantic difference may have occurred, suggesting that the Dutch translation emphasizes the pleasure of showing one’s body, whereas the original item was meant to measure body acceptance. </plain></SENT>
+<SENT sid="917" pm="."><plain>A semantic explanation is more plausible than a cultural difference in the interpretation of this item. </plain></SENT>
+</text></p><p><text><SENT sid="918" pm="."><plain>Based on the fit indices and considering that reallocating one item is an acceptable model change when an instrument is used in a different cultural setting or language [61], the adapted model was used for further evaluations. </plain></SENT>
+<SENT sid="919" pm="."><plain>After comparing the quality of the goodness of fit indices, as recommended by [79], with findings from previous research based on the German inventory, we judge the psychometric properties of the DBIQ-NL as sufficient to warrant further research on the scale and its properties, in a Dutch clinical population. </plain></SENT>
+<SENT sid="920" pm="."><plain>While being aware of new developments in scale analysis by Exploratory Structural Equation Modeling to remedy the overly strict <z:uniprot sup="inside" fb="156" ids="O04350,P48427,P80585,Q75JC8,O75347,P48428,P80584,Q6PEC1,Q9Y703,P48606">CFA</z:uniprot> requirements [68, 80], we refrained from applying this method in order to obtain a close comparison between the DBIQ-NL and the original DBIQ by following a similar evaluation procedure. </plain></SENT>
+<SENT sid="921" pm="."><plain>Based on [67, 79], it was to be expected that the DBIQ-NL would show a reduced goodness of fit compared to the original scale, in which the reported CFI only just met the often used threshold of 0.90. </plain></SENT>
+</text></p><p><text><SENT sid="922" pm="."><plain>A multiple-group confirmatory factor analysis showed configural invariance. </plain></SENT>
+<SENT sid="923" pm="."><plain>The equal item intercepts hypothesis, implying factorial invariance, however, was not supported for all subscales across sex and age. </plain></SENT>
+<SENT sid="924" pm="."><plain>When testing partial factorial invariance, four items were identified that contributed to the lack of strong invariance across sex (item 19, 30) or age (item 28) or across both groups (item 15) indicating that interpretation of the meaning of these items and therefore the item scores might depend on group membership. </plain></SENT>
+<SENT sid="925" pm="."><plain>Replication of the procedure by fitting a final model in sample 1 without these items supported the best, although moderate, fit of this 31-item scale. </plain></SENT>
+</text></p><p><text><SENT sid="926" pm="."><plain>Next to the technical identification of these differing items, there are arguments from a qualitative perspective as to why these items differ across groups. </plain></SENT>
+<SENT sid="927" pm="."><plain>Some items suggest interesting patterns. </plain></SENT>
+<SENT sid="928" pm="."><plain>In items 19 and 30, differing across sex, being touched by others is the central issue. </plain></SENT>
+<SENT sid="929" pm="."><plain>These items may be interpreted differently by men and women since the latter are more often the object of undesired physical contact. </plain></SENT>
+<SENT sid="930" pm="."><plain>Invariance across sex in item 15 (“I choose clothing that hides the shape of my body”) could be explained by the fact that for men, in contrast to women, clothing is not a well-known strategy to camouflage less accepted parts of the body [81]. </plain></SENT>
+<SENT sid="931" pm="."><plain>The differences across age for this item might be indicative for age- or cohort-related cultural differences with regard to showing the body. </plain></SENT>
+<SENT sid="932" pm="."><plain>Item 28 (“If I could change something about my body, I would do it”) might mean something different for the older age group, in light of physical impairments or other confrontations with unwelcome bodily changes. </plain></SENT>
+<SENT sid="933" pm="."><plain>Millsap and Kwok [78] describe the option of using a shortened version of the scale that omits the items that performed differently across groups, at the same time warning that this option results in as many versions of the scale as there are invariance studies. </plain></SENT>
+</text></p><p><text><SENT sid="934" pm="."><plain>A second option is to retain all items when the net impact of the differences on the total score is small [78]. </plain></SENT>
+<SENT sid="935" pm="."><plain>This is indeed the case in the present non-clinical sample. </plain></SENT>
+<SENT sid="936" pm="."><plain>Also due to the limited number of affected items, partial invariance only slightly affects the differences between sex and age groups in mean total scores on the DBIQ-NL and subscales. </plain></SENT>
+<SENT sid="937" pm="."><plain>Therefore, adaptations need not be made when the scale is used to gain global information on body image in non-clinical groups. </plain></SENT>
+<SENT sid="938" pm="."><plain>However, when the focus is on gathering information with respect to differences on the issue of physical contact across the sexes or on the theme of body acceptance among different age groups, a score without the items violating invariance could be relevant. </plain></SENT>
+</text></p></sec><sec id="sec025"><title><text><SENT sid="939" pm="."><plain>Reliability and validity </plain></SENT>
+</text></title><p><text><SENT sid="940" pm="."><plain>The DBIQ-NL and its five subscales showed adequate internal consistency. </plain></SENT>
+<SENT sid="941" pm="."><plain>Test-retest reliability was also adequate, although based on a rather small sample. </plain></SENT>
+<SENT sid="942" pm="."><plain>Good construct validity was found with moderate associations with body satisfaction (BCS) as expected since the DBIQ aims to measure a broad concept of body image whereas in the BCS appearance-related issues are prominent. </plain></SENT>
+<SENT sid="943" pm="."><plain>The higher correlations between total score on the DBIQ and body satisfaction (BCS) for men than for women can possibly be explained by this difference since earlier studies found that women are likely to give a greater emphasis than men to appearance as part of the concept body image [30, 82]. </plain></SENT>
+<SENT sid="944" pm="."><plain>The moderate associations between the DBIQ-NL and the OQ-45 and RSES confirm the relation between body image, psychosocial well-being and self-esteem and its importance when assessing non-clinical samples [5, 6]. </plain></SENT>
+</text></p><p><text><SENT sid="945" pm="."><plain>Correlations between the subscales were relatively small, providing support for the multidimensionality of the instrument. </plain></SENT>
+<SENT sid="946" pm="."><plain>Validation of the subscales for physical contact and vitality by correlating these with other indices showed good construct validity. </plain></SENT>
+</text></p></sec><sec id="sec026"><title><text><SENT sid="947" pm="."><plain>Implications for the use of the DBIQ-NL and further research </plain></SENT>
+</text></title><p><text><SENT sid="948" pm="."><plain>The present study on the psychometric properties of the DBIQ in a Dutch non-clinical sample shows a factor structure and model fit that are satisfactory and motivate further study. </plain></SENT>
+<SENT sid="949" pm="."><plain>In view of our aim to make an instrument available in Dutch language measuring body image as a multifaceted construct in a non-clinical as well as in a clinical population, future research will have to address a variety of clinical samples. </plain></SENT>
+<SENT sid="950" pm="."><plain>These further evaluations should also pay attention to measurement invariance across sex and age. </plain></SENT>
+</text></p><p><text><SENT sid="951" pm="."><plain>Another issue of importance in clinical samples is the intimate and for a substantial group of patients possibly trauma related nature of the subscale sexual fulfillment. </plain></SENT>
+<SENT sid="952" pm="."><plain>Applicability of this subscale still needs to be evaluated. </plain></SENT>
+<SENT sid="953" pm="."><plain>On the other hand, because both clinicians and patients seem to be reluctant to discuss issues concerning sexuality, a reluctance that may also be related to cultural or religious background, addressing sexuality in a self-report questionnaire may also make it easier for both client and therapist to pay attention to this relevant theme [28]. </plain></SENT>
+</text></p><p><text><SENT sid="954" pm="."><plain>A recent study using the DBIQ-NL in a broad clinical sample including mood disorders, anxiety disorders, adjustment disorder, post-traumatic stress disorder, eating disorders, schizophrenia and other psychotic disorders [83] gave a first indication of the clinical usefulness of the scale. </plain></SENT>
+<SENT sid="955" pm="."><plain>The study suggests that body image is a common problem occurring in most patients with mental disorders. </plain></SENT>
+<SENT sid="956" pm="."><plain>Body acceptance and sexual fulfillment were the most differentiating aspects of body image between diagnoses. </plain></SENT>
+<SENT sid="957" pm="."><plain>Surprisingly, vitality did not differ significantly between the various disorders. </plain></SENT>
+<SENT sid="958" pm="."><plain>It may be concluded that the DBIQ has potential surplus value in the field of body image since it covers a broad range of body image dimensions and includes important dimensions such as touch and sexuality that are not well represented in other measures of body image. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary-material" id="sec027"><title><text><SENT sid="959" pm="."><plain>Supporting information </plain></SENT>
+</text></title><supplementary-material content-type="local-data" id="pone.0181908.s001"><label>S1 Fig</label><caption><title><text><SENT sid="960" pm="."><plain>Distribution of age in the two samples. </plain></SENT>
+</text></title><p><text><SENT sid="961" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s001.docx"><caption><p><text><SENT sid="962" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0181908.s002"><label>S1 Table</label><caption><title><text><SENT sid="963" pm="."><plain>Dresden Body Image Questionnaire (DBIQ), Dutch version. </plain></SENT>
+</text></title><p><text><SENT sid="964" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s002.docx"><caption><p><text><SENT sid="965" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0181908.s003"><label>S2 Table</label><caption><title><text><SENT sid="966" pm="."><plain>DBIQ-NL: Item means and standard deviations sample 1; item means and standard deviations per sex and age group sample 1. </plain></SENT>
+</text></title><p><text><SENT sid="967" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s003.docx"><caption><p><text><SENT sid="968" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0181908.s004"><label>S3 Table</label><caption><title><text><SENT sid="969" pm="."><plain>Standardized factor loadings full and reduced item sub-scales. </plain></SENT>
+</text></title><p><text><SENT sid="970" pm="."><plain>(DOCX) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s004.docx"><caption><p><text><SENT sid="971" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0181908.s005"><label>S1 Waiver Ethical Approval</label><caption><p><text><SENT sid="972" pm="."><plain>(PDF) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s005.pdf"><caption><p><text><SENT sid="973" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0181908.s006"><label>S1 Datafile</label><caption><title><text><SENT sid="974" pm="."><plain>Sample 1. </plain></SENT>
+</text></title><p><text><SENT sid="975" pm="."><plain>(SAV) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s006.sav"><caption><p><text><SENT sid="976" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0181908.s007"><label>S2 Datafile</label><caption><title><text><SENT sid="977" pm="."><plain>Sample 2. </plain></SENT>
+</text></title><p><text><SENT sid="978" pm="."><plain>(SAV) </plain></SENT>
+</text></p></caption><media xlink:href="pone.0181908.s007.sav"><caption><p><text><SENT sid="979" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="980" pm="."><plain>We would like to thank Anne Boomsma for his valuable advice on the data analysis. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0181908.ref001"><text><SENT sid="981" pm="."><plain>1CashTF. Body image: past, present, and future. Body Image. 2004;1:1–5. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1740-1445(03)00011-1">10.1016/S1740-1445(03)00011-1</ext-link> <?supplied-pmid 18089136?>18089136 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref002"><text><SENT sid="982" pm="."><plain>2RöhrichtF, SeidlerKP, JoraschkyP, BorkenhagenA, LausbergH, LemcheE, et al Consensus paper on the terminological differentiation of various aspect of body experience. Psychother Psychosom Med Psychol. 2005;55:183–90. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-2004-834551">10.1055/s-2004-834551</ext-link> <?supplied-pmid 15800812?>15800812 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref003"><text><SENT sid="983" pm="."><plain>3GaeteMI, FuchsT. From body image to emotional bodily experience in eating disorders. J Phenomenol Psychol. 2016;47:17–40. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref004"><text><SENT sid="984" pm="."><plain>4AllevaJM, MartijnC, JansenA, NederkoornC. Body Language: Affecting body satisfaction by describing the body in functionality terms. Psychol Women Quart. 2014;38:181–96. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref005"><text><SENT sid="985" pm="."><plain>5CashTF, FlemingEC. The impact of body image experiences: development of the body image quality of life inventory. Int J Eat Disord. 2002;31:455–60. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/eat.10033">10.1002/eat.10033</ext-link> <?supplied-pmid 11948650?>11948650 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref006"><text><SENT sid="986" pm="."><plain>6CashTF, TheriaultJ, AnnisNM. Body image in an interpersonal context: Adult attachment, fear of intimacy, and social anxiety. Soc Clin Psychol. 2004;23:89–103. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref007"><text><SENT sid="987" pm="."><plain>7AllevaJM, SheeranP, WebbTL, MartijnC, MilesE. A Meta-Analytic Review of Stand-Alone Interventions to Improve Body Image. PLoS One. 2015;10(9):e0139177 doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0139177">10.1371/journal.pone.0139177</ext-link> <?supplied-pmid 26418470?>26418470 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref008"><text><SENT sid="988" pm="."><plain>8GillenMM. Associations between positive body image and indicators of men's and women's mental and physical health. Body Image. 2015;13:67–74. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2015.01.002">10.1016/j.bodyim.2015.01.002</ext-link> <?supplied-pmid 25682474?>25682474 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref009"><text><SENT sid="989" pm="."><plain>9JarryJL, BerardiK. Characteristics and effectiveness of stand-alone body image treatments: a review of the empirical literature. Body Image. 2004;1:319–33. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2004.10.005">10.1016/j.bodyim.2004.10.005</ext-link> <?supplied-pmid 18089164?>18089164 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref010"><text><SENT sid="990" pm="."><plain>10WoertmanL, van den BrinkF. Body image and female sexual functioning and behavior: a review. J Sex Res. 2012;49:184–211. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00224499.2012.658586">10.1080/00224499.2012.658586</ext-link> <?supplied-pmid 22380588?>22380588 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref011"><text><SENT sid="991" pm="."><plain>11CashTF, PruzinskyT. Body image. </plain></SENT>
+<SENT sid="992" pm="."><plain>A handbook of theory, research and clinical practice New York/London: The Guilford Press; 2002. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref012"><text><SENT sid="993" pm="."><plain>12RöhrichtF. Body oriented psychotherapy–the state of the art in empirical research and evidence based practice: a clinical perspective. Body <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Dance Psychother. 2009;4:135–56. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref013"><text><SENT sid="994" pm="."><plain>13BhatnagarKA, WisniewskiL, SolomonM, HeinbergL. Effectiveness and feasibility of a cognitive-behavioral group intervention for body image disturbance in women with eating disorders. J Clin Psychol. 2013;69:1–13. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jclp.21909">10.1002/jclp.21909</ext-link> <?supplied-pmid 22903360?>22903360 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref014"><text><SENT sid="995" pm="."><plain>14DanielsenM, RoO. Changes in body image during inpatient treatment for eating disorders predict outcome. Eat Disord. 2012;20:261–75. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10640266.2012.689205">10.1080/10640266.2012.689205</ext-link> <?supplied-pmid 22703568?>22703568 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref015"><text><SENT sid="996" pm="."><plain>15MarcoJH, PerpinaC, BotellaC. Effectiveness of cognitive behavioral therapy supported by virtual reality in the treatment of body image in eating disorders: one year follow-up. Psychiatry Res. 2013;209:619–25. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2013.02.023">10.1016/j.psychres.2013.02.023</ext-link> <?supplied-pmid 23499231?>23499231 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref016"><text><SENT sid="997" pm="."><plain>16RohrichtF, BeyerW, PriebeS. </plain></SENT>
+<SENT sid="998" pm="."><plain>[Disturbances of body-experience in acute anxiety and depressive disorders—neuroticism or somatization?]. Psychother Psychosom Med Psychol. 2002;52:205–13. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-2002-28524">10.1055/s-2002-28524</ext-link> <?supplied-pmid 12012263?>12012263 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref017"><text><SENT sid="999" pm="."><plain>17AderkaIM, GutnerCA, LazarovA, HermeshH, HofmannSG, MaromS. Body image in social anxiety disorder, obsessive-compulsive disorder, and panic disorder. Body Image. 2014;11:51–6. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2013.09.002">10.1016/j.bodyim.2013.09.002</ext-link> <?supplied-pmid 24095651?>24095651 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref018"><text><SENT sid="1000" pm="."><plain>18DyerA, BorgmannE, KleindienstN, FeldmannREJr., VocksS, BohusM. Body image in patients with posttraumatic stress disorder after childhood sexual abuse and co-occurring eating disorder. Psychopathology. 2013;46:186–91. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000341590">10.1159/000341590</ext-link> <?supplied-pmid 22964627?>22964627 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref019"><text><SENT sid="1001" pm="."><plain>19SackM, Boroske-LeinerK, LahmannC. Association of nonsexual and sexual traumatizations with body image and psychosomatic symptoms in psychosomatic outpatients. Gen Hosp Psychiat. 2010;32:315–20. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref020"><text><SENT sid="1002" pm="."><plain>20WenningerK, HeimanJR. Relating body image to psychological and sexual functioning in child sexual abuse survivors. J Trauma Stress. 1998;11:543–62. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1023/A:1024408830159">10.1023/A:1024408830159</ext-link> <?supplied-pmid 9690192?>9690192 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref021"><text><SENT sid="1003" pm="."><plain>21AndersonBL, LegrandJ. Body image for women: Conceptualization, assessment, and a test of its importance to sexual dysfunction and medical illness. J Sex Res. 1991;28:457–77. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00224499109551619">10.1080/00224499109551619</ext-link> <?supplied-pmid 21451731?>21451731 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref022"><text><SENT sid="1004" pm="."><plain>22LuziK, GuaraldiG, MurriR, De PaolaM, OrlandoG, SquillaceN, et al Body image is a major determinant of sexual dysfunction in stable HIV-infected women. Antivir Ther. 2009;14:85–92. <?supplied-pmid 19320240?>19320240 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref023"><text><SENT sid="1005" pm="."><plain>23PriebeS, RohrichtF. Specific body image pathology in acute schizophrenia. Psychiat Res. 2001;101:289–301. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref024"><text><SENT sid="1006" pm="."><plain>24ProbstM, PietersG, VanderlindenJ. Evaluation of body experience questionnaires in eating disorders in female patients (AN/BN) and nonclinical participants. and non-clinical subjects. Int J Eat Disord. 2008; 41:657–665. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/eat.20531">10.1002/eat.20531</ext-link> <?supplied-pmid 18446834?>18446834 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref025"><text><SENT sid="1007" pm="."><plain>25ProbstM, PietersG, VanderlindenJ. Body experience assessment in non-clinical male and female subjects. Eat Weight Disord. 2009;14: e16–e21. <?supplied-pmid 19367132?>19367132 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref026"><text><SENT sid="1008" pm="."><plain>26PöhlmannK, RothM, BrahlerE, JoraschkyP. </plain></SENT>
+<SENT sid="1009" pm="."><plain>[The Dresden Body Image Inventory (DKB-35): validity in a clinical sample]. Psychother Psychosom Med Psychol. 2014;64:93–100. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-0033-1351276">10.1055/s-0033-1351276</ext-link> <?supplied-pmid 23966276?>23966276 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref027"><text><SENT sid="1010" pm="."><plain>27PöhlmannK, ThielP, JoraschkyP. Development and validation of the Dresden Body Image Questionnaire In: JoraschkyP, LausbergH, PöhlmannK, editors. Body oriented diagnostics and psychotherapy in patients with eating disorders. Gießen: Psychosozial-Verlag; 2008 pp. 57–72. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref028"><text><SENT sid="1011" pm="."><plain>28De BoerMK, CasteleinS, WiersmaD, SchoeversRA, KnegteringH. A systematic review of instruments to measure sexual functioning in patients using antipsychotics. J Sex Res. 2014;51:383–9. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00224499.2013.865111">10.1080/00224499.2013.865111</ext-link> <?supplied-pmid 24754359?>24754359 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref029"><text><SENT sid="1012" pm="."><plain>29ScheffersM, HellemanML. Trauma, lichaamsbeleving en seksualiteit [Trauma, body experience and sexuality] Amsterdam: Boom; 2013. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref030"><text><SENT sid="1013" pm="."><plain>30AbbottBD, BarberBL. Embodied image: gender differences in functional and aesthetic body image among Australian adolescents. Body Image. 2010;7:22–31. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2009.10.004">10.1016/j.bodyim.2009.10.004</ext-link> <?supplied-pmid 19945925?>19945925 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref031"><text><SENT sid="1014" pm="."><plain>31DavisonTE, McCabeMP. Relationships between men’s and women’s body image and their psychological, social, and sexual functioning. Sex Roles. 2005;7–8:463–75. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref032"><text><SENT sid="1015" pm="."><plain>32TylkaTL, Wood-BarcalowNL. The Body Appreciation Scale-2: item refinement and psychometric evaluation. Body Image. 2015;12:53–67. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2014.09.006">10.1016/j.bodyim.2014.09.006</ext-link> <?supplied-pmid 25462882?>25462882 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref033"><text><SENT sid="1016" pm="."><plain>33AlgarsA, SanttilaP, VarjonenM, WittingM, JohanssonA, JernP, et al The adult body: How age, gender, and body mass index are related to body image. J Aging Health. 2009;21:1112–32. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0898264309348023">10.1177/0898264309348023</ext-link> <?supplied-pmid 19897779?>19897779 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref034"><text><SENT sid="1017" pm="."><plain>34ProbstM, GeertsM, MaurissenK, SimonsJ. De psychometrische kenmerken van de Nederlandstalige versie van de Dresdner Korperbildfragebogen (DKB-35) In: SimonsJ, editor. Actuele themata uit de psychomotorische therapie. Leuven: Acco; 2011 pp. 85–104. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref035"><text><SENT sid="1018" pm="."><plain>35VanwesenbeeckI, BakkerF, GesellS. Sexual health in the Netherlands: Main results of a population survey among Dutch adults. Int J Sex Health. 2010;22:55–71. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref036"><text><SENT sid="1019" pm="."><plain>36TiggemannM. Body image across the adult life span: stability and change. Body Image. 2004;1:29–41. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1740-1445(03)00002-0">10.1016/S1740-1445(03)00002-0</ext-link> <?supplied-pmid 18089139?>18089139 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref037"><text><SENT sid="1020" pm="."><plain>37Krauss WhitbourneS, SkultetyKM. Body image development. </plain></SENT>
+<SENT sid="1021" pm="."><plain>Adulthood and aging In: CashTF, PruzinskyT, editors. Body image. </plain></SENT>
+<SENT sid="1022" pm="."><plain>A handbook of theory, research, and clinical practice. New York: Guilford; 2002 pp. 83–90. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref038"><text><SENT sid="1023" pm="."><plain>38Thiel PP. </plain></SENT>
+<SENT sid="1024" pm="."><plain>The Dresden Body Image Questionnaire: Development and validation of a multidimensional questionnaire. </plain></SENT>
+<SENT sid="1025" pm="."><plain>[dissertation], Technischen Universität Dresden; 2007. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref039"><text><SENT sid="1026" pm="."><plain>39ClementU, LöweB. Fragebogen zum Körperbild (FKB-20). Göttingen: Hogrefe; 1996. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref040"><text><SENT sid="1027" pm="."><plain>40StraußB, Richter-AppeltH. Fragebogen <z:uniprot sup="inside" fb="23" ids="P54479,P0AC51,P9WN84,P9WN85,P0AC52">zur</z:uniprot> Beurteilung des eigenen Körpers (FBeK). Göttingen: Hogrefe; 1996. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref041"><text><SENT sid="1028" pm="."><plain>41StraußB, Richter-AppeltH, BrählerE. The “Fragebogen <z:uniprot sup="inside" fb="23" ids="P54479,P0AC51,P9WN84,P9WN85,P0AC52">zur</z:uniprot> Beurteilung des eigenen Körpers”(FBeK)—Development and application In: JoraschkyP, LoewT, RöhrichtF, editors. Body experience and body image A diagnostic handbook. Stuttgart: Schattauer; 2009 pp. 64–71. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref042"><text><SENT sid="1029" pm="."><plain>42DeusingerIM. Die Frankfurter Körperkonzeptskalen (FKKS). Göttingen: Hogrefe; 1998. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref043"><text><SENT sid="1030" pm="."><plain>43BehlingO, LawKS. Translating questionnaires and other research instruments: Problems and solutions Thousand Oaks, CA: Sage; 2000. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref044"><text><SENT sid="1031" pm="."><plain>44SecordPF, JourardSM. The appraisal of body-cathexis: body-cathexis and the self. J Consult Psychol. 1953;17:343–7. <?supplied-pmid 13109086?>13109086 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref045"><text><SENT sid="1032" pm="."><plain>45TuckerLA. Internal structure, factor satisfaction, and reliability of the Body Cathexis Scale. Percept Motor Skill. 1981;53:891–6. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref046"><text><SENT sid="1033" pm="."><plain>46WardTE, McKeonwnBC, MayhewJL, JacksonAW, PiperFC. The Body Cathexis Scale: Reliability and multidimensionality in an exercise setting. J Hum <z:uniprot sup="inside" fb="1" ids="P03546,P03547,Q02968,Q00966,Q01089,P05396,Q7TD13,P09520,P15631">Mov</z:uniprot> Stud. 1994;27:37–48. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref047"><text><SENT sid="1034" pm="."><plain>47OrlandiE, CovezziR, GaleazziGM, GuaraldiGP. The Italian version of the Body Cathexis Scale. Eating Weight Disord. 2006;11:79–84. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref048"><text><SENT sid="1035" pm="."><plain>48AllevaJM, VeldhuisJ, MartijnC. A pilot study investigating whether focusing on body functionality can protect women from the potential negative effects of viewing thin-ideal media images. Body Image. 2016;17:10–13. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2016.01.007">10.1016/j.bodyim.2016.01.007</ext-link> <?supplied-pmid 26878220?>26878220 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref049"><text><SENT sid="1036" pm="?"><plain>49FrisenA, HolmqvistK. What characterizes early adolescents with a positive body image? </plain></SENT>
+<SENT sid="1037" pm="."><plain>A qualitative investigation of Swedish girls and boys. Body Image. 2010;7:205–212. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2010.04.001">10.1016/j.bodyim.2010.04.001</ext-link> <?supplied-pmid 20554256?>20554256 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref050"><text><SENT sid="1038" pm="?"><plain>50DorhoutM, BastenMGJ, BosscherRJ, ScheffersM. Beauty or Beast? </plain></SENT>
+<SENT sid="1039" pm="."><plain>A psychometric evaluation of the Body Cathexis Scale. Tijdschrift voor vaktherapie. 2015;11:26–32. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref051"><text><SENT sid="1040" pm="."><plain>51OrbachI, MikulincerM. The Body Investment Scale: Construction and validation of a body experience scale. Psychol Assessment.1998;10:415–25. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref052"><text><SENT sid="1041" pm="."><plain>52LamisDA, MalonePS, Langhinrichsen-RohlingJ, EllisTE. Body investment, depression, and alcohol use as risk factors for suicide proneness in college students. Crisis. 2010;31:118–27. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1027/0227-5910/a000012">10.1027/0227-5910/a000012</ext-link> <?supplied-pmid 20573605?>20573605 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref053"><text><SENT sid="1042" pm="."><plain>53VercoulenJH, SwaninkCM, FennisJF, GalamaJM, van der MeerJW, BleijenbergG. Dimensional assessment of chronic fatigue syndrome. J Psychosom Res. 1994;38:383–92. <?supplied-pmid 7965927?>7965927 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref054"><text><SENT sid="1043" pm="."><plain>54VercoulenJH, HommesOR, SwaninkCM, JongenPJ, FennisJF, GalamaJM, et al The measurement of fatigue in patients with multiple sclerosis. </plain></SENT>
+<SENT sid="1044" pm="."><plain>A multidimensional comparison with patients with chronic fatigue syndrome and healthy subjects. Arch Neurol. 1996;53:642–9. <?supplied-pmid 8929171?>8929171 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref055"><text><SENT sid="1045" pm="."><plain>55HewlettS, DuresE, AlmeidaC. Measures of fatigue. Arthritis Care Res. 2011;63: S263–86. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref056"><text><SENT sid="1046" pm="."><plain>56BeurskensAJ, BultmannU, KantI, VercoulenJH, BleijenbergG, SwaenGM. Fatigue among working people: validity of a questionnaire measure. Occup Environ Med. 2000;57:353–7. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/oem.57.5.353">10.1136/oem.57.5.353</ext-link> <?supplied-pmid 10769302?>10769302 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref057"><text><SENT sid="1047" pm="."><plain>57RosenbergM. Society and the adolescent self-image. Princeton: Princeton University Press; 1965. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref058"><text><SENT sid="1048" pm="."><plain>58ZwanikkenCP. Multiple Sclerosis: Epidemiology and quality of life. Enschede: Febodruk; 1997. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref059"><text><SENT sid="1049" pm="."><plain>59FranckE, De RaedtR, BarbezC, RosseelY. Psychometric properties of the Dutch Rosenberg Self-esteem Scale. Psychol Belg. 2008;48:25–35. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref060"><text><SENT sid="1050" pm="."><plain>60LambertMJ, BurlingameGM, UmphressV, HansenNB, VermeerschDA, ClouseGC, et al The reliability and validity of the Outcome Questionnaire. Clin Psychol Psychot. 1996;3:249–58. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref061"><text><SENT sid="1051" pm="."><plain>61De JongK, NugterMA, PolakMG, WagenborgJEA, SpinhovenP, HeiserWJ. The Outcome Questionnaire (OQ-45) in a Dutch Population: A cross-cultural validation. Clin Psychol Psychot. 2007;14:288–301. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref062"><text><SENT sid="1052" pm="."><plain>62CohenJ. A power primer. Psychol Bull. 1992;112:155–9. <?supplied-pmid 19565683?>19565683 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref063"><text><SENT sid="1053" pm="."><plain>63FleissJL. The design and analysis of clinical experiments. New York: John Wiley &amp; Sons; 1986. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref064"><text><SENT sid="1054" pm="."><plain>64MuthénLK, MuthénBO. Mplus User’s Guide. Fifth Edition Los Angeles: Muthén &amp; Muthén; 2007. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref065"><text><SENT sid="1055" pm="."><plain>65Kappenburg-ten Holt JC. </plain></SENT>
+<SENT sid="1056" pm="."><plain>A comparison between factor analysis and item response theory modeling in scale analysis. </plain></SENT>
+<SENT sid="1057" pm="."><plain>[dissertation], University of Groningen; 2014. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref066"><text><SENT sid="1058" pm="?"><plain>66RhemtullaM, Brosseau-LiardPE, SavaleiV. When can categorical variables be treated as continuous? </plain></SENT>
+<SENT sid="1059" pm="."><plain>A comparison of robust continuous and categorical SEM estimation methods under suboptimal conditions. Psychol Methods. 2012;15:354–73. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref067"><text><SENT sid="1060" pm="."><plain>67HopwoodCJ, DonnellanMB. How should the internal structure of personality inventories be evaluated? Pers Soc Psychol Rev. 2010;14:332–46. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1088868310361240">10.1177/1088868310361240</ext-link> <?supplied-pmid 20435808?>20435808 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref068"><text><SENT sid="1061" pm="."><plain>68MarshHW, MorinAJ, ParkerPD, KaurG. Exploratory structural equation modeling: an integration of the best features of exploratory and confirmatory factor analysis. Annu Rev Clin Psychol. 2014;10:85–110. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev-clinpsy-032813-153700">10.1146/annurev-clinpsy-032813-153700</ext-link> <?supplied-pmid 24313568?>24313568 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref069"><text><SENT sid="1062" pm="."><plain>69BrownTA. Confirmatory factor analysis for applied research (2nd ed). New York: Guilford Press; 2015. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref070"><text><SENT sid="1063" pm="."><plain>70ByrneBM. Structural Equation Modeling with LISREL, PRELIS and SIMPLIS: Basic Concepts, Applications and Programming. Mahwah, New Jersey: Lawrence Erlbaum Associates; 1998. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref071"><text><SENT sid="1064" pm="."><plain>71BrowneMW, CudeckR. Alternative ways of assessing model fit. Newbury Park, CA: Sage; 1993. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref072"><text><SENT sid="1065" pm="."><plain>72Schermelleh-EngelK, MoosbruggerH, MüllerH. Evaluating the fit of structural equation models: Test of significance and descriptive goodness-of-fit measures. Methods Psychol Res Online. 2003;8:23–74. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref073"><text><SENT sid="1066" pm="."><plain>73BentlerPM. Comparative fit indices in structural models. Psychol Bull. 1990;107:238–46. <?supplied-pmid 2320703?>2320703 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref074"><text><SENT sid="1067" pm="."><plain>74RusticusSA, HubleyAM, ZumboBD. Measurement invariance of the appearance schemas inventory-revised and the body image quality of life inventory across age and gender. Assessment. 2008;15:60–71. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1073191107306805">10.1177/1073191107306805</ext-link> <?supplied-pmid 18258732?>18258732 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref075"><text><SENT sid="1068" pm="."><plain>75SatorraA, BentlerPM. Corrections to test statistics and standard errors in covariance structure analysis In: EyeAv, CloggCC, editors. Latent variables analysis: Applications for developmental research. Thousand Oaks, CA: Sage; 1994 pp. 399–419. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref076"><text><SENT sid="1069" pm="."><plain>76ByrneBM, ShavelsonRJ, MuthénB. Testing for the equivalence of factor covariance and mean structures: The issue of partial measurement invariance. Psychol Bull. 1989;105:456–66. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref077"><text><SENT sid="1070" pm="?"><plain>77GregorichSE. Do self-report instruments allow meaningful comparisons across diverse population groups? </plain></SENT>
+<SENT sid="1071" pm="."><plain>Testing measurement invariance using the confirmatory factor analysis framework. Med Care. 2006;44(11 Suppl 3):S78–94.17060839 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref078"><text><SENT sid="1072" pm="."><plain>78MillsapRE, KwokOM. Evaluating the impact of partial factorial invariance on selection in two populations. Psychol Methods. 2004;9:93–115. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/1082-989X.9.1.93">10.1037/1082-989X.9.1.93</ext-link> <?supplied-pmid 15053721?>15053721 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref079"><text><SENT sid="1073" pm="."><plain>79MarshHW, HauKT, WenZL. In search of golden rules: Comment on hypothesis testing approaches to setting cutoff values for fit indexes and dangers in overgeneralising Hu &amp; Bentler (1999) findings. Struct Equation Model. 2004;11:320–41. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref080"><text><SENT sid="1074" pm="."><plain>80AsparouhovT, MuthénB. Exploratory structural equation modeling. Struct Equation Model. 2009;16:397–438. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref081"><text><SENT sid="1075" pm="."><plain>81TiggemannM, AndrewR. Clothing choices, weight, and trait self-objectification. Body Image. 2012;9:409–12. doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bodyim.2012.02.003">10.1016/j.bodyim.2012.02.003</ext-link> <?supplied-pmid 22465473?>22465473 </plain></SENT>
+</text></ref><ref id="pone.0181908.ref082"><text><SENT sid="1076" pm="."><plain>82MuthJL, CashTF. Body-image attitudes: What difference does gender make? <z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot> Social Psychol. 1997;27:1438–52. </plain></SENT>
+</text></ref><ref id="pone.0181908.ref083"><text><SENT sid="1077" pm="."><plain>83ScheffersM, van BusschbachJT, BosscherRJ, AertsLC, WiersmaD, SchoeversRA. Body image in patients with mental disorders: Characteristics, associations with diagnosis and treatment outcome. Compr Psychiatr. 2017;74:53–60. </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

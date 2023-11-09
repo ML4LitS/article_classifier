@@ -1,0 +1,1033 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3306317</article-id><article-id pub-id-type="pmid">22439013</article-id><article-id pub-id-type="publisher-id">PONE-D-11-20993</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0033902</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Cardiovascular</subject></subj-group><subj-group><subject>Clinical Research Design</subject></subj-group><subj-group><subject>Nephrology</subject></subj-group><subj-group><subject>Radiology</subject><subj-group><subject>Diagnostic Radiology</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Clinical Impact of Atrial Fibrillation in Patients with Pulmonary Hypertension </plain></SENT>
+</text></SecTag></article-title><alt-title alt-title-type="running-head">Atrial Fibrillation in Pulmonary Hypertension</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Rottlaender</surname><given-names>Dennis</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Motloch</surname><given-names>Lukas J.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Schmidt</surname><given-names>Daniela</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Reda</surname><given-names>Sara</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Larbig</surname><given-names>Robert</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wolny</surname><given-names>Martin</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Dumitrescu</surname><given-names>Daniel</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Rosenkranz</surname><given-names>Stephan</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Erdmann</surname><given-names>Erland</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hoppe</surname><given-names>Uta C.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<addr-line>Department of Internal Medicine II, Paracelsus Medical University, Salzburg, Austria</addr-line>
+</aff><aff id="aff2">
+<label>2</label>
+<addr-line>Department of Internal Medicine III, University of Cologne, Cologne, Germany</addr-line>
+</aff><aff id="aff3">
+<label>3</label>
+<addr-line>Center of Molecular Medicine Cologne, University of Cologne, Cologne, Germany</addr-line>
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Hodgson-Zingman</surname><given-names>Denice</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Iowa Carver College of Medicine, United States of America</aff><author-notes><corresp id="cor1">* E-mail: <email>dennis.rottlaender@uk-koeln.de</email></corresp><fn fn-type="con"><p><text><SENT sid="1" pm="."><plain>Conceived and designed the experiments: DR LJM S. </plain></SENT>
+<SENT sid="2" pm="."><plain>Reda <z:uniprot sup="inside" fb="7" ids="P35127,O01391">UCH</z:uniprot>. </plain></SENT>
+<SENT sid="3" pm="."><plain>Performed the experiments: DR LJM S. </plain></SENT>
+<SENT sid="4" pm="."><plain>Reda <z:uniprot sup="inside" fb="7" ids="P35127,O01391">UCH</z:uniprot> DS DD. </plain></SENT>
+<SENT sid="5" pm="."><plain>Analyzed the data: DR LJM S. </plain></SENT>
+<SENT sid="6" pm="."><plain>Reda <z:uniprot sup="inside" fb="7" ids="P35127,O01391">UCH</z:uniprot> EE S. </plain></SENT>
+<SENT sid="7" pm="."><plain>Rosenkranz RL MW. </plain></SENT>
+<SENT sid="8" pm="."><plain>Contributed reagents/materials/analysis tools: DR LJM S. </plain></SENT>
+<SENT sid="9" pm="."><plain>Reda <z:uniprot sup="inside" fb="7" ids="P35127,O01391">UCH</z:uniprot> S. </plain></SENT>
+<SENT sid="10" pm="."><plain>Rosenkranz EE. </plain></SENT>
+<SENT sid="11" pm="."><plain>Wrote the paper: DR LJM MW S. </plain></SENT>
+<SENT sid="12" pm="."><plain>Reda <z:uniprot sup="inside" fb="7" ids="P35127,O01391">UCH</z:uniprot>. </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="collection"><year>2012</year></pub-date><pub-date pub-type="epub"><day>16</day><month>3</month><year>2012</year></pub-date><volume>7</volume><issue>3</issue><elocation-id>e33902</elocation-id><history><date date-type="received"><day>24</day><month>10</month><year>2011</year></date><date date-type="accepted"><day>19</day><month>2</month><year>2012</year></date></history><permissions><copyright-statement>Rottlaender et al.</copyright-statement><copyright-year>2012</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><sec><title><text><SENT sid="13" pm="."><plain>Background </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="14" pm="."><plain>Pulmonary hypertension (PH) is associated with progressive impairment of right ventricular function, reduced exercise capacity and a poor prognosis. </plain></SENT>
+<SENT sid="15" pm="."><plain>Little is known about the prevalence, clinical manifestation and impact of atrial fibrillation (AF) on cardiac function in PH. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="16" pm="."><plain>Methods </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="17" pm="."><plain>In a four year single-centre retrospective analysis 225 patients with confirmed PH of various origins were enrolled to investigate the prevalence of AF, and to assess the clinical manifestation, 6-minute walk distance, NT-proBNP levels, echocardiographic parameters and hemodynamics obtained by right heart catheterization in PH with AF. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="18" pm="."><plain>Results </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="19" pm="."><plain>AF was prevalent in 31.1%. </plain></SENT>
+<SENT sid="20" pm="."><plain>In patients with PH and AF, parameters of clinical deterioration (NYHA/WHO functional class, 6-minute walk distance, NT-proBNP levels) and renal function were significantly compromised compared to patients with PH and sinus rhythm (SR). </plain></SENT>
+<SENT sid="21" pm="."><plain>In the total PH cohort and in PH not related to left heart disease occurrence of AF was associated with an increase of right atrial pressure (RAP) and right atrial dilatation. </plain></SENT>
+<SENT sid="22" pm="."><plain>While no direct association was found between pulmonary artery pressure (PAP) and AF in these patients, right ventricular function was reduced in AF, indicating more advanced disease. </plain></SENT>
+<SENT sid="23" pm="."><plain>In PH due to left heart failure the prevalence of AF was particularly high (57.7% vs. 23.1% in other forms of PH). </plain></SENT>
+<SENT sid="24" pm="."><plain>In this subgroup, left atrial dilatation, increase of pulmonary capillary wedge pressure, PAP and RAP were more pronounced in AF than in SR, suggesting that more marked backward failure led to AF in this setting. </plain></SENT>
+</text></SecTag></p></sec><sec><title><text><SENT sid="25" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><SecTag type="ABS"><text><SENT sid="26" pm="."><plain>PH is associated with increased prevalence of AF. </plain></SENT>
+<SENT sid="27" pm="."><plain>Occurrence of AF in PH indicates clinical deterioration and more advanced disease. </plain></SENT>
+</text></SecTag></p></sec></abstract><counts><page-count count="10"/></counts></article-meta></front><body><SecTag type="INTRO"><sec id="s1"><title><text><SENT sid="28" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="29" pm="."><plain>Pulmonary hypertension (PH) – i.e. an elevated mean pulmonary artery pressure (PAP), ≥25 mmHg at rest – defines a group of diseases characterized by a progressive increase in pulmonary vascular resistance leading to right ventricular failure and premature death [1], [2], [3]. </plain></SENT>
+<SENT sid="30" pm="."><plain>Based on the pathophysiological mechanisms and etiology, the current clinical classification distinguishes five groups of PH [4]. </plain></SENT>
+<SENT sid="31" pm="."><plain>Left heart failure (HF) is one common cause of PH, representing group 2 of the Dana-Point classification. </plain></SENT>
+<SENT sid="32" pm="."><plain>Left ventricular systolic dysfunction, diastolic dysfunction or valvular disease may all result in elevated PAP. </plain></SENT>
+<SENT sid="33" pm="."><plain>In fact, PH is being found in more than 60% of patients with moderate or severe HF [5]. </plain></SENT>
+<SENT sid="34" pm="."><plain>However, from a pathophysiological point of view and with regard to therapeutic options, PH due to left heart disease is clearly differentiated from pulmonary arterial hypertension (PAH) and has to be appreciated as a separate entity. </plain></SENT>
+<SENT sid="35" pm="."><plain>At present, targeted PAH therapies are not recommended for this subgroup. </plain></SENT>
+</text></p><p><text><SENT sid="36" pm="."><plain>Atrial fibrillation (AF) is the most common chronic arrhythmia. </plain></SENT>
+<SENT sid="37" pm="."><plain>Chronic left heart failure and AF often coexist. </plain></SENT>
+<SENT sid="38" pm="."><plain>Both are responsible for increased mortality, more frequent hospitalizations, reduced exercise capacity, decreased quality of life and substantial health care expenditures [6]. </plain></SENT>
+<SENT sid="39" pm="."><plain>In addition to merely having risk factors in common, AF and heart failure are believed to directly predispose to each other [7], [8]. </plain></SENT>
+<SENT sid="40" pm="."><plain>The risk of developing AF during long-term follow-up appears to be 5 to 10 times higher in patients with left heart failure than in healthy persons [9], [10], [11], [12]. </plain></SENT>
+<SENT sid="41" pm="."><plain>Some studies have shown that the onset of AF in these patients is associated with clinical and hemodynamic deterioration due to loss of atrial contractility, tachycardia, and lack of atrioventricular synchrony, as well as a worse long-term prognosis [13], [14]. </plain></SENT>
+</text></p><p><text><SENT sid="42" pm="."><plain>Although the association between AF and left heart failure is well documented, the predisposing factors for developing AF in this setting are not fully understood. </plain></SENT>
+<SENT sid="43" pm="."><plain>Moreover, the prevalence of AF in PH with or without compromised right ventricular function has not been defined. </plain></SENT>
+<SENT sid="44" pm="."><plain>Learning more about which types of patients with PH develop AF may yield important insights into the pathogenesis of AF in this condition, and importantly may help guide clinicians in the monitoring, evaluation, and management of these patients. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="methods" id="s2"><title><text><SENT sid="45" pm="."><plain>Methods </plain></SENT>
+</text></title><sec id="s2a"><title><text><SENT sid="46" pm="."><plain>Study participants </plain></SENT>
+</text></title><p><text><SENT sid="47" pm="."><plain>The study was performed according to good clinical practice and in compliance with the Helsinki declaration. </plain></SENT>
+<SENT sid="48" pm="."><plain>Individual patient were not identified. </plain></SENT>
+<SENT sid="49" pm="."><plain>An individual written consent was obtained by every patient, which is usually performed due to quality management issues in our hospital. </plain></SENT>
+<SENT sid="50" pm="."><plain>The study and study design was approved by the institutional review board. </plain></SENT>
+<SENT sid="51" pm="."><plain>The study cohort comprised 225 consecutive patients with confirmed diagnosis of PH referred to a single-centre between October 01, 2006 and March 31, 2010. </plain></SENT>
+<SENT sid="52" pm="."><plain>In all eligible patients, exact classification of PH into one of the five groups according to the Dana-Point classification was performed [4], and information about the clinical severity (NYHA/WHO functional class), medication, concomitant diseases, 6-minute walk distance and N-terminal pro-<z:uniprot sup="inside" fb="0" ids="P83965,Q805E8,Q805D7">brain natriuretic peptide</z:uniprot> (NT-proBNP) levels were obtained from the University Patient Database. </plain></SENT>
+<SENT sid="53" pm="."><plain>Furthermore, if available, echocardiography was analyzed. </plain></SENT>
+<SENT sid="54" pm="."><plain>Patients were divided into two groups: 1. patients with PH and sinus rhythm (PH-SR) and 2. patients with PH and atrial fibrillation (PH-AF). </plain></SENT>
+<SENT sid="55" pm="."><plain>Given distinct cardiac pathomechanisms, subgroup analysis was performed in patients with PH due to left heart failure (a. </plain></SENT>
+<SENT sid="56" pm="."><plain>PH-HF SR and b. </plain></SENT>
+<SENT sid="57" pm="."><plain>PH-HF AF) and PH due to any other cause (c. </plain></SENT>
+<SENT sid="58" pm="."><plain>PH-nonHF SR and d. </plain></SENT>
+<SENT sid="59" pm="."><plain>PH-nonHF AF). </plain></SENT>
+</text></p></sec><sec id="s2b"><title><text><SENT sid="60" pm="."><plain>Definition of prevalent AF </plain></SENT>
+</text></title><p><text><SENT sid="61" pm="."><plain>“Prevalent AF” was defined as the presence of AF on electrocardiogram during the index hospitalization and/or as indicated by a diagnosis found in medical records, the hospitalization database, or ambulatory visit databases. “Electrocardiographic AF” was defined as the presence of an irregular rhythm with fibrillatory waves and no defined P-waves [9]. </plain></SENT>
+<SENT sid="62" pm="."><plain>Diagnoses were based on physician-assigned diagnoses in the medical records and/or the presence of corresponding ICD-9-CM codes for AF (427.31) in the hospital discharge or ambulatory visit clinical databases. </plain></SENT>
+<SENT sid="63" pm="."><plain>Atrial fibrillation was sub-classified into paroxysmal AF or chronic AF (persistent or permanent) according to international guidelines. </plain></SENT>
+</text></p></sec><sec id="s2c"><title><text><SENT sid="64" pm="."><plain>Etiology and severity of PH </plain></SENT>
+</text></title><p><text><SENT sid="65" pm="."><plain>Patients were classified according to the Dana Point classification of PH, and clinical severity was assessed according to the WHO functional classes for PH [4]. </plain></SENT>
+<SENT sid="66" pm="."><plain>In PH due to left heart failure with reduced ejection fraction, left ventricular ejection fraction was defined as lower than 40% (as assessed by echocardiography, biplane Simpson method in apical four chamber view). </plain></SENT>
+<SENT sid="67" pm="."><plain>Heart failure with preserved ejection fraction was diagnosed following the consensus statement of the Association of the European Society of Cardiology [15]. </plain></SENT>
+<SENT sid="68" pm="."><plain>Valvular disease was defined as mitral and/or aortic stenosis or insufficiency or valve repair. </plain></SENT>
+</text></p></sec><sec id="s2d"><title><text><SENT sid="69" pm="."><plain>Six-minute walk testing </plain></SENT>
+</text></title><p><text><SENT sid="70" pm="."><plain>Patients were instructed to walk down a 100-foot corridor at their own pace, attempting to cover as much ground as possible. </plain></SENT>
+<SENT sid="71" pm="."><plain>At the end of the six minute interval the total distance was determined. </plain></SENT>
+<SENT sid="72" pm="."><plain>The test was performed by personnel that had been trained according to the current <z:uniprot sup="inside" fb="45" ids="P15358,P38977">ATS</z:uniprot> consensus statement on six-minute walk testing [16]. </plain></SENT>
+<SENT sid="73" pm="."><plain>Forty-two patients were excluded from testing due to disability of movement. </plain></SENT>
+</text></p></sec><sec id="s2e"><title><text><SENT sid="74" pm="."><plain>Clinical laboratory parameters </plain></SENT>
+</text></title><p><text><SENT sid="75" pm="."><plain>N-terminal pro-<z:uniprot sup="inside" fb="0" ids="P83965,Q805E8,Q805D7">brain natriuretic peptide</z:uniprot> (NT-proBNP) was measured in every patient as a marker of heart failure known to correlate with survival and the severity of disease in both left and right heart failure. </plain></SENT>
+<SENT sid="76" pm="."><plain>Additionally, renal function parameters, i.e. creatinine, urea nitrogen and estimated glomerular filtration rate (eGFR, using the MDRD equation [17]) were determined. </plain></SENT>
+</text></p></sec><sec id="s2f"><title><text><SENT sid="77" pm="."><plain>Echocardiography </plain></SENT>
+</text></title><p><text><SENT sid="78" pm="."><plain>All transthoracic echocardiographic studies were obtained by experienced investigators using a Philips iE 33 echocardiography system (Philips, Hamburg, Germany). </plain></SENT>
+<SENT sid="79" pm="."><plain>Left atrial diameter (edge-to-edge method, parasternal view), right atrial area (measured at end-systole in the apical four chamber view), left ventricular ejection fraction (biplane Simpson method), Tricuspid Annular Plane Systolic Excursion (TAPSE) and pulmonary artery systolic pressure were recorded according to current recommendations [18]. </plain></SENT>
+<SENT sid="80" pm="."><plain>Only complete datasets were included in the statistical analysis. </plain></SENT>
+</text></p></sec><sec id="s2g"><title><text><SENT sid="81" pm="."><plain>Right heart catheterization </plain></SENT>
+</text></title><p><text><SENT sid="82" pm="."><plain>Right heart catheterization was performed via the femoral vein using a balloon flotation catheter (PWP catheter, Medtronic, Minneapolis, USA). </plain></SENT>
+<SENT sid="83" pm="."><plain>Fluoroscopic guidance was used to cannulate the pulmonary artery and obtain pulmonary capillary wedge position. </plain></SENT>
+<SENT sid="84" pm="."><plain>Right heart catheterization studies were analyzed for systolic and mean pulmonary arterial pressure, pulmonary capillary wedge pressure (PCWP), right atrial pressure and pulmonary vascular resistance. </plain></SENT>
+<SENT sid="85" pm="."><plain>Cardiac output was estimated using the Fick technique. </plain></SENT>
+<SENT sid="86" pm="."><plain>Echocardiograms and right heart catheterization were performed at the same time. </plain></SENT>
+</text></p></sec><sec id="s2h"><title><text><SENT sid="87" pm="."><plain>Statistical analysis </plain></SENT>
+</text></title><p><text><SENT sid="88" pm="."><plain>Statistical analyses were performed using PASW statistics 18 software (SPSS, Chicago, USA). </plain></SENT>
+<SENT sid="89" pm="."><plain>All variables were tested for normal distribution with the Kolmogorov-Smirnov test. </plain></SENT>
+<SENT sid="90" pm="."><plain>The results are given as mean ± standard error of mean (SEM). </plain></SENT>
+<SENT sid="91" pm="."><plain>All groups and subgroups were compared for PH classification, clinical manifestation, 6-minute-walk-testing, laboratory parameters, data of echocardiography and right heart catheterization. </plain></SENT>
+<SENT sid="92" pm="."><plain>Differences between groups and subgroups were evaluated by chi-square-testing for discrete variables and student-t test for continuous variables. </plain></SENT>
+<SENT sid="93" pm="."><plain>For ordinal data Mann-Whitney-U test was used. </plain></SENT>
+<SENT sid="94" pm="."><plain>A p&lt;0.05 was considered as statistically significant. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec id="s3"><title><text><SENT sid="95" pm="."><plain>Results </plain></SENT>
+</text></title><sec id="s3a"><title><text><SENT sid="96" pm="."><plain>Baseline characteristics and prevalence of AF </plain></SENT>
+</text></title><p><text><SENT sid="97" pm="."><plain>A total of 225 patients with PH were analyzed in this retrospective study. </plain></SENT>
+<SENT sid="98" pm="."><plain>Seventy patients (31.1%) of the total study cohort had evidence of AF. </plain></SENT>
+<SENT sid="99" pm="."><plain>In patients with AF, 41.3% had paroxysmal AF, whereas 58.7% presented with chronic AF. </plain></SENT>
+<SENT sid="100" pm="."><plain>The demographic variables of the individual groups with and without AF are shown in table 1. </plain></SENT>
+<SENT sid="101" pm="."><plain>Patients in both groups were predominantly female. </plain></SENT>
+<SENT sid="102" pm="."><plain>Mean age did not differ significantly between the PH-SR and PH-AF group. </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0033902-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.t001</object-id><label>Table 1</label><caption><title><text><SENT sid="103" pm="."><plain>Patients' Characteristics. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0033902-t001-1" xlink:href="pone.0033902.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="104" pm="."><plain>PH-SR(n = 155) </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="105" pm="."><plain>PH-AF(n = 70) </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="106" pm="."><plain>Characteristic </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="107" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="108" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="109" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="110" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="111" pm="."><plain>Age </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>155 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>62.9±1.2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>71.2±1.1 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>Male </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>58 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>37.4% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>35.7% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>Female </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>62.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>45 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>64.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>Mean heart rate (bpm) </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>155 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>79.5±1.3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>74.6±1.9 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>WHO group | PH subgroup </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>Pulmonary arterial hypertension </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>50.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>45.7% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>Idiopathic </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>20.0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>34.3%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>Heritable </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>1.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>Drug- and toxin-induced </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>2.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>Associated with </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain> Congenital heart disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>3.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>4.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain> HIV infection </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>1.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain> Connective tissue disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>20.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>4.3%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain> Portal hypertension </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>2.9% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain> Veno-occlusive disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>Pulmonary hypertension due to left heart failure </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>14.2% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>42.9%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>Systolic dysfunction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>3.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>14.3%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>Diastolic dysfunction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>8.4% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>24.3%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>Valvular disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>1.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>4.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>Pulmonary hypertension due to pulmonary disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>13.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>7.1% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>Chronic obstructive pulmonary disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>4.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>4.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>Interstitial lung disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>9.0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>2.9% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>Chronic thromboembolic pulmonary hypertension </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>20.0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>2.9%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>Others </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>1.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>1.4% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>Medication </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q8MLZ3">Phosphodiesterase-5</z:uniprot>-inhibitor </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>32.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>44.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain><z:uniprot sup="inside" fb="0" ids="Q5NRP9,P17322,P13206,P97740,Q5NRQ1,P05305,Q28469,P22387,P09558,P29560,P22388,Q9BG76">Endothelin-1</z:uniprot> antagonist </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>30.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>21.4% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>Prostacyclin </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>4.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>4.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>Calcium channel blockers </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>18.7% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>24.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>Betablocker </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>41.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>72.9%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>Digitalis </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>5.2% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>37.1%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>Amiodarone </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>0.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>10.0%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>Sotalol </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>1.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>1.4% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>Diuretics </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>112 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>72.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>92.9%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain><z:uniprot sup="inside" fb="61" ids="Q10757">Angiotensin</z:uniprot> receptor blockers/<z:uniprot sup="inside" fb="0" ids="O00400,Q99J27,Q6AYY8,P50297">AT-1</z:uniprot> antagonist </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>82 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>52.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>60.0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>Cumarine </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>61 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>39.4% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>78.6%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>Acetylsalicylic acid </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>31.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>15.7%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>Clopidogrel </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>6.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>5.7% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>Statins </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="290" pm="."><plain>41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="291" pm="."><plain>26.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="292" pm="."><plain>27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="293" pm="."><plain>38.6% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="294" pm="."><plain>Nitrates </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="295" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="296" pm="."><plain>7.1% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="297" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="298" pm="."><plain>4.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="299" pm="."><plain>Concomitant disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="300" pm="."><plain>Coronary artery disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="301" pm="."><plain>39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="302" pm="."><plain>25.2% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="303" pm="."><plain>19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="304" pm="."><plain>27.1% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="305" pm="."><plain>Myocardial infarction </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="306" pm="."><plain>9 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="307" pm="."><plain>5.8% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="308" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="309" pm="."><plain>11.4% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="310" pm="."><plain>Coronary artery bypass graft </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="311" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="312" pm="."><plain>3.2% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="313" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>10.0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>Dilated cardiomyopathy </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>1.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>10.0%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>Valvular disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>14 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>9.0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>28.6%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>Arterial hypertension </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>48.4% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>45 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>64.3%* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>Pulmonary disease </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>97 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>62.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>38.6%* </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label>*</label><p><text><SENT sid="335" pm="."><plain>p&lt;0.05 vs. PH-SR. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="336" pm="."><plain>When evaluating the relative percentage of the distinct etiologies of PH according to the Dana Point classification in the PH-AF group versus PH-SR group, we obtained no significant difference for PH due to pulmonary disease. </plain></SENT>
+<SENT sid="337" pm="."><plain>However, PH due to left heart failure (PH-HF) was markedly more common in the PH-AF group (PH-AF 42.9% vs. PH-SR 14.2%, p&lt;0.05). </plain></SENT>
+<SENT sid="338" pm="."><plain>This observation was consistent for all causes of left heart failure, though for valvular disease the difference did not reach statistical significance most likely due to the limited number of patients in this subgroup (table 1). </plain></SENT>
+<SENT sid="339" pm="."><plain>Notably, 57.7% of all patients with PH-HF presented with AF, compared to 23.1% in the PH-nonHF group. </plain></SENT>
+<SENT sid="340" pm="."><plain>Conversely, the relative percentage of chronic thromboembolic pulmonary hypertension (CTEPH) was higher in the PH population with SR (PH-SR 20.0% vs. PH-<z:uniprot sup="inside" fb="0" ids="O28753">AF 2</z:uniprot>.9%, p&lt;0.05). </plain></SENT>
+<SENT sid="341" pm="."><plain>While we observed a similar percentage of pulmonary arterial hypertension (PAH) per se in the PH-AF and PH-SR group (45.7% vs. 50.3%, n.s.), idiopathic PAH was more frequent in those with AF (PH-AF 34.3% vs. PH-SR 20.0%, p&lt;0.05), reflecting an AF prevalence of 43.6% in this subpopulation. </plain></SENT>
+</text></p><p><text><SENT sid="342" pm="."><plain>A comparison of patients with paroxysmal (PH-AF paroxysmal) and chronic (PH-AF chronic) AF in PH revealed chronic AF to be associate with PH due to pulmonary disease (PH-AF paroxysmal 0% vs. PH-AF chronic 11.9%, p&lt;0.05). </plain></SENT>
+<SENT sid="343" pm="."><plain>Moreover, PH due to systolic dysfunction was associated with chronic AF, while diastolic dysfunction was related to paroxysmal AF (systolic dysfunction: PH-AF paroxysmal 3.6% vs. PH-AF chronic 21.4%, p&lt;0.05; diastolic dysfunction: PH-AF paroxysmal 32.1% vs. PH-AF chronic 19.0%, p&lt;0.05). </plain></SENT>
+</text></p><p><text><SENT sid="344" pm="."><plain>Targeted therapy for PAH such as prostacyclin analogues, endothelin receptor antagonists and <z:uniprot sup="inside" fb="0" ids="Q8MLZ3">phosphodiesterase-5</z:uniprot> inhibitors were equally prescribed in PAH patients with and without AF. </plain></SENT>
+<SENT sid="345" pm="."><plain>Expectedly, treatment for AF, i.e. betablockers, digitalis, amiodarone and cumarine was more common in the PH-AF group. </plain></SENT>
+<SENT sid="346" pm="."><plain>Notably, patients with PH-AF more often received diuretics indicating more advanced heart failure. </plain></SENT>
+</text></p></sec><sec id="s3b"><title><text><SENT sid="347" pm="."><plain>Clinical presentation of patients with AF in PH </plain></SENT>
+</text></title><p><text><SENT sid="348" pm="."><plain>Thus far, clinical manifestation of AF in PH has not been analyzed systematically. </plain></SENT>
+<SENT sid="349" pm="."><plain>Therefore, we evaluated functional class, exercise capacity, and laboratory parameters indicative of hemodynamic status in this population. </plain></SENT>
+<SENT sid="350" pm="."><plain>The clinical condition in patients with AF in PH was more severe than in patients without AF, as indicated by the NYHA/WHO functional class (table 2). </plain></SENT>
+<SENT sid="351" pm="."><plain>Consistently, the 6-minute walk distance was significantly shorter in the PH-AF group (PH-SR vs. PH-AF: 355.55±9.86 m, n = 130 vs. 321.98±14.1 m, n = 53; p&lt;0.05, figure 1). </plain></SENT>
+<SENT sid="352" pm="."><plain>Moreover, in patients with AF, the elevation of NT-proBNP serum levels was more pronounced (PH-SR vs. PH-AF: 2128.88±429.97 ng/l, n = 155 vs. 3252.79±401.76 ng/l, n = 70; p&lt;0.05, figure 1). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0033902-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.g001</object-id><label>Figure 1</label><caption><title><text><SENT sid="353" pm="."><plain>Laboratory parameters and exercise capacity in PH with and without AF. </plain></SENT>
+</text></title><p><text><SENT sid="354" pm="."><plain>NT-pro-<z:uniprot sup="inside" fb="130" ids="Q9GLK4">BNP</z:uniprot>, estimated glomerular filtration rate (eGFR), urea nitrogen (BUN) and 6-minute walk distance of patients with PH were compared in those with AF (PH-AF) and SR (PH-SR). * p&lt;0.05. </plain></SENT>
+<SENT sid="355" pm="."><plain>Error bars representing standard error of mean. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0033902.g001"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone-0033902-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.t002</object-id><label>Table 2</label><caption><title><text><SENT sid="356" pm="."><plain>Effect of AF on NYHA class and renal function in PH. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0033902-t002-2" xlink:href="pone.0033902.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="357" pm="."><plain>PH-SR </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="358" pm="."><plain>PH-AF </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>NYHA classification </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="362" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="363" pm="."><plain>% </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="364" pm="."><plain>NYHA I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="365" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="366" pm="."><plain>1.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="367" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="368" pm="."><plain>0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="369" pm="."><plain>NYHA II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="370" pm="."><plain>52 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="371" pm="."><plain>33.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="372" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="373" pm="."><plain>24.3%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="374" pm="."><plain>NYHA III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="375" pm="."><plain>98 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="376" pm="."><plain>63.2% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="377" pm="."><plain>51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="378" pm="."><plain>72.9%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="379" pm="."><plain>NYHA IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="380" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="381" pm="."><plain>1.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="382" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="383" pm="."><plain>2.9%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="384" pm="."><plain>Renal function </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="385" pm="."><plain>CKD class I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="386" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="387" pm="."><plain>20.0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="388" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="389" pm="."><plain>4.3%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="390" pm="."><plain>CKD class II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="391" pm="."><plain>62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="392" pm="."><plain>40.0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="393" pm="."><plain>23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="394" pm="."><plain>32.9%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="395" pm="."><plain>CKD class III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="396" pm="."><plain>55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="397" pm="."><plain>35.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="398" pm="."><plain>35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="399" pm="."><plain>50.0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="400" pm="."><plain>CKD class IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="401" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="402" pm="."><plain>3.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="403" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="404" pm="."><plain>11.4%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="405" pm="."><plain>CKD class V </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="406" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="407" pm="."><plain>0.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="408" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="409" pm="."><plain>1.4%# </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt102"><label/><p><text><SENT sid="410" pm="."><plain>CKD = Chronic kidney disease classification. </plain></SENT>
+</text></p></fn><fn id="nt103"><label>#</label><p><text><SENT sid="411" pm="."><plain>p&lt;0.05 vs. PH-SR. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="412" pm="."><plain>Given that renal failure was shown to correlate with reduced survival and clinical deterioration, standard parameters of renal function (creatinine, urea nitrogen, eGFR) and chronic renal failure classification were analyzed. </plain></SENT>
+<SENT sid="413" pm="."><plain>As shown in figure 1, AF was associated with impaired renal function, reflected by a significant increase of creatinine and urea nitrogen in patients suffering from AF compared to those without AF (PH-SR vs. PH-AF: 1.07±0.03 mg/dl, n = 154 vs. 1.37±0.11 mg/dl, n = 73; 49.17±1.97 mg/dl, n = 154 vs. 72.61±5.44 mg/dl, n = 69; p&lt;0.05), and a reduced eGFR (PH-SR vs. PH-AF: 69.68±2.11 ml/min, n = 154 vs. 54.96±2.65 ml/min, n = 69; p&lt;0.05). </plain></SENT>
+<SENT sid="414" pm="."><plain>Accordingly, patients with AF in PH were found to be in more severe stages of chronic renal failure (table 2). </plain></SENT>
+</text></p></sec><sec id="s3c"><title><text><SENT sid="415" pm="."><plain>Hemodynamic parameters in PH with AF </plain></SENT>
+</text></title><p><text><SENT sid="416" pm="."><plain>Cardiac function and hemodynamic data were evaluated by echocardiography and right heart catheterization (table 3). </plain></SENT>
+<SENT sid="417" pm="."><plain>Expectedly, left atrial diameter was significantly larger, pulmonary capillary wedge pressure (PCWP) was higher (figure 2, table 3), and left ventricular ejection fraction was reduced in the PH-AF group, reflecting the marked fraction of PH due to left heart disease. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="pone-0033902-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.g002</object-id><label>Figure 2</label><caption><title><text><SENT sid="418" pm="."><plain>Hemodynamic parameters associated with AF in PH. </plain></SENT>
+</text></title><p><text><SENT sid="419" pm="."><plain>Left atrial (LA) diameter and right atrial (RA) area were measured by echocardiography in PH-AF compared to PH-SR. </plain></SENT>
+<SENT sid="420" pm="."><plain>PCWP and mean right atrial pressure (RAPmean) were obtained by right heart catheterization in the presence (PH-AF) or absence (PH-SR) of AF in patients with PH. * p&lt;0.05. </plain></SENT>
+</text></p></caption><graphic xlink:href="pone.0033902.g002"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="pone-0033902-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.t003</object-id><label>Table 3</label><caption><title><text><SENT sid="421" pm="."><plain>Effect of AF on hemodynamic parameters in PH. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0033902-t003-3" xlink:href="pone.0033902.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="422" pm="."><plain>PH-SR </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="423" pm="."><plain>PH-AF </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="424" pm="."><plain>Echocardiography </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="425" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="426" pm="."><plain>Mean ± SEM </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="427" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="428" pm="."><plain>Mean ± SEM </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="429" pm="."><plain>Left atrial diameter [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="430" pm="."><plain>154 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="431" pm="."><plain>37.09±0.64 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="432" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="433" pm="."><plain>46.16±1.28* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="434" pm="."><plain>Right atrial area [mm2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="435" pm="."><plain>154 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="436" pm="."><plain>23.15±0.62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="437" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="438" pm="."><plain>28.59±1.19* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="439" pm="."><plain>TAPSE [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="440" pm="."><plain>154 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="441" pm="."><plain>20.97±0.48 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="442" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="443" pm="."><plain>18.07±0.68* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="444" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="445" pm="."><plain>154 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="446" pm="."><plain>64.59±1.82 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="447" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="448" pm="."><plain>60.10±2.18 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="449" pm="."><plain>Left ventricular ejection fraction [%] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="450" pm="."><plain>154 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="451" pm="."><plain>63.81±0.55 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="452" pm="."><plain>69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="453" pm="."><plain>59.84±1.52* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="454" pm="."><plain>Right heart catheterization </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="455" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="456" pm="."><plain>155 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="457" pm="."><plain>65.00±1.86 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="458" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="459" pm="."><plain>67.51±2.34 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="460" pm="."><plain>Mean pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="461" pm="."><plain>155 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="462" pm="."><plain>40.25±1.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="463" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="464" pm="."><plain>40.80±1.56 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="465" pm="."><plain>Mean right atrial pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="466" pm="."><plain>135 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="467" pm="."><plain>9.4±0.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="468" pm="."><plain>61 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="469" pm="."><plain>12.85±0.86* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="470" pm="."><plain>PCWP [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="471" pm="."><plain>155 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="472" pm="."><plain>11.96±0.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="473" pm="."><plain>70 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="474" pm="."><plain>16.50±0.90* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="475" pm="."><plain>Pulmonary vascular resistance [Wood units] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="476" pm="."><plain>146 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="477" pm="."><plain>7.29±0.42 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="478" pm="."><plain>66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="479" pm="."><plain>6.45±0.54 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="480" pm="."><plain>Cardiac output [l/min] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="481" pm="."><plain>127 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="482" pm="."><plain>4.36±0.12 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="483" pm="."><plain>47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="484" pm="."><plain>3.91±0.16* </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt104"><label>*</label><p><text><SENT sid="485" pm="."><plain>p&lt;0.05 vs. PH-SR. </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="486" pm="."><plain>Notably, systolic and mean pulmonary artery pressures showed no differences in the PH-AF compared to the PH-SR group, implicating that pulmonary artery pressure per se has no direct effect on the occurrence of AF or vice versa. </plain></SENT>
+<SENT sid="487" pm="."><plain>However, we obtained a significant increase of the right atrial area and mean right atrial pressure in PH with versus without AF (figure 2, table 3). </plain></SENT>
+<SENT sid="488" pm="."><plain>Moreover, right ventricular function assessed by TAPSE was significantly reduced in PH-AF. </plain></SENT>
+<SENT sid="489" pm="."><plain>Consistently, cardiac output was lower in the PH-AF group compared to the PH-SR group (table 3). </plain></SENT>
+</text></p><p><text><SENT sid="490" pm="."><plain>A comparison of patients with paroxysmal (PH-AF paroxysmal) and chronic (PH-AF chronic) AF in PH indicated increased right atrial area and mean right atrial pressure in patients with chronic AF versus paroxysmal AF (PH-AF paroxysmal 25.04±1.46 mm2 and 10.69±0.98 mmHg vs. PH-AF chronic 30.93±1.36 mm2 and 14.91±1.03 mmHg, p&lt;0.05). </plain></SENT>
+</text></p></sec><sec id="s3d"><title><text><SENT sid="491" pm="."><plain>AF in PH not related to left heart disease </plain></SENT>
+</text></title><p><text><SENT sid="492" pm="."><plain>Given the distinct pathopyhsiology of pre- versus postcapillary PH, in a subanalysis patients with PH due to left heart disease (PH-HF, group 2) were separated from patients with PH due to any other cause (PH-nonHF, groups 1, 3, 4, or 5). </plain></SENT>
+<SENT sid="493" pm="."><plain>In PH not related to left heart disease, AF was observed in 23.1% (table 4). </plain></SENT>
+<SENT sid="494" pm="."><plain>In PAH (group 1) AF was found in 29.1% (table 5). </plain></SENT>
+<SENT sid="495" pm="."><plain>AF was associated with clinical deterioration, as indicated by a higher NYHA/WHO functional class, shorter 6-minute walk distance, more severely elevated NT-proBNP serum levels and compromised renal function compared to patients in SR (table 4, table 5). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0033902-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.t004</object-id><label>Table 4</label><caption><title><text><SENT sid="496" pm="."><plain>Comparison of subgroups with SR vs. AF in PH not related to left heart disease (nonHF). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0033902-t004-4" xlink:href="pone.0033902.t004"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="497" pm="."><plain>PH-SR nonHF </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="498" pm="."><plain>PH-AF nonHF </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="499" pm="."><plain>Echocardiography </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="500" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="501" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="502" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="503" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="504" pm="."><plain>Left atrial diameter [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="505" pm="."><plain>132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="506" pm="."><plain>37.05±0.68 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="507" pm="."><plain>39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="508" pm="."><plain>43.31±1.55* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="509" pm="."><plain>Right atrial area [mm2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="510" pm="."><plain>132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="511" pm="."><plain>23.53±0.66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="512" pm="."><plain>38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="513" pm="."><plain>30.51±1.61* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="514" pm="."><plain>TAPSE [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="515" pm="."><plain>132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="516" pm="."><plain>20.74±0.52 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="517" pm="."><plain>38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="518" pm="."><plain>18.35±0.87* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="519" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="520" pm="."><plain>132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="521" pm="."><plain>66.67±1.98 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="522" pm="."><plain>39 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="523" pm="."><plain>65.72±3.15 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="524" pm="."><plain>Left ventricular ejection fraction [%] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="525" pm="."><plain>132 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="526" pm="."><plain>64.52±0.43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="527" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="528" pm="."><plain>64.30±1.16 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="529" pm="."><plain>Right heart catheterization </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="530" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="531" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="532" pm="."><plain>67.02±2.04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="533" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="534" pm="."><plain>68.25±3.24 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="535" pm="."><plain>Mean pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="536" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="537" pm="."><plain>41.25±1.23 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="538" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="539" pm="."><plain>40.38±2.04 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="540" pm="."><plain>Mean right atrial pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="541" pm="."><plain>115 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="542" pm="."><plain>8.93±0.45 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="543" pm="."><plain>36 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="544" pm="."><plain>11.03±0.63* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="545" pm="."><plain>PCWP [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="546" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="547" pm="."><plain>10.86±0.30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="548" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="549" pm="."><plain>12.35±0.63 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="550" pm="."><plain>Pulmonary vascular resistance [Wood units] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="551" pm="."><plain>126 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="552" pm="."><plain>7.74±0.46 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="553" pm="."><plain>38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="554" pm="."><plain>7.16±0.75 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="555" pm="."><plain>Cardiac output [l/min] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="556" pm="."><plain>111 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="557" pm="."><plain>4.36±0.13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="558" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="559" pm="."><plain>3.94±0.19 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="560" pm="."><plain>Laboratory parameters </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="561" pm="."><plain>NT-proBNP [pg/l] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="562" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="563" pm="."><plain>1738.86±212.05 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="564" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="565" pm="."><plain>3449.40±547.61* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="566" pm="."><plain>Creatinine [mg/dl] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="567" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="568" pm="."><plain>1.06±0.03 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="569" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="570" pm="."><plain>1.23±0.08* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="571" pm="."><plain>Urea nitrogen [mg/dl] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="572" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="573" pm="."><plain>48.23±2.10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="574" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="575" pm="."><plain>64.40±5.39* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="576" pm="."><plain>eGFR [ml/min//1.72 m2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="577" pm="."><plain>133 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="578" pm="."><plain>70.78±2.34 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="579" pm="."><plain>40 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="580" pm="."><plain>58.18±3.51* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="581" pm="."><plain>NYHA classification </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="582" pm="."><plain>NYHA I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="583" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="584" pm="."><plain>0.8% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="585" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="586" pm="."><plain>0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="587" pm="."><plain>NYHA II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="588" pm="."><plain>51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="589" pm="."><plain>38.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="590" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="591" pm="."><plain>20.0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="592" pm="."><plain>NYHA III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="593" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="594" pm="."><plain>58.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="595" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="596" pm="."><plain>77.5%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="597" pm="."><plain>NYHA IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="598" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="599" pm="."><plain>2.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="600" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="601" pm="."><plain>2.5%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="602" pm="."><plain>6-minute walk test </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="603" pm="."><plain>6-minute walk test [m] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="604" pm="."><plain>113 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="605" pm="."><plain>364.67±10.51 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="606" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="607" pm="."><plain>303.87±17.36* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="608" pm="."><plain>Renal function </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="609" pm="."><plain>CKD class I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="610" pm="."><plain>28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="611" pm="."><plain>21.1% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="612" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="613" pm="."><plain>5.0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="614" pm="."><plain>CKD class II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="615" pm="."><plain>56 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="616" pm="."><plain>42.1% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="617" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="618" pm="."><plain>37.5%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="619" pm="."><plain>CKD class III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="620" pm="."><plain>43 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="621" pm="."><plain>32.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="622" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="623" pm="."><plain>50.0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="624" pm="."><plain>CKD class IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="625" pm="."><plain>6 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="626" pm="."><plain>4.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="627" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="628" pm="."><plain>7.5%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="629" pm="."><plain>CKD class V </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="630" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="631" pm="."><plain>0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="632" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="633" pm="."><plain>0%# </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt105"><label/><p><text><SENT sid="634" pm="."><plain>CKD = Chronic kidney disease classification, eGFR = estimated glomerular filtration rate. </plain></SENT>
+</text></p></fn><fn id="nt106"><label>*</label><p><text><SENT sid="635" pm="."><plain>p&lt;0.05 vs. PH-SR (student t-test). </plain></SENT>
+</text></p></fn><fn id="nt107"><label>#</label><p><text><SENT sid="636" pm="."><plain>p&lt;0.05 vs. PH-SR (Mann-Whitney test). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="pone-0033902-t005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.t005</object-id><label>Table 5</label><caption><title><text><SENT sid="637" pm="."><plain>Comparison of subgroups with SR vs. AF in PAH. </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0033902-t005-5" xlink:href="pone.0033902.t005"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="638" pm="."><plain>PAH-SR </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="639" pm="."><plain>PAH-AF </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="640" pm="."><plain>Echocardiography </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="641" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="642" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="643" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="644" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="645" pm="."><plain>Left atrial diameter [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="646" pm="."><plain>77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="647" pm="."><plain>37.04±0.81 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="648" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="649" pm="."><plain>43.61±1.53* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="650" pm="."><plain>Right atrial area [mm2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="651" pm="."><plain>77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="652" pm="."><plain>22.92±0.87 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="653" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="654" pm="."><plain>31.33±1.49* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="655" pm="."><plain>TAPSE [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="656" pm="."><plain>77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="657" pm="."><plain>20.99±0.65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="658" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="659" pm="."><plain>17.74±0.94* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="660" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="661" pm="."><plain>77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="662" pm="."><plain>62.83±2.62 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="663" pm="."><plain>31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="664" pm="."><plain>66.58±3.38 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="665" pm="."><plain>Left ventricular ejection fraction [%] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="666" pm="."><plain>77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="667" pm="."><plain>64.49±0.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="668" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="669" pm="."><plain>64.06±1.40 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="670" pm="."><plain>Right heart catheterization </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="671" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="672" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="673" pm="."><plain>65.27±2.31 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="674" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="675" pm="."><plain>70.03±3.83 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="676" pm="."><plain>Mean pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="677" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="678" pm="."><plain>41.22±1.73 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="679" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="680" pm="."><plain>41.47±2.45 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="681" pm="."><plain>Mean right atrial pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="682" pm="."><plain>66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="683" pm="."><plain>8.90±0.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="684" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="685" pm="."><plain>11.43±0.65* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="686" pm="."><plain>PCWP [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="687" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="688" pm="."><plain>10.53±0.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="689" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="690" pm="."><plain>12.84±0.63 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="691" pm="."><plain>Pulmonary vascular resistance [Wood units] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="692" pm="."><plain>74 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="693" pm="."><plain>7.49±0.60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="694" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="695" pm="."><plain>7.58±0.87 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="696" pm="."><plain>Cardiac output [l/min] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="697" pm="."><plain>66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="698" pm="."><plain>4.41±0.19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="699" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="700" pm="."><plain>3.98±0.26 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="701" pm="."><plain>Laboratory parameters </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="702" pm="."><plain>NT-proBNP [pg/l] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="703" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="704" pm="."><plain>1705.81±232.49 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="705" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="706" pm="."><plain>3529.84±537.77* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="707" pm="."><plain>Creatinine [mg/dl] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="708" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="709" pm="."><plain>1.06±0.04 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="710" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="711" pm="."><plain>1.38±0.09* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="712" pm="."><plain>Urea nitrogen [mg/dl] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="713" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="714" pm="."><plain>45.98±2.38 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="715" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="716" pm="."><plain>68.19±4.55* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="717" pm="."><plain>eGFR [ml/min//1.72 m2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="718" pm="."><plain>78 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="719" pm="."><plain>73.76±3.47 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="720" pm="."><plain>32 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="721" pm="."><plain>59.09±3.09* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="722" pm="."><plain>NYHA classification </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="723" pm="."><plain>NYHA I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="724" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="725" pm="."><plain>1.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="726" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="727" pm="."><plain>0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="728" pm="."><plain>NYHA II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="729" pm="."><plain>35 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="730" pm="."><plain>44.9% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="731" pm="."><plain>7 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="732" pm="."><plain>21.9%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="733" pm="."><plain>NYHA III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="734" pm="."><plain>41 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="735" pm="."><plain>52.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="736" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="737" pm="."><plain>75.0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="738" pm="."><plain>NYHA IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="739" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="740" pm="."><plain>1.3% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="741" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="742" pm="."><plain>3.1%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="743" pm="."><plain>6-minute walk test </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="744" pm="."><plain>6-minute walk test [m] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="745" pm="."><plain>66 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="746" pm="."><plain>384.21±11.67 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="747" pm="."><plain>26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="748" pm="."><plain>311.35±18.04* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="749" pm="."><plain>Renal function </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="750" pm="."><plain>CKD class I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="751" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="752" pm="."><plain>25.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="753" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="754" pm="."><plain>6.3%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="755" pm="."><plain>CKD class II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="756" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="757" pm="."><plain>38.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="758" pm="."><plain>13 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="759" pm="."><plain>40.6%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="760" pm="."><plain>CKD class III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="761" pm="."><plain>24 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="762" pm="."><plain>30.8% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="763" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="764" pm="."><plain>46.9%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="765" pm="."><plain>CKD class IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="766" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="767" pm="."><plain>5.1% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="768" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="769" pm="."><plain>6.3%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="770" pm="."><plain>CKD class V </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="771" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="772" pm="."><plain>0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="773" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="774" pm="."><plain>0%# </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt108"><label/><p><text><SENT sid="775" pm="."><plain>CKD = Chronic kidney disease classification, eGFR = estimated glomerular filtration rate. </plain></SENT>
+</text></p></fn><fn id="nt109"><label>*</label><p><text><SENT sid="776" pm="."><plain>p&lt;0.05 vs. PAH-SR (student t-test). </plain></SENT>
+</text></p></fn><fn id="nt110"><label>#</label><p><text><SENT sid="777" pm="."><plain>p&lt;0.05 vs. PAH-SR (Mann-Whitney test). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="778" pm="."><plain>While consistent with the total PH cohort, no difference of systolic and mean pulmonary arterial pressures in the presence or absence of AF was obtained; increased right atrial pressure and size as well as reduced right ventricular function were the most obvious hemodynamic differences between prevalent AF versus no AF in PH-nonHF and PAH. </plain></SENT>
+<SENT sid="779" pm="."><plain>As expected, left ventricular ejection fraction and PCWP were similar in both groups (table 4, table 5). </plain></SENT>
+</text></p></sec><sec id="s3e"><title><text><SENT sid="780" pm="."><plain>AF in left heart disease with PH </plain></SENT>
+</text></title><p><text><SENT sid="781" pm="."><plain>In patients with PH due to left heart disease, AF was prevalent in 57.7%. </plain></SENT>
+<SENT sid="782" pm="."><plain>While AF in this cohort did not further diminish exercise capacity or NYHA/WHO functional class, we still observed higher NT-proBNP values and more severely compromised renal function in those patients with AF versus SR (table 6). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="pone-0033902-t006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0033902.t006</object-id><label>Table 6</label><caption><title><text><SENT sid="783" pm="."><plain>Comparison of subgroups with SR vs. AF in PH related to left heart disease (HF). </plain></SENT>
+</text></title></caption><alternatives><graphic id="pone-0033902-t006-6" xlink:href="pone.0033902.t006"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1"><text><SENT sid="784" pm="."><plain>PH-SR HF </plain></SENT>
+</text></td><td colspan="2" align="left" rowspan="1"><text><SENT sid="785" pm="."><plain>PH-AF HF </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="786" pm="."><plain>Echocardiography </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="787" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="788" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="789" pm="."><plain>n </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="790" pm="."><plain>% or Mean ± SEM </plain></SENT>
+</text></td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="791" pm="."><plain>Left atrial diameter [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="792" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="793" pm="."><plain>37.36±1.89 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="794" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="795" pm="."><plain>49.87±1.96* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="796" pm="."><plain>Right atrial area [mm2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="797" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="798" pm="."><plain>20.87±1.65 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="799" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="800" pm="."><plain>26.17±1.69* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="801" pm="."><plain>TAPSE [mm] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="802" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="803" pm="."><plain>22.32±1.25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="804" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="805" pm="."><plain>17.45±0.94* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="806" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="807" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="808" pm="."><plain>52.14±3.75 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="809" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="810" pm="."><plain>52.80±2.34 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="811" pm="."><plain>Left ventricular ejection fraction [%] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="812" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="813" pm="."><plain>59.55±2.69 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="814" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="815" pm="."><plain>53.69±2.90 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="816" pm="."><plain>Right heart catheterization </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="817" pm="."><plain>Systolic pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="818" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="819" pm="."><plain>52.86±3.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="820" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="821" pm="."><plain>64.10±3.36* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="822" pm="."><plain>Mean pulmonary artery pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="823" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="824" pm="."><plain>34.23±2.01 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="825" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="826" pm="."><plain>41.37±2.46* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="827" pm="."><plain>Mean right atrial pressure [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="828" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="829" pm="."><plain>12.10±1.16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="830" pm="."><plain>25 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="831" pm="."><plain>16.92±1.37* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="832" pm="."><plain>PCWP [mmHg] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="833" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="834" pm="."><plain>18.63±1.21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="835" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="836" pm="."><plain>22.13±1.37 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="837" pm="."><plain>Pulmonary vascular resistance [Wood units] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="838" pm="."><plain>20 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="839" pm="."><plain>4.48±0.77 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="840" pm="."><plain>28 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="841" pm="."><plain>5.50±0.77 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="842" pm="."><plain>Cardiac output [l/min] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="843" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="844" pm="."><plain>4.33±0.26 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="845" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="846" pm="."><plain>3.89±0.28 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="847" pm="."><plain>Laboratory parameters </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="848" pm="."><plain>NT-proBNP [pg/l] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="849" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="850" pm="."><plain>1149.00±181.61 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="851" pm="."><plain>30 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="852" pm="."><plain>3257.30±568.65* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="853" pm="."><plain>Creatinine [mg/dl] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="854" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="855" pm="."><plain>1.11±0.06 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="856" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="857" pm="."><plain>1.58±0.25* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="858" pm="."><plain>Urea nitrogen [mg/dl] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="859" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="860" pm="."><plain>55.10±5.60 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="861" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="862" pm="."><plain>83.93±10.35* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="863" pm="."><plain>eGFR [ml/min//1.72 m2] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="864" pm="."><plain>21 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="865" pm="."><plain>62.71±4.27 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="866" pm="."><plain>29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="867" pm="."><plain>50.52±3.97* </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="868" pm="."><plain>NYHA classification </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="869" pm="."><plain>NYHA I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="870" pm="."><plain>2 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="871" pm="."><plain>9.1% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="872" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="873" pm="."><plain>0.0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="874" pm="."><plain>NYHA II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="875" pm="."><plain>4 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="876" pm="."><plain>18.2% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="877" pm="."><plain>11 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="878" pm="."><plain>36.7% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="879" pm="."><plain>NYHA III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="880" pm="."><plain>16 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="881" pm="."><plain>72.7% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="882" pm="."><plain>19 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="883" pm="."><plain>63.3% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="884" pm="."><plain>NYHA IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="885" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="886" pm="."><plain>0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="887" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="888" pm="."><plain>0% </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="889" pm="."><plain>6-minute walk test </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="890" pm="."><plain>6-minute walk test [m] </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="891" pm="."><plain>17 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="892" pm="."><plain>294.88±24.29 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="893" pm="."><plain>22 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="894" pm="."><plain>333.41±23.99 </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="895" pm="."><plain>Renal function </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="896" pm="."><plain>CKD class I </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="897" pm="."><plain>3 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="898" pm="."><plain>13.6% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="899" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="900" pm="."><plain>3.3%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="901" pm="."><plain>CKD class II </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="902" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="903" pm="."><plain>36.4% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="904" pm="."><plain>8 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="905" pm="."><plain>26.7%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="906" pm="."><plain>CKD class III </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="907" pm="."><plain>10 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="908" pm="."><plain>45.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="909" pm="."><plain>15 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="910" pm="."><plain>50.0%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="911" pm="."><plain>CKD class IV </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="912" pm="."><plain>0 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="913" pm="."><plain>0% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="914" pm="."><plain>5 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="915" pm="."><plain>16.7%# </plain></SENT>
+</text></td></tr><tr><td align="left" rowspan="1" colspan="1"><text><SENT sid="916" pm="."><plain>CKD class V </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="917" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="918" pm="."><plain>4.5% </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="919" pm="."><plain>1 </plain></SENT>
+</text></td><td align="left" rowspan="1" colspan="1"><text><SENT sid="920" pm="."><plain>3.3%# </plain></SENT>
+</text></td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt111"><label/><p><text><SENT sid="921" pm="."><plain>CKD = Chronic kidney disease classification, eGFR = estimated glomerular filtration rate. </plain></SENT>
+</text></p></fn><fn id="nt112"><label>*</label><p><text><SENT sid="922" pm="."><plain>p&lt;0.05 vs. PH-SR (student t-test). </plain></SENT>
+</text></p></fn><fn id="nt113"><label>#</label><p><text><SENT sid="923" pm="."><plain>p&lt;0.05 vs. PH-SR (Mann-Whitney test). </plain></SENT>
+</text></p></fn></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="924" pm="."><plain>Left atrial size was significantly larger and PCWP tended to be higher in prevalent AF, although the latter did not reach statistical significance. </plain></SENT>
+<SENT sid="925" pm="."><plain>Invasive measurements demonstrated increased systolic and mean pulmonary arterial and right atrial pressures associated with AF. </plain></SENT>
+<SENT sid="926" pm="."><plain>Moreover, echocardiography indicated right heart impairment, i.e. increased right atrial area and suppressed TAPSE in the subgroup with prevalent AF (table 6). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec id="s4"><title><text><SENT sid="927" pm="."><plain>Discussion </plain></SENT>
+</text></title><p><text><SENT sid="928" pm="."><plain>Atrial fibrillation affects 1–2% of the general population. </plain></SENT>
+<SENT sid="929" pm="."><plain>The prevalence of AF increases with age, from 0.5% at 40–50 years, to 5–15% at 80 years [19]. </plain></SENT>
+<SENT sid="930" pm="."><plain>Atrial fibrillation is highly prevalent among patients with left ventricular heart failure, and can lead to adverse consequences, including tachycardia-related cardiomyopathy, reduction in left ventricular preload attributable to disorganized atrial contractions, increased risk of systemic embolism, and overall poorer long-term outcome [20], [21], [22]. </plain></SENT>
+<SENT sid="931" pm="."><plain>Supraventricular tachyarrhythmias occurred in patients with pulmonary hypertension with an annual incidence of 2.8%. </plain></SENT>
+<SENT sid="932" pm="."><plain>Atrial flutter and atrial fibrillation were equally common and both arrhythmias led to acute clinical deterioration with signs of right heart failure, while only atrial fibrillation exerted an impact on mortality [23]. </plain></SENT>
+<SENT sid="933" pm="."><plain>However, little is known about the total prevalence of AF in patients with PH and possible differences among distinct etiological groups of PH have not been defined. </plain></SENT>
+<SENT sid="934" pm="."><plain>In the present cohort of patients with confirmed PH of various origins, we found that AF affected approximately one-third of patients. </plain></SENT>
+<SENT sid="935" pm="."><plain>Thus, the prevalence of AF in PH is considerably higher than in the normal population at similar age [24]. </plain></SENT>
+<SENT sid="936" pm="."><plain>This was also true for all PH subgroups except for patients with chronic thromboembolic pulmonary hypertension (CTEPH). </plain></SENT>
+</text></p><p><text><SENT sid="937" pm="."><plain>Particularly, more than half of the patients with PH related to left heart disease were affected by AF. </plain></SENT>
+<SENT sid="938" pm="."><plain>Symptomatic heart failure has been reported in 30% of AF patients and AF is found in up to 30% of heart failure patients, depending on the underlying cause and severity of heart failure [9], [19]. </plain></SENT>
+<SENT sid="939" pm="."><plain>Pulmonary hypertension in heart failure is associated with a poor prognosis and an increased severity of disease [5]. </plain></SENT>
+<SENT sid="940" pm="."><plain>Compared to the cited populations mentioned above we observed a significantly higher prevalence of AF in patients with left heart disease combined with PH (57.7%), supporting the notion that our patients suffered from more severe heart failure, which was also indicated by the high prevalence of patients with NYHA III and markedly elevated NT-proBNP levels. </plain></SENT>
+<SENT sid="941" pm="."><plain>Moreover, these data suggest that more advanced heart failure leading to PH is a relevant risk factor for the development of AF. </plain></SENT>
+<SENT sid="942" pm="."><plain>Given the retrospective design of our study, we may even have underestimated the true prevalence of AF in PH. </plain></SENT>
+<SENT sid="943" pm="."><plain>Diagnosis of AF was made by carefully analyzing patient's history and standard electrocardiograms. </plain></SENT>
+<SENT sid="944" pm="."><plain>Because of the lack of other means of rhythm monitoring (i.e. periodical Holter recordings, implanted event recorders), it is likely that some self-limiting silent AF episodes might have been missed. </plain></SENT>
+</text></p><p><text><SENT sid="945" pm="."><plain>When analyzing hemodynamic factors promoting AF in PH it seems plausible to separately evaluate patients with and without left heart disease. </plain></SENT>
+<SENT sid="946" pm="."><plain>Previously, reduced left ventricular function, elevated end-diastolic left ventricular pressure and, thus, higher PCWP and larger left atrial diameter have been associated with an increased propensity of AF in left heart disease. </plain></SENT>
+<SENT sid="947" pm="."><plain>Consistently, in the present study these parameters were more severely altered in prevalent AF than in patients with SR. </plain></SENT>
+<SENT sid="948" pm="."><plain>Notably, in PH-HF with AF we observed increased pulmonary artery pressures in invasive measurements, which are more accurate than echocardiographic estimation [25], and signs of right heart impairment, indicating that AF in PH related to left heart disease was associated with more marked backward failure compared to SR. </plain></SENT>
+</text></p><p><text><SENT sid="949" pm="."><plain>Thus far, hemodynamic factors that might contribute to onset of AF in PH not related to left heart disease have not been evaluated. </plain></SENT>
+<SENT sid="950" pm="."><plain>In the present analysis, elevated right atrial pressure and right atrial dilatation were the most prominent parameters associated with prevalent AF in PH-nonHF. </plain></SENT>
+<SENT sid="951" pm="."><plain>While systolic and mean pulmonary pressures did not directly correlate with AF occurrence in nonHF patients, the severity of pulmonary hypertension might have been masked by impairment of right ventricular function, thus rather supporting the notion that AF is more common in more advanced PH. </plain></SENT>
+<SENT sid="952" pm="."><plain>These results provide insight into the possible pathophysiology of AF in PH and indicate a different pathomechanism of AF induction in PH with versus without left heart disease. </plain></SENT>
+<SENT sid="953" pm="."><plain>In the absence of left heart disease (i) left atrial pressure does not play a pathophysiological role and (ii) pulmonary artery pressure does not seem to provoke AF by itself, but an increase in right atrial pressure leading to right atrial dilatation seems to be responsible for onset of AF. </plain></SENT>
+</text></p><p><text><SENT sid="954" pm="."><plain>There is only limited data available regarding the clinical consequences of AF in patients with various forms of PH. </plain></SENT>
+<SENT sid="955" pm="."><plain>Previous studies indicated that elevated heart rate might lead to increased mortality in patients suffering from PH. </plain></SENT>
+<SENT sid="956" pm="."><plain>Notably, mean heart frequency in PH-AF was not significantly different compared to PH-SR in our population. </plain></SENT>
+</text></p><p><text><SENT sid="957" pm="."><plain>The influence of AF on clinical performance and cardiac function in PH has not been investigated yet. </plain></SENT>
+<SENT sid="958" pm="."><plain>In our cohort patients with PH-AF demonstrated significant impairment in NYHA/WHO functional class and 6-minute walk distance compared to PH-SR. </plain></SENT>
+<SENT sid="959" pm="."><plain>This clinical deterioration in the presence of AF was also evident by the higher prescription rate of diuretics. </plain></SENT>
+<SENT sid="960" pm="."><plain>Elevation of NT-proBNP as a marker for heart failure and renal insufficiency have been implicated to correlate with prognosis and severity of disease in PH. </plain></SENT>
+<SENT sid="961" pm="."><plain>In the present study these laboratory parameters were consistently increased in the total PH population and in all subgroups with prevalent AF compared to SR, further supporting the notion that AF in PH is associated with more advanced compromise of hemodynamic function. </plain></SENT>
+</text></p><p><text><SENT sid="962" pm="."><plain>Recently, renal failure, reduced 6-minute walk distance, elevated mean right atrial pressure, and increased <z:uniprot sup="inside" fb="0" ids="P83965,Q805E8,Q805D7">brain natriuretic peptide</z:uniprot> have been suggested as independent predictors of mortality in PH. </plain></SENT>
+<SENT sid="963" pm="."><plain>Therefore, it remains to be determined in a larger prospective study whether AF in PH is just a marker of more advanced disease, is an independent risk factor, and/or if cardioversion might improve symptoms, exercise capacity and possibly prognosis in this population. </plain></SENT>
+</text></p></sec></SecTag></body><back><fn-group><fn fn-type="COI-statement"><p><text><SENT sid="964" pm="."><plain>Competing Interests: The authors have declared that no competing interests exist. </plain></SENT>
+</text></p></fn><SecTag type="ACK_FUND"><fn fn-type="financial-disclosure"><p><text4fund><text><SENT sid="965" pm="."><plain>Funding: The authors have no support or funding to report. </plain></SENT>
+</text></text4fund></p></fn></SecTag></fn-group><SecTag type="REF"><ref-list><title>References</title><ref id="pone.0033902-DAlonzo1"><text><SENT sid="966" pm="."><plain>1 D'AlonzoGEBarstRJAyresSMBergofskyEHBrundageBH 1991 Survival in patients with primary pulmonary hypertension. </plain></SENT>
+<SENT sid="967" pm="."><plain>Results from a national prospective registry. Ann Intern Med 115 343 349 1863023 </plain></SENT>
+</text></ref><ref id="pone.0033902-Runo1"><text><SENT sid="968" pm="."><plain>2 RunoJRLoydJE 2003 Primary pulmonary hypertension. Lancet 361 1533 1544 12737878 </plain></SENT>
+</text></ref><ref id="pone.0033902-Humbert1"><text><SENT sid="969" pm="."><plain>3 HumbertMMorrellNWArcherSLStenmarkKRMacLeanMR 2004 Cellular and molecular pathobiology of pulmonary arterial hypertension. J Am Coll Cardiol 43 13S 24S 15194174 </plain></SENT>
+</text></ref><ref id="pone.0033902-Simonneau1"><text><SENT sid="970" pm="."><plain>4 SimonneauGRobbinsIMBeghettiMChannickRNDelcroixM 2009 Updated clinical classification of pulmonary hypertension. J Am Coll Cardiol 54 S43 54 19555858 </plain></SENT>
+</text></ref><ref id="pone.0033902-Ghio1"><text><SENT sid="971" pm="."><plain>5 GhioSGavazziACampanaCInserraCKlersyC 2001 Independent and additive prognostic value of right ventricular systolic function and pulmonary artery pressure in patients with chronic heart failure. J Am Coll Cardiol 37 183 188 11153735 </plain></SENT>
+</text></ref><ref id="pone.0033902-Maisel1"><text><SENT sid="972" pm="."><plain>6 MaiselWHStevensonLW 2003 Atrial fibrillation in heart failure: epidemiology, pathophysiology, and rationale for therapy. Am J Cardiol 91 2D 8D  </plain></SENT>
+</text></ref><ref id="pone.0033902-Shinebane1"><text><SENT sid="973" pm="."><plain>7 ShinebaneJSWoodMAJensenDNEllenbogenKAFitzpatrickAP 1997 Tachycardia-induzed cardiomyopathy: A review of animal models and clinical studies. J Am Coll Cardiol 29 709 715 9091514 </plain></SENT>
+</text></ref><ref id="pone.0033902-Li1"><text><SENT sid="974" pm="."><plain>8 LiDFarehSLeungTKNattelS 1999 Promotion of atrial fibrillation by heart failure in dogs: atrial remodeling of a different sort. Circulation 100 87 95 10393686 </plain></SENT>
+</text></ref><ref id="pone.0033902-Ruo1"><text><SENT sid="975" pm="."><plain>9 RuoBCapraAMJensvoldNGGoAS 2004 Racial variation in the prevalence of atrial fibrillation among patients with heart failure: the Epidemiology, Practice, Outcomes, and Costs of Heart Failure (EPOCH) study. J Am Coll Cardiol 43 429 435 15013126 </plain></SENT>
+</text></ref><ref id="pone.0033902-Hoppe1"><text><SENT sid="976" pm="."><plain>10 HoppeUCCasaresJMEiskjaerHHagemannAClelandJG 2006 Effect of cardiac resynchronization on the incidence of atrial fibrillation in patients with severe heart failure. Circulation 114 18 25 16801461 </plain></SENT>
+</text></ref><ref id="pone.0033902-Benjamin1"><text><SENT sid="977" pm="."><plain>11 BenjaminEJLevyDVaziriSMD'AgostinoRBBelangerAJ 1994 Independent risk factors for atrial fibrillation in a population-based cohort: the Framingham Heart Study. <z:uniprot sup="inside" fb="0" ids="Q9XT56,Q2WGK2,Q9Y624,O88792,Q9JHY1">JAMA</z:uniprot> 271 840 844 8114238 </plain></SENT>
+</text></ref><ref id="pone.0033902-Crijns1"><text><SENT sid="978" pm="."><plain>12 CrijnsHJTjeerdsmaGde KamPJBoomsmaFvan GelderIC 2000 Prognostic value of the presence and development of atrial fibrillation in patients with advanced chronic heart failure. Eur Heart J 21 1238 1245 10924313 </plain></SENT>
+</text></ref><ref id="pone.0033902-Swedberg1"><text><SENT sid="979" pm="."><plain>13 SwedbergKOlssonLGCharlesworthAClelandJHanrathP 2005 Prognostic relevance of atrial fibrillation in patients with chronic heart failure on long-term treatment with beta-blockers: results from COMET. Eur Heart J 26 1303 1308 15767288 </plain></SENT>
+</text></ref><ref id="pone.0033902-Stevenson1"><text><SENT sid="980" pm="."><plain>14 StevensonWGStevensonLW 1999 Atrial fibrillation in heart failure. N Engl J Med 341 910 911 10486424 </plain></SENT>
+</text></ref><ref id="pone.0033902-Paulus1"><text><SENT sid="981" pm="."><plain>15 PaulusWJTschopeCSandersonJERusconiCFlachskampfFA 2007 How to diagnose diastolic heart failure: a consensus statement on the diagnosis of heart failure with normal left ventricular ejection fraction by the Heart Failure and Echocardiography Associations of the European Society of Cardiology. Eur Heart J 28 2539 2550 17428822 </plain></SENT>
+</text></ref><ref id="pone.0033902-Crapo1"><text><SENT sid="982" pm="."><plain>16 CrapoROCasburiRCoatesALEnrightPLMacIntyreNR 2002 ATS statement: guidelines for the six-minute walk test. Am J Respir Crit Care Med 166 111 117 12091180 </plain></SENT>
+</text></ref><ref id="pone.0033902-Levey1"><text><SENT sid="983" pm="."><plain>17 LeveyASBoschJPLewisJBGreeneTRogersN 1999 A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. </plain></SENT>
+<SENT sid="984" pm="."><plain>Modification of Diet in Renal Disease Study Group. Ann Intern Med 130 461 470 10075613 </plain></SENT>
+</text></ref><ref id="pone.0033902-Rudski1"><text><SENT sid="985" pm="."><plain>18 RudskiLGLaiWWAfilaloJHuaLHandschumacherMD 2010 Guidelines for the echocardiographic assessment of the right heart in adults: a report from the American Society of Echocardiography endorsed by the European Association of Echocardiography, a registered branch of the European Society of Cardiology, and the Canadian Society of Echocardiography. J Am Soc Echocardiogr 23 685 713; quiz 786-688 20620859 </plain></SENT>
+</text></ref><ref id="pone.0033902-Camm1"><text><SENT sid="986" pm="."><plain>19 CammAJKirchhofPLipGYSchottenUSavelievaI 2010 Guidelines for the management of atrial fibrillation: the Task Force for the Management of Atrial Fibrillation of the European Society of Cardiology (ESC). Eur Heart J 31 2369 2429 20802247 </plain></SENT>
+</text></ref><ref id="pone.0033902-Dries1"><text><SENT sid="987" pm="."><plain>20 DriesDLExnerDVGershBJDomanskiMJWaclawiwMA 1998 Atrial fibrillation is associated with an increased risk for mortality and heart failure progression in patients with asymptomatic and symptomatic left ventricular systolic dysfunction: a retrospective analysis of the SOLVD trials. </plain></SENT>
+<SENT sid="988" pm="."><plain>Studies of Left Ventricular Dysfunction. J Am Coll Cardiol 32 695 703 9741514 </plain></SENT>
+</text></ref><ref id="pone.0033902-Aronow1"><text><SENT sid="989" pm="."><plain>21 AronowWSAhnCKronzonI 2001 Prognosis of congestive heart failure after prior myocardial infarction in older persons with atrial fibrillation versus sinus rhythm. Am J Cardiol 87 224 225 A228–229 11152847 </plain></SENT>
+</text></ref><ref id="pone.0033902-Pozzoli1"><text><SENT sid="990" pm="."><plain>22 PozzoliMCioffiGTraversiEPinnaGDCobelliF 1998 Predictors of primary atrial fibrillation and concomitant clinical and hemodynamic changes in patients with chronic heart failure: a prospective study in 344 patients with baseline sinus rhythm. J Am Coll Cardiol 32 197 204 9669270 </plain></SENT>
+</text></ref><ref id="pone.0033902-Tongers1"><text><SENT sid="991" pm="."><plain>23 TongersJSchwerdtfegerBKleinGKempfTSchaeferA 2007 Incidence and clinical relevance of supraventricular tachyarrhythmias in pulmonary hypertension. Am Heart J 153 127 132 17174650 </plain></SENT>
+</text></ref><ref id="pone.0033902-Naccarelli1"><text><SENT sid="992" pm="."><plain>24 NaccarelliGVVarkerHLinJSchulmanKL 2009 Increasing prevalence of atrial fibrillation and flutter in the United States. Am J Cardiol 104 1534 1539 19932788 </plain></SENT>
+</text></ref><ref id="pone.0033902-Fisher1"><text><SENT sid="993" pm="."><plain>25 FisherMRForfiaPRChameraEHousten-HarrisTChampionHC 2009 Accuracy of Doppler echocardiography in the hemodynamic assessment of pulmonary hypertension. Am J Respir Crit Care Med 179 615 621 19164700 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,326 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Appl Clin Med Phys</journal-id><journal-id journal-id-type="iso-abbrev">J Appl Clin Med Phys</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1526-9914</journal-id><journal-id journal-id-type="publisher-id">ACM2</journal-id><journal-title-group><journal-title>Journal of Applied Clinical Medical Physics</journal-title></journal-title-group><issn pub-type="epub">1526-9914</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5723443</article-id><article-id pub-id-type="pmid">15753931</article-id><article-id pub-id-type="doi">10.1120/jacmp.v5i1.1951</article-id><article-id pub-id-type="publisher-id">ACM20025</article-id><article-categories><subj-group subj-group-type="overline"><subject>Radiation Oncology Physics</subject></subj-group><subj-group subj-group-type="heading"><subject>Radiation Oncology Physics</subject></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Quality assurance of registration of CT and MRI data sets for treatment planning of radiotherapy for head and neck cancers </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib id="acm20025-cr-0001" contrib-type="author"><name><surname>Moore</surname><given-names>Craig S.</given-names></name><address><email>craig.moore@hey.nhs.uk</email></address><xref ref-type="aff" rid="acm20025-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acm20025-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="acm20025-cr-0002" contrib-type="author"><name><surname>Liney</surname><given-names>Gary P.</given-names></name><address><email>g.p.liney@hull.ac.uk</email></address><xref ref-type="aff" rid="acm20025-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="acm20025-cr-0003" contrib-type="author"><name><surname>Beavis</surname><given-names>Andrew W.</given-names></name><xref ref-type="aff" rid="acm20025-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="acm20025-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="acm20025-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Medical Physics, Hull and East Yorkshire NHS Trust and Department of Academic Medical Physics</named-content>
+<institution>University of Hull Princess Royal Hospital</institution>
+<named-content content-type="street">Saltshouse Road</named-content>
+<named-content content-type="city">Kingston Upon Hull</named-content>
+<named-content content-type="post-code">HU8 9HE</named-content>
+<country country="GB">United Kingdom</country>
+</aff><aff id="acm20025-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Centre for Magnetic Resonance Imaging</named-content>
+<institution>University of Hull Hull Royal Infirmary</institution>
+<named-content content-type="city">Kingston Upon Hull</named-content>
+<named-content content-type="post-code">HU3 2JZ</named-content>
+<country country="GB">United Kingdom</country>
+</aff><pub-date pub-type="epub"><day>25</day><month>5</month><year>2004</year></pub-date><pub-date pub-type="collection"><season>Winter</season><year>2004</year></pub-date><volume>5</volume><issue>1</issue><issue-id pub-id-type="doi">10.1002/acm2.2004.5.issue-1</issue-id><fpage>25</fpage><lpage>35</lpage><history><date date-type="received"><day>07</day><month>1</month><year>2004</year></date><date date-type="accepted"><day>31</day><month>3</month><year>2004</year></date></history><permissions><copyright-statement content-type="article-copyright">© 2004 The Authors.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ACM2-5-25.pdf"/><abstract><p><SecTag type="ABS"><text><SENT sid="1" pm="."><plain>We are implementing the use of magnetic resonance (MR) images for head and neck radiotherapy planning, which involves their registration with computed tomography (CT). </plain></SENT>
+<SENT sid="2" pm="."><plain>The quality assurance (QA) of the registration process was an initial step of this program. </plain></SENT>
+</text></SecTag></p><p><SecTag type="ABS"><text><SENT sid="3" pm="."><plain>A phantom was built, and appropriate materials were identified to produce clinically relevant MR T1 and T2 contrast for its constituent “anatomy.” We performed a characterization of the distortion detectable within our phantom. </plain></SENT>
+<SENT sid="4" pm="."><plain>Finally, we assessed the accuracy of image registration by contouring structures in the registered/fused data sets using the treatment planning system. </plain></SENT>
+<SENT sid="5" pm="."><plain>Each structure was contoured using each modality, in turn, blind of the other. </plain></SENT>
+<SENT sid="6" pm="."><plain>The position, area, and perimeter of each structure were assessed as a measure of accuracy of the entire image registration process. </plain></SENT>
+</text></SecTag></p><p><SecTag type="ABS"><text><SENT sid="7" pm="."><plain>Distortion effects in the MR image were shown to be minimized by choosing a suitable (≥±30 kHz) receiver bandwidth. </plain></SENT>
+<SENT sid="8" pm="."><plain>Remaining distortion was deemed clinically acceptable within ±15 cm of the magnetic field isocenter. </plain></SENT>
+<SENT sid="9" pm="."><plain>A coefficient of agreement (A) analysis gave values to be within 9% of unity, where A=RaRp and Ra/p is the ratio of the area/perimeter of a particular structure on CT to that on MR. </plain></SENT>
+<SENT sid="10" pm="."><plain>The center of each structure of interest agreed to within 1.8 mm. </plain></SENT>
+</text></SecTag></p><p><SecTag type="ABS"><text><SENT sid="11" pm="."><plain>A QA process has been developed to assess the accuracy of using multimodality image registration in the planning of radiotherapy for the head and neck; we believe its introduction is feasible and safe. </plain></SENT>
+</text></SecTag></p><p><SecTag type="ABS"><text><SENT sid="12" pm="."><plain>PACS numbers: 87.53.Xd, 87.57.Gg, 87.59.Fm; 87.61.‐c, 87.66.Xa </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group kwd-group-type="author-generated"><kwd id="acm20025-kwd-0001">radiotherapy</kwd><kwd id="acm20025-kwd-0002">treatment planning</kwd><kwd id="acm20025-kwd-0003">multimodality image registration</kwd></kwd-group></SecTag><funding-group><award-group><funding-source>Yorkshire Cancer Research and Hull &amp; East Hospitals NHS Trust</funding-source></award-group></funding-group><counts><fig-count count="4"/><table-count count="2"/><ref-count count="19"/><page-count count="11"/><word-count count="5186"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>acm20025</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>Winter 2004</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.2.5 mode:remove_FC converted:16.11.2017</meta-value></custom-meta></custom-meta-group></article-meta></front><body><SecTag type="INTRO"><sec id="acm20025-sec-0001"><title><text><SENT sid="13" pm="."><plain>I. </plain></SENT>
+<SENT sid="14" pm="."><plain>INTRODUCTION </plain></SENT>
+</text></title><p><text><SENT sid="15" pm="."><plain>Modern three‐dimensional radiotherapy treatment planning of cancer demands we use volumetric image data sets to design the conformal therapy of tumors, and conformal avoidance of the proximal, dose limiting, organs at risk. (1)  Most commonly, X ray computed tomography (CT) is used to provide this three‐dimensional model of the patient; furthermore, the Hounsfield/CT number information it provides can be calibrated to give an electron density map of the patient, which is used to make corrections in dose calculations. </plain></SENT>
+<SENT sid="16" pm="."><plain>In order to improve the accuracy of the treatment modeling, there are two aspects of the calculations to consider: One is choosing the correct algorithm for the specific application (2) ; the other is accurately describing the geometry of the tumor and surrounding tissues. </plain></SENT>
+<SENT sid="17" pm="."><plain>The first point can be addressed by choosing a convolution model calculation. (3)  Fast Fourier Transform (FFT)‐based algorithms can be used for most anatomical sites (4)  and “full convolution” superposition (5)  based algorithms when density corrections play a vital role, for example, in the lung. </plain></SENT>
+<SENT sid="18" pm="."><plain>This point reinforces the need for X ray CT descriptions of the patient, which give electron density information. </plain></SENT>
+<SENT sid="19" pm="."><plain>The second point can be addressed by including imaging data from other modalities, which provide better soft tissue delineation (magnetic resonance imaging, MRI) or functional imaging (MR spectroscopy, functional MRI, positron emission tomography). </plain></SENT>
+<SENT sid="20" pm="."><plain>Magnetic resonance imaging is now widely available to oncology departments, and it is beginning to become a popular option for treatment planning of radiotherapy. </plain></SENT>
+<SENT sid="21" pm="."><plain>It has been suggested that MRI is the modality of choice (6)  for head and neck diagnostic imaging. </plain></SENT>
+<SENT sid="22" pm="."><plain>Prior to the implementation of our current treatment planning system (CMS FOCUS/ XiO), we implemented planning of brain tumors using MRI alone. (7)  Our current planning system now has the ability to input imaging data from different modalities. </plain></SENT>
+<SENT sid="23" pm="."><plain>These can be registered using the FOCALFusion (CMS) software. </plain></SENT>
+<SENT sid="24" pm="."><plain>We are, therefore, implementing multimodality planning for anatomical sites where enhanced tumor/organ delineation and more sophisticated dose calculations will provide benefit. </plain></SENT>
+</text></p><p><text><SENT sid="25" pm="."><plain>The work in this manuscript relates to the implementation of the inclusion of MRI to our conformal (CT‐based) head and neck planning. </plain></SENT>
+<SENT sid="26" pm="."><plain>Computed tomography data is obtained on our dedicated PQ5000 CT scanner (Philips) and the MRI images from a 1.5 T Signa EchoSpeed MR scanner (GE) in radiology. </plain></SENT>
+<SENT sid="27" pm="."><plain>Once in the planning system, the two image sets are registered using FOCAL Fusion from CMS. </plain></SENT>
+<SENT sid="28" pm="."><plain>Following this, they are used interchangeably to contour structures. </plain></SENT>
+<SENT sid="29" pm="."><plain>It is well known that MR images are prone to distortion, which can introduce uncertainties in their geometrical accuracy. </plain></SENT>
+<SENT sid="30" pm="."><plain>Distortions arise from both system‐ and patient‐induced effects; the former are due to inhomogeneities in both the main magnetic field and linear imaging gradients, while the latter is due to changes in magnetic susceptibility and chemical shift effects. </plain></SENT>
+<SENT sid="31" pm="."><plain>It has been shown that distortion is inversely proportional to gradient strength. (7)  ,  (8)  Furthermore, system‐induced distortions are enhanced at the periphery of the field and are expected to be minimized over a certain imaging volume centered on the isocenter of the magnet. (9)  Depending on the magnitude and extent of these distortions, image correction may or may not be considered necessary. </plain></SENT>
+<SENT sid="32" pm="."><plain>Whereas the current literature contains material on correction of gradient‐induced distortions and other image artifacts, we feel that the particular aspects of the use of MRI in radiotherapy planning have not been addressed. </plain></SENT>
+<SENT sid="33" pm="."><plain>In particular, we wished to demonstrate a systematic analysis that provides quantitative information on the accuracy of the registration process. </plain></SENT>
+<SENT sid="34" pm="."><plain>To do this, we utilized a phantom that is considered clinically relevant, in that its design should reflect the anatomy under study. </plain></SENT>
+</text></p><p><text><SENT sid="35" pm="?"><plain>Therefore, a relevant question to be considered is the following: How accurate and reliable is the tumor volume depicted in the secondary (in this case MRI) data set? </plain></SENT>
+<SENT sid="36" pm="?"><plain>A second question to answer is: how well do automatic registration processes perform, such as the Mutual Information algorithm (10)  ,  (11)  implemented in our planning system? </plain></SENT>
+<SENT sid="37" pm="."><plain>In order to investigate these issues, we designed and performed a series of experiments that are presented in this paper. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec id="acm20025-sec-0002"><title><text><SENT sid="38" pm="."><plain>II. </plain></SENT>
+<SENT sid="39" pm="."><plain>METHODS AND MATERIALS </plain></SENT>
+</text></title><p><text><SENT sid="40" pm="."><plain>A head and neck phantom (Fig. 1) was built using a design similar to that reported by Meyer et al. (12)  We investigated the most appropriate materials to fill the phantom for the types of imaging sequences that would be used. </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="acm20025-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p><text><SENT sid="41" pm="."><plain>Two views of the phantom constructed and used in this work. </plain></SENT>
+<SENT sid="42" pm="."><plain>Note the access ports that enable the various features of the phantom to be filled/emptied with fluids appropriate to the scanning modality and sequence used in each instance. </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-1" xlink:href="ACM2-5-25-g001"/></fig><p><text><SENT sid="43" pm="."><plain>At our radiotherapy center, a “head jig” immobilization technique is used, which negates the possibility of using the radiofrequency (RF) head coil, which, under normal radiology conditions produces optimal head and neck images. </plain></SENT>
+<SENT sid="44" pm="."><plain>Although our standard head and body coils are of the optimized “birdcage” design, (13)  the increased size of the body coil indicates the signal‐to‐noise ratio (SNR) and image homogeneity are both worse with this coil. </plain></SENT>
+<SENT sid="45" pm="."><plain>As in our previous work, (7)  we propose using the body coil to obtain head and neck radiotherapy planning scans. </plain></SENT>
+<SENT sid="46" pm="."><plain>Images of the phantom were obtained in the two coils to provide some quantitative analysis of using the seemingly less optimal configuration. </plain></SENT>
+</text></p><p><text><SENT sid="47" pm="."><plain>Given this choice of using the body coil, a scanning protocol that was expected to be useful was selected. </plain></SENT>
+<SENT sid="48" pm="."><plain>We felt it prudent, therefore, to assess the magnetic field distortion and chemical shift effects. </plain></SENT>
+</text></p><p><text><SENT sid="49" pm="."><plain>Finally, we address the question central to this work: assessment of the validity and accuracy of the registration process and its reliability for radiotherapy planning for head and neck cases. </plain></SENT>
+</text></p><sec id="acm20025-sec-0003"><title><text><SENT sid="50" pm="."><plain>A. </plain></SENT>
+<SENT sid="51" pm="."><plain>Head and Neck Phantom Design and Filling Materials </plain></SENT>
+</text></title><p><text><SENT sid="52" pm="."><plain>The phantom was constructed from MR‐compatible materials (Perspex). </plain></SENT>
+<SENT sid="53" pm="."><plain>Essentially, the phantom had to be constructed from materials that do not have undesirable properties, such as RF absorption, and greatly differing susceptibilities between different parts of the phantom. </plain></SENT>
+<SENT sid="54" pm="."><plain>The susceptibility difference between water and Perspex is only 0.004 ppm, which will produce very little distortion. </plain></SENT>
+<SENT sid="55" pm="."><plain>Perspex is also nonconductive and has an RF absorption similar to that of soft tissue. </plain></SENT>
+</text></p><p><text><SENT sid="56" pm="."><plain>The dimensions and filling liquids of the phantom were chosen to reflect in vivo characteristics. </plain></SENT>
+<SENT sid="57" pm="."><plain>The phantom consisted of four compartments, which included a trachea and mouth (open to atmosphere), a spinal cord to simulate cerebrospinal fluid, a homogeneous brain and neck region, and a compartment to mimic subcutaneous fat in the neck. </plain></SENT>
+</text></p><p><text><SENT sid="58" pm="."><plain>Optimal phantom filling materials were then investigated. </plain></SENT>
+<SENT sid="59" pm="."><plain>The most common materials used in phantom construction to date have included paramagnetic solutions, agar gels, and oils. (14)  ,  (15)  To determine the required MR contrast properties for each compartment of the phantom, three volunteers were imaged. </plain></SENT>
+<SENT sid="60" pm="."><plain>The volunteers were scanned using a clinically relevant T1 weighted spin echo sequence [TR/TE=360/20 ms, slice thickness/gap=5/205 mm, image matrix=256×128, field‐of‐view (FOV)=25×25 cm, and 2 averages (NEX)] and a clinically relevant T2 weighted spin echo sequence (TR/TE=3000/120, image matrix=256×256, FOV=25×25 cm, and 2 NEX). </plain></SENT>
+<SENT sid="61" pm="."><plain>A reference gel (Diagnostic Sonar Ltd, Livingston) contained in a test tube was placed behind the neck and imaged simultaneously. </plain></SENT>
+</text></p><p><text><SENT sid="62" pm="."><plain>Region‐of‐interest (ROI) analysis was then carried out to determine mean signal intensities from fat, brain, <z:uniprot sup="inside" fb="32" ids="P11052,P48749,Q60481,P51748,Q0MUT8,O62757,P04141,P01587,Q29118,P48750,P28773">CSF</z:uniprot>, and the reference gel. </plain></SENT>
+<SENT sid="63" pm="."><plain>The ROIs were positioned close to the gel to obtain a similar B1 profile of the head coil. </plain></SENT>
+<SENT sid="64" pm="."><plain>Region‐of‐interest sizes were approximately 140 mm2 in the gel and brain but smaller within <z:uniprot sup="inside" fb="32" ids="P11052,P48749,Q60481,P51748,Q0MUT8,O62757,P04141,P01587,Q29118,P48750,P28773">CSF</z:uniprot> and fat (80 mm2). </plain></SENT>
+<SENT sid="65" pm="."><plain>Ratios of the signal intensity of fat, brain, and <z:uniprot sup="inside" fb="32" ids="P11052,P48749,Q60481,P51748,Q0MUT8,O62757,P04141,P01587,Q29118,P48750,P28773">CSF</z:uniprot> to that of the reference gel for both sequences were determined. </plain></SENT>
+</text></p><p><text><SENT sid="66" pm="."><plain>Various materials were examined for their similarity to MR contrast properties in vivo. </plain></SENT>
+<SENT sid="67" pm="."><plain>A collection of 500 mL container bottles holding water doped with different concentrations of gadolinium‐diethylene triamine penta‐acetic acid (Gd‐DTPA), grocery store sunflower oil, and water were imaged together with the reference gel using the same T1 and T2 weighted scans mentioned previously. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0004"><title><text><SENT sid="68" pm="."><plain>B. </plain></SENT>
+<SENT sid="69" pm="."><plain>Comparison of images derived from RF head and body coils </plain></SENT>
+</text></title><p><text><SENT sid="70" pm="."><plain>The phantom was initially filled with materials commensurate with T2 weighted imaging and scanned in a single acquisition using an appropriate T2 weighted sequence (fast spin echo, TR/TE=4000/100 ms, image matrix=256×256, FOV=24×24 cm, BW=62.5 kHz, and 3 NEX). </plain></SENT>
+<SENT sid="71" pm="."><plain>Similarly, the phantom was then imaged with a T1 weighted sequence (spin echo, TR/TE=300/20, image matrix=256×256, FOV=24×24 cm, BW=16 kHZ, and 2 NEX). </plain></SENT>
+<SENT sid="72" pm="."><plain>Region‐of‐interest analysis was carried out with mean and standard deviation of signal intensity values taken in fat, spine, brain, and background noise for both the T1 and T2 weighted scans in order to calculate contrast‐to‐noise ratio (CNR) and signal‐to‐noise ratio (SNR). </plain></SENT>
+<SENT sid="73" pm="."><plain>Contrast‐to‐noise ratio is given by the following equation: (1)CNR=    (S1−S2)/(σ12+σ22)1/2 where S1 and S2 are signal intensities of two compartments of the phantom, and σ1 and σ2 are standard deviations of the same two compartments. </plain></SENT>
+</text></p><p><text><SENT sid="74" pm="."><plain>Signal‐to‐noise ratio is given by (2)SNR=S/σ where S is the signal intensity of the ROI, and σ is the standard deviation of the background </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0005"><title><text><SENT sid="75" pm="."><plain>C. </plain></SENT>
+<SENT sid="76" pm="."><plain>Distortion of images with phantom scanned in body coil </plain></SENT>
+</text></title><sec id="acm20025-sec-0006"><title><text><SENT sid="77" pm="."><plain>C.1 Distortion </plain></SENT>
+</text></title><p><text><SENT sid="78" pm="."><plain>The presence of distortion in images of the phantom, acquired using the RF body coil of the scanner, was investigated. </plain></SENT>
+<SENT sid="79" pm="."><plain>Flexible tubes filled with multimodality visible gel (Aqua Gel™, Adams Healthcare, Leeds, England) were connected to the periphery running parallel along the axis of the phantom in the 3, 6, 9, and 12 o'clock positions to facilitate accurate measurements of distance across the phantom. </plain></SENT>
+<SENT sid="80" pm="."><plain>Magnetic resonance‐compatible spirit levels were attached to the front and end of the phantom in two planes to assist with alignment. </plain></SENT>
+<SENT sid="81" pm="."><plain>A flat board insert was utilized to duplicate the treatment position, and three setup marks on the phantom were aligned with the land marking light on the scanner. </plain></SENT>
+</text></p><p><text><SENT sid="82" pm="."><plain>The phantom was imaged using a clinically relevant fast spin echo sequence (TR/TE=4000/100 ms, image matrix=256×256, FOV=28×28 cm, and 1 NEX). </plain></SENT>
+<SENT sid="83" pm="."><plain>It is known (1)  ,  (16)  that distortion effects are (inversely) proportional to receiver bandwidth. </plain></SENT>
+<SENT sid="84" pm="."><plain>Hence, to investigate the degree of distortion under these acquisition conditions, four separate scans were acquired with receiver bandwidths of ±62.5,±31.0,±16.0, and ±9.0 kHz, respectively. </plain></SENT>
+<SENT sid="85" pm="."><plain>The junction at the head and neck of the phantom was placed at the magnet isocenter, and 5 mm thick slices each separated by 5 mm were acquired, both inferior and superior to the isocenter, with the most distant slices 210 mm superior/inferior. </plain></SENT>
+</text></p><p><text><SENT sid="86" pm="."><plain>The positions of the horizontal and vertical markers were recorded from each axial image. </plain></SENT>
+<SENT sid="87" pm="."><plain>Dimensions and positions were measured on image slices 0 (isocenter), 10, 20, 30, …, and 200 mm in the superior direction of the phantom. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0007"><title><text><SENT sid="88" pm="."><plain>C.2 Chemical Shift </plain></SENT>
+</text></title><p><text><SENT sid="89" pm="."><plain>The influence of chemical shift on the image geometry was examined. </plain></SENT>
+<SENT sid="90" pm="."><plain>Images of the neck compartment of the phantom, which contains subcutaneous fat surrogate material, were examined from the sequence acquired above. </plain></SENT>
+</text></p></sec></sec><sec id="acm20025-sec-0008"><title><text><SENT sid="91" pm="."><plain>D. </plain></SENT>
+<SENT sid="92" pm="."><plain>Quantification of the accuracy of the registration of CT and MR images </plain></SENT>
+</text></title><sec id="acm20025-sec-0009"><title><text><SENT sid="93" pm="."><plain>D.1 Acquisition of images </plain></SENT>
+</text></title><p><text><SENT sid="94" pm="."><plain>For the acquisition of the CT images, the spinal cord of the phantom was filled with water doped with CT contrast (5.5%) in order to differentiate it from the bulk head–neck compartment. T2 weighted MR images were obtained using a sequence optimized to minimize the distortion and chemical shift effects: spin echo, TE/TR=100 ms/4 s, 256×256 matrix, FOV=28×28 cm, BW=62.5 kHz, and 2 NEX. </plain></SENT>
+<SENT sid="95" pm="."><plain>It was scanned in two acquisitions to obtain the head section and then the neck section. </plain></SENT>
+<SENT sid="96" pm="."><plain>For each subset, the center of the imaging volume was positioned at the magnet isocenter and scanned 10 cm either side of this point. </plain></SENT>
+</text></p><p><text><SENT sid="97" pm="."><plain>Both the CT and MR image sets were obtained as 5 mm thick contiguous slices. </plain></SENT>
+<SENT sid="98" pm="."><plain>The phantom was aligned in both scanners using patient setup orientation marks and sagittal and lateral side crosses, and was placed on a board to ensure exact positional reproducibility and consistency during an MR or CT image acquisition. </plain></SENT>
+<SENT sid="99" pm="."><plain>Furthermore, MR‐compatible spirit levels attached to the phantom helped ensure it was level at setup. </plain></SENT>
+</text></p><p><text><SENT sid="100" pm="."><plain>In addition, we acquired MR images with the phantom deliberately misaligned to test the registration software's capability and accuracy. </plain></SENT>
+<SENT sid="101" pm="."><plain>These were as follows: (1)with the front of the phantom (base of neck) lifted by 1 cm(2)with the right‐hand side of the phantom lifted by 1 cm(3)with the phantom rotated about the front “left” corner, so that the back left corner was translated by 1 cm </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0010"><title><text><SENT sid="102" pm="."><plain>D.2 Image registration and “organ” delineation </plain></SENT>
+</text></title><p><text><SENT sid="103" pm="."><plain>The accuracy of the registration process between head and neck CT and MR images was investigated. </plain></SENT>
+<SENT sid="104" pm="."><plain>We are using the FOCALFusion image registration software from CMS with the CT images, the primary data set, to which the MR images, the secondary data set, are registered. </plain></SENT>
+<SENT sid="105" pm="."><plain>During the registration, using the mutual information algorithm, a transformation is found to align the secondary data set to the primary set. </plain></SENT>
+<SENT sid="106" pm="."><plain>This process results in the secondary set being interpolated and reformatted to have the same slice location and resolution as the primary set. </plain></SENT>
+<SENT sid="107" pm="."><plain>Once registered, the two data sets can be used interchangeably. </plain></SENT>
+<SENT sid="108" pm="."><plain>All structures were contoured on CT, blind of the MR images and vice versa. </plain></SENT>
+<SENT sid="109" pm="."><plain>The contours from the two modalities can be qualitatively compared. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0011"><title><text><SENT sid="110" pm="."><plain>D.3 Quantitative comparison </plain></SENT>
+</text></title><p><text><SENT sid="111" pm="."><plain>The contour data was extracted from ASCII files using in‐house software. </plain></SENT>
+<SENT sid="112" pm="."><plain>The contours for the trachea, inner neck and fat, and spine and head were recorded at representative axial slice positions throughout the phantom. </plain></SENT>
+<SENT sid="113" pm="."><plain>The “center‐of‐mass” of evenly distributed points placed around the original noncontiguous pixel boundary was also determined using in‐house software. </plain></SENT>
+<SENT sid="114" pm="."><plain>In addition, the area and perimeter were also calculated, and the following coefficient of agreement (A) was determined: (3)A=RaRp where Ra is the ratio of CT area to MR area, and Rp is the ratio of CT perimeter to MR perimeter for a given contour. </plain></SENT>
+<SENT sid="115" pm="."><plain>To test the sensitivity of this measurement, we compared a square to a circle and a triangle to a circle. </plain></SENT>
+<SENT sid="116" pm="."><plain>Comparison of a square and circle with the same area and center results in A=1.06. </plain></SENT>
+<SENT sid="117" pm="."><plain>Comparison of a triangle and circle, where the vertices of the triangle lie on the circle, results in A=1.71. </plain></SENT>
+</text></p></sec></sec></sec></SecTag><SecTag type="RESULTS"><sec id="acm20025-sec-0012"><title><text><SENT sid="118" pm="."><plain>III. </plain></SENT>
+<SENT sid="119" pm="."><plain>RESULTS </plain></SENT>
+</text></title><sec id="acm20025-sec-0013"><title><text><SENT sid="120" pm="."><plain>A. </plain></SENT>
+<SENT sid="121" pm="."><plain>Head and Neck Phantom </plain></SENT>
+</text></title><p><text><SENT sid="122" pm="."><plain>Pixel intensity values varied least in the gel, with the SD approximately 6% of the mean value. </plain></SENT>
+<SENT sid="123" pm="."><plain>There was more variability in the volunteer ROIs, giving a SD of 26% and 14% for the T1 and T2 weighted scans, respectively. Mean±SD values for the T1 ratios were 1.37±0.16,0.54±0.02, and 0.19±0.01 for fat, brain, and <z:uniprot sup="inside" fb="32" ids="P11052,P48749,Q60481,P51748,Q0MUT8,O62757,P04141,P01587,Q29118,P48750,P28773">CSF</z:uniprot>, respectively, and corresponding values for T2 ratios were 0.82±0.04, 0.53±0.05, and 1.19±0.08. </plain></SENT>
+</text></p><p><text><SENT sid="124" pm="."><plain>The results in the various materials were as follows. </plain></SENT>
+<SENT sid="125" pm="."><plain>The T1 ratio for undoped water was 0.30. </plain></SENT>
+<SENT sid="126" pm="."><plain>Sunflower oil produced ratios of 1.43 and 0.73 for T1 and T2 sequences, respectively. </plain></SENT>
+<SENT sid="127" pm="."><plain>From a plot of T1 and T2 ratios against gadolinium concentration, the appropriate brain and <z:uniprot sup="inside" fb="32" ids="P11052,P48749,Q60481,P51748,Q0MUT8,O62757,P04141,P01587,Q29118,P48750,P28773">CSF</z:uniprot> compartments of the phantom were chosen. </plain></SENT>
+<SENT sid="128" pm="."><plain>The T1 phantom, therefore, consisted of water with 0.1 mL/L Gd‐DTPA concentration for brain/background contrast, undoped water for spinal cord contrast, and sunflower oil for subcutaneous fat contrast. </plain></SENT>
+<SENT sid="129" pm="."><plain>The T2 phantom consisted of water plus 3.5 mL/L GD‐DTPA for brain/background contrast, water plus 2.0 mL/L GD‐DTPA for spinal cord contrast, and sunflower oil for subcutaneous fat contrast. </plain></SENT>
+<SENT sid="130" pm="."><plain>In each case, sunflower oil was chosen rather than suitably doped water both to mimic signal intensity and to provide an appropriate chemical composition. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0014"><title><text><SENT sid="131" pm="."><plain>B. </plain></SENT>
+<SENT sid="132" pm="."><plain>Comparison of head and body coil </plain></SENT>
+</text></title><p><text><SENT sid="133" pm="."><plain>Values for SNR and CNR obtained with each coil and for both the T1 and T2 weighted scans are shown in Tables I(a) and I(b). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="acm20025-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table I(a)</label><caption><p><text><SENT sid="134" pm="."><plain>Head and body coil comparison results for T1 weighted sequence </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col width="1" span="1"/><col width="1" span="1"/><col width="1" span="1"/><col width="1" span="1"/><col width="1" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>Phantom compartment </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>Body coil CNR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>Head coil CNR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>Body coil SNR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>Head coil SNR </plain></SENT>
+</text></th></tr></thead><tbody><tr style="border-bottom:solid 1px #000000"><td align="left" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>spine </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>9.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>15.5 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>19.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>53.4 </plain></SENT>
+</text></td></tr><tr style="border-bottom:solid 1px #000000"><td align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>fat </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>9.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>10.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>37.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>188.8 </plain></SENT>
+</text></td></tr><tr style="border-bottom:solid 1px #000000"><td align="left" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>head </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>10.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>15.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>13.7 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>66.5 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><SecTag type="TABLE"><table-wrap id="acm20025-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table I(b)</label><caption><p><text><SENT sid="155" pm="."><plain>Head and body coil comparison results for T2 weighted sequence </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups"><col width="1" span="1"/><col width="1" span="1"/><col width="1" span="1"/><col width="1" span="1"/><col width="1" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>Phantom compartment </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>Body coil CNR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>Head coil CNR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>Body coil SNR </plain></SENT>
+</text></th><th align="center" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>Head coil SNR </plain></SENT>
+</text></th></tr></thead><tbody><tr style="border-bottom:solid 1px #000000"><td align="left" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>spine </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>13.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>14.4 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>40.9 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>157.9 </plain></SENT>
+</text></td></tr><tr style="border-bottom:solid 1px #000000"><td align="left" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>fat </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>7.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>10.3 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>22.0 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>92.0 </plain></SENT>
+</text></td></tr><tr style="border-bottom:solid 1px #000000"><td align="left" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>head </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>13.1 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>14.2 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>30.8 </plain></SENT>
+</text></td><td align="center" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>119.7 </plain></SENT>
+</text></td></tr></tbody></table></table-wrap></SecTag><p><text><SENT sid="176" pm="."><plain>SNR obtained with the head coil is much greater than with the body coil, with a mean ratio (head SNR/body SNR) of 4.1 for T1 sequences and 3.9 for T2 sequences. </plain></SENT>
+<SENT sid="177" pm="."><plain>However, the CNR values are similar, with a mean ratio (head CNR/body CNR) of 1.4 for T1 sequences and 1.2 for T2 sequences. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0015"><title><text><SENT sid="178" pm="."><plain>C. </plain></SENT>
+<SENT sid="179" pm="."><plain>Distortion and Chemical Shift </plain></SENT>
+</text></title><sec id="acm20025-sec-0016"><title><text><SENT sid="180" pm="."><plain>C.1 Distortion </plain></SENT>
+</text></title><p><text><SENT sid="181" pm="."><plain>Figs. 2(a) and (b) show an axial T2 weighted image acquired at a distance of 200 mm from the magnet isocenter, together with an image acquired at the isocenter superimposed (darker image). </plain></SENT>
+</text></p><p><text><SENT sid="182" pm="."><plain>Fig. 2(a) displays a slight shift in image position of the 200 mm image compared with the corresponding image at the isocenter using a 62.5 kHz bandwidth. </plain></SENT>
+<SENT sid="183" pm="."><plain>The same image comparison at 9 kHz (Fig. 2(b) displays a much greater disparity and implies that image distortion is responsible. </plain></SENT>
+<SENT sid="184" pm="."><plain>In both cases, images at each slice position were viewed in a cine format, and the shift was observed to be minimal up to 100 mm from the isocenter and then deviated noticeably with the maximum effect at 200 mm distance. </plain></SENT>
+<SENT sid="185" pm="."><plain>Therefore, these shifts could not be simply a misalignment of the phantom itself. </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="acm20025-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p><text><SENT sid="186" pm="."><plain>This two axial images obtained using a T2 weighted sequence. </plain></SENT>
+<SENT sid="187" pm="."><plain>The image acquired at the isocenter of the magnet is the darker or less transparent of the two images; overlaid on it is that obtained at 200 mm superiorly from the isocenter. was obtained using a bandwidth of 62.5 kHz, while a value of 9 kHz was used for The small bandwidth image clearly demonstrates the greatest distortion. </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-3" xlink:href="ACM2-5-25-g002"/></fig><p><text><SENT sid="188" pm="."><plain>The results of horizontal dimension measurements and image shift relative to the image at the isocenter (S0) for bandwidth 62.5 kHz (taken as gold standard image) are shown in Figs. 3(a) to (d). </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="acm20025-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p><text><SENT sid="189" pm="."><plain>Plots showing (a) horizontal image dimensions, (b) position of anterior marker, (c) position of right marker, and (d) position of left marker relative to the gold standard image (described in text). </plain></SENT>
+<SENT sid="190" pm="."><plain>It should be noted that all shifts seen in (b) to –(d) are to the right (taken as positive in our convention). </plain></SENT>
+<SENT sid="191" pm="."><plain>Some data points are missing [e.g., 10–50 mm in (b)] because the marker tubes were not uniformly filled with gel. </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-5" xlink:href="ACM2-5-25-g003"/></fig><p><text><SENT sid="192" pm="."><plain>The precision with which the marker tubes were attached to the phantom together with the nonuniformity of the filling may be responsible for the apparent noise in the plots. </plain></SENT>
+<SENT sid="193" pm="."><plain>Fig. 3(a) indicates that as the phantom is scanned farther away from the isocenter, the horizontal dimension begins to shrink, with smaller bandwidths exhibiting the largest change. </plain></SENT>
+<SENT sid="194" pm="."><plain>This finding is consistent with the image in Fig. 2(b). </plain></SENT>
+<SENT sid="195" pm="."><plain>However, this shrinking effect only seems prominent beyond 150 mm from the isocenter. </plain></SENT>
+<SENT sid="196" pm="."><plain>Bandwidths 62.5, 31.0, 16.0, and 9.0 kHz yielded shrinkages (isocenter image compared to 200 mm superior) of 2.1, 2.2, 2.7, and 2.7 mm, respectively. </plain></SENT>
+</text></p><p><text><SENT sid="197" pm="."><plain>Figs. 3(a) to (d) illustrate a shift of the phantom images (when normalized to the gold standard image) to the right, which is again consistent with the image in Fig. 2(b). </plain></SENT>
+<SENT sid="198" pm="."><plain>These shifts are more prominent at a distance greater than 150 mm from the isocenter, with smaller bandwidths demonstrating greater deviations. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0017"><title><text><SENT sid="199" pm="."><plain>C.2 Chemical Shift </plain></SENT>
+</text></title><p><text><SENT sid="200" pm="."><plain>Fig. 4(b) shows an artifactual shift in the outer “fat” layer in the direction of the frequency encoding gradient (left‐right). </plain></SENT>
+<SENT sid="201" pm="."><plain>This image was acquired with a 9 kHz receiver bandwidth, whereas this effect is not seen in Fig. 4(a) (acquired with a bandwidth of 62.5 kHz). </plain></SENT>
+<SENT sid="202" pm="."><plain>This result was found to be independent of distance from the isocenter and is due to the chemical shift difference of the proton resonance in fat and water. </plain></SENT>
+</text></p><fig fig-type="Figure" xml:lang="en" id="acm20025-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p><text><SENT sid="203" pm="."><plain>Image of neck compartment of phantom, the bulk of the filling of which is (doped) water whereas the outer rim contains a fat surrogate. </plain></SENT>
+<SENT sid="204" pm="."><plain>Two receiver bandwidths were used: (a) 62.5 kHz and (b) 9 kHz. </plain></SENT>
+<SENT sid="205" pm="."><plain>The latter clearly shows a distortion due to the chemical shift effect. </plain></SENT>
+</text></p></caption><graphic id="nlm-graphic-7" xlink:href="ACM2-5-25-g004"/></fig><p><text><SENT sid="206" pm="."><plain>Using knowledge of the image matrix size and receiver bandwidth, a theoretical calculation of the magnitude of this effect can be determined. </plain></SENT>
+<SENT sid="207" pm="."><plain>The chemical shift of fat and water at 1.5 T is approximately 225 Hz. </plain></SENT>
+<SENT sid="208" pm="."><plain>This is divided by the finite frequency range, which represents each pixel (given by bandwidth/matrix in hertz/pixel). </plain></SENT>
+<SENT sid="209" pm="."><plain>Using a bandwidth of 62.5 kHz yields a shift of 0.46 pixels, and a bandwidth of 9.0 kHz corresponds to a shift of 3.2 pixels. </plain></SENT>
+<SENT sid="210" pm="."><plain>At the nominal scan resolution, the latter figure equates to a 3 mm separation. </plain></SENT>
+<SENT sid="211" pm="."><plain>This is consistent with observations; the fat appears to almost “bridge” the Perspex gap in the neck compartment. </plain></SENT>
+</text></p></sec></sec><sec id="acm20025-sec-0018"><title><text><SENT sid="212" pm="."><plain>D. </plain></SENT>
+<SENT sid="213" pm="."><plain>Image registration </plain></SENT>
+</text></title><sec id="acm20025-sec-0019"><title><text><SENT sid="214" pm="."><plain>D.1 Analysis of registration between “aligned image sets” </plain></SENT>
+</text></title><p><text><SENT sid="215" pm="."><plain>In the case where the phantom was aligned perfectly in the MR scan acquisition, the maximum difference between the x center of shape coordinates was, Δx(max)=1.30 mm and (the mean±SD) Δx (mean)=0.43±0.14 mm. </plain></SENT>
+<SENT sid="216" pm="."><plain>The maximum difference between the y center of shape coordinates was Δy (mean)=1.00 mm and Δy (mean)=0.37±0.07 mm. </plain></SENT>
+<SENT sid="217" pm="."><plain>The coefficients of agreements on each image slice were close to unity, with the maximum value Amax of 1.027 and the mean value Amean of 1.004. </plain></SENT>
+<SENT sid="218" pm="."><plain>This indicates good agreement between CT and MR area values and between CT and MR perimeter values. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0020"><title><text><SENT sid="219" pm="."><plain>D.2 Analysis of registration with front of phantom (base of neck) lifted by 1 cm during the MR scan </plain></SENT>
+</text></title><p><text><SENT sid="220" pm="."><plain>The values obtained from this scan were the following: Δx (max)=1.40 mm, Δx(mean)=0.59±0.28 mm, Δy(max)=−1.40 mm, Δy(mean)=0.39±0.26 mm,Amax=1.093, and Amean=1.014. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0021"><title><text><SENT sid="221" pm="."><plain>D.3 Analysis of registration with the right‐hand side of the phantom lifted by 1 cm during the MR scan </plain></SENT>
+</text></title><p><text><SENT sid="222" pm="."><plain>Corresponding values are the following: Δx(max)=0.60 mm,Δx(mean)=0.29±0.07 mm, Δy(max)=1.80 mm, Δy(mean)=0.58±0.52 mm,Amax=1.025, and Amean=0.998. </plain></SENT>
+</text></p></sec><sec id="acm20025-sec-0022"><title><text><SENT sid="223" pm="."><plain>D.4 Analysis of registration with the phantom rotated/pivoted about the front left corner of the phantom, so that the back left corner was translated by 1 cm during the MR scan </plain></SENT>
+</text></title><p><text><SENT sid="224" pm="."><plain>Similarly, values were as follows: Δx(max)=−160 mm,Δx(mean)=0.45±0.18 mm,Δy(max)=0.90 mm,Δy(mean)=0.29±0.05 mm,Amax=1.055, and Amean=1.010. </plain></SENT>
+</text></p></sec></sec><sec id="acm20025-sec-0023"><title><text><SENT sid="225" pm="."><plain>IV. </plain></SENT>
+<SENT sid="226" pm="."><plain>DISCUSSION </plain></SENT>
+</text></title><p><text><SENT sid="227" pm="."><plain>Using the materials described in this paper we have constructed a quality assurance phantom to evaluate MR distortions and registration accuracy. </plain></SENT>
+<SENT sid="228" pm="."><plain>In addition, the phantom may be used to investigate various imaging sequences and RF coils. </plain></SENT>
+</text></p><p><text><SENT sid="229" pm="."><plain>Signal‐to‐noise is on average four times greater for images acquired in the head coil relative to the body coil. </plain></SENT>
+<SENT sid="230" pm="."><plain>However, contrast‐to‐noise is approximately of the same magnitude between head and body coils for both T1 and T2 weighted scan sequences, which suggests that head and neck patients can be imaged in the body coil without compromising the differentiation of anatomical features. </plain></SENT>
+</text></p><p><text><SENT sid="231" pm="."><plain>In MRI, linear changes in magnetic field are used to spatially encode the final image. </plain></SENT>
+<SENT sid="232" pm="."><plain>Any perturbations to this linearity will produce image distortions. </plain></SENT>
+<SENT sid="233" pm="."><plain>Inhomogeneities in the main magnetic field or gradients will therefore have a detrimental effect on the final image. </plain></SENT>
+<SENT sid="234" pm="."><plain>While the inhomogeneity of the main field is kept to a minimum under stringent manufacturer specifications, previous studies have demonstrated distortions of several millimeters, (16)  with the greatest effect observed at the periphery. </plain></SENT>
+<SENT sid="235" pm="."><plain>For open magnets the problem is considerably worse, and 15 mm deviations have been recorded. (17)  Our results, using a 1.5 T system, have shown that while distortion effects are present, they can be minimized by an appreciation of the receiver bandwidth (gradient strength) and distance from the isocenter (B0 homogeneity). </plain></SENT>
+<SENT sid="236" pm="."><plain>In consideration of both chemical shift and distortion, images should be acquired with high receiver bandwidths, preferably ≥ 30 kHz, and should not extend beyond 15 cm from the isocenter. </plain></SENT>
+</text></p><p><text><SENT sid="237" pm="."><plain>There is very good agreement between CT and MR area values and between CT and MR perimeter values. </plain></SENT>
+<SENT sid="238" pm="."><plain>Our analysis showed that a maximum coefficient of agreement is only 9% greater than unity and the maximum mean value only 2.7% above unity. </plain></SENT>
+<SENT sid="239" pm="."><plain>In section II D.3 we showed that comparison of contours that were very similar (circle and square of equal area and center) scored a coefficient of 6% greater than unity. </plain></SENT>
+<SENT sid="240" pm="."><plain>There was no significant deviation from these results for the misaligned scans, suggesting that the mutual information registration algorithm used in the FOCALFusion software can manage with offsets up to 1 cm. </plain></SENT>
+<SENT sid="241" pm="."><plain>The mean value for the measured coefficients of agreement was equal to 1.028, which suggests a small but systematic overestimate of contour shapes/sizes drawn on the CT images. </plain></SENT>
+<SENT sid="242" pm="."><plain>The largest difference in any center of shape coordinate measurement was 1.8 mm. </plain></SENT>
+<SENT sid="243" pm="."><plain>When mean values of this parameter for each region were examined, the largest value was 0.45 mm. </plain></SENT>
+<SENT sid="244" pm="."><plain>Corresponding values from the misaligned scans were 0.43, 0.59, and 0.58 mm. </plain></SENT>
+<SENT sid="245" pm="."><plain>These values are easily within the tolerances for alignment and contouring. </plain></SENT>
+</text></p><p><text><SENT sid="246" pm="."><plain>We have shown how a simple phantom can be used to characterize the registration process when utilizing two different imaging modalities. </plain></SENT>
+<SENT sid="247" pm="."><plain>It should be understood, however, that there are three main contributors in such a process, the third being the software used for registration. </plain></SENT>
+<SENT sid="248" pm="."><plain>It is important that the final fused image data sets are compared and analyzed when performing quality assurance on the use of multimodality fusion for treatment planning of radiotherapy. </plain></SENT>
+</text></p><p><text><SENT sid="249" pm="."><plain>Furthermore, we have shown that some image distortion is seen in axial images, even when using acquisition sequences designed to minimize it. </plain></SENT>
+<SENT sid="250" pm="."><plain>Having understood the practical limitations, scanning protocols can be formulated that really negate the impact of any such (small) effects when using MR imaging to delineate the tumor and proximal tissues. </plain></SENT>
+<SENT sid="251" pm="."><plain>However, it is important to recognize that each MR scanner will perform differently, and systematic analysis of these factors should be performed as part of quality assurance to ensure the accuracy of the planning procedure. </plain></SENT>
+</text></p><p><text><SENT sid="252" pm="."><plain>Finally, we believe that our work shows that MR imaging can be safely used in treatment planning of radiotherapy for the head and neck; given its enhanced soft tissue delineation, it will provide an excellent tool for more discriminate contouring as we implement novel radiotherapy methods, such as intensity‐modulated radiotherapy. (18)  The work also shows that “discrepancies” seen in perceived structure or tumor delineation in soft tissues can be assumed to be due to the imaging capabilities of the media in question rather than phantom effects from the registration process itself. </plain></SENT>
+</text></p><p><text><SENT sid="253" pm="."><plain>We are currently extending this work and are redesigning the phantom, making it possible to internally mount flasks containing a gel dosimeter (9)  ,  (19)  in order to make a universal phantom for head and neck radiotherapy. </plain></SENT>
+<SENT sid="254" pm="."><plain>The addition of this facility will allow us to use the phantom for planning highly conformal treatments and then verify the delivery (using gel dosimetry) to validate the entire process. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="ACK_FUND"><sec id="acm20025-sec-0024"><title><text><SENT sid="255" pm="."><plain>ACKNOWLEDGMENTS </plain></SENT>
+</text></title><p><text4fund><text><SENT sid="256" pm="."><plain>We are grateful for the financial support of Yorkshire Cancer Research and Hull &amp; East Hospitals NHS Trust. </plain></SENT>
+<SENT sid="257" pm="."><plain>We are also thankful to Computerized Medical Systems for their interest and the assistance provided for our work. </plain></SENT>
+<SENT sid="258" pm="."><plain>The authors would also like to thank Rob Walker and his staff in the medical physics workshop at Princess Royal Hospital for the construction of the phantom. </plain></SENT>
+</text></text4fund></p></sec></SecTag></body><back><SecTag type="REF"><ref-list id="acm20025-bibl-0001"><title>REFERENCES</title><ref id="acm20025-bib-0001"><text><SENT sid="259" pm="."><plain>1  P. Bloch  and  M.D. Altschuker , “Three‐dimensional photon beam calculations.” In: SmithA. </plain></SENT>
+<SENT sid="260" pm="."><plain>R., ed., Radiation therapy physics, 1st ed. (Spinger‐Verlag, Berlin, 1995), p. 33–93. </plain></SENT>
+</text></ref><ref id="acm20025-bib-0002"><text><SENT sid="261" pm="."><plain>2  M.M. Miften ,  A.W. Beavis , and  L.B. Marks , The influence of the dose calculation model on treatment plan evaluation in conformal therapy: A three case study. Med. </plain></SENT>
+<SENT sid="262" pm="."><plain>Dosim. 27(1), 51–7 (2002).12019966 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0003"><text><SENT sid="263" pm="."><plain>3  M.M. Miften ,  M. Weismeyer ,  S. Monthofer , and  K. Krippner , Implementation of FFT convolution and multigrid superposition models in the FOCUS <z:uniprot sup="inside" fb="7" ids="Q92597">RTP</z:uniprot> system. Phys. </plain></SENT>
+<SENT sid="264" pm="."><plain>Med. </plain></SENT>
+<SENT sid="265" pm="."><plain>Biol. 45, 817–833 (2000).10795974 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0004"><text><SENT sid="266" pm="."><plain>4  A.L. Boyer ,  Y.P. Zhu ,  L. Wang , and  P. Francois , Fast Fourier transform convolution calculations of x‐ray isodose distributions in homogeneous media. Med. </plain></SENT>
+<SENT sid="267" pm="."><plain>Phys. 16(2), 248–253 (1989).2497314 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0005"><text><SENT sid="268" pm="."><plain>5  T.R. Mackie ,  J.W. Scrimger , and  J.J. Battista , A convolution method of calculating dose for 15 MV X‐rays. Med. </plain></SENT>
+<SENT sid="269" pm="."><plain>Phys. 12, 188–196 (1985).4000075 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0006"><text><SENT sid="270" pm="."><plain>6  J. Bunn ,  R.E. Pugh , and  A. Thomson , How has imaging of the head, neck and spine changed over 5 years in a district general hospital? Pediatr. </plain></SENT>
+<SENT sid="271" pm="."><plain>Radiol. 32(2), 4 (2002). </plain></SENT>
+</text></ref><ref id="acm20025-bib-0007"><text><SENT sid="272" pm="."><plain>7  A.W. Beavis ,  P. Gibbs ,  R.A. Dealey , and  V.J. Whitton . Radiotherapy treatment planning of brain tumours using MR images alone. Br. </plain></SENT>
+<SENT sid="273" pm="."><plain>J.Radiol. 71, 544–548 (1998).9691900 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0008"><text><SENT sid="274" pm="."><plain>8  M. O'Donnell  and  W.A. Edelstein , NMR imaging in the presence of magnetic field inhomogeneities and gradient field inhomogeneities. Med. </plain></SENT>
+<SENT sid="275" pm="."><plain>Phys. 12, 20–26 (1985).3974521 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0009"><text><SENT sid="276" pm="."><plain>9  M. Oldham ,  J.H. Siewerdsen ,  A. Shetty , and  D.A. Jaffray . High resolution gel‐dosimetry by optical‐CT and MR scanning. Med. </plain></SENT>
+<SENT sid="277" pm="."><plain>Phys. 28(7), 1436–45 (2001).11488576 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0010"><text><SENT sid="278" pm="."><plain>10  F. Maes ,  A. Collignon ,  D. Vandermeulen ,  G. Marchal , and  P. Suetens , Multimodality image registration by maximization of mutual information. IEEE Trans. </plain></SENT>
+<SENT sid="279" pm="."><plain>Med. </plain></SENT>
+<SENT sid="280" pm="."><plain>Imag. 16(2), 187–198 (1997). </plain></SENT>
+</text></ref><ref id="acm20025-bib-0011"><text><SENT sid="281" pm="."><plain>11  P. Viola  and  W.M. Wells , Alignment by maximization of mutual information. Int. </plain></SENT>
+<SENT sid="282" pm="."><plain>J. </plain></SENT>
+<SENT sid="283" pm="."><plain>Computer Vision 24(2), 137–154 (1997). </plain></SENT>
+</text></ref><ref id="acm20025-bib-0012"><text><SENT sid="284" pm="."><plain>12  J. Meyer ,  P. Harding ,  D. Bonnett ,  T. Wolf ,  O.C.L. Haas , and  K.J. Burnhams , Design and manufacture of a head and neck phantom for the assessment of IMRT delivery with gel dosimetry. DOSGEL Australia 2001, 2001; 154 p, 1 86435 549 2. </plain></SENT>
+</text></ref><ref id="acm20025-bib-0013"><text><SENT sid="285" pm="."><plain>13  C.E. Hayes ,  W.A. Edelstein ,  J.F. Schenck ,  O.M. Mueller , and  M. Eash , An efficient, highly homogeneous radiofrequency coil for whole‐body NMR imaging at 1.5 T. J. </plain></SENT>
+<SENT sid="286" pm="."><plain><z:uniprot sup="inside" fb="120" ids="P20917,P07722">Mag</z:uniprot>. </plain></SENT>
+<SENT sid="287" pm="."><plain>Res. 63, 622–628 (1985). </plain></SENT>
+</text></ref><ref id="acm20025-bib-0014"><text><SENT sid="288" pm="."><plain>14  E.L. Madsen  and  G.D. Fullerton , Prospective tissue‐mimicking materials for use in NMR imaging phantoms. Magn. </plain></SENT>
+<SENT sid="289" pm="."><plain>Reson. </plain></SENT>
+<SENT sid="290" pm="."><plain>Imag. 1, 135–141 (1982). </plain></SENT>
+</text></ref><ref id="acm20025-bib-0015"><text><SENT sid="291" pm="."><plain>15  K.A. Kraft ,  P.P. Fatouros ,  G.D. Clarke , and  P.R.S. Kishore , An MRI phantom material for quantitative relaxometry. Magn. </plain></SENT>
+<SENT sid="292" pm="."><plain>Reson. </plain></SENT>
+<SENT sid="293" pm="."><plain>Med. 5, 555–562 (1987).3437816 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0016"><text><SENT sid="294" pm="."><plain>16  C. Yu ,  M.L.J. Apuzzo ,  C.S. Zee , and  Z. Petrovitch . A phantom study of the geometric accuracy of computer tomography and magnetic resonance imaging stereotactic localisation using the Leksell stereotactic system. Neurosurgery 48, 1092–1098 (2001).11334276 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0017"><text><SENT sid="295" pm="."><plain>17  T. Mizowaki ,  Y. Nagata ,  K. Okajima ,  M. Kokubo ,  Y. Negoro ,  N. Araki , and  M. Hiraoko , Reproducibility of geometric distortion in magnetic resonance imaging based on phantom studies. Radiother. </plain></SENT>
+<SENT sid="296" pm="."><plain>Oncol. 57, 237–242 (2000).11054528 </plain></SENT>
+</text></ref><ref id="acm20025-bib-0018"><text><SENT sid="297" pm="."><plain>18  S. Webb , Intensity Modulated Radiotherapy (IOP Publishing, Bristo, 2000). </plain></SENT>
+</text></ref><ref id="acm20025-bib-0019"><text><SENT sid="298" pm="."><plain>19  G.P. Liney ,  A.W. Beavis ,  J.W. Goodby , and  L.W. Turnbulls , Calibrating radiotherapy doses using MRI. MAGMA 15(S1), 480 (2002). </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>

@@ -1,0 +1,654 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Plant Sci</journal-id><journal-id journal-id-type="iso-abbrev">Front Plant Sci</journal-id><journal-id journal-id-type="publisher-id">Front. Plant Sci.</journal-id><journal-title-group><journal-title>Frontiers in Plant Science</journal-title></journal-title-group><issn pub-type="epub">1664-462X</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4923249</article-id><article-id pub-id-type="doi">10.3389/fpls.2016.00946</article-id><article-categories><subj-group subj-group-type="heading"><subject>Plant Science</subject><subj-group><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title><SecTag type="TITLE"><text><SENT sid="0" pm="."><plain>Genome-Wide Association Study Reveals a New QTL for Salinity Tolerance in Barley (Hordeum vulgare L.) </plain></SENT>
+</text></SecTag></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Fan</surname><given-names>Yun</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Zhou</surname><given-names>Gaofeng</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/307433/overview"/></contrib><contrib contrib-type="author"><name><surname>Shabala</surname><given-names>Sergey</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/27654/overview"/></contrib><contrib contrib-type="author"><name><surname>Chen</surname><given-names>Zhong-Hua</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/138590/overview"/></contrib><contrib contrib-type="author"><name><surname>Cai</surname><given-names>Shengguan</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Chengdao</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="author-notes" rid="fn001"><sup>*</sup></xref><uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/305959/overview"/></contrib><contrib contrib-type="author"><name><surname>Zhou</surname><given-names>Meixue</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="author-notes" rid="fn001"><sup>*</sup></xref><uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/85518/overview"/></contrib></contrib-group><aff id="aff1"><sup>1</sup><institution>School of Land and Food and Tasmanian Institute for Agriculture, University of Tasmania,</institution><country>Kings Meadows, TAS Australia</country></aff><aff id="aff2"><sup>2</sup><institution>Western Australian State Agricultural Biotechnology Centre, Murdoch University,</institution><country>Murdoch, WA Australia</country></aff><aff id="aff3"><sup>3</sup><institution>School of Science and Health, Western Sydney University,</institution><country>Penrith, NSW Australia</country></aff><author-notes><fn fn-type="edited-by"><p><text><SENT sid="1" pm="."><plain>Edited by: Guo-Liang Jiang, Virginia State University, USA </plain></SENT>
+</text></p></fn><fn fn-type="edited-by"><p><text><SENT sid="2" pm="."><plain>Reviewed by: Xiaoquan Qi, Chinese Academy of Sciences, China; Zhilong Bao, University of Florida, USA </plain></SENT>
+</text></p></fn><corresp id="fn001">*Correspondence: <italic>Meixue Zhou, <email xlink:type="simple">meixue.zhou@utas.edu.au</email>; Chengdao Li, <email xlink:type="simple">c.li@murdoch.edu.au</email></italic></corresp><fn fn-type="other" id="fn002"><p><text><SENT sid="3" pm="."><plain>This article was submitted to Crop Science and Horticulture, a section of the journal Frontiers in Plant Science </plain></SENT>
+</text></p></fn></author-notes><pub-date pub-type="epub"><day>28</day><month>6</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>7</volume><elocation-id>946</elocation-id><history><date date-type="received"><day>09</day><month>4</month><year>2016</year></date><date date-type="accepted"><day>14</day><month>6</month><year>2016</year></date></history><permissions><copyright-statement>Copyright © 2016 Fan, Zhou, Shabala, Chen, Cai, Li and Zhou.</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>Fan, Zhou, Shabala, Chen, Cai, Li and Zhou</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><abstract><p><SecTag type="ABS"><text><SENT sid="4" pm="."><plain>Salinity stress is one of the most severe abiotic stresses that affect agricultural production. </plain></SENT>
+<SENT sid="5" pm="."><plain>Genome wide association study (GWAS) has been widely used to detect genetic variations in extensive natural accessions with more recombination and higher resolution. </plain></SENT>
+<SENT sid="6" pm="."><plain>In this study, 206 barley accessions collected worldwide were genotyped with 408 Diversity Arrays Technology (DArT) markers and evaluated for salinity stress tolerance using salinity tolerance score – a reliable trait developed in our previous work. </plain></SENT>
+<SENT sid="7" pm="."><plain>GWAS for salinity tolerance had been conducted through a general linkage model and a mixed linkage model based on population structure and kinship. </plain></SENT>
+<SENT sid="8" pm="."><plain>A total of 24 significant marker-trait associations were identified. </plain></SENT>
+<SENT sid="9" pm="."><plain>A QTL on 4H with the nearest marker of bPb-9668 was consistently detected in all different methods. </plain></SENT>
+<SENT sid="10" pm="."><plain>This QTL has not been reported before and is worth to be further confirmed with bi-parental populations. </plain></SENT>
+</text></SecTag></p></abstract><SecTag type="KEYWORD"><kwd-group><kwd>genome wide association study</kwd><kwd>QTL mapping</kwd><kwd>evaluation methods</kwd><kwd>salinity tolerance</kwd><kwd>barley</kwd></kwd-group></SecTag><counts><fig-count count="5"/><table-count count="2"/><equation-count count="0"/><ref-count count="54"/><page-count count="10"/><word-count count="0"/></counts></article-meta></front><body><SecTag type="INTRO"><sec><title><text><SENT sid="11" pm="."><plain>Introduction </plain></SENT>
+</text></title><p><text><SENT sid="12" pm="."><plain>Salinity stress disrupts plant metabolisms, affecting crop yield and restricting the utilization of agricultural land. </plain></SENT>
+<SENT sid="13" pm="."><plain>It has been estimated that 20% of arable land worldwide is salinized which mainly results from natural causes, such as climate change and human influence factors like poor irrigation management (Flowers and Yeo, 1995; FAO, 2008). </plain></SENT>
+<SENT sid="14" pm="."><plain>At the whole-plant level, salinity stress is considered to be composed of two phases: a rapid osmotic stress which reduces shoot growth, and slower ionic stress which accelerates senescence of older leaves due to elevated leaf Na+ content (Munns and Tester, 2008). </plain></SENT>
+<SENT sid="15" pm="."><plain>Osmotic stress affects plant growth by reducing cell expansion and elongation rates, which leads to smaller and thicker leaves, and down-regulated photosynthesis by reducing stomatal aperture (Bradford, 1976). </plain></SENT>
+<SENT sid="16" pm="."><plain>Plants employ numerous mechanisms to adapt to saline conditions. </plain></SENT>
+<SENT sid="17" pm="."><plain>The major ones include Na+ exclusion from uptake; control of xylem Na+ loading and/or its retrieval from the shoot; efficient vacuolar Na+ sequestration; cytosolic K+ homeostasis and retention in root and mesophyll cells; efficient osmotic adjustment; and ROS detoxification (Zhu, 2003; Munns and Tester, 2008). </plain></SENT>
+<SENT sid="18" pm="."><plain>Some naturally salt tolerant species such as halophytes also possess a set of unique anatomical features such as salt grands of bladders (Flowers and Colmer, 2008; Shabala and Mackay, 2011; Shabala et al., 2014). </plain></SENT>
+<SENT sid="19" pm="."><plain>Ion homeostasis is controlled by numerous ion channels, ion sensing and signaling, pathways of transportation and compartmentalization mechanisms (Zhu, 2003; Munns and Tester, 2008). </plain></SENT>
+<SENT sid="20" pm="."><plain>Since many traits underlying adaption to stress are quantitative and controlled by multiple genetic pathways, a wide variety of genes are implicated in salinity tolerance (DeRose-Wilson and Gaut, 2011). </plain></SENT>
+</text></p><p><text><SENT sid="21" pm="."><plain>Barley is one of the most important cereal crops worldwide, and also the most salt tolerant cereal (Munns and Tester, 2008). </plain></SENT>
+<SENT sid="22" pm="."><plain>Cultivated barley originated from wild barley and domesticated within the Fertile Crescent and Tibet (Badr et al., 2000; Kilian et al., 2006; Dai et al., 2012). </plain></SENT>
+<SENT sid="23" pm="."><plain>Barley is indispensable to malting and brewing industries and also serves as a staple food in some areas of the world due to its broad adaption to salinity, drought, and high altitude (Baik and Ullrich, 2008). </plain></SENT>
+<SENT sid="24" pm="."><plain>Both genetic diversity and adaption to broad conditions resulted in a rich gene pool of barley (Nevo and Chen, 2010). </plain></SENT>
+<SENT sid="25" pm="."><plain>However, modern cultivated barley varieties only include 15 to 40% of all alleles within the barley gene pool, indicating that only a small part of barley genetic potential has been used for improvement for salinity tolerance (Ellis et al., 2000; Kilian et al., 2006; Long et al., 2013). </plain></SENT>
+<SENT sid="26" pm="."><plain>Progress in improving crop salinity tolerance or developing salt tolerant cultivars has been lagging behind many improvements in crop biotic stress tolerance due to the fact that salinity tolerance is a physiologically and genetically (quantitative inheritance) complex trait controlled by numerous QTL (Flowers, 2004). </plain></SENT>
+<SENT sid="27" pm="."><plain>Traditional bi-parental QTL mapping has been widely used for the dissection of salinity tolerance and the identification of tolerance genes. </plain></SENT>
+<SENT sid="28" pm="."><plain>Bi-parental QTL mapping detects chromosomal regions varying from a few to several tens of centi-Morgans (cM), harboring a large number of genes (Long et al., 2013). </plain></SENT>
+<SENT sid="29" pm="."><plain>Many QTL for salinity tolerance were detected using a wide variety of agronomic and physiological traits as selection criteria for barley salinity tolerance. </plain></SENT>
+<SENT sid="30" pm="."><plain>These include plant survival (Xu et al., 2012; Zhou et al., 2012; Fan et al., 2015), yield and agronomic traits (Ellis et al., 2002; Xue et al., 2009), seed germination (Witzel et al., 2010), Na+ exclusion (Shavrukov et al., 2010), tissue ion content (Xue et al., 2009), water soluble carbohydrate and chlorophyll content (Siahsar and Narouei, 2010). </plain></SENT>
+</text></p><p><text><SENT sid="31" pm="."><plain>Bi-parental QTL mapping has shown the power to identify candidate QTL/genes for salinity tolerance. </plain></SENT>
+<SENT sid="32" pm="."><plain>However, allelic diversity between parents and recombination occurring during the production of populations are limited, which leads to limitations in QTL mapping, although there are some multi-parent populations such as Multi-parent Advanced Generation Inter-Cross (MAGIC) (Kover et al., 2009; Korte and Farlow, 2013). </plain></SENT>
+<SENT sid="33" pm="."><plain>Recent rapid development in genotyping and sequencing technologies has enabled novel association mapping to identify alleles in a much broader range of natural accessions. </plain></SENT>
+<SENT sid="34" pm="."><plain>A genome wide association study (GWAS) explores the recombination that has occurred during a long evolutionary history of diverse sets of accessions (Nordborg and Tavare, 2002). </plain></SENT>
+<SENT sid="35" pm="."><plain>QTL mapping is suitable for detecting rare alleles of large effect, while GWAS could be a complementary approach for the identification of major allelic variants underlying quantitative and complex traits (DeRose-Wilson and Gaut, 2011; Long et al., 2013). </plain></SENT>
+<SENT sid="36" pm="."><plain>Barley has a high level population structure such as two-rowed and six-rowed cultivars, spring and winter barley (Pasam et al., 2012). </plain></SENT>
+<SENT sid="37" pm="."><plain>Due to the confounding effect of population structure, GWAS have a higher chances of producing false positive (type I) and negative (type II) errors than QTL mapping (Zhu et al., 2008). </plain></SENT>
+<SENT sid="38" pm="."><plain>A mixed-linear model (<z:uniprot sup="inside" fb="0" ids="Q8N726">MLM</z:uniprot>) approach has been developed which leads to a better performance (Yu et al., 2006). </plain></SENT>
+<SENT sid="39" pm="."><plain>In barley, GWAS has been used for detecting genetic variations underlying diverse complex traits such as agronomic and morphologic traits (Cockram et al., 2010; Pasam et al., 2012; Wang et al., 2012; Munoz-Amatriain et al., 2014), malting quality related traits (Huang et al., 2014; Matthies et al., 2014; Cai et al., 2015), cadmium accumulation (Wu et al., 2015), frost tolerance (Visioni et al., 2013), aluminum tolerance (Cai et al., 2013; Zhou et al., 2016) and salinity tolerance (Long et al., 2013). </plain></SENT>
+</text></p><p><text><SENT sid="40" pm="."><plain>The objectives of this study were to (1) detect candidate QTL for salinity tolerance in barley through a GWAS; (2) and discuss how statistical models affect the power of GWAS. </plain></SENT>
+<SENT sid="41" pm="."><plain>Also, for the first time, we utilized QTL mapping through MapQTL 6.0 software to confirm those QTL detected in GWAS. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="METHODS"><sec sec-type="materials|methods" id="s1"><title><text><SENT sid="42" pm="."><plain>Materials and Methods </plain></SENT>
+</text></title><sec><title><text><SENT sid="43" pm="."><plain>Barley Germplasm and Genotyping </plain></SENT>
+</text></title><p><text><SENT sid="44" pm="."><plain>A total of 206 barley accessions collected from Europe, Asia, Australia, and Canada were used in this study. </plain></SENT>
+<SENT sid="45" pm="."><plain>All the accessions were genotyped with Diversity Arrays Technology (DArT) markers (Wenzl et al., 2004) and distributed over the whole genome. </plain></SENT>
+<SENT sid="46" pm="."><plain>A consensus genetic map was sourced from <ext-link ext-link-type="uri" xlink:href="http://www.diversityarrays.com">http://www.diversityarrays.com</ext-link>. </plain></SENT>
+<SENT sid="47" pm="."><plain>More than 1100 polymorphic DArT markers were scored for this population. </plain></SENT>
+<SENT sid="48" pm="."><plain>Among them, 482 markers were found to have a specific chromosome position. </plain></SENT>
+<SENT sid="49" pm="."><plain>A total of 408 markers, with Q value (marker quality) and call rate above 80% as well as minor allele frequency (MAF) higher than 0.05, were used for population structure and association mapping analysis. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="50" pm="."><plain>Evaluation of Salinity Tolerance </plain></SENT>
+</text></title><p><text><SENT sid="51" pm="."><plain>Salinity tolerance of these barley varieties were evaluated in the 2013 and 2014 barley growing seasons. </plain></SENT>
+<SENT sid="52" pm="."><plain>Experiments were conducted in a glasshouse in Launceston, Tasmania, Australia. </plain></SENT>
+<SENT sid="53" pm="."><plain>Seeds of all the accessions were sown in large plastic containers (1.6 m × 2.5 m × 0.6 m) using a potting mixture described in Fan et al. (2015). </plain></SENT>
+<SENT sid="54" pm="."><plain>Each genotype consisted of three replicates, each of five seedlings. </plain></SENT>
+<SENT sid="55" pm="."><plain>Salt treatment was performed with 300 mM NaCl. </plain></SENT>
+<SENT sid="56" pm="."><plain>A control experiment was not conducted since it had been proved that different varieties, in the same potting mixture without salt added, exhibited no obvious symptoms of leaf chlorosis or wilting (Zhou et al., 2012). </plain></SENT>
+<SENT sid="57" pm="."><plain>The salt treatment started at the two-leaf stage and was repeated every 3 days according to our previous method (Xu et al., 2012; Zhou et al., 2012). </plain></SENT>
+<SENT sid="58" pm="."><plain>When the most susceptible lines showed severe symptoms, salinity tolerance was assessed by combining scores for plant survival and leaf chlorosis (0 = no damage and 10 = all dead) (Xu et al., 2012). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="59" pm="."><plain>Population Structure and Kinship Analysis </plain></SENT>
+</text></title><p><text><SENT sid="60" pm="."><plain>A total of 408 DArT markers distributed over the whole genome were used for population structure analysis using STRUCTURE software (v2.3.3) (Pritchard et al., 2000). </plain></SENT>
+<SENT sid="61" pm="."><plain>The number of clusters (K) was set from 2 to 12 and 20 iterations were conducted in an admixture model with a 10,000 burning period and 10,000 MCMC (Markov Chain Monte Carlo). K value was the number of clusters when ΔK achieved maximum value (Evanno et al., 2005). </plain></SENT>
+<SENT sid="62" pm="."><plain>Principle component analysis (PCA) was performed using GAPIT R package to visualize the dispersion of the association panel in a graph (Lipka et al., 2012). </plain></SENT>
+<SENT sid="63" pm="."><plain>A kinship analysis was conducted using SPAGeDi software (Hardy and Vekemans, 2002). </plain></SENT>
+<SENT sid="64" pm="."><plain>The kinship matrix measured the genetic similarity between individuals. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="65" pm="."><plain>Genome Wide Association Study </plain></SENT>
+</text></title><p><text><SENT sid="66" pm="."><plain>A GWAS among phenotypic trait (mean value of 2013 and 2014), DArT markers (genotype), population structure and kinship were conducted using TASSEL software (v3.0) (Bradbury et al., 2007). </plain></SENT>
+<SENT sid="67" pm="."><plain>The Q, K and Q + K methods were used for GWAS. </plain></SENT>
+<SENT sid="68" pm="."><plain>For Q model: y = Xβ + Qν + e; for K model: y = Xβ + Zμ + e; for Q + K model: y = Xβ + Qν + Zμ + e. </plain></SENT>
+<SENT sid="69" pm="."><plain>X is DArT marker matrix, Q and Z represent sub-population membership matrix and kinship matrix, respectively, β and ν are coefficient vectors for DArT marker and sub-population membership, respectively, μ is a vector of random genetic effects μ ~ N (0, 2 K) and e is the random error vector. P &lt; 0.01 (-log10 (P) &gt; 2) was set as the significant threshold in the association study. </plain></SENT>
+<SENT sid="70" pm="."><plain>Manhattan plots were displayed using R software (v2.14.2). </plain></SENT>
+<SENT sid="71" pm="."><plain>For evaluating the fitness and efficiency of different models, quantile–quantile (Q–Q) plots were shown using TASSEL (v3.0). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="72" pm="."><plain>Confirmation of the Number of QTL </plain></SENT>
+</text></title><p><text><SENT sid="73" pm="."><plain>A genetic linkage map for this natural population has been constructed using Diversity Array Technology (DArT) markers. </plain></SENT>
+<SENT sid="74" pm="."><plain>The DArT markers consensus genetic map was provided at <ext-link ext-link-type="uri" xlink:href="http://www.diversityarrays.com">http://www.diversityarrays.com</ext-link>. </plain></SENT>
+<SENT sid="75" pm="."><plain>The software package MapQTL 6.0 (Van Ooijen, 2009) was also used to detect QTL and confirm the relationship between different markers around each QTL, since the GWAS resulted in several marker-trait associations with many markers locating at close positions to each other. </plain></SENT>
+<SENT sid="76" pm="."><plain>QTL were first analyzed by interval mapping (IM). </plain></SENT>
+<SENT sid="77" pm="."><plain>The marker with highest LOD values at each putative QTL identified using IM was selected as a cofactor and the selected markers were used as genetic background controls in the approximate multiple QTL model (MQM). </plain></SENT>
+<SENT sid="78" pm="."><plain>The population structure (Q-matrix) was used as covariates. </plain></SENT>
+<SENT sid="79" pm="."><plain>A logarithm of the odds (LOD) threshold value of 3.0 was applied to declare the presence of a QTL at 95% significance level. </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="80" pm="."><plain>Genomic Analysis of Potential Genes for Salinity Tolerance </plain></SENT>
+</text></title><p><text><SENT sid="81" pm="."><plain>The nearest marker of the QTL for salinity tolerance, bPb-9668 on 4H (see results), was consistently detected in all methods. </plain></SENT>
+<SENT sid="82" pm="."><plain>bPb-9668 was located at the end of chromosome 4H. </plain></SENT>
+<SENT sid="83" pm="."><plain>Barley genomic data and gene annotations were downloaded from <ext-link ext-link-type="ftp" xlink:href="ftp://ftpmips.helmholtz-muenchen.de/plants/barley/public_data/">ftp://ftpmips.helmholtz-muenchen.de/plants/barley/public_data/</ext-link> (Mayer et al., 2012) and <ext-link ext-link-type="ftp" xlink:href="ftp://ftpmips.helmholtz-muenchen.de/plants/barley/public_data/">ftp://ftpmips.helmholtz-muenchen.de/plants/barley/public_data/</ext-link> (Mascher et al., 2013). </plain></SENT>
+<SENT sid="84" pm="."><plain>Annotated genes within 15cM around bPb-9668 on 4H were examined for potential genes for salinity tolerance. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="RESULTS"><sec><title><text><SENT sid="85" pm="."><plain>Results </plain></SENT>
+</text></title><sec><title><text><SENT sid="86" pm="."><plain>Salinity Tolerance of Barley Accessions </plain></SENT>
+</text></title><p><text><SENT sid="87" pm="."><plain>Barley accessions exhibited significant difference in their salinity tolerance. </plain></SENT>
+<SENT sid="88" pm="."><plain>Since the scoring was conducted at a relatively early stage of salt treatment when clear phenotypic segregation was shown, most of the sensitive varieties (e.g., Franklin, Gairdner) were scored for five while the tolerant varieties (CPI-11284-48, TX9425) had a score of 1. </plain></SENT>
+<SENT sid="89" pm="."><plain>The scores from 2 years correlated significantly with each other (r = 0.65). </plain></SENT>
+<SENT sid="90" pm="."><plain>Therefore, the average data were used for further analysis. Figure 1 shows the frequency distribution (the number of accessions) of salinity tolerance based on the average leaf wilting and plant survival scores of all genotypes, ranging from 1 to 8. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F1" position="float"><label>FIGURE 1</label><caption><p><text><SENT sid="91" pm="."><plain>The distribution frequency of salinity tolerance scores in 206 barley varieties. Seedlings were treated with 300 mM NaCl at the two leaf stage. </plain></SENT>
+<SENT sid="92" pm="."><plain>Salinity tolerance was scored from 0 to 10 by leaf chlorosis (0 = tolerant, 10 = sensitive). </plain></SENT>
+<SENT sid="93" pm="."><plain>Data were averaged over two growth seasons, 2013 and 2014. </plain></SENT>
+</text></p></caption><graphic xlink:href="fpls-07-00946-g001"/></fig></SecTag></sec><sec><title><text><SENT sid="94" pm="."><plain>Population Structure </plain></SENT>
+</text></title><p><text><SENT sid="95" pm="."><plain>Cluster parameter K was set from 2 to 12. </plain></SENT>
+<SENT sid="96" pm="."><plain>According to the explanation of Evanno et al. (2005), the largest value of statistic index ΔK was used as an indicator for evaluating the most probable number of subpopulations among all accessions. </plain></SENT>
+<SENT sid="97" pm="."><plain>In this study, ΔK reached the highest value when K = 6 (Figure 2). </plain></SENT>
+<SENT sid="98" pm="."><plain>Therefore, the most appropriate number of clusters are represented by six different colors (Figure 3). </plain></SENT>
+<SENT sid="99" pm="."><plain>STRUCTURE results were also confirmed by PCA (Supplementary Figure S1). </plain></SENT>
+<SENT sid="100" pm="."><plain>Details of population structures of 206 barley accessions are listed in Additional File Supplementary Table S1. </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F2" position="float"><label>FIGURE 2</label><caption><p><text><SENT sid="101" pm="."><plain>An estimation of the most probable number of clusters (K), based on 20 independent runs and K ranging from 2 to 12. </plain></SENT>
+</text></p></caption><graphic xlink:href="fpls-07-00946-g002"/></fig></SecTag><SecTag type="FIG"><fig id="F3" position="float"><label>FIGURE 3</label><caption><p><text><SENT sid="102" pm="."><plain>The population structure of 206 barley accessions. </plain></SENT>
+<SENT sid="103" pm="."><plain>Six subpopulations (K = 6) were produced based on genetic diversity detected by 408 DArT markers, each are represented by a different color. </plain></SENT>
+</text></p></caption><graphic xlink:href="fpls-07-00946-g003"/></fig></SecTag></sec><sec><title><text><SENT sid="104" pm="."><plain>Association Mapping for Salinity Tolerance </plain></SENT>
+</text></title><p><text><SENT sid="105" pm="."><plain>Salinity tolerance of 206 barley accessions and 408 DArT markers were used for association mapping. </plain></SENT>
+<SENT sid="106" pm="."><plain>A total of 24 significant marker-trait associations were detected with Q method. </plain></SENT>
+<SENT sid="107" pm="."><plain>These markers are located on 2H, 3H, 4H, 5H, 6H, and 7H (Figure 4; Table 1), representing 12 potential QTL. </plain></SENT>
+<SENT sid="108" pm="."><plain>Only two significant marker-trait associations (one QTL) were detected on 4H with the K method, while two significant marker-trait associations representing two QTL were identified with the Q + K method, located on 2H and 4H, respectively (Figure 4; Table 1). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F4" position="float"><label>FIGURE 4</label><caption><p><text><SENT sid="109" pm="."><plain>A Manhattan plot for genome wide association study (GWAS) of salinity tolerance in 206 barley accessions. GWAS was analyzed by three methods: (A) Q method; (B) K method; (C) Q + K method. </plain></SENT>
+<SENT sid="110" pm="."><plain>Significant associations were identified using criterion of -log10 (P) &gt; 2 (P &lt; 0.01). </plain></SENT>
+</text></p></caption><graphic xlink:href="fpls-07-00946-g004"/></fig></SecTag><SecTag type="TABLE"><table-wrap id="T1" position="float"><label>Table 1</label><caption><p><text><SENT sid="111" pm="."><plain>Association mapping results for salinity tolerance with the Q method, K method, and Q + K method, respectively (P &lt; 0.01). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" cellspacing="5" cellpadding="5"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="112" pm="."><plain>Method </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="113" pm="."><plain>Trait </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="114" pm="."><plain>Chromosome </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="115" pm="."><plain>Position </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="116" pm="."><plain>Marker </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="117" pm="."><plain>P </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="118" pm="."><plain>Marker R2 </plain></SENT>
+</text></th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="119" pm="."><plain>Q + K (<z:uniprot sup="inside" fb="0" ids="Q8N726">MLM</z:uniprot>) </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="120" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="121" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="122" pm="."><plain>25.7 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="123" pm="."><plain>bPb-0003 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="124" pm="."><plain>0.0060 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="125" pm="."><plain>0.046 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="126" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="127" pm="."><plain>4H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="128" pm="."><plain>145 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="129" pm="."><plain>bPb-9668 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="130" pm="."><plain>0.0091 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="131" pm="."><plain>0.038 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="132" pm="."><plain>K (<z:uniprot sup="inside" fb="0" ids="Q8N726">MLM</z:uniprot>) </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="133" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="134" pm="."><plain>4H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="135" pm="."><plain>145 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="136" pm="."><plain>bPb-9668 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="137" pm="."><plain>0.0018 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="138" pm="."><plain>0.049 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="139" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="140" pm="."><plain>4H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="141" pm="."><plain>145.1 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="142" pm="."><plain>bPb-5265 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="143" pm="."><plain>0.0041 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="144" pm="."><plain>0.041 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="145" pm="."><plain>Q (GLM) </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="146" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="147" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="148" pm="."><plain>3.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="149" pm="."><plain>bPb-5489 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="150" pm="."><plain>0.0002 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="151" pm="."><plain>0.059 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="152" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="153" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="154" pm="."><plain>3.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="155" pm="."><plain>bPb-4285 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="156" pm="."><plain>0.0002 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="157" pm="."><plain>0.056 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="158" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="159" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="160" pm="."><plain>5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="161" pm="."><plain>bPb-5191 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="162" pm="."><plain>0.0002 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="163" pm="."><plain>0.056 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="164" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="165" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="166" pm="."><plain>5.3 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="167" pm="."><plain>bPb-9681 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="168" pm="."><plain>0.0005 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="169" pm="."><plain>0.056 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="170" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="171" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="172" pm="."><plain>25.7 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="173" pm="."><plain>bPb-8399 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="174" pm="."><plain>0.0006 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="175" pm="."><plain>0.056 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="176" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="177" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="178" pm="."><plain>25.7 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="179" pm="."><plain>bPb-0003 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="180" pm="."><plain>0.0008 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="181" pm="."><plain>0.049 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="182" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="183" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="184" pm="."><plain>35.7 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="185" pm="."><plain>bPb-1196 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="186" pm="."><plain>0.0098 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="187" pm="."><plain>0.028 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="188" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="189" pm="."><plain>3H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="190" pm="."><plain>20 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="191" pm="."><plain>bPb-6978 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="192" pm="."><plain>0.0037 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="193" pm="."><plain>0.036 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="194" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="195" pm="."><plain>3H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="196" pm="."><plain>97.4 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="197" pm="."><plain>bPb-6722 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="198" pm="."><plain>0.0055 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="199" pm="."><plain>0.032 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="200" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="201" pm="."><plain>3H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="202" pm="."><plain>145.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="203" pm="."><plain>bPb-4156 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="204" pm="."><plain>0.0052 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="205" pm="."><plain>0.033 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="206" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="207" pm="."><plain>3H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="208" pm="."><plain>145.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="209" pm="."><plain>bPb-5298 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="210" pm="."><plain>0.0067 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="211" pm="."><plain>0.032 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="212" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="213" pm="."><plain>3H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="214" pm="."><plain>145.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="215" pm="."><plain>bPb-5396 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="216" pm="."><plain>0.0068 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="217" pm="."><plain>0.031 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="218" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="219" pm="."><plain>4H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="220" pm="."><plain>145 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="221" pm="."><plain>bPb-9668 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="222" pm="."><plain>0.0017 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="223" pm="."><plain>0.043 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="224" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="225" pm="."><plain>4H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="226" pm="."><plain>145.1 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="227" pm="."><plain>bPb-5265 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="228" pm="."><plain>0.0020 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="229" pm="."><plain>0.040 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="230" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="231" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="232" pm="."><plain>43.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="233" pm="."><plain>bPb-4135 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="234" pm="."><plain>0.0081 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="235" pm="."><plain>0.030 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="236" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="237" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="238" pm="."><plain>97.9 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="239" pm="."><plain>bPb-2425 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="240" pm="."><plain>0.0024 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="241" pm="."><plain>0.039 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="242" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="243" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="244" pm="."><plain>98.2 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="245" pm="."><plain>bPb-8101 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="246" pm="."><plain>0.0013 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="247" pm="."><plain>0.044 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="248" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="249" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="250" pm="."><plain>166.1 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="251" pm="."><plain>bPb-6179 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="252" pm="."><plain>0.0042 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="253" pm="."><plain>0.035 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="254" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="255" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="256" pm="."><plain>168.3 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="257" pm="."><plain>bPb-0835 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="258" pm="."><plain>0.0042 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="259" pm="."><plain>0.035 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="260" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="261" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="262" pm="."><plain>168.3 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="263" pm="."><plain>bPb-4595 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="264" pm="."><plain>0.0042 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="265" pm="."><plain>0.035 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="266" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="267" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="268" pm="."><plain>173.7 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="269" pm="."><plain>bPb-1719 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="270" pm="."><plain>0.0087 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="271" pm="."><plain>0.029 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="272" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="273" pm="."><plain>6H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="274" pm="."><plain>38 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="275" pm="."><plain>bPb-2058 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="276" pm="."><plain>0.0093 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="277" pm="."><plain>0.029 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="278" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="279" pm="."><plain>6H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="280" pm="."><plain>68.2 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="281" pm="."><plain>bPb-5698 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="282" pm="."><plain>0.0034 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="283" pm="."><plain>0.036 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"/><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="284" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="285" pm="."><plain>7H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="286" pm="."><plain>140.9 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="287" pm="."><plain>bPb-5923 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="288" pm="."><plain>0.0072 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="289" pm="."><plain>0.031 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><attrib><italic><sup>∗</sup>SLAV, Salinity tolerance data are averaged over two growth seasons 2013 and 2014.</italic></attrib></table-wrap-foot></table-wrap></SecTag><p><text><SENT sid="290" pm="."><plain>Quantile–quantile (Q–Q) plot was employed to evaluate the fitness and efficiency of different models. </plain></SENT>
+<SENT sid="291" pm="."><plain>The observed –log10 (P) values for salinity tolerance were closer to expected –log10 (P) values from the K and Q + K methods than those from the Q method (Supplementary Figure S2). </plain></SENT>
+<SENT sid="292" pm="."><plain>However, only one or two QTL were detected in the K or the Q + K methods, whereas about 12 QTL were detected with the Q method. </plain></SENT>
+</text></p><p><text><SENT sid="293" pm="."><plain>P value &lt; 0.01 have been used as a cut-off for barley GWAS in many studies (Pasam et al., 2012; Shu et al., 2012; Huang et al., 2014). </plain></SENT>
+<SENT sid="294" pm="."><plain>The marker bPb-9668 on 4H (145.0 cM) showed consistent significance (P &lt; 0.01) of marker-trait associations using the Q, K, and Q + K methods (Figure 4; Table 1). </plain></SENT>
+<SENT sid="295" pm="."><plain>Another marker, bPb-5265 (145.1 cM) on 4H which is close to bPb-9668, showed significance under the Q and K methods, not Q + K method (Table 1). </plain></SENT>
+<SENT sid="296" pm="."><plain>The marker bPb-0003 on 2H showed significant marker-trait associations with both the Q and the Q + K methods but not the K method (Figure 4; Table 1). </plain></SENT>
+</text></p><p><text><SENT sid="297" pm="."><plain>Based on marker polymorphisms, the salinity tolerance of 206 barley accessions were grouped into two genotypes according to their base calls of the marker bPb-9668 and bPb-0003 (Figure 5A; Supplementary Table S2). </plain></SENT>
+<SENT sid="298" pm="."><plain>Accessions with different polymorphisms at bPb-9668 and bPb-0003 showed highly significant differences in salinity tolerance (P &lt; 0.0001, Figure 5A; Supplementary Table S2). </plain></SENT>
+</text></p><SecTag type="FIG"><fig id="F5" position="float"><label>FIGURE 5</label><caption><p><text><SENT sid="299" pm="."><plain>Salinity tolerance of 206 barley accessions of two genotype groups based on their Base calls of the markers: bPb-9668, bPb-0003, bPb-4285, and bPb-4135. </plain></SENT>
+<SENT sid="300" pm="."><plain>(A) Accessions with different polymorphisms at these four markers showed very significant differences in salinity tolerance; ∗T: tolerant, S: sensitive. (B) These four QTL showed an additive effect with the average tolerance score (2.08) of varieties combining all four tolerance alleles than that of varieties with all susceptible alleles (5.167); ∗0: without any tolerance alleles, 1–3: with 1–3 tolerance alleles, 4: with all four tolerance alleles. </plain></SENT>
+</text></p></caption><graphic xlink:href="fpls-07-00946-g005"/></fig></SecTag></sec><sec><title><text><SENT sid="301" pm="."><plain>QTL Mapping for Salinity Tolerance Using MapQTL6.0 Software </plain></SENT>
+</text></title><p><text><SENT sid="302" pm="."><plain>Many marker-trait associations were detected using the Q-method with some of them being located at similar positions. </plain></SENT>
+<SENT sid="303" pm="."><plain>In order to identify the similarity of those markers located at similar positions, MapQTL6.0 was used to detect significant QTL. </plain></SENT>
+<SENT sid="304" pm="."><plain>When analyzed for QTL using MapQTL6.0 software using population structure (Q-matrix) as covariates, the results were very close to association mapping with the Q method (Supplementary Figure S3). </plain></SENT>
+<SENT sid="305" pm="."><plain>The analysis produced 3 significant QTL (LOD &gt; 3.0) and 4 tentative QTL (3 &gt; LOD &gt; 2) (Table 2), with all of them being in line with those from association mapping with the Q method. </plain></SENT>
+<SENT sid="306" pm="."><plain>The most significant QTL on 4H was the same as that identified with both the K and the Q + K methods (Tables 1 and 2). </plain></SENT>
+<SENT sid="307" pm="."><plain>MQM mapping resulted with, apart from two QTL based on bPb-9668 and bPb-0003 from the K or the Q + K method (Figure 4; Table 1), two more QTL with nearest marker bPb-4285 and bPb-4135 being significant with LOD &gt; 3.0 (Table 2). </plain></SENT>
+<SENT sid="308" pm="."><plain>bPb-4285 also showed a highest –log10 (P) in the Q method (Figure 4; Table 1). </plain></SENT>
+<SENT sid="309" pm="."><plain>The salinity tolerance of the 206 barley accessions was also grouped into two genotypes according to the base calls of the marker. </plain></SENT>
+<SENT sid="310" pm="."><plain>As shown in Figure 5A and Supplementary Table S2, all four markers showed significant association with salinity tolerance. </plain></SENT>
+<SENT sid="311" pm="."><plain>The four QTL showed additive effects with the average salinity tolerance being increased with the increased number of tolerance alleles. </plain></SENT>
+<SENT sid="312" pm="."><plain>The average damage score of varieties combining all four tolerance alleles was 2.1, while that of no tolerance alleles was 5.2 (Figure 5B; Supplementary Table S2). </plain></SENT>
+</text></p><SecTag type="TABLE"><table-wrap id="T2" position="float"><label>Table 2</label><caption><p><text><SENT sid="313" pm="."><plain>QTL mapping results for salinity tolerance in 206 barley varieties when structure was used as covariate (LOD &gt; 2.0). </plain></SENT>
+</text></p></caption><table frame="hsides" rules="groups" cellspacing="5" cellpadding="5"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="314" pm="."><plain>Trait </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="315" pm="."><plain>Chromosome </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="316" pm="."><plain>Position </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="317" pm="."><plain>Locus </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="318" pm="."><plain>LOD </plain></SENT>
+</text></th><th valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="319" pm="."><plain>R2∗ </plain></SENT>
+</text></th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="320" pm="."><plain>SLAV∗∗ </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="321" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="322" pm="."><plain>3.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="323" pm="."><plain>bPb-4285 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="324" pm="."><plain>3.66 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="325" pm="."><plain>4.8 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="326" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="327" pm="."><plain>2H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="328" pm="."><plain>25.7 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="329" pm="."><plain>bPb-0003 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="330" pm="."><plain>2.11 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="331" pm="."><plain>2.6 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="332" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="333" pm="."><plain>3H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="334" pm="."><plain>133.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="335" pm="."><plain>bPb-6504 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="336" pm="."><plain>2.12 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="337" pm="."><plain>2.7 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="338" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="339" pm="."><plain>4H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="340" pm="."><plain>145 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="341" pm="."><plain>bPb-9668 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="342" pm="."><plain>5.67 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="343" pm="."><plain>7.5 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="344" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="345" pm="."><plain>5H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="346" pm="."><plain>43.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="347" pm="."><plain>bPb-4135 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="348" pm="."><plain>3.91 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="349" pm="."><plain>5.1 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="350" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="351" pm="."><plain>7H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="352" pm="."><plain>3.5 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="353" pm="."><plain>bPb-3732 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="354" pm="."><plain>2.13 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="355" pm="."><plain>2.6 </plain></SENT>
+</text></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1"><text><SENT sid="356" pm="."><plain>SLAV </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="357" pm="."><plain>7H </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="358" pm="."><plain>125.4 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="359" pm="."><plain>bPb-8539 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="360" pm="."><plain>2.47 </plain></SENT>
+</text></td><td valign="top" align="center" rowspan="1" colspan="1"><text><SENT sid="361" pm="."><plain>3.2 </plain></SENT>
+</text></td></tr></tbody></table><table-wrap-foot><attrib><italic><sup>∗</sup>R<sup>2</sup>: the percentages of phenotypic variation explained by markers.</italic></attrib></table-wrap-foot><table-wrap-foot><attrib><sup>∗∗</sup>SLAV, Salinity tolerance data are averaged over two growth seasons 2013 and 2014.</attrib></table-wrap-foot></table-wrap></SecTag></sec><sec><title><text><SENT sid="362" pm="."><plain>Potential Genes for Salinity Tolerance on 4H </plain></SENT>
+</text></title><p><text><SENT sid="363" pm="."><plain>In this study, QTL on 4H with the nearest marker of bPb-9668 was the most significant, consistently detected in all methods. </plain></SENT>
+<SENT sid="364" pm="."><plain>Annotated genes around this marker on 4H are listed in Supplementary Table S3. </plain></SENT>
+<SENT sid="365" pm="."><plain>Among all annotated genes, there are two possible genes likely to be associated with salinity tolerance, MLOC_70918.1 and MLOC_5021.1. </plain></SENT>
+<SENT sid="366" pm="."><plain>Both locate at the end of chromosome 4H and close to the marker bPb-9668 according to the POPSeq map (Mascher et al., 2013). </plain></SENT>
+<SENT sid="367" pm="."><plain>MLOC_70918.1 belongs to glutathione-regulated potassium-eﬄux system protein while MLOC_5021.1 is a respiratory burst oxidase-like protein. </plain></SENT>
+<SENT sid="368" pm="."><plain>Ion homeostasis, especially Na+ and K+, are related to salinity tolerance (Munns and Tester, 2008). RESPIRATORY BURST OXIDASE HOMOLOG F (<z:uniprot sup="inside" fb="0" ids="O48538">RBOHF</z:uniprot>) encodes a specific isoform of NADPH oxidase, which plays a vital role in soil salinity tolerance (Jiang et al., 2012). </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="DISCUSS"><sec><title><text><SENT sid="369" pm="."><plain>Discussion </plain></SENT>
+</text></title><sec><title><text><SENT sid="370" pm="."><plain>A New QTL for Salinity Tolerance was Identified by Association Mapping </plain></SENT>
+</text></title><p><text><SENT sid="371" pm="."><plain>Salinity tolerance is a genetically and physiologically complex trait controlled by numerous QTL (Flowers, 2004). </plain></SENT>
+<SENT sid="372" pm="."><plain>Leaf wilting and plant survival are two of the major symptoms caused by salt stress and had been used for evaluating salinity tolerance of barley through traditional bi-parental QTL mapping in many studies (Xu et al., 2012; Zhou et al., 2012; Fan et al., 2015). </plain></SENT>
+<SENT sid="373" pm="."><plain>In the present experiments, 206 barley accessions were assessed for salinity tolerance and various mapping methods were used to identify QTL controlling salinity tolerance. </plain></SENT>
+<SENT sid="374" pm="."><plain>Different numbers of QTL were identified using different mapping methods. </plain></SENT>
+<SENT sid="375" pm="."><plain>Association mapping using Q methods identified 12 QTL which are located on 2H (3.5, 25.7 cM), 3H (20, 97.4, 145.5 cM), 4H (145 cM), 5H (43.5, 97.9, 166.1 cM), 6H (38, 68.2 cM), and 7H (140.9 cM), respectively (Figure 4; Table 1). </plain></SENT>
+<SENT sid="376" pm="."><plain>Most of these QTL were further confirmed by analyzing QTL using MapQTL 6.0 software. </plain></SENT>
+<SENT sid="377" pm="."><plain>Some of them were located at similar positions to those reported before by GWAS or bi-parental QTL mapping. </plain></SENT>
+<SENT sid="378" pm="."><plain>The QTL on 2H located at a similar position to that reported in the DH population of TX9425/Naso Nijo (Xu et al., 2012). </plain></SENT>
+<SENT sid="379" pm="."><plain>QTL on 6H with the nearest marker bPb-2058 was close to QSl.Yy.Fr.6H (26 cM) from the DH population of YYXT and Franklin (Zhou et al., 2012). </plain></SENT>
+<SENT sid="380" pm="."><plain>No QTL was reported for salinity tolerance on 4H at the same position (145 cM) of the QTL identified by all four methods in the current study. </plain></SENT>
+<SENT sid="381" pm="."><plain>The nearest QTL for a salinity tolerance-related trait on 4H was located at 119.1 cM in their consensus map (Close et al., 2009), controlling shoot Na+/K+ under saline conditions (Long et al., 2013), which is also close to the telomere of 4HL. </plain></SENT>
+<SENT sid="382" pm="."><plain>However, shoot Na+/K+ under saline conditions was not related to salinity tolerance in their study with the QTL for salinity tolerance being located on 6H (Long et al., 2013). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="383" pm="."><plain>GWAS Results Are Affected by Models and Evaluation Methods </plain></SENT>
+</text></title><p><text><SENT sid="384" pm="."><plain>In this study, GWAS was conducted with three different models, Q (population structure), K (kinship) and Q+K. </plain></SENT>
+<SENT sid="385" pm="."><plain>According to the Q–Q plots (Supplementary Figure S2), K and Q + K were similar, and both stricter than the Q model. </plain></SENT>
+<SENT sid="386" pm="."><plain>The observed –log10 (P) values for salinity tolerance deviated from the expected –log10 (P) values in the Q method (general linear model), indicating that they may contain false positive associations (Supplementary Figure S2A). </plain></SENT>
+<SENT sid="387" pm="."><plain>The addition of genetic relatedness (i.e., relationship or kinship) makes the <z:uniprot sup="inside" fb="0" ids="Q8N726">MLM</z:uniprot> more powerful, thus reducing the number of false positive associations (Yu et al., 2006). </plain></SENT>
+<SENT sid="388" pm="."><plain>K and Q + K were similar in this study on the basis of the Q–Q plots and results in Table 1, which was in accordance with Cai et al. (2013). </plain></SENT>
+<SENT sid="389" pm="."><plain>However, only two and one QTL were identified with the K method and the Q + K method, respectively, while a lot more QTL were identified with the Q method. </plain></SENT>
+<SENT sid="390" pm="."><plain>Therefore, QTL mapping was also conducted with the MapQTL 6.0 software (Van Ooijen, 2009) using population structure as covariate to adjust the natural variations of this population. </plain></SENT>
+<SENT sid="391" pm="."><plain>Nearly all the QTL identified with MapQTL6.0 were in line with those from association mapping with the Q method and the most significant one was the same as that identified using the K and Q + K methods. </plain></SENT>
+<SENT sid="392" pm="."><plain>The percentages of phenotypic variation explained by various markers analyzed with MapQTL 6.0 are very close to those analyzed with Q method (R2 = 0.89, Supplementary Figure S3). </plain></SENT>
+</text></p><p><text><SENT sid="393" pm="."><plain>To compare the robustness of combining different mapping approaches, all the accessions were grouped based on their base calls of the markers bPb-9668, bPb-0003, bPb-4285, and bPb-4135 (Figure 5; Supplementary Table S2), the four significant QTL detected with both GWAS (Q method) and MapQTL 6.0 (Tables 1 and 2). </plain></SENT>
+<SENT sid="394" pm="."><plain>Accessions with different polymorphisms at bPb-9668, bPb-0003, bPb-4285, and bPb-4135 had differences in tolerance scores of 0.960 (P &lt; 0.000001), 0.814 (P &lt; 0.000001), 1.053 (P &lt; 0.000001), and 0.371 (P &lt; 0.05), respectively (Supplementary Table S2). </plain></SENT>
+<SENT sid="395" pm="."><plain>These four QTL also showed additive effects with the average tolerance score (2.1) of varieties combining all four tolerance alleles being significantly better than that of varieties with all susceptible alleles (5.2) (Figure 5; Supplementary Table S2). </plain></SENT>
+<SENT sid="396" pm="."><plain>There could be higher chances of false positive or negative errors in GWAS than in bi-parental QTL mapping, resulting from the complex population structure (Myles et al., 2009; Pasam et al., 2012), thus the <z:uniprot sup="inside" fb="0" ids="Q8N726">MLM</z:uniprot> approach using the K matrix or a combination (Q+K) could perform better than general linkage model (GLM). </plain></SENT>
+<SENT sid="397" pm="."><plain>However, in this study, the K or the Q + K methods were shown to be too strict, resulting in the missing of some possibly useful QTL. </plain></SENT>
+<SENT sid="398" pm="."><plain>QTL mapping using MapQTL6.0 with the Q matrix as covariates in natural populations showed similar power as GLM. </plain></SENT>
+<SENT sid="399" pm="."><plain>The advantage of using the MQM of MapQTL 6.0 is the confirmation of the number of QTL through cofactor selection (Van Ooijen, 2009). </plain></SENT>
+</text></p></sec><sec><title><text><SENT sid="400" pm="."><plain>Confirmation of QTL Identified by GWAS </plain></SENT>
+</text></title><p><text><SENT sid="401" pm="."><plain>Salinity tolerance is a quantitative trait controlled by many QTL. </plain></SENT>
+<SENT sid="402" pm="."><plain>Many methods have been used to identify the QTL. </plain></SENT>
+<SENT sid="403" pm="."><plain>Care should be taken to balance the rate of false positives and negatives during the process of analysis using different models/methods (Pasam et al., 2012). </plain></SENT>
+<SENT sid="404" pm="."><plain>Traditional QTL mapping through bi- or multi-parental populations is a powerful method but suffers from a limited amount of recombination. </plain></SENT>
+<SENT sid="405" pm="."><plain>GWAS can partly overcome the limitation by using a diverse germplasm but may lead to a number of false positive or negative associations. </plain></SENT>
+<SENT sid="406" pm="."><plain>Different methods can be complementary to each other and benefit can be achieved by mitigating the other’s limitations (Korte and Farlow, 2013). </plain></SENT>
+<SENT sid="407" pm="."><plain>In this study, the combination of GWAS and QTL mapping has led to successful identification of QTL with potential application in breeding programs. </plain></SENT>
+<SENT sid="408" pm="."><plain>However, the QTL identified by GWAS requires further confirmation in bi- or multi- parental populations. </plain></SENT>
+</text></p></sec></sec></SecTag><SecTag type="CONCL"><sec><title><text><SENT sid="409" pm="."><plain>Conclusion </plain></SENT>
+</text></title><p><text><SENT sid="410" pm="."><plain>In this study, 24 markers showed significant association with salinity tolerance. </plain></SENT>
+<SENT sid="411" pm="."><plain>Different methods were used for QTL detection concluding with four significant QTL. </plain></SENT>
+<SENT sid="412" pm="."><plain>These QTL showed additive effects with salinity tolerance being greatly increased by combining all four tolerance alleles. </plain></SENT>
+<SENT sid="413" pm="."><plain>A new QTL on 4H (telomere of the long arm) was detected with different methods and will be further investigated. </plain></SENT>
+<SENT sid="414" pm="."><plain>Overall, the K or the Q + K method was stricter than the Q method but may result in some missed useful QTL. </plain></SENT>
+<SENT sid="415" pm="."><plain>The Q method, with similar power as MapQTL 6.0 using population structure as covariate, discovered more QTL but could have produced false positives. </plain></SENT>
+<SENT sid="416" pm="."><plain>Population size, accuracy of phenotyping, and quantity of markers can be increased to enhance the power of association mapping, and further confirmation of QTL will be needed. </plain></SENT>
+<SENT sid="417" pm="."><plain>The confirmed QTL can then be used in breeding programs. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="AUTH_CONT"><sec><title><text><SENT sid="418" pm="."><plain>Author Contributions </plain></SENT>
+</text></title><p><text><SENT sid="419" pm="."><plain>MZ and CL designed the work; CL and GZ prepared the barley germplasm and did genotyping; MZ and YF did the phenotyping and analyzed the data; SS, Z-HC, and SC contributed to data analysis and interpretation; YF drafted the paper; all authors revised the paper and approved the final version to be published. </plain></SENT>
+</text></p></sec></SecTag><SecTag type="COMP_INT"><sec><title><text><SENT sid="420" pm="."><plain>Conflict of Interest Statement </plain></SENT>
+</text></title><p><text><SENT sid="421" pm="."><plain>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. </plain></SENT>
+</text></p></sec></SecTag></body><back><SecTag type="ACK_FUND"><ack><p><text4fund><text><SENT sid="422" pm="."><plain>This work was supported by Grains Research and Development Corporation of Australia. </plain></SENT>
+</text></text4fund></p></ack></SecTag><SecTag type="SUPPL"><sec sec-type="supplementary material"><title>Supplementary Material</title><p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="http://journal.frontiersin.org/article/10.3389/fpls.2016.00946">http://journal.frontiersin.org/article/10.3389/fpls.2016.00946</ext-link></p><supplementary-material content-type="local-data" id="SM1"><label>FIGURE S1</label><caption><p><text><SENT sid="423" pm="."><plain>Principal component analysis (PCA) of 206 barley accessions. Population structure and dispersion of the association panel were shown through three dimensional (A) and two dimensional (B) diagrams. (C) Number detection of subpopulations or principal components. </plain></SENT>
+</text></p></caption><media xlink:href="Image_1.TIF"><caption><p><text><SENT sid="424" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM7"><media xlink:href="Image_1.TIF"><caption><p><text><SENT sid="425" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM2"><label>FIGURE S2</label><caption><p><text><SENT sid="426" pm="."><plain>Quantile–quantile (Q–Q) plots of estimated -log10 (P). Q–Q plots were displayed in marker-trait association analysis using three models: (A) Q method; (B) K method; (C) Q + K method. </plain></SENT>
+<SENT sid="427" pm="."><plain>The black line represents the expected line under the null distribution. </plain></SENT>
+<SENT sid="428" pm="."><plain>The red symbol is the observed -log10 (P) for salinity tolerance. </plain></SENT>
+</text></p></caption><media xlink:href="Image_2.TIF"><caption><p><text><SENT sid="429" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM8"><media xlink:href="Image_2.TIF"><caption><p><text><SENT sid="430" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM3"><label>FIGURE S3</label><caption><p><text><SENT sid="431" pm="."><plain>Correlations between marker R2 from the Q method general linkage model (GLM) in GWAS and the R2 from QTL mapping using MapQTL6.0 software with population structure (Q-matrix) as covariates. R2: the percentages of phenotypic variation explained by markers. </plain></SENT>
+</text></p></caption><media xlink:href="Image_3.TIF"><caption><p><text><SENT sid="432" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM9"><media xlink:href="Image_3.TIF"><caption><p><text><SENT sid="433" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM4"><media xlink:href="Table_1.XLSX"><caption><p><text><SENT sid="434" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM5"><media xlink:href="Table_2.XLSX"><caption><p><text><SENT sid="435" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="SM6"><media xlink:href="Table_3.XLSX"><caption><p><text><SENT sid="436" pm="."><plain>Click here for additional data file. </plain></SENT>
+</text></p></caption></media></supplementary-material></sec></SecTag><SecTag type="REF"><ref-list><title>References</title><ref id="B1"><text><SENT sid="437" pm="."><plain>BadrA.MullerK.Schafer-PreglR.El RabeyH.EffgenS.IbrahimH. </plain></SENT>
+<SENT sid="438" pm="."><plain>H. (2000). On the origin and domestication history of barley (Hordeum vulgare). Mol. </plain></SENT>
+<SENT sid="439" pm="."><plain>Biol. </plain></SENT>
+<SENT sid="440" pm="."><plain>Evol. 17 499–510. 10.1093/oxfordjournals.molbev.a02633010742042 </plain></SENT>
+</text></ref><ref id="B2"><text><SENT sid="441" pm="."><plain>BaikB. </plain></SENT>
+<SENT sid="442" pm="."><plain>K.UllrichS. </plain></SENT>
+<SENT sid="443" pm="."><plain>E. (2008). Barley for food: characteristics, improvement, and renewed interest. J. </plain></SENT>
+<SENT sid="444" pm="."><plain>Cereal Sci. 48 233–242. 10.1016/j.jcs.2008.02.002 </plain></SENT>
+</text></ref><ref id="B3"><text><SENT sid="445" pm="."><plain>BradburyP. </plain></SENT>
+<SENT sid="446" pm="."><plain>J.ZhangZ.KroonD. </plain></SENT>
+<SENT sid="447" pm="."><plain>E.CasstevensT. </plain></SENT>
+<SENT sid="448" pm="."><plain>M.RamdossY.BucklerE. </plain></SENT>
+<SENT sid="449" pm="."><plain>S. (2007). TASSEL: software for association mapping of complex traits in diverse samples. Bioinformatics 23 2633–2635. 10.1093/bioinformatics/btm30817586829 </plain></SENT>
+</text></ref><ref id="B4"><text><SENT sid="450" pm="."><plain>BradfordM. </plain></SENT>
+<SENT sid="451" pm="."><plain>M. (1976). A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal. </plain></SENT>
+<SENT sid="452" pm="."><plain>Biochem. 72 248–254. 10.1016/0003-2697(76)90527-3942051 </plain></SENT>
+</text></ref><ref id="B5"><text><SENT sid="453" pm="."><plain>CaiS. </plain></SENT>
+<SENT sid="454" pm="."><plain>G.HanZ. </plain></SENT>
+<SENT sid="455" pm="."><plain>G.HuangY. </plain></SENT>
+<SENT sid="456" pm="."><plain>Q.ChenZ. </plain></SENT>
+<SENT sid="457" pm="."><plain>H.ZhangG. </plain></SENT>
+<SENT sid="458" pm="."><plain>P.DaiF. (2015). Genetic diversity of individual phenolic acids in barley and their correlation with barley malt quality. J. </plain></SENT>
+<SENT sid="459" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="460" pm="."><plain>Food Chem. 63 7051–7057. 10.1021/<z:uniprot sup="inside" fb="19" ids="Q8UBV5,Q9PMD2,Q8KBY0,A8AN29,A7MPJ7,Q8X5T5,Q8FAY8,P27550,O25686,P27095,A0B8F1,P59871,P9WQD0,P9WQD1,Q7MBA6,Q885K7,O93730,P59872,O68040,Q8Z1R0,Q8ZKF6,A8G8G7,Q8EDK3,Q2NR28,Q55404,Q8PF09,Q8P3L1,Q87C00,A1JIK3,A7FNG1,Q1C0N0,Q8D1G8,Q1CE37,A4TS06,Q66FM8">acs</z:uniprot>.jafc.5b0296026173650 </plain></SENT>
+</text></ref><ref id="B6"><text><SENT sid="461" pm="."><plain>CaiS. </plain></SENT>
+<SENT sid="462" pm="."><plain>G.WuD. </plain></SENT>
+<SENT sid="463" pm="."><plain>H.JabeenZ.HuangY. </plain></SENT>
+<SENT sid="464" pm="."><plain>Q.HuangY. </plain></SENT>
+<SENT sid="465" pm="."><plain>C.ZhangG. </plain></SENT>
+<SENT sid="466" pm="."><plain>P. (2013). Genome-wide association analysis of aluminum tolerance in cultivated and tibetan wild barley. PLoS ONE 8:e69776 10.1371/journal.pone.0069776 </plain></SENT>
+</text></ref><ref id="B7"><text><SENT sid="467" pm="."><plain>CloseT. </plain></SENT>
+<SENT sid="468" pm="."><plain>J.BhatP. </plain></SENT>
+<SENT sid="469" pm="."><plain>R.LonardiS.WuY.RostoksN.RamsayL. (2009). Development and implementation of high-throughput SNP genotyping in barley. BMC Genomics 10:582 10.1186/1471-2164-10-582 </plain></SENT>
+</text></ref><ref id="B8"><text><SENT sid="470" pm="."><plain>CockramJ.WhiteJ.ZuluagaD. </plain></SENT>
+<SENT sid="471" pm="."><plain>L.SmithD.ComadranJ.MacaulayM. (2010). Genome-wide association mapping to candidate polymorphism resolution in the unsequenced barley genome. Proc. </plain></SENT>
+<SENT sid="472" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="473" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="474" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="475" pm="."><plain>U.S.A. 107 21611–21616. 10.1073/pnas.101017910721115826 </plain></SENT>
+</text></ref><ref id="B9"><text><SENT sid="476" pm="."><plain>DaiF.NevoE.WuD. </plain></SENT>
+<SENT sid="477" pm="."><plain>Z.ComadranJ.ZhouM. </plain></SENT>
+<SENT sid="478" pm="."><plain>X.QiuL. (2012). Tibet is one of the centers of domestication of cultivated barley. Proc. </plain></SENT>
+<SENT sid="479" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="480" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="481" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="482" pm="."><plain>U.S.A. 109 16969–16973. 10.1073/pnas.121526510923033493 </plain></SENT>
+</text></ref><ref id="B10"><text><SENT sid="483" pm="."><plain>DeRose-WilsonL.GautB. </plain></SENT>
+<SENT sid="484" pm="."><plain>S. (2011). Mapping salinity tolerance during Arabidopsis thaliana germination and seedling growth. PLoS ONE 6:e22832 10.1371/journal.pone.0022832 </plain></SENT>
+</text></ref><ref id="B11"><text><SENT sid="485" pm="."><plain>EllisR. </plain></SENT>
+<SENT sid="486" pm="."><plain>P.ForsterB. </plain></SENT>
+<SENT sid="487" pm="."><plain>P.GordonD. </plain></SENT>
+<SENT sid="488" pm="."><plain>C.HandleyL. </plain></SENT>
+<SENT sid="489" pm="."><plain>L.KeithR. </plain></SENT>
+<SENT sid="490" pm="."><plain>P.LawrenceP. (2002). Phenotype/genotype associations for yield and salt tolerance in a barley mapping population segregating for two dwarfing genes. J. </plain></SENT>
+<SENT sid="491" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="492" pm="."><plain>Bot. 53 1163–1176. 10.1093/jexbot/53.371.116311971927 </plain></SENT>
+</text></ref><ref id="B12"><text><SENT sid="493" pm="."><plain>EllisR. </plain></SENT>
+<SENT sid="494" pm="."><plain>P.ForsterB. </plain></SENT>
+<SENT sid="495" pm="."><plain>P.RobinsonD.HandleyL. </plain></SENT>
+<SENT sid="496" pm="."><plain>L.GordonD. </plain></SENT>
+<SENT sid="497" pm="."><plain>C.RussellJ. </plain></SENT>
+<SENT sid="498" pm="."><plain>R. (2000). Wild barley: a source of genes for crop improvement in the 21st century? J. </plain></SENT>
+<SENT sid="499" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="500" pm="."><plain>Bot. 51 9–17. 10.1093/jexbot/51.342.910938791 </plain></SENT>
+</text></ref><ref id="B13"><text><SENT sid="501" pm="."><plain>EvannoG.RegnautS.GoudetJ. (2005). Detecting the number of clusters of individuals using the software STRUCTURE: a simulation study. Mol. </plain></SENT>
+<SENT sid="502" pm="."><plain>Ecol. 14 2611–2620. 10.1111/j.1365-294X.2005.02553.x15969739 </plain></SENT>
+</text></ref><ref id="B14"><text><SENT sid="503" pm="."><plain>FanY.ShabalaS.MaY. </plain></SENT>
+<SENT sid="504" pm="."><plain>L.XuR. </plain></SENT>
+<SENT sid="505" pm="."><plain>G.ZhouM. </plain></SENT>
+<SENT sid="506" pm="."><plain>X. (2015). Using QTL mapping to investigate the relationships between abiotic stress tolerance (drought and salinity) and agronomic and physiological traits. BMC Genomics 16:43 10.1186/s12864-015-1243-8 </plain></SENT>
+</text></ref><ref id="B15"><text><SENT sid="507" pm="."><plain>FAO (2008). FAO Land and Plant Nutrition Management Service. Available at: <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/ag/agl/agll/spush">http://www.fao.org/ag/<z:uniprot sup="inside" fb="5" ids="Q9C0Y4,P43473">agl</z:uniprot>/agll/spush</ext-link> </plain></SENT>
+</text></ref><ref id="B16"><text><SENT sid="508" pm="."><plain>FlowersT. </plain></SENT>
+<SENT sid="509" pm="."><plain>J. (2004). Improving crop salt tolerance. J. </plain></SENT>
+<SENT sid="510" pm="."><plain>Exp. </plain></SENT>
+<SENT sid="511" pm="."><plain>Bot. 55 307–319. 10.1093/jxb/erh00314718494 </plain></SENT>
+</text></ref><ref id="B17"><text><SENT sid="512" pm="."><plain>FlowersT. </plain></SENT>
+<SENT sid="513" pm="."><plain>J.ColmerT. </plain></SENT>
+<SENT sid="514" pm="."><plain>D. (2008). Salinity tolerance in halophytes. New Phytol. 179 945–963. 10.1111/j.1469-8137.2008.02531.x18565144 </plain></SENT>
+</text></ref><ref id="B18"><text><SENT sid="515" pm="."><plain>FlowersT. </plain></SENT>
+<SENT sid="516" pm="."><plain>J.YeoA. </plain></SENT>
+<SENT sid="517" pm="."><plain>R. (1995). Breeding for salinity resistance in crop plants: where next? Aust. </plain></SENT>
+<SENT sid="518" pm="."><plain>J. </plain></SENT>
+<SENT sid="519" pm="."><plain>Plant Physiol. 22 875–884. 10.1071/pp9950875 </plain></SENT>
+</text></ref><ref id="B19"><text><SENT sid="520" pm="."><plain>HardyO. </plain></SENT>
+<SENT sid="521" pm="."><plain>J.VekemansX. (2002). SPAGEDi: a versatile computer program to analyse spatial genetic structure at the individual or population levels. Mol. </plain></SENT>
+<SENT sid="522" pm="."><plain>Ecol. </plain></SENT>
+<SENT sid="523" pm="."><plain>Notes 2 618–620. 10.1046/j.1471-8286.2002.00305.x </plain></SENT>
+</text></ref><ref id="B20"><text><SENT sid="524" pm="."><plain>HuangY. </plain></SENT>
+<SENT sid="525" pm="."><plain>Q.CaiS. </plain></SENT>
+<SENT sid="526" pm="."><plain>G.YeL. </plain></SENT>
+<SENT sid="527" pm="."><plain>Z.HanY.WuD. </plain></SENT>
+<SENT sid="528" pm="."><plain>Z.DaiF. (2014). Genetic architecture of limit dextrinase inhibitor (LDI) activity in Tibetan wild barley. BMC Plant Biol. 14:117 10.1186/1471-2229-14-117 </plain></SENT>
+</text></ref><ref id="B21"><text><SENT sid="529" pm="."><plain>JiangC.BelfieldE. </plain></SENT>
+<SENT sid="530" pm="."><plain>J.MithaniA.VisscherA.RagoussisJ.MottR. (2012). ROS-mediated vascular homeostatic control of root-to-shoot soil Na delivery in Arabidopsis. EMBO J. 31 4359–4370. 10.1038/emboj.2012.27323064146 </plain></SENT>
+</text></ref><ref id="B22"><text><SENT sid="531" pm="."><plain>KilianB.OzkanH.KohlJ.von HaeselerA.BaraleF.DeuschO. (2006). Haplotype structure at seven barley genes: relevance to gene pool bottlenecks, phylogeny of ear type and site of barley domestication. Mol. </plain></SENT>
+<SENT sid="532" pm="."><plain>Genet. </plain></SENT>
+<SENT sid="533" pm="."><plain>Genom. 276 230–241. 10.1007/s00438-006-0136-6 </plain></SENT>
+</text></ref><ref id="B23"><text><SENT sid="534" pm="."><plain>KorteA.FarlowA. (2013). The advantages and limitations of trait analysis with GWAS: a review. Plant Methods 9:29 10.1186/1746-4811-9-29 </plain></SENT>
+</text></ref><ref id="B24"><text><SENT sid="535" pm="."><plain>KoverP. </plain></SENT>
+<SENT sid="536" pm="."><plain>X.ValdarW.TrakaloJ.ScarcelliN.EhrenreichI. </plain></SENT>
+<SENT sid="537" pm="."><plain>M.PuruggananM. </plain></SENT>
+<SENT sid="538" pm="."><plain>D. (2009). A multiparent advanced generation inter-cross to fine-map quantitative traits in Arabidopsis thaliana. PLoS Genet. 5:e1000551 10.1371/journal.pgen.1000551 </plain></SENT>
+</text></ref><ref id="B25"><text><SENT sid="539" pm="."><plain>LipkaA. </plain></SENT>
+<SENT sid="540" pm="."><plain>E.TianF.WangQ.PeifferJ.LiM.BradburyP. </plain></SENT>
+<SENT sid="541" pm="."><plain>J. (2012). GAPIT: genome association and prediction integrated tool. Bioinformatics 28 2397–2399. 10.1093/bioinformatics/bts44422796960 </plain></SENT>
+</text></ref><ref id="B26"><text><SENT sid="542" pm="."><plain>LongN. </plain></SENT>
+<SENT sid="543" pm="."><plain>V.DolstraO.MalosettiM.KilianB.GranerA.VisserR. </plain></SENT>
+<SENT sid="544" pm="."><plain>G. </plain></SENT>
+<SENT sid="545" pm="."><plain>F. (2013). Association mapping of salt tolerance in barley (Hordeum vulgare L.). Theor. </plain></SENT>
+<SENT sid="546" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="547" pm="."><plain>Genet. 126 2335–2351. 10.1007/s00122-013-2139-023771136 </plain></SENT>
+</text></ref><ref id="B27"><text><SENT sid="548" pm="."><plain>MascherM.MuehlbauerG. </plain></SENT>
+<SENT sid="549" pm="."><plain>J.RokhsarD. </plain></SENT>
+<SENT sid="550" pm="."><plain>S.ChapmanJ.SchmutzJ.BarryK. (2013). Anchoring and ordering NGS contig assemblies by population sequencing (POPSEQ). Plant J. 76 718–727. 10.1111/tpj.1231923998490 </plain></SENT>
+</text></ref><ref id="B28"><text><SENT sid="551" pm="."><plain>MatthiesI. </plain></SENT>
+<SENT sid="552" pm="."><plain>E.MalosettiM.RoderM. </plain></SENT>
+<SENT sid="553" pm="."><plain>S.van EeuwijkF. (2014). Genome-wide association mapping for kernel and malting quality traits using historical european barley records. PLoS ONE 9:e110046 10.1371/journal.pone.0110046 </plain></SENT>
+</text></ref><ref id="B29"><text><SENT sid="554" pm="."><plain>MayerK. </plain></SENT>
+<SENT sid="555" pm="."><plain>F. </plain></SENT>
+<SENT sid="556" pm="."><plain>X.WaughR.LangridgeP.CloseT. </plain></SENT>
+<SENT sid="557" pm="."><plain>J.WiseR. </plain></SENT>
+<SENT sid="558" pm="."><plain>P.GranerA. (2012). A physical, genetic and functional sequence assembly of the barley genome. Nature 491 711–716. 10.1038/nature1154323075845 </plain></SENT>
+</text></ref><ref id="B30"><text><SENT sid="559" pm="."><plain>MunnsR.TesterM. (2008). Mechanisms of salinity tolerance. Annu. </plain></SENT>
+<SENT sid="560" pm="."><plain>Rev. </plain></SENT>
+<SENT sid="561" pm="."><plain>Plant Biol. 59 651–681. 10.1146/annurev.arplant.59.032607.09291118444910 </plain></SENT>
+</text></ref><ref id="B31"><text><SENT sid="562" pm="."><plain>Munoz-AmatriainM.Cuesta-MarcosA.EndelmanJ. </plain></SENT>
+<SENT sid="563" pm="."><plain>B.ComadranJ.BonmanJ. </plain></SENT>
+<SENT sid="564" pm="."><plain>M.BockelmanH. </plain></SENT>
+<SENT sid="565" pm="."><plain>E. (2014). The USDA barley core collection: genetic diversity, population structure, and potential for genome-wide association studies. PLoS ONE 9:e94688 10.1371/journal.pone.0094688 </plain></SENT>
+</text></ref><ref id="B32"><text><SENT sid="566" pm="."><plain>MylesS.PeifferJ.BrownP. </plain></SENT>
+<SENT sid="567" pm="."><plain>J.ErsozE. </plain></SENT>
+<SENT sid="568" pm="."><plain>S.ZhangZ. </plain></SENT>
+<SENT sid="569" pm="."><plain>W.CostichD. </plain></SENT>
+<SENT sid="570" pm="."><plain>E. (2009). Association mapping: critical considerations shift from genotyping to experimental design. Plant Cell 21 2194–2202. 10.1105/<z:uniprot sup="inside" fb="15" ids="D3KYU2,Q9HRE8">tpc</z:uniprot>.109.06843719654263 </plain></SENT>
+</text></ref><ref id="B33"><text><SENT sid="571" pm="."><plain>NevoE.ChenG. </plain></SENT>
+<SENT sid="572" pm="."><plain>X. (2010). Drought and salt tolerances in wild relatives for wheat and barley improvement. Plant Cell Environ. 33 670–685. 10.1111/j.1365-3040.2009.02107.x20040064 </plain></SENT>
+</text></ref><ref id="B34"><text><SENT sid="573" pm="."><plain>NordborgM.TavareS. (2002). Linkage disequilibrium: what history has to tell us. Trends Genet. 18 83–90. 10.1016/s0168-9525(02)02557-x11818140 </plain></SENT>
+</text></ref><ref id="B35"><text><SENT sid="574" pm="."><plain>PasamR. </plain></SENT>
+<SENT sid="575" pm="."><plain>K.SharmaR.MalosettiM.van EeuwijkF. </plain></SENT>
+<SENT sid="576" pm="."><plain>A.HaseneyerG.KilianB. (2012). Genome-wide association studies for agronomical traits in a world wide spring barley collection. BMC Plant Biol. 12:16 10.1186/1471-2229-12-16 </plain></SENT>
+</text></ref><ref id="B36"><text><SENT sid="577" pm="."><plain>PritchardJ. </plain></SENT>
+<SENT sid="578" pm="."><plain>K.StephensM.DonnellyP. (2000). Inference of population structure using multilocus genotype data. Genetics 155 945–959.10835412 </plain></SENT>
+</text></ref><ref id="B37"><text><SENT sid="579" pm="."><plain>ShabalaS.BoseJ.HedrichR. (2014). Salt bladders: do they matter? Trends Plant Sci. 19 687–691. 10.1016/j.tplants.2014.09.00125361704 </plain></SENT>
+</text></ref><ref id="B38"><text><SENT sid="580" pm="."><plain>ShabalaS.MackayA. (2011) “Ion transport in halophytes,” in Plant Responses to Drought and Salinity Stress: Developments in a Post-genomic Era (Advances in Botanical Research) Vol. </plain></SENT>
+<SENT sid="581" pm="."><plain>57 ed. TurkanI. (Cambridge, MA: Elsevier Academic Press), 151–199. 10.1016/B978-0-12-387692-8.00005-9 </plain></SENT>
+</text></ref><ref id="B39"><text><SENT sid="582" pm="."><plain>ShavrukovY.GuptaN. </plain></SENT>
+<SENT sid="583" pm="."><plain>K.MiyazakiJ.BahoM. </plain></SENT>
+<SENT sid="584" pm="."><plain>N.ChalmersK. </plain></SENT>
+<SENT sid="585" pm="."><plain>J.TesterM. (2010). HvNax3-a locus controlling shoot sodium exclusion derived from wild barley (Hordeum vulgare <z:uniprot sup="inside" fb="146" ids="A6QF98,P0C6P1,P0ACA3,P31784">ssp</z:uniprot>. </plain></SENT>
+<SENT sid="586" pm="."><plain>spontaneum). Funct. </plain></SENT>
+<SENT sid="587" pm="."><plain>Integr. </plain></SENT>
+<SENT sid="588" pm="."><plain>Genom. 10 277–291. 10.1007/s10142-009-0153-8 </plain></SENT>
+</text></ref><ref id="B40"><text><SENT sid="589" pm="."><plain>ShuX.BackesG.RasmussenS. </plain></SENT>
+<SENT sid="590" pm="."><plain>K. (2012). Genome-wide association study of resistant starch (RS) phenotypes in a barley variety collection. J. </plain></SENT>
+<SENT sid="591" pm="."><plain>Agric. </plain></SENT>
+<SENT sid="592" pm="."><plain>Food Chem. 60 10302–10311. 10.1021/jf303187522998083 </plain></SENT>
+</text></ref><ref id="B41"><text><SENT sid="593" pm="."><plain>SiahsarB. </plain></SENT>
+<SENT sid="594" pm="."><plain>A.NaroueiM. (2010). Mapping QTLs of physiological traits associated with salt tolerance in ‘Steptoe ‘x’ Morex’ doubled haploid lines of barley at seedling stage. J. </plain></SENT>
+<SENT sid="595" pm="."><plain>Food Agric. </plain></SENT>
+<SENT sid="596" pm="."><plain>Environ. 8 751–759. </plain></SENT>
+</text></ref><ref id="B42"><text><SENT sid="597" pm="."><plain>Van OoijenJ. </plain></SENT>
+<SENT sid="598" pm="."><plain>W. (2009). MapQTL 6.0 Software for the Mapping of Quantitative Trait Loci in Experimental Populations of Dihaploid Species. Wageningen: Kyazma B.V. </plain></SENT>
+</text></ref><ref id="B43"><text><SENT sid="599" pm="."><plain>VisioniA.TondelliA.FranciaE.PswarayiA.MalosettiM.RussellJ. (2013). Genome-wide association mapping of frost tolerance in barley (Hordeum vulgare L.). BMC Genomics 14:424 10.1186/1471-2164-14-424 </plain></SENT>
+</text></ref><ref id="B44"><text><SENT sid="600" pm="."><plain>WangM. </plain></SENT>
+<SENT sid="601" pm="."><plain>H.JiangN.JiaT. </plain></SENT>
+<SENT sid="602" pm="."><plain>Y.LeachL.CockramJ.WaughR. (2012). Genome-wide association mapping of agronomic and morphologic traits in highly structured populations of barley cultivars. Theor. </plain></SENT>
+<SENT sid="603" pm="."><plain><z:uniprot sup="inside" fb="3" ids="P14599">Appl</z:uniprot>. </plain></SENT>
+<SENT sid="604" pm="."><plain>Genet. 124 233–246. 10.1007/s00122-011-1697-221915710 </plain></SENT>
+</text></ref><ref id="B45"><text><SENT sid="605" pm="."><plain>WenzlP.CarlingJ.KudrnaD.JaccoudD.HuttnerE.KleinhofsA. (2004). Diversity Arrays Technology (DArT) for whole-genome profiling of barley. Proc. </plain></SENT>
+<SENT sid="606" pm="."><plain>Natl. </plain></SENT>
+<SENT sid="607" pm="."><plain>Acad. </plain></SENT>
+<SENT sid="608" pm="."><plain>Sci. </plain></SENT>
+<SENT sid="609" pm="."><plain>U.S.A. 101 9915–9920. 10.1073/pnas.040107610115192146 </plain></SENT>
+</text></ref><ref id="B46"><text><SENT sid="610" pm="."><plain>WitzelK.WeidnerA.SurabhiG. </plain></SENT>
+<SENT sid="611" pm="."><plain>K.VarshneyR. </plain></SENT>
+<SENT sid="612" pm="."><plain>K.KunzeG.Buck-SorlinG. </plain></SENT>
+<SENT sid="613" pm="."><plain>H. (2010). Comparative analysis of the grain proteome fraction in barley genotypes with contrasting salinity tolerance during germination. Plant Cell Environ. 33 211–222. 10.1111/j.1365-3040.2009.02071.x19906151 </plain></SENT>
+</text></ref><ref id="B47"><text><SENT sid="614" pm="."><plain>WuD. </plain></SENT>
+<SENT sid="615" pm="."><plain>Z.SatoK.MaJ. </plain></SENT>
+<SENT sid="616" pm="."><plain>F. (2015). Genome-wide association mapping of cadmium accumulation in different organs of barley. New Phytol. 208 817–829. 10.1111/nph.1351226061418 </plain></SENT>
+</text></ref><ref id="B48"><text><SENT sid="617" pm="."><plain>XuR. </plain></SENT>
+<SENT sid="618" pm="."><plain>G.WangJ. </plain></SENT>
+<SENT sid="619" pm="."><plain>M.LiC. </plain></SENT>
+<SENT sid="620" pm="."><plain>D.JohnsonP.LuC.ZhouM. </plain></SENT>
+<SENT sid="621" pm="."><plain>X. (2012). A single locus is responsible for salinity tolerance in a chinese landrace barley (Hordeum vulgare L.). PLoS ONE 7:e43079 10.1371/journal.pone.0043079 </plain></SENT>
+</text></ref><ref id="B49"><text><SENT sid="622" pm="."><plain>XueD. </plain></SENT>
+<SENT sid="623" pm="."><plain>W.HuangY. </plain></SENT>
+<SENT sid="624" pm="."><plain>Z.ZhangX. </plain></SENT>
+<SENT sid="625" pm="."><plain>Q.WeiK.WestcottS.LiC. </plain></SENT>
+<SENT sid="626" pm="."><plain>D. (2009). Identification of QTLs associated with salinity tolerance at late growth stage in barley. Euphytica 169 187–196. 10.1007/s10681-009-9919-2 </plain></SENT>
+</text></ref><ref id="B50"><text><SENT sid="627" pm="."><plain>YuJ. </plain></SENT>
+<SENT sid="628" pm="."><plain>M.PressoirG.BriggsW. </plain></SENT>
+<SENT sid="629" pm="."><plain>H.BiI. </plain></SENT>
+<SENT sid="630" pm="."><plain>V.YamasakiM.DoebleyJ. </plain></SENT>
+<SENT sid="631" pm="."><plain>F. (2006). A unified mixed-model method for association mapping that accounts for multiple levels of relatedness. <z:uniprot sup="inside" fb="121" ids="Q9R053">Nat</z:uniprot>. </plain></SENT>
+<SENT sid="632" pm="."><plain>Genet. 38 203–208. 10.1038/ng170216380716 </plain></SENT>
+</text></ref><ref id="B51"><text><SENT sid="633" pm="."><plain>ZhouG. </plain></SENT>
+<SENT sid="634" pm="."><plain>F.BroughtonS.ZhangX. </plain></SENT>
+<SENT sid="635" pm="."><plain>Q.ZhouM. </plain></SENT>
+<SENT sid="636" pm="."><plain>X.LiC. </plain></SENT>
+<SENT sid="637" pm="."><plain>D. (2016). Genome-wide association mapping of acid soil resistance in barley (Hordeum vulgare L.). Front. </plain></SENT>
+<SENT sid="638" pm="."><plain>Plant Sci. 7:406 10.3389/fpls.2016.00406 </plain></SENT>
+</text></ref><ref id="B52"><text><SENT sid="639" pm="."><plain>ZhouG. </plain></SENT>
+<SENT sid="640" pm="."><plain>F.JohnsonP.RyanP. </plain></SENT>
+<SENT sid="641" pm="."><plain>R.DelhaizeE.ZhouM. </plain></SENT>
+<SENT sid="642" pm="."><plain>X. (2012). Quantitative trait loci for salinity tolerance in barley (Hordeum vulgare L.). Mol. </plain></SENT>
+<SENT sid="643" pm="."><plain>Breed. 29 427–436. 10.1007/s11032-011-9559-9 </plain></SENT>
+</text></ref><ref id="B53"><text><SENT sid="644" pm="."><plain>ZhuC. </plain></SENT>
+<SENT sid="645" pm="."><plain>S.GoreM.BucklerE. </plain></SENT>
+<SENT sid="646" pm="."><plain>S.YuJ. </plain></SENT>
+<SENT sid="647" pm="."><plain>M. (2008). Status and prospects of association mapping in plants. Plant Genome 1 5–20. 10.3835/plantgenome2008.02.0089 </plain></SENT>
+</text></ref><ref id="B54"><text><SENT sid="648" pm="."><plain>ZhuJ. </plain></SENT>
+<SENT sid="649" pm="."><plain>K. (2003). Regulation of ion homeostasis under salt stress. Curr. </plain></SENT>
+<SENT sid="650" pm="."><plain>Opin. </plain></SENT>
+<SENT sid="651" pm="."><plain>Plant Biol. 6 441–445. 10.1016/s1369-5266(03)00085-212972044 </plain></SENT>
+</text></ref></ref-list></SecTag></back></article>
