@@ -20,7 +20,7 @@ def chunked(iterable, n):
 
 
 url = "https://www.ebi.ac.uk/europepmc/webservices/rest/searchPOST"
-pmids = get_unique_pmids("/home/stirunag/work/github/article_classifier/data/sample_ids.csv")
+pmids = get_unique_pmids("/home/stirunag/work/github/article_classifier/data/final_IDs_5000.csv")
 
 def process_response(data, id_to_accession, csv_writer):
     """Function to process the API response and write to the CSV."""
@@ -33,7 +33,7 @@ def process_response(data, id_to_accession, csv_writer):
 
 
 
-with open("../data/data_abstracts.csv", "w", newline='') as csvfile:
+with open("../data/final_abstracts_5000.csv", "w", newline='') as csvfile:
     csv_writer = csv.writer(csvfile)
     csv_writer.writerow(["ID", "accession_type", "abstract"])  # Header of CSV
 

@@ -51,12 +51,12 @@ df = pd.read_csv("/home/stirunag/work/github/article_classifier/data/sources_out
 # Group by accession_type and source, and sample 100 rows for each group
 sampled_dfs = []
 for (accession, source), group in df.groupby(['accession_type', 'source']):
-    sampled_dfs.append(group.sample(n=min(100, len(group)), random_state=42))
+    sampled_dfs.append(group.sample(n=min(10000, len(group)), random_state=42))
 
 # Concatenate the results
 sampled_df = pd.concat(sampled_dfs, axis=0)
 
 # Write to a new CSV
-sampled_df.to_csv("/home/stirunag/work/github/article_classifier/data/sample_abstracts.csv", index=False)
+sampled_df.to_csv("/home/stirunag/work/github/article_classifier/data/final_IDs_100000.csv", index=False)
 
-print("Sampled data has been written to sample_abstracts.csv")
+print("Sampled data has been written to final_IDs_100000.csv")
