@@ -5,11 +5,19 @@ __pycache__/
 
 # Ignoring specific large files
 normalisation/en_floret_model/vocab/vectors
+logs/
+wandb/
+models/
 
 # Ignoring all .index and .pkl files
 *.index
 *.pkl
-
+*.gz
+*.json
+*.tar
+*.zip
+*.tsv
+*.jsonl
 *.csv
 *.xml
 *.tsv
